@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-26 00:48+0000\n"
-"PO-Revision-Date: 2022-08-30 03:45\n"
+"PO-Revision-Date: 2022-08-31 04:45\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -85,7 +85,7 @@ msgstr "Галоўная панэль інструментаў"
 #: ../desktop/partui.rc:14
 #| msgid "Scrollback"
 msgid "S&crollback"
-msgstr "&Пракручванне"
+msgstr "&Журнал вываду"
 
 #. i18n: ectx: ToolBar (sessionToolbar)
 #: ../desktop/sessionui.rc:70
@@ -725,7 +725,7 @@ msgstr "Праграме тэрмінала патрэбны шрыфт з сі�
 #| msgid "Scrollback"
 msgctxt "@title:window"
 msgid "Adjust Scrollback"
-msgstr "Падладжванне пракручвання"
+msgstr "Падладжванне журнала вываду"
 
 #: HistorySizeDialog.cpp:47
 #, kde-format
@@ -1200,7 +1200,7 @@ msgid_plural "There are %1 processes running in this window. Do you still want t
 msgstr[0] "У гэтым акне запушчаны працэс. Хочаце выйсці?"
 msgstr[1] "У гэтым акне запушчаныя %1 працэсы. Хочаце выйсці?"
 msgstr[2] "У гэтым акне запушчана %1 працэсаў. Хочаце выйсці?"
-msgstr[3] "У гэтым акне запушчаныя %1 працэсы. Хочаце выйсці?"
+msgstr[3] "У гэтым акне запушчана %1 працэсы. Хочаце выйсці?"
 
 #: MainWindow.cpp:624 MainWindow.cpp:641 MainWindow.cpp:655
 #, kde-format
@@ -1787,17 +1787,17 @@ msgstr "Убудаваны профіль заўсёды даступны"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Double click to change shortcut"
-msgstr ""
+msgstr "Двойчы пстрыкніце, каб змяніць спалучэнне клавіш"
 
 #: RenameTabDialog.cpp:25
 #, kde-format
 msgid "Tab Properties"
-msgstr ""
+msgstr "Уласцівасці ўкладкі"
 
 #: SaveHistoryTask.cpp:68
 #| msgid "Save Output from %1"
 msgid "Save Output From %1"
-msgstr ""
+msgstr "Захаваць вывад з %1"
 
 #: SaveHistoryTask.cpp:80
 #, kde-format
@@ -1859,7 +1859,7 @@ msgstr "Чырвоны на чорным"
 #: schemas.cpp:10
 #| msgid "Solaris"
 msgid "Solarized"
-msgstr ""
+msgstr "Solarized"
 
 #: schemas.cpp:11
 #| msgid "Solaris"
@@ -1894,12 +1894,12 @@ msgstr "Кансоль Solaris"
 #: session/Session.cpp:88
 #| msgid "Bell in session '%1'"
 msgid "Bell in '%1' (Session '%2')"
-msgstr ""
+msgstr "Апавяшчэнне ў \"%1\" (сеанс \"%2\")"
 
 #: session/Session.cpp:373
 #| msgid "Could not save history."
 msgid "Could not find binary: "
-msgstr ""
+msgstr "Не ўдалося знайсці двайковы файл: "
 
 #: session/Session.cpp:382
 #, kde-format
@@ -1910,33 +1910,33 @@ msgstr "Увага: "
 #: session/Session.cpp:457
 #, kde-format
 msgid "Could not find an interactive shell to start."
-msgstr ""
+msgstr "Не ўдалося знайсці інтэрактыўную абалонку для запуску."
 
 #: session/Session.cpp:463 session/Session.cpp:465
 #, kde-format
 msgid "Could not find '%1', starting '%2' instead.  Please check your profile settings."
-msgstr ""
+msgstr "Не ўдалося знайсці \"%1\", замест гэтага запускаецца \"%2\". Праверце налады профілю."
 
 #: session/Session.cpp:516
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
-msgstr ""
+msgstr "Не ўдалося запусціць \"%1\" з аргументамі \"%2\"."
 
 #: session/Session.cpp:661
 #| msgid "Silence in session '%1'"
 msgid "Silence in '%1' (Session '%2')"
-msgstr ""
+msgstr "Бяздзеянне ў \"%1\" (сеанс \"%2\")"
 
 #: session/Session.cpp:665 session/Session.cpp:1825
 #: session/SessionController.cpp:365 terminalDisplay/TerminalBell.cpp:43
 #| msgid "New Session"
 msgid "Show session"
-msgstr ""
+msgstr "Паказаць сеанс"
 
 #: session/Session.cpp:929
 #, kde-format
 msgid "The D-Bus methods sendText/runCommand were just used.  There are security concerns about allowing these methods to be public.  If desired, these methods can be changed to internal use only by re-compiling Konsole. <p>This warning will only show once for this Konsole instance.</p>"
-msgstr ""
+msgstr "Толькі што выкарыстоўваліся метады D-Bus sendText/runCommand. Гэтыя метады могуць быць небяспечнымі, калі да іх адкрыты публічны доступ.  Пры жаданні можна закрыць публічны доступ да іх шляхам паўторнага кампілявання Konsole.  <p>Гэтае папярэджанне будзе паказвацца для гэтага асобніка Konsole толькі адзін раз.</p>"
 
 #: session/Session.cpp:965
 #| msgid "<Finished>"
@@ -1947,22 +1947,22 @@ msgstr "Завершана"
 #: session/Session.cpp:979 session/Session.cpp:990
 #| msgid "Session '%1' exited unexpectedly."
 msgid "Program '%1' crashed."
-msgstr ""
+msgstr "Праграма \"%1\" аварыйна завяршыла працэс."
 
 #: session/Session.cpp:981
 #| msgid "Session '%1' exited with status %2."
 msgid "Program '%1' exited with status %2."
-msgstr ""
+msgstr "Праграма \"%1\" закрылася са статусам %2."
 
 #: session/Session.cpp:1489
 #, kde-format
 msgid "ZModem Progress"
-msgstr "Ход выканання ZModem"
+msgstr "Ход выканання працэсаў ZModem"
 
 #: session/Session.cpp:1821
 #| msgid "Activity in session '%1'"
 msgid "Activity in '%1' (Session '%2')"
-msgstr ""
+msgstr "Актыўнасць у \"%1\" (сеанс \"%2\")"
 
 #: session/SessionController.cpp:148
 #, kde-format
@@ -1972,12 +1972,12 @@ msgstr "Konsole"
 #: session/SessionController.cpp:361
 #, kde-format
 msgid "The process '%1' has finished running in session '%2'"
-msgstr ""
+msgstr "Працэс \"%1\" завершаны ў сеансе \"%2\""
 
 #: session/SessionController.cpp:443
 #, kde-format
 msgid "Konsole does not know how to open the bookmark: "
-msgstr ""
+msgstr "Konsole не ведае, як адкрыць закладку: "
 
 #: session/SessionController.cpp:522
 #| msgid "Search string '%1' not found."
@@ -2007,7 +2007,7 @@ msgstr "Капіяваць"
 #: session/SessionController.cpp:677
 #, kde-format
 msgid "Copy except prompts"
-msgstr ""
+msgstr "Скапіяваць апроч падказак"
 
 #: session/SessionController.cpp:683
 #| msgid "Input"
@@ -2052,17 +2052,17 @@ msgstr "&Друкаванне..."
 #: session/SessionController.cpp:734
 #| msgid "Manage Profiles..."
 msgid "Adjust Scrollback..."
-msgstr "Падладжванне пракручвання..."
+msgstr "Падладжванне журнала вываду..."
 
 #: session/SessionController.cpp:738
 #, kde-format
 msgid "Clear Scrollback"
-msgstr "Ачысціць буфер пракручвання"
+msgstr "Ачысціць журнал вываду"
 
 #: session/SessionController.cpp:742
 #| msgid "Clear Scrollback && Reset"
 msgid "Clear Scrollback and Reset"
-msgstr "Ачысціць буфер пракручвання і скінуць"
+msgstr "Ачысціць журнал вываду і скінуць"
 
 #: session/SessionController.cpp:751
 #| msgid "Edit Profile"
@@ -2094,12 +2094,12 @@ msgstr "&Наладжванне або змена назвы ўкладкі..."
 #: session/SessionController.cpp:825
 #, kde-format
 msgid "&All Tabs in Current Window"
-msgstr ""
+msgstr "&Усе ўкладкі ў бягучым акне"
 
 #: session/SessionController.cpp:832
 #| msgid "Select &Tab Color..."
 msgid "&Select Tabs..."
-msgstr ""
+msgstr "&Абраць укладкі..."
 
 #: session/SessionController.cpp:838
 #| msgid "N&one"
@@ -2110,12 +2110,12 @@ msgstr "&Няма"
 #: session/SessionController.cpp:846
 #| msgid "Input"
 msgid "Copy Input To"
-msgstr ""
+msgstr "Скапіяваць увод у"
 
 #: session/SessionController.cpp:853
 #, kde-format
 msgid "&ZModem Upload..."
-msgstr "Запампоўванне &ZModem..."
+msgstr "Запампоўванне па пратаколе &ZModem..."
 
 #: session/SessionController.cpp:858
 #, kde-format
@@ -2130,7 +2130,7 @@ msgstr "Назіраць за &бяздзеяннем"
 #: session/SessionController.cpp:870
 #| msgid "Monitor for &Activity"
 msgid "Monitor for Process Finishing"
-msgstr ""
+msgstr "Назіранне за завяршэннем працэсу"
 
 #: session/SessionController.cpp:877
 #, kde-format
@@ -2140,17 +2140,17 @@ msgstr "Павялічыць шрыфт"
 #: session/SessionController.cpp:885
 #| msgid "&Shrink Font"
 msgid "Shrink Font"
-msgstr ""
+msgstr "Паменшыць шрыфт"
 
 #: session/SessionController.cpp:890
 #| msgid "Increase Text Size"
 msgid "Reset Font Size"
-msgstr ""
+msgstr "Скінуць памер шрыфту"
 
 #: session/SessionController.cpp:895
 #| msgid "&Send Signal"
 msgid "Send Signal"
-msgstr ""
+msgstr "Адправіць сігнал"
 
 #: session/SessionController.cpp:899
 #, kde-format
@@ -2175,7 +2175,7 @@ msgstr "&Перарваць выкананне задачы"
 #: session/SessionController.cpp:919
 #| msgid "&Continue Task"
 msgid "&Terminate Task"
-msgstr ""
+msgstr "&Знішчыць задачу"
 
 #: session/SessionController.cpp:924
 #, kde-format
@@ -2195,7 +2195,7 @@ msgstr "Сігнал карыстальніка &2"
 #: session/SessionController.cpp:951
 #| msgid "New Profile..."
 msgid "Create New Profile..."
-msgstr ""
+msgstr "Стварыць новы профіль..."
 
 #: session/SessionController.cpp:953
 #, kde-format
@@ -2205,49 +2205,49 @@ msgstr "Рэдагаваць бягучы профіль..."
 #: session/SessionController.cpp:1070
 #, kde-format
 msgid "A program is currently running in this session.  Are you sure you want to close it?"
-msgstr ""
+msgstr "У гэтым сеансе працуе праграма. Сапраўды хочаце закрыць?"
 
 #: session/SessionController.cpp:1074
 #, kde-format
 msgid "The program '%1' is currently running in this session.  Are you sure you want to close it?"
-msgstr ""
+msgstr "У гэтым сеансе працуе праграма \"%1\". Сапраўды хочаце закрыць?"
 
 #: session/SessionController.cpp:1081 session/SessionController.cpp:1116
 #, kde-format
 msgid "Confirm Close"
-msgstr ""
+msgstr "Пацвердзіць закрыццё"
 
 #: session/SessionController.cpp:1082
 #| msgid "&Close Tab"
 msgctxt "@action:button"
 msgid "Close Program"
-msgstr ""
+msgstr "Закрыць праграму"
 
 #: session/SessionController.cpp:1105
 #, kde-format
 msgid "A program in this session would not die.  Are you sure you want to kill it by force?"
-msgstr ""
+msgstr "Праграма ў гэтым сеансе не хоча завяршаць працэс. Сапраўды хочаце прымусова знішчыць працэс?"
 
 #: session/SessionController.cpp:1109
 #, kde-format
 msgid "The program '%1' is in this session would not die.  Are you sure you want to kill it by force?"
-msgstr ""
+msgstr "Праграма \"%1\" ў гэтым сеансе не хоча завяршаць працэс. Сапраўды хочаце прымусова знішчыць працэс?"
 
 #: session/SessionController.cpp:1117
 #, kde-format
 msgctxt "@action:button"
 msgid "Kill Program"
-msgstr ""
+msgstr "Знішчыць працэс праграмы"
 
 #: session/SessionController.cpp:1942
 #, kde-format
 msgid "Open Current Folder With"
-msgstr ""
+msgstr "Адкрыць &бягучы каталог з дапамогай"
 
 #: session/SessionController.cpp:2012
 #| msgid "&ZModem Upload..."
 msgid "Save ZModem Download to..."
-msgstr ""
+msgstr "Захаваць спампаваныя з дапамогай пратакола ZModem файлы у..."
 
 #: session/SessionController.cpp:2022
 #| msgid ""
@@ -2255,25 +2255,25 @@ msgstr ""
 #| "ZModem software was found on the system.\n"
 #| "<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
 msgid "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem software was found on this system.</p><p>You may wish to install the 'rzsz' or 'lrzsz' package.</p>"
-msgstr ""
+msgstr "<p>Была выяўлена спроба перадачы файлаў па пратаколе ZModem, але ў гэтай сістэме не знойдзена адпаведнага праграмнага забеспячэння ZModem.</p><p>Вы можаце ўсталяваць пакунак \"rzsz\" або \"lrzsz\".</p>"
 
 #: session/SessionController.cpp:2032
 #| msgid ""
 #| "<p>The current session already has a ZModem file transfer in progress."
 msgid "<p>The current session already has a ZModem file transfer in progress.</p>"
-msgstr ""
+msgstr "<p>У бягучым сеансе ўжо выконваецца працэс перадачы файлаў па пратаколе ZModem.</p>"
 
 #: session/SessionController.cpp:2042
 #| msgid ""
 #| "<p>No suitable ZModem software was found on the system.\n"
 #| "<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
 msgid "<p>No suitable ZModem software was found on this system.</p><p>You may wish to install the 'rzsz' or 'lrzsz' package.</p>"
-msgstr ""
+msgstr "<p>У гэтай сістэме не знойдзена адпаведнага праграмнага забеспячэння ZModem.</p><p>Магчыма, вы захочаце ўсталяваць пакунак \"rzsz\" або \"lrzsz\".</p>"
 
 #: session/SessionController.cpp:2047
 #| msgid "Select Files to Upload"
 msgid "Select Files for ZModem Upload"
-msgstr ""
+msgstr "Абярыце файлы для запампоўвання з дапамогай пратакола ZModem"
 
 #: session/SessionListModel.cpp:89
 #| msgid "Name"
@@ -2305,13 +2305,13 @@ msgstr "Пошук:"
 #: settings/GeneralSettings.ui:68 settings/konsole.kcfg:22
 #, kde-format
 msgid "Enable menu accelerators"
-msgstr ""
+msgstr "Уключыць гарачыя клавішы для меню"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_RememberWindowSize)
 #: settings/GeneralSettings.ui:81
 #, kde-format
 msgid "If enabled, profile settings will be ignored"
-msgstr ""
+msgstr "Калі ўключана, налады профілю будуць ігнаравацца"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RememberWindowSize)
 #: settings/GeneralSettings.ui:84
@@ -2324,7 +2324,7 @@ msgstr "Запамінаць памер акна"
 #: settings/GeneralSettings.ui:97 settings/konsole.kcfg:17
 #, kde-format
 msgid "Show window title on the titlebar"
-msgstr ""
+msgstr "Паказваць загаловак акна на панэлі загалоўкаў"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FocusFollowsMouse)
 #. i18n: ectx: label, entry (FocusFollowsMouse), group (KonsoleWindow)
@@ -2338,14 +2338,14 @@ msgstr "Факусавацца на тэрміналах, калі курсор 
 #: settings/GeneralSettings.ui:117 settings/konsole.kcfg:69
 #| msgid "Match regular expression"
 msgid "Match using regular expressions"
-msgstr ""
+msgstr "Супастаўленне з дапамогай рэгулярных выразаў"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_UseSingleInstance)
 #. i18n: ectx: tooltip, entry (UseSingleInstance), group (KonsoleWindow)
 #: settings/GeneralSettings.ui:130 settings/konsole.kcfg:33
 #, kde-format
 msgid "When launching Konsole re-use existing process if possible"
-msgstr ""
+msgstr "Падчас запуску Konsole выкарыстоўваць наяўны працэс, калі гэта магчыма"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseSingleInstance)
 #. i18n: ectx: label, entry (UseSingleInstance), group (KonsoleWindow)
@@ -2358,14 +2358,14 @@ msgstr "Запускаць усе вокны Konsole у межах аднаго 
 #: settings/GeneralSettings.ui:146
 #| msgid "Highlight all"
 msgid "Highlight all matches"
-msgstr ""
+msgstr "Падсвятляць усе супадзенні"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SearchCaseSensitive)
 #. i18n: ectx: tooltip, entry (SearchCaseSensitive), group (SearchSettings)
 #: settings/GeneralSettings.ui:175 settings/konsole.kcfg:65
 #| msgid "Sets whether the searching is case sensitive"
 msgid "Sets whether the search is case sensitive"
-msgstr ""
+msgstr "Вызначае, ці будзе пошук зважаць на рэгістр"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SearchCaseSensitive)
 #: settings/GeneralSettings.ui:178
@@ -2378,13 +2378,13 @@ msgstr "Зважаць на рэгістр"
 #: settings/GeneralSettings.ui:185 settings/konsole.kcfg:9
 #, kde-format
 msgid "Remove window titlebar and frame"
-msgstr ""
+msgstr "Выдаліць загаловак і рамку акна"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: settings/GeneralSettings.ui:208
 #, kde-format
 msgid "Process and window:"
-msgstr ""
+msgstr "Працэс і акно:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: settings/GeneralSettings.ui:218
@@ -2396,51 +2396,51 @@ msgstr "Апавяшчэнні:"
 #: settings/GeneralSettings.ui:236
 #, kde-format
 msgid "All dialogs will be shown again"
-msgstr ""
+msgstr "Усе дыялогавыя вокны будуць паказвацца зноў"
 
 #. i18n: ectx: property (text), widget (QPushButton, enableAllMessagesButton)
 #: settings/GeneralSettings.ui:239
 #, kde-format
 msgid "Enable all \"Don't Ask Again\" messages"
-msgstr ""
+msgstr "Паказваць паведамленні, для якіх было абрана \"Больш не пытацца\""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SearchReverseSearch)
 #. i18n: ectx: tooltip, entry (SearchReverseSearch), group (SearchSettings)
 #: settings/GeneralSettings.ui:267 settings/konsole.kcfg:79
 #, kde-format
 msgid "Sets whether search should start from the bottom"
-msgstr ""
+msgstr "Вызначае, ці павінен пошук пачынацца знізу"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SearchReverseSearch)
 #. i18n: ectx: label, entry (SearchReverseSearch), group (SearchSettings)
 #: settings/GeneralSettings.ui:270 settings/konsole.kcfg:78
 #, kde-format
 msgid "Search backwards"
-msgstr ""
+msgstr "Пошук у адваротным кірунку"
 
 #. i18n: ectx: tooltip, entry (ShowWindowTitleOnTitleBar), group (KonsoleWindow)
 #: settings/konsole.kcfg:18
 #, kde-format
 msgid "Show window title set by escape sequence on the titlebar"
-msgstr ""
+msgstr "Паказваць загаловак акна, вызначаны кіроўнай паслядоўнасцю"
 
 #. i18n: ectx: tooltip, entry (AllowMenuAccelerators), group (KonsoleWindow)
 #: settings/konsole.kcfg:23
 #, kde-format
 msgid "Allow users to access top menu through Alt+Key combination"
-msgstr ""
+msgstr "Дазволіць карыстальнікам доступ да меню з дапамогай спалучэння Alt+Key"
 
 #. i18n: ectx: label, entry (RememberWindowSize), group (KonsoleWindow)
 #: settings/konsole.kcfg:27
 #, kde-format
 msgid "Use current window size on next startup"
-msgstr ""
+msgstr "Выкарыстоўваць бягучыя памеры акна пры наступным запуску"
 
 #. i18n: ectx: tooltip, entry (RememberWindowSize), group (KonsoleWindow)
 #: settings/konsole.kcfg:28
 #, kde-format
 msgid "The window size will be saved upon exiting Konsole"
-msgstr ""
+msgstr "Пры выхадзе з Konsole будуць захоўвацца памеры акна"
 
 #. i18n: ectx: label, entry (ThumbnailSize), group (ThumbnailsSettings)
 #: settings/konsole.kcfg:42
@@ -2452,28 +2452,28 @@ msgstr "Шырыня мініяцюр"
 #: settings/konsole.kcfg:43
 #, kde-format
 msgid "Sets the width of the thumbnail"
-msgstr ""
+msgstr "Вызначае шырыню мініяцюр"
 
 #. i18n: ectx: label, entry (ThumbnailShift), group (ThumbnailsSettings)
 #. i18n: ectx: tooltip, entry (ThumbnailShift), group (ThumbnailsSettings)
 #: settings/konsole.kcfg:47 settings/konsole.kcfg:48
 #, kde-format
 msgid "Use Shift to display a thumbnail"
-msgstr ""
+msgstr "Выкарыстоўваць Shift для паказу мініяцюр"
 
 #. i18n: ectx: label, entry (ThumbnailAlt), group (ThumbnailsSettings)
 #. i18n: ectx: tooltip, entry (ThumbnailAlt), group (ThumbnailsSettings)
 #: settings/konsole.kcfg:52 settings/konsole.kcfg:53
 #, kde-format
 msgid "Use Alt to display a thumbnail"
-msgstr ""
+msgstr "Выкарыстоўваць Alt для паказу мініяцюр"
 
 #. i18n: ectx: label, entry (ThumbnailCtrl), group (ThumbnailsSettings)
 #. i18n: ectx: tooltip, entry (ThumbnailCtrl), group (ThumbnailsSettings)
 #: settings/konsole.kcfg:57 settings/konsole.kcfg:58
 #, kde-format
 msgid "Use Ctrl to display a thumbnail"
-msgstr ""
+msgstr "Выкарыстоўваць Ctrl для паказу мініяцюр"
 
 #. i18n: ectx: label, entry (SearchCaseSensitive), group (SearchSettings)
 #: settings/konsole.kcfg:64
@@ -2485,116 +2485,116 @@ msgstr "Пошук ўлічвае рэгістр"
 #: settings/konsole.kcfg:73
 #| msgid "Highlight all"
 msgid "Highlight all search matches"
-msgstr ""
+msgstr "Падсвятляць усе супадзенні пошуку"
 
 #. i18n: ectx: tooltip, entry (SearchHighlightMatches), group (SearchSettings)
 #: settings/konsole.kcfg:74
 #| msgid "Sets whether matching text should be highlighted"
 msgid "Sets whether matching text should be highlighted"
-msgstr ""
+msgstr "Вызначае, ці павінен падсвятляцца тэкст, які адпавядае запыту"
 
 #. i18n: ectx: label, entry (SplitViewVisibility), group (SplitView)
 #. i18n: ectx: label, entry (TabBarVisibility), group (TabBar)
 #: settings/konsole.kcfg:85 settings/konsole.kcfg:105
 #, kde-format
 msgid "Control the visibility of the whole tab bar"
-msgstr ""
+msgstr "Кіраванне бачнасцю ўсёй панэлі ўкладак"
 
 #. i18n: ectx: label, entry (SplitDragHandleSize), group (SplitView)
 #: settings/konsole.kcfg:94
 #, kde-format
 msgid "Control the size of the handle between panels"
-msgstr ""
+msgstr "Кіраванне памерамі ручкі паміж панэлямі"
 
 #. i18n: ectx: label, entry (TabBarPosition), group (TabBar)
 #: settings/konsole.kcfg:114
 #, kde-format
 msgid "Control the position of the tab bar"
-msgstr ""
+msgstr "Кіраванне пазіцыяй панэлі ўкладак"
 
 #. i18n: ectx: label, entry (TabBarStyleSheet), group (TabBar)
 #: settings/konsole.kcfg:122
 #, kde-format
 msgid "Control the visual style of the tab bar"
-msgstr ""
+msgstr "Кіраванне візуальным стылем панэлі ўкладак"
 
 #. i18n: ectx: label, entry (TabBarUseUserStyleSheet), group (TabBar)
 #: settings/konsole.kcfg:126
 #, kde-format
 msgid "Use a user-defined .css file for the tab bar"
-msgstr ""
+msgstr "Выкарыстоўваць вызначаны карыстальнікам файл .css"
 
 #. i18n: ectx: label, entry (TabBarUserStyleSheetFile), group (TabBar)
 #: settings/konsole.kcfg:130
 #, kde-format
 msgid "The .css file to use for the tab bar style"
-msgstr ""
+msgstr "Файл .css для стылю панэлі ўкладак"
 
 #. i18n: ectx: label, entry (CloseTabOnMiddleMouseButton), group (TabBar)
 #: settings/konsole.kcfg:134
 #, kde-format
 msgid "Allow middle-clicking on open tabs to close them"
-msgstr ""
+msgstr "Дазволіць закрыццё адкрытых укладак націсканнем сярэдняй кнопкі мышы"
 
 #. i18n: ectx: label, entry (NewTabButton), group (TabBar)
 #: settings/konsole.kcfg:138
 #, kde-format
 msgid "Control the visibility of 'New Tab' button on the tab bar"
-msgstr ""
+msgstr "Кіраванне бачнасцю на панэлі ўкладак кнопкі \"Новая ўкладка\""
 
 #. i18n: ectx: label, entry (CloseTabButton), group (TabBar)
 #: settings/konsole.kcfg:142
 #, kde-format
 msgid "Control where the \"Close tab\" button will be displayed"
-msgstr ""
+msgstr "Кіраванне месцам размяшчэння кнопкі \"Закрыць укладку\""
 
 #. i18n: ectx: label, entry (NewTabBehavior), group (TabBar)
 #: settings/konsole.kcfg:151
 #, kde-format
 msgid "Control where to put the new tab"
-msgstr ""
+msgstr "Кіраванне месцам устаўляння новай укладкі"
 
 #. i18n: ectx: label, entry (ExpandTabWidth), group (TabBar)
 #: settings/konsole.kcfg:159
 #, kde-format
 msgid "Expand the tab widths"
-msgstr ""
+msgstr "Павелічэнне шырыні ўкладак"
 
 #. i18n: ectx: label, entry (scrollbackUseSystemLocation), group (FileLocation)
 #: settings/konsole.kcfg:175
 #, kde-format
 msgid "For scrollback files, use system-wide folder location"
-msgstr ""
+msgstr "Выкарыстоўваць для файлаў журнала вываду агульнасістэмны каталог"
 
 #. i18n: ectx: label, entry (scrollbackUseCacheLocation), group (FileLocation)
 #: settings/konsole.kcfg:179
 #, kde-format
 msgid "For scrollback files, use user's specific folder location"
-msgstr ""
+msgstr "Выкарыстоўваць для файлаў журнала вываду каталог, вызначаны карыстальнікам"
 
 #. i18n: ectx: label, entry (scrollbackUseSpecifiedLocation), group (FileLocation)
 #: settings/konsole.kcfg:183
 #, kde-format
 msgid "For scrollback files, use specified folder location"
-msgstr ""
+msgstr "Выкарыстоўваць для файлаў журнала вываду вызначаны каталог"
 
 #. i18n: ectx: label, entry (scrollbackUseSpecifiedLocationDirectory), group (FileLocation)
 #: settings/konsole.kcfg:187
 #, kde-format
 msgid "For scrollback files, use this folder"
-msgstr ""
+msgstr "Выкарыстоўваць для файлаў журнала вываду гэты каталог"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: settings/PartInfo.ui:29
 #, kde-format
 msgid "<html><head/><body><p>Applications that use KonsolePart share profiles.</p><p>They do not share with Konsole or other applications:<ul><li>default profile</li><li>show in menu</li><li>shortcuts</li></ul></p><p>Feel free to open a Konsole <a href=\"https://bugs.kde.org/enter_bug.cgi?format=guided&product=konsole&component=kpart\">bug report</a> if you desire a change to how these are handled.</body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Праграмы, якія выкарыстоўваюць профілі абагульвання KonsolePart.</p><p>Яны не абагульваюць з Konsole або іншымі праграмамі:<ul><li>прадвызначаныя профілі</li><li>адлюстраванне элементаў у меню</li><li>спалучэнні клавіш</li></ul></p><p> Вы можаце адправіць на <a href=\"https://bugs.kde.org/enter_bug.cgi?format=guided&product=konsole&component=kpart\">справаздачу пра хібу</a>, калі хочаце змяніць спосаб іх апрацоўвання.</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, newProfileButton)
 #: settings/ProfileSettings.ui:39
 #| msgid "List the available profiles"
 msgid "Create a new profile based on the selected profile"
-msgstr ""
+msgstr "Стварыць новы профіль на базе абранага профілю"
 
 #. i18n: ectx: property (text), widget (QPushButton, newProfileButton)
 #: settings/ProfileSettings.ui:42
@@ -2606,7 +2606,7 @@ msgstr "&Новы..."
 #: settings/ProfileSettings.ui:52
 #| msgid "Set the selected profile as the default for new terminal sessions"
 msgid "Edit the selected profile (this button is disabled for read-only profiles)"
-msgstr ""
+msgstr "Рэдагаваць абраны профіль (гэтая кнопка адключаная для профіляў, даступных толькі для чытання)"
 
 #. i18n: ectx: property (text), widget (QPushButton, editProfileButton)
 #: settings/ProfileSettings.ui:55
@@ -2730,20 +2730,20 @@ msgstr "Паказваць кнопку \"Новая ўкладка\""
 #: settings/TabBarSettings.ui:225
 #, kde-format
 msgid "Expand individual tab widths to full window"
-msgstr ""
+msgstr "Павялічваць шырыню асобных укладак да памераў акна"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabBarUseUserStyleSheet)
 #: settings/TabBarSettings.ui:232
 #, kde-format
 msgid "Use user-defined stylesheet:"
-msgstr ""
+msgstr "Выкарыстоўваць табліцу стыляў, вызначаную карыстальнікам:"
 
 #. i18n: ectx: property (filter), widget (KUrlRequester, kcfg_scrollbackUseSpecifiedLocationDirectory)
 #. i18n: ectx: property (filter), widget (KUrlRequester, kcfg_TabBarUserStyleSheetFile)
 #: settings/TabBarSettings.ui:258 settings/TemporaryFilesSettings.ui:53
 #, kde-format
 msgid "text/css"
-msgstr ""
+msgstr "тэкст/css"
 
 #. i18n: ectx: property (placeholderText), widget (KUrlRequester, kcfg_TabBarUserStyleSheetFile)
 #: settings/TabBarSettings.ui:261
@@ -2763,37 +2763,37 @@ msgstr "Паводзіны"
 #: settings/TabBarSettings.ui:298
 #| msgid "Enter new tab text:"
 msgid "Put new tabs:"
-msgstr ""
+msgstr "Устаўлянне новых ўкладак:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, PutNewTabAtTheEnd)
 #: settings/TabBarSettings.ui:308
 #, kde-format
 msgid "At &the end"
-msgstr ""
+msgstr "У &канцы"
 
 #. i18n: ectx: property (text), widget (QRadioButton, PutNewTabAfterCurrentTab)
 #: settings/TabBarSettings.ui:318
 #| msgid "Close the current session"
 msgid "After current &tab"
-msgstr ""
+msgstr "Пасля &бягучай укладкі"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_CloseTabOnMiddleMouseButton)
 #: settings/TabBarSettings.ui:354
 #, kde-format
 msgid "Close tab on middle-click"
-msgstr ""
+msgstr "Закрываць укладку націсканнем сярэдняй кнопкі мышы"
 
 #. i18n: ectx: attribute (title), widget (QWidget, splitTab)
 #: settings/TabBarSettings.ui:377
 #| msgid "Split View"
 msgid "Splits"
-msgstr ""
+msgstr "Падзел"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: settings/TabBarSettings.ui:383
 #| msgid "Show Menu Bar"
 msgid "Show Header:"
-msgstr ""
+msgstr "Паказваць загаловак:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ShowSplitHeaderWhenNeeded)
 #: settings/TabBarSettings.ui:390
@@ -2813,7 +2813,7 @@ msgstr "Ніколі"
 #: settings/TabBarSettings.ui:426
 #, kde-format
 msgid "Drag Handle Size:"
-msgstr ""
+msgstr "Памер ручкі перацягвання:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, SplitDragHandleSmall)
 #: settings/TabBarSettings.ui:436
@@ -2847,26 +2847,26 @@ msgstr "Заўсёды"
 #, kde-format
 msgctxt "@option:radio File location; <filename>%1</filename>: path to directory placeholder"
 msgid "System temporary directory (%1)"
-msgstr ""
+msgstr "Сістэмны каталог часовых файлаў (%1)"
 
 #: settings/TemporaryFilesSettings.cpp:33
 #, kde-format
 msgctxt "@option:radio File location; <filename>%1</filename>: path to directory placeholder"
 msgid "User cache directory (%1)"
-msgstr ""
+msgstr "Карыстальніцкі каталог часовых файлаў (%1)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: settings/TemporaryFilesSettings.ui:37
 #| msgid "Scrollback Options"
 msgid "Scrollback file location:"
-msgstr ""
+msgstr "Размяшчэнне файлаў журнала вываду:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_scrollbackUseSpecifiedLocation)
 #: settings/TemporaryFilesSettings.ui:79
 #| msgid "&Custom..."
 msgctxt "@option:radio Custom (file location); followed by text entry field"
 msgid "Custom:"
-msgstr "Адвольнае:"
+msgstr "Адвольны:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: settings/ThumbnailsSettings.ui:17
@@ -2884,19 +2884,19 @@ msgstr "пікс."
 #: settings/ThumbnailsSettings.ui:37
 #, kde-format
 msgid "<html><head/><body><p>To use this feature, enable <span style=\" font-weight:600;\">Mouse-&gt;Miscellaneous-&gt;Underline </span><span style=\" font-weight:600;\">files</span> in your profile settings</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Каб выкарыстоўваць гэтую функцыю, уключыце <span style=\" font-weight:600;\">Мыш-&gt;Рознае-&gt;Падкрэсліванне </span><span style=\" font-weight:600;\">файлаў</span> ў наладах профілю</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: settings/ThumbnailsSettings.ui:53
 #| msgid "Activate Menu"
 msgid "Activation:"
-msgstr ""
+msgstr "Актывацыя:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: settings/ThumbnailsSettings.ui:63
 #, kde-format
 msgid "Mouse hover plus"
-msgstr ""
+msgstr "Навядзенне мышшу +"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ThumbnailShift)
 #: settings/ThumbnailsSettings.ui:70
@@ -2920,7 +2920,7 @@ msgstr "Ctrl"
 #: settings/ThumbnailsSettings.ui:93
 #, kde-format
 msgid "Enable thumbnails generation"
-msgstr ""
+msgstr "Уключыць генераванне мініяцюр"
 
 #: terminalDisplay/TerminalDisplay.cpp:639
 #: terminalDisplay/TerminalDisplay.cpp:640
@@ -2937,15 +2937,15 @@ msgstr "Памер: %1 x %2"
 #| msgid "Are you sure you want to close this session?"
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Сапраўды хочаце ўставіць %1 сімвал?"
+msgstr[1] "Сапраўды хочаце ўставіць %1 сімвалы?"
+msgstr[2] "Сапраўды хочаце ўставіць %1 сімвалаў?"
+msgstr[3] "Сапраўды хочаце ўставіць %1 сімвалы?"
 
 #: terminalDisplay/TerminalDisplay.cpp:2134
 #, kde-format
 msgid "Confirm Paste"
-msgstr ""
+msgstr "Пацвердзіць устаўлянне"
 
 #: terminalDisplay/TerminalDisplay.cpp:2167
 #, kde-format
@@ -2990,25 +2990,25 @@ msgstr ""
 #: terminalDisplay/TerminalDisplay.cpp:2197
 #, kde-format
 msgid "The text you're trying to paste contains hidden control characters, do you want to filter them out?"
-msgstr ""
+msgstr "Тэкст, які вы спрабуеце ўставіць, змяшчае схаваныя кіроўныя сімвалы. Хочаце адфільтраваць іх?"
 
 #: terminalDisplay/TerminalDisplay.cpp:2200
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Paste"
-msgstr ""
+msgstr "Пацвердзіць устаўлянне"
 
 #: terminalDisplay/TerminalDisplay.cpp:2201
 #, kde-format
 msgctxt "@action:button"
 msgid "Paste &without control characters"
-msgstr ""
+msgstr "Уставіць &без кіроўных сімвалаў"
 
 #: terminalDisplay/TerminalDisplay.cpp:2202
 #| msgid "Paste Selection"
 msgctxt "@action:button"
 msgid "&Paste everything"
-msgstr ""
+msgstr "Уставіць &усё"
 
 #: terminalDisplay/TerminalDisplay.cpp:2203
 #, kde-format
@@ -3019,7 +3019,7 @@ msgstr "&Скасаваць"
 #: terminalDisplay/TerminalDisplay.cpp:2432
 #, kde-format
 msgid "<qt>Output has been <a href=\"https://en.wikipedia.org/wiki/Software_flow_control\">suspended</a> by pressing Ctrl+S. Press <b>Ctrl+Q</b> to resume.</qt>"
-msgstr ""
+msgstr "<qt>Вывад быў <a href=\"https://en.wikipedia.org/wiki/Software_flow_control\">прыпынены</a> націсканнем Ctrl+S. Каб аднавіць, націсніце <b>Ctrl+Q</b>.</qt>"
 
 #: terminalDisplay/TerminalDisplay.cpp:2470
 #, kde-format
@@ -3106,13 +3106,13 @@ msgstr ""
 #| msgid "New &Tab"
 msgctxt "@action Shortcut entry"
 msgid "Next Tab"
-msgstr ""
+msgstr "Наступная ўкладка"
 
 #: ViewManager.cpp:208
 #| msgid "Previous"
 msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
-msgstr ""
+msgstr "Папярэдняя ўкладка"
 
 #: ViewManager.cpp:216
 #| msgid "Above terminal displays"
@@ -3142,13 +3142,13 @@ msgstr "Справа ад тэрмінала"
 #| msgid "Switch to Tab"
 msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
-msgstr ""
+msgstr "Перайсці на апошнюю ўкладку"
 
 #: ViewManager.cpp:247
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Last Used Tabs"
-msgstr ""
+msgstr "Нядаўнія ўкладкі"
 
 #: ViewManager.cpp:252
 #, kde-format
@@ -3720,10 +3720,10 @@ msgstr ""
 #| msgid "Edit Profile \"%1\""
 msgid "Editing profile: %2"
 msgid_plural "Editing %1 profiles: %2"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Рэдагаванне профілю: %2"
+msgstr[1] "Рэдагаванне %1 профіляў: %2"
+msgstr[2] "Рэдагаванне %1 профіляў: %2"
+msgstr[3] "Рэдагаванне %1 профіляў: %2"
 
 #: widgets/EditProfileDialog.cpp:347
 #| msgid "New Profile..."
@@ -3740,20 +3740,20 @@ msgstr "Рэдагаваць профіль \"%1\""
 msgctxt "Suffix of the number of columns (N columns). The leading space is needed to separate it from the number value."
 msgid " column"
 msgid_plural " columns"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] " слупок"
+msgstr[1] " слупкі"
+msgstr[2] " слупкі"
+msgstr[3] " слупкі"
 
 #: widgets/EditProfileDialog.cpp:441
 #, kde-format
 msgctxt "Suffix of the number of rows (N rows). The leading space is needed to separate it from the number value."
 msgid " row"
 msgid_plural " rows"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] " радок"
+msgstr[1] " радкі"
+msgstr[2] " радкі"
+msgstr[3] " радкі"
 
 #: widgets/EditProfileDialog.cpp:451
 #| msgid "System &Bell"
@@ -3869,7 +3869,7 @@ msgstr "Назва профілю"
 #: widgets/EditProfileGeneralPage.ui:91
 #| msgid "New Profile"
 msgid "Default Profile"
-msgstr ""
+msgstr "Прадвызначаны профіль"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: widgets/EditProfileGeneralPage.ui:122
@@ -3935,7 +3935,7 @@ msgstr ""
 #: widgets/EditProfileGeneralPage.ui:268
 #| msgid "Terminal size is fixed"
 msgid "Initial terminal size:"
-msgstr ""
+msgstr "Пачатковыя памеры тэрмінала:"
 
 #. i18n: ectx: property (text), widget (QLabel, useCurrentWindowSizeNote)
 #: widgets/EditProfileGeneralPage.ui:343
@@ -4295,7 +4295,7 @@ msgstr ""
 #: widgets/EditProfileScrollingPage.ui:43
 #| msgid "Scrollback"
 msgid "Scrollback:"
-msgstr ""
+msgstr "Журнал вываду:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: widgets/EditProfileScrollingPage.ui:85
@@ -4419,22 +4419,22 @@ msgstr ""
 msgctxt "@label:textbox Unit of scrollback"
 msgid " line"
 msgid_plural " lines"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] " радок"
+msgstr[1] " радкі"
+msgstr[2] " радкі"
+msgstr[3] " радкі"
 
 #: widgets/HistorySizeWidget.cpp:57
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "When using this option, the scrollback data will be saved to RAM. If you choose a huge value, your system may run out of free RAM and cause serious issues with your system."
-msgstr ""
+msgstr "Пры выкарыстанні гэтага параметра даныя журнала вываду будуць захоўвацца ў аператыўнай памяці. Калі вы абераце вялікае значэнне, у вашай сістэме можа скончыцца свабодная аператыўная памяць, што можа выклікаць сур'ёзныя праблемы."
 
 #: widgets/HistorySizeWidget.cpp:69
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "When using this option, the scrollback data will be written unencrypted to temporary files. Those temporary files will be deleted automatically when Konsole is closed in a normal manner.<nl/>Use <emphasis>Settings → Configure Konsole → Temporary Files</emphasis> to select the location of the temporary files."
-msgstr ""
+msgstr "Пры выкарыстанні гэтага параметра даныя журнала вываду будуць запісвацца ў незашыфраваным выглядзе ў часовыя файлы. Гэтыя часовыя файлы будуць аўтаматычна выдаляцца, калі Konsole будзе закрывацца звычайным спосабам.<nl/>Перайдзіце ў <emphasis>Налады → Наладжванне Konsole → Часовыя файлы</emphasis>, каб абраць месца размяшчэння часовых файлаў."
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, fixedSizeHistoryButton)
 #: widgets/HistorySizeWidget.ui:60
@@ -4446,7 +4446,7 @@ msgstr ""
 #: widgets/HistorySizeWidget.ui:63
 #| msgid "&Find in History..."
 msgid "Fixed size:"
-msgstr ""
+msgstr "Нязменны памер:"
 
 #. i18n: ectx: property (toolTip), widget (KPluralHandlingSpinBox, historyLineSpinner)
 #: widgets/HistorySizeWidget.ui:73
@@ -4609,7 +4609,7 @@ msgstr ""
 #: widgets/RenameTabWidget.ui:79
 #, kde-format
 msgid "Tab title format:"
-msgstr ""
+msgstr "Фармат загалоўка ўкладкі:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, tabTitleEdit)
 #: widgets/RenameTabWidget.ui:98
