@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-25 00:48+0000\n"
-"PO-Revision-Date: 2022-08-29 04:55\n"
+"POT-Creation-Date: 2022-09-08 00:49+0000\n"
+"PO-Revision-Date: 2022-09-09 21:32\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -61,13 +61,13 @@ msgctxt "@info:tooltip"
 msgid "Symbol installation is unavailable because the application was updated or uninstalled after it had been started."
 msgstr ""
 
-#: backtracewidget.cpp:85 qml/DeveloperPage.qml:54
+#: backtracewidget.cpp:85 qml/DeveloperPage.qml:57
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to copy the crash information (backtrace) to the clipboard."
 msgstr ""
 
-#: backtracewidget.cpp:94 qml/DeveloperPage.qml:62
+#: backtracewidget.cpp:94 qml/DeveloperPage.qml:65
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to save the crash information (backtrace) to a file. This is useful if you want to take a look at it or to report the bug later."
@@ -156,14 +156,14 @@ msgctxt "@info:status"
 msgid "The debugger has quit unexpectedly."
 msgstr ""
 
-#: backtracewidget.cpp:303 backtracewidget.cpp:319 qml/DeveloperPage.qml:156
-#: qml/DeveloperPage.qml:160
+#: backtracewidget.cpp:303 backtracewidget.cpp:319 qml/DeveloperPage.qml:161
+#: qml/DeveloperPage.qml:165
 #, kde-format
 msgctxt "@info:status"
 msgid "The crash information could not be generated."
 msgstr ""
 
-#: backtracewidget.cpp:307 qml/DeveloperPage.qml:157
+#: backtracewidget.cpp:307 qml/DeveloperPage.qml:162
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid "You could try to regenerate the backtrace by clicking the <interface>Reload</interface> button."
@@ -181,14 +181,14 @@ msgctxt "@info/rich"
 msgid "<strong>You need to first install the debugger application (%1) then click the <interface>Reload</interface> button.</strong>"
 msgstr ""
 
-#: backtracewidget.cpp:378
+#: backtracewidget.cpp:378 qml/DeveloperPage.qml:83
 #, kde-format
 msgctxt "@title:window"
 msgid "Error during the installation of debug symbols"
 msgstr ""
 
 #. i18nc here because that'd close the html tag but we need to append an unordered list of paths
-#: backtracewidget.cpp:409 qml/DeveloperPage.qml:184
+#: backtracewidget.cpp:409 qml/DeveloperPage.qml:189
 #, kde-format
 msgid "The packages containing debug information for the following application and libraries are missing:"
 msgstr ""
@@ -630,7 +630,7 @@ msgctxt "@action:check"
 msgid "Custom settings of the application that may be related"
 msgstr ""
 
-#: qml/ContextPage.qml:79 qml/DeveloperPage.qml:177
+#: qml/ContextPage.qml:79 qml/DeveloperPage.qml:182
 msgctxt "@title"
 msgid "Not Sufficiently Useful"
 msgstr ""
@@ -661,18 +661,18 @@ msgid "Use this button to reload the crash information (backtrace). This is usef
 "installed the proper debug symbol packages and you want to obtain a better backtrace."
 msgstr ""
 
-#: qml/DeveloperPage.qml:53
+#: qml/DeveloperPage.qml:56
 #| msgid "C&opy"
 msgctxt "@action:button"
 msgid "Copy"
 msgstr "Капіяваць"
 
-#: qml/DeveloperPage.qml:60
+#: qml/DeveloperPage.qml:63
 msgctxt "@action:button"
 msgid "Save"
 msgstr "Захаваць"
 
-#: qml/DeveloperPage.qml:94
+#: qml/DeveloperPage.qml:99
 msgctxt "@info"
 msgid "<subtitle>What is a \"backtrace\" ?</subtitle><para>A backtrace basically describes what was\n"
 "happening inside the application when it crashed, so the developers may track\n"
@@ -681,20 +681,20 @@ msgid "<subtitle>What is a \"backtrace\" ?</subtitle><para>A backtrace basically
 "used during interactive and post-mortem debugging.</para>"
 msgstr ""
 
-#: qml/DeveloperPage.qml:142
+#: qml/DeveloperPage.qml:147
 msgctxt "@info/rich"
 msgid "You can click the <interface>Install Debug Symbols</interface> button in order to automatically install the missing debugging information packages. If this method\n"
 "does not work: please read <link url='%1'>How to create useful crash reports</link> to learn how to get a useful\n"
 "backtrace; install the needed packages (<link url='%2'> list of files</link>) and click the <interface>Reload</interface> button."
 msgstr ""
 
-#: qml/DeveloperPage.qml:150
+#: qml/DeveloperPage.qml:155
 msgctxt "@info/rich"
 msgid "Please read <link url='%1'>How to create useful crash reports</link> to learn how to get a useful backtrace; install the needed packages (<link url='%2'>\n"
 "list of files</link>) and click the <interface>Reload</interface> button."
 msgstr ""
 
-#: qml/DeveloperPage.qml:162
+#: qml/DeveloperPage.qml:167
 msgctxt "@info/rich"
 msgid "<emphasis strong='true'>You need to first install the debugger application (%1) then click the <interface>Reload</interface> button.</emphasis>"
 msgstr ""

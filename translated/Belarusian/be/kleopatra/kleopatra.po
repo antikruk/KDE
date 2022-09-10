@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-27 00:48+0000\n"
-"PO-Revision-Date: 2022-08-29 04:58\n"
+"POT-Creation-Date: 2022-09-09 00:47+0000\n"
+"PO-Revision-Date: 2022-09-09 21:34\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -132,7 +132,7 @@ msgstr ""
 msgid "(c) 2010-%1 The Kleopatra developers, g10 Code GmbH"
 msgstr ""
 
-#: src/aboutdata.cpp:110
+#: src/aboutdata.cpp:114
 #, kde-format
 msgctxt "Preceeds a list of applications/libraries used by Kleopatra"
 msgid "Uses:"
@@ -1025,66 +1025,66 @@ msgctxt "@info"
 msgid "<para>An error occurred while trying to export the secret key.</para> <para>The output from <command>%1</command> was: <message>%2</message></para>"
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:91
 #: src/commands/exportsecretkeycommand.cpp:93
+#: src/commands/exportsecretkeycommand.cpp:95
 #: src/commands/exportsecretsubkeycommand.cpp:82
 #| msgid "Overwrite File?"
 msgctxt "description of filename filter"
 msgid "Secret Key Files"
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:96
+#: src/commands/exportsecretkeycommand.cpp:98
 #| msgid "Description"
 msgctxt "description of filename filter"
 msgid "All Files"
 msgstr "Усе файлы"
 
-#: src/commands/exportsecretkeycommand.cpp:104
-#: src/commands/exportsecretkeycommand.cpp:268
+#: src/commands/exportsecretkeycommand.cpp:106
+#: src/commands/exportsecretkeycommand.cpp:274
 #: src/commands/exportsecretsubkeycommand.cpp:258
 #| msgid "Overwrite File?"
 msgctxt "@title:window"
 msgid "Secret Key Backup"
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:122
+#: src/commands/exportsecretkeycommand.cpp:124
 #| msgid "Overwrite File?"
 msgctxt "@title:window"
 msgid "Secret Key Backup Error"
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:222
+#: src/commands/exportsecretkeycommand.cpp:228
 #| msgid "Canceled."
 msgctxt "@info:status"
 msgid "Backing up secret key..."
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:245
+#: src/commands/exportsecretkeycommand.cpp:251
 #, kde-format
 msgctxt "@info"
 msgid "The result of the backup is empty. Maybe you entered an empty or a wrong passphrase."
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:253
+#: src/commands/exportsecretkeycommand.cpp:259
 #: src/commands/exportsecretsubkeycommand.cpp:237
 #| msgid "Overwrite File?"
 msgctxt "@info"
 msgid "Cannot open file <filename>%1</filename> for writing."
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:261
+#: src/commands/exportsecretkeycommand.cpp:267
 #| msgid "Overwrite File?"
 msgctxt "@info"
 msgid "Writing key to file <filename>%1</filename> failed."
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:267
+#: src/commands/exportsecretkeycommand.cpp:273
 #| msgid "Overwrite File?"
 msgctxt "@info"
 msgid "The backup of the secret key was created successfully."
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:275
+#: src/commands/exportsecretkeycommand.cpp:281
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>An error occurred during the backup of the secret key:</para><para><message>%1</message></para>"
@@ -1286,8 +1286,8 @@ msgstr ""
 #: src/commands/importcertificatefromfilecommand.cpp:134
 #: src/commands/importcertificatescommand.cpp:493
 #: src/commands/importcertificatescommand.cpp:501
-#: src/commands/importcertificatescommand.cpp:834
-#: src/commands/importcertificatescommand.cpp:885
+#: src/commands/importcertificatescommand.cpp:836
+#: src/commands/importcertificatescommand.cpp:887
 #, kde-format
 msgid "Certificate Import Failed"
 msgstr ""
@@ -1304,9 +1304,9 @@ msgid "Clipboard"
 msgstr "Буфер абмену"
 
 #: src/commands/importcertificatefromdatacommand.cpp:74
-#: src/view/padwidget.cpp:136 src/view/padwidget.cpp:331
-#: src/view/padwidget.cpp:332 src/view/padwidget.cpp:400
-#: src/view/padwidget.cpp:401
+#: src/view/padwidget.cpp:138 src/view/padwidget.cpp:331
+#: src/view/padwidget.cpp:332 src/view/padwidget.cpp:413
+#: src/view/padwidget.cpp:414
 #, kde-format
 msgid "Notepad"
 msgstr ""
@@ -1568,25 +1568,32 @@ msgstr ""
 msgid "<qt><p>An error occurred while trying to import the certificate %1:</p><p><b>%2</b></p></qt>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:569
+#. i18n(" ") as initializer because initializing with empty string leads to
+#. (I18N_EMPTY_MESSAGE)
+#: src/commands/importcertificatescommand.cpp:570
+#, kde-format
+msgid " "
+msgstr ""
+
+#: src/commands/importcertificatescommand.cpp:571
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1<item>%2</item>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:573
+#: src/commands/importcertificatescommand.cpp:575
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<title>You have imported a Secret Key.</title><para>The key has the fingerprint:<nl/><numid>%1</numid></para><para>And claims the user IDs:<list>%2</list></para>Is this your own key? (Set trust level to ultimate)"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:585
+#: src/commands/importcertificatescommand.cpp:587
 #| msgid "Canceled."
 msgctxt "@title:window"
 msgid "Secret key imported"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:797
+#: src/commands/importcertificatescommand.cpp:799
 #, kde-format
 msgid "Fetching 1 signer key... (this can take a while)"
 msgid_plural "Fetching %1 signer keys... (this can take a while)"
@@ -1595,8 +1602,8 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/commands/importcertificatescommand.cpp:832
-#: src/commands/importcertificatescommand.cpp:883
+#: src/commands/importcertificatescommand.cpp:834
+#: src/commands/importcertificatescommand.cpp:885
 #, kde-format
 msgid "The type of this certificate (%1) is not supported by this Kleopatra installation."
 msgstr ""
@@ -3230,7 +3237,7 @@ msgid "Create Checksums: input files must be either all checksum files or all fi
 msgstr ""
 
 #: src/crypto/createchecksumscontroller.cpp:293
-#: src/dialogs/updatenotification.cpp:74 src/mainwindow.cpp:771
+#: src/dialogs/updatenotification.cpp:74 src/mainwindow.cpp:777
 #| msgid "Canceled."
 msgid "Cancel"
 msgstr "Скасаваць"
@@ -3964,14 +3971,14 @@ msgstr ""
 
 #: src/crypto/gui/resolverecipientspage.cpp:402
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:364
-#: src/view/padwidget.cpp:171
+#: src/view/padwidget.cpp:173
 #, kde-format
 msgid "OpenPGP"
 msgstr ""
 
 #: src/crypto/gui/resolverecipientspage.cpp:406
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:365
-#: src/view/padwidget.cpp:172
+#: src/view/padwidget.cpp:174
 #, kde-format
 msgid "S/MIME"
 msgstr ""
@@ -4363,18 +4370,36 @@ msgctxt "Lineedit accessible name"
 msgid "Output directory"
 msgstr ""
 
+#: src/crypto/gui/signencryptfileswizard.cpp:449
+#| msgid "Canceled."
+msgctxt "@action:button"
+msgid "Sign"
+msgstr "Падпісаць"
+
+#: src/crypto/gui/signencryptfileswizard.cpp:452
+#| msgid "Description"
+msgctxt "@action:button"
+msgid "Encrypt"
+msgstr "Зашыфраваць"
+
 #: src/crypto/gui/signencryptfileswizard.cpp:455
+#| msgid "Description"
+msgctxt "@action:button"
+msgid "Sign / Encrypt"
+msgstr ""
+
+#: src/crypto/gui/signencryptfileswizard.cpp:469
 #, kde-format
 msgid "Next"
 msgstr "Далей"
 
-#: src/crypto/gui/signencryptfileswizard.cpp:521
+#: src/crypto/gui/signencryptfileswizard.cpp:535
 #, kde-format
 msgctxt "@title"
 msgid "Results"
 msgstr "Вынікі"
 
-#: src/crypto/gui/signencryptfileswizard.cpp:523
+#: src/crypto/gui/signencryptfileswizard.cpp:537
 #, kde-format
 msgctxt "@title"
 msgid "Status and progress of the crypto operations is shown here."
@@ -4424,30 +4449,12 @@ msgctxt "text for screen readers"
 msgid "recipient key"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:488
-#| msgid "Description"
-msgctxt "@action"
-msgid "Sign / Encrypt"
-msgstr ""
-
-#: src/crypto/gui/signencryptwidget.cpp:490
-#| msgid "Description"
-msgctxt "@action"
-msgid "Encrypt"
-msgstr "Зашыфраваць"
-
-#: src/crypto/gui/signencryptwidget.cpp:492
-#| msgid "Canceled."
-msgctxt "@action"
-msgid "Sign"
-msgstr "Падпісаць"
-
-#: src/crypto/gui/signencryptwidget.cpp:667
+#: src/crypto/gui/signencryptwidget.cpp:665
 #, kde-format
 msgid "Could not find a key for the following recipients:"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:669
+#: src/crypto/gui/signencryptwidget.cpp:667
 #, kde-format
 msgid "Failed to find some keys"
 msgstr ""
@@ -5702,32 +5709,32 @@ msgstr "Экспартаваць"
 msgid "Name:"
 msgstr "Назва:"
 
-#: src/dialogs/gencardkeydialog.cpp:56
+#: src/dialogs/gencardkeydialog.cpp:59
 #| msgid "Email"
 msgid "EMail:"
 msgstr ""
 
-#: src/dialogs/gencardkeydialog.cpp:60
+#: src/dialogs/gencardkeydialog.cpp:63
 #, kde-format
 msgid "Invalid EMail"
 msgstr ""
 
-#: src/dialogs/gencardkeydialog.cpp:67
+#: src/dialogs/gencardkeydialog.cpp:70
 #, kde-format
 msgid "Algorithm:"
 msgstr ""
 
-#: src/dialogs/gencardkeydialog.cpp:74
+#: src/dialogs/gencardkeydialog.cpp:77
 #, kde-format
 msgid "Backup encryption key"
 msgstr ""
 
-#: src/dialogs/gencardkeydialog.cpp:75
+#: src/dialogs/gencardkeydialog.cpp:78
 #| msgid "Set &Background Color..."
 msgid "Backup the encryption key in a file."
 msgstr ""
 
-#: src/dialogs/gencardkeydialog.cpp:76
+#: src/dialogs/gencardkeydialog.cpp:79
 #, kde-format
 msgid "You will be asked for a passphrase to protect that file during key generation."
 msgstr ""
@@ -5773,7 +5780,7 @@ msgstr "Захаваць як..."
 msgid "Lookup on Server"
 msgstr ""
 
-#: src/dialogs/lookupcertificatesdialog.cpp:201 src/view/padwidget.cpp:480
+#: src/dialogs/lookupcertificatesdialog.cpp:201
 #, kde-format
 msgid "Import"
 msgstr "Імпартаваць"
@@ -6991,7 +6998,7 @@ msgstr "&Выгляд"
 
 #. i18n: ectx: Menu (certMenu)
 #. i18n: ectx: Menu (listview_popup)
-#: src/kleopatra.rc:44 src/kleopatra.rc:119
+#: src/kleopatra.rc:44 src/kleopatra.rc:120
 #, kde-format
 msgid "&Certificates"
 msgstr ""
@@ -7021,7 +7028,7 @@ msgid "&Help"
 msgstr "&Даведка"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: src/kleopatra.rc:104 src/kwatchgnupg/kwatchgnupgui.rc:13
+#: src/kleopatra.rc:105 src/kwatchgnupg/kwatchgnupgui.rc:13
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Галоўная панэль інструментаў"
@@ -7440,38 +7447,49 @@ msgctxt "Only available in German and English. Leave to English for other langua
 msgid "BSI-VSA-10584-ENG_secops-20220207.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:620
+#: src/mainwindow.cpp:620 src/view/smartcardwidget.cpp:119
+#, kde-format
+msgid "Smartcard Management"
+msgstr ""
+
+#: src/mainwindow.cpp:622
+#, kde-format
+msgctxt "Only available in German and English. Leave to English for other languages."
+msgid "smartcard_howto_de.pdf"
+msgstr ""
+
+#: src/mainwindow.cpp:626
 #, kde-format
 msgid "GnuPG Manual"
 msgstr ""
 
-#: src/mainwindow.cpp:644
+#: src/mainwindow.cpp:650
 #, kde-format
 msgid "There are still some background operations ongoing. These will be terminated when closing the window. Proceed?"
 msgstr ""
 
-#: src/mainwindow.cpp:647
+#: src/mainwindow.cpp:653
 #, kde-format
 msgid "Ongoing Background Tasks"
 msgstr ""
 
-#: src/mainwindow.cpp:755 src/view/keylistcontroller.cpp:398
+#: src/mainwindow.cpp:761 src/view/keylistcontroller.cpp:398
 #, kde-format
 msgid "Sign/Encrypt..."
 msgstr ""
 
-#: src/mainwindow.cpp:756 src/utils/clipboardmenu.cpp:47
+#: src/mainwindow.cpp:762 src/utils/clipboardmenu.cpp:47
 #: src/view/keylistcontroller.cpp:394
 #| msgid "&Details"
 msgid "Decrypt/Verify..."
 msgstr ""
 
-#: src/mainwindow.cpp:761
+#: src/mainwindow.cpp:767
 #, kde-format
 msgid "Import Certificates"
 msgstr ""
 
-#: src/mainwindow.cpp:762
+#: src/mainwindow.cpp:768
 #, kde-format
 msgid "Import CRLs"
 msgstr ""
@@ -8752,13 +8770,13 @@ msgstr ""
 msgid "Could not pass socket to Qt: %1. This should not happen, please report this bug."
 msgstr ""
 
-#: src/utils/accessibility.cpp:71
+#: src/utils/accessibility.cpp:94
 #| msgid "Description"
 msgctxt "text for screen readers to indicate that the associated object, such as a form field, has an error"
 msgid "invalid entry"
 msgstr ""
 
-#: src/utils/accessibility.cpp:78
+#: src/utils/accessibility.cpp:101
 #, kde-format
 msgctxt "text for screen readers to indicate that the associated object, such as a form field must be filled out"
 msgid "required"
@@ -9438,7 +9456,7 @@ msgctxt "%1 is a smartcard manufacturer"
 msgid "%1 PKCS#15 card"
 msgstr ""
 
-#: src/view/padwidget.cpp:83 src/view/padwidget.cpp:491
+#: src/view/padwidget.cpp:83
 #| msgid "Description"
 msgid "Sign / Encrypt Notepad"
 msgstr ""
@@ -9450,31 +9468,36 @@ msgstr ""
 
 #: src/view/padwidget.cpp:85
 #, kde-format
+msgid "Import Notepad"
+msgstr ""
+
+#: src/view/padwidget.cpp:86
+#, kde-format
 msgid "Revert"
 msgstr "Вярнуцца"
 
-#: src/view/padwidget.cpp:112
+#: src/view/padwidget.cpp:114
 #| msgid "Canceled."
 msgid "Signing and encryption is not possible."
 msgstr ""
 
-#: src/view/padwidget.cpp:114
+#: src/view/padwidget.cpp:116
 #, kde-kuit-format
 msgctxt "@info %1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED compliant or VS-NfD compliant"
 msgid "<para>You cannot use <application>Kleopatra</application> for signing or encryption because the <application>GnuPG</application> system used by <application>Kleopatra</application> is not %1.</para>"
 msgstr ""
 
-#: src/view/padwidget.cpp:148
+#: src/view/padwidget.cpp:150
 #, kde-format
 msgid "<h3>Protocol:</h3>"
 msgstr ""
 
-#: src/view/padwidget.cpp:154
+#: src/view/padwidget.cpp:156
 #| msgid "Description"
 msgid "Recipients"
 msgstr ""
 
-#: src/view/padwidget.cpp:156
+#: src/view/padwidget.cpp:158
 #, kde-format
 msgid "Enter a message to encrypt or decrypt..."
 msgstr ""
@@ -9490,21 +9513,51 @@ msgstr ""
 msgid "Decrypt / Verify"
 msgstr ""
 
-#: src/view/padwidget.cpp:392
+#: src/view/padwidget.cpp:393
 #, kde-kuit-format
 msgctxt "@info %1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED compliant or VS-NfD compliant"
 msgid "<para>Sorry! You cannot use <application>Kleopatra</application> for signing or encryption because the <application>GnuPG</application> system used by <application>Kleopatra</application> is not %1.</para>"
 msgstr ""
 
-#: src/view/padwidget.cpp:441
+#: src/view/padwidget.cpp:402
+#| msgid "Canceled."
+msgctxt "@info:progress"
+msgid "Signing notepad..."
+msgstr ""
+
+#: src/view/padwidget.cpp:405
+#| msgid "Description"
+msgctxt "@info:progress"
+msgid "Encrypting notepad..."
+msgstr ""
+
+#: src/view/padwidget.cpp:408
+#| msgid "Canceled."
+msgctxt "@info:progress"
+msgid "Signing and encrypting notepad..."
+msgstr ""
+
+#: src/view/padwidget.cpp:454
 #| msgid "Canceled."
 msgid "Importing..."
 msgstr "Імпартаванне..."
 
-#: src/view/padwidget.cpp:479 src/view/padwidget.cpp:488
-#, kde-format
-msgctxt "1 is an operation to apply to the notepad. Like Sign/Encrypt or just Encrypt."
-msgid "%1 Notepad"
+#: src/view/padwidget.cpp:494
+#| msgid "Description"
+msgctxt "@action:button"
+msgid "Sign Notepad"
+msgstr ""
+
+#: src/view/padwidget.cpp:497
+#| msgid "Description"
+msgctxt "@action:button"
+msgid "Encrypt Notepad"
+msgstr ""
+
+#: src/view/padwidget.cpp:501
+#| msgid "Description"
+msgctxt "@action:button"
+msgid "Sign / Encrypt Notepad"
 msgstr ""
 
 #: src/view/pgpcardwidget.cpp:144
@@ -9931,11 +9984,6 @@ msgstr ""
 msgid "Kleopatra currently supports the following card types:"
 msgstr ""
 
-#: src/view/smartcardwidget.cpp:119
-#, kde-format
-msgid "Smartcard Management"
-msgstr ""
-
 #: src/view/smartcardwidget.cpp:161
 #, kde-format
 msgctxt "@title:tab smartcard application - name of card holder - serial number of smartcard"
@@ -10092,6 +10140,12 @@ msgstr ""
 msgctxt "@info"
 msgid "Import certificate from a file.<nl/>To import from a public keyserver use <interface>Lookup on Server</interface> instead."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgctxt "@action"
+#~ msgid "Encrypt"
+#~ msgstr "Апісанне"
 
 #, fuzzy
 #~| msgid "Overwrite File?"
