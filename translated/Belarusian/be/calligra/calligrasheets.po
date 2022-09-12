@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-07 00:48+0000\n"
-"PO-Revision-Date: 2022-09-09 21:31\n"
+"POT-Creation-Date: 2022-09-11 00:45+0000\n"
+"PO-Revision-Date: 2022-09-12 03:30\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -3209,7 +3209,7 @@ msgid "ARABIC(\"XCIX\") returns 99"
 msgstr ""
 
 #: functions/database.xml:5 part/chart/ChartDatabaseSelectorFactory.cpp:26
-#: ui/CellToolBase.cpp:508 ui/dialogs/DatabaseDialog.cpp:117
+#: ui/CellToolBase.cpp:485 ui/dialogs/DatabaseDialog.cpp:117
 msgid "Database"
 msgstr "База даных"
 
@@ -12363,7 +12363,7 @@ msgid "You are about to remove the active sheet.\n"
 "Do you want to continue?"
 msgstr ""
 
-#: part/View.cpp:1872 ui/CellToolBase.cpp:1529
+#: part/View.cpp:1872 ui/CellToolBase.cpp:1506
 msgid "Enter name:"
 msgstr "Увядзіце назву:"
 
@@ -12418,21 +12418,21 @@ msgctxt "(qtundo-format)"
 msgid "Add Comment"
 msgstr ""
 
-#: part/ViewAdaptor.cpp:139 ui/CellToolBase.cpp:1682
+#: part/ViewAdaptor.cpp:139 ui/CellToolBase.cpp:1659
 msgctxt "(qtundo-format)"
 msgid "Change Text Color"
 msgstr ""
 
-#: part/ViewAdaptor.cpp:149 part/ViewAdaptor.cpp:159 ui/CellToolBase.cpp:1979
+#: part/ViewAdaptor.cpp:149 part/ViewAdaptor.cpp:159 ui/CellToolBase.cpp:1956
 msgctxt "(qtundo-format)"
 msgid "Change Background Color"
 msgstr ""
 
 #: part/ViewAdaptor.cpp:169 part/ViewAdaptor.cpp:182 part/ViewAdaptor.cpp:192
 #: part/ViewAdaptor.cpp:205 part/ViewAdaptor.cpp:215 part/ViewAdaptor.cpp:230
-#: ui/CellToolBase.cpp:1753 ui/CellToolBase.cpp:1767 ui/CellToolBase.cpp:1781
-#: ui/CellToolBase.cpp:1792 ui/CellToolBase.cpp:1803 ui/CellToolBase.cpp:1818
-#: ui/CellToolBase.cpp:1834 ui/CellToolBase_p.cpp:746
+#: ui/CellToolBase.cpp:1730 ui/CellToolBase.cpp:1744 ui/CellToolBase.cpp:1758
+#: ui/CellToolBase.cpp:1769 ui/CellToolBase.cpp:1780 ui/CellToolBase.cpp:1795
+#: ui/CellToolBase.cpp:1811 ui/CellToolBase_p.cpp:739
 msgctxt "(qtundo-format)"
 msgid "Change Border"
 msgstr ""
@@ -12811,7 +12811,7 @@ msgstr "Колер фону"
 msgid "Cells..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:422 ui/CellToolBase_p.cpp:1167
+#: ui/CellToolBase.cpp:422 ui/CellToolBase_p.cpp:1160
 msgid "Insert Cells..."
 msgstr ""
 
@@ -12858,7 +12858,7 @@ msgid "Edit a comment for this cell"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, commentButton)
-#: ui/CellToolBase.cpp:452 ui/CellToolBase_p.cpp:1179
+#: ui/CellToolBase.cpp:452 ui/CellToolBase_p.cpp:1172
 #: ui/dialogs/SpecialPasteWidget.ui:65
 msgid "Comment"
 msgstr "Каментар"
@@ -12901,372 +12901,348 @@ msgid "Add an automatic filter to a cell range"
 msgstr ""
 
 #: ui/CellToolBase.cpp:478
-msgid "&Left"
-msgstr "&Улева"
-
-#: ui/CellToolBase.cpp:482
-msgid "&Right"
-msgstr "&Управа"
-
-#: ui/CellToolBase.cpp:486
-msgid "&Up"
-msgstr "&Уверх"
-
-#: ui/CellToolBase.cpp:490
-msgid "&Down"
-msgstr "&Уніз"
-
-#: ui/CellToolBase.cpp:494
-msgid "Autosum"
-msgstr ""
-
-#: ui/CellToolBase.cpp:497
-msgid "Insert the 'sum' function"
-msgstr ""
-
-#: ui/CellToolBase.cpp:501
 msgid "&Function..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:504
+#: ui/CellToolBase.cpp:481
 msgid "Insert math expression"
 msgstr ""
 
-#: ui/CellToolBase.cpp:507
+#: ui/CellToolBase.cpp:484
 msgid "From &Database..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:511
+#: ui/CellToolBase.cpp:488
 msgid "Insert data from a SQL database"
 msgstr ""
 
-#: ui/CellToolBase.cpp:514
+#: ui/CellToolBase.cpp:491
 msgid "Custom Lists..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:517
+#: ui/CellToolBase.cpp:494
 msgid "Create custom lists for sorting or autofill"
 msgstr ""
 
-#: ui/CellToolBase.cpp:519
+#: ui/CellToolBase.cpp:496
 msgid "&Consolidate..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:522
+#: ui/CellToolBase.cpp:499
 msgid "Create a region of summary data from a group of similar regions"
 msgstr ""
 
-#: ui/CellToolBase.cpp:524
+#: ui/CellToolBase.cpp:501
 msgid "&Goal Seek..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:527
+#: ui/CellToolBase.cpp:504
 msgid "Repeating calculation to find a specific value"
 msgstr ""
 
-#: ui/CellToolBase.cpp:529
+#: ui/CellToolBase.cpp:506
 msgid "&Subtotals..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:532
+#: ui/CellToolBase.cpp:509
 msgid "Create different kind of subtotals to a list or database"
 msgstr ""
 
-#: ui/CellToolBase.cpp:534
+#: ui/CellToolBase.cpp:511
 msgid "&Pivot Tables..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:537
+#: ui/CellToolBase.cpp:514
 msgid "Create Pivot Tables"
 msgstr ""
 
-#: ui/CellToolBase.cpp:539
+#: ui/CellToolBase.cpp:516
 msgid "Area Name..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:542
+#: ui/CellToolBase.cpp:519
 msgid "Set a name for a region of the spreadsheet"
 msgstr ""
 
-#: ui/CellToolBase.cpp:544
+#: ui/CellToolBase.cpp:521
 msgid "Named Areas..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:546 ui/dialogs/NamedAreaDialog.cpp:49
+#: ui/CellToolBase.cpp:523 ui/dialogs/NamedAreaDialog.cpp:49
 msgid "Named Areas"
 msgstr ""
 
-#: ui/CellToolBase.cpp:548
+#: ui/CellToolBase.cpp:525
 msgid "Edit or select named areas"
 msgstr ""
 
-#: ui/CellToolBase.cpp:552
+#: ui/CellToolBase.cpp:529
 msgid "Formula Selection"
 msgstr ""
 
-#: ui/CellToolBase.cpp:554
+#: ui/CellToolBase.cpp:531
 msgid "Insert a function"
 msgstr ""
 
-#: ui/CellToolBase.cpp:555 ui/CellToolBase.cpp:2274
+#: ui/CellToolBase.cpp:532 ui/CellToolBase.cpp:2140
 msgid "Others..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:563
+#: ui/CellToolBase.cpp:540
 msgid "Modify Cell"
 msgstr ""
 
-#: ui/CellToolBase.cpp:567
+#: ui/CellToolBase.cpp:544
 msgid "Edit the highlighted cell"
 msgstr ""
 
-#: ui/CellToolBase.cpp:570
+#: ui/CellToolBase.cpp:547
 msgid "Move the cell object to the clipboard"
 msgstr ""
 
-#: ui/CellToolBase.cpp:574
+#: ui/CellToolBase.cpp:551
 msgid "Copy the cell object to the clipboard"
 msgstr ""
 
-#: ui/CellToolBase.cpp:578
+#: ui/CellToolBase.cpp:555
 msgid "Paste the contents of the clipboard at the cursor"
 msgstr ""
 
-#: ui/CellToolBase.cpp:581
+#: ui/CellToolBase.cpp:558
 msgid "Special Paste..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:584
+#: ui/CellToolBase.cpp:561
 msgid "Paste the contents of the clipboard with special options"
 msgstr ""
 
-#: ui/CellToolBase.cpp:586
+#: ui/CellToolBase.cpp:563
 msgid "Paste with Insertion"
 msgstr ""
 
-#: ui/CellToolBase.cpp:589
+#: ui/CellToolBase.cpp:566
 msgid "Inserts a cell from the clipboard into the spreadsheet"
 msgstr ""
 
-#: ui/CellToolBase.cpp:592
+#: ui/CellToolBase.cpp:569
 msgid "Selects all cells in the current sheet"
 msgstr ""
 
-#: ui/CellToolBase.cpp:609
+#: ui/CellToolBase.cpp:586
 msgid "Goto Cell..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:610
+#: ui/CellToolBase.cpp:587
 msgid "Goto"
 msgstr "Перайсці"
 
-#: ui/CellToolBase.cpp:614
+#: ui/CellToolBase.cpp:591
 msgid "Move to a particular cell"
 msgstr ""
 
-#: ui/CellToolBase.cpp:617
+#: ui/CellToolBase.cpp:594
 msgid "Check the spelling"
 msgstr ""
 
-#: ui/CellToolBase.cpp:620
+#: ui/CellToolBase.cpp:597
 msgid "Run Inspector..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:626
+#: ui/CellToolBase.cpp:603
 msgid "Show QTableView..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:632
+#: ui/CellToolBase.cpp:609
 msgid "Auto-Format..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:635
+#: ui/CellToolBase.cpp:612
 msgid "Set the worksheet formatting"
 msgstr ""
 
-#: ui/CellToolBase.cpp:637
+#: ui/CellToolBase.cpp:614
 msgid "Document Settings..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:640
+#: ui/CellToolBase.cpp:617
 msgid "Show document settings dialog"
 msgstr ""
 
-#: ui/CellToolBase.cpp:642
+#: ui/CellToolBase.cpp:619
 msgid "Break Before Column"
 msgstr ""
 
-#: ui/CellToolBase.cpp:645
+#: ui/CellToolBase.cpp:622
 msgid "Column Break"
 msgstr ""
 
-#: ui/CellToolBase.cpp:646
+#: ui/CellToolBase.cpp:623
 #, kde-format
 msgid "Set a manual page break before the column"
 msgstr ""
 
-#: ui/CellToolBase.cpp:648
+#: ui/CellToolBase.cpp:625
 msgid "Break Before Row"
 msgstr ""
 
-#: ui/CellToolBase.cpp:651
+#: ui/CellToolBase.cpp:628
 msgid "Row Break"
 msgstr ""
 
-#: ui/CellToolBase.cpp:652
+#: ui/CellToolBase.cpp:629
 #, kde-format
 msgid "Set a manual page break before the row"
 msgstr ""
 
-#: ui/CellToolBase.cpp:656
+#: ui/CellToolBase.cpp:633
 msgid "Permute reference fixation"
 msgstr ""
 
-#: ui/CellToolBase.cpp:660
+#: ui/CellToolBase.cpp:637
 msgid "Permute fixation"
 msgstr ""
 
-#: ui/CellToolBase.cpp:661
+#: ui/CellToolBase.cpp:638
 msgid "Permute the fixation of the reference at the text cursor"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1473
+#: ui/CellToolBase.cpp:1450
 #, kde-format
 msgid "Unable to locate action %1"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1528
+#: ui/CellToolBase.cpp:1505
 msgid "Create Style From Cell"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1537
+#: ui/CellToolBase.cpp:1514
 msgid "The style name cannot be empty."
 msgstr ""
 
-#: ui/CellToolBase.cpp:1542 ui/dialogs/LayoutDialog.cpp:199
+#: ui/CellToolBase.cpp:1519 ui/dialogs/LayoutDialog.cpp:199
 msgid "A style with this name already exists."
 msgstr ""
 
-#: ui/CellToolBase.cpp:1563 ui/CellToolBase.cpp:1577 ui/CellToolBase.cpp:1591
-#: ui/CellToolBase.cpp:1606 ui/CellToolBase.cpp:1620 ui/CellToolBase.cpp:1638
-#: ui/CellToolBase.cpp:1659 ui/CellToolBase.cpp:1672
+#: ui/CellToolBase.cpp:1540 ui/CellToolBase.cpp:1554 ui/CellToolBase.cpp:1568
+#: ui/CellToolBase.cpp:1583 ui/CellToolBase.cpp:1597 ui/CellToolBase.cpp:1615
+#: ui/CellToolBase.cpp:1636 ui/CellToolBase.cpp:1649
 msgctxt "(qtundo-format)"
 msgid "Change Font"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1692 ui/CellToolBase.cpp:1702 ui/CellToolBase.cpp:1712
+#: ui/CellToolBase.cpp:1669 ui/CellToolBase.cpp:1679 ui/CellToolBase.cpp:1689
 msgctxt "(qtundo-format)"
 msgid "Change Horizontal Alignment"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1722 ui/CellToolBase.cpp:1732 ui/CellToolBase.cpp:1742
+#: ui/CellToolBase.cpp:1699 ui/CellToolBase.cpp:1709 ui/CellToolBase.cpp:1719
 msgctxt "(qtundo-format)"
 msgid "Change Vertical Alignment"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1856
+#: ui/CellToolBase.cpp:1833
 msgctxt "(qtundo-format)"
 msgid "Wrap Text"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1868
+#: ui/CellToolBase.cpp:1845
 msgctxt "(qtundo-format)"
 msgid "Vertical Text"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1909
+#: ui/CellToolBase.cpp:1886
 msgctxt "(qtundo-format)"
 msgid "Format Percent"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1919
+#: ui/CellToolBase.cpp:1896
 msgctxt "(qtundo-format)"
 msgid "Format Money"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1949
+#: ui/CellToolBase.cpp:1926
 msgctxt "(qtundo-format)"
 msgid "Switch to uppercase"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1959
+#: ui/CellToolBase.cpp:1936
 msgctxt "(qtundo-format)"
 msgid "Switch to lowercase"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1969
+#: ui/CellToolBase.cpp:1946
 msgctxt "(qtundo-format)"
 msgid "First letter uppercase"
 msgstr ""
 
-#: ui/CellToolBase.cpp:2015
+#: ui/CellToolBase.cpp:1992
 msgctxt "(qtundo-format)"
 msgid "Clear Text"
 msgstr "Ачысціць тэкст"
 
-#: ui/CellToolBase.cpp:2039 ui/commands/CommentCommand.cpp:31
+#: ui/CellToolBase.cpp:2016 ui/commands/CommentCommand.cpp:31
 msgctxt "(qtundo-format)"
 msgid "Remove Comment"
 msgstr ""
 
-#: ui/CellToolBase.cpp:2201
+#: ui/CellToolBase.cpp:2067
 msgid "No database drivers available. To use this feature you need to install the necessary Qt database drivers."
 msgstr ""
 
-#: ui/CellToolBase.cpp:2237 ui/CellToolBase.cpp:2249
+#: ui/CellToolBase.cpp:2103 ui/CellToolBase.cpp:2115
 msgid "You must select multiple cells."
 msgstr ""
 
-#: ui/CellToolBase.cpp:2738
+#: ui/CellToolBase.cpp:2604
 msgctxt "(qtundo-format)"
 msgid "Replace"
 msgstr "Замяніць"
 
-#: ui/CellToolBase_p.cpp:715
+#: ui/CellToolBase_p.cpp:708
 #| msgid "Number Format"
 msgctxt "(qtundo-format)"
 msgid "Number Format"
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:721
+#: ui/CellToolBase_p.cpp:714
 #| msgid "Currency Format"
 msgctxt "(qtundo-format)"
 msgid "Currency Format"
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:726
+#: ui/CellToolBase_p.cpp:719
 #| msgid "Percentage Format"
 msgctxt "(qtundo-format)"
 msgid "Percentage Format"
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:731
+#: ui/CellToolBase_p.cpp:724
 #| msgid "Time Format"
 msgctxt "(qtundo-format)"
 msgid "Time Format"
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:736
+#: ui/CellToolBase_p.cpp:729
 #| msgid "Date Format"
 msgctxt "(qtundo-format)"
 msgid "Date Format"
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:741
+#: ui/CellToolBase_p.cpp:734
 #| msgid "Scientific Format"
 msgctxt "(qtundo-format)"
 msgid "Scientific Format"
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:1171
+#: ui/CellToolBase_p.cpp:1164
 msgid "Delete Cells..."
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:1175
+#: ui/CellToolBase_p.cpp:1168
 msgid "Selection List..."
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:1183
+#: ui/CellToolBase_p.cpp:1176
 #| msgid "Contents"
 msgid "Clear Comment"
 msgstr ""
@@ -13534,22 +13510,17 @@ msgctxt "(qtundo-format)"
 msgid "Change Value"
 msgstr ""
 
-#: ui/commands/DataManipulators.cpp:177
-msgctxt "(qtundo-format)"
-msgid "Fill Selection"
-msgstr ""
-
-#: ui/commands/DataManipulators.cpp:218
+#: ui/commands/DataManipulators.cpp:176
 msgctxt "(qtundo-format)"
 msgid "Change Case"
 msgstr "Змяніць рэгістр"
 
-#: ui/commands/DataManipulators.cpp:267 ui/commands/DataManipulators.cpp:278
+#: ui/commands/DataManipulators.cpp:225 ui/commands/DataManipulators.cpp:236
 msgctxt "(qtundo-format)"
 msgid "Insert Cells"
 msgstr ""
 
-#: ui/commands/DataManipulators.cpp:280
+#: ui/commands/DataManipulators.cpp:238
 msgctxt "(qtundo-format)"
 msgid "Remove Cells"
 msgstr ""
@@ -15467,6 +15438,35 @@ msgstr ""
 #: ui/strategy/HyperlinkStrategy.cpp:89
 msgid "Open Link?"
 msgstr ""
+
+#, fuzzy
+#~ msgid "&Left"
+#~ msgstr "&Леваруч"
+
+#, fuzzy
+#~ msgid "&Right"
+#~ msgstr "&Праваруч"
+
+#, fuzzy
+#~ msgid "&Up"
+#~ msgstr "&Угору"
+
+#, fuzzy
+#~ msgid "&Down"
+#~ msgstr "&Уніз"
+
+#, fuzzy
+#~ msgid "Autosum"
+#~ msgstr "Аўтасума"
+
+#, fuzzy
+#~ msgid "Insert the 'sum' function"
+#~ msgstr "Уставіць функцыю 'sum'"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Fill Selection"
+#~ msgstr "Выбар формулы"
 
 #, fuzzy
 #~ msgid "From &Text File..."
