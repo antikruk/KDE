@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-06 00:42+0000\n"
-"PO-Revision-Date: 2022-09-09 21:34\n"
+"POT-Creation-Date: 2022-09-16 00:41+0000\n"
+"PO-Revision-Date: 2022-09-24 11:20\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -2020,27 +2020,31 @@ msgstr "&Так"
 msgid "&No"
 msgstr "&Не"
 
-#: core/slaveinterface.cpp:421 core/tcpslavebase.cpp:535 widgets/sslui.cpp:69
+#: core/slaveinterface.cpp:421 core/tcpslavebase.cpp:535
+#: core/tcpworkerbase.cpp:530 widgets/sslui.cpp:69
 #, kde-format
 msgid "&Details"
 msgstr "&Падрабязнасці"
 
-#: core/slaveinterface.cpp:423 core/tcpslavebase.cpp:548 widgets/sslui.cpp:105
+#: core/slaveinterface.cpp:423 core/tcpslavebase.cpp:548
+#: core/tcpworkerbase.cpp:543 widgets/sslui.cpp:105
 #, kde-format
 msgid "&Forever"
 msgstr "&Заўсёды"
 
-#: core/slaveinterface.cpp:427 core/tcpslavebase.cpp:535 widgets/sslui.cpp:70
+#: core/slaveinterface.cpp:427 core/tcpslavebase.cpp:535
+#: core/tcpworkerbase.cpp:530 widgets/sslui.cpp:70
 #, kde-format
 msgid "Co&ntinue"
 msgstr "Пр&ацягнуць"
 
-#: core/slaveinterface.cpp:429 core/tcpslavebase.cpp:549 widgets/sslui.cpp:106
+#: core/slaveinterface.cpp:429 core/tcpslavebase.cpp:549
+#: core/tcpworkerbase.cpp:544 widgets/sslui.cpp:106
 #, kde-format
 msgid "&Current Session only"
 msgstr "Т&олькі бягучы сеанс"
 
-#: core/tcpslavebase.cpp:285
+#: core/tcpslavebase.cpp:285 core/tcpworkerbase.cpp:278
 #, kde-format
 msgid "You are about to leave secure mode. Transmissions will no longer be encrypted.\n"
 "This means that a third party could observe your data in transit."
@@ -2048,50 +2052,52 @@ msgstr "Вы збіраецеся выйсці з бяспечнага рэжы�
 "Гэта азначае, што трэці бок зможа ўбачыць вашыя даныя падчас перадачы."
 
 #: core/tcpslavebase.cpp:291 core/tcpslavebase.cpp:486
+#: core/tcpworkerbase.cpp:284 core/tcpworkerbase.cpp:480
 #, kde-format
 msgid "Security Information"
 msgstr "Звесткі пра бяспеку"
 
-#: core/tcpslavebase.cpp:292
+#: core/tcpslavebase.cpp:292 core/tcpworkerbase.cpp:285
 #, kde-format
 msgid "C&ontinue Loading"
 msgstr "П&рацягнуць загрузку"
 
-#: core/tcpslavebase.cpp:345
+#: core/tcpslavebase.cpp:345 core/tcpworkerbase.cpp:338
 #, kde-format
 msgctxt "%1 is a host name"
 msgid "%1: SSL negotiation failed"
 msgstr "%1: не ўдалося выканаць узгадненне для SSL"
 
-#: core/tcpslavebase.cpp:480
+#: core/tcpslavebase.cpp:480 core/tcpworkerbase.cpp:474
 #, kde-format
 msgid "You are about to enter secure mode. All transmissions will be encrypted unless otherwise noted.\n"
 "This means that no third party will be able to easily observe your data in transit."
 msgstr "Вы збіраецеся ўвайсці ў бяспечны рэжым. Усе перадачы будуць шыфравацца, калі не абрана іншае.\n"
 "Гэта азначае, што трэція асобы не змогуць лёгка атрымаць доступ ла вашых даных падчас перадачы."
 
-#: core/tcpslavebase.cpp:487
+#: core/tcpslavebase.cpp:487 core/tcpworkerbase.cpp:481
 #, kde-format
 msgid "Display SSL &Information"
 msgstr "Паказаць &звесткі пра SSL"
 
-#: core/tcpslavebase.cpp:488
+#: core/tcpslavebase.cpp:488 core/tcpworkerbase.cpp:482
 #, kde-format
 msgid "C&onnect"
 msgstr "Пад&лучыцца"
 
-#: core/tcpslavebase.cpp:526 widgets/sslui.cpp:58
+#: core/tcpslavebase.cpp:526 core/tcpworkerbase.cpp:521 widgets/sslui.cpp:58
 #, kde-format
 msgid "The server failed the authenticity check (%1).\n\n"
 msgstr "Сервер не прайшоў правяранне сапраўднасці (%1).\n\n"
 
-#: core/tcpslavebase.cpp:535 core/tcpslavebase.cpp:547 widgets/sslui.cpp:68
+#: core/tcpslavebase.cpp:535 core/tcpslavebase.cpp:547
+#: core/tcpworkerbase.cpp:530 core/tcpworkerbase.cpp:542 widgets/sslui.cpp:68
 #: widgets/sslui.cpp:104
 #, kde-format
 msgid "Server Authentication"
 msgstr "Аўтэнтыфікацыя сервера"
 
-#: core/tcpslavebase.cpp:544 widgets/sslui.cpp:101
+#: core/tcpslavebase.cpp:544 core/tcpworkerbase.cpp:539 widgets/sslui.cpp:101
 #, kde-format
 msgid "Would you like to accept this certificate forever without being prompted?"
 msgstr "Хочаце ўхваліць гэты сертыфікат назаўжды без пацвярджэння?"
@@ -2884,7 +2890,7 @@ msgid "<qt>This button allows you to bookmark specific locations. Click on this 
 msgstr "<qt>Гэтая кнопка дазваляе рабіць закладкі для пэўных размяшчэнняў. Націсніце на гэтую кнопку, каб адкрыць меню закладак, у якім вы можаце дадаць, адрэдагаваць або абраць закладку.<br /><br />Гэтыя закладкі адносяцца да файлавых дыялогавых акон, але ў астатнім працуюць як закладкі ў іншых месцах у KDE.</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: filewidgets/kfilewidget.cpp:1350 widgets/kpropertiesdesktopbase.ui:17
+#: filewidgets/kfilewidget.cpp:1350 widgets/kpropertiesdesktopbase.ui:25
 #, kde-format
 msgid "&Name:"
 msgstr "&Назва:"
@@ -3459,117 +3465,117 @@ msgstr "Не ўдалося атрымаць ідэнтыфікатар кары
 msgid "Could not get group id for given group name %1"
 msgstr "Не ўдалося атрымаць ідэнтыфікатар групы для пададзенай групы %1"
 
-#: ioslaves/http/http.cpp:584
+#: ioslaves/http/http.cpp:586
 #, kde-format
 msgid "No host specified."
 msgstr "Хост не вызначаны."
 
-#: ioslaves/http/http.cpp:1561
+#: ioslaves/http/http.cpp:1555
 #, kde-format
 msgid "Otherwise, the request would have succeeded."
 msgstr "Інакш запыт быў бы ўдалым."
 
-#: ioslaves/http/http.cpp:1565
+#: ioslaves/http/http.cpp:1559
 #, kde-format
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "атрымаць значэнні ўласцівасцяў"
 
-#: ioslaves/http/http.cpp:1568
+#: ioslaves/http/http.cpp:1562
 #, kde-format
 msgctxt "request type"
 msgid "set property values"
 msgstr "вызначыць значэнні ўласцівасцяў"
 
-#: ioslaves/http/http.cpp:1571
+#: ioslaves/http/http.cpp:1565
 #, kde-format
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "стварыць запытаны каталог"
 
-#: ioslaves/http/http.cpp:1574
+#: ioslaves/http/http.cpp:1568
 #, kde-format
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "скапіяваць вызначаны файл або каталог"
 
-#: ioslaves/http/http.cpp:1577
+#: ioslaves/http/http.cpp:1571
 #, kde-format
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "перамясціць вызначаны файл або каталог"
 
-#: ioslaves/http/http.cpp:1580
+#: ioslaves/http/http.cpp:1574
 #, kde-format
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "шукаць у вызначаным каталозе"
 
-#: ioslaves/http/http.cpp:1583
+#: ioslaves/http/http.cpp:1577
 #, kde-format
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "заблакаваць вызначаны файл або каталог"
 
-#: ioslaves/http/http.cpp:1586
+#: ioslaves/http/http.cpp:1580
 #, kde-format
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "разблакаваць вызначаны файл або каталог"
 
-#: ioslaves/http/http.cpp:1589
+#: ioslaves/http/http.cpp:1583
 #, kde-format
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "выдаліць вызначаны файл або каталог"
 
-#: ioslaves/http/http.cpp:1592
+#: ioslaves/http/http.cpp:1586
 #, kde-format
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "запытаць магчымасці сервера"
 
-#: ioslaves/http/http.cpp:1595
+#: ioslaves/http/http.cpp:1589
 #, kde-format
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "атрымаць змесціва вызначанага файла або каталога"
 
-#: ioslaves/http/http.cpp:1598
+#: ioslaves/http/http.cpp:1592
 #, kde-format
 msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr "запусціць стварэнне справаздачы ў вызначаным каталозе"
 
-#: ioslaves/http/http.cpp:1610
+#: ioslaves/http/http.cpp:1604
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Падчас спробы %2 адбылася нечаканая памылка (%1)."
 
-#: ioslaves/http/http.cpp:1619
+#: ioslaves/http/http.cpp:1613
 #, kde-format
 msgid "The server does not support the WebDAV protocol."
 msgstr "Сервер не падтрымлівае пратакол WebDAV."
 
-#: ioslaves/http/http.cpp:1660
+#: ioslaves/http/http.cpp:1657
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid "An error occurred while attempting to %1, %2. A summary of the reasons is below."
 msgstr "Падчас спробы %2 адбылася памылка %1. Зводка знаходзіцца ніжэй."
 
-#: ioslaves/http/http.cpp:1678 ioslaves/http/http.cpp:1814
+#: ioslaves/http/http.cpp:1675 ioslaves/http/http.cpp:1811
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "Падчас спробы %1 было адмоўлена ў доступе."
 
-#: ioslaves/http/http.cpp:1692 ioslaves/http/http.cpp:1821
+#: ioslaves/http/http.cpp:1689 ioslaves/http/http.cpp:1818
 #, kde-format
 msgid "A resource cannot be created at the destination until one or more intermediate collections (folders) have been created."
 msgstr "Немагчыма стварыць рэсурс у месцы прызначэння, пакуль не будзе створаная адна або больш калекцый (каталогаў)."
 
-#: ioslaves/http/http.cpp:1701
+#: ioslaves/http/http.cpp:1698
 #, kde-format
 msgid "The server was unable to maintain the liveness of the\n"
 "properties listed in the propertybehavior XML element\n"
@@ -3582,131 +3588,131 @@ msgstr "Сервер не змог забяспечыць працаздольн
 "гэтыя файлы не перазапісваюцца.\n"
 " %1"
 
-#: ioslaves/http/http.cpp:1709
+#: ioslaves/http/http.cpp:1706
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr "Немагчыма выканаць запытанае блакаванне. %1"
 
-#: ioslaves/http/http.cpp:1715
+#: ioslaves/http/http.cpp:1712
 #, kde-format
 msgid "The server does not support the request type of the body."
 msgstr "Сервер не падтрымлівае тып запыту цела."
 
-#: ioslaves/http/http.cpp:1720 ioslaves/http/http.cpp:1829
+#: ioslaves/http/http.cpp:1717 ioslaves/http/http.cpp:1826
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr "Не ўдалося %1, бо рэсурс заблакаваны."
 
-#: ioslaves/http/http.cpp:1724
+#: ioslaves/http/http.cpp:1721
 #, kde-format
 msgid "This action was prevented by another error."
 msgstr "Гэтае дзеянне перарвана іншай памылкай."
 
-#: ioslaves/http/http.cpp:1731 ioslaves/http/http.cpp:1836
+#: ioslaves/http/http.cpp:1728 ioslaves/http/http.cpp:1833
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the destination server refuses to accept the file or folder."
 msgstr "Не ўдалося %1, бо мэтавы сервер адмаўляецца прыняць файл або каталог."
 
-#: ioslaves/http/http.cpp:1740 ioslaves/http/http.cpp:1845
+#: ioslaves/http/http.cpp:1737 ioslaves/http/http.cpp:1842
 #, kde-format
 msgid "The destination resource does not have sufficient space to record the state of the resource after the execution of this method."
 msgstr "Мэтавы рэсурс не мае месца для запісу стану рэсурсу пасля выканання гэтага метаду."
 
-#: ioslaves/http/http.cpp:1792
+#: ioslaves/http/http.cpp:1789
 #, kde-format
 msgid "The resource cannot be deleted."
 msgstr "Не ўдалося выдаліць рэсурс."
 
-#: ioslaves/http/http.cpp:1805
+#: ioslaves/http/http.cpp:1802
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
 msgstr "запампаваць %1"
 
-#: ioslaves/http/http.cpp:1856
+#: ioslaves/http/http.cpp:1853
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Падчас спробы %2 адбылася нечаканая памылка (%1)."
 
-#: ioslaves/http/http.cpp:2665
+#: ioslaves/http/http.cpp:2658
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 знойдзена. Чаканне адказу..."
 
-#: ioslaves/http/http.cpp:2993
+#: ioslaves/http/http.cpp:2984
 #, kde-format
 msgctxt "@info Security check on url being accessed"
 msgid "<p>You are about to log in to the site \"%1\" with the username \"%2\", but the website does not require authentication. This may be an attempt to trick you.</p><p>Is \"%1\" the site you want to visit?</p>"
 msgstr "<p>Вы хочаце ўвайсці на сайт \"%1\" пад імем карыстальніка \"%2\", але пры наведванні гэта сайта няма патрэбы выконваць аўтэнтыфікацыю. Гэта можа быць спробай падмануць вас.</p><p>Ці \"%1\" сапраўды той сайт, які вы хочаце наведаць?</p>"
 
-#: ioslaves/http/http.cpp:3000
+#: ioslaves/http/http.cpp:2991
 #, kde-format
 msgctxt "@title:window"
 msgid "Confirm Website Access"
 msgstr "Пацвярджэнне доступу да вэб-сайта"
 
-#: ioslaves/http/http.cpp:3089
+#: ioslaves/http/http.cpp:3082
 #, kde-format
 msgid "Server processing request, please wait..."
 msgstr "Сервер апрацоўвае запыт. Калі ласка, пачакайце..."
 
-#: ioslaves/http/http.cpp:3787 ioslaves/http/http.cpp:3846
+#: ioslaves/http/http.cpp:3777 ioslaves/http/http.cpp:3832
 #, kde-format
 msgid "Sending data to %1"
 msgstr "Адпраўленне даных на %1"
 
-#: ioslaves/http/http.cpp:4300
+#: ioslaves/http/http.cpp:4277
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "Атрыманне %1 з %2..."
 
-#: ioslaves/http/http.cpp:5194 ioslaves/http/http.cpp:5328
+#: ioslaves/http/http.cpp:5167 ioslaves/http/http.cpp:5302
 #: kioworkers/ftp/ftp.cpp:2509
 #, kde-format
 msgid "You need to supply a username and a password for the proxy server listed below before you are allowed to access any sites."
 msgstr "Перш чым вам будзе дазволены доступ да розных сайтаў, трэба пазначыць імя карыстальніка і пароль для сервера проксі."
 
-#: ioslaves/http/http.cpp:5198 ioslaves/http/http.cpp:5331
+#: ioslaves/http/http.cpp:5171 ioslaves/http/http.cpp:5305
 #: kioworkers/ftp/ftp.cpp:2513
 #, kde-format
 msgid "Proxy:"
 msgstr "Проксі:"
 
-#: ioslaves/http/http.cpp:5199 ioslaves/http/http.cpp:5435
+#: ioslaves/http/http.cpp:5172 ioslaves/http/http.cpp:5409
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> на <b>%2</b>"
 
-#: ioslaves/http/http.cpp:5201 ioslaves/http/http.cpp:5346
+#: ioslaves/http/http.cpp:5174 ioslaves/http/http.cpp:5320
 #: kioworkers/ftp/ftp.cpp:2516
 #, kde-format
 msgid "Proxy Authentication Failed."
 msgstr "Памылка аўтэнтыфікацыі проксі."
 
-#: ioslaves/http/http.cpp:5313 kioworkers/ftp/ftp.cpp:561
+#: ioslaves/http/http.cpp:5287 kioworkers/ftp/ftp.cpp:561
 #, kde-format
 msgid "You need to supply a username and a password to access this site."
 msgstr "Каб атрымаць доступ да гэтага сайта, трэба пазначыць імя карыстальніка і пароль."
 
-#: ioslaves/http/http.cpp:5315 kioworkers/ftp/ftp.cpp:563
+#: ioslaves/http/http.cpp:5289 kioworkers/ftp/ftp.cpp:563
 #, kde-format
 msgid "Site:"
 msgstr "Сайт:"
 
-#: ioslaves/http/http.cpp:5346
+#: ioslaves/http/http.cpp:5320
 #, kde-format
 msgid "Authentication Failed."
 msgstr "Памылка аўтэнтыфікацыі."
 
-#: ioslaves/http/http.cpp:5473
+#: ioslaves/http/http.cpp:5447
 #, kde-format
 msgid "Authorization failed."
 msgstr "Не ўдалося выканаць аўтарызацыю."
 
-#: ioslaves/http/http.cpp:5490
+#: ioslaves/http/http.cpp:5464
 #, kde-format
 msgid "Unknown Authorization method."
 msgstr "Невядомы метад аўтарызацыі."
@@ -6036,7 +6042,7 @@ msgstr "Уласнік"
 msgid "Owning Group"
 msgstr "Група валодання"
 
-#: widgets/kacleditwidget.cpp:410 widgets/kpropertiesdialog.cpp:2134
+#: widgets/kacleditwidget.cpp:410 widgets/kpropertiesdialog.cpp:2135
 #, kde-format
 msgid "Others"
 msgstr "Іншыя"
@@ -6616,40 +6622,40 @@ msgstr "Рэгістрацыя D-Bus:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, nameLabel)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, nameEdit)
-#: widgets/kpropertiesdesktopbase.ui:14 widgets/kpropertiesdesktopbase.ui:27
+#: widgets/kpropertiesdesktopbase.ui:22 widgets/kpropertiesdesktopbase.ui:35
 #, kde-format
 msgid "Type the name you want to give to this application here. This application will appear under this name in the applications menu and in the panel."
 msgstr "Увядзіце назву, якую вы хочаце даць гэтай праграме. Яна будзе паказвацца ў меню праграм і на панэлі."
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, genNameEdit)
-#: widgets/kpropertiesdesktopbase.ui:34 widgets/kpropertiesdesktopbase.ui:47
+#: widgets/kpropertiesdesktopbase.ui:42 widgets/kpropertiesdesktopbase.ui:55
 #, kde-format
 msgid "Type the description of this application, based on its use, here. Examples: a dial up application (KPPP) would be \"Dial up tool\"."
 msgstr "Увядзіце тут апісанне гэтай праграмы паводле яе прызначэння. Напрыклад: праграма камутаванага доступу (KPPP) будзе \"Інструмент камутаванага доступу\"."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: widgets/kpropertiesdesktopbase.ui:37
+#: widgets/kpropertiesdesktopbase.ui:45
 #, kde-format
 msgid "&Description:"
 msgstr "&Апісанне:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, commentEdit)
-#: widgets/kpropertiesdesktopbase.ui:54 widgets/kpropertiesdesktopbase.ui:67
+#: widgets/kpropertiesdesktopbase.ui:62 widgets/kpropertiesdesktopbase.ui:75
 #, kde-format
 msgid "Type any comment you think is useful here."
 msgstr "Увядзіце тут карысны каментар."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: widgets/kpropertiesdesktopbase.ui:57
+#: widgets/kpropertiesdesktopbase.ui:65
 #, kde-format
 msgid "Comm&ent:"
 msgstr "Кам&ентар:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, commandEdit)
-#: widgets/kpropertiesdesktopbase.ui:84 widgets/kpropertiesdesktopbase.ui:109
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, programEdit)
+#: widgets/kpropertiesdesktopbase.ui:92 widgets/kpropertiesdesktopbase.ui:117
 #, no-c-format, kde-format
 msgid "Type the command to start this application here.\n\n"
 "Following the command, you can have several placeholders which will be replaced with the actual values when the actual program is run:\n\n"
@@ -6671,39 +6677,46 @@ msgstr "Увядзіце тут загад для запуску гэтай пр
 " %k - размяшчэнне файла працоўнага стала (.desktop)"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: widgets/kpropertiesdesktopbase.ui:87
+#: widgets/kpropertiesdesktopbase.ui:95
 #, kde-format
-msgid "Co&mmand:"
-msgstr "Зага&д:"
+msgid "Program:"
+msgstr "Праграма:"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, browseButton)
-#: widgets/kpropertiesdesktopbase.ui:116
+#: widgets/kpropertiesdesktopbase.ui:124
 #, kde-format
 msgid "Click here to browse your file system in order to find the desired executable."
 msgstr "Націсніце тут, каб аглядзець файлавую сістэму і абраць неабходны выканальны файл."
 
 #. i18n: ectx: property (text), widget (QPushButton, browseButton)
-#: widgets/kpropertiesdesktopbase.ui:119
+#: widgets/kpropertiesdesktopbase.ui:127
 #, kde-format
 msgid "&Browse..."
 msgstr "&Агляд..."
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel5)
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, pathEdit)
-#: widgets/kpropertiesdesktopbase.ui:128 widgets/kpropertiesdesktopbase.ui:141
+#: widgets/kpropertiesdesktopbase.ui:136 widgets/kpropertiesdesktopbase.ui:149
 #, kde-format
 msgid "Sets the working directory for your application."
 msgstr "Вызначае працоўны каталог для праграмы."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: widgets/kpropertiesdesktopbase.ui:131
+#: widgets/kpropertiesdesktopbase.ui:139
 #, kde-format
 msgid "&Work path:"
 msgstr "&Працоўны шлях:"
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: widgets/kpropertiesdesktopbase.ui:156
+#| msgctxt "KFile System Bookmarks"
+#| msgid "Documents"
+msgid "Arguments:"
+msgstr "Аргументы:"
+
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel7)
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, filetypeList)
-#: widgets/kpropertiesdesktopbase.ui:155 widgets/kpropertiesdesktopbase.ui:176
+#: widgets/kpropertiesdesktopbase.ui:173 widgets/kpropertiesdesktopbase.ui:194
 #, kde-format
 msgid "<qt><p>This list should show the types of file that your application can handle. This list is organized by <u>mimetypes</u>.</p>\n"
 "<p>MIME, Multipurpose Internet (e)Mail Extension, is a standard protocol for identifying the type of data based on filename extensions and correspondent <u>mimetypes</u>. Example: the \"bmp\" part that comes after the dot in flower.bmp indicates that it is a specific kind of image, <u>image/x-bmp</u>. To know which application should open each type of file, the system should be informed about the abilities of each application to handle these extensions and mimetypes.</p>\n"
@@ -6713,73 +6726,73 @@ msgstr "<qt><p>У гэтым спісе павінны паказвацца ты
 " <p>Калі вы хочаце звязаць гэтую праграму з адным ці некалькімі тыпамі mime, якіх няма ў гэтым спісе, націсніце кнопку <b>Дадаць</b>. Калі ёсць адзін або некалькі тыпаў файлаў, якія гэтая праграма не можа апрацоўваць, вы можаце выдаліць іх са спіса, націснуўшы кнопку <b>Выдаліць</b>.</p></qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel7)
-#: widgets/kpropertiesdesktopbase.ui:158
+#: widgets/kpropertiesdesktopbase.ui:176
 #, kde-format
 msgid "&Supported file types:"
 msgstr "&Тыпы файлаў, якія падтрымліваюцца:"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, filetypeList)
-#: widgets/kpropertiesdesktopbase.ui:189
+#: widgets/kpropertiesdesktopbase.ui:207
 #, kde-format
 msgid "Mimetype"
 msgstr "Тып MIME"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, filetypeList)
-#: widgets/kpropertiesdesktopbase.ui:194
+#: widgets/kpropertiesdesktopbase.ui:212
 #, kde-format
 msgid "Description"
 msgstr "Апісанне"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, addFiletypeButton)
-#: widgets/kpropertiesdesktopbase.ui:204
+#: widgets/kpropertiesdesktopbase.ui:222
 #, kde-format
 msgid "Click on this button if you want to add a type of file (mimetype) that your application can handle."
 msgstr "Націсніце на гэтую кнопку, каб дадаць тып файлаў (тып MIME), з якім можа працаваць праграма."
 
 #. i18n: ectx: property (text), widget (QPushButton, addFiletypeButton)
-#: widgets/kpropertiesdesktopbase.ui:207
+#: widgets/kpropertiesdesktopbase.ui:225
 #, kde-format
 msgid "Add..."
 msgstr "Дадаць..."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, delFiletypeButton)
-#: widgets/kpropertiesdesktopbase.ui:214
+#: widgets/kpropertiesdesktopbase.ui:232
 #, kde-format
 msgid "If you want to remove a type of file (mimetype) that your application cannot handle, select the mimetype in the list above and click on this button."
 msgstr "Калі вы хочаце выдаліць тып файлаў (тып MIME), з якім праграма не можа працаваць, абярыце тып MIME са спіса і націсніце на гэтую кнопку."
 
 #. i18n: ectx: property (text), widget (QPushButton, delFiletypeButton)
-#: widgets/kpropertiesdesktopbase.ui:217
+#: widgets/kpropertiesdesktopbase.ui:235
 #, kde-format
 msgid "Remove"
 msgstr "Выдаліць"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, advancedButton)
-#: widgets/kpropertiesdesktopbase.ui:240
+#: widgets/kpropertiesdesktopbase.ui:258
 #, kde-format
 msgid "Click here to modify the way this application will run, launch feedback, D-Bus options or to run it as a different user."
 msgstr "Пстрыкніце тут, каб змяніць спосаб запуску гэтай праграмы, пазначэнне заруску, параметры D-Bus або запусціць ад імя іншага карыстальніка."
 
 #. i18n: ectx: property (text), widget (QPushButton, advancedButton)
-#: widgets/kpropertiesdesktopbase.ui:243
+#: widgets/kpropertiesdesktopbase.ui:261
 #, kde-format
 msgid "Ad&vanced Options"
 msgstr "Ад&мысловыя параметры"
 
-#: widgets/kpropertiesdialog.cpp:175
+#: widgets/kpropertiesdialog.cpp:176
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not save properties due to insufficient write access to:<nl/><filename>%1</filename>."
 msgstr "Не ўдалося захаваць уласцівасці праз адсутнасць правоў на запіс у:<nl/><filename>%1</filename>."
 
-#: widgets/kpropertiesdialog.cpp:232 widgets/kpropertiesdialog.cpp:247
-#: widgets/kpropertiesdialog.cpp:259 widgets/kpropertiesdialog.cpp:277
-#: widgets/kpropertiesdialog.cpp:295 widgets/kpropertiesdialog.cpp:319
+#: widgets/kpropertiesdialog.cpp:233 widgets/kpropertiesdialog.cpp:248
+#: widgets/kpropertiesdialog.cpp:260 widgets/kpropertiesdialog.cpp:278
+#: widgets/kpropertiesdialog.cpp:296 widgets/kpropertiesdialog.cpp:320
 #, kde-format
 msgid "Properties for %1"
 msgstr "Уласцівасці для %1"
 
-#: widgets/kpropertiesdialog.cpp:257 widgets/kpropertiesdialog.cpp:293
+#: widgets/kpropertiesdialog.cpp:258 widgets/kpropertiesdialog.cpp:294
 #| msgid "Properties for 1 item"
 #| msgid_plural "Properties for %1 Selected Items"
 msgid "Properties for 1 item"
@@ -6789,54 +6802,54 @@ msgstr[1] "Уласцівасці для %1 абраных элементаў"
 msgstr[2] "Уласцівасці для %1 абраных элементаў"
 msgstr[3] "Уласцівасці для %1 абраных элементаў"
 
-#: widgets/kpropertiesdialog.cpp:449
+#: widgets/kpropertiesdialog.cpp:450
 #, kde-format
 msgctxt "@title:tab"
 msgid "Share"
 msgstr "Абагульванне"
 
-#: widgets/kpropertiesdialog.cpp:916
+#: widgets/kpropertiesdialog.cpp:917
 #, kde-format
 msgctxt "@title:tab File properties"
 msgid "&General"
 msgstr "&Асноўнае"
 
-#: widgets/kpropertiesdialog.cpp:1114
+#: widgets/kpropertiesdialog.cpp:1115
 #, kde-format
 msgctxt "@action:button"
 msgid "Explore in %1"
 msgstr "Пошук у %1"
 
-#: widgets/kpropertiesdialog.cpp:1125 widgets/kpropertiesdialog.cpp:1390
+#: widgets/kpropertiesdialog.cpp:1126 widgets/kpropertiesdialog.cpp:1391
 #, kde-format
 msgid "Refresh"
 msgstr "Абнавіць"
 
-#: widgets/kpropertiesdialog.cpp:1240
+#: widgets/kpropertiesdialog.cpp:1241
 #, kde-format
 msgid "%1:"
 msgstr "%1:"
 
-#: widgets/kpropertiesdialog.cpp:1350
+#: widgets/kpropertiesdialog.cpp:1351
 #, kde-format
 msgctxt "Available space out of total partition size (percent used)"
 msgid "%1 free of %2 (%3% used)"
 msgstr "Вольна %1 з %2 (%3% выкарыстоўваецца)"
 
-#: widgets/kpropertiesdialog.cpp:1357
+#: widgets/kpropertiesdialog.cpp:1358
 #, kde-format
 msgctxt "@info:status"
 msgid "Unknown size"
 msgstr "Невядомы памер"
 
-#: widgets/kpropertiesdialog.cpp:1367
+#: widgets/kpropertiesdialog.cpp:1368
 #, kde-format
 msgid "Calculating... %1 (%2)\n"
 "%3, %4"
 msgstr "Падлік... %1 (%2)\n"
 "%3, %4"
 
-#: widgets/kpropertiesdialog.cpp:1370 widgets/kpropertiesdialog.cpp:1385
+#: widgets/kpropertiesdialog.cpp:1371 widgets/kpropertiesdialog.cpp:1386
 #, kde-format
 msgid "1 file"
 msgid_plural "%1 files"
@@ -6845,7 +6858,7 @@ msgstr[1] "%1 файлы"
 msgstr[2] "%1 файлаў"
 msgstr[3] "%1 файлы"
 
-#: widgets/kpropertiesdialog.cpp:1371 widgets/kpropertiesdialog.cpp:1386
+#: widgets/kpropertiesdialog.cpp:1372 widgets/kpropertiesdialog.cpp:1387
 #| msgid "1 sub-folder"
 #| msgid_plural "%1 sub-folders"
 msgid "1 sub-folder"
@@ -6855,83 +6868,83 @@ msgstr[1] "%1 укладзеныя каталогі"
 msgstr[2] "%1 укладзеных каталогаў"
 msgstr[3] "%1 укладзеныя каталогі"
 
-#: widgets/kpropertiesdialog.cpp:1399
+#: widgets/kpropertiesdialog.cpp:1400
 #, kde-format
 msgid "Calculating...\n"
 msgstr "Падлік...\n"
 
-#: widgets/kpropertiesdialog.cpp:1422
+#: widgets/kpropertiesdialog.cpp:1423
 #, kde-format
 msgid "At least %1\n"
 msgstr "Прынамсі %1\n"
 
-#: widgets/kpropertiesdialog.cpp:1468
+#: widgets/kpropertiesdialog.cpp:1469
 #, kde-format
 msgid "The new file name is empty."
 msgstr "Новая назва файла пустая."
 
-#: widgets/kpropertiesdialog.cpp:1666
+#: widgets/kpropertiesdialog.cpp:1667
 #, kde-format
 msgid "No registered file type"
 msgstr "Незарэгістраваны тып файла"
 
-#: widgets/kpropertiesdialog.cpp:1668
+#: widgets/kpropertiesdialog.cpp:1669
 #, kde-format
 msgid "No associated application"
 msgstr "Няма звязаных праграм"
 
-#: widgets/kpropertiesdialog.cpp:1674
+#: widgets/kpropertiesdialog.cpp:1675
 #, kde-format
 msgctxt "@action:button Create new file type"
 msgid "Create…"
 msgstr "Стварыць…"
 
-#: widgets/kpropertiesdialog.cpp:1677
+#: widgets/kpropertiesdialog.cpp:1678
 #, kde-format
 msgctxt "@action:button"
 msgid "Change…"
 msgstr "Змяніць…"
 
-#: widgets/kpropertiesdialog.cpp:1753 widgets/kpropertiesdialog.cpp:1754
-#: widgets/kpropertiesdialog.cpp:1756
+#: widgets/kpropertiesdialog.cpp:1754 widgets/kpropertiesdialog.cpp:1755
+#: widgets/kpropertiesdialog.cpp:1757
 msgid "No Access"
 msgstr "Няма доступу"
 
-#: widgets/kpropertiesdialog.cpp:1753
+#: widgets/kpropertiesdialog.cpp:1754
 msgid "Can Only View"
 msgstr "Можна толькі праглядаць"
 
-#: widgets/kpropertiesdialog.cpp:1753
+#: widgets/kpropertiesdialog.cpp:1754
 msgid "Can View & Modify"
 msgstr "Можна праглядаць і змяняць"
 
-#: widgets/kpropertiesdialog.cpp:1754
+#: widgets/kpropertiesdialog.cpp:1755
 msgid "Can Only View Content"
 msgstr "Можна толькі праглядаць змесціва"
 
-#: widgets/kpropertiesdialog.cpp:1754
+#: widgets/kpropertiesdialog.cpp:1755
 msgid "Can View & Modify Content"
 msgstr "Можна праглядаць і змяняць змесціва"
 
-#: widgets/kpropertiesdialog.cpp:1756
+#: widgets/kpropertiesdialog.cpp:1757
 msgid "Can Only View/Read Content"
 msgstr "Можна толькі праглядаць і запісваць змесціва"
 
-#: widgets/kpropertiesdialog.cpp:1756
+#: widgets/kpropertiesdialog.cpp:1757
 msgid "Can View/Read & Modify/Write"
 msgstr "Можна праглядаць/чытаць і змяняць/запісваць"
 
-#: widgets/kpropertiesdialog.cpp:1855
+#: widgets/kpropertiesdialog.cpp:1856
 #, kde-format
 msgid "&Permissions"
 msgstr "&Правы доступу"
 
-#: widgets/kpropertiesdialog.cpp:1867 widgets/kpropertiesdialog.cpp:2063
+#: widgets/kpropertiesdialog.cpp:1868 widgets/kpropertiesdialog.cpp:2064
 #, kde-format
 msgid "Access Permissions"
 msgstr "Правы доступу"
 
-#: widgets/kpropertiesdialog.cpp:1876
+#: widgets/kpropertiesdialog.cpp:1877
 #, kde-format
 msgid "This file is a link and does not have permissions."
 msgid_plural "All files are links and do not have permissions."
@@ -6940,243 +6953,243 @@ msgstr[1] "Усе файлы - спасылкі, для іх няма право
 msgstr[2] "Усе файлы - спасылкі, для іх няма правоў доступу."
 msgstr[3] "Усе файлы - спасылкі, для іх няма правоў доступу."
 
-#: widgets/kpropertiesdialog.cpp:1878
+#: widgets/kpropertiesdialog.cpp:1879
 #, kde-format
 msgid "Only the owner can change permissions."
 msgstr "Толькі ўласнік можа змяняць правы доступу."
 
-#: widgets/kpropertiesdialog.cpp:1882
+#: widgets/kpropertiesdialog.cpp:1883
 #, kde-format
 msgid "O&wner:"
 msgstr "У&ласнік:"
 
-#: widgets/kpropertiesdialog.cpp:1888
+#: widgets/kpropertiesdialog.cpp:1889
 #, kde-format
 msgid "Specifies the actions that the owner is allowed to do."
 msgstr "Вызначае дзеянні, якія дазволена рабіць уласніку."
 
-#: widgets/kpropertiesdialog.cpp:1890
+#: widgets/kpropertiesdialog.cpp:1891
 #, kde-format
 msgid "Gro&up:"
 msgstr "Гр&упа:"
 
-#: widgets/kpropertiesdialog.cpp:1896
+#: widgets/kpropertiesdialog.cpp:1897
 #, kde-format
 msgid "Specifies the actions that the members of the group are allowed to do."
 msgstr "Вызначае дзеянні, якія дазволена рабіць удзельнікам групы."
 
-#: widgets/kpropertiesdialog.cpp:1898
+#: widgets/kpropertiesdialog.cpp:1899
 #, kde-format
 msgid "O&thers:"
 msgstr "І&ншыя:"
 
-#: widgets/kpropertiesdialog.cpp:1905
+#: widgets/kpropertiesdialog.cpp:1906
 #, kde-format
 msgid "Specifies the actions that all users, who are neither owner nor in the group, are allowed to do."
 msgstr "Вызначае дзеянні, якія дазволена рабіць усім карыстальнікам, якія не валодаюць гэтым файлаі і не ўдзельнічаюць у групе."
 
-#: widgets/kpropertiesdialog.cpp:1909
+#: widgets/kpropertiesdialog.cpp:1910
 #, kde-format
 msgid "Only own&er can rename and delete folder content"
 msgstr "Толькі ўла&снік можа змяняць назву і выдаляць змесціва каталога"
 
-#: widgets/kpropertiesdialog.cpp:1909
+#: widgets/kpropertiesdialog.cpp:1910
 #, kde-format
 msgid "Is &executable"
 msgstr "&Выканальны файл"
 
-#: widgets/kpropertiesdialog.cpp:1912
+#: widgets/kpropertiesdialog.cpp:1913
 #, kde-format
 msgid "Enable this option to allow only the folder's owner to delete or rename the contained files and folders. Other users can only add new files, which requires the 'Modify Content' permission."
 msgstr "Уключыце гэты параметр, каб толькі ўласнік каталога мог выдаляць або змяняць назвы ўкладзеных у яе файлаў і каталогаў. Іншыя карыстальнікі могуць толькі дадаваць новыя файлы, на што патрэбныя правы на змену змесціва."
 
-#: widgets/kpropertiesdialog.cpp:1916
+#: widgets/kpropertiesdialog.cpp:1917
 #, kde-format
 msgid "Enable this option to mark the file as executable. This only makes sense for programs and scripts. It is required when you want to execute them."
 msgstr "Уключыце гэты параметр, каб пазначыць файл як выканальны. Гэта мае сэнс толькі для праграм і скрыптоў. Гэта патрэбна для іх выканання."
 
-#: widgets/kpropertiesdialog.cpp:1923
+#: widgets/kpropertiesdialog.cpp:1924
 #, kde-format
 msgid "A&dvanced Permissions"
 msgstr "А&дмысловыя правы доступу"
 
-#: widgets/kpropertiesdialog.cpp:1931
+#: widgets/kpropertiesdialog.cpp:1932
 #, kde-format
 msgid "Ownership"
 msgstr "Валоданне"
 
-#: widgets/kpropertiesdialog.cpp:1938
+#: widgets/kpropertiesdialog.cpp:1939
 #, kde-format
 msgid "User:"
 msgstr "Карыстальнік:"
 
-#: widgets/kpropertiesdialog.cpp:1977
+#: widgets/kpropertiesdialog.cpp:1978
 #, kde-format
 msgid "Group:"
 msgstr "Група:"
 
-#: widgets/kpropertiesdialog.cpp:2012
+#: widgets/kpropertiesdialog.cpp:2013
 #, kde-format
 msgid "Apply changes to all subfolders and their contents"
 msgstr "Ужыць змены да ўсіх укладзеных каталогаў і іх змесціва"
 
-#: widgets/kpropertiesdialog.cpp:2054
+#: widgets/kpropertiesdialog.cpp:2055
 #, kde-format
 msgid "Advanced Permissions"
 msgstr "Адмысловыя правы доступу"
 
-#: widgets/kpropertiesdialog.cpp:2071
+#: widgets/kpropertiesdialog.cpp:2072
 #, kde-format
 msgid "Class"
 msgstr "Клас"
 
-#: widgets/kpropertiesdialog.cpp:2078
+#: widgets/kpropertiesdialog.cpp:2079
 #, kde-format
 msgid "Show\n"
 "Entries"
 msgstr "Прагляд\n"
 "элементаў"
 
-#: widgets/kpropertiesdialog.cpp:2079
+#: widgets/kpropertiesdialog.cpp:2080
 #, kde-format
 msgid "This flag allows viewing the content of the folder."
 msgstr "Гэты сцяг дазваляе прагляд змесціва каталога."
 
-#: widgets/kpropertiesdialog.cpp:2081
+#: widgets/kpropertiesdialog.cpp:2082
 #, kde-format
 msgid "Read"
 msgstr "Чытанне"
 
-#: widgets/kpropertiesdialog.cpp:2082
+#: widgets/kpropertiesdialog.cpp:2083
 #, kde-format
 msgid "The Read flag allows viewing the content of the file."
 msgstr "Сцяг чытання дазваляе праглядаць змесціва файла."
 
-#: widgets/kpropertiesdialog.cpp:2088
+#: widgets/kpropertiesdialog.cpp:2089
 #, kde-format
 msgid "Write\n"
 "Entries"
 msgstr "Запіс\n"
 "элементаў"
 
-#: widgets/kpropertiesdialog.cpp:2090
+#: widgets/kpropertiesdialog.cpp:2091
 #, kde-format
 msgid "This flag allows adding, renaming and deleting of files. Note that deleting and renaming can be limited using the Sticky flag."
 msgstr "Гэты сцяг дазваляе дадаваць, змяняць назву і выдаляць файлы. Звярніце ўвагу на тое, што функцыі выдалення і змены назвы могуць быць абмежаваныя сцягам замацавання."
 
-#: widgets/kpropertiesdialog.cpp:2093
+#: widgets/kpropertiesdialog.cpp:2094
 #, kde-format
 msgid "Write"
 msgstr "Запіс"
 
-#: widgets/kpropertiesdialog.cpp:2094
+#: widgets/kpropertiesdialog.cpp:2095
 #, kde-format
 msgid "The Write flag allows modifying the content of the file."
 msgstr "Сцяг запісу дазваляе змяняць змесціва файла."
 
-#: widgets/kpropertiesdialog.cpp:2100
+#: widgets/kpropertiesdialog.cpp:2101
 #, kde-format
 msgctxt "Enter folder"
 msgid "Enter"
 msgstr "Увод"
 
-#: widgets/kpropertiesdialog.cpp:2101
+#: widgets/kpropertiesdialog.cpp:2102
 #, kde-format
 msgid "Enable this flag to allow entering the folder."
 msgstr "Адзначце гэты сцяг, каб дазволіць пераход у гэты каталог."
 
-#: widgets/kpropertiesdialog.cpp:2103
+#: widgets/kpropertiesdialog.cpp:2104
 #, kde-format
 msgid "Exec"
 msgstr "Выкананне"
 
-#: widgets/kpropertiesdialog.cpp:2104
+#: widgets/kpropertiesdialog.cpp:2105
 #, kde-format
 msgid "Enable this flag to allow executing the file as a program."
 msgstr "Адзначце гэты сцяг, каб дазволіць выкананне гэтага файла."
 
-#: widgets/kpropertiesdialog.cpp:2112
+#: widgets/kpropertiesdialog.cpp:2113
 #, kde-format
 msgid "Special"
 msgstr "Адмысловы"
 
-#: widgets/kpropertiesdialog.cpp:2117
+#: widgets/kpropertiesdialog.cpp:2118
 #, kde-format
 msgid "Special flag. Valid for the whole folder, the exact meaning of the flag can be seen in the right hand column."
 msgstr "Адмысловы сцяг. Дзейнічае для ўсяго каталога. Дакладнае значэнне гэтага сцяга можна паглядзець у правым слупку."
 
-#: widgets/kpropertiesdialog.cpp:2121
+#: widgets/kpropertiesdialog.cpp:2122
 #, kde-format
 msgid "Special flag. The exact meaning of the flag can be seen in the right hand column."
 msgstr "Адмысловы сцяг. Дакладнае значэнне гэтага сцяга можна паглядзець у правым слупку."
 
-#: widgets/kpropertiesdialog.cpp:2126
+#: widgets/kpropertiesdialog.cpp:2127
 #, kde-format
 msgid "User"
 msgstr "Карыстальнік"
 
-#: widgets/kpropertiesdialog.cpp:2130
+#: widgets/kpropertiesdialog.cpp:2131
 #, kde-format
 msgid "Group"
 msgstr "Група"
 
-#: widgets/kpropertiesdialog.cpp:2141
+#: widgets/kpropertiesdialog.cpp:2142
 #, kde-format
 msgid "If this flag is set, the owner of this folder will be the owner of all new files."
 msgstr "Калі адзначаны гэты сцяг, уласнік гэтага каталога будзе ўласнікам усіх новых файлаў."
 
-#: widgets/kpropertiesdialog.cpp:2145
+#: widgets/kpropertiesdialog.cpp:2146
 #, kde-format
 msgid "If this file is an executable and the flag is set, it will be executed with the permissions of the owner."
 msgstr "Калі гэты файл выканальны і сцяг уключаны, ён будзе выконвацца з правамі ўласніка гэтага файла."
 
-#: widgets/kpropertiesdialog.cpp:2152
+#: widgets/kpropertiesdialog.cpp:2153
 #, kde-format
 msgid "If this flag is set, the group of this folder will be set for all new files."
 msgstr "Калі адзначаны гэты сцяг, група гэтага каталога будзе групай для ўсіх новых файлаў."
 
-#: widgets/kpropertiesdialog.cpp:2156
+#: widgets/kpropertiesdialog.cpp:2157
 #, kde-format
 msgid "If this file is an executable and the flag is set, it will be executed with the permissions of the group."
 msgstr "Калі гэты файл выканальны і гэты сцяг адзначаны, ён будзе выконвацца з правамі групы гэтага файла."
 
-#: widgets/kpropertiesdialog.cpp:2163
+#: widgets/kpropertiesdialog.cpp:2164
 #, kde-format
 msgid "If the Sticky flag is set on a folder, only the owner and root can delete or rename files. Otherwise everybody with write permissions can do this."
 msgstr "Калі для каталога вызначаны сцяг сцяг замацавання, толькі ўласнік і суперкарыстальнік змогуць выдаляць і змяняць назвы файлаў. Інакш кожны з правамі на запіс будзе мець магчымасць выдаляць і змяняць назвы."
 
-#: widgets/kpropertiesdialog.cpp:2168
+#: widgets/kpropertiesdialog.cpp:2169
 #, kde-format
 msgid "The Sticky flag on a file is ignored on Linux, but may be used on some systems"
 msgstr "Сцяг замацавання файлаў ігнаруецца ў Linux, але можа выкарыстоўвацца ў іншых сістэмах"
 
-#: widgets/kpropertiesdialog.cpp:2229
+#: widgets/kpropertiesdialog.cpp:2230
 #, kde-format
 msgid "Set UID"
 msgstr "Прызначыць UID"
 
-#: widgets/kpropertiesdialog.cpp:2233
+#: widgets/kpropertiesdialog.cpp:2234
 #, kde-format
 msgid "Set GID"
 msgstr "Прызначыць GID"
 
-#: widgets/kpropertiesdialog.cpp:2237
+#: widgets/kpropertiesdialog.cpp:2238
 #, kde-format
 msgctxt "File permission"
 msgid "Sticky"
 msgstr "Замацавана"
 
-#: widgets/kpropertiesdialog.cpp:2342
+#: widgets/kpropertiesdialog.cpp:2345
 #, kde-format
 msgid "Link"
 msgstr "Спасылка"
 
-#: widgets/kpropertiesdialog.cpp:2362
+#: widgets/kpropertiesdialog.cpp:2365
 #, kde-format
 msgid "Varying (No Change)"
 msgstr "Змяняецца (без змен)"
 
-#: widgets/kpropertiesdialog.cpp:2473
+#: widgets/kpropertiesdialog.cpp:2476
 #, kde-format
 msgid "This file uses advanced permissions"
 msgid_plural "These files use advanced permissions."
@@ -7185,7 +7198,7 @@ msgstr[1] "Гэтыя файлы выкарыстоўваюць адмыслов
 msgstr[2] "Гэтыя файлы выкарыстоўваюць адмысловыя правы доступу."
 msgstr[3] "Гэтыя файлы выкарыстоўваюць адмысловыя правы доступу."
 
-#: widgets/kpropertiesdialog.cpp:2495
+#: widgets/kpropertiesdialog.cpp:2498
 #, kde-format
 msgid "This folder uses advanced permissions."
 msgid_plural "These folders use advanced permissions."
@@ -7194,99 +7207,99 @@ msgstr[1] "Гэтыя каталогі выкарыстоўваюць адмыс
 msgstr[2] "Гэтыя каталогі выкарыстоўваюць адмысловыя правы доступу."
 msgstr[3] "Гэтыя каталогі выкарыстоўваюць адмысловыя правы доступу."
 
-#: widgets/kpropertiesdialog.cpp:2509
+#: widgets/kpropertiesdialog.cpp:2512
 #, kde-format
 msgid "These files use advanced permissions."
 msgstr "Гэтыя файлы выкарыстоўваюць адмысловыя правы доступу."
 
-#: widgets/kpropertiesdialog.cpp:2755
+#: widgets/kpropertiesdialog.cpp:2758
 #, kde-format
 msgctxt "@title:tab"
 msgid "C&hecksums"
 msgstr "&Кантрольныя сумы"
 
-#: widgets/kpropertiesdialog.cpp:2820 widgets/kpropertiesdialog.cpp:2831
-#: widgets/kpropertiesdialog.cpp:2842 widgets/kpropertiesdialog.cpp:2853
+#: widgets/kpropertiesdialog.cpp:2823 widgets/kpropertiesdialog.cpp:2834
+#: widgets/kpropertiesdialog.cpp:2845 widgets/kpropertiesdialog.cpp:2856
 #, kde-format
 msgctxt "@action:button"
 msgid "Calculating..."
 msgstr "Падлік..."
 
-#: widgets/kpropertiesdialog.cpp:3009
+#: widgets/kpropertiesdialog.cpp:3012
 #, kde-format
 msgid "Invalid checksum."
 msgstr "Хібная кантрольная сума."
 
-#: widgets/kpropertiesdialog.cpp:3012
+#: widgets/kpropertiesdialog.cpp:3015
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The given input is not a valid MD5, SHA1 or SHA256 checksum."
 msgstr "Уведзенае не ёсць прыдатнай кантрольнай сумай MD5, SHA1 або SHA256."
 
-#: widgets/kpropertiesdialog.cpp:3023
+#: widgets/kpropertiesdialog.cpp:3026
 #, kde-format
 msgid "Checksums match."
 msgstr "Кантрольныя сумы супадаюць."
 
-#: widgets/kpropertiesdialog.cpp:3026
+#: widgets/kpropertiesdialog.cpp:3029
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum match."
 msgstr "Падлічаная і чаканая кантрольная сума супадаюць."
 
-#: widgets/kpropertiesdialog.cpp:3038
+#: widgets/kpropertiesdialog.cpp:3041
 #, kde-format
 msgid "<p>Checksums do not match.</p>This may be due to a faulty download. Try re-downloading the file.<br/>If the verification still fails, contact the source of the file."
 msgstr "<p>Кантрольныя сумы не супадаюць.</p>Гэта магло адбыцца праз памылку спампоўвання. Паспрабуйце спампаваць файл паўторна.<br/>Калі правяранне зноў скончылася няўдачай, звяжыцеся з кантактамі крыніцы файла."
 
-#: widgets/kpropertiesdialog.cpp:3043
+#: widgets/kpropertiesdialog.cpp:3046
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum differ."
 msgstr "Падлічаная і чаканая кантрольная сума не супадаюць."
 
-#: widgets/kpropertiesdialog.cpp:3051
+#: widgets/kpropertiesdialog.cpp:3054
 #, kde-format
 msgctxt "notify the user about a computation in the background"
 msgid "Verifying checksum..."
 msgstr "Правяранне кантрольнай сумы..."
 
-#: widgets/kpropertiesdialog.cpp:3140
+#: widgets/kpropertiesdialog.cpp:3143
 #, kde-format
 msgid "U&RL"
 msgstr "U&RL"
 
-#: widgets/kpropertiesdialog.cpp:3147
+#: widgets/kpropertiesdialog.cpp:3150
 #, kde-format
 msgid "URL:"
 msgstr "URL:"
 
-#: widgets/kpropertiesdialog.cpp:3216 widgets/kpropertiesdialog.cpp:3485
+#: widgets/kpropertiesdialog.cpp:3219 widgets/kpropertiesdialog.cpp:3499
 #, kde-format
 msgid "Could not save properties. Only entries on local file systems are supported."
 msgstr "Не ўдалося захаваць уласцівасці. Падтрымліваюцца толькі запісы ў лакальных файлавых сістэмах."
 
-#: widgets/kpropertiesdialog.cpp:3290
+#: widgets/kpropertiesdialog.cpp:3294
 #, kde-format
 msgid "&Application"
 msgstr "&Праграма"
 
-#: widgets/kpropertiesdialog.cpp:3423
+#: widgets/kpropertiesdialog.cpp:3437
 #, kde-format
 msgid "Add File Type for %1"
 msgstr "Дадаць тып файлаў для %1"
 
-#: widgets/kpropertiesdialog.cpp:3424
+#: widgets/kpropertiesdialog.cpp:3438
 #, kde-format
 msgid "Select one or more file types to add:"
 msgstr "Дадаць адзін або некалькі тыпаў файлаў:"
 
-#: widgets/kpropertiesdialog.cpp:3570
+#: widgets/kpropertiesdialog.cpp:3584
 #, kde-format
 msgid "Only executables on local file systems are supported."
 msgstr "Падтрымліваюцца толькі выканальныя файлы, размешчаныя ў лакальнай файлавай сістэме."
 
-#: widgets/kpropertiesdialog.cpp:3585
+#: widgets/kpropertiesdialog.cpp:3599
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "Адмысловыя параметры для %1"
@@ -7857,6 +7870,9 @@ msgstr "Гэта запусціць праграму:"
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
 msgstr "Калі вы не давяраеце гэтай праграме, націсніце \"Скасаваць\""
+
+#~ msgid "Co&mmand:"
+#~ msgstr "Зага&д:"
 
 #, fuzzy
 #~| msgid "Open With"

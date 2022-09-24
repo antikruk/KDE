@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-09 00:50+0000\n"
-"PO-Revision-Date: 2022-09-09 21:31\n"
+"POT-Creation-Date: 2022-09-24 00:49+0000\n"
+"PO-Revision-Date: 2022-09-24 11:18\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -192,38 +192,44 @@ msgstr "&Інструменты"
 msgid "&Settings"
 msgstr "&Налады"
 
+#. i18n: ectx: Menu (help)
+#: lib/data/kateui.rc:134
+#, kde-format
+msgid "&Help"
+msgstr "&Дапамога"
+
 #. i18n: ectx: ToolBar (mainToolBar)
-#: lib/data/kateui.rc:135
+#: lib/data/kateui.rc:139
 msgid "Main Toolbar"
 msgstr "Галоўная панэль інструментаў"
 
 #. i18n: ectx: Menu (viewspace_popup_statusbar)
-#: lib/data/kateui.rc:165
+#: lib/data/kateui.rc:169
 #, kde-format
 msgid "&Status Bar Items"
 msgstr ""
 
-#: lib/diff/diffeditor.cpp:123
+#: lib/diff/diffeditor.cpp:147
 #, kde-format
 msgid "Change Style"
 msgstr ""
 
-#: lib/diff/diffeditor.cpp:125 lib/kateconfigdialog.cpp:292
+#: lib/diff/diffeditor.cpp:149 lib/kateconfigdialog.cpp:292
 #, kde-format
 msgid "Side By Side"
 msgstr ""
 
-#: lib/diff/diffeditor.cpp:128 lib/kateconfigdialog.cpp:293
+#: lib/diff/diffeditor.cpp:152 lib/kateconfigdialog.cpp:293
 #| msgid "Modified"
 msgid "Unified"
 msgstr "Аб’яднаны"
 
-#: lib/diff/diffeditor.cpp:131 lib/kateconfigdialog.cpp:294
+#: lib/diff/diffeditor.cpp:155 lib/kateconfigdialog.cpp:294
 #, kde-format
 msgid "Raw"
 msgstr "Неапрацаванае"
 
-#: lib/diff/diffeditor.cpp:160
+#: lib/diff/diffeditor.cpp:184
 msgid "Stage Line"
 msgid_plural "Stage Lines"
 msgstr[0] ""
@@ -231,12 +237,12 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: lib/diff/diffeditor.cpp:165
+#: lib/diff/diffeditor.cpp:189
 #, kde-format
 msgid "Stage Hunk"
 msgstr ""
 
-#: lib/diff/diffeditor.cpp:172
+#: lib/diff/diffeditor.cpp:196
 #, kde-format
 msgid "Discard Line"
 msgid_plural "Discard Lines"
@@ -245,12 +251,12 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: lib/diff/diffeditor.cpp:177
+#: lib/diff/diffeditor.cpp:201
 #, kde-format
 msgid "Discard Hunk"
 msgstr ""
 
-#: lib/diff/diffeditor.cpp:184
+#: lib/diff/diffeditor.cpp:208
 msgid "Unstage Line"
 msgid_plural "Unstage Lines"
 msgstr[0] ""
@@ -258,7 +264,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: lib/diff/diffeditor.cpp:189
+#: lib/diff/diffeditor.cpp:213
 #, kde-format
 msgid "Unstage Hunk"
 msgstr ""
@@ -279,7 +285,22 @@ msgstr ""
 msgid "Failed to get file history: %1"
 msgstr ""
 
-#: lib/filehistorywidget.cpp:354
+#: lib/filehistorywidget.cpp:345 lib/kateconfigdialog.cpp:126
+#, kde-format
+msgid "Error"
+msgstr "Памылка"
+
+#: lib/filehistorywidget.cpp:345
+#, kde-format
+msgid "%1 doesn't exist in a git repo."
+msgstr ""
+
+#: lib/filehistorywidget.cpp:345
+#, kde-format
+msgid "Git"
+msgstr ""
+
+#: lib/filehistorywidget.cpp:353
 #| msgid "File Selector"
 msgid "File History"
 msgstr ""
@@ -633,12 +654,7 @@ msgstr ""
 msgid "Never"
 msgstr "Ніколі"
 
-#: lib/kateconfigdialog.cpp:126
-#, kde-format
-msgid "Error"
-msgstr "Памылка"
-
-#: lib/kateconfigdialog.cpp:126 lib/kateconfigdialog.cpp:618
+#: lib/kateconfigdialog.cpp:126 lib/kateconfigdialog.cpp:624
 #, kde-format
 msgid "Warning"
 msgstr "Увага"
@@ -854,22 +870,22 @@ msgstr[1] " дні"
 msgstr[2] " дзён"
 msgstr[3] " дні"
 
-#: lib/kateconfigdialog.cpp:381
+#: lib/kateconfigdialog.cpp:385
 #, kde-format
 msgid "Plugins"
 msgstr "Убудовы"
 
-#: lib/kateconfigdialog.cpp:382
+#: lib/kateconfigdialog.cpp:386
 #, kde-format
 msgid "Plugin Manager"
 msgstr "Кіраўнік убудоў"
 
-#: lib/kateconfigdialog.cpp:400 lib/kateconfigdialog.cpp:401
+#: lib/kateconfigdialog.cpp:404 lib/kateconfigdialog.cpp:405
 #, kde-format
 msgid "User Feedback"
 msgstr ""
 
-#: lib/kateconfigdialog.cpp:617
+#: lib/kateconfigdialog.cpp:623
 #| msgid ""
 #| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
 #| "save your changes or discard them?"
@@ -889,38 +905,38 @@ msgstr "Апісанне"
 msgid "Here you can see all available Kate plugins. Those with a check mark are loaded, and will be loaded again the next time Kate is started."
 msgstr ""
 
-#: lib/katedocmanager.cpp:297
+#: lib/katedocmanager.cpp:268
 #| msgid ""
 #| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
 #| "save your changes or discard them?"
 msgid "<p>The document '%1' has been modified, but not saved.</p><p>Do you want to save your changes or discard them?</p>"
 msgstr ""
 
-#: lib/katedocmanager.cpp:300
+#: lib/katedocmanager.cpp:271
 #, kde-format
 msgid "Close Document"
 msgstr "Закрыць дакумент"
 
-#: lib/katedocmanager.cpp:309
+#: lib/katedocmanager.cpp:280
 msgid "Save As"
 msgstr "Захаваць як"
 
-#: lib/katedocmanager.cpp:327 lib/katemainwindow.cpp:597
+#: lib/katedocmanager.cpp:298 lib/katemainwindow.cpp:597
 #, kde-format
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr "Падчас закрыцця адкрыты новы файл, закрыццё перарвана."
 
-#: lib/katedocmanager.cpp:327 lib/katemainwindow.cpp:597
+#: lib/katedocmanager.cpp:298 lib/katemainwindow.cpp:597
 #, kde-format
 msgid "Closing Aborted"
 msgstr "Закрыцце перарвана"
 
-#: lib/katedocmanager.cpp:405
+#: lib/katedocmanager.cpp:376
 #, kde-format
 msgid "Starting Up"
 msgstr "Запуск"
 
-#: lib/katedocmanager.cpp:406
+#: lib/katedocmanager.cpp:377
 #, kde-format
 msgid "Reopening files from the last session..."
 msgstr "Адкрыцце файлаў з апошняга сеанса..."
@@ -1065,7 +1081,7 @@ msgstr "Скапіяваць размяшчэнне"
 msgid "Copies the file path of the current file to clipboard."
 msgstr ""
 
-#: lib/katemainwindow.cpp:334
+#: lib/katemainwindow.cpp:334 lib/welcomeview.cpp:84
 msgid "&Open Containing Folder"
 msgstr ""
 
@@ -1148,12 +1164,13 @@ msgid "Close this window"
 msgstr "Закрыць гэтае акно"
 
 #: lib/katemainwindow.cpp:401
-msgid "&New Synchronized Window"
+#| msgid "&Window"
+msgid "&New Window"
 msgstr ""
 
 #: lib/katemainwindow.cpp:403
-#| msgid "Create a new Kate view (a new window with the same document list)."
-msgid "Create a new Kate window with a synchronized document list."
+#| msgid "Create a new document"
+msgid "Create a new window."
 msgstr ""
 
 #: lib/katemainwindow.cpp:410
@@ -1288,22 +1305,22 @@ msgctxt "@action:button"
 msgid "Open All Files"
 msgstr ""
 
-#: lib/katemainwindow.cpp:981
+#: lib/katemainwindow.cpp:977
 #, kde-format
 msgid "&Other..."
 msgstr "&Іншае..."
 
-#: lib/katemainwindow.cpp:1106
+#: lib/katemainwindow.cpp:1102
 #, kde-format
 msgid " [read only]"
 msgstr ""
 
-#: lib/katemainwindow.cpp:1331
+#: lib/katemainwindow.cpp:1349
 #, kde-format
 msgid "Diff %1"
 msgstr ""
 
-#: lib/katemainwindow.cpp:1333
+#: lib/katemainwindow.cpp:1351
 #, kde-format
 msgid "Diff %1..%2"
 msgstr ""
@@ -1400,7 +1417,7 @@ msgstr ""
 msgid "Bottom Sidebar"
 msgstr ""
 
-#: lib/katemdi.cpp:1383
+#: lib/katemdi.cpp:1397
 msgid "<qt>You are about to hide the sidebars. With hidden sidebars it is not possible to directly access the tool views with the mouse anymore, so if you need to access the sidebars again invoke <b>View &gt; Tool Views &gt; Show Sidebars</b> in the menu. It is still possible to show/hide the tool views with the assigned shortcuts.</qt>"
 msgstr ""
 
@@ -1576,202 +1593,212 @@ msgstr "Даныя, якія вы хочаце захаваць, немагчы�
 msgid "Untitled"
 msgstr "Без назвы"
 
-#: lib/kateviewmanager.cpp:116
+#: lib/kateviewmanager.cpp:115
 #, kde-format
 msgid "Split Ve&rtical"
 msgstr "Падзяліць па &вертыкалі"
 
-#: lib/kateviewmanager.cpp:120
+#: lib/kateviewmanager.cpp:119
 #, kde-format
 msgid "Split the currently active view vertically into two views."
 msgstr "Падзяліць бягучы тэрмінал на дзве часткі па вертыкалі."
 
-#: lib/kateviewmanager.cpp:124
+#: lib/kateviewmanager.cpp:123
 #, kde-format
 msgid "Split &Horizontal"
 msgstr "Падзяліць па &гарызанталі"
 
-#: lib/kateviewmanager.cpp:128
+#: lib/kateviewmanager.cpp:127
 #, kde-format
 msgid "Split the currently active view horizontally into two views."
 msgstr "Падзяліць бягучы тэрмінал на дзве часткі па гарызанталі."
 
-#: lib/kateviewmanager.cpp:132
+#: lib/kateviewmanager.cpp:131
 #, kde-format
 msgid "Move Document to New Vertical Split"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:136
+#: lib/kateviewmanager.cpp:135
 #| msgid "Split the currently active view vertically into two views."
 msgid "Split the currently active view vertically into two views and move the currently active document to right view."
 msgstr ""
 
-#: lib/kateviewmanager.cpp:141
+#: lib/kateviewmanager.cpp:140
 #, kde-format
 msgid "Move Document to New Horizontal Split"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:145
+#: lib/kateviewmanager.cpp:144
 #| msgid "Split the currently active view horizontally into two views."
 msgid "Split the currently active view horizontally into two views and move the currently active document to view below."
 msgstr ""
 
-#: lib/kateviewmanager.cpp:150
+#: lib/kateviewmanager.cpp:149
 #, kde-format
 msgid "Cl&ose Current View"
 msgstr "За&крыць бягучы тэрмінал"
 
-#: lib/kateviewmanager.cpp:154
+#: lib/kateviewmanager.cpp:153
 #| msgid "Close the currently active splitted view"
 msgid "Close the currently active split view"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:158
+#: lib/kateviewmanager.cpp:157
 #| msgid "Cl&ose Current View"
 msgid "Close Inactive Views"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:161
+#: lib/kateviewmanager.cpp:160
 msgid "Close every view but the active one"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:165
+#: lib/kateviewmanager.cpp:164
 #| msgid "Cl&ose Current View"
 msgid "Hide Inactive Views"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:169
+#: lib/kateviewmanager.cpp:168
 msgid "Hide every view but the active one"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:172
+#: lib/kateviewmanager.cpp:171
 #, kde-format
 msgid "Toggle Orientation"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:175
+#: lib/kateviewmanager.cpp:174
 msgid "Toggles the orientation of the current split view"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:178
+#: lib/kateviewmanager.cpp:177
 #| msgid "Next View"
 msgid "Next Split View"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:183
+#: lib/kateviewmanager.cpp:182
 msgid "Make the next split view the active one."
 msgstr ""
 
-#: lib/kateviewmanager.cpp:186
+#: lib/kateviewmanager.cpp:185
 #| msgid "Previous View"
 msgid "Previous Split View"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:191
+#: lib/kateviewmanager.cpp:190
 msgid "Make the previous split view the active one."
 msgstr ""
 
-#: lib/kateviewmanager.cpp:194
+#: lib/kateviewmanager.cpp:193
 #| msgid "Next View"
 msgid "Left Split View"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:199
+#: lib/kateviewmanager.cpp:198
 msgid "Make the split view intuitively on the left the active one."
 msgstr ""
 
-#: lib/kateviewmanager.cpp:202
+#: lib/kateviewmanager.cpp:201
 #| msgid "Next View"
 msgid "Right Split View"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:207
+#: lib/kateviewmanager.cpp:206
 msgid "Make the split view intuitively on the right the active one."
 msgstr ""
 
-#: lib/kateviewmanager.cpp:210
+#: lib/kateviewmanager.cpp:209
 #| msgid "Split Ve&rtical"
 msgid "Upward Split View"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:215
+#: lib/kateviewmanager.cpp:214
 msgid "Make the split view intuitively upward the active one."
 msgstr ""
 
-#: lib/kateviewmanager.cpp:218
+#: lib/kateviewmanager.cpp:217
 #| msgid "Split Ve&rtical"
 msgid "Downward Split View"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:223
+#: lib/kateviewmanager.cpp:222
 msgid "Make the split view intuitively downward the active one."
 msgstr ""
 
-#: lib/kateviewmanager.cpp:226
+#: lib/kateviewmanager.cpp:225
 #, kde-format
 msgid "Move Splitter Right"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:229
+#: lib/kateviewmanager.cpp:228
 #, kde-format
 msgid "Move the splitter of the current view to the right"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:232
+#: lib/kateviewmanager.cpp:231
 #, kde-format
 msgid "Move Splitter Left"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:235
+#: lib/kateviewmanager.cpp:234
 #, kde-format
 msgid "Move the splitter of the current view to the left"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:238
+#: lib/kateviewmanager.cpp:237
 #, kde-format
 msgid "Move Splitter Up"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:241
+#: lib/kateviewmanager.cpp:240
 #, kde-format
 msgid "Move the splitter of the current view up"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:244
+#: lib/kateviewmanager.cpp:243
 #, kde-format
 msgid "Move Splitter Down"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:247
+#: lib/kateviewmanager.cpp:246
 msgid "Move the splitter of the current view down"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:250
+#: lib/kateviewmanager.cpp:249
 #, kde-format
 msgid "Focus Navigation Bar"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:251
+#: lib/kateviewmanager.cpp:250
 #| msgid "Close the current tab"
 msgid "Focus the navigation bar"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:292 lib/kateviewmanager.cpp:294
+#: lib/kateviewmanager.cpp:257
+#, kde-format
+msgid "Welcome Page"
+msgstr ""
+
+#: lib/kateviewmanager.cpp:272
+#, kde-format
+msgid "Show the welcome page"
+msgstr ""
+
+#: lib/kateviewmanager.cpp:314 lib/kateviewmanager.cpp:316
 #, kde-format
 msgid "Open File"
 msgstr "Адкрыць файл"
 
-#: lib/kateviewmanager.cpp:313
+#: lib/kateviewmanager.cpp:335
 #, kde-format
 msgid "<p>You are attempting to open one or more large files:</p><ul>%1</ul><p>Do you want to proceed?</p><p><strong>Beware that kate may stop responding for some time when opening large files.</strong></p>"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:316
+#: lib/kateviewmanager.cpp:338
 #| msgid "Open File"
 msgid "Opening Large File"
 msgstr ""
 
-#: lib/kateviewmanager.cpp:1114
+#: lib/kateviewmanager.cpp:1162
 #, kde-format
 msgid "This view may have unsaved work. Do you really want to close it?"
 msgstr ""
@@ -1801,41 +1828,56 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: lib/kateviewspace.cpp:888
+#: lib/kateviewspace.cpp:943
 msgid "Close Tab"
 msgstr "Закрыць укладку"
 
-#: lib/kateviewspace.cpp:905
+#: lib/kateviewspace.cpp:960
 #| msgid "Close Document"
 msgid "&Close Document"
 msgstr ""
 
-#: lib/kateviewspace.cpp:906
+#: lib/kateviewspace.cpp:961
 #| msgid "Close Document"
 msgid "Close Other &Documents"
 msgstr ""
 
-#: lib/kateviewspace.cpp:907
+#: lib/kateviewspace.cpp:962
 #| msgid "Close all open documents."
 msgid "Close &All Documents"
 msgstr ""
 
-#: lib/kateviewspace.cpp:916 lib/kateviewspace.cpp:924
-#| msgid "Sync &terminal emulator with active document"
-msgid "Compare with active document"
+#: lib/kateviewspace.cpp:964
+#| msgid "&Document"
+msgid "D&etach Document"
 msgstr ""
 
-#: lib/kateviewspace.cpp:919
+#: lib/kateviewspace.cpp:965
+#, kde-format
+msgid "Opens the document in a new window and closes it in the current window"
+msgstr ""
+
+#: lib/kateviewspace.cpp:974
+#| msgid "Sync &terminal emulator with active document"
+msgid "Compare with Active Document"
+msgstr ""
+
+#: lib/kateviewspace.cpp:978
 #, kde-format
 msgid "Diff %1 .. %2"
 msgstr ""
 
-#: lib/kateviewspace.cpp:988
+#: lib/kateviewspace.cpp:983
+#| msgid "Sync &terminal emulator with active document"
+msgid "Compare with Active Document Using"
+msgstr ""
+
+#: lib/kateviewspace.cpp:1050
 #, kde-format
 msgid "Could not start program"
 msgstr ""
 
-#: lib/kateviewspace.cpp:989
+#: lib/kateviewspace.cpp:1051
 #, kde-format
 msgid "The selected program could not be started. Maybe it is not installed."
 msgstr ""
@@ -2021,7 +2063,7 @@ msgstr "&Уласнаручны выбар сеанса"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: lib/ui/sessionconfigwidget.ui:47
-msgid "Application Shutdown Behavior"
+msgid "Application Startup/Shutdown Behavior"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -2042,63 +2084,144 @@ msgstr ""
 msgid "Files with unsaved changes"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, modCloseAfterLast)
+#. i18n: ectx: property (text), widget (QCheckBox, openNewDocumentPerWindow)
 #: lib/ui/sessionconfigwidget.ui:88
+#| msgid "Create a new Kate view (a new window with the same document list)."
+msgid "Open new window with fresh untitled document"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, modCloseAfterLast)
+#: lib/ui/sessionconfigwidget.ui:95
 #, kde-format
 msgid "If enabled, the application will shutdown when the last file being edited is closed, otherwise a blank page will open so that you can start a new file."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, modCloseAfterLast)
-#: lib/ui/sessionconfigwidget.ui:91
+#: lib/ui/sessionconfigwidget.ui:98
 #, kde-format
 msgid "Close the application entirely when the last file is closed"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbElements)
-#: lib/ui/sessionconfigwidget.ui:101
+#: lib/ui/sessionconfigwidget.ui:108
 #| msgid "Session Management"
 msgid "Session Elements"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: lib/ui/sessionconfigwidget.ui:107
+#: lib/ui/sessionconfigwidget.ui:114
 #, kde-format
 msgid "The session contains the list of open documents, recently opened files list, bookmarks, cursor position etc. When the session is loaded all elements are restored."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: lib/ui/sessionconfigwidget.ui:119
+#: lib/ui/sessionconfigwidget.ui:126
 #, kde-format
 msgid "Maximum number of entries in recent file list:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, restoreVC)
-#: lib/ui/sessionconfigwidget.ui:147
+#: lib/ui/sessionconfigwidget.ui:154
 msgid "Check this if you want all your views and frames restored each time you open the application."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, restoreVC)
-#: lib/ui/sessionconfigwidget.ui:150
+#: lib/ui/sessionconfigwidget.ui:157
 #, kde-format
 msgid "Include &window configuration"
 msgstr "Уключаць канфігурацыю &акна"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, saveMetaInfos)
-#: lib/ui/sessionconfigwidget.ui:160
+#: lib/ui/sessionconfigwidget.ui:167
 msgid "Check this if you want document configuration like for example bookmarks to be saved past editor sessions. The configuration will be restored if the document has not changed when reopened."
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, saveMetaInfos)
-#: lib/ui/sessionconfigwidget.ui:163
+#: lib/ui/sessionconfigwidget.ui:170
 #, kde-format
 msgid "Keep &meta-information past sessions"
 msgstr "Захоўваць &метаданыя былых сеансаў"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: lib/ui/sessionconfigwidget.ui:174
+#: lib/ui/sessionconfigwidget.ui:181
 #| msgid "&Delete unused meta-information after:"
 msgid "Delete unused meta-information after:"
 msgstr ""
+
+#: lib/welcomeview.cpp:71
+msgid "&Copy Location"
+msgstr ""
+
+#: lib/welcomeview.cpp:99
+#, kde-format
+msgctxt "recent items context menu"
+msgid "&Forget This Item"
+msgstr ""
+
+#: lib/welcomeview.cpp:128
+#, kde-format
+msgid "Welcome"
+msgstr "Запрашаем"
+
+#. i18n: ectx: property (text), widget (QLabel, welcomeLabel)
+#: lib/welcomeview.cpp:131 lib/welcomeview.ui:158
+#, kde-format
+msgid "Welcome to Kate"
+msgstr ""
+
+#: lib/welcomeview.cpp:131
+#, kde-format
+msgid "Welcome to KWrite"
+msgstr ""
+
+#: lib/welcomeview.cpp:170
+#| msgid "Close the current document."
+msgctxt "on welcome screen"
+msgid "No recent documents"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, WelcomeView)
+#: lib/welcomeview.ui:17
+#, kde-format
+msgid "Form"
+msgstr "Форма"
+
+#. i18n: ectx: property (text), widget (QPushButton, newDocumentButton)
+#: lib/welcomeview.ui:221
+#| msgid "&Document"
+msgctxt "on welcome screen"
+msgid "New Document"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, openDocumentButton)
+#: lib/welcomeview.ui:232
+msgctxt "on welcome screen"
+msgid "Open Document..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, openFolderButton)
+#: lib/welcomeview.ui:243
+#| msgid "Open File"
+msgctxt "on welcome screen"
+msgid "Open Folder..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: lib/welcomeview.ui:372
+msgctxt "on welcome screen"
+msgid "Recent documents"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, forgetAllButton)
+#: lib/welcomeview.ui:382
+#| msgid "Clos&e All"
+msgctxt "on welcome screen (recent document list)"
+msgid "Forget All"
+msgstr ""
+
+#, fuzzy
+#~ msgid "&New Synchronized Window"
+#~ msgstr "&Акно"
 
 #, fuzzy
 #~ msgid "Make Non-Persistent"
@@ -2246,11 +2369,6 @@ msgstr ""
 #~| msgid "Do not ask again"
 #~ msgid "Do not ask again"
 #~ msgstr "Больш не пытацца"
-
-#, fuzzy
-#~ msgctxt "The number of open documents"
-#~ msgid "Open Documents"
-#~ msgstr "Адкрыць дакументы"
 
 #, fuzzy
 #~| msgid "No session selected to open."
@@ -2464,11 +2582,6 @@ msgstr ""
 #, fuzzy
 #~| msgid "&Document"
 #~ msgid "Previous Document"
-#~ msgstr "&Дакумент"
-
-#, fuzzy
-#~| msgid "&Document"
-#~ msgid "Next Document"
 #~ msgstr "&Дакумент"
 
 #, fuzzy
@@ -2944,9 +3057,6 @@ msgstr ""
 
 #~ msgid "Save current session?"
 #~ msgstr "Захаваць бягучую сесію?"
-
-#~ msgid "&Window"
-#~ msgstr "&Акно"
 
 #~ msgid "File Selector Settings"
 #~ msgstr "Настаўленні файлавага вандроўніка"

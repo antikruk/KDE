@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-25 00:47+0000\n"
-"PO-Revision-Date: 2022-09-21 12:46\n"
+"POT-Creation-Date: 2022-09-22 00:45+0000\n"
+"PO-Revision-Date: 2022-09-24 11:17\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -51,25 +51,25 @@ msgid "&Tools"
 msgstr "Н&ачынне"
 
 #. i18n: ectx: Menu (settings)
-#: calligraplan.rc:57 calligraplan_shell.rc:12
+#: calligraplan.rc:58 calligraplan_shell.rc:12
 #, kde-format
 msgid "&Settings"
 msgstr "&Налады"
 
 #. i18n: ectx: Menu (help)
-#: calligraplan.rc:61 calligraplan_shell.rc:23
+#: calligraplan.rc:62 calligraplan_shell.rc:23
 #, kde-format
 msgid "&Help"
 msgstr "&Даведка"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: calligraplan.rc:65
+#: calligraplan.rc:66
 #| msgid "&View"
 msgid "File"
 msgstr "Файл"
 
 #. i18n: ectx: ToolBar (edit_toolbar)
-#: calligraplan.rc:71
+#: calligraplan.rc:72
 #| msgid "&Edit"
 msgid "Edit"
 msgstr "Рэдагаванне"
@@ -475,52 +475,61 @@ msgstr ""
 msgid "List of paths to task modules"
 msgstr ""
 
-#. i18n: ectx: label, entry (ProjectTemplatePaths), group (Project Templates)
+#. i18n: ectx: label, entry (ReportTemplatePaths), group (Report Templates)
 #: calligraplansettings.kcfg:381
+msgid "List of paths to report templates"
+msgstr ""
+
+#. i18n: ectx: label, entry (ProjectTemplatePaths), group (Project Templates)
+#: calligraplansettings.kcfg:387
 #, kde-format
 msgid "List of paths to project templates"
 msgstr ""
 
 #. i18n: ectx: label, entry (AutoSave), group (Interface)
-#: calligraplansettings.kcfg:387
+#: calligraplansettings.kcfg:393
 msgid "Autosave interval"
 msgstr ""
 
 #. i18n: ectx: label, entry (CreateBackupFile), group (Interface)
-#: calligraplansettings.kcfg:391
+#: calligraplansettings.kcfg:397
 msgid "Create a backup file"
 msgstr ""
 
-#: config/ConfigDialog.cpp:35
+#: config/ConfigDialog.cpp:36
 msgid "Project Defaults"
 msgstr ""
 
-#: config/ConfigDialog.cpp:36 kptview.cpp:628
+#: config/ConfigDialog.cpp:37 kptview.cpp:635
 #, kde-format
 msgid "Work & Vacation"
 msgstr ""
 
-#: config/ConfigDialog.cpp:37
+#: config/ConfigDialog.cpp:38
 msgid "Task Defaults"
 msgstr ""
 
-#: config/ConfigDialog.cpp:38
+#: config/ConfigDialog.cpp:39
 msgid "Task Colors"
 msgstr ""
 
-#: config/ConfigDialog.cpp:40
+#: config/ConfigDialog.cpp:41
 msgid "Task Modules"
 msgstr ""
 
-#: config/ConfigDialog.cpp:44
+#: config/ConfigDialog.cpp:45
 msgid "Work Package"
 msgstr ""
 
-#: config/ConfigDialog.cpp:47
+#: config/ConfigDialog.cpp:48
 msgid "Project Templates"
 msgstr ""
 
-#: config/ConfigDialog.cpp:53
+#: config/ConfigDialog.cpp:54
+msgid "Report Templates"
+msgstr ""
+
+#: config/ConfigDialog.cpp:60
 msgctxt "@title:tab Document settings page"
 msgid "Document"
 msgstr "Дакуменце"
@@ -578,18 +587,21 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, insertModule)
 #. i18n: ectx: property (text), widget (QToolButton, insertTemplatePath)
-#: config/ConfigProjectTemplatesPanel.ui:17 config/ConfigTaskModulesPanel.ui:37
+#: config/ConfigProjectTemplatesPanel.ui:17
+#: config/ConfigReportTemplatesPanel.ui:17 config/ConfigTaskModulesPanel.ui:37
 msgid "Insert"
 msgstr "Insert"
 
 #. i18n: ectx: property (text), widget (QToolButton, removeModule)
 #. i18n: ectx: property (text), widget (QToolButton, removeTemplatePath)
-#: config/ConfigProjectTemplatesPanel.ui:41 config/ConfigTaskModulesPanel.ui:48
+#: config/ConfigProjectTemplatesPanel.ui:41
+#: config/ConfigReportTemplatesPanel.ui:41 config/ConfigTaskModulesPanel.ui:48
 #: SharedResourcesDialog.cpp:248
 #| msgid "Remove"
 msgid "Remove"
 msgstr "Выдаліць"
 
+#: config/ConfigReportTemplatesPanel.cpp:48
 #: config/ConfigTaskModulesPanel.cpp:48
 msgid "Task Modules Path"
 msgstr ""
@@ -986,6 +998,23 @@ msgstr "Апублікаваць"
 msgid "Publish:"
 msgstr ""
 
+#. i18n: ectx: property (windowTitle), widget (QDialog, CreateReportTemplateDialog)
+#: CreateReportTemplateDialog.ui:14
+#, kde-format
+msgid "Dialog"
+msgstr "Дыялогавае акно"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: CreateReportTemplateDialog.ui:26
+msgid "Base template:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: CreateReportTemplateDialog.ui:39
+#| msgid "Remove"
+msgid "File name:"
+msgstr "Назва файла:"
+
 #: KPlatoXmlLoader.cpp:56
 msgid "This document has no syntax version.\n"
 "Opening it in Plan may lose information."
@@ -1233,360 +1262,378 @@ msgstr ""
 msgid "Schedule Selector"
 msgstr ""
 
-#: kptview.cpp:180
+#: kptview.cpp:183
 msgid "Create Project Template..."
 msgstr ""
 
-#: kptview.cpp:184
+#: kptview.cpp:187
 msgid "Create New Project..."
 msgstr ""
 
-#: kptview.cpp:196
+#: kptview.cpp:199
 msgid "Show Selector"
 msgstr ""
 
-#: kptview.cpp:203 kptview.cpp:240
+#: kptview.cpp:206 kptview.cpp:247
 msgid "Edit..."
 msgstr "Рэдагаваць..."
 
-#: kptview.cpp:207
+#: kptview.cpp:210
 #, kde-format
 msgid "Define Estimate Conversions..."
 msgstr ""
 
-#: kptview.cpp:211
+#: kptview.cpp:214
 msgid "Define WBS Pattern..."
 msgstr ""
 
-#: kptview.cpp:215
+#: kptview.cpp:218
 msgid "Define Currency..."
 msgstr ""
 
-#: kptview.cpp:219
+#: kptview.cpp:222
 msgid "Edit Description..."
 msgstr ""
 
-#: kptview.cpp:224
+#: kptview.cpp:227
 msgid "Insert Project File..."
 msgstr ""
 
-#: kptview.cpp:228
+#: kptview.cpp:231
 msgid "Update Shared Resources"
 msgstr ""
 
-#: kptview.cpp:233
+#: kptview.cpp:236
 #, kde-format
 msgid "Open Report Definition File..."
 msgstr ""
 
-#: kptview.cpp:250
+#: kptview.cpp:241
+msgid "Create Report Template..."
+msgstr ""
+
+#: kptview.cpp:257
 #, kde-format
 msgid "Work Packages..."
 msgstr ""
 
-#: kptview.cpp:251
+#: kptview.cpp:258
 msgctxt "@info:tooltip"
 msgid "Work packages available"
 msgstr ""
 
-#: kptview.cpp:342
+#: kptview.cpp:349
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<note>This action cannot be undone.</note><nl/><nl/>Create a new Project from the current project with new project- and task identities.<nl/>Resource- and calendar identities are not changed.<nl/>All scheduling information is removed.<nl/><nl/>Do you want to continue?"
 msgstr ""
 
-#: kptview.cpp:482
+#: kptview.cpp:489
 msgid "Edit task scheduling constraints"
 msgstr ""
 
-#: kptview.cpp:482
+#: kptview.cpp:489
 msgid "Task Constraints"
 msgstr ""
 
-#: kptview.cpp:492
+#: kptview.cpp:499
 msgid "Edit task cost"
 msgstr ""
 
-#: kptview.cpp:492
+#: kptview.cpp:499
 msgid "Task Cost"
 msgstr ""
 
-#: kptview.cpp:541
+#: kptview.cpp:548
 msgid "Generate reports"
 msgstr ""
 
-#: kptview.cpp:547 kptview.cpp:2358
+#: kptview.cpp:554 kptview.cpp:2438
 msgid "Task Status Report"
 msgstr ""
 
-#: kptview.cpp:629
+#: kptview.cpp:636
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Edit working- and vacation days for resources"
 msgstr ""
 
-#: kptview.cpp:631
+#: kptview.cpp:638
 msgid "Cost Breakdown Structure"
 msgstr ""
 
-#: kptview.cpp:632
+#: kptview.cpp:639
 msgctxt "@info:tooltip"
 msgid "Edit cost breakdown structure."
 msgstr ""
 
-#: kptview.cpp:634
+#: kptview.cpp:641
 msgid "Resource Breakdown Structure"
 msgstr ""
 
-#: kptview.cpp:635
+#: kptview.cpp:642
 msgctxt "@info:tooltip"
 msgid "Edit resource breakdown structure"
 msgstr ""
 
-#: kptview.cpp:637 SharedResourcesDialog.cpp:58
+#: kptview.cpp:644 SharedResourcesDialog.cpp:58
 msgid "Resources"
 msgstr "Крыніцы"
 
-#: kptview.cpp:638
+#: kptview.cpp:645
 msgctxt "@info:tooltip"
 msgid "Edit resources"
 msgstr ""
 
-#: kptview.cpp:640
+#: kptview.cpp:647
 msgid "Tasks"
 msgstr "Задачы"
 
-#: kptview.cpp:641
+#: kptview.cpp:648
 msgctxt "@info:tooltip"
 msgid "Edit work breakdown structure"
 msgstr ""
 
-#: kptview.cpp:643
+#: kptview.cpp:650
 msgid "Dependencies (Graphic)"
 msgstr ""
 
-#: kptview.cpp:644 kptview.cpp:647
+#: kptview.cpp:651 kptview.cpp:654
 msgctxt "@info:tooltip"
 msgid "Edit task dependencies"
 msgstr ""
 
-#: kptview.cpp:646
+#: kptview.cpp:653
 msgid "Dependencies (List)"
 msgstr ""
 
-#: kptview.cpp:650 kptview.cpp:652
+#: kptview.cpp:657 kptview.cpp:659
 msgid "Schedules"
 msgstr ""
 
-#: kptview.cpp:653
+#: kptview.cpp:660
 msgctxt "@info:tooltip"
 msgid "Calculate and analyze project schedules"
 msgstr ""
 
-#: kptview.cpp:655 kptviewlistdialog.cpp:110
+#: kptview.cpp:662 kptviewlistdialog.cpp:110
 msgid "Project Performance Chart"
 msgstr ""
 
-#: kptview.cpp:656
+#: kptview.cpp:663
 msgctxt "@info:tooltip"
 msgid "View project status information"
 msgstr ""
 
-#: kptview.cpp:658 kptviewlistdialog.cpp:101
+#: kptview.cpp:665 kptviewlistdialog.cpp:101
 msgid "Task Status"
 msgstr ""
 
-#: kptview.cpp:659
+#: kptview.cpp:666
 msgctxt "@info:tooltip"
 msgid "View task progress information"
 msgstr ""
 
-#: kptview.cpp:661
+#: kptview.cpp:668
 msgid "Task Execution"
 msgstr ""
 
-#: kptview.cpp:662
+#: kptview.cpp:669
 msgctxt "@info:tooltip"
 msgid "View task execution information"
 msgstr ""
 
-#: kptview.cpp:664 kptviewlistdialog.cpp:103
+#: kptview.cpp:671 kptviewlistdialog.cpp:103
 #, kde-format
 msgid "Work Package View"
 msgstr ""
 
-#: kptview.cpp:665
+#: kptview.cpp:672
 msgctxt "@info:tooltip"
 msgid "View task work package information"
 msgstr ""
 
-#: kptview.cpp:667
+#: kptview.cpp:674
 msgid "Gantt"
 msgstr ""
 
-#: kptview.cpp:668
+#: kptview.cpp:675
 msgctxt "@info:tooltip"
 msgid "View Gantt chart"
 msgstr ""
 
-#: kptview.cpp:670
+#: kptview.cpp:677
 msgid "Milestone Gantt"
 msgstr ""
 
-#: kptview.cpp:671
+#: kptview.cpp:678
 msgctxt "@info:tooltip"
 msgid "View milestone Gantt chart"
 msgstr ""
 
-#: kptview.cpp:673 kptviewlistdialog.cpp:106
+#: kptview.cpp:680 kptviewlistdialog.cpp:106
 msgid "Resource Assignments"
 msgstr ""
 
-#: kptview.cpp:674
+#: kptview.cpp:681
 msgctxt "@info:tooltip"
 msgid "View resource assignments in a table"
 msgstr ""
 
-#: kptview.cpp:676 kptviewlistdialog.cpp:107
+#: kptview.cpp:683 kptviewlistdialog.cpp:107
 msgid "Resource Assignments (Gantt)"
 msgstr ""
 
-#: kptview.cpp:677
+#: kptview.cpp:684
 msgctxt "@info:tooltip"
 msgid "View resource assignments in Gantt chart"
 msgstr ""
 
-#: kptview.cpp:679 kptviewlistdialog.cpp:108
+#: kptview.cpp:686 kptviewlistdialog.cpp:108
 msgid "Resource Coverage"
 msgstr ""
 
-#: kptview.cpp:680
+#: kptview.cpp:687
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Inspect resource coverage"
 msgstr ""
 
-#: kptview.cpp:682 kptviewlistdialog.cpp:109
+#: kptview.cpp:689 kptviewlistdialog.cpp:109
 msgid "Cost Breakdown"
 msgstr ""
 
-#: kptview.cpp:683
+#: kptview.cpp:690
 msgctxt "@info:tooltip"
 msgid "View planned and actual cost"
 msgstr ""
 
-#: kptview.cpp:685 kptviewlistdialog.cpp:111
+#: kptview.cpp:692 kptviewlistdialog.cpp:111
 msgid "Tasks Performance Chart"
 msgstr ""
 
-#: kptview.cpp:686
+#: kptview.cpp:693
 msgctxt "@info:tooltip"
 msgid "View tasks performance status information"
 msgstr ""
 
-#: kptview.cpp:688
+#: kptview.cpp:695
 msgid "Reports Generator"
 msgstr ""
 
-#: kptview.cpp:689
+#: kptview.cpp:696
 msgctxt "@info:tooltip"
 msgid "Generate reports"
 msgstr ""
 
-#: kptview.cpp:691 kptview.cpp:2355 kptviewlistdialog.cpp:114
+#: kptview.cpp:698 kptview.cpp:2435 kptviewlistdialog.cpp:114
 #: kptviewlistdialog.cpp:564
 msgid "Report"
 msgstr "Паскардзіцца"
 
-#: kptview.cpp:692
+#: kptview.cpp:699
 msgctxt "@info:tooltip"
 msgid "View report"
 msgstr ""
 
-#: kptview.cpp:703
+#: kptview.cpp:710
 msgid "Editors"
 msgstr ""
 
-#: kptview.cpp:705
+#: kptview.cpp:712
 msgid "Views"
 msgstr "Прагляды"
 
-#: kptview.cpp:707
+#: kptview.cpp:714
 msgctxt "Project execution views"
 msgid "Execution"
 msgstr ""
 
-#: kptview.cpp:709
+#: kptview.cpp:716
 msgid "Reports"
 msgstr "Справаздачы"
 
-#: kptview.cpp:1934
+#: kptview.cpp:1479
+msgid "Overwrite"
+msgstr "Перазапісаць"
+
+#: kptview.cpp:1479
+msgctxt "@window:title"
+msgid "Report Template"
+msgstr ""
+
+#: kptview.cpp:1479
+#, kde-format
+msgid "The file '%1' already exists, do you want to overwrite it?"
+msgstr ""
+
+#: kptview.cpp:2014
 msgctxt "@info"
 msgid "Cannot open file:<br/><filename>%1</filename>"
 msgstr ""
 
-#: kptview.cpp:2049
+#: kptview.cpp:2129
 msgctxt "(qtundo-format)"
 msgid "Modify name"
 msgstr ""
 
-#: kptview.cpp:2051
+#: kptview.cpp:2131
 msgctxt "(qtundo-format)"
 msgid "Modify task name"
 msgstr ""
 
-#: kptview.cpp:2052
+#: kptview.cpp:2132
 msgctxt "(qtundo-format)"
 msgid "Modify milestone name"
 msgstr ""
 
-#: kptview.cpp:2053
+#: kptview.cpp:2133
 msgctxt "(qtundo-format)"
 msgid "Modify summarytask name"
 msgstr ""
 
-#: kptview.cpp:2054
+#: kptview.cpp:2134
 msgctxt "(qtundo-format)"
 msgid "Modify project name"
 msgstr ""
 
-#: kptview.cpp:2146
+#: kptview.cpp:2226
 msgctxt "@info:status"
 msgid "Not scheduled"
 msgstr ""
 
-#: kptview.cpp:2200
+#: kptview.cpp:2280
 #, kde-format
 msgid "Work Package for project: %1"
 msgstr ""
 
-#: kptview.cpp:2356
+#: kptview.cpp:2436
 msgctxt "Project manager"
 msgid "Manager:"
 msgstr ""
 
-#: kptview.cpp:2357
+#: kptview.cpp:2437
 #| msgid "Project"
 msgid "Project:"
 msgstr ""
 
-#: kptview.cpp:2359
+#: kptview.cpp:2439
 #, kde-format
 msgctxt "As in: Page 1 of 2"
 msgid "of"
 msgstr "з"
 
-#: kptview.cpp:2360
+#: kptview.cpp:2440
 msgid "Page"
 msgstr "Старонка"
 
-#: kptview.cpp:2361
+#: kptview.cpp:2441
 #| msgid "Name"
 msgctxt "Task name"
 msgid "Name"
 msgstr "Імя"
 
-#: kptview.cpp:2362
+#: kptview.cpp:2442
 msgctxt "Task completion"
 msgid "Completion (%)"
 msgstr ""
@@ -3465,10 +3512,6 @@ msgstr ""
 #~ msgstr "Графік:"
 
 #, fuzzy
-#~ msgid "Estimate:"
-#~ msgstr "Адзнака:"
-
-#, fuzzy
 #~ msgid "Optimistic:"
 #~ msgstr "Аптымістычная:"
 
@@ -3491,10 +3534,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Rate"
 #~ msgstr "Пачатак:"
-
-#, fuzzy
-#~ msgid "Overtime"
-#~ msgstr "Звышвызначаная праца"
 
 #, fuzzy
 #~ msgid "List of Tasks"
@@ -4276,10 +4315,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Cannot read report template file!"
 #~ msgstr "Немагчыма прачытаць з файла шаблону справаздачы!"
-
-#, fuzzy
-#~ msgid "Cannot find the proper report template file!"
-#~ msgstr "Файл шаблону справаздачы мае няслушны фармат!"
 
 #, fuzzy
 #~ msgid "Malformed template filename: %1"

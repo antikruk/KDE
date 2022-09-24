@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-09 00:46+0000\n"
-"PO-Revision-Date: 2022-09-20 12:46\n"
+"POT-Creation-Date: 2022-09-22 00:45+0000\n"
+"PO-Revision-Date: 2022-09-24 11:18\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -194,7 +194,7 @@ msgstr "мс"
 msgid "Deleted"
 msgstr "Выдалены"
 
-#: kernel/kptglobal.cpp:20 kernel/kptnode.cpp:668 kernel/kptschedule.cpp:1906
+#: kernel/kptglobal.cpp:20 kernel/kptnode.cpp:668 kernel/kptschedule.cpp:1927
 #: models/kptschedulemodel.cpp:840
 #| msgid "Project"
 msgid "Not scheduled"
@@ -551,7 +551,7 @@ msgstr ""
 msgid "Finished scheduling backward: %1 ms"
 msgstr ""
 
-#: kernel/kptproject.cpp:3383
+#: kernel/kptproject.cpp:3392
 #, kde-format
 msgid "Plan"
 msgstr "План"
@@ -594,27 +594,27 @@ msgstr ""
 msgid "Resource %1 available from %2 to %3"
 msgstr ""
 
-#: kernel/kptschedule.cpp:143
+#: kernel/kptschedule.cpp:164
 #, kde-format
 msgid "Expected"
 msgstr "Чакалася"
 
-#: kernel/kptschedule.cpp:1572
+#: kernel/kptschedule.cpp:1593
 #, kde-format
 msgid "Debug"
 msgstr "Адладка"
 
-#: kernel/kptschedule.cpp:1573
+#: kernel/kptschedule.cpp:1594
 #, kde-format
 msgid "Info"
 msgstr "Інфармацыя"
 
-#: kernel/kptschedule.cpp:1574 main/KoMainWindow.cpp:1759
+#: kernel/kptschedule.cpp:1595 main/KoMainWindow.cpp:1834
 #, kde-format
 msgid "Warning"
 msgstr "Увага"
 
-#: kernel/kptschedule.cpp:1575 kernel/kptschedule.cpp:1910
+#: kernel/kptschedule.cpp:1596 kernel/kptschedule.cpp:1931
 #: models/kptnodeitemmodel.cpp:1699 models/kptnodeitemmodel.cpp:1732
 #: models/kptnodeitemmodel.cpp:1765 models/kptnodeitemmodel.cpp:1798
 #: models/kptnodeitemmodel.cpp:1831 models/kptnodeitemmodel.cpp:1864
@@ -623,12 +623,12 @@ msgstr "Увага"
 msgid "Error"
 msgstr "Памылка"
 
-#: kernel/kptschedule.cpp:1900
+#: kernel/kptschedule.cpp:1921
 #, kde-format
 msgid "Baselined"
 msgstr ""
 
-#: kernel/kptschedule.cpp:1903
+#: kernel/kptschedule.cpp:1924
 #| msgid "% Completed"
 msgid "Scheduling"
 msgstr ""
@@ -764,7 +764,7 @@ msgid "Could not match work duration. Want: %1 got: %2"
 msgstr ""
 
 #: kernel/kptwbsdefinition.cpp:28
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:189
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:227
 #, kde-format
 msgid "Number"
 msgstr "Нумар"
@@ -877,13 +877,13 @@ msgstr ""
 msgid "<empty>"
 msgstr ""
 
-#: kundo2/kundo2stack.cpp:1347 main/KoMainWindow.cpp:1575
+#: kundo2/kundo2stack.cpp:1347 main/KoMainWindow.cpp:1650
 #: main/KoUndoStackAction.cpp:34
 #, kde-format
 msgid "Redo"
 msgstr "Паўтарыць"
 
-#: kundo2/kundo2stack.cpp:1366 main/KoMainWindow.cpp:1574
+#: kundo2/kundo2stack.cpp:1366 main/KoMainWindow.cpp:1649
 #: main/KoUndoStackAction.cpp:26
 #, kde-format
 msgid "Undo"
@@ -1189,7 +1189,7 @@ msgid "An autosaved file exists for this document.\n"
 "Do you want to open it instead?"
 msgstr ""
 
-#: main/KoDocument.cpp:1309 main/KoDocument.cpp:1630 main/KoMainWindow.cpp:714
+#: main/KoDocument.cpp:1309 main/KoDocument.cpp:1630 main/KoMainWindow.cpp:715
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
@@ -1368,12 +1368,12 @@ msgstr ""
 msgid "Document <i>%1</i> contains several versions. Go to File->Versions to open an old version."
 msgstr ""
 
-#: main/KoDocument.cpp:2039 main/KoDocument.cpp:2532 main/KoMainWindow.cpp:1244
+#: main/KoDocument.cpp:2039 main/KoDocument.cpp:2532 main/KoMainWindow.cpp:1245
 #| msgid "Initials"
 msgid "Untitled"
 msgstr "Без назвы"
 
-#: main/KoDocument.cpp:2042 main/KoMainWindow.cpp:1247
+#: main/KoDocument.cpp:2042 main/KoMainWindow.cpp:1248
 #, kde-format
 msgid "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?</p>"
 msgstr ""
@@ -1457,172 +1457,182 @@ msgstr ""
 msgid "Choose Filter"
 msgstr ""
 
-#: main/KoMainWindow.cpp:158
+#: main/KoMainWindow.cpp:159
 #, kde-format
 msgid "%1 unsaved document (%2)"
 msgstr ""
 
-#: main/KoMainWindow.cpp:271 ui/kptviewbase.cpp:756
+#: main/KoMainWindow.cpp:272 ui/kptviewbase.cpp:756
 #, kde-format
 msgid "Print to PDF..."
 msgstr ""
 
-#: main/KoMainWindow.cpp:281
+#: main/KoMainWindow.cpp:282
 #, kde-format
 msgid "Reload"
 msgstr "Перазагрузіць"
 
-#: main/KoMainWindow.cpp:285
+#: main/KoMainWindow.cpp:286
 #| msgid "Not Started"
 msgid "Import..."
 msgstr "Імпарт…"
 
-#: main/KoMainWindow.cpp:289
+#: main/KoMainWindow.cpp:290
 #| msgid "Not Started"
 msgid "E&xport..."
 msgstr "&Экспарт..."
 
-#: main/KoMainWindow.cpp:293
+#: main/KoMainWindow.cpp:294
 #| msgid "Account"
 msgid "En&crypt Document"
 msgstr ""
 
-#: main/KoMainWindow.cpp:298
+#: main/KoMainWindow.cpp:299
 #| msgid "Description"
 msgid "&Uncompress to Directory"
 msgstr ""
 
-#: main/KoMainWindow.cpp:303
+#: main/KoMainWindow.cpp:304
 #, kde-format
 msgid "&New View"
 msgstr ""
 
-#: main/KoMainWindow.cpp:310 widgets/KoDocumentInfoDlg.cpp:89
+#: main/KoMainWindow.cpp:311 widgets/KoDocumentInfoDlg.cpp:89
 #, kde-format
 msgid "Document Information"
 msgstr ""
 
-#: main/KoMainWindow.cpp:336
+#: main/KoMainWindow.cpp:337
 #, kde-format
 msgid "Full Screen Mode"
 msgstr "Поўнаэкранны рэжым"
 
-#: main/KoMainWindow.cpp:341
+#: main/KoMainWindow.cpp:342
 #, kde-format
 msgid "Show Dockers"
 msgstr ""
 
-#: main/KoMainWindow.cpp:346
+#: main/KoMainWindow.cpp:347
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Docker Titlebars"
 msgstr ""
 
-#: main/KoMainWindow.cpp:353
+#: main/KoMainWindow.cpp:354
 #, kde-format
 msgid "Dockers"
 msgstr ""
 
-#: main/KoMainWindow.cpp:663
+#: main/KoMainWindow.cpp:664
 #, kde-format
 msgid "(write protected)"
 msgstr ""
 
-#: main/KoMainWindow.cpp:668
+#: main/KoMainWindow.cpp:669
 #, kde-format
 msgid "Save as %1"
 msgstr ""
 
-#: main/KoMainWindow.cpp:670
+#: main/KoMainWindow.cpp:671
 #| msgid "Not Started"
 msgid "Save"
 msgstr "Захаваць"
 
-#: main/KoMainWindow.cpp:708 main/KoMainWindow.cpp:736
+#: main/KoMainWindow.cpp:709 main/KoMainWindow.cpp:737
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot open a template file.<nl/>If you want to modify the template, create a new project using this template and save it using <interface>File->Create Project Template...</interface>."
 msgstr ""
 
-#: main/KoMainWindow.cpp:882 widgets/KoDocumentInfoDlg.cpp:395
+#: main/KoMainWindow.cpp:883 widgets/KoDocumentInfoDlg.cpp:395
 #: widgets/KoDocumentInfoDlg.cpp:439
 #, kde-format
 msgid "%1 (unknown file type)"
 msgstr ""
 
-#: main/KoMainWindow.cpp:890
+#: main/KoMainWindow.cpp:891
 #, kde-format
 msgid "<qt>Saving as a %1 may result in some loss of formatting.<p>Do you still want to save in this format?</qt>"
 msgstr ""
 
-#: main/KoMainWindow.cpp:893
+#: main/KoMainWindow.cpp:894
 #| msgid "Not Started"
 msgid "Confirm Save"
 msgstr ""
 
-#: main/KoMainWindow.cpp:902
+#: main/KoMainWindow.cpp:903
 #, kde-format
 msgid "<qt>Exporting as a %1 may result in some loss of formatting.<p>Do you still want to export to this format?</qt>"
 msgstr ""
 
-#: main/KoMainWindow.cpp:905
+#: main/KoMainWindow.cpp:906
 #| msgid "Not Started"
 msgid "Confirm Export"
 msgstr ""
 
-#: main/KoMainWindow.cpp:906 ui/reports/reportview.cpp:381
+#: main/KoMainWindow.cpp:907 ui/reports/reportview.cpp:381
 #: ui/reports/reportview.cpp:401 ui/reports/reportview.cpp:423
 #| msgid "Not Started"
 msgid "Export"
 msgstr "Экспартаваць"
 
-#: main/KoMainWindow.cpp:1024
+#: main/KoMainWindow.cpp:1025
 #| msgid "Initials"
 msgid "untitled"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1316 main/WelcomeView.cpp:274
+#: main/KoMainWindow.cpp:1317 main/WelcomeView.cpp:274
 #| msgid "Account"
 msgid "Open Document"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1325
+#: main/KoMainWindow.cpp:1326
 #| msgid "Account"
 msgid "Import Document"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1515
+#: main/KoMainWindow.cpp:1534
+#| msgid "Account"
+msgid "Cannot preview the document"
+msgstr ""
+
+#: main/KoMainWindow.cpp:1542
+#, kde-format
+msgid "Cannot open pdf viewer"
+msgstr ""
+
+#: main/KoMainWindow.cpp:1590
 #| msgid "Not Started"
 msgid "Export as PDF"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1552
+#: main/KoMainWindow.cpp:1627
 #, kde-format
 msgid "Cannot export to the specified file"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1728
+#: main/KoMainWindow.cpp:1803
 #| msgid "Account"
 msgid "Document"
 msgstr "Дакуменце"
 
-#: main/KoMainWindow.cpp:1736
+#: main/KoMainWindow.cpp:1811
 #| msgid "Account"
 msgid "Document - %1"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1757
+#: main/KoMainWindow.cpp:1832
 #, kde-format
 msgid "You will lose all changes made since your last save\n"
 "Do you want to continue?"
 msgstr ""
 
-#: main/KoMainWindow.cpp:2117
+#: main/KoMainWindow.cpp:2192
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr ""
 
-#: main/KoMainWindow.cpp:2119
+#: main/KoMainWindow.cpp:2194
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr ""
@@ -1633,10 +1643,9 @@ msgid "Stop"
 msgstr "Спыніць"
 
 #: main/KoPrintingDialog.cpp:175 ui/gantt/BasicGanttViewSettingsDialog.cpp:32
-#: ui/gantt/GanttViewBase.cpp:182 ui/kptaccountseditor.cpp:53
-#: ui/kptaccountsviewconfigdialog.cpp:76 ui/kptdependencyeditor.cpp:2128
-#: ui/kptganttview.cpp:1061 ui/kptganttview.cpp:1784
-#: ui/kptitemviewsettup.cpp:189 ui/kptitemviewsettup.cpp:273
+#: ui/kptaccountseditor.cpp:53 ui/kptaccountsviewconfigdialog.cpp:76
+#: ui/kptdependencyeditor.cpp:2185 ui/kptitemviewsettup.cpp:190
+#: ui/kptitemviewsettup.cpp:274 ui/kptresourceappointmentsview.cpp:66
 #: ui/performance/ProjectStatusView.cpp:170
 #, kde-format
 msgid "Printing"
@@ -1858,7 +1867,6 @@ msgstr[3] ""
 #: models/reportgenerator/ReportGeneratorOdt.cpp:179
 #: models/ResourceGroupModel.cpp:190 models/ResourceModel.cpp:418
 #: ui/projectview/ProjectView.cpp:40
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:208
 #, kde-format
 msgid "Name"
 msgstr "Назва"
@@ -2087,14 +2095,16 @@ msgstr ""
 
 #: models/kptcalendarmodel.cpp:306 models/kptcalendarmodel.cpp:315
 #: models/ResourceGroupModel.cpp:92 models/ResourceGroupModel.cpp:101
-#: models/ResourceModel.cpp:106 models/ResourceModel.cpp:115
+#: models/ResourceModel.cpp:83 models/ResourceModel.cpp:106
+#: models/ResourceModel.cpp:115
 #, kde-format
 msgid "Local"
 msgstr "Лакальныя"
 
 #: models/kptcalendarmodel.cpp:306 models/kptcalendarmodel.cpp:315
 #: models/ResourceGroupModel.cpp:92 models/ResourceGroupModel.cpp:101
-#: models/ResourceModel.cpp:106 models/ResourceModel.cpp:115
+#: models/ResourceModel.cpp:83 models/ResourceModel.cpp:106
+#: models/ResourceModel.cpp:115
 #, kde-format
 msgid "Shared"
 msgstr "Адпраўлена"
@@ -2160,6 +2170,7 @@ msgstr ""
 
 #: models/kptcalendarmodel.cpp:532 models/kptnodeitemmodel.cpp:2315
 #: models/kptnodeitemmodel.cpp:5250
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:252
 #| msgid "Name"
 msgctxt "@title:column"
 msgid "Name"
@@ -5195,22 +5206,32 @@ msgctxt "(qtundo-format)"
 msgid "Modify resource account"
 msgstr ""
 
-#: models/ResourceModel.cpp:80 models/ResourceModel.cpp:111
+#: models/ResourceModel.cpp:79
 #, kde-kuit-format
 msgctxt "@info:tooltip"
-msgid "%1 is a <emphasis>Shared</emphasis> resource and can thus be shared with other projects"
+msgid "%1:<nl/>Type: %2<nl/>Allocation: %3<nl/>Origin: %4"
 msgstr ""
 
-#: models/ResourceModel.cpp:83
-#, kde-kuit-format
-msgctxt "@info:tooltip"
-msgid "%1:<nl/>This resource will be automatically allocated to new tasks"
+#: models/ResourceModel.cpp:82
+#, kde-format
+msgid "Manual"
+msgstr "Правадніцтва"
+
+#: models/ResourceModel.cpp:82
+#| msgid "% Completed"
+msgid "On task creation"
 msgstr ""
 
 #: models/ResourceModel.cpp:109
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "%1 is a <emphasis>Local</emphasis> resource and can only be used in this project"
+msgstr ""
+
+#: models/ResourceModel.cpp:111
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "%1 is a <emphasis>Shared</emphasis> resource and can thus be shared with other projects"
 msgstr ""
 
 #: models/ResourceModel.cpp:140
@@ -5635,27 +5656,27 @@ msgstr ""
 msgid "Calligra Storage"
 msgstr ""
 
-#: ui/gantt/BasicGanttViewSettingsDialog.cpp:32 ui/gantt/GanttViewBase.cpp:182
-#: ui/kptaccountseditor.cpp:54 ui/kptaccountsviewconfigdialog.cpp:77
-#: ui/kptdependencyeditor.cpp:2129 ui/kptganttview.cpp:1061
-#: ui/kptganttview.cpp:1784 ui/kptitemviewsettup.cpp:189
-#: ui/kptitemviewsettup.cpp:273 ui/performance/ProjectStatusView.cpp:171
+#: ui/gantt/BasicGanttViewSettingsDialog.cpp:32 ui/kptaccountseditor.cpp:54
+#: ui/kptaccountsviewconfigdialog.cpp:77 ui/kptdependencyeditor.cpp:2186
+#: ui/kptitemviewsettup.cpp:190 ui/kptitemviewsettup.cpp:274
+#: ui/kptresourceappointmentsview.cpp:67
+#: ui/performance/ProjectStatusView.cpp:171
 #, kde-format
 msgid "Printing Options"
 msgstr ""
 
-#: ui/gantt/GanttViewBase.cpp:173 ui/performance/PerformanceStatusView.cpp:629
+#: ui/gantt/GanttViewBase.cpp:174 ui/performance/PerformanceStatusView.cpp:635
 #: ui/performance/ProjectStatusView.cpp:155
 #| msgid "Started late"
 msgid "Chart"
 msgstr ""
 
-#: ui/gantt/GanttViewBase.cpp:173
+#: ui/gantt/GanttViewBase.cpp:174
 #| msgid "Project"
 msgid "Gantt Chart Settings"
 msgstr ""
 
-#: ui/gantt/GanttViewBase.cpp:270
+#: ui/gantt/GanttViewBase.cpp:260
 #| msgid "Started late"
 msgctxt "@title:tab"
 msgid "Chart"
@@ -5961,31 +5982,31 @@ msgctxt "(qtundo-format)"
 msgid "Modify resourcegroup allocation"
 msgstr ""
 
-#: ui/kptaccountseditor.cpp:40 ui/kptaccountsviewconfigdialog.cpp:32
-#: ui/kptdependencyeditor.cpp:2115
+#: ui/kptaccountseditor.cpp:39 ui/kptaccountsviewconfigdialog.cpp:32
+#: ui/kptdependencyeditor.cpp:2171 ui/kptresourceappointmentsview.cpp:52
 #| msgid "Task"
 msgid "Settings"
 msgstr "Налады"
 
-#: ui/kptaccountseditor.cpp:176
+#: ui/kptaccountseditor.cpp:177
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<title>Cost Breakdown Structure Editor</title><para>The Cost Breakdown Structure (CBS) consists of accounts organized into a tree structure. Accounts can be tied to tasks or resources. Usually there will be two top accounts, one for aggregating costs from tasks and one for aggregating costs from resources.</para><para>This view supports printing using the context menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptaccountseditor.cpp:269
+#: ui/kptaccountseditor.cpp:270
 #| msgid "Account"
 msgctxt "@action:inmenu"
 msgid "Add Account"
 msgstr "Дадаць акаўнт"
 
-#: ui/kptaccountseditor.cpp:274
+#: ui/kptaccountseditor.cpp:275
 #| msgid "Account"
 msgctxt "@action:inmenu"
 msgid "Add Subaccount"
 msgstr ""
 
-#: ui/kptaccountseditor.cpp:279
+#: ui/kptaccountseditor.cpp:280
 #| msgid "Deleted"
 msgctxt "@action:inmenu"
 msgid "Delete"
@@ -6006,7 +6027,7 @@ msgid "General"
 msgstr "Асноўныя налады"
 
 #: ui/kptaccountsviewconfigdialog.cpp:63 ui/kptitemviewsettup.cpp:129
-#: ui/kptitemviewsettup.cpp:203
+#: ui/kptitemviewsettup.cpp:204
 #| msgid "Project"
 msgid "View Settings"
 msgstr "Налады выгляду"
@@ -6090,7 +6111,7 @@ msgstr ""
 #: ui/kptaccountsviewconfigurepanelbase.ui:114
 #: ui/kptaccountsviewconfigurepanelbase.ui:144 ui/kptprintingheaderfooter.ui:46
 #: ui/kptprintingheaderfooter.ui:86 ui/kptusedefforteditor.cpp:395
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:189
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:227
 #, kde-format
 msgid "Date"
 msgstr "Дата"
@@ -6140,7 +6161,7 @@ msgstr "Дадаць каляндар"
 msgid "Add Subcalendar"
 msgstr ""
 
-#: ui/kptcalendareditor.cpp:595 ui/kptdependencyeditor.cpp:2520
+#: ui/kptcalendareditor.cpp:595 ui/kptdependencyeditor.cpp:2584
 #: ui/kptresourceeditor.cpp:302 ui/kptscheduleeditor.cpp:304
 #: ui/kpttaskeditor.cpp:922 ui/ResourceGroupEditor.cpp:291
 #| msgid "Deleted"
@@ -6210,121 +6231,121 @@ msgstr "супадае з"
 msgid "%"
 msgstr "%"
 
-#: ui/kptdependencyeditor.cpp:2166
+#: ui/kptdependencyeditor.cpp:2224
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<title>Task Dependency Editor</title><para>Edit dependencies between tasks.Dependencies can be added by dragging a connection area (start or finish) from one task to a connection area of a different task. You can edit or delete a dependency using the context menu.</para><para>This view supports printing using the context menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2478
+#: ui/kptdependencyeditor.cpp:2542
 #| msgid "Add Calendar"
 msgid "Edit Dependency..."
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2482
+#: ui/kptdependencyeditor.cpp:2546
 #| msgid "Deleted"
 msgid "Delete Dependency"
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2486 ui/kpttaskeditor.cpp:927
+#: ui/kptdependencyeditor.cpp:2550 ui/kpttaskeditor.cpp:927
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Link"
 msgstr "Спасылка"
 
-#: ui/kptdependencyeditor.cpp:2491 ui/kpttaskeditor.cpp:893
+#: ui/kptdependencyeditor.cpp:2555 ui/kpttaskeditor.cpp:893
 #: ui/kpttaskeditor.cpp:897
 #| msgid "Task"
 msgid "Add Task"
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2495
+#: ui/kptdependencyeditor.cpp:2559
 #| msgid "Task"
 msgid "Add Task..."
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2500
+#: ui/kptdependencyeditor.cpp:2564
 #| msgid "Add Calendar"
 msgid "Add Milestone..."
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2506 ui/kpttaskeditor.cpp:908
+#: ui/kptdependencyeditor.cpp:2570 ui/kpttaskeditor.cpp:908
 #: ui/kpttaskeditor.cpp:912
 #| msgid "Add Subtask"
 msgid "Add Sub-Task"
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2510
+#: ui/kptdependencyeditor.cpp:2574
 #| msgid "Add Subtask"
 msgid "Add Sub-Task..."
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2515
+#: ui/kptdependencyeditor.cpp:2579
 #| msgid "Add Calendar"
 msgid "Add Sub-Milestone..."
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2525 ui/kptdocumentseditor.cpp:203
-#: ui/kptganttview.cpp:506 ui/kptganttview.cpp:1366 ui/kptganttview.cpp:1981
+#: ui/kptdependencyeditor.cpp:2589 ui/kptdocumentseditor.cpp:203
+#: ui/kptganttview.cpp:506 ui/kptganttview.cpp:1356 ui/kptganttview.cpp:1963
 #: ui/kptpertresult.cpp:151 ui/kptscheduleeditor.cpp:682
 #: ui/kpttaskeditor.cpp:689 ui/kpttaskeditor.cpp:948 ui/kpttaskeditor.cpp:1808
-#: ui/performance/PerformanceStatusView.cpp:323
+#: ui/performance/PerformanceStatusView.cpp:329
 #, kde-format
 msgid "Edit..."
 msgstr "Рэдагаваць..."
 
-#: ui/kptdependencyeditor.cpp:2529 ui/kptganttview.cpp:510
-#: ui/kptganttview.cpp:1370 ui/kptganttview.cpp:1985
-#: ui/kptresourceappointmentsview.cpp:286 ui/kpttaskeditor.cpp:952
+#: ui/kptdependencyeditor.cpp:2593 ui/kptganttview.cpp:510
+#: ui/kptganttview.cpp:1360 ui/kptganttview.cpp:1967
+#: ui/kptresourceappointmentsview.cpp:315 ui/kpttaskeditor.cpp:952
 #: ui/kpttaskeditor.cpp:1812 ui/kpttaskeditor.cpp:2407
-#: ui/kpttaskstatusview.cpp:362 ui/performance/PerformanceStatusView.cpp:327
+#: ui/kpttaskstatusview.cpp:362 ui/performance/PerformanceStatusView.cpp:333
 #| msgid "Add Calendar"
 msgid "Progress..."
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2533 ui/kptganttview.cpp:514
-#: ui/kptganttview.cpp:1374 ui/kptganttview.cpp:1989
-#: ui/kptresourceappointmentsview.cpp:290 ui/kpttaskeditor.cpp:956
+#: ui/kptdependencyeditor.cpp:2597 ui/kptganttview.cpp:514
+#: ui/kptganttview.cpp:1364 ui/kptganttview.cpp:1971
+#: ui/kptresourceappointmentsview.cpp:319 ui/kpttaskeditor.cpp:956
 #: ui/kpttaskeditor.cpp:1816 ui/kpttaskeditor.cpp:2411
-#: ui/kpttaskstatusview.cpp:366 ui/performance/PerformanceStatusView.cpp:331
+#: ui/kpttaskstatusview.cpp:366 ui/performance/PerformanceStatusView.cpp:337
 #| msgid "Description"
 msgid "Description..."
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2537 ui/kptganttview.cpp:518
-#: ui/kptganttview.cpp:1378 ui/kptganttview.cpp:1993
-#: ui/kptresourceappointmentsview.cpp:294 ui/kpttaskeditor.cpp:960
+#: ui/kptdependencyeditor.cpp:2601 ui/kptganttview.cpp:518
+#: ui/kptganttview.cpp:1368 ui/kptganttview.cpp:1975
+#: ui/kptresourceappointmentsview.cpp:323 ui/kpttaskeditor.cpp:960
 #: ui/kpttaskeditor.cpp:1820 ui/kpttaskeditor.cpp:2415
-#: ui/kpttaskstatusview.cpp:370 ui/performance/PerformanceStatusView.cpp:335
+#: ui/kpttaskstatusview.cpp:370 ui/performance/PerformanceStatusView.cpp:341
 #| msgid "Account"
 msgid "Documents..."
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2568 ui/kptrelationdialog.cpp:87
+#: ui/kptdependencyeditor.cpp:2632 ui/kptrelationdialog.cpp:87
 #| msgid "Add Calendar"
 msgctxt "(qtundo-format)"
 msgid "Add task dependency"
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2637 ui/kptrelationdialog.cpp:162
+#: ui/kptdependencyeditor.cpp:2701 ui/kptrelationdialog.cpp:162
 #| msgid "Deleted"
 msgctxt "(qtundo-format)"
 msgid "Delete task dependency"
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2679
+#: ui/kptdependencyeditor.cpp:2743
 #| msgid "Add Calendar"
 msgctxt "(qtundo-format)"
 msgid "Add milestone"
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2724
+#: ui/kptdependencyeditor.cpp:2788
 #| msgid "Add Calendar"
 msgctxt "(qtundo-format)"
 msgid "Add sub-milestone"
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2746 ui/kpttaskeditor.cpp:1133
+#: ui/kptdependencyeditor.cpp:2810 ui/kpttaskeditor.cpp:1133
 #| msgid "Deleted"
 msgctxt "(qtundo-format) Delete one task"
 msgid "Delete task"
@@ -6496,55 +6517,55 @@ msgstr ""
 msgid "Show Unscheduled Tasks"
 msgstr ""
 
-#: ui/kptganttview.cpp:465 ui/kptganttview.cpp:1325 ui/kptganttview.cpp:1940
+#: ui/kptganttview.cpp:465 ui/kptganttview.cpp:1315 ui/kptganttview.cpp:1922
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Auto"
 msgstr "Аўтаматычна"
 
-#: ui/kptganttview.cpp:472 ui/kptganttview.cpp:1332 ui/kptganttview.cpp:1947
+#: ui/kptganttview.cpp:472 ui/kptganttview.cpp:1322 ui/kptganttview.cpp:1929
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Month"
 msgstr "Месяц"
 
-#: ui/kptganttview.cpp:478 ui/kptganttview.cpp:1338 ui/kptganttview.cpp:1953
+#: ui/kptganttview.cpp:478 ui/kptganttview.cpp:1328 ui/kptganttview.cpp:1935
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Week"
 msgstr "Тыдзень"
 
-#: ui/kptganttview.cpp:484 ui/kptganttview.cpp:1344 ui/kptganttview.cpp:1959
+#: ui/kptganttview.cpp:484 ui/kptganttview.cpp:1334 ui/kptganttview.cpp:1941
 #| msgid "Deleted"
 msgctxt "@action:inmenu"
 msgid "Day"
 msgstr "Дзень"
 
-#: ui/kptganttview.cpp:490 ui/kptganttview.cpp:1350 ui/kptganttview.cpp:1965
+#: ui/kptganttview.cpp:490 ui/kptganttview.cpp:1340 ui/kptganttview.cpp:1947
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hour"
 msgstr "Гадзіна"
 
-#: ui/kptganttview.cpp:496 ui/kptganttview.cpp:1356 ui/kptganttview.cpp:1971
+#: ui/kptganttview.cpp:496 ui/kptganttview.cpp:1346 ui/kptganttview.cpp:1953
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Zoom In"
 msgstr "Наблізіць"
 
-#: ui/kptganttview.cpp:501 ui/kptganttview.cpp:1361 ui/kptganttview.cpp:1976
+#: ui/kptganttview.cpp:501 ui/kptganttview.cpp:1351 ui/kptganttview.cpp:1958
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Zoom Out"
 msgstr "Аддаліць"
 
-#: ui/kptganttview.cpp:1132
+#: ui/kptganttview.cpp:1122
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<title>Milestone Gantt View</title><para>Displays scheduled milestones in a Gantt diagram. The chart area can be zoomed in and out with a slider positioned in the upper left corner of the time scale. <note>You need to hoover over it with the mouse for it to show.</note></para><para>This view supports configuration and printing using the context menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptganttview.cpp:1854
+#: ui/kptganttview.cpp:1836
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<title>Resource Assignments (Gantt)</title><para>Displays the scheduled resource - task assignments in a Gantt diagram. The chart area can be zoomed in and out with a slider positioned in the upper left corner of the time scale. <note>You need to hoover over it with the mouse for it to show.</note></para><para>This view supports configuration and printing using the context menu.<nl/><link url='%1'>More...</link></para>"
@@ -6594,7 +6615,6 @@ msgstr "Працягласць"
 
 #. i18n: ectx: property (text), widget (QPushButton, bAddInterval)
 #: ui/kptintervaleditbase.ui:70
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:208
 #| msgid "Send"
 msgid "Add"
 msgstr "Дадаць"
@@ -6629,32 +6649,32 @@ msgstr ""
 msgid "&Visible columns:"
 msgstr ""
 
-#: ui/kptitemviewsettup.cpp:136
+#: ui/kptitemviewsettup.cpp:137
 #, kde-format
 msgid "Tree View"
 msgstr "У выглядзе дрэва"
 
-#: ui/kptitemviewsettup.cpp:137
+#: ui/kptitemviewsettup.cpp:138
 #, kde-format
 msgid "Tree View Column Configuration"
 msgstr ""
 
-#: ui/kptitemviewsettup.cpp:211
+#: ui/kptitemviewsettup.cpp:212
 #, kde-format
 msgid "Main View"
 msgstr ""
 
-#: ui/kptitemviewsettup.cpp:212
+#: ui/kptitemviewsettup.cpp:213
 #, kde-format
 msgid "Main View Column Configuration"
 msgstr ""
 
-#: ui/kptitemviewsettup.cpp:217
+#: ui/kptitemviewsettup.cpp:218
 #, kde-format
 msgid "Auxiliary View"
 msgstr ""
 
-#: ui/kptitemviewsettup.cpp:218
+#: ui/kptitemviewsettup.cpp:219
 #, kde-format
 msgid "Auxiliary View Column Configuration"
 msgstr ""
@@ -7010,7 +7030,7 @@ msgctxt "(qtundo-format)"
 msgid "Modify task dependency"
 msgstr ""
 
-#: ui/kptresourceappointmentsview.cpp:128
+#: ui/kptresourceappointmentsview.cpp:157
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<title>Resource Assignments View</title><para>Displays the scheduled resource - task assignments.</para><para>This view supports configuration and printing using the context menu.<nl/><link url='%1'>More...</link></para>"
@@ -8270,27 +8290,27 @@ msgstr ""
 msgid "Fractional digits:"
 msgstr ""
 
-#: ui/performance/PerformanceStatusBase.cpp:522
 #: ui/performance/PerformanceStatusBase.cpp:525
+#: ui/performance/PerformanceStatusBase.cpp:528
 #, kde-format
 msgctxt "Chart axis title 1=currency symbol"
 msgid "Cost (%1)"
 msgstr ""
 
-#: ui/performance/PerformanceStatusBase.cpp:523
 #: ui/performance/PerformanceStatusBase.cpp:526
+#: ui/performance/PerformanceStatusBase.cpp:529
 #, kde-format
 msgctxt "Chart axis title"
 msgid "Effort (hours)"
 msgstr ""
 
-#: ui/performance/PerformanceStatusView.cpp:215
+#: ui/performance/PerformanceStatusView.cpp:221
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<title>Task Performance View</title><para>Displays performance data aggregated to the selected task.</para><para>This view supports configuration and printing using the context menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/performance/PerformanceStatusView.cpp:629
+#: ui/performance/PerformanceStatusView.cpp:635
 #: ui/performance/ProjectStatusView.cpp:156
 #| msgid "Project"
 msgid "Chart Settings"
@@ -8868,112 +8888,131 @@ msgstr ""
 msgid "Before header"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:189
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:227
 #, kde-format
 msgid "Nothing"
 msgstr "Нічога"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:208
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:253
 #| msgid "Add Resource"
-msgid "Report File"
-msgstr ""
-
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:208
-#| msgid "Add Resource"
+msgctxt "@title:column"
 msgid "Report Template"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:209
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:254
+#| msgid "Send"
+msgctxt "@title:column"
+msgid "Add"
+msgstr "Дадаць"
+
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:255
+#| msgid "Add Resource"
+msgctxt "@title:column"
+msgid "Report File"
+msgstr ""
+
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:258
 #| msgid "Add Resource"
 msgctxt "@info:tooltip"
 msgid "Report name"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:210
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:259
 #| msgid "Add Resource"
 msgctxt "@info:tooltip"
 msgid "Report template file name"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:211
-#, kde-kuit-format
-msgctxt "@info:tooltip"
-msgid "Name of the generated report file"
-msgstr ""
-
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:212
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:260
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Information added to filename"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:248
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:261
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Name of the generated report file"
+msgstr ""
+
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:287
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<title>Add and generate reports</title><para>Enables you to add and generate reports based on Open Document (.odf) files.</para><para>You can create a report template using any Open Document text editor.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:323
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:378
 #| msgid "Add Resource"
 msgid "Add Report"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:328
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:383
 #| msgid "Account"
 msgid "Remove Report"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:333
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:388
 #| msgid "Account"
 msgid "Generate Report"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:360
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:393
+#, kde-format
+msgid "Open..."
+msgstr "Адкрыць..."
+
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:429
 #| msgid "Project"
 msgid "New report"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:401
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:408
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:470
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:476
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:483
 #| msgid "Account"
 msgctxt "@title:window"
 msgid "Generate Report"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:402
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:471
 #, kde-kuit-format
 msgid "Failed to generate %1.<nl/>Template file name is empty."
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:409
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:477
+#| msgid "Add Resource"
+msgid "Failed to generate %1.<nl/>Template file does not exist:<nl/>%2"
+msgstr ""
+
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:484
 #, kde-kuit-format
 msgid "Failed to generate %1.<nl/>Report file name is empty."
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:432
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:507
 #| msgid "Add resource"
 msgctxt "@info"
 msgid "File exists:<nl/>%1"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:432
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:458
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:507
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:533
 #| msgid "Add Resource"
 msgctxt "@title:window"
 msgid "Report Generation"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:451
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:526
 #, kde-format
 msgid "Failed to open report generator"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:455
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:530
 #, kde-format
 msgid "Failed to create report"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:458
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:533
 #| msgid "Add Resource"
 msgctxt "@info"
 msgid "Report file generated:<nl/><filename>%1</filename>"
