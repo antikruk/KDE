@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-11 00:43+0000\n"
-"PO-Revision-Date: 2022-09-12 03:31\n"
+"POT-Creation-Date: 2022-09-24 00:42+0000\n"
+"PO-Revision-Date: 2022-09-24 11:18\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -447,7 +447,7 @@ msgctxt "@action: tag filter"
 msgid "Must Not Have This Tag"
 msgstr "Не маюць гэтай пазнакі"
 
-#: core/app/items/delegate/itemdelegate.cpp:358
+#: core/app/items/delegate/itemdelegate.cpp:359
 #, kde-format
 msgid "Reference Image"
 msgstr "Узорная выява"
@@ -1176,7 +1176,7 @@ msgid "digiKam Properties"
 msgstr "Уласцівасці digiKam"
 
 #: core/app/items/utils/tooltipfiller.cpp:457
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:206
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:210
 #, kde-format
 msgid "Album:"
 msgstr "Альбом:"
@@ -2563,6 +2563,7 @@ msgstr "Асноўныя інструменты"
 #: core/libs/album/manager/albummanager_dalbum.cpp:94
 #: core/libs/album/manager/albummanager_falbum.cpp:66
 #: core/libs/album/manager/albummanager_talbum.cpp:971
+#: core/libs/timeadjust/timeadjustsettings.cpp:161
 #, kde-format
 msgid "digiKam"
 msgstr "digiKam"
@@ -6136,6 +6137,26 @@ msgctxt "@info"
 msgid "<para>This Batch Queue Manager tool can apply metadata template over images.</para>"
 msgstr ""
 
+#: core/dplugins/bqm/metadata/qualitysort/qualitysortplugin.cpp:46
+#| msgctxt "@action:inmenu Pluralized"
+#| msgid "Image Quality Sort"
+#| msgid_plural "Image Quality Sort"
+msgctxt "@title"
+msgid "Image Quality Sort"
+msgstr "Сартаванне па якасці выяў"
+
+#: core/dplugins/bqm/metadata/qualitysort/qualitysortplugin.cpp:61
+#, kde-format
+msgctxt "@info"
+msgid "A tool to assign pick label metadata by image quality"
+msgstr ""
+
+#: core/dplugins/bqm/metadata/qualitysort/qualitysortplugin.cpp:66
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>This Batch Queue Manager tool will assign a pick label metadata value by parsing image and estimate the quality.</para>"
+msgstr ""
+
 #: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:103
 #, kde-format
 msgctxt "@title"
@@ -6328,7 +6349,6 @@ msgid "Usage Terms"
 msgstr ""
 
 #: core/dplugins/bqm/metadata/translate/translate.cpp:112
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:191
 #, kde-format
 msgctxt "@label"
 msgid "Translate to:"
@@ -6746,7 +6766,7 @@ msgid "no"
 msgstr "не"
 
 #: core/dplugins/dimg/jpeg/dimgjpegexportsettings.cpp:76
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:175
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:182
 #, kde-format
 msgid "JPEG quality:"
 msgstr "Якасць JPEG:"
@@ -8328,7 +8348,7 @@ msgid "Use Color Management for Printing"
 msgstr ""
 
 #: core/dplugins/editor/file/print/printoptionspage.cpp:92
-#: core/utilities/maintenance/maintenancedlg.cpp:343
+#: core/libs/imgqsort/imagequalityconfselector.cpp:78
 #: core/utilities/maintenance/maintenancedlg.cpp:363
 #, kde-format
 msgid "Settings..."
@@ -14239,7 +14259,7 @@ msgid "Set here a shorthand reference for the content."
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpstatus.cpp:77
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:112
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:119
 #, kde-format
 msgid "Nickname:"
 msgstr "Мянушка:"
@@ -14372,8 +14392,8 @@ msgid "Timestamp Updated"
 msgstr ""
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:40
-#: core/dplugins/generic/tools/dngconverter/dngconverterlist.cpp:41
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterlist.cpp:39
+#: core/dplugins/generic/tools/dngconverter/dngconverterlist.cpp:40
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterlist.cpp:93
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:598
 #, kde-format
 msgid "Status"
@@ -14703,113 +14723,108 @@ msgstr ""
 msgid "Printing Complete"
 msgstr ""
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:97
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:98
 #: core/dplugins/generic/tools/dngconverter/dngconverterplugin.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "DNG Converter"
 msgstr "Пераўтварэнне ў DNG"
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:105
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:106
 #, kde-format
 msgctxt "@action:button"
 msgid "&Convert"
 msgstr "&Пераўтварыць"
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:283
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:292
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:288
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:297
 #, kde-format
 msgid "DNG Converter"
 msgstr "Пераўтварэнне ў DNG"
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:283
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:288
 #, kde-format
 msgid "The list does not contain any Raw files to process."
 msgstr ""
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:422
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:674
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:427
 #: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:85
 #, kde-format
 msgid "&Abort"
 msgstr "&Скасаваць"
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:423
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:428
 #, kde-format
 msgid "Abort the conversion of Raw files."
 msgstr ""
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:427
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:432
 #, kde-format
 msgid "Con&vert"
 msgstr "&Пераўтварыць"
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:428
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:433
 #, kde-format
 msgid "Start converting the Raw images using the current settings."
 msgstr ""
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:452
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:457
 #, kde-format
 msgid "Failed to save image"
 msgstr ""
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:463
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:468
 #, kde-format
 msgid "Failed to move sidecar"
 msgstr ""
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:469
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:474
 #, kde-format
 msgid "Failed to save image."
 msgstr ""
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:476
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:502
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:481
 #, kde-format
 msgid "Success"
 msgstr "Выканана"
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:501
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:437
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:506
 #, kde-format
 msgid "Process failed"
 msgstr "Працэс завяршыўся памылкай"
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:507
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:512
 #, kde-format
 msgid "Process Canceled"
 msgstr ""
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:513
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:518
 #, kde-format
 msgid "File not supported"
 msgstr "Файл не падтрымліваецца"
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:519
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:451
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:524
 #, kde-format
 msgid "Internal error"
 msgstr "Унутраная памылка"
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:544
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:364
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:549
 #, kde-format
 msgid "Processing %1"
 msgstr "Апрацоўванне %1"
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterlist.cpp:38
+#: core/dplugins/generic/tools/dngconverter/dngconverterlist.cpp:37
 #, kde-format
 msgid "Raw File"
 msgstr "Негатыў (Raw)"
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterlist.cpp:39
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterlist.cpp:38
+#: core/dplugins/generic/tools/dngconverter/dngconverterlist.cpp:38
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterlist.cpp:92
 #, kde-format
 msgid "Target File"
 msgstr "Мэтавы файл"
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterlist.cpp:40
+#: core/dplugins/generic/tools/dngconverter/dngconverterlist.cpp:39
 #: core/utilities/advancedrename/parser/options/cameranameoption.cpp:35
 #: core/utilities/searchwindow/searchfields_createfield.cpp:327
 #: core/utilities/searchwindow/searchfields_createfield.cpp:358
@@ -15101,12 +15116,14 @@ msgid "Process a preview of bracketed images stack with current settings."
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:148
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:135
 #, kde-format
 msgctxt "@action: button"
 msgid "&Default"
 msgstr "&Прадвызначана"
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:150
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:138
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Revert current settings to default values."
@@ -16576,109 +16593,109 @@ msgctxt "@action"
 msgid "Share as MJPEG Stream..."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:46
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:48
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Orientation and script detection (OSD) only."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:47
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:49
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Automatic page segmentation with OSD."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:48
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:50
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Automatic page segmentation, but no OSD, or OCR. (not implemented)"
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:49
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:51
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Fully automatic page segmentation, but no OSD. (Default)."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:50
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:52
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Assume a single column of text of variable sizes."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:51
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:53
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Assume a single uniform block of vertically aligned text."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:52
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:54
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Assume a single uniform block of text."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:53
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:55
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Treat the image as a single text line."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:54
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:56
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Treat the image as a single word."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:55
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:57
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Treat the image as a single word in a circle."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:56
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:58
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Treat the image as a single character."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:57
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:59
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Sparse text. Find as much text as possible in no particular order."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:58
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:60
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Sparse text with OSD."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:59
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:61
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Raw line. Treat the image as a single text line,bypassing hacks that are Tesseract-specific."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:69
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:71
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Legacy engine only."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:70
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:72
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Neural nets LSTM engine only."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:71
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:73
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Legacy + LSTM engines."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:72
+#: core/dplugins/generic/tools/ocrtextconverter/ocroptions.cpp:74
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Default, based on what is available."
@@ -16689,95 +16706,138 @@ msgstr ""
 msgid "Tesseract is an optical character recognition engine for various operating systems."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:120
-#, kde-format
-msgctxt "@title"
-msgid "Text Converter"
-msgstr ""
-
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:131
-#, kde-format
-msgctxt "@action:button"
-msgid "&Start OCR"
-msgstr ""
-
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:150
-#, kde-format
-msgctxt "@label"
-msgid "This tool use the %1 open-source engine to perform Optical Characters Recognition. Tesseract program and the desired languages modules must be installed on your system."
-msgstr ""
-
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:203
-msgctxt "@title"
-msgid "Text Recognition"
-msgstr ""
-
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:209
-#, kde-format
-msgctxt "@info"
-msgid "After to process recognition, double-click on one item to display recognized text here. You can review words and fix if necessary. Press the Save button to record your changes."
-msgstr ""
-
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:218
-#, kde-format
-msgctxt "@action: button"
-msgid "Save"
-msgstr "Захаваць"
-
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:224
-#| msgid "Text Size:"
-msgctxt "@title"
-msgid "Text Review"
-msgstr ""
-
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:443
-#, kde-format
-msgid "Process canceled"
-msgstr ""
-
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:553
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:564
-#, kde-format
-msgid "Text Converter"
-msgstr ""
-
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:554
-#, kde-format
-msgid "The list does not contain any digital files to process. You need to select them."
-msgstr ""
-
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:675
-#, kde-format
-msgid "Abort OCR processing of Raw files."
-msgstr ""
-
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:679
-#, kde-format
-msgid "&Start OCR"
-msgstr ""
-
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:680
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:718
-#, kde-format
-msgid "Start OCR using the current settings."
-msgstr ""
-
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:722
-#, kde-format
-msgid "Tesseract program or no language module\n"
-"are installed on your system."
-msgstr ""
-
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterlist.cpp:37
-#, kde-format
-msgid "Words"
-msgstr ""
-
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:122
 #: core/dplugins/generic/tools/ocrtextconverter/textconverterplugin.cpp:44
 #| msgctxt "@title"
 #| msgid "DNG Converter"
 msgctxt "@title"
 msgid "OCR Text Converter"
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:132
+#, kde-format
+msgctxt "@action:button"
+msgid "&Start OCR"
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:164
+#, kde-format
+msgctxt "@label"
+msgid "This tool use the %1 open-source engine to perform Optical Characters Recognition. Tesseract program and the desired languages modules must be installed on your system."
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:212
+msgctxt "@title"
+msgid "Text Recognition"
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:218
+#, kde-format
+msgctxt "@info"
+msgid "After to process recognition, double-click on one item to display recognized text here. You can review words and fix if necessary. Press the Save button to record your changes."
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:227
+#, kde-format
+msgctxt "@action: button"
+msgid "Save"
+msgstr "Захаваць"
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:233
+#| msgid "Text Size:"
+msgctxt "@title"
+msgid "Text Review"
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:383
+#| msgid "Processing %1"
+msgctxt "@info"
+msgid "Processing %1"
+msgstr "Апрацоўванне %1"
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:456
+#| msgid "Process failed"
+msgctxt "@info"
+msgid "Process failed"
+msgstr "Працэс завяршыўся памылкай"
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:462
+#| msgid "Process failed"
+msgctxt "@info"
+msgid "Process canceled"
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:470
+#| msgid "Internal error"
+msgctxt "@info"
+msgid "Internal error"
+msgstr "Унутраная памылка"
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:521
+#| msgid "Success"
+msgctxt "@info"
+msgid "Success"
+msgstr "Поспех"
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:585
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:597
+#, kde-format
+msgctxt "@title"
+msgid "Text Converter"
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:586
+#, kde-format
+msgctxt "@info"
+msgid "The list does not contain any digital files to process. You need to select them."
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:670
+#| msgid "&Abort"
+msgctxt "@action"
+msgid "&Abort"
+msgstr "&Перарваць"
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:671
+#, kde-format
+msgctxt "@info"
+msgid "Abort OCR processing of Raw files."
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:676
+msgctxt "@action"
+msgid "&Start OCR"
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:677
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:716
+#| msgid "Start with current image"
+msgctxt "@info"
+msgid "Start OCR using the current settings."
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:720
+#, kde-format
+msgctxt "@info"
+msgid "Tesseract program or language modules\n"
+"are not installed on your system."
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:753
+#| msgid "Process Items"
+msgctxt "@action"
+msgid "Process All Items"
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:755
+#| msgid "Process Items"
+msgctxt "@action"
+msgid "Process Selected Items"
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterlist.cpp:91
+#, kde-format
+msgid "Words"
 msgstr ""
 
 #: core/dplugins/generic/tools/ocrtextconverter/textconverterplugin.cpp:59
@@ -16800,98 +16860,118 @@ msgctxt "@action"
 msgid "OCR Text Converter..."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:75
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:85
 #, kde-format
 msgctxt "@label"
 msgid "Languages:"
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:79
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:89
 #, kde-format
 msgctxt "@info"
-msgid "Specify language(s) used for OCR. In the Default mode of Language settings for digital text with multiple languages, \n"
+msgid "Specify the language used for OCR. In the Default mode of Language settings for digital text with multiple languages, \n"
 "Tesseract can automatically recognize languages using Latin alphabets such as English or French, \n"
 "but is not compatible with languages using hieroglyphs such as Chinese, Japanese.\n"
-"OSD mode use the Orientation and Script Detection module."
+"You can use the Orientation and Script Detection mode instead or a specific languagemodule if available."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:87
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:98
 #, kde-format
 msgctxt "@label"
 msgid "Segmentation mode:"
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:101
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:112
 #, kde-format
 msgctxt "@info"
 msgid "Specify page segmentation mode."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:105
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:116
 #, kde-format
 msgctxt "@label"
 msgid "Engine mode:"
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:119
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:130
 #, kde-format
 msgctxt "@info"
 msgid "Specify OCR engine mode."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:123
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:134
 #, kde-format
 msgctxt "@label"
 msgid "Resolution Dpi:"
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:126
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:137
 #, kde-format
 msgctxt "@info"
 msgid "Specify DPI for input image."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:132
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:143
 #, kde-format
 msgctxt "@label"
 msgid "Store result in : "
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:133
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:144
 #, kde-format
 msgctxt "@option:check"
 msgid "Text file"
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:134
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:145
 #, kde-format
 msgctxt "@info"
 msgid "Store OCR result in separated text file"
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:137
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:148
 #, kde-format
 msgctxt "@option:check"
 msgid "Metadata"
 msgstr "Метаданыя"
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:138
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:149
 #, kde-format
 msgctxt "@info"
 msgid "Store OCR result in XMP metadata"
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:222
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:155
+#, kde-format
+msgctxt "@option:check"
+msgid "Use Multi-cores"
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:156
+#| msgid ""
+#| "If this option is enabled, the Slideshow will be started with the current "
+#| "image selected in the images list."
+msgctxt "@info"
+msgid "If this option is enabled, files will be processed in parallel"
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:289
 #| msgctxt "default theme name"
 #| msgid "Default"
-msgctxt "@option:default Tesseract mode"
+msgctxt "@option: default Tesseract mode"
 msgid "Default"
-msgstr "Прадвызначаная"
+msgstr "Прадвызначана"
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:228
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:295
 #, kde-format
-msgctxt "@option:osd Tesseract mode"
+msgctxt "@option: osd Tesseract mode"
 msgid "Orientation and Script Detection"
+msgstr ""
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:314
+#, kde-format
+msgctxt "@label"
+msgid "Translate with %1:"
 msgstr ""
 
 #: core/dplugins/generic/tools/panorama/panoramaplugin.cpp:51
@@ -18940,7 +19020,7 @@ msgstr "Папярэдні прагляд..."
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: core/dplugins/generic/view/presentation/audio/presentation_audiopage.ui:322
 #: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:155
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:152
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:159
 #: core/libs/dplugins/webservices/wssettingswidget.cpp:154
 #: core/utilities/advancedrename/advancedrenamewidget.cpp:389
 #: core/utilities/advancedrename/common/tooltipcreator.cpp:98
@@ -19580,7 +19660,7 @@ msgstr "Кроплі"
 msgid "Slideshow"
 msgstr "Слайд-шоу"
 
-#: core/dplugins/generic/view/slideshow/common/slideshowloader.cpp:664
+#: core/dplugins/generic/view/slideshow/common/slideshowloader.cpp:665
 #, kde-format
 msgctxt "Reason for inhibiting the screensaver activation, when the presentation mode is active"
 msgid "Giving a slideshow"
@@ -21137,7 +21217,7 @@ msgid "A linked item already exists."
 msgstr ""
 
 #: core/dplugins/generic/webservices/google/gsreplacedlg.cpp:171
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:144
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:151
 #: core/libs/dplugins/webservices/wssettingswidget.cpp:151
 #, kde-format
 msgid "Destination"
@@ -22149,416 +22229,416 @@ msgctxt "@info"
 msgid "This is a clickable link to open the MediaWiki home page in a web browser."
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:176
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:181
 #, kde-format
 msgctxt "@info"
 msgid "This is the list of images to upload to the wiki."
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:201
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:378
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:207
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:384
 #, kde-format
 msgctxt "@info"
 msgid "This is the login form to your account on the chosen wiki."
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:223
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:229
 #, kde-format
 msgctxt "@label: properties"
 msgid "Title:"
 msgstr "Назва:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:225
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:231
 #, kde-format
 msgctxt "@label: properties"
 msgid "Date:"
 msgstr "Дата:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:227
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:233
 #, kde-format
 msgctxt "@label: properties"
 msgid "Description:"
 msgstr "Апісанне:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:229
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:235
 #, kde-format
 msgctxt "@label: properties"
 msgid "Categories:"
 msgstr "Катэгорыі:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:231
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:237
 #, kde-format
 msgctxt "@label: properties"
 msgid "Latitude:"
 msgstr "Шырата:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:233
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:239
 #, kde-format
 msgctxt "@label: properties"
 msgid "Longitude:"
 msgstr "Даўгата:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:261
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:267
 #, kde-format
 msgctxt "@option"
 msgid "Account"
 msgstr "Акаўнт"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:262
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:268
 #, kde-format
 msgctxt "@info"
 msgid "This is the login form to your MediaWiki account."
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:270
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:276
 #, kde-format
 msgctxt "@option: button"
 msgid "New"
 msgstr "Новы"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:271
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:277
 #, kde-format
 msgctxt "@info"
 msgid "Add a wiki to this list"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:276
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:282
 #, kde-format
 msgctxt "@item"
 msgid "Wikimedia Commons"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:277
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:283
 #, kde-format
 msgctxt "@item"
 msgid "Wikimedia Meta"
 msgstr "Wikimedia Meta"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:278
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:284
 #, kde-format
 msgctxt "@item"
 msgid "Wikipedia"
 msgstr "Вікіпедыя"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:279
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:285
 #, kde-format
 msgctxt "@item"
 msgid "Wikibooks"
 msgstr "Wikibooks"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:280
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:286
 #, kde-format
 msgctxt "@item"
 msgid "Wikinews"
 msgstr "Wikinews"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:281
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:287
 #, kde-format
 msgctxt "@item"
 msgid "Wikiquote"
 msgstr "Wikiquote"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:282
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:288
 #, kde-format
 msgctxt "@item"
 msgid "Wikisource"
 msgstr "Wikisource"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:283
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:289
 #, kde-format
 msgctxt "@item"
 msgid "Wiktionary"
 msgstr "Wiktionary"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:284
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:290
 #, kde-format
 msgctxt "@item"
 msgid "MediaWiki"
 msgstr "MediaWiki"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:285
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:291
 #, kde-format
 msgctxt "@item"
 msgid "Wikia Foto"
 msgstr "Wikia Foto"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:286
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:292
 #, kde-format
 msgctxt "@item"
 msgid "Wikia Uncyclopedia"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:291
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:297
 #, kde-format
 msgctxt "@label"
 msgid "Wiki:"
 msgstr "Wiki:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:302
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:308
 #, kde-format
 msgctxt "@info"
 msgid "These are options for adding a Wiki."
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:307
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:313
 #, kde-format
 msgctxt "@label: name of wiki area"
 msgid "Name:"
 msgstr "Назва:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:310
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:316
 #, kde-format
 msgctxt "@label"
 msgid "API URL:"
 msgstr "API URL:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:316
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:322
 #, kde-format
 msgctxt "@action: button"
 msgid "Add"
 msgstr "Дадаць"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:317
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:323
 #, kde-format
 msgctxt "@info"
 msgid "Add a new wiki"
 msgstr "Дадаць новую wiki"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:326
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:332
 #, kde-format
 msgctxt "@label"
 msgid "Login:"
 msgstr "Лагін:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:329
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:335
 #, kde-format
 msgctxt "@label"
 msgid "Password:"
 msgstr "Пароль:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:334
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:340
 #, kde-format
 msgctxt "@action"
 msgid "&Log in"
 msgstr "&Увайсці"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:350
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:356
 #, kde-format
 msgctxt "@option"
 msgid "Login Information"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:356
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:362
 #, kde-format
 msgctxt "@label: name of the wiki the user is currently logged on"
 msgid "Logged on: "
 msgstr "Уваход выкананы: "
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:360
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:366
 #, kde-format
 msgctxt "@label: username which is used to connect to the wiki"
 msgid "Logged as: "
 msgstr "Увайшлі як: "
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:364
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:370
 #, kde-format
 msgctxt "@action: button"
 msgid "Change Account"
 msgstr "Змяніць акаўнт"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:365
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:371
 #, kde-format
 msgctxt "@info"
 msgid "Logout and change the account used for transfer"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:377
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:383
 #, kde-format
 msgctxt "@option"
 msgid "Information"
 msgstr "Інфармацыя"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:383
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:389
 #, kde-format
 msgctxt "@label"
 msgid "Author:"
 msgstr "Аўтар:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:386
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:392
 #, kde-format
 msgctxt "@label: source file"
 msgid "Source:"
 msgstr "Крыніца:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:389
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:395
 #, kde-format
 msgctxt "@label"
 msgid "License:"
 msgstr "Ліцэнзія:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:393
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:399
 #, kde-format
 msgctxt "@item"
 msgid "Own work, Creative Commons Attribution-Share Alike 4.0"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:395
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:401
 #, kde-format
 msgctxt "@item"
 msgid "Own work, multi-license with CC-BY-SA-3.0 and GFDL"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:397
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:403
 #, kde-format
 msgctxt "@item"
 msgid "Own work, multi-license with CC-BY-SA-3.0 and older"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:399
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:405
 #, kde-format
 msgctxt "@item"
 msgid "Own work, Creative Commons Attribution-Share Alike 3.0"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:401
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:407
 #, kde-format
 msgctxt "@item"
 msgid "Own work, Creative Commons Attribution 3.0"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:403
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:409
 #, kde-format
 msgctxt "@item"
 msgid "Own work, release into public domain under the CC-Zero license"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:405
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:411
 #, kde-format
 msgctxt "@item"
 msgid "Author died more than 100 years ago"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:407
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:413
 #, kde-format
 msgctxt "@item"
 msgid "Photo of a two-dimensional work whose author died more than 100 years ago"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:409
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:415
 #, kde-format
 msgctxt "@item"
 msgid "First published in the United States before 1923"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:411
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:417
 #, kde-format
 msgctxt "@item"
 msgid "Work of a U.S. government agency"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:413
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:419
 #, kde-format
 msgctxt "@item"
 msgid "Simple typefaces, individual words or geometric shapes"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:415
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:421
 #, kde-format
 msgctxt "@item"
 msgid "Logos with only simple typefaces, individual words or geometric shapes"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:417
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:423
 #, kde-format
 msgctxt "@item"
 msgid "No license specified (not recommended for public wiki sites)"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:420
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:426
 #, kde-format
 msgctxt "@label"
 msgid "Generic categories:"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:423
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:429
 #, kde-format
 msgctxt "@info"
 msgid "This is a place to enter categories that will be added to all the files."
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:426
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:432
 #, kde-format
 msgctxt "@label"
 msgid "Generic text:"
 msgstr "Звычайны тэкст:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:429
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:435
 #, kde-format
 msgctxt "@info"
 msgid "This is a place to enter text that will be added to all the files, below the Information template."
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:433
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:439
 #, kde-format
 msgctxt "@label"
 msgid "Upload comments:"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:436
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:442
 #, kde-format
 msgctxt "@info"
 msgid "This is a place to enter text that will be used as upload comments. The default of 'Uploaded via digiKam uploader' will be used if empty."
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:458
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:464
 #, kde-format
 msgctxt "@option"
 msgid "Options"
 msgstr "Параметры"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:459
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:465
 #, kde-format
 msgctxt "@info"
 msgid "These are options that will be applied to photos before upload."
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:465
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:471
 #, kde-format
 msgctxt "@option"
 msgid "Resize photos before uploading"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:475
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:481
 #, kde-format
 msgctxt "@label"
 msgid "Maximum size:"
 msgstr "Максімальны памер:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:483
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:489
 #, kde-format
 msgctxt "@label"
 msgid "JPEG quality:"
 msgstr "Якасць JPEG:"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:486
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:492
 #, kde-format
 msgctxt "@option"
 msgid "Remove metadata from file"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:490
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:496
 #, kde-format
 msgctxt "@option"
 msgid "Remove coordinates from file"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:507
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:513
 #, kde-format
 msgctxt "@item"
 msgid "Items Properties"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:508
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:514
 #, kde-format
 msgctxt "@item"
 msgid "Upload Settings"
@@ -22841,15 +22921,15 @@ msgid "Visit Piwigo website"
 msgstr ""
 
 #: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:151
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:90
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:191
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:97
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:195
 #, kde-format
 msgid "Change Account"
 msgstr "Змяніць акаўнт"
 
 #: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:159
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:157
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:251
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:164
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:255
 #, kde-format
 msgid "Resize photos before uploading"
 msgstr ""
@@ -22895,7 +22975,7 @@ msgstr ""
 #: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:442
 #: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:466
 #: core/dplugins/generic/webservices/smugmug/smugnewalbumdlg.cpp:94
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:106
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:113
 #: core/libs/dplugins/webservices/wssettingswidget.cpp:143
 #: core/libs/models/abstractalbummodel.cpp:464
 #: core/utilities/searchwindow/searchfields_createfield.cpp:27
@@ -23228,129 +23308,129 @@ msgstr ""
 msgid "Failed to list album template"
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:62
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:67
 #, kde-format
 msgid "This is the list of images to upload to your SmugMug account."
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:68
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:75
 #, kde-format
 msgid "This is a clickable link to open the SmugMug home page in a web browser."
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:74
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:81
 #: core/libs/dplugins/webservices/wssettingswidget.cpp:139
 #, kde-format
 msgid "Account"
 msgstr "Акаўнт"
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:75
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:82
 #, kde-format
 msgid "This is the SmugMug account that will be used to authenticate."
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:78
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:85
 #, kde-format
 msgctxt "smug account login"
 msgid "Anonymous"
 msgstr "Ананімна"
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:79
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:86
 #, kde-format
 msgid "Login as anonymous to SmugMug web service."
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:81
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:88
 #, kde-format
 msgid "SmugMug Account"
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:82
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:89
 #, kde-format
 msgid "Login to SmugMug web service using email and password."
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:84
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:91
 #, kde-format
 msgctxt "smug account settings"
 msgid "Name:"
 msgstr "Назва:"
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:86
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:93
 #, kde-format
 msgctxt "smug account settings"
 msgid "Email:"
 msgstr "Электронная пошта:"
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:92
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:99
 #, kde-format
 msgid "Change SmugMug Account used to authenticate"
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:107
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:114
 #, kde-format
 msgid "This is the SmugMug album that will be used for transfer."
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:114
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:121
 #, kde-format
 msgid "Nickname of SmugMug user to list albums."
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:115
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:122
 #, kde-format
 msgid "Site Password:"
 msgstr "Пароль для сайта:"
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:117
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:124
 #, kde-format
 msgid "Site-wide password for specified SmugMug nick/user."
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:118
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:125
 #, kde-format
 msgid "Album Password:"
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:120
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:127
 #, kde-format
 msgid "Password for SmugMug album."
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:123
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:210
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:130
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:214
 #, kde-format
 msgid "New Album"
 msgstr "Новы альбом"
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:125
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:132
 #, kde-format
 msgid "Create new SmugMug album"
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:128
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:135
 #, kde-format
 msgctxt "reload album list"
 msgid "Reload"
 msgstr "Перазагрузіць"
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:130
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:216
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:137
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:220
 #, kde-format
 msgid "Reload album list"
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:145
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:152
 #, kde-format
 msgid "This is the location where SmugMug images will be downloaded."
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:153
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:160
 #, kde-format
 msgid "These are options that will be applied to images before upload."
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:167
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:174
 #, kde-format
 msgid "Maximum dimension:"
 msgstr ""
@@ -28369,166 +28449,6 @@ msgstr ""
 msgid "Output color profile \"%1\" not available"
 msgstr ""
 
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:98
-#, kde-format
-msgid "Enable Image Quality Sorting (Experimental)"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:99
-#, kde-format
-msgid "Enable this option to assign automatically Pick Labels based on image quality."
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:108
-#, kde-format
-msgid "Detect Blur"
-msgstr "Выяўляць размыццё"
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:109
-#, kde-format
-msgid "Detect the amount of blur in the images passed to it"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:111
-#, kde-format
-msgid "Detect Noise"
-msgstr "Выяўляць шум"
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:112
-#, kde-format
-msgid "Detect the amount of noise in the images passed to it"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:114
-#, kde-format
-msgid "Detect Compression"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:115
-#, kde-format
-msgid "Detect the amount of compression in the images passed to it"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:117
-#, kde-format
-msgid "Detect Under and Over Exposure"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:118
-#, kde-format
-msgid "Detect if the images are under-exposed or over-exposed"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:120
-#, kde-format
-msgid "Detect Aesthetic Image"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:121
-#, kde-format
-msgid "Detect if the image is aesthetic"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:127
-#, kde-format
-msgid "Assign 'Rejected' Label to Low Quality Pictures"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:128
-#, kde-format
-msgid "Low quality images detected by blur, noise, and compression analysis will be assigned to Rejected label."
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:140
-#, kde-format
-msgid "Assign 'Pending' Label to Medium Quality Pictures"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:141
-#, kde-format
-msgid "Medium quality images detected by blur, noise, and compression analysis will be assigned to Pending label."
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:153
-#, kde-format
-msgid "Assign 'Accepted' Label to High Quality Pictures"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:154
-#, kde-format
-msgid "High quality images detected by blur, noise, and compression analysis will be assigned to Accepted label."
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:167
-#, kde-format
-msgid "Speed:"
-msgstr "Хуткасць:"
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:172
-#, kde-format
-msgid "Tradeoff between speed and accuracy of sorting algorithm"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:174
-#, kde-format
-msgid "Rejected threshold:"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:179
-#, kde-format
-msgid "Threshold below which all pictures are assigned Rejected Label"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:181
-#, kde-format
-msgid "Pending threshold:"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:186
-#, kde-format
-msgid "Threshold below which all pictures are assigned Pending Label"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:188
-#, kde-format
-msgid "Accepted threshold:"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:193
-#, kde-format
-msgid "Threshold above which all pictures are assigned Accepted Label"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:195
-#, kde-format
-msgid "Blur Weight:"
-msgstr "Значэнне размыцця:"
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:200
-#, kde-format
-msgid "Weight to assign to Blur Algorithm"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:202
-#, kde-format
-msgid "Noise Weight:"
-msgstr "Значэнне шуму:"
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:207
-#, kde-format
-msgid "Weight to assign to Noise Algorithm"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:209
-#, kde-format
-msgid "Compression Weight:"
-msgstr ""
-
-#: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:214
-#, kde-format
-msgid "Weight to assign to Compression Algorithm"
-msgstr ""
-
 #: core/libs/dimg/filters/lc/localcontrastfilter.cpp:77
 #, kde-format
 msgid "Local Contrast Filter"
@@ -30229,114 +30149,114 @@ msgstr "Google Photo"
 msgid "Max Dimension"
 msgstr "Максімальны памер"
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:171
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:175
 #, kde-format
 msgid "This is the list of images to upload to your %1 account."
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:182
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:186
 #, kde-format
 msgid "This is a clickable link to open %1 in a browser."
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:188
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:192
 #, kde-format
 msgid "This is the %1 account that is currently logged in."
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:190
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:194
 #, kde-format
 msgctxt "account settings"
 msgid "Name:"
 msgstr "Назва:"
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:193
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:197
 #, kde-format
 msgid "Change %1 account for transfer"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:203
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:207
 #, kde-format
 msgid "This is the %1 folder to/from which selected photos will be uploaded/downloaded."
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:212
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:216
 #, kde-format
 msgid "Create new %1 folder"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:214
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:218
 #, kde-format
 msgctxt "album list"
 msgid "Reload"
 msgstr "Перазагрузіць"
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:225
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:229
 #, kde-format
 msgid "This is the maximum dimension of the images. Images larger than this will be scaled down."
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:227
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:231
 #, kde-format
 msgid "Original Size"
 msgstr "Арыгінальны памер"
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:228
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:232
 #, kde-format
 msgid "1600 px"
 msgstr "1600 пікс"
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:229
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:233
 #, kde-format
 msgid "1440 px"
 msgstr "1440 пікс"
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:230
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:234
 #, kde-format
 msgid "1280 px"
 msgstr "1280 пікс"
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:231
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:235
 #, kde-format
 msgid "1152 px"
 msgstr "1152 пікс"
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:232
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:236
 #, kde-format
 msgid "1024 px"
 msgstr "1024 пікс"
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:238
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:242
 #, kde-format
 msgid "This is the location where %1 images will be downloaded."
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:244
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:248
 #, kde-format
 msgid "These are the options that would be applied to photos before upload."
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:247
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:251
 #, kde-format
 msgid "Upload original image file"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:254
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:258
 #, kde-format
 msgid "Write the photo ID to the source image"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:255
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:259
 #, kde-format
 msgid "Write the photo ID as metadata in the source image after uploading."
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:267
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:271
 #, kde-format
 msgid "Maximum Dimension:"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:275
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:279
 #, kde-format
 msgid "JPEG Quality:"
 msgstr "Якасць JPEG:"
@@ -30364,62 +30284,62 @@ msgstr "Закрыць акно"
 msgid "Cancel current operation"
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:91
+#: core/libs/dplugins/widgets/ditemslist.cpp:93
 #, kde-format
 msgctxt "@info"
 msgid "Add new images to the list"
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:92
+#: core/libs/dplugins/widgets/ditemslist.cpp:94
 #, kde-format
 msgctxt "@info"
 msgid "Remove selected images from the list"
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:93
+#: core/libs/dplugins/widgets/ditemslist.cpp:95
 #, kde-format
 msgctxt "@info"
 msgid "Move current selected image up in the list"
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:94
+#: core/libs/dplugins/widgets/ditemslist.cpp:96
 #, kde-format
 msgctxt "@info"
 msgid "Move current selected image down in the list"
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:95
+#: core/libs/dplugins/widgets/ditemslist.cpp:97
 #, kde-format
 msgctxt "@info"
 msgid "Clear the list."
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:96
+#: core/libs/dplugins/widgets/ditemslist.cpp:98
 #, kde-format
 msgctxt "@info"
 msgid "Load a saved list."
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:97
+#: core/libs/dplugins/widgets/ditemslist.cpp:99
 #, kde-format
 msgctxt "@info"
 msgid "Save the list."
 msgstr "Захаваць спіс."
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:552
+#: core/libs/dplugins/widgets/ditemslist.cpp:580
 #, kde-format
 msgctxt "@info"
 msgid "Select the image file list to load"
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:553
-#: core/libs/dplugins/widgets/ditemslist.cpp:635
+#: core/libs/dplugins/widgets/ditemslist.cpp:581
+#: core/libs/dplugins/widgets/ditemslist.cpp:663
 #, kde-format
 msgctxt "@option"
 msgid "All Files (*)"
 msgstr "Усе файлы (*)"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:633
+#: core/libs/dplugins/widgets/ditemslist.cpp:661
 #, kde-format
 msgctxt "@info"
 msgid "Select the image file list to save"
@@ -30996,6 +30916,204 @@ msgstr "Ачысціць усё"
 #, kde-format
 msgid "Select All"
 msgstr "Абраць усё"
+
+#: core/libs/imgqsort/imagequalityconfselector.cpp:74
+#| msgid "Default Settings"
+msgctxt "@option:radio"
+msgid "Use default settings"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalityconfselector.cpp:75
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use the default quality sorting parameters configured in Setup dialog."
+msgstr ""
+
+#: core/libs/imgqsort/imagequalityconfselector.cpp:82
+#| msgid "Text settings"
+msgctxt "@option:radio"
+msgid "Use custom settings"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalityconfselector.cpp:83
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use custom parameters to perform quality sorting instead default one."
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:124
+#, kde-format
+msgctxt "@option:check"
+msgid "Assign 'Rejected' Label to Low Quality Pictures"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:125
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Low quality images detected by blur, noise, and compression analysis will be assigned to Rejected label."
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:137
+#, kde-format
+msgctxt "@option:check"
+msgid "Assign 'Pending' Label to Medium Quality Pictures"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:138
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Medium quality images detected by blur, noise, and compression analysis will be assigned to Pending label."
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:150
+#, kde-format
+msgctxt "@option:check"
+msgid "Assign 'Accepted' Label to High Quality Pictures"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:151
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "High quality images detected by blur, noise, and compression analysis will be assigned to Accepted label."
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:164
+#, kde-format
+msgctxt "@option:radio"
+msgid "Detect Aesthetic Image using Deep Learning"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:166
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Detect if the image has aesthetic value.\n"
+"The aesthetic detection engine use deep learning model to classify images"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:171
+#, kde-format
+msgctxt "@option:radio"
+msgid "Detect Quality Using Basic Factors"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:173
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Detect if the image is sabotaging by four basic factors (blur, noise, exposure, and compression)."
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:184
+#| msgctxt "@item: pick tree"
+#| msgid "Rejected Item"
+msgctxt "@label"
+msgid "Rejected threshold:"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:189
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Threshold below which all pictures are assigned Rejected Label"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:191
+#| msgctxt "@item: pick tree"
+#| msgid "Pending Item"
+msgctxt "@label"
+msgid "Pending threshold:"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:196
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Threshold below which all pictures are assigned Pending Label"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:198
+#| msgctxt "@item: pick tree"
+#| msgid "Accepted Item"
+msgctxt "@label"
+msgid "Accepted threshold:"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:203
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Threshold above which all pictures are assigned Accepted Label"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:205
+#| msgid "Detect Blur"
+msgctxt "@option:check"
+msgid "Detect Blur"
+msgstr "Выяўляць размыццё"
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:206
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Detect the amount of blur in the images passed to it"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:208
+#: core/libs/imgqsort/imagequalitysettings.cpp:218
+#: core/libs/imgqsort/imagequalitysettings.cpp:228
+#| msgid "Height:"
+msgctxt "@label"
+msgid "Weight:"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:213
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Weight to assign to Blur Algorithm"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:215
+#| msgid "Detect Noise"
+msgctxt "@option:check"
+msgid "Detect Noise"
+msgstr "Выяўляць шум"
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:216
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Detect the amount of noise in the images passed to it"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:223
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Weight to assign to Noise Algorithm"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:225
+#| msgid "Detect Noise"
+msgctxt "@option:check"
+msgid "Detect Compression"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:226
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Detect the amount of compression in the images passed to it"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:233
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Weight to assign to Compression Algorithm"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:235
+#, kde-format
+msgctxt "@option:check"
+msgid "Detect Under and Over Exposure"
+msgstr ""
+
+#: core/libs/imgqsort/imagequalitysettings.cpp:236
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Detect if the images are under-exposed or over-exposed"
+msgstr ""
 
 #: core/libs/iojobs/iojob.cpp:70
 #, kde-format
@@ -32215,14 +32333,19 @@ msgctxt "info"
 msgid "Binary data %1 bytes"
 msgstr ""
 
-#: core/libs/metadataengine/exiftool/exiftoolprocess.cpp:364
+#: core/libs/metadataengine/exiftool/exiftoolprocess.cpp:412
 #, kde-format
 msgid "ExifTool does not exists or exec permission is missing"
 msgstr ""
 
-#: core/libs/metadataengine/exiftool/exiftoolprocess.cpp:378
+#: core/libs/metadataengine/exiftool/exiftoolprocess.cpp:426
 #, kde-format
 msgid "Perl does not exists or exec permission is missing"
+msgstr ""
+
+#: core/libs/metadataengine/exiftool/exiftoolprocess_p.cpp:148
+#, kde-format
+msgid "Synchronization error between the channels"
 msgstr ""
 
 #: core/libs/metadataengine/focuspoint/focuspoint.cpp:119
@@ -35377,11 +35500,6 @@ msgstr ""
 msgid "Select Image to Extract Clock Photo"
 msgstr ""
 
-#: core/libs/timeadjust/timeadjustsettings.cpp:161
-#, kde-format
-msgid "DigiKam"
-msgstr "DigiKam"
-
 #: core/libs/timeadjust/timeadjustsettings.cpp:165
 #, kde-format
 msgid "Showfoto"
@@ -37150,7 +37268,7 @@ msgstr ""
 msgid "Failed to load image"
 msgstr "Не атрымалася загрузіць выяву"
 
-#: core/libs/widgets/graphicsview/paniconwidget.cpp:329
+#: core/libs/widgets/graphicsview/paniconwidget.cpp:330
 #, kde-format
 msgid "Pan the image to a region"
 msgstr ""
@@ -37804,7 +37922,7 @@ msgid "Gowtham Ashok"
 msgstr "Gowtham Ashok"
 
 #: core/libs/widgets/mainview/daboutdata.cpp:214
-#: core/utilities/maintenance/imagequalitysorter.cpp:67
+#: core/utilities/maintenance/imagequalitysorter.cpp:108
 #: core/utilities/maintenance/maintenancedlg.cpp:345
 #, kde-format
 msgid "Image Quality Sorter"
@@ -51347,265 +51465,260 @@ msgstr "&Левая панэль"
 msgid "&Right Panel"
 msgstr "&Правая панэль"
 
-#: core/utilities/maintenance/dbcleaner.cpp:129
-#: core/utilities/maintenance/dbcleaner.cpp:228
-#: core/utilities/maintenance/dbcleaner.cpp:257
-#: core/utilities/maintenance/dbcleaner.cpp:288
-#: core/utilities/maintenance/dbcleaner.cpp:327
-#: core/utilities/maintenance/dbcleaner.cpp:372
+#: core/utilities/maintenance/dbcleaner.cpp:137
+#: core/utilities/maintenance/dbcleaner.cpp:237
+#: core/utilities/maintenance/dbcleaner.cpp:266
+#: core/utilities/maintenance/dbcleaner.cpp:297
+#: core/utilities/maintenance/dbcleaner.cpp:336
+#: core/utilities/maintenance/dbcleaner.cpp:381
 #, kde-format
 msgid "Clean up the databases : "
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:129
+#: core/utilities/maintenance/dbcleaner.cpp:137
 #, kde-format
 msgid "analysing databases"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:228
+#: core/utilities/maintenance/dbcleaner.cpp:237
 #, kde-format
 msgid "cleaning core db"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:257
+#: core/utilities/maintenance/dbcleaner.cpp:266
 #, kde-format
 msgid "cleaning thumbnails db"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:288
+#: core/utilities/maintenance/dbcleaner.cpp:297
 #, kde-format
 msgid "cleaning recognition db"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:327
+#: core/utilities/maintenance/dbcleaner.cpp:336
 #, kde-format
 msgid "cleaning similarity db"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:372
+#: core/utilities/maintenance/dbcleaner.cpp:381
 #, kde-format
 msgid "shrinking databases"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:498
+#: core/utilities/maintenance/dbcleaner.cpp:507
 #, kde-format
 msgid "<p>Database shrinking in progress.</p><p>Currently, your databases are being shrunk. This will take some time - depending on your databases size.</p><p>We have to freeze digiKam in order to prevent database corruption. This info box will vanish when the shrinking process is finished.</p>Current Status:"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:511
+#: core/utilities/maintenance/dbcleaner.cpp:520
 #, kde-format
 msgid "Core DB"
 msgstr "Асноўная база даных"
 
-#: core/utilities/maintenance/dbcleaner.cpp:512
+#: core/utilities/maintenance/dbcleaner.cpp:521
 #, kde-format
 msgid "Thumbnails DB"
 msgstr "База даных мініяцюр"
 
-#: core/utilities/maintenance/dbcleaner.cpp:513
+#: core/utilities/maintenance/dbcleaner.cpp:522
 #, kde-format
 msgid "Face Recognition DB"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:514
+#: core/utilities/maintenance/dbcleaner.cpp:523
 #, kde-format
 msgid "Similarity DB"
 msgstr "База даных падабенства"
 
-#: core/utilities/maintenance/duplicatesfinder.cpp:95
+#: core/utilities/maintenance/duplicatesfinder.cpp:103
 #, kde-format
 msgid "Find duplicates items"
 msgstr ""
 
-#: core/utilities/maintenance/facesdetector.cpp:116
+#: core/utilities/maintenance/facesdetector.cpp:272
 #, kde-format
 msgid "Updating faces database."
 msgstr ""
 
-#: core/utilities/maintenance/fingerprintsgenerator.cpp:63
+#: core/utilities/maintenance/fingerprintsgenerator.cpp:101
 #, kde-format
 msgid "Finger-prints"
 msgstr "Кантрольныя радкі"
 
-#: core/utilities/maintenance/maintenancedlg.cpp:193
+#: core/utilities/maintenance/maintenancedlg.cpp:196
 #, kde-format
 msgid "Maintenance"
 msgstr "Суправаджэнне"
 
-#: core/utilities/maintenance/maintenancedlg.cpp:208
+#: core/utilities/maintenance/maintenancedlg.cpp:211
 #, kde-format
 msgid "<qt><b>Select Maintenance Operations to Process</b></qt>"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:214
+#: core/utilities/maintenance/maintenancedlg.cpp:217
 #, kde-format
 msgctxt "@label"
 msgid "Process items from:"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:215
+#: core/utilities/maintenance/maintenancedlg.cpp:218
 #, kde-format
 msgctxt "@option:check"
 msgid "Use the last saved active tools and settings"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:216
+#: core/utilities/maintenance/maintenancedlg.cpp:219
 #, kde-format
 msgctxt "@option:check"
 msgid "Work on all processor cores (when it's possible)"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:217
+#: core/utilities/maintenance/maintenancedlg.cpp:220
 #, kde-format
 msgid "Common Options"
 msgstr "Агульныя параметры"
 
-#: core/utilities/maintenance/maintenancedlg.cpp:221
+#: core/utilities/maintenance/maintenancedlg.cpp:224
 #, kde-format
 msgid "<qt>No option<br/><i>Note: only Albums Collection are processed by this tool.</i></qt>"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:223
+#: core/utilities/maintenance/maintenancedlg.cpp:226
 #, kde-format
 msgid "Scan for new items"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:229
+#: core/utilities/maintenance/maintenancedlg.cpp:232
 #, kde-format
 msgid "<qt><i>Note: If activated, the Core DB is always cleaned. You can select additional databases for cleaning.<br/> If you select one of the options below, the process may take much time and can freeze digiKam temporarily<br/> in order to make sure that no database corruption occurs.</i></qt>"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:232
+#: core/utilities/maintenance/maintenancedlg.cpp:235
 #, kde-format
 msgid "Also clean up the thumbnail database."
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:233
+#: core/utilities/maintenance/maintenancedlg.cpp:236
 #, kde-format
 msgid "Also clean up the faces database."
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:234
+#: core/utilities/maintenance/maintenancedlg.cpp:237
 #, kde-format
 msgid "Also clean up the similarity database."
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:235
+#: core/utilities/maintenance/maintenancedlg.cpp:238
 #, kde-format
 msgid "Extended clean up and shrink all databases."
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:236
+#: core/utilities/maintenance/maintenancedlg.cpp:239
 #, kde-format
 msgid "This option leads to the vacuuming (shrinking) of the databases. Vacuuming is supported both for SQLite and MySQL."
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:240
+#: core/utilities/maintenance/maintenancedlg.cpp:243
 #, kde-format
 msgid "Perform database cleaning"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:245
-#: core/utilities/maintenance/maintenancedlg.cpp:252
+#: core/utilities/maintenance/maintenancedlg.cpp:248
+#: core/utilities/maintenance/maintenancedlg.cpp:255
 #, kde-format
 msgid "Scan for changed or non-cataloged items (faster)"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:247
+#: core/utilities/maintenance/maintenancedlg.cpp:250
 #, kde-format
 msgid "Rebuild Thumbnails"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:254
+#: core/utilities/maintenance/maintenancedlg.cpp:257
 #, kde-format
 msgid "Rebuild Finger-prints"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:263
+#: core/utilities/maintenance/maintenancedlg.cpp:266
 #, kde-format
 msgid "Similarity range (in percents): "
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:283
+#: core/utilities/maintenance/maintenancedlg.cpp:286
 #, kde-format
 msgid "Restriction on duplicates:"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:287
+#: core/utilities/maintenance/maintenancedlg.cpp:290
 #, kde-format
 msgid "No restriction"
 msgstr "Няма абмежаванняў"
 
-#: core/utilities/maintenance/maintenancedlg.cpp:288
+#: core/utilities/maintenance/maintenancedlg.cpp:291
 #, kde-format
 msgid "Restrict to album of reference image"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:289
+#: core/utilities/maintenance/maintenancedlg.cpp:292
 #, kde-format
 msgid "Exclude album of reference image"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:303
+#: core/utilities/maintenance/maintenancedlg.cpp:306
 #, kde-format
 msgid "Find Duplicate Items"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:310
+#: core/utilities/maintenance/maintenancedlg.cpp:313
 #, kde-format
 msgid "Faces data management: "
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:314
+#: core/utilities/maintenance/maintenancedlg.cpp:317
 #, kde-format
 msgid "Skip images already scanned"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:315
+#: core/utilities/maintenance/maintenancedlg.cpp:318
 #, kde-format
 msgid "Scan again and merge results"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:316
+#: core/utilities/maintenance/maintenancedlg.cpp:319
 #, kde-format
 msgid "Clear unconfirmed results and rescan"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:319
+#: core/utilities/maintenance/maintenancedlg.cpp:322
 #, kde-format
 msgctxt "@option:check"
 msgid "Clear and rebuild all training data"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:321
+#: core/utilities/maintenance/maintenancedlg.cpp:324
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This will clear all training data for recognition and rebuild it from all available faces."
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:324
+#: core/utilities/maintenance/maintenancedlg.cpp:327
 #, kde-format
 msgid "Detect and recognize Faces"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:331
+#: core/utilities/maintenance/maintenancedlg.cpp:334
 #, kde-format
 msgid "Scan Mode: "
 msgstr "Рэжым сканавання: "
 
-#: core/utilities/maintenance/maintenancedlg.cpp:336
+#: core/utilities/maintenance/maintenancedlg.cpp:339
 #, kde-format
 msgid "Clean all and re-scan"
 msgstr ""
 
-#: core/utilities/maintenance/maintenancedlg.cpp:337
-#, kde-format
-msgid "Scan non-assigned only"
-msgstr ""
-
 #: core/utilities/maintenance/maintenancedlg.cpp:340
 #, kde-format
-msgid "Check quality sorter setup panel for details: "
+msgid "Scan non-assigned only"
 msgstr ""
 
 #: core/utilities/maintenance/maintenancedlg.cpp:352
@@ -51651,22 +51764,22 @@ msgid "Process is done.\n"
 "Duration: %1"
 msgstr ""
 
-#: core/utilities/maintenance/metadatasynchronizer.cpp:183
+#: core/utilities/maintenance/metadatasynchronizer.cpp:190
 #, kde-format
 msgid "Synchronizing image metadata with database"
 msgstr ""
 
-#: core/utilities/maintenance/metadatasynchronizer.cpp:188
+#: core/utilities/maintenance/metadatasynchronizer.cpp:195
 #, kde-format
 msgid "Updating database from image metadata"
 msgstr ""
 
-#: core/utilities/maintenance/newitemsfinder.cpp:58
+#: core/utilities/maintenance/newitemsfinder.cpp:80
 #, kde-format
 msgid "Find new items"
 msgstr "Пошук новых элементаў"
 
-#: core/utilities/maintenance/thumbsgenerator.cpp:89
+#: core/utilities/maintenance/thumbsgenerator.cpp:121
 #, kde-format
 msgid "Thumbs"
 msgstr "Мініяцюры"
@@ -51938,38 +52051,38 @@ msgctxt "@label"
 msgid "No setting available"
 msgstr ""
 
-#: core/utilities/queuemanager/manager/task.cpp:158
+#: core/utilities/queuemanager/manager/task.cpp:159
 #, kde-format
 msgid "Failed to find tool..."
 msgstr ""
 
-#: core/utilities/queuemanager/manager/task.cpp:253
+#: core/utilities/queuemanager/manager/task.cpp:259
 #, kde-format
 msgid "(overwritten)"
 msgstr "(перазапісана)"
 
-#: core/utilities/queuemanager/manager/task.cpp:258
+#: core/utilities/queuemanager/manager/task.cpp:264
 #, kde-format
 msgid "(renamed to %1)"
 msgstr ""
 
-#: core/utilities/queuemanager/manager/task.cpp:263
+#: core/utilities/queuemanager/manager/task.cpp:269
 #, kde-format
 msgid "Item exists and was skipped"
 msgstr ""
 
-#: core/utilities/queuemanager/manager/task.cpp:288
+#: core/utilities/queuemanager/manager/task.cpp:294
 #, kde-format
 msgid "Failed to create sidecar file..."
 msgstr ""
 
-#: core/utilities/queuemanager/manager/task.cpp:297
+#: core/utilities/queuemanager/manager/task.cpp:303
 #, kde-format
 msgid "Item processed successfully %1"
 msgstr ""
 
-#: core/utilities/queuemanager/manager/task.cpp:302
-#: core/utilities/queuemanager/manager/task.cpp:307
+#: core/utilities/queuemanager/manager/task.cpp:308
+#: core/utilities/queuemanager/manager/task.cpp:313
 #, kde-format
 msgid "Failed to create file..."
 msgstr ""
@@ -55781,7 +55894,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Image Quality Sorter Settings\n"
-"Customize settings to perform image triaging by quality"
+"Customize default settings to perform image triaging by quality"
 msgstr ""
 
 #: core/utilities/setup/setup.cpp:206
@@ -56127,6 +56240,18 @@ msgstr ""
 #: core/utilities/setup/setupicc.cpp:937
 #, kde-format
 msgid "On Linux, the default search paths include <ul><li>/usr/share/color/icc</li><li>/usr/local/share/color/icc</li><li>~/.local/share/color/icc/</li><li>~/.local/share/icc/</li><li>~/.color/icc/</li></ul>On your system, currently these paths exist and are scanned:<ul><li>%1</li></ul>"
+msgstr ""
+
+#: core/utilities/setup/setupimagequalitysorter.cpp:54
+#, kde-format
+msgctxt "@label"
+msgid "These settings determines the quality of an image and convert it into a score, stored in database as Pick Label property. This information can be evaluated by two ways: using four basic factors sabotaging the images (blur, noise, exposure, and compression), or using a deep learning neural network engine. The first one helps to determine whether images are distorted by the basic factors, however it demands some drawbacks as fine-tuning from the user’s side and it cannot work along the aesthetic image processing. The second one uses an IA approach based on %1 model to predict the score. As deep learning is an end-to-end solution, it doesn’t require hyper-parameter settings, and make this feature easier to use."
+msgstr ""
+
+#: core/utilities/setup/setupimagequalitysorter.cpp:64
+#| msgid "&Image"
+msgctxt "@label"
+msgid "aesthetic image quality"
 msgstr ""
 
 #: core/utilities/setup/setuplighttable.cpp:91
@@ -56585,6 +56710,38 @@ msgctxt "@info"
 msgid "Do you want to reset all video settings to the default value?"
 msgstr ""
 
+#, fuzzy
+#~| msgid "Blur Weight:"
+#~ msgctxt "@label"
+#~ msgid "Blur Weight:"
+#~ msgstr "Значэнне размыцця:"
+
+#, fuzzy
+#~| msgid "Noise Weight:"
+#~ msgctxt "@label"
+#~ msgid "Noise Weight:"
+#~ msgstr "Значэнне шуму:"
+
+#, fuzzy
+#~| msgid "Noise Weight:"
+#~ msgctxt "@label"
+#~ msgid "Compression Weight:"
+#~ msgstr "Значэнне шуму:"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Pluralized"
+#~| msgid "Image Quality Sort"
+#~| msgid_plural "Image Quality Sort"
+#~ msgctxt "@option:check"
+#~ msgid "Enable Image Quality Sorting"
+#~ msgstr "Сартаванне па якасці выяў"
+
+#~ msgid "Speed:"
+#~ msgstr "Хуткасць:"
+
+#~ msgid "DigiKam"
+#~ msgstr "DigiKam"
+
 #~ msgctxt "@info: country code"
 #~ msgid "Bhutani"
 #~ msgstr "Бхутані"
@@ -56645,11 +56802,6 @@ msgstr ""
 #~ msgctxt "@info"
 #~ msgid "Select language to translate with %1"
 #~ msgstr "Скінуць вылучэнне"
-
-#, fuzzy
-#~ msgctxt "@action:button"
-#~ msgid "&start OCR"
-#~ msgstr "Статус"
 
 #, fuzzy
 #~ msgid "Origin"
@@ -58739,12 +58891,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "@title:window Connection Failed"
 #~ msgstr "Памылка злучэння"
-
-#, fuzzy
-#~| msgid "&Image"
-#~ msgctxt "@option:radio"
-#~ msgid "Sort images by quality"
-#~ msgstr "&Відарыс"
 
 #, fuzzy
 #~| msgid "Standard"
