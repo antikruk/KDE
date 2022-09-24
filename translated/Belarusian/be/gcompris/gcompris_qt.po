@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-09-21 00:46\n"
+"PO-Revision-Date: 2022-09-24 11:18\n"
 "Last-Translator: Antoś Vaclaŭski <vaclau@zkodam.info>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -123,7 +123,7 @@ msgstr "Вы ўбачыце танцуючых мятлікаў розных к�
 #: activities/algebra_minus/ActivityInfo.qml:25
 #: activities/algebra_plus/ActivityInfo.qml:25
 #: activities/algorithm/ActivityInfo.qml:23
-#: activities/align4/ActivityInfo.qml:23
+#: activities/align4/ActivityInfo.qml:24
 #: activities/align4_2players/ActivityInfo.qml:23
 #: activities/alphabet-sequence/ActivityInfo.qml:25
 #: activities/baby_wordprocessor/ActivityInfo.qml:26
@@ -1193,23 +1193,35 @@ msgstr "Уладкуйце лінію са сваіх чатырох фішак 
 
 #. Help manual
 #: activities/align4/ActivityInfo.qml:22
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Play with a friend. Take turns to click the line in which you want to "
+#| "drop a token. The first player to create a line of 4 tokens wins."
 msgctxt "ActivityInfo|"
-msgid "Play with the computer. Take turns to click the line in which you want to drop a token. The first player to create a line of 4 tokens wins."
-msgstr "Гульня з кампутарам. Па чарзе пстрыкайце па квадраціках, у якія хочаце пакласці фішку. Пераможа той, хто першым ўтворыць радок з чатырох фішак."
+msgid "Play with Tux. Take turns to click the line in which you want to drop a token. The first player to create a line of 4 tokens wins."
+msgstr ""
 
-#: activities/align4/ActivityInfo.qml:24
+#: activities/align4/ActivityInfo.qml:23 activities/bargame/ActivityInfo.qml:26
+#: activities/checkers/ActivityInfo.qml:27
+#: activities/nine_men_morris/ActivityInfo.qml:25
+#: activities/tic_tac_toe/ActivityInfo.qml:28
+msgctxt "ActivityInfo|"
+msgid "Tux will play better when you increase the level."
+msgstr ""
+
+#: activities/align4/ActivityInfo.qml:25
 #: activities/align4_2players/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Left arrow: move the token to the left"
 msgstr "Стрэлка ўлева: перасунуць фішку ўлева"
 
-#: activities/align4/ActivityInfo.qml:25
+#: activities/align4/ActivityInfo.qml:26
 #: activities/align4_2players/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Right arrow: move the token to the right"
 msgstr "Правая стрэлка: перасунуць фішку направа"
 
-#: activities/align4/ActivityInfo.qml:26
+#: activities/align4/ActivityInfo.qml:27
 #: activities/align4_2players/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Space or Down arrow: drop the token"
@@ -2324,24 +2336,29 @@ msgid "Select the number of balls you wish to place in the holes and then click 
 msgstr "Выберыце колькасць шарыкаў, якія вы жадаеце размясціць у дзіркі і затым пстрыкніце кнопку OK. Пераможцам лічыцца той, хто не змясціў шарык у чырвоную дзірку."
 
 #. Help goal
-#: activities/bargame/ActivityInfo.qml:20
+#: activities/bargame/ActivityInfo.qml:21
 #: activities/bargame_2players/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Don't put the ball in the last hole."
 msgstr "Не кладзіце мячык ў апошнюю дзірку."
 
 #. Help prerequisite
-#: activities/bargame/ActivityInfo.qml:22
+#: activities/bargame/ActivityInfo.qml:23
 #: activities/bargame_2players/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Ability to count."
 msgstr "Уменне лічыць."
 
 #. Help manual
-#: activities/bargame/ActivityInfo.qml:24
+#: activities/bargame/ActivityInfo.qml:25
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Click on the ball icon to select a number of balls, then click on the OK "
+#| "button to place the balls in the holes. You win if the computer has to "
+#| "place the last ball. If you want Tux to begin, just click on him."
 msgctxt "ActivityInfo|"
-msgid "Click on the ball icon to select a number of balls, then click on the OK button to place the balls in the holes. You win if the computer has to place the last ball. If you want Tux to begin, just click on him."
-msgstr "Пстрыкніце па выяве мячыка, каб выбраць колькасць мячоў, затым пстрыкніце ОК, каб размясціць мячыкі ў дзіркі. Вы пераможаце калі кампутару прыйдзецца пакласці апошні мячык. Калі вы хочаце каб пачаў Tux, то проста пстрыкніце па яму."
+msgid "Click on the ball icon to select a number of balls, then click on the OK button to place the balls in the holes. You win if Tux has to place the last ball. If you want Tux to begin, just click on him."
+msgstr ""
 
 #. Activity title
 #: activities/bargame_2players/ActivityInfo.qml:15
@@ -3470,16 +3487,33 @@ msgstr "Захапіце ўсе шашкі суперніка перад тым 
 
 #. Help manual
 #: activities/checkers/ActivityInfo.qml:24
-#: activities/checkers_2players/ActivityInfo.qml:24
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Checkers is played by two opponents, on opposite sides of the gameboard. "
+#| "One player has the dark pieces; the other has the light pieces. Players "
+#| "alternate turns. A player may not move an opponent's piece. A move "
+#| "consists of moving a piece diagonally to an adjacent unoccupied square. "
+#| "If the adjacent square contains an opponent's piece, and the square "
+#| "immediately beyond it is vacant, the piece may be captured (and removed "
+#| "from the game) by jumping over it.\n"
+#| "Only the dark squares of the checkered board are used. A piece may move "
+#| "only diagonally into an unoccupied square. Capturing is mandatory. The "
+#| "player without pieces remaining, or who cannot move due to being blocked, "
+#| "loses the game.\n"
+#| "When a man reaches the crownhead or kings row (the farthest row forward), "
+#| "it becomes a king, and is marked by placing an additional piece on top of "
+#| "the first man, and acquires additional powers including the ability to "
+#| "move backwards. If there is a piece in a diagonal that a king can "
+#| "capture, he can move any distance along the diagonal, and may capture an "
+#| "opposing man any distance away by jumping to any of the unoccupied "
+#| "squares immediately beyond it.\n"
 msgctxt "ActivityInfo|"
 msgid "Checkers is played by two opponents, on opposite sides of the gameboard. One player has the dark pieces; the other has the light pieces. Players alternate turns. A player may not move an opponent's piece. A move consists of moving a piece diagonally to an adjacent unoccupied square. If the adjacent square contains an opponent's piece, and the square immediately beyond it is vacant, the piece may be captured (and removed from the game) by jumping over it.\n"
 "Only the dark squares of the checkered board are used. A piece may move only diagonally into an unoccupied square. Capturing is mandatory. The player without pieces remaining, or who cannot move due to being blocked, loses the game.\n"
-"When a man reaches the crownhead or kings row (the farthest row forward), it becomes a king, and is marked by placing an additional piece on top of the first man, and acquires additional powers including the ability to move backwards. If there is a piece in a diagonal that a king can capture, he can move any distance along the diagonal, and may capture an opposing man any distance away by jumping to any of the unoccupied squares immediately beyond it.\n"
-msgstr "У шашкі гуляюць два апаненты - па розныя бакі гульнёвай дошкі. Адзін гулец валодае чорнымі шашкамі; другі - светлымі. Гульцы ходзяць па чарзе. Удзельнік не можа перасоўваць шашку апанента. Ход складаецца з перасоўвання шашкі ўздоўж дыаганалі ў суседнюю незанятую клетку. Калі суседняя клетка занятая шашкай суперніка і клетка, што акурат за ёй, свабодная, то гэтую шашку можна захапіць (і выдаліць з дошкі) пераскочыўшы праз яе.\n"
-"На дошцы выкарыстоўваюцца толькі цёмныя клеткі. Шашкі могуць перасоўвацца толькі ўздоўж дыаганалі на незанятую клетку. Захоп абавязковы. Удзельнік, што застаецца без шашак, ці не здольны зрабіць ход з-за блоку, прагульвае гульню.\n"
-"Калі адзінка дасягае радку каралёў (самы дальні радок), то яна становіцца каралём, пазначаецца пастаўленай на яе яшчэ адной шашкі і набывае дадатковыя здольнасці - у тым ліку магчымасць перасоўвацца назад. Калі ў дыаганальным накірунку ад караля трапляецца шашка, то ён можа перасунуцца на любую адлегласць уздоўж гэтай дыаганалі і захапіць шашку, скочыўшы на любую клетку па-за шашкай.\n"
+"When a man reaches the crownhead or kings row (the farthest row forward), it becomes a king, and is marked by placing an additional piece on top of the first man, and acquires additional powers including the ability to move backwards. If there is a piece in a diagonal that a king can capture, he can move any distance along the diagonal, and may capture an opposing man any distance away by jumping to any of the unoccupied squares immediately beyond it."
+msgstr ""
 
-#: activities/checkers/ActivityInfo.qml:28
+#: activities/checkers/ActivityInfo.qml:29
 #: activities/checkers_2players/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "The checkers library is draughts.js &lt;https://github.com/shubhendusaurabh/draughts.js&gt;. Manual is from wikipedia &lt;https://en.wikipedia.org/wiki/Draughts&gt;"
@@ -3512,6 +3546,16 @@ msgstr "Чорныя перамаглі"
 msgctxt "ActivityInfo|"
 msgid "Play checkers (with a friend)"
 msgstr ""
+
+#. Help manual
+#: activities/checkers_2players/ActivityInfo.qml:24
+msgctxt "ActivityInfo|"
+msgid "Checkers is played by two opponents, on opposite sides of the gameboard. One player has the dark pieces; the other has the light pieces. Players alternate turns. A player may not move an opponent's piece. A move consists of moving a piece diagonally to an adjacent unoccupied square. If the adjacent square contains an opponent's piece, and the square immediately beyond it is vacant, the piece may be captured (and removed from the game) by jumping over it.\n"
+"Only the dark squares of the checkered board are used. A piece may move only diagonally into an unoccupied square. Capturing is mandatory. The player without pieces remaining, or who cannot move due to being blocked, loses the game.\n"
+"When a man reaches the crownhead or kings row (the farthest row forward), it becomes a king, and is marked by placing an additional piece on top of the first man, and acquires additional powers including the ability to move backwards. If there is a piece in a diagonal that a king can capture, he can move any distance along the diagonal, and may capture an opposing man any distance away by jumping to any of the unoccupied squares immediately beyond it.\n"
+msgstr "У шашкі гуляюць два апаненты - па розныя бакі гульнёвай дошкі. Адзін гулец валодае чорнымі шашкамі; другі - светлымі. Гульцы ходзяць па чарзе. Удзельнік не можа перасоўваць шашку апанента. Ход складаецца з перасоўвання шашкі ўздоўж дыаганалі ў суседнюю незанятую клетку. Калі суседняя клетка занятая шашкай суперніка і клетка, што акурат за ёй, свабодная, то гэтую шашку можна захапіць (і выдаліць з дошкі) пераскочыўшы праз яе.\n"
+"На дошцы выкарыстоўваюцца толькі цёмныя клеткі. Шашкі могуць перасоўвацца толькі ўздоўж дыаганалі на незанятую клетку. Захоп абавязковы. Удзельнік, што застаецца без шашак, ці не здольны зрабіць ход з-за блоку, прагульвае гульню.\n"
+"Калі адзінка дасягае радку каралёў (самы дальні радок), то яна становіцца каралём, пазначаецца пастаўленай на яе яшчэ адной шашкі і набывае дадатковыя здольнасці - у тым ліку магчымасць перасоўвацца назад. Калі ў дыаганальным накірунку ад караля трапляецца шашка, то ён можа перасунуцца на любую адлегласць уздоўж гэтай дыаганалі і захапіць шашку, скочыўшы на любую клетку па-за шашкай.\n"
 
 #. Activity title
 #: activities/chess/ActivityInfo.qml:15
@@ -4222,7 +4266,6 @@ msgid "Set the watch to:"
 msgstr "Устанавіце час:"
 
 #: activities/clockgame/Clockgame.qml:109
-#, qt-format
 msgctxt "Clockgame|"
 msgid "%n hour(s)"
 msgid_plural "%n hour(s)"
@@ -4232,7 +4275,6 @@ msgstr[2] "%n гадзін"
 msgstr[3] "%n гадзіна"
 
 #: activities/clockgame/Clockgame.qml:112
-#, qt-format
 msgctxt "Clockgame|"
 msgid "%n minute(s)"
 msgid_plural "%n minute(s)"
@@ -4242,7 +4284,6 @@ msgstr[2] "%n хвілін"
 msgstr[3] "%n хвіліна"
 
 #: activities/clockgame/Clockgame.qml:115
-#, qt-format
 msgctxt "Clockgame|"
 msgid "%n second(s)"
 msgid_plural "%n second(s)"
@@ -8485,6 +8526,139 @@ msgctxt "board17_0|"
 msgid "Suvalkija"
 msgstr ""
 
+#: activities/geo-country/resource/board/board18_0.qml:13
+msgctxt "board18_0|"
+msgid "Autonomous communities of Spain"
+msgstr ""
+
+#. Autonomous communities of Spain: Andalusia
+#: activities/geo-country/resource/board/board18_0.qml:22
+msgctxt "board18_0|"
+msgid "Andalusia"
+msgstr "Andalusia"
+
+#. Autonomous communities of Spain: Madrid
+#: activities/geo-country/resource/board/board18_0.qml:29
+msgctxt "board18_0|"
+msgid "Madrid"
+msgstr "Мадрыд"
+
+#. Autonomous communities of Spain: Galicia
+#: activities/geo-country/resource/board/board18_0.qml:36
+msgctxt "board18_0|"
+msgid "Galicia"
+msgstr ""
+
+#. Autonomous communities of Spain: Castile and León
+#: activities/geo-country/resource/board/board18_0.qml:43
+msgctxt "board18_0|"
+msgid "Castile and León"
+msgstr ""
+
+#. Autonomous communities of Spain: Castilla-La Mancha
+#: activities/geo-country/resource/board/board18_0.qml:50
+msgctxt "board18_0|"
+msgid "Castilla-La Mancha"
+msgstr ""
+
+#. Autonomous communities of Spain: Catalonia
+#: activities/geo-country/resource/board/board18_0.qml:57
+#| msgctxt "board7_0|"
+#| msgid "Mauritania"
+msgctxt "board18_0|"
+msgid "Catalonia"
+msgstr ""
+
+#. Autonomous communities of Spain: Aragon
+#: activities/geo-country/resource/board/board18_0.qml:64
+#| msgctxt "ActivityInfo|"
+#| msgid "Hexagon"
+msgctxt "board18_0|"
+msgid "Aragon"
+msgstr ""
+
+#. Autonomous communities of Spain: Valencia
+#: activities/geo-country/resource/board/board18_0.qml:71
+#| msgctxt "ActivityInfo|"
+#| msgid "Calendar"
+msgctxt "board18_0|"
+msgid "Valencia"
+msgstr "Valencia"
+
+#. Autonomous communities of Spain: Murcia
+#: activities/geo-country/resource/board/board18_0.qml:78
+msgctxt "board18_0|"
+msgid "Murcia"
+msgstr ""
+
+#. Autonomous communities of Spain: Asturias
+#: activities/geo-country/resource/board/board18_0.qml:85
+msgctxt "board18_0|"
+msgid "Asturias"
+msgstr ""
+
+#. Autonomous communities of Spain: Basque Country
+#: activities/geo-country/resource/board/board18_0.qml:92
+msgctxt "board18_0|"
+msgid "Basque Country"
+msgstr ""
+
+#. Autonomous communities of Spain: La Rioja
+#: activities/geo-country/resource/board/board18_0.qml:99
+msgctxt "board18_0|"
+msgid "La Rioja"
+msgstr ""
+
+#. Autonomous communities of Spain: Cantabria
+#: activities/geo-country/resource/board/board18_0.qml:106
+#| msgctxt "board5|"
+#| msgid "Cabrillo"
+msgctxt "board18_0|"
+msgid "Cantabria"
+msgstr ""
+
+#. Autonomous communities of Spain: Navarre
+#: activities/geo-country/resource/board/board18_0.qml:113
+#| msgctxt "board5|"
+#| msgid "Navajo"
+msgctxt "board18_0|"
+msgid "Navarre"
+msgstr ""
+
+#. Autonomous communities of Spain: Extremadura
+#: activities/geo-country/resource/board/board18_0.qml:120
+msgctxt "board18_0|"
+msgid "Extremadura"
+msgstr ""
+
+#. Autonomous communities of Spain: Canary Islands
+#: activities/geo-country/resource/board/board18_0.qml:127
+#| msgctxt "board10_0|"
+#| msgid "Marshall Islands"
+msgctxt "board18_0|"
+msgid "Canary Islands"
+msgstr "Канарскія астравы"
+
+#. Autonomous communities of Spain: Balearic Islands
+#: activities/geo-country/resource/board/board18_0.qml:134
+#| msgctxt "board10_0|"
+#| msgid "Marshall Islands"
+msgctxt "board18_0|"
+msgid "Balearic Islands"
+msgstr ""
+
+#. Autonomous communities of Spain: Ceuta
+#: activities/geo-country/resource/board/board18_0.qml:141
+msgctxt "board18_0|"
+msgid "Ceuta"
+msgstr ""
+
+#. Autonomous communities of Spain: Melilla
+#: activities/geo-country/resource/board/board18_0.qml:148
+msgctxt "board18_0|"
+msgid "Melilla"
+msgstr "Мелілья"
+
 #: activities/geo-country/resource/board/board1_0.qml:15
 #| msgctxt "board3|"
 #| msgid "Monuments of France"
@@ -11584,23 +11758,23 @@ msgctxt "Admin|"
 msgid "Level %1"
 msgstr "Узровень %1"
 
-#: activities/guesscount/guesscount.js:133
+#: activities/guesscount/guesscount.js:135
 msgctxt "guesscount|"
 msgid "result is not positive integer"
 msgstr "вынік не ёсць станоўчым цэлым"
 
-#: activities/guesscount/guesscount.js:135
+#: activities/guesscount/guesscount.js:137
 msgctxt "guesscount|"
 msgid "result is not an integer"
 msgstr "вынік не ёсць цэлым"
 
-#: activities/guesscount/Guesscount.qml:130
+#: activities/guesscount/Guesscount.qml:131
 #, qt-format
 msgctxt "Guesscount|"
 msgid "%1/%2"
 msgstr "%1/%2"
 
-#: activities/guesscount/Guesscount.qml:164
+#: activities/guesscount/Guesscount.qml:165
 #, qt-format
 msgctxt "Guesscount|"
 msgid "Guesscount: %1"
@@ -11611,7 +11785,7 @@ msgctxt "OperandRow|"
 msgid "Numbers"
 msgstr "Лікі"
 
-#: activities/guesscount/OperatorRow.qml:44
+#: activities/guesscount/OperatorRow.qml:42
 msgctxt "OperatorRow|"
 msgid "Operators"
 msgstr "Аператары"
@@ -11757,24 +11931,24 @@ msgctxt "ActivityInfo|"
 msgid "If the option 'Speak the words to find...' is activated, and if the corresponding voice is available, you will hear the word to find when three attempts are remaining."
 msgstr "Калі актываваная опцыі 'Вымаўляйце словы для пошуку...' і калі адпаведны запіс голасу даступны, вы пачуеце слова для пошуку калі застанецца тры спробы."
 
-#: activities/hangman/hangman.js:209
+#: activities/hangman/hangman.js:210
 #, qt-format
 msgctxt "hangman|"
 msgid "Attempted: %1"
 msgstr "Спробаў: %1"
 
-#: activities/hangman/Hangman.qml:396
+#: activities/hangman/Hangman.qml:400
 msgctxt "Hangman|"
 msgid "We are sorry, we don't have yet a translation for your language."
 msgstr "Выбачайце, у нас яшчэ няма перакладаў на вашую мову."
 
-#: activities/hangman/Hangman.qml:397
+#: activities/hangman/Hangman.qml:401
 #, qt-format
 msgctxt "Hangman|"
 msgid "GCompris is developed by the KDE community, you can translate GCompris by joining a translation team on <a href=\"%2\">%2</a>"
 msgstr "GCompris распрацоўваецца камандай KDE, вы можаце перакладаць GCompris, далучыўшыся да каманды перакладчыкаў па спасылцы <a href=\"%2\">%2</a>"
 
-#: activities/hangman/Hangman.qml:399
+#: activities/hangman/Hangman.qml:403
 msgctxt "Hangman|"
 msgid "We switched to English for this activity but you can select another language in the configuration dialog."
 msgstr "Мы пераключыліся на англійскую мову для гэтага практыкавання, але вы можаце выбраць іншую мову ў акенцы канфігурацыі."
@@ -15584,9 +15758,13 @@ msgstr "Утварайце млыны (радкі з трох фішак) каб
 
 #. Help manual
 #: activities/nine_men_morris/ActivityInfo.qml:24
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Play with a friend. First take turns to place nine pieces, and then take "
+#| "turns to move your pieces."
 msgctxt "ActivityInfo|"
-msgid "Play with the computer. First take turns to place nine pieces, and then take turns to move your pieces."
-msgstr "Гуляйце з кампутарам. Спачатку размясціце дзевяць фішак, а потым рабіце імі хады."
+msgid "Play with Tux. First take turns to place nine pieces, and then take turns to move your pieces."
+msgstr ""
 
 #: activities/nine_men_morris/nine_men_morris.js:29
 msgctxt "nine_men_morris|"
@@ -20862,9 +21040,13 @@ msgstr "Каб перамагчы, размясціце тры адпаведн�
 
 #. Help manual
 #: activities/tic_tac_toe/ActivityInfo.qml:27
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Play with a friend. Take turns to click on the square which you want to "
+#| "mark. The first player to create a line of 3 marks wins."
 msgctxt "ActivityInfo|"
-msgid "Play with the computer. Take turns to click on the square which you want to mark. The first player to create a line of 3 marks wins."
-msgstr "Гульня з кампутарам. Падчас свайго ходу, пстрыкайце па квадраціках, якія хочаце пазначыць. Пераможа той, хто першым ўтворыць радок з трох знакаў."
+msgid "Play with Tux. Take turns to click on the square which you want to mark. The first player to create a line of 3 marks wins."
+msgstr ""
 
 #. Activity title
 #: activities/tic_tac_toe_2players/ActivityInfo.qml:18
@@ -21784,6 +21966,30 @@ msgctxt "Tutorial|"
 msgid "Start"
 msgstr "Пачаць"
 
+#~ msgctxt "ActivityInfo|"
+#~ msgid ""
+#~ "Play with the computer. Take turns to click the line in which you want to "
+#~ "drop a token. The first player to create a line of 4 tokens wins."
+#~ msgstr ""
+#~ "Гульня з кампутарам. Па чарзе пстрыкайце па квадраціках, у якія хочаце "
+#~ "пакласці фішку. Пераможа той, хто першым ўтворыць радок з чатырох фішак."
+
+#~ msgctxt "ActivityInfo|"
+#~ msgid ""
+#~ "Play with the computer. First take turns to place nine pieces, and then "
+#~ "take turns to move your pieces."
+#~ msgstr ""
+#~ "Гуляйце з кампутарам. Спачатку размясціце дзевяць фішак, а потым рабіце "
+#~ "імі хады."
+
+#~ msgctxt "ActivityInfo|"
+#~ msgid ""
+#~ "Play with the computer. Take turns to click on the square which you want "
+#~ "to mark. The first player to create a line of 3 marks wins."
+#~ msgstr ""
+#~ "Гульня з кампутарам. Падчас свайго ходу, пстрыкайце па квадраціках, якія "
+#~ "хочаце пазначыць. Пераможа той, хто першым ўтворыць радок з трох знакаў."
+
 #~ msgctxt "Calendar|"
 #~ msgid "Sunday"
 #~ msgstr "Нядзеля"
@@ -22056,13 +22262,6 @@ msgstr "Пачаць"
 #~ msgctxt "board11_3|"
 #~ msgid "Agrigento"
 #~ msgstr "Аргенціна"
-
-#, fuzzy
-#~| msgctxt "board7_0|"
-#~| msgid "Mauritania"
-#~ msgctxt "board11_3|"
-#~ msgid "Catania"
-#~ msgstr "Маўрытанія"
 
 #, fuzzy
 #~| msgctxt "board4_0|"
@@ -24223,6 +24422,7 @@ msgstr "Пачаць"
 #~ msgid "Numbers"
 #~ msgstr "Лікі"
 
+#, fuzzy
 #~ msgctxt "balanceboxeditor|"
 #~ msgid "Error saving %n level(s) to your levels file (%1)"
 #~ msgid_plural "Error saving %n level(s) to your levels file (%1)"
@@ -24230,6 +24430,7 @@ msgstr "Пачаць"
 #~ msgstr[1] "Памылка пры захаванні %n узроўняў ў прызначаны вамі файл (%1)"
 #~ msgstr[2] "Памылка пры захаванні %n узроўняў у прызначаны вамі файл (%1)"
 
+#, fuzzy
 #~ msgctxt "balanceboxeditor|"
 #~ msgid "Saved %n level(s) to your levels file (%1)"
 #~ msgid_plural "Saved %n level(s) to your levels file (%1)"
