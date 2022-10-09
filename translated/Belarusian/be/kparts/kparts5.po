@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-17 00:40+0000\n"
-"PO-Revision-Date: 2022-08-29 04:59\n"
+"POT-Creation-Date: 2022-10-07 00:41+0000\n"
+"PO-Revision-Date: 2022-10-09 09:14\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -156,14 +156,14 @@ msgstr "Адхіліць"
 msgid "The plugin '%1' does not provide an interface '%2' with keyword '%3'"
 msgstr ""
 
-#: partloader.cpp:198 partloader.h:106
+#: partloader.cpp:198 partloader.h:143
 #| msgid "No handler found for %1."
 msgid "No part was found for mimeType %1"
 msgstr ""
 
-#: partloader.h:97
-#| msgid "The plugin '%1' uses an incompatible KDE library (%2)."
-msgid "The plugin '%1' does not provide an interface '%2'"
+#: partloader.h:159
+#| msgid "No handler found for %1."
+msgid "No part could be instantiated for mimeType %1"
 msgstr ""
 
 #: readwritepart.cpp:80
@@ -181,6 +181,11 @@ msgstr ""
 #, kde-format
 msgid "Close Document"
 msgstr "Закрыць дакумент"
+
+#, fuzzy
+#~| msgid "The plugin '%1' uses an incompatible KDE library (%2)."
+#~ msgid "The plugin '%1' does not provide an interface '%2'"
+#~ msgstr "Утулка '%1' карыстаецца несумяшчальнай бібліятэкай KDE (%2)."
 
 #~ msgid "Name"
 #~ msgstr "Назва"
@@ -391,6 +396,7 @@ msgstr "Закрыць дакумент"
 #~ msgid "Password is empty"
 #~ msgstr "Пароль пусты"
 
+#, fuzzy
 #~ msgid "Password must be at least 1 character long"
 #~ msgid_plural "Password must be at least %1 characters long"
 #~ msgstr[0] "Пароль павінны складацца з як менш %1 сімвалу"
@@ -2433,6 +2439,7 @@ msgstr "Закрыць дакумент"
 #~ msgid "system error"
 #~ msgstr "сістэмная памылка"
 
+#, fuzzy
 #~ msgid "Could not find mime type <resource>%2</resource>"
 #~ msgid_plural ""
 #~ "Could not find mime types:\n"
@@ -4253,6 +4260,7 @@ msgstr "Закрыць дакумент"
 #~ msgid "No text was replaced."
 #~ msgstr "Тэкст не заменены."
 
+#, fuzzy
 #~ msgid "1 replacement done."
 #~ msgid_plural "%1 replacements done."
 #~ msgstr[0] "Зроблена %1 замена."
@@ -4559,6 +4567,7 @@ msgstr "Закрыць дакумент"
 #~ msgstr[1] "Тэчкі: %1"
 #~ msgstr[2] "Тэчкі: %1"
 
+#, fuzzy
 #~ msgid "%1 file"
 #~ msgid_plural "%1 files"
 #~ msgstr[0] "%1 файл"
@@ -7137,6 +7146,7 @@ msgstr "Закрыць дакумент"
 #~ msgid "Page loaded."
 #~ msgstr "Старонка загружаная."
 
+#, fuzzy
 #~ msgid "%1 Image of %2 loaded."
 #~ msgid_plural "%1 Images of %2 loaded."
 #~ msgstr[0] "%1 малюнак з %2 загружаны."
@@ -7264,6 +7274,7 @@ msgstr "Закрыць дакумент"
 #~ msgid "Popup Window Blocked"
 #~ msgstr "Выплыўнае акно заблакаванае"
 
+#, fuzzy
 #~ msgid "&Show Blocked Popup Window"
 #~ msgid_plural "&Show %1 Blocked Popup Windows"
 #~ msgstr[0] "&Паказаць %1 заблакаванае выплыўнае акно"
@@ -11737,6 +11748,7 @@ msgstr "Закрыць дакумент"
 #~ msgid "&Trash"
 #~ msgstr "&У сметніцу"
 
+#, fuzzy
 #~ msgid "translators: not called for n == 1"
 #~ msgid_plural "Do you really want to trash these %1 items?"
 #~ msgstr[0] "Вы сапраўды хочаце перанесці ў сметніцу %1 элемент?"
