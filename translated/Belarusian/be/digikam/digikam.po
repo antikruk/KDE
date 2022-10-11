@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-24 00:42+0000\n"
-"PO-Revision-Date: 2022-09-26 02:46\n"
+"POT-Creation-Date: 2022-10-08 00:43+0000\n"
+"PO-Revision-Date: 2022-10-09 05:44\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -948,9 +948,9 @@ msgid "<p>Please select the destination album from the digiKam library to move t
 msgstr "<p>Абярыце альбом з бібліятэкі digiKam, у які перамясціць абраныя выявы.</p>"
 
 #: core/app/items/utils/itemviewutilities.cpp:364
-#: core/utilities/imageeditor/main/imagewindow.cpp:1123
-#: core/utilities/imageeditor/main/imagewindow.cpp:1148
-#: core/utilities/imageeditor/main/imagewindow.cpp:1180
+#: core/utilities/imageeditor/main/imagewindow.cpp:1100
+#: core/utilities/imageeditor/main/imagewindow.cpp:1125
+#: core/utilities/imageeditor/main/imagewindow.cpp:1157
 #, kde-format
 msgid "Album \"%1\""
 msgstr "Альбом \"%1\""
@@ -973,7 +973,6 @@ msgstr "Назва:"
 #: core/app/items/utils/tooltipfiller.cpp:83
 #: core/app/items/utils/tooltipfiller.cpp:595
 #: core/app/views/stack/welcomepageview.cpp:277
-#: core/libs/properties/captions/itemdescedittab.cpp:202
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:70
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:170
 #: core/utilities/import/items/importtooltipfiller.cpp:68
@@ -1524,831 +1523,836 @@ msgctxt "@info: setup"
 msgid "Initializing Main View..."
 msgstr "Ініцыялізацыя галоўнага акна..."
 
-#: core/app/main/digikamapp_setup.cpp:134
+#: core/app/main/digikamapp_setup.cpp:135
 #, kde-format
 msgctxt "@action: setup"
 msgid "&Back"
 msgstr "&Назад"
 
-#: core/app/main/digikamapp_setup.cpp:147
+#: core/app/main/digikamapp_setup.cpp:149
 #, kde-format
 msgctxt "@action: setup"
 msgid "Forward"
 msgstr "Наперад"
 
-#: core/app/main/digikamapp_setup.cpp:160
+#: core/app/main/digikamapp_setup.cpp:163
 #, kde-format
 msgctxt "@action: setup"
 msgid "Refresh"
 msgstr "Абнавіць"
 
-#: core/app/main/digikamapp_setup.cpp:161
+#: core/app/main/digikamapp_setup.cpp:164
 #, kde-format
 msgctxt "@info: setup"
 msgid "Refresh the current contents."
 msgstr "Абнавіць бягучае змесціва."
 
-#: core/app/main/digikamapp_setup.cpp:187
+#: core/app/main/digikamapp_setup.cpp:191
 #, kde-format
 msgctxt "@action: setup"
 msgid "&New..."
 msgstr "&Новы..."
 
-#: core/app/main/digikamapp_setup.cpp:188
+#: core/app/main/digikamapp_setup.cpp:192
 #, kde-format
 msgctxt "@info: setup"
 msgid "Creates a new empty Album in the collection."
 msgstr "Стварэнне новага пустога альбома ў калекцыі."
 
-#: core/app/main/digikamapp_setup.cpp:195
+#: core/app/main/digikamapp_setup.cpp:200
 #, kde-format
 msgctxt "@action: setup"
 msgid "&Move to Album..."
 msgstr "&Перамясціць у альбом..."
 
-#: core/app/main/digikamapp_setup.cpp:196
+#: core/app/main/digikamapp_setup.cpp:201
 #, kde-format
 msgctxt "@info: setup"
 msgid "Move selected images into an album."
 msgstr "Перамяшчэнне абраных выяў у альбом."
 
-#: core/app/main/digikamapp_setup.cpp:202
+#: core/app/main/digikamapp_setup.cpp:208
 #, kde-format
 msgctxt "@action: setup"
 msgid "&Copy to..."
 msgstr "&Скапіяваць у..."
 
-#: core/app/main/digikamapp_setup.cpp:203
+#: core/app/main/digikamapp_setup.cpp:209
 #, kde-format
 msgctxt "@info: setup"
 msgid "Copy selected images to a target folder."
 msgstr "Скапіяваць абраныя выявы ў мэтавы каталог."
 
-#: core/app/main/digikamapp_setup.cpp:209
+#: core/app/main/digikamapp_setup.cpp:216
 #, kde-format
 msgctxt "@action: setup"
 msgid "Delete Album"
 msgstr "Выдаліць альбом"
 
-#: core/app/main/digikamapp_setup.cpp:215
-#: core/app/main/digikamapp_setup.cpp:423
+#: core/app/main/digikamapp_setup.cpp:223
+#: core/app/main/digikamapp_setup.cpp:458
 #, kde-format
 msgctxt "@action: setup"
 msgid "Rename..."
 msgstr "Змяніць назву..."
 
-#: core/app/main/digikamapp_setup.cpp:222
-#: core/app/main/digikamapp_setup.cpp:268
+#: core/app/main/digikamapp_setup.cpp:231
+#: core/app/main/digikamapp_setup.cpp:283
 #, kde-format
 msgctxt "@action: setup"
 msgid "Properties"
 msgstr "Уласцівасці"
 
-#: core/app/main/digikamapp_setup.cpp:223
+#: core/app/main/digikamapp_setup.cpp:232
 #, kde-format
 msgctxt "@info: setup"
 msgid "Edit album properties and collection information."
 msgstr "Рэдагаванне ўласцівасцяў альбома і інфармацыі пра калекцыю."
 
-#: core/app/main/digikamapp_setup.cpp:230
+#: core/app/main/digikamapp_setup.cpp:240
 #, kde-format
 msgctxt "@action: setup"
 msgid "Write Metadata to Files"
 msgstr "Запісаць метаданыя ў файлы"
 
-#: core/app/main/digikamapp_setup.cpp:231
-#: core/app/main/digikamapp_setup.cpp:390
+#: core/app/main/digikamapp_setup.cpp:241
+#: core/app/main/digikamapp_setup.cpp:417
 #, kde-format
 msgctxt "@info: setup"
 msgid "Updates metadata of files in the current album with the contents of digiKam database (file metadata will be overwritten with data from the database)."
 msgstr "Абнаўленне метаданых файлаў бягучага альбома ў базе даных digiKam (метаданыя ў выявах заменяцца метаданымі з базы даных)."
 
-#: core/app/main/digikamapp_setup.cpp:240
+#: core/app/main/digikamapp_setup.cpp:251
 #, kde-format
 msgctxt "@action: setup"
 msgid "Reread Metadata From Files"
 msgstr "Перачытаць метаданыя з файлаў"
 
-#: core/app/main/digikamapp_setup.cpp:241
-#: core/app/main/digikamapp_setup.cpp:401
+#: core/app/main/digikamapp_setup.cpp:252
+#: core/app/main/digikamapp_setup.cpp:428
 #, kde-format
 msgctxt "@info: setup"
 msgid "Updates the digiKam database from the metadata of the files in the current album (information in the database will be overwritten with data from the files' metadata)."
 msgstr "Абнаўленне метаданых файлаў бягучага альбома ў базе даных digiKam (метаданыя ў базе даных заменяцца метаданымі з файлаў)."
 
-#: core/app/main/digikamapp_setup.cpp:250
+#: core/app/main/digikamapp_setup.cpp:262
 #, kde-format
 msgctxt "@action: setup"
 msgid "Open in File Manager"
 msgstr "Адкрыць у кіраўніку файлаў"
 
-#: core/app/main/digikamapp_setup.cpp:256
+#: core/app/main/digikamapp_setup.cpp:269
 #, kde-format
 msgctxt "@action: setup"
 msgid "Tag Manager"
 msgstr "Кіраўнік пазнак"
 
-#: core/app/main/digikamapp_setup.cpp:262
+#: core/app/main/digikamapp_setup.cpp:276
 #, kde-format
 msgctxt "@action: new tag"
 msgid "N&ew..."
 msgstr "&Новая..."
 
-#: core/app/main/digikamapp_setup.cpp:274
+#: core/app/main/digikamapp_setup.cpp:290
 #, kde-format
 msgctxt "@action: setup"
 msgid "Delete"
 msgstr "Выдаліць"
 
-#: core/app/main/digikamapp_setup.cpp:280
+#: core/app/main/digikamapp_setup.cpp:297
 #, kde-format
 msgctxt "@action: setup"
 msgid "Assign Tag"
 msgstr "Прызначыць пазнаку"
 
-#: core/app/main/digikamapp_setup.cpp:287
+#: core/app/main/digikamapp_setup.cpp:305
 #, kde-format
 msgctxt "@action: setup"
 msgid "Views"
 msgstr "Рэжымы прагляду"
 
-#: core/app/main/digikamapp_setup.cpp:291
+#: core/app/main/digikamapp_setup.cpp:309
 #, kde-format
 msgctxt "@action: Go to thumbnails (icon) view"
 msgid "Thumbnails"
 msgstr "Мініяцюры"
 
-#: core/app/main/digikamapp_setup.cpp:298
+#: core/app/main/digikamapp_setup.cpp:316
 #: core/app/views/stack/itemiconview_views.cpp:277
 #, kde-format
 msgctxt "@action: View the selected image"
 msgid "Preview"
 msgstr "Папярэдні прагляд"
 
-#: core/app/main/digikamapp_setup.cpp:308
+#: core/app/main/digikamapp_setup.cpp:326
 #, kde-format
 msgctxt "@action: Switch to map view"
 msgid "Map"
 msgstr "Мапа"
 
-#: core/app/main/digikamapp_setup.cpp:317
+#: core/app/main/digikamapp_setup.cpp:335
 #, kde-format
 msgctxt "@action: Switch to table view"
 msgid "Table"
 msgstr "Табліца"
 
-#: core/app/main/digikamapp_setup.cpp:325
+#: core/app/main/digikamapp_setup.cpp:344
 #, kde-format
 msgctxt "@action: setup"
 msgid "Open..."
 msgstr "Адкрыць..."
 
-#: core/app/main/digikamapp_setup.cpp:326
+#: core/app/main/digikamapp_setup.cpp:345
 #, kde-format
 msgctxt "@info: setup"
 msgid "Open the selected item."
 msgstr "Адкрыць абраны элемент."
 
-#: core/app/main/digikamapp_setup.cpp:331
+#: core/app/main/digikamapp_setup.cpp:351
 #, kde-format
 msgctxt "@action: setup"
 msgid "Open With Default Application"
 msgstr "Адкрыць у прадвызначанай праграме"
 
-#: core/app/main/digikamapp_setup.cpp:332
+#: core/app/main/digikamapp_setup.cpp:352
 #, kde-format
 msgctxt "@info: setup"
 msgid "Open the selected item with default assigned application."
 msgstr "Адкрыць абраны элемент у звязанай прадвызначанай праграме."
 
-#: core/app/main/digikamapp_setup.cpp:337
+#: core/app/main/digikamapp_setup.cpp:358
 #, kde-format
 msgctxt "@action: setup"
 msgid "Image Editor"
 msgstr "Рэдактар выяў"
 
-#: core/app/main/digikamapp_setup.cpp:338
+#: core/app/main/digikamapp_setup.cpp:359
 #, kde-format
 msgctxt "@action: setup"
 msgid "Open the image editor."
 msgstr "Адкрыць у рэдактары выяў."
 
-#: core/app/main/digikamapp_setup.cpp:344
+#: core/app/main/digikamapp_setup.cpp:366
 #, kde-format
 msgctxt "@action: setup"
 msgid "Light Table"
 msgstr "Праявачны стол"
 
-#: core/app/main/digikamapp_setup.cpp:349
+#: core/app/main/digikamapp_setup.cpp:372
 #, kde-format
 msgctxt "@action: setup"
 msgid "Place onto Light Table"
 msgstr "Размясціць на праявачным стале"
 
-#: core/app/main/digikamapp_setup.cpp:350
+#: core/app/main/digikamapp_setup.cpp:373
 #, kde-format
 msgctxt "@info: setup"
 msgid "Place the selected items on the light table thumbbar."
 msgstr "Размясціць абраныя элементы на панэль мініяцюр праявачнага стала."
 
-#: core/app/main/digikamapp_setup.cpp:355
+#: core/app/main/digikamapp_setup.cpp:379
 #, kde-format
 msgctxt "@action: setup"
 msgid "Add to Light Table"
 msgstr "Дадаць на праявачны стол"
 
-#: core/app/main/digikamapp_setup.cpp:356
+#: core/app/main/digikamapp_setup.cpp:380
 #, kde-format
 msgctxt "@info: setup"
 msgid "Add selected items to the light table thumbbar."
 msgstr "Дадаць абраныя элементы на панэль мініяцюр праявачнага стала."
 
-#: core/app/main/digikamapp_setup.cpp:363
+#: core/app/main/digikamapp_setup.cpp:388
 #, kde-format
 msgctxt "@action: setup"
 msgid "Batch Queue Manager"
 msgstr "Кіраўнік чэргаў"
 
-#: core/app/main/digikamapp_setup.cpp:368
+#: core/app/main/digikamapp_setup.cpp:394
 #, kde-format
 msgctxt "@action: setup"
 msgid "Add to Current Queue"
 msgstr "Дадаць у бягучую чаргу"
 
-#: core/app/main/digikamapp_setup.cpp:369
+#: core/app/main/digikamapp_setup.cpp:395
 #, kde-format
 msgctxt "@info: setup"
 msgid "Add selected items to current queue from batch manager."
 msgstr "Дадаць абраныя элементы ў бягучую чаргу на апрацоўванне."
 
-#: core/app/main/digikamapp_setup.cpp:374
+#: core/app/main/digikamapp_setup.cpp:401
 #, kde-format
 msgctxt "@action: setup"
 msgid "Add to New Queue"
 msgstr "Дадаць у новую чаргу"
 
-#: core/app/main/digikamapp_setup.cpp:375
+#: core/app/main/digikamapp_setup.cpp:402
 #, kde-format
 msgctxt "@info: setup"
 msgid "Add selected items to a new queue from batch manager."
 msgstr "Дадаць абраныя элементы ў новую чаргу на апрацоўванне."
 
-#: core/app/main/digikamapp_setup.cpp:382
+#: core/app/main/digikamapp_setup.cpp:409
 #, kde-format
 msgctxt "@action: Import photos from camera"
 msgid "Import"
 msgstr "Імпартаванне"
 
-#: core/app/main/digikamapp_setup.cpp:389
+#: core/app/main/digikamapp_setup.cpp:416
 #, kde-format
 msgctxt "@action: setup"
 msgid "Write Metadata to Selected Files"
 msgstr "Запісаць метаданыя ў абраныя файлы"
 
-#: core/app/main/digikamapp_setup.cpp:400
+#: core/app/main/digikamapp_setup.cpp:427
 #, kde-format
 msgctxt "@action: setup"
 msgid "Reread Metadata From Selected Files"
 msgstr "Перачытаць метаданыя з абраных файлаў"
 
-#: core/app/main/digikamapp_setup.cpp:410
+#: core/app/main/digikamapp_setup.cpp:438
 #, kde-format
 msgctxt "@action: setup"
 msgid "Scan for Faces"
 msgstr "Пошук твараў"
 
-#: core/app/main/digikamapp_setup.cpp:416
+#: core/app/main/digikamapp_setup.cpp:443
+msgctxt "@action: setup"
+msgid "Recognize Faces"
+msgstr ""
+
+#: core/app/main/digikamapp_setup.cpp:450
 #, kde-format
 msgctxt "@action: setup"
 msgid "Find Similar..."
 msgstr "Пошук падобных..."
 
-#: core/app/main/digikamapp_setup.cpp:417
+#: core/app/main/digikamapp_setup.cpp:451
 #, kde-format
 msgctxt "@info: setup"
 msgid "Find similar images using selected item as reference."
 msgstr "Знайсці выявы, падобныя на абраны элемент."
 
-#: core/app/main/digikamapp_setup.cpp:424
+#: core/app/main/digikamapp_setup.cpp:459
 #, kde-format
 msgctxt "@info: setup"
 msgid "Change the filename of the currently selected item."
 msgstr "Змяніць назву бягучага абранага элемента."
 
-#: core/app/main/digikamapp_setup.cpp:433
+#: core/app/main/digikamapp_setup.cpp:469
 #: core/utilities/imageeditor/editor/editorwindow.cpp:335
 #, kde-format
 msgctxt "@action: Non-pluralized"
 msgid "Move to Trash"
 msgstr "Перамясціць у сметніцу"
 
-#: core/app/main/digikamapp_setup.cpp:446
+#: core/app/main/digikamapp_setup.cpp:483
 #, kde-format
 msgctxt "@action: setup"
 msgid "Delete Permanently"
 msgstr "Выдаліць назаўсёды"
 
-#: core/app/main/digikamapp_setup.cpp:457
+#: core/app/main/digikamapp_setup.cpp:494
 #, kde-format
 msgctxt "@action: setup"
 msgid "Delete permanently without confirmation"
 msgstr "Выдаліць назаўсёды без пацвярджэння"
 
-#: core/app/main/digikamapp_setup.cpp:465
+#: core/app/main/digikamapp_setup.cpp:502
 #, kde-format
 msgctxt "@action: setup"
 msgid "Move to trash without confirmation"
 msgstr "Перамясціць у сметніцу без пацвярджэння"
 
-#: core/app/main/digikamapp_setup.cpp:472
+#: core/app/main/digikamapp_setup.cpp:509
 #, kde-format
 msgctxt "@action: setup"
 msgid "&Sort Albums"
 msgstr "&Сартаваць альбомы"
 
-#: core/app/main/digikamapp_setup.cpp:473
+#: core/app/main/digikamapp_setup.cpp:510
 #, kde-format
 msgctxt "@info: setup"
 msgid "Sort Albums in tree-view."
 msgstr "Сартаваць альбомы ў рэжыме дрэва."
 
-#: core/app/main/digikamapp_setup.cpp:492
+#: core/app/main/digikamapp_setup.cpp:529
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Folder"
 msgstr "Па каталогах"
 
-#: core/app/main/digikamapp_setup.cpp:493
+#: core/app/main/digikamapp_setup.cpp:530
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Category"
 msgstr "Па катэгорыях"
 
-#: core/app/main/digikamapp_setup.cpp:494
+#: core/app/main/digikamapp_setup.cpp:531
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Date"
 msgstr "Па даце"
 
-#: core/app/main/digikamapp_setup.cpp:499
+#: core/app/main/digikamapp_setup.cpp:536
 #, kde-format
 msgctxt "@action: setup"
 msgid "Include Album Sub-Tree"
 msgstr "Паказваць укладзеныя альбомы"
 
-#: core/app/main/digikamapp_setup.cpp:501
+#: core/app/main/digikamapp_setup.cpp:538
 #, kde-format
 msgctxt "@info: setup"
 msgid "Activate this option to show all sub-albums below the current album."
 msgstr "Паказваць усе ўкладзеныя альбомы ніжэй бягучага."
 
-#: core/app/main/digikamapp_setup.cpp:506
+#: core/app/main/digikamapp_setup.cpp:543
 #, kde-format
 msgctxt "@action: setup"
 msgid "Include Tag Sub-Tree"
 msgstr "Паказваць даччыныя пазнакі"
 
-#: core/app/main/digikamapp_setup.cpp:508
+#: core/app/main/digikamapp_setup.cpp:545
 #, kde-format
 msgctxt "@info: setup"
 msgid "Activate this option to show all images marked by the given tag and all its sub-tags."
 msgstr "Паказваць усе выявы з дадзенай пазнакай і яе даччынымі пазнакамі."
 
-#: core/app/main/digikamapp_setup.cpp:513
+#: core/app/main/digikamapp_setup.cpp:550
 #, kde-format
 msgctxt "@action: setup"
 msgid "Show All Grouped Items As Open"
 msgstr "Паказваць усе згрупаваныя элементы як адкрытыя"
 
-#: core/app/main/digikamapp_setup.cpp:515
+#: core/app/main/digikamapp_setup.cpp:552
 #, kde-format
 msgctxt "@info: setup"
 msgid "Activate this option to show all grouped items as open."
 msgstr "Актывуйце гэты параметр, каб паказваць усе згрупаваныя элементы як адкрытыя."
 
-#: core/app/main/digikamapp_setup.cpp:521
+#: core/app/main/digikamapp_setup.cpp:558
 #, kde-format
 msgctxt "@action: setup"
 msgid "&Sort Items"
 msgstr "&Сартаваць элементы"
 
-#: core/app/main/digikamapp_setup.cpp:522
+#: core/app/main/digikamapp_setup.cpp:559
 #, kde-format
 msgctxt "@info: setup"
 msgid "The value by which the images in one album are sorted in the thumbnail view"
 msgstr "Значэнне, на падставе якога будуць сартавацца выявы з аднаго альбома ў выглядзе мініяцюр"
 
-#: core/app/main/digikamapp_setup.cpp:527
+#: core/app/main/digikamapp_setup.cpp:564
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Name"
 msgstr "Па назве"
 
-#: core/app/main/digikamapp_setup.cpp:528
+#: core/app/main/digikamapp_setup.cpp:565
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Path"
 msgstr "Па шляху"
 
-#: core/app/main/digikamapp_setup.cpp:529
+#: core/app/main/digikamapp_setup.cpp:566
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Creation Date"
 msgstr "Па даце стварэння"
 
-#: core/app/main/digikamapp_setup.cpp:530
+#: core/app/main/digikamapp_setup.cpp:567
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Modification Date"
 msgstr "Па даце змены"
 
-#: core/app/main/digikamapp_setup.cpp:531
+#: core/app/main/digikamapp_setup.cpp:568
 #, kde-format
 msgctxt "@action: setup"
 msgid "By File Size"
 msgstr "Па памеры файла"
 
-#: core/app/main/digikamapp_setup.cpp:532
+#: core/app/main/digikamapp_setup.cpp:569
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Rating"
 msgstr "Па рэйтынгу"
 
-#: core/app/main/digikamapp_setup.cpp:533
+#: core/app/main/digikamapp_setup.cpp:570
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Image Size"
 msgstr "Па памеры выявы"
 
-#: core/app/main/digikamapp_setup.cpp:534
+#: core/app/main/digikamapp_setup.cpp:571
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Aspect Ratio"
 msgstr "Па суадносінах бакоў"
 
-#: core/app/main/digikamapp_setup.cpp:535
+#: core/app/main/digikamapp_setup.cpp:572
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Face type"
 msgstr "Па тыпах твараў"
 
-#: core/app/main/digikamapp_setup.cpp:536
+#: core/app/main/digikamapp_setup.cpp:573
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Similarity"
 msgstr "Па падабенству"
 
-#: core/app/main/digikamapp_setup.cpp:537
+#: core/app/main/digikamapp_setup.cpp:574
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Manual and Name"
 msgstr "Уласнаручна і па назве"
 
-#: core/app/main/digikamapp_setup.cpp:538
+#: core/app/main/digikamapp_setup.cpp:575
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Manual and Date"
 msgstr "Уласнаручна і па даце"
 
-#: core/app/main/digikamapp_setup.cpp:583
+#: core/app/main/digikamapp_setup.cpp:620
 #, kde-format
 msgctxt "@action: setup"
 msgid "Item Sort &Order"
 msgstr "&Парадак сартавання элементаў"
 
-#: core/app/main/digikamapp_setup.cpp:584
+#: core/app/main/digikamapp_setup.cpp:621
 #, kde-format
 msgctxt "@info: setup"
 msgid "Defines whether images are sorted in ascending or descending manner."
 msgstr "Вызначае парадак сартавання выяў (па павелічэнні альбо памяншэнні)."
 
-#: core/app/main/digikamapp_setup.cpp:588
-#: core/app/main/digikamapp_setup.cpp:643
+#: core/app/main/digikamapp_setup.cpp:625
+#: core/app/main/digikamapp_setup.cpp:680
 #, kde-format
 msgctxt "@action: setup"
 msgid "Ascending"
 msgstr "Па павелічэнні"
 
-#: core/app/main/digikamapp_setup.cpp:590
-#: core/app/main/digikamapp_setup.cpp:645
+#: core/app/main/digikamapp_setup.cpp:627
+#: core/app/main/digikamapp_setup.cpp:682
 #, kde-format
 msgctxt "@action: setup"
 msgid "Descending"
 msgstr "Па памяншэнні"
 
-#: core/app/main/digikamapp_setup.cpp:600
+#: core/app/main/digikamapp_setup.cpp:637
 #, kde-format
 msgctxt "@action: setup"
 msgid "Separate Items"
 msgstr "Адасобіць элементы"
 
-#: core/app/main/digikamapp_setup.cpp:601
+#: core/app/main/digikamapp_setup.cpp:638
 #, kde-format
 msgctxt "@info: setup"
 msgid "The categories in which the images in the thumbnail view are displayed"
 msgstr "Катэгорыі выяў, якія адлюстроўваюцца ў выглядзе мініяцюр"
 
-#: core/app/main/digikamapp_setup.cpp:606
+#: core/app/main/digikamapp_setup.cpp:643
 #, kde-format
 msgctxt "@action: setup"
 msgid "Flat List"
 msgstr "Не групаваць"
 
-#: core/app/main/digikamapp_setup.cpp:607
+#: core/app/main/digikamapp_setup.cpp:644
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Album"
 msgstr "Па альбомах"
 
-#: core/app/main/digikamapp_setup.cpp:608
+#: core/app/main/digikamapp_setup.cpp:645
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Format"
 msgstr "Па фармаце"
 
-#: core/app/main/digikamapp_setup.cpp:609
+#: core/app/main/digikamapp_setup.cpp:646
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Month"
 msgstr "Па месяцы"
 
-#: core/app/main/digikamapp_setup.cpp:610
+#: core/app/main/digikamapp_setup.cpp:647
 #, kde-format
 msgctxt "@action: setup"
 msgid "By Faces"
 msgstr "Па тварах"
 
-#: core/app/main/digikamapp_setup.cpp:638
+#: core/app/main/digikamapp_setup.cpp:675
 #, kde-format
 msgctxt "@action: setup"
 msgid "Item Separation Order"
 msgstr "Парадак адасаблення элементаў"
 
-#: core/app/main/digikamapp_setup.cpp:639
+#: core/app/main/digikamapp_setup.cpp:676
 #, kde-format
 msgctxt "@info: setup"
 msgid "The sort order of the groups of separated items"
 msgstr "Парадак сартавання групаў адасобленых элементаў"
 
-#: core/app/main/digikamapp_setup.cpp:660
+#: core/app/main/digikamapp_setup.cpp:697
 #, kde-format
 msgctxt "@action: setup"
 msgid "Select All"
 msgstr "Абраць усё"
 
-#: core/app/main/digikamapp_setup.cpp:667
+#: core/app/main/digikamapp_setup.cpp:704
 #, kde-format
 msgctxt "@action: setup"
 msgid "Select None"
 msgstr "Адкінуць выбар"
 
-#: core/app/main/digikamapp_setup.cpp:674
+#: core/app/main/digikamapp_setup.cpp:711
 #, kde-format
 msgctxt "@action: setup"
 msgid "Invert Selection"
 msgstr "Адвярнуць вылучэнне"
 
-#: core/app/main/digikamapp_setup.cpp:681
+#: core/app/main/digikamapp_setup.cpp:719
 #, kde-format
 msgctxt "@action: setup"
 msgid "Show Thumbbar"
 msgstr "Паказваць панэль мініяцюр"
 
-#: core/app/main/digikamapp_setup.cpp:711
+#: core/app/main/digikamapp_setup.cpp:750
 #, kde-format
 msgctxt "@action: setup"
 msgid "Zoom to 100%"
 msgstr "Зыходны памер"
 
-#: core/app/main/digikamapp_setup.cpp:718
+#: core/app/main/digikamapp_setup.cpp:758
 #, kde-format
 msgctxt "@action: setup"
 msgid "Fit to &Window"
 msgstr "Маштабаваць па памеры &акна"
 
-#: core/app/main/digikamapp_setup.cpp:730
+#: core/app/main/digikamapp_setup.cpp:771
 #, kde-format
 msgctxt "@action: setup"
 msgid "Color-Managed View"
 msgstr "Прагляд з кіраваннем колерамі"
 
-#: core/app/main/digikamapp_setup.cpp:747
+#: core/app/main/digikamapp_setup.cpp:789
 #, kde-format
 msgctxt "@action: setup"
 msgid "Search..."
 msgstr "Пошук..."
 
-#: core/app/main/digikamapp_setup.cpp:754
+#: core/app/main/digikamapp_setup.cpp:797
 #, kde-format
 msgctxt "@action: setup"
 msgid "Advanced Search..."
 msgstr "Пашыраны пошук..."
 
-#: core/app/main/digikamapp_setup.cpp:761
+#: core/app/main/digikamapp_setup.cpp:805
 #, kde-format
 msgctxt "@action: setup"
 msgid "Find Duplicates..."
 msgstr "Пошук дублікатаў..."
 
-#: core/app/main/digikamapp_setup.cpp:770
+#: core/app/main/digikamapp_setup.cpp:815
 #, kde-format
 msgctxt "@action: setup"
 msgid "Database Migration..."
 msgstr "Перанос базы даных..."
 
-#: core/app/main/digikamapp_setup.cpp:778
+#: core/app/main/digikamapp_setup.cpp:824
 #, kde-format
 msgctxt "@action: setup"
 msgid "Maintenance..."
 msgstr "Абслугоўванне..."
 
-#: core/app/main/digikamapp_setup.cpp:784
+#: core/app/main/digikamapp_setup.cpp:831
 #, kde-format
 msgctxt "@action: setup"
 msgid "Scan for new Items"
 msgstr "Пошук новых элементаў"
 
-#: core/app/main/digikamapp_setup.cpp:790
+#: core/app/main/digikamapp_setup.cpp:837
 #, kde-format
 msgctxt "@action: setup"
 msgid "Add Camera Manually..."
 msgstr "Дадаць камеру ўласнаручна..."
 
-#: core/app/main/digikamapp_setup.cpp:801
+#: core/app/main/digikamapp_setup.cpp:848
 #, kde-format
 msgctxt "@info: setup"
 msgid "Loading cameras..."
 msgstr "Загрузка камер..."
 
-#: core/app/main/digikamapp_setup.cpp:835
+#: core/app/main/digikamapp_setup.cpp:882
 #, kde-format
 msgctxt "@action: setup"
 msgid "Exit Preview Mode"
 msgstr "Выйсці з рэжыму папярэдняга прагляду"
 
-#: core/app/main/digikamapp_setup.cpp:840
+#: core/app/main/digikamapp_setup.cpp:887
 #, kde-format
 msgctxt "@action: setup"
 msgid "Next Image"
 msgstr "Наступная выява"
 
-#: core/app/main/digikamapp_setup.cpp:846
+#: core/app/main/digikamapp_setup.cpp:893
 #, kde-format
 msgctxt "@action: setup"
 msgid "Previous Image"
 msgstr "Папярэдняя выява"
 
-#: core/app/main/digikamapp_setup.cpp:852
+#: core/app/main/digikamapp_setup.cpp:899
 #, kde-format
 msgctxt "@action: setup"
 msgid "First Image"
 msgstr "Першая выява"
 
-#: core/app/main/digikamapp_setup.cpp:857
+#: core/app/main/digikamapp_setup.cpp:904
 #, kde-format
 msgctxt "@action: setup"
 msgid "Last Image"
 msgstr "Апошняя выява"
 
-#: core/app/main/digikamapp_setup.cpp:862
+#: core/app/main/digikamapp_setup.cpp:909
 #, kde-format
 msgctxt "@action: setup"
 msgid "Cu&t"
 msgstr "&Выразаць"
 
-#: core/app/main/digikamapp_setup.cpp:864
+#: core/app/main/digikamapp_setup.cpp:911
 #, kde-format
 msgctxt "@action: setup"
 msgid "Cut selection to clipboard"
 msgstr "Выразаць абранае ў буфер абмену"
 
-#: core/app/main/digikamapp_setup.cpp:883
+#: core/app/main/digikamapp_setup.cpp:930
 #, kde-format
 msgctxt "@action: setup"
 msgid "Edit Titles"
 msgstr "Рэдагаваць назвы"
 
-#: core/app/main/digikamapp_setup.cpp:888
+#: core/app/main/digikamapp_setup.cpp:935
 #, kde-format
 msgctxt "@action: setup"
 msgid "Edit Comments"
 msgstr "Рэдагаваць каментары"
 
-#: core/app/main/digikamapp_setup.cpp:893
+#: core/app/main/digikamapp_setup.cpp:940
 #, kde-format
 msgctxt "@action: setup"
 msgid "Show Assigned Tags"
 msgstr "Паказаць прызначаныя пазнакі"
 
-#: core/app/main/digikamapp_setup.cpp:902
+#: core/app/main/digikamapp_setup.cpp:949
 #, kde-format
 msgctxt "@action: setup"
 msgid "Adjust Exif Orientation Tag"
 msgstr "Выправіць арыентацыю ў Exif"
 
-#: core/app/main/digikamapp_setup.cpp:905
+#: core/app/main/digikamapp_setup.cpp:952
 #, kde-format
 msgctxt "@action: normal exif orientation"
 msgid "Normal"
 msgstr "Звычайны"
 
-#: core/app/main/digikamapp_setup.cpp:907
+#: core/app/main/digikamapp_setup.cpp:954
 #, kde-format
 msgctxt "@action: setup"
 msgid "Flipped Horizontally"
 msgstr "Адлюстравана гарызантальна"
 
-#: core/app/main/digikamapp_setup.cpp:909
+#: core/app/main/digikamapp_setup.cpp:956
 #, kde-format
 msgctxt "@action: setup"
 msgid "Rotated Upside Down"
 msgstr "Павернута дагары нагамі"
 
-#: core/app/main/digikamapp_setup.cpp:911
+#: core/app/main/digikamapp_setup.cpp:958
 #, kde-format
 msgctxt "@action: setup"
 msgid "Flipped Vertically"
 msgstr "Адлюстраваная вертыкальна"
 
-#: core/app/main/digikamapp_setup.cpp:913
+#: core/app/main/digikamapp_setup.cpp:960
 #, kde-format
 msgctxt "@action: setup"
 msgid "Rotated Right / Horiz. Flipped"
 msgstr "Павернута ўправа / Адлюстраваная гарызантальна"
 
-#: core/app/main/digikamapp_setup.cpp:915
+#: core/app/main/digikamapp_setup.cpp:962
 #, kde-format
 msgctxt "@action: setup"
 msgid "Rotated Right"
 msgstr "Павернута ўправа"
 
-#: core/app/main/digikamapp_setup.cpp:917
+#: core/app/main/digikamapp_setup.cpp:964
 #, kde-format
 msgctxt "@action: setup"
 msgid "Rotated Right / Vert. Flipped"
 msgstr "Павернута ўправа / Адлюстраваная вертыкальна"
 
-#: core/app/main/digikamapp_setup.cpp:919
+#: core/app/main/digikamapp_setup.cpp:966
 #, kde-format
 msgctxt "@action: setup"
 msgid "Rotated Left"
 msgstr "Павернута ўлева"
 
-#: core/app/main/digikamapp_setup.cpp:980
+#: core/app/main/digikamapp_setup.cpp:1027
 #, kde-format
 msgctxt "@action: setup"
 msgid "Rotate"
 msgstr "Павярнуць"
 
-#: core/app/main/digikamapp_setup.cpp:984
+#: core/app/main/digikamapp_setup.cpp:1031
 #, kde-format
 msgctxt "@action: rotate image left"
 msgid "Left"
 msgstr "Улева"
 
-#: core/app/main/digikamapp_setup.cpp:991
+#: core/app/main/digikamapp_setup.cpp:1038
 #, kde-format
 msgctxt "@action: rotate image right"
 msgid "Right"
 msgstr "Управа"
 
-#: core/app/main/digikamapp_setup.cpp:1001
+#: core/app/main/digikamapp_setup.cpp:1048
 #, kde-format
 msgctxt "@action: setup"
 msgid "Flip"
 msgstr "Адлюстраваць"
 
-#: core/app/main/digikamapp_setup.cpp:1005
+#: core/app/main/digikamapp_setup.cpp:1052
 #, kde-format
 msgctxt "@action: setup"
 msgid "Horizontally"
 msgstr "Гарызантальна"
 
-#: core/app/main/digikamapp_setup.cpp:1012
+#: core/app/main/digikamapp_setup.cpp:1059
 #, kde-format
 msgctxt "@action: setup"
 msgid "Vertically"
 msgstr "Вертыкальна"
 
-#: core/app/main/digikamapp_setup.cpp:1022
+#: core/app/main/digikamapp_setup.cpp:1069
 #, kde-format
 msgctxt "@action: setup"
 msgid "Auto Rotate/Flip Using Exif Information"
 msgstr "Павярнуць і адлюстраваць па даных Exiff"
 
-#: core/app/main/digikamapp_setup.cpp:1033
+#: core/app/main/digikamapp_setup.cpp:1080
 #, kde-format
 msgctxt "@info: setup"
 msgid "Loading themes..."
 msgstr "Загрузка тэмаў..."
 
-#: core/app/main/digikamapp_setup.cpp:1036
+#: core/app/main/digikamapp_setup.cpp:1083
 #, kde-format
 msgctxt "@action: setup"
 msgid "&Themes"
 msgstr "&Тэмы"
 
-#: core/app/main/digikamapp_setup.cpp:1048
+#: core/app/main/digikamapp_setup.cpp:1095
 #, kde-format
 msgctxt "@info: setup"
 msgid "Loading tools..."
@@ -2804,7 +2808,6 @@ msgid "Search"
 msgstr "Пошук"
 
 #: core/app/views/sidebar/tagviewsidebarwidget.cpp:103
-#: core/libs/properties/captions/itemdescedittab.cpp:278
 #, kde-format
 msgid "Open Tag Manager"
 msgstr "Адкрыць кіраўнік пазнак"
@@ -2829,7 +2832,6 @@ msgstr "Пазнакі альбома адсутнічаюць"
 #: core/libs/album/manager/albummanager.cpp:159
 #: core/libs/album/widgets/albumselecttabs.cpp:192
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:69
-#: core/libs/properties/captions/itemdescedittab.cpp:320
 #: core/libs/tags/widgets/tagfolderview.cpp:104
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:599
 #: core/utilities/searchwindow/searchfields_createfield.cpp:74
@@ -2912,7 +2914,7 @@ msgid "If you press this button, the dates selected on the time-line will be sav
 msgstr "Націсніце гэтую кнопку, каб захаваць абраныя на шкале часу даты ў новы віртуальны альбом, узяўшы назву злева."
 
 #: core/app/views/sidebar/timelinesidebarwidget.cpp:399
-#: core/app/views/stack/itemiconview_p.h:186
+#: core/app/views/stack/itemiconview_p.h:187
 #, kde-format
 msgid "Timeline"
 msgstr "Храналогія"
@@ -2949,22 +2951,22 @@ msgstr "Не атрымалася адкрыць каранёвы альбом. 
 msgid "The current query from the database returned no results. Change search settings or select an album with content."
 msgstr ""
 
-#: core/app/views/stack/itemiconview_p.h:169
+#: core/app/views/stack/itemiconview_p.h:170
 #, kde-format
 msgid "Fuzzy Sketch Search"
 msgstr "Недакладны пошук па эскізе"
 
-#: core/app/views/stack/itemiconview_p.h:173
+#: core/app/views/stack/itemiconview_p.h:174
 #, kde-format
 msgid "Fuzzy Image Search"
 msgstr "Недакладны пошук выявы"
 
-#: core/app/views/stack/itemiconview_p.h:177
+#: core/app/views/stack/itemiconview_p.h:178
 #, kde-format
 msgid "Map Search"
 msgstr "Пошук па мапе"
 
-#: core/app/views/stack/itemiconview_p.h:182
+#: core/app/views/stack/itemiconview_p.h:183
 #: core/libs/database/coredb/coredbschemaupdater.cpp:1167
 #, kde-format
 msgid "Last Search"
@@ -4660,7 +4662,6 @@ msgstr "Скасаваць"
 
 #: core/avplayer/utils/ConfigDialog.cpp:64
 #: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:160
-#: core/libs/properties/captions/itemdescedittab.cpp:225
 #, kde-format
 msgid "Apply"
 msgstr "Ужыць"
@@ -6119,6 +6120,112 @@ msgctxt "@info"
 msgid "<para>This Batch Queue Manager tool can add film grain over images.</para>"
 msgstr ""
 
+#: core/dplugins/bqm/metadata/assigncaptions/assigncaptions.cpp:97
+#| msgctxt "title of the file"
+#| msgid "Title:"
+msgid "Titles:"
+msgstr ""
+
+#: core/dplugins/bqm/metadata/assigncaptions/assigncaptions.cpp:99
+#: core/libs/properties/captions/itemdescedittab_descview.cpp:271
+msgctxt "@info"
+msgid "Enter title text here."
+msgstr ""
+
+#: core/dplugins/bqm/metadata/assigncaptions/assigncaptions.cpp:105
+#| msgid "Captions: "
+msgid "Captions:"
+msgstr ""
+
+#: core/dplugins/bqm/metadata/assigncaptions/assigncaptions.cpp:107
+#: core/libs/properties/captions/itemdescedittab_descview.cpp:276
+#| msgctxt "@label: album properties"
+#| msgid "Enter album caption here..."
+msgctxt "@info"
+msgid "Enter caption text here."
+msgstr ""
+
+#: core/dplugins/bqm/metadata/assigncaptions/assigncaptions.cpp:112
+#, kde-format
+msgid "Clean up and overwrite"
+msgstr ""
+
+#: core/dplugins/bqm/metadata/assigncaptions/assigncaptions.cpp:113
+#, kde-format
+msgctxt "@info"
+msgid "If you turn on this options, titles and captions will be cleaned and replaced by the new values,\n"
+"else old values will be merged with new values."
+msgstr ""
+
+#: core/dplugins/bqm/metadata/assigncaptions/assigncaptionsplugin.cpp:46
+#| msgctxt "@action"
+#| msgid "Assign tools"
+msgctxt "@title"
+msgid "Assign Captions"
+msgstr ""
+
+#: core/dplugins/bqm/metadata/assigncaptions/assigncaptionsplugin.cpp:61
+#, kde-format
+msgctxt "@info"
+msgid "A tool to assign captions metadata to images"
+msgstr ""
+
+#: core/dplugins/bqm/metadata/assigncaptions/assigncaptionsplugin.cpp:66
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>This Batch Queue Manager tool will assign title and description metadata alternative values to images.</para>"
+msgstr ""
+
+#: core/dplugins/bqm/metadata/assignlabels/assignlabels.cpp:98
+#, kde-format
+msgid "Pick Label:"
+msgstr "Адмеціна выбару:"
+
+#: core/dplugins/bqm/metadata/assignlabels/assignlabels.cpp:103
+#, kde-format
+msgid "Color Label:"
+msgstr "Каляровая адмеціна:"
+
+#: core/dplugins/bqm/metadata/assignlabels/assignlabels.cpp:108
+#, kde-format
+msgid "Rating:"
+msgstr "Рэйтынг:"
+
+#: core/dplugins/bqm/metadata/assignlabels/assignlabelsplugin.cpp:46
+#| msgid "Assign Labels"
+msgctxt "@title"
+msgid "Assign Labels"
+msgstr "Прызначыць адмеціны"
+
+#: core/dplugins/bqm/metadata/assignlabels/assignlabelsplugin.cpp:61
+#, kde-format
+msgctxt "@info"
+msgid "A tool to assign labels metadata to images"
+msgstr ""
+
+#: core/dplugins/bqm/metadata/assignlabels/assignlabelsplugin.cpp:66
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>This Batch Queue Manager tool will assign rating, or color, or pick label metadata values to images.</para>"
+msgstr ""
+
+#: core/dplugins/bqm/metadata/assigntags/assigntagsplugin.cpp:46
+#| msgid "Assign Tag"
+msgctxt "@title"
+msgid "Assign Tags"
+msgstr ""
+
+#: core/dplugins/bqm/metadata/assigntags/assigntagsplugin.cpp:61
+msgctxt "@info"
+msgid "A tool to assign tags metadata to images"
+msgstr ""
+
+#: core/dplugins/bqm/metadata/assigntags/assigntagsplugin.cpp:66
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>This Batch Queue Manager tool will assign keyword hierarchies metadata values to images.</para>"
+msgstr ""
+
 #: core/dplugins/bqm/metadata/assigntemplate/assigntemplateplugin.cpp:46
 #, kde-format
 msgctxt "@title"
@@ -6157,121 +6264,121 @@ msgctxt "@info"
 msgid "<para>This Batch Queue Manager tool will assign a pick label metadata value by parsing image and estimate the quality.</para>"
 msgstr ""
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:103
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:104
 #, kde-format
 msgctxt "@title"
 msgid "Exif:"
 msgstr "Exif:"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:105
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:106
 #, kde-format
 msgctxt "@item: exif namespace"
 msgid "Completely"
 msgstr "Усе даныя"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:106
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:107
 #, kde-format
 msgctxt "@item: exif namespace"
 msgid "Date"
 msgstr "Дата"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:107
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:108
 #, kde-format
 msgctxt "@item: exif namespace"
 msgid "GPS"
 msgstr "GPS"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:108
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:109
 #, kde-format
 msgctxt "@item: exif namespace"
 msgid "XPKeywords"
 msgstr "XPKeywords"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:109
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:110
 #, kde-format
 msgctxt "@item: exif namespace"
 msgid "Comment and description"
 msgstr ""
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:111
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:112
 #, kde-format
 msgctxt "@title"
 msgid "Iptc:"
 msgstr "Iptc:"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:113
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:114
 #, kde-format
 msgctxt "@item: iptc namespace"
 msgid "Completely"
 msgstr "Усе даныя"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:114
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:115
 #, kde-format
 msgctxt "@item: iptc namespace"
 msgid "Date"
 msgstr "Дата"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:115
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:116
 #, kde-format
 msgctxt "@item: iptc namespace"
 msgid "Caption"
 msgstr "Подпіс"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:117
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:118
 #, kde-format
 msgctxt "@title"
 msgid "Xmp:"
 msgstr "Xmp:"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:119
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:120
 #, kde-format
 msgctxt "@item: xmp namespace"
 msgid "Completely"
 msgstr "Усе даныя"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:120
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:121
 #, kde-format
 msgctxt "@item: xmp namespace"
 msgid "Date"
 msgstr "Дата"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:121
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:122
 #, kde-format
 msgctxt "@item: xmp namespace"
 msgid "DigiKam"
 msgstr "DigiKam"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:122
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:123
 #, kde-format
 msgctxt "@item: xmp namespace"
 msgid "DigiKam image history"
 msgstr ""
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:123
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:124
 #, kde-format
 msgctxt "@item: xmp namespace"
 msgid "Dublin Core"
 msgstr "Dublin Core"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:124
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:125
 #, kde-format
 msgctxt "@item: xmp namespace"
 msgid "Exif"
 msgstr "Exif"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:125
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:126
 #, kde-format
 msgctxt "@item: xmp namespace"
 msgid "Video"
 msgstr "Відэа"
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:126
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:127
 #, kde-format
 msgctxt "@item: xmp namespace"
 msgid "Caption, Comment and Description"
 msgstr ""
 
-#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:219
+#: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:220
 #, kde-format
 msgctxt "@info"
 msgid "Remove Metadata: Not the last tool in the list."
@@ -6324,37 +6431,37 @@ msgctxt "@info"
 msgid "<para>This Batch Queue Manager tool can adjust time in images.</para>"
 msgstr ""
 
-#: core/dplugins/bqm/metadata/translate/translate.cpp:106
+#: core/dplugins/bqm/metadata/translate/translate.cpp:107
 #, kde-format
 msgctxt "@option:check metadata entry"
 msgid "Title"
 msgstr "Назва"
 
-#: core/dplugins/bqm/metadata/translate/translate.cpp:107
+#: core/dplugins/bqm/metadata/translate/translate.cpp:108
 #, kde-format
 msgctxt "@option:check metadata entry"
 msgid "Caption"
 msgstr "Подпіс"
 
-#: core/dplugins/bqm/metadata/translate/translate.cpp:108
+#: core/dplugins/bqm/metadata/translate/translate.cpp:109
 #, kde-format
 msgctxt "@option:check metadata entry"
 msgid "Copyrights"
 msgstr ""
 
-#: core/dplugins/bqm/metadata/translate/translate.cpp:109
+#: core/dplugins/bqm/metadata/translate/translate.cpp:110
 #, kde-format
 msgctxt "@option:check metadata entry"
 msgid "Usage Terms"
 msgstr ""
 
-#: core/dplugins/bqm/metadata/translate/translate.cpp:112
+#: core/dplugins/bqm/metadata/translate/translate.cpp:113
 #, kde-format
 msgctxt "@label"
 msgid "Translate to:"
 msgstr ""
 
-#: core/dplugins/bqm/metadata/translate/translate.cpp:150
+#: core/dplugins/bqm/metadata/translate/translate.cpp:151
 #, kde-format
 msgctxt "@label"
 msgid "Entries to Translate with %1:"
@@ -10467,92 +10574,92 @@ msgctxt "@action"
 msgid "Edit Geolocation..."
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:145
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:162
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:146
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:163
 #: core/dplugins/generic/tools/htmlgallery/generator/galleryelementfunctor.cpp:116
 #, kde-format
 msgid "Could not read image '%1'"
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:154
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:155
 #: core/dplugins/generic/tools/htmlgallery/generator/galleryelementfunctor.cpp:124
 #, kde-format
 msgid "Format of image '%1' is unknown"
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:172
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:173
 #: core/dplugins/generic/tools/htmlgallery/generator/galleryelementfunctor.cpp:134
 #, kde-format
 msgid "Error loading image '%1'"
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:215
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:216
 #: core/dplugins/generic/tools/htmlgallery/generator/galleryelementfunctor.cpp:185
 #, kde-format
 msgid "Could not save image '%1' to '%2'"
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:219
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:220
 #, kde-format
 msgid "Creation of picture '%1'"
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:321
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:322
 #, kde-format
 msgid "Creation of placemark '%1'"
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:330
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:331
 #, kde-format
 msgid "Could not save icon for image '%1' to '%2'"
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:334
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:335
 #, kde-format
 msgid "Creation of icon '%1'"
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:361
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:362
 #, kde-format
 msgid "No GPX file chosen."
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:370
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:371
 #, kde-format
 msgid "Cannot parse %1 GPX file."
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:376
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:377
 #, kde-format
 msgid "The %1 GPX file do not have a date-time track to use."
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:384
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:385
 #, kde-format
 msgid "Tracks"
 msgstr "Сляды"
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:488
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:489
 #, kde-format
 msgid "No position data for '%1'"
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:503
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:504
 #, kde-format
 msgid "Cannot open file for writing"
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:516
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:517
 #, kde-format
 msgid "Move %1 to final directory %2"
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:520
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:521
 #, kde-format
 msgid "Cannot move data to destination directory"
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:530
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlexport.cpp:531
 #, kde-format
 msgid "Report below have been generated while KML file processing:"
 msgstr ""
@@ -14409,18 +14516,19 @@ msgstr ""
 msgid "Failed to update file timestamp"
 msgstr ""
 
-#: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:87
+#: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:88
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:481
 #, kde-format
-msgid "Processed without error"
-msgstr ""
+msgid "Success"
+msgstr "Выканана"
 
-#: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:100
-#: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:109
+#: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:101
+#: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:110
 #, kde-format
 msgid "not valid"
 msgstr "непрыдатна"
 
-#: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:124
+#: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:125
 #, kde-format
 msgid "Please wait ..."
 msgstr ""
@@ -14782,11 +14890,6 @@ msgstr ""
 #, kde-format
 msgid "Failed to save image."
 msgstr ""
-
-#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:481
-#, kde-format
-msgid "Success"
-msgstr "Выканана"
 
 #: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:506
 #, kde-format
@@ -20143,7 +20246,7 @@ msgstr ""
 
 #: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:80
 #: core/dplugins/generic/webservices/facebook/fbwindow.cpp:117
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:102
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:103
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:82
 #: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:232
 #: core/dplugins/generic/webservices/rajce/rajcewindow.cpp:45
@@ -22644,32 +22747,32 @@ msgctxt "@item"
 msgid "Upload Settings"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:100
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:101
 #, kde-format
 msgid "Export to MediaWiki"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:103
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:104
 #, kde-format
 msgid "Start upload to MediaWiki"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:301
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:302
 #, kde-format
 msgid "MediaWiki export"
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:337
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:338
 #, kde-format
 msgid "Login Error"
 msgstr "Не атрымалася ўвайсці"
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:337
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:338
 #, kde-format
 msgid "Please check your credentials and try again."
 msgstr ""
 
-#: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:358
+#: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:359
 #, kde-format
 msgid "Upload finished with no errors."
 msgstr ""
@@ -24455,21 +24558,21 @@ msgid "No Pick"
 msgstr "Не выбрана"
 
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:379
-#: core/libs/widgets/metadata/labels/picklabelwidget.cpp:307
+#: core/libs/widgets/metadata/labels/picklabelwidget.cpp:316
 #, kde-format
 msgctxt "@info: pick label name"
 msgid "Rejected"
 msgstr "Адхілена"
 
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:383
-#: core/libs/widgets/metadata/labels/picklabelwidget.cpp:311
+#: core/libs/widgets/metadata/labels/picklabelwidget.cpp:322
 #, kde-format
 msgctxt "@info: pick label name"
 msgid "Pending"
 msgstr "Да апрацоўвання"
 
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:387
-#: core/libs/widgets/metadata/labels/picklabelwidget.cpp:315
+#: core/libs/widgets/metadata/labels/picklabelwidget.cpp:328
 #, kde-format
 msgctxt "@info: pick label name"
 msgid "Accepted"
@@ -30558,12 +30661,12 @@ msgstr ""
 msgid "Process Items"
 msgstr "Апрацоўванне элементаў"
 
-#: core/libs/fileactionmanager/fileworkeriface.cpp:75
+#: core/libs/fileactionmanager/fileworkeriface.cpp:74
 #, kde-format
 msgid "Failed to revise Exif orientation these files:"
 msgstr ""
 
-#: core/libs/fileactionmanager/fileworkeriface.cpp:353
+#: core/libs/fileactionmanager/fileworkeriface.cpp:347
 #, kde-format
 msgid "Failed to transform these files:"
 msgstr ""
@@ -32333,17 +32436,17 @@ msgctxt "info"
 msgid "Binary data %1 bytes"
 msgstr ""
 
-#: core/libs/metadataengine/exiftool/exiftoolprocess.cpp:412
+#: core/libs/metadataengine/exiftool/exiftoolprocess.cpp:378
 #, kde-format
 msgid "ExifTool does not exists or exec permission is missing"
 msgstr ""
 
-#: core/libs/metadataengine/exiftool/exiftoolprocess.cpp:426
+#: core/libs/metadataengine/exiftool/exiftoolprocess.cpp:392
 #, kde-format
 msgid "Perl does not exists or exec permission is missing"
 msgstr ""
 
-#: core/libs/metadataengine/exiftool/exiftoolprocess_p.cpp:148
+#: core/libs/metadataengine/exiftool/exiftoolprocess_p.cpp:144
 #, kde-format
 msgid "Synchronization error between the channels"
 msgstr ""
@@ -32373,6 +32476,7 @@ msgid "Inactive"
 msgstr "Не актыўна"
 
 #: core/libs/models/albummodel_tag.cpp:25
+#: core/libs/properties/captions/itemdescedittab_tagsview.cpp:82
 #, kde-format
 msgctxt "@title"
 msgid "Tags"
@@ -32697,98 +32801,19 @@ msgstr ""
 msgid "Show detailed progress window"
 msgstr ""
 
-#: core/libs/properties/captions/captionedit.cpp:59
+#: core/libs/properties/captions/captionedit.cpp:54
 #, kde-format
 msgid "Captions: "
 msgstr "Подпіс: "
 
-#: core/libs/properties/captions/captionedit.cpp:63
+#: core/libs/properties/captions/captionedit.cpp:58
 #, kde-format
 msgid "Enter caption author name here."
 msgstr ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:195
-#, kde-format
-msgctxt "@title: comment title string"
-msgid "Title:"
-msgstr "Назва:"
-
-#: core/libs/properties/captions/itemdescedittab.cpp:206
-#, kde-format
-msgid "Pick Label:"
-msgstr "Адмеціна выбару:"
-
-#: core/libs/properties/captions/itemdescedittab.cpp:211
-#, kde-format
-msgid "Color Label:"
-msgstr "Каляровая адмеціна:"
-
-#: core/libs/properties/captions/itemdescedittab.cpp:216
-#, kde-format
-msgid "Rating:"
-msgstr "Рэйтынг:"
-
-#: core/libs/properties/captions/itemdescedittab.cpp:228
-#, kde-format
-msgid "Apply all changes to images"
-msgstr ""
-
-#: core/libs/properties/captions/itemdescedittab.cpp:236
-#, kde-format
-msgid "Revert all changes"
-msgstr ""
-
-#: core/libs/properties/captions/itemdescedittab.cpp:239
-#, kde-format
-msgid "Apply to all versions"
-msgstr ""
-
-#: core/libs/properties/captions/itemdescedittab.cpp:242
-#, kde-format
-msgid "Apply all changes to all versions of this image"
-msgstr ""
-
-#: core/libs/properties/captions/itemdescedittab.cpp:244
-#, kde-format
-msgctxt "@action: more actions to apply changes"
-msgid "More"
-msgstr "Яшчэ"
-
 #: core/libs/properties/captions/itemdescedittab.cpp:260
-#: core/utilities/advancedrename/parser/options/database/dbkeyselector.cpp:94
-#: core/utilities/advancedrename/parser/options/database/keys/positionkeys.cpp:62
-#, kde-format
-msgid "Description"
-msgstr "Апісанне"
-
-#: core/libs/properties/captions/itemdescedittab.cpp:285
-#, kde-format
-msgid "Enter tag here."
-msgstr ""
-
-#: core/libs/properties/captions/itemdescedittab.cpp:286
-#, kde-format
-msgid "Enter the text used to create tags here. '/' can be used to create a hierarchy of tags. ',' can be used to create more than one hierarchy at the same time."
-msgstr ""
-
-#: core/libs/properties/captions/itemdescedittab.cpp:302
-#, kde-format
-msgid "Tags already assigned"
-msgstr ""
-
-#: core/libs/properties/captions/itemdescedittab.cpp:308
-#, kde-format
-msgid "Recent Tags"
-msgstr "Нядаўнія пазнакі"
-
-#: core/libs/properties/captions/itemdescedittab.cpp:342
-#: core/utilities/advancedrename/common/tooltipdialog.cpp:53
-#, kde-format
-msgid "Information"
-msgstr "Інфармацыя"
-
-#: core/libs/properties/captions/itemdescedittab.cpp:598
-#, kde-format
+#| msgid "Set this option to display the image captions."
+msgctxt "@info"
 msgid "You have edited the image caption. "
 msgid_plural "You have edited the captions of %1 images. "
 msgstr[0] ""
@@ -32796,8 +32821,9 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:604
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:266
+#| msgid "Set this option to display the image title."
+msgctxt "@info"
 msgid "You have edited the image title. "
 msgid_plural "You have edited the titles of %1 images. "
 msgstr[0] ""
@@ -32805,8 +32831,9 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:610
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:272
+#| msgid "Set here the gamma adjustment of the image."
+msgctxt "@info"
 msgid "You have edited the date of the image. "
 msgid_plural "You have edited the date of %1 images. "
 msgstr[0] ""
@@ -32814,8 +32841,9 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:616
+#: core/libs/properties/captions/itemdescedittab.cpp:278
 #, kde-format
+msgctxt "@info"
 msgid "You have edited the pick label of the image. "
 msgid_plural "You have edited the pick label of %1 images. "
 msgstr[0] ""
@@ -32823,8 +32851,9 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:622
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:284
+#| msgid "Set here the contrast adjustment of the image."
+msgctxt "@info"
 msgid "You have edited the color label of the image. "
 msgid_plural "You have edited the color label of %1 images. "
 msgstr[0] ""
@@ -32832,8 +32861,9 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:628
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:290
+#| msgid "Set here the contrast adjustment of the image."
+msgctxt "@info"
 msgid "You have edited the rating of the image. "
 msgid_plural "You have edited the rating of %1 images. "
 msgstr[0] ""
@@ -32841,8 +32871,9 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:634
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:296
+#| msgid "Set here the contrast adjustment of the image."
+msgctxt "@info"
 msgid "You have edited the tags of the image. "
 msgid_plural "You have edited the tags of %1 images. "
 msgstr[0] ""
@@ -32850,13 +32881,15 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:639
+#: core/libs/properties/captions/itemdescedittab.cpp:301
 #, kde-format
+msgctxt "@info"
 msgid "Do you want to apply your changes?"
 msgstr ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:643
+#: core/libs/properties/captions/itemdescedittab.cpp:305
 #, kde-format
+msgctxt "@info"
 msgid "<p>You have edited the metadata of the image: </p>"
 msgid_plural "<p>You have edited the metadata of %1 images: </p>"
 msgstr[0] ""
@@ -32864,107 +32897,235 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:651
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:313
+#| msgid "<li>title</li>"
+msgctxt "@info"
 msgid "<li>title</li>"
 msgstr "<li>подпіс</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:656
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:318
+#| msgid "<li>date</li>"
+msgctxt "@info"
 msgid "<li>caption</li>"
 msgstr ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:661
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:323
+#| msgid "<li>date</li>"
+msgctxt "@info"
 msgid "<li>date</li>"
 msgstr "<li>дата</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:666
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:328
+#| msgid "<li>title</li>"
+msgctxt "@info"
 msgid "<li>pick label</li>"
 msgstr ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:671
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:333
+#| msgid "<li>date</li>"
+msgctxt "@info"
 msgid "<li>color label</li>"
 msgstr ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:676
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:338
+#| msgid "<li>date</li>"
+msgctxt "@info"
 msgid "<li>rating</li>"
 msgstr ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:681
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:343
+#| msgid "<li>tags</li>"
+msgctxt "@info"
 msgid "<li>tags</li>"
 msgstr "<li>пазнакі</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:686
+#: core/libs/properties/captions/itemdescedittab.cpp:348
 #, kde-format
+msgctxt "@info"
 msgid "<p>Do you want to apply your changes?</p>"
 msgstr ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:689
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:351
+#| msgctxt "@action: setup"
+#| msgid "Delete permanently without confirmation"
+msgctxt "@action"
 msgid "Always apply changes without confirmation"
 msgstr ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:692
-#: core/libs/properties/captions/itemdescedittab.cpp:702
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:354
+#| msgid "Apply changes?"
+msgctxt "@title"
 msgid "Apply changes?"
 msgstr "Ужыць змены?"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:846
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:364
+#| msgid "Apply changes?"
+msgctxt "@info"
+msgid "Apply changes?"
+msgstr "Ужыць змены?"
+
+#: core/libs/properties/captions/itemdescedittab.cpp:423
+msgctxt "@info"
 msgid "Reading metadata from files. Please wait..."
 msgstr ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:878
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:455
+msgctxt "@info"
 msgid "Writing metadata to files. Please wait..."
 msgstr ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1268
-#, kde-format
-msgid "Selected items have different text here."
-msgstr ""
-
-#: core/libs/properties/captions/itemdescedittab.cpp:1300
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:498
+#| msgctxt "@action: setup"
+#| msgid "Reread Metadata From Files"
+msgctxt "@action"
 msgid "Read metadata from file to database"
 msgstr ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1301
-#: core/libs/properties/captions/itemdescedittab.cpp:1318
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:500
+#: core/libs/properties/captions/itemdescedittab.cpp:519
+#| msgid "Write Metadata to File"
+#| msgid_plural "Write Metadata to Selected Files"
+msgctxt "@action"
 msgid "Write metadata to each file"
 msgstr ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1317
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:516
+#| msgctxt "@action: setup"
+#| msgid "Reread Metadata From Selected Files"
+msgctxt "@action"
 msgid "Read metadata from each file to database"
 msgstr ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1320
-#, kde-format
+#: core/libs/properties/captions/itemdescedittab.cpp:524
+#| msgid "Assign Tags to &Selected Items"
+msgctxt "@action"
 msgid "Unify tags of selected items"
 msgstr ""
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1438
-#: core/libs/tags/widgets/tagspopupmenu.cpp:553
+#: core/libs/properties/captions/itemdescedittab_descview.cpp:36
 #, kde-format
+msgctxt "@title: comment title string"
+msgid "Title:"
+msgstr "Назва:"
+
+#: core/libs/properties/captions/itemdescedittab_descview.cpp:43
+#| msgid "Date:"
+msgctxt "@label"
+msgid "Date:"
+msgstr "Дата:"
+
+#: core/libs/properties/captions/itemdescedittab_descview.cpp:47
+#| msgid "Pick Label:"
+msgctxt "@label"
+msgid "Pick Label:"
+msgstr "Адмеціна выбару:"
+
+#: core/libs/properties/captions/itemdescedittab_descview.cpp:52
+#| msgid "Color Label:"
+msgctxt "@label"
+msgid "Color Label:"
+msgstr "Каляровая адмеціна:"
+
+#: core/libs/properties/captions/itemdescedittab_descview.cpp:57
+#| msgid "Rating:"
+msgctxt "@label"
+msgid "Rating:"
+msgstr "Рэйтынг:"
+
+#: core/libs/properties/captions/itemdescedittab_descview.cpp:66
+#| msgid "Apply"
+msgctxt "@action"
+msgid "Apply"
+msgstr "Ужыць"
+
+#: core/libs/properties/captions/itemdescedittab_descview.cpp:69
+#| msgid "Apply changes?"
+msgctxt "@info"
+msgid "Apply all changes to images"
+msgstr ""
+
+#: core/libs/properties/captions/itemdescedittab_descview.cpp:77
+#| msgid "Revert Changes"
+msgctxt "@info"
+msgid "Revert all changes"
+msgstr ""
+
+#: core/libs/properties/captions/itemdescedittab_descview.cpp:80
+#, kde-format
+msgctxt "@action"
+msgid "Apply to all versions"
+msgstr ""
+
+#: core/libs/properties/captions/itemdescedittab_descview.cpp:83
+#| msgid "Clear all faces on this image"
+msgctxt "@info"
+msgid "Apply all changes to all versions of this image"
+msgstr ""
+
+#: core/libs/properties/captions/itemdescedittab_descview.cpp:85
+#, kde-format
+msgctxt "@action: more actions to apply changes"
+msgid "More"
+msgstr "Яшчэ"
+
+#: core/libs/properties/captions/itemdescedittab_descview.cpp:101
+#| msgid "Description"
+msgctxt "@title"
+msgid "Description"
+msgstr "Апісанне"
+
+#: core/libs/properties/captions/itemdescedittab_infoview.cpp:45
+#: core/utilities/import/main/importui.cpp:1885
+#, kde-format
+msgctxt "@title"
+msgid "Information"
+msgstr "Інфармацыя"
+
+#: core/libs/properties/captions/itemdescedittab_p.cpp:238
+#, kde-format
+msgctxt "@info"
+msgid "Selected items have different text here."
+msgstr ""
+
+#: core/libs/properties/captions/itemdescedittab_tagsview.cpp:41
+#: core/libs/properties/captions/tagsedit.cpp:106
+#| msgid "Open Tag Manager"
+msgctxt "@action"
+msgid "Open Tag Manager"
+msgstr "Адкрыць кіраўнік пазнак"
+
+#: core/libs/properties/captions/itemdescedittab_tagsview.cpp:47
+#: core/libs/properties/captions/tagsedit.cpp:112
+msgctxt "@info"
+msgid "Enter tag here."
+msgstr ""
+
+#: core/libs/properties/captions/itemdescedittab_tagsview.cpp:48
+#: core/libs/properties/captions/tagsedit.cpp:113
+#, kde-format
+msgctxt "@info"
+msgid "Enter the text used to create tags here. '/' can be used to create a hierarchy of tags. ',' can be used to create more than one hierarchy at the same time."
+msgstr ""
+
+#: core/libs/properties/captions/itemdescedittab_tagsview.cpp:64
+#: core/libs/properties/captions/tagsedit.cpp:130
+#| msgid "Tag name already exists"
+msgctxt "@info"
+msgid "Tags already assigned"
+msgstr ""
+
+#: core/libs/properties/captions/itemdescedittab_tagsview.cpp:70
+#: core/libs/properties/captions/tagsedit.cpp:136
+#| msgid "Recent Tags"
+msgctxt "@info"
+msgid "Recent Tags"
+msgstr "Нядаўнія пазнакі"
+
+#: core/libs/properties/captions/itemdescedittab_tagsview.cpp:298
+#: core/libs/properties/captions/tagsedit.cpp:294
+#| msgid "Show Assigned Tags"
+msgctxt "@action"
 msgid "No Recently Assigned Tags"
-msgstr ""
-
-#: core/libs/properties/captions/itemdescedittab.cpp:1600
-#, kde-format
-msgid "Enter title here."
-msgstr ""
-
-#: core/libs/properties/captions/itemdescedittab.cpp:1605
-#, kde-format
-msgid "Enter caption text here."
 msgstr ""
 
 #: core/libs/properties/geolocation/itempropertiesgpstab.cpp:144
@@ -35082,6 +35243,11 @@ msgstr ""
 #: core/libs/tags/widgets/tagfolderview.cpp:235
 #, kde-format
 msgid "Expand Selected Recursively"
+msgstr ""
+
+#: core/libs/tags/widgets/tagspopupmenu.cpp:553
+#, kde-format
+msgid "No Recently Assigned Tags"
 msgstr ""
 
 #: core/libs/tags/widgets/tagspopupmenu.cpp:557
@@ -39420,19 +39586,19 @@ msgctxt "@title: color label menu"
 msgid "Color"
 msgstr "Колер"
 
-#: core/libs/widgets/metadata/labels/picklabelwidget.cpp:319
+#: core/libs/widgets/metadata/labels/picklabelwidget.cpp:334
 #, kde-format
 msgctxt "@info: pick label name"
 msgid "None"
 msgstr "Няма"
 
-#: core/libs/widgets/metadata/labels/picklabelwidget.cpp:390
+#: core/libs/widgets/metadata/labels/picklabelwidget.cpp:406
 #, kde-format
 msgctxt "@info: pick lablel selector"
 msgid "Pick Label: %1"
 msgstr ""
 
-#: core/libs/widgets/metadata/labels/picklabelwidget.cpp:401
+#: core/libs/widgets/metadata/labels/picklabelwidget.cpp:417
 #, kde-format
 msgctxt "@title: pick label menu"
 msgid "Pick"
@@ -46053,6 +46219,11 @@ msgstr ""
 msgid "The file list can be sorted, just right-click on it to see the sort criteria (album UI only)."
 msgstr ""
 
+#: core/utilities/advancedrename/common/tooltipdialog.cpp:53
+#, kde-format
+msgid "Information"
+msgstr "Інфармацыя"
+
 #: core/utilities/advancedrename/parser/modifiers/casemodifier.cpp:29
 #, kde-format
 msgid "Change Case"
@@ -46289,6 +46460,12 @@ msgstr "Дадаць інфармацыю базы даных"
 #, kde-format
 msgid "Key"
 msgstr "Ключ"
+
+#: core/utilities/advancedrename/parser/options/database/dbkeyselector.cpp:94
+#: core/utilities/advancedrename/parser/options/database/keys/positionkeys.cpp:62
+#, kde-format
+msgid "Description"
+msgstr "Апісанне"
 
 #: core/utilities/advancedrename/parser/options/database/keys/commonkeys.cpp:52
 #, kde-format
@@ -49718,24 +49895,24 @@ msgstr "Невядома"
 msgid "%1x%2 (%3Mpx)"
 msgstr "%1x%2 (%3Mpx)"
 
-#: core/utilities/imageeditor/main/imagewindow.cpp:953
+#: core/utilities/imageeditor/main/imagewindow.cpp:930
 #, kde-format
 msgid "No Image in Current Album"
 msgstr ""
 
-#: core/utilities/imageeditor/main/imagewindow.cpp:954
+#: core/utilities/imageeditor/main/imagewindow.cpp:931
 #, kde-format
 msgid "There is no image to show in the current album.\n"
 "The image editor will be closed."
 msgstr ""
 
-#: core/utilities/imageeditor/main/imagewindow.cpp:1225
+#: core/utilities/imageeditor/main/imagewindow.cpp:1202
 #, kde-format
 msgctxt "@title"
 msgid "File Not Available"
 msgstr ""
 
-#: core/utilities/imageeditor/main/imagewindow.cpp:1226
+#: core/utilities/imageeditor/main/imagewindow.cpp:1203
 #, kde-format
 msgctxt "@info"
 msgid "<qt>The original file (<b>%1</b>) is currently not available</qt>"
@@ -50689,12 +50866,6 @@ msgstr ""
 msgctxt "@info"
 msgid "The items listed below are locked by camera (read-only). These items will not be deleted. If you really want to delete these items, please unlock them and try again."
 msgstr ""
-
-#: core/utilities/import/main/importui.cpp:1885
-#, kde-format
-msgctxt "@title"
-msgid "Information"
-msgstr "Інфармацыя"
 
 #: core/utilities/import/main/importui.cpp:1893
 #, kde-format
@@ -51985,104 +52156,104 @@ msgstr ""
 msgid "&Queues"
 msgstr "&Чэргі"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:183
+#: core/utilities/queuemanager/manager/batchtool.cpp:184
 #, kde-format
 msgctxt "@title: tool group"
 msgid "Base"
 msgstr "Базавы"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:186
+#: core/utilities/queuemanager/manager/batchtool.cpp:189
 #, kde-format
 msgctxt "@title: tool group"
 msgid "Custom"
 msgstr "Адвольны"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:189
+#: core/utilities/queuemanager/manager/batchtool.cpp:194
 #, kde-format
 msgctxt "@title: tool group"
 msgid "Colors"
 msgstr "Колеры"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:192
+#: core/utilities/queuemanager/manager/batchtool.cpp:199
 #, kde-format
 msgctxt "@title: tool group"
 msgid "Enhance"
 msgstr "Палепшыць"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:195
+#: core/utilities/queuemanager/manager/batchtool.cpp:204
 #, kde-format
 msgctxt "@title: tool group"
 msgid "Transform"
 msgstr "Трансфармаваць"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:198
+#: core/utilities/queuemanager/manager/batchtool.cpp:209
 #, kde-format
 msgctxt "@title: tool group"
 msgid "Decorate"
 msgstr "Аздобіць"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:201
+#: core/utilities/queuemanager/manager/batchtool.cpp:214
 #, kde-format
 msgctxt "@title: tool group"
 msgid "Filters"
 msgstr "Фільтры"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:204
+#: core/utilities/queuemanager/manager/batchtool.cpp:219
 #, kde-format
 msgctxt "@title: tool group"
 msgid "Convert"
 msgstr "Пераўтварыць"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:207
+#: core/utilities/queuemanager/manager/batchtool.cpp:224
 #, kde-format
 msgctxt "@title: tool group"
 msgid "Metadata"
 msgstr "Метаданыя"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:213
+#: core/utilities/queuemanager/manager/batchtool.cpp:233
 #, kde-format
 msgctxt "@title: tool group"
 msgid "Invalid"
 msgstr "Няправільна"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:620
+#: core/utilities/queuemanager/manager/batchtool.cpp:643
 #, kde-format
 msgctxt "@label"
 msgid "No setting available"
 msgstr ""
 
-#: core/utilities/queuemanager/manager/task.cpp:159
+#: core/utilities/queuemanager/manager/task.cpp:157
 #, kde-format
 msgid "Failed to find tool..."
 msgstr ""
 
-#: core/utilities/queuemanager/manager/task.cpp:259
+#: core/utilities/queuemanager/manager/task.cpp:254
 #, kde-format
 msgid "(overwritten)"
 msgstr "(перазапісана)"
 
-#: core/utilities/queuemanager/manager/task.cpp:264
+#: core/utilities/queuemanager/manager/task.cpp:259
 #, kde-format
 msgid "(renamed to %1)"
 msgstr ""
 
-#: core/utilities/queuemanager/manager/task.cpp:269
+#: core/utilities/queuemanager/manager/task.cpp:264
 #, kde-format
 msgid "Item exists and was skipped"
 msgstr ""
 
-#: core/utilities/queuemanager/manager/task.cpp:294
+#: core/utilities/queuemanager/manager/task.cpp:289
 #, kde-format
 msgid "Failed to create sidecar file..."
 msgstr ""
 
-#: core/utilities/queuemanager/manager/task.cpp:303
+#: core/utilities/queuemanager/manager/task.cpp:298
 #, kde-format
 msgid "Item processed successfully %1"
 msgstr ""
 
+#: core/utilities/queuemanager/manager/task.cpp:303
 #: core/utilities/queuemanager/manager/task.cpp:308
-#: core/utilities/queuemanager/manager/task.cpp:313
 #, kde-format
 msgid "Failed to create file..."
 msgstr ""
@@ -52384,13 +52555,13 @@ msgctxt "@action"
 msgid "Delete Workflow"
 msgstr ""
 
-#: core/utilities/queuemanager/views/workflowlist.cpp:310
+#: core/utilities/queuemanager/views/workflowlist.cpp:313
 #, kde-format
 msgctxt "@title"
 msgid "Delete Workflow?"
 msgstr ""
 
-#: core/utilities/queuemanager/views/workflowlist.cpp:311
+#: core/utilities/queuemanager/views/workflowlist.cpp:314
 #, kde-format
 msgctxt "@info"
 msgid "Are you sure you want to delete the selected workflow \"%1\"?"
@@ -56711,6 +56882,16 @@ msgid "Do you want to reset all video settings to the default value?"
 msgstr ""
 
 #, fuzzy
+#~ msgid "Enter title text here."
+#~ msgstr "Колер:"
+
+#, fuzzy
+#~| msgid "Enter the metadata template title here."
+#~ msgctxt "@info"
+#~ msgid "Enter here the title string"
+#~ msgstr "Увядзіце сюды назву шаблона метаданых."
+
+#, fuzzy
 #~| msgid "Blur Weight:"
 #~ msgctxt "@label"
 #~ msgid "Blur Weight:"
@@ -56761,10 +56942,6 @@ msgstr ""
 #~ msgctxt "@info: country code"
 #~ msgid "Serbo-croatian"
 #~ msgstr "Сербскахарвацкая"
-
-#, fuzzy
-#~ msgid "Recognized Words"
-#~ msgstr "Па назве"
 
 #, fuzzy
 #~| msgid "Title"
@@ -57220,10 +57397,6 @@ msgstr ""
 #~ msgstr "Колер:"
 
 #, fuzzy
-#~ msgid "A tool to invert image colors"
-#~ msgstr "Колер:"
-
-#, fuzzy
 #~ msgid "A tool to automatically detect and correct red eye effect"
 #~ msgstr "Інвертаваць выбар"
 
@@ -57301,11 +57474,6 @@ msgstr ""
 #~ msgctxt "@title"
 #~ msgid "Path"
 #~ msgstr "Шлях"
-
-#, fuzzy
-#~ msgctxt "@info"
-#~ msgid "Enter favorite item name here..."
-#~ msgstr "Колер:"
 
 #, fuzzy
 #~ msgctxt "@option:check"
@@ -58313,10 +58481,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Preview is zoomed to the original image size"
 #~ msgstr "Крыніца"
-
-#, fuzzy
-#~ msgid "Preparing presentation. Please wait..."
-#~ msgstr "Інвертаваць выбар"
 
 #, fuzzy
 #~ msgid "&Lens"

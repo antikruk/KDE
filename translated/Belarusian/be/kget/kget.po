@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-21 00:44+0000\n"
-"PO-Revision-Date: 2022-09-20 12:48\n"
+"POT-Creation-Date: 2022-09-02 00:45+0000\n"
+"PO-Revision-Date: 2022-10-10 16:01\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -296,7 +296,6 @@ msgstr "Карыстальнік:"
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #: conf/dlgwebinterface.ui:60
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:87
 #, kde-format
 msgid "Password:"
 msgstr "Пароль:"
@@ -873,7 +872,6 @@ msgstr ""
 
 #: core/transfer.cpp:33 core/transfer.cpp:232 core/transfer.cpp:251
 #: transfer-plugins/bittorrent/bttransfer.cpp:308
-#: transfer-plugins/contentfetch/contentfetch.cpp:68
 #: transfer-plugins/mmsthreads/mmstransfer.cpp:94
 #| msgid "Stopped"
 msgctxt "transfer state: stopped"
@@ -2629,215 +2627,11 @@ msgstr ""
 #. i18n: ectx: label, entry (UrlChangeModeList), group (ChecksumSearch)
 #. i18n: ectx: label, entry (ChecksumTypeList), group (ChecksumSearch)
 #. i18n: ectx: label, entry (SearchEnginesUrlList), group (SearchEngines)
-#. i18n: ectx: label, entry (PathList), group (UserScripts)
 #: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:13
 #: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:17
-#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:13
 #: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.kcfg:16
 #, kde-format
 msgid "List of the available search engine URLs"
-msgstr ""
-
-#: transfer-plugins/contentfetch/contentfetch.cpp:51
-#, kde-format
-msgctxt "Transfer state: processing script"
-msgid "Processing script...."
-msgstr ""
-
-#: transfer-plugins/contentfetch/contentfetch.cpp:82
-#| msgid "Finished"
-msgctxt "Transfer State: Finished"
-msgid "Finished"
-msgstr "Завершана"
-
-#: transfer-plugins/contentfetch/contentfetch.cpp:91
-#, kde-format
-msgctxt "Transfer State: Aborted"
-msgid "Aborted"
-msgstr "Скасавана"
-
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.cpp:117
-#, kde-format
-msgctxt "Configure script"
-msgid "Configure script"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:16
-#, kde-format
-msgid "User Scripts"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:27
-#, kde-format
-msgid "Path"
-msgstr "Шлях"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:32
-#, kde-format
-msgid "RegExp"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:37
-#: ui/linkview/kget_linkview.cpp:159
-#, kde-format
-msgid "Description"
-msgstr "Апісанне"
-
-#. i18n: ectx: property (text), widget (QPushButton, newScriptButton)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:60
-#, kde-format
-msgid "New Script...."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, removeEngineBt)
-#. i18n: ectx: property (text), widget (QPushButton, removeScriptButton)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:67
-#: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:62
-#| msgid "Remove"
-msgid "Remove"
-msgstr "Выдаліць"
-
-#. i18n: ectx: property (text), widget (QPushButton, editScriptButton)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:74
-#, kde-format
-msgid "Edit...."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, configureScriptButton)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:81
-#, kde-format
-msgid "Configure...."
-msgstr ""
-
-#: transfer-plugins/contentfetch/dlgscriptediting.cpp:31
-#, kde-format
-msgid "Add New Script"
-msgstr ""
-
-#: transfer-plugins/contentfetch/dlgscriptediting.cpp:45
-#, kde-format
-msgid "Edit Script"
-msgstr ""
-
-#: transfer-plugins/contentfetch/dlgscriptediting.cpp:56
-#, kde-format
-msgid "Set Script File"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, scriptUrlRegexpLabel)
-#: transfer-plugins/contentfetch/dlgscriptediting.ui:29
-#, kde-format
-msgid "Regexp:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, scriptPathLabel)
-#: transfer-plugins/contentfetch/dlgscriptediting.ui:36
-#| msgid "Port:"
-msgid "Path:"
-msgstr "Шлях:"
-
-#. i18n: ectx: property (text), widget (QLabel, scriptDescriptionLabel)
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: transfer-plugins/contentfetch/dlgscriptediting.ui:43
-#: ui/metalinkcreator/commondata.ui:32
-#| msgid "Destination"
-msgid "Description:"
-msgstr "Апісанне:"
-
-#. i18n: ectx: label, entry (UrlRegexpList), group (UserScripts)
-#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:9
-#, kde-format
-msgid "List of the Regexp to match input URL"
-msgstr ""
-
-#. i18n: ectx: label, entry (DescriptionList), group (UserScripts)
-#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:21
-#, kde-format
-msgid "List of descriptions for user scripts"
-msgstr ""
-
-#. i18n: ectx: label, entry (EnableList), group (UserScripts)
-#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:25
-#, kde-format
-msgid "List of whether the script is enabled"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, fileSettingGroupBox)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:16
-#| msgid "&Settings"
-msgid "File Settings"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, fileNameLabel)
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:25
-#: ui/metalinkcreator/filedlg.ui:54
-#| msgid "Name"
-msgid "Filename:"
-msgstr "Назва файла:"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, fileNameComboBox)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:33
-#, kde-format
-msgid "Use Normalized Name"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, fileNameComboBox)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:38
-#, kde-format
-msgid "Use Literal Name"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, qualityLabel)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:46
-#, kde-format
-msgid "Quality:"
-msgstr "Якасць:"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, qualityComboBox)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:54
-#, kde-format
-msgid "Best Quality (.mp4)"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, qualityComboBox)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:59
-#, kde-format
-msgid "Normal Quality (.flv)"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QGroupBox, loginGroupBox)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:70
-#, kde-format
-msgid "Provide login info of your YouTube account in order to access restricted media."
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, loginGroupBox)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:73
-#, kde-format
-msgid "Login Info"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, usernameLabel)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:101
-#| msgid "Remove"
-msgid "Username:"
-msgstr "Імя карыстальніка:"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, useNetrcCheck)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:113
-#, kde-format
-msgid ".netrc must have a hostname called 'youtube'."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, useNetrcCheck)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:116
-#, kde-format
-msgid "User .netrc file"
 msgstr ""
 
 #: transfer-plugins/kio/transferKio.cpp:100
@@ -2970,6 +2764,12 @@ msgstr ""
 #, kde-format
 msgid "New Engine..."
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, removeEngineBt)
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:62
+#| msgid "Remove"
+msgid "Remove"
+msgstr "Выдаліць"
 
 #: transfer-plugins/mmsthreads/mmstransfer.cpp:60
 #| msgid "Running"
@@ -3352,7 +3152,7 @@ msgstr ""
 #: ui/kgetui.rc:34
 #, kde-format
 msgid "&Settings"
-msgstr "&Настаўленні"
+msgstr "&Налады"
 
 #. i18n: ectx: Menu (help)
 #: ui/kgetui.rc:37
@@ -3499,6 +3299,11 @@ msgstr ""
 msgid "File Name"
 msgstr "Назва файла"
 
+#: ui/linkview/kget_linkview.cpp:159
+#, kde-format
+msgid "Description"
+msgstr "Апісанне"
+
 #: ui/linkview/kget_linkview.cpp:160
 #| msgid "File"
 msgctxt "list header: type of file"
@@ -3535,6 +3340,12 @@ msgstr ""
 #, kde-format
 msgid "Identity"
 msgstr "Сапраўднасць"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: ui/metalinkcreator/commondata.ui:32
+#| msgid "Destination"
+msgid "Description:"
+msgstr "Апісанне:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/metalinkcreator/commondata.ui:46
@@ -3714,6 +3525,12 @@ msgstr ""
 #, kde-format
 msgid "Required"
 msgstr "Патрабуецца"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: ui/metalinkcreator/filedlg.ui:54
+#| msgid "Name"
+msgid "Filename:"
+msgstr "Назва файла:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: ui/metalinkcreator/filedlg.ui:95
@@ -4415,6 +4232,30 @@ msgstr "&Праверыць"
 #, kde-format
 msgid "Close"
 msgstr "Закрыць"
+
+#, fuzzy
+#~| msgid "Finished"
+#~ msgctxt "Transfer State: Finished"
+#~ msgid "Finished"
+#~ msgstr "Гатова"
+
+#~ msgid "Edit Script"
+#~ msgstr "Дадаць тэчку"
+
+#, fuzzy
+#~| msgid "Port:"
+#~ msgid "Path:"
+#~ msgstr "Порт:"
+
+#, fuzzy
+#~| msgid "&Settings"
+#~ msgid "File Settings"
+#~ msgstr "&Настаўленні"
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgid "Username:"
+#~ msgstr "Выдаліць"
 
 #, fuzzy
 #~| msgid "%1/s"

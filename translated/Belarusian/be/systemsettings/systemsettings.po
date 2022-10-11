@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-22 00:47+0000\n"
-"PO-Revision-Date: 2022-09-26 02:45\n"
+"POT-Creation-Date: 2022-09-28 00:52+0000\n"
+"PO-Revision-Date: 2022-10-09 09:17\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -29,7 +29,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "komzpa@licei2. com, nashtlumach@gmail. com"
 
-#: app/main.cpp:61 app/SettingsBase.cpp:62
+#: app/main.cpp:61 app/SettingsBase.cpp:64
 #, kde-format
 msgid "Info Center"
 msgstr "Інфармацыйны цэнтр"
@@ -44,7 +44,7 @@ msgstr "Цэнтралізаваны і зручны агляд сістэмна
 msgid "(c) 2009, Ben Cooksley"
 msgstr "(c) 2009, Ben Cooksley"
 
-#: app/main.cpp:72 app/SettingsBase.cpp:65 runner/systemsettingsrunner.cpp:185
+#: app/main.cpp:72 app/SettingsBase.cpp:67 runner/systemsettingsrunner.cpp:185
 #: sidebar/package/contents/ui/introPage.qml:63
 #, kde-format
 msgid "System Settings"
@@ -55,7 +55,7 @@ msgstr "Налады сістэмы"
 msgid "Central configuration center by KDE."
 msgstr "Цэнтральны цэнтр канфігурацыі KDE."
 
-#: app/main.cpp:87 icons/IconMode.cpp:59 sidebar/SidebarMode.cpp:290
+#: app/main.cpp:87 icons/IconMode.cpp:59 sidebar/SidebarMode.cpp:181
 #, kde-format
 msgid "Ben Cooksley"
 msgstr "Ben Cooksley"
@@ -65,12 +65,12 @@ msgstr "Ben Cooksley"
 msgid "Maintainer"
 msgstr "Суправаджальнік"
 
-#: app/main.cpp:88 icons/IconMode.cpp:60 sidebar/SidebarMode.cpp:291
+#: app/main.cpp:88 icons/IconMode.cpp:60 sidebar/SidebarMode.cpp:182
 #, kde-format
 msgid "Mathias Soeken"
 msgstr "Mathias Soeken"
 
-#: app/main.cpp:88 icons/IconMode.cpp:60 sidebar/SidebarMode.cpp:291
+#: app/main.cpp:88 icons/IconMode.cpp:60 sidebar/SidebarMode.cpp:182
 #, kde-format
 msgid "Developer"
 msgstr "Распрацоўнік"
@@ -110,43 +110,48 @@ msgstr "Даступны наступныя модулі:"
 msgid "No description available"
 msgstr "Няма даступнага апісання"
 
-#: app/SettingsBase.cpp:56
+#: app/SettingsBase.cpp:58
 #, kde-format
 msgctxt "Search through a list of control modules"
 msgid "Search"
 msgstr "Пошук"
 
-#: app/SettingsBase.cpp:153
+#: app/SettingsBase.cpp:155
 #, kde-format
 msgid "Switch to Icon View"
 msgstr "Пераключыцца на выгляд значкоў"
 
-#: app/SettingsBase.cpp:160
+#: app/SettingsBase.cpp:162
 #, kde-format
 msgid "Switch to Sidebar View"
 msgstr "Пераключыцца на выгляд бакавой панэлі"
 
-#: app/SettingsBase.cpp:188
+#: app/SettingsBase.cpp:171
+#, kde-format
+msgid "Report a Bug in the Current Page…"
+msgstr ""
+
+#: app/SettingsBase.cpp:198
 #, kde-format
 msgid "Help"
 msgstr "Даведка"
 
-#: app/SettingsBase.cpp:344
+#: app/SettingsBase.cpp:354
 #, kde-format
 msgid "System Settings was unable to find any views, and hence has nothing to display."
 msgstr "Сістэмныя налады не змаглі знайсці выглядаў, таму няма чаго паказаць."
 
-#: app/SettingsBase.cpp:344
+#: app/SettingsBase.cpp:354
 #, kde-format
 msgid "No views found"
 msgstr "Не знойдзена выглядаў"
 
-#: app/SettingsBase.cpp:398
+#: app/SettingsBase.cpp:408
 #, kde-format
 msgid "About Active View"
 msgstr "Пра актыўны выгляд"
 
-#: app/SettingsBase.cpp:459
+#: app/SettingsBase.cpp:479
 #, kde-format
 msgid "About %1"
 msgstr "Пра \"%1\""
@@ -215,8 +220,8 @@ msgstr "Значкі"
 msgid "Provides a categorized icons view of control modules."
 msgstr "Забяспечвае рэжым у выглядзе значкоў, у якім модулі размеркаваныя па катэгорыях."
 
-#: icons/IconMode.cpp:59 sidebar/SidebarMode.cpp:289
-#: sidebar/SidebarMode.cpp:290
+#: icons/IconMode.cpp:59 sidebar/SidebarMode.cpp:180
+#: sidebar/SidebarMode.cpp:181
 #, kde-format
 msgid "Author"
 msgstr "Стваральнік"
@@ -263,47 +268,37 @@ msgstr "Падсвятляць змененыя налады"
 msgid "Show menu"
 msgstr "Паказваць меню"
 
-#: sidebar/package/contents/ui/IntroIcon.qml:79
-#, kde-format
-msgid "Most used module number %1"
-msgstr "Модуль, па частаце выкарыстання пад нумарам %1"
-
 #: sidebar/package/contents/ui/introPage.qml:56
 #, kde-format
 msgid "Plasma"
 msgstr "Plasma"
 
-#: sidebar/package/contents/ui/introPage.qml:82
-#, kde-format
-msgid "Frequently Used"
-msgstr "Часта выкарыстоўваецца"
-
-#: sidebar/SidebarMode.cpp:284
+#: sidebar/SidebarMode.cpp:175
 #, kde-format
 msgid "Sidebar View"
 msgstr "Выгляд бакавой панэлі"
 
-#: sidebar/SidebarMode.cpp:286
+#: sidebar/SidebarMode.cpp:177
 #, kde-format
 msgid "Provides a categorized sidebar for control modules."
 msgstr "Забяспечвае рэжым у выглядзе бакавой панэлі, у якім модулі размеркаваныя па катэгорыях."
 
-#: sidebar/SidebarMode.cpp:288
+#: sidebar/SidebarMode.cpp:179
 #, kde-format
 msgid "(c) 2017, Marco Martin"
 msgstr "(c) 2017, Marco Martin"
 
-#: sidebar/SidebarMode.cpp:289
+#: sidebar/SidebarMode.cpp:180
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: sidebar/SidebarMode.cpp:794
+#: sidebar/SidebarMode.cpp:669
 #, kde-format
 msgid "Sidebar"
 msgstr "Бакавая панэль"
 
-#: sidebar/SidebarMode.cpp:866
+#: sidebar/SidebarMode.cpp:741
 #, kde-format
 msgid "Most Used"
 msgstr "Найбольш часта выкарыстоўваюцца"
@@ -316,6 +311,12 @@ msgstr[0] "<i>Змяшчае %1 элемент</i>"
 msgstr[1] "<i>Змяшчае %1 элементы</i>"
 msgstr[2] "<i>Змяшчае %1 элементаў</i>"
 msgstr[3] "<i>Змяшчае %1 элементы</i>"
+
+#~ msgid "Most used module number %1"
+#~ msgstr "Модуль, па частаце выкарыстання пад нумарам %1"
+
+#~ msgid "Frequently Used"
+#~ msgstr "Часта выкарыстоўваецца"
 
 #, fuzzy
 #~| msgid "Configure"
