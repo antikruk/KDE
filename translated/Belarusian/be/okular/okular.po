@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-05 00:44+0000\n"
-"PO-Revision-Date: 2022-11-04 07:31\n"
+"PO-Revision-Date: 2022-11-04 19:31\n"
 "Last-Translator: Siarhei Liantsevich <serzh.by@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -1909,33 +1909,34 @@ msgstr "Параметры"
 #, kde-format
 msgid "This annotation may contain LaTeX code.\n"
 "Click here to render."
-msgstr ""
+msgstr "Гэтая анатацыя можа змяшчаць код LaTeX.\n"
+"Пстрыкніце, каб апрацаваць."
 
 #: part/annotwindow.cpp:415
 #, kde-format
 msgid "Cannot find latex executable."
-msgstr ""
+msgstr "Не ўдалося знайсці выканальны файл latex."
 
 #: part/annotwindow.cpp:415 part/annotwindow.cpp:420 part/annotwindow.cpp:425
 #: part/annotwindow.cpp:430
 #, kde-format
 msgid "LaTeX rendering failed"
-msgstr ""
+msgstr "Не ўдалося апрацаваць з дапамогай LaTeX"
 
 #: part/annotwindow.cpp:420
 #, kde-format
 msgid "Cannot find dvipng executable."
-msgstr ""
+msgstr "Не ўдалося знайсці выканальны файл dvipng."
 
 #: part/annotwindow.cpp:425
 #, kde-format
 msgid "A problem occurred during the execution of the 'latex' command."
-msgstr ""
+msgstr "Падчас выканання загаду \"latex\" паўстала праблема."
 
 #: part/annotwindow.cpp:430
 #, kde-format
 msgid "A problem occurred during the execution of the 'dvipng' command."
-msgstr ""
+msgstr "Падчас выканання загаду \"dvipng\" паўстала праблема."
 
 #: part/bookmarklist.cpp:115
 msgctxt "%1 is the file name"
@@ -1943,10 +1944,14 @@ msgid "%1\n\n"
 "One bookmark"
 msgid_plural "%1\n\n"
 "%2 bookmarks"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%1\n\n"
+"%2 закладка"
+msgstr[1] "%1\n\n"
+"%2 закладкі"
+msgstr[2] "%1\n\n"
+"%2 закладак"
+msgstr[3] "%1\n\n"
+"%2 закладкі"
 
 #: part/bookmarklist.cpp:131 part/part.cpp:422
 msgid "Bookmarks"
@@ -1954,7 +1959,7 @@ msgstr "Закладкі"
 
 #: part/bookmarklist.cpp:135
 msgid "Show for all documents"
-msgstr ""
+msgstr "Паказваць для ўсіх дакументаў"
 
 #: part/bookmarklist.cpp:142 part/searchwidget.cpp:37 part/side_reviews.cpp:124
 #: part/toc.cpp:43
@@ -1964,13 +1969,13 @@ msgstr "Пошук..."
 #: part/bookmarklist.cpp:257
 #, kde-format
 msgid "Go to This Bookmark"
-msgstr ""
+msgstr "Перайсці да гэтай закладкі"
 
 #: part/bookmarklist.cpp:258 part/bookmarklist.cpp:289 part/part.cpp:732
 #: part/part.cpp:2467
 #, kde-format
 msgid "Rename Bookmark"
-msgstr ""
+msgstr "Змяніць назву закладкі"
 
 #: part/bookmarklist.cpp:259 part/part.cpp:2272 part/part.cpp:3150
 msgid "Remove Bookmark"
@@ -1979,17 +1984,17 @@ msgstr "Выдаліць закладку"
 #: part/bookmarklist.cpp:287
 msgctxt "Opens the selected document"
 msgid "Open Document"
-msgstr ""
+msgstr "Адкрыць дакумент"
 
 #: part/bookmarklist.cpp:290
 #, kde-format
 msgid "Remove all Bookmarks for this Document"
-msgstr ""
+msgstr "Выдаліць усе закладкі для гэтага дакумента"
 
 #: part/certificateviewer.cpp:121
 #, kde-format
 msgid "Certificate Viewer"
-msgstr "Сродак для прагляду сертыфікатаў"
+msgstr "Сродак прагляду сертыфікатаў"
 
 #: part/certificateviewer.cpp:124
 #, kde-format
@@ -2009,7 +2014,7 @@ msgstr "Выдавец"
 #: part/certificateviewer.cpp:135 part/certificateviewer.cpp:142
 #, kde-format
 msgid "Common Name(CN)"
-msgstr ""
+msgstr "Агульная назва (CN)"
 
 #: part/certificateviewer.cpp:136 part/certificateviewer.cpp:143
 #, kde-format
@@ -2019,17 +2024,17 @@ msgstr "Электронная пошта"
 #: part/certificateviewer.cpp:137 part/certificateviewer.cpp:144
 #, kde-format
 msgid "Organization(O)"
-msgstr ""
+msgstr "Арганізацыя (O)"
 
 #: part/certificateviewer.cpp:139
 #, kde-format
 msgid "Issued To"
-msgstr ""
+msgstr "Каму выдадзена"
 
 #: part/certificateviewer.cpp:146
 #, kde-format
 msgid "Validity"
-msgstr ""
+msgstr "Тэрмін дзеяння"
 
 #: part/certificateviewer.cpp:152
 #, kde-format
@@ -2039,12 +2044,12 @@ msgstr "Адбіткі"
 #: part/certificateviewer.cpp:160
 #, kde-format
 msgid "SHA-1 Fingerprint"
-msgstr ""
+msgstr "Адбітак SHA-1"
 
 #: part/certificateviewer.cpp:161
 #, kde-format
 msgid "SHA-256 Fingerprint"
-msgstr ""
+msgstr "Адбітак SHA-256"
 
 #: part/certificateviewer.cpp:179
 #, kde-format
@@ -2054,88 +2059,88 @@ msgstr "Падрабязнасці"
 #: part/certificateviewer.cpp:180
 #, kde-format
 msgid "Certificate Data:"
-msgstr ""
+msgstr "Даныя сертыфіката:"
 
 #: part/certificateviewer.cpp:232
 #, kde-format
 msgid "Where do you want to save this certificate?"
-msgstr ""
+msgstr "Дзе вы хочаце захаваць гэты сертыфікат?"
 
 #: part/certificateviewer.cpp:233
 #, kde-format
 msgid "Certificate File (*.cer)"
-msgstr ""
+msgstr "Файл сертыфіката (*.cer)"
 
 #: part/certificateviewer.cpp:236
 #, kde-format
 msgid "Could not export the certificate"
-msgstr ""
+msgstr "Не ўдалося экспартаваць сертыфікат"
 
 #: part/colormodemenu.cpp:17
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Color Mode"
-msgstr ""
+msgstr "&Колеравы рэжым"
 
 #: part/colormodemenu.cpp:19
 msgctxt "@action Change Colors feature toggle action"
 msgid "Change Colors"
-msgstr ""
+msgstr "Змяніць колеры"
 
 #: part/colormodemenu.cpp:32
 #, kde-format
 msgctxt "@item:inmenu color mode"
 msgid "&Normal Colors"
-msgstr ""
+msgstr "&Звычайныя колеры"
 
 #: part/colormodemenu.cpp:44
 msgctxt "@item:inmenu color mode"
 msgid "&Invert Colors"
-msgstr ""
+msgstr "&Інвертаваныя колеры"
 
 #: part/colormodemenu.cpp:45
 msgctxt "@item:inmenu color mode"
 msgid "Change &Paper Color"
-msgstr ""
+msgstr "Змяніць &колер паперы"
 
 #: part/colormodemenu.cpp:47
 msgctxt "@item:inmenu color mode"
 msgid "Change &Dark && Light Colors"
-msgstr ""
+msgstr "Змяніць &цёмны і светлы колеры"
 
 #: part/colormodemenu.cpp:49
 msgctxt "@item:inmenu color mode"
 msgid "Convert to &Black && White"
-msgstr ""
+msgstr "Пераўтварыць у &чорна-белае"
 
 #: part/colormodemenu.cpp:52
 msgctxt "@item:inmenu color mode"
 msgid "Invert &Lightness"
-msgstr ""
+msgstr "Інвертаваць &асвятленне"
 
 #: part/colormodemenu.cpp:55
 #, kde-format
 msgctxt "@item:inmenu color mode"
 msgid "Invert L&uma (sRGB Linear)"
-msgstr ""
+msgstr "Інвертаваць &яркасць (лінейна sRGB)"
 
 #: part/colormodemenu.cpp:58
 #, kde-format
 msgctxt "@item:inmenu color mode"
 msgid "Invert Luma (&Symmetric)"
-msgstr ""
+msgstr "Інвертаваць &яркасць (сіметрычна)"
 
 #: part/colormodemenu.cpp:61
 #, kde-format
 msgctxt "@item:inmenu color mode"
 msgid "Shift Hue P&ositive"
-msgstr ""
+msgstr "Зрух адцення ў бок &павелічэння"
 
 #: part/colormodemenu.cpp:64
 #, kde-format
 msgctxt "@item:inmenu color mode"
 msgid "Shift Hue N&egative"
-msgstr ""
+msgstr "Зрух адцення ў бок па&мяншэння"
 
 #. i18n: tag tool attribute name
 #: part/data/drawingtools.xml:11
@@ -2181,12 +2186,12 @@ msgstr "Стрэлка"
 #. i18n: tag tool attribute name
 #: part/data/toolsQuick.xml:9
 msgid "Yellow Highlighter"
-msgstr ""
+msgstr "Падсвятленне жоўтым колерам"
 
 #. i18n: tag tool attribute name
 #: part/data/toolsQuick.xml:14
 msgid "Green Highlighter"
-msgstr ""
+msgstr "Падсвятленне зялёным колерам"
 
 #. i18n: tag tool attribute name
 #: part/data/toolsQuick.xml:24
@@ -2196,87 +2201,87 @@ msgstr "Уставіць тэкст"
 #: part/dlgaccessibility.cpp:38
 msgctxt "@option:check Config dialog, accessibility page"
 msgid "Draw border around links"
-msgstr ""
+msgstr "Маляванне рамак вакол спасылак"
 
 #: part/dlgaccessibility.cpp:48
 msgctxt "@option:check Config dialog, accessibility page"
 msgid "Change colors"
-msgstr ""
+msgstr "Змяніць колеры"
 
 #: part/dlgaccessibility.cpp:54
 msgctxt "@info Config dialog, accessibility page"
 msgid "<b>Warning:</b> these options can badly affect drawing speed."
-msgstr ""
+msgstr "<b>Папярэджанне:</b> гэтыя параметры могуць дрэнна паўплываць на хуткасць рэндэрынгу."
 
 #: part/dlgaccessibility.cpp:60
 msgctxt "@item:inlistbox Config dialog, accessibility page"
 msgid "Invert colors"
-msgstr ""
+msgstr "Інвертаваць колеры"
 
 #: part/dlgaccessibility.cpp:61
 msgctxt "@item:inlistbox Config dialog, accessibility page"
 msgid "Change paper color"
-msgstr ""
+msgstr "Змяніць колер паперы"
 
 #: part/dlgaccessibility.cpp:62
 msgctxt "@item:inlistbox Config dialog, accessibility page"
 msgid "Change dark & light colors"
-msgstr ""
+msgstr "Змяніць цёмны і светлы колеры"
 
 #: part/dlgaccessibility.cpp:63
 msgctxt "@item:inlistbox Config dialog, accessibility page"
 msgid "Convert to black & white"
-msgstr ""
+msgstr "Пераўтварыць у чорна-белае"
 
 #: part/dlgaccessibility.cpp:64
 msgctxt "@item:inlistbox Config dialog, accessibility page"
 msgid "Invert lightness"
-msgstr ""
+msgstr "Інвертаваць асвятленне"
 
 #: part/dlgaccessibility.cpp:65
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, accessibility page"
 msgid "Invert luma (sRGB linear)"
-msgstr ""
+msgstr "Інвертаваць яркасць (лінейна sRGB)"
 
 #: part/dlgaccessibility.cpp:66
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, accessibility page"
 msgid "Invert luma (symmetric)"
-msgstr ""
+msgstr "Інвертаваць яркасць (сіметрычна)"
 
 #: part/dlgaccessibility.cpp:67
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, accessibility page"
 msgid "Shift hue positive"
-msgstr ""
+msgstr "Зрух адцення ў бок павелічэння"
 
 #: part/dlgaccessibility.cpp:68
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, accessibility page"
 msgid "Shift hue negative"
-msgstr ""
+msgstr "Зрух адцення ў бок памяншэння"
 
 #: part/dlgaccessibility.cpp:70
 #, kde-format
 msgctxt "@label:listbox Config dialog, accessibility page"
 msgid "Color mode:"
-msgstr ""
+msgstr "Колеравы рэжым:"
 
 #: part/dlgaccessibility.cpp:87
 msgctxt "@label:chooser Config dialog, accessibility page"
 msgid "Paper color:"
-msgstr ""
+msgstr "Колер паперы:"
 
 #: part/dlgaccessibility.cpp:99
 msgctxt "@label:chooser Config dialog, accessibility page"
 msgid "Dark color:"
-msgstr ""
+msgstr "Цёмны колер:"
 
 #: part/dlgaccessibility.cpp:104
 msgctxt "@label:chooser Config dialog, accessibility page"
 msgid "Light color:"
-msgstr ""
+msgstr "Светлы колер:"
 
 #: part/dlgaccessibility.cpp:119
 msgctxt "@label:slider Config dialog, accessibility page"
@@ -2292,28 +2297,28 @@ msgstr "Кантраснасць:"
 #, kde-format
 msgctxt "@label:listbox Config dialog, accessibility page"
 msgid "Text-to-speech engine:"
-msgstr ""
+msgstr "Сістэма сінтэзу маўлення:"
 
 #: part/dlgaccessibility.cpp:165
 #, kde-format
 msgctxt "&label:listbox Config dialog, accessibility page"
 msgid "Text-to-speech voice:"
-msgstr ""
+msgstr "Голас сінтэзу маўлення:"
 
 #: part/dlgannotations.cpp:25
 msgctxt "item:inlistbox Config dialog, general page"
 msgid "Full Annotation Toolbar"
-msgstr ""
+msgstr "Поўная панэль анатацый"
 
 #: part/dlgannotations.cpp:26
 msgctxt "item:inlistbox Config dialog, general page"
 msgid "Quick Annotation Toolbar"
-msgstr ""
+msgstr "Панэль хуткіх анатацый"
 
 #: part/dlgannotations.cpp:28
 msgctxt "label:listbox Config dialog, general page"
 msgid "Annotation toolbar:"
-msgstr ""
+msgstr "Панэль анатацый:"
 
 #: part/dlgannotations.cpp:34
 #| msgid "&Author:"
@@ -2325,25 +2330,25 @@ msgstr "Аўтар:"
 #, kde-format
 msgctxt "@info Config dialog, annotations page"
 msgid "<b>Note:</b> the information here is used only for annotations. The information is saved in annotated documents, and so will be transmitted together with the document."
-msgstr ""
+msgstr "<b>Нататка:</b> гэтая інфармацыя выкарыстоўваецца толькі для анатацый. Інфармацыя захоўваецца ў дакументах, таму будзе перадавацца разам з дакументамі."
 
 #: part/dlgannotations.cpp:48
 #| msgid "Presentation"
 msgctxt "@label Config dialog, annotations page, heading line for Quick Annotations tool manager"
 msgid "<h3>Quick Annotation Tools</h3>"
-msgstr ""
+msgstr "<h3>Інструменты хуткіх анатацый</h3>"
 
 #: part/dlgeditor.cpp:28
 #, kde-format
 msgctxt "@info:whatsthis Config dialog, editor page"
 msgid "Choose the editor you want to launch when Okular wants to open a source file."
-msgstr ""
+msgstr "Абярыце рэдактар, які павінен запускацца, калі Okular хоча адкрыць зыходны файл."
 
 #: part/dlgeditor.cpp:29
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, editor page"
 msgid "Custom Text Editor"
-msgstr ""
+msgstr "Адвольны тэкставы рэдактар"
 
 #: part/dlgeditor.cpp:30
 #, kde-format
@@ -2354,42 +2359,42 @@ msgstr "Kate"
 #: part/dlgeditor.cpp:31
 msgctxt "@item:inlistbox Config dialog, editor page"
 msgid "Kile"
-msgstr ""
+msgstr "Kile"
 
 #: part/dlgeditor.cpp:32
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, editor page"
 msgid "SciTE"
-msgstr ""
+msgstr "SciTE"
 
 #: part/dlgeditor.cpp:33
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, editor page"
 msgid "Emacs client"
-msgstr ""
+msgstr "Кліент Emacs"
 
 #: part/dlgeditor.cpp:34
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, editor page"
 msgid "Lyx client"
-msgstr ""
+msgstr "Кліент Lyx"
 
 #: part/dlgeditor.cpp:35
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, editor page"
 msgid "TeXstudio"
-msgstr ""
+msgstr "TeXstudio"
 
 #: part/dlgeditor.cpp:36
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, editor page"
 msgid "TeXiFy IDEA"
-msgstr ""
+msgstr "TeXiFy IDEA"
 
 #: part/dlgeditor.cpp:37
 msgctxt "@label:listbox Config dialog, editor page"
 msgid "Editor:"
-msgstr ""
+msgstr "Рэдактар:"
 
 #: part/dlgeditor.cpp:52
 #, kde-format
@@ -2402,7 +2407,14 @@ msgid "<qt>Set the command of a custom text editor to be launched.<br />\n"
 "  <li>%c - the column of the file to be reached</li>\n"
 "</ul>\n"
 "If %f is not specified, then the file name is appended to the specified command."
-msgstr ""
+msgstr "<qt>Вызначце загад для запуску адвольнага тэкставага рэдактара.<br />\n"
+"Вы можаце размясціць некалькі запаўняльнікаў:\n"
+"<ul>\n"
+"  <li>%f - назва файла</li>\n"
+"  <li>%l - радок файла, да якога трэба перайсці</li>\n"
+"  <li>%c - слупок файла, да якога трэба перайсці</li>\n"
+"</ul>\n"
+"Калі %f не вызначаны, назву файла трэба дадаць у загад."
 
 #: part/dlgeditor.cpp:63
 msgctxt "@label:textbox Config dialog, editor page"
@@ -2413,119 +2425,119 @@ msgstr "Загад:"
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Use smooth scrolling"
-msgstr ""
+msgstr "Выкарыстоўваць плаўнае пракручванне"
 
 #: part/dlggeneral.cpp:35
 msgctxt "@title:group Config dialog, general page"
 msgid "Appearance:"
-msgstr ""
+msgstr "Выгляд:"
 
 #: part/dlggeneral.cpp:39
 msgctxt "@option:check Config dialog, general page"
 msgid "Show scrollbars"
-msgstr ""
+msgstr "Паказваць палосы пракручвання"
 
 #: part/dlggeneral.cpp:46
 msgctxt "@option:check Config dialog, general page"
 msgid "Link the thumbnails with the page"
-msgstr ""
+msgstr "Звязаць мініяцюры са старонкай"
 
 #: part/dlggeneral.cpp:53
 msgctxt "@option:check Config dialog, general page"
 msgid "Show hints and info messages"
-msgstr ""
+msgstr "Паказваць падказкі і інфармацыйныя паведамленні"
 
 #: part/dlggeneral.cpp:59
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Notify about embedded files, forms, or signatures"
-msgstr ""
+msgstr "Апавяшчаць пра ўбудаваныя файлы, формы і подпісы"
 
 #: part/dlggeneral.cpp:66
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Display document title in titlebar if available"
-msgstr ""
+msgstr "Паказаць загаловак дакумента на панэлі загалоўка, калі ён ёсць"
 
 #: part/dlggeneral.cpp:72
 #, kde-format
 msgctxt "item:inlistbox Config dialog, general page"
 msgid "Display file name only"
-msgstr ""
+msgstr "Паказваць толькі назву файла"
 
 #: part/dlggeneral.cpp:73
 #, kde-format
 msgctxt "item:inlistbox Config dialog, general page"
 msgid "Display full file path"
-msgstr ""
+msgstr "Паказваць поўны шлях да файла"
 
 #: part/dlggeneral.cpp:75
 #, kde-format
 msgctxt "label:listbox Config dialog, general page"
 msgid "When not displaying document title:"
-msgstr ""
+msgstr "Калі загаловак дакумента не паказваецца:"
 
 #: part/dlggeneral.cpp:90
 msgctxt "@label:listbox Config dialog, general page"
 msgid "Use custom background color:"
-msgstr ""
+msgstr "Выкарыстоўваць адвольны колер фону:"
 
 #: part/dlggeneral.cpp:112
 #, kde-format
 msgctxt "@title:group Config dialog, general page"
 msgid "Program features:"
-msgstr ""
+msgstr "Магчымасці праграмы:"
 
 #: part/dlggeneral.cpp:119
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Open new files in tabs"
-msgstr ""
+msgstr "Адкрываць новыя файлы ва ўкладках"
 
 #: part/dlggeneral.cpp:124
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Switch to existing tab if file is already open"
-msgstr ""
+msgstr "Пераключацца на наяўную ўкладку, калі файл ужо адкрыты"
 
 #: part/dlggeneral.cpp:137
 msgctxt "@option:check Config dialog, general page"
 msgid "Obey DRM limitations"
-msgstr ""
+msgstr "Пільнавацца абмежаванняў DRM"
 
 #: part/dlggeneral.cpp:146
 msgctxt "@option:check Config dialog, general page"
 msgid "Reload document on file change"
-msgstr ""
+msgstr "Перазагружаць дакумент пры ўнясенні зменаў у файл"
 
 #: part/dlggeneral.cpp:153
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Show backend selection dialog"
-msgstr ""
+msgstr "Паказваць дыялогавае акно выбару рухавіка"
 
 #: part/dlggeneral.cpp:160
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Right to left reading direction"
-msgstr ""
+msgstr "Кірунак чытання справа ўлева"
 
 #: part/dlggeneral.cpp:166
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Open in continuous mode by default"
-msgstr ""
+msgstr "Прадвызначана адкрываць у бесперапынным рэжыме"
 
 #: part/dlggeneral.cpp:173
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "When using Browse Tool, wrap cursor at screen edges"
-msgstr ""
+msgstr "Пры выкарыстанні інструмента прагляду перамяшчаць курсор па краях экрана"
 
 #: part/dlggeneral.cpp:190
 msgctxt "@label:spinbox Config dialog, general page"
 msgid "Overview columns:"
-msgstr ""
+msgstr "Аглядныя слупкі:"
 
 #: part/dlggeneral.cpp:197
 #| msgctxt "Suffix for the opacity level, eg '80 %'"
@@ -2538,56 +2550,56 @@ msgstr "%"
 #, kde-format
 msgctxt "@info:tooltip Config dialog, general page"
 msgid "Defines how much of the current viewing area will still be visible when pressing the Page Up/Down keys."
-msgstr ""
+msgstr "Вызначае частку бягучай вобласці прагляду, якая застанецца бачнай пры націсканні клавіш Page Up/Down."
 
 #: part/dlggeneral.cpp:200
 #, kde-format
 msgctxt "@label:spinbox Config dialog, general page"
 msgid "Page Up/Down overlap:"
-msgstr ""
+msgstr "Бачнасць пры выкарыстанні Page Up/Down:"
 
 #: part/dlggeneral.cpp:204
 #, kde-format
 msgctxt "item:inlistbox Config dialog, general page, default zoom"
 msgid "100%"
-msgstr ""
+msgstr "100%"
 
 #: part/dlggeneral.cpp:205
 msgctxt "item:inlistbox Config dialog, general page, default zoom"
 msgid "Fit Width"
-msgstr ""
+msgstr "Па шырыні"
 
 #: part/dlggeneral.cpp:206
 msgctxt "item:inlistbox Config dialog, general page, default zoom"
 msgid "Fit Page"
-msgstr ""
+msgstr "Па памеры старонкі"
 
 #: part/dlggeneral.cpp:207
 #, kde-format
 msgctxt "item:inlistbox Config dialog, general page, default zoom"
 msgid "Auto Fit"
-msgstr ""
+msgstr "Аўтаматычна"
 
 #: part/dlggeneral.cpp:208
 #, kde-format
 msgctxt "item:inlistbox Config dialog, general page, default zoom"
 msgid "Defines the default zoom mode for files which were never opened before. For files which were opened before the previous zoom is applied."
-msgstr ""
+msgstr "Вызначае прадвызначаны рэжым маштабавання для файлаў, якія ніколі раней не адкрываліся. Уплывае на файлы, якія былі адкрытыя перад тым, як было ўжыта папярэдняе маштабаванне."
 
 #: part/dlggeneral.cpp:210
 msgctxt "label:listbox Config dialog, general page, default zoom"
 msgid "Default zoom:"
-msgstr ""
+msgstr "Прадвызначанае маштабаванне:"
 
 #: part/dlgperformance.cpp:26
 msgctxt "@option:check Config dialog, performance page"
 msgid "Enable transparency effects"
-msgstr ""
+msgstr "Уключыць эфекты празрыстасці"
 
 #: part/dlgperformance.cpp:28
 msgctxt "@label Config dialog, performance page"
 msgid "CPU usage:"
-msgstr ""
+msgstr "Выкарыстанне працэсара:"
 
 #: part/dlgperformance.cpp:35
 msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
@@ -2597,73 +2609,73 @@ msgstr "Нізкае"
 #: part/dlgperformance.cpp:36
 msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
 msgid "Normal (default)"
-msgstr ""
+msgstr "Звычайнае (прадвызначана)"
 
 #: part/dlgperformance.cpp:37
 msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
 msgid "Aggressive"
-msgstr ""
+msgstr "Агрэсіўнае"
 
 #: part/dlgperformance.cpp:38
 #| msgid "Created: %1"
 msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
 msgid "Greedy"
-msgstr ""
+msgstr "Максімальнае"
 
 #: part/dlgperformance.cpp:40
 msgctxt "@label:listbox Config dialog, performance page, memory usage"
 msgid "Memory usage:"
-msgstr ""
+msgstr "Выкарыстанне памяці:"
 
 #: part/dlgperformance.cpp:54
 msgctxt "@option:check Config dialog, performance page"
 msgid "Enable text antialias"
-msgstr ""
+msgstr "Уключыць згладжванне тэксту"
 
 #: part/dlgperformance.cpp:56
 msgctxt "@title:group Config dialog, performance page"
 msgid "Rendering options:"
-msgstr ""
+msgstr "Параметры рэндэрынгу:"
 
 #: part/dlgperformance.cpp:59
 msgctxt "@option:check Config dialog, performance page"
 msgid "Enable graphics antialias"
-msgstr ""
+msgstr "Уключыць згладжванне графікі"
 
 #: part/dlgperformance.cpp:64
 msgctxt "@option:check Config dialog, performance page"
 msgid "Enable text hinting"
-msgstr ""
+msgstr "Уключыць хінтынг"
 
 #: part/dlgperformance.cpp:77
 #, kde-format
 msgid "Keeps used memory as low as possible. Do not reuse anything. (For systems with low memory.)"
-msgstr "Па магчымасці выкарыстоўваць як мага менш памяці. (для сістэм з невялікім памерам аператыўнай памяці.)"
+msgstr "Выкарыстоўванне як мага меншага памеру памяці. (для сістэм з невялікім памерам аператыўнай памяці)"
 
 #: part/dlgperformance.cpp:80
 #| msgid ""
 #| "A good compromise between memory usage and speed gain. Preload next page "
 #| "and boost searches. (For systems with 256MB of memory, typically.)"
 msgid "A good compromise between memory usage and speed gain. Preload next page and boost searches. (For systems with 2GB of memory, typically.)"
-msgstr ""
+msgstr "Добры кампраміс паміж выкарыстаннем памяці і павелічэннем хуткасці. Папярэдняя загрузка наступнай старонкі і паскарэнне пошуку. (для сістэм з 2 Гб памяці)"
 
 #: part/dlgperformance.cpp:83
 #| msgid ""
 #| "Keeps everything in memory. Preload next pages. Boost searches. (For "
 #| "systems with more than 512MB of memory.)"
 msgid "Keeps everything in memory. Preload next pages. Boost searches. (For systems with more than 4GB of memory.)"
-msgstr ""
+msgstr "Усё захоўваецца ў памяці. Папярэдняя загрузка наступных старонак. Паскарэнне пошуку. (для сістэм з прынамсі 4 Гб памяці)"
 
 #: part/dlgperformance.cpp:87
 #, no-c-format, kde-format
 msgid "Loads and keeps everything in memory. Preload all pages. (Will use at maximum 50% of your total memory or your free memory, whatever is bigger.)"
-msgstr ""
+msgstr "Усё загружаецца і захоўваецца ў памяці. Папярэдняя загрузка ўсіх старонак. (будзе выкарыстоўвацца максімум 50% вашай агульнай памяці або свабоднай памяці)"
 
 #: part/dlgpresentation.cpp:37
 #, kde-format
 msgctxt "Spinbox prefix: Advance automatically: every n seconds"
 msgid "every "
-msgstr ""
+msgstr "кожную(ыя) "
 
 #: part/dlgpresentation.cpp:38
 msgctxt "Advance every %1 seconds"
@@ -2678,24 +2690,24 @@ msgstr[3] " секунды"
 #, kde-format
 msgctxt "@label:spinbox Config dialog, presentation page"
 msgid "Advance automatically:"
-msgstr ""
+msgstr "Аўтаматычнае перамяшчэнне:"
 
 #: part/dlgpresentation.cpp:53
 msgctxt "@option:check Config dialog, presentation page"
 msgid "Loop after last page"
-msgstr ""
+msgstr "Пачынаць спачатку пасля апошняй старонкі"
 
 #: part/dlgpresentation.cpp:59
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, presentation page, tap navigation"
 msgid "Tap left/right side to go back/forward"
-msgstr ""
+msgstr "Пераход назад/далей пры націсканні ў левым/правым боку старонкі"
 
 #: part/dlgpresentation.cpp:60
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, presentation page, tap navigation"
 msgid "Tap anywhere to go forward"
-msgstr ""
+msgstr "Пераход далей пры націсканні ў любым месцы старонкі"
 
 #: part/dlgpresentation.cpp:61
 #, kde-format
@@ -2706,7 +2718,7 @@ msgstr "Адключана"
 #: part/dlgpresentation.cpp:63
 msgctxt "@label:listbox Config dialog, presentation page, tap navigation"
 msgid "Touch navigation:"
-msgstr ""
+msgstr "Навігацыя націсканнем:"
 
 #: part/dlgpresentation.cpp:72
 msgctxt "@label:chooser Config dialog, presentation page"
@@ -2716,7 +2728,7 @@ msgstr "Колер фону:"
 #: part/dlgpresentation.cpp:76
 msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
 msgid "Hidden after delay"
-msgstr ""
+msgstr "Хаваць пасля затрымлівання"
 
 #: part/dlgpresentation.cpp:77
 msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
@@ -2726,12 +2738,12 @@ msgstr "Заўсёды бачна"
 #: part/dlgpresentation.cpp:78
 msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
 msgid "Always hidden"
-msgstr ""
+msgstr "Заўсёды схавана"
 
 #: part/dlgpresentation.cpp:80
 msgctxt "@label:listbox Config dialog, presentation page, cursor visibility"
 msgid "Mouse cursor:"
-msgstr ""
+msgstr "Курсор мышы:"
 
 #: part/dlgpresentation.cpp:84
 msgctxt "@option:check Config dialog, presentation page"
@@ -2741,49 +2753,49 @@ msgstr "Паказваць індыкатар ходу выканання"
 #: part/dlgpresentation.cpp:90
 msgctxt "@option:check Config dialog, presentation page"
 msgid "Show summary page"
-msgstr ""
+msgstr "Паказваць зводную старонку"
 
 #: part/dlgpresentation.cpp:100
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Instant (Never use animations)"
-msgstr ""
+msgstr "Імгненны (без анімацыі)"
 
 #: part/dlgpresentation.cpp:101
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Replace"
-msgstr "Замяніць"
+msgstr "Замена"
 
 #: part/dlgpresentation.cpp:102
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Random transition"
-msgstr ""
+msgstr "Выпадковы"
 
 #: part/dlgpresentation.cpp:103
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Blinds vertical"
-msgstr ""
+msgstr "Вертыкальныя жалюзі"
 
 #: part/dlgpresentation.cpp:104
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Blinds horizontal"
-msgstr ""
+msgstr "Гарызантальныя жалюзі"
 
 #: part/dlgpresentation.cpp:105
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Box in"
-msgstr ""
+msgstr "Складанне"
 
 #: part/dlgpresentation.cpp:106
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Box out"
-msgstr ""
+msgstr "Раскладанне"
 
 #: part/dlgpresentation.cpp:107
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Dissolve"
-msgstr ""
+msgstr "Растварэнне"
 
 #: part/dlgpresentation.cpp:108
 #, kde-format
@@ -2795,75 +2807,75 @@ msgstr "Згасанне"
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Glitter down"
-msgstr ""
+msgstr "Мільганне ўніз"
 
 #: part/dlgpresentation.cpp:110
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Glitter right"
-msgstr ""
+msgstr "Мільганне ўправа"
 
 #: part/dlgpresentation.cpp:111
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Glitter right-down"
-msgstr ""
+msgstr "Мільганне ўправа ўніз"
 
 #: part/dlgpresentation.cpp:112
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Split horizontal in"
-msgstr ""
+msgstr "Гарызантальнае дзяленне ўнутр"
 
 #: part/dlgpresentation.cpp:113
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Split horizontal out"
-msgstr ""
+msgstr "Гарызантальнае дзяленне вонкі"
 
 #: part/dlgpresentation.cpp:114
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Split vertical in"
-msgstr ""
+msgstr "Вертыкальнае дзяленне ўнутр"
 
 #: part/dlgpresentation.cpp:115
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Split vertical out"
-msgstr ""
+msgstr "Вертыкальнае дзяленне вонкі"
 
 #: part/dlgpresentation.cpp:116
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Wipe down"
-msgstr ""
+msgstr "Ссоўване ўніз"
 
 #: part/dlgpresentation.cpp:117
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Wipe right"
-msgstr ""
+msgstr "Ссоўванне ўправа"
 
 #: part/dlgpresentation.cpp:118
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Wipe left"
-msgstr ""
+msgstr "Ссоўванне ўлева"
 
 #: part/dlgpresentation.cpp:119
 msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
 msgid "Wipe up"
-msgstr ""
+msgstr "Ссоўване ўверх"
 
 #: part/dlgpresentation.cpp:121
 msgctxt "@label:listbox Config dialog, presentation page, transitions"
 msgid "Default transition:"
-msgstr ""
+msgstr "Прадвызначаны пераход:"
 
 #: part/dlgpresentation.cpp:130
 #, kde-format
 msgctxt "@label:listbox Config dialog, presentation page, preferred screen"
 msgid "Preferred screen:"
-msgstr ""
+msgstr "Пераважны экран:"
 
 #: part/dlgpresentation.cpp:137
 #, kde-format
 msgctxt "@label Config dialog, presentation page, heading line for drawing tool manager"
 msgid "<h3>Drawing Tools</h3>"
-msgstr ""
+msgstr "<h3>Інструменты малявання</h3>"
 
 #: part/dlgpresentation.cpp:171
 msgctxt "@item:inlistbox Config dialog, presentation page, preferred screen"
@@ -2879,23 +2891,23 @@ msgstr "Прадвызначаны экран"
 #| msgid "Created: %1"
 msgctxt "@item:inlistbox Config dialog, presentation page, preferred screen. %1 is the screen number (0, 1, ...). %2 is the screen manufacturer name. %3 is the screen model name. %4 is the screen name like DVI-0"
 msgid "Screen %1 (%2 %3 %4)"
-msgstr ""
+msgstr "Экран %1 (%2 %3 %4)"
 
 #: part/dlgpresentation.cpp:190
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, presentation page, preferred screen. %1 is the screen number (0, 1, ...), hopefully not 0."
 msgid "Screen %1 (disconnected)"
-msgstr ""
+msgstr "Экран %1 (адключана)"
 
 #: part/drawingtoolactions.cpp:192
 #, kde-format
 msgid "Drawing Tool: %1"
-msgstr ""
+msgstr "Інструмент малявання: %1"
 
 #: part/drawingtoolactions.cpp:214 part/drawingtoolactions.cpp:215
 #, kde-format
 msgid "Eraser"
-msgstr ""
+msgstr "Сцірка"
 
 #: part/editannottooldialog.cpp:59 part/editdrawingtooldialog.cpp:43
 msgid "&Name:"
@@ -2911,22 +2923,22 @@ msgstr "Выгляд"
 
 #: part/editannottooldialog.cpp:93
 msgid "Text markup"
-msgstr ""
+msgstr "Разметка тэксту"
 
 #: part/editannottooldialog.cpp:94
 #, kde-format
 msgid "Geometrical shape"
-msgstr ""
+msgstr "Геаметрычная фігура"
 
 #: part/editannottooldialog.cpp:101
 #| msgid "Presentation"
 msgid "Create annotation tool"
-msgstr ""
+msgstr "Стварыць інструмент анатацый"
 
 #: part/editannottooldialog.cpp:103
 #, kde-format
 msgid "Edit annotation tool"
-msgstr ""
+msgstr "Рэдагаваць інструмент анатацый"
 
 #: part/editdrawingtooldialog.cpp:50
 #, kde-format
@@ -2935,7 +2947,7 @@ msgstr "Колер:"
 
 #: part/editdrawingtooldialog.cpp:57
 msgid "&Pen Width:"
-msgstr ""
+msgstr "&Шырыня асадкі:"
 
 #: part/editdrawingtooldialog.cpp:63
 #, kde-format
@@ -2947,17 +2959,17 @@ msgstr " пікс."
 #, kde-format
 msgctxt "Suffix for the opacity level, eg '80 %'"
 msgid " %"
-msgstr ""
+msgstr " %"
 
 #: part/editdrawingtooldialog.cpp:78
 #| msgid "Presentation"
 msgid "Create drawing tool"
-msgstr ""
+msgstr "Стварыць інструмент малявання"
 
 #: part/editdrawingtooldialog.cpp:83
 #, kde-format
 msgid "Edit drawing tool"
-msgstr ""
+msgstr "Рэдагаваць інструмент малявання"
 
 #: part/embeddedfilesdialog.cpp:39
 msgctxt "Unknown date"
@@ -2967,7 +2979,7 @@ msgstr "Невядома"
 #: part/embeddedfilesdialog.cpp:45
 msgctxt "@title:window"
 msgid "Embedded Files"
-msgstr ""
+msgstr "Убудаваныя файлы"
 
 #: part/embeddedfilesdialog.cpp:59
 msgctxt "@action:button"
@@ -3005,20 +3017,20 @@ msgstr "Зменена"
 #: part/embeddedfilesdialog.cpp:151
 msgctxt "@action:inmenu"
 msgid "&Save As..."
-msgstr ""
+msgstr "&Захаваць як..."
 
 #: part/embeddedfilesdialog.cpp:152
 msgctxt "@action:inmenu"
 msgid "&View..."
-msgstr ""
+msgstr "&Выгляд..."
 
 #: part/fileprinterpreview.cpp:115
 msgid "Could not load print preview part"
-msgstr ""
+msgstr "Не ўдалося загрузіць частку элемента для друкавання"
 
 #: part/fileprinterpreview.cpp:127
 msgid "Print Preview"
-msgstr ""
+msgstr "Папярэдні прагляд для друку"
 
 #: part/findbar.cpp:34 part/presentationsearchbar.cpp:63
 #, kde-format
@@ -3028,12 +3040,12 @@ msgstr "Закрыць"
 #: part/findbar.cpp:38
 msgctxt "Find text"
 msgid "F&ind:"
-msgstr ""
+msgstr "&Пошук:"
 
 #: part/findbar.cpp:49
 #, kde-format
 msgid "Text to search for"
-msgstr ""
+msgstr "Тэкст для пошуку"
 
 #: part/findbar.cpp:54
 #, kde-format
@@ -3044,7 +3056,7 @@ msgstr "Далей"
 #: part/findbar.cpp:55
 #, kde-format
 msgid "Jump to next match"
-msgstr ""
+msgstr "Пераход да наступнага супадзення"
 
 #: part/findbar.cpp:58
 #| msgid "Previous Page"
@@ -3055,12 +3067,12 @@ msgstr "Назад"
 #: part/findbar.cpp:59
 #, kde-format
 msgid "Jump to previous match"
-msgstr ""
+msgstr "Пераход да папярэдняга супадзення"
 
 #: part/findbar.cpp:64
 #, kde-format
 msgid "Modify search behavior"
-msgstr ""
+msgstr "Змяніць паводзіны пошуку"
 
 #: part/findbar.cpp:66
 #, kde-format
@@ -3070,12 +3082,12 @@ msgstr "Зважаць на рэгістр"
 #: part/findbar.cpp:68
 #, kde-format
 msgid "From current page"
-msgstr ""
+msgstr "З бягучай старонкі"
 
 #: part/findbar.cpp:70
 #, kde-format
 msgid "Find as you type"
-msgstr ""
+msgstr "Шукаць па меры ўводу"
 
 #: part/formwidgets.cpp:751
 msgid "*|All Files"
@@ -3084,16 +3096,16 @@ msgstr "*|Усе файлы"
 #: part/formwidgets.cpp:1065
 #, kde-format
 msgid "Unsigned Signature Field (Click to Sign)"
-msgstr ""
+msgstr "Пустое поле подпісу (пстрыкніце, каб падпісаць)"
 
 #: part/formwidgets.cpp:1131 part/signaturepanel.cpp:97
 #, kde-format
 msgid "&Sign..."
-msgstr ""
+msgstr "&Падпісаць..."
 
 #: part/formwidgets.cpp:1135 part/signaturepropertiesdialog.cpp:38
 msgid "Signature Properties"
-msgstr ""
+msgstr "Уласцівасці подпісу"
 
 #: part/ktreeviewsearchline.cpp:283
 msgid "Search Options"
@@ -3113,12 +3125,12 @@ msgstr "Рэгулярны выраз"
 
 #: part/ktreeviewsearchline.cpp:386
 msgid "S&earch:"
-msgstr ""
+msgstr "По&шук:"
 
 #: part/layers.cpp:35 part/part.cpp:2315
 #, kde-format
 msgid "Layers"
-msgstr ""
+msgstr "Слаі"
 
 #: part/minibar.cpp:190
 #, kde-format
@@ -3137,7 +3149,7 @@ msgstr "Маштабаваць да 100%"
 
 #: part/pageview.cpp:564
 msgid "Rotate &Right"
-msgstr ""
+msgstr "Павярнуць у&права"
 
 #: part/pageview.cpp:565
 msgctxt "Rotate right"
@@ -3146,7 +3158,7 @@ msgstr "Управа"
 
 #: part/pageview.cpp:569
 msgid "Rotate &Left"
-msgstr ""
+msgstr "Павярнуць у&лева"
 
 #: part/pageview.cpp:570
 msgctxt "Rotate left"
@@ -3156,39 +3168,39 @@ msgstr "Улева"
 #: part/pageview.cpp:574
 #, kde-format
 msgid "Original Orientation"
-msgstr ""
+msgstr "Зыходная арыентацыя"
 
 #: part/pageview.cpp:580
 msgid "&Trim View"
-msgstr ""
+msgstr "&Скарачэнне"
 
 #: part/pageview.cpp:584
 #, kde-format
 msgid "&Trim Margins"
-msgstr ""
+msgstr "&Скарачэнне палёў"
 
 #: part/pageview.cpp:591
 msgid "Trim To &Selection"
-msgstr ""
+msgstr "Скарачэнне да &абранай вобласці"
 
 #: part/pageview.cpp:597
 #, kde-format
 msgid "Fit &Width"
-msgstr ""
+msgstr "Па &шырыні"
 
 #: part/pageview.cpp:601
 #, kde-format
 msgid "Fit &Page"
-msgstr ""
+msgstr "Па &памеры старонкі"
 
 #: part/pageview.cpp:605
 #, kde-format
 msgid "&Auto Fit"
-msgstr ""
+msgstr "&Аўтаматычна"
 
 #: part/pageview.cpp:609
 msgid "Fit Wi&ndow to Page"
-msgstr ""
+msgstr "Падладжванне акна да &старонкі"
 
 #: part/pageview.cpp:616
 msgid "&View Mode"
@@ -3197,33 +3209,33 @@ msgstr "&Рэжым выгляду"
 #: part/pageview.cpp:628
 msgctxt "@item:inmenu"
 msgid "&Single Page"
-msgstr ""
+msgstr "&Адна старонка"
 
 #: part/pageview.cpp:629
 msgctxt "@item:inmenu"
 msgid "&Facing Pages"
-msgstr ""
+msgstr "&Разварот"
 
 #: part/pageview.cpp:630
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Facing Pages (&Center First Page)"
-msgstr ""
+msgstr "Разварот (&першая старонка па цэнтры)"
 
 #: part/pageview.cpp:633
 msgctxt "@item:inmenu"
 msgid "&Overview"
-msgstr ""
+msgstr "&Беглы агляд"
 
 #: part/pageview.cpp:645
 msgid "&Continuous"
-msgstr ""
+msgstr "&Суцэльны выгляд"
 
 #: part/pageview.cpp:652
 #, kde-format
 msgctxt "@action page layout"
 msgid "Use Right to Left Reading Direction"
-msgstr ""
+msgstr "Выкарыстоўваць кірунак чытання справа ўлева"
 
 #: part/pageview.cpp:661
 msgid "&Browse"
@@ -3376,16 +3388,16 @@ msgstr ""
 
 #: part/pageview.cpp:4034 part/part.cpp:3155
 msgid "Fit Width"
-msgstr ""
+msgstr "Па шырыні"
 
 #: part/pageview.cpp:4034
 msgid "Fit Page"
-msgstr ""
+msgstr "Па памеры старонкі"
 
 #: part/pageview.cpp:4034
 #, kde-format
 msgid "Auto Fit"
-msgstr ""
+msgstr "Аўтаматычна"
 
 #: part/pageview.cpp:4355
 #, kde-format
