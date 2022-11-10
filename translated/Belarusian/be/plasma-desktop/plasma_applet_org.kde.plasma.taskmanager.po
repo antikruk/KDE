@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-23 00:48+0000\n"
-"PO-Revision-Date: 2022-10-09 05:49\n"
+"POT-Creation-Date: 2022-11-06 00:48+0000\n"
+"PO-Revision-Date: 2022-11-10 12:14\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -71,14 +71,14 @@ msgid "General:"
 msgstr "Асноўныя:"
 
 #: package/contents/ui/ConfigAppearance.qml:34
-#, kde-format
-msgid "Show tooltips"
-msgstr "Паказваць падказкі"
+#| msgid "Highlight windows when hovering over task tooltips"
+msgid "Show small window previews when hovering over Tasks"
+msgstr ""
 
 #: package/contents/ui/ConfigAppearance.qml:43
-#, kde-format
-msgid "Highlight windows when hovering over task tooltips"
-msgstr "Падсвятляць вокны пры навядзенні курсора на падказкі"
+#| msgid "Highlight windows when hovering over task tooltips"
+msgid "Hide other windows when hovering over previews"
+msgstr ""
 
 #: package/contents/ui/ConfigAppearance.qml:50
 #, kde-format
@@ -167,16 +167,20 @@ msgid "Cycles through tasks"
 msgstr "Пераход па задачах"
 
 #: package/contents/ui/ConfigBehavior.qml:63
-#, kde-format
+#| msgctxt ""
+#| "Completes the sentence 'Clicking grouped task shows windows side by side' "
+#| msgid "Shows windows side by side"
 msgctxt "Completes the sentence 'Clicking grouped task shows tooltip window thumbnails' "
-msgid "Shows tooltip window thumbnails"
-msgstr "Паказваюцца мініяцюры акон падказак"
+msgid "Shows small window previews"
+msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:64
-#, kde-format
+#| msgctxt ""
+#| "Completes the sentence 'Clicking grouped task shows windows side by side' "
+#| msgid "Shows windows side by side"
 msgctxt "Completes the sentence 'Clicking grouped task shows windows side by side' "
-msgid "Shows windows side by side"
-msgstr "Паказваюцца вокны побач адно з адным"
+msgid "Shows large window previews"
+msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:65
 #, kde-format
@@ -555,13 +559,13 @@ msgstr "Дазволіць групаванне гэтай праграмы"
 msgid "&Close"
 msgstr "За&крыць"
 
-#: package/contents/ui/Task.qml:74
+#: package/contents/ui/Task.qml:71
 #, kde-format
 msgctxt "@info:usagetip %1 application name"
 msgid "Launch %1"
 msgstr "Запусціць %1"
 
-#: package/contents/ui/Task.qml:79
+#: package/contents/ui/Task.qml:76
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "There is %1 new message."
@@ -571,25 +575,25 @@ msgstr[1] "Ёсць %1 новыя паведамленні."
 msgstr[2] "Ёсць %1 новых паведамленняў."
 msgstr[3] "Ёсць %1 новыя паведамленні."
 
-#: package/contents/ui/Task.qml:88
+#: package/contents/ui/Task.qml:85
 #, kde-format
 msgctxt "@info:usagetip %1 task name"
 msgid "Show Task tooltip for %1"
 msgstr "Паказаць падказку па задачы для %1"
 
-#: package/contents/ui/Task.qml:94
+#: package/contents/ui/Task.qml:91
 #, kde-format
 msgctxt "@info:usagetip %1 task name"
 msgid "Show windows side by side for %1"
 msgstr "Паказаць вокны побач адно з адным для %1"
 
-#: package/contents/ui/Task.qml:99
+#: package/contents/ui/Task.qml:96
 #, kde-format
 msgctxt "@info:usagetip %1 task name"
 msgid "Open textual list of windows for %1"
 msgstr "Адкрыць спіс акон для %1"
 
-#: package/contents/ui/Task.qml:103
+#: package/contents/ui/Task.qml:100
 #, kde-format
 msgid "Activate %1"
 msgstr "Актываваць %1"
@@ -702,6 +706,15 @@ msgstr "Забыцца нядаўнія размяшчэнні"
 msgctxt "@action:inmenu"
 msgid "Forget Recent Files"
 msgstr "Забыцца нядаўнія файлы"
+
+#~ msgid "Show tooltips"
+#~ msgstr "Паказваць падказкі"
+
+#~ msgctxt ""
+#~ "Completes the sentence 'Clicking grouped task shows tooltip window "
+#~ "thumbnails' "
+#~ msgid "Shows tooltip window thumbnails"
+#~ msgstr "Паказваюцца мініяцюры акон падказак"
 
 #~ msgid "Configure Taskbar"
 #~ msgstr "Наставіць панель заданняў"
