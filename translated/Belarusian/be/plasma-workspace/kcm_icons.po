@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-08 00:45+0000\n"
-"PO-Revision-Date: 2022-10-18 16:33\n"
+"POT-Creation-Date: 2022-10-22 00:47+0000\n"
+"PO-Revision-Date: 2022-11-10 12:14\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -23,13 +23,13 @@ msgstr ""
 
 #: iconsizecategorymodel.cpp:14
 #, kde-format
-msgid "Toolbar"
-msgstr "Панэль інструментаў"
-
-#: iconsizecategorymodel.cpp:15
-#, kde-format
 msgid "Main Toolbar"
 msgstr "Галоўная панэль інструментаў"
+
+#: iconsizecategorymodel.cpp:15
+#| msgid "&Second color:"
+msgid "Secondary Toolbars"
+msgstr ""
 
 #: iconsizecategorymodel.cpp:16
 #, kde-format
@@ -37,11 +37,6 @@ msgid "Small Icons"
 msgstr "Малыя значкі"
 
 #: iconsizecategorymodel.cpp:17
-#, kde-format
-msgid "Panel"
-msgstr "Панэль"
-
-#: iconsizecategorymodel.cpp:18
 #, kde-format
 msgid "Dialogs"
 msgstr "Дыялогавыя вокны"
@@ -66,13 +61,13 @@ msgstr "Памер значкоў панэлі інструментаў"
 
 #. i18n: ectx: label, entry (mainToolbarSize), group (MainToolbarIcons)
 #: iconssettingsbase.kcfg:27
-#| msgid "Main Toolbar"
+#, kde-format
 msgid "Main toolbar icons size"
 msgstr "Памер значкоў галоўнай панэлі інструментаў"
 
 #. i18n: ectx: label, entry (smallSize), group (SmallIcons)
 #: iconssettingsbase.kcfg:33
-#| msgid "Small Icons"
+#, kde-format
 msgid "Small icons size"
 msgstr "Памер малых значкоў"
 
@@ -94,7 +89,7 @@ msgid "Unable to create a temporary file."
 msgstr "Не ўдалося стварыць часовы файл."
 
 #: main.cpp:193
-#| msgid "Unable to find the icon theme archive %1."
+#, kde-format
 msgid "Unable to download the icon theme archive: %1"
 msgstr "Не ўдалося спампаваць архіў тэмы значкоў: %1"
 
@@ -114,54 +109,83 @@ msgid "Theme installed successfully."
 msgstr "Тэма паспяхова ўсталяваная."
 
 #: main.cpp:260
-#| msgid "Installing icon themes"
+#, kde-format
 msgid "Installing icon themes…"
 msgstr "Усталяванне тэмы значкоў…"
 
 #: main.cpp:270
-#| msgid "Installing icon themes"
+#, kde-format
 msgid "Installing %1 theme…"
 msgstr "Усталяванне тэмы \"%1\"…"
 
-#: package/contents/ui/main.qml:21
+#: package/contents/ui/IconSizePopup.qml:34
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Here you can configure the default sizes of various icon types at a system-wide level. Note that not all apps will respect these settings.<nl/><nl/>If you find that objects on screen are generally too small or too large, consider adjusting the global scale instead."
+msgstr ""
+
+#: package/contents/ui/IconSizePopup.qml:41
+#, kde-format
+msgid "Adjust Global Scale…"
+msgstr ""
+
+#: package/contents/ui/IconSizePopup.qml:117
+#| msgid "Size:"
+msgctxt "@label:slider"
+msgid "Size:"
+msgstr "Памер:"
+
+#: package/contents/ui/main.qml:22
 #, kde-format
 msgid "This module allows you to choose the icons for your desktop."
 msgstr "Гэты модуль дазваляе абраць тэму значкоў працоўнага стала."
 
-#: package/contents/ui/main.qml:147
-#| msgid "Remove Theme"
+#: package/contents/ui/main.qml:148
+#, kde-format
 msgid "Remove Icon Theme"
 msgstr "Выдаліць тэму значкоў"
 
-#: package/contents/ui/main.qml:154
-#| msgid "Remove Theme"
+#: package/contents/ui/main.qml:155
+#, kde-format
 msgid "Restore Icon Theme"
 msgstr "Аднавіць тэму значкоў"
 
-#: package/contents/ui/main.qml:228
+#: package/contents/ui/main.qml:229
 #, kde-format
 msgid "Configure Icon Sizes"
 msgstr "Наладжванне тэмы значкоў"
 
 #: package/contents/ui/main.qml:246
-#| msgid "Install New Theme..."
+#, kde-format
 msgid "Install from File…"
 msgstr "Усталяваць з файла…"
 
 #: package/contents/ui/main.qml:251
-#| msgid "Install New Theme..."
+#, kde-format
 msgid "Get New Icons…"
 msgstr "Атрымаць новыя значкі…"
 
-#: package/contents/ui/main.qml:279
-#| msgid "Remove Theme"
+#: package/contents/ui/main.qml:273
+#| msgid "Configure Icon Sizes"
+msgctxt "@title:window"
+msgid "Configure Icon Sizes"
+msgstr "Наладжванне тэмы значкоў"
+
+#: package/contents/ui/main.qml:285
+#, kde-format
 msgid "Open Theme"
 msgstr "Адкрыць тэму"
 
-#: package/contents/ui/main.qml:281
+#: package/contents/ui/main.qml:287
 #, kde-format
 msgid "Theme Files (*.tar.gz *.tar.bz2)"
 msgstr "Файлы тэмаў (*.tar.gz *.tar.bz2)"
+
+#~ msgid "Toolbar"
+#~ msgstr "Панэль інструментаў"
+
+#~ msgid "Panel"
+#~ msgstr "Панэль"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
@@ -209,9 +233,6 @@ msgstr "Файлы тэмаў (*.tar.gz *.tar.bz2)"
 #~ msgctxt "@label The icon rendered as disabled"
 #~ msgid "Disabled"
 #~ msgstr "Неактыўная"
-
-#~ msgid "Size:"
-#~ msgstr "Памер:"
 
 #~ msgid "Set Effect..."
 #~ msgstr "Усталяваць эфект..."
@@ -263,9 +284,6 @@ msgstr "Файлы тэмаў (*.tar.gz *.tar.bz2)"
 
 #~ msgid "Co&lor:"
 #~ msgstr "Ко&лер:"
-
-#~ msgid "&Second color:"
-#~ msgstr "&Другі колер:"
 
 #~ msgid "Name"
 #~ msgstr "Назва"
