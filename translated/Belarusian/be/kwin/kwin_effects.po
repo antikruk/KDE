@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-08 00:49+0000\n"
-"PO-Revision-Date: 2022-10-09 09:16\n"
+"POT-Creation-Date: 2022-11-05 00:47+0000\n"
+"PO-Revision-Date: 2022-11-10 12:13\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -193,14 +193,20 @@ msgstr ""
 msgid "Natural"
 msgstr "Натуральны"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LayoutMode)
+#: desktopgrid/desktopgrid_config.ui:147
+#, kde-format
+msgid "None"
+msgstr "Няма"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: desktopgrid/desktopgrid_config.ui:150
+#: desktopgrid/desktopgrid_config.ui:155
 #, kde-format
 msgid "Windows layout:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: desktopgrid/desktopgrid_config.ui:166
+#: desktopgrid/desktopgrid_config.ui:171
 #, kde-format
 msgid "Activation"
 msgstr ""
@@ -303,9 +309,14 @@ msgstr ""
 msgid "Toggle Invert Effect"
 msgstr ""
 
-#: invert/invert.cpp:50 invert/invert_config.cpp:44
+#: invert/invert.cpp:49 invert/invert_config.cpp:44
 #| msgid "Toggle Invert effect"
 msgid "Toggle Invert Effect on Window"
+msgstr ""
+
+#: invert/invert.cpp:56
+#, kde-format
+msgid "Invert Screen Colors"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FadeToBlack)
@@ -363,19 +374,19 @@ msgstr ""
 msgid "Toggle Mouse Click Effect"
 msgstr ""
 
-#: mouseclick/mouseclick.cpp:42
+#: mouseclick/mouseclick.cpp:41
 #| msgid "Left"
 msgctxt "Left mouse button"
 msgid "Left"
 msgstr "Улева"
 
-#: mouseclick/mouseclick.cpp:43
+#: mouseclick/mouseclick.cpp:42
 #, kde-format
 msgctxt "Middle mouse button"
 msgid "Middle"
 msgstr "Пасярэдзіне"
 
-#: mouseclick/mouseclick.cpp:44
+#: mouseclick/mouseclick.cpp:43
 #| msgid "Right"
 msgctxt "Right mouse button"
 msgid "Right"
@@ -487,7 +498,7 @@ msgstr ""
 msgid "Clear All Mouse Marks"
 msgstr ""
 
-#: mousemark/mousemark.cpp:43 mousemark/mousemark_config.cpp:59
+#: mousemark/mousemark.cpp:42 mousemark/mousemark_config.cpp:59
 #, kde-format
 msgid "Clear Last Mouse Mark"
 msgstr ""
@@ -544,13 +555,13 @@ msgid "Layout mode:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_BlurBackground)
-#: overview/kcm/overvieweffectkcm.ui:53
+#: overview/kcm/overvieweffectkcm.ui:56
 #| msgid "Shadow opacity:"
 msgid "Blur background:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: overview/kcm/overvieweffectkcm.ui:70
+#: overview/kcm/overvieweffectkcm.ui:73
 #, kde-format
 msgid "Ignore minimized windows:"
 msgstr ""
@@ -570,12 +581,12 @@ msgstr ""
 msgid "No matching windows"
 msgstr ""
 
-#: private/qml/WindowHeapDelegate.qml:152
+#: private/qml/WindowHeapDelegate.qml:151
 #, kde-format
 msgid "Drag Down To Close"
 msgstr ""
 
-#: private/qml/WindowHeapDelegate.qml:462
+#: private/qml/WindowHeapDelegate.qml:461
 #, kde-format
 msgctxt "@info:tooltip as in: 'close this window'"
 msgid "Close window"
@@ -593,26 +604,26 @@ msgstr ""
 msgid "Window close scale:"
 msgstr ""
 
-#: screenshot/screenshotdbusinterface1.cpp:480
+#: screenshot/screenshotdbusinterface1.cpp:478
 #, kde-format
 msgctxt "Notification caption that a screenshot got saved to file"
 msgid "Screenshot"
 msgstr "Здымак экрана"
 
-#: screenshot/screenshotdbusinterface1.cpp:481
+#: screenshot/screenshotdbusinterface1.cpp:479
 #, kde-format
 msgctxt "Notification with path to screenshot file"
 msgid "Screenshot saved to %1"
 msgstr ""
 
-#: screenshot/screenshotdbusinterface1.cpp:797
+#: screenshot/screenshotdbusinterface1.cpp:795
 #: screenshot/screenshotdbusinterface2.cpp:472
 #, kde-format
 msgid "Select window to screen shot with left click or enter.\n"
 "Escape or right click to cancel."
 msgstr ""
 
-#: screenshot/screenshotdbusinterface1.cpp:800
+#: screenshot/screenshotdbusinterface1.cpp:798
 #: screenshot/screenshotdbusinterface2.cpp:490
 #, kde-format
 msgid "Create screen shot with left click or enter.\n"
@@ -850,23 +861,23 @@ msgstr ""
 msgid "Toggle Present Windows (Current desktop)"
 msgstr ""
 
-#: windowview/kcm/windowvieweffectkcm.cpp:49 windowview/windowvieweffect.cpp:55
+#: windowview/kcm/windowvieweffectkcm.cpp:49 windowview/windowvieweffect.cpp:54
 #, kde-format
 msgid "Toggle Present Windows (All desktops)"
 msgstr ""
 
-#: windowview/kcm/windowvieweffectkcm.cpp:56 windowview/windowvieweffect.cpp:65
+#: windowview/kcm/windowvieweffectkcm.cpp:56 windowview/windowvieweffect.cpp:63
 #, kde-format
 msgid "Toggle Present Windows (Window class)"
 msgstr ""
 
-#: windowview/kcm/windowvieweffectkcm.cpp:62 windowview/windowvieweffect.cpp:75
+#: windowview/kcm/windowvieweffectkcm.cpp:62 windowview/windowvieweffect.cpp:72
 #, kde-format
 msgid "Toggle Present Windows (Window class on current desktop)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreMinimized)
-#: windowview/kcm/windowvieweffectkcm.ui:53
+#: windowview/kcm/windowvieweffectkcm.ui:56
 #, kde-format
 msgid "Ignore &minimized windows"
 msgstr ""
@@ -941,32 +952,32 @@ msgstr "Згарнуць"
 msgid "More"
 msgstr "Яшчэ"
 
-#: zoom/zoom.cpp:68
+#: zoom/zoom.cpp:65
 #, kde-format
 msgid "Move Zoomed Area to Left"
 msgstr ""
 
-#: zoom/zoom.cpp:76
+#: zoom/zoom.cpp:72
 #, kde-format
 msgid "Move Zoomed Area to Right"
 msgstr ""
 
-#: zoom/zoom.cpp:84
+#: zoom/zoom.cpp:79
 #, kde-format
 msgid "Move Zoomed Area Upwards"
 msgstr ""
 
-#: zoom/zoom.cpp:92
+#: zoom/zoom.cpp:86
 #, kde-format
 msgid "Move Zoomed Area Downwards"
 msgstr ""
 
-#: zoom/zoom.cpp:101 zoom/zoom_config.cpp:108
+#: zoom/zoom.cpp:94 zoom/zoom_config.cpp:108
 #, kde-format
 msgid "Move Mouse to Focus"
 msgstr ""
 
-#: zoom/zoom.cpp:109 zoom/zoom_config.cpp:115
+#: zoom/zoom.cpp:101 zoom/zoom_config.cpp:115
 #, kde-format
 msgid "Move Mouse to Center"
 msgstr ""
@@ -1274,9 +1285,6 @@ msgstr ""
 #~| msgid "Shadow opacity:"
 #~ msgid "Background saturation"
 #~ msgstr "Празрыстасць цені:"
-
-#~ msgid "None"
-#~ msgstr "Няма"
 
 #, fuzzy
 #~| msgid "&Opacity"
