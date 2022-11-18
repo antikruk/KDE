@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-19 00:47+0000\n"
-"PO-Revision-Date: 2022-11-18 09:31\n"
+"PO-Revision-Date: 2022-11-18 15:31\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -119,7 +119,7 @@ msgstr "Рэгулярны выраз"
 
 #: optionsmodel.cpp:205
 msgid "Apply Initially"
-msgstr "Ужыць для першапачатковага стварэння акна"
+msgstr "Ужываць пры з'яўленні акна"
 
 #: optionsmodel.cpp:206
 #, kde-format
@@ -131,7 +131,7 @@ msgstr "Уласцівасць акна будзе мець вызначанае
 #: optionsmodel.cpp:209
 #, kde-format
 msgid "Apply Now"
-msgstr "Ужыць зараз"
+msgstr "Ужываць для бягучага моманту"
 
 #: optionsmodel.cpp:210
 #, kde-format
@@ -148,37 +148,39 @@ msgstr "Запомніць"
 #: optionsmodel.cpp:214
 #, kde-format
 msgid "The value of the window property will be remembered and, every time the window is created, the last remembered value will be applied."
-msgstr ""
+msgstr "Значэнне ўласцівасці будзе запамінацца і будзе ўжывацца пры кожным стварэнні акна."
 
 #: optionsmodel.cpp:217
 msgid "Do Not Affect"
-msgstr ""
+msgstr "Не мае эфекту"
 
 #: optionsmodel.cpp:218
 #, kde-format
 msgid "The window property will not be affected and therefore the default handling for it will be used.\n"
 "Specifying this will block more generic window settings from taking effect."
-msgstr ""
+msgstr "Уласцівасць акна не будзе закранацца, таму яно будзе апрацоўвацца прадвызначана.\n"
+"Калі вызначыць гэты параметр, агульныя налады не будуць мець эфекту."
 
 #: optionsmodel.cpp:221
 #, kde-format
 msgid "Force"
-msgstr "Прымусова"
+msgstr "Прымусовае выкарыстанне"
 
 #: optionsmodel.cpp:222
 #, kde-format
 msgid "The window property will be always forced to the given value."
-msgstr ""
+msgstr "Уласцівасць акна заўсёды будзе мець вызначанае значэнне."
 
 #: optionsmodel.cpp:224
 msgid "Force Temporarily"
-msgstr ""
+msgstr "Часовае прымусовае выкарыстанне"
 
 #: optionsmodel.cpp:225
 #, kde-format
 msgid "The window property will be forced to the given value until it is hidden\n"
 "(this action will be deleted after the window is hidden)."
-msgstr ""
+msgstr "Уласцівасць акна будзе мець вызначанае значэнне, пакуль яно не будзе схавана\n"
+"(гэтае дзеянне будзе выдалена пасля хавання акна)."
 
 #: package/contents/ui/FileDialogLoader.qml:14
 #, kde-format
@@ -188,23 +190,23 @@ msgstr "Абраць файл"
 #: package/contents/ui/FileDialogLoader.qml:26
 #, kde-format
 msgid "KWin Rules (*.kwinrule)"
-msgstr ""
+msgstr "Правілы KWin (*.kwinrule)"
 
 #: package/contents/ui/main.qml:59
 #, kde-format
 msgid "No rules for specific windows are currently set"
-msgstr ""
+msgstr "На дадзены момант няма правіл для пэўных акон"
 
 #: package/contents/ui/main.qml:60
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Click the <interface>Add New...</interface> button below to add some"
-msgstr ""
+msgstr "Пстрыкніце па кнопцы<interface>Дадаць...</interface>, каб дадаць"
 
 #: package/contents/ui/main.qml:68
 #, kde-format
 msgid "Select the rules to export"
-msgstr ""
+msgstr "Абраць правілы для экспартавання"
 
 #: package/contents/ui/main.qml:72
 #, kde-format
@@ -219,12 +221,12 @@ msgstr "Абраць усё"
 #: package/contents/ui/main.qml:86
 #, kde-format
 msgid "Save Rules"
-msgstr ""
+msgstr "Захаваць правілы"
 
 #: package/contents/ui/main.qml:97
 #| msgid "&New..."
 msgid "Add New..."
-msgstr ""
+msgstr "Дадаць..."
 
 #: package/contents/ui/main.qml:108
 #, kde-format
@@ -234,7 +236,7 @@ msgstr "Імпартаваць..."
 #: package/contents/ui/main.qml:116
 #, kde-format
 msgid "Cancel Export"
-msgstr ""
+msgstr "Скасаваць экспартаванне"
 
 #: package/contents/ui/main.qml:116
 #| msgid "Edit..."
@@ -244,7 +246,7 @@ msgstr "Экспартаваць..."
 #: package/contents/ui/main.qml:206
 #, kde-format
 msgid "Edit"
-msgstr "Рэдагаванне"
+msgstr "Рэдагаваць"
 
 #: package/contents/ui/main.qml:215
 #, kde-format
@@ -259,41 +261,41 @@ msgstr "Выдаліць"
 #: package/contents/ui/main.qml:237
 #, kde-format
 msgid "Import Rules"
-msgstr ""
+msgstr "Імпартаваць правілы"
 
 #: package/contents/ui/main.qml:249
 #, kde-format
 msgid "Export Rules"
-msgstr ""
+msgstr "Экспартаваць правілы"
 
 #: package/contents/ui/OptionsComboBox.qml:35
 #, kde-format
 msgid "None selected"
-msgstr ""
+msgstr "Нічога не абрана"
 
 #: package/contents/ui/OptionsComboBox.qml:41
 #, kde-format
 msgid "All selected"
-msgstr ""
+msgstr "Абрана ўсё"
 
 #: package/contents/ui/OptionsComboBox.qml:43
 #, kde-format
 msgid "%1 selected"
 msgid_plural "%1 selected"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Абрана %1"
+msgstr[1] "Абрана %1"
+msgstr[2] "Абрана %1"
+msgstr[3] "Абрана %1"
 
 #: package/contents/ui/RulesEditor.qml:63
 msgid "No window properties changed"
-msgstr ""
+msgstr "Уласцівасці акна не змененыя"
 
 #: package/contents/ui/RulesEditor.qml:64
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Click the <interface>Add Property...</interface> button below to add some window properties that will be affected by the rule"
-msgstr ""
+msgstr "Пстрыкніце па кнопцы <interface>Дадаць уласцівасць...</interface>, каб дадаць ўласцівасці акон, на якія будзе ўплываць правіла"
 
 #: package/contents/ui/RulesEditor.qml:85
 #, kde-format
@@ -303,17 +305,17 @@ msgstr "Закрыць"
 #: package/contents/ui/RulesEditor.qml:85
 #| msgid "&New..."
 msgid "Add Property..."
-msgstr ""
+msgstr "Дадаць уласцівасць..."
 
 #: package/contents/ui/RulesEditor.qml:98
 msgid "Detect Window Properties"
-msgstr ""
+msgstr "Выявіць уласцівасці акна"
 
 #: package/contents/ui/RulesEditor.qml:114
 #: package/contents/ui/RulesEditor.qml:121
 #, kde-format
 msgid "Instantly"
-msgstr ""
+msgstr "Неадкладна"
 
 #: package/contents/ui/RulesEditor.qml:115
 #: package/contents/ui/RulesEditor.qml:126
@@ -333,7 +335,7 @@ msgstr "Памылка"
 #: package/contents/ui/RulesEditor.qml:162
 #, kde-format
 msgid "Add property to the rule"
-msgstr ""
+msgstr "Дадаць уласцівасць у правіла"
 
 #: package/contents/ui/RulesEditor.qml:260
 #: package/contents/ui/ValueEditor.qml:54
@@ -352,19 +354,19 @@ msgstr "Не"
 #: package/contents/ui/ValueEditor.qml:178
 #, kde-format
 msgid "%1 %"
-msgstr ""
+msgstr "%1 %"
 
 #: package/contents/ui/RulesEditor.qml:264
 #, kde-format
 msgctxt "Coordinates (x, y)"
 msgid "(%1, %2)"
-msgstr ""
+msgstr "(%1, %2)"
 
 #: package/contents/ui/RulesEditor.qml:266
 #, kde-format
 msgctxt "Size (width, height)"
 msgid "(%1, %2)"
-msgstr ""
+msgstr "(%1, %2)"
 
 #: package/contents/ui/ValueEditor.qml:206
 #, kde-format
@@ -380,18 +382,19 @@ msgstr "Налады для %1"
 #: rulesmodel.cpp:221
 #| msgid "Window settings for %1"
 msgid "New window settings"
-msgstr ""
+msgstr "Новыя налады акна"
 
 #: rulesmodel.cpp:237
 #, kde-format
 msgid "You have specified the window class as unimportant.\n"
 "This means the settings will possibly apply to windows from all applications. If you really want to create a generic setting, it is recommended you at least limit the window types to avoid special window types."
-msgstr ""
+msgstr "Вы пазначылі, што клас акна неістотны.\n"
+"Гэта азначае, што налады будуць ужывацца да акон усіх праграм. Калі вы сапраўды хочаце стварыць агульныя налады, рэкамендуецца абмежаваць прынамсі тып акна, каб пазбегнуць асаблівых тыпаў акон."
 
 #: rulesmodel.cpp:244
 #, kde-format
 msgid "Some applications set their own geometry after starting, overriding your initial settings for size and position. To enforce these settings, also force the property \"%1\" to \"Yes\"."
-msgstr ""
+msgstr "Некаторыя праграмы выкарыстоўваюць уласную геаметрыю акон пасля запуску, перакрываючы вашыя першапачатковыя налады памеру і пазіцыі. Каб гэтыя налады ўжываліся, абярыце для ўласцівасці \"%1\" значэнне \"Так\"."
 
 #: rulesmodel.cpp:359
 #| msgid "De&scription:"
@@ -402,32 +405,32 @@ msgstr "Апісанне"
 #: rulesmodel.cpp:388 rulesmodel.cpp:396 rulesmodel.cpp:401 rulesmodel.cpp:407
 #| msgid "&Window"
 msgid "Window matching"
-msgstr ""
+msgstr "Адпаведнасць акна"
 
 #: rulesmodel.cpp:367
 #| msgid "Window &class (application type):"
 msgid "Window class (application)"
-msgstr ""
+msgstr "Клас акна (праграма)"
 
 #: rulesmodel.cpp:375
 #| msgid "Match also window &title"
 msgid "Match whole window class"
-msgstr ""
+msgstr "Адпаведнасць класа ўсяго акна"
 
 #: rulesmodel.cpp:382
 #| msgid "Match also window &title"
 msgid "Whole window class"
-msgstr ""
+msgstr "Клас усяго акна"
 
 #: rulesmodel.cpp:388
 #| msgid "Window &types:"
 msgid "Window types"
-msgstr ""
+msgstr "Тып акна"
 
 #: rulesmodel.cpp:396
 #| msgid "Window &role:"
 msgid "Window role"
-msgstr ""
+msgstr "Роля акна"
 
 #: rulesmodel.cpp:401
 #| msgid "Window t&itle:"
@@ -436,7 +439,7 @@ msgstr "Загаловак акна"
 
 #: rulesmodel.cpp:407
 msgid "Machine (hostname)"
-msgstr ""
+msgstr "Машына (назва хоста)"
 
 #: rulesmodel.cpp:413
 msgid "Position"
@@ -447,7 +450,7 @@ msgstr "Пазіцыя"
 #: rulesmodel.cpp:484 rulesmodel.cpp:489 rulesmodel.cpp:494 rulesmodel.cpp:499
 #: rulesmodel.cpp:506 rulesmodel.cpp:516 rulesmodel.cpp:521 rulesmodel.cpp:526
 msgid "Size & Position"
-msgstr ""
+msgstr "Памер і пазіцыя"
 
 #: rulesmodel.cpp:419
 #| msgid "&Size"
@@ -457,22 +460,22 @@ msgstr "Памер"
 #: rulesmodel.cpp:425
 #| msgid "Maximized &horizontally"
 msgid "Maximized horizontally"
-msgstr ""
+msgstr "Разгорнута гарызантальна"
 
 #: rulesmodel.cpp:430
 #| msgid "Maximized &vertically"
 msgid "Maximized vertically"
-msgstr ""
+msgstr "Разгорнута вертыкальна"
 
 #: rulesmodel.cpp:438
 #| msgid "All Desktops"
 msgid "Virtual Desktop"
-msgstr ""
+msgstr "Віртуальны працоўны стол"
 
 #: rulesmodel.cpp:444
 #| msgid "All Desktops"
 msgid "Virtual Desktops"
-msgstr ""
+msgstr "Віртуальныя працоўныя сталы"
 
 #: rulesmodel.cpp:463
 #, kde-format
@@ -492,21 +495,21 @@ msgstr "На ўвесь экран"
 #: rulesmodel.cpp:489
 #| msgid "M&aximum size"
 msgid "Minimized"
-msgstr ""
+msgstr "Згорнута"
 
 #: rulesmodel.cpp:494
 #, kde-format
 msgid "Shaded"
-msgstr ""
+msgstr "Згорнута ў загаловак"
 
 #: rulesmodel.cpp:499
 #, kde-format
 msgid "Initial placement"
-msgstr ""
+msgstr "Першапачатковае размяшчэнне"
 
 #: rulesmodel.cpp:506
 msgid "Ignore requested geometry"
-msgstr ""
+msgstr "Не зважаць на запытаную геаметрыю"
 
 #: rulesmodel.cpp:508
 #, kde-format
@@ -514,17 +517,18 @@ msgid "Windows can ask to appear in a certain position.\n"
 "By default this overrides the placement strategy\n"
 "what might be nasty if the client abuses the feature\n"
 "to unconditionally popup in the middle of your screen."
-msgstr ""
+msgstr "Акно можа запытваць пэўную пазіцыю з'яўлення.\n"
+"Прадвызначана гэта перакрывае стратэгію размяшчэння, што можа быць непрыемна, калі кліент злоўжывае функцыяй выплывання ў цэнтры экрана."
 
 #: rulesmodel.cpp:516
 #| msgid "M&inimum size"
 msgid "Minimum Size"
-msgstr ""
+msgstr "Мінімальны памер"
 
 #: rulesmodel.cpp:521
 #| msgid "M&aximum size"
 msgid "Maximum Size"
-msgstr ""
+msgstr "Максімальны памер"
 
 #: rulesmodel.cpp:526
 #, kde-format
