@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-09 00:49+0000\n"
-"PO-Revision-Date: 2022-11-29 15:31\n"
+"PO-Revision-Date: 2022-11-29 21:31\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -1033,27 +1033,27 @@ msgstr "Кіраўнік акон"
 #: helpers/killer/killer.cpp:38
 #| msgid "Caption of the window to be terminated."
 msgid "PID of the application to terminate"
-msgstr ""
+msgstr "PID праграмы, працэс якой трэба знішчыць"
 
 #: helpers/killer/killer.cpp:38
 #, kde-format
 msgid "pid"
-msgstr ""
+msgstr "pid"
 
 #: helpers/killer/killer.cpp:40
 #, kde-format
 msgid "Hostname on which the application is running"
-msgstr ""
+msgstr "Назва хоста, на якім працуе праграма"
 
 #: helpers/killer/killer.cpp:40
 #, kde-format
 msgid "hostname"
-msgstr ""
+msgstr "назва хоста"
 
 #: helpers/killer/killer.cpp:42
 #| msgid "Caption of the window to be terminated."
 msgid "Caption of the window to be terminated"
-msgstr ""
+msgstr "Подпіс акна, працэс якога трэба знішчыць"
 
 #: helpers/killer/killer.cpp:42
 #, kde-format
@@ -1063,7 +1063,7 @@ msgstr "подпіс"
 #: helpers/killer/killer.cpp:44
 #| msgid "Caption of the window to be terminated."
 msgid "Name of the application to be terminated"
-msgstr ""
+msgstr "Назва праграмы, працэс якой трэба знішчыць"
 
 #: helpers/killer/killer.cpp:44
 #, kde-format
@@ -1073,17 +1073,17 @@ msgstr "назва"
 #: helpers/killer/killer.cpp:46
 #, kde-format
 msgid "ID of resource belonging to the application"
-msgstr ""
+msgstr "Ідэнтыфікатар рэсурсу, які належыць праграме"
 
 #: helpers/killer/killer.cpp:46
 #, kde-format
 msgid "id"
-msgstr ""
+msgstr "ідэнтыфікатар"
 
 #: helpers/killer/killer.cpp:48
 #, kde-format
 msgid "Time of user action causing termination"
-msgstr ""
+msgstr "Час выканання дзеяння карыстальніка, які запусціў знішчэнне працэсу"
 
 #: helpers/killer/killer.cpp:48
 #, kde-format
@@ -1104,50 +1104,50 @@ msgstr "Гэтую утыліту не трэба выклікаць уласн�
 #, kde-format
 msgctxt "@info"
 msgid "<b>Application \"%1\" is not responding</b>"
-msgstr ""
+msgstr "<b>Праграма \"%1\" не адказвае</b>"
 
 #: helpers/killer/killer.cpp:86
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>You tried to close window \"%1\" from application \"%2\" (Process ID: %3) but the application is not responding.</para>"
-msgstr ""
+msgstr "<para>Вы паспрабавалі закрыць акно \"%1\" з праграмы \"%2\" (ідэнтыфікатар працэсу: %3), але праграма не адказвае.</para>"
 
 #: helpers/killer/killer.cpp:88
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>You tried to close window \"%1\" from application \"%2\" (Process ID: %3), running on host \"%4\", but the application is not responding.</para>"
-msgstr ""
+msgstr "<para>Вы паспрабавалі закрыць акно \"%1\" з праграмы \"%2\" (ідэнтыфікатар працэсу: %3), запушчанай на хосце \"%4\", але праграма не адказвае.</para>"
 
 #: helpers/killer/killer.cpp:91
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Do you want to terminate this application?</para><para><warning>Terminating the application will close all of its child windows. Any unsaved data will be lost.</warning></para>"
-msgstr ""
+msgstr "<para>Хочаце знішчыць працэс гэтай праграмы?</para><para><warning>Пры гэтым закрыюцца ўсе яе даччыныя вокны. Любыя незахаваныя даныя страцяцца.</warning></para>"
 
 #: helpers/killer/killer.cpp:94
 #, kde-format
 msgid "&Terminate Application %1"
-msgstr ""
+msgstr "&Знішчыць працэс праграмы %1"
 
 #: helpers/killer/killer.cpp:95
 #, kde-format
 msgid "Wait Longer"
-msgstr ""
+msgstr "Пачакаць яшчэ"
 
 #: input.cpp:1964
 #, kde-format
 msgid "Move the tablet to the next output"
-msgstr ""
+msgstr "Перамясціць планшэт на наступны вывад"
 
 #: input.cpp:2043
 #, kde-format
 msgid "Tablet moved to %1"
-msgstr ""
+msgstr "Планшэт перамешчаны на %1"
 
 #: input.cpp:2043
 #, kde-format
 msgid "Tablets switched outputs"
-msgstr ""
+msgstr "Пераключаныя вывады планшэтаў"
 
 #: input.cpp:3021
 #, kde-format
@@ -1157,18 +1157,19 @@ msgstr "Сэнсарная панэль"
 #: keyboard_layout.cpp:45
 #, kde-format
 msgid "Keyboard Layout Switcher"
-msgstr ""
+msgstr "Сродак пераключэння раскладак клавіятуры"
 
 #: killwindow.cpp:33
 #, kde-format
 msgid "Select window to force close with left click or enter.\n"
 "Escape or right click to cancel."
-msgstr ""
+msgstr "Абярыце акно, якое трэба прымусова закрыць, пстрыкнуўшы левай кнопкай мышы або клавішай \"Enter\".\n"
+"Націсніце \"Escape\" або пстрыкніце правай кнопкай мышы, каб скасаваць."
 
 #: main.cpp:174
 #, kde-format
 msgid "KWin"
-msgstr ""
+msgstr "KWin"
 
 #: main.cpp:176 main.cpp:199
 #, kde-format
@@ -1178,7 +1179,7 @@ msgstr "Кіраўнік акон KDE"
 #: main.cpp:178
 #| msgid "(c) 1999-2005, The KDE Developers"
 msgid "(c) 1999-2019, The KDE Developers"
-msgstr ""
+msgstr "(c) 1999-2019, распрацоўнікі KDE"
 
 #: main.cpp:180
 #, kde-format
@@ -1203,22 +1204,22 @@ msgstr "Luboš Luňák"
 #: main.cpp:184
 #, kde-format
 msgid "Martin Flöser"
-msgstr ""
+msgstr "Martin Flöser"
 
 #: main.cpp:185
 #, kde-format
 msgid "David Edmundson"
-msgstr ""
+msgstr "David Edmundson"
 
 #: main.cpp:186
 #, kde-format
 msgid "Roman Gilg"
-msgstr ""
+msgstr "Roman Gilg"
 
 #: main.cpp:187
 #, kde-format
 msgid "Vlad Zahorodnii"
-msgstr ""
+msgstr "Vlad Zahorodnii"
 
 #: main.cpp:196
 #, kde-format
@@ -1374,7 +1375,7 @@ msgstr "Замяніць ужо запушчаны кіраўнік акон, с
 #, kde-format
 msgctxt "Note this is a KRunner keyword"
 msgid "activate"
-msgstr ""
+msgstr "activate"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:52
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:54
@@ -1430,14 +1431,14 @@ msgstr "shade"
 #| msgid "Keep above others"
 msgctxt "Note this is a KRunner keyword"
 msgid "keep above"
-msgstr ""
+msgstr "keep above"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:76
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:78
 #| msgid "Keep below others"
 msgctxt "Note this is a KRunner keyword"
 msgid "keep below"
-msgstr ""
+msgstr "keep below"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:83
 #| msgid "Windows"
@@ -1455,7 +1456,7 @@ msgstr "name"
 #, kde-format
 msgctxt "Note this is a KRunner keyword"
 msgid "appname"
-msgstr ""
+msgstr "appname"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:97
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:150
@@ -2660,13 +2661,13 @@ msgstr "Пераключыцца на працоўны стол ніжэй"
 #: virtualdesktops.cpp:894
 #| msgid "Switch to Desktop 1"
 msgid "Switch to Desktop %1"
-msgstr ""
+msgstr "Пераключыцца на працоўны стол \"%1\""
 
 #: window.cpp:3433
 #, kde-format
 msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
-msgstr ""
+msgstr "(Не адказвае)"
 
 #: workspace.cpp:1672
 #, kde-format
