@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-11-10 06:47\n"
+"PO-Revision-Date: 2022-11-30 21:03\n"
 "Last-Translator: Aleś Bułojčyk <alex73mail@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -132,7 +132,9 @@ msgstr "Вы ўбачыце танцуючых мятлікаў розных к�
 #: activities/calendar/ActivityInfo.qml:25
 #: activities/click_on_letter/ActivityInfo.qml:25
 #: activities/click_on_letter_up/ActivityInfo.qml:25
-#: activities/colors/ActivityInfo.qml:25 activities/crane/ActivityInfo.qml:30
+#: activities/colors/ActivityInfo.qml:25
+#: activities/comparator/ActivityInfo.qml:28
+#: activities/crane/ActivityInfo.qml:30
 #: activities/enumerate/ActivityInfo.qml:25
 #: activities/fifteen/ActivityInfo.qml:25
 #: activities/find_the_day/ActivityInfo.qml:25
@@ -2532,17 +2534,17 @@ msgctxt "FirstScreen|"
 msgid "Braille: Unlocking the Code"
 msgstr "Брайль : раскрываем код"
 
-#: activities/braille_alphabets/FirstScreen.qml:54
+#: activities/braille_alphabets/FirstScreen.qml:53
 msgctxt "FirstScreen|"
 msgid "The braille system is a method that is used by blind people to read and write."
 msgstr "Сістэма Брайля - гэта метад, пры дапамозе якога чытаюць і пішуць людзі, страціўшыя зрок."
 
-#: activities/braille_alphabets/FirstScreen.qml:55
+#: activities/braille_alphabets/FirstScreen.qml:54
 msgctxt "FirstScreen|"
 msgid "Each braille character, or cell, is made up of six dot positions, arranged in a rectangle containing two columns of three dots each. As seen on the left, each dot is referenced by a number from 1 to 6."
 msgstr "Кожны сімвал Брайля (ці клетка) утвораны з шасці кропкавых пазіцый у выглядзе простакутніку - дзве калонкі па тры кропкі ў кожнай. Як бачна злева, кожная кропка мае парадкавы нумар ад 1 да 6."
 
-#: activities/braille_alphabets/FirstScreen.qml:79
+#: activities/braille_alphabets/FirstScreen.qml:78
 msgctxt "FirstScreen|"
 msgid "When you are ready, click on me and try reproducing braille characters."
 msgstr "Калі вы гатовыя пачаць, пстрыкніце на мне і паспрабуйце ўтвараць сімвалы Брайля."
@@ -4558,6 +4560,132 @@ msgid "Continue"
 msgstr "Працягнуць"
 
 #. Activity title
+#: activities/comparator/ActivityInfo.qml:17
+#| msgctxt "ActivityConfig|"
+#| msgid "Roman numbers"
+msgctxt "ActivityInfo|"
+msgid "Compare numbers"
+msgstr ""
+
+#. Help title
+#: activities/comparator/ActivityInfo.qml:19
+msgctxt "ActivityInfo|"
+msgid "Compare the numbers and choose the corresponding sign."
+msgstr ""
+
+#. Help goal
+#: activities/comparator/ActivityInfo.qml:22
+#| msgctxt "ActivityInfo|"
+#| msgid "Learn about prime numbers."
+msgctxt "ActivityInfo|"
+msgid "Learn how to compare number values."
+msgstr ""
+
+#. Help manual
+#: activities/comparator/ActivityInfo.qml:26
+msgctxt "ActivityInfo|"
+msgid "Select a pair of numbers in the list. Then select the correct comparison symbol for this pair. When each line contains a symbol, select the OK button to validate the answers."
+msgstr ""
+
+#: activities/comparator/ActivityInfo.qml:27
+msgctxt "ActivityInfo|"
+msgid "If some answers are incorrect, a cross icon will appear on the corresponding lines. Correct the errors, then select the OK button again."
+msgstr ""
+
+#: activities/comparator/ActivityInfo.qml:29
+#| msgctxt "ActivityInfo|"
+#| msgid "Down arrow: select previous item"
+msgctxt "ActivityInfo|"
+msgid "Up and Down arrows: select a pair of numbers in the list"
+msgstr ""
+
+#: activities/comparator/ActivityInfo.qml:30
+#| msgctxt "ActivityInfo|"
+#| msgid "Left and Right arrows: turn left and right"
+msgctxt "ActivityInfo|"
+msgid "Left and Right arrows: select a symbol button"
+msgstr ""
+
+#: activities/comparator/ActivityInfo.qml:31
+msgctxt "ActivityInfo|"
+msgid "Space: if a symbol button is selected, enter this symbol"
+msgstr ""
+
+#: activities/comparator/ActivityInfo.qml:32
+#| msgctxt "ActivityInfo|"
+#| msgid "Enter: validate your answer"
+msgctxt "ActivityInfo|"
+msgid "Return: validate the answers"
+msgstr ""
+
+#: activities/comparator/ActivityInfo.qml:33
+msgctxt "ActivityInfo|"
+msgid "&lt;, &gt; or =: enter the corresponding symbol"
+msgstr ""
+
+#: activities/comparator/resource/1/Data.qml:36
+#| msgctxt "Data|"
+#| msgid "Numbers from 0 to 9."
+msgctxt "Data|"
+msgid "Numbers from 1 to 9."
+msgstr ""
+
+#: activities/comparator/resource/10/Data.qml:14
+msgctxt "Data|"
+msgid "3 decimal places between 0 and 999."
+msgstr ""
+
+#: activities/comparator/resource/2/Data.qml:14
+#| msgctxt "Data|"
+#| msgid "Numbers from 0 to 9."
+msgctxt "Data|"
+msgid "Numbers from 1 to 19."
+msgstr ""
+
+#: activities/comparator/resource/3/Data.qml:14
+#| msgctxt "Data|"
+#| msgid "Numbers from 0 to 9."
+msgctxt "Data|"
+msgid "Numbers from 1 to 100."
+msgstr ""
+
+#: activities/comparator/resource/4/Data.qml:14
+#| msgctxt "Data|"
+#| msgid "Numbers from 0 to 9."
+msgctxt "Data|"
+msgid "Numbers from 1 to 1000."
+msgstr ""
+
+#: activities/comparator/resource/5/Data.qml:14
+#| msgctxt "Data|"
+#| msgid "Numbers from 0 to 9."
+msgctxt "Data|"
+msgid "Numbers from 1 to 1000000."
+msgstr ""
+
+#: activities/comparator/resource/6/Data.qml:14
+#| msgctxt "Data|"
+#| msgid "Numbers from 0 to 9."
+msgctxt "Data|"
+msgid "Numbers from 1 to 1 billion."
+msgstr ""
+
+#: activities/comparator/resource/7/Data.qml:14
+msgctxt "Data|"
+msgid "1 decimal place between 0 and 9, same integer part."
+msgstr ""
+
+#: activities/comparator/resource/8/Data.qml:14
+msgctxt "Data|"
+msgid "1 decimal place between 0 and 9."
+msgstr ""
+
+#: activities/comparator/resource/9/Data.qml:14
+msgctxt "Data|"
+msgid "2 decimal places between 0 and 99.99."
+msgstr ""
+
+#. Activity title
 #: activities/crane/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Build the same model"
@@ -5574,13 +5702,15 @@ msgstr "Конь"
 
 #: activities/explore_farm_animals/resource/board/board1.qml:22
 msgctxt "board1|"
-msgid "The horse goes 'neigh! neigh!'. Horses usually sleep standing up."
-msgstr "Конь іржэ: \"І-го-го!\". Коні звычайна спяць стоячы."
+msgid "The horse goes 'neigh'. Horses are adapted to run, allowing them to quickly escape predators, and possess an excellent sense of balance. They have single-toed hooves."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:25
+#| msgctxt "board1|"
+#| msgid "This animal's ancestors were wolves."
 msgctxt "board1|"
-msgid "You can ride on the back of this animal!"
-msgstr "Вы можаце ездзіць вярхом на гэтай жывёле!"
+msgid "This animal has single-toed hooves."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:33
 msgctxt "board1|"
@@ -5589,13 +5719,15 @@ msgstr "Кураняты"
 
 #: activities/explore_farm_animals/resource/board/board1.qml:34
 msgctxt "board1|"
-msgid "The chicken goes 'luck, cackle, cluck'. Chickens have over 200 different noises they can use to communicate."
-msgstr "Курыца кудахча : \"Ко, ко, ко!\" Курыцы маюць больш за 200 гукаў, якія яны выкарыстоўваюць для зносін."
+msgid "The chicken goes 'cluck'. Domestic chickens have wings, but are not capable of long-distance flight. They have a comb on their head."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:37
+#| msgctxt "board1|"
+#| msgid "This animal likes to come out at night."
 msgctxt "board1|"
-msgid "This animal lays eggs."
-msgstr "Гэтая жывёла адкладвае яйкі."
+msgid "This animal has a comb on its head."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:45
 msgctxt "board1|"
@@ -5604,13 +5736,13 @@ msgstr "Карова"
 
 #: activities/explore_farm_animals/resource/board/board1.qml:46
 msgctxt "board1|"
-msgid "The cow goes 'moo! moo!'. Cows are herbivorous mammals. They graze all day in the meadow."
-msgstr "Карова рыкае: \"Му, му\". Карова - гэта траваеднае млекакормячае. Яна цэлы дзень пасвіцца на лугу."
+msgid "The cow goes 'moo'. Cows have a wide field of view of 330°. They have a well-developed sense of taste, with around 20,000 taste buds. They can detect odours 8km away."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:49
 msgctxt "board1|"
-msgid "You can drink the milk this animal produces."
-msgstr "Можна піць малако гэтай жывёлы."
+msgid "This animal has around 20,000 taste buds."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:57
 msgctxt "board1|"
@@ -5619,13 +5751,15 @@ msgstr "Котка"
 
 #: activities/explore_farm_animals/resource/board/board1.qml:58
 msgctxt "board1|"
-msgid "The cat goes 'meow, meow'. Cats usually hate water because their fur doesn't stay warm when it is wet."
-msgstr "Котка мяўкае: \"Мяў, мяў\". Коткі звычайна ненавідзяць ваду, таму што іх мех не трымае цяпло калі намякне."
+msgid "The cat goes 'meow'. Cats are valued by humans for companionship and their ability to chase mice and other rodents. They purr to communicate various emotions."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:61
+#| msgctxt "board1|"
+#| msgid "This animal lays eggs."
 msgctxt "board1|"
-msgid "This pet likes chasing mice."
-msgstr "Гэтая жывёла любіць лавіць мышэй."
+msgid "This animal can purr."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:69
 msgctxt "board1|"
@@ -5634,13 +5768,13 @@ msgstr "Свіння"
 
 #: activities/explore_farm_animals/resource/board/board1.qml:70
 msgctxt "board1|"
-msgid "The pig goes 'oink, oink'. Pigs are the 4th most intelligent animal."
-msgstr "Свіння рохкае: \"Хру, хру\". Свінні - сярод чатырох самых разумных жывёлаў."
+msgid "The pig goes 'oink'. Pigs wallow in the mud, mainly to control their body temperature."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:73
 msgctxt "board1|"
-msgid "This animal likes to lie in the mud."
-msgstr "Гэтая жывёла любіць ляжаць у гразі."
+msgid "This animal wallows in the mud to control its body temperature."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:81
 msgctxt "board1|"
@@ -5649,13 +5783,15 @@ msgstr "Качка"
 
 #: activities/explore_farm_animals/resource/board/board1.qml:82
 msgctxt "board1|"
-msgid "The duck goes 'quack, quack'. Ducks have special features like webbed feet and produce an oil to make their feathers 'waterproof'."
-msgstr "Качка кракае: \"Кра, кра\". Адметнымі асаблівасцямі качак з'яўляюцца перапончатыя лапы і выдзяленне масла для 'воданепранікальнасці' іхняга пер'я."
+msgid "The duck goes 'quack'. Ducks are mostly aquatic birds. They have waterproof feathers and webbed feet which enable them to swim on the water."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:85
+#| msgctxt "board1|"
+#| msgid "This animal has webbed feet so it can swim in the water."
 msgctxt "board1|"
-msgid "This animal has webbed feet so it can swim in the water."
-msgstr "У гэтай жывёлы перапончатыя лапы, і таму яна можа плаваць па вадзе."
+msgid "This animal has webbed feet and can swim on the water."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:93
 msgctxt "board1|"
@@ -5663,14 +5799,20 @@ msgid "Owl"
 msgstr "Сава"
 
 #: activities/explore_farm_animals/resource/board/board1.qml:94
+#| msgctxt "board1|"
+#| msgid ""
+#| "The owl goes 'hoo. hoo.' The owl has excellent vision and hearing at "
+#| "night."
 msgctxt "board1|"
-msgid "The owl goes 'hoo. hoo.' The owl has excellent vision and hearing at night."
-msgstr "Cава вухкае: \"У, у\". У савы выключныя зрок і слых уначы."
+msgid "The owl goes 'hoot'. Owls are nocturnal birds, they have excellent vision and hearing at night."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:97
+#| msgctxt "board1|"
+#| msgid "This animal likes to come out at night."
 msgctxt "board1|"
-msgid "This animal likes to come out at night."
-msgstr "Гэтая жывёла любіць выходзіць ноччу."
+msgid "This animal is a nocturnal bird."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:105
 msgctxt "board1|"
@@ -5679,55 +5821,44 @@ msgstr "Сабака"
 
 #: activities/explore_farm_animals/resource/board/board1.qml:106
 msgctxt "board1|"
-msgid "The dog goes 'bark! bark!'. Dogs are great human companions and usually enjoy love and attention."
-msgstr "Сабака брэша: \"Гаў, гаў\". Сабакі - лепшыя сябры чалавеку, і звычайна ім падабаецца любоў і ўвага."
+msgid "The dog goes 'woof'. Dogs are probably the oldest domesticated species. They are descendants of the wolf."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:109
+#| msgctxt "board1|"
+#| msgid "This animal is a close relative to the goat."
 msgctxt "board1|"
-msgid "This animal's ancestors were wolves."
-msgstr "Продкамі гэтых жывёлаў ёсць ваўкі."
+msgid "This animal is a descendant of the wolf."
+msgstr ""
 
 #: activities/explore_farm_animals/resource/board/board1.qml:117
-msgctxt "board1|"
-msgid "Rooster"
-msgstr "Певень"
-
-#: activities/explore_farm_animals/resource/board/board1.qml:118
-msgctxt "board1|"
-msgid "The rooster goes 'coc-a-doodle-doo!'. Roosters have been on farms for about 5,000 years. Every morning it wakes the farm up with its noises."
-msgstr "Певень кукарэкае: \"Ку-ка-рэ-ку!\". Пеўні гадуюцца на фермах ужо каля 5000 год. Кожную раніцу певень будзіць ферму сваім крыкам."
-
-#: activities/explore_farm_animals/resource/board/board1.qml:121
-msgctxt "board1|"
-msgid "This animal wakes the farm up in the morning."
-msgstr "Гэтая жывёла раніцаю будзіць ферму."
-
-#: activities/explore_farm_animals/resource/board/board1.qml:129
 msgctxt "board1|"
 msgid "Sheep"
 msgstr "Авечка"
 
-#: activities/explore_farm_animals/resource/board/board1.qml:130
+#: activities/explore_farm_animals/resource/board/board1.qml:118
 msgctxt "board1|"
-msgid "The sheep is a mammal that bears a fleece of wool. It is a grazing herbivore, bred for its wool, its meat, and its milk. The fleece can be removed and used to produce articles of clothing and blankets, among other things."
-msgstr "Авечка - гэта млекакормячае, што носіць ваўнянае футра. Гэта траваедныя, якія пасвяцца і гадуюцца дзеля іх воўны, мяса і малака. Футра састрыгаецца і, сярод іншага, выкарыстоўваецца ў якасці матэрыялу для адзення і ўцяпляльніку."
+msgid "The sheep goes 'baa'. Most sheep breeds bear a fleece of wool. The fleece can be sheared and used to produce textile fibre."
+msgstr ""
 
-#: activities/explore_farm_animals/resource/board/board1.qml:133
+#: activities/explore_farm_animals/resource/board/board1.qml:121
+#| msgctxt "board1|"
+#| msgid "This animal's ancestors were wolves."
 msgctxt "board1|"
-msgid "This animal is a close relative to the goat."
-msgstr "Гэтая жывёла - блізкі родзіч казе."
+msgid "This animal produces wool."
+msgstr ""
 
-#: activities/explore_farm_animals/resource/board/board1.qml:143
+#: activities/explore_farm_animals/resource/board/board1.qml:131
 msgctxt "board1|"
 msgid "Click on each farm animal to discover them."
 msgstr "Пстрыкніце па любой жывёле з фермы, каб даведацца болей пра іх."
 
-#: activities/explore_farm_animals/resource/board/board1.qml:146
+#: activities/explore_farm_animals/resource/board/board1.qml:134
 msgctxt "board1|"
 msgid "Click on the farm animal that makes the sound you hear."
 msgstr "Пстрыкніце па жывёле з фермы, што выдае гук, які вы чуеце."
 
-#: activities/explore_farm_animals/resource/board/board1.qml:149
+#: activities/explore_farm_animals/resource/board/board1.qml:137
 msgctxt "board1|"
 msgid "Click the animal that matches the description."
 msgstr "Пстрыкніце па жывёле, што пасуе да апісання."
@@ -15766,92 +15897,92 @@ msgctxt "ConfigurationItem|"
 msgid "All lowercase"
 msgstr "Усе малыя"
 
-#: activities/menu/Menu.qml:84
+#: activities/menu/Menu.qml:85
 msgctxt "Menu|"
 msgid "You selected a new locale, you need to restart GCompris to use it.<br/>Do you want to download the corresponding sound files now?"
 msgstr "Вы выбралі новую лакалізацыю. Каб ужыць новую лакалізацыю, трэба перазапусціць GCompris<br/>Ці жадаеце зараз зладаваць адпаведныя аўдыёфайлы?"
 
-#: activities/menu/Menu.qml:85
+#: activities/menu/Menu.qml:86
 msgctxt "Menu|"
 msgid "Yes"
 msgstr "Так"
 
-#: activities/menu/Menu.qml:91
+#: activities/menu/Menu.qml:92
 msgctxt "Menu|"
 msgid "No"
 msgstr "Не"
 
-#: activities/menu/Menu.qml:121
+#: activities/menu/Menu.qml:122
 msgctxt "Menu|"
 msgid "Logic"
 msgstr "Логіка"
 
-#: activities/menu/Menu.qml:122
+#: activities/menu/Menu.qml:123
 msgctxt "Menu|"
 msgid "Fine Arts"
 msgstr "Выяўленчае мастацтва"
 
-#: activities/menu/Menu.qml:123
+#: activities/menu/Menu.qml:124
 msgctxt "Menu|"
 msgid "Music"
 msgstr "Музыка"
 
-#: activities/menu/Menu.qml:129
+#: activities/menu/Menu.qml:130
 msgctxt "Menu|"
 msgid "Experiment"
 msgstr "Эксперымент"
 
-#: activities/menu/Menu.qml:130
+#: activities/menu/Menu.qml:131
 msgctxt "Menu|"
 msgid "History"
 msgstr "Гісторыя"
 
-#: activities/menu/Menu.qml:131
+#: activities/menu/Menu.qml:132
 msgctxt "Menu|"
 msgid "Geography"
 msgstr "Геаграфія"
 
-#: activities/menu/Menu.qml:141
+#: activities/menu/Menu.qml:142
 msgctxt "Menu|"
 msgid "Numeration"
 msgstr "Пералік"
 
-#: activities/menu/Menu.qml:142
+#: activities/menu/Menu.qml:143
 msgctxt "Menu|"
 msgid "Arithmetic"
 msgstr "Арыфметыка"
 
-#: activities/menu/Menu.qml:143
+#: activities/menu/Menu.qml:144
 msgctxt "Menu|"
 msgid "Measures"
 msgstr "Вымярэнні"
 
-#: activities/menu/Menu.qml:153
+#: activities/menu/Menu.qml:154
 msgctxt "Menu|"
 msgid "Letters"
 msgstr "Літары"
 
-#: activities/menu/Menu.qml:154
+#: activities/menu/Menu.qml:155
 msgctxt "Menu|"
 msgid "Words"
 msgstr "Словы"
 
-#: activities/menu/Menu.qml:155
+#: activities/menu/Menu.qml:156
 msgctxt "Menu|"
 msgid "Vocabulary"
 msgstr "Слоўнік"
 
-#: activities/menu/Menu.qml:371
+#: activities/menu/Menu.qml:372
 msgctxt "Menu|"
 msgid "Put your favorite activities here by clicking on the sun at the top right of that activity."
 msgstr "Дадайце сюды свае ўлюбёныя практыкаванні, пазначыўшы іх сонейкам у правым верхнім кутку значка практыкавання."
 
-#: activities/menu/Menu.qml:773
+#: activities/menu/Menu.qml:774
 msgctxt "Menu|"
 msgid "Search specific activities"
 msgstr "Пошук пэўных практыкаванняў"
 
-#: activities/menu/Menu.qml:800
+#: activities/menu/Menu.qml:801
 msgctxt "Menu|"
 msgid "Activity Settings"
 msgstr "Налады практыкавання"
@@ -16179,12 +16310,12 @@ msgctxt "FirstScreen|"
 msgid "Exploring Morse Code"
 msgstr ""
 
-#: activities/morse_code/FirstScreen.qml:52
+#: activities/morse_code/FirstScreen.qml:64
 msgctxt "FirstScreen|"
 msgid "Morse code was developed by Samuel Morse. It is a method of transmitting text information as a series of on-off tones, lights, or clicks."
 msgstr ""
 
-#: activities/morse_code/FirstScreen.qml:53
+#: activities/morse_code/FirstScreen.qml:65
 msgctxt "FirstScreen|"
 msgid "Each Morse code symbol represents either a text character (letter or numeral) or a prosign and is represented by a unique sequence of dots and dashes. The duration of a dash is three times the duration of a dot. To increase the speed of the communication, the code was designed so that the most common letters have the shorter sequences of dots and dashes.\n"
 "For example, the most common letter in English, the letter \"E\", has the shortest code, a single dot."
@@ -16198,14 +16329,14 @@ msgctxt "FirstScreen|"
 msgid "When you are ready, click on Tux and we will converse in Morse code."
 msgstr ""
 
-#: activities/morse_code/MorseCode.qml:332
+#: activities/morse_code/MorseCode.qml:346
 #| msgctxt "RomanNumerals|"
 #| msgid "Roman value: %1"
 msgctxt "MorseCode|"
 msgid "Morse value: %1"
 msgstr ""
 
-#: activities/morse_code/MorseCode.qml:333
+#: activities/morse_code/MorseCode.qml:347
 #| msgctxt "RomanNumerals|"
 #| msgid "Arabic value: %1"
 msgctxt "MorseCode|"
@@ -22565,6 +22696,101 @@ msgstr "Прапусціць"
 msgctxt "Tutorial|"
 msgid "Start"
 msgstr "Пачаць"
+
+#~ msgctxt "board1|"
+#~ msgid "The horse goes 'neigh! neigh!'. Horses usually sleep standing up."
+#~ msgstr "Конь іржэ: \"І-го-го!\". Коні звычайна спяць стоячы."
+
+#~ msgctxt "board1|"
+#~ msgid "You can ride on the back of this animal!"
+#~ msgstr "Вы можаце ездзіць вярхом на гэтай жывёле!"
+
+#~ msgctxt "board1|"
+#~ msgid ""
+#~ "The chicken goes 'luck, cackle, cluck'. Chickens have over 200 different "
+#~ "noises they can use to communicate."
+#~ msgstr ""
+#~ "Курыца кудахча : \"Ко, ко, ко!\" Курыцы маюць больш за 200 гукаў, якія "
+#~ "яны выкарыстоўваюць для зносін."
+
+#~ msgctxt "board1|"
+#~ msgid ""
+#~ "The cow goes 'moo! moo!'. Cows are herbivorous mammals. They graze all "
+#~ "day in the meadow."
+#~ msgstr ""
+#~ "Карова рыкае: \"Му, му\". Карова - гэта траваеднае млекакормячае. Яна "
+#~ "цэлы дзень пасвіцца на лугу."
+
+#~ msgctxt "board1|"
+#~ msgid "You can drink the milk this animal produces."
+#~ msgstr "Можна піць малако гэтай жывёлы."
+
+#~ msgctxt "board1|"
+#~ msgid ""
+#~ "The cat goes 'meow, meow'. Cats usually hate water because their fur "
+#~ "doesn't stay warm when it is wet."
+#~ msgstr ""
+#~ "Котка мяўкае: \"Мяў, мяў\". Коткі звычайна ненавідзяць ваду, таму што іх "
+#~ "мех не трымае цяпло калі намякне."
+
+#~ msgctxt "board1|"
+#~ msgid "This pet likes chasing mice."
+#~ msgstr "Гэтая жывёла любіць лавіць мышэй."
+
+#~ msgctxt "board1|"
+#~ msgid "The pig goes 'oink, oink'. Pigs are the 4th most intelligent animal."
+#~ msgstr ""
+#~ "Свіння рохкае: \"Хру, хру\". Свінні - сярод чатырох самых разумных "
+#~ "жывёлаў."
+
+#~ msgctxt "board1|"
+#~ msgid "This animal likes to lie in the mud."
+#~ msgstr "Гэтая жывёла любіць ляжаць у гразі."
+
+#~ msgctxt "board1|"
+#~ msgid ""
+#~ "The duck goes 'quack, quack'. Ducks have special features like webbed "
+#~ "feet and produce an oil to make their feathers 'waterproof'."
+#~ msgstr ""
+#~ "Качка кракае: \"Кра, кра\". Адметнымі асаблівасцямі качак з'яўляюцца "
+#~ "перапончатыя лапы і выдзяленне масла для 'воданепранікальнасці' іхняга "
+#~ "пер'я."
+
+#~ msgctxt "board1|"
+#~ msgid ""
+#~ "The dog goes 'bark! bark!'. Dogs are great human companions and usually "
+#~ "enjoy love and attention."
+#~ msgstr ""
+#~ "Сабака брэша: \"Гаў, гаў\". Сабакі - лепшыя сябры чалавеку, і звычайна ім "
+#~ "падабаецца любоў і ўвага."
+
+#~ msgctxt "board1|"
+#~ msgid "Rooster"
+#~ msgstr "Певень"
+
+#~ msgctxt "board1|"
+#~ msgid ""
+#~ "The rooster goes 'coc-a-doodle-doo!'. Roosters have been on farms for "
+#~ "about 5,000 years. Every morning it wakes the farm up with its noises."
+#~ msgstr ""
+#~ "Певень кукарэкае: \"Ку-ка-рэ-ку!\". Пеўні гадуюцца на фермах ужо каля "
+#~ "5000 год. Кожную раніцу певень будзіць ферму сваім крыкам."
+
+#~ msgctxt "board1|"
+#~ msgid "This animal wakes the farm up in the morning."
+#~ msgstr "Гэтая жывёла раніцаю будзіць ферму."
+
+#~ msgctxt "board1|"
+#~ msgid ""
+#~ "The sheep is a mammal that bears a fleece of wool. It is a grazing "
+#~ "herbivore, bred for its wool, its meat, and its milk. The fleece can be "
+#~ "removed and used to produce articles of clothing and blankets, among "
+#~ "other things."
+#~ msgstr ""
+#~ "Авечка - гэта млекакормячае, што носіць ваўнянае футра. Гэта траваедныя, "
+#~ "якія пасвяцца і гадуюцца дзеля іх воўны, мяса і малака. Футра "
+#~ "састрыгаецца і, сярод іншага, выкарыстоўваецца ў якасці матэрыялу для "
+#~ "адзення і ўцяпляльніку."
 
 #~ msgctxt "ActivityInfo|"
 #~ msgid "Case assoрэгістраciation memory game"
