@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-04 00:42+0000\n"
-"PO-Revision-Date: 2022-11-10 12:10\n"
+"POT-Creation-Date: 2022-11-29 00:43+0000\n"
+"PO-Revision-Date: 2022-11-30 21:05\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -87,7 +87,7 @@ msgstr "Файл ужо існуе"
 msgid "Already Exists as Folder"
 msgstr "Ужо існуе каталог з такой назвай"
 
-#: core/copyjob.cpp:1887 ioslaves/trash/kio_trash.cpp:288
+#: core/copyjob.cpp:1887 ioslaves/trash/kio_trash.cpp:286
 #, kde-format
 msgid "Trash"
 msgstr "Сметніца"
@@ -1675,7 +1675,7 @@ msgstr "Хоць з серверам і ўдалося звязацца, але 
 msgid "The server was too busy responding to other requests to respond."
 msgstr "Сервер быў занадта заняты адказамі на іншыя запыты, каб адказаць."
 
-#: core/job_error.cpp:1115 core/slavebase.cpp:1610
+#: core/job_error.cpp:1115 core/slavebase.cpp:1613
 #, kde-format
 msgid "Unknown Error"
 msgstr "Невядомая памылка"
@@ -1920,189 +1920,189 @@ msgstr "Не ўдалося стварыць сокет для запуску io
 msgid "Can not find 'kioslave5' executable at '%1'"
 msgstr "Не ўдалося знайсці выканальны файл \"kioslave5\" у \"%1\""
 
-#: core/slavebase.cpp:866
+#: core/slavebase.cpp:869
 #, kde-format
 msgid "Opening connections is not supported with the protocol %1."
 msgstr "Пратакол %1 не падтрымлівае адкрыццё злучэнняў."
 
-#: core/slavebase.cpp:868
+#: core/slavebase.cpp:871
 #, kde-format
 msgid "Closing connections is not supported with the protocol %1."
 msgstr "Пратакол %1 не падтрымлівае закрыццё злучэнняў."
 
-#: core/slavebase.cpp:870
+#: core/slavebase.cpp:873
 #, kde-format
 msgid "Accessing files is not supported with the protocol %1."
 msgstr "Пратакол %1 не падтрымлівае доступ да файлаў."
 
-#: core/slavebase.cpp:872
+#: core/slavebase.cpp:875
 #, kde-format
 msgid "Writing to %1 is not supported."
 msgstr "Запіс у %1 не падтрымліваецца."
 
-#: core/slavebase.cpp:874
+#: core/slavebase.cpp:877
 #, kde-format
 msgid "There are no special actions available for protocol %1."
 msgstr "Адмысловыя дзеянні недаступныя для пратакола %1."
 
-#: core/slavebase.cpp:876
+#: core/slavebase.cpp:879
 #, kde-format
 msgid "Listing folders is not supported for protocol %1."
 msgstr "Атрыманне спіса каталогаў не падтрымліваецца пратаколам %1."
 
-#: core/slavebase.cpp:878
+#: core/slavebase.cpp:881
 #, kde-format
 msgid "Retrieving data from %1 is not supported."
 msgstr "Атрыманне даных з %1 не падтрымліваецца."
 
-#: core/slavebase.cpp:880
+#: core/slavebase.cpp:883
 #, kde-format
 msgid "Retrieving mime type information from %1 is not supported."
 msgstr "Атрыманне звестак пра тыпы mime з %1 не падтрымліваецца."
 
-#: core/slavebase.cpp:882
+#: core/slavebase.cpp:885
 #, kde-format
 msgid "Renaming or moving files within %1 is not supported."
 msgstr "Змена назвы ці перамяшчэнне файлаў у %1 не падтрымліваецца."
 
-#: core/slavebase.cpp:884
+#: core/slavebase.cpp:887
 #, kde-format
 msgid "Creating symlinks is not supported with protocol %1."
 msgstr "Стварэнне сімвалічных спасылак не падтрымліваецца пратаколам %1."
 
-#: core/slavebase.cpp:886
+#: core/slavebase.cpp:889
 #, kde-format
 msgid "Copying files within %1 is not supported."
 msgstr "Капіяванне файлаў з %1 не падтрымліваецца."
 
-#: core/slavebase.cpp:888
+#: core/slavebase.cpp:891
 #, kde-format
 msgid "Deleting files from %1 is not supported."
 msgstr "Выдаленне файлаў з %1 не падтрымліваецца."
 
-#: core/slavebase.cpp:890
+#: core/slavebase.cpp:893
 #, kde-format
 msgid "Creating folders is not supported with protocol %1."
 msgstr "Стварэнне каталогаў не падтрымліваецца пратаколам %1."
 
-#: core/slavebase.cpp:892
+#: core/slavebase.cpp:895
 #, kde-format
 msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr "Змена атрыбутаў файлаў не падтрымліваецца пратаколам %1."
 
-#: core/slavebase.cpp:894
+#: core/slavebase.cpp:897
 #, kde-format
 msgid "Changing the ownership of files is not supported with protocol %1."
 msgstr "Змена уласніка файлаў не падтрымліваецца пратаколам %1."
 
-#: core/slavebase.cpp:896
+#: core/slavebase.cpp:899
 #, kde-format
 msgid "Using sub-URLs with %1 is not supported."
 msgstr "Укладзеныя URL-адрасы з %1 не падтрымліваюцца."
 
-#: core/slavebase.cpp:898
+#: core/slavebase.cpp:901
 #, kde-format
 msgid "Multiple get is not supported with protocol %1."
 msgstr "Масавае атрыманне не падтрымліваецца пратаколам %1."
 
-#: core/slavebase.cpp:900
+#: core/slavebase.cpp:903
 #, kde-format
 msgid "Opening files is not supported with protocol %1."
 msgstr "Пратакол %1 не падтрымлівае адкрыццё файлаў."
 
-#: core/slavebase.cpp:902
+#: core/slavebase.cpp:905
 #, kde-format
 msgid "Protocol %1 does not support action %2."
 msgstr "Пратакол %1 не падтрымлівае дзеянне %2."
 
-#: core/slavebase.cpp:1077
+#: core/slavebase.cpp:1080
 #, kde-format
 msgid "&Yes"
 msgstr "&Так"
 
-#: core/slavebase.cpp:1078
+#: core/slavebase.cpp:1081
 #, kde-format
 msgid "&No"
 msgstr "&Не"
 
-#: core/slaveinterface.cpp:422 core/tcpslavebase.cpp:535
+#: core/slaveinterface.cpp:422 core/tcpslavebase.cpp:537
 #: core/tcpworkerbase.cpp:530 widgets/sslui.cpp:69
 #, kde-format
 msgid "&Details"
 msgstr "&Падрабязнасці"
 
-#: core/slaveinterface.cpp:424 core/tcpslavebase.cpp:548
+#: core/slaveinterface.cpp:424 core/tcpslavebase.cpp:550
 #: core/tcpworkerbase.cpp:543 widgets/sslui.cpp:105
 #, kde-format
 msgid "&Forever"
 msgstr "&Заўсёды"
 
-#: core/slaveinterface.cpp:428 core/tcpslavebase.cpp:535
+#: core/slaveinterface.cpp:428 core/tcpslavebase.cpp:537
 #: core/tcpworkerbase.cpp:530 widgets/sslui.cpp:70
 #, kde-format
 msgid "Co&ntinue"
 msgstr "Пр&ацягнуць"
 
-#: core/slaveinterface.cpp:430 core/tcpslavebase.cpp:549
+#: core/slaveinterface.cpp:430 core/tcpslavebase.cpp:551
 #: core/tcpworkerbase.cpp:544 widgets/sslui.cpp:106
 #, kde-format
 msgid "&Current Session only"
 msgstr "Т&олькі бягучы сеанс"
 
-#: core/tcpslavebase.cpp:285 core/tcpworkerbase.cpp:278
+#: core/tcpslavebase.cpp:287 core/tcpworkerbase.cpp:278
 #, kde-format
 msgid "You are about to leave secure mode. Transmissions will no longer be encrypted.\n"
 "This means that a third party could observe your data in transit."
 msgstr "Вы збіраецеся выйсці з бяспечнага рэжыму. Перадачы больш не будуць шыфравацца.\n"
 "Гэта азначае, што трэці бок зможа ўбачыць вашыя даныя падчас перадачы."
 
-#: core/tcpslavebase.cpp:291 core/tcpslavebase.cpp:486
+#: core/tcpslavebase.cpp:293 core/tcpslavebase.cpp:488
 #: core/tcpworkerbase.cpp:284 core/tcpworkerbase.cpp:480
 #, kde-format
 msgid "Security Information"
 msgstr "Звесткі пра бяспеку"
 
-#: core/tcpslavebase.cpp:292 core/tcpworkerbase.cpp:285
+#: core/tcpslavebase.cpp:294 core/tcpworkerbase.cpp:285
 #, kde-format
 msgid "C&ontinue Loading"
 msgstr "П&рацягнуць загрузку"
 
-#: core/tcpslavebase.cpp:345 core/tcpworkerbase.cpp:338
+#: core/tcpslavebase.cpp:347 core/tcpworkerbase.cpp:338
 #, kde-format
 msgctxt "%1 is a host name"
 msgid "%1: SSL negotiation failed"
 msgstr "%1: не ўдалося выканаць узгадненне для SSL"
 
-#: core/tcpslavebase.cpp:480 core/tcpworkerbase.cpp:474
+#: core/tcpslavebase.cpp:482 core/tcpworkerbase.cpp:474
 #, kde-format
 msgid "You are about to enter secure mode. All transmissions will be encrypted unless otherwise noted.\n"
 "This means that no third party will be able to easily observe your data in transit."
 msgstr "Вы збіраецеся ўвайсці ў бяспечны рэжым. Усе перадачы будуць шыфравацца, калі не абрана іншае.\n"
 "Гэта азначае, што трэція асобы не змогуць лёгка атрымаць доступ ла вашых даных падчас перадачы."
 
-#: core/tcpslavebase.cpp:487 core/tcpworkerbase.cpp:481
+#: core/tcpslavebase.cpp:489 core/tcpworkerbase.cpp:481
 #, kde-format
 msgid "Display SSL &Information"
 msgstr "Паказаць &звесткі пра SSL"
 
-#: core/tcpslavebase.cpp:488 core/tcpworkerbase.cpp:482
+#: core/tcpslavebase.cpp:490 core/tcpworkerbase.cpp:482
 #, kde-format
 msgid "C&onnect"
 msgstr "Пад&лучыцца"
 
-#: core/tcpslavebase.cpp:526 core/tcpworkerbase.cpp:521 widgets/sslui.cpp:58
+#: core/tcpslavebase.cpp:528 core/tcpworkerbase.cpp:521 widgets/sslui.cpp:58
 #, kde-format
 msgid "The server failed the authenticity check (%1).\n\n"
 msgstr "Сервер не прайшоў правяранне сапраўднасці (%1).\n\n"
 
-#: core/tcpslavebase.cpp:535 core/tcpslavebase.cpp:547
+#: core/tcpslavebase.cpp:537 core/tcpslavebase.cpp:549
 #: core/tcpworkerbase.cpp:530 core/tcpworkerbase.cpp:542 widgets/sslui.cpp:68
 #: widgets/sslui.cpp:104
 #, kde-format
 msgid "Server Authentication"
 msgstr "Аўтэнтыфікацыя сервера"
 
-#: core/tcpslavebase.cpp:544 core/tcpworkerbase.cpp:539 widgets/sslui.cpp:101
+#: core/tcpslavebase.cpp:546 core/tcpworkerbase.cpp:539 widgets/sslui.cpp:101
 #, kde-format
 msgid "Would you like to accept this certificate forever without being prompted?"
 msgstr "Хочаце ўхваліць гэты сертыфікат назаўжды без пацвярджэння?"
@@ -2321,57 +2321,57 @@ msgstr "Уласцівасці"
 msgid "&View Mode"
 msgstr "&Выгляд"
 
-#: filewidgets/kdiroperator.cpp:2482 filewidgets/kdiroperator.cpp:2494
+#: filewidgets/kdiroperator.cpp:2486 filewidgets/kdiroperator.cpp:2498
 #, kde-format
 msgctxt "Sort descending"
 msgid "Z-A"
 msgstr "Я-А"
 
-#: filewidgets/kdiroperator.cpp:2483 filewidgets/kdiroperator.cpp:2495
+#: filewidgets/kdiroperator.cpp:2487 filewidgets/kdiroperator.cpp:2499
 #, kde-format
 msgctxt "Sort ascending"
 msgid "A-Z"
 msgstr "А-Я"
 
-#: filewidgets/kdiroperator.cpp:2486
+#: filewidgets/kdiroperator.cpp:2490
 #, kde-format
 msgctxt "Sort descending"
 msgid "Newest First"
 msgstr "Спачатку навейшыя"
 
-#: filewidgets/kdiroperator.cpp:2487
+#: filewidgets/kdiroperator.cpp:2491
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Oldest First"
 msgstr "Спачатку старэйшыя"
 
-#: filewidgets/kdiroperator.cpp:2490
+#: filewidgets/kdiroperator.cpp:2494
 #, kde-format
 msgctxt "Sort descending"
 msgid "Largest First"
 msgstr "Спачатку большыя"
 
-#: filewidgets/kdiroperator.cpp:2491
+#: filewidgets/kdiroperator.cpp:2495
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Smallest First"
 msgstr "Спачатку меншыя"
 
-#: filewidgets/kencodingfiledialog.cpp:72
+#: filewidgets/kencodingfiledialog.cpp:71
 #, kde-format
 msgid "Encoding:"
 msgstr "Кадаванне:"
 
-#: filewidgets/kencodingfiledialog.cpp:123
-#: filewidgets/kencodingfiledialog.cpp:137
-#: filewidgets/kencodingfiledialog.cpp:150
-#: filewidgets/kencodingfiledialog.cpp:164 widgets/kurlrequesterdialog.cpp:105
+#: filewidgets/kencodingfiledialog.cpp:121
+#: filewidgets/kencodingfiledialog.cpp:135
+#: filewidgets/kencodingfiledialog.cpp:148
+#: filewidgets/kencodingfiledialog.cpp:162 widgets/kurlrequesterdialog.cpp:105
 #, kde-format
 msgid "Open"
 msgstr "Адкрыць"
 
-#: filewidgets/kencodingfiledialog.cpp:178
-#: filewidgets/kencodingfiledialog.cpp:196
+#: filewidgets/kencodingfiledialog.cpp:176
+#: filewidgets/kencodingfiledialog.cpp:194
 #, kde-format
 msgid "Save As"
 msgstr "Захаваць як"
@@ -2418,24 +2418,24 @@ msgctxt "@title:menu"
 msgid "Move Here"
 msgstr "Перамясціць сюды"
 
-#: filewidgets/kfilefiltercombo.cpp:37
+#: filewidgets/kfilefiltercombo.cpp:42
 #, kde-format
 msgctxt "Default mime type filter that shows all file types"
 msgid "*|All Files"
 msgstr "*|Усе файлы"
 
-#: filewidgets/kfilefiltercombo.cpp:175
+#: filewidgets/kfilefiltercombo.cpp:178
 #, kde-format
 msgctxt "%1 is the mimetype name, %2 is the extensions"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: filewidgets/kfilefiltercombo.cpp:192
+#: filewidgets/kfilefiltercombo.cpp:212
 #, kde-format
 msgid "All Supported Files"
 msgstr "Усе файлы, якія падтрымліваюцца"
 
-#: filewidgets/kfilefiltercombo.cpp:201
+#: filewidgets/kfilefiltercombo.cpp:222 filewidgets/kfilefiltercombo.cpp:223
 #, kde-format
 msgid "All Files"
 msgstr "Усе файлы"
@@ -2816,27 +2816,27 @@ msgctxt "Huge icon size"
 msgid "Huge (%1x%1)"
 msgstr "Вялізныя (%1x%1)"
 
-#: filewidgets/kfilewidget.cpp:681
+#: filewidgets/kfilewidget.cpp:682
 #, kde-format
 msgid "You can only select one file"
 msgstr "Вы можаце абраць толькі адзін файл"
 
-#: filewidgets/kfilewidget.cpp:681
+#: filewidgets/kfilewidget.cpp:682
 #, kde-format
 msgid "More than one file provided"
 msgstr "Пададзена больш за адзін файл"
 
-#: filewidgets/kfilewidget.cpp:852
+#: filewidgets/kfilewidget.cpp:853
 #, kde-format
 msgid "You can only select local files"
 msgstr "Вы можаце абраць толькі лакальныя файлы"
 
-#: filewidgets/kfilewidget.cpp:852
+#: filewidgets/kfilewidget.cpp:853
 #, kde-format
 msgid "Remote files not accepted"
 msgstr "Адлеглыя файлы не дапускаюцца"
 
-#: filewidgets/kfilewidget.cpp:859
+#: filewidgets/kfilewidget.cpp:860
 #, kde-format
 msgid "The selected URL uses an unsupported scheme. Please use the following scheme: %2"
 msgid_plural "The selected URL uses an unsupported scheme. Please use one of the following schemes: %2"
@@ -2845,210 +2845,210 @@ msgstr[1] "Абраны URL выкарыстоўвае схему, якая не
 msgstr[2] "Абраны URL выкарыстоўвае схему, якая не падтрымліваецца. Калі ласка, выкарыстоўвайце наступныя схемы: %2"
 msgstr[3] "Абраны URL выкарыстоўвае схему, якая не падтрымліваецца. Калі ласка, выкарыстоўвайце наступныя схемы: %2"
 
-#: filewidgets/kfilewidget.cpp:865
+#: filewidgets/kfilewidget.cpp:866
 #, kde-format
 msgid "Unsupported URL scheme"
 msgstr "Схема URL не падтрымліваецца"
 
-#: filewidgets/kfilewidget.cpp:881
+#: filewidgets/kfilewidget.cpp:882
 #, kde-format
 msgid "More than one folder has been selected and this dialog does not accept folders, so it is not possible to decide which one to enter. Please select only one folder to list it."
 msgstr "Было абрана больш за адзін каталог, таму гэтае дыялогавае акно не прымае каталогі. З гэтай прычыны немагчыма вызначыць патрэбны каталог. Абярыце толькі адзін каталог."
 
-#: filewidgets/kfilewidget.cpp:883
+#: filewidgets/kfilewidget.cpp:884
 #, kde-format
 msgid "More than one folder provided"
 msgstr "Пададзена больш за адзін каталог"
 
-#: filewidgets/kfilewidget.cpp:893
+#: filewidgets/kfilewidget.cpp:894
 #, kde-format
 msgid "At least one folder and one file has been selected. Selected files will be ignored and the selected folder will be listed"
 msgstr "Абраны прынамсі адзін каталог і адзін файл. Абраныя файлы будуць ігнаравацца, а абраны каталог будзе паказвацца ў спісе"
 
-#: filewidgets/kfilewidget.cpp:894
+#: filewidgets/kfilewidget.cpp:895
 #, kde-format
 msgid "Files and folders selected"
 msgstr "Абраны файлы і каталогі"
 
-#: filewidgets/kfilewidget.cpp:912
+#: filewidgets/kfilewidget.cpp:913
 #, kde-format
 msgid "The file \"%1\" could not be found"
 msgstr "Не ўдалося знайсці файл \"%1\""
 
-#: filewidgets/kfilewidget.cpp:912
+#: filewidgets/kfilewidget.cpp:913
 #, kde-format
 msgid "Cannot open file"
 msgstr "Не ўдалося адкрыць файл"
 
-#: filewidgets/kfilewidget.cpp:1314
+#: filewidgets/kfilewidget.cpp:1315
 #, kde-format
 msgid "<qt>Click this button to enter the parent folder.<br /><br />For instance, if the current location is file:/home/konqi clicking this button will take you to file:/home.</qt>"
 msgstr "<qt>Націсніце гэтую кнопку, каб перайсці ў бацькоўскі каталог.<br /><br />Напрыклад, калі бягучае размяшчэнне file:/home/konqi, то націснуўшы кнопку, вы пяройдзеце ў file:/home.</qt>"
 
-#: filewidgets/kfilewidget.cpp:1318
+#: filewidgets/kfilewidget.cpp:1319
 #, kde-format
 msgid "Click this button to move backwards one step in the browsing history."
 msgstr "Націсніце гэтую кнопку, каб перайсці на адзін крок назад у гісторыі прагляду."
 
-#: filewidgets/kfilewidget.cpp:1319
+#: filewidgets/kfilewidget.cpp:1320
 #, kde-format
 msgid "Click this button to move forward one step in the browsing history."
 msgstr "Націсніце гэтую кнопку, каб перайсці на адзін крок уперад у гісторыі прагляду."
 
-#: filewidgets/kfilewidget.cpp:1321
+#: filewidgets/kfilewidget.cpp:1322
 #, kde-format
 msgid "Click this button to reload the contents of the current location."
 msgstr "Націсніце гэтую кнопку, каб перазагрузіць змесціва бягучага размяшчэння."
 
-#: filewidgets/kfilewidget.cpp:1323
+#: filewidgets/kfilewidget.cpp:1324
 #, kde-format
 msgid "Click this button to create a new folder."
 msgstr "Націсніце гэтую кнопку, каб стварыць новы каталог."
 
-#: filewidgets/kfilewidget.cpp:1325
+#: filewidgets/kfilewidget.cpp:1326
 #, kde-format
 msgid "Show Places Panel"
 msgstr "Паказваць панэль размяшчэнняў"
 
-#: filewidgets/kfilewidget.cpp:1336
+#: filewidgets/kfilewidget.cpp:1337
 #, kde-format
 msgid "Show Bookmarks Button"
 msgstr "Паказваць кнопку закладак"
 
-#: filewidgets/kfilewidget.cpp:1347
+#: filewidgets/kfilewidget.cpp:1348
 #, kde-format
 msgid "Options"
 msgstr "Параметры"
 
-#: filewidgets/kfilewidget.cpp:1354
+#: filewidgets/kfilewidget.cpp:1355
 #, kde-format
 msgid "<qt>This is the preferences menu for the file dialog. Various options can be accessed from this menu including: <ul><li>how files are sorted in the list</li><li>types of view, including icon and list</li><li>showing of hidden files</li><li>the Places panel</li><li>file previews</li><li>separating folders from files</li></ul></qt>"
 msgstr "<qt>Гэта меню налад файлавых дыялогавых акон. З гэтага меню можна атрымаць доступ да розных налад, у тым ліку: <ul><li>сартаванне файлаў у спісе</li><li>выгляд</li><li>паказ схаваных файлаў</li><li>панэль размяшчэнняў</li><li>прагляд файлаў</li><li>аддзяленне каталогаў ад файлаў</li></ul></qt>"
 
-#: filewidgets/kfilewidget.cpp:1373
+#: filewidgets/kfilewidget.cpp:1374
 #, kde-format
 msgid "Bookmarks"
 msgstr "Закладкі"
 
-#: filewidgets/kfilewidget.cpp:1381
+#: filewidgets/kfilewidget.cpp:1382
 #, kde-format
 msgid "<qt>This button allows you to bookmark specific locations. Click on this button to open the bookmark menu where you may add, edit or select a bookmark.<br /><br />These bookmarks are specific to the file dialog, but otherwise operate like bookmarks elsewhere in KDE.</qt>"
 msgstr "<qt>Гэтая кнопка дазваляе рабіць закладкі для пэўных размяшчэнняў. Націсніце на гэтую кнопку, каб адкрыць меню закладак, у якім вы можаце дадаць, адрэдагаваць або абраць закладку.<br /><br />Гэтыя закладкі адносяцца да файлавых дыялогавых акон, але ў астатнім працуюць як закладкі ў іншых месцах у KDE.</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: filewidgets/kfilewidget.cpp:1420 widgets/kpropertiesdesktopbase.ui:25
+#: filewidgets/kfilewidget.cpp:1421 widgets/kpropertiesdesktopbase.ui:25
 #, kde-format
 msgid "&Name:"
 msgstr "&Назва:"
 
-#: filewidgets/kfilewidget.cpp:1495
+#: filewidgets/kfilewidget.cpp:1496
 #, kde-format
 msgid "<qt>While typing in the text area, you may be presented with possible matches. This feature can be controlled by clicking with the right mouse button and selecting a preferred mode from the <b>Text Completion</b> menu.</qt>"
 msgstr "<qt>Пры ўводзе ў тэкставае поле вам могуць быць прапаноўвацца магчымыя словы. Гэтай функцыяй можна кіраваць націснуўшы правай кнопкай мышы і абраўшы патрэбны рэжым з меню <b>Аўтаматычнае запаўненне тэксту</b>.</qt>"
 
-#: filewidgets/kfilewidget.cpp:1502
+#: filewidgets/kfilewidget.cpp:1503
 #, kde-format
 msgid "This is the name to save the file as."
 msgstr "Гэта назва, з якой трэба захаваць файл."
 
-#: filewidgets/kfilewidget.cpp:1505
+#: filewidgets/kfilewidget.cpp:1506
 #, kde-format
 msgid "This is the list of files to open. More than one file can be specified by listing several files, separated by spaces."
 msgstr "Гэта спіс файлаў, якія трэба адкрыць. Можна пазначыць некалькі файлаў, раздзяліўшы іх назвы прагаламі."
 
-#: filewidgets/kfilewidget.cpp:1510
+#: filewidgets/kfilewidget.cpp:1511
 #, kde-format
 msgid "This is the name of the file to open."
 msgstr "Гэта назва файла, які трэба адкрыць."
 
-#: filewidgets/kfilewidget.cpp:1523
+#: filewidgets/kfilewidget.cpp:1524
 #, kde-format
 msgctxt "@title:window"
 msgid "Places"
 msgstr "Размяшчэнні"
 
-#: filewidgets/kfilewidget.cpp:1741
+#: filewidgets/kfilewidget.cpp:1742
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr "Файл \"%1\" ужо існуе. Хочаце перазапісаць?"
 
-#: filewidgets/kfilewidget.cpp:1742
+#: filewidgets/kfilewidget.cpp:1743
 #, kde-format
 msgid "Overwrite File?"
 msgstr "Перазапісаць файл?"
 
-#: filewidgets/kfilewidget.cpp:1965
+#: filewidgets/kfilewidget.cpp:1966
 #, kde-format
 msgid "You can only select local files."
 msgstr "Вы можаце абраць толькі лакальныя файлы."
 
-#: filewidgets/kfilewidget.cpp:1965
+#: filewidgets/kfilewidget.cpp:1966
 #, kde-format
 msgid "Remote Files Not Accepted"
 msgstr "Адлеглыя файлы не дапускаюцца"
 
-#: filewidgets/kfilewidget.cpp:2059
+#: filewidgets/kfilewidget.cpp:2060
 #, kde-format
 msgid "*|All Folders"
 msgstr "*|Усе каталогі"
 
-#: filewidgets/kfilewidget.cpp:2061
+#: filewidgets/kfilewidget.cpp:2062
 #, kde-format
 msgid "*|All Files"
 msgstr "*|Усе файлы"
 
-#: filewidgets/kfilewidget.cpp:2211 widgets/executablefileopendialog.cpp:44
+#: filewidgets/kfilewidget.cpp:2212 widgets/executablefileopendialog.cpp:44
 #: widgets/kfileitemactions.cpp:869
 #, kde-format
 msgid "&Open"
 msgstr "&Адкрыць"
 
-#: filewidgets/kfilewidget.cpp:2312
+#: filewidgets/kfilewidget.cpp:2313
 #, kde-format
 msgid "Icon size: %1 pixels"
 msgstr "Памер значка: %1 пікселяў"
 
-#: filewidgets/kfilewidget.cpp:2460
+#: filewidgets/kfilewidget.cpp:2461
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr "Аўтаматычна абіраць п&ашырэнне (%1) для назвы файла"
 
-#: filewidgets/kfilewidget.cpp:2461
+#: filewidgets/kfilewidget.cpp:2462
 #, kde-format
 msgid "the extension <b>%1</b>"
 msgstr "пашырэнне <b>%1</b>"
 
-#: filewidgets/kfilewidget.cpp:2467
+#: filewidgets/kfilewidget.cpp:2468
 #, kde-format
 msgid "Automatically select filename e&xtension"
 msgstr "Аўтаматычна абіраць п&ашырэнне для назвы файла"
 
-#: filewidgets/kfilewidget.cpp:2468
+#: filewidgets/kfilewidget.cpp:2469
 #, kde-format
 msgid "a suitable extension"
 msgstr "прыдатнае пашырэнне"
 
-#: filewidgets/kfilewidget.cpp:2476
+#: filewidgets/kfilewidget.cpp:2477
 #, kde-format
 msgid "This option enables some convenient features for saving files with extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area will be updated if you change the file type to save in.<br /><br /></li><li>If no extension is specified in the <b>%2</b> text area when you click <b>Save</b>, %3 will be added to the end of the filename (if the filename does not already exist). This extension is based on the file type that you have chosen to save in.<br /><br />If you do not want KDE to supply an extension for the filename, you can either turn this option off or you can suppress it by adding a period (.) to the end of the filename (the period will be automatically removed).</li></ol>If unsure, keep this option enabled as it makes your files more manageable."
 msgstr "Гэты параметр уключае некаторыя зручныя функцыі для захавання файлаў з пашырэннямі:<br /><ol><li>Любое пашырэнне, пазначанае ў тэкставым полі <b>%1</b>абновіцца, калі вы зменіце тып файла для захавання.<br /><br /></li><li>Калі ў тэкставым полі <b>%2</b> не пазначана пашырэнне, то пры націсканні <b>Захаваць</b> у канец назвы файла (калі яна яшчэ не існуе) дадасца %3. Гэтае пашырэнне заснавана на тыпе файла, які вы абралі для захавання.<br /><br />Калі вы не хочаце, каб KDE падаваў пашырэнне для назвы файла, вы можаце адключыць гэты параметр або забараніць яго дадаўшы кропку (.) у канцы назвы файла (кропка будзе аўтаматычна выдаленая).</li></ol>Калі маеце сумневы, пакіньце гэты параметр ўключаным, бо ён дапамагае палепшыць кіраванне вашымі файламі."
 
-#: filewidgets/kfilewidget.cpp:2934
+#: filewidgets/kfilewidget.cpp:2935
 #, kde-format
 msgid "&File type:"
 msgstr "&Тып файла:"
 
-#: filewidgets/kfilewidget.cpp:2935
+#: filewidgets/kfilewidget.cpp:2936
 #, kde-format
 msgid "<qt>This is the file type selector. It is used to select the format that the file will be saved as.</qt>"
 msgstr "<qt>Гэта сродак выбару тыпу файла. Ён выкарыстоўваецца для выбару фармату, у якім будзе захаваны файл.</qt>"
 
-#: filewidgets/kfilewidget.cpp:2937
+#: filewidgets/kfilewidget.cpp:2938
 #, kde-format
 msgid "&Filter:"
 msgstr "&Фільтр:"
 
-#: filewidgets/kfilewidget.cpp:2939
+#: filewidgets/kfilewidget.cpp:2940
 #, kde-format
 msgid "<qt>This is the filter to apply to the file list. File names that do not match the filter will not be shown.<p>You may select from one of the preset filters in the drop down menu, or you may enter a custom filter directly into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
 msgstr "<qt>Гэта фільтр для ўжывання да спіса файлаў. Назвы файлаў, якія не адпавядаюць фільтру, паказвацца не будуць.<p>Вы можаце абраць адзін з перадусталяваных фільтраў у выплыўным меню або ўвесці адвольны фільтр непасрэдна ў тэкставым полі.</p><p >Можна ўжываць сімвалы * і ?.</p></qt>"
@@ -3511,489 +3511,6 @@ msgstr "Не ўдалося атрымаць ідэнтыфікатар кары
 msgid "Could not get group id for given group name %1"
 msgstr "Не ўдалося атрымаць ідэнтыфікатар групы для пададзенай групы %1"
 
-#: ioslaves/http/http.cpp:587
-#, kde-format
-msgid "No host specified."
-msgstr "Хост не вызначаны."
-
-#: ioslaves/http/http.cpp:1556
-#, kde-format
-msgid "Otherwise, the request would have succeeded."
-msgstr "Інакш запыт быў бы ўдалым."
-
-#: ioslaves/http/http.cpp:1560
-#, kde-format
-msgctxt "request type"
-msgid "retrieve property values"
-msgstr "атрымаць значэнні ўласцівасцяў"
-
-#: ioslaves/http/http.cpp:1563
-#, kde-format
-msgctxt "request type"
-msgid "set property values"
-msgstr "вызначыць значэнні ўласцівасцяў"
-
-#: ioslaves/http/http.cpp:1566
-#, kde-format
-msgctxt "request type"
-msgid "create the requested folder"
-msgstr "стварыць запытаны каталог"
-
-#: ioslaves/http/http.cpp:1569
-#, kde-format
-msgctxt "request type"
-msgid "copy the specified file or folder"
-msgstr "скапіяваць вызначаны файл або каталог"
-
-#: ioslaves/http/http.cpp:1572
-#, kde-format
-msgctxt "request type"
-msgid "move the specified file or folder"
-msgstr "перамясціць вызначаны файл або каталог"
-
-#: ioslaves/http/http.cpp:1575
-#, kde-format
-msgctxt "request type"
-msgid "search in the specified folder"
-msgstr "шукаць у вызначаным каталозе"
-
-#: ioslaves/http/http.cpp:1578
-#, kde-format
-msgctxt "request type"
-msgid "lock the specified file or folder"
-msgstr "заблакаваць вызначаны файл або каталог"
-
-#: ioslaves/http/http.cpp:1581
-#, kde-format
-msgctxt "request type"
-msgid "unlock the specified file or folder"
-msgstr "разблакаваць вызначаны файл або каталог"
-
-#: ioslaves/http/http.cpp:1584
-#, kde-format
-msgctxt "request type"
-msgid "delete the specified file or folder"
-msgstr "выдаліць вызначаны файл або каталог"
-
-#: ioslaves/http/http.cpp:1587
-#, kde-format
-msgctxt "request type"
-msgid "query the server's capabilities"
-msgstr "запытаць магчымасці сервера"
-
-#: ioslaves/http/http.cpp:1590
-#, kde-format
-msgctxt "request type"
-msgid "retrieve the contents of the specified file or folder"
-msgstr "атрымаць змесціва вызначанага файла або каталога"
-
-#: ioslaves/http/http.cpp:1593
-#, kde-format
-msgctxt "request type"
-msgid "run a report in the specified folder"
-msgstr "запусціць стварэнне справаздачы ў вызначаным каталозе"
-
-#: ioslaves/http/http.cpp:1605
-#, kde-format
-msgctxt "%1: code, %2: request type"
-msgid "An unexpected error (%1) occurred while attempting to %2."
-msgstr "Падчас спробы %2 адбылася нечаканая памылка (%1)."
-
-#: ioslaves/http/http.cpp:1614
-#, kde-format
-msgid "The server does not support the WebDAV protocol."
-msgstr "Сервер не падтрымлівае пратакол WebDAV."
-
-#: ioslaves/http/http.cpp:1658
-#, kde-format
-msgctxt "%1: request type, %2: url"
-msgid "An error occurred while attempting to %1, %2. A summary of the reasons is below."
-msgstr "Падчас спробы %2 адбылася памылка %1. Зводка знаходзіцца ніжэй."
-
-#: ioslaves/http/http.cpp:1676 ioslaves/http/http.cpp:1812
-#, kde-format
-msgctxt "%1: request type"
-msgid "Access was denied while attempting to %1."
-msgstr "Падчас спробы %1 было адмоўлена ў доступе."
-
-#: ioslaves/http/http.cpp:1690 ioslaves/http/http.cpp:1819
-#, kde-format
-msgid "A resource cannot be created at the destination until one or more intermediate collections (folders) have been created."
-msgstr "Немагчыма стварыць рэсурс у месцы прызначэння, пакуль не будзе створаная адна або больш калекцый (каталогаў)."
-
-#: ioslaves/http/http.cpp:1699
-#, kde-format
-msgid "The server was unable to maintain the liveness of the\n"
-"properties listed in the propertybehavior XML element\n"
-"or you attempted to overwrite a file while requesting\n"
-"that files are not overwritten.\n"
-" %1"
-msgstr "Сервер не змог забяспечыць працаздольнасць\n"
-"уласцівасцяў, пералічаных у XML-элеменце propertybehavior\n"
-"або вы паспрабавалі перазапісаць файл падчас запыту\n"
-"гэтыя файлы не перазапісваюцца.\n"
-" %1"
-
-#: ioslaves/http/http.cpp:1707
-#, kde-format
-msgid "The requested lock could not be granted. %1"
-msgstr "Немагчыма выканаць запытанае блакаванне. %1"
-
-#: ioslaves/http/http.cpp:1713
-#, kde-format
-msgid "The server does not support the request type of the body."
-msgstr "Сервер не падтрымлівае тып запыту цела."
-
-#: ioslaves/http/http.cpp:1718 ioslaves/http/http.cpp:1827
-#, kde-format
-msgctxt "%1: request type"
-msgid "Unable to %1 because the resource is locked."
-msgstr "Не ўдалося %1, бо рэсурс заблакаваны."
-
-#: ioslaves/http/http.cpp:1722
-#, kde-format
-msgid "This action was prevented by another error."
-msgstr "Гэтае дзеянне перарвана іншай памылкай."
-
-#: ioslaves/http/http.cpp:1729 ioslaves/http/http.cpp:1834
-#, kde-format
-msgctxt "%1: request type"
-msgid "Unable to %1 because the destination server refuses to accept the file or folder."
-msgstr "Не ўдалося %1, бо мэтавы сервер адмаўляецца прыняць файл або каталог."
-
-#: ioslaves/http/http.cpp:1738 ioslaves/http/http.cpp:1843
-#, kde-format
-msgid "The destination resource does not have sufficient space to record the state of the resource after the execution of this method."
-msgstr "Мэтавы рэсурс не мае месца для запісу стану рэсурсу пасля выканання гэтага метаду."
-
-#: ioslaves/http/http.cpp:1790
-#, kde-format
-msgid "The resource cannot be deleted."
-msgstr "Не ўдалося выдаліць рэсурс."
-
-#: ioslaves/http/http.cpp:1803
-#, kde-format
-msgctxt "request type"
-msgid "upload %1"
-msgstr "запампаваць %1"
-
-#: ioslaves/http/http.cpp:1854
-#, kde-format
-msgctxt "%1: response code, %2: request type"
-msgid "An unexpected error (%1) occurred while attempting to %2."
-msgstr "Падчас спробы %2 адбылася нечаканая памылка (%1)."
-
-#: ioslaves/http/http.cpp:2659
-#, kde-format
-msgid "%1 contacted. Waiting for reply..."
-msgstr "%1 знойдзена. Чаканне адказу..."
-
-#: ioslaves/http/http.cpp:2985
-#, kde-format
-msgctxt "@info Security check on url being accessed"
-msgid "<p>You are about to log in to the site \"%1\" with the username \"%2\", but the website does not require authentication. This may be an attempt to trick you.</p><p>Is \"%1\" the site you want to visit?</p>"
-msgstr "<p>Вы хочаце ўвайсці на сайт \"%1\" пад імем карыстальніка \"%2\", але пры наведванні гэта сайта няма патрэбы выконваць аўтэнтыфікацыю. Гэта можа быць спробай падмануць вас.</p><p>Ці \"%1\" сапраўды той сайт, які вы хочаце наведаць?</p>"
-
-#: ioslaves/http/http.cpp:2992
-#, kde-format
-msgctxt "@title:window"
-msgid "Confirm Website Access"
-msgstr "Пацвярджэнне доступу да вэб-сайта"
-
-#: ioslaves/http/http.cpp:3083
-#, kde-format
-msgid "Server processing request, please wait..."
-msgstr "Сервер апрацоўвае запыт. Калі ласка, пачакайце..."
-
-#: ioslaves/http/http.cpp:3778 ioslaves/http/http.cpp:3833
-#, kde-format
-msgid "Sending data to %1"
-msgstr "Адпраўленне даных на %1"
-
-#: ioslaves/http/http.cpp:4278
-#, kde-format
-msgid "Retrieving %1 from %2..."
-msgstr "Атрыманне %1 з %2..."
-
-#: ioslaves/http/http.cpp:5169 ioslaves/http/http.cpp:5304
-#: kioworkers/ftp/ftp.cpp:2509
-#, kde-format
-msgid "You need to supply a username and a password for the proxy server listed below before you are allowed to access any sites."
-msgstr "Перш чым вам будзе дазволены доступ да розных сайтаў, трэба пазначыць імя карыстальніка і пароль для сервера проксі."
-
-#: ioslaves/http/http.cpp:5173 ioslaves/http/http.cpp:5307
-#: kioworkers/ftp/ftp.cpp:2513
-#, kde-format
-msgid "Proxy:"
-msgstr "Проксі:"
-
-#: ioslaves/http/http.cpp:5174 ioslaves/http/http.cpp:5411
-#, kde-format
-msgid "<b>%1</b> at <b>%2</b>"
-msgstr "<b>%1</b> на <b>%2</b>"
-
-#: ioslaves/http/http.cpp:5176 ioslaves/http/http.cpp:5322
-#: kioworkers/ftp/ftp.cpp:2516
-#, kde-format
-msgid "Proxy Authentication Failed."
-msgstr "Памылка аўтэнтыфікацыі проксі."
-
-#: ioslaves/http/http.cpp:5289 kioworkers/ftp/ftp.cpp:561
-#, kde-format
-msgid "You need to supply a username and a password to access this site."
-msgstr "Каб атрымаць доступ да гэтага сайта, трэба пазначыць імя карыстальніка і пароль."
-
-#: ioslaves/http/http.cpp:5291 kioworkers/ftp/ftp.cpp:563
-#, kde-format
-msgid "Site:"
-msgstr "Сайт:"
-
-#: ioslaves/http/http.cpp:5322
-#, kde-format
-msgid "Authentication Failed."
-msgstr "Памылка аўтэнтыфікацыі."
-
-#: ioslaves/http/http.cpp:5449
-#, kde-format
-msgid "Authorization failed."
-msgstr "Не ўдалося выканаць аўтарызацыю."
-
-#: ioslaves/http/http.cpp:5466
-#, kde-format
-msgid "Unknown Authorization method."
-msgstr "Невядомы метад аўтарызацыі."
-
-#: ioslaves/http/httpfilter.cpp:175
-#, kde-format
-msgid "Receiving corrupt data."
-msgstr "Атрыманне пашкоджаных даных."
-
-#: ioslaves/http/kcookiejar/kcookieserver.cpp:47
-#: ioslaves/http/kcookiejar/kcookieserver.cpp:55
-#, kde-format
-msgid "Cannot Save Cookies"
-msgstr "Не ўдалося захаваць cookie"
-
-#: ioslaves/http/kcookiejar/kcookieserver.cpp:47
-#, kde-format
-msgid "Could not remove %1, check permissions"
-msgstr "Не ўдалося выдаліць %1, праверце правы доступу"
-
-#: ioslaves/http/kcookiejar/kcookieserver.cpp:55
-#, kde-format
-msgid "Could not create directory %1"
-msgstr "Не ўдалося ствараць каталог %1"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:45
-#, kde-format
-msgid "Cookie Alert"
-msgstr "Папярэджанне cookie"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:70
-#| msgctxt "%2 hostname, %3 optional cross domain suffix (translated below)"
-#| msgid ""
-#| "<p>You received a cookie from<br/><b>%2%3</b><br/>Do you want to accept "
-#| "or reject this cookie?</p>"
-#| "<p>You received %1 cookies from<br/><b>%2%3</b><br/>Do you want to accept "
-#| "or reject these cookies?</p>"
-#| msgid_plural ""
-#| "<p>You received %1 cookies from<br/><b>%2%3</b><br/>Do you want to accept "
-#| "or reject these cookies?</p>"
-msgctxt "%2 hostname, %3 optional cross domain suffix (translated below)"
-msgid "<p>You received a cookie from<br/><b>%2%3</b><br/>Do you want to accept or reject this cookie?</p>"
-msgid_plural "<p>You received %1 cookies from<br/><b>%2%3</b><br/>Do you want to accept or reject these cookies?</p>"
-msgstr[0] "<p>Вы атрымалі файл cookie ад<br/><b>%2%3</b><br/>Вы хочаце ўхваліць або адхіліць гэты файл cookie?</p>"
-msgstr[1] "<p>Вы атрымалі %1 файлы cookie ад<br/><b>%2%3</b><br/>Хочаце ўхваліць або адхіліць гэтыя файлы cookie?</p>"
-msgstr[2] "<p>Вы атрымалі %1 файлаў cookie ад<br/><b>%2%3</b><br/>Хочаце ўхваліць або адхіліць гэтыя файлы cookie?</p>"
-msgstr[3] "<p>Вы атрымалі %1 файлы cookie ад<br/><b>%2%3</b><br/>Хочаце ўхваліць або адхіліць гэтыя файлы cookie?</p>"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:78
-#, kde-format
-msgctxt "@item:intext cross domain cookie"
-msgid " [Cross Domain]"
-msgstr " [Міждаменны]"
-
-#. i18n: ectx: property (title), widget (QGroupBox, detailsGroupBox)
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:90
-#: kcms/cookies/kcookiesmanagement.ui:97
-#, kde-format
-msgid "Details"
-msgstr "Падрабязнасці"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:93
-#, kde-format
-msgid "See or modify the cookie information"
-msgstr "Прагляд або змена звестак cookie"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:98
-#, kde-format
-msgid "Accept for this &session"
-msgstr "Ухваліць для ўсіх &сеансаў"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:101
-#, kde-format
-msgid "Accept cookie(s) until the end of the current session"
-msgstr "Ухваліць cookie да сканчэння бягучага сеанса"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:111
-#, kde-format
-msgid "&Accept"
-msgstr "&Ухваліць"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:114
-#, kde-format
-msgid "&Reject"
-msgstr "&Адхіліць"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:150
-#, kde-format
-msgid "Apply Choice To"
-msgstr "Ужыць выбар для"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:153
-#, kde-format
-msgid "&Only this cookie"
-msgstr "&Толькі для гэтага cookie"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:153
-#, kde-format
-msgid "&Only these cookies"
-msgstr "&Толькі для гэтых cookie"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:158
-#, kde-format
-msgid "Select this option to only accept or reject this cookie. You will be prompted again if you receive another cookie."
-msgstr "Абярыце гэты параметр, каб ухваліць або адхіліць толькі гэты файл cookie. Пытанне з'явіцца зноў, калі вы атрымаеце іншы файл cookie."
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:161
-#, kde-format
-msgid "All cookies from this do&main"
-msgstr "Усе cookie з гэтага да&мена"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:165
-#, kde-format
-msgid "Select this option to accept or reject all cookies from this site. Choosing this option will add a new policy for the site this cookie originated from. This policy will be permanent until you manually change it from the System Settings."
-msgstr "Абярыце гэты параметр, каб ухваліць або адхіліць усе файлы cookie з гэтага сайта. Калі абраць гэты параметр, то для сайта, з якога быў атрыманы гэты файл cookie, будзе створана новая палітыка. Яна будзе дзейнічаць, пакуль вы не зменіце яе ў наладах сістэмы."
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:170
-#, kde-format
-msgid "All &cookies"
-msgstr "Усе &cookie"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:174
-#, kde-format
-msgid "Select this option to accept/reject all cookies from anywhere. Choosing this option will change the global cookie policy for all cookies until you manually change it from the System Settings."
-msgstr "Абярыце гэты параметр, каб прымаць/адхіляць усе файлы cookie з любога месца. Калі абраць гэты параметр, то зменіцца глабальная палітыка для файлаў cookie. Яна будзе дзейнічаць, пакуль вы не зменіце яе ў наладах сістэмы."
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:240
-#, kde-format
-msgid "Cookie Details"
-msgstr "Падрабязнасці cookie"
-
-#. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:245
-#: kcms/cookies/kcookiesmanagement.ui:106
-#, kde-format
-msgid "Name:"
-msgstr "Назва:"
-
-#. i18n: ectx: property (text), widget (QLabel, valueLabel)
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:253
-#: kcms/cookies/kcookiesmanagement.ui:129
-#, kde-format
-msgid "Value:"
-msgstr "Значэнне:"
-
-#. i18n: ectx: property (text), widget (QLabel, expiresLabel)
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:260
-#: kcms/cookies/kcookiesmanagement.ui:198
-#, kde-format
-msgid "Expires:"
-msgstr "Тэрмін дзеяння:"
-
-#. i18n: ectx: property (text), widget (QLabel, patchLabel)
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:267
-#: kcms/cookies/kcookiesmanagement.ui:175
-#, kde-format
-msgid "Path:"
-msgstr "Шлях:"
-
-#. i18n: ectx: property (text), widget (QLabel, domainLabel)
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:274
-#: kcms/cookies/kcookiesmanagement.ui:152
-#, kde-format
-msgid "Domain:"
-msgstr "Дамен:"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:281
-#, kde-format
-msgctxt "@label a description string of how 'accessible' the cookie is (e.g. see exposure string in this file)"
-msgid "Exposure:"
-msgstr "Экспазіцыя:"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:289
-#, kde-format
-msgctxt "Next cookie"
-msgid "&Next >>"
-msgstr "&Далей >>"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:294
-#, kde-format
-msgid "Show details of the next cookie"
-msgstr "Паказаць падрабязную інфармацыю пра наступны cookie"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:322
-#, kde-format
-msgctxt "@label cookie has no explicit 'Domain' value specified"
-msgid "Not specified"
-msgstr "Не вызначана"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:331
-#, kde-format
-msgctxt "@label the cookie expires when the browser session ends"
-msgid "End of Session"
-msgstr "Канец сеанса"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:336
-#, kde-format
-msgctxt "@label exposure string - the cookie may only be used by https servers"
-msgid "Secure servers only"
-msgstr "Толькі абароненыя серверы"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:338
-#, kde-format
-msgctxt "@label exposure string - the cookie may be used by https servers AND client-side javascripts"
-msgid "Secure servers, page scripts"
-msgstr "Бяспечныя серверы, скрыпты старонак"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:342
-#, kde-format
-msgctxt "@label exposure string - the cookie may only be used by http servers"
-msgid "Servers"
-msgstr "Серверы"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:344
-#, kde-format
-msgctxt "@label exposure string - the cookie may be used by http servers AND client-side javascripts"
-msgid "Servers, page scripts"
-msgstr "Серверы, скрыпты старонак"
-
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:359
-#, kde-format
-msgctxt "@action:button show details about a cookie that needs approval. This string gets >> and << appended, to visualize if the dialog expands or compacts!"
-msgid "Details"
-msgstr "Падрабязнасці"
-
-#: ioslaves/telnet/ktelnetservice.cpp:52
-#, kde-format
-msgid "Access denied"
-msgstr "Доступ забаронены"
-
-#: ioslaves/telnet/ktelnetservice.cpp:52
-#, kde-format
-msgid "You do not have permission to access the %1 protocol."
-msgstr "Вы не маеце правоў для доступу да пратакола %1."
-
 #: ioslaves/trash/kcmtrash.cpp:132
 #, kde-format
 msgid " days"
@@ -4096,25 +3613,25 @@ msgstr "<para>Калі памер смецця дасягне максімаль
 msgid "Full Trash:"
 msgstr "Сметніца поўная:"
 
-#: ioslaves/trash/kio_trash.cpp:99 ioslaves/trash/kio_trash.cpp:146
-#: ioslaves/trash/kio_trash.cpp:210 ioslaves/trash/kio_trash.cpp:390
-#: ioslaves/trash/kio_trash.cpp:425 ioslaves/trash/kio_trash.cpp:604
-#: ioslaves/trash/kio_trash.cpp:616
+#: ioslaves/trash/kio_trash.cpp:110 ioslaves/trash/kio_trash.cpp:154
+#: ioslaves/trash/kio_trash.cpp:212 ioslaves/trash/kio_trash.cpp:386
+#: ioslaves/trash/kio_trash.cpp:418 ioslaves/trash/kio_trash.cpp:595
+#: ioslaves/trash/kio_trash.cpp:605
 #, kde-format
 msgid "Malformed URL %1"
 msgstr "Памылковы URL %1"
 
-#: ioslaves/trash/kio_trash.cpp:119
+#: ioslaves/trash/kio_trash.cpp:129
 #, kde-format
 msgid "The directory %1 does not exist anymore, so it is not possible to restore this item to its original location. You can either recreate that directory and use the restore operation again, or drag the item anywhere else to restore it."
 msgstr "Каталог %1 больш не існуе, таму немагчыма аднавіць гэты элемент у зыходнае месца. Вы можаце або зноў стварыць гэты каталог і паўтарыць аперацыю аднаўлення, або перацягнуць элемент у іншае месца, каб аднавіць яго."
 
-#: ioslaves/trash/kio_trash.cpp:176 ioslaves/trash/kio_trash.cpp:198
+#: ioslaves/trash/kio_trash.cpp:180 ioslaves/trash/kio_trash.cpp:201
 #, kde-format
 msgid "Invalid combination of protocols."
 msgstr "Хібная камбінацыя пратаколаў."
 
-#: ioslaves/trash/kio_trash.cpp:189 ioslaves/trash/kio_trash_win.cpp:235
+#: ioslaves/trash/kio_trash.cpp:192 ioslaves/trash/kio_trash_win.cpp:235
 #, kde-format
 msgid "This file is already in the trash bin."
 msgstr "Гэты файл ужо знаходзіцца ў сметніцы."
@@ -4256,6 +3773,48 @@ msgstr "Наладжванне &палітыкі..."
 #, kde-format
 msgid "&Reload List"
 msgstr "&Перазагрузіць спіс"
+
+#. i18n: ectx: property (title), widget (QGroupBox, detailsGroupBox)
+#: kcms/cookies/kcookiesmanagement.ui:97
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:90
+#, kde-format
+msgid "Details"
+msgstr "Падрабязнасці"
+
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: kcms/cookies/kcookiesmanagement.ui:106
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:245
+#, kde-format
+msgid "Name:"
+msgstr "Назва:"
+
+#. i18n: ectx: property (text), widget (QLabel, valueLabel)
+#: kcms/cookies/kcookiesmanagement.ui:129
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:253
+#, kde-format
+msgid "Value:"
+msgstr "Значэнне:"
+
+#. i18n: ectx: property (text), widget (QLabel, domainLabel)
+#: kcms/cookies/kcookiesmanagement.ui:152
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:274
+#, kde-format
+msgid "Domain:"
+msgstr "Дамен:"
+
+#. i18n: ectx: property (text), widget (QLabel, patchLabel)
+#: kcms/cookies/kcookiesmanagement.ui:175
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:267
+#, kde-format
+msgid "Path:"
+msgstr "Шлях:"
+
+#. i18n: ectx: property (text), widget (QLabel, expiresLabel)
+#: kcms/cookies/kcookiesmanagement.ui:198
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:260
+#, kde-format
+msgid "Expires:"
+msgstr "Тэрмін дзеяння:"
 
 #. i18n: ectx: property (text), widget (QLabel, secureLabel)
 #: kcms/cookies/kcookiesmanagement.ui:221
@@ -4554,18 +4113,18 @@ msgstr "Палітыка:"
 msgid "Accept until end of session"
 msgstr "Ухваліць да канца сеанса"
 
-#: kcms/ksaveioconfig.cpp:211
+#: kcms/ksaveioconfig.cpp:212
 #, kde-format
 msgid "You have to restart the running applications for these changes to take effect."
 msgstr "Каб змены набылі моц, трэба перазапусціць запушчаныя праграмы."
 
-#: kcms/ksaveioconfig.cpp:213 kcms/ksaveioconfig.cpp:224
+#: kcms/ksaveioconfig.cpp:214 kcms/ksaveioconfig.cpp:225
 #, kde-format
 msgctxt "@title:window"
 msgid "Update Failed"
 msgstr "Не ўдалося абнавіць"
 
-#: kcms/ksaveioconfig.cpp:224
+#: kcms/ksaveioconfig.cpp:225
 #, kde-format
 msgid "You have to restart KDE for these changes to take effect."
 msgstr "Каб змены набылі моц, трэба перазапусціць KDE."
@@ -5233,6 +4792,16 @@ msgstr "Паведамленне адпраўлена:\n"
 "Адказ сервера:\n"
 "%2\n\n"
 
+#: kioworkers/ftp/ftp.cpp:561 kioworkers/http/http.cpp:5289
+#, kde-format
+msgid "You need to supply a username and a password to access this site."
+msgstr "Каб атрымаць доступ да гэтага сайта, трэба пазначыць імя карыстальніка і пароль."
+
+#: kioworkers/ftp/ftp.cpp:563 kioworkers/http/http.cpp:5291
+#, kde-format
+msgid "Site:"
+msgstr "Сайт:"
+
 #: kioworkers/ftp/ftp.cpp:564 kioworkers/ftp/ftp.cpp:2514
 #, kde-format
 msgid "<b>%1</b>"
@@ -5254,6 +4823,24 @@ msgid "\n"
 "The server said: \"%1\""
 msgstr "\n"
 "Адказ сервера: \"%1\""
+
+#: kioworkers/ftp/ftp.cpp:2509 kioworkers/http/http.cpp:5169
+#: kioworkers/http/http.cpp:5304
+#, kde-format
+msgid "You need to supply a username and a password for the proxy server listed below before you are allowed to access any sites."
+msgstr "Перш чым вам будзе дазволены доступ да розных сайтаў, трэба пазначыць імя карыстальніка і пароль для сервера проксі."
+
+#: kioworkers/ftp/ftp.cpp:2513 kioworkers/http/http.cpp:5173
+#: kioworkers/http/http.cpp:5307
+#, kde-format
+msgid "Proxy:"
+msgstr "Проксі:"
+
+#: kioworkers/ftp/ftp.cpp:2516 kioworkers/http/http.cpp:5176
+#: kioworkers/http/http.cpp:5322
+#, kde-format
+msgid "Proxy Authentication Failed."
+msgstr "Памылка аўтэнтыфікацыі проксі."
 
 #: kioworkers/help/kio_help.cpp:112
 #, kde-format
@@ -5294,6 +4881,409 @@ msgstr "Пошук раздзела"
 #, kde-format
 msgid "Could not find filename %1 in %2."
 msgstr "Не ўдалося знайсці назву %1 у %2."
+
+#: kioworkers/http/http.cpp:587
+#, kde-format
+msgid "No host specified."
+msgstr "Хост не вызначаны."
+
+#: kioworkers/http/http.cpp:1556
+#, kde-format
+msgid "Otherwise, the request would have succeeded."
+msgstr "Інакш запыт быў бы ўдалым."
+
+#: kioworkers/http/http.cpp:1560
+#, kde-format
+msgctxt "request type"
+msgid "retrieve property values"
+msgstr "атрымаць значэнні ўласцівасцяў"
+
+#: kioworkers/http/http.cpp:1563
+#, kde-format
+msgctxt "request type"
+msgid "set property values"
+msgstr "вызначыць значэнні ўласцівасцяў"
+
+#: kioworkers/http/http.cpp:1566
+#, kde-format
+msgctxt "request type"
+msgid "create the requested folder"
+msgstr "стварыць запытаны каталог"
+
+#: kioworkers/http/http.cpp:1569
+#, kde-format
+msgctxt "request type"
+msgid "copy the specified file or folder"
+msgstr "скапіяваць вызначаны файл або каталог"
+
+#: kioworkers/http/http.cpp:1572
+#, kde-format
+msgctxt "request type"
+msgid "move the specified file or folder"
+msgstr "перамясціць вызначаны файл або каталог"
+
+#: kioworkers/http/http.cpp:1575
+#, kde-format
+msgctxt "request type"
+msgid "search in the specified folder"
+msgstr "шукаць у вызначаным каталозе"
+
+#: kioworkers/http/http.cpp:1578
+#, kde-format
+msgctxt "request type"
+msgid "lock the specified file or folder"
+msgstr "заблакаваць вызначаны файл або каталог"
+
+#: kioworkers/http/http.cpp:1581
+#, kde-format
+msgctxt "request type"
+msgid "unlock the specified file or folder"
+msgstr "разблакаваць вызначаны файл або каталог"
+
+#: kioworkers/http/http.cpp:1584
+#, kde-format
+msgctxt "request type"
+msgid "delete the specified file or folder"
+msgstr "выдаліць вызначаны файл або каталог"
+
+#: kioworkers/http/http.cpp:1587
+#, kde-format
+msgctxt "request type"
+msgid "query the server's capabilities"
+msgstr "запытаць магчымасці сервера"
+
+#: kioworkers/http/http.cpp:1590
+#, kde-format
+msgctxt "request type"
+msgid "retrieve the contents of the specified file or folder"
+msgstr "атрымаць змесціва вызначанага файла або каталога"
+
+#: kioworkers/http/http.cpp:1593
+#, kde-format
+msgctxt "request type"
+msgid "run a report in the specified folder"
+msgstr "запусціць стварэнне справаздачы ў вызначаным каталозе"
+
+#: kioworkers/http/http.cpp:1605
+#, kde-format
+msgctxt "%1: code, %2: request type"
+msgid "An unexpected error (%1) occurred while attempting to %2."
+msgstr "Падчас спробы %2 адбылася нечаканая памылка (%1)."
+
+#: kioworkers/http/http.cpp:1614
+#, kde-format
+msgid "The server does not support the WebDAV protocol."
+msgstr "Сервер не падтрымлівае пратакол WebDAV."
+
+#: kioworkers/http/http.cpp:1658
+#, kde-format
+msgctxt "%1: request type, %2: url"
+msgid "An error occurred while attempting to %1, %2. A summary of the reasons is below."
+msgstr "Падчас спробы %2 адбылася памылка %1. Зводка знаходзіцца ніжэй."
+
+#: kioworkers/http/http.cpp:1676 kioworkers/http/http.cpp:1812
+#, kde-format
+msgctxt "%1: request type"
+msgid "Access was denied while attempting to %1."
+msgstr "Падчас спробы %1 было адмоўлена ў доступе."
+
+#: kioworkers/http/http.cpp:1690 kioworkers/http/http.cpp:1819
+#, kde-format
+msgid "A resource cannot be created at the destination until one or more intermediate collections (folders) have been created."
+msgstr "Немагчыма стварыць рэсурс у месцы прызначэння, пакуль не будзе створаная адна або больш калекцый (каталогаў)."
+
+#: kioworkers/http/http.cpp:1699
+#, kde-format
+msgid "The server was unable to maintain the liveness of the\n"
+"properties listed in the propertybehavior XML element\n"
+"or you attempted to overwrite a file while requesting\n"
+"that files are not overwritten.\n"
+" %1"
+msgstr "Сервер не змог забяспечыць працаздольнасць\n"
+"уласцівасцяў, пералічаных у XML-элеменце propertybehavior\n"
+"або вы паспрабавалі перазапісаць файл падчас запыту\n"
+"гэтыя файлы не перазапісваюцца.\n"
+" %1"
+
+#: kioworkers/http/http.cpp:1707
+#, kde-format
+msgid "The requested lock could not be granted. %1"
+msgstr "Немагчыма выканаць запытанае блакаванне. %1"
+
+#: kioworkers/http/http.cpp:1713
+#, kde-format
+msgid "The server does not support the request type of the body."
+msgstr "Сервер не падтрымлівае тып запыту цела."
+
+#: kioworkers/http/http.cpp:1718 kioworkers/http/http.cpp:1827
+#, kde-format
+msgctxt "%1: request type"
+msgid "Unable to %1 because the resource is locked."
+msgstr "Не ўдалося %1, бо рэсурс заблакаваны."
+
+#: kioworkers/http/http.cpp:1722
+#, kde-format
+msgid "This action was prevented by another error."
+msgstr "Гэтае дзеянне перарвана іншай памылкай."
+
+#: kioworkers/http/http.cpp:1729 kioworkers/http/http.cpp:1834
+#, kde-format
+msgctxt "%1: request type"
+msgid "Unable to %1 because the destination server refuses to accept the file or folder."
+msgstr "Не ўдалося %1, бо мэтавы сервер адмаўляецца прыняць файл або каталог."
+
+#: kioworkers/http/http.cpp:1738 kioworkers/http/http.cpp:1843
+#, kde-format
+msgid "The destination resource does not have sufficient space to record the state of the resource after the execution of this method."
+msgstr "Мэтавы рэсурс не мае месца для запісу стану рэсурсу пасля выканання гэтага метаду."
+
+#: kioworkers/http/http.cpp:1790
+#, kde-format
+msgid "The resource cannot be deleted."
+msgstr "Не ўдалося выдаліць рэсурс."
+
+#: kioworkers/http/http.cpp:1803
+#, kde-format
+msgctxt "request type"
+msgid "upload %1"
+msgstr "запампаваць %1"
+
+#: kioworkers/http/http.cpp:1854
+#, kde-format
+msgctxt "%1: response code, %2: request type"
+msgid "An unexpected error (%1) occurred while attempting to %2."
+msgstr "Падчас спробы %2 адбылася нечаканая памылка (%1)."
+
+#: kioworkers/http/http.cpp:2659
+#, kde-format
+msgid "%1 contacted. Waiting for reply..."
+msgstr "%1 знойдзена. Чаканне адказу..."
+
+#: kioworkers/http/http.cpp:2985
+#, kde-format
+msgctxt "@info Security check on url being accessed"
+msgid "<p>You are about to log in to the site \"%1\" with the username \"%2\", but the website does not require authentication. This may be an attempt to trick you.</p><p>Is \"%1\" the site you want to visit?</p>"
+msgstr "<p>Вы хочаце ўвайсці на сайт \"%1\" пад імем карыстальніка \"%2\", але пры наведванні гэта сайта няма патрэбы выконваць аўтэнтыфікацыю. Гэта можа быць спробай падмануць вас.</p><p>Ці \"%1\" сапраўды той сайт, які вы хочаце наведаць?</p>"
+
+#: kioworkers/http/http.cpp:2992
+#, kde-format
+msgctxt "@title:window"
+msgid "Confirm Website Access"
+msgstr "Пацвярджэнне доступу да вэб-сайта"
+
+#: kioworkers/http/http.cpp:3083
+#, kde-format
+msgid "Server processing request, please wait..."
+msgstr "Сервер апрацоўвае запыт. Калі ласка, пачакайце..."
+
+#: kioworkers/http/http.cpp:3778 kioworkers/http/http.cpp:3833
+#, kde-format
+msgid "Sending data to %1"
+msgstr "Адпраўленне даных на %1"
+
+#: kioworkers/http/http.cpp:4278
+#, kde-format
+msgid "Retrieving %1 from %2..."
+msgstr "Атрыманне %1 з %2..."
+
+#: kioworkers/http/http.cpp:5174 kioworkers/http/http.cpp:5411
+#, kde-format
+msgid "<b>%1</b> at <b>%2</b>"
+msgstr "<b>%1</b> на <b>%2</b>"
+
+#: kioworkers/http/http.cpp:5322
+#, kde-format
+msgid "Authentication Failed."
+msgstr "Памылка аўтэнтыфікацыі."
+
+#: kioworkers/http/http.cpp:5449
+#, kde-format
+msgid "Authorization failed."
+msgstr "Не ўдалося выканаць аўтарызацыю."
+
+#: kioworkers/http/http.cpp:5466
+#, kde-format
+msgid "Unknown Authorization method."
+msgstr "Невядомы метад аўтарызацыі."
+
+#: kioworkers/http/httpfilter.cpp:175
+#, kde-format
+msgid "Receiving corrupt data."
+msgstr "Атрыманне пашкоджаных даных."
+
+#: kioworkers/http/kcookiejar/kcookieserver.cpp:47
+#: kioworkers/http/kcookiejar/kcookieserver.cpp:55
+#, kde-format
+msgid "Cannot Save Cookies"
+msgstr "Не ўдалося захаваць cookie"
+
+#: kioworkers/http/kcookiejar/kcookieserver.cpp:47
+#, kde-format
+msgid "Could not remove %1, check permissions"
+msgstr "Не ўдалося выдаліць %1, праверце правы доступу"
+
+#: kioworkers/http/kcookiejar/kcookieserver.cpp:55
+#, kde-format
+msgid "Could not create directory %1"
+msgstr "Не ўдалося ствараць каталог %1"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:45
+#, kde-format
+msgid "Cookie Alert"
+msgstr "Папярэджанне cookie"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:70
+#| msgctxt "%2 hostname, %3 optional cross domain suffix (translated below)"
+#| msgid ""
+#| "<p>You received a cookie from<br/><b>%2%3</b><br/>Do you want to accept "
+#| "or reject this cookie?</p>"
+#| "<p>You received %1 cookies from<br/><b>%2%3</b><br/>Do you want to accept "
+#| "or reject these cookies?</p>"
+#| msgid_plural ""
+#| "<p>You received %1 cookies from<br/><b>%2%3</b><br/>Do you want to accept "
+#| "or reject these cookies?</p>"
+msgctxt "%2 hostname, %3 optional cross domain suffix (translated below)"
+msgid "<p>You received a cookie from<br/><b>%2%3</b><br/>Do you want to accept or reject this cookie?</p>"
+msgid_plural "<p>You received %1 cookies from<br/><b>%2%3</b><br/>Do you want to accept or reject these cookies?</p>"
+msgstr[0] "<p>Вы атрымалі файл cookie ад<br/><b>%2%3</b><br/>Вы хочаце ўхваліць або адхіліць гэты файл cookie?</p>"
+msgstr[1] "<p>Вы атрымалі %1 файлы cookie ад<br/><b>%2%3</b><br/>Хочаце ўхваліць або адхіліць гэтыя файлы cookie?</p>"
+msgstr[2] "<p>Вы атрымалі %1 файлаў cookie ад<br/><b>%2%3</b><br/>Хочаце ўхваліць або адхіліць гэтыя файлы cookie?</p>"
+msgstr[3] "<p>Вы атрымалі %1 файлы cookie ад<br/><b>%2%3</b><br/>Хочаце ўхваліць або адхіліць гэтыя файлы cookie?</p>"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:78
+#, kde-format
+msgctxt "@item:intext cross domain cookie"
+msgid " [Cross Domain]"
+msgstr " [Міждаменны]"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:93
+#, kde-format
+msgid "See or modify the cookie information"
+msgstr "Прагляд або змена звестак cookie"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:98
+#, kde-format
+msgid "Accept for this &session"
+msgstr "Ухваліць для ўсіх &сеансаў"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:101
+#, kde-format
+msgid "Accept cookie(s) until the end of the current session"
+msgstr "Ухваліць cookie да сканчэння бягучага сеанса"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:111
+#, kde-format
+msgid "&Accept"
+msgstr "&Ухваліць"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:114
+#, kde-format
+msgid "&Reject"
+msgstr "&Адхіліць"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:150
+#, kde-format
+msgid "Apply Choice To"
+msgstr "Ужыць выбар для"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:153
+#, kde-format
+msgid "&Only this cookie"
+msgstr "&Толькі для гэтага cookie"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:153
+#, kde-format
+msgid "&Only these cookies"
+msgstr "&Толькі для гэтых cookie"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:158
+#, kde-format
+msgid "Select this option to only accept or reject this cookie. You will be prompted again if you receive another cookie."
+msgstr "Абярыце гэты параметр, каб ухваліць або адхіліць толькі гэты файл cookie. Пытанне з'явіцца зноў, калі вы атрымаеце іншы файл cookie."
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:161
+#, kde-format
+msgid "All cookies from this do&main"
+msgstr "Усе cookie з гэтага да&мена"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:165
+#, kde-format
+msgid "Select this option to accept or reject all cookies from this site. Choosing this option will add a new policy for the site this cookie originated from. This policy will be permanent until you manually change it from the System Settings."
+msgstr "Абярыце гэты параметр, каб ухваліць або адхіліць усе файлы cookie з гэтага сайта. Калі абраць гэты параметр, то для сайта, з якога быў атрыманы гэты файл cookie, будзе створана новая палітыка. Яна будзе дзейнічаць, пакуль вы не зменіце яе ў наладах сістэмы."
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:170
+#, kde-format
+msgid "All &cookies"
+msgstr "Усе &cookie"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:174
+#, kde-format
+msgid "Select this option to accept/reject all cookies from anywhere. Choosing this option will change the global cookie policy for all cookies until you manually change it from the System Settings."
+msgstr "Абярыце гэты параметр, каб прымаць/адхіляць усе файлы cookie з любога месца. Калі абраць гэты параметр, то зменіцца глабальная палітыка для файлаў cookie. Яна будзе дзейнічаць, пакуль вы не зменіце яе ў наладах сістэмы."
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:240
+#, kde-format
+msgid "Cookie Details"
+msgstr "Падрабязнасці cookie"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:281
+#, kde-format
+msgctxt "@label a description string of how 'accessible' the cookie is (e.g. see exposure string in this file)"
+msgid "Exposure:"
+msgstr "Экспазіцыя:"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:289
+#, kde-format
+msgctxt "Next cookie"
+msgid "&Next >>"
+msgstr "&Далей >>"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:294
+#, kde-format
+msgid "Show details of the next cookie"
+msgstr "Паказаць падрабязную інфармацыю пра наступны cookie"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:322
+#, kde-format
+msgctxt "@label cookie has no explicit 'Domain' value specified"
+msgid "Not specified"
+msgstr "Не вызначана"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:331
+#, kde-format
+msgctxt "@label the cookie expires when the browser session ends"
+msgid "End of Session"
+msgstr "Канец сеанса"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:336
+#, kde-format
+msgctxt "@label exposure string - the cookie may only be used by https servers"
+msgid "Secure servers only"
+msgstr "Толькі абароненыя серверы"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:338
+#, kde-format
+msgctxt "@label exposure string - the cookie may be used by https servers AND client-side javascripts"
+msgid "Secure servers, page scripts"
+msgstr "Бяспечныя серверы, скрыпты старонак"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:342
+#, kde-format
+msgctxt "@label exposure string - the cookie may only be used by http servers"
+msgid "Servers"
+msgstr "Серверы"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:344
+#, kde-format
+msgctxt "@label exposure string - the cookie may be used by http servers AND client-side javascripts"
+msgid "Servers, page scripts"
+msgstr "Серверы, скрыпты старонак"
+
+#: kioworkers/http/kcookiejar/kcookiewin.cpp:359
+#, kde-format
+msgctxt "@action:button show details about a cookie that needs approval. This string gets >> and << appended, to visualize if the dialog expands or compacts!"
+msgid "Details"
+msgstr "Падрабязнасці"
 
 #: kioworkers/remote/remoteimpl.cpp:98
 #, kde-format
@@ -5361,6 +5351,16 @@ msgstr "Паўтарыць"
 #, kde-format
 msgid "Authentication Dialog"
 msgstr "Дыялогавае акно аўтэнтыфікацыі"
+
+#: schemehandlers/telnet/ktelnetservice.cpp:52
+#, kde-format
+msgid "Access denied"
+msgstr "Доступ забаронены"
+
+#: schemehandlers/telnet/ktelnetservice.cpp:52
+#, kde-format
+msgid "You do not have permission to access the %1 protocol."
+msgstr "Вы не маеце правоў для доступу да пратакола %1."
 
 #: urifilters/ikws/ikwsopts.cpp:39
 #, kde-format
@@ -5515,48 +5515,48 @@ msgstr "Не знойдзена пераважных сістэм пошуку."
 msgid "No search providers were found."
 msgstr "Не знойдзена пераважных сістэм пошуку."
 
-#: urifilters/ikws/searchproviderdlg.cpp:46
+#: urifilters/ikws/searchproviderdlg.cpp:49
 #, kde-format
 msgctxt "@item:inlistbox The default character set"
 msgid "Default"
 msgstr "Прадвызначана"
 
-#: urifilters/ikws/searchproviderdlg.cpp:49
+#: urifilters/ikws/searchproviderdlg.cpp:52
 #, kde-format
 msgid "Modify Web Shortcut"
 msgstr "Змяніць сеціўны скарот"
 
-#: urifilters/ikws/searchproviderdlg.cpp:57
+#: urifilters/ikws/searchproviderdlg.cpp:60
 #, kde-format
 msgid "New Web Shortcut"
 msgstr "Новы сеціўны скарот"
 
-#: urifilters/ikws/searchproviderdlg.cpp:118
+#: urifilters/ikws/searchproviderdlg.cpp:121
 #, kde-format
 msgid "The shortcut \"%1\" is already assigned to \"%2\". Please choose a different one."
 msgstr "Скарот \"%1\" ужо звязаны з \"%2\". Абярыце іншы."
 
-#: urifilters/ikws/searchproviderdlg.cpp:123
+#: urifilters/ikws/searchproviderdlg.cpp:126
 #, kde-format
 msgctxt "- web short cut (e.g. gg): what it refers to (e.g. Google)"
 msgid "- %1: \"%2\""
 msgstr "- %1: \"%2\""
 
-#: urifilters/ikws/searchproviderdlg.cpp:127
+#: urifilters/ikws/searchproviderdlg.cpp:130
 #, kde-format
 msgid "The following shortcuts are already assigned. Please choose different ones.\n"
 "%1"
 msgstr "Наступныя скароты ўжо прызначаныя. Абярыце іншыя.\n"
 "%1"
 
-#: urifilters/ikws/searchproviderdlg.cpp:140
+#: urifilters/ikws/searchproviderdlg.cpp:143
 #, kde-format
 msgid "The Shortcut URL does not contain a \\{...} placeholder for the user query.\n"
 "This means that the same page is always going to be visited, regardless of the text typed in with the shortcut."
 msgstr "URL-адрас скароту не змяшчае запаўняльнік \\{...} для запыту карыстальніка.\n"
 "Гэта азначае, што адна і тая ж старонка заўсёды будзе наведвацца незалежна ад тэксту, уведзенага з дапамогай скароту."
 
-#: urifilters/ikws/searchproviderdlg.cpp:144
+#: urifilters/ikws/searchproviderdlg.cpp:147
 #, kde-format
 msgid "Keep It"
 msgstr "Пакінуць"
@@ -6710,9 +6710,15 @@ msgstr "Увядзіце тут карысны каментар."
 msgid "Comm&ent:"
 msgstr "Кам&ентар:"
 
+#. i18n: ectx: property (text), widget (QLabel, labelenvvars)
+#: widgets/kpropertiesdesktopbase.ui:82
+#, kde-format
+msgid "Environment Variables:"
+msgstr ""
+
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, programEdit)
-#: widgets/kpropertiesdesktopbase.ui:92 widgets/kpropertiesdesktopbase.ui:117
+#: widgets/kpropertiesdesktopbase.ui:105 widgets/kpropertiesdesktopbase.ui:130
 #, no-c-format, kde-format
 msgid "Type the command to start this application here.\n\n"
 "Following the command, you can have several placeholders which will be replaced with the actual values when the actual program is run:\n\n"
@@ -6734,38 +6740,38 @@ msgstr "Увядзіце тут загад для запуску гэтай пр
 " %k - размяшчэнне файла працоўнага стала (.desktop)"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: widgets/kpropertiesdesktopbase.ui:95
+#: widgets/kpropertiesdesktopbase.ui:108
 #, kde-format
 msgid "Program:"
 msgstr "Праграма:"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, browseButton)
-#: widgets/kpropertiesdesktopbase.ui:124
+#: widgets/kpropertiesdesktopbase.ui:137
 #, kde-format
 msgid "Click here to browse your file system in order to find the desired executable."
 msgstr "Націсніце тут, каб аглядзець файлавую сістэму і абраць неабходны выканальны файл."
 
 #. i18n: ectx: property (text), widget (QPushButton, browseButton)
-#: widgets/kpropertiesdesktopbase.ui:127
+#: widgets/kpropertiesdesktopbase.ui:140
 #, kde-format
 msgid "&Browse..."
 msgstr "&Агляд..."
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel5)
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, pathEdit)
-#: widgets/kpropertiesdesktopbase.ui:136 widgets/kpropertiesdesktopbase.ui:149
+#: widgets/kpropertiesdesktopbase.ui:149 widgets/kpropertiesdesktopbase.ui:162
 #, kde-format
 msgid "Sets the working directory for your application."
 msgstr "Вызначае працоўны каталог для праграмы."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: widgets/kpropertiesdesktopbase.ui:139
+#: widgets/kpropertiesdesktopbase.ui:152
 #, kde-format
 msgid "&Work path:"
 msgstr "&Працоўны шлях:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: widgets/kpropertiesdesktopbase.ui:156
+#: widgets/kpropertiesdesktopbase.ui:169
 #| msgctxt "KFile System Bookmarks"
 #| msgid "Documents"
 msgid "Arguments:"
@@ -6773,7 +6779,7 @@ msgstr "Аргументы:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel7)
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, filetypeList)
-#: widgets/kpropertiesdesktopbase.ui:173 widgets/kpropertiesdesktopbase.ui:194
+#: widgets/kpropertiesdesktopbase.ui:186 widgets/kpropertiesdesktopbase.ui:207
 #, kde-format
 msgid "<qt><p>This list should show the types of file that your application can handle. This list is organized by <u>mimetypes</u>.</p>\n"
 "<p>MIME, Multipurpose Internet (e)Mail Extension, is a standard protocol for identifying the type of data based on filename extensions and correspondent <u>mimetypes</u>. Example: the \"bmp\" part that comes after the dot in flower.bmp indicates that it is a specific kind of image, <u>image/x-bmp</u>. To know which application should open each type of file, the system should be informed about the abilities of each application to handle these extensions and mimetypes.</p>\n"
@@ -6783,55 +6789,55 @@ msgstr "<qt><p>У гэтым спісе павінны паказвацца ты
 " <p>Калі вы хочаце звязаць гэтую праграму з адным ці некалькімі тыпамі mime, якіх няма ў гэтым спісе, націсніце кнопку <b>Дадаць</b>. Калі ёсць адзін або некалькі тыпаў файлаў, якія гэтая праграма не можа апрацоўваць, вы можаце выдаліць іх са спіса, націснуўшы кнопку <b>Выдаліць</b>.</p></qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel7)
-#: widgets/kpropertiesdesktopbase.ui:176
+#: widgets/kpropertiesdesktopbase.ui:189
 #, kde-format
 msgid "&Supported file types:"
 msgstr "&Тыпы файлаў, якія падтрымліваюцца:"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, filetypeList)
-#: widgets/kpropertiesdesktopbase.ui:207
+#: widgets/kpropertiesdesktopbase.ui:220
 #, kde-format
 msgid "Mimetype"
 msgstr "Тып MIME"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, filetypeList)
-#: widgets/kpropertiesdesktopbase.ui:212
+#: widgets/kpropertiesdesktopbase.ui:225
 #, kde-format
 msgid "Description"
 msgstr "Апісанне"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, addFiletypeButton)
-#: widgets/kpropertiesdesktopbase.ui:222
+#: widgets/kpropertiesdesktopbase.ui:235
 #, kde-format
 msgid "Click on this button if you want to add a type of file (mimetype) that your application can handle."
 msgstr "Націсніце на гэтую кнопку, каб дадаць тып файлаў (тып MIME), з якім можа працаваць праграма."
 
 #. i18n: ectx: property (text), widget (QPushButton, addFiletypeButton)
-#: widgets/kpropertiesdesktopbase.ui:225
+#: widgets/kpropertiesdesktopbase.ui:238
 #, kde-format
 msgid "Add..."
 msgstr "Дадаць..."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, delFiletypeButton)
-#: widgets/kpropertiesdesktopbase.ui:232
+#: widgets/kpropertiesdesktopbase.ui:245
 #, kde-format
 msgid "If you want to remove a type of file (mimetype) that your application cannot handle, select the mimetype in the list above and click on this button."
 msgstr "Калі вы хочаце выдаліць тып файлаў (тып MIME), з якім праграма не можа працаваць, абярыце тып MIME са спіса і націсніце на гэтую кнопку."
 
 #. i18n: ectx: property (text), widget (QPushButton, delFiletypeButton)
-#: widgets/kpropertiesdesktopbase.ui:235
+#: widgets/kpropertiesdesktopbase.ui:248
 #, kde-format
 msgid "Remove"
 msgstr "Выдаліць"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, advancedButton)
-#: widgets/kpropertiesdesktopbase.ui:258
+#: widgets/kpropertiesdesktopbase.ui:271
 #, kde-format
 msgid "Click here to modify the way this application will run, launch feedback, D-Bus options or to run it as a different user."
 msgstr "Пстрыкніце тут, каб змяніць спосаб запуску гэтай праграмы, пазначэнне заруску, параметры D-Bus або запусціць ад імя іншага карыстальніка."
 
 #. i18n: ectx: property (text), widget (QPushButton, advancedButton)
-#: widgets/kpropertiesdesktopbase.ui:261
+#: widgets/kpropertiesdesktopbase.ui:274
 #, kde-format
 msgid "Ad&vanced Options"
 msgstr "Ад&мысловыя параметры"
@@ -7331,7 +7337,7 @@ msgstr "U&RL"
 msgid "URL:"
 msgstr "URL:"
 
-#: widgets/kpropertiesdialog.cpp:3223 widgets/kpropertiesdialog.cpp:3503
+#: widgets/kpropertiesdialog.cpp:3223 widgets/kpropertiesdialog.cpp:3519
 #, kde-format
 msgid "Could not save properties. Only entries on local file systems are supported."
 msgstr "Не ўдалося захаваць уласцівасці. Падтрымліваюцца толькі запісы ў лакальных файлавых сістэмах."
@@ -7341,22 +7347,22 @@ msgstr "Не ўдалося захаваць уласцівасці. Падтр�
 msgid "&Application"
 msgstr "&Праграма"
 
-#: widgets/kpropertiesdialog.cpp:3441
+#: widgets/kpropertiesdialog.cpp:3457
 #, kde-format
 msgid "Add File Type for %1"
 msgstr "Дадаць тып файлаў для %1"
 
-#: widgets/kpropertiesdialog.cpp:3442
+#: widgets/kpropertiesdialog.cpp:3458
 #, kde-format
 msgid "Select one or more file types to add:"
 msgstr "Дадаць адзін або некалькі тыпаў файлаў:"
 
-#: widgets/kpropertiesdialog.cpp:3588
+#: widgets/kpropertiesdialog.cpp:3604
 #, kde-format
 msgid "Only executables on local file systems are supported."
 msgstr "Падтрымліваюцца толькі выканальныя файлы, размешчаныя ў лакальнай файлавай сістэме."
 
-#: widgets/kpropertiesdialog.cpp:3603
+#: widgets/kpropertiesdialog.cpp:3619
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "Адмысловыя параметры для %1"
