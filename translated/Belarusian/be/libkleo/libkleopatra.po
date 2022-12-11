@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-27 00:46+0000\n"
-"PO-Revision-Date: 2022-10-09 09:15\n"
+"POT-Creation-Date: 2022-11-29 00:47+0000\n"
+"PO-Revision-Date: 2022-11-30 21:08\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -153,8 +153,8 @@ msgstr ""
 msgid "OpenPGP/MIME"
 msgstr ""
 
-#: kleo/enum.cpp:37 ui/newkeyapprovaldialog.cpp:322
-#: ui/newkeyapprovaldialog.cpp:325
+#: kleo/enum.cpp:37 ui/newkeyapprovaldialog.cpp:309
+#: ui/newkeyapprovaldialog.cpp:312
 #, kde-format
 msgid "S/MIME"
 msgstr ""
@@ -264,12 +264,12 @@ msgstr ""
 msgid "Not Validated Certificates"
 msgstr ""
 
-#: models/keylistmodel.cpp:302 models/useridlistmodel.cpp:111
+#: models/keylistmodel.cpp:302 models/useridlistmodel.cpp:105
 #| msgid "User Name"
 msgid "Name"
 msgstr "Імя"
 
-#: models/keylistmodel.cpp:304 models/useridlistmodel.cpp:112
+#: models/keylistmodel.cpp:304 models/useridlistmodel.cpp:106
 #, kde-format
 msgid "E-Mail"
 msgstr ""
@@ -280,13 +280,13 @@ msgid "User-IDs"
 msgstr ""
 
 #: models/keylistmodel.cpp:308 models/subkeylistmodel.cpp:159
-#: models/useridlistmodel.cpp:113
+#: models/useridlistmodel.cpp:107
 #, kde-format
 msgid "Valid From"
 msgstr ""
 
 #: models/keylistmodel.cpp:310 models/subkeylistmodel.cpp:161
-#: models/useridlistmodel.cpp:114
+#: models/useridlistmodel.cpp:108
 #, kde-format
 msgid "Valid Until"
 msgstr ""
@@ -332,18 +332,18 @@ msgstr ""
 msgid "Certification Trust"
 msgstr ""
 
-#: models/keylistmodel.cpp:330 models/useridlistmodel.cpp:117
+#: models/keylistmodel.cpp:330 models/useridlistmodel.cpp:111
 #, kde-format
 msgid "Tags"
 msgstr "Пазнакі"
 
-#: models/keylistmodel.cpp:378 models/useridlistmodel.cpp:71
+#: models/keylistmodel.cpp:378 models/useridlistmodel.cpp:69
 #| msgid "Given name"
 msgctxt "text for screen readers for an empty name"
 msgid "no name"
 msgstr ""
 
-#: models/keylistmodel.cpp:385 models/useridlistmodel.cpp:72
+#: models/keylistmodel.cpp:385 models/useridlistmodel.cpp:70
 #| msgctxt "EMAIL OF TRANSLATORS"
 #| msgid "Your emails"
 msgctxt "text for screen readers for an empty email address"
@@ -372,7 +372,7 @@ msgstr "Ідэнтыфікатар"
 msgid "Type"
 msgstr "Тып"
 
-#: models/subkeylistmodel.cpp:163 models/useridlistmodel.cpp:115
+#: models/subkeylistmodel.cpp:163 models/useridlistmodel.cpp:109
 #: utils/formatting.cpp:413 utils/formatting.cpp:415
 #, kde-format
 msgid "Status"
@@ -389,55 +389,55 @@ msgstr "Надзейнасць"
 msgid "Usage"
 msgstr "Выкарыстанне"
 
-#: models/useridlistmodel.cpp:76
+#: models/useridlistmodel.cpp:74
 #, kde-format
 msgctxt "yes, is exportable"
 msgid "yes"
 msgstr "так"
 
-#: models/useridlistmodel.cpp:76
+#: models/useridlistmodel.cpp:74
 #, kde-format
 msgctxt "no, is not exportable"
 msgid "no"
 msgstr "не"
 
-#: models/useridlistmodel.cpp:77
+#: models/useridlistmodel.cpp:75
 #| msgctxt "no specific preference"
 #| msgid "<none>"
 msgctxt "accessible text for empty list of tags"
 msgid "none"
 msgstr "няма"
 
-#: models/useridlistmodel.cpp:79
+#: models/useridlistmodel.cpp:76
 #, kde-format
 msgid "not applicable"
 msgstr ""
 
+#: models/useridlistmodel.cpp:89 models/useridlistmodel.cpp:90
+#: models/useridlistmodel.cpp:91 models/useridlistmodel.cpp:92
 #: models/useridlistmodel.cpp:93 models/useridlistmodel.cpp:94
 #: models/useridlistmodel.cpp:95 models/useridlistmodel.cpp:96
-#: models/useridlistmodel.cpp:97 models/useridlistmodel.cpp:98
-#: models/useridlistmodel.cpp:99 models/useridlistmodel.cpp:101
 #: ui/keyselectiondialog.cpp:194
 #, kde-format
 msgid "User ID"
 msgstr "ID карыстальніка"
 
-#: models/useridlistmodel.cpp:110
+#: models/useridlistmodel.cpp:104
 #, kde-format
 msgid "User ID / Certification Key ID"
 msgstr ""
 
-#: models/useridlistmodel.cpp:116
+#: models/useridlistmodel.cpp:110
 #, kde-format
 msgid "Exportable"
 msgstr "Можна экспартаваць"
 
-#: models/useridlistmodel.cpp:119
+#: models/useridlistmodel.cpp:112
 #, kde-format
 msgid "Trust Signature For"
 msgstr ""
 
-#: models/useridlistmodel.cpp:175 utils/formatting.cpp:801
+#: models/useridlistmodel.cpp:167 utils/formatting.cpp:801
 #, kde-format
 msgid "class %1"
 msgstr ""
@@ -1353,90 +1353,90 @@ msgstr "Паказваць усе"
 msgid "Show all keys"
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:289
+#: ui/newkeyapprovaldialog.cpp:276
 #, kde-format
 msgctxt "@info:tooltip for a 'Generate new key pair' action in a combobox when a user does not yet have an OpenPGP or S/MIME key."
 msgid "Generate a new key using your E-Mail address.<br/><br/>The key is necessary to decrypt and sign E-Mails. You will be asked for a passphrase to protect this key and the protected key will be stored in your home directory."
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:314
+#: ui/newkeyapprovaldialog.cpp:301
 #, kde-format
 msgctxt "@title:window"
 msgid "Security approval"
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:321 ui/newkeyapprovaldialog.cpp:324
+#: ui/newkeyapprovaldialog.cpp:308 ui/newkeyapprovaldialog.cpp:311
 #: utils/formatting.cpp:692
 #, kde-format
 msgid "OpenPGP"
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:408
+#: ui/newkeyapprovaldialog.cpp:395
 #, kde-format
 msgid "Generating key for '%1'..."
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:408
+#: ui/newkeyapprovaldialog.cpp:395
 #, kde-format
 msgid "This can take several minutes."
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:410
+#: ui/newkeyapprovaldialog.cpp:397
 #, kde-format
 msgctxt "@title:window"
 msgid "Key generation"
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:441
+#: ui/newkeyapprovaldialog.cpp:428
 #, kde-format
 msgid "Operation Failed"
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:556 ui/newkeyapprovaldialog.cpp:652
+#: ui/newkeyapprovaldialog.cpp:543 ui/newkeyapprovaldialog.cpp:639
 #, kde-format
 msgid "Generate a new key pair"
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:559
+#: ui/newkeyapprovaldialog.cpp:546
 #, kde-format
 msgid "Don't confirm identity and integrity"
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:561
+#: ui/newkeyapprovaldialog.cpp:548
 #, kde-format
 msgctxt "@info:tooltip for not selecting a key for signing."
 msgid "The E-Mail will not be cryptographically signed."
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:579
+#: ui/newkeyapprovaldialog.cpp:566
 #, kde-format
 msgctxt "Caption for signing key selection"
 msgid "Confirm identity '%1' as:"
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:656
+#: ui/newkeyapprovaldialog.cpp:643
 #, kde-format
 msgid "No key. Recipient will be unable to decrypt."
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:659
+#: ui/newkeyapprovaldialog.cpp:646
 #, kde-format
 msgctxt "@info:tooltip for No Key selected for a specific recipient."
 msgid "Do not select a key for this recipient.<br/><br/>The recipient will receive the encrypted E-Mail, but it can only be decrypted with the other keys selected in this dialog."
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:776
+#: ui/newkeyapprovaldialog.cpp:763
 #| msgid "Description"
 msgctxt "Encrypt to self (email address):"
 msgid "Encrypt to self (%1):"
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:793
+#: ui/newkeyapprovaldialog.cpp:780
 #| msgid "Description"
 msgid "Encrypt to others:"
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:827
+#: ui/newkeyapprovaldialog.cpp:814
 #| msgid "General"
 msgid "Generate"
 msgstr "Згенераваць"
@@ -2019,19 +2019,19 @@ msgstr ""
 msgid "Unknown"
 msgstr "Невядома"
 
-#: utils/formatting.cpp:1316
+#: utils/formatting.cpp:1311
 #, kde-format
 msgctxt "Certifies this key as partially trusted introducer for 'domain name'."
 msgid "Certifies this key as partially trusted introducer for '%1'."
 msgstr ""
 
-#: utils/formatting.cpp:1320
+#: utils/formatting.cpp:1315
 #, kde-format
 msgctxt "Certifies this key as fully trusted introducer for 'domain name'."
 msgid "Certifies this key as fully trusted introducer for '%1'."
 msgstr ""
 
-#: utils/gnupg.cpp:158
+#: utils/gnupg.cpp:164
 #, kde-format
 msgid "Certificate Manager and Unified Crypto GUI"
 msgstr ""

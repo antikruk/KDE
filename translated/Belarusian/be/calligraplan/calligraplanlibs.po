@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-29 00:47+0000\n"
-"PO-Revision-Date: 2022-11-10 06:47\n"
+"POT-Creation-Date: 2022-11-30 00:47+0000\n"
+"PO-Revision-Date: 2022-11-30 21:02\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -30,7 +30,7 @@ msgid "Your emails"
 msgstr "komzpa@licei2. com, nashtlumach@gmail. com"
 
 #: kernel/KPlatoXmlLoaderBase.cpp:1055 kernel/kptdocuments.cpp:279
-#: kernel/ProjectLoader_v0.cpp:1474
+#: kernel/ProjectLoader_v0.cpp:1510
 #| msgid "Account"
 msgid "Document loaded, URL=%1"
 msgstr ""
@@ -194,7 +194,7 @@ msgstr "мс"
 msgid "Deleted"
 msgstr "Выдалены"
 
-#: kernel/kptglobal.cpp:20 kernel/kptnode.cpp:668 kernel/kptschedule.cpp:1927
+#: kernel/kptglobal.cpp:20 kernel/kptnode.cpp:668 kernel/kptschedule.cpp:1794
 #: models/kptschedulemodel.cpp:840
 #| msgid "Project"
 msgid "Not scheduled"
@@ -242,6 +242,7 @@ msgctxt "project scheduling canceled by user"
 msgid "Canceled"
 msgstr "Скасавана"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, freedays)
 #. i18n: ectx: property (text), item, widget (KComboBox, risk)
 #: kernel/kptnode.cpp:142 kernel/kptnode.cpp:1705 kernel/WorkPackage.cpp:132
 #: models/kptcalendarmodel.cpp:418 models/kptcalendarmodel.cpp:438
@@ -254,11 +255,12 @@ msgstr "Скасавана"
 #: models/kpttreecombobox.cpp:110 models/ResourceModel.cpp:208
 #: models/ResourceModel.cpp:240 models/ResourceModel.cpp:361
 #: models/ResourceModel.cpp:365 models/ResourceModel.cpp:374
-#: ui/kptpertresult.cpp:130 ui/kptpertresult.cpp:547
-#: ui/kptresourcedialog.cpp:272 ui/kptresourcedialog.cpp:299
-#: ui/kpttaskcostpanel.cpp:36 ui/kpttaskgeneralpanel.cpp:59
-#: ui/kpttaskgeneralpanelbase.ui:386 ui/reports/reportview.cpp:1347
-#: ui/TasksGeneralPanel.cpp:55 ui/TasksGeneralPanel.ui:338
+#: ui/kptmainprojectpanelbase.ui:275 ui/kptpertresult.cpp:130
+#: ui/kptpertresult.cpp:547 ui/kptresourcedialog.cpp:272
+#: ui/kptresourcedialog.cpp:299 ui/kpttaskcostpanel.cpp:36
+#: ui/kpttaskgeneralpanel.cpp:59 ui/kpttaskgeneralpanelbase.ui:386
+#: ui/reports/reportview.cpp:1347 ui/TasksGeneralPanel.cpp:55
+#: ui/TasksGeneralPanel.ui:338
 #, kde-format
 msgid "None"
 msgstr "Няма"
@@ -550,7 +552,7 @@ msgstr ""
 msgid "Finished scheduling backward: %1 ms"
 msgstr ""
 
-#: kernel/kptproject.cpp:3392
+#: kernel/kptproject.cpp:2755
 #, kde-format
 msgid "Plan"
 msgstr "План"
@@ -573,47 +575,47 @@ msgstr ""
 msgid "Start-Start"
 msgstr ""
 
-#: kernel/kptresourcerequest.cpp:754
+#: kernel/kptresourcerequest.cpp:722
 #, kde-format
 msgid "Re-scheduling but no used resources was found"
 msgstr ""
 
-#: kernel/kptresourcerequest.cpp:851
+#: kernel/kptresourcerequest.cpp:819
 #, kde-format
 msgid "Deviation match: granularity: %1, deviation: %2"
 msgstr ""
 
-#: kernel/kptresourcerequest.cpp:1005
+#: kernel/kptresourcerequest.cpp:973
 #, kde-format
 msgid "Could not match effort. Want: %1 got: %2 (%3)"
 msgstr ""
 
-#: kernel/kptresourcerequest.cpp:1008
+#: kernel/kptresourcerequest.cpp:976
 #| msgid "% Completed"
 msgid "Resource %1 available from %2 to %3"
 msgstr ""
 
-#: kernel/kptschedule.cpp:164
+#: kernel/kptschedule.cpp:165
 #, kde-format
 msgid "Expected"
 msgstr "Чакалася"
 
-#: kernel/kptschedule.cpp:1593
+#: kernel/kptschedule.cpp:1460
 #, kde-format
 msgid "Debug"
 msgstr "Адладка"
 
-#: kernel/kptschedule.cpp:1594
+#: kernel/kptschedule.cpp:1461
 #, kde-format
 msgid "Info"
 msgstr "Інфармацыя"
 
-#: kernel/kptschedule.cpp:1595 main/KoMainWindow.cpp:1834
+#: kernel/kptschedule.cpp:1462 main/KoMainWindow.cpp:1834
 #, kde-format
 msgid "Warning"
 msgstr "Увага"
 
-#: kernel/kptschedule.cpp:1596 kernel/kptschedule.cpp:1931
+#: kernel/kptschedule.cpp:1463 kernel/kptschedule.cpp:1798
 #: models/kptnodeitemmodel.cpp:1705 models/kptnodeitemmodel.cpp:1738
 #: models/kptnodeitemmodel.cpp:1771 models/kptnodeitemmodel.cpp:1804
 #: models/kptnodeitemmodel.cpp:1837 models/kptnodeitemmodel.cpp:1870
@@ -622,142 +624,142 @@ msgstr "Увага"
 msgid "Error"
 msgstr "Памылка"
 
-#: kernel/kptschedule.cpp:1921
+#: kernel/kptschedule.cpp:1788
 #, kde-format
 msgid "Baselined"
 msgstr ""
 
-#: kernel/kptschedule.cpp:1924
+#: kernel/kptschedule.cpp:1791
 #| msgid "% Completed"
 msgid "Scheduling"
 msgstr ""
 
-#: kernel/kpttask.cpp:1258
+#: kernel/kpttask.cpp:1109
 #| msgid "Calculate"
 msgid "Calculate early finish "
 msgstr ""
 
-#: kernel/kpttask.cpp:1296 kernel/kpttask.cpp:1314 kernel/kpttask.cpp:1331
-#: kernel/kpttask.cpp:1354 kernel/kpttask.cpp:1380 kernel/kpttask.cpp:1387
-#: kernel/kpttask.cpp:1397 kernel/kpttask.cpp:1570 kernel/kpttask.cpp:1593
-#: kernel/kpttask.cpp:1608 kernel/kpttask.cpp:1631 kernel/kpttask.cpp:1640
-#: kernel/kpttask.cpp:1649 kernel/kpttask.cpp:1657
+#: kernel/kpttask.cpp:1147 kernel/kpttask.cpp:1165 kernel/kpttask.cpp:1182
+#: kernel/kpttask.cpp:1205 kernel/kpttask.cpp:1231 kernel/kpttask.cpp:1238
+#: kernel/kpttask.cpp:1248 kernel/kpttask.cpp:1421 kernel/kpttask.cpp:1444
+#: kernel/kpttask.cpp:1459 kernel/kpttask.cpp:1482 kernel/kpttask.cpp:1491
+#: kernel/kpttask.cpp:1500 kernel/kpttask.cpp:1508
 #| msgid "Can start"
 msgctxt "1=type of constraint"
 msgid "%1: Failed to meet constraint"
 msgstr ""
 
-#: kernel/kpttask.cpp:1426 kernel/kpttask.cpp:1679 kernel/kpttask.cpp:2082
-#: kernel/kpttask.cpp:2464
+#: kernel/kpttask.cpp:1277 kernel/kpttask.cpp:1530 kernel/kpttask.cpp:1933
+#: kernel/kpttask.cpp:2315
 #, kde-format
 msgid "Resource %1 booked from %2 to %3"
 msgstr ""
 
-#: kernel/kpttask.cpp:1432
+#: kernel/kpttask.cpp:1283
 #| msgid "Finished"
 msgid "Early finish calculated: %1"
 msgstr ""
 
-#: kernel/kpttask.cpp:1532
+#: kernel/kpttask.cpp:1383
 #| msgid "Calculate"
 msgid "Calculate late start"
 msgstr ""
 
-#: kernel/kpttask.cpp:1685
+#: kernel/kpttask.cpp:1536
 #| msgid "Finished"
 msgid "Late start calculated: %1"
 msgstr ""
 
-#: kernel/kpttask.cpp:1782
+#: kernel/kpttask.cpp:1633
 #| msgid "Optimistic"
 msgid "Start schedule forward: %1 "
 msgstr ""
 
-#: kernel/kpttask.cpp:1784
+#: kernel/kpttask.cpp:1635
 #| msgid "Optimistic"
 msgid "Schedule from start %1"
 msgstr ""
 
-#: kernel/kpttask.cpp:1831
+#: kernel/kpttask.cpp:1682
 #, kde-format
 msgid "%1: Scheduling failed using late finish, trying early finish instead."
 msgstr ""
 
-#: kernel/kpttask.cpp:1866 kernel/kpttask.cpp:1890 kernel/kpttask.cpp:1916
-#: kernel/kpttask.cpp:1940 kernel/kpttask.cpp:1958 kernel/kpttask.cpp:2029
-#: kernel/kpttask.cpp:2046 kernel/kpttask.cpp:2058 kernel/kpttask.cpp:2272
-#: kernel/kpttask.cpp:2291 kernel/kpttask.cpp:2313 kernel/kpttask.cpp:2329
-#: kernel/kpttask.cpp:2348 kernel/kpttask.cpp:2412 kernel/kpttask.cpp:2425
-#: kernel/kpttask.cpp:2442
+#: kernel/kpttask.cpp:1717 kernel/kpttask.cpp:1741 kernel/kpttask.cpp:1767
+#: kernel/kpttask.cpp:1791 kernel/kpttask.cpp:1809 kernel/kpttask.cpp:1880
+#: kernel/kpttask.cpp:1897 kernel/kpttask.cpp:1909 kernel/kpttask.cpp:2123
+#: kernel/kpttask.cpp:2142 kernel/kpttask.cpp:2164 kernel/kpttask.cpp:2180
+#: kernel/kpttask.cpp:2199 kernel/kpttask.cpp:2263 kernel/kpttask.cpp:2276
+#: kernel/kpttask.cpp:2293
 #, kde-format
 msgctxt "1=type of constraint"
 msgid "%1: Failed to meet constraint. Negative float=%2"
 msgstr ""
 
-#: kernel/kpttask.cpp:1982 kernel/kpttask.cpp:2370
+#: kernel/kpttask.cpp:1833 kernel/kpttask.cpp:2221
 #, kde-format
 msgid "Effort deviation. Estimate: %1, scheduled: %2, granularity: %3"
 msgstr ""
 
-#: kernel/kpttask.cpp:1990 kernel/kpttask.cpp:2378
+#: kernel/kpttask.cpp:1841 kernel/kpttask.cpp:2229
 #, kde-format
 msgid "Effort not met. Estimate: %1, scheduled: %2"
 msgstr ""
 
-#: kernel/kpttask.cpp:2078 kernel/kpttask.cpp:2460
+#: kernel/kpttask.cpp:1929 kernel/kpttask.cpp:2311
 #| msgid "Optimistic"
 msgid "Failed to schedule within project target time"
 msgstr ""
 
-#: kernel/kpttask.cpp:2085 kernel/kpttask.cpp:2467
+#: kernel/kpttask.cpp:1936 kernel/kpttask.cpp:2318
 #, kde-format
 msgid "Starting earlier than early start"
 msgstr ""
 
-#: kernel/kpttask.cpp:2088 kernel/kpttask.cpp:2470
+#: kernel/kpttask.cpp:1939 kernel/kpttask.cpp:2321
 #, kde-format
 msgid "Finishing later than late finish"
 msgstr ""
 
-#: kernel/kpttask.cpp:2090 kernel/kpttask.cpp:2472
+#: kernel/kpttask.cpp:1941 kernel/kpttask.cpp:2323
 #| msgid "Optimistic"
 msgid "Scheduled: %1 to %2"
 msgstr ""
 
-#: kernel/kpttask.cpp:2093
+#: kernel/kpttask.cpp:1944
 #| msgid "Finished"
 msgid "Finished schedule forward: %1 ms"
 msgstr ""
 
-#: kernel/kpttask.cpp:2191
+#: kernel/kpttask.cpp:2042
 #| msgid "Optimistic"
 msgid "Schedule from end time: %1"
 msgstr ""
 
-#: kernel/kpttask.cpp:2215
+#: kernel/kpttask.cpp:2066
 #, kde-format
 msgctxt "1=type of constraint"
 msgid "%1: Failed to schedule within late finish."
 msgstr ""
 
-#: kernel/kpttask.cpp:2221
+#: kernel/kpttask.cpp:2072
 #| msgid "Optimistic"
 msgctxt "1=type of constraint"
 msgid "%1: Failed to schedule within successors start time"
 msgstr ""
 
-#: kernel/kpttask.cpp:2248 kernel/kpttask.cpp:2386
+#: kernel/kpttask.cpp:2099 kernel/kpttask.cpp:2237
 #| msgid "Optimistic"
 msgctxt "1=type of constraint"
 msgid "%1: Failed to schedule after early start."
 msgstr ""
 
-#: kernel/kpttask.cpp:2543
+#: kernel/kpttask.cpp:2394
 #| msgid "% Completed"
 msgid "No resource has been allocated"
 msgstr ""
 
-#: kernel/kpttask.cpp:2708
+#: kernel/kpttask.cpp:2559
 #, kde-format
 msgid "Could not match work duration. Want: %1 got: %2"
 msgstr ""
@@ -806,28 +808,28 @@ msgctxt "@item:inlistbox resource type"
 msgid "Team"
 msgstr "Каманда"
 
-#: kernel/Resource.cpp:651
+#: kernel/Resource.cpp:577
 #, kde-format
 msgid "Make appointments: Invalid time"
 msgstr ""
 
-#: kernel/Resource.cpp:656 kernel/Resource.cpp:717 kernel/Resource.cpp:967
-#: kernel/Resource.cpp:1042
+#: kernel/Resource.cpp:582 kernel/Resource.cpp:643 kernel/Resource.cpp:893
+#: kernel/Resource.cpp:968
 #, kde-format
 msgid "Resource %1 has no calendar defined"
 msgstr ""
 
-#: kernel/Resource.cpp:680
+#: kernel/Resource.cpp:606
 #, kde-format
 msgid "Make appointments: Node start time is not valid"
 msgstr ""
 
-#: kernel/Resource.cpp:684
+#: kernel/Resource.cpp:610
 #, kde-format
 msgid "Make appointments: Node end time is not valid"
 msgstr ""
 
-#: kernel/Resource.cpp:731 kernel/Resource.cpp:748
+#: kernel/Resource.cpp:657 kernel/Resource.cpp:674
 #, kde-format
 msgid "Resource %1 not available in interval: %2 to %3"
 msgstr ""
@@ -1643,9 +1645,11 @@ msgstr "Спыніць"
 
 #: main/KoPrintingDialog.cpp:175 ui/gantt/BasicGanttViewSettingsDialog.cpp:32
 #: ui/kptaccountseditor.cpp:53 ui/kptaccountsviewconfigdialog.cpp:76
-#: ui/kptdependencyeditor.cpp:2185 ui/kptitemviewsettup.cpp:190
-#: ui/kptitemviewsettup.cpp:274 ui/kptresourceappointmentsview.cpp:66
+#: ui/kptdependencyeditor.cpp:2185 ui/kptganttview.cpp:194
+#: ui/kptitemviewsettup.cpp:190 ui/kptitemviewsettup.cpp:274
+#: ui/kptresourceappointmentsview.cpp:66 ui/MilestoneGanttView.cpp:148
 #: ui/performance/ProjectStatusView.cpp:170
+#: ui/ResourceAppointmentsGanttView.cpp:163
 #, kde-format
 msgid "Printing"
 msgstr "Друк"
@@ -2004,7 +2008,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, ui_description)
 #: models/kptaccountsmodel.cpp:113 models/kptaccountsmodel.cpp:1055
-#: ui/kptmainprojectpanelbase.ui:269
+#: ui/kptmainprojectpanelbase.ui:313
 #, kde-format
 msgid "Description"
 msgstr "Апісанне"
@@ -5666,25 +5670,15 @@ msgstr ""
 
 #: ui/gantt/BasicGanttViewSettingsDialog.cpp:32 ui/kptaccountseditor.cpp:54
 #: ui/kptaccountsviewconfigdialog.cpp:77 ui/kptdependencyeditor.cpp:2186
-#: ui/kptitemviewsettup.cpp:190 ui/kptitemviewsettup.cpp:274
-#: ui/kptresourceappointmentsview.cpp:67
-#: ui/performance/ProjectStatusView.cpp:171
+#: ui/kptganttview.cpp:194 ui/kptitemviewsettup.cpp:190
+#: ui/kptitemviewsettup.cpp:274 ui/kptresourceappointmentsview.cpp:67
+#: ui/MilestoneGanttView.cpp:148 ui/performance/ProjectStatusView.cpp:171
+#: ui/ResourceAppointmentsGanttView.cpp:163
 #, kde-format
 msgid "Printing Options"
 msgstr ""
 
-#: ui/gantt/GanttViewBase.cpp:174 ui/performance/PerformanceStatusView.cpp:635
-#: ui/performance/ProjectStatusView.cpp:155
-#| msgid "Started late"
-msgid "Chart"
-msgstr ""
-
-#: ui/gantt/GanttViewBase.cpp:174
-#| msgid "Project"
-msgid "Gantt Chart Settings"
-msgstr ""
-
-#: ui/gantt/GanttViewBase.cpp:260
+#: ui/gantt/GanttViewBase.cpp:154
 #| msgid "Started late"
 msgctxt "@title:tab"
 msgid "Chart"
@@ -5692,168 +5686,221 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: ui/gantt/kptganttchartdisplayoptions.ui:20
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:20
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:20
 #| msgid "Timezone"
 msgid "Timeline"
 msgstr "Храналогія"
 
+#. i18n: ectx: property (toolTip), widget (QRadioButton, timeLineHide)
 #. i18n: ectx: property (toolTip), widget (QRadioButton, ui_timeLineHide)
 #: ui/gantt/kptganttchartdisplayoptions.ui:28
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:28
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:28
 #, kde-format
 msgid "Do not show the timeline"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QRadioButton, timeLineHide)
 #. i18n: ectx: property (text), widget (QRadioButton, ui_timeLineHide)
 #: ui/gantt/kptganttchartdisplayoptions.ui:31
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:31
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:31
 #, kde-format
 msgid "Hide"
 msgstr "Хаваць"
 
+#. i18n: ectx: property (toolTip), widget (QRadioButton, timeLineForeground)
 #. i18n: ectx: property (toolTip), widget (QRadioButton, ui_timeLineForeground)
 #: ui/gantt/kptganttchartdisplayoptions.ui:38
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:38
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:38
 #, kde-format
 msgid "Show timeline in the foreground"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QRadioButton, timeLineForeground)
 #. i18n: ectx: property (text), widget (QRadioButton, ui_timeLineForeground)
 #: ui/gantt/kptganttchartdisplayoptions.ui:41
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:41
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:41
 #, kde-format
 msgid "Foreground"
 msgstr "Асноўны колер"
 
+#. i18n: ectx: property (toolTip), widget (QRadioButton, timeLineBackground)
 #. i18n: ectx: property (toolTip), widget (QRadioButton, ui_timeLineBackground)
 #: ui/gantt/kptganttchartdisplayoptions.ui:48
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:48
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:48
 #, kde-format
 msgid "Show timeline in the background"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QRadioButton, timeLineBackground)
 #. i18n: ectx: property (text), widget (QRadioButton, ui_timeLineBackground)
 #: ui/gantt/kptganttchartdisplayoptions.ui:51
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:51
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:51
 #, kde-format
 msgid "Background"
 msgstr "Фон"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_3)
 #: ui/gantt/kptganttchartdisplayoptions.ui:60
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:60
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:60
 #, kde-format
 msgid "Update interval in minutes, 0 disables update"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ui/gantt/kptganttchartdisplayoptions.ui:63
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:63
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:63
 #, kde-format
 msgid "Interval:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, timeLineUseCustom)
 #. i18n: ectx: property (text), widget (QCheckBox, ui_timeLineUseCustom)
 #: ui/gantt/kptganttchartdisplayoptions.ui:93
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:93
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:93
 #, kde-format
 msgid "Use custom line"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_2)
 #: ui/gantt/kptganttchartdisplayoptions.ui:102
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:102
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:102
 #| msgid "Started late"
 msgid "Line width"
 msgstr "Шырыня лініі"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/gantt/kptganttchartdisplayoptions.ui:105
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:105
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:105
 #, kde-format
 msgid "Stroke:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: ui/gantt/kptganttchartdisplayoptions.ui:126
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:126
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:126
 #| msgid "Started late"
 msgid "Line color"
 msgstr "Колер лініі"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/gantt/kptganttchartdisplayoptions.ui:129
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:129
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:129
 #, kde-format
 msgid "Color:"
 msgstr "Колер:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: ui/gantt/kptganttchartdisplayoptions.ui:153
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:153
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:153
 #| msgid "Description"
 msgid "Decorations"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, showRowSeparators)
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showRowSeparators)
 #: ui/gantt/kptganttchartdisplayoptions.ui:159
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:159
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:159
 #, kde-format
 msgid "Show Row Separators"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/gantt/kptganttchartdisplayoptions.ui:168
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:168
+#: ui/gantt/ResourceAppointmentsGanttChartOptionsPanel.ui:168
+#: ui/kptmainprojectpanelbase.ui:261
+#, kde-format
+msgid "Freedays:"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: ui/gantt/kptganttchartdisplayoptions.ui:169
+#: ui/gantt/kptganttchartdisplayoptions.ui:203
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:203
 #, kde-format
 msgid "Additional text information"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showTaskName)
-#: ui/gantt/kptganttchartdisplayoptions.ui:175
+#. i18n: ectx: property (text), widget (QCheckBox, showTaskName)
+#: ui/gantt/kptganttchartdisplayoptions.ui:209
+#: ui/gantt/MilestoneGanttChartOptionsPanel.ui:209
 #| msgid "Task"
 msgid "Task name"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showResourceNames)
-#: ui/gantt/kptganttchartdisplayoptions.ui:182
+#: ui/gantt/kptganttchartdisplayoptions.ui:216
 #| msgid "Add Resource"
 msgid "Resource names"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: ui/gantt/kptganttchartdisplayoptions.ui:192
+#: ui/gantt/kptganttchartdisplayoptions.ui:226
 #, kde-format
 msgid "Additional graphics information"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showCriticalPath)
-#: ui/gantt/kptganttchartdisplayoptions.ui:201
+#: ui/gantt/kptganttchartdisplayoptions.ui:235
 #| msgid "Critical"
 msgid "Critical path"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showDependencies)
-#: ui/gantt/kptganttchartdisplayoptions.ui:208
+#: ui/gantt/kptganttchartdisplayoptions.ui:242
 #| msgid "Deleted"
 msgid "Task dependencies"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showNegativeFloat)
-#: ui/gantt/kptganttchartdisplayoptions.ui:215
+#: ui/gantt/kptganttchartdisplayoptions.ui:249
 #| msgid "Project"
 msgid "Negative float"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showCriticalTasks)
-#: ui/gantt/kptganttchartdisplayoptions.ui:222
+#: ui/gantt/kptganttchartdisplayoptions.ui:256
 #| msgid "Critical"
 msgid "Critical tasks"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showCompletion)
-#: ui/gantt/kptganttchartdisplayoptions.ui:229
+#: ui/gantt/kptganttchartdisplayoptions.ui:263
 #| msgid "% Completed"
 msgid "Task completion"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showPositiveFloat)
-#: ui/gantt/kptganttchartdisplayoptions.ui:236
+#: ui/gantt/kptganttchartdisplayoptions.ui:270
 #| msgid "Project"
 msgid "Positive float"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showSchedulingError)
-#: ui/gantt/kptganttchartdisplayoptions.ui:243
+#: ui/gantt/kptganttchartdisplayoptions.ui:277
 #| msgid "% Completed"
 msgid "Scheduling errors"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showTimeConstraint)
-#: ui/gantt/kptganttchartdisplayoptions.ui:250
+#: ui/gantt/kptganttchartdisplayoptions.ui:284
 #| msgid "Can start"
 msgid "Time constraints"
 msgstr ""
@@ -6294,37 +6341,41 @@ msgid "Add Sub-Milestone..."
 msgstr ""
 
 #: ui/kptdependencyeditor.cpp:2589 ui/kptdocumentseditor.cpp:203
-#: ui/kptganttview.cpp:506 ui/kptganttview.cpp:1356 ui/kptganttview.cpp:1963
-#: ui/kptpertresult.cpp:151 ui/kptscheduleeditor.cpp:682
-#: ui/kpttaskeditor.cpp:690 ui/kpttaskeditor.cpp:959 ui/kpttaskeditor.cpp:1835
-#: ui/performance/PerformanceStatusView.cpp:329
+#: ui/kptganttview.cpp:365 ui/kptpertresult.cpp:151
+#: ui/kptscheduleeditor.cpp:682 ui/kpttaskeditor.cpp:690
+#: ui/kpttaskeditor.cpp:959 ui/kpttaskeditor.cpp:1835
+#: ui/MilestoneGanttView.cpp:454 ui/performance/PerformanceStatusView.cpp:329
+#: ui/ResourceAppointmentsGanttView.cpp:363
 #, kde-format
 msgid "Edit..."
 msgstr "Рэдагаваць..."
 
-#: ui/kptdependencyeditor.cpp:2593 ui/kptganttview.cpp:510
-#: ui/kptganttview.cpp:1360 ui/kptganttview.cpp:1967
+#: ui/kptdependencyeditor.cpp:2593 ui/kptganttview.cpp:369
 #: ui/kptresourceappointmentsview.cpp:315 ui/kpttaskeditor.cpp:963
 #: ui/kpttaskeditor.cpp:1839 ui/kpttaskeditor.cpp:2434
-#: ui/kpttaskstatusview.cpp:362 ui/performance/PerformanceStatusView.cpp:333
+#: ui/kpttaskstatusview.cpp:362 ui/MilestoneGanttView.cpp:458
+#: ui/performance/PerformanceStatusView.cpp:333
+#: ui/ResourceAppointmentsGanttView.cpp:367
 #| msgid "Add Calendar"
 msgid "Progress..."
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2597 ui/kptganttview.cpp:514
-#: ui/kptganttview.cpp:1364 ui/kptganttview.cpp:1971
+#: ui/kptdependencyeditor.cpp:2597 ui/kptganttview.cpp:373
 #: ui/kptresourceappointmentsview.cpp:319 ui/kpttaskeditor.cpp:967
 #: ui/kpttaskeditor.cpp:1843 ui/kpttaskeditor.cpp:2438
-#: ui/kpttaskstatusview.cpp:366 ui/performance/PerformanceStatusView.cpp:337
+#: ui/kpttaskstatusview.cpp:366 ui/MilestoneGanttView.cpp:462
+#: ui/performance/PerformanceStatusView.cpp:337
+#: ui/ResourceAppointmentsGanttView.cpp:371
 #| msgid "Description"
 msgid "Description..."
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2601 ui/kptganttview.cpp:518
-#: ui/kptganttview.cpp:1368 ui/kptganttview.cpp:1975
+#: ui/kptdependencyeditor.cpp:2601 ui/kptganttview.cpp:377
 #: ui/kptresourceappointmentsview.cpp:323 ui/kpttaskeditor.cpp:971
 #: ui/kpttaskeditor.cpp:1847 ui/kpttaskeditor.cpp:2442
-#: ui/kpttaskstatusview.cpp:370 ui/performance/PerformanceStatusView.cpp:341
+#: ui/kpttaskstatusview.cpp:370 ui/MilestoneGanttView.cpp:466
+#: ui/performance/PerformanceStatusView.cpp:341
+#: ui/ResourceAppointmentsGanttView.cpp:375
 #| msgid "Account"
 msgid "Documents..."
 msgstr ""
@@ -6486,7 +6537,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, bRemoveInterval)
 #. i18n: ectx: property (text), widget (QPushButton, pbRemove)
 #: ui/kptdocumentspanel.ui:82 ui/kptintervaleditbase.ui:77
-#: ui/kptmainprojectpanelbase.ui:433 ui/kptwbsdefinitionpanelbase.ui:180
+#: ui/kptmainprojectpanelbase.ui:477 ui/kptwbsdefinitionpanelbase.ui:180
 #| msgid "Account"
 msgid "Remove"
 msgstr "Выдаліць"
@@ -6509,75 +6560,100 @@ msgstr "Адкрыць"
 msgid "Ctrl+O"
 msgstr ""
 
-#: ui/kptganttview.cpp:394
+#: ui/kptganttview.cpp:140 ui/kptmainprojectpanel.cpp:126
+#: ui/MilestoneGanttView.cpp:95 ui/ResourceAppointmentsGanttView.cpp:112
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "No freedays"
+msgstr ""
+
+#: ui/kptganttview.cpp:141 ui/MilestoneGanttView.cpp:96
+#: ui/ResourceAppointmentsGanttView.cpp:113
+#| msgid "Project"
+msgctxt "@item:inlistbox"
+msgid "Project freedays"
+msgstr ""
+
+#: ui/kptganttview.cpp:173 ui/kptganttview.cpp:192
+#: ui/MilestoneGanttView.cpp:129 ui/MilestoneGanttView.cpp:146
+#: ui/performance/PerformanceStatusView.cpp:635
+#: ui/performance/ProjectStatusView.cpp:155
+#: ui/ResourceAppointmentsGanttView.cpp:144
+#: ui/ResourceAppointmentsGanttView.cpp:161
+#| msgid "Started late"
+msgid "Chart"
+msgstr ""
+
+#: ui/kptganttview.cpp:173 ui/MilestoneGanttView.cpp:129
+#: ui/ResourceAppointmentsGanttView.cpp:144
+#| msgid "Project"
+msgid "Gantt Chart Settings"
+msgstr ""
+
+#: ui/kptganttview.cpp:253
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<title>Gantt View</title><para>Displays scheduled tasks in a Gantt diagram. The chart area can be zoomed in and out with a slider positioned in the upper left corner of the time scale. <note>You need to hoover over it with the mouse for it to show.</note></para><para>This view supports configuration and printing using the context menu of the tree view.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptganttview.cpp:445 ui/kpttaskeditor.cpp:976 ui/kpttaskeditor.cpp:1852
+#: ui/kptganttview.cpp:304 ui/kpttaskeditor.cpp:976 ui/kpttaskeditor.cpp:1852
 #| msgid "Project"
 msgid "Show Project"
 msgstr ""
 
-#: ui/kptganttview.cpp:453
+#: ui/kptganttview.cpp:312
 #| msgid "Project"
 msgid "Show Unscheduled Tasks"
 msgstr ""
 
-#: ui/kptganttview.cpp:465 ui/kptganttview.cpp:1315 ui/kptganttview.cpp:1922
+#: ui/kptganttview.cpp:324 ui/MilestoneGanttView.cpp:413
+#: ui/ResourceAppointmentsGanttView.cpp:322
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Auto"
 msgstr "Аўтаматычна"
 
-#: ui/kptganttview.cpp:472 ui/kptganttview.cpp:1322 ui/kptganttview.cpp:1929
+#: ui/kptganttview.cpp:331 ui/MilestoneGanttView.cpp:420
+#: ui/ResourceAppointmentsGanttView.cpp:329
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Month"
 msgstr "Месяц"
 
-#: ui/kptganttview.cpp:478 ui/kptganttview.cpp:1328 ui/kptganttview.cpp:1935
+#: ui/kptganttview.cpp:337 ui/MilestoneGanttView.cpp:426
+#: ui/ResourceAppointmentsGanttView.cpp:335
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Week"
 msgstr "Тыдзень"
 
-#: ui/kptganttview.cpp:484 ui/kptganttview.cpp:1334 ui/kptganttview.cpp:1941
+#: ui/kptganttview.cpp:343 ui/MilestoneGanttView.cpp:432
+#: ui/ResourceAppointmentsGanttView.cpp:341
 #| msgid "Deleted"
 msgctxt "@action:inmenu"
 msgid "Day"
 msgstr "Дзень"
 
-#: ui/kptganttview.cpp:490 ui/kptganttview.cpp:1340 ui/kptganttview.cpp:1947
+#: ui/kptganttview.cpp:349 ui/MilestoneGanttView.cpp:438
+#: ui/ResourceAppointmentsGanttView.cpp:347
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hour"
 msgstr "Гадзіна"
 
-#: ui/kptganttview.cpp:496 ui/kptganttview.cpp:1346 ui/kptganttview.cpp:1953
+#: ui/kptganttview.cpp:355 ui/MilestoneGanttView.cpp:444
+#: ui/ResourceAppointmentsGanttView.cpp:353
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Zoom In"
 msgstr "Наблізіць"
 
-#: ui/kptganttview.cpp:501 ui/kptganttview.cpp:1351 ui/kptganttview.cpp:1958
+#: ui/kptganttview.cpp:360 ui/MilestoneGanttView.cpp:449
+#: ui/ResourceAppointmentsGanttView.cpp:358
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Zoom Out"
 msgstr "Аддаліць"
-
-#: ui/kptganttview.cpp:1122
-#, kde-kuit-format
-msgctxt "@info:whatsthis"
-msgid "<title>Milestone Gantt View</title><para>Displays scheduled milestones in a Gantt diagram. The chart area can be zoomed in and out with a slider positioned in the upper left corner of the time scale. <note>You need to hoover over it with the mouse for it to show.</note></para><para>This view supports configuration and printing using the context menu.<nl/><link url='%1'>More...</link></para>"
-msgstr ""
-
-#: ui/kptganttview.cpp:1836
-#, kde-kuit-format
-msgctxt "@info:whatsthis"
-msgid "<title>Resource Assignments (Gantt)</title><para>Displays the scheduled resource - task assignments in a Gantt diagram. The chart area can be zoomed in and out with a slider positioned in the upper left corner of the time scale. <note>You need to hoover over it with the mouse for it to show.</note></para><para>This view supports configuration and printing using the context menu.<nl/><link url='%1'>More...</link></para>"
-msgstr ""
 
 #: ui/kptintervaledit.cpp:48
 #| msgid "Start"
@@ -6703,37 +6779,37 @@ msgstr ""
 msgid "Project Settings"
 msgstr ""
 
-#: ui/kptmainprojectdialog.cpp:59 ui/kptmainprojectpanel.cpp:176
+#: ui/kptmainprojectdialog.cpp:59 ui/kptmainprojectpanel.cpp:196
 #| msgid "Project"
 msgctxt "(qtundo-format)"
 msgid "Modify main project"
 msgstr ""
 
-#: ui/kptmainprojectpanel.cpp:51
+#: ui/kptmainprojectpanel.cpp:53
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "The Work Breakdown Structure introduces numbering for all tasks in the project, according to the task structure.<nl/>The WBS code is auto-generated.<nl/>You can define the WBS code pattern using the <interface>Project->Define WBS Pattern</interface> menu entry."
 msgstr ""
 
-#: ui/kptmainprojectpanel.cpp:107
+#: ui/kptmainprojectpanel.cpp:109
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Enables sharing resources with other projects"
 msgstr ""
 
-#: ui/kptmainprojectpanel.cpp:109
+#: ui/kptmainprojectpanel.cpp:111
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<title>Shared resources</title>Resources can be shared between projects to avoid overbooking resources across projects. Shared resources must be defined in a separate file, and you must have at least read access to it. The projects that share the resources must also be accessible by you."
 msgstr ""
 
-#: ui/kptmainprojectpanel.cpp:117
+#: ui/kptmainprojectpanel.cpp:119
 #| msgid "Add resource"
 msgctxt "@info:tooltip"
 msgid "File where shared resources are defined"
 msgstr ""
 
-#: ui/kptmainprojectpanel.cpp:340
+#: ui/kptmainprojectpanel.cpp:365
 #| msgid "Task"
 msgid "Task Modules Path"
 msgstr ""
@@ -6819,88 +6895,94 @@ msgstr ""
 msgid "Browse..."
 msgstr "Агляд..."
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: ui/kptmainprojectpanelbase.ui:255
+#, kde-format
+msgid "Freedays"
+msgstr ""
+
 #. i18n: ectx: attribute (title), widget (QWidget, ui_documents)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: ui/kptmainprojectpanelbase.ui:288 ui/kptworkpackagemergedialog.cpp:229
+#: ui/kptmainprojectpanelbase.ui:332 ui/kptworkpackagemergedialog.cpp:229
 #: ui/kptworkpackagemergepanel.ui:192
 #| msgid "Account"
 msgid "Documents"
 msgstr "Дакументы"
 
 #. i18n: ectx: attribute (title), widget (QWidget, ui_workpackage)
-#: ui/kptmainprojectpanelbase.ui:302
+#: ui/kptmainprojectpanelbase.ui:346
 #| msgid "Task"
 msgid "Work Package"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, ui_publishGroup)
-#: ui/kptmainprojectpanelbase.ui:308
+#: ui/kptmainprojectpanelbase.ui:352
 #, kde-format
 msgid "Publish"
 msgstr "Апублікаваць"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: ui/kptmainprojectpanelbase.ui:316
+#: ui/kptmainprojectpanelbase.ui:360
 #, kde-format
 msgid "Publish:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: ui/kptmainprojectpanelbase.ui:331
+#: ui/kptmainprojectpanelbase.ui:375
 #, kde-format
 msgid "Retrieve"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_CheckForWorkPackages)
-#: ui/kptmainprojectpanelbase.ui:337
+#: ui/kptmainprojectpanelbase.ui:381
 #| msgid "Task"
 msgid "Check for work packages"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: ui/kptmainprojectpanelbase.ui:346
+#: ui/kptmainprojectpanelbase.ui:390
 #, kde-format
 msgid "Retrieve:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: ui/kptmainprojectpanelbase.ui:361
+#: ui/kptmainprojectpanelbase.ui:405
 #, kde-format
 msgid "Archive"
 msgstr "Архіў"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_DeleteFile)
-#: ui/kptmainprojectpanelbase.ui:367
+#: ui/kptmainprojectpanelbase.ui:411
 #, kde-format
 msgid "Delete file after it has been retrieved"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_ArchiveFile)
-#: ui/kptmainprojectpanelbase.ui:374
+#: ui/kptmainprojectpanelbase.ui:418
 #, kde-format
 msgid "Archive file after it has been retrieved"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: ui/kptmainprojectpanelbase.ui:383
+#: ui/kptmainprojectpanelbase.ui:427
 #, kde-format
 msgid "Archive:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, ui_taskModules)
-#: ui/kptmainprojectpanelbase.ui:412
+#: ui/kptmainprojectpanelbase.ui:456
 #| msgid "Task"
 msgid "Task Modules"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, ui_insertModule)
-#: ui/kptmainprojectpanelbase.ui:457
+#: ui/kptmainprojectpanelbase.ui:501
 #| msgid "Task"
 msgid "Insert"
 msgstr "Insert"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_useLocalModules)
-#: ui/kptmainprojectpanelbase.ui:481
+#: ui/kptmainprojectpanelbase.ui:525
 #, kde-format
 msgid "Use local task modules"
 msgstr ""
@@ -8303,6 +8385,12 @@ msgstr ""
 msgid "Fractional digits:"
 msgstr ""
 
+#: ui/MilestoneGanttView.cpp:220
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "<title>Milestone Gantt View</title><para>Displays scheduled milestones in a Gantt diagram. The chart area can be zoomed in and out with a slider positioned in the upper left corner of the time scale. <note>You need to hoover over it with the mouse for it to show.</note></para><para>This view supports configuration and printing using the context menu.<nl/><link url='%1'>More...</link></para>"
+msgstr ""
+
 #: ui/performance/PerformanceStatusBase.cpp:525
 #: ui/performance/PerformanceStatusBase.cpp:528
 #, kde-format
@@ -9046,6 +9134,12 @@ msgstr "Неабходны"
 #: ui/ResourceAllocationView.cpp:34
 #| msgid "Not started"
 msgid "Allocate"
+msgstr ""
+
+#: ui/ResourceAppointmentsGanttView.cpp:234
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "<title>Resource Assignments (Gantt)</title><para>Displays the scheduled resource - task assignments in a Gantt diagram. The chart area can be zoomed in and out with a slider positioned in the upper left corner of the time scale. <note>You need to hoover over it with the mouse for it to show.</note></para><para>This view supports configuration and printing using the context menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
 #: ui/ResourceCoverageView.cpp:134 ui/ResourceCoverageView.cpp:249
