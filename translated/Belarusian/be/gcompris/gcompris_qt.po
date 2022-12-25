@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-11-30 21:03\n"
+"PO-Revision-Date: 2022-12-25 17:03\n"
 "Last-Translator: Aleś Bułojčyk <alex73mail@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -1206,9 +1206,8 @@ msgstr ""
 #: activities/align4/ActivityInfo.qml:23 activities/bargame/ActivityInfo.qml:26
 #: activities/checkers/ActivityInfo.qml:27
 #: activities/nine_men_morris/ActivityInfo.qml:25
-#: activities/tic_tac_toe/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
-msgid "Tux will play better when you increase the level."
+msgid "You can use the arrow buttons to manually select the difficulty level. Tux will play better when you increase the level."
 msgstr ""
 
 #: activities/align4/ActivityInfo.qml:25
@@ -3569,8 +3568,27 @@ msgstr ""
 
 #. Help manual Much of this string is shared across the three activities "chess", "chess_partyend", and "chess_2players".
 #: activities/chess/ActivityInfo.qml:25
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "In this activity you discover the chess game by playing against the "
+#| "computer. It displays the possible target positions for any selected "
+#| "piece which helps the children understand how pieces moves. At first "
+#| "level the computer is fully random to give more chances to the children. "
+#| "As level increases, the computer plays better.\n"
+#| "\n"
+#| "You can achieve a mate sooner if you follow these simple rules:\n"
+#| "    Trying to drive your opponent's king in the corner.\n"
+#| "<b>Explanation</b>: this way your opponent's king would have only 3 "
+#| "directions to move instead of 8 from a better position.\n"
+#| "    'Making a trap'. Use your pawns as baits.\n"
+#| "<b>Explanation</b>: this way you can lure your opponent out of his "
+#| "'comfort zone'.\n"
+#| "    Be patient enough.\n"
+#| "<b>Explanation</b>: don't rush too quick, be patient. Let yourself think "
+#| "a little bit and try to predict your opponent's future moves, so that you "
+#| "can catch him or secure your pieces from his attacks."
 msgctxt "ActivityInfo|"
-msgid "In this activity you discover the chess game by playing against the computer. It displays the possible target positions for any selected piece which helps the children understand how pieces moves. At first level the computer is fully random to give more chances to the children. As level increases, the computer plays better.\n\n"
+msgid "In this activity you discover the chess game by playing against the computer. It displays the possible target positions for any selected piece which helps the children understand how pieces moves. At first level the computer is fully random to give more chances to the children. As level increases, the computer plays better. You can use the arrow buttons to manually select the difficulty level.\n\n"
 "You can achieve a mate sooner if you follow these simple rules:\n"
 "    Trying to drive your opponent's king in the corner.\n"
 "<b>Explanation</b>: this way your opponent's king would have only 3 directions to move instead of 8 from a better position.\n"
@@ -3578,14 +3596,7 @@ msgid "In this activity you discover the chess game by playing against the compu
 "<b>Explanation</b>: this way you can lure your opponent out of his 'comfort zone'.\n"
 "    Be patient enough.\n"
 "<b>Explanation</b>: don't rush too quick, be patient. Let yourself think a little bit and try to predict your opponent's future moves, so that you can catch him or secure your pieces from his attacks."
-msgstr "У гэтым практыкаванні вы навучыцеся гульні ў шахматы, гуляючы супраць кампутара. Вам будуць паказаныя ўсе магчымыя варыянты ходу для любой выбранай фігуры, што дапамагае дзеткам зразумець асаблівасці руху фігур. На першым узроўні кампутар ходзіць поўнасцю выпадкова, пакідаючы максімальныя шансы дзеткам. З павышэннем узроўню кампутар гуляе лепей.\n\n"
-"Вы хутчэй зробіце мат, калі будзеце прытрымлівацца наступных простых правілаў:\n"
-"   Намагацца загнаць Караля суперніка ў куток.\n"
-"<b>Тлумачэнне</b>: у такім выпадку ў фігуры застанецца толькі 3 магчымыя накірункі ходу замест 8 у звычайнай пазіцыі.\n"
-"   'Стварэнне пасткі'. Карыстайцеся пешкамі як прынадамі.\n"
-"<b>Тлумачэнне</b>: Такім чынам вы можаце выбавіць фігуры суперніка з іх 'зоны камфорту'.\n"
-"   Будзьце дастаткова цярплівымі.\n"
-"<b>Тлумачэнне</b>: нельга наспех несціся наперад, будзе цярплівымі. Падумайце крыху і паспрабуйце прадугледзіць наступныя хады суперніка так, каб вы маглі злавіць яго ці абараніць свае фігуры ад ягоных атак."
+msgstr ""
 
 #: activities/chess/ActivityInfo.qml:32
 #: activities/chess_2players/ActivityInfo.qml:32
@@ -4624,6 +4635,7 @@ msgid "&lt;, &gt; or =: enter the corresponding symbol"
 msgstr ""
 
 #: activities/comparator/resource/1/Data.qml:36
+#: activities/tens_complement_find/resource/3/Data.qml:9
 #| msgctxt "Data|"
 #| msgid "Numbers from 0 to 9."
 msgctxt "Data|"
@@ -13688,9 +13700,11 @@ msgstr "Уключыць голас"
 
 #. Activity title
 #: activities/learn_digits/ActivityInfo.qml:15
+#| msgctxt "ActivityInfo|"
+#| msgid "Count the items"
 msgctxt "ActivityInfo|"
-msgid "Learn digits"
-msgstr "Вывучаць лічбы"
+msgid "Count and color the circles"
+msgstr ""
 
 #. Help title
 #: activities/learn_digits/ActivityInfo.qml:17
@@ -21750,6 +21764,173 @@ msgid "Maximum value: 500000."
 msgstr "Максімальнае значэнне: 500000."
 
 #. Activity title
+#: activities/tens_complement_find/ActivityInfo.qml:14
+#| msgctxt "instruments|"
+#| msgid "Find the trumpet"
+msgctxt "ActivityInfo|"
+msgid "Find ten's complement"
+msgstr ""
+
+#. Help title
+#: activities/tens_complement_find/ActivityInfo.qml:16
+msgctxt "ActivityInfo|"
+msgid "Find the ten's complement of each number."
+msgstr ""
+
+#. Help goal
+#: activities/tens_complement_find/ActivityInfo.qml:19
+msgctxt "ActivityInfo|"
+msgid "Learn to find ten's complement."
+msgstr ""
+
+#. Help prerequisite
+#: activities/tens_complement_find/ActivityInfo.qml:21
+#| msgctxt "Data|"
+#| msgid "Numbers from 0 to 9."
+msgctxt "ActivityInfo|"
+msgid "Numbers from 1 to 10 and additions."
+msgstr ""
+
+#: activities/tens_complement_find/ActivityInfo.qml:23
+#: activities/tens_complement_use/ActivityInfo.qml:24
+msgctxt "ActivityInfo|"
+msgid "When all the lines are completed, press the OK button to validate the answers. If some answers are incorrect, a cross icon will appear on the corresponding lines. To correct the errors, click on the wrong numbers to remove them and repeat the previous steps."
+msgstr ""
+
+#. Help manual
+#: activities/tens_complement_find/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid "Create pairs of numbers equal to ten. Select a number in the list, then select an empty spot of an operation to move the selected number there."
+msgstr ""
+
+#: activities/tens_complement_find/resource/1/Data.qml:25
+#| msgctxt "Data|"
+#| msgid "Numbers from 0 to 9."
+msgctxt "Data|"
+msgid "First number from 1 to 4."
+msgstr ""
+
+#: activities/tens_complement_find/resource/2/Data.qml:9
+#| msgctxt "Data|"
+#| msgid "Numbers from 0 to 9."
+msgctxt "Data|"
+msgid "First number from 5 to 9."
+msgstr ""
+
+#: activities/tens_complement_find/resource/4/Data.qml:9
+#| msgctxt "ActivityInfo|"
+#| msgid "Division of numbers"
+msgctxt "Data|"
+msgid "Find both numbers."
+msgstr ""
+
+#. Activity title
+#: activities/tens_complement_swap/ActivityInfo.qml:14
+msgctxt "ActivityInfo|"
+msgid "Swap ten's complement"
+msgstr ""
+
+#. Help title
+#: activities/tens_complement_swap/ActivityInfo.qml:16
+msgctxt "ActivityInfo|"
+msgid "Swap the numbers to create pairs equal to ten."
+msgstr ""
+
+#. Help goal
+#: activities/tens_complement_swap/ActivityInfo.qml:19
+msgctxt "ActivityInfo|"
+msgid "Learn to use ten's complement to optimize the order of numbers in an operation."
+msgstr ""
+
+#. Help prerequisite
+#: activities/tens_complement_swap/ActivityInfo.qml:21
+#| msgctxt "Data|"
+#| msgid "Numbers from 0 to 9."
+msgctxt "ActivityInfo|"
+msgid "Numbers from 1 to 30 and additions."
+msgstr ""
+
+#. Help manual
+#: activities/tens_complement_swap/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid "Create pairs of numbers equal to ten within each parentheses. Select a number, then select another number of the same operation to swap their position. When all the lines are completed, press the OK button to validate the answers. If some answers are incorrect, a cross icon will appear on the corresponding lines. Correct the errors, then press the OK button again."
+msgstr ""
+
+#: activities/tens_complement_swap/resource/1/Data.qml:36
+#| msgctxt "Warning|"
+#| msgid "1 is not a prime number."
+msgctxt "Data|"
+msgid "2 pairs to make from 4 numbers."
+msgstr ""
+
+#: activities/tens_complement_swap/resource/2/Data.qml:9
+#| msgctxt "Warning|"
+#| msgid "1 is not a prime number."
+msgctxt "Data|"
+msgid "2 pairs to make from 5 numbers."
+msgstr ""
+
+#: activities/tens_complement_swap/resource/3/Data.qml:9
+#| msgctxt "Warning|"
+#| msgid "1 is not a prime number."
+msgctxt "Data|"
+msgid "3 pairs to make from 6 numbers."
+msgstr ""
+
+#. Activity title
+#: activities/tens_complement_use/ActivityInfo.qml:14
+msgctxt "ActivityInfo|"
+msgid "Use ten's complement"
+msgstr ""
+
+#. Help title
+#: activities/tens_complement_use/ActivityInfo.qml:16
+msgctxt "ActivityInfo|"
+msgid "Use a ten's complement to simplify the operation."
+msgstr ""
+
+#. Help goal
+#: activities/tens_complement_use/ActivityInfo.qml:19
+msgctxt "ActivityInfo|"
+msgid "Learn a practical use of ten's complement."
+msgstr ""
+
+#. Help prerequisite
+#: activities/tens_complement_use/ActivityInfo.qml:21
+#| msgctxt "Data|"
+#| msgid "Numbers from 0 to 9."
+msgctxt "ActivityInfo|"
+msgid "Numbers from 1 to 50 and additions."
+msgstr ""
+
+#. Help manual
+#: activities/tens_complement_use/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid "Decompose the additions to create pairs of numbers equal to ten within each parentheses. Select a number in the list, then select an empty spot of an operation to move the selected number there."
+msgstr ""
+
+#: activities/tens_complement_use/resource/1/Data.qml:43
+#| msgctxt "Data|"
+#| msgid "Numbers between 2 and 18."
+msgctxt "Data|"
+msgid "Result between 11 and 19."
+msgstr ""
+
+#: activities/tens_complement_use/resource/2/Data.qml:9
+#| msgctxt "Data|"
+#| msgid "Numbers between 1 and 8."
+msgctxt "Data|"
+msgid "Result between 20 and 29."
+msgstr ""
+
+#: activities/tens_complement_use/resource/3/Data.qml:9
+#| msgctxt "Data|"
+#| msgid "Numbers between 2 and 18."
+msgctxt "Data|"
+msgid "Result between 30 and 50."
+msgstr ""
+
+#. Activity title
 #: activities/tic_tac_toe/ActivityInfo.qml:18
 msgctxt "ActivityInfo|"
 msgid "Tic tac toe (against Tux)"
@@ -21777,6 +21958,11 @@ msgstr "Каб перамагчы, размясціце тры адпаведн�
 #| "mark. The first player to create a line of 3 marks wins."
 msgctxt "ActivityInfo|"
 msgid "Play with Tux. Take turns to click on the square which you want to mark. The first player to create a line of 3 marks wins."
+msgstr ""
+
+#: activities/tic_tac_toe/ActivityInfo.qml:28
+msgctxt "ActivityInfo|"
+msgid "Tux will play better when you increase the level."
 msgstr ""
 
 #. Activity title
@@ -21844,9 +22030,13 @@ msgid "As the sun rises, the water of the sea starts heating and evaporates."
 msgstr "Як толькі сонца ўзышло, вада ў моры пачынае награвацца і выпарацца."
 
 #: activities/watercycle/Watercycle.qml:80
+#| msgctxt "Watercycle|"
+#| msgid ""
+#| "Water vapor condenses to form cloud and when clouds become heavy, it "
+#| "rains. Click on the cloud."
 msgctxt "Watercycle|"
-msgid "Water vapor condenses to form cloud and when clouds become heavy, it rains. Click on the cloud."
-msgstr "Кандэнсат пароў вады ўтвараюць аблокі і, калі аблокі становяцца цяжэйшымі, то ідзе дождж. Пстрыкніце па воблаку."
+msgid "Water vapor condenses to form clouds and when clouds become heavy, it rains. Click on the cloud."
+msgstr ""
 
 #: activities/watercycle/Watercycle.qml:81
 msgctxt "Watercycle|"
@@ -21874,9 +22064,14 @@ msgid "The water cycle (also known as the hydrologic cycle) is the journey water
 msgstr "Цыркуляцыя вады (вядомая яшчэ як кругазварот вады) - гэта замкнёны працэс цыркуляцыі вады з зямлі на неба і зноўку на зямлю. Сонечнае цяпло забяспечвае энергію для выпарэння вады з воднай прасторы зямлі, такой як акіян."
 
 #: activities/watercycle/Watercycle.qml:115
+#| msgctxt "Watercycle|"
+#| msgid ""
+#| "Plants also lose water to the air through transpiration. The water vapor "
+#| "cools down forming tiny droplets in clouds. When the clouds meet cool air "
+#| "over the land, precipitation is triggered and fall down as rain."
 msgctxt "Watercycle|"
-msgid "Plants also lose water to the air through transpiration. The water vapor cools down forming tiny droplets in clouds. When the clouds meet cool air over the land, precipitation is triggered and fall down as rain."
-msgstr "Расліны таксама выдзяляюць пары вады ў паветра ў працэсе транспірацыі. У выніку выпарэння з зямной паверхні, вадзяны пар, астываючы, утварае аблокі маленечкімі кроплямі вады. Калі аблокі трапляюць у халоднае паветра над зямлёй, то распачынаюцца атмасферныя ападкі, вада падае долу ў выглядзе, напрыклад, дажджу."
+msgid "Plants also lose water to the air through transpiration. The water vapor cools down forming tiny droplets in clouds. When the clouds meet cool air over the land, precipitation is triggered and falls down as rain."
+msgstr ""
 
 #: activities/watercycle/Watercycle.qml:118
 msgctxt "Watercycle|"
@@ -21920,243 +22115,259 @@ msgstr "Увядзіце ўсё слова пакуль яно падае і н�
 
 #: core/ChangeLog.qml:30
 msgctxt "ChangeLog|"
-msgid "Reduce the size of the packages for all platforms and of the external word images set"
+msgid "Map of Spain added for geography activity"
 msgstr ""
 
 #: core/ChangeLog.qml:31
+msgctxt "ChangeLog|"
+msgid "Voices added for Ukrainian"
+msgstr ""
+
+#: core/ChangeLog.qml:32
+msgctxt "ChangeLog|"
+msgid "New command-line option to list all the activities and start on a specific one"
+msgstr ""
+
+#: core/ChangeLog.qml:33 core/ChangeLog.qml:68 core/ChangeLog.qml:71
+#: core/ChangeLog.qml:77
+msgctxt "ChangeLog|"
+msgid "Many usability improvements"
+msgstr "Шмат выпраўленняў для зручнасці карыстання"
+
+#: core/ChangeLog.qml:34 core/ChangeLog.qml:52 core/ChangeLog.qml:67
+#: core/ChangeLog.qml:72 core/ChangeLog.qml:78
+msgctxt "ChangeLog|"
+msgid "Many new images"
+msgstr "Шмат новых выяваў"
+
+#: core/ChangeLog.qml:35 core/ChangeLog.qml:73 core/ChangeLog.qml:79
+msgctxt "ChangeLog|"
+msgid "Many bug fixes"
+msgstr "Шматлікія выпраўленні памылак"
+
+#: core/ChangeLog.qml:39
+msgctxt "ChangeLog|"
+msgid "Reduce the size of the packages for all platforms and of the external word images set"
+msgstr ""
+
+#: core/ChangeLog.qml:40
 #| msgctxt "ChangeLog|"
 #| msgid "New speed setting in several activities."
 msgctxt "ChangeLog|"
 msgid "Improve images quality in several activities"
 msgstr ""
 
-#: core/ChangeLog.qml:32
+#: core/ChangeLog.qml:41
 msgctxt "ChangeLog|"
 msgid "Fix some transitions in renewable_energy/watercycle on some platforms"
 msgstr ""
 
-#: core/ChangeLog.qml:33
+#: core/ChangeLog.qml:42
 msgctxt "ChangeLog|"
 msgid "Fix dead keys ignored on Linux for typing activities"
 msgstr ""
 
-#: core/ChangeLog.qml:34
+#: core/ChangeLog.qml:43
 msgctxt "ChangeLog|"
 msgid "Fix level reset when changing level manually in Logical associations"
 msgstr ""
 
-#: core/ChangeLog.qml:38
+#: core/ChangeLog.qml:47
 msgctxt "ChangeLog|"
 msgid "Fix Alphabet sequence, Even and odd numbers and Numbers in order activities"
 msgstr ""
 
-#: core/ChangeLog.qml:42 core/ChangeLog.qml:50
+#: core/ChangeLog.qml:51 core/ChangeLog.qml:59
 #| msgctxt "ChangeLog|"
 #| msgid "Many bug fixes"
 msgctxt "ChangeLog|"
 msgid "Several bug fixes"
 msgstr ""
 
-#: core/ChangeLog.qml:43 core/ChangeLog.qml:58 core/ChangeLog.qml:63
-#: core/ChangeLog.qml:69
-msgctxt "ChangeLog|"
-msgid "Many new images"
-msgstr "Шмат новых выяваў"
-
-#: core/ChangeLog.qml:44
+#: core/ChangeLog.qml:53
 #| msgctxt "ChangeLog|"
 #| msgid "Translation added for Macedonian."
 msgctxt "ChangeLog|"
 msgid "Translation updated for Russian"
 msgstr ""
 
-#: core/ChangeLog.qml:45
+#: core/ChangeLog.qml:54
 #| msgctxt "ChangeLog|"
 #| msgid "New voices for US English."
 msgctxt "ChangeLog|"
 msgid "New voices for Norwegian Nynorsk"
 msgstr ""
 
-#: core/ChangeLog.qml:49
+#: core/ChangeLog.qml:58
 #| msgctxt "ChangeLog|"
 #| msgid "Translation added for Macedonian."
 msgctxt "ChangeLog|"
 msgid "Translations added for Breton, Czech and Macedonian"
 msgstr ""
 
-#: core/ChangeLog.qml:54
+#: core/ChangeLog.qml:63
 #| msgctxt "ChangeLog|"
 #| msgid "Translation added for Macedonian."
 msgctxt "ChangeLog|"
 msgid "Translation added for Azerbaijani"
 msgstr ""
 
-#: core/ChangeLog.qml:55
+#: core/ChangeLog.qml:64
 msgctxt "ChangeLog|"
 msgid "New maps and update of the maps for geography activities"
 msgstr ""
 
-#: core/ChangeLog.qml:56
+#: core/ChangeLog.qml:65
 msgctxt "ChangeLog|"
 msgid "New dataset containing loops operations for programming maze, and make tutorial images translated"
 msgstr ""
 
-#: core/ChangeLog.qml:57
+#: core/ChangeLog.qml:66
 msgctxt "ChangeLog|"
 msgid "Addition of a level to teach voltage source loop in analog electricity activity"
 msgstr ""
 
-#: core/ChangeLog.qml:59 core/ChangeLog.qml:62 core/ChangeLog.qml:68
-msgctxt "ChangeLog|"
-msgid "Many usability improvements"
-msgstr "Шмат выпраўленняў для зручнасці карыстання"
-
-#: core/ChangeLog.qml:64 core/ChangeLog.qml:70
-msgctxt "ChangeLog|"
-msgid "Many bug fixes"
-msgstr "Шматлікія выпраўленні памылак"
-
-#: core/ChangeLog.qml:67
+#: core/ChangeLog.qml:76
 msgctxt "ChangeLog|"
 msgid "New Activity Settings menu, with dataset selection"
 msgstr "Новае меню наладаў практыкавання, з выбарам набору звестак"
 
-#: core/ChangeLog.qml:73
+#: core/ChangeLog.qml:82
 msgctxt "ChangeLog|"
 msgid "New sub-categories to organize activities"
 msgstr "Новыя падкатэгорыі для ўпарадкавання практыкаванняў"
 
-#: core/ChangeLog.qml:74
+#: core/ChangeLog.qml:83
 msgctxt "ChangeLog|"
 msgid "Translation added for Macedonian."
 msgstr "Дададзены пераклад на македонскую."
 
-#: core/ChangeLog.qml:75
+#: core/ChangeLog.qml:84
 msgctxt "ChangeLog|"
 msgid "New activities Programming Maze and Baby Tangram"
 msgstr "Новыя практыкаванні: Праграмаванне лабірынту і Дзіцячы Танграм"
 
-#: core/ChangeLog.qml:76
+#: core/ChangeLog.qml:85
 msgctxt "ChangeLog|"
 msgid "New background music and volume settings."
 msgstr "Новыя налады для фонавай музыкі і гучнасці."
 
-#: core/ChangeLog.qml:77
+#: core/ChangeLog.qml:86
 msgctxt "ChangeLog|"
 msgid "New speed setting in several activities."
 msgstr "Новая налада хуткасці ў шэрагу практыкаванняў."
 
-#: core/ChangeLog.qml:78
+#: core/ChangeLog.qml:87
 msgctxt "ChangeLog|"
 msgid "New option in chess to display captured pieces."
 msgstr "Новая магчымасць паказваць узятыя фігуры ў шахматах."
 
-#: core/ChangeLog.qml:79
+#: core/ChangeLog.qml:88
 msgctxt "ChangeLog|"
 msgid "New images in Colors, Advanced colors and Target game."
 msgstr "Новыя выявы ў Колерах, Складаных колерах і Дартс."
 
-#: core/ChangeLog.qml:80
+#: core/ChangeLog.qml:89
 msgctxt "ChangeLog|"
 msgid "New voices for US English."
 msgstr "Новая агучка для Амерыканскай англійскай мовы."
 
-#: core/ChangeLog.qml:81 core/ChangeLog.qml:89
+#: core/ChangeLog.qml:90 core/ChangeLog.qml:98
 msgctxt "ChangeLog|"
 msgid "Many little fixes and improvements."
 msgstr "Шмат дробных выпраўленняў і паляпшэнняў."
 
-#: core/ChangeLog.qml:82
+#: core/ChangeLog.qml:91
 msgctxt "ChangeLog|"
 msgid "Translation updated for multiple languages (Breton, Brazilian Portuguese, Finnish...)."
 msgstr "Пераклад адноўлены для шэрагу моў (брэтонская, бразільская партугальская, фінская...)."
 
-#: core/ChangeLog.qml:83
+#: core/ChangeLog.qml:92
 msgctxt "ChangeLog|"
 msgid "Add Russian dataset for Click on letter activity."
 msgstr "Дададзены набор звестак для рускай мовы ў практыкаванні Пстрыкнуць па літары."
 
-#: core/ChangeLog.qml:84
+#: core/ChangeLog.qml:93
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Dutch."
 msgstr "Моўнае практыкаванне цяпер даступнае на дацкай мове."
 
-#: core/ChangeLog.qml:85
+#: core/ChangeLog.qml:94
 msgctxt "ChangeLog|"
 msgid "Merge Norwegian counties Nord-Trøndelag and Sør-Trøndelag into Trøndelag in geo-country activity."
 msgstr "У геаграфічным практыкаванні аб'яднаны каралеўствы Нарвегіі Nord-Trøndelag і Sør-Trøndelag у Trøndelag."
 
-#: core/ChangeLog.qml:86
+#: core/ChangeLog.qml:95
 msgctxt "ChangeLog|"
 msgid "Fix in braille activities where the cells start at 1, not 0."
 msgstr "Выпраўленыя практыкаванні пра сістэму Брайля, дзе клеткі пачыналіся з 1 замест 0."
 
-#: core/ChangeLog.qml:87
+#: core/ChangeLog.qml:96
 msgctxt "ChangeLog|"
 msgid "Translation added for Basque, Hungarian and Malayalam."
 msgstr "Дададзеныя пераклады на баскскую, вянгерскую і малаяльскую мову."
 
-#: core/ChangeLog.qml:88
+#: core/ChangeLog.qml:97
 msgctxt "ChangeLog|"
 msgid "Loading/saving of creations (Baby Wordprocessor, Balance Box and Piano Composition)."
 msgstr "Заладаванне/захаванне творчасці (Дзіцячы тэкставы рэдактар, Балансная скрыня і Кампазіцыя на піяніна)."
 
-#: core/ChangeLog.qml:89
+#: core/ChangeLog.qml:98
 msgctxt "ChangeLog|"
 msgid "Translations added for Scottish Gaelic."
 msgstr "Дададзены пераклад на гэльскую шатландскую мову."
 
-#: core/ChangeLog.qml:90
+#: core/ChangeLog.qml:99
 msgctxt "ChangeLog|"
 msgid "License page added in configuration."
 msgstr "У канфігурацыі дададзеная старонка з ліцэнзіяй."
 
-#: core/ChangeLog.qml:90
+#: core/ChangeLog.qml:99
 msgctxt "ChangeLog|"
 msgid "Multiple changes on layouts to improve the ergonomy."
 msgstr "Шэраг зменаў у шаблонах для паляпшэння эрганамічнасці."
 
-#: core/ChangeLog.qml:91
+#: core/ChangeLog.qml:100
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Polish, Swedish and Ukrainian."
 msgstr "Моўнае практыкаванне цяпер даступнае на Польскай, Шведскай і Ўкраінскай мовах."
 
-#: core/ChangeLog.qml:92
+#: core/ChangeLog.qml:101
 msgctxt "ChangeLog|"
 msgid "Search feature."
 msgstr "Функцыя пошуку."
 
-#: core/ChangeLog.qml:93
+#: core/ChangeLog.qml:102
 msgctxt "ChangeLog|"
 msgid "A Changelog."
 msgstr "Гісторыя змяненняў."
 
-#: core/ChangeLog.qml:94
+#: core/ChangeLog.qml:103
 msgctxt "ChangeLog|"
 msgid "Many little fixes."
 msgstr "Шматлікія малыя выпраўленні."
 
-#: core/ChangeLog.qml:94
+#: core/ChangeLog.qml:103
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in French."
 msgstr "Моўнае практыкаванне цяпер даступнае на франзуцскай мове."
 
-#: core/ChangeLog.qml:95
+#: core/ChangeLog.qml:104
 msgctxt "ChangeLog|"
 msgid "Adding a loading overlay to let the user know that some actions are taking place (loading an activity for example) and can take some seconds."
 msgstr "Дададзенае перакрыццё падчас ладавання, каб даць магчымасць зразумець карыстальніку калі адбываецца некаторая аперацыя (да прыкладу, зладаванне практыкавання) і можа заняць некалькі секунд."
 
-#: core/ChangeLog.qml:95
+#: core/ChangeLog.qml:104
 msgctxt "ChangeLog|"
 msgid "Translations added for: Catalan (Valencian), Chinese Traditional, Finnish (92% translated), Russian (98% translated), Slovak (92% translated), Turkish."
 msgstr "Дададзеныя пераклады для каталонскай (валенсійскай), традыцыйнай кітайскай, фінскай (92% перакладзена), рускай (98% перакладзена), славацкай (92% перакладзена), турэцкай моў."
 
-#: core/ChangeLog.qml:96
+#: core/ChangeLog.qml:105
 msgctxt "ChangeLog|"
 msgid "Translations added for: Slovenian, German, Galician."
 msgstr "Дададзеныя пераклады на славенскую, нямецкую, галісійскую мовы."
 
-#: core/ChangeLog.qml:121
+#: core/ChangeLog.qml:130
 #, qt-format
 msgctxt "ChangeLog|"
 msgid "Version %1:"
@@ -22696,6 +22907,10 @@ msgstr "Прапусціць"
 msgctxt "Tutorial|"
 msgid "Start"
 msgstr "Пачаць"
+
+#~ msgctxt "ActivityInfo|"
+#~ msgid "Learn digits"
+#~ msgstr "Вывучаць лічбы"
 
 #~ msgctxt "board1|"
 #~ msgid "The horse goes 'neigh! neigh!'. Horses usually sleep standing up."
