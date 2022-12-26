@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-08 00:43+0000\n"
-"PO-Revision-Date: 2022-11-10 12:12\n"
+"POT-Creation-Date: 2022-12-12 00:43+0000\n"
+"PO-Revision-Date: 2022-12-25 17:07\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -1798,13 +1798,13 @@ msgstr ""
 msgid "Line Height Multiplier:"
 msgstr ""
 
-#: document/katebuffer.cpp:150
+#: document/katebuffer.cpp:140
 #| msgid "New Filetype"
 msgctxt "short translation, user created new file"
 msgid "New file"
 msgstr "Новы файл"
 
-#: document/katebuffer.cpp:157
+#: document/katebuffer.cpp:147
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
@@ -2659,150 +2659,156 @@ msgstr ""
 #: script/data/commands/utils.js:9
 #| msgid "Selected text:"
 msgctxt "Script command name"
-msgid "Sort Selected Text"
+msgid "Sort Selected Text Alphabetically"
 msgstr ""
 
-#: script/data/commands/utils.js:10 script/data/commands/utils.js:15
-#: script/data/commands/utils.js:20 script/data/commands/utils.js:24
+#: script/data/commands/utils.js:10 script/data/commands/utils.js:14
+#: script/data/commands/utils.js:19 script/data/commands/utils.js:24
 #: script/data/commands/utils.js:28 script/data/commands/utils.js:32
-#: script/data/commands/utils.js:36
+#: script/data/commands/utils.js:36 script/data/commands/utils.js:40
 #| msgid "Editing"
 msgctxt "Script command category"
 msgid "Editing"
 msgstr "Рэдагаванне"
 
 #: script/data/commands/utils.js:13
+#, kde-format
+msgctxt "Script command name"
+msgid "Remove Duplicates and Sort Selected Text Alphabetically"
+msgstr ""
+
+#: script/data/commands/utils.js:17
 #| msgid "Scroll Line Down"
 msgctxt "Script command name"
 msgid "Move Lines Down"
 msgstr ""
 
-#: script/data/commands/utils.js:18
+#: script/data/commands/utils.js:22
 #| msgid "Scroll Line Up"
 msgctxt "Script command name"
 msgid "Move Lines Up"
 msgstr ""
 
-#: script/data/commands/utils.js:23
+#: script/data/commands/utils.js:27
 #| msgid "Selected"
 msgctxt "Script command name"
 msgid "Duplicate Selected Lines Down"
 msgstr ""
 
-#: script/data/commands/utils.js:27
+#: script/data/commands/utils.js:31
 #| msgid "Selected"
 msgctxt "Script command name"
 msgid "Duplicate Selected Lines Up"
 msgstr ""
 
-#: script/data/commands/utils.js:31
+#: script/data/commands/utils.js:35
 #| msgid "Selected text:"
 msgctxt "Script command name"
 msgid "URI-encode Selected Text"
 msgstr ""
 
-#: script/data/commands/utils.js:35
+#: script/data/commands/utils.js:39
 #| msgid "Selected text:"
 msgctxt "Script command name"
 msgid "URI-decode Selected Text"
 msgstr ""
 
-#: script/data/commands/utils.js:399
+#: script/data/commands/utils.js:418
 #| msgid "Select the entire text of the current document."
 msgid "Sort the selected text or whole document."
 msgstr ""
 
-#: script/data/commands/utils.js:401
+#: script/data/commands/utils.js:420
 #| msgid "Selected"
 msgid "Move selected lines down."
 msgstr ""
 
-#: script/data/commands/utils.js:403
+#: script/data/commands/utils.js:422
 #| msgid "Selected"
 msgid "Move selected lines up."
 msgstr ""
 
-#: script/data/commands/utils.js:405
+#: script/data/commands/utils.js:424
 #, kde-format
 msgid "Remove duplicate lines from the selected text or whole document."
 msgstr ""
 
-#: script/data/commands/utils.js:407
+#: script/data/commands/utils.js:426
 #, kde-format
 msgid "Sort the selected text or whole document in natural order.<br>Here is an example to show the difference to the normal sort method:<br>sort(a10, a1, a2) => a1, a10, a2<br>natsort(a10, a1, a2) => a1, a2, a10"
 msgstr ""
 
-#: script/data/commands/utils.js:409
+#: script/data/commands/utils.js:428
 #, kde-format
 msgid "Trims trailing whitespace from selection or whole document."
 msgstr ""
 
-#: script/data/commands/utils.js:411
+#: script/data/commands/utils.js:430
 #, kde-format
 msgid "Trims leading whitespace from selection or whole document."
 msgstr ""
 
-#: script/data/commands/utils.js:413
+#: script/data/commands/utils.js:432
 #, kde-format
 msgid "Trims leading and trailing whitespace from selection or whole document."
 msgstr ""
 
-#: script/data/commands/utils.js:415
+#: script/data/commands/utils.js:434
 #, kde-format
 msgid "Joins selected lines or whole document. Optionally pass a separator to put between each line:<br><code>join ', '</code> will e.g. join lines and separate them by a comma."
 msgstr ""
 
-#: script/data/commands/utils.js:417
+#: script/data/commands/utils.js:436
 #, kde-format
 msgid "Removes empty lines from selection or whole document."
 msgstr ""
 
-#: script/data/commands/utils.js:419
+#: script/data/commands/utils.js:438
 #, kde-format
 msgid "This command aligns lines in the selected block or whole document on the column given by a regular expression given as an argument.<br><br>If you give an empty pattern it will align on the first non-blank character by default.<br>If the pattern has a capture it will indent on the captured match.<br><br><i>Examples</i>:<br>'<code>alignon -</code>' will insert spaces before the first '-' of each lines to align them all on the same column.<br>'<code>alignon :\\s+(.)</code>' will insert spaces before the first non-blank character that occurs after a colon to align them all on the same column."
 msgstr ""
 
-#: script/data/commands/utils.js:423
+#: script/data/commands/utils.js:442
 #, kde-format
 msgid "Given a JavaScript function as argument, call that for the list of (selected) lines and replace them with the return value of that callback.<br>Example (join selected lines):<br><code>each 'function(lines){return lines.join(\", \");}'</code><br>To save you some typing, you can also do this to achieve the same:<br><code>each 'lines.join(\", \")'</code>"
 msgstr ""
 
-#: script/data/commands/utils.js:425
+#: script/data/commands/utils.js:444
 #, kde-format
 msgid "Given a JavaScript function as argument, call that for the list of (selected) lines and remove those where the callback returns false.<br>Example (see also <code>rmblank</code>):<br><code>filter 'function(l){return l.length > 0;}'</code><br>To save you some typing, you can also do this to achieve the same:<br><code>filter 'line.length > 0'</code>"
 msgstr ""
 
-#: script/data/commands/utils.js:427
+#: script/data/commands/utils.js:446
 #, kde-format
 msgid "Given a JavaScript function as argument, call that for the list of (selected) lines and replace the line with the return value of the callback.<br>Example (see also <code>ltrim</code>):<br><code>map 'function(line){return line.replace(/^\\s+/, \"\");}'</code><br>To save you some typing, you can also do this to achieve the same:<br><code>map 'line.replace(/^\\s+/, \"\")'</code>"
 msgstr ""
 
-#: script/data/commands/utils.js:429
+#: script/data/commands/utils.js:448
 #, kde-format
 msgid "Duplicates the selected lines up."
 msgstr ""
 
-#: script/data/commands/utils.js:431
+#: script/data/commands/utils.js:450
 #, kde-format
 msgid "Duplicates the selected lines down."
 msgstr ""
 
-#: script/data/commands/utils.js:433
+#: script/data/commands/utils.js:452
 #, kde-format
 msgid "Encode special chars in a single line selection, so the result text can be used as URI."
 msgstr ""
 
-#: script/data/commands/utils.js:435
+#: script/data/commands/utils.js:454
 #, kde-format
 msgid "Reverse action of URI encode."
 msgstr ""
 
-#: script/data/commands/utils.js:437
+#: script/data/commands/utils.js:456
 #, kde-format
 msgid "Select text forward from current cursor position to the first occurrence of the given argument after it (or the end of the current line by default)."
 msgstr ""
 
-#: script/data/commands/utils.js:439
+#: script/data/commands/utils.js:458
 #, kde-format
 msgid "Select text backward from current cursor position to the last occurrence of the given argument before it (or the beginning of the current line by default)."
 msgstr ""
@@ -6546,37 +6552,37 @@ msgstr ""
 msgid "Toggle Contained Nodes"
 msgstr ""
 
-#: view/kateview.cpp:1475
+#: view/kateview.cpp:1474
 #, kde-format
 msgid "(R/O) %1"
 msgstr ""
 
-#: view/kateview.cpp:1663
+#: view/kateview.cpp:1662
 #, kde-format
 msgid "Camel case movement disabled"
 msgstr ""
 
-#: view/kateview.cpp:1665
+#: view/kateview.cpp:1664
 #, kde-format
 msgid "Camel case movement enabled"
 msgstr ""
 
-#: view/kateview.cpp:2147
+#: view/kateview.cpp:2146
 #| msgid "Search"
 msgid "Search wrapped"
 msgstr ""
 
-#: view/kateview.cpp:3656
+#: view/kateview.cpp:3657
 #| msgid "&Align"
 msgid "Align On"
 msgstr ""
 
-#: view/kateview.cpp:3656
+#: view/kateview.cpp:3657
 #, kde-format
 msgid "Alignment pattern:"
 msgstr ""
 
-#: view/kateview.cpp:4743
+#: view/kateview.cpp:4744
 #, kde-format
 msgid "Export File as HTML"
 msgstr "Экспартаваць файл як HTML"
@@ -6637,17 +6643,17 @@ msgstr "Паспяхова: "
 msgid "Command \"%1\" failed."
 msgstr "Немагчыма выканаць загад \"%1\"."
 
-#: view/kateviewhelpers.cpp:2563 view/kateviewhelpers.cpp:2564
+#: view/kateviewhelpers.cpp:2562 view/kateviewhelpers.cpp:2563
 #, kde-format
 msgid "Mark Type %1"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:2587
+#: view/kateviewhelpers.cpp:2586
 #, kde-format
 msgid "Set Default Mark Type"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:2728
+#: view/kateviewhelpers.cpp:2727
 #, kde-format
 msgid "Disable Annotation Bar"
 msgstr ""

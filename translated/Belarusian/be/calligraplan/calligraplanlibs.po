@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-30 00:47+0000\n"
-"PO-Revision-Date: 2022-11-30 21:02\n"
+"POT-Creation-Date: 2022-12-23 00:47+0000\n"
+"PO-Revision-Date: 2022-12-25 17:03\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -245,7 +245,7 @@ msgstr "Скасавана"
 #. i18n: ectx: property (text), item, widget (QComboBox, freedays)
 #. i18n: ectx: property (text), item, widget (KComboBox, risk)
 #: kernel/kptnode.cpp:142 kernel/kptnode.cpp:1705 kernel/WorkPackage.cpp:132
-#: models/kptcalendarmodel.cpp:418 models/kptcalendarmodel.cpp:438
+#: models/kptcalendarmodel.cpp:420 models/kptcalendarmodel.cpp:440
 #: models/kptnodeitemmodel.cpp:423 models/kptnodeitemmodel.cpp:439
 #: models/kptnodeitemmodel.cpp:449 models/kptnodeitemmodel.cpp:678
 #: models/kptnodeitemmodel.cpp:695 models/kptnodeitemmodel.cpp:713
@@ -266,7 +266,7 @@ msgid "None"
 msgstr "Няма"
 
 #: kernel/kptnode.cpp:143 models/kptpertcpmmodel.cpp:421
-#: models/kptresourceappointmentsmodel.cpp:375
+#: models/kptresourceappointmentsmodel.cpp:377
 #: models/reportgenerator/ReportGenerator.cpp:30 ui/reports/reportdata.cpp:941
 #, kde-format
 msgid "Project"
@@ -1008,6 +1008,7 @@ msgid "A&vailable actions:"
 msgstr "&Даступныя дзеянні:"
 
 #: main/kedittoolbar.cpp:1034 main/kedittoolbar.cpp:1059
+#: ui/kptganttview.cpp:465 ui/MilestoneGanttView.cpp:475
 #| msgid "Estimate Type"
 msgid "Filter"
 msgstr "&Фільтр:"
@@ -1647,7 +1648,7 @@ msgstr "Спыніць"
 #: ui/kptaccountseditor.cpp:53 ui/kptaccountsviewconfigdialog.cpp:76
 #: ui/kptdependencyeditor.cpp:2185 ui/kptganttview.cpp:194
 #: ui/kptitemviewsettup.cpp:190 ui/kptitemviewsettup.cpp:274
-#: ui/kptresourceappointmentsview.cpp:66 ui/MilestoneGanttView.cpp:148
+#: ui/kptresourceappointmentsview.cpp:66 ui/MilestoneGanttView.cpp:149
 #: ui/performance/ProjectStatusView.cpp:170
 #: ui/ResourceAppointmentsGanttView.cpp:163
 #, kde-format
@@ -1863,9 +1864,9 @@ msgstr[3] ""
 #: models/GroupAllocationItemModel.cpp:171 models/kptaccountsmodel.cpp:112
 #: models/kptaccountsmodel.cpp:1054 models/kptdocumentmodel.cpp:187
 #: models/kptresourceallocationmodel.cpp:526
-#: models/kptresourceappointmentsmodel.cpp:753
-#: models/kptresourceappointmentsmodel.cpp:768
-#: models/kptresourceappointmentsmodel.cpp:1167 models/kptschedulemodel.cpp:978
+#: models/kptresourceappointmentsmodel.cpp:752
+#: models/kptresourceappointmentsmodel.cpp:767
+#: models/kptresourceappointmentsmodel.cpp:1166 models/kptschedulemodel.cpp:978
 #: models/kptschedulemodel.cpp:1303
 #: models/reportgenerator/ReportGenerator.cpp:50
 #: models/ResourceGroupModel.cpp:190 models/ResourceModel.cpp:418
@@ -1876,7 +1877,7 @@ msgstr "Назва"
 
 #: models/GroupAllocationItemModel.cpp:172 models/kptdocumentmodel.cpp:188
 #: models/kptrelationmodel.cpp:125 models/kptresourceallocationmodel.cpp:527
-#: models/kptresourceappointmentsmodel.cpp:1168
+#: models/kptresourceappointmentsmodel.cpp:1167
 #: models/ResourceGroupModel.cpp:192 models/ResourceModel.cpp:420
 #, kde-format
 msgid "Type"
@@ -2058,7 +2059,7 @@ msgstr[3] ""
 msgid "Actual total cost: %1, planned total cost: %2"
 msgstr ""
 
-#: models/kptaccountsmodel.cpp:1056 models/kptresourceappointmentsmodel.cpp:754
+#: models/kptaccountsmodel.cpp:1056 models/kptresourceappointmentsmodel.cpp:753
 #, kde-format
 msgid "Total"
 msgstr "Усяго"
@@ -2090,13 +2091,13 @@ msgctxt "@info:tooltip week-year"
 msgid "Week %1-%2"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:289
+#: models/kptcalendarmodel.cpp:291
 #| msgid "Delete Account"
 msgctxt "1=calendar name"
 msgid "%1 (Default calendar)"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:306 models/kptcalendarmodel.cpp:315
+#: models/kptcalendarmodel.cpp:308 models/kptcalendarmodel.cpp:317
 #: models/ResourceGroupModel.cpp:92 models/ResourceGroupModel.cpp:101
 #: models/ResourceModel.cpp:83 models/ResourceModel.cpp:106
 #: models/ResourceModel.cpp:115
@@ -2104,7 +2105,7 @@ msgstr ""
 msgid "Local"
 msgstr "Лакальныя"
 
-#: models/kptcalendarmodel.cpp:306 models/kptcalendarmodel.cpp:315
+#: models/kptcalendarmodel.cpp:308 models/kptcalendarmodel.cpp:317
 #: models/ResourceGroupModel.cpp:92 models/ResourceGroupModel.cpp:101
 #: models/ResourceModel.cpp:83 models/ResourceModel.cpp:106
 #: models/ResourceModel.cpp:115
@@ -2112,195 +2113,195 @@ msgstr "Лакальныя"
 msgid "Shared"
 msgstr "Адпраўлена"
 
-#: models/kptcalendarmodel.cpp:311
+#: models/kptcalendarmodel.cpp:313
 #, kde-kuit-format
 msgctxt "@info:tooltip 1=calendar name"
 msgid "%1 is a <emphasis>Local</emphasis> calendar"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:313
+#: models/kptcalendarmodel.cpp:315
 #, kde-kuit-format
 msgctxt "@info:tooltip 1=calendar name"
 msgid "%1 is a <emphasis>Shared</emphasis> calendar"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:330
+#: models/kptcalendarmodel.cpp:332
 #| msgid "Add Calendar"
 msgctxt "(qtundo-format)"
 msgid "Modify calendar name"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:338
+#: models/kptcalendarmodel.cpp:340
 #| msgid "Add account"
 msgctxt "(qtundo-format)"
 msgid "De-select as default calendar"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:344
+#: models/kptcalendarmodel.cpp:346
 #| msgid "Add account"
 msgctxt "(qtundo-format)"
 msgid "Select as default calendar"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:404
+#: models/kptcalendarmodel.cpp:406
 #| msgid "Add Calendar"
 msgctxt "(qtundo-format)"
 msgid "Modify calendar timezone"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:421 models/kptcalendarmodel.cpp:438
+#: models/kptcalendarmodel.cpp:423 models/kptcalendarmodel.cpp:440
 #| msgid "Project"
 msgid "Default"
 msgstr "Прадвызначаная"
 
-#: models/kptcalendarmodel.cpp:431
+#: models/kptcalendarmodel.cpp:433
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "No holidays"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:433
+#: models/kptcalendarmodel.cpp:435
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Default region: <emphasis>%1</emphasis>"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:474
+#: models/kptcalendarmodel.cpp:476
 #| msgid "% Completed"
 msgctxt "(qtundo-format)"
 msgid "Modify calendar holiday region"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:532 models/kptnodeitemmodel.cpp:2321
-#: models/kptnodeitemmodel.cpp:5256
+#: models/kptcalendarmodel.cpp:534 models/kptnodeitemmodel.cpp:2321
+#: models/kptnodeitemmodel.cpp:5466
 #: ui/reportsgenerator/ReportsGeneratorView.cpp:253
 #| msgid "Name"
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Імя"
 
-#: models/kptcalendarmodel.cpp:533
+#: models/kptcalendarmodel.cpp:535
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Origin"
 msgstr "Паходжанне"
 
-#: models/kptcalendarmodel.cpp:534
+#: models/kptcalendarmodel.cpp:536
 #| msgid "Timezone"
 msgctxt "@title:column"
 msgid "Timezone"
 msgstr "Часавы пояс"
 
-#: models/kptcalendarmodel.cpp:536
+#: models/kptcalendarmodel.cpp:538
 #| msgid "% Completed"
 msgctxt "@title:column"
 msgid "Holiday Region"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:552
+#: models/kptcalendarmodel.cpp:554
 #| msgid "% Completed"
 msgctxt "@info:tooltip"
 msgid "The holiday region"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:629
+#: models/kptcalendarmodel.cpp:631
 #| msgid "Deleted"
 msgctxt "(qtundo-format)"
 msgid "Re-parent calendar"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:632
+#: models/kptcalendarmodel.cpp:634
 #| msgid "Add Calendar"
 msgctxt "(qtundo-format)"
 msgid "Move calendar"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:688
+#: models/kptcalendarmodel.cpp:690
 #| msgid "Add Calendar"
 msgctxt "(qtundo-format)"
 msgid "Add calendar"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:711
+#: models/kptcalendarmodel.cpp:713
 #| msgid "Deleted"
 msgctxt "(qtundo-format)"
 msgid "Delete calendar"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:880
+#: models/kptcalendarmodel.cpp:882
 #, kde-format
 msgctxt "Undefined"
 msgid "U"
 msgstr "П"
 
-#: models/kptcalendarmodel.cpp:881 models/kptcalendarmodel.cpp:1103
-#: models/kptcalendarmodel.cpp:1112
+#: models/kptcalendarmodel.cpp:883 models/kptcalendarmodel.cpp:1105
+#: models/kptcalendarmodel.cpp:1114
 #, kde-format
 msgctxt "NonWorking"
 msgid "NW"
 msgstr "Пн-Зах"
 
-#: models/kptcalendarmodel.cpp:882
+#: models/kptcalendarmodel.cpp:884
 #, kde-format
 msgctxt "Working"
 msgid "W"
 msgstr "З"
 
-#: models/kptcalendarmodel.cpp:911
+#: models/kptcalendarmodel.cpp:913
 #| msgid "% Completed"
 msgctxt "(qtundo-format)"
 msgid "Modify calendar state"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:933
+#: models/kptcalendarmodel.cpp:935
 #, kde-format
 msgctxt "1=time 2=The number of hours of work duration (non integer)"
 msgid "%1, %2 hours"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:988 models/kptcalendarmodel.cpp:1155
+#: models/kptcalendarmodel.cpp:990 models/kptcalendarmodel.cpp:1157
 #| msgid "Undefined"
 msgctxt "@info:tooltip"
 msgid "Undefined"
 msgstr "Не вызначана"
 
-#: models/kptcalendarmodel.cpp:991 models/kptcalendarmodel.cpp:1158
+#: models/kptcalendarmodel.cpp:993 models/kptcalendarmodel.cpp:1160
 #| msgid "Work"
 msgctxt "@info:tooltip"
 msgid "Non-working"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:998 models/kptcalendarmodel.cpp:1165
+#: models/kptcalendarmodel.cpp:1000 models/kptcalendarmodel.cpp:1167
 #, kde-kuit-format
 msgctxt "@info:tooltip 1=time 2=The work duration (non integer)"
 msgid "%1, %2"
 msgstr "%1, %2"
 
-#: models/kptcalendarmodel.cpp:1152
+#: models/kptcalendarmodel.cpp:1154
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Holiday"
 msgstr "Свята"
 
-#: models/kptcalendarmodel.cpp:1349 models/kptcalendarmodel.cpp:1373
+#: models/kptcalendarmodel.cpp:1364 models/kptcalendarmodel.cpp:1388
 #| msgid "Add Calendar"
 msgctxt "(qtundo-format)"
 msgid "Modify calendar weekday"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:1401 models/kptcalendarmodel.cpp:1425
+#: models/kptcalendarmodel.cpp:1416 models/kptcalendarmodel.cpp:1440
 #| msgid "% Completed"
 msgctxt "(qtundo-format)"
 msgid "Modify calendar date"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:1442
+#: models/kptcalendarmodel.cpp:1457
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Weekday"
 msgstr ""
 
-#: models/kptcalendarmodel.cpp:1443
+#: models/kptcalendarmodel.cpp:1458
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Date"
@@ -4331,7 +4332,7 @@ msgctxt "(qtundo-format)"
 msgid "Modify completion"
 msgstr ""
 
-#: models/kptnodeitemmodel.cpp:3692 models/kptnodeitemmodel.cpp:4842
+#: models/kptnodeitemmodel.cpp:3692 models/kptnodeitemmodel.cpp:4845
 #: models/kpttaskstatusmodel.cpp:425
 #| msgid "Finished"
 msgctxt "(qtundo-format)"
@@ -4369,7 +4370,7 @@ msgctxt "(qtundo-format)"
 msgid "Modify resource allocations"
 msgstr ""
 
-#: models/kptnodeitemmodel.cpp:4265 models/kptnodeitemmodel.cpp:5068
+#: models/kptnodeitemmodel.cpp:4265 models/kptnodeitemmodel.cpp:5071
 #| msgid "Task"
 msgctxt "(qtundo-format)"
 msgid "Move tasks"
@@ -4516,55 +4517,55 @@ msgctxt "@info:tooltip"
 msgid "Team resources cannot have required resources"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:589
+#: models/kptresourceappointmentsmodel.cpp:588
 #, kde-format
 msgid "The total booking on %1, along with the maximum hours for the resource"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:623
+#: models/kptresourceappointmentsmodel.cpp:622
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "%1: %2<nl/>%3: %4<nl/>Timezone: %5<nl/>Available: %6"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:674
+#: models/kptresourceappointmentsmodel.cpp:673
 #, kde-format
 msgid "Booking by this task on %1"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:769
+#: models/kptresourceappointmentsmodel.cpp:768
 #, kde-format
 msgid "The total hours booked"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:773
+#: models/kptresourceappointmentsmodel.cpp:772
 #, kde-format
 msgid "Bookings on %1"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:920
+#: models/kptresourceappointmentsmodel.cpp:919
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "%1: %2<nl/>%3: %4<nl/>Timezone: %5"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:954
+#: models/kptresourceappointmentsmodel.cpp:953
 #, kde-format
 msgid "Interval"
 msgstr "Інтэрвал"
 
-#: models/kptresourceappointmentsmodel.cpp:965
+#: models/kptresourceappointmentsmodel.cpp:964
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "%1: %2<nl/>%3: %4<nl/>Timezone: %5<nl/>Assigned: %6<nl/>Available: %7"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:1169
+#: models/kptresourceappointmentsmodel.cpp:1168
 #| msgid "Started"
 msgid "Start Time"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:1170
+#: models/kptresourceappointmentsmodel.cpp:1169
 #| msgid "Send"
 msgid "End Time"
 msgstr "Час завяршэння"
@@ -5668,17 +5669,111 @@ msgstr ""
 msgid "Calligra Storage"
 msgstr ""
 
+#: ui/FilterWidget.cpp:38
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Toggle extended filter options"
+msgstr ""
+
+#: ui/FilterWidget.cpp:45
+#| msgid "Estimate Type"
+msgctxt "@info:tooltip"
+msgid "Filter names"
+msgstr ""
+
 #: ui/gantt/BasicGanttViewSettingsDialog.cpp:32 ui/kptaccountseditor.cpp:54
 #: ui/kptaccountsviewconfigdialog.cpp:77 ui/kptdependencyeditor.cpp:2186
 #: ui/kptganttview.cpp:194 ui/kptitemviewsettup.cpp:190
 #: ui/kptitemviewsettup.cpp:274 ui/kptresourceappointmentsview.cpp:67
-#: ui/MilestoneGanttView.cpp:148 ui/performance/ProjectStatusView.cpp:171
+#: ui/MilestoneGanttView.cpp:149 ui/performance/ProjectStatusView.cpp:171
 #: ui/ResourceAppointmentsGanttView.cpp:163
 #, kde-format
 msgid "Printing Options"
 msgstr ""
 
-#: ui/gantt/GanttViewBase.cpp:154
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/gantt/GanttFilterOptionsWidget.ui:49
+#| msgid "Estimate Type"
+msgid "Filter Options"
+msgstr "Параметры фільтра"
+
+#. i18n: ectx: property (text), widget (QCheckBox, show_project)
+#: ui/gantt/GanttFilterOptionsWidget.ui:120
+#| msgid "Project"
+msgid "Show project"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, tasks_and_milestones_group)
+#: ui/gantt/GanttFilterOptionsWidget.ui:130 ui/kptganttview.cpp:353
+#| msgid "Add Calendar"
+msgid "Tasks and Milestones"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, taskList)
+#. i18n: ectx: property (text), widget (QCheckBox, show_tasks)
+#: ui/gantt/GanttFilterOptionsWidget.ui:139 ui/kptperteditor.ui:20
+#: ui/reports/reportdata.cpp:383
+#| msgid "Task"
+msgid "Tasks"
+msgstr "Задачы"
+
+#. i18n: ectx: property (text), widget (QCheckBox, show_milestones)
+#: ui/gantt/GanttFilterOptionsWidget.ui:146
+#| msgid "Add Calendar"
+msgid "Milestones"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, show_unscheduled_tasks)
+#: ui/gantt/GanttFilterOptionsWidget.ui:153
+#| msgid "Project"
+msgid "Unscheduled tasks"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, period_group)
+#: ui/gantt/GanttFilterOptionsWidget.ui:163 ui/kptganttview.cpp:362
+#| msgid "Product"
+msgid "Period"
+msgstr "Кропка"
+
+#. i18n: ectx: property (text), widget (QCheckBox, show_running)
+#: ui/gantt/GanttFilterOptionsWidget.ui:172
+#| msgid "Running"
+msgid "Running tasks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, show_finished)
+#: ui/gantt/GanttFilterOptionsWidget.ui:179
+#| msgid "Finished late"
+msgid "Finished tasks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, show_not_started)
+#: ui/gantt/GanttFilterOptionsWidget.ui:186
+#| msgid "Not started"
+msgid "Not started tasks"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, enable_period)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, period)
+#: ui/gantt/GanttFilterOptionsWidget.ui:195
+#: ui/gantt/GanttFilterOptionsWidget.ui:205
+#| msgid "Calculate"
+msgid "Number of days around current datetime"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, enable_period)
+#: ui/gantt/GanttFilterOptionsWidget.ui:198 ui/kptganttview.cpp:394
+#| msgid "Product"
+msgid "Period:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, enable_spesific_period)
+#: ui/gantt/GanttFilterOptionsWidget.ui:236
+#, kde-format
+msgid "Specific period:"
+msgstr ""
+
+#: ui/gantt/GanttViewBase.cpp:157
 #| msgid "Started late"
 msgctxt "@title:tab"
 msgid "Chart"
@@ -6341,39 +6436,39 @@ msgid "Add Sub-Milestone..."
 msgstr ""
 
 #: ui/kptdependencyeditor.cpp:2589 ui/kptdocumentseditor.cpp:203
-#: ui/kptganttview.cpp:365 ui/kptpertresult.cpp:151
+#: ui/kptganttview.cpp:446 ui/kptpertresult.cpp:151
 #: ui/kptscheduleeditor.cpp:682 ui/kpttaskeditor.cpp:690
 #: ui/kpttaskeditor.cpp:959 ui/kpttaskeditor.cpp:1835
-#: ui/MilestoneGanttView.cpp:454 ui/performance/PerformanceStatusView.cpp:329
+#: ui/MilestoneGanttView.cpp:457 ui/performance/PerformanceStatusView.cpp:329
 #: ui/ResourceAppointmentsGanttView.cpp:363
 #, kde-format
 msgid "Edit..."
 msgstr "Рэдагаваць..."
 
-#: ui/kptdependencyeditor.cpp:2593 ui/kptganttview.cpp:369
+#: ui/kptdependencyeditor.cpp:2593 ui/kptganttview.cpp:450
 #: ui/kptresourceappointmentsview.cpp:315 ui/kpttaskeditor.cpp:963
 #: ui/kpttaskeditor.cpp:1839 ui/kpttaskeditor.cpp:2434
-#: ui/kpttaskstatusview.cpp:362 ui/MilestoneGanttView.cpp:458
+#: ui/kpttaskstatusview.cpp:362 ui/MilestoneGanttView.cpp:461
 #: ui/performance/PerformanceStatusView.cpp:333
 #: ui/ResourceAppointmentsGanttView.cpp:367
 #| msgid "Add Calendar"
 msgid "Progress..."
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2597 ui/kptganttview.cpp:373
+#: ui/kptdependencyeditor.cpp:2597 ui/kptganttview.cpp:454
 #: ui/kptresourceappointmentsview.cpp:319 ui/kpttaskeditor.cpp:967
 #: ui/kpttaskeditor.cpp:1843 ui/kpttaskeditor.cpp:2438
-#: ui/kpttaskstatusview.cpp:366 ui/MilestoneGanttView.cpp:462
+#: ui/kpttaskstatusview.cpp:366 ui/MilestoneGanttView.cpp:465
 #: ui/performance/PerformanceStatusView.cpp:337
 #: ui/ResourceAppointmentsGanttView.cpp:371
 #| msgid "Description"
 msgid "Description..."
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2601 ui/kptganttview.cpp:377
+#: ui/kptdependencyeditor.cpp:2601 ui/kptganttview.cpp:458
 #: ui/kptresourceappointmentsview.cpp:323 ui/kpttaskeditor.cpp:971
 #: ui/kpttaskeditor.cpp:1847 ui/kpttaskeditor.cpp:2442
-#: ui/kpttaskstatusview.cpp:370 ui/MilestoneGanttView.cpp:466
+#: ui/kpttaskstatusview.cpp:370 ui/MilestoneGanttView.cpp:469
 #: ui/performance/PerformanceStatusView.cpp:341
 #: ui/ResourceAppointmentsGanttView.cpp:375
 #| msgid "Account"
@@ -6561,13 +6656,13 @@ msgid "Ctrl+O"
 msgstr ""
 
 #: ui/kptganttview.cpp:140 ui/kptmainprojectpanel.cpp:126
-#: ui/MilestoneGanttView.cpp:95 ui/ResourceAppointmentsGanttView.cpp:112
+#: ui/MilestoneGanttView.cpp:96 ui/ResourceAppointmentsGanttView.cpp:112
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "No freedays"
 msgstr ""
 
-#: ui/kptganttview.cpp:141 ui/MilestoneGanttView.cpp:96
+#: ui/kptganttview.cpp:141 ui/MilestoneGanttView.cpp:97
 #: ui/ResourceAppointmentsGanttView.cpp:113
 #| msgid "Project"
 msgctxt "@item:inlistbox"
@@ -6575,7 +6670,7 @@ msgid "Project freedays"
 msgstr ""
 
 #: ui/kptganttview.cpp:173 ui/kptganttview.cpp:192
-#: ui/MilestoneGanttView.cpp:129 ui/MilestoneGanttView.cpp:146
+#: ui/MilestoneGanttView.cpp:130 ui/MilestoneGanttView.cpp:147
 #: ui/performance/PerformanceStatusView.cpp:635
 #: ui/performance/ProjectStatusView.cpp:155
 #: ui/ResourceAppointmentsGanttView.cpp:144
@@ -6584,71 +6679,136 @@ msgstr ""
 msgid "Chart"
 msgstr ""
 
-#: ui/kptganttview.cpp:173 ui/MilestoneGanttView.cpp:129
+#: ui/kptganttview.cpp:173 ui/MilestoneGanttView.cpp:130
 #: ui/ResourceAppointmentsGanttView.cpp:144
 #| msgid "Project"
 msgid "Gantt Chart Settings"
 msgstr ""
 
-#: ui/kptganttview.cpp:253
+#: ui/kptganttview.cpp:255
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<title>Gantt View</title><para>Displays scheduled tasks in a Gantt diagram. The chart area can be zoomed in and out with a slider positioned in the upper left corner of the time scale. <note>You need to hoover over it with the mouse for it to show.</note></para><para>This view supports configuration and printing using the context menu of the tree view.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptganttview.cpp:304 ui/kpttaskeditor.cpp:976 ui/kpttaskeditor.cpp:1852
+#: ui/kptganttview.cpp:308 ui/kpttaskeditor.cpp:976 ui/kpttaskeditor.cpp:1852
 #| msgid "Project"
 msgid "Show Project"
 msgstr ""
 
-#: ui/kptganttview.cpp:312
+#: ui/kptganttview.cpp:318
+#| msgid "Description"
+msgid "Filter Options..."
+msgstr ""
+
+#: ui/kptganttview.cpp:330
 #| msgid "Project"
 msgid "Show Unscheduled Tasks"
 msgstr ""
 
-#: ui/kptganttview.cpp:324 ui/MilestoneGanttView.cpp:413
+#: ui/kptganttview.cpp:337
+#| msgid "Task"
+msgid "Show Tasks"
+msgstr ""
+
+#: ui/kptganttview.cpp:345
+#| msgid "Add Calendar"
+msgid "Show Milestones"
+msgstr ""
+
+#: ui/kptganttview.cpp:354
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Activates the Task and Milestones filter options.<nl/>Deactivating this will show all scheduled tasks and milestones."
+msgstr ""
+
+#: ui/kptganttview.cpp:363
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Activates the Period filter options."
+msgstr ""
+
+#: ui/kptganttview.cpp:370
+#| msgid "Running"
+msgid "Show Running Tasks"
+msgstr ""
+
+#: ui/kptganttview.cpp:371
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Shows tasks that has been started before or during this period."
+msgstr ""
+
+#: ui/kptganttview.cpp:378
+#| msgid "Project"
+msgid "Show Finished Tasks"
+msgstr ""
+
+#: ui/kptganttview.cpp:379
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Shows tasks and milestones that has been finished during this period."
+msgstr ""
+
+#: ui/kptganttview.cpp:386
+#| msgid "Not Started"
+msgid "Show Not Started Tasks"
+msgstr ""
+
+#: ui/kptganttview.cpp:387
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Shows tasks and milestones that should have been started by now."
+msgstr ""
+
+#: ui/kptganttview.cpp:399
+#, kde-format
+msgid "specific period:"
+msgstr ""
+
+#: ui/kptganttview.cpp:405 ui/MilestoneGanttView.cpp:416
 #: ui/ResourceAppointmentsGanttView.cpp:322
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Auto"
 msgstr "Аўтаматычна"
 
-#: ui/kptganttview.cpp:331 ui/MilestoneGanttView.cpp:420
+#: ui/kptganttview.cpp:412 ui/MilestoneGanttView.cpp:423
 #: ui/ResourceAppointmentsGanttView.cpp:329
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Month"
 msgstr "Месяц"
 
-#: ui/kptganttview.cpp:337 ui/MilestoneGanttView.cpp:426
+#: ui/kptganttview.cpp:418 ui/MilestoneGanttView.cpp:429
 #: ui/ResourceAppointmentsGanttView.cpp:335
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Week"
 msgstr "Тыдзень"
 
-#: ui/kptganttview.cpp:343 ui/MilestoneGanttView.cpp:432
+#: ui/kptganttview.cpp:424 ui/MilestoneGanttView.cpp:435
 #: ui/ResourceAppointmentsGanttView.cpp:341
 #| msgid "Deleted"
 msgctxt "@action:inmenu"
 msgid "Day"
 msgstr "Дзень"
 
-#: ui/kptganttview.cpp:349 ui/MilestoneGanttView.cpp:438
+#: ui/kptganttview.cpp:430 ui/MilestoneGanttView.cpp:441
 #: ui/ResourceAppointmentsGanttView.cpp:347
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hour"
 msgstr "Гадзіна"
 
-#: ui/kptganttview.cpp:355 ui/MilestoneGanttView.cpp:444
+#: ui/kptganttview.cpp:436 ui/MilestoneGanttView.cpp:447
 #: ui/ResourceAppointmentsGanttView.cpp:353
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Zoom In"
 msgstr "Наблізіць"
 
-#: ui/kptganttview.cpp:360 ui/MilestoneGanttView.cpp:449
+#: ui/kptganttview.cpp:441 ui/MilestoneGanttView.cpp:452
 #: ui/ResourceAppointmentsGanttView.cpp:358
 #, kde-format
 msgctxt "@action:inmenu"
@@ -6779,7 +6939,7 @@ msgstr ""
 msgid "Project Settings"
 msgstr ""
 
-#: ui/kptmainprojectdialog.cpp:59 ui/kptmainprojectpanel.cpp:196
+#: ui/kptmainprojectdialog.cpp:64 ui/kptmainprojectpanel.cpp:196
 #| msgid "Project"
 msgctxt "(qtundo-format)"
 msgid "Modify main project"
@@ -6809,7 +6969,7 @@ msgctxt "@info:tooltip"
 msgid "File where shared resources are defined"
 msgstr ""
 
-#: ui/kptmainprojectpanel.cpp:365
+#: ui/kptmainprojectpanel.cpp:370
 #| msgid "Task"
 msgid "Task Modules Path"
 msgstr ""
@@ -7003,12 +7163,6 @@ msgstr ""
 msgctxt "(qtundo-format)"
 msgid "Remove task dependency"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, taskList)
-#: ui/kptperteditor.ui:20 ui/reports/reportdata.cpp:383
-#| msgid "Task"
-msgid "Tasks"
-msgstr "Задачы"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, available)
 #: ui/kptperteditor.ui:29
@@ -8385,7 +8539,7 @@ msgstr ""
 msgid "Fractional digits:"
 msgstr ""
 
-#: ui/MilestoneGanttView.cpp:220
+#: ui/MilestoneGanttView.cpp:223
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<title>Milestone Gantt View</title><para>Displays scheduled milestones in a Gantt diagram. The chart area can be zoomed in and out with a slider positioned in the upper left corner of the time scale. <note>You need to hoover over it with the mouse for it to show.</note></para><para>This view supports configuration and printing using the context menu.<nl/><link url='%1'>More...</link></para>"

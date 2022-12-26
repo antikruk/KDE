@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-24 00:57+0000\n"
-"PO-Revision-Date: 2022-12-09 11:46\n"
+"POT-Creation-Date: 2022-12-18 01:08+0000\n"
+"PO-Revision-Date: 2022-12-25 17:08\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
+"Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: be_BY\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Generator: Lokalize 22.08.3\n"
 "X-Crowdin-Project: 86ff119b1606fcaa910d6b44fc14b611\n"
@@ -239,6 +239,11 @@ msgctxt "Name"
 msgid "Thumbnail Aside"
 msgstr "Бакавыя мініяцюры"
 
+#: src/effects/tileseditor/metadata.json
+msgctxt "Name"
+msgid "Tiling Editor"
+msgstr ""
+
 #: src/effects/touchpoints/metadata.json
 msgctxt "Name"
 msgid "Touch Points"
@@ -274,60 +279,65 @@ msgctxt "Name"
 msgid "Zoom"
 msgstr "Маштабаванне"
 
-#: src/kcmkwin/kwincompositing/kwincompositing.json
+#: src/kcms/compositing/kwincompositing.json
 msgctxt "Name"
 msgid "Compositor"
 msgstr "Сродак кампазітынгу"
 
-#: src/kcmkwin/kwindecoration/kcm_kwindecoration.json
+#: src/kcms/decoration/kcm_kwindecoration.json
 msgctxt "Name"
 msgid "Window Decorations"
 msgstr "Аздабленне акон"
 
-#: src/kcmkwin/kwindesktop/kcm_kwin_virtualdesktops.json
+#: src/kcms/desktop/kcm_kwin_virtualdesktops.json
 msgctxt "Name"
 msgid "Virtual Desktops"
 msgstr "Віртуальныя працоўныя сталы"
 
-#: src/kcmkwin/kwineffects/kcm_kwin_effects.json
+#: src/kcms/effects/kcm_kwin_effects.json
 msgctxt "Name"
 msgid "Desktop Effects"
 msgstr "Эфекты працоўнага стала"
 
-#: src/kcmkwin/kwinoptions/kcm_kwinoptions.json
+#: src/kcms/options/kcm_kwinoptions.json
 msgctxt "Name"
 msgid "Window Behavior"
 msgstr "Паводзіны акон"
 
-#: src/kcmkwin/kwinrules/kcm_kwinrules.json
+#: src/kcms/rules/kcm_kwinrules.json
 msgctxt "Name"
 msgid "Window Rules"
 msgstr "Правілы для акон"
 
-#: src/kcmkwin/kwinscreenedges/kcm_kwinscreenedges.json
+#: src/kcms/screenedges/kcm_kwinscreenedges.json
 msgctxt "Name"
 msgid "Screen Edges"
 msgstr "Краі экрана"
 
-#: src/kcmkwin/kwinscreenedges/kcm_kwintouchscreen.json
+#: src/kcms/screenedges/kcm_kwintouchscreen.json
 msgctxt "Name"
 msgid "Touchscreen Gestures"
 msgstr "Жэсты сэнсарнага экрана"
 
-#: src/kcmkwin/kwinscripts/kcm_kwin_scripts.json
+#: src/kcms/scripts/kcm_kwin_scripts.json
 msgctxt "Name"
 msgid "KWin Scripts"
 msgstr "Скрыпты KWin"
 
-#: src/kcmkwin/kwintabbox/kcm_kwintabbox.json
+#: src/kcms/tabbox/kcm_kwintabbox.json
 msgctxt "Name"
 msgid "Task Switcher"
 msgstr "Сродак пераключэння задач"
 
-#: src/kcmkwin/kwinvirtualkeyboard/kcm_virtualkeyboard.json
+#: src/kcms/virtualkeyboard/kcm_virtualkeyboard.json
 msgctxt "Name"
 msgid "Virtual Keyboard"
 msgstr "Віртуальная клавіятура"
+
+#: src/kcms/xwayland/kcm_kwinxwayland.json
+msgctxt "Name"
+msgid "Legacy X11 App Support"
+msgstr ""
 
 #: src/plugins/kdecorations/aurorae/themes/plastik/package/metadata.json
 msgctxt "Name"
@@ -599,6 +609,11 @@ msgctxt "Description"
 msgid "Display window thumbnails on the edge of the screen"
 msgstr "Паказ міняцюр акон ля краю экрана"
 
+#: src/effects/tileseditor/metadata.json
+msgctxt "Description"
+msgid "Editor for the tiling areas"
+msgstr ""
+
 #: src/effects/touchpoints/metadata.json
 msgctxt "Description"
 msgid "Visualize touch points"
@@ -634,60 +649,65 @@ msgctxt "Description"
 msgid "Magnify the entire desktop"
 msgstr "Павелічэнне ўсяго працоўнага стала"
 
-#: src/kcmkwin/kwincompositing/kwincompositing.json
+#: src/kcms/compositing/kwincompositing.json
 msgctxt "Description"
 msgid "Compositor Settings for Desktop Effects"
 msgstr "Налады сродку кампазітынгу для эфектаў працоўнага стала"
 
-#: src/kcmkwin/kwindecoration/kcm_kwindecoration.json
+#: src/kcms/decoration/kcm_kwindecoration.json
 msgctxt "Description"
 msgid "Configure window titlebars and borders"
 msgstr "Наладжванне панэляў загалоўкаў і рамкі"
 
-#: src/kcmkwin/kwindesktop/kcm_kwin_virtualdesktops.json
+#: src/kcms/desktop/kcm_kwin_virtualdesktops.json
 msgctxt "Description"
 msgid "Configure navigation, number and layout of virtual desktops"
 msgstr "Наладжванне навігацыі, колькасці і макета кампанавання віртуальных працоўных сталоў"
 
-#: src/kcmkwin/kwineffects/kcm_kwin_effects.json
+#: src/kcms/effects/kcm_kwin_effects.json
 msgctxt "Description"
 msgid "Configure compositor settings for desktop effects"
 msgstr "Наладжванне сродку кампазітынгу для эфектаў працоўнага стала"
 
-#: src/kcmkwin/kwinoptions/kcm_kwinoptions.json
+#: src/kcms/options/kcm_kwinoptions.json
 msgctxt "Description"
 msgid "Configure window actions and behavior"
 msgstr "Наладжванне дзеянняў і паводзін акон"
 
-#: src/kcmkwin/kwinrules/kcm_kwinrules.json
+#: src/kcms/rules/kcm_kwinrules.json
 msgctxt "Description"
 msgid "Individual Window Behavior"
 msgstr "Паводзіны асобных акон"
 
-#: src/kcmkwin/kwinscreenedges/kcm_kwinscreenedges.json
+#: src/kcms/screenedges/kcm_kwinscreenedges.json
 msgctxt "Description"
 msgid "Configure active screen corners and edges"
 msgstr "Наладжванне актыўных кутоў і краёў экрана"
 
-#: src/kcmkwin/kwinscreenedges/kcm_kwintouchscreen.json
+#: src/kcms/screenedges/kcm_kwintouchscreen.json
 msgctxt "Description"
 msgid "Configure touch screen swipe gestures"
 msgstr "Наладжванне жэстаў вядзення пальцам па сэнсарным экране"
 
-#: src/kcmkwin/kwinscripts/kcm_kwin_scripts.json
+#: src/kcms/scripts/kcm_kwin_scripts.json
 msgctxt "Description"
 msgid "Manage KWin scripts"
 msgstr "Кіраванне скрыптамі KWin"
 
-#: src/kcmkwin/kwintabbox/kcm_kwintabbox.json
+#: src/kcms/tabbox/kcm_kwintabbox.json
 msgctxt "Description"
 msgid "Navigation Through Windows"
 msgstr "Навігацыя па вокнах"
 
-#: src/kcmkwin/kwinvirtualkeyboard/kcm_virtualkeyboard.json
+#: src/kcms/virtualkeyboard/kcm_virtualkeyboard.json
 msgctxt "Description"
 msgid "Select which virtual keyboard to use"
 msgstr "Віртуальная клавіятура для выкарыстання"
+
+#: src/kcms/xwayland/kcm_kwinxwayland.json
+msgctxt "Description"
+msgid "Select which keys will be globally available to legacy X11 apps"
+msgstr ""
 
 #: src/plugins/kdecorations/aurorae/themes/plastik/package/metadata.json
 msgctxt "Description"

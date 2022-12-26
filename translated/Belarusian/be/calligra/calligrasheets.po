@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-28 00:49+0000\n"
-"PO-Revision-Date: 2022-11-30 21:01\n"
+"POT-Creation-Date: 2022-12-18 00:53+0000\n"
+"PO-Revision-Date: 2022-12-25 17:03\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -97,7 +97,7 @@ msgstr ""
 msgid "Sheet%1"
 msgstr "Аркуш%1"
 
-#: core/Sheet.cpp:644
+#: core/Sheet.cpp:655
 #, kde-format
 msgid "Validation for cell %1 failed"
 msgstr ""
@@ -675,7 +675,7 @@ msgstr "Нумар"
 #. i18n: ectx: property (text), widget (QRadioButton, formatButton)
 #. i18n: ectx: ToolBar (formatToolBar)
 #: functions/conversion.xml:251 part/calligrasheets.rc:235
-#: ui/CellToolBase.cpp:164 ui/dialogs/DataFormatWidget.ui:35
+#: ui/CellToolBase.cpp:159 ui/dialogs/DataFormatWidget.ui:35
 #: ui/dialogs/LayoutPage_Float.cpp:52 ui/dialogs/SpecialPasteWidget.ui:58
 msgid "Format"
 msgstr "Фармат"
@@ -717,7 +717,7 @@ msgid "ARABIC(\"XCIX\") returns 99"
 msgstr ""
 
 #: functions/database.xml:5 part/chart/ChartDatabaseSelectorFactory.cpp:26
-#: ui/CellToolBase.cpp:299 ui/dialogs/DatabaseDialog.cpp:117
+#: ui/CellToolBase.cpp:274 ui/dialogs/DatabaseDialog.cpp:117
 msgid "Database"
 msgstr "База даных"
 
@@ -8800,7 +8800,7 @@ msgstr "Актываваць"
 
 #. i18n: tag optionWidget attribute name
 #. i18n: ectx: ToolBar (fontPropertyToolBar)
-#: part/calligrasheets.rc:231 ui/CellToolBase.cpp:189
+#: part/calligrasheets.rc:231 ui/CellToolBase.cpp:184
 #: ui/CellToolOptionWidgets.xml:3 ui/dialogs/LayoutDialog.cpp:130
 msgid "Font"
 msgstr "Шрыфт"
@@ -9195,36 +9195,31 @@ msgstr "Няма"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, Functions)
 #: part/dialogs/PreferenceDialog.cpp:306 part/View.cpp:406
-#: ui/dialogs/ConsolidateDialog.cpp:76 ui/dialogs/pivotsubtotals.ui:38
-#: ui/dialogs/SubtotalDialog.cpp:267
+#: ui/dialogs/pivotsubtotals.ui:38 ui/dialogs/SubtotalDialog.cpp:267
 msgid "Sum"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QListWidget, Functions)
 #: part/dialogs/PreferenceDialog.cpp:307 part/View.cpp:413
-#: ui/dialogs/ConsolidateDialog.cpp:80 ui/dialogs/pivotsubtotals.ui:58
-#: ui/dialogs/SubtotalDialog.cpp:263
+#: ui/dialogs/pivotsubtotals.ui:58 ui/dialogs/SubtotalDialog.cpp:263
 msgid "Min"
 msgstr "Мін"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, Functions)
 #: part/dialogs/PreferenceDialog.cpp:308 part/View.cpp:420
-#: ui/dialogs/ConsolidateDialog.cpp:79 ui/dialogs/pivotsubtotals.ui:53
-#: ui/dialogs/SubtotalDialog.cpp:262
+#: ui/dialogs/pivotsubtotals.ui:53 ui/dialogs/SubtotalDialog.cpp:262
 msgid "Max"
 msgstr "Максімум"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, Functions)
 #: part/dialogs/PreferenceDialog.cpp:309 part/View.cpp:427
-#: ui/dialogs/ConsolidateDialog.cpp:77 ui/dialogs/pivotsubtotals.ui:48
-#: ui/dialogs/SubtotalDialog.cpp:259
+#: ui/dialogs/pivotsubtotals.ui:48 ui/dialogs/SubtotalDialog.cpp:259
 msgid "Average"
 msgstr "Сярэдні"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, Functions)
 #: part/dialogs/PreferenceDialog.cpp:310 part/View.cpp:434
-#: ui/dialogs/ConsolidateDialog.cpp:78 ui/dialogs/pivotsubtotals.ui:43
-#: ui/dialogs/SubtotalDialog.cpp:260
+#: ui/dialogs/pivotsubtotals.ui:43 ui/dialogs/SubtotalDialog.cpp:260
 msgid "Count"
 msgstr "Лічыльнік"
 
@@ -9866,7 +9861,7 @@ msgid "You are about to remove the active sheet.\n"
 "Do you want to continue?"
 msgstr ""
 
-#: part/View.cpp:1872 ui/CellToolBase.cpp:1325
+#: part/View.cpp:1872 ui/CellToolBase.cpp:1241
 msgid "Enter name:"
 msgstr "Увядзіце назву:"
 
@@ -9915,482 +9910,388 @@ msgstr ""
 msgid "%1x%2"
 msgstr ""
 
-#: part/ViewAdaptor.cpp:128 ui/CellToolBase.cpp:1399
+#: part/ViewAdaptor.cpp:128 ui/CellToolBase.cpp:1315
 msgctxt "(qtundo-format)"
 msgid "Change Text Color"
 msgstr ""
 
-#: part/ViewAdaptor.cpp:140 part/ViewAdaptor.cpp:152 ui/CellToolBase.cpp:1448
+#: part/ViewAdaptor.cpp:140 part/ViewAdaptor.cpp:152 ui/CellToolBase.cpp:1338
 msgctxt "(qtundo-format)"
 msgid "Change Background Color"
 msgstr ""
 
 #: part/ViewAdaptor.cpp:164 part/ViewAdaptor.cpp:179 part/ViewAdaptor.cpp:191
 #: part/ViewAdaptor.cpp:206 part/ViewAdaptor.cpp:218 part/ViewAdaptor.cpp:235
-#: ui/CellToolBase_p.cpp:710
+#: ui/CellToolBase_p.cpp:709
 msgctxt "(qtundo-format)"
 msgid "Change Border"
 msgstr ""
 
-#: ui/CellToolBase.cpp:163
+#: ui/CellToolBase.cpp:158
 msgid "Cell Format..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:168
+#: ui/CellToolBase.cpp:163
 msgid "Set the cell formatting"
 msgstr ""
 
-#: ui/CellToolBase.cpp:170
+#: ui/CellToolBase.cpp:165
 msgid "Style Manager..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:173
+#: ui/CellToolBase.cpp:168
 msgid "Edit and organize cell styles"
 msgstr ""
 
-#: ui/CellToolBase.cpp:175 ui/dialogs/LayoutPage_General.cpp:42
+#: ui/CellToolBase.cpp:170 ui/dialogs/LayoutPage_General.cpp:42
 #: ui/dialogs/StyleManagerDialog.cpp:44
 msgid "Style"
 msgstr "Стыль"
 
-#: ui/CellToolBase.cpp:177
+#: ui/CellToolBase.cpp:172
 msgid "Apply a predefined style to the selected cells"
 msgstr ""
 
-#: ui/CellToolBase.cpp:180
+#: ui/CellToolBase.cpp:175
 msgid "Create Style From Cell..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:181
+#: ui/CellToolBase.cpp:176
 msgid "Style From Cell"
 msgstr ""
 
-#: ui/CellToolBase.cpp:184
+#: ui/CellToolBase.cpp:179
 msgid "Create a new style based on the currently selected cell"
 msgstr ""
 
-#: ui/CellToolBase.cpp:188
+#: ui/CellToolBase.cpp:183
 msgid "Select Font..."
 msgstr "Абраць шрыфт..."
 
-#: ui/CellToolBase.cpp:193
+#: ui/CellToolBase.cpp:188
 msgid "Select Font Size"
 msgstr ""
 
-#: ui/CellToolBase.cpp:194
+#: ui/CellToolBase.cpp:189
 msgid "Font Size"
 msgstr "Памер шрыфту"
 
-#: ui/CellToolBase.cpp:200
+#: ui/CellToolBase.cpp:195
 msgid "Text Color"
 msgstr ""
 
-#: ui/CellToolBase.cpp:201
+#: ui/CellToolBase.cpp:196
 msgid "Set the text color"
 msgstr ""
 
-#: ui/CellToolBase.cpp:209
+#: ui/CellToolBase.cpp:204
 msgid "Select a new border color"
 msgstr ""
 
-#: ui/CellToolBase.cpp:210
+#: ui/CellToolBase.cpp:205
 msgid "Border Color"
 msgstr ""
 
-#: ui/CellToolBase.cpp:217
-msgid "Change Angle..."
-msgstr ""
-
-#: ui/CellToolBase.cpp:218
-msgid "Angle"
-msgstr "Вугал"
-
-#: ui/CellToolBase.cpp:221
-msgid "Change the angle that cell contents are printed"
-msgstr ""
-
-#: ui/CellToolBase.cpp:225
-msgid "Increase Precision"
-msgstr ""
-
-#: ui/CellToolBase.cpp:228
-msgid "Increase the decimal precision shown onscreen"
-msgstr ""
-
-#: ui/CellToolBase.cpp:230
-msgid "Decrease Precision"
-msgstr ""
-
-#: ui/CellToolBase.cpp:233
-msgid "Decrease the decimal precision shown onscreen"
-msgstr ""
-
-#: ui/CellToolBase.cpp:239
+#: ui/CellToolBase.cpp:214
 msgid "Set the background color"
 msgstr ""
 
-#: ui/CellToolBase.cpp:240
+#: ui/CellToolBase.cpp:215
 msgid "Background Color"
 msgstr "Колер фону"
 
-#: ui/CellToolBase.cpp:246 ui/CellToolBase.cpp:252
+#: ui/CellToolBase.cpp:221 ui/CellToolBase.cpp:227
 msgid "Cells..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:247 ui/CellToolBase_p.cpp:1133
+#: ui/CellToolBase.cpp:222 ui/CellToolBase_p.cpp:1132
 msgid "Insert Cells..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:248
+#: ui/CellToolBase.cpp:223
 msgid "Insert a blank cell into the spreadsheet"
 msgstr ""
 
-#: ui/CellToolBase.cpp:253
+#: ui/CellToolBase.cpp:228
 msgid "Remove Cells..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:254
+#: ui/CellToolBase.cpp:229
 msgid "Removes the cells from the spreadsheet"
 msgstr ""
 
-#: ui/CellToolBase.cpp:260 ui/CellToolBase.cpp:261
+#: ui/CellToolBase.cpp:235 ui/CellToolBase.cpp:236
 msgid "Clear All"
 msgstr "Ачысціць усё"
 
-#: ui/CellToolBase.cpp:262
+#: ui/CellToolBase.cpp:237
 msgid "Clear all contents and formatting of the current cell"
 msgstr ""
 
-#: ui/CellToolBase.cpp:266
+#: ui/CellToolBase.cpp:241
 #, kde-format
 msgid "Contents"
 msgstr "Змест"
 
-#: ui/CellToolBase.cpp:267
+#: ui/CellToolBase.cpp:242
 #| msgid "Contents"
 msgid "Clear Contents"
 msgstr ""
 
-#: ui/CellToolBase.cpp:268
+#: ui/CellToolBase.cpp:243
 msgid "Remove the contents of the current cell"
 msgstr ""
 
-#: ui/CellToolBase.cpp:272
+#: ui/CellToolBase.cpp:247
 msgid "Conditional Styles..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:273
+#: ui/CellToolBase.cpp:248
 msgid "Set cell style based on certain conditions"
 msgstr ""
 
-#: ui/CellToolBase.cpp:277 ui/dialogs/ConditionalDialog.cpp:242
+#: ui/CellToolBase.cpp:252 ui/dialogs/ConditionalDialog.cpp:242
 msgid "Conditional Styles"
 msgstr ""
 
-#: ui/CellToolBase.cpp:278
+#: ui/CellToolBase.cpp:253
 msgid "Remove Conditional Styles"
 msgstr ""
 
-#: ui/CellToolBase.cpp:279
+#: ui/CellToolBase.cpp:254
 msgid "Remove the conditional cell styles"
 msgstr ""
 
-#: ui/CellToolBase.cpp:285
+#: ui/CellToolBase.cpp:260
 msgid "&Auto-Filter"
 msgstr ""
 
-#: ui/CellToolBase.cpp:288
+#: ui/CellToolBase.cpp:263
 #, kde-format
 msgid "Add an automatic filter to a cell range"
 msgstr ""
 
-#: ui/CellToolBase.cpp:292
+#: ui/CellToolBase.cpp:267
 msgid "&Function..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:295
+#: ui/CellToolBase.cpp:270
 msgid "Insert math expression"
 msgstr ""
 
-#: ui/CellToolBase.cpp:298
+#: ui/CellToolBase.cpp:273
 msgid "From &Database..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:302
+#: ui/CellToolBase.cpp:277
 msgid "Insert data from a SQL database"
 msgstr ""
 
-#: ui/CellToolBase.cpp:305
+#: ui/CellToolBase.cpp:280
 msgid "Custom Lists..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:308
+#: ui/CellToolBase.cpp:283
 msgid "Create custom lists for sorting or autofill"
 msgstr ""
 
-#: ui/CellToolBase.cpp:310
-msgid "&Consolidate..."
-msgstr ""
-
-#: ui/CellToolBase.cpp:313
-msgid "Create a region of summary data from a group of similar regions"
-msgstr ""
-
-#: ui/CellToolBase.cpp:315
+#: ui/CellToolBase.cpp:285
 msgid "&Goal Seek..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:318
+#: ui/CellToolBase.cpp:288
 msgid "Repeating calculation to find a specific value"
 msgstr ""
 
-#: ui/CellToolBase.cpp:320
+#: ui/CellToolBase.cpp:290
 msgid "&Subtotals..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:323
+#: ui/CellToolBase.cpp:293
 msgid "Create different kind of subtotals to a list or database"
 msgstr ""
 
-#: ui/CellToolBase.cpp:325
+#: ui/CellToolBase.cpp:295
 msgid "&Pivot Tables..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:328
+#: ui/CellToolBase.cpp:298
 msgid "Create Pivot Tables"
 msgstr ""
 
-#: ui/CellToolBase.cpp:330
-msgid "Area Name..."
-msgstr ""
-
-#: ui/CellToolBase.cpp:333
-msgid "Set a name for a region of the spreadsheet"
-msgstr ""
-
-#: ui/CellToolBase.cpp:335
-msgid "Named Areas..."
-msgstr ""
-
-#: ui/CellToolBase.cpp:337 ui/dialogs/NamedAreaDialog.cpp:49
-msgid "Named Areas"
-msgstr ""
-
-#: ui/CellToolBase.cpp:339
-msgid "Edit or select named areas"
-msgstr ""
-
-#: ui/CellToolBase.cpp:343
+#: ui/CellToolBase.cpp:300
 msgid "Formula Selection"
 msgstr ""
 
-#: ui/CellToolBase.cpp:345
+#: ui/CellToolBase.cpp:302
 msgid "Insert a function"
 msgstr ""
 
-#: ui/CellToolBase.cpp:346 ui/CellToolBase.cpp:1613
+#: ui/CellToolBase.cpp:303 ui/CellToolBase.cpp:1482
 msgid "Others..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:354
+#: ui/CellToolBase.cpp:311
 msgid "Modify Cell"
 msgstr ""
 
-#: ui/CellToolBase.cpp:358
+#: ui/CellToolBase.cpp:315
 msgid "Edit the highlighted cell"
 msgstr ""
 
-#: ui/CellToolBase.cpp:361
+#: ui/CellToolBase.cpp:318
 msgid "Move the cell object to the clipboard"
 msgstr ""
 
-#: ui/CellToolBase.cpp:365
+#: ui/CellToolBase.cpp:322
 msgid "Copy the cell object to the clipboard"
 msgstr ""
 
-#: ui/CellToolBase.cpp:369
+#: ui/CellToolBase.cpp:326
 msgid "Paste the contents of the clipboard at the cursor"
 msgstr ""
 
-#: ui/CellToolBase.cpp:372
+#: ui/CellToolBase.cpp:329
 msgid "Special Paste..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:375
+#: ui/CellToolBase.cpp:332
 msgid "Paste the contents of the clipboard with special options"
 msgstr ""
 
-#: ui/CellToolBase.cpp:377
+#: ui/CellToolBase.cpp:334
 msgid "Paste with Insertion"
 msgstr ""
 
-#: ui/CellToolBase.cpp:380
+#: ui/CellToolBase.cpp:337
 msgid "Inserts a cell from the clipboard into the spreadsheet"
 msgstr ""
 
-#: ui/CellToolBase.cpp:383
+#: ui/CellToolBase.cpp:340
 msgid "Selects all cells in the current sheet"
 msgstr ""
 
-#: ui/CellToolBase.cpp:400
-msgid "Goto Cell..."
-msgstr ""
-
-#: ui/CellToolBase.cpp:401
-msgid "Goto"
-msgstr "Перайсці"
-
-#: ui/CellToolBase.cpp:405
-msgid "Move to a particular cell"
-msgstr ""
-
-#: ui/CellToolBase.cpp:408
+#: ui/CellToolBase.cpp:358
 msgid "Check the spelling"
 msgstr ""
 
-#: ui/CellToolBase.cpp:411
+#: ui/CellToolBase.cpp:361
 msgid "Run Inspector..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:417
+#: ui/CellToolBase.cpp:367
 msgid "Show QTableView..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:423
+#: ui/CellToolBase.cpp:373
 msgid "Auto-Format..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:426
+#: ui/CellToolBase.cpp:376
 msgid "Set the worksheet formatting"
 msgstr ""
 
-#: ui/CellToolBase.cpp:428
+#: ui/CellToolBase.cpp:378
 msgid "Document Settings..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:431
+#: ui/CellToolBase.cpp:381
 msgid "Show document settings dialog"
 msgstr ""
 
-#: ui/CellToolBase.cpp:433
-msgid "Break Before Column"
-msgstr ""
-
-#: ui/CellToolBase.cpp:436
-msgid "Column Break"
-msgstr ""
-
-#: ui/CellToolBase.cpp:437
-#, kde-format
-msgid "Set a manual page break before the column"
-msgstr ""
-
-#: ui/CellToolBase.cpp:439
-msgid "Break Before Row"
-msgstr ""
-
-#: ui/CellToolBase.cpp:442
-msgid "Row Break"
-msgstr ""
-
-#: ui/CellToolBase.cpp:443
-#, kde-format
-msgid "Set a manual page break before the row"
-msgstr ""
-
-#: ui/CellToolBase.cpp:447
+#: ui/CellToolBase.cpp:385
 msgid "Permute reference fixation"
 msgstr ""
 
-#: ui/CellToolBase.cpp:451
+#: ui/CellToolBase.cpp:389
 msgid "Permute fixation"
 msgstr ""
 
-#: ui/CellToolBase.cpp:452
+#: ui/CellToolBase.cpp:390
 msgid "Permute the fixation of the reference at the text cursor"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1258
+#: ui/CellToolBase.cpp:1174
 #, kde-format
 msgid "Unable to locate action %1"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1324
+#: ui/CellToolBase.cpp:1240
 msgid "Create Style From Cell"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1333
+#: ui/CellToolBase.cpp:1249
 msgid "The style name cannot be empty."
 msgstr ""
 
-#: ui/CellToolBase.cpp:1338 ui/dialogs/LayoutPage_General.cpp:90
+#: ui/CellToolBase.cpp:1254 ui/dialogs/LayoutPage_General.cpp:90
 msgid "A style with this name already exists."
 msgstr ""
 
-#: ui/CellToolBase.cpp:1359 ui/CellToolBase.cpp:1379
+#: ui/CellToolBase.cpp:1275 ui/CellToolBase.cpp:1295
 msgctxt "(qtundo-format)"
 msgid "Change Font"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1486
+#: ui/CellToolBase.cpp:1376
 msgctxt "(qtundo-format)"
 msgid "Clear Text"
 msgstr "Ачысціць тэкст"
 
-#: ui/CellToolBase.cpp:1540
+#: ui/CellToolBase.cpp:1430
 msgid "No database drivers available. To use this feature you need to install the necessary Qt database drivers."
 msgstr ""
 
-#: ui/CellToolBase.cpp:1576 ui/CellToolBase.cpp:1588
+#: ui/CellToolBase.cpp:1459 ui/CellToolBase.cpp:1471
 msgid "You must select multiple cells."
 msgstr ""
 
-#: ui/CellToolBase.cpp:2077
+#: ui/CellToolBase.cpp:1946
 msgctxt "(qtundo-format)"
 msgid "Replace"
 msgstr "Замяніць"
 
-#: ui/CellToolBase_p.cpp:679
+#: ui/CellToolBase_p.cpp:678
 #| msgid "Number Format"
 msgctxt "(qtundo-format)"
 msgid "Number Format"
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:685
+#: ui/CellToolBase_p.cpp:684
 #| msgid "Currency Format"
 msgctxt "(qtundo-format)"
 msgid "Currency Format"
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:690
+#: ui/CellToolBase_p.cpp:689
 #| msgid "Percentage Format"
 msgctxt "(qtundo-format)"
 msgid "Percentage Format"
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:695
+#: ui/CellToolBase_p.cpp:694
 #| msgid "Time Format"
 msgctxt "(qtundo-format)"
 msgid "Time Format"
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:700
+#: ui/CellToolBase_p.cpp:699
 #| msgid "Date Format"
 msgctxt "(qtundo-format)"
 msgid "Date Format"
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:705
+#: ui/CellToolBase_p.cpp:704
 #| msgid "Scientific Format"
 msgctxt "(qtundo-format)"
 msgid "Scientific Format"
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:1137
+#: ui/CellToolBase_p.cpp:1136
 msgid "Delete Cells..."
 msgstr ""
 
-#: ui/CellToolBase_p.cpp:1141
+#: ui/CellToolBase_p.cpp:1140
 msgid "Selection List..."
 msgstr ""
 
@@ -10696,24 +10597,14 @@ msgstr ""
 msgid "Merging of columns or rows is not supported."
 msgstr ""
 
-#: ui/commands/NamedAreaCommand.cpp:20 ui/commands/NamedAreaCommand.cpp:36
+#: ui/commands/NamedAreaCommand.cpp:21 ui/commands/NamedAreaCommand.cpp:42
 msgctxt "(qtundo-format)"
 msgid "Add Named Area"
 msgstr ""
 
-#: ui/commands/NamedAreaCommand.cpp:38
+#: ui/commands/NamedAreaCommand.cpp:44
 msgctxt "(qtundo-format)"
 msgid "Remove Named Area"
-msgstr ""
-
-#: ui/commands/PrecisionCommand.cpp:45
-msgctxt "(qtundo-format)"
-msgid "Increase Precision"
-msgstr ""
-
-#: ui/commands/PrecisionCommand.cpp:47
-msgctxt "(qtundo-format)"
-msgid "Decrease Precision"
 msgstr ""
 
 #: ui/commands/RowColumnManipulators.cpp:35
@@ -10857,42 +10748,6 @@ msgctxt "(qtundo-format)"
 msgid "Change Style"
 msgstr ""
 
-#: ui/dialogs/AddNamedAreaDialog.cpp:34
-msgid "Add Named Area"
-msgstr ""
-
-#: ui/dialogs/AddNamedAreaDialog.cpp:43
-msgid "Enter the area name:"
-msgstr ""
-
-#: ui/dialogs/AddNamedAreaDialog.cpp:75
-#, kde-format
-msgid "The named area '%1' already exists.\n"
-"Do you want to replace it?"
-msgstr ""
-
-#: ui/dialogs/AddNamedAreaDialog.cpp:77
-msgid "Replace Named Area"
-msgstr ""
-
-#: ui/dialogs/AddNamedAreaDialog.cpp:83 ui/dialogs/NamedAreaDialog.cpp:300
-msgctxt "(qtundo-format)"
-msgid "Replace Named Area"
-msgstr ""
-
-#: ui/dialogs/AngleDialog.cpp:31
-msgid "Change Angle"
-msgstr ""
-
-#: ui/dialogs/AngleDialog.cpp:42
-msgid "Angle:"
-msgstr "Вугал:"
-
-#: ui/dialogs/AngleDialog.cpp:65
-msgctxt "(qtundo-format)"
-msgid "Change Angle"
-msgstr ""
-
 #: ui/dialogs/AutoFormatDialog.cpp:60
 msgid "Sheet Style"
 msgstr ""
@@ -10990,110 +10845,6 @@ msgstr ""
 #: ui/dialogs/ConditionalDialog.cpp:463
 msgid "If the first value is a string, the second value also has to be a string."
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_rowHeader)
-#: ui/dialogs/ConsolidateDetailsWidget.ui:35
-msgid "Description in rows"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_columnHeader)
-#: ui/dialogs/ConsolidateDetailsWidget.ui:42
-msgid "Description in columns"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_copyData)
-#: ui/dialogs/ConsolidateDetailsWidget.ui:49
-msgid "Copy data"
-msgstr ""
-
-#: ui/dialogs/ConsolidateDialog.cpp:58
-msgid "Consolidate"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QListWidget, Functions)
-#: ui/dialogs/ConsolidateDialog.cpp:81 ui/dialogs/pivotsubtotals.ui:63
-#: ui/dialogs/SubtotalDialog.cpp:264
-msgid "Product"
-msgstr "Прылада"
-
-#: ui/dialogs/ConsolidateDialog.cpp:82
-msgid "Standard Deviation"
-msgstr ""
-
-#: ui/dialogs/ConsolidateDialog.cpp:83
-msgid "Variance"
-msgstr ""
-
-#: ui/dialogs/ConsolidateDialog.cpp:105
-msgid "You have to define at least one source range."
-msgstr ""
-
-#: ui/dialogs/ConsolidateDialog.cpp:124
-#| msgid "This is not a valid date."
-msgid "%1 is not a valid cell range."
-msgstr ""
-
-#: ui/dialogs/ConsolidateDialog.cpp:147
-msgid "The range\n"
-"%1\n"
-"is too small"
-msgstr ""
-
-#: ui/dialogs/ConsolidateDialog.cpp:153 ui/dialogs/ConsolidateDialog.cpp:164
-msgid "The range\n"
-"%1\n"
-"is too large"
-msgstr ""
-
-#: ui/dialogs/ConsolidateDialog.cpp:175
-msgid "The ranges\n"
-"%1\n"
-"and\n"
-"%2\n"
-"have different size"
-msgstr ""
-
-#: ui/dialogs/ConsolidateDialog.cpp:182
-msgctxt "(qtundo-format)"
-msgid "Consolidate"
-msgstr ""
-
-#: ui/dialogs/ConsolidateDialog.cpp:194 ui/dialogs/ConsolidateDialog.cpp:248
-#: ui/dialogs/ConsolidateDialog.cpp:303 ui/dialogs/ConsolidateDialog.cpp:374
-msgid "The source range intersects the destination range."
-msgstr ""
-
-#: ui/dialogs/ConsolidateDialog.cpp:469
-msgid "The range\n"
-"%1\n"
-" is malformed"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: ui/dialogs/ConsolidateWidget.ui:35
-msgid "Function:"
-msgstr "Функцыя:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: ui/dialogs/ConsolidateWidget.ui:48
-msgid "Reference:"
-msgstr "Спасылка:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: ui/dialogs/ConsolidateWidget.ui:61
-msgid "Entered references:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, m_addButton)
-#: ui/dialogs/ConsolidateWidget.ui:73 ui/dialogs/ListDialog.cpp:70
-msgid "Add"
-msgstr "Дадаць"
-
-#. i18n: ectx: property (text), widget (QPushButton, m_removeButton)
-#: ui/dialogs/ConsolidateWidget.ui:80 ui/dialogs/InsertDialog.cpp:51
-#: ui/dialogs/ListDialog.cpp:81
-msgid "Remove"
-msgstr "Выдаліць"
 
 #: ui/dialogs/DatabaseDialog.cpp:54
 msgid "Insert Data From Database"
@@ -11666,14 +11417,6 @@ msgstr ""
 msgid "Current value:"
 msgstr ""
 
-#: ui/dialogs/GotoDialog.cpp:32
-msgid "Goto Cell"
-msgstr ""
-
-#: ui/dialogs/GotoDialog.cpp:42
-msgid "Enter cell:"
-msgstr ""
-
 #: ui/dialogs/InsertDialog.cpp:42 ui/dialogs/PasteInsertDialog.cpp:37
 msgid "Insert"
 msgstr "Insert"
@@ -11697,6 +11440,10 @@ msgstr ""
 #: ui/dialogs/InsertDialog.cpp:49
 msgid "Insert Cells"
 msgstr ""
+
+#: ui/dialogs/InsertDialog.cpp:51 ui/dialogs/ListDialog.cpp:81
+msgid "Remove"
+msgstr "Выдаліць"
 
 #: ui/dialogs/InsertDialog.cpp:52
 msgid "Move towards left"
@@ -11934,6 +11681,10 @@ msgstr ""
 msgid "Entry:"
 msgstr ""
 
+#: ui/dialogs/ListDialog.cpp:70
+msgid "Add"
+msgstr "Дадаць"
+
 #: ui/dialogs/ListDialog.cpp:74 ui/ExternalEditor.cpp:61
 msgid "Cancel"
 msgstr "Скасаваць"
@@ -11961,54 +11712,6 @@ msgstr ""
 #: ui/dialogs/ListDialog.cpp:268
 msgid "Entry area is not empty.\n"
 "Do you want to continue?"
-msgstr ""
-
-#: ui/dialogs/NamedAreaDialog.cpp:48
-msgid "&Select"
-msgstr "&Абраць"
-
-#: ui/dialogs/NamedAreaDialog.cpp:66 ui/dialogs/NamedAreaDialog.cpp:113
-msgid "Area: %1"
-msgstr ""
-
-#: ui/dialogs/NamedAreaDialog.cpp:74 ui/dialogs/StyleManagerDialog.cpp:58
-msgid "&New..."
-msgstr "&Новы..."
-
-#: ui/dialogs/NamedAreaDialog.cpp:76
-msgid "&Edit..."
-msgstr "&Рэдагаванне..."
-
-#: ui/dialogs/NamedAreaDialog.cpp:78
-msgid "&Remove"
-msgstr "&Выдаліць"
-
-#: ui/dialogs/NamedAreaDialog.cpp:145
-msgid "New Named Area"
-msgstr ""
-
-#: ui/dialogs/NamedAreaDialog.cpp:172
-msgid "Edit Named Area"
-msgstr ""
-
-#: ui/dialogs/NamedAreaDialog.cpp:185
-msgid "Do you really want to remove this named area?"
-msgstr ""
-
-#: ui/dialogs/NamedAreaDialog.cpp:186
-msgid "Remove Named Area"
-msgstr ""
-
-#: ui/dialogs/NamedAreaDialog.cpp:229
-msgid "Cells:"
-msgstr ""
-
-#: ui/dialogs/NamedAreaDialog.cpp:236
-msgid "Sheet:"
-msgstr ""
-
-#: ui/dialogs/NamedAreaDialog.cpp:243
-msgid "Area name:"
 msgstr ""
 
 #: ui/dialogs/PasteInsertDialog.cpp:26
@@ -12168,6 +11871,11 @@ msgstr ""
 #: ui/dialogs/pivotsubtotals.ui:28
 msgid "Manual Selection"
 msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QListWidget, Functions)
+#: ui/dialogs/pivotsubtotals.ui:63 ui/dialogs/SubtotalDialog.cpp:264
+msgid "Product"
+msgstr "Прылада"
 
 #. i18n: ectx: property (text), widget (QCheckBox, SortBy)
 #: ui/dialogs/pivotsubtotals.ui:73
@@ -12406,6 +12114,10 @@ msgstr ""
 msgid "Hierarchical"
 msgstr ""
 
+#: ui/dialogs/StyleManagerDialog.cpp:58
+msgid "&New..."
+msgstr "&Новы..."
+
 #: ui/dialogs/StyleManagerDialog.cpp:60
 msgid "&Modify..."
 msgstr ""
@@ -12542,6 +12254,280 @@ msgstr ""
 #: ui/strategy/HyperlinkStrategy.cpp:89
 msgid "Open Link?"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Goto Cell..."
+#~ msgstr "Перайсці на вочка..."
+
+#, fuzzy
+#~ msgid "Goto"
+#~ msgstr "Перайсці да вочка"
+
+#, fuzzy
+#~ msgid "Move to a particular cell"
+#~ msgstr "Перайсці на паказанае вочка"
+
+#, fuzzy
+#~ msgid "Break Before Column"
+#~ msgstr "Выдаліць слупкі"
+
+#, fuzzy
+#~ msgid "Column Break"
+#~ msgstr "Нумар слупка"
+
+#, fuzzy
+#~ msgid "Break Before Row"
+#~ msgstr "Выдаліць слупкі"
+
+#, fuzzy
+#~ msgid "Row Break"
+#~ msgstr "Загаловак"
+
+#, fuzzy
+#~ msgid "Goto Cell"
+#~ msgstr "Перайсці да вочка"
+
+#, fuzzy
+#~ msgid "Enter cell:"
+#~ msgstr "Увядзіце імя:"
+
+#, fuzzy
+#~ msgid "&Consolidate..."
+#~ msgstr "Кансалідаваць..."
+
+#, fuzzy
+#~ msgid "Create a region of summary data from a group of similar regions"
+#~ msgstr "Стварэнне дыяпазону сумаваных дадзеных групы падобных дыяпазонаў"
+
+#, fuzzy
+#~ msgid "Description in rows"
+#~ msgstr "Апісанне ў радку"
+
+#, fuzzy
+#~ msgid "Description in columns"
+#~ msgstr "Апісанне ў слупку"
+
+#, fuzzy
+#~ msgid "Copy data"
+#~ msgstr "Капіяваць дадзеныя"
+
+#, fuzzy
+#~ msgid "Consolidate"
+#~ msgstr "Кансалідацыя дадзеных"
+
+#, fuzzy
+#~ msgid "Standard Deviation"
+#~ msgstr "Стандартнае адхіленне"
+
+#, fuzzy
+#~ msgid "Variance"
+#~ msgstr "Дысперсія"
+
+#, fuzzy
+#~ msgid "You have to define at least one source range."
+#~ msgstr "Неабходна вылучыць хоць бы адзін слупок."
+
+#, fuzzy
+#~| msgid "This is not a valid date."
+#~ msgid "%1 is not a valid cell range."
+#~ msgstr "Недапушчальная дата."
+
+#, fuzzy
+#~ msgid ""
+#~ "The range\n"
+#~ "%1\n"
+#~ "is too small"
+#~ msgstr ""
+#~ "Дыяпазон\n"
+#~ "%1\n"
+#~ "занадта малы"
+
+#, fuzzy
+#~ msgid ""
+#~ "The range\n"
+#~ "%1\n"
+#~ "is too large"
+#~ msgstr ""
+#~ "Дыяпазон\n"
+#~ "%1\n"
+#~ "занадта вялікі"
+
+#, fuzzy
+#~ msgid ""
+#~ "The ranges\n"
+#~ "%1\n"
+#~ "and\n"
+#~ "%2\n"
+#~ "have different size"
+#~ msgstr ""
+#~ "Дыяпазоны\n"
+#~ "%1\n"
+#~ "і\n"
+#~ "%2\n"
+#~ "маюць розны памер"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Consolidate"
+#~ msgstr "Кансалідацыя дадзеных"
+
+#, fuzzy
+#~ msgid "The source range intersects the destination range."
+#~ msgstr "Зыходныя лісты перасякаюцца з выніковым лістом"
+
+#, fuzzy
+#~ msgid ""
+#~ "The range\n"
+#~ "%1\n"
+#~ " is malformed"
+#~ msgstr ""
+#~ "Дыяпазон\n"
+#~ "%1\n"
+#~ " не вызначаны"
+
+#, fuzzy
+#~ msgid "Function:"
+#~ msgstr "Функцыя:"
+
+#, fuzzy
+#~ msgid "Reference:"
+#~ msgstr "Спасылка:"
+
+#, fuzzy
+#~ msgid "Entered references:"
+#~ msgstr "Уведзеныя спасылкі:"
+
+#, fuzzy
+#~ msgid "Change Angle..."
+#~ msgstr "Змяніць кут..."
+
+#, fuzzy
+#~ msgid "Angle"
+#~ msgstr "Кут:"
+
+#, fuzzy
+#~ msgid "Change the angle that cell contents are printed"
+#~ msgstr "Змяніць кут паказу тэксту вочка."
+
+#, fuzzy
+#~ msgid "Increase Precision"
+#~ msgstr "Павялічыць дакладнасць"
+
+#, fuzzy
+#~ msgid "Increase the decimal precision shown onscreen"
+#~ msgstr "Павялічыць колькасць паказваемых знакаў пасля коскі."
+
+#, fuzzy
+#~ msgid "Decrease Precision"
+#~ msgstr "Паменшыць дакладнасць"
+
+#, fuzzy
+#~ msgid "Decrease the decimal precision shown onscreen"
+#~ msgstr "Паменшыць колькасць паказваемых знакаў пасля коскі."
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Increase Precision"
+#~ msgstr "Павялічыць дакладнасць"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Decrease Precision"
+#~ msgstr "Паменшыць дакладнасць"
+
+#, fuzzy
+#~ msgid "Change Angle"
+#~ msgstr "Змяніць кут"
+
+#, fuzzy
+#~ msgid "Angle:"
+#~ msgstr "Кут:"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change Angle"
+#~ msgstr "Змяніць кут"
+
+#, fuzzy
+#~ msgid "Area Name..."
+#~ msgstr "Імя дыяпазону..."
+
+#, fuzzy
+#~ msgid "Set a name for a region of the spreadsheet"
+#~ msgstr "Прысвоіць імя дыяпазону ліста"
+
+#, fuzzy
+#~ msgid "Named Areas..."
+#~ msgstr "Паказаць дыяпазон..."
+
+#, fuzzy
+#~ msgid "Named Areas"
+#~ msgstr "Выдаліць дыяпазон"
+
+#, fuzzy
+#~ msgid "Edit or select named areas"
+#~ msgstr "Паказаць найменны дыяпазон"
+
+#, fuzzy
+#~ msgid "Add Named Area"
+#~ msgstr "Змяніць дыяпазон"
+
+#, fuzzy
+#~ msgid "Enter the area name:"
+#~ msgstr "Імя дыяпазону:"
+
+#, fuzzy
+#~ msgid "Replace Named Area"
+#~ msgstr "Паказаць найменны дыяпазон"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Replace Named Area"
+#~ msgstr "Паказаць найменны дыяпазон"
+
+#, fuzzy
+#~ msgid "&Select"
+#~ msgstr "Ліст"
+
+#, fuzzy
+#~ msgid "Area: %1"
+#~ msgstr "Дыяпазон: %1"
+
+#, fuzzy
+#~ msgid "&Edit..."
+#~ msgstr "&Змяніць..."
+
+#, fuzzy
+#~ msgid "&Remove"
+#~ msgstr "&Выдаліць"
+
+#, fuzzy
+#~ msgid "New Named Area"
+#~ msgstr "Выдаліць дыяпазон"
+
+#, fuzzy
+#~ msgid "Edit Named Area"
+#~ msgstr "Змяніць дыяпазон"
+
+#, fuzzy
+#~ msgid "Do you really want to remove this named area?"
+#~ msgstr "Вы сапраўды жадаеце выдаліць імя гэтага дыяпазону?"
+
+#, fuzzy
+#~ msgid "Remove Named Area"
+#~ msgstr "Выдаліць дыяпазон"
+
+#, fuzzy
+#~ msgid "Cells:"
+#~ msgstr "Вочкі:"
+
+#, fuzzy
+#~ msgid "Sheet:"
+#~ msgstr "Ліст:"
+
+#, fuzzy
+#~ msgid "Area name:"
+#~ msgstr "Імя дыяпазону:"
 
 #, fuzzy
 #~ msgid "Align Left"
