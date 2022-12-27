@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-14 00:43+0000\n"
-"PO-Revision-Date: 2022-12-25 17:06\n"
+"PO-Revision-Date: 2022-12-26 20:04\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -43,7 +43,7 @@ msgstr "Не ўдалося змяніць уласніка файла <filename
 #: core/connectionbackend.cpp:108
 #| msgid "Unable to create io-slave: %1"
 msgid "Unable to create KIO worker: %1"
-msgstr ""
+msgstr "Не ўдалося стварыць KIO worker: %1"
 
 #: core/copyjob.cpp:165 ioslaves/file/file_unix.cpp:1277
 #, kde-format
@@ -720,7 +720,7 @@ msgstr "Не ўдалося звязацца з лакальным сервер�
 #: core/job_error.cpp:245
 #| msgid "Unable to create io-slave. %1"
 msgid "Unable to create KIO worker. %1"
-msgstr ""
+msgstr "Не ўдалося стварыць KIO worker: %1"
 
 #: core/job_error.cpp:249
 #, kde-kuit-format
@@ -739,7 +739,7 @@ msgstr "Няма патрэбы ў павышэнні правоў доступ�
 #: core/job_error.cpp:257
 #| msgid "The file is too large to be trashed."
 msgid "File is too large to be trashed."
-msgstr ""
+msgstr "Файл занадта вялікі для перамяшчэння ў сметніцу."
 
 #: core/job_error.cpp:260
 #, kde-format
@@ -1000,7 +1000,7 @@ msgstr "Версія пратакола %1, якая падтрымліваец�
 #| "include <a href=\"https://kde-apps.org/\">https://kde-apps.org/</a> and "
 #| "<a href=\"http://freshmeat.net/\">http://freshmeat.net/</a>."
 msgid "You may perform a search on the Internet for a software plugin (called a \"KIO worker\") which supports this protocol. Places to search include <a href=\"https://store.kde.org/\">https://store.kde.org</a>."
-msgstr ""
+msgstr "Вы можаце пашукаць у інтэрнэце убудову ( KIO worker), якая падтрымлівае гэты пратакол. Месцы для пошуку ўключаюць <a href=\"https://store.kde.org/\">https://store.kde.org</a>."
 
 #: core/job_error.cpp:510
 #, kde-format
@@ -1842,14 +1842,14 @@ msgstr "Не ўдалося ініцыялізаваць пратакол %1"
 #: core/job_error.cpp:1248
 #| msgid "Unable to Create io-slave"
 msgid "Unable to Create KIO Worker"
-msgstr ""
+msgstr "Не ўдалося стварыць KIO worker"
 
 #: core/job_error.cpp:1250
 #| msgid ""
 #| "The io-slave which provides access to the <strong>%1</strong> protocol "
 #| "could not be started. This is usually due to technical reasons."
 msgid "The KIO worker which provides access to the <strong>%1</strong> protocol could not be started. This is usually due to technical reasons."
-msgstr ""
+msgstr "Не ўдаецца запусціць праграму KIO worker, якая забяспечвае доступ да пратакола <strong>%1</strong>. Звычайна гэта адбываецца з тэхнічных прычын."
 
 #: core/job_error.cpp:1255
 #, kde-format
@@ -1914,12 +1914,12 @@ msgstr "Невядомы пратакол \"%1\"."
 #: core/slave.cpp:432
 #| msgid "Can not find io-slave for protocol '%1'."
 msgid "Can not find a KIO worker for protocol '%1'."
-msgstr ""
+msgstr "Не ўдалося знайсці KIO worker для пратакола \"%1\"."
 
 #: core/slave.cpp:440
 #| msgid "Can not create socket for launching io-slave for protocol '%1'."
 msgid "Can not create a socket for launching a KIO worker for protocol '%1'."
-msgstr ""
+msgstr "Не ўдалося стварыць сокет для запуску KIO worker для пратакола \"%1\"."
 
 #: core/slave.cpp:480
 #, kde-format
@@ -2631,7 +2631,7 @@ msgstr "На панэль размяшчэнняў можна дадаваць �
 #| msgid "&Release"
 msgctxt "@action:inmenu"
 msgid "Releasing…"
-msgstr ""
+msgstr "Вызваленне…"
 
 #: filewidgets/kfileplacesmodel.cpp:1417
 #, kde-format
@@ -2644,7 +2644,7 @@ msgstr "&Выпуск"
 #| msgid "&Safely Remove"
 msgctxt "@action:inmenu"
 msgid "Safely Removing…"
-msgstr ""
+msgstr "Бяспечнае выманне…"
 
 #: filewidgets/kfileplacesmodel.cpp:1423
 #, kde-format
@@ -2657,7 +2657,7 @@ msgstr "&Бяспечнае выманне"
 #| msgid "Unmounting"
 msgctxt "@action:inmenu"
 msgid "Unmounting…"
-msgstr ""
+msgstr "Адмантаванне…"
 
 #: filewidgets/kfileplacesmodel.cpp:1430
 #, kde-format
@@ -3692,7 +3692,7 @@ msgstr "&Кіраванне"
 #| "trust, you might want to set the policy to accept, then you can access "
 #| "the web sites without being prompted every time a cookie is received.</p>"
 msgid "<h1>Cookies</h1><p>Cookies contain information that KDE applications using the HTTP protocol (like Konqueror) store on your computer, initiated by a remote Internet server. This means that a web server can store information about you and your browsing activities on your machine for later use. You might consider this an invasion of privacy.</p><p> However, cookies are useful in certain situations. For example, they are often used by Internet shops, so you can 'put things into a shopping basket'. Some sites require you have a browser that supports cookies.</p><p> Because most people want a compromise between privacy and the benefits cookies offer, the HTTP KIO worker offers you the ability to customize the way it handles cookies. So you might want to set the default policy to ask you whenever a server wants to set a cookie, allowing you to decide. For your favorite shopping web sites that you trust, you might want to set the policy to accept, then you can access the web sites without being prompted every time a cookie is received.</p>"
-msgstr ""
+msgstr "<h1>Файлы cookie</h1><p>Файлы cookie змяшчаюць звесткі з праграм KDE ( якія выкарыстоўваюць пратакол HTTP (напрыклад, Konqueror)), якія захоўваюцца на вашым камп'ютары. Яны ствараюцца па запыце вэб-сервера. Гэта азначае, што вэб-сервер можа захоўваць на вашым камп'ютары звесткі пра вас і вашу актыўнасць на сайце. Вы можаце палічыць гэта парушэннем прыватнасці.</p><p> Аднак файлы cookie карысныя ў пэўных сітуацыях. Напрыклад, іх часта выкарыстоўваюць інтэрнэт-крамы, каб можна было \"пакласці рэчы ў кошык\". Некаторыя сайты патрабуюць, каб у вас быў браўзер, які падтрымлівае cookie.</p><p> Паколькі большасць людзей жадаюць кампрамісу паміж канфідэнцыйнасцю і перавагамі cookie, HTTP KIO worker мае магчымасць наладжвання апрацоўвання cookie. Вы можаце абраць варыянт, пры якім у вас штораз будуць пытацца што рабіць, калі сервер захоча стварыць файлы cookie. Для вашых улюбёных гандлёвых вэб-сайтаў, якім вы давяраеце, вы можаце абраць варыянт з аўтаматычным ухваленнем файлаў cookie, тады вы зможаце наведваць гэтыя сайты без неабходнасці штораз пацвярджаць стварэнне файлаў cookie.</p>"
 
 #: kcms/cookies/kcookiesmanagement.cpp:126
 #: kcms/cookies/kcookiesmanagement.cpp:143
@@ -4329,7 +4329,11 @@ msgid "<qt>\n"
 "Automatic detection is performed using the <b>Web Proxy Auto-Discovery Protocol (WPAD)</b>.<p>\n"
 "<b>NOTE:</b> This option might not work properly or not work at all in some UNIX/Linux distributions.\n"
 "</qt>"
-msgstr ""
+msgstr "<qt>\n"
+"Аўтаматычна выяўляць і наладжваць проксі.<p>\n"
+"Аўтаматычнае выяўленне выконваецца з дапамогай <b>пратакола аўтаматычнага выяўлення вэб-проксі (WPAD)</b>.<p>\n"
+" <b>УВАГА:</b> У некаторых дыстрыбутывах UNIX/Linux гэты параметр можа не працаваць належным чынам або не працаваць увогуле.\n"
+" </qt>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoDiscoverProxyRadioButton)
 #: kcms/proxy/kproxydlg.ui:49
@@ -4634,7 +4638,7 @@ msgstr "Прадвызначаны пароль:"
 #| "reasons, you may not want to do that, as entries with passwords are "
 #| "clearly indicated as such.</p>"
 msgid "<h1>Windows Shares</h1><p>Applications using the SMB KIO worker (like Konqueror) are able to access shared Microsoft Windows file systems, if properly configured.</p><p>You can specify here the credentials used to access the shared resources. Passwords will be stored locally, and scrambled so as to render them unreadable to the human eye. For security reasons, you may not want to do that, as entries with passwords are clearly indicated as such.</p>"
-msgstr ""
+msgstr "<h1>Агульныя рэсурсы Windows</h1><p>Праграмы, якія выкарыстоўваюць SMB KIO worker (напрыклад, Konqueror), могуць атрымаць доступ да абагуленых файлавых сістэм Microsoft Windows, калі сетка правільна наладжана.</p><p>Тут вы можаце пазначыць уліковыя даныя для доступу да агульных рэсурсаў. Паролі будуць захоўвацца лакальна і шыфравацца так, каб зрабіць іх нечытальнымі для чалавечага вока. З меркаванняў бяспекі вы можаце гэтага не рабіць, бо запісы з паролямі выразна пазначаныя як запісы з паролямі.</p>"
 
 #: kcms/webshortcuts/main.cpp:28
 #, kde-format
@@ -6525,7 +6529,8 @@ msgstr "&Запомніць асацыяванне праграмы для ўс�
 #| "\"%1\" (%2)"
 msgid "&Remember application association for all files of type\n"
 "\"%1\""
-msgstr ""
+msgstr "&Запомніць асацыяванне праграмы для ўсіх файлаў тыпу\n"
+" \"%1\""
 
 #: widgets/kopenwithdialog.cpp:753
 #, kde-format
@@ -6706,7 +6711,7 @@ msgstr "Кам&ентар:"
 #: widgets/kpropertiesdesktopbase.ui:82
 #, kde-format
 msgid "Environment Variables:"
-msgstr ""
+msgstr "Зменныя асяроддзя:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, programEdit)
@@ -7879,7 +7884,7 @@ msgstr "Адлеглы хост не адправіў сертыфікаты SSL
 #| "emphasis>"
 msgctxt "@info"
 msgid "Do you really want to permanently delete this item?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
-msgstr ""
+msgstr "Сапраўды хочаце назаўсёды выдаліць элемент?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>Гэтае дзеянне нельга скасаваць.</emphasis>"
 
 #: widgets/widgetsaskuseractionhandler.cpp:229
 #, kde-kuit-format
@@ -7899,7 +7904,7 @@ msgstr[3] "Сапраўды хочаце назаўсёды выдаліць %1 
 #| "emphasis>"
 msgctxt "@info"
 msgid "Moving this item to Trash failed as it is too large. Permanently delete it instead?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
-msgstr ""
+msgstr "Не ўлалося перамясціць гэты элемент у сметніцу, бо ён занадта вялікі. Выдаліць яго назаўсёды?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>Гэтае дзеянне нельга адрабіць.</emphasis>"
 
 #: widgets/widgetsaskuseractionhandler.cpp:249
 #| msgctxt "@info"
@@ -7914,10 +7919,10 @@ msgstr ""
 msgctxt "@info"
 msgid "Moving this %1 item to Trash failed as it is too large. Permanently delete it instead?<nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
 msgid_plural "Moving these %1 items to Trash failed as they are too large. Permanently delete them instead?<nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Не ўдалося перамясціць %1 элемент у сметніцу, бо ён занадта вялікі. Выдаліць яго назаўсёды?<nl/><emphasis strong='true'>Гэтае дзеянне нельга адрабіць.</emphasis>"
+msgstr[1] "Не ўдалося перамясціць %1 элементы ў сметніцу, бо яны занадта вялікія. Выдаліць яго назаўсёды?<nl/><nl/><emphasis strong='true'>Гэтае дзеянне нельга адрабіць.</emphasis>"
+msgstr[2] "Не ўдалося перамясціць %1 элементаў у сметніцу, бо яны занадта вялікія. Выдаліць яго назаўсёды?<nl/><nl/><emphasis strong='true'>Гэтае дзеянне нельга адрабіць.</emphasis>"
+msgstr[3] "Не ўдалося перамясціць %1 элементы ў сметніцу, бо яны занадта вялікія. Выдаліць яго назаўсёды?<nl/><nl/><emphasis strong='true'>Гэтае дзеянне нельга адрабіць.</emphasis>"
 
 #: widgets/widgetsaskuseractionhandler.cpp:276
 #, kde-kuit-format
