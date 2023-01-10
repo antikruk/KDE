@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-03 00:59+0000\n"
-"PO-Revision-Date: 2023-01-10 16:16\n"
+"PO-Revision-Date: 2023-01-10 19:16\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -113,12 +113,12 @@ msgstr "Запусціць Konsole"
 #: data/kde32b1.khotkeys:1096
 msgctxt "Comment"
 msgid "Read the comment on the \"Type 'Hello'\" action first.\\n\\nQt Designer uses Ctrl+F4 for closing windows.  In KDE, however, Ctrl+F4 is the shortcut for going to virtual desktop 4, so this shortcut does not work in Qt Designer.  Further, Qt Designer does not use KDE's standard Ctrl+W for closing the window.\\n\\nThis problem can be solved by remapping Ctrl+W to Ctrl+F4 when the active window is Qt Designer. When Qt Designer is active, every time Ctrl+W is pressed, Ctrl+F4 will be sent to Qt Designer instead. In other applications, the effect of Ctrl+W is unchanged.\\n\\nWe now need to specify three things: A new shortcut trigger on 'Ctrl+W', a new keyboard input action sending Ctrl+F4, and a new condition that the active window is Qt Designer.\\nQt Designer seems to always have title 'Qt Designer by Trolltech', so the condition will check for the active window having that title."
-msgstr ""
+msgstr "Спачатку прачытайце каментар да дзеяння \"Увод 'Hello'\".\\n\\nQt Designer выкарыстоўвае Ctrl+F4 для закрыцця акон.  Аднак у KDE спалучэнне клавіш Ctrl+F4 - спалучэнне клавіш для пераходу на віртуальны працоўны стол 4, таму гэтае спалучэнне клавіш не працуе ў Qt Designer.  Акрамя таго, Qt Designer не выкарыстоўвае стандартнае спалучэнне клавіш KDE Ctrl+W для закрыцця акна.\\n\\nГэтую праблему можна вырашыць, калі замяніць Ctrl+W на Ctrl+F4, калі актыўнае акно - Qt Designer.  Калі Qt Designer актыўны, кожны раз пры націсканні Ctrl+W, Ctrl+F4 будзе адпраўляцца ў Qt Designer.  У іншых праграмах эфект Ctrl+W не змяняецца.\\n\\nЦяпер трэба вызначыць тры рэчы: новае спалучэнне клавіш замест Ctrl+W, новы ўвод з клавіятуры, які адпраўляе Ctrl+F4 і новую ўмову, што  актыўным акном ёсць Qt Designer.\\nЗдаецца, Qt Designer заўсёды мае загаловак \"Qt Designer ад Trolltech\", таму ўмова будзе правяраць наяўнасць актыўнага акна з такім загалоўкам."
 
 #: data/kde32b1.khotkeys:1150
 msgctxt "Name"
 msgid "Remap Ctrl+W to Ctrl+F4 in Qt Designer"
-msgstr ""
+msgstr "Замяніць Ctrl+W на Ctrl+F4 у Qt Designer"
 
 #: data/kde32b1.khotkeys:1241
 msgctxt "Comment"
@@ -135,17 +135,17 @@ msgstr "Qt Designer ад Trolltech"
 #: data/kde32b1.khotkeys:1379
 msgctxt "Comment"
 msgid "By pressing Alt+Ctrl+W a D-Bus call will be performed that will show the minicli. You can use any kind of D-Bus call, just like using the command line 'qdbus' tool."
-msgstr ""
+msgstr "Пры націсканні Alt+Ctrl+W будзе выкліканы D-Bus, які пакажа minicli. Вы можаце выкарыстоўваць любы від выкліку D-Bus накшталт інструмента загаднага радка qdbus."
 
 #: data/kde32b1.khotkeys:1445
 msgctxt "Name"
 msgid "Perform D-Bus call 'qdbus org.kde.krunner /App display'"
-msgstr ""
+msgstr "Выканаць выклік D-Bus \"qdbus org.kde.krunner /App display\""
 
 #: data/kde32b1.khotkeys:1599
 msgctxt "Comment"
 msgid "Read the comment on the \"Type 'Hello'\" action first.\\n\\nJust like the \"Type 'Hello'\" action, this one simulates keyboard input, specifically, after pressing Ctrl+Alt+B, it sends B to XMMS (B in XMMS jumps to the next song). The 'Send to specific window' checkbox is checked and a window with its class containing 'XMMS_Player' is specified; this will make the input always be sent to this window. This way, you can control XMMS even if, for instance, it is on a different virtual desktop.\\n\\n(Run 'xprop' and click on the XMMS window and search for WM_CLASS to see 'XMMS_Player')."
-msgstr ""
+msgstr "Спачатку прачытайце каментар да дзеяння \"Увод \"Hello\"\".\\n\\nГэтак жа, як і дзеянне \"Увод \"Hello\"\", імітуе ўвод з клавіятуры - пасля націскання Ctrl+Alt+B ён адпраўляе B у XMMS ( B у XMMS пераходзіць да наступнай песні). Параметр \"Адправіць у вызначанае акно\" адзначаны, і вызначана акно з класам, які змяшчае «XMMS_Player»; гэта зробіць так, што ўвод будзе заўсёды адпраўляцца ў гэтае акно. Такім чынам, вы можаце кіраваць XMMS, нават калі ён, напрыклад, знаходзіцца на іншым віртуальным працоўным стале.\\n\\n(Запусціце «xprop», пстрыкніце акно XMMS і знайдзіце WM_CLASS, каб убачыць «XMMS_Player»)."
 
 #: data/kde32b1.khotkeys:1659
 msgctxt "Name"
@@ -165,7 +165,7 @@ msgstr "Акно XMMS"
 #: data/kde32b1.khotkeys:2013
 msgctxt "Comment"
 msgid "Konqueror in KDE3.1 has tabs, and now you can also have gestures.\\n\\nJust press the middle mouse button and start drawing one of the gestures, and after you are finished, release the mouse button. If you only need to paste the selection, it still works, just click the middle mouse button. (You can change the mouse button to use in the global settings).\\n\\nRight now, there are the following gestures available:\\nmove right and back left - Forward (Alt+Right)\\nmove left and back right - Back (Alt+Left)\\nmove up and back down  - Up (Alt+Up)\\ncircle counterclockwise - Reload (F5)\\n\\nThe gesture shapes can be entered by performing them in the configuration dialog. You can also look at your numeric pad to help you: gestures are recognized like a 3x3 grid of fields, numbered 1 to 9.\\n\\nNote that you must perform exactly the gesture to trigger the action. Because of this, it is possible to enter more gestures for the action. You should try to avoid complicated gestures where you change the direction of mouse movement more than once.  For instance, 45654 or 74123 are simple to perform, but 1236987 may be already quite difficult.\\n\\nThe conditions for all gestures are defined in this group. All these gestures are active only if the active window is Konqueror (class contains 'konqueror')."
-msgstr ""
+msgstr "Konqueror у KDE3.1 мае ўкладкі, і цяпер вы таксама можаце выкарыстоўваць жэсты.\\n\\nПроста націсніце сярэднюю кнопку мышы і пачніце маляваць адзін з жэстаў, а пасля таго, як скончыце, адпусціце кнопку мышы. Калі вам трэба толькі ўставіць абранае, проста націсніце сярэднюю кнопку мышы. (Вы можаце змяніць кнопку мышы для выкарыстання ў глабальных наладах).\\n\\nЗараз даступныя наступныя жэсты:\\nперамяшчэнне ўправа і назад улева - Наперад (Alt+Управа)\\nперамяшчэнне ўлева і назад управа - Назад (  Alt+Left)\\nперамяшчэнне ўверх і назад уніз - Уверх (Alt+Up)\\nкола супраць стрэлкі гадзінніка - Перазагрузіць (F5)\\n\\nФігуры жэстаў можна ўводзіць у дыялогавым акне канфігурацыі. Вы можаце паглядзець на лічбавы блок клавіятуры, каб мець візуальнае ўяўленне: жэсты распазнаюцца як сетка палёў 3x3, пранумараваных ад 1 да 9.\\n\\nЗвярніце ўвагу, што вы павінны выканаць менавіта той самы жэст, каб запусціць дзеянне. Дзякуючы гэтаму можна ўвесці больш жэстаў для дзеяння. Вы павінны старацца пазбягаць складаных жэстаў, калі вы змяняеце кірунак руху мышы больш за адзін раз. Напрыклад, 45654 або 74123 простыя ў выкананні, але 1236987 можа быць ужо даволі складаным.\\n\\nУмовы для ўсіх жэстаў вызначаны ў гэтай групе. Усе гэтыя жэсты актыўныя толькі тады, калі актыўнае акно - Konqueror (клас змяшчае \"konqueror\")."
 
 #: data/kde32b1.khotkeys:2053
 msgctxt "Name"
