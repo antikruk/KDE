@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-06 00:42+0000\n"
-"PO-Revision-Date: 2023-01-12 07:16\n"
+"PO-Revision-Date: 2023-01-12 10:16\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -507,7 +507,7 @@ msgstr "Рэжым рэндэрынгу:"
 #: htmlpageinfo.ui:186
 #, kde-format
 msgid "HTTP Headers"
-msgstr "Загалоўкі HTTP"
+msgstr "Верхнія калонтытулы HTTP"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: htmlpageinfo.ui:214
@@ -847,17 +847,17 @@ msgstr "Гэты цэтлік паказвае панэль пошуку і вы
 #| "Print Frame<br /><br />Some pages have several frames. To print only a "
 #| "single frame, click on it and then use this function."
 msgid "<qt>Print Frame<br /><br />Some pages have several frames. To print only a single frame, click on it and then use this function.</qt>"
-msgstr ""
+msgstr "<qt>Друкаваць фрэйм<br /><br />Некаторыя старонкі маюць некалькі фрэймаў. Каб надрукаваць толькі адзін фрэйм, пстрыкніце па ім, а затым скарыстайцеся гэтай функцыяй.</qt>"
 
 #: khtml_part.cpp:465
 #, kde-format
 msgid "Toggle Caret Mode"
-msgstr ""
+msgstr "Пераключыць рэжым тэкставага курсора"
 
 #: khtml_part.cpp:768
 #, kde-format
 msgid "The fake user-agent '%1' is in use."
-msgstr ""
+msgstr "Выкарыстоўваецца фальшывы user-agent \"%1\"."
 
 #: khtml_part.cpp:1272
 #, kde-format
@@ -877,12 +877,12 @@ msgstr "&Адключыць паведамленні пра памылкі"
 #: khtml_part.cpp:1357
 #| msgid "<b>Error</b>: %1: %2"
 msgid "<qt><b>Error</b>: %1: %2</qt>"
-msgstr ""
+msgstr "<qt><b>Памылка</b>: %1: %2</qt>"
 
 #: khtml_part.cpp:1406
 #| msgid "<b>Error</b>: node %1: %2"
 msgid "<qt><b>Error</b>: node %1: %2</qt>"
-msgstr ""
+msgstr "<qt><b>Памылка</b>: вузел %1: %2</qt>"
 
 #: khtml_part.cpp:1528
 #, kde-format
@@ -951,10 +951,10 @@ msgstr "Старонка загружаная."
 #: khtml_part.cpp:2404
 msgid "%1 Image of %2 loaded."
 msgid_plural "%1 Images of %2 loaded."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Загружана %1 выява з %2."
+msgstr[1] "Загружана %1 выявы з %2."
+msgstr[2] "Загружана %1 выяў з %2."
+msgstr[3] "Загружана %1 выявы з %2."
 
 #: khtml_part.cpp:2582
 #, kde-format
@@ -1046,7 +1046,7 @@ msgstr "   <a href=\"%1\">[Уласцівасці]</a>"
 #| msgid "Turkish"
 msgctxt "HTML rendering mode (see https://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Quirks"
-msgstr ""
+msgstr "Сумяшчальнасці (Quirks)"
 
 #: khtml_part.cpp:4021
 #, kde-format
@@ -1063,7 +1063,7 @@ msgstr "Строгі"
 #: khtml_part.cpp:4094
 #, kde-format
 msgid "Save Background Image As"
-msgstr "Запісаць фонавую выяву як"
+msgstr "Захаваць фонавую выяву як"
 
 #: khtml_part.cpp:4187
 #, kde-format
@@ -1090,7 +1090,9 @@ msgstr "&Пошук..."
 msgid "Warning:  This is a secure form but it is attempting to send your data back unencrypted.\n"
 "A third party may be able to intercept and view this information.\n"
 "Are you sure you wish to continue?"
-msgstr ""
+msgstr "Увага: гэта бяспечная форма, але яна спрабуе адправіць назад вашыя даныя ў незашыфраваным выглядзе.\n"
+"Трэці бок можа мець магчымасць перахапіць і праглядзець гэтую інфармацыю.\n"
+"Сапраўды хочаце працягнуць?"
 
 #: khtml_part.cpp:4904 khtml_part.cpp:4914 khtml_part.cpp:4939
 #, kde-format
@@ -1106,7 +1108,8 @@ msgstr "&Адправіць незашыфраваным"
 #, kde-format
 msgid "Warning: Your data is about to be transmitted across the network unencrypted.\n"
 "Are you sure you wish to continue?"
-msgstr ""
+msgstr "Увага: вашыя даныя будуць перададзеныя па сетцы ў незашыфраваным выглядзе.\n"
+"Сапраўды хочаце працягнуць?"
 
 #: khtml_part.cpp:4937
 #, kde-format
@@ -1123,12 +1126,12 @@ msgstr "&Адправіць ліст"
 #: khtml_part.cpp:4961
 #, kde-format
 msgid "<qt>The form will be submitted to <br /><b>%1</b><br />on your local filesystem.<br />Do you want to submit the form?</qt>"
-msgstr ""
+msgstr "<qt>Форма будзе адпраўленая ў <br /><b>%1</b><br />у вашай лакальнай файлавай сістэме.<br />Хочаце адправіць форму?</qt>"
 
 #: khtml_part.cpp:5017
 #, kde-format
 msgid "This site attempted to attach a file from your computer in the form submission. The attachment was removed for your protection."
-msgstr ""
+msgstr "Гэты сайт паспрабаваў далучыць файл з вашага камп'ютара да формы. Далучэнне было выдалена для вашай бяспекі."
 
 #: khtml_part.cpp:6111
 #, kde-format
@@ -1163,12 +1166,12 @@ msgstr "&Закрыць кашалёк"
 #: khtml_part.cpp:7479
 #, kde-format
 msgid "&Allow storing passwords for this site"
-msgstr ""
+msgstr "&Дазволіць захоўванне пароляў для гэтага сайта"
 
 #: khtml_part.cpp:7484
 #, kde-format
 msgid "Remove password for form %1"
-msgstr ""
+msgstr "Выдаліць пароль для формы %1"
 
 #: khtml_part.cpp:7599
 #, kde-format
@@ -1190,15 +1193,17 @@ msgstr "Выплыўнае акно заблакавана"
 msgid "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
 "or to open the popup."
-msgstr ""
+msgstr "Гэтая старонка спрабавала адкрыць выплыўное акно, але яно было заблакавана.\n"
+"Вы можаце націснуць на гэты значок на панэлі стану, каб змяніць паводзіны\n"
+"або адкрыць выплыўное акно."
 
 #: khtml_part.cpp:7652
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "&Паказаць %1 заблакаванае выплыўное акно"
+msgstr[1] "&Паказаць %1 заблакаваныя выплыўныя вокны"
+msgstr[2] "&Паказаць %1 заблакаваных выплыўных акон"
+msgstr[3] "&Паказаць %1 заблакаваныя выплыўныя вокны"
 
 #: khtml_part.cpp:7654
 #, kde-format
@@ -1208,22 +1213,22 @@ msgstr "Паказваць пасіўныя выплыўныя &апавяшчэ
 #: khtml_part.cpp:7656
 #, kde-format
 msgid "&Configure JavaScript New Window Policies..."
-msgstr ""
+msgstr "&Наладжванне правіл новых акон JavaScript..."
 
 #: khtml_printsettings.cpp:30
 #, kde-format
 msgid "<qt><p><strong>'Print images'</strong></p><p>If this checkbox is enabled, images contained in the HTML page will be printed. Printing may take longer and use more ink or toner.</p><p>If this checkbox is disabled, only the text of the HTML page will be printed, without the included images. Printing will be faster and use less ink or toner.</p> </qt>"
-msgstr ""
+msgstr "<qt><p><strong>\"Друкаваць выявы\"</strong></p><p>Калі параметр адзначаны, выявы, якія змяшчаюцца на старонцы HTML, будуць надрукаваныя. Друкаванне можа заняць больш часу і спатрэбіцца больш чарніла або тонера.</p><p>Калі параметр не адзначаны, будзе надрукаваны толькі тэкст старонкі HTML без выяў. Друкаванне будзе больш хуткім і спатрэбіцца менш чарніла або тонера.</p> </qt>"
 
 #: khtml_printsettings.cpp:42
 #, kde-format
 msgid "<qt><p><strong>'Print header'</strong></p><p>If this checkbox is enabled, the printout of the HTML document will contain a header line at the top of each page. This header contains the current date, the location URL of the printed page and the page number.</p><p>If this checkbox is disabled, the printout of the HTML document will not contain such a header line.</p> </qt>"
-msgstr ""
+msgstr "<qt><p><strong>\"Друкаваць верхні калонтытул\"</strong></p><p>Калі параметр адзначаны, надрукаваны дакумент HTML будзе змяшчаць радок калонтытула ўверсе кожнай старонкі. Гэты радок будзе змяшчаць бягучую дату, URL надрукаванай старонкі і нумар старонкі.</p><p>Калі параметр не адзначаны, дакумент HTML будзе друкавацца без такога радка.</p> </qt>"
 
 #: khtml_printsettings.cpp:55
 #, kde-format
 msgid "<qt><p><strong>'Printerfriendly mode'</strong></p><p>If this checkbox is enabled, the printout of the HTML document will be black and white only, and all colored background will be converted into white. Printout will be faster and use less ink or toner.</p><p>If this checkbox is disabled, the printout of the HTML document will happen in the original color settings as you see in your application. This may result in areas of full-page color (or grayscale, if you use a black+white printer). Printout will possibly happen more slowly and will probably use more toner or ink.</p> </qt>"
-msgstr ""
+msgstr "<qt><p><strong>\"Рэжым друкавання\"</strong></p><p>Калі параметр адзначаны, дакумент HTML будзе друкавацца чорна-белым, а ўвесь каляровы фон будзе пераўтварацца у белы. Друкаванне будзе хутчэйшым, будзе выкарыстоўвацца менш чарніла або тонера.</p><p> Калі параметр не адзначаны, дакумент HTML будзе друкавацца згодна з наладамі вашай праграмы. Гэта можа прывесці да каляровых участкаў на ўсю старонку (або адценняў шэрага, калі вы выкарыстоўваеце чорна-белы прынтар). Друкаванне, магчыма, будзе адбывацца больш павольна, можа спатрэбіцца больш тонера або чарніла.</p> </qt>"
 
 #: khtml_printsettings.cpp:70
 #, kde-format
@@ -1243,7 +1248,7 @@ msgstr "Друкаваць выявы"
 #: khtml_printsettings.cpp:78
 #, kde-format
 msgid "Print header"
-msgstr "Друкаваць загаловак"
+msgstr "Друкаваць верхні калонтытул"
 
 #: khtml_settings.cpp:906
 #, kde-format
@@ -1313,7 +1318,7 @@ msgstr "Памылкі JavaScript"
 #| "an error in Konqueror, please file a bug report at http://bugs.kde.org/.  "
 #| "A test case which illustrates the problem will be appreciated."
 msgid "This dialog provides you with notification and details of scripting errors that occur on web pages.  In many cases it is due to an error in the web site as designed by its author.  In other cases it is the result of a programming error in Konqueror.  If you suspect the former, please contact the webmaster of the site in question.  Conversely if you suspect an error in Konqueror, please file a bug report at https://bugs.kde.org/.  A test case which illustrates the problem will be appreciated."
-msgstr ""
+msgstr "Гэтае дыялогавае акно забяспечвае апавяшчэнні і падрабязную інфармацыю пра памылкі скрыптоў на вэб-старонках. У большасці выпадкаў гэта памылкі ў кодзе на вэб-сайтах. У іншых выпадках - вынік памылкі праграмавання ў Konqueror. Калі вы падазраяце першае, звярніцеся да вэб-майстра адпаведнага сайта.  І наадварот, калі вы падазраяце памылку ў Konqueror, адпраўце справаздачу пра хібу на https://bugs.kde.org/."
 
 #: kmultipart/httpfiltergzip.cpp:89
 #, kde-format
