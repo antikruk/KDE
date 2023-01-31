@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-02-06 00:50+0000\n"
-"PO-Revision-Date: 2023-01-31 07:31\n"
+"PO-Revision-Date: 2023-01-31 10:31\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be_BY\n"
@@ -1020,7 +1020,7 @@ msgstr "На дыску не засталося месца"
 #: PkStrings.cpp:498
 #, kde-format
 msgid "A media change is required"
-msgstr "Патрабуецца змена медыя"
+msgstr "Патрабуецца змена носьбіта"
 
 #: PkStrings.cpp:500
 #, kde-format
@@ -1309,7 +1309,7 @@ msgstr "Паўстала праблема (магчыма, часовая) з п
 #, kde-format
 msgid "Failed to initialize packaging backend.\n"
 "This may occur if other packaging tools are being used simultaneously."
-msgstr "Не ўдалося ініцыялізаваць рухавік апрацоўвання пакункаў.\n"
+msgstr "Не ўдалося ініцыялізаваць сістэму кіравання пакункамі.\n"
 "Так можа адбывацца, калі адначасова выкарыстоўваюцца іншыя падобныя інструменты."
 
 #: PkStrings.cpp:630
@@ -1323,7 +1323,7 @@ msgstr "Не ўдалося закрыць асобнік рухавіка.\n"
 #, kde-format
 msgid "Cannot get the exclusive lock on the packaging backend.\n"
 "Please close any other legacy packaging tools that may be open."
-msgstr "Не ўдалося выканаць блакаванне ў рухавіку апрацоўвання пакункаў.\n"
+msgstr "Не ўдалося выканаць блакаванне ў сістэме кіравання пакункамі.\n"
 "Закрыйце ўсе іншыя падобныя інструменты, якія могуць быць адкрытыя."
 
 #: PkStrings.cpp:636
@@ -1352,67 +1352,73 @@ msgstr "Не ўдалося праверыць подпіс пакунка."
 #, kde-format
 msgid "The package signature was missing and this package is untrusted.\n"
 "This package was not signed with a GPG key when created."
-msgstr ""
+msgstr "Подпіс пакунка адсутнічае, ён ненадзейны.\n"
+"Пры стварэнні гэты пакунак не быў падпісаны ключом GPG."
 
 #: PkStrings.cpp:648
 #, kde-format
 msgid "Repository configuration was invalid and could not be read."
-msgstr ""
+msgstr "Канфігурацыя рэпазіторыя хібная, яе нельга прачытаць."
 
 #: PkStrings.cpp:650
 #, kde-format
 msgid "The package you are attempting to install is not valid.\n"
 "The package file could be corrupt, or not a proper package."
-msgstr ""
+msgstr "Пакунак, які вы спрабуеце ўсталяваць, непрыдатны.\n"
+"Файл пакунка можа быць пашкоджаны або не быць пакункам."
 
 #: PkStrings.cpp:653
 #, kde-format
 msgid "Installation of this package was prevented by your packaging system's configuration."
-msgstr ""
+msgstr "Ваша канфігурацыя сістэмы кіравання пакункамі прадухіліла ўсталяванне гэтага пакунка."
 
 #: PkStrings.cpp:655
 #, kde-format
 msgid "The package that was downloaded is corrupt and needs to be downloaded again."
-msgstr ""
+msgstr "Спампаваны пакунак пашкоджаны, яго трэба спампаваць зноў."
 
 #: PkStrings.cpp:657
 #, kde-format
 msgid "All of the packages selected for install are already installed on the system."
-msgstr ""
+msgstr "Усе абраныя для ўсталявання пакункі ўжо ўсталяваныя ў сістэме."
 
 #: PkStrings.cpp:659
 #, kde-format
 msgid "The specified file could not be found on the system.\n"
 "Check that the file still exists and has not been deleted."
-msgstr ""
+msgstr "Не ўдалося знайсці вызначаны файл у сістэме.\n"
+"Пераканайцеся, што файл усё яшчэ існуе і не быў выдалены."
 
 #: PkStrings.cpp:662
 #, kde-format
 msgid "Required data could not be found on any of the configured software origins.\n"
 "There were no more download mirrors that could be tried."
-msgstr ""
+msgstr "Не ўдалося знайсці неабходныя даныя ні ў адной з наладжаных крыніц праграмнага забеспячэння.\n"
+"Больш не было люстэркаў, з якіх можна было паспрабаваць спампаваць."
 
 #: PkStrings.cpp:665
 #, kde-format
 msgid "Required upgrade data could not be found in any of the configured software origins.\n"
 "The list of distribution upgrades will be unavailable."
-msgstr ""
+msgstr "Не ўдалося знайсці неабходныя даныя ні ў адной з наладжаных крыніц праграмнага забеспячэння.\n"
+"Спіс абнаўленняў дыстрыбутыва будзе недаступны."
 
 #: PkStrings.cpp:668
 #, kde-format
 msgid "The package that is trying to be installed is incompatible with this system."
-msgstr ""
+msgstr "Выконваецца спроба ўсталяваць пакунак, які несумяшчальны з гэтай сістэмай."
 
 #: PkStrings.cpp:670
 #, kde-format
 msgid "There is insufficient space on the device.\n"
 "Free some space on the system disk to perform this operation."
-msgstr ""
+msgstr "На прыладзе недастаткова месца.\n"
+"Каб выканаць гэтую аперацыю, вызваліце ​​месца на сістэмным дыску."
 
 #: PkStrings.cpp:673
 #, kde-format
 msgid "Additional media is required to complete the transaction."
-msgstr ""
+msgstr "Для завяршэння трансакцыі неабходны дадатковы носьбіт."
 
 #: PkStrings.cpp:675
 #, kde-format
@@ -1425,22 +1431,23 @@ msgstr "Вам не ўдалося выканаць правільную аўт�
 #, kde-format
 msgid "The specified update could not be found.\n"
 "It could have already been installed or no longer available on the remote server."
-msgstr ""
+msgstr "Вызначанае абнаўленне не знойдзена.\n"
+"Яно ўжо магло быць ўсталявана або ўжо недаступна на адлеглым серверы."
 
 #: PkStrings.cpp:681
 #, kde-format
 msgid "The package could not be installed from untrusted origin."
-msgstr ""
+msgstr "Пакунак не можа быць усталяваны з ненадзейнай крыніцы."
 
 #: PkStrings.cpp:683
 #, kde-format
 msgid "The package could not be updated from untrusted origin."
-msgstr ""
+msgstr "Пакунак не можа быць абноўлены з ненадзейнай крыніцы."
 
 #: PkStrings.cpp:685
 #, kde-format
 msgid "The file list is not available for this package."
-msgstr ""
+msgstr "Спіс файлаў недаступны для гэтага пакунка."
 
 #: PkStrings.cpp:687
 #, kde-format
@@ -1450,48 +1457,54 @@ msgstr "Не ўдалося атрымаць інфармацыю пра тое,
 #: PkStrings.cpp:689
 #, kde-format
 msgid "The specified software origin could not be disabled."
-msgstr ""
+msgstr "Вызначаная крыніца праграмнага забеспячэння не можа быць адключаная."
 
 #: PkStrings.cpp:691
 #, kde-format
 msgid "The download could not be done automatically and should be done manually.\n"
 "More information is available in the detailed report."
-msgstr ""
+msgstr "Спампоўванне не можа быць скончана аўтаматычна, яго трэба завяршыць уласнаручна.\n"
+"Больш падрабязную інфармацыю можна знайсці ў падрабязнай справаздачы."
 
 #: PkStrings.cpp:694
 #, kde-format
 msgid "One of the selected packages failed to configure correctly.\n"
 "More information is available in the detailed report."
-msgstr ""
+msgstr "Не ўдалося правільна наладзіць адзін з абраных пакункаў.\n"
+"Больш падрабязную інфармацыю можна знайсці ў падрабязнай справаздачы."
 
 #: PkStrings.cpp:697
 #, kde-format
 msgid "One of the selected packages failed to build correctly.\n"
 "More information is available in the detailed report."
-msgstr ""
+msgstr "Не ўдалося правільна сабраць адзін з абраных пакункаў.\n"
+"Больш падрабязную інфармацыю можна знайсці ў падрабязнай справаздачы."
 
 #: PkStrings.cpp:700
 #, kde-format
 msgid "One of the selected packages failed to install correctly.\n"
 "More information is available in the detailed report."
-msgstr ""
+msgstr "Не ўдалося правільна ўсталяваць адзін з абраных пакункаў.\n"
+"Больш падрабязную інфармацыю можна знайсці ў падрабязнай справаздачы."
 
 #: PkStrings.cpp:703
 #, kde-format
 msgid "One of the selected packages failed to be removed correctly.\n"
 "More information is available in the detailed report."
-msgstr ""
+msgstr "Не ўдалося правільна выдаліць адзін з абраных пакункаў.\n"
+"Больш падрабязную інфармацыю можна знайсці ў падрабязнай справаздачы."
 
 #: PkStrings.cpp:706
 #, kde-format
 msgid "A program is running that has to be closed before the update can proceed.\n"
 "More information is available in the detailed report."
-msgstr ""
+msgstr "Запушчана праграма, якую трэба закрыць, перш чым можна будзе працягнуць абнаўленне.\n"
+"Больш падрабязную інфармацыю можна знайсці ў падрабязнай справаздачы."
 
 #: PkStrings.cpp:709
 #, kde-format
 msgid "The package database was changed while the request was running."
-msgstr ""
+msgstr "Падчас выканання запыту база даных пакунка была змененая."
 
 #: PkStrings.cpp:711
 #, kde-format
@@ -2022,12 +2035,12 @@ msgstr "Сістэма абноўленая"
 #: PkStrings.cpp:990
 #, kde-format
 msgid "You have no updates"
-msgstr ""
+msgstr "Няма абнаўленняў"
 
 #: PkStrings.cpp:992
 #, kde-format
 msgid "Last check for updates was more than a month ago"
-msgstr ""
+msgstr "Апошні раз наяўнасць абнаўленняў правяралася больш за месяц таму"
 
 #: PkStrings.cpp:1000
 #, kde-format
