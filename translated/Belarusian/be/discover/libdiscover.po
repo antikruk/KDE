@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-08 01:00+0000\n"
-"PO-Revision-Date: 2023-02-03 11:16\n"
+"PO-Revision-Date: 2023-02-03 14:17\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be_BY\n"
@@ -1925,17 +1925,17 @@ msgstr "Для выканання абнаўлення не хапае месц�
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:495
 #, kde-format
 msgid "This update cannot be completed as it would remove the following software which is critical to the system's operation:<nl/><ul><li>%1</li></ul><nl/>If you believe this is an error, please report it as a bug to the packagers of your distribution."
-msgstr ""
+msgstr "Немагчыма завяршыць гэтае абнаўленне, бо будзе выдалена наступнае праграмнае забеспячэння, якое мае крытычна важнае значэнне для працы сістэмы:<nl/><ul><li>%1</li></ul><nl/>Калі вы лічыце, што гэта памылка, паведаміце пра гэта як пра хібу ў службу падтрымкі вашага дыстрыбутыва."
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:502
 #, kde-format
 msgid "Packages to remove"
-msgstr "Пакункі для выдалення"
+msgstr "Пакункі да выдалення"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:503
 #, kde-format
 msgid "The following packages will be removed by the update:<ul><li>%1</li></ul><br/>in order to install:<ul><li>%2</li></ul>"
-msgstr ""
+msgstr "Пры абнаўленні будуць выдаленыя наступныя пакункі:<ul><li>%1</li></ul><br/>, каб усталяваць:<ul><li>%2</li></ul>"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:601
 #, kde-kuit-format
@@ -1948,26 +1948,28 @@ msgstr "%1:<nl/><nl/>%2"
 #, kde-format
 msgid "Media Change of type '%1' is requested.\n"
 "%2"
-msgstr ""
+msgstr "Трэба змяніць носьбіт тыпу \"%1\".\n"
+"%2"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:642
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:289
 #, kde-format
 msgid "Accept EULA"
-msgstr ""
+msgstr "Прыняць EULA"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:643
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:290
 #, kde-format
 msgid "The package %1 and its vendor %2 require that you accept their license:\n"
 " %3"
-msgstr ""
+msgstr "Для пакунка %1 яго стваральнік %2 патрабуе прыняць ліцэнзію:\n"
+" %3"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:760
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:329
 #, kde-format
 msgid "Missing signature for %1 in %2"
-msgstr ""
+msgstr "У %2 няма подпісу для %1"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:761
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:330
@@ -1978,17 +1980,22 @@ msgid "Do you trust the following key?\n\n"
 "Key: %3\n"
 "Fingerprint: %4\n"
 "Timestamp: %4\n"
-msgstr ""
+msgstr "Вы давяраеце наступнаму ключу?\n\n"
+" Url: %1\n"
+" Карыстальнік: %2\n"
+" Ключ: %3\n"
+" Адбітак пальца: %4\n"
+" Адзнака часу: %4\n"
 
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:190
 #, kde-format
 msgid "This action cannot be completed as it would remove the following software which is critical to the system's operation:<nl/><ul><li>%1</li></ul><nl/>If you believe this is an error, please report it as a bug to the packagers of your distribution."
-msgstr ""
+msgstr "Немагчыма завяршыць гэтае дзеянне, бо будзе выдалена наступнае праграмнае забеспячэння, якое мае крытычна важнае значэнне для працы сістэмы:<nl/><ul><li>%1</li></ul><nl/>Калі вы лічыце, што гэта памылка, паведаміце пра гэта як пра хібу ў службу падтрымкі вашага дыстрыбутыва."
 
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:203
 #, kde-format
 msgid "Confirm package removal"
-msgstr ""
+msgstr "Пацвердзіць выдаленне пакунка"
 
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:204
 #, kde-format
@@ -1996,30 +2003,34 @@ msgid "This action will also remove the following package:\n"
 "%2"
 msgid_plural "This action will also remove the following packages:\n"
 "%2"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Пры выкананні гэтага дзеяння будзе таксама выдалены наступны пакунак:\n"
+" %2"
+msgstr[1] "Пры выкананні гэтага дзеяння будуць таксама выдаленыя наступныя пакункі:\n"
+" %2"
+msgstr[2] "Пры выкананні гэтага дзеяння будуць таксама выдаленыя наступныя пакункі:\n"
+" %2"
+msgstr[3] "Пры выкананні гэтага дзеяння будуць таксама выдаленыя наступныя пакункі:\n"
+" %2"
 
 #: libdiscover/backends/PackageKitBackend/qml/DependenciesButton.qml:12
 #, kde-format
 msgid "Show Dependencies…"
-msgstr ""
+msgstr "Паказаць залежнасці…"
 
 #: libdiscover/backends/PackageKitBackend/qml/DependenciesButton.qml:32
 #, kde-format
 msgid "Dependencies for package: %1"
-msgstr ""
+msgstr "Залежнасці для пакунка: %1"
 
 #: libdiscover/backends/PackageKitBackend/qml/PackageKitPermissions.qml:24
 #, kde-format
 msgid "Full Access"
-msgstr ""
+msgstr "Поўны доступ"
 
 #: libdiscover/backends/PackageKitBackend/qml/PackageKitPermissions.qml:25
 #, kde-format
 msgid "Can access everything on the system"
-msgstr ""
+msgstr "Магчымасць доступу да ўсіх файлаў у сістэме"
 
 #: libdiscover/backends/RpmOstreeBackend/rpm-ostree-backend-categories.xml:4
 #, kde-format
@@ -2250,12 +2261,12 @@ msgstr ""
 #, kde-format
 msgctxt "Do not translate or alter \\u009C"
 msgid "%1 → %2%1 → %2%2"
-msgstr ""
+msgstr "%1 → %2%1 → %2%2"
 
 #: libdiscover/resources/AbstractResourcesBackend.cpp:153
 #, kde-format
 msgid "Please verify Internet connectivity"
-msgstr ""
+msgstr "Праверце злучэнне з інтэрнэтам"
 
 #: libdiscover/resources/ResourcesModel.cpp:99
 #, kde-format
@@ -2266,7 +2277,7 @@ msgstr "Абнавіць"
 #, kde-format
 msgctxt "an approximation number, like 3000+"
 msgid "%1+"
-msgstr ""
+msgstr "%1+"
 
 #: libdiscover/resources/ResourcesUpdatesModel.cpp:109
 #, kde-format
@@ -2313,7 +2324,7 @@ msgstr "Выдаленне"
 #, kde-format
 msgctxt "@info:status"
 msgid "Changing Addons"
-msgstr ""
+msgstr "Змена дапаўненняў"
 
 #: libdiscover/Transaction/TransactionModel.cpp:90
 #, kde-format
@@ -2343,7 +2354,7 @@ msgstr "Праграмы"
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "System Software"
-msgstr ""
+msgstr "Сістэмнае праграмнае забеспячэнне"
 
 #: libdiscover/UpdateModel/UpdateModel.cpp:131
 #, kde-format
