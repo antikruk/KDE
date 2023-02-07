@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-07 00:43+0000\n"
-"PO-Revision-Date: 2022-12-25 17:04\n"
+"PO-Revision-Date: 2023-02-07 10:31\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -45,17 +45,17 @@ msgstr "Модуль %1 адключаны."
 #: kcmoduleloader.cpp:58
 #| msgid "Please contact your system administrator."
 msgid "The module has been disabled by the system administrator."
-msgstr ""
+msgstr "Модуль быў адключаны сістэмным адміністратарам."
 
 #: kcmoduleloader.cpp:93 kcmoduleloader.cpp:184
 #| msgid "Error opening file."
 msgid "Error loading QML file."
-msgstr ""
+msgstr "Не ўдалося загрузіць файл QML."
 
 #: kcmoduleloader.cpp:119
 #, kde-format
 msgid "<qt><p>Possible reasons:<ul><li>An error occurred during your last system upgrade, leaving an orphaned control module behind</li><li>You have old third party modules lying around.</li></ul></p><p>Check these points carefully and try to remove the module mentioned in the error message. If this fails, consider contacting your distributor or packager.</p></qt>"
-msgstr ""
+msgstr "<qt><p>Магчымыя прычыны:<ul><li>Падчас апошняга абнаўлення сістэмы адбылася памылка, праз якую застаўся непатрэбны модуль кіравання</li><li>У вас ёсць старыя модулі ад іншых стваральнікаў.</li></ul></p><p>Уважліва праверце гэтыя пункты і паспрабуйце выдаліць модуль, згаданы ў паведамленні пра памылку. Калі гэта не дапамагае, звярніцеся ў службу падтрымкі свайго дыстрыбутыва.</p></qt>"
 
 #: kcmoduleloader.cpp:153
 #, kde-format
@@ -67,17 +67,17 @@ msgstr "Модуль %1 не знойдзены."
 #| "<qt><p>The diagnostics is:<br />The desktop file %1 could not be found.</"
 #| "p></qt>"
 msgid "<qt><p>The diagnosis is:<br />The desktop file %1 could not be found.</p></qt>"
-msgstr ""
+msgstr "<qt><p>Выснова:<br />файл працоўнага стала %1 не знойдзены.</p></qt>"
 
 #: kcmoduleloader.cpp:161
 #, kde-format
 msgid "<qt><p>Either the hardware/software the module configures is not available or the module has been disabled by the administrator.</p></qt>"
-msgstr ""
+msgstr "<qt><p>Або абсталяванне/праграмнае забеспячэнне, якое наладжвае модуль, недаступна, або модуль быў адключаны адміністратарам.</p></qt>"
 
 #: kcmoduleloader.cpp:192
 #| msgid "Error opening file."
 msgid "Error loading config module"
-msgstr ""
+msgstr "Не ўдалося загрузіць модуль канфігурацыі"
 
 #: kcmoduleloader.cpp:236
 #, kde-format
@@ -89,7 +89,7 @@ msgstr "Модуль %1 не ёсць прыдатным модулем нала
 #| "<qt>The diagnostics is:<br />The desktop file %1 does not specify a "
 #| "library.</qt>"
 msgid "<qt>The diagnosis is:<br />The desktop file %1 does not specify a library.</qt>"
-msgstr ""
+msgstr "<qt>Выснова:<br /> файл працоўнага стала %1 не вызначае бібліятэку.</qt>"
 
 #: kcmoduleproxy.cpp:108
 #, kde-format
@@ -103,12 +103,13 @@ msgstr "Гэты раздзел канфігурацыі ўжо адкрыты �
 #| "Do you want to save your changes or discard them?"
 msgid "The settings of the current module have changed.\n"
 "Do you want to apply the changes or discard them?"
-msgstr ""
+msgstr "Налады бягучага модуля змяніліся.\n"
+"Хочаце ўжыць змены ці адкінуць іх?"
 
 #: kcmultidialog.cpp:52
 #| msgid "Settings"
 msgid "Apply Settings"
-msgstr ""
+msgstr "Ужыць налады"
 
 #: kcmultidialog.cpp:257 kpluginselector.cpp:809 kpluginwidget.cpp:330
 #, kde-format
@@ -118,24 +119,26 @@ msgstr "Наладжванне"
 #: kpluginselector.cpp:136
 #, kde-format
 msgid "Automatic changes have been performed due to plugin dependencies. Click here for further information"
-msgstr ""
+msgstr "Аўтаматычныя змены былі выкананыя праз залежнасці ўбудовы. Каб даведацца падрабязней, націсніце сюды"
 
 #: kpluginselector.cpp:204
 #, kde-format
 msgid "Automatic changes have been performed in order to satisfy plugin dependencies:\n"
-msgstr ""
+msgstr "Аўтаматычныя змены былі выкананыя, каб забяспечыць залежнасці ўбудовы:\n"
 
 #: kpluginselector.cpp:210
 #, kde-format
 msgid "\n"
 "    %1 plugin has been automatically checked because of the dependency of %2 plugin"
-msgstr ""
+msgstr "\n"
+"Убудова %1 была аўтаматычна адзначаная па прычыне залежнасці ўбудовы %2"
 
 #: kpluginselector.cpp:212
 #, kde-format
 msgid "\n"
 "    %1 plugin has been automatically unchecked because of its dependency on %2 plugin"
-msgstr ""
+msgstr "\n"
+"Адзнака з %1 была аўтаматычна прыбраная па прычыне залежнасці ўбудовы %2"
 
 #: kpluginselector.cpp:216
 #, kde-format
@@ -146,10 +149,10 @@ msgstr "Правяранне залежнасцяў"
 #, kde-format
 msgid "%1 plugin automatically added due to plugin dependencies"
 msgid_plural "%1 plugins automatically added due to plugin dependencies"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%1 убудова аўтаматычна дададзеная па прычыне залежнасцяў убудовы"
+msgstr[1] "%1 убудовы аўтаматычна дададзеныя па прычыне залежнасцяў убудовы"
+msgstr[2] "%1 убудоў аўтаматычна дададзена па прычыне залежнасцяў убудовы"
+msgstr[3] "%1 убудовы аўтаматычна дададзеныя па прычыне залежнасцяў убудовы"
 
 #: kpluginselector.cpp:238
 #, kde-format
@@ -160,10 +163,10 @@ msgstr ", "
 #, kde-format
 msgid "%1 plugin automatically removed due to plugin dependencies"
 msgid_plural "%1 plugins automatically removed due to plugin dependencies"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%1 убудова аўтаматычна выдаленая па прычыне залежнасцяў убудовы"
+msgstr[1] "%1 убудовы аўтаматычна выдаленыя па прычыне залежнасцяў убудовы"
+msgstr[2] "%1 убудоў аўтаматычна выдалена па прычыне залежнасцяў убудовы"
+msgstr[3] "%1 убудовы аўтаматычна выдаленыя па прычыне залежнасцяў убудовы"
 
 #: kpluginselector.cpp:264 kpluginwidget.cpp:59
 #| msgid "Search"
@@ -178,7 +181,7 @@ msgstr "Пра праграму"
 #: ksettings/dialog.cpp:222
 #| msgid "Embeddable HTML component"
 msgid "Enable component"
-msgstr ""
+msgstr "Уключыць кампанент"
 
 #: qml/components/KPluginDelegate.qml:48
 #| msgid "&About"
@@ -200,7 +203,7 @@ msgstr "Няма супадзенняў"
 #: qml/components/KPluginSelector.qml:81
 #| msgid "Qt plugins"
 msgid "No plugins found"
-msgstr ""
+msgstr "Не знойдзена ўбудоў"
 
 #: qml/components/private/AboutPlugin.qml:42
 #| msgctxt "concatenation of dates and time"
@@ -237,7 +240,7 @@ msgstr "Перакладчыкі"
 #: qml/components/private/AboutPlugin.qml:161
 #| msgid "&Send Email"
 msgid "Send an email to %1"
-msgstr ""
+msgstr "Адправіць электронны ліст да %1"
 
 #~ msgid "Distance between desktop icons"
 #~ msgstr "Адлегласць паміж значкамі працоўнага стала"
