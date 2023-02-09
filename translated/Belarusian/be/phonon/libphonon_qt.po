@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-07-01 01:43+0200\n"
-"PO-Revision-Date: 2023-01-06 13:31\n"
+"PO-Revision-Date: 2023-02-08 13:46\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -33,7 +33,7 @@ msgid "<html>Switching to the audio playback device <b>%1</b><br/>which just bec
 msgstr "<html>Пераключэнне на прыладу для прайгравання гуку <b>%1</b><br/>, якая толькі што стала даступнай і мае больш высокі прыярытэт.</html>"
 
 #: audiooutput.cpp:497 audiooutput.cpp:515
-#| msgid "Revert back to device '%1'"
+#, qt-format
 msgctxt "Phonon::AudioOutput|"
 msgid "Revert back to device '%1'"
 msgstr "Вярнуцца да прылады \"%1\""
@@ -75,43 +75,31 @@ msgid "Angle Menu"
 msgstr "Меню ракурсаў"
 
 #: phononnamespace.cpp:55
-#| msgctxt "Phonon::"
-#| msgid "Notifications"
 msgctxt "Phonon::|"
 msgid "Notifications"
 msgstr "Апавяшчэнні"
 
 #: phononnamespace.cpp:57
-#| msgctxt "Phonon::"
-#| msgid "Music"
 msgctxt "Phonon::|"
 msgid "Music"
 msgstr "Музыка"
 
 #: phononnamespace.cpp:59
-#| msgctxt "Phonon::"
-#| msgid "Video"
 msgctxt "Phonon::|"
 msgid "Video"
 msgstr "Відэа"
 
 #: phononnamespace.cpp:61 phononnamespace.cpp:77
-#| msgctxt "Phonon::"
-#| msgid "Communication"
 msgctxt "Phonon::|"
 msgid "Communication"
 msgstr "Камунікацыя"
 
 #: phononnamespace.cpp:63
-#| msgctxt "Phonon::"
-#| msgid "Games"
 msgctxt "Phonon::|"
 msgid "Games"
 msgstr "Гульні"
 
 #: phononnamespace.cpp:65
-#| msgctxt "Phonon::"
-#| msgid "Accessibility"
 msgctxt "Phonon::|"
 msgid "Accessibility"
 msgstr "Адмысловыя магчымасці"
@@ -133,21 +121,18 @@ msgstr "Гукавы сервер PulseAudio"
 
 #: volumeslider.cpp:40 volumeslider.cpp:62 volumeslider.cpp:208
 #: volumeslider.cpp:223
-#| msgid "Volume: %1%"
+#, qt-format
 msgctxt "Phonon::VolumeSlider|"
 msgid "Volume: %1%"
 msgstr "Гучнасць: %1%"
 
 #: volumeslider.cpp:43 volumeslider.cpp:65 volumeslider.cpp:123
-#| msgid ""
-#| "Use this slider to adjust the volume. The leftmost position is 0%, the "
-#| "rightmost is %1%"
+#, qt-format
 msgctxt "Phonon::VolumeSlider|"
 msgid "Use this slider to adjust the volume. The leftmost position is 0%, the rightmost is %1%"
 msgstr "Выкарыстоўвайце гэты паўзунок для падладжвання гучнасці. Крайняя левая пазіцыя - 0%, крайняя правая - %1%"
 
 #: volumeslider.cpp:203
-#| msgid "Muted"
 msgctxt "Phonon::VolumeSlider|"
 msgid "Muted"
 msgstr "Абязгучана"

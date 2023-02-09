@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-10 00:45+0000\n"
-"PO-Revision-Date: 2022-12-28 16:16\n"
+"PO-Revision-Date: 2023-02-08 13:42\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -22,13 +22,7 @@ msgstr ""
 "X-Crowdin-File-ID: 8007\n"
 
 #: kio_man.cpp:451
-#| msgid ""
-#| "No man page matching to %1 found.<br /><br />Check that you have not "
-#| "mistyped the name of the page that you want.<br />Be careful that you "
-#| "must take care about upper case and lower case characters!<br />If "
-#| "everything looks correct, then perhaps you need to set a better search "
-#| "path for man pages, be it by the environment variable MANPATH or a "
-#| "matching file in the directory /etc ."
+#, kde-kuit-format
 msgctxt "@info"
 msgid "No man page matching <resource>%1</resource> could be found.<nl/><nl/>Check that you have not mistyped the name of the page, and note that man page names are case sensitive.<nl/><nl/>If the name is correct, then you may need to extend the search path for man pages, either using the <envar>MANPATH</envar> environment variable or a configuration file in the <filename>/etc</filename> directory."
 msgstr "Не ўдалося знайсці ніводнай старонкі man, якая адпавядае <resource>%1</resource>.<nl/><nl/>Праверце, ці не памыліліся вы ў назве старонкі, і звярніце ўвагу, што падчас пошуку старонак даведкі трэба зважаць на рэгістр.<nl/><nl/>Калі назва правільная, магчыма, вам спатрэбіцца пашырыць шлях пошуку для старонак даведкі з дапамогай зменнай <envar>MANPATH</envar> або файла канфігурацыі ў <filename>/etc</filename>."
@@ -52,12 +46,12 @@ msgid "The man page <filename>%1</filename> could not be converted."
 msgstr "Не ўдалося пераўтварыць старонку man <filename>%1</filename>."
 
 #: kio_man.cpp:660
-#| msgid "<body><h1>KDE Man Viewer Error</h1>"
+#, kde-format
 msgid "Manual Page Viewer Error"
 msgstr "Не ўдалося праглядзець старонку дапаможніка"
 
 #: kio_man.cpp:674
-#| msgid "There is more than one matching man page."
+#, kde-format
 msgid "There is more than one matching man page:"
 msgstr "Існуе больш за адну старонку man:"
 
@@ -87,7 +81,7 @@ msgid "User Commands"
 msgstr "Загады карыстальніка"
 
 #: kio_man.cpp:761
-#| msgid "User Commands"
+#, kde-format
 msgid "User Commands (POSIX)"
 msgstr "Загады карыстальнікаў (POSIX)"
 
@@ -152,22 +146,22 @@ msgid "New"
 msgstr "Стварыць"
 
 #: kio_man.cpp:805
-#| msgid "UNIX Manual Index"
+#, kde-format
 msgid "Main Manual Page Index"
 msgstr "Індэкс старонак галоўнага дапаможніка"
 
 #: kio_man.cpp:830
-#| msgid "Section "
+#, kde-format
 msgid "Section %1"
 msgstr "Раздзел %1"
 
 #: kio_man.cpp:1115
-#| msgid "Index for Section %1: %2"
+#, kde-format
 msgid "Index for section %1: %2"
 msgstr "Індэкс раздзела %1: %2"
 
 #: kio_man.cpp:1115
-#| msgid "UNIX Manual Index"
+#, kde-format
 msgid "Manual Page Index"
 msgstr "Індэкс старонкі дапаможніка"
 
@@ -177,10 +171,7 @@ msgid "Generating Index"
 msgstr "Стварэнне індэкса"
 
 #: kio_man.cpp:1405
-#| msgid ""
-#| "Could not find the sgml2roff program on your system. Please install it, "
-#| "if necessary, and extend the search path by adjusting the environment "
-#| "variable PATH before starting KDE."
+#, kde-kuit-format
 msgctxt "@info"
 msgid "Could not find the <command>%1</command> program on your system. Please install it if necessary, and ensure that it can be found using the environment variable <envar>PATH</envar>."
 msgstr "Не ўдалося знайсці праграму <command>%1</command> у вашай сістэме. Усталюйце яе, калі неабходна, і пераканайцеся, што яе можна знайсці з дапамогай зменнай асяроддзя <envar>PATH</envar>."
