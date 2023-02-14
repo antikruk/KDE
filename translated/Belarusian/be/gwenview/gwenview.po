@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-07 00:56+0000\n"
-"PO-Revision-Date: 2023-02-14 07:16\n"
+"PO-Revision-Date: 2023-02-14 10:16\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -80,7 +80,7 @@ msgstr "Успрымальны"
 #: app/advancedconfigpage.ui:172
 #, kde-format
 msgid "Scale all colors equally to fit them within the active color profile's color gamut"
-msgstr "Раўнамернае маштабаванне ўсіх колераў, каб змясціць іх у колеравай гаме актыўнага колеравага профілю"
+msgstr "Раўнамерная змена гамы ўсіх колераў, каб змясціць іх у колеравай гаме актыўнага колеравага профілю"
 
 #. i18n: ectx: property (text), widget (QLabel, colorRenderingLabel)
 #: app/advancedconfigpage.ui:182
@@ -2258,13 +2258,13 @@ msgstr "Маштабаваць па памеры"
 #: lib/documentview/documentviewcontroller.cpp:98
 #, kde-format
 msgid "Show Bird's Eye View When Zoomed In"
-msgstr ""
+msgstr "Паказваць пры павелічэнні выгляд з вышыні птушынага палёту"
 
 #: lib/documentview/documentviewcontroller.cpp:105
 #, kde-format
 msgctxt "@action"
 msgid "Follow color scheme"
-msgstr ""
+msgstr "Пільнавацца колеравай схемы"
 
 #: lib/documentview/documentviewcontroller.cpp:111
 #, kde-format
@@ -2303,7 +2303,8 @@ msgstr "%1"
 #, kde-format
 msgid "The percentage of memory used by Gwenview before it\n"
 "            warns the user and suggest saving changes."
-msgstr ""
+msgstr "Адсотак памяці, які выкарыстоўваўся Gwenview да гэтага\n"
+"             папярэджвае карыстальніка і прапануе захаваць змены."
 
 #. i18n: ectx: whatsthis, entry (BlackListedExtensions), group (General)
 #: lib/gwenviewconfig.kcfg:67
@@ -2311,7 +2312,9 @@ msgstr ""
 msgid "A list of filename extensions Gwenview should not try to\n"
 "            load. We exclude *.new as well because this is the extension\n"
 "            used for temporary files by KSaveFile."
-msgstr ""
+msgstr "Спіс пашырэнняў файлаў Gwenview, якія не варта спрабаваць\n"
+"             загружаць. Таксама выключаецца *.new, бо гэтае пашырэнне\n"
+"             выкарыстоўваецца для часовых файлаў KSaveFile."
 
 #. i18n: ectx: whatsthis, entry (ZoomMode), group (ImageView)
 #: lib/gwenviewconfig.kcfg:208
@@ -2327,7 +2330,17 @@ msgid "Defines what happens when going to image B after\n"
 "            same zoom parameters as image A, but will then remember its\n"
 "            own zoom and position (if these are changed, image A will NOT\n"
 "            be displayed with the updated zoom and position)."
-msgstr ""
+msgstr "Вызначае, што адбываецца пры пераходзе да выявы B пасля\n"
+"             маштабавання выявы A. Калі вызначана аўтаматычнае дапасаванне,\n"
+"             выява B паменшаецца, каб адпавядаць памеру экрана. Калі вызначана захаванне маштабу і пазіцыі,\n"
+"             усе выявы будуць мець аднолькавы маштаб і пазіцыю: выява B будзе мець\n"
+"             тыя ж параметры, што і выява A (калі яны будуць\n"
+"             змененыя, выява A будзе паказвацца з абноўленым маштабам\n"
+"             і пазіцыяй). Калі вызначана захаванне маштабу і пазіцыі для кожнай выявы, для кожнай выявы\n"
+"             будзе запамінацца яе маштаб і пазіцыя: выява B першапачаткова будзе мець\n"
+"             тыя ж параметры маштабавання, што і выява A, але потым запомніць яе\n"
+"             уласны маштаб і пазіцыю (калі яны будуць змененыя, выява А НЕ будзе\n"
+"             паказвацца з абноўленым маштабам і пазіцыяй)."
 
 #. i18n: ectx: whatsthis, entry (RenderingIntent), group (ImageView)
 #: lib/gwenviewconfig.kcfg:222
@@ -2338,25 +2351,30 @@ msgid "Defines how colors are rendered when your display\n"
 "            the colors of the entire image so that they all fit within the\n"
 "            display's capabilities. \"Relative\" will squash only the colors\n"
 "            that cannot be displayed, and leave the other colors alone."
-msgstr ""
+msgstr "Вызначае адлюстраванне колераў, калі ваш дысплэй\n"
+"             выкарыстоўвае колеравы профіль ICC, а выява мае колеры, якія не пасуюць\n"
+"             гаме профілю. \"Успрымальны\" будзе змяняць гаму\n"
+"             колераў ўсёй выявы, каб усе яны адпавядалі\n"
+"             магчымасцям дысплэя. \"Адносны\" зменіць гаму толькі колераў,\n"
+"             якія нельга паказваць, і не будзе чапаць іншыя колеры."
 
 #. i18n: ectx: label, entry (random), group (slide show)
 #: lib/gwenviewconfig.kcfg:325
 #, kde-format
 msgid "Display slide show images in random order"
-msgstr ""
+msgstr "Выпадковы парадак выяў у рэжыме слайд-шоу"
 
 #. i18n: ectx: label, entry (fullscreen), group (slide show)
 #: lib/gwenviewconfig.kcfg:329
 #, kde-format
 msgid "Show slideshow in fullscreen mode"
-msgstr ""
+msgstr "Паказваць слайд-шоу ў поўнаэкранным рэжыме"
 
 #. i18n: ectx: label, entry (loop), group (slide show)
 #: lib/gwenviewconfig.kcfg:333
 #| msgid "Go to Next Image"
 msgid "Loop on images"
-msgstr ""
+msgstr "Зацыкліванне выяў"
 
 #. i18n: ectx: label, entry (stopAtEnd), group (slide show)
 #: lib/gwenviewconfig.kcfg:337
@@ -2445,7 +2463,7 @@ msgstr "Агульныя"
 #, kde-format
 msgctxt "@item:intable %1 is image width, %2 is image height"
 msgid "%1x%2"
-msgstr ""
+msgstr "%1x%2"
 
 #: lib/imagemetainfomodel.cpp:413
 #, kde-format
@@ -2469,13 +2487,13 @@ msgstr "Значэнне"
 #, kde-format
 msgctxt "@info"
 msgid "Could not open file for writing."
-msgstr ""
+msgstr "Немагчыма адкрыць файл для запісу."
 
 #: lib/jpegcontent.cpp:658
 #, kde-format
 msgctxt "@info"
 msgid "No data to store."
-msgstr ""
+msgstr "Няма даных для захавання."
 
 #: lib/print/printhelper.cpp:125
 #, kde-format
