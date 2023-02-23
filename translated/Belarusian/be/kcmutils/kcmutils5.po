@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-07 00:43+0000\n"
-"PO-Revision-Date: 2023-02-07 10:31\n"
+"PO-Revision-Date: 2023-02-19 18:47\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -43,12 +43,12 @@ msgid "The module %1 is disabled."
 msgstr "Модуль %1 адключаны."
 
 #: kcmoduleloader.cpp:58
-#| msgid "Please contact your system administrator."
+#, kde-format
 msgid "The module has been disabled by the system administrator."
 msgstr "Модуль быў адключаны сістэмным адміністратарам."
 
 #: kcmoduleloader.cpp:93 kcmoduleloader.cpp:184
-#| msgid "Error opening file."
+#, kde-format
 msgid "Error loading QML file."
 msgstr "Не ўдалося загрузіць файл QML."
 
@@ -63,9 +63,7 @@ msgid "The module %1 could not be found."
 msgstr "Модуль %1 не знойдзены."
 
 #: kcmoduleloader.cpp:154
-#| msgid ""
-#| "<qt><p>The diagnostics is:<br />The desktop file %1 could not be found.</"
-#| "p></qt>"
+#, kde-format
 msgid "<qt><p>The diagnosis is:<br />The desktop file %1 could not be found.</p></qt>"
 msgstr "<qt><p>Выснова:<br />файл працоўнага стала %1 не знойдзены.</p></qt>"
 
@@ -75,7 +73,7 @@ msgid "<qt><p>Either the hardware/software the module configures is not availabl
 msgstr "<qt><p>Або абсталяванне/праграмнае забеспячэнне, якое наладжвае модуль, недаступна, або модуль быў адключаны адміністратарам.</p></qt>"
 
 #: kcmoduleloader.cpp:192
-#| msgid "Error opening file."
+#, kde-format
 msgid "Error loading config module"
 msgstr "Не ўдалося загрузіць модуль канфігурацыі"
 
@@ -85,9 +83,7 @@ msgid "The module %1 is not a valid configuration module."
 msgstr "Модуль %1 не ёсць прыдатным модулем наладжвання."
 
 #: kcmoduleloader.cpp:237
-#| msgid ""
-#| "<qt>The diagnostics is:<br />The desktop file %1 does not specify a "
-#| "library.</qt>"
+#, kde-format
 msgid "<qt>The diagnosis is:<br />The desktop file %1 does not specify a library.</qt>"
 msgstr "<qt>Выснова:<br /> файл працоўнага стала %1 не вызначае бібліятэку.</qt>"
 
@@ -98,16 +94,14 @@ msgid "This configuration section is already opened in %1"
 msgstr "Гэты раздзел канфігурацыі ўжо адкрыты ў праграме %1"
 
 #: kcmultidialog.cpp:50
-#| msgid ""
-#| "The document \"%1\" has been modified.\n"
-#| "Do you want to save your changes or discard them?"
+#, kde-format
 msgid "The settings of the current module have changed.\n"
 "Do you want to apply the changes or discard them?"
 msgstr "Налады бягучага модуля змяніліся.\n"
 "Хочаце ўжыць змены ці адкінуць іх?"
 
 #: kcmultidialog.cpp:52
-#| msgid "Settings"
+#, kde-format
 msgid "Apply Settings"
 msgstr "Ужыць налады"
 
@@ -169,28 +163,28 @@ msgstr[2] "%1 убудоў аўтаматычна выдалена па прыч
 msgstr[3] "%1 убудовы аўтаматычна выдаленыя па прычыне залежнасцяў убудовы"
 
 #: kpluginselector.cpp:264 kpluginwidget.cpp:59
-#| msgid "Search"
+#, kde-format
 msgid "Search..."
 msgstr "Пошук..."
 
 #: kpluginselector.cpp:804 kpluginwidget.cpp:325
-#| msgid "&About"
+#, kde-format
 msgid "About"
 msgstr "Пра праграму"
 
 #: ksettings/dialog.cpp:222
-#| msgid "Embeddable HTML component"
+#, kde-format
 msgid "Enable component"
 msgstr "Уключыць кампанент"
 
 #: qml/components/KPluginDelegate.qml:48
-#| msgid "&About"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "About"
 msgstr "Пра праграму"
 
 #: qml/components/KPluginDelegate.qml:59
-#| msgid "Confi&gure..."
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Configure..."
 msgstr "Наладжванне..."
@@ -201,19 +195,18 @@ msgid "No matches"
 msgstr "Няма супадзенняў"
 
 #: qml/components/KPluginSelector.qml:81
-#| msgid "Qt plugins"
+#, kde-format
 msgid "No plugins found"
 msgstr "Не знойдзена ўбудоў"
 
 #: qml/components/private/AboutPlugin.qml:42
-#| msgctxt "concatenation of dates and time"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "Plugin name and plugin version"
 msgid "%1 %2"
 msgstr "%1 %2"
 
 #: qml/components/private/AboutPlugin.qml:64
-#| msgid "Copy"
+#, kde-format
 msgid "Copyright"
 msgstr "Аўтарскія правы"
 
@@ -223,7 +216,7 @@ msgid "License:"
 msgstr "Ліцэнзія:"
 
 #: qml/components/private/AboutPlugin.qml:100
-#| msgid "A&uthors"
+#, kde-format
 msgid "Authors"
 msgstr "Стваральнікі"
 
@@ -233,12 +226,12 @@ msgid "Credits"
 msgstr "Падзякі"
 
 #: qml/components/private/AboutPlugin.qml:134
-#| msgid "Translation"
+#, kde-format
 msgid "Translators"
 msgstr "Перакладчыкі"
 
 #: qml/components/private/AboutPlugin.qml:161
-#| msgid "&Send Email"
+#, kde-format
 msgid "Send an email to %1"
 msgstr "Адправіць электронны ліст да %1"
 
