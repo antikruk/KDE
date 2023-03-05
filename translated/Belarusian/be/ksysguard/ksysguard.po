@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-02 00:46+0000\n"
-"PO-Revision-Date: 2023-03-01 07:16\n"
+"PO-Revision-Date: 2023-03-05 13:05\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -138,7 +138,7 @@ msgid "System Monitor"
 msgstr "Сістэмны назіральнік"
 
 #: ksysguard.cpp:177
-#| msgid "&Refresh"
+#, kde-format
 msgid "&Refresh Tab"
 msgstr "&Абнавіць укладку"
 
@@ -163,27 +163,27 @@ msgid "&Close Tab"
 msgstr "&Закрыць укладку"
 
 #: ksysguard.cpp:182
-#| msgid "Monitor remote machine..."
+#, kde-format
 msgid "Monitor &Remote Machine..."
 msgstr "Назіранне за &адлеглай машынай..."
 
 #: ksysguard.cpp:183
-#| msgid "&New Worksheet..."
+#, kde-format
 msgid "&Download New Tabs..."
 msgstr "&Спампаваць новыя ўкладкі..."
 
 #: ksysguard.cpp:184
-#| msgid "&New Worksheet..."
+#, kde-format
 msgid "&Upload Current Tab..."
 msgstr "&Запампаваць бягучую ўкладку..."
 
 #: ksysguard.cpp:186
-#| msgid "&Properties"
+#, kde-format
 msgid "Tab &Properties"
 msgstr "Уласцівасці &ўкладкі"
 
 #: ksysguard.cpp:383
-#| msgid " %1 processes "
+#, kde-format
 msgid "1 process"
 msgid_plural "%1 processes"
 msgstr[0] "%1 працэс"
@@ -192,25 +192,24 @@ msgstr[2] "%1 працэсаў"
 msgstr[3] "%1 працэсы"
 
 #: ksysguard.cpp:464
-#| msgid " CPU: %1% "
+#, kde-format
 msgid "CPU: %1%"
 msgstr "CPU: %1%"
 
 #: ksysguard.cpp:464
-#| msgctxt "a percentage"
-#| msgid "%"
+#, kde-format
 msgctxt "This is the shorter version of CPU: %1%"
 msgid "%1%"
 msgstr "%1%"
 
 #: ksysguard.cpp:483
-#| msgid " Memory: %1 / %2 "
+#, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Memory: %1 / %2"
 msgstr "Памяць: %1 / %2"
 
 #: ksysguard.cpp:485
-#| msgid " Memory: %1 / %2 "
+#, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total) This should be a shorter version of the previous Memory: %1 / %2"
 msgid "Mem: %1 / %2"
 msgstr "Пам.: %1 / %2"
@@ -227,7 +226,7 @@ msgid " No swap space available "
 msgstr " Няма swap "
 
 #: ksysguard.cpp:519
-#| msgid " Swap: %1 / %2 "
+#, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Swap: %1 / %2"
 msgstr "Swap: %1 / %2"
@@ -244,7 +243,7 @@ msgid "KDE System Monitor"
 msgstr "Сістэмны назіральнік KDE"
 
 #: ksysguard.cpp:572
-#| msgid "(c) 1996-2006 The KDE System Monitor Developers"
+#, kde-format
 msgid "(c) 1996-2016 The KDE System Monitor Developers"
 msgstr "(c) 1996-2016, распрацоўнікі сістэмнага назіральніка KDE"
 
@@ -329,7 +328,7 @@ msgstr "&Файл"
 
 #. i18n: ectx: Menu (view)
 #: ksysguardui.rc:15
-#| msgid "&File"
+#, kde-format
 msgid "&View"
 msgstr "&Выгляд"
 
@@ -358,17 +357,12 @@ msgid "Sensor Browser"
 msgstr "Спіс сэнсараў"
 
 #: SensorBrowser.cpp:473
-#| msgid "Drag sensors to empty fields in a worksheet."
+#, kde-format
 msgid "Drag sensors to empty cells of a worksheet "
 msgstr "Перацягніце сэнсары ў пустыя ячэйкі табліцы "
 
 #: SensorBrowser.cpp:474
-#| msgid ""
-#| "The sensor browser lists the connected hosts and the sensors that they "
-#| "provide. Click and drag sensors into drop zones of a worksheet or the "
-#| "panel applet. A display will appear that visualizes the values provided "
-#| "by the sensor. Some sensor displays can display values of multiple "
-#| "sensors. Simply drag other sensors on to the display to add more sensors."
+#, kde-format
 msgid "The sensor browser lists the connected hosts and the sensors that they provide. Click and drag sensors into drop zones of a worksheet. A display will appear that visualizes the values provided by the sensor. Some sensor displays can display values of multiple sensors. Simply drag other sensors on to the display to add more sensors."
 msgstr "Браўзер паказвае спіс падлучаных хостаў і сэнсараў. Націсніце і перацягніце сэнсары ў адпаведныя зоны. З'явіцца назіральнік, які паказвае значэнні. Некаторыя назіральнікі могуць паказваць значэнні некалькіх датчыкаў. Проста перацягніце іншыя сэнсары ў назіральнік."
 
@@ -492,7 +486,7 @@ msgid "Upper limit:"
 msgstr "Верхняя мяжа:"
 
 #: SensorDisplayLib/DancingBarsSettings.cpp:153
-#| msgid "Look"
+#, kde-format
 msgctxt "@title:tab Appearance of the bar graph"
 msgid "Look"
 msgstr "Выгляд"
@@ -649,14 +643,13 @@ msgid "%1 KiB/s"
 msgstr "%1 КіБ/с"
 
 #: SensorDisplayLib/FancyPlotter.cpp:678
-#| msgctxt "a percentage"
-#| msgid "%"
+#, kde-format
 msgctxt "unitless - just a number"
 msgid "%1"
 msgstr "%1"
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:46
-#| msgid "Signal Plotter Settings"
+#, kde-format
 msgid "Plotter Settings"
 msgstr "Налады стварэння графікаў"
 
@@ -676,10 +669,7 @@ msgid "Stack the beams on top of each other"
 msgstr "Размяшчаць графікі адзін на аднаго"
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:75
-#| msgid ""
-#| "The beams are stacked on top of each other, and the area is drawn filled "
-#| "in. So if one beam has a value of 2 and another beam has a value of 3, "
-#| "the first beam will be draw at value 2 and the other beam drawn at 2+3=5"
+#, kde-format
 msgid "The beams are stacked on top of each other, and the area is drawn filled in. So if one beam has a value of 2 and another beam has a value of 3, the first beam will be drawn at value 2 and the other beam drawn at 2+3=5."
 msgstr "Прамяні накладаюцца адзін на аднаго, вобласць малюецца запоўненай. Такім чынам, калі адзін прамень мае значэнне 2, а другі мае значэнне 3, першы прамень будзе намаляваны са значэннем 2, а другі прамень - 2+3=5."
 
@@ -689,7 +679,7 @@ msgid "Scales"
 msgstr "Шкалы"
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:86
-#| msgid "Vertical Scale"
+#, kde-format
 msgid "Vertical scale"
 msgstr "Вертыкальная шкала"
 
@@ -704,7 +694,7 @@ msgid "Check this box if you want the display range to adapt dynamically to the 
 msgstr "Адзначце гэты параметр, калі хочаце, каб дыяпазон прыстасоўваўся да бягучых значэнняў. Калі вы не адзначыце гэты параметр, вам неабходна будзе вызначыць дыяпазон самастойна."
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:102
-#| msgid "Enter the title of the display here."
+#, kde-format
 msgid "Enter the minimum value for the display here."
 msgstr "Увядзіце мінімальнае значэнне."
 
@@ -714,12 +704,12 @@ msgid "Enter the soft maximum value for the display here. The upper range will n
 msgstr "Увядзіце тут максімальнае значэнне. Верхні дыяпазон не будзе апускацца ніжэй за гэтае значэнне, але ўсё роўна будзе перавышаць гэты лік для значэнняў, якія вышэй за гэтае значэнне."
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:120
-#| msgid "Horizontal Scale"
+#, kde-format
 msgid "Horizontal scale"
 msgstr "Гарызантальная шкала"
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:128
-#| msgid "pixels per time period"
+#, kde-format
 msgid "Pixels per time period:"
 msgstr "Пікселяў за перыяд часу:"
 
@@ -804,37 +794,32 @@ msgid "Move Down"
 msgstr "Перамясціць ніжэй"
 
 #: SensorDisplayLib/ListView.cpp:45
-#| msgctxt "a percentage"
-#| msgid "%"
+#, kde-format
 msgid "%1 K"
 msgstr "%1 K"
 
 #: SensorDisplayLib/ListView.cpp:46
-#| msgctxt "a percentage"
-#| msgid "%"
+#, kde-format
 msgid "%1 M"
 msgstr "%1 М"
 
 #: SensorDisplayLib/ListView.cpp:47
-#| msgctxt "a percentage"
-#| msgid "%"
+#, kde-format
 msgid "%1 G"
 msgstr "%1 Г"
 
 #: SensorDisplayLib/ListView.cpp:48
-#| msgctxt "a percentage"
-#| msgid "%"
+#, kde-format
 msgid "%1 T"
 msgstr "%1 Т"
 
 #: SensorDisplayLib/ListView.cpp:49
-#| msgctxt "a percentage"
-#| msgid "%"
+#, kde-format
 msgid "%1 P"
 msgstr "%1 П"
 
 #: SensorDisplayLib/ListView.cpp:152
-#| msgid "Display Range"
+#, kde-format
 msgid "Display Units"
 msgstr "Адзінкі вымярэння"
 
@@ -859,7 +844,7 @@ msgid "Gigabytes"
 msgstr "Гігабайтаў"
 
 #: SensorDisplayLib/ListView.cpp:180
-#| msgid "Temperature"
+#, kde-format
 msgid "Terabytes"
 msgstr "Тэрабайтаў"
 
@@ -907,7 +892,7 @@ msgstr "&Тэкст"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: SensorDisplayLib/LogFileSettings.ui:29
-#| msgid "Title:"
+#, kde-format
 msgid "T&itle:"
 msgstr "Н&азва:"
 
@@ -936,14 +921,14 @@ msgid "&Change"
 msgstr "&Змяніць"
 
 #: SensorDisplayLib/MultiMeterSettings.cpp:33
-#| msgid "Multimeter Settings"
+#, kde-format
 msgctxt "Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
 msgid "Multimeter Settings"
 msgstr "Налады мультыметра"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: SensorDisplayLib/MultiMeterSettingsWidget.ui:26
-#| msgid "Title:"
+#, kde-format
 msgid "&Title:"
 msgstr "&Назва:"
 
@@ -968,7 +953,7 @@ msgstr "&Уключыць апавяшчэнні"
 
 #. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
 #: SensorDisplayLib/MultiMeterSettingsWidget.ui:86
-#| msgid "Lower limit:"
+#, kde-format
 msgid "&Lower limit:"
 msgstr "&Ніжняя мяжа:"
 
@@ -987,19 +972,19 @@ msgstr "&Верхняя мяжа:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: SensorDisplayLib/MultiMeterSettingsWidget.ui:175
-#| msgid "Normal digit color:"
+#, kde-format
 msgid "Nor&mal digit color:"
 msgstr "&Звычайны колер лічбаў:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
 #: SensorDisplayLib/MultiMeterSettingsWidget.ui:205
-#| msgid "Alarm digit color:"
+#, kde-format
 msgid "Alarm di&git color:"
 msgstr "Колер лічбаў &апавяшчэння:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
 #: SensorDisplayLib/MultiMeterSettingsWidget.ui:235
-#| msgid "Background color:"
+#, kde-format
 msgid "Bac&kground color:"
 msgstr "Колер &фону:"
 
@@ -1019,31 +1004,31 @@ msgid "<qt><p>This is a sensor display. To customize a sensor display click the 
 msgstr "<qt><p>Назіральнік за сэнсарам. Каб змяніць налады назіральніка, пстрыкніце правай кнопкай мышы і абярыце элемент меню <i>Уласцівасці</i>. Абярыце <i>Выдаліць</i>, каб выдаліць назіральнік з табліцы.</p>%1</qt>"
 
 #: SensorDisplayLib/SensorLogger.cpp:132
-#| msgid "Logging"
+#, kde-format
 msgctxt "@title:column"
 msgid "Logging"
 msgstr "Журналы"
 
 #: SensorDisplayLib/SensorLogger.cpp:134
-#| msgid "Timer Interval"
+#, kde-format
 msgctxt "@title:column"
 msgid "Timer Interval"
 msgstr "Інтэрвал таймера"
 
 #: SensorDisplayLib/SensorLogger.cpp:136
-#| msgid "Sensor Name"
+#, kde-format
 msgctxt "@title:column"
 msgid "Sensor Name"
 msgstr "Назва сэнсара"
 
 #: SensorDisplayLib/SensorLogger.cpp:138
-#| msgid "Host Name"
+#, kde-format
 msgctxt "@title:column"
 msgid "Host Name"
 msgstr "Назва хоста"
 
 #: SensorDisplayLib/SensorLogger.cpp:140
-#| msgid "Log File"
+#, kde-format
 msgctxt "@title:column"
 msgid "Log File"
 msgstr "Файл журнала"
@@ -1082,7 +1067,7 @@ msgstr "Файл"
 
 #. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
 #: SensorDisplayLib/SensorLoggerDlgWidget.ui:41
-#| msgid "Timer Interval"
+#, kde-format
 msgctxt "@title:group"
 msgid "Timer Interval"
 msgstr "Інтэрвал таймера"
@@ -1161,19 +1146,19 @@ msgstr "Swap"
 
 #. i18n: tag display attribute title
 #: SystemLoad2.sgrd:12
-#| msgid "Network"
+#, kde-format
 msgid "Network History"
 msgstr "Гісторыя сеткі"
 
 #. i18n: tag beam attribute summationName
 #: SystemLoad2.sgrd:13
-#| msgid "Receiver"
+#, kde-format
 msgid "Receiving"
 msgstr "Атрыманне"
 
 #. i18n: tag beam attribute summationName
 #: SystemLoad2.sgrd:14
-#| msgid "Send"
+#, kde-format
 msgid "Sending"
 msgstr "Адпраўленне"
 
@@ -1233,12 +1218,12 @@ msgid "Log to a &file"
 msgstr "Запісваць у &файл"
 
 #: WorkSheet.cpp:547
-#| msgid "&Remove Display"
+#, kde-format
 msgid "Remove this display?"
 msgstr "Выдаліць гэты назіральнік?"
 
 #: WorkSheet.cpp:548
-#| msgid "&Remove Display"
+#, kde-format
 msgid "Remove Display"
 msgstr "Выдаліць назіральнік"
 
@@ -1248,7 +1233,7 @@ msgid "Dummy"
 msgstr "Пустышка"
 
 #: WorkSheetSettings.cpp:43
-#| msgid "Properties"
+#, kde-format
 msgid "Tab Properties"
 msgstr "Уласцівасці ўкладкі"
 
@@ -1298,9 +1283,7 @@ msgid "Sheet %1"
 msgstr "Табліца %1"
 
 #: Workspace.cpp:170
-#| msgid ""
-#| "The worksheet '%1' contains unsaved data.\n"
-#| "Do you want to save the worksheet?"
+#, kde-format
 msgid "The tab '%1' contains unsaved data.\n"
 "Do you want to save the tab?"
 msgstr "Укладка \"%1\" змяшчае незахаваныя даныя.\n"
@@ -1312,7 +1295,7 @@ msgid "Select Tab File to Import"
 msgstr "Абярыце файл укладкі для імпартавання"
 
 #: Workspace.cpp:208 Workspace.cpp:228
-#| msgid "You do not have a worksheet that could be saved."
+#, kde-format
 msgid "You do not have a tab that could be saved."
 msgstr "У вас няма ўкладкі, якую можна было б захаваць."
 
@@ -1322,7 +1305,7 @@ msgid "Export Tab"
 msgstr "Экспартаваць укладку"
 
 #: Workspace.cpp:255
-#| msgid "There are no worksheets that could be deleted."
+#, kde-format
 msgid "There are no tabs that could be deleted."
 msgstr "Няма ўкладак, якія можна было б выдаліць."
 
@@ -1333,7 +1316,7 @@ msgid "<para>You can publish your custom tab on the <link url='%1'>KDE Store</li
 msgstr "<para>Вы можаце апублікаваць сваю адвольную ўкладку ў <link url='%1'>Краме KDE</link> у катэгорыі <icode>%2</icode>.</para><para><filename>%3</filename></para>"
 
 #: Workspace.cpp:304
-#| msgid "System Monitor"
+#, kde-format
 msgid "Upload custom System Monitor tab"
 msgstr "Запампаваць адвольную ўкладку сістэмнага назіральніка"
 
