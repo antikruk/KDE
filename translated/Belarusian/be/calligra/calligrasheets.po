@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-19 00:58+0000\n"
-"PO-Revision-Date: 2023-02-19 18:46\n"
+"POT-Creation-Date: 2023-03-05 00:52+0000\n"
+"PO-Revision-Date: 2023-03-05 13:01\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -219,11 +219,11 @@ msgstr ""
 msgid "Related Functions"
 msgstr ""
 
-#: engine/Localization.cpp:464
+#: engine/Localization.cpp:571
 msgid "true"
 msgstr "так"
 
-#: engine/Localization.cpp:465
+#: engine/Localization.cpp:572
 msgid "false"
 msgstr "не"
 
@@ -669,8 +669,7 @@ msgstr "Нумар"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: ToolBar (formatToolBar)
 #: functions/conversion.xml:251 part/calligrasheets.rc:235
-#: ui/CellToolBase.cpp:140 ui/dialogs/DataFormatWidget.ui:35
-#: ui/dialogs/LayoutPage_Float.cpp:52
+#: ui/dialogs/DataFormatWidget.ui:35 ui/dialogs/LayoutPage_Float.cpp:52
 msgid "Format"
 msgstr "Фармат"
 
@@ -711,7 +710,7 @@ msgid "ARABIC(\"XCIX\") returns 99"
 msgstr ""
 
 #: functions/database.xml:5 part/chart/ChartDatabaseSelectorFactory.cpp:26
-#: ui/CellToolBase.cpp:155 ui/dialogs/DatabaseDialog.cpp:117
+#: ui/CellToolBase.cpp:111 ui/dialogs/DatabaseDialog.cpp:117
 msgid "Database"
 msgstr "База даных"
 
@@ -9173,7 +9172,6 @@ msgstr ""
 #: part/dialogs/PreferenceDialog.cpp:304 part/dialogs/PreferenceDialog.cpp:312
 #: part/dialogs/PreferenceDialog.cpp:439 part/View.cpp:399
 #: ui/dialogs/DatabaseDialog.cpp:711 ui/dialogs/DatabaseDialog.cpp:712
-#: ui/dialogs/DocumentSettingsDialog.cpp:124
 msgid "None"
 msgstr "Няма"
 
@@ -9899,122 +9897,69 @@ msgctxt "(qtundo-format)"
 msgid "Change Border"
 msgstr ""
 
-#: ui/CellToolBase.cpp:139
-msgid "Cell Format..."
-msgstr ""
-
-#: ui/CellToolBase.cpp:144
-msgid "Set the cell formatting"
-msgstr ""
-
-#: ui/CellToolBase.cpp:148
+#: ui/CellToolBase.cpp:104
 msgid "&Function..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:151
+#: ui/CellToolBase.cpp:107
 msgid "Insert math expression"
 msgstr ""
 
-#: ui/CellToolBase.cpp:154
+#: ui/CellToolBase.cpp:110
 msgid "From &Database..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:158
+#: ui/CellToolBase.cpp:114
 msgid "Insert data from a SQL database"
 msgstr ""
 
-#: ui/CellToolBase.cpp:161
-msgid "Custom Lists..."
-msgstr ""
-
-#: ui/CellToolBase.cpp:164
-msgid "Create custom lists for sorting or autofill"
-msgstr ""
-
-#: ui/CellToolBase.cpp:166
-msgid "&Goal Seek..."
-msgstr ""
-
-#: ui/CellToolBase.cpp:169
-msgid "Repeating calculation to find a specific value"
-msgstr ""
-
-#: ui/CellToolBase.cpp:171
+#: ui/CellToolBase.cpp:117
 msgid "Formula Selection"
 msgstr ""
 
-#: ui/CellToolBase.cpp:173
+#: ui/CellToolBase.cpp:119
 msgid "Insert a function"
 msgstr ""
 
-#: ui/CellToolBase.cpp:174 ui/CellToolBase.cpp:1104
+#: ui/CellToolBase.cpp:120 ui/CellToolBase.cpp:972
 msgid "Others..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:182
+#: ui/CellToolBase.cpp:128
 msgid "Modify Cell"
 msgstr ""
 
-#: ui/CellToolBase.cpp:186
+#: ui/CellToolBase.cpp:132
 msgid "Edit the highlighted cell"
 msgstr ""
 
-#: ui/CellToolBase.cpp:189
-msgid "Move the cell object to the clipboard"
-msgstr ""
-
-#: ui/CellToolBase.cpp:193
-msgid "Copy the cell object to the clipboard"
-msgstr ""
-
-#: ui/CellToolBase.cpp:197
-msgid "Selects all cells in the current sheet"
-msgstr ""
-
-#: ui/CellToolBase.cpp:214
+#: ui/CellToolBase.cpp:136
 msgid "Run Inspector..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:220
+#: ui/CellToolBase.cpp:142
 msgid "Show QTableView..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:226
-msgid "Document Settings..."
-msgstr ""
-
-#: ui/CellToolBase.cpp:229
-msgid "Show document settings dialog"
-msgstr ""
-
-#: ui/CellToolBase.cpp:233
+#: ui/CellToolBase.cpp:150
 msgid "Permute reference fixation"
 msgstr ""
 
-#: ui/CellToolBase.cpp:237
+#: ui/CellToolBase.cpp:154
 msgid "Permute fixation"
 msgstr ""
 
-#: ui/CellToolBase.cpp:238
+#: ui/CellToolBase.cpp:155
 msgid "Permute the fixation of the reference at the text cursor"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1023
+#: ui/CellToolBase.cpp:939
 #, kde-format
 msgid "Unable to locate action %1"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1063
+#: ui/CellToolBase.cpp:959
 msgid "No database drivers available. To use this feature you need to install the necessary Qt database drivers."
-msgstr ""
-
-#: ui/CellToolBase.cpp:1437
-msgctxt "(qtundo-format)"
-msgid "Replace"
-msgstr "Замяніць"
-
-#: ui/CellToolBase_p.cpp:848
-msgid "Selection List..."
 msgstr ""
 
 #. i18n: tag optionWidget attribute name
@@ -10692,119 +10637,6 @@ msgstr ""
 msgid "Prefix:"
 msgstr ""
 
-#: ui/dialogs/DocumentSettingsDialog.cpp:56
-msgid "Document Settings"
-msgstr "Налады дакумента"
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:66
-msgid "Calculation"
-msgstr ""
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:72
-#, kde-format
-msgid "Locale"
-msgstr ""
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:103
-msgid "Case sensitive"
-msgstr "Зважаць на рэгістр"
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:106
-msgid "Precision as shown"
-msgstr ""
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:109
-#, kde-format
-msgid "Search criteria must apply to whole cell"
-msgstr ""
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:112
-msgid "Automatic find labels"
-msgstr ""
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:118
-msgid "String comparison:"
-msgstr ""
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:124
-msgid "Regular Expressions"
-msgstr ""
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:124
-#, kde-format
-msgid "Wildcards"
-msgstr ""
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:130
-#, kde-format
-msgid "Null Year:"
-msgstr ""
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:169
-msgid "&Use System's Locale Settings"
-msgstr ""
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:196
-msgid "Language: %1 (%2)"
-msgstr ""
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:197
-msgid "Default number format: %1"
-msgstr ""
-
-#. i18ncheckarg
-#: ui/dialogs/DocumentSettingsDialog.cpp:198
-msgid "Long date format: %1"
-msgstr ""
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:199
-msgid "Short date format: %1"
-msgstr ""
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:200
-msgid "Time format: %1"
-msgstr ""
-
-#: ui/dialogs/DocumentSettingsDialog.cpp:201
-msgid "Currency format: %1"
-msgstr ""
-
-#: ui/dialogs/FindDialog.cpp:23 ui/dialogs/FindDialog.cpp:94
-msgid "More Options"
-msgstr ""
-
-#: ui/dialogs/FindDialog.cpp:31
-msgid "Search entire sheet"
-msgstr ""
-
-#: ui/dialogs/FindDialog.cpp:35
-msgid "Search in:"
-msgstr "Шукаць у:"
-
-#: ui/dialogs/FindDialog.cpp:43
-msgid "Cell Values"
-msgstr ""
-
-#: ui/dialogs/FindDialog.cpp:44
-msgid "Comments"
-msgstr "Каментары"
-
-#: ui/dialogs/FindDialog.cpp:48
-msgid "Search direction:"
-msgstr ""
-
-#: ui/dialogs/FindDialog.cpp:56
-msgid "Across then Down"
-msgstr ""
-
-#: ui/dialogs/FindDialog.cpp:57
-msgid "Down then Across"
-msgstr ""
-
-#: ui/dialogs/FindDialog.cpp:91
-msgid "Fewer Options"
-msgstr ""
-
 #. i18n: ectx: property (whatsThis), widget (QWidget, FontWidget)
 #: ui/dialogs/FontWidget.ui:33
 msgid "You can select here the font style, size and color, including some additional options like underlined or stroke out text for the current cell text. The lower part of the page gives a preview of the selected text format.\n"
@@ -10930,72 +10762,6 @@ msgstr ""
 
 #: ui/dialogs/FormulaDialog.cpp:659
 msgid "Description is not available."
-msgstr ""
-
-#: ui/dialogs/GoalSeekDialog.cpp:64
-msgid "Goal Seek"
-msgstr ""
-
-#: ui/dialogs/GoalSeekDialog.cpp:120 ui/dialogs/GoalSeekDialog.cpp:130
-msgid "Cell reference is invalid."
-msgstr ""
-
-#: ui/dialogs/GoalSeekDialog.cpp:141
-msgid "Target value is invalid."
-msgstr ""
-
-#: ui/dialogs/GoalSeekDialog.cpp:153
-msgid "Source cell must contain a numeric value."
-msgstr ""
-
-#: ui/dialogs/GoalSeekDialog.cpp:162
-msgid "Target cell must contain a formula."
-msgstr ""
-
-#: ui/dialogs/GoalSeekDialog.cpp:206
-msgid "Starting..."
-msgstr "Запуск..."
-
-#: ui/dialogs/GoalSeekDialog.cpp:207
-msgid "Iteration:"
-msgstr "Праходы:"
-
-#. i18n: ectx: property (text), widget (QLabel, label5)
-#: ui/dialogs/GoalSeekDialog.cpp:284 ui/dialogs/GoalSeekWidget.ui:81
-msgid "New value:"
-msgstr ""
-
-#: ui/dialogs/GoalSeekDialog.cpp:288
-msgid "Goal seeking with cell %1 found a solution:"
-msgstr ""
-
-#: ui/dialogs/GoalSeekDialog.cpp:295
-msgid "Goal seeking with cell %1 has found NO solution."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label1)
-#: ui/dialogs/GoalSeekWidget.ui:38
-msgid "Set cell:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label2)
-#: ui/dialogs/GoalSeekWidget.ui:48
-msgid "To value:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label3)
-#: ui/dialogs/GoalSeekWidget.ui:58
-msgid "By changing cell:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label4)
-#: ui/dialogs/GoalSeekWidget.ui:71
-msgid "Goal seeking with cell <cell> found <a | no> solution:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label6)
-#: ui/dialogs/GoalSeekWidget.ui:95
-msgid "Current value:"
 msgstr ""
 
 #: ui/dialogs/LayoutDialog.cpp:114
@@ -11210,55 +10976,6 @@ msgstr "Колер фону:"
 msgid "No Color"
 msgstr "Без колеру"
 
-#: ui/dialogs/ListDialog.cpp:46
-msgid "Custom Lists"
-msgstr ""
-
-#: ui/dialogs/ListDialog.cpp:56
-msgid "List:"
-msgstr ""
-
-#: ui/dialogs/ListDialog.cpp:63
-msgid "Entry:"
-msgstr ""
-
-#: ui/dialogs/ListDialog.cpp:69
-msgid "Add"
-msgstr "Дадаць"
-
-#: ui/dialogs/ListDialog.cpp:73 ui/ExternalEditor.cpp:61
-msgid "Cancel"
-msgstr "Скасаваць"
-
-#: ui/dialogs/ListDialog.cpp:77
-msgid "New"
-msgstr "Новы"
-
-#: ui/dialogs/ListDialog.cpp:80
-msgid "Remove"
-msgstr "Выдаліць"
-
-#: ui/dialogs/ListDialog.cpp:83
-msgid "Modify"
-msgstr "Змяніць"
-
-#: ui/dialogs/ListDialog.cpp:86
-msgid "Copy"
-msgstr "Капіяваць"
-
-#: ui/dialogs/ListDialog.cpp:238
-msgid "Do you really want to remove this list?"
-msgstr ""
-
-#: ui/dialogs/ListDialog.cpp:239
-msgid "Remove List"
-msgstr ""
-
-#: ui/dialogs/ListDialog.cpp:259
-msgid "Entry area is not empty.\n"
-"Do you want to continue?"
-msgstr ""
-
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, horizontalGroup)
 #: ui/dialogs/PositionWidget.ui:45
 msgid "<qt>Set the content position horizontally in the cell.\n"
@@ -11429,6 +11146,10 @@ msgstr "Ужыць"
 msgid "Apply changes"
 msgstr ""
 
+#: ui/ExternalEditor.cpp:61
+msgid "Cancel"
+msgstr "Скасаваць"
+
 #: ui/ExternalEditor.cpp:62
 #, kde-format
 msgid "Discard changes"
@@ -11468,6 +11189,259 @@ msgstr ""
 #: ui/strategy/HyperlinkStrategy.cpp:89
 msgid "Open Link?"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Document Settings..."
+#~ msgstr "Налада лакалі"
+
+#, fuzzy
+#~ msgid "Show document settings dialog"
+#~ msgstr "Паказваць індыкатар каментара"
+
+#, fuzzy
+#~ msgid "Document Settings"
+#~ msgstr "Налада лакалі"
+
+#, fuzzy
+#~ msgid "Calculation"
+#~ msgstr "Рэжым падліку"
+
+#, fuzzy
+#~ msgid "Case sensitive"
+#~ msgstr "Сартаванне з улікам рэгістра"
+
+#, fuzzy
+#~ msgid "Precision as shown"
+#~ msgstr "Дакладнасць"
+
+#, fuzzy
+#~ msgid "Automatic find labels"
+#~ msgstr "Аўтаматычнае"
+
+#, fuzzy
+#~ msgid "String comparison:"
+#~ msgstr "Радок для параўнання з"
+
+#, fuzzy
+#~ msgid "Regular Expressions"
+#~ msgstr "Рэгулярны выраз"
+
+#, fuzzy
+#~ msgid "&Use System's Locale Settings"
+#~ msgstr "Абнавіць наладу лакалі"
+
+#, fuzzy
+#~ msgid "Language: %1 (%2)"
+#~ msgstr "Мова: %1"
+
+#, fuzzy
+#~ msgid "Default number format: %1"
+#~ msgstr "Фармат лікаў па змаўчанні: %1"
+
+#, fuzzy
+#~ msgid "Long date format: %1"
+#~ msgstr "Поўны фармат даты: %1"
+
+#, fuzzy
+#~ msgid "Short date format: %1"
+#~ msgstr "Кароткі фармат даты: %1"
+
+#, fuzzy
+#~ msgid "Time format: %1"
+#~ msgstr "Фармат часу: %1"
+
+#, fuzzy
+#~ msgid "Currency format: %1"
+#~ msgstr "Фармат грашовай сумы: %1"
+
+#, fuzzy
+#~ msgid "Custom Lists..."
+#~ msgstr "Спісы карыстача..."
+
+#, fuzzy
+#~ msgid "Create custom lists for sorting or autofill"
+#~ msgstr "Кіраванне карыстацкімі спісамі для сартавання або аўтазапаўненні"
+
+#, fuzzy
+#~ msgid "Selects all cells in the current sheet"
+#~ msgstr "Пералічыць значэнне кожнага вочка на бягучым лісце"
+
+#, fuzzy
+#~ msgid "Custom Lists"
+#~ msgstr "Спісы карыстача"
+
+#, fuzzy
+#~ msgid "List:"
+#~ msgstr "Спіс:"
+
+#, fuzzy
+#~ msgid "Entry:"
+#~ msgstr "Элемент:"
+
+#, fuzzy
+#~ msgid "Add"
+#~ msgstr "&Дадаць"
+
+#, fuzzy
+#~ msgid "New"
+#~ msgstr "&Новы"
+
+#, fuzzy
+#~ msgid "Remove"
+#~ msgstr "Выдаліць"
+
+#, fuzzy
+#~ msgid "Modify"
+#~ msgstr "З&мяніць"
+
+#, fuzzy
+#~ msgid "Copy"
+#~ msgstr "Стварыць &копію"
+
+#, fuzzy
+#~ msgid "Do you really want to remove this list?"
+#~ msgstr "Вы сапраўды жадаеце выдаліць гэты спіс?"
+
+#, fuzzy
+#~ msgid "Remove List"
+#~ msgstr "Выдаліць спіс"
+
+#, fuzzy
+#~ msgid ""
+#~ "Entry area is not empty.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Дыяпазон утрымоўвае дадзеныя.\n"
+#~ "Жадаеце працягнуць?"
+
+#, fuzzy
+#~ msgid "&Goal Seek..."
+#~ msgstr "Пошук рашэння..."
+
+#, fuzzy
+#~ msgid "Repeating calculation to find a specific value"
+#~ msgstr "Паўтор вылічэння для пошуку патрэбнага значэння"
+
+#, fuzzy
+#~ msgid "Goal Seek"
+#~ msgstr "Пошук рашэння"
+
+#, fuzzy
+#~ msgid "Cell reference is invalid."
+#~ msgstr "Спасылка на вочка няслушная."
+
+#, fuzzy
+#~ msgid "Target value is invalid."
+#~ msgstr "Мэтавае значэнне няслушна."
+
+#, fuzzy
+#~ msgid "Source cell must contain a numeric value."
+#~ msgstr "Зыходныя вочкі павінны ўтрымоўваць лікавыя значэнні."
+
+#, fuzzy
+#~ msgid "Target cell must contain a formula."
+#~ msgstr "Мэтавае вочка павінна быць формулай."
+
+#, fuzzy
+#~ msgid "Starting..."
+#~ msgstr "Запуск..."
+
+#, fuzzy
+#~ msgid "Iteration:"
+#~ msgstr "Ітэрацыя:"
+
+#, fuzzy
+#~ msgid "New value:"
+#~ msgstr "Новае значэнне:"
+
+#, fuzzy
+#~ msgid "Goal seeking with cell %1 found a solution:"
+#~ msgstr "Падчас пошуку рашэння ў вочку %1 знойдзена рашэнне:"
+
+#, fuzzy
+#~ msgid "Goal seeking with cell %1 has found NO solution."
+#~ msgstr "Падчас пошуку рашэння ў вочку %1 НЕ знойдзена рашэнне."
+
+#, fuzzy
+#~ msgid "Set cell:"
+#~ msgstr "Вочка з формулай:"
+
+#, fuzzy
+#~ msgid "To value:"
+#~ msgstr "Мэтавае значэнне:"
+
+#, fuzzy
+#~ msgid "By changing cell:"
+#~ msgstr "Змянянае вочка:"
+
+#, fuzzy
+#~ msgid "Goal seeking with cell <cell> found <a | no> solution:"
+#~ msgstr "Падчас пошуку рашэння ў вочку %1 знойдзена рашэнне:"
+
+#, fuzzy
+#~ msgid "Current value:"
+#~ msgstr "Бягучае значэнне:"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Replace"
+#~ msgstr "Тэкст замены"
+
+#, fuzzy
+#~ msgid "Selection List..."
+#~ msgstr "Паўтарыць..."
+
+#, fuzzy
+#~ msgid "More Options"
+#~ msgstr "Паказаць параметры"
+
+#, fuzzy
+#~ msgid "Search entire sheet"
+#~ msgstr "Пошук па ўсім лісце"
+
+#, fuzzy
+#~ msgid "Search in:"
+#~ msgstr "Шукаць у:"
+
+#, fuzzy
+#~ msgid "Cell Values"
+#~ msgstr "Значэннях"
+
+#, fuzzy
+#~ msgid "Comments"
+#~ msgstr "Каментары"
+
+#, fuzzy
+#~ msgid "Search direction:"
+#~ msgstr "Кірунак:"
+
+#, fuzzy
+#~ msgid "Across then Down"
+#~ msgstr "Налева, потым уніз"
+
+#, fuzzy
+#~ msgid "Down then Across"
+#~ msgstr "Уніз. потым налева"
+
+#, fuzzy
+#~ msgid "Fewer Options"
+#~ msgstr "Схаваць параметры"
+
+#, fuzzy
+#~ msgid "Cell Format..."
+#~ msgstr "Фармат вочак..."
+
+#, fuzzy
+#~ msgid "Set the cell formatting"
+#~ msgstr "Усталяваць параметры фарматавання вочка."
+
+#, fuzzy
+#~ msgid "Move the cell object to the clipboard"
+#~ msgstr "Выразаць аб'ект вочка ў буфер абмену"
+
+#, fuzzy
+#~ msgid "Copy the cell object to the clipboard"
+#~ msgstr "Скапіраваць аб'ект табліцы ў буфер абмену"
 
 #, fuzzy
 #~ msgid "Paste the contents of the clipboard at the cursor"

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-19 00:55+0000\n"
-"PO-Revision-Date: 2023-02-19 18:46\n"
+"POT-Creation-Date: 2023-03-02 00:52+0000\n"
+"PO-Revision-Date: 2023-03-05 13:01\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -2723,7 +2723,7 @@ msgstr "Прыбраць усе твары з гэтай выявы"
 
 #: core/app/views/preview/itempreviewview.cpp:207
 #, kde-format
-msgid "Mark all unknown faces as ignored"
+msgid "Mark all unconfirmed faces as ignored"
 msgstr ""
 
 #: core/app/views/preview/itempreviewview.cpp:214
@@ -2752,7 +2752,6 @@ msgstr "Поўнаэкранны рэжым"
 #: core/dplugins/generic/tools/printcreator/wizard/advprintintropage.cpp:90
 #: core/dplugins/generic/tools/sendbymail/wizard/mailintropage.cpp:107
 #: core/dplugins/generic/tools/videoslideshow/wizard/vidslideintropage.cpp:89
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:140
 #: core/libs/album/engine/album.cpp:500
 #: core/libs/album/manager/albummanager.cpp:157
 #: core/libs/album/treeview/albumselectiontreeview.cpp:269
@@ -2841,7 +2840,7 @@ msgstr "Пазнакі альбома адсутнічаюць"
 #: core/libs/album/widgets/albumselecttabs.cpp:192
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:70
 #: core/libs/tags/widgets/tagfolderview.cpp:107
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:599
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:600
 #: core/utilities/searchwindow/searchfields_createfield.cpp:74
 #: core/utilities/searchwindow/searchfields_createfield.cpp:82
 #: core/utilities/searchwindow/searchfields_createfield.cpp:95
@@ -3565,7 +3564,7 @@ msgstr "Уласцівасці файла"
 #: core/app/views/tableview/tableview_column_file.cpp:55
 #: core/app/views/tableview/tableview_column_file.cpp:80
 #: core/utilities/advancedrename/parser/options/filepropertiesoption.cpp:44
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:588
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:589
 #, kde-format
 msgid "Filename"
 msgstr "Назва файла"
@@ -3629,7 +3628,7 @@ msgstr "Каардынаты"
 #: core/app/views/tableview/tableview_column_geo.cpp:90
 #: core/app/views/tableview/tableview_column_geo.cpp:111
 #: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:130
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:592
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:593
 #, kde-format
 msgid "Altitude"
 msgstr "Вышыня над узроўнем мора"
@@ -3882,7 +3881,7 @@ msgstr "Адзінка"
 #: core/dplugins/generic/webservices/imgur/imgurimageslist.cpp:53
 #: core/dplugins/generic/webservices/ipfs/ipfsimageslist.cpp:45
 #: core/libs/dtrash/dtrashitemmodel.cpp:254
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:587
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:588
 #, kde-format
 msgid "Thumbnail"
 msgstr "Мініяцюра"
@@ -4062,825 +4061,6 @@ msgstr ""
 msgctxt "@item: component info"
 msgid "Supported Extensions"
 msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:71
-#| msgid "Open a preview"
-msgctxt "@title:window"
-msgid "Open a Video"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:83
-#: core/avplayer/main/MainWindow_io.cpp:510
-#| msgid "Open a preview"
-msgctxt "@title:window"
-msgid "Open an Url"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:84
-#: core/avplayer/main/MainWindow_io.cpp:511
-#, kde-format
-msgctxt "@info"
-msgid "Url"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:106
-#, kde-format
-msgctxt "@info"
-msgid "Drag and drop a file to player\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:107
-#, kde-format
-msgctxt "@info"
-msgid "A: switch aspect ratio"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:108
-#, kde-format
-msgctxt "@info"
-msgid "Double click to switch fullscreen"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:109
-#, kde-format
-msgctxt "@info"
-msgid "Shortcut:\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:110
-#, kde-format
-msgctxt "@info"
-msgid "Space: pause/continue\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:111
-#, kde-format
-msgctxt "@info"
-msgid "F: fullscreen on/off\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:112
-#, kde-format
-msgctxt "@info"
-msgid "T: stays on top on/off\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:113
-#, kde-format
-msgctxt "@info"
-msgid "N: show next frame. Continue the playing by pressing 'Space'\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:114
-#, kde-format
-msgctxt "@info"
-msgid "Ctrl+O: open a file\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:115
-#, kde-format
-msgctxt "@info"
-msgid "O: On Screen Display\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:116
-#, kde-format
-msgctxt "@info"
-msgid "P: replay\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:117
-#, kde-format
-msgctxt "@info"
-msgid "Q/ESC: quit\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:118
-#, kde-format
-msgctxt "@info"
-msgid "S: stop\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:119
-#, kde-format
-msgctxt "@info"
-msgid "R: rotate 90 degrees"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:120
-#, kde-format
-msgctxt "@info"
-msgid "M: mute on/off\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:121
-#, kde-format
-msgctxt "@info"
-msgid "C: capture video"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:122
-#, kde-format
-msgctxt "@info"
-msgid "Up/Down: volume +/-\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:123
-#, kde-format
-msgctxt "@info"
-msgid "Ctrl+Up/Down: speed +/-\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:124
-#, kde-format
-msgctxt "@info"
-msgid "-&gt;/&lt;-: seek forward/backward\n"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:127
-#| msgctxt "@title"
-#| msgid "Help"
-msgctxt "@title:window"
-msgid "Help"
-msgstr "Дапамога"
-
-#: core/avplayer/filters/EventFilter.cpp:528
-#, kde-format
-msgctxt "@action: open new media"
-msgid "Open"
-msgstr "Адкрыць"
-
-#: core/avplayer/filters/EventFilter.cpp:529
-#, kde-format
-msgctxt "@action: open new stream"
-msgid "Open Url"
-msgstr ""
-
-#: core/avplayer/filters/EventFilter.cpp:531
-#, kde-format
-msgctxt "@action: about AVPlayer"
-msgid "About"
-msgstr "Пра праграму"
-
-#: core/avplayer/filters/EventFilter.cpp:532
-#, kde-format
-msgctxt "@action: AVPlayer help"
-msgid "Help"
-msgstr "Даведка"
-
-#: core/avplayer/main/main.cpp:174
-#, kde-format
-msgctxt "#info"
-msgid "<p>You are running AVPlayer as a 32-bit version on a 64-bit Windows.</p><p>Please install the 64-bit version of AVPlayer to get a better experience with AVPlayer.</p>"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_io.cpp:102
-#| msgid "Open File"
-msgctxt "@title:window"
-msgid "Open a Media File"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_io.cpp:568
-#: core/avplayer/main/MainWindow_setup.cpp:529
-#, kde-format
-msgctxt "@option"
-msgid "Aspect ratio"
-msgstr "Суадносіны бакоў"
-
-#: core/avplayer/main/MainWindow_io.cpp:702
-#| msgid "Profile Error"
-msgctxt "@title:window"
-msgid "Player Error"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_io.cpp:724
-#, kde-format
-msgctxt "@info: media loading"
-msgid "No media"
-msgstr "Няма медыя"
-
-#: core/avplayer/main/MainWindow_io.cpp:731
-#, kde-format
-msgctxt "@info: media loading"
-msgid "Invalid media"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_io.cpp:738
-#, kde-format
-msgctxt "@info: media loading"
-msgid "Buffering..."
-msgstr "Буферызацыя..."
-
-#: core/avplayer/main/MainWindow_io.cpp:745
-#, kde-format
-msgctxt "@info: media loading"
-msgid "Buffered"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_io.cpp:752
-#, kde-format
-msgctxt "@info: media loading"
-msgid "Loading..."
-msgstr "Загрузка..."
-
-#: core/avplayer/main/MainWindow_io.cpp:759
-#, kde-format
-msgctxt "@info: media loading"
-msgid "Loaded"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_io.cpp:766
-#, kde-format
-msgctxt "@info: media loading"
-msgid "Stalled"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_io.cpp:798
-#| msgctxt "@info: media loading"
-#| msgid "Buffering..."
-msgctxt "@title:window, media loading state"
-msgid "Buffering... %1% @%2 %3"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_io.cpp:905
-#, kde-format
-msgctxt "@info"
-msgid "Capture video frame\n"
-"Save to: %1\n"
-"Format: %2"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_io.cpp:1018
-#| msgid "Open File"
-msgctxt "@title:window"
-msgid "Open a Subtitle File"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:30
-#, kde-format
-msgctxt "@info"
-msgid "Video renderer is not available on your platform!"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:153
-#: core/avplayer/main/MainWindow_setup.cpp:179
-#, kde-format
-msgctxt "@action: audio track"
-msgid "External"
-msgstr "Вонкавы"
-
-#: core/avplayer/main/MainWindow_setup.cpp:245
-#, kde-format
-msgctxt "@info"
-msgid "Current time"
-msgstr "Бягучы час"
-
-#: core/avplayer/main/MainWindow_setup.cpp:249
-#, kde-format
-msgctxt "@info"
-msgid "Duration"
-msgstr "Працягласць"
-
-#: core/avplayer/main/MainWindow_setup.cpp:253
-#, kde-format
-msgctxt "@info"
-msgid "Render engine"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:258
-#, kde-format
-msgctxt "@info"
-msgid "Speed. Ctrl+Up/Down"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:269
-#, kde-format
-msgctxt "@info: open new media"
-msgid "Open"
-msgstr "Адкрыць"
-
-#: core/avplayer/main/MainWindow_setup.cpp:276
-#, kde-format
-msgctxt "@info: button"
-msgid "Capture"
-msgstr "Захоп"
-
-#: core/avplayer/main/MainWindow_setup.cpp:279
-#, kde-format
-msgctxt "@info: button"
-msgid "Volume"
-msgstr "Гучнасць"
-
-#: core/avplayer/main/MainWindow_setup.cpp:303
-#, kde-format
-msgctxt "@action"
-msgid "Open Url"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:308
-#, kde-format
-msgctxt "@option"
-msgid "Play list"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:321
-#, kde-format
-msgctxt "@option"
-msgid "History"
-msgstr "Гісторыя"
-
-#. i18n("Report"))->setEnabled(false); // report bug, suggestions etc. using maillist?
-#.
-#: core/avplayer/main/MainWindow_setup.cpp:339
-#, kde-format
-msgctxt "@action"
-msgid "About"
-msgstr "Пра праграму"
-
-#: core/avplayer/main/MainWindow_setup.cpp:340
-#, kde-format
-msgctxt "@action"
-msgid "Setup"
-msgstr "Наладжванне"
-
-#: core/avplayer/main/MainWindow_setup.cpp:345
-#, kde-format
-msgctxt "@option"
-msgid "Speed"
-msgstr "Хуткасць"
-
-#: core/avplayer/main/MainWindow_setup.cpp:356
-#, kde-format
-msgctxt "@option"
-msgid "Repeat"
-msgstr "Паўтор"
-
-#: core/avplayer/main/MainWindow_setup.cpp:361
-#: core/avplayer/main/MainWindow_setup.cpp:439
-#, kde-format
-msgctxt "@action"
-msgid "Enable"
-msgstr "Уключыць"
-
-#: core/avplayer/main/MainWindow_setup.cpp:372
-#, kde-format
-msgctxt "@info"
-msgid "infinity"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:374
-#, kde-format
-msgctxt "@label"
-msgid "Times"
-msgstr "Разы"
-
-#: core/avplayer/main/MainWindow_setup.cpp:380
-#, kde-format
-msgctxt "@label: from time-stamp"
-msgid "From"
-msgstr "Ад"
-
-#: core/avplayer/main/MainWindow_setup.cpp:383
-#: core/avplayer/main/MainWindow_setup.cpp:395
-#, kde-format
-msgctxt "@info"
-msgid "negative value means from the end"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:392
-#, kde-format
-msgctxt "@label: to time-stamp"
-msgid "To"
-msgstr "Да"
-
-#: core/avplayer/main/MainWindow_setup.cpp:415
-#, kde-format
-msgctxt "@action"
-msgid "Clock"
-msgstr "Гадзіннік"
-
-#: core/avplayer/main/MainWindow_setup.cpp:423
-#, kde-format
-msgctxt "@option: clock sync"
-msgid "Auto"
-msgstr "Аўтаматычна"
-
-#: core/avplayer/main/MainWindow_setup.cpp:424
-#, kde-format
-msgctxt "@option: clock sync"
-msgid "Audio"
-msgstr "Аўдыё"
-
-#: core/avplayer/main/MainWindow_setup.cpp:425
-#, kde-format
-msgctxt "@option: clock sync"
-msgid "Video"
-msgstr "Відэа"
-
-#: core/avplayer/main/MainWindow_setup.cpp:435
-#, kde-format
-msgctxt "@info"
-msgid "Take effect in next playback"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:437
-#, kde-format
-msgctxt "@option"
-msgid "Subtitle"
-msgstr "Субцітры"
-
-#: core/avplayer/main/MainWindow_setup.cpp:446
-#, kde-format
-msgctxt "@action"
-msgid "Auto load"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:453
-#, kde-format
-msgctxt "@action: open subtitle file"
-msgid "Open"
-msgstr "Адкрыць"
-
-#: core/avplayer/main/MainWindow_setup.cpp:458
-#: core/libs/video/qtav/config/VideoEQConfigPage.cpp:50
-#, kde-format
-msgctxt "@label"
-msgid "Engine"
-msgstr "Сістэма"
-
-#: core/avplayer/main/MainWindow_setup.cpp:471
-#, kde-format
-msgctxt "@info"
-msgid "FFmpeg supports more subtitles but only render plain text\n"
-"LibASS supports 'ass' styles"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:477
-#, kde-format
-msgctxt "@label"
-msgid "Charset"
-msgstr "Кадаванне"
-
-#: core/avplayer/main/MainWindow_setup.cpp:483
-#, kde-format
-msgctxt "@option"
-msgid "Auto detect"
-msgstr "Аўтавызначэнне"
-
-#: core/avplayer/main/MainWindow_setup.cpp:484
-#, kde-format
-msgctxt "@option"
-msgid "System"
-msgstr "Сістэмны"
-
-#: core/avplayer/main/MainWindow_setup.cpp:495
-#, kde-format
-msgctxt "@info"
-msgid "Auto detect requires libchardet"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:497
-#, kde-format
-msgctxt "@option"
-msgid "Audio track"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:506
-#, kde-format
-msgctxt "@option"
-msgid "Channel"
-msgstr "Канал"
-
-#: core/avplayer/main/MainWindow_setup.cpp:515
-#, kde-format
-msgctxt "@action: channel option"
-msgid "As input"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:516
-#, kde-format
-msgctxt "@action: channel option"
-msgid "Stereo"
-msgstr "Стэрэа"
-
-#: core/avplayer/main/MainWindow_setup.cpp:517
-#, kde-format
-msgctxt "@action: channel option"
-msgid "Mono (center)"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:518
-#, kde-format
-msgctxt "@action: channel option"
-msgid "Left"
-msgstr "Левы"
-
-#: core/avplayer/main/MainWindow_setup.cpp:519
-#, kde-format
-msgctxt "@action: channel option"
-msgid "Right"
-msgstr "Правы"
-
-#: core/avplayer/main/MainWindow_setup.cpp:535
-#, kde-format
-msgctxt "@action: aspect ratio"
-msgid "Video"
-msgstr "Відэа"
-
-#: core/avplayer/main/MainWindow_setup.cpp:537
-#, kde-format
-msgctxt "@action: video ratio"
-msgid "Window"
-msgstr "Акно"
-
-#: core/avplayer/main/MainWindow_setup.cpp:540
-#, kde-format
-msgctxt "@action: video ratio"
-msgid "Custom"
-msgstr "Адвольна"
-
-#: core/avplayer/main/MainWindow_setup.cpp:549
-#, kde-format
-msgctxt "@option"
-msgid "Color space"
-msgstr "Колеравая прастора"
-
-#: core/avplayer/main/MainWindow_setup.cpp:560
-#, kde-format
-msgctxt "@option"
-msgid "Decoder"
-msgstr "Дэкодар"
-
-#: core/avplayer/main/MainWindow_setup.cpp:567
-#, kde-format
-msgctxt "@option"
-msgid "Renderer"
-msgstr "Сродак рэндэрынгу"
-
-#: core/avplayer/main/MainWindow_setup.cpp:750
-#, kde-format
-msgctxt "@info"
-msgid "not available on your platform!"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:818
-#, kde-format
-msgctxt "@title:window"
-msgid "Open an External Audio Track"
-msgstr ""
-
-#: core/avplayer/main/MainWindow_setup.cpp:864
-#, kde-format
-msgctxt "@info"
-msgid "Can not use this renderer"
-msgstr ""
-
-#: core/avplayer/playlist/PlayList.cpp:56
-#, kde-format
-msgctxt "@info"
-msgid "Use Ctrl/Shift + Click to select multiple items"
-msgstr ""
-
-#: core/avplayer/playlist/PlayList.cpp:63
-#, kde-format
-msgctxt "@action: clear playlist"
-msgid "Clear"
-msgstr "Ачысціць"
-
-#: core/avplayer/playlist/PlayList.cpp:66
-#, kde-format
-msgctxt "@info"
-msgid "Remove selected items"
-msgstr ""
-
-#: core/avplayer/playlist/PlayList.cpp:259
-#| msgid "Select images"
-msgctxt "@title:window"
-msgid "Select Files"
-msgstr ""
-
-#: core/avplayer/utils/ConfigDialog.cpp:61
-#: core/dplugins/rawimport/native/rawsettingsbox.cpp:263
-#: core/dplugins/rawimport/native/rawsettingsbox.cpp:315
-#: core/libs/tags/widgets/tageditdlg.cpp:193
-#: core/utilities/searchwindow/searchview.cpp:510
-#, kde-format
-msgid "Reset"
-msgstr "Скінуць"
-
-#: core/avplayer/utils/ConfigDialog.cpp:62
-#: core/libs/video/qtav/widgets/QtAVWidgets_Global.cpp:208
-#, kde-format
-msgid "Ok"
-msgstr "Добра"
-
-#: core/avplayer/utils/ConfigDialog.cpp:63
-#: core/libs/database/utils/widgets/dbmigrationdlg.cpp:141
-#: core/libs/dplugins/webservices/wstooldialog.cpp:110
-#: core/utilities/imageeditor/editor/editortoolsettings.cpp:208
-#, kde-format
-msgid "Cancel"
-msgstr "Скасаваць"
-
-#: core/avplayer/utils/ConfigDialog.cpp:64
-#: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:160
-#, kde-format
-msgid "Apply"
-msgstr "Ужыць"
-
-#: core/avplayer/utils/StatisticsView.cpp:37
-#, kde-format
-msgctxt "@option: base"
-msgid "Url"
-msgstr ""
-
-#: core/avplayer/utils/StatisticsView.cpp:38
-#, kde-format
-msgctxt "@option: base"
-msgid "Format"
-msgstr "Фармат"
-
-#: core/avplayer/utils/StatisticsView.cpp:39
-#, kde-format
-msgctxt "@option: base"
-msgid "Bit rate"
-msgstr ""
-
-#: core/avplayer/utils/StatisticsView.cpp:40
-#, kde-format
-msgctxt "@option: base"
-msgid "Start time"
-msgstr "Час пачатку"
-
-#: core/avplayer/utils/StatisticsView.cpp:41
-#, kde-format
-msgctxt "@option: base"
-msgid "Duration"
-msgstr "Працягласць"
-
-#: core/avplayer/utils/StatisticsView.cpp:48
-#, kde-format
-msgctxt "@option: common"
-msgid "Available"
-msgstr "Даступны"
-
-#: core/avplayer/utils/StatisticsView.cpp:49
-#, kde-format
-msgctxt "@option: common"
-msgid "Codec"
-msgstr "Кодак"
-
-#: core/avplayer/utils/StatisticsView.cpp:50
-#, kde-format
-msgctxt "@option: common"
-msgid "Decoder"
-msgstr "Дэкодар"
-
-#: core/avplayer/utils/StatisticsView.cpp:51
-#, kde-format
-msgctxt "@option: common"
-msgid "Decoder detail"
-msgstr ""
-
-#: core/avplayer/utils/StatisticsView.cpp:52
-#, kde-format
-msgctxt "@option: common"
-msgid "Total time"
-msgstr "Агульны час"
-
-#: core/avplayer/utils/StatisticsView.cpp:53
-#, kde-format
-msgctxt "@option: common"
-msgid "Start time"
-msgstr "Час пачатку"
-
-#: core/avplayer/utils/StatisticsView.cpp:54
-#, kde-format
-msgctxt "@option: common"
-msgid "Bit rate"
-msgstr ""
-
-#: core/avplayer/utils/StatisticsView.cpp:55
-#, kde-format
-msgctxt "@option: common"
-msgid "Frames"
-msgstr "Рамкі"
-
-#: core/avplayer/utils/StatisticsView.cpp:56
-#, kde-format
-msgctxt "@option: common"
-msgid "FPS"
-msgstr ""
-
-#: core/avplayer/utils/StatisticsView.cpp:63
-#, kde-format
-msgctxt "@option: video"
-msgid "FPS Now"
-msgstr ""
-
-#: core/avplayer/utils/StatisticsView.cpp:64
-#, kde-format
-msgctxt "@option: video"
-msgid "Pixel format"
-msgstr "Фармат пікселяў"
-
-#: core/avplayer/utils/StatisticsView.cpp:65
-#, kde-format
-msgctxt "@option: video"
-msgid "Size"
-msgstr "Памер"
-
-#: core/avplayer/utils/StatisticsView.cpp:66
-#, kde-format
-msgctxt "@option: video"
-msgid "Coded size"
-msgstr ""
-
-#: core/avplayer/utils/StatisticsView.cpp:67
-#, kde-format
-msgctxt "@option: video"
-msgid "GOP size"
-msgstr ""
-
-#: core/avplayer/utils/StatisticsView.cpp:74
-#, kde-format
-msgctxt "@option: audio"
-msgid "Sample format"
-msgstr ""
-
-#: core/avplayer/utils/StatisticsView.cpp:75
-#, kde-format
-msgctxt "@option: audio"
-msgid "Sample rate"
-msgstr "Частата дыскрэтызацыі"
-
-#: core/avplayer/utils/StatisticsView.cpp:76
-#, kde-format
-msgctxt "@option: audio"
-msgid "Channels"
-msgstr "Каналы"
-
-#: core/avplayer/utils/StatisticsView.cpp:77
-#, kde-format
-msgctxt "@option: audio"
-msgid "Channel layout"
-msgstr ""
-
-#: core/avplayer/utils/StatisticsView.cpp:78
-#, kde-format
-msgctxt "@option: audio"
-msgid "Frame size"
-msgstr ""
-
-#: core/avplayer/utils/StatisticsView.cpp:140
-#| msgctxt "@title"
-#| msgid "Media info"
-msgctxt "@title:window"
-msgid "Media Info"
-msgstr ""
-
-#: core/avplayer/utils/StatisticsView.cpp:147
-#, kde-format
-msgctxt "@title"
-msgid "Key"
-msgstr "Ключ"
-
-#: core/avplayer/utils/StatisticsView.cpp:148
-#, kde-format
-msgctxt "@title"
-msgid "Value"
-msgstr "Значэнне"
-
-#: core/avplayer/utils/StatisticsView.cpp:152
-#, kde-format
-msgctxt "@item: video info"
-msgid "Metadata"
-msgstr "Метаданыя"
-
-#: core/avplayer/utils/StatisticsView.cpp:154
-#, kde-format
-msgctxt "@item: video stats"
-msgid "Video"
-msgstr "Відэа"
-
-#: core/avplayer/utils/StatisticsView.cpp:161
-#: core/avplayer/utils/StatisticsView.cpp:169
-#, kde-format
-msgctxt "@option"
-msgid "Metadata"
-msgstr "Метаданыя"
-
-#: core/avplayer/utils/StatisticsView.cpp:163
-#, kde-format
-msgctxt "@option"
-msgid "Audio"
-msgstr "Аўдыё"
-
-#: core/avplayer/utils/StatisticsView.cpp:173
-#, kde-format
-msgctxt "@action"
-msgid "Ok"
-msgstr "Добра"
 
 #: core/dplugins/bqm/colors/autocorrection/autocorrection.cpp:60
 #: core/dplugins/editor/colors/autocorrection/autocorrectiontool.cpp:119
@@ -5580,7 +4760,7 @@ msgid "Watermark type: "
 msgstr ""
 
 #: core/dplugins/bqm/decorate/watermark/watermark.cpp:207
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:486
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:549
 #, kde-format
 msgid "Image"
 msgstr "Выява"
@@ -10561,7 +9741,7 @@ msgstr ""
 #: core/dplugins/generic/webservices/onedrive/odwindow.cpp:243
 #: core/dplugins/generic/webservices/pinterest/ptalker.cpp:411
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:247
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:380
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:382
 #: core/dplugins/generic/webservices/smugmug/smugtalker.cpp:746
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:442
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:451
@@ -10590,31 +9770,31 @@ msgid "Edit Geolocation"
 msgstr ""
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:124
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:590
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:591
 #, kde-format
 msgid "Latitude"
 msgstr "Шырата"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:128
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:591
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:592
 #, kde-format
 msgid "Longitude"
 msgstr "Даўгата"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:136
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:597
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:598
 #, kde-format
 msgid "Speed"
 msgstr "Хуткасць"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:142
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:596
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:597
 #, kde-format
 msgid "# satellites"
 msgstr "# спадарожнікі"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:148
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:595
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:596
 #, kde-format
 msgid "Fix type"
 msgstr "Тып фіксацыі"
@@ -10630,10 +9810,15 @@ msgid "3-d"
 msgstr "3-d"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:154
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:594
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:595
 #, kde-format
 msgid "DOP"
 msgstr "DOP"
+
+#: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:160
+#, kde-format
+msgid "Apply"
+msgstr "Ужыць"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:439
 #, kde-format
@@ -14598,7 +13783,7 @@ msgstr ""
 #: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:40
 #: core/dplugins/generic/tools/dngconverter/dngconverterlist.cpp:40
 #: core/dplugins/generic/tools/ocrtextconverter/textconverterlist.cpp:93
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:598
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:599
 #, kde-format
 msgid "Status"
 msgstr "Статус"
@@ -19260,7 +18445,7 @@ msgstr "Папярэдні прагляд..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: core/dplugins/generic/view/presentation/audio/presentation_audiopage.ui:322
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:155
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:198
 #: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:159
 #: core/libs/dplugins/webservices/wssettingswidget.cpp:154
 #: core/utilities/advancedrename/advancedrenamewidget.cpp:389
@@ -20221,9 +19406,9 @@ msgstr ""
 #: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1151
 #: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:448
 #: core/dplugins/generic/webservices/onedrive/odtalker.cpp:450
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:696
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:843
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:1014
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:723
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:874
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:1046
 #: core/dplugins/generic/webservices/twitter/twittertalker.cpp:741
 #: core/dplugins/generic/webservices/twitter/twittertalker.cpp:763
 #: core/dplugins/generic/webservices/twitter/twittertalker.cpp:805
@@ -20256,7 +19441,7 @@ msgstr "Экспартаванне ў Box"
 #: core/dplugins/generic/webservices/mediawiki/mediawikiwindow.cpp:103
 #: core/dplugins/generic/webservices/onedrive/odwindow.cpp:82
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:82
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:232
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:281
 #: core/dplugins/generic/webservices/rajce/rajcewindow.cpp:45
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:132
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:83
@@ -20365,7 +19550,7 @@ msgstr "Экспартаванне ў Box"
 #: core/dplugins/generic/webservices/ipfs/ipfswindow.cpp:232
 #: core/dplugins/generic/webservices/onedrive/odwindow.cpp:324
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:328
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:584
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:650
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:918
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:328
 #: core/dplugins/generic/webservices/unified/manager/wsauthentication.cpp:419
@@ -20387,7 +19572,7 @@ msgstr ""
 #: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:375
 #: core/dplugins/generic/webservices/onedrive/odwindow.cpp:384
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:386
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:368
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:425
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:391
 #| msgid "Login Failed"
 msgctxt "@title:window"
@@ -23100,136 +22285,169 @@ msgctxt "@action"
 msgid "Export to &Piwigo..."
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:337
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:339
 #, kde-format
 msgid "Check if %1 already exists"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:483
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:504
 #, kde-format
 msgid "Piwigo URL probably incorrect"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:489
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:511
 #, kde-format
 msgid "Incorrect username or password specified"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:534
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:716
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:557
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:744
 #, kde-format
 msgid "Upload to Piwigo version inferior to 2.4 is no longer supported"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:608
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:690
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:763
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:836
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:632
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:716
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:792
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:867
 #, kde-format
 msgid "Invalid response received from remote Piwigo"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:614
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:639
 #: core/dplugins/generic/webservices/smugmug/smugtalker.cpp:964
 #, kde-format
 msgid "Failed to list albums"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:664
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:690
 #, kde-format
 msgid "Photo '%1' already exists."
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:769
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:799
 #, kde-format
 msgid "Photo '%1' already exists in this album."
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:859
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:890
 #, kde-format
 msgid "Error : Cannot open photo: %1"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:886
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:918
 #, kde-format
 msgid "Upload the chunk %1/%2 of %3"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:921
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:953
 #, kde-format
 msgid "Warning : The full size photo cannot be uploaded."
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:972
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:1004
 #, kde-format
 msgid "Upload the metadata of %1"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:1007
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:1039
 #, kde-format
 msgid "Invalid response received from remote Piwigo (%1)"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:123
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:137
 #, kde-format
 msgid "Visit Piwigo website"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:151
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:170
+#| msgctxt "@action: setup"
+#| msgid "Delete Album"
+msgid "Remote Albums"
+msgstr ""
+
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:176
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:135
+#, kde-format
+msgctxt "reload album list"
+msgid "Reload"
+msgstr "Перазагрузіць"
+
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:178
+#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:137
+#: core/libs/dplugins/webservices/wssettingswidget.cpp:220
+#, kde-format
+msgid "Reload album list"
+msgstr ""
+
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:186
+#| msgctxt "filename"
+#| msgid "Name:"
+msgctxt "piwigo account settings"
+msgid "Name:"
+msgstr "Імя:"
+
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:188
+#, kde-format
+msgctxt "piwigo url settings"
+msgid "Url:"
+msgstr ""
+
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:194
 #: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:97
 #: core/libs/dplugins/webservices/wssettingswidget.cpp:195
 #, kde-format
 msgid "Change Account"
 msgstr "Змяніць акаўнт"
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:159
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:202
 #: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:164
 #: core/libs/dplugins/webservices/wssettingswidget.cpp:255
 #, kde-format
 msgid "Resize photos before uploading"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:162
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:205
 #, kde-format
 msgid "Maximum width:"
 msgstr "Максімальная шырыня:"
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:168
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:211
 #, kde-format
 msgid "Maximum height:"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:174
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:217
 #, kde-format
 msgid "Resized JPEG quality:"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:227
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:276
 #| msgid "Piwigo Export"
 msgctxt "@title:window"
 msgid "Piwigo Export"
 msgstr "Экспартаванне ў Piwigo"
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:260
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:378
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:634
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:300
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:435
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:706
 #, kde-format
 msgid "Edit Piwigo Data"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:369
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:426
 #, kde-format
 msgid "Failed to login into remote piwigo. "
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:370
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:427
 #, kde-format
 msgid "\n"
 "Do you want to check your settings and try again?"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:442
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:466
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:505
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:529
 #: core/dplugins/generic/webservices/smugmug/smugnewalbumdlg.cpp:94
 #: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:113
 #: core/libs/dplugins/webservices/wssettingswidget.cpp:143
@@ -23242,27 +22460,27 @@ msgstr ""
 msgid "Album"
 msgstr "Альбом"
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:520
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:583
 #, kde-format
 msgid "Nothing to upload - please select photos to upload."
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:559
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:625
 #, kde-format
 msgid "The file %1 is not a supported image or video format"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:564
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:630
 #, kde-format
 msgid "Uploading file %1"
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:585
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:651
 #, kde-format
 msgid "Failed to upload media into remote Piwigo. "
 msgstr ""
 
-#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:586
+#: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:652
 #, kde-format
 msgid "\n"
 "Do you want to continue?"
@@ -23665,18 +22883,6 @@ msgstr "Новы альбом"
 msgid "Create new SmugMug album"
 msgstr ""
 
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:135
-#, kde-format
-msgctxt "reload album list"
-msgid "Reload"
-msgstr "Перазагрузіць"
-
-#: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:137
-#: core/libs/dplugins/webservices/wssettingswidget.cpp:220
-#, kde-format
-msgid "Reload album list"
-msgstr ""
-
 #: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:152
 #, kde-format
 msgid "This is the location where SmugMug images will be downloaded."
@@ -24044,7 +23250,7 @@ msgid "Cannot decode RAW image\n"
 msgstr ""
 
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:173
-#: core/libs/video/qtav/config/MiscPage.cpp:87
+#: core/libs/video/qtav/config/MiscPage.cpp:89
 #, kde-format
 msgid "Abort"
 msgstr "Перарваць"
@@ -24115,6 +23321,14 @@ msgstr ""
 #, kde-format
 msgid "This is the curve adjustment of the image luminosity"
 msgstr "Гэта крывая для наладжвання агульнай асветленасці выявы"
+
+#: core/dplugins/rawimport/native/rawsettingsbox.cpp:263
+#: core/dplugins/rawimport/native/rawsettingsbox.cpp:315
+#: core/libs/tags/widgets/tageditdlg.cpp:193
+#: core/utilities/searchwindow/searchview.cpp:510
+#, kde-format
+msgid "Reset"
+msgstr "Скінуць"
 
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:265
 #, kde-format
@@ -25923,6 +25137,13 @@ msgstr "Пошук выяў у асобных альбомах..."
 #, kde-format
 msgid "Migrate ->"
 msgstr "Перанесці ->"
+
+#: core/libs/database/utils/widgets/dbmigrationdlg.cpp:141
+#: core/libs/dplugins/webservices/wstooldialog.cpp:110
+#: core/utilities/imageeditor/editor/editortoolsettings.cpp:208
+#, kde-format
+msgid "Cancel"
+msgstr "Скасаваць"
 
 #: core/libs/database/utils/widgets/dbmigrationdlg.cpp:144
 #, kde-format
@@ -35877,7 +35098,7 @@ msgstr "Выкарыстанне:"
 msgid "No or invalid size specified"
 msgstr ""
 
-#: core/libs/threadimageio/thumb/thumbnailcreator.cpp:304
+#: core/libs/threadimageio/thumb/thumbnailcreator.cpp:325
 #, kde-format
 msgid "Thumbnail is null"
 msgstr ""
@@ -37115,52 +36336,52 @@ msgstr "Не зважаць"
 msgid "Progress update interval"
 msgstr ""
 
-#: core/libs/video/qtav/config/MiscPage.cpp:75
+#: core/libs/video/qtav/config/MiscPage.cpp:77
 #, kde-format
 msgid "Buffer frames"
 msgstr ""
 
-#: core/libs/video/qtav/config/MiscPage.cpp:81
+#: core/libs/video/qtav/config/MiscPage.cpp:83
 #, kde-format
 msgid "Timeout"
 msgstr "Затрымліванне"
 
-#: core/libs/video/qtav/config/MiscPage.cpp:81
+#: core/libs/video/qtav/config/MiscPage.cpp:83
 #, kde-format
 msgid "s"
 msgstr "с"
 
-#: core/libs/video/qtav/config/MiscPage.cpp:93
+#: core/libs/video/qtav/config/MiscPage.cpp:95
 #, kde-format
 msgid "OpenGL type"
 msgstr ""
 
-#: core/libs/video/qtav/config/MiscPage.cpp:99
+#: core/libs/video/qtav/config/MiscPage.cpp:101
 #, kde-format
 msgid "Windows only"
 msgstr ""
 
-#: core/libs/video/qtav/config/MiscPage.cpp:100
+#: core/libs/video/qtav/config/MiscPage.cpp:102
 #, kde-format
 msgid "OpenGLES is Used by DXVA Zero Copy"
 msgstr ""
 
-#: core/libs/video/qtav/config/MiscPage.cpp:103
+#: core/libs/video/qtav/config/MiscPage.cpp:105
 #, kde-format
 msgid "D3D9 has performance if ZeroCopy is disabled or for software decoders"
 msgstr ""
 
-#: core/libs/video/qtav/config/MiscPage.cpp:104
+#: core/libs/video/qtav/config/MiscPage.cpp:106
 #, kde-format
 msgid "RESTART REQUIRED"
 msgstr ""
 
-#: core/libs/video/qtav/config/MiscPage.cpp:121
+#: core/libs/video/qtav/config/MiscPage.cpp:123
 #, kde-format
 msgid "Currently only works for Qt>=5.5 XCB build"
 msgstr ""
 
-#: core/libs/video/qtav/config/MiscPage.cpp:128
+#: core/libs/video/qtav/config/MiscPage.cpp:130
 #, kde-format
 msgid "Misc"
 msgstr "Рознае"
@@ -37206,6 +36427,12 @@ msgstr ""
 msgctxt "@title"
 msgid "Shader"
 msgstr ""
+
+#: core/libs/video/qtav/config/VideoEQConfigPage.cpp:50
+#, kde-format
+msgctxt "@label"
+msgid "Engine"
+msgstr "Сістэма"
 
 #: core/libs/video/qtav/config/VideoEQConfigPage.cpp:68
 #, kde-format
@@ -37387,6 +36614,11 @@ msgstr ""
 #, kde-format
 msgid "About Qt"
 msgstr "Пра Qt"
+
+#: core/libs/video/qtav/widgets/QtAVWidgets_Global.cpp:208
+#, kde-format
+msgid "Ok"
+msgstr "Добра"
 
 #: core/libs/video/qtav/widgets/QtAVWidgets_Global.cpp:215
 #: core/libs/video/qtav/widgets/QtAVWidgets_Global.cpp:237
@@ -47049,7 +46281,7 @@ msgid "Tilt"
 msgstr "Нахіл"
 
 #: core/utilities/advancedrename/parser/options/database/keys/positionkeys.cpp:61
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:593
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:594
 #, kde-format
 msgid "Accuracy"
 msgstr "Дакладнасць"
@@ -48548,64 +47780,64 @@ msgctxt "@title: track list header"
 msgid "#points"
 msgstr "#кропак"
 
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:404
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:405
 #, kde-format
 msgid "Not available"
 msgstr "Недаступна"
 
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:443
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:444
 #, kde-format
 msgid "DOP: %1"
 msgstr "DOP: %1"
 
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:448
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:449
 #, kde-format
 msgid "Fix: %1d"
 msgstr "Фіксацыя: %1d"
 
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:453
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:454
 #, kde-format
 msgid "#Sat: %1"
 msgstr "Колькасць спадарожнікаў: %1"
 
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:496
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:497
 #, kde-format
 msgid "%1d"
 msgstr "%1d"
 
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:520
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:521
 #, kde-format
 msgid "Modified"
 msgstr "Зменена"
 
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:589
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:590
 #, kde-format
 msgid "Date and time"
 msgstr "Дата і час"
 
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:833
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:834
 #, kde-format
 msgid "Failed to open file."
 msgstr ""
 
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:902
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:903
 #, kde-format
 msgid "Failed to add GPS info to image."
 msgstr ""
 
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:914
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:915
 #, kde-format
 msgid "Failed to remove GPS info from image"
 msgstr ""
 
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:949
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:956
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:979
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:950
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:957
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:980
 #, kde-format
 msgid "Failed to save tags to file."
 msgstr ""
 
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:994
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:995
 #, kde-format
 msgid "Unable to save changes to file"
 msgstr ""
@@ -54570,7 +53802,8 @@ msgid "<p>Set this option to preview each item while downloading.</p>"
 msgstr ""
 
 #: core/utilities/setup/camera/setupcamera.cpp:567
-#, kde-format
+#| msgid "Import Window"
+msgctxt "@title:tab import tool GUI settings"
 msgid "Import Window"
 msgstr "Акно імпартавання"
 
@@ -57148,6 +56381,311 @@ msgstr ""
 msgctxt "@info"
 msgid "Do you want to reset all video settings to the default value?"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Open a preview"
+#~ msgctxt "@title:window"
+#~ msgid "Open a Video"
+#~ msgstr "Адкрываць папярэдні прагляд"
+
+#, fuzzy
+#~| msgid "Open a preview"
+#~ msgctxt "@title:window"
+#~ msgid "Open an Url"
+#~ msgstr "Адкрываць папярэдні прагляд"
+
+#, fuzzy
+#~| msgctxt "@title"
+#~| msgid "Help"
+#~ msgctxt "@title:window"
+#~ msgid "Help"
+#~ msgstr "Даведка"
+
+#~ msgctxt "@action: open new media"
+#~ msgid "Open"
+#~ msgstr "Адкрыць"
+
+#~ msgctxt "@action: about AVPlayer"
+#~ msgid "About"
+#~ msgstr "Пра праграму"
+
+#~ msgctxt "@action: AVPlayer help"
+#~ msgid "Help"
+#~ msgstr "Даведка"
+
+#, fuzzy
+#~| msgid "Open File"
+#~ msgctxt "@title:window"
+#~ msgid "Open a Media File"
+#~ msgstr "Адкрыць файл"
+
+#~ msgctxt "@option"
+#~ msgid "Aspect ratio"
+#~ msgstr "Суадносіны бакоў"
+
+#, fuzzy
+#~| msgid "Profile Error"
+#~ msgctxt "@title:window"
+#~ msgid "Player Error"
+#~ msgstr "Памылка профiлю"
+
+#~ msgctxt "@info: media loading"
+#~ msgid "No media"
+#~ msgstr "Няма медыя"
+
+#~ msgctxt "@info: media loading"
+#~ msgid "Buffering..."
+#~ msgstr "Буферызацыя..."
+
+#~ msgctxt "@info: media loading"
+#~ msgid "Loading..."
+#~ msgstr "Загрузка..."
+
+#, fuzzy
+#~| msgctxt "@info: media loading"
+#~| msgid "Buffering..."
+#~ msgctxt "@title:window, media loading state"
+#~ msgid "Buffering... %1% @%2 %3"
+#~ msgstr "Буферызацыя..."
+
+#, fuzzy
+#~| msgid "Open File"
+#~ msgctxt "@title:window"
+#~ msgid "Open a Subtitle File"
+#~ msgstr "Адкрыць файл"
+
+#~ msgctxt "@action: audio track"
+#~ msgid "External"
+#~ msgstr "Вонкавы"
+
+#~ msgctxt "@info"
+#~ msgid "Current time"
+#~ msgstr "Бягучы час"
+
+#~ msgctxt "@info"
+#~ msgid "Duration"
+#~ msgstr "Працягласць"
+
+#~ msgctxt "@info: open new media"
+#~ msgid "Open"
+#~ msgstr "Адкрыць"
+
+#~ msgctxt "@info: button"
+#~ msgid "Capture"
+#~ msgstr "Захоп"
+
+#~ msgctxt "@info: button"
+#~ msgid "Volume"
+#~ msgstr "Гучнасць"
+
+#~ msgctxt "@option"
+#~ msgid "History"
+#~ msgstr "Гісторыя"
+
+#~ msgctxt "@action"
+#~ msgid "About"
+#~ msgstr "Пра праграму"
+
+#~ msgctxt "@action"
+#~ msgid "Setup"
+#~ msgstr "Наладжванне"
+
+#~ msgctxt "@option"
+#~ msgid "Speed"
+#~ msgstr "Хуткасць"
+
+#~ msgctxt "@option"
+#~ msgid "Repeat"
+#~ msgstr "Паўтор"
+
+#~ msgctxt "@action"
+#~ msgid "Enable"
+#~ msgstr "Уключыць"
+
+#~ msgctxt "@label"
+#~ msgid "Times"
+#~ msgstr "Разы"
+
+#~ msgctxt "@label: from time-stamp"
+#~ msgid "From"
+#~ msgstr "Ад"
+
+#~ msgctxt "@label: to time-stamp"
+#~ msgid "To"
+#~ msgstr "Да"
+
+#~ msgctxt "@action"
+#~ msgid "Clock"
+#~ msgstr "Гадзіннік"
+
+#~ msgctxt "@option: clock sync"
+#~ msgid "Auto"
+#~ msgstr "Аўтаматычна"
+
+#~ msgctxt "@option: clock sync"
+#~ msgid "Audio"
+#~ msgstr "Аўдыё"
+
+#~ msgctxt "@option: clock sync"
+#~ msgid "Video"
+#~ msgstr "Відэа"
+
+#~ msgctxt "@option"
+#~ msgid "Subtitle"
+#~ msgstr "Субцітры"
+
+#~ msgctxt "@action: open subtitle file"
+#~ msgid "Open"
+#~ msgstr "Адкрыць"
+
+#~ msgctxt "@label"
+#~ msgid "Charset"
+#~ msgstr "Кадаванне"
+
+#~ msgctxt "@option"
+#~ msgid "Auto detect"
+#~ msgstr "Аўтавызначэнне"
+
+#~ msgctxt "@option"
+#~ msgid "System"
+#~ msgstr "Сістэмны"
+
+#~ msgctxt "@option"
+#~ msgid "Channel"
+#~ msgstr "Канал"
+
+#~ msgctxt "@action: channel option"
+#~ msgid "Stereo"
+#~ msgstr "Стэрэа"
+
+#~ msgctxt "@action: channel option"
+#~ msgid "Left"
+#~ msgstr "Левы"
+
+#~ msgctxt "@action: channel option"
+#~ msgid "Right"
+#~ msgstr "Правы"
+
+#~ msgctxt "@action: aspect ratio"
+#~ msgid "Video"
+#~ msgstr "Відэа"
+
+#~ msgctxt "@action: video ratio"
+#~ msgid "Window"
+#~ msgstr "Акно"
+
+#~ msgctxt "@action: video ratio"
+#~ msgid "Custom"
+#~ msgstr "Адвольна"
+
+#~ msgctxt "@option"
+#~ msgid "Color space"
+#~ msgstr "Колеравая прастора"
+
+#~ msgctxt "@option"
+#~ msgid "Decoder"
+#~ msgstr "Дэкодар"
+
+#~ msgctxt "@option"
+#~ msgid "Renderer"
+#~ msgstr "Сродак рэндэрынгу"
+
+#~ msgctxt "@action: clear playlist"
+#~ msgid "Clear"
+#~ msgstr "Ачысціць"
+
+#, fuzzy
+#~| msgid "Select images"
+#~ msgctxt "@title:window"
+#~ msgid "Select Files"
+#~ msgstr "Абраць выявы"
+
+#~ msgctxt "@option: base"
+#~ msgid "Format"
+#~ msgstr "Фармат"
+
+#~ msgctxt "@option: base"
+#~ msgid "Start time"
+#~ msgstr "Час пачатку"
+
+#~ msgctxt "@option: base"
+#~ msgid "Duration"
+#~ msgstr "Працягласць"
+
+#~ msgctxt "@option: common"
+#~ msgid "Available"
+#~ msgstr "Даступны"
+
+#~ msgctxt "@option: common"
+#~ msgid "Codec"
+#~ msgstr "Кодак"
+
+#~ msgctxt "@option: common"
+#~ msgid "Decoder"
+#~ msgstr "Дэкодар"
+
+#~ msgctxt "@option: common"
+#~ msgid "Total time"
+#~ msgstr "Агульны час"
+
+#~ msgctxt "@option: common"
+#~ msgid "Start time"
+#~ msgstr "Час пачатку"
+
+#~ msgctxt "@option: common"
+#~ msgid "Frames"
+#~ msgstr "Рамкі"
+
+#~ msgctxt "@option: video"
+#~ msgid "Pixel format"
+#~ msgstr "Фармат пікселяў"
+
+#~ msgctxt "@option: video"
+#~ msgid "Size"
+#~ msgstr "Памер"
+
+#~ msgctxt "@option: audio"
+#~ msgid "Sample rate"
+#~ msgstr "Частата дыскрэтызацыі"
+
+#~ msgctxt "@option: audio"
+#~ msgid "Channels"
+#~ msgstr "Каналы"
+
+#, fuzzy
+#~| msgctxt "@title"
+#~| msgid "Media info"
+#~ msgctxt "@title:window"
+#~ msgid "Media Info"
+#~ msgstr "Звесткі"
+
+#~ msgctxt "@title"
+#~ msgid "Key"
+#~ msgstr "Ключ"
+
+#~ msgctxt "@title"
+#~ msgid "Value"
+#~ msgstr "Значэнне"
+
+#~ msgctxt "@item: video info"
+#~ msgid "Metadata"
+#~ msgstr "Метаданыя"
+
+#~ msgctxt "@item: video stats"
+#~ msgid "Video"
+#~ msgstr "Відэа"
+
+#~ msgctxt "@option"
+#~ msgid "Metadata"
+#~ msgstr "Метаданыя"
+
+#~ msgctxt "@option"
+#~ msgid "Audio"
+#~ msgstr "Аўдыё"
+
+#~ msgctxt "@action"
+#~ msgid "Ok"
+#~ msgstr "Добра"
 
 #, fuzzy
 #~| msgid "Country:"
