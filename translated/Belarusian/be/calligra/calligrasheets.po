@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-05 00:52+0000\n"
-"PO-Revision-Date: 2023-03-05 13:01\n"
+"POT-Creation-Date: 2023-04-30 00:48+0000\n"
+"PO-Revision-Date: 2023-05-06 12:55\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -115,31 +115,29 @@ msgstr ""
 msgid "Default"
 msgstr "Прадвызначаная"
 
-#: core/ValueFormatter.cpp:529 core/ValueFormatter.cpp:535
+#: core/ValueFormatter.cpp:546 core/ValueFormatter.cpp:552
 msgid "AM"
 msgstr "AM"
 
-#: core/ValueFormatter.cpp:529 core/ValueFormatter.cpp:535
+#: core/ValueFormatter.cpp:546 core/ValueFormatter.cpp:552
 msgid "PM"
 msgstr "PM"
 
-#: core/ValueFormatter.cpp:539
+#: core/ValueFormatter.cpp:556
 msgid "h"
 msgstr "г"
 
-#: core/ValueFormatter.cpp:541
+#: core/ValueFormatter.cpp:558
 msgid "min"
 msgstr "хв"
 
-#: core/ValueFormatter.cpp:543
+#: core/ValueFormatter.cpp:560
 msgid "s"
 msgstr "с"
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_9)
 #: engine/FunctionDescription.cpp:37 functions/text.xml:5
 #: functions/text.xml:586 functions/text.xml:698 functions/text.xml:713
-#: functions/text.xml:778 ui/dialogs/DataFormatWidget.ui:60
-#: ui/dialogs/LayoutPage_Float.cpp:94
+#: functions/text.xml:778 ui/dialogs/LayoutPage_Float.cpp:94
 msgid "Text"
 msgstr "Тэкст"
 
@@ -198,7 +196,7 @@ msgstr ""
 msgid "Syntax"
 msgstr "Сінтаксіс"
 
-#: engine/FunctionDescription.cpp:177 ui/dialogs/FormulaDialog.cpp:170
+#: engine/FunctionDescription.cpp:177
 msgid "Parameters"
 msgstr "Параметры"
 
@@ -219,11 +217,11 @@ msgstr ""
 msgid "Related Functions"
 msgstr ""
 
-#: engine/Localization.cpp:571
+#: engine/Localization.cpp:748
 msgid "true"
 msgstr "так"
 
-#: engine/Localization.cpp:572
+#: engine/Localization.cpp:749
 msgid "false"
 msgstr "не"
 
@@ -231,60 +229,60 @@ msgstr "не"
 msgid "Dependency"
 msgstr ""
 
-#: engine/Value.cpp:597
+#: engine/Value.cpp:594
 #, kde-format
 msgctxt "Error: circular formula dependency"
 msgid "#CIRCLE!"
 msgstr ""
 
-#: engine/Value.cpp:605
+#: engine/Value.cpp:602
 #, kde-format
 msgctxt "Error: broken cell reference"
 msgid "#DEPEND!"
 msgstr ""
 
-#: engine/Value.cpp:613
+#: engine/Value.cpp:610
 #, kde-format
 msgctxt "Error: division by zero"
 msgid "#DIV/0!"
 msgstr ""
 
-#: engine/Value.cpp:621
+#: engine/Value.cpp:618
 #, kde-format
 msgctxt "Error: not available"
 msgid "#N/A"
 msgstr ""
 
-#: engine/Value.cpp:629
+#: engine/Value.cpp:626
 #, kde-format
 msgctxt "Error: unknown function name"
 msgid "#NAME?"
 msgstr ""
 
-#: engine/Value.cpp:637
+#: engine/Value.cpp:634
 #, kde-format
 msgctxt "Error: number out of range"
 msgid "#NUM!"
 msgstr ""
 
-#: engine/Value.cpp:645
+#: engine/Value.cpp:642
 #, kde-format
 msgctxt "Error: empty intersecting area"
 msgid "#NULL!"
 msgstr ""
 
-#: engine/Value.cpp:653
+#: engine/Value.cpp:650
 msgctxt "Error: formula not parseable"
 msgid "#PARSE!"
 msgstr ""
 
-#: engine/Value.cpp:661
+#: engine/Value.cpp:658
 #, kde-format
 msgctxt "Error: invalid cell/array reference"
 msgid "#REF!"
 msgstr ""
 
-#: engine/Value.cpp:669
+#: engine/Value.cpp:666
 #, kde-format
 msgctxt "Error: wrong (number of) function argument(s)"
 msgid "#VALUE!"
@@ -649,7 +647,6 @@ msgstr ""
 msgid "CARY(12;0) returns 0"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
 #: functions/conversion.xml:247 functions/engineering.xml:11
 #: functions/engineering.xml:117 functions/financial.xml:532
 #: functions/statistical.xml:91 functions/statistical.xml:127
@@ -661,15 +658,13 @@ msgstr ""
 #: functions/statistical.xml:899 functions/statistical.xml:1003
 #: functions/statistical.xml:1392 functions/statistical.xml:1675
 #: functions/statistical.xml:1823 functions/text.xml:11 functions/text.xml:30
-#: functions/text.xml:838 ui/dialogs/DataFormatWidget.ui:116
-#: ui/dialogs/LayoutPage_Float.cpp:62
+#: functions/text.xml:838 ui/dialogs/LayoutPage_Float.cpp:62
 msgid "Number"
 msgstr "Нумар"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: ToolBar (formatToolBar)
 #: functions/conversion.xml:251 part/calligrasheets.rc:235
-#: ui/dialogs/DataFormatWidget.ui:35 ui/dialogs/LayoutPage_Float.cpp:52
+#: ui/dialogs/LayoutPage_Float.cpp:52
 msgid "Format"
 msgstr "Фармат"
 
@@ -710,7 +705,6 @@ msgid "ARABIC(\"XCIX\") returns 99"
 msgstr ""
 
 #: functions/database.xml:5 part/chart/ChartDatabaseSelectorFactory.cpp:26
-#: ui/CellToolBase.cpp:111 ui/dialogs/DatabaseDialog.cpp:117
 msgid "Database"
 msgstr "База даных"
 
@@ -905,13 +899,12 @@ msgstr ""
 msgid "Date & Time"
 msgstr "Дата і час"
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_7)
 #: functions/datetime.xml:11 functions/datetime.xml:71
 #: functions/datetime.xml:86 functions/datetime.xml:107
 #: functions/datetime.xml:129 functions/datetime.xml:146
 #: functions/datetime.xml:163 functions/datetime.xml:588
 #: functions/datetime.xml:603 functions/datetime.xml:716
-#: ui/dialogs/DataFormatWidget.ui:74 ui/dialogs/LayoutPage_Float.cpp:82
+#: ui/dialogs/LayoutPage_Float.cpp:82
 msgid "Date"
 msgstr "Дата"
 
@@ -955,12 +948,10 @@ msgstr ""
 msgid "DAYS360(\"2/22/2002\"; \"4/21/2002\"; FALSE) returns 59"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_8)
 #: functions/datetime.xml:56 functions/datetime.xml:180
 #: functions/datetime.xml:197 functions/datetime.xml:214
 #: functions/datetime.xml:387 functions/datetime.xml:461
-#: functions/datetime.xml:475 ui/dialogs/DataFormatWidget.ui:67
-#: ui/dialogs/LayoutPage_Float.cpp:86
+#: functions/datetime.xml:475 ui/dialogs/LayoutPage_Float.cpp:86
 msgid "Time"
 msgstr "Час"
 
@@ -2833,9 +2824,8 @@ msgstr ""
 msgid "Fractional Dollar"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_6)
 #: functions/financial.xml:384 functions/financial.xml:404
-#: ui/dialogs/DataFormatWidget.ui:81 ui/dialogs/LayoutPage_Float.cpp:78
+#: ui/dialogs/LayoutPage_Float.cpp:78
 msgid "Fraction"
 msgstr "Адсотак выканання"
 
@@ -2957,8 +2947,7 @@ msgstr ""
 msgid "EFFECTIVE(nominal;periods)"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_5)
-#: functions/financial.xml:517 ui/dialogs/DataFormatWidget.ui:88
+#: functions/financial.xml:517
 msgid "Currency"
 msgstr "Грошы"
 
@@ -4184,7 +4173,7 @@ msgstr ""
 msgid "Math"
 msgstr "Матэматыка"
 
-#: functions/math.xml:11 ui/dialogs/FormulaDialog.cpp:52
+#: functions/math.xml:11
 msgid "Function"
 msgstr ""
 
@@ -5616,7 +5605,6 @@ msgid "Row"
 msgstr ""
 
 #: functions/reference.xml:141 functions/reference.xml:292
-#: ui/dialogs/DatabaseDialog.cpp:169
 msgid "Column"
 msgstr "Слупок"
 
@@ -7740,7 +7728,7 @@ msgstr ""
 msgid "Source string"
 msgstr ""
 
-#: functions/text.xml:352 ui/dialogs/LayoutDialog.cpp:134
+#: functions/text.xml:352 ui/dialogs/LayoutDialog.cpp:144
 msgid "Position"
 msgstr "Пасада"
 
@@ -8790,7 +8778,7 @@ msgstr "Актываваць"
 #. i18n: tag optionWidget attribute name
 #. i18n: ectx: ToolBar (fontPropertyToolBar)
 #: part/calligrasheets.rc:231 ui/CellToolOptionWidgets.xml:3
-#: ui/dialogs/LayoutDialog.cpp:130
+#: ui/dialogs/LayoutDialog.cpp:140
 msgid "Font"
 msgstr "Шрыфт"
 
@@ -8849,7 +8837,7 @@ msgid "First column as label"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_formatBox)
-#: part/chart/ChartDatabaseSelector.ui:58 ui/dialogs/LayoutDialog.cpp:127
+#: part/chart/ChartDatabaseSelector.ui:58 ui/dialogs/LayoutDialog.cpp:137
 msgid "Data Format"
 msgstr ""
 
@@ -9171,7 +9159,6 @@ msgstr ""
 
 #: part/dialogs/PreferenceDialog.cpp:304 part/dialogs/PreferenceDialog.cpp:312
 #: part/dialogs/PreferenceDialog.cpp:439 part/View.cpp:399
-#: ui/dialogs/DatabaseDialog.cpp:711 ui/dialogs/DatabaseDialog.cpp:712
 msgid "None"
 msgstr "Няма"
 
@@ -9897,69 +9884,9 @@ msgctxt "(qtundo-format)"
 msgid "Change Border"
 msgstr ""
 
-#: ui/CellToolBase.cpp:104
-msgid "&Function..."
-msgstr ""
-
-#: ui/CellToolBase.cpp:107
-msgid "Insert math expression"
-msgstr ""
-
-#: ui/CellToolBase.cpp:110
-msgid "From &Database..."
-msgstr ""
-
-#: ui/CellToolBase.cpp:114
-msgid "Insert data from a SQL database"
-msgstr ""
-
-#: ui/CellToolBase.cpp:117
-msgid "Formula Selection"
-msgstr ""
-
-#: ui/CellToolBase.cpp:119
-msgid "Insert a function"
-msgstr ""
-
-#: ui/CellToolBase.cpp:120 ui/CellToolBase.cpp:972
-msgid "Others..."
-msgstr ""
-
-#: ui/CellToolBase.cpp:128
-msgid "Modify Cell"
-msgstr ""
-
-#: ui/CellToolBase.cpp:132
-msgid "Edit the highlighted cell"
-msgstr ""
-
-#: ui/CellToolBase.cpp:136
-msgid "Run Inspector..."
-msgstr ""
-
-#: ui/CellToolBase.cpp:142
-msgid "Show QTableView..."
-msgstr ""
-
-#: ui/CellToolBase.cpp:150
-msgid "Permute reference fixation"
-msgstr ""
-
-#: ui/CellToolBase.cpp:154
-msgid "Permute fixation"
-msgstr ""
-
-#: ui/CellToolBase.cpp:155
-msgid "Permute the fixation of the reference at the text cursor"
-msgstr ""
-
-#: ui/CellToolBase.cpp:939
+#: ui/CellToolBase.cpp:806
 #, kde-format
 msgid "Unable to locate action %1"
-msgstr ""
-
-#: ui/CellToolBase.cpp:959
-msgid "No database drivers available. To use this feature you need to install the necessary Qt database drivers."
 msgstr ""
 
 #. i18n: tag optionWidget attribute name
@@ -9983,12 +9910,12 @@ msgstr ""
 msgid "Merge"
 msgstr "Аб’яднаць"
 
-#: ui/commands/AbstractRegionCommand.cpp:174
+#: ui/commands/AbstractRegionCommand.cpp:172
 #, kde-format
 msgid "Processing is not possible, because some cells are locked as elements of a matrix."
 msgstr ""
 
-#: ui/commands/AbstractRegionCommand.cpp:187
+#: ui/commands/AbstractRegionCommand.cpp:185
 #, kde-format
 msgid "Processing is not possible, because some cells are protected."
 msgstr ""
@@ -9998,198 +9925,198 @@ msgctxt "(qtundo-format)"
 msgid "Apply Filter"
 msgstr ""
 
-#: ui/commands/AutoFillCommand.cpp:109
+#: ui/commands/AutoFillCommand.cpp:110
 #, kde-format
 msgid "January"
 msgstr "Студзень"
 
-#: ui/commands/AutoFillCommand.cpp:110
+#: ui/commands/AutoFillCommand.cpp:111
 #, kde-format
 msgid "February"
 msgstr "Люты"
 
-#: ui/commands/AutoFillCommand.cpp:111
+#: ui/commands/AutoFillCommand.cpp:112
 #, kde-format
 msgid "March"
 msgstr "Сакавік"
 
-#: ui/commands/AutoFillCommand.cpp:112
+#: ui/commands/AutoFillCommand.cpp:113
 #, kde-format
 msgid "April"
 msgstr "Красавік"
 
-#: ui/commands/AutoFillCommand.cpp:113
+#: ui/commands/AutoFillCommand.cpp:114
 #, kde-format
 msgid "May"
 msgstr "Тра"
 
-#: ui/commands/AutoFillCommand.cpp:114
+#: ui/commands/AutoFillCommand.cpp:115
 #, kde-format
 msgid "June"
 msgstr "Чэрвень"
 
-#: ui/commands/AutoFillCommand.cpp:115
+#: ui/commands/AutoFillCommand.cpp:116
 #, kde-format
 msgid "July"
 msgstr "Ліпень"
 
-#: ui/commands/AutoFillCommand.cpp:116
+#: ui/commands/AutoFillCommand.cpp:117
 #, kde-format
 msgid "August"
 msgstr "Жнівень"
 
-#: ui/commands/AutoFillCommand.cpp:117
+#: ui/commands/AutoFillCommand.cpp:118
 #, kde-format
 msgid "September"
 msgstr "Верасень"
 
-#: ui/commands/AutoFillCommand.cpp:118
+#: ui/commands/AutoFillCommand.cpp:119
 #, kde-format
 msgid "October"
 msgstr "Кастрычнік"
 
-#: ui/commands/AutoFillCommand.cpp:119
+#: ui/commands/AutoFillCommand.cpp:120
 #, kde-format
 msgid "November"
 msgstr "Лістапад"
 
-#: ui/commands/AutoFillCommand.cpp:120
+#: ui/commands/AutoFillCommand.cpp:121
 #, kde-format
 msgid "December"
 msgstr "Снежань"
 
-#: ui/commands/AutoFillCommand.cpp:125
+#: ui/commands/AutoFillCommand.cpp:126
 #, kde-format
 msgid "Jan"
 msgstr "Сту"
 
-#: ui/commands/AutoFillCommand.cpp:126
+#: ui/commands/AutoFillCommand.cpp:127
 #, kde-format
 msgid "Feb"
 msgstr "Лют"
 
-#: ui/commands/AutoFillCommand.cpp:127
+#: ui/commands/AutoFillCommand.cpp:128
 #, kde-format
 msgid "Mar"
 msgstr "Сак"
 
-#: ui/commands/AutoFillCommand.cpp:128
+#: ui/commands/AutoFillCommand.cpp:129
 #, kde-format
 msgid "Apr"
 msgstr "Кра"
 
-#: ui/commands/AutoFillCommand.cpp:129
+#: ui/commands/AutoFillCommand.cpp:130
 #, kde-format
 msgctxt "May short"
 msgid "May"
 msgstr "Тра"
 
-#: ui/commands/AutoFillCommand.cpp:130
+#: ui/commands/AutoFillCommand.cpp:131
 #, kde-format
 msgid "Jun"
 msgstr "Чэр"
 
-#: ui/commands/AutoFillCommand.cpp:131
+#: ui/commands/AutoFillCommand.cpp:132
 #, kde-format
 msgid "Jul"
 msgstr "Ліп"
 
-#: ui/commands/AutoFillCommand.cpp:132
+#: ui/commands/AutoFillCommand.cpp:133
 #, kde-format
 msgid "Aug"
 msgstr "Жні"
 
-#: ui/commands/AutoFillCommand.cpp:133
+#: ui/commands/AutoFillCommand.cpp:134
 #, kde-format
 msgid "Sep"
 msgstr "Вер"
 
-#: ui/commands/AutoFillCommand.cpp:134
+#: ui/commands/AutoFillCommand.cpp:135
 #, kde-format
 msgid "Oct"
 msgstr "Кас"
 
-#: ui/commands/AutoFillCommand.cpp:135
+#: ui/commands/AutoFillCommand.cpp:136
 #, kde-format
 msgid "Nov"
 msgstr "Ліс"
 
-#: ui/commands/AutoFillCommand.cpp:136
+#: ui/commands/AutoFillCommand.cpp:137
 #, kde-format
 msgid "Dec"
 msgstr "Сне"
 
-#: ui/commands/AutoFillCommand.cpp:141
+#: ui/commands/AutoFillCommand.cpp:142
 #, kde-format
 msgid "Monday"
 msgstr "Панядзелак"
 
-#: ui/commands/AutoFillCommand.cpp:142
+#: ui/commands/AutoFillCommand.cpp:143
 #, kde-format
 msgid "Tuesday"
 msgstr "Аўторак"
 
-#: ui/commands/AutoFillCommand.cpp:143
+#: ui/commands/AutoFillCommand.cpp:144
 #, kde-format
 msgid "Wednesday"
 msgstr "Серада"
 
-#: ui/commands/AutoFillCommand.cpp:144
+#: ui/commands/AutoFillCommand.cpp:145
 #, kde-format
 msgid "Thursday"
 msgstr "Чацвер"
 
-#: ui/commands/AutoFillCommand.cpp:145
+#: ui/commands/AutoFillCommand.cpp:146
 #, kde-format
 msgid "Friday"
 msgstr "Пятніца"
 
-#: ui/commands/AutoFillCommand.cpp:146
+#: ui/commands/AutoFillCommand.cpp:147
 #, kde-format
 msgid "Saturday"
 msgstr "Субота"
 
-#: ui/commands/AutoFillCommand.cpp:147
+#: ui/commands/AutoFillCommand.cpp:148
 #, kde-format
 msgid "Sunday"
 msgstr "Нядзеля"
 
-#: ui/commands/AutoFillCommand.cpp:152
+#: ui/commands/AutoFillCommand.cpp:153
 #, kde-format
 msgid "Mon"
 msgstr "Пан"
 
-#: ui/commands/AutoFillCommand.cpp:153
+#: ui/commands/AutoFillCommand.cpp:154
 #, kde-format
 msgid "Tue"
 msgstr "Аўт"
 
-#: ui/commands/AutoFillCommand.cpp:154
+#: ui/commands/AutoFillCommand.cpp:155
 #, kde-format
 msgid "Wed"
 msgstr "Сер"
 
-#: ui/commands/AutoFillCommand.cpp:155
+#: ui/commands/AutoFillCommand.cpp:156
 #, kde-format
 msgid "Thu"
 msgstr "Чац"
 
-#: ui/commands/AutoFillCommand.cpp:156
+#: ui/commands/AutoFillCommand.cpp:157
 #, kde-format
 msgid "Fri"
 msgstr "Пят"
 
-#: ui/commands/AutoFillCommand.cpp:157
+#: ui/commands/AutoFillCommand.cpp:158
 #, kde-format
 msgid "Sat"
 msgstr "Суб"
 
-#: ui/commands/AutoFillCommand.cpp:158
+#: ui/commands/AutoFillCommand.cpp:159
 #, kde-format
 msgid "Sun"
 msgstr "Няд"
 
-#: ui/commands/AutoFillCommand.cpp:678
+#: ui/commands/AutoFillCommand.cpp:679
 msgctxt "(qtundo-format)"
 msgid "Autofill"
 msgstr "Аўтазапаўненне"
@@ -10380,263 +10307,6 @@ msgctxt "(qtundo-format)"
 msgid "Change Style"
 msgstr ""
 
-#: ui/dialogs/DatabaseDialog.cpp:54
-msgid "Insert Data From Database"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:62
-msgid "Type:"
-msgstr "Тып:"
-
-#: ui/dialogs/DatabaseDialog.cpp:67
-msgid "User name:\n"
-"(if necessary)"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:72
-msgid "Host:"
-msgstr "Хост:"
-
-#: ui/dialogs/DatabaseDialog.cpp:86
-msgid "Port:\n"
-"(if necessary)"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:98
-msgid "Database name: "
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:105
-msgid "Password:\n"
-"(if necessary)"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:147
-msgid "Select tables:"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:155
-msgid "Tables"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:164
-msgid "Select columns:"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:169
-msgid "Table"
-msgstr "Табліца"
-
-#: ui/dialogs/DatabaseDialog.cpp:179
-msgid "Columns"
-msgstr "Слупкі"
-
-#: ui/dialogs/DatabaseDialog.cpp:188
-msgid "Match all of the following (AND)"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:193
-msgid "Match any of the following (OR)"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:200 ui/dialogs/DatabaseDialog.cpp:219
-#: ui/dialogs/DatabaseDialog.cpp:235
-msgid "equals"
-msgstr "роўна"
-
-#: ui/dialogs/DatabaseDialog.cpp:201 ui/dialogs/DatabaseDialog.cpp:220
-#: ui/dialogs/DatabaseDialog.cpp:236
-msgid "not equal"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:202 ui/dialogs/DatabaseDialog.cpp:221
-#: ui/dialogs/DatabaseDialog.cpp:237
-msgid "in"
-msgstr "ц"
-
-#: ui/dialogs/DatabaseDialog.cpp:203 ui/dialogs/DatabaseDialog.cpp:222
-#: ui/dialogs/DatabaseDialog.cpp:238
-msgid "not in"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:204 ui/dialogs/DatabaseDialog.cpp:223
-#: ui/dialogs/DatabaseDialog.cpp:239
-msgid "like"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:205 ui/dialogs/DatabaseDialog.cpp:224
-#: ui/dialogs/DatabaseDialog.cpp:240
-msgid "greater"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:206 ui/dialogs/DatabaseDialog.cpp:225
-#: ui/dialogs/DatabaseDialog.cpp:241
-msgid "lesser"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:207
-msgid "greater or equal"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:208
-msgid "less or equal"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:248 ui/dialogs/DatabaseDialog.cpp:260
-msgid "Sorted by"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:255 ui/dialogs/DatabaseDialog.cpp:267
-msgid "Ascending"
-msgstr "Па павелічэнні"
-
-#: ui/dialogs/DatabaseDialog.cpp:256 ui/dialogs/DatabaseDialog.cpp:268
-msgid "Descending"
-msgstr "Па памяншэнні"
-
-#: ui/dialogs/DatabaseDialog.cpp:277
-msgid "Distinct"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:282
-msgid "Query Options"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:291
-msgid "SQL query:"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:303
-msgid "Insert in region"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:313
-msgid "Starting in cell"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:321
-msgid "Result"
-msgstr "Вынік"
-
-#: ui/dialogs/DatabaseDialog.cpp:441 ui/dialogs/DatabaseDialog.cpp:461
-msgid "You cannot specify a table here."
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:448
-msgid "You have to specify a valid region."
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:468
-msgid "You have to specify a valid cell."
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:499
-msgid "You are not allowed to change data in the database."
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:505
-msgid "Executing query failed."
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:511
-msgid "You did not get any results with this query."
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:535
-msgctxt "(qtundo-format)"
-msgid "Insert Data From Database"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:592
-msgid "The port must be a number"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:598
-msgid "Connecting to database..."
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:600
-msgid "Connected. Retrieving table information..."
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:604
-msgid "This database contains no tables"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:639
-msgid "Driver could not be loaded"
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:650
-msgid "Retrieving meta data of tables..."
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:663
-msgid "You have to select at least one table."
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:699
-msgid "You have to select at least one column."
-msgstr ""
-
-#: ui/dialogs/DatabaseDialog.cpp:822 ui/dialogs/DatabaseDialog.cpp:834
-#: ui/dialogs/DatabaseDialog.cpp:846
-msgid "'*' or '?' are not valid wildcards in SQL. The proper replacements are '%' or '_'. Do you want to replace them?"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: ui/dialogs/DataFormatWidget.ui:41 ui/dialogs/FontWidget.ui:187
-#: ui/dialogs/LayoutPage_Border.cpp:359 ui/dialogs/LayoutPage_Float.cpp:103
-#: ui/dialogs/LayoutPage_Pattern.cpp:147
-msgid "Preview"
-msgstr "Папярэдні прагляд"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_4)
-#: ui/dialogs/DataFormatWidget.ui:95 ui/dialogs/LayoutPage_Float.cpp:70
-msgid "Money"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_3)
-#: ui/dialogs/DataFormatWidget.ui:102 ui/dialogs/LayoutPage_Float.cpp:66
-msgid "Percent"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton)
-#: ui/dialogs/DataFormatWidget.ui:109 ui/dialogs/LayoutPage_Float.cpp:58
-msgid "Generic"
-msgstr "Звычайны"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_10)
-#: ui/dialogs/DataFormatWidget.ui:123 ui/dialogs/LayoutPage_Float.cpp:90
-msgid "Date and Time"
-msgstr "Дата і час"
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: ui/dialogs/DataFormatWidget.ui:159 ui/dialogs/LayoutPage_Float.cpp:176
-msgid "Currency:"
-msgstr "Валюта:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: ui/dialogs/DataFormatWidget.ui:166 ui/dialogs/LayoutPage_Float.cpp:172
-msgid "Format:"
-msgstr "Фармат:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: ui/dialogs/DataFormatWidget.ui:173 ui/dialogs/LayoutPage_Float.cpp:147
-msgid "Postfix:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: ui/dialogs/DataFormatWidget.ui:210 ui/dialogs/LayoutPage_Float.cpp:155
-msgid "Precision:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: ui/dialogs/DataFormatWidget.ui:217 ui/dialogs/LayoutPage_Float.cpp:151
-msgid "Prefix:"
-msgstr ""
-
 #. i18n: ectx: property (whatsThis), widget (QWidget, FontWidget)
 #: ui/dialogs/FontWidget.ui:33
 msgid "You can select here the font style, size and color, including some additional options like underlined or stroke out text for the current cell text. The lower part of the page gives a preview of the selected text format.\n"
@@ -10738,49 +10408,38 @@ msgstr ""
 msgid "This box lists all your available font families. Click on one family to set it in the current cell."
 msgstr ""
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: ui/dialogs/FontWidget.ui:187 ui/dialogs/LayoutPage_Border.cpp:359
+#: ui/dialogs/LayoutPage_Float.cpp:103 ui/dialogs/LayoutPage_Pattern.cpp:147
+msgid "Preview"
+msgstr "Папярэдні прагляд"
+
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, example_label)
 #: ui/dialogs/FontWidget.ui:199
 msgid "You can see a preview of the font you are choosing for the current cell."
 msgstr ""
 
-#: ui/dialogs/FormulaDialog.cpp:84 ui/dialogs/FormulaDialog.cpp:190
-#: ui/dialogs/FormulaDialog.cpp:722 ui/FilterPopup.cpp:55
-msgid "All"
-msgstr "Усе"
-
-#: ui/dialogs/FormulaDialog.cpp:115
-msgid "Insert function"
-msgstr ""
-
-#: ui/dialogs/FormulaDialog.cpp:130
-msgid "Help"
-msgstr "Даведка"
-
-#: ui/dialogs/FormulaDialog.cpp:633
-msgid "This function has no parameters."
-msgstr ""
-
-#: ui/dialogs/FormulaDialog.cpp:659
-msgid "Description is not available."
-msgstr ""
-
-#: ui/dialogs/LayoutDialog.cpp:114
+#: ui/dialogs/LayoutDialog.cpp:120
 msgid "Cell Format"
 msgstr ""
 
-#: ui/dialogs/LayoutDialog.cpp:122
+#: ui/dialogs/LayoutDialog.cpp:123
+msgid "Set Cell Format"
+msgstr ""
+
+#: ui/dialogs/LayoutDialog.cpp:132
 msgid "General"
 msgstr "Асноўныя"
 
-#: ui/dialogs/LayoutDialog.cpp:137 ui/dialogs/LayoutPage_Border.cpp:246
+#: ui/dialogs/LayoutDialog.cpp:147 ui/dialogs/LayoutPage_Border.cpp:246
 msgid "Border"
 msgstr ""
 
-#: ui/dialogs/LayoutDialog.cpp:140
+#: ui/dialogs/LayoutDialog.cpp:150
 msgid "Background"
 msgstr "Фон"
 
-#: ui/dialogs/LayoutDialog.cpp:143
+#: ui/dialogs/LayoutDialog.cpp:153
 msgid "Cell Protection"
 msgstr ""
 
@@ -10796,6 +10455,10 @@ msgstr "Шаблон"
 msgid "Customize"
 msgstr "Наладзіць"
 
+#: ui/dialogs/LayoutPage_Float.cpp:58
+msgid "Generic"
+msgstr "Звычайны"
+
 #: ui/dialogs/LayoutPage_Float.cpp:59
 msgid "This is the default format and Calligra Sheets autodetects the actual data type depending on the current cell data. By default, Calligra Sheets right justifies numbers, dates and times within a cell and left justifies anything else."
 msgstr ""
@@ -10804,10 +10467,18 @@ msgstr ""
 msgid "The number notation uses the notation you globally choose in System Settings -> Common Appearance and Behavior -> Locale -> Country/Region & Language -> Numbers tab. Numbers are right justified by default."
 msgstr ""
 
+#: ui/dialogs/LayoutPage_Float.cpp:66
+msgid "Percent"
+msgstr ""
+
 #: ui/dialogs/LayoutPage_Float.cpp:67
 msgid "When you have a number in the current cell and you switch from the dcell format from Generic to Percent, the current cell number will be multiplied by 100%.\n"
 "For example if you enter 12 and set the cell format to Percent, the number will then be 1,200 %. Switching back to Generic cell format will bring it back to 12.\n"
 "You can also use the Percent icon in the Format Toolbar."
+msgstr ""
+
+#: ui/dialogs/LayoutPage_Float.cpp:70
+msgid "Money"
 msgstr ""
 
 #: ui/dialogs/LayoutPage_Float.cpp:71
@@ -10837,8 +10508,13 @@ msgstr ""
 msgid "This formats your cell content as a time. To enter a time, you should enter it in the Time format set in System Settings -> Common Appearance and Behavior -> Locale -> Country/Region & Language -> Date & Time. In the Cell Format dialog box you can set how the time should be displayed by choosing one of the available time format options. The default format is the system format set in System Settings. When the number in the cell does not make sense as a time, Calligra Sheets will display 00:00 in the global format you have in System Settings."
 msgstr ""
 
+#: ui/dialogs/LayoutPage_Float.cpp:90
+msgid "Datetime"
+msgstr "Дата і час"
+
 #: ui/dialogs/LayoutPage_Float.cpp:91
-msgid "This formats your cell content as date and time. To enter a date and a time, you should enter it in the Time format set in System Settings -> Common Appearance and Behavior -> Locale -> Country/Region & Language -> Time & Dates. In the Cell Format dialog box you can set how the time should be displayed by choosing one of the available date format options. The default format is the system format set in System Settings. When the number in the cell does not make sense as a date and time, Calligra Sheets will display 00:00 in the global format you have in System Settings."
+msgid "To enter a datetime, you should enter it in one of the formats set in System Settings -> Common Appearance and Behavior -> Locale -> Country/Region & Language -> Time & Dates. There are two formats set here: the date format and the short date format.\n"
+"Just like you can drag down numbers you can also drag down dates and the next cells will also get datetimes."
 msgstr ""
 
 #: ui/dialogs/LayoutPage_Float.cpp:95
@@ -10881,6 +10557,26 @@ msgstr ""
 msgid "You can choose whether positive values are displayed with a leading + sign and whether negative values are shown in red."
 msgstr ""
 
+#: ui/dialogs/LayoutPage_Float.cpp:147
+msgid "Postfix:"
+msgstr ""
+
+#: ui/dialogs/LayoutPage_Float.cpp:151
+msgid "Prefix:"
+msgstr ""
+
+#: ui/dialogs/LayoutPage_Float.cpp:155
+msgid "Precision:"
+msgstr ""
+
+#: ui/dialogs/LayoutPage_Float.cpp:172
+msgid "Format:"
+msgstr "Фармат:"
+
+#: ui/dialogs/LayoutPage_Float.cpp:176
+msgid "Currency:"
+msgstr "Валюта:"
+
 #: ui/dialogs/LayoutPage_Float.cpp:283
 msgid "Halves 1/2"
 msgstr ""
@@ -10915,24 +10611,6 @@ msgstr ""
 
 #: ui/dialogs/LayoutPage_Float.cpp:291
 msgid "Three digits 153/652"
-msgstr ""
-
-#: ui/dialogs/LayoutPage_Float.cpp:321 ui/dialogs/LayoutPage_Float.cpp:322
-#: ui/dialogs/LayoutPage_Float.cpp:377 ui/dialogs/LayoutPage_Float.cpp:378
-#: ui/dialogs/LayoutPage_Float.cpp:417 ui/dialogs/LayoutPage_Float.cpp:418
-msgid "System: "
-msgstr ""
-
-#: ui/dialogs/LayoutPage_Float.cpp:331
-msgid " (=[mm]:ss)"
-msgstr ""
-
-#: ui/dialogs/LayoutPage_Float.cpp:332
-msgid " (=[hh]:mm:ss)"
-msgstr ""
-
-#: ui/dialogs/LayoutPage_Float.cpp:333
-msgid " (=[hh]:mm)"
 msgstr ""
 
 #: ui/dialogs/LayoutPage_Font.cpp:53
@@ -11155,6 +10833,10 @@ msgstr "Скасаваць"
 msgid "Discard changes"
 msgstr "Адкінуць змены"
 
+#: ui/FilterPopup.cpp:55
+msgid "All"
+msgstr "Усе"
+
 #: ui/FilterPopup.cpp:58
 msgid "Empty"
 msgstr "Ачысціць"
@@ -11189,6 +10871,332 @@ msgstr ""
 #: ui/strategy/HyperlinkStrategy.cpp:89
 msgid "Open Link?"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Date and Time"
+#~ msgstr "Дата і час"
+
+#, fuzzy
+#~ msgid ""
+#~ "This formats your cell content as date and time. To enter a date and a "
+#~ "time, you should enter it in the Time format set in System Settings -> "
+#~ "Common Appearance and Behavior -> Locale -> Country/Region & Language -> "
+#~ "Time & Dates. In the Cell Format dialog box you can set how the time "
+#~ "should be displayed by choosing one of the available date format options. "
+#~ "The default format is the system format set in System Settings. When the "
+#~ "number in the cell does not make sense as a date and time, Calligra "
+#~ "Sheets will display 00:00 in the global format you have in System "
+#~ "Settings."
+#~ msgstr ""
+#~ "Паданне часу можна наладзіць праз Цэнтр кіравання -> Рэгіянальныя і "
+#~ "адмысловыя магчымасці -> Краіна/вобласць і мова -> Час і дата. Вы можаце "
+#~ "вылучыць з спісу на панелі справа прыдатны фармат часу. Калі лік у вочку "
+#~ "не з'яўляецца часам, яно будзе ператворана ў 00:00."
+
+#, fuzzy
+#~ msgid "System: "
+#~ msgstr "Сістэма: "
+
+#, fuzzy
+#~ msgid " (=[mm]:ss)"
+#~ msgstr " (=[mm]::ss)"
+
+#, fuzzy
+#~ msgid " (=[hh]:mm:ss)"
+#~ msgstr " (=[hh]::mm::ss)"
+
+#, fuzzy
+#~ msgid " (=[hh]:mm)"
+#~ msgstr " (=[hh]::mm)"
+
+#, fuzzy
+#~ msgid "&Function..."
+#~ msgstr "Функцыя..."
+
+#, fuzzy
+#~ msgid "Insert math expression"
+#~ msgstr "Уставіць матэматычны выраз"
+
+#, fuzzy
+#~ msgid "From &Database..."
+#~ msgstr "З базы дадзеных..."
+
+#, fuzzy
+#~ msgid "Insert data from a SQL database"
+#~ msgstr "Уставіць дадзеныя з базы дадзеных SQL"
+
+#, fuzzy
+#~ msgid "Formula Selection"
+#~ msgstr "Выбар формулы"
+
+#, fuzzy
+#~ msgid "Insert a function"
+#~ msgstr "Уставіць функцыю"
+
+#, fuzzy
+#~ msgid "Others..."
+#~ msgstr "Іншыя..."
+
+#, fuzzy
+#~ msgid "Modify Cell"
+#~ msgstr "Змяніць вочка"
+
+#, fuzzy
+#~ msgid "Edit the highlighted cell"
+#~ msgstr "Змяніць бягучае вочка"
+
+#, fuzzy
+#~ msgid "Run Inspector..."
+#~ msgstr "Запуск інспектара..."
+
+#, fuzzy
+#~ msgid "Show QTableView..."
+#~ msgstr "Паказаць ліст..."
+
+#, fuzzy
+#~ msgid "Permute reference fixation"
+#~ msgstr "Абарона ад змен"
+
+#, fuzzy
+#~ msgid "Permute fixation"
+#~ msgstr "Абарона ад змен"
+
+#, fuzzy
+#~ msgid "Permute the fixation of the reference at the text cursor"
+#~ msgstr "Уставіць змесціва буфера абмену ў бягучую пазіцыю курсора"
+
+#, fuzzy
+#~ msgid ""
+#~ "No database drivers available. To use this feature you need to install "
+#~ "the necessary Qt database drivers."
+#~ msgstr ""
+#~ "Драйверы баз дадзеных недаступныя. Перазбярыце Qt з неабходнымі "
+#~ "драйверамі."
+
+#, fuzzy
+#~ msgid "Insert Data From Database"
+#~ msgstr "Уставіць дадзеныя з базы дадзеных"
+
+#, fuzzy
+#~ msgid "Type:"
+#~ msgstr "Тып:"
+
+#, fuzzy
+#~ msgid ""
+#~ "User name:\n"
+#~ "(if necessary)"
+#~ msgstr ""
+#~ "Імя карыстача:\n"
+#~ "(калі неабходна)"
+
+#, fuzzy
+#~ msgid "Host:"
+#~ msgstr "Вузел:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Port:\n"
+#~ "(if necessary)"
+#~ msgstr ""
+#~ "Порт:\n"
+#~ "(калі неабходна)"
+
+#, fuzzy
+#~ msgid "Database name: "
+#~ msgstr "Імя базы дадзеных: "
+
+#, fuzzy
+#~ msgid ""
+#~ "Password:\n"
+#~ "(if necessary)"
+#~ msgstr ""
+#~ "Пароль:\n"
+#~ "(калі неабходна)"
+
+#, fuzzy
+#~ msgid "Select tables:"
+#~ msgstr "Вылучыце табліцы:"
+
+#, fuzzy
+#~ msgid "Tables"
+#~ msgstr "Значэнні"
+
+#, fuzzy
+#~ msgid "Select columns:"
+#~ msgstr "Вылучыце слупкі:"
+
+#, fuzzy
+#~ msgid "Table"
+#~ msgstr "Тала"
+
+#, fuzzy
+#~ msgid "Columns"
+#~ msgstr "Слупкі"
+
+#, fuzzy
+#~ msgid "Match all of the following (AND)"
+#~ msgstr "Задавальняе ўсім умовам (І)"
+
+#, fuzzy
+#~ msgid "Match any of the following (OR)"
+#~ msgstr "Задавальняе хоць бы аднаму ўмове (АБО)"
+
+#, fuzzy
+#~ msgid "equals"
+#~ msgstr "роўна"
+
+#, fuzzy
+#~ msgid "not equal"
+#~ msgstr "не роўна"
+
+#, fuzzy
+#~ msgid "in"
+#~ msgstr "дзюйм(аў)"
+
+#, fuzzy
+#~ msgid "not in"
+#~ msgstr "не ўтрымоўвае"
+
+#, fuzzy
+#~ msgid "like"
+#~ msgstr "супадае"
+
+#, fuzzy
+#~ msgid "greater"
+#~ msgstr "больш"
+
+#, fuzzy
+#~ msgid "lesser"
+#~ msgstr "менш"
+
+#, fuzzy
+#~ msgid "greater or equal"
+#~ msgstr "больш або роўна"
+
+#, fuzzy
+#~ msgid "less or equal"
+#~ msgstr "менш або роўна"
+
+#, fuzzy
+#~ msgid "Sorted by"
+#~ msgstr "Сартаваць"
+
+#, fuzzy
+#~ msgid "Ascending"
+#~ msgstr "У алфавітным парадку"
+
+#, fuzzy
+#~ msgid "Descending"
+#~ msgstr "У зваротным парадку"
+
+#, fuzzy
+#~ msgid "Distinct"
+#~ msgstr "Аддзелены"
+
+#, fuzzy
+#~ msgid "Query Options"
+#~ msgstr "Параметры запыту"
+
+#, fuzzy
+#~ msgid "SQL query:"
+#~ msgstr "Запыт SQL:"
+
+#, fuzzy
+#~ msgid "Insert in region"
+#~ msgstr "Уставіць у дыяпазон"
+
+#, fuzzy
+#~ msgid "Starting in cell"
+#~ msgstr "Пачынальна з вочка"
+
+#, fuzzy
+#~ msgid "Result"
+#~ msgstr "Вынік"
+
+#, fuzzy
+#~ msgid "You cannot specify a table here."
+#~ msgstr "Тут нельга паказаць табліцу."
+
+#, fuzzy
+#~ msgid "You have to specify a valid region."
+#~ msgstr "Неабходна паказаць дапушчальны рэгіён."
+
+#, fuzzy
+#~ msgid "You have to specify a valid cell."
+#~ msgstr "Неабходна паказаць дапушчальнае вочка."
+
+#, fuzzy
+#~ msgid "You are not allowed to change data in the database."
+#~ msgstr "У вас нядосыць мае рацыю для змены дадзеных у гэтай базе."
+
+#, fuzzy
+#~ msgid "Executing query failed."
+#~ msgstr "Памылка выканання запыту."
+
+#, fuzzy
+#~ msgid "You did not get any results with this query."
+#~ msgstr "Запыт не вярнуў ні аднаго значэнні."
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Data From Database"
+#~ msgstr "Уставіць дадзеныя з базы дадзеных"
+
+#, fuzzy
+#~ msgid "The port must be a number"
+#~ msgstr "Порт павінен быць лікам"
+
+#, fuzzy
+#~ msgid "Connecting to database..."
+#~ msgstr "Падлучэнне да базы дадзеных..."
+
+#, fuzzy
+#~ msgid "Connected. Retrieving table information..."
+#~ msgstr "Падлучана. Атрыманне інфармацыі аб табліцах..."
+
+#, fuzzy
+#~ msgid "This database contains no tables"
+#~ msgstr "База дадзеных не ўтрымоўвае табліц"
+
+#, fuzzy
+#~ msgid "Driver could not be loaded"
+#~ msgstr "Драйвер не можа быць загружаны"
+
+#, fuzzy
+#~ msgid "Retrieving meta data of tables..."
+#~ msgstr "Атрыманне метададзеных табліц..."
+
+#, fuzzy
+#~ msgid "You have to select at least one table."
+#~ msgstr "Неабходна вылучыць хоць бы адну табліцу."
+
+#, fuzzy
+#~ msgid "You have to select at least one column."
+#~ msgstr "Неабходна вылучыць хоць бы адзін слупок."
+
+#, fuzzy
+#~ msgid ""
+#~ "'*' or '?' are not valid wildcards in SQL. The proper replacements are "
+#~ "'%' or '_'. Do you want to replace them?"
+#~ msgstr ""
+#~ "'*' або '?' не з'яўляюцца дапушчальнымі шаблонамі SQL. Замест іх "
+#~ "выкарыстоўваюцца '%' or '_'. Замяніць?"
+
+#, fuzzy
+#~ msgid "Insert function"
+#~ msgstr "Уставіць функцыю"
+
+#, fuzzy
+#~ msgid "Help"
+#~ msgstr "&Дапамога"
+
+#, fuzzy
+#~ msgid "This function has no parameters."
+#~ msgstr "У гэтай функцыі няма параметраў."
+
+#, fuzzy
+#~ msgid "Description is not available."
+#~ msgstr "Апісанне не даступна."
 
 #, fuzzy
 #~ msgid "Document Settings..."
