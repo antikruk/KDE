@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-03 00:51+0000\n"
-"PO-Revision-Date: 2023-03-05 13:04\n"
+"POT-Creation-Date: 2023-05-02 00:51+0000\n"
+"PO-Revision-Date: 2023-05-06 12:59\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -53,7 +53,7 @@ msgid "View"
 msgstr "Выгляд"
 
 #. i18n: ectx: Menu (view-split)
-#: ../desktop/konsoleui.rc:20
+#: ../desktop/konsoleui.rc:20 ../desktop/sessionui.rc:60
 #, kde-format
 msgid "Split View"
 msgstr "Падзяліць"
@@ -89,7 +89,7 @@ msgid "S&crollback"
 msgstr "&Журнал вываду"
 
 #. i18n: ectx: ToolBar (sessionToolbar)
-#: ../desktop/sessionui.rc:71
+#: ../desktop/sessionui.rc:76
 #, kde-format
 msgid "Session Toolbar"
 msgstr "Панэль інструментаў сеанса"
@@ -99,133 +99,133 @@ msgstr "Панэль інструментаў сеанса"
 msgid "&Window Color Scheme"
 msgstr "&Колеравая схема акна"
 
-#: Application.cpp:51
+#: Application.cpp:53
 #, kde-format
 msgctxt "@info:shell"
 msgid "Name of profile to use for new Konsole instance"
 msgstr "Назва профілю для новага асобніка Konsole"
 
-#: Application.cpp:52
+#: Application.cpp:54
 #, kde-format
 msgctxt "@info:shell"
 msgid "json layoutfile to be loaded to use for new Konsole instance"
 msgstr "Файл макета json для новага асобніка Konsole"
 
-#: Application.cpp:53
+#: Application.cpp:55
 #, kde-format
 msgctxt "@info:shell"
 msgid "Use the built-in profile instead of the default profile"
 msgstr "Выкарыстоўваць убудаваны профіль замест прадвызначанага профілю"
 
-#: Application.cpp:54
+#: Application.cpp:56
 #, kde-format
 msgctxt "@info:shell"
 msgid "Set the initial working directory of the new tab or window to 'dir'"
 msgstr "Вызначыць пачатковы працоўны каталог для новай укладкі або акна"
 
-#: Application.cpp:55
+#: Application.cpp:57
 #, kde-format
 msgctxt "@info:shell"
 msgid "Do not close the initial session automatically when it ends."
 msgstr "Не закрываць пачатковы сеанс, калі ён сканчаецца."
 
-#: Application.cpp:59
+#: Application.cpp:61
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create a new tab in an existing window rather than creating a new window ('Run all Konsole windows in a single process' must be enabled)"
 msgstr "Ствараць новую ўкладку ў наяўным акне, а не ствараць новае акно (павінен быць уключаны параметр \"Запускаць усе вокны Konsole у межах аднаго працэсу\")"
 
-#: Application.cpp:60
+#: Application.cpp:62
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create tabs as specified in given tabs configuration file"
 msgstr "Ствараць укладкі паводле файла канфігурацыі"
 
-#: Application.cpp:62
+#: Application.cpp:64
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Konsole in the background and bring to the front when Ctrl+Shift+F12 (by default) is pressed"
 msgstr "Запускаць Konsole у фоне і выводзіць на пярэдні план спалучэннем клавіш Ctrl+Shift+F12 (прадвызначана)"
 
-#: Application.cpp:63
+#: Application.cpp:65
 #, kde-format
 msgctxt "@info:shell"
 msgid "Run in a separate process"
 msgstr "Запускаць асобным працэсам"
 
-#: Application.cpp:64
+#: Application.cpp:66
 #, kde-format
 msgctxt "@info:shell"
 msgid "Show the menubar, overriding the default setting"
 msgstr "Паказваць панэль меню перакрываючы прадвызначаны параметр"
 
-#: Application.cpp:65
+#: Application.cpp:67
 #, kde-format
 msgctxt "@info:shell"
 msgid "Hide the menubar, overriding the default setting"
 msgstr "Хаваць панэль меню перакрываючы прадвызначаны параметр"
 
-#: Application.cpp:66
+#: Application.cpp:68
 #, kde-format
 msgctxt "@info:shell"
 msgid "Show the tabbar, overriding the default setting"
 msgstr "Паказваць панэль укладак перакрываючы прадвызначаны параметр"
 
-#: Application.cpp:67
+#: Application.cpp:69
 #, kde-format
 msgctxt "@info:shell"
 msgid "Hide the tabbar, overriding the default setting"
 msgstr "Хаваць панэль укладак перакрываючы прадвызначаны параметр"
 
-#: Application.cpp:68
+#: Application.cpp:70
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Konsole in fullscreen mode"
 msgstr "Запускаць Konsole у поўнаэкранным рэжыме"
 
-#: Application.cpp:69
+#: Application.cpp:71
 #, kde-format
 msgctxt "@info:shell"
 msgid "Disable transparent backgrounds, even if the system supports them."
 msgstr "Адключыць празрысты фон, нават калі сістэма яго падтрымлівае."
 
-#: Application.cpp:70
+#: Application.cpp:72
 #, kde-format
 msgctxt "@info:shell"
 msgid "List the available profiles"
 msgstr "Спіс даступных профіляў"
 
-#: Application.cpp:71
+#: Application.cpp:73
 #, kde-format
 msgctxt "@info:shell"
 msgid "List all the profile properties names and their type (for use with -p)"
 msgstr "Спіс назваў ўласцівасцяў профілю і іх тып (для выкарыстання з -p)"
 
-#: Application.cpp:72
+#: Application.cpp:74
 #, kde-format
 msgctxt "@info:shell"
 msgid "Change the value of a profile property."
 msgstr "Змяніць значэнне ўласцівасці профілю."
 
-#: Application.cpp:74
+#: Application.cpp:76
 #, kde-format
 msgctxt "@info:shell"
 msgid "Command to execute. This option will catch all following arguments, so use it as the last option."
 msgstr "Загад для выканання. Гэты параметр ахоплівае ўсе параметры, якія знаходзяцца за ім, таму выкарыстоўвайце яго апошнім."
 
-#: Application.cpp:77
+#: Application.cpp:79
 #, kde-format
 msgctxt "@info:shell"
 msgid "Force re-using the existing instance even if it breaks functionality, e. g. --new-tab. Mostly for debugging."
 msgstr "Прымусовае паўторнае выкарыстанне наяўнага асобніка, нават калі гэта парушае функцыянальнасць. Напрыклад, --new-tab. У большасці выпадкаў патрэбна для адладжвання."
 
-#: Application.cpp:84
+#: Application.cpp:86
 #, kde-format
 msgctxt "@info:shell"
 msgid "Arguments passed to command"
 msgstr "Аргументы, якія былі адпраўленыя загаду"
 
-#: Application.cpp:511
+#: Application.cpp:514
 #, kde-format
 msgctxt "@item"
 msgid "Toggle Background Window"
@@ -831,225 +831,225 @@ msgstr "Увод:"
 msgid "Output:"
 msgstr "Вывад:"
 
-#: main.cpp:155
+#: main.cpp:174
 #, kde-format
 msgctxt "@title"
 msgid "Konsole"
 msgstr "Konsole"
 
-#: main.cpp:157
+#: main.cpp:176
 #, kde-format
 msgctxt "@title"
 msgid "Terminal emulator"
 msgstr "Эмулятар тэрмінала"
 
-#: main.cpp:159
+#: main.cpp:178
 #, kde-format
 msgctxt "@info:credit"
 msgid "(c) 1997-2022, The Konsole Developers"
 msgstr "(c) 1997-2022, распрацоўнікі Konsole"
 
-#: main.cpp:333
+#: main.cpp:352
 #, kde-format
 msgctxt "@info:credit"
 msgid "Kurt Hindenburg"
 msgstr "Kurt Hindenburg"
 
-#: main.cpp:335
+#: main.cpp:354
 #, kde-format
 msgctxt "@info:credit"
 msgid "General maintainer, bug fixes and general improvements"
 msgstr "Галоўны суправаджальнік, выпраўленні памылак і агульныя паляпшэнні"
 
-#: main.cpp:338
+#: main.cpp:357
 #, kde-format
 msgctxt "@info:credit"
 msgid "Robert Knight"
 msgstr "Robert Knight"
 
-#: main.cpp:339
+#: main.cpp:358
 #, kde-format
 msgctxt "@info:credit"
 msgid "Previous maintainer, ported to KDE4"
 msgstr "Папярэдні суправаджальнік, порт на KDE4"
 
-#: main.cpp:341
+#: main.cpp:360
 #, kde-format
 msgctxt "@info:credit"
 msgid "Lars Doelle"
 msgstr "Lars Doelle"
 
-#: main.cpp:341
+#: main.cpp:360
 #, kde-format
 msgctxt "@info:credit"
 msgid "Original author"
 msgstr "Першапачатковы стваральнік"
 
-#: main.cpp:342
+#: main.cpp:361
 #, kde-format
 msgctxt "@info:credit"
 msgid "Ahmad Samir"
 msgstr "Ahmad Samir"
 
-#: main.cpp:343 main.cpp:346 main.cpp:349 main.cpp:352
+#: main.cpp:362 main.cpp:365 main.cpp:368 main.cpp:371
 #, kde-format
 msgctxt "@info:credit"
 msgid "Major refactoring, bug fixes and major improvements"
 msgstr "Асноўны рэфактарынг, выпраўленні хібаў і асноўныя паляпшэнні"
 
-#: main.cpp:345
+#: main.cpp:364
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carlos Alves"
 msgstr "Carlos Alves"
 
-#: main.cpp:348
+#: main.cpp:367
 #, kde-format
 msgctxt "@info:credit"
 msgid "Tomaz Canabrava"
 msgstr "Tomaz Canabrava"
 
-#: main.cpp:351
+#: main.cpp:370
 #, kde-format
 msgctxt "@info:credit"
 msgid "Gustavo Carneiro"
 msgstr "Gustavo Carneiro"
 
-#: main.cpp:354
+#: main.cpp:373
 #, kde-format
 msgctxt "@info:credit"
 msgid "Edwin Pujols"
 msgstr "Edwin Pujols"
 
-#: main.cpp:355 main.cpp:358 main.cpp:360 main.cpp:365 main.cpp:367
-#: main.cpp:368 main.cpp:369
+#: main.cpp:374 main.cpp:377 main.cpp:379 main.cpp:384 main.cpp:386
+#: main.cpp:387 main.cpp:388
 #, kde-format
 msgctxt "@info:credit"
 msgid "Bug fixes and general improvements"
 msgstr "Выпраўленні хібаў і агульныя паляпшэнні"
 
-#: main.cpp:357
+#: main.cpp:376
 #, kde-format
 msgctxt "@info:credit"
 msgid "Martin T. H. Sandsmark"
 msgstr "Martin T. H. Sandsmark"
 
-#: main.cpp:360
+#: main.cpp:379
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nate Graham"
 msgstr "Nate Graham"
 
-#: main.cpp:361
+#: main.cpp:380
 #, kde-format
 msgctxt "@info:credit"
 msgid "Mariusz Glebocki"
 msgstr "Mariusz Glebocki"
 
-#: main.cpp:362
+#: main.cpp:381
 #, kde-format
 msgctxt "@info:credit"
 msgid "Bug fixes and major improvements"
 msgstr "Выпраўленні хібаў і асноўныя паляпшэнні"
 
-#: main.cpp:364
+#: main.cpp:383
 #, kde-format
 msgctxt "@info:credit"
 msgid "Thomas Surrel"
 msgstr "Thomas Surrel"
 
-#: main.cpp:367
+#: main.cpp:386
 #, kde-format
 msgctxt "@info:credit"
 msgid "Jekyll Wu"
 msgstr "Jekyll Wu"
 
-#: main.cpp:368
+#: main.cpp:387
 #, kde-format
 msgctxt "@info:credit"
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: main.cpp:369
+#: main.cpp:388
 #, kde-format
 msgctxt "@info:credit"
 msgid "Stephan Binner"
 msgstr "Stephan Binner"
 
-#: main.cpp:370
+#: main.cpp:389
 #, kde-format
 msgctxt "@info:credit"
 msgid "Thomas Dreibholz"
 msgstr "Thomas Dreibholz"
 
-#: main.cpp:370
+#: main.cpp:389
 #, kde-format
 msgctxt "@info:credit"
 msgid "General improvements"
 msgstr "Агульныя паляпшэнні"
 
-#: main.cpp:371
+#: main.cpp:390
 #, kde-format
 msgctxt "@info:credit"
 msgid "Chris Machemer"
 msgstr "Chris Machemer"
 
-#: main.cpp:371 main.cpp:372 main.cpp:399 main.cpp:400 main.cpp:401
-#: main.cpp:402
+#: main.cpp:390 main.cpp:391 main.cpp:418 main.cpp:419 main.cpp:420
+#: main.cpp:421
 #, kde-format
 msgctxt "@info:credit"
 msgid "Bug fixes"
 msgstr "Выпраўленні хібаў"
 
-#: main.cpp:372
+#: main.cpp:391
 #, kde-format
 msgctxt "@info:credit"
 msgid "Francesco Cecconi"
 msgstr "Francesco Cecconi"
 
-#: main.cpp:373
+#: main.cpp:392
 #, kde-format
 msgctxt "@info:credit"
 msgid "Stephan Kulow"
 msgstr "Stephan Kulow"
 
-#: main.cpp:373
+#: main.cpp:392
 #, kde-format
 msgctxt "@info:credit"
 msgid "Solaris support and history"
 msgstr "Падтрымка і рэалізацыя гісторыі Solaris"
 
-#: main.cpp:374
+#: main.cpp:393
 #, kde-format
 msgctxt "@info:credit"
 msgid "Alexander Neundorf"
 msgstr "Alexander Neundorf"
 
-#: main.cpp:375
+#: main.cpp:394
 #, kde-format
 msgctxt "@info:credit"
 msgid "Bug fixes and improved startup performance"
 msgstr "Выпраўленні хібаў і паляпшэнне прадукцыйнасці запуску"
 
-#: main.cpp:377
+#: main.cpp:396
 #, kde-format
 msgctxt "@info:credit"
 msgid "Peter Silva"
 msgstr "Peter Silva"
 
-#: main.cpp:377
+#: main.cpp:396
 #, kde-format
 msgctxt "@info:credit"
 msgid "Marking improvements"
 msgstr "Пазначэнне паляпшэнняў"
 
-#: main.cpp:378
+#: main.cpp:397
 #, kde-format
 msgctxt "@info:credit"
 msgid "Lotzi Boloni"
 msgstr "Lotzi Boloni"
 
-#: main.cpp:380
+#: main.cpp:399
 #, kde-format
 msgctxt "@info:credit"
 msgid "Embedded Konsole\n"
@@ -1057,13 +1057,13 @@ msgid "Embedded Konsole\n"
 msgstr "Убудаваныя функцыі Konsole\n"
 "Панэль інструментаў і назвы сеансаў"
 
-#: main.cpp:383
+#: main.cpp:402
 #, kde-format
 msgctxt "@info:credit"
 msgid "David Faure"
 msgstr "David Faure"
 
-#: main.cpp:385
+#: main.cpp:404
 #, kde-format
 msgctxt "@info:credit"
 msgid "Embedded Konsole\n"
@@ -1071,25 +1071,25 @@ msgid "Embedded Konsole\n"
 msgstr "Убудаваныя функцыі Konsole\n"
 "Агульныя паляпшэнні"
 
-#: main.cpp:388
+#: main.cpp:407
 #, kde-format
 msgctxt "@info:credit"
 msgid "Antonio Larrosa"
 msgstr "Antonio Larrosa"
 
-#: main.cpp:388
+#: main.cpp:407
 #, kde-format
 msgctxt "@info:credit"
 msgid "Visual effects"
 msgstr "Візуальныя эфекты"
 
-#: main.cpp:389
+#: main.cpp:408
 #, kde-format
 msgctxt "@info:credit"
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: main.cpp:391
+#: main.cpp:410
 #, kde-format
 msgctxt "@info:credit"
 msgid "Code from the kvt project\n"
@@ -1097,67 +1097,67 @@ msgid "Code from the kvt project\n"
 msgstr "Код з праекта kvt\n"
 "Агульныя паляпшэнні"
 
-#: main.cpp:394
+#: main.cpp:413
 #, kde-format
 msgctxt "@info:credit"
 msgid "Warwick Allison"
 msgstr "Warwick Allison"
 
-#: main.cpp:395
+#: main.cpp:414
 #, kde-format
 msgctxt "@info:credit"
 msgid "Schema and text selection improvements"
 msgstr "Паляпшэнні схемы і вылучэння тэксту"
 
-#: main.cpp:397
+#: main.cpp:416
 #, kde-format
 msgctxt "@info:credit"
 msgid "Dan Pilone"
 msgstr "Dan Pilone"
 
-#: main.cpp:397
+#: main.cpp:416
 #, kde-format
 msgctxt "@info:credit"
 msgid "SGI port"
 msgstr "Порт для SGI"
 
-#: main.cpp:398
+#: main.cpp:417
 #, kde-format
 msgctxt "@info:credit"
 msgid "Kevin Street"
 msgstr "Kevin Street"
 
-#: main.cpp:398
+#: main.cpp:417
 #, kde-format
 msgctxt "@info:credit"
 msgid "FreeBSD port"
 msgstr "Порт для FreeBSD"
 
-#: main.cpp:399
+#: main.cpp:418
 #, kde-format
 msgctxt "@info:credit"
 msgid "Sven Fischer"
 msgstr "Sven Fischer"
 
-#: main.cpp:400
+#: main.cpp:419
 #, kde-format
 msgctxt "@info:credit"
 msgid "Dale M. Flaven"
 msgstr "Dale M. Flaven"
 
-#: main.cpp:401
+#: main.cpp:420
 #, kde-format
 msgctxt "@info:credit"
 msgid "Martin Jones"
 msgstr "Martin Jones"
 
-#: main.cpp:402
+#: main.cpp:421
 #, kde-format
 msgctxt "@info:credit"
 msgid "Lars Knoll"
 msgstr "Lars Knoll"
 
-#: main.cpp:403
+#: main.cpp:422
 #, kde-format
 msgctxt "@info:credit"
 msgid "Thanks to many others.\n"
@@ -1251,7 +1251,7 @@ msgctxt "@info"
 msgid "There are %1 open terminals in this window. Do you still want to quit?"
 msgstr "У гэтым акне адкрыты(а) %1 тэрмінал(ы). Хочаце выйсці?"
 
-#: MainWindow.cpp:945 Part.cpp:297
+#: MainWindow.cpp:945 Part.cpp:299
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Profiles"
@@ -1281,7 +1281,7 @@ msgctxt "@title Preferences page name"
 msgid "Thumbnails"
 msgstr "Мініяцюры"
 
-#: Part.cpp:300
+#: Part.cpp:302
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Part Info"
@@ -1488,9 +1488,9 @@ msgid "%1 is a folder for SSH entries"
 msgstr "%1 - каталог для запісаў SSH"
 
 #: plugins/SSHManager/sshmanagermodel.cpp:79
-#: plugins/SSHManager/sshmanagermodel.cpp:319
-#: plugins/SSHManager/sshmanagermodel.cpp:387
-#: plugins/SSHManager/sshmanagermodel.cpp:420
+#: plugins/SSHManager/sshmanagermodel.cpp:318
+#: plugins/SSHManager/sshmanagermodel.cpp:386
+#: plugins/SSHManager/sshmanagermodel.cpp:419
 #: plugins/SSHManager/sshmanagerpluginwidget.cpp:103
 #: plugins/SSHManager/sshmanagerpluginwidget.cpp:446
 #, kde-format
@@ -1532,18 +1532,18 @@ msgstr ""
 msgid "SSH Entries"
 msgstr "Запісы SSH"
 
-#: plugins/SSHManager/sshmanagerplugin.cpp:180
+#: plugins/SSHManager/sshmanagerplugin.cpp:181
 #, kde-format
 msgid "Could not get the process name, assume that we can't request a connection"
 msgstr "Не ўдалося атрымаць назву працэсу. Магчыма, нельга запытаць злучэнне"
 
-#: plugins/SSHManager/sshmanagerplugin.cpp:180
-#: plugins/SSHManager/sshmanagerplugin.cpp:192
+#: plugins/SSHManager/sshmanagerplugin.cpp:181
+#: plugins/SSHManager/sshmanagerplugin.cpp:193
 #, kde-format
 msgid "Error issuing SSH Command"
 msgstr "Падчас выканання загаду SSH адбылася памылка"
 
-#: plugins/SSHManager/sshmanagerplugin.cpp:192
+#: plugins/SSHManager/sshmanagerplugin.cpp:193
 #, kde-format
 msgid "Can't issue SSH command outside the shell application (eg, bash, zsh, sh)"
 msgstr "Немагчыма выканаць загад SSH па-за межамі праграмы абалонкі (eg, bash, zsh, sh)"
@@ -1833,7 +1833,7 @@ msgstr "&Вывад маштабу"
 msgid "Default profile"
 msgstr "Прадвызначаны профіль"
 
-#: profile/ProfileManager.cpp:265
+#: profile/ProfileManager.cpp:270
 #, kde-format
 msgid "Konsole does not have permission to save this profile to %1"
 msgstr "У Konsole няма правоў на захаванне гэтага профілю ў %1"
@@ -1976,76 +1976,76 @@ msgstr "macOS"
 msgid "Solaris console"
 msgstr "Кансоль Solaris"
 
-#: session/Session.cpp:88
+#: session/Session.cpp:97
 #, kde-format
 msgid "Bell in '%1' (Session '%2')"
 msgstr "Гукавое апавяшчэнне ў \"%1\" (сеанс \"%2\")"
 
-#: session/Session.cpp:373
+#: session/Session.cpp:406
 #, kde-format
 msgid "Could not find binary: "
 msgstr "Не ўдалося знайсці двайковы файл: "
 
-#: session/Session.cpp:382
+#: session/Session.cpp:415
 #, kde-format
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "Увага: "
 
-#: session/Session.cpp:457
+#: session/Session.cpp:515
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "Не ўдалося знайсці інтэрактыўную абалонку для запуску."
 
-#: session/Session.cpp:463 session/Session.cpp:465
+#: session/Session.cpp:521 session/Session.cpp:523
 #, kde-format
 msgid "Could not find '%1', starting '%2' instead.  Please check your profile settings."
 msgstr "Не ўдалося знайсці \"%1\", замест гэтага запускаецца \"%2\". Праверце налады профілю."
 
-#: session/Session.cpp:521
+#: session/Session.cpp:593
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "Не ўдалося запусціць \"%1\" з аргументамі \"%2\"."
 
-#: session/Session.cpp:666
+#: session/Session.cpp:738
 #, kde-format
 msgid "Silence in '%1' (Session '%2')"
 msgstr "Бяздзейнасць у \"%1\" (сеанс \"%2\")"
 
-#: session/Session.cpp:670 session/Session.cpp:1830
+#: session/Session.cpp:742 session/Session.cpp:1923
 #: session/SessionController.cpp:364 terminalDisplay/TerminalBell.cpp:43
-#: Vt102Emulation.cpp:1130
+#: Vt102Emulation.cpp:1135
 #, kde-format
 msgid "Show session"
 msgstr "Паказаць сеанс"
 
-#: session/Session.cpp:934
+#: session/Session.cpp:1023
 #, kde-format
 msgid "The D-Bus methods sendText/runCommand were just used.  There are security concerns about allowing these methods to be public.  If desired, these methods can be changed to internal use only by re-compiling Konsole. <p>This warning will only show once for this Konsole instance.</p>"
 msgstr "Толькі што выкарыстоўваліся метады D-Bus sendText/runCommand. Гэтыя метады могуць быць небяспечнымі, калі да іх адкрыты публічны доступ.  Пры жаданні можна закрыць публічны доступ да іх шляхам паўторнага кампілявання Konsole.  <p>Гэтае папярэджанне будзе паказвацца для гэтага асобніка Konsole толькі адзін раз.</p>"
 
-#: session/Session.cpp:970
+#: session/Session.cpp:1063
 #, kde-format
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "Завершана"
 
-#: session/Session.cpp:984 session/Session.cpp:995
+#: session/Session.cpp:1077 session/Session.cpp:1088
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "Праграма \"%1\" аварыйна завяршыла працэс."
 
-#: session/Session.cpp:986
+#: session/Session.cpp:1079
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "Праграма \"%1\" закрылася са статусам %2."
 
-#: session/Session.cpp:1494
+#: session/Session.cpp:1587
 #, kde-format
 msgid "ZModem Progress"
 msgstr "Ход выканання працэсаў ZModem"
 
-#: session/Session.cpp:1826
+#: session/Session.cpp:1919
 #, kde-format
 msgid "Activity in '%1' (Session '%2')"
 msgstr "Актыўнасць у \"%1\" (сеанс \"%2\")"
@@ -2075,287 +2075,299 @@ msgstr "Пошук \"%1\" з дапамогай"
 msgid "Configure Web Shortcuts..."
 msgstr "Наладжванне сеціўных скаротаў..."
 
-#: session/SessionController.cpp:651
+#: session/SessionController.cpp:655
 #, kde-format
 msgid "&Close Session"
 msgstr "&Скончыць сеанс"
 
-#: session/SessionController.cpp:658
+#: session/SessionController.cpp:662
 #, kde-format
 msgid "Open File Manager"
 msgstr "Адкрыць кіраўнік файлаў"
 
-#: session/SessionController.cpp:670
+#: session/SessionController.cpp:674
 #, kde-format
 msgid "Copy"
 msgstr "Капіяваць"
 
-#: session/SessionController.cpp:676
+#: session/SessionController.cpp:680
+#| msgctxt "@action:inmenu"
+#| msgid "Split View Left/Right"
+msgid "Split View Left-Right"
+msgstr ""
+
+#: session/SessionController.cpp:684
+#| msgctxt "@action:inmenu"
+#| msgid "Split View Top/Bottom"
+msgid "Split View Top-Bottom"
+msgstr ""
+
+#: session/SessionController.cpp:688
 #, kde-format
 msgid "Copy except prompts"
 msgstr "Скапіяваць апроч падказак"
 
-#: session/SessionController.cpp:682
+#: session/SessionController.cpp:694
 #, kde-format
 msgid "Copy user input"
 msgstr "Скапіяваць карыстальніцкі вывад"
 
-#: session/SessionController.cpp:688
+#: session/SessionController.cpp:700
 #, kde-format
 msgid "Copy command output"
 msgstr "Скапіяваць вывад загаду"
 
-#: session/SessionController.cpp:703
+#: session/SessionController.cpp:715
 #, kde-format
 msgid "Paste Selection"
 msgstr "Уставіць абранае"
 
-#: session/SessionController.cpp:710
+#: session/SessionController.cpp:722
 #, kde-format
 msgid "Web Search"
 msgstr "Пошук у сеціве"
 
-#: session/SessionController.cpp:716
+#: session/SessionController.cpp:728
 #, kde-format
 msgid "&Select All"
 msgstr "&Абраць усё"
 
-#: session/SessionController.cpp:720
+#: session/SessionController.cpp:732
 #, kde-format
 msgid "Select &Mode"
 msgstr "Абраць &рэжым"
 
-#: session/SessionController.cpp:725
+#: session/SessionController.cpp:737
 #, kde-format
 msgid "Select &Line"
 msgstr "Абраць &радок"
 
-#: session/SessionController.cpp:728
+#: session/SessionController.cpp:740
 #, kde-format
 msgid "Save Output &As..."
 msgstr "Захаваць вывад &як..."
 
-#: session/SessionController.cpp:734
+#: session/SessionController.cpp:746
 #, kde-format
 msgid "&Print Screen..."
 msgstr "&Друкаванне..."
 
-#: session/SessionController.cpp:738
+#: session/SessionController.cpp:750
 #, kde-format
 msgid "Adjust Scrollback..."
 msgstr "Падладжванне журнала вываду..."
 
-#: session/SessionController.cpp:742
+#: session/SessionController.cpp:754
 #, kde-format
 msgid "Clear Scrollback"
 msgstr "Ачысціць журнал вываду"
 
-#: session/SessionController.cpp:746
+#: session/SessionController.cpp:758
 #, kde-format
 msgid "Clear Scrollback and Reset"
 msgstr "Ачысціць журнал вываду і скінуць"
 
-#: session/SessionController.cpp:755
+#: session/SessionController.cpp:767
 #, kde-format
 msgid "Switch Profile"
 msgstr "Пераключыць профіль"
 
-#: session/SessionController.cpp:784
+#: session/SessionController.cpp:796
 #, kde-format
 msgid "Set &Encoding"
 msgstr "Вызначыць &кадаванне"
 
-#: session/SessionController.cpp:817
+#: session/SessionController.cpp:829
 #, kde-format
 msgctxt "@item:inmenu Allows terminal applications to request mouse tracking"
 msgid "Allow mouse tracking"
 msgstr "Дазволіць пракручванне мышшу"
 
-#: session/SessionController.cpp:825
+#: session/SessionController.cpp:837
 #, kde-format
 msgctxt "@item:inmenu A read only (locked) session"
 msgid "Read-only"
 msgstr "Толькі для чытання"
 
-#: session/SessionController.cpp:836
+#: session/SessionController.cpp:848
 #, kde-format
 msgid "&Configure or Rename Tab..."
 msgstr "&Наладжванне або змена назвы ўкладкі..."
 
-#: session/SessionController.cpp:842
+#: session/SessionController.cpp:854
 #, kde-format
 msgid "&All Tabs in Current Window"
 msgstr "&Усе ўкладкі ў бягучым акне"
 
-#: session/SessionController.cpp:849
+#: session/SessionController.cpp:861
 #, kde-format
 msgid "&Select Tabs..."
 msgstr "&Абраць укладкі..."
 
-#: session/SessionController.cpp:855
+#: session/SessionController.cpp:867
 #, kde-format
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr "&Няма"
 
-#: session/SessionController.cpp:863
+#: session/SessionController.cpp:875
 #, kde-format
 msgid "Copy Input To"
 msgstr "Скапіяваць увод у"
 
-#: session/SessionController.cpp:870
+#: session/SessionController.cpp:882
 #, kde-format
 msgid "&ZModem Upload..."
 msgstr "Запампоўванне па пратаколе &ZModem..."
 
-#: session/SessionController.cpp:875
+#: session/SessionController.cpp:887
 #, kde-format
 msgid "Monitor for &Activity"
 msgstr "Адсочваць &актыўнасць"
 
-#: session/SessionController.cpp:881
+#: session/SessionController.cpp:893
 #, kde-format
 msgid "Monitor for &Silence"
 msgstr "Адсочваць &бяздзейнасць"
 
-#: session/SessionController.cpp:887
+#: session/SessionController.cpp:899
 #, kde-format
 msgid "Monitor for Process Finishing"
 msgstr "Адсочваць завяршэнне працэсу"
 
-#: session/SessionController.cpp:894
+#: session/SessionController.cpp:906
 #, kde-format
 msgid "Enlarge Font"
 msgstr "Павялічыць шрыфт"
 
-#: session/SessionController.cpp:902
+#: session/SessionController.cpp:914
 #, kde-format
 msgid "Shrink Font"
 msgstr "Паменшыць шрыфт"
 
-#: session/SessionController.cpp:907
+#: session/SessionController.cpp:919
 #, kde-format
 msgid "Reset Font Size"
 msgstr "Скінуць памер шрыфту"
 
-#: session/SessionController.cpp:912
+#: session/SessionController.cpp:925
 #, kde-format
 msgid "Send Signal"
 msgstr "Адправіць сігнал"
 
-#: session/SessionController.cpp:916
+#: session/SessionController.cpp:929
 #, kde-format
 msgid "&Suspend Task"
 msgstr "&Прыпыніць задачу"
 
-#: session/SessionController.cpp:921
+#: session/SessionController.cpp:934
 #, kde-format
 msgid "&Continue Task"
 msgstr "&Працягнуць выкананне задачы"
 
-#: session/SessionController.cpp:926
+#: session/SessionController.cpp:939
 #, kde-format
 msgid "&Hangup"
 msgstr "&Павесіць"
 
-#: session/SessionController.cpp:931
+#: session/SessionController.cpp:944
 #, kde-format
 msgid "&Interrupt Task"
 msgstr "&Перарваць выкананне задачы"
 
-#: session/SessionController.cpp:936
+#: session/SessionController.cpp:949
 #, kde-format
 msgid "&Terminate Task"
 msgstr "&Знішчыць задачу"
 
-#: session/SessionController.cpp:941
+#: session/SessionController.cpp:954
 #, kde-format
 msgid "&Kill Task"
 msgstr "&Забіць задачу"
 
-#: session/SessionController.cpp:946
+#: session/SessionController.cpp:959
 #, kde-format
 msgid "User Signal &1"
 msgstr "Сігнал карыстальніка &1"
 
-#: session/SessionController.cpp:951
+#: session/SessionController.cpp:964
 #, kde-format
 msgid "User Signal &2"
 msgstr "Сігнал карыстальніка &2"
 
-#: session/SessionController.cpp:968
+#: session/SessionController.cpp:982
 #, kde-format
 msgid "Create New Profile..."
 msgstr "Стварыць новы профіль..."
 
-#: session/SessionController.cpp:970
+#: session/SessionController.cpp:984
 #, kde-format
 msgid "Edit Current Profile..."
 msgstr "Рэдагаваць бягучы профіль..."
 
-#: session/SessionController.cpp:1087
+#: session/SessionController.cpp:1101
 #, kde-format
 msgid "A program is currently running in this session.  Are you sure you want to close it?"
 msgstr "У гэтым сеансе працуе праграма. Сапраўды хочаце закрыць?"
 
-#: session/SessionController.cpp:1091
+#: session/SessionController.cpp:1105
 #, kde-format
 msgid "The program '%1' is currently running in this session.  Are you sure you want to close it?"
 msgstr "У гэтым сеансе працуе праграма \"%1\". Сапраўды хочаце закрыць?"
 
-#: session/SessionController.cpp:1102 session/SessionController.cpp:1145
+#: session/SessionController.cpp:1116 session/SessionController.cpp:1159
 #, kde-format
 msgid "Confirm Close"
 msgstr "Пацвердзіць закрыццё"
 
-#: session/SessionController.cpp:1103
+#: session/SessionController.cpp:1117
 #, kde-format
 msgctxt "@action:button"
 msgid "Close Program"
 msgstr "Закрыць праграму"
 
-#: session/SessionController.cpp:1130
+#: session/SessionController.cpp:1144
 #, kde-format
 msgid "A program in this session would not die.  Are you sure you want to kill it by force?"
 msgstr "Праграма ў гэтым сеансе не хоча завяршаць працэс. Сапраўды хочаце прымусова знішчыць працэс?"
 
-#: session/SessionController.cpp:1134
+#: session/SessionController.cpp:1148
 #, kde-format
 msgid "The program '%1' is in this session would not die.  Are you sure you want to kill it by force?"
 msgstr "Праграма \"%1\" ў гэтым сеансе не хоча завяршаць працэс. Сапраўды хочаце прымусова знішчыць працэс?"
 
-#: session/SessionController.cpp:1146
+#: session/SessionController.cpp:1160
 #, kde-format
 msgctxt "@action:button"
 msgid "Kill Program"
 msgstr "Знішчыць працэс праграмы"
 
-#: session/SessionController.cpp:1990
+#: session/SessionController.cpp:2008
 #, kde-format
 msgid "Open Current Folder With"
 msgstr "Адкрыць &бягучы каталог з дапамогай"
 
-#: session/SessionController.cpp:2057
+#: session/SessionController.cpp:2075
 #, kde-format
 msgid "Save ZModem Download to..."
 msgstr "Захаваць спампаваныя з дапамогай пратакола ZModem файлы у..."
 
-#: session/SessionController.cpp:2067
+#: session/SessionController.cpp:2085
 #, kde-format
 msgid "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem software was found on this system.</p><p>You may wish to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr "<p>Была выяўлена спроба перадачы файлаў па пратаколе ZModem, але ў гэтай сістэме не знойдзена адпаведнага праграмнага забеспячэння ZModem.</p><p>Вы можаце ўсталяваць пакунак \"rzsz\" або \"lrzsz\".</p>"
 
-#: session/SessionController.cpp:2077
+#: session/SessionController.cpp:2095
 #, kde-format
 msgid "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>У бягучым сеансе ўжо выконваецца працэс перадачы файлаў па пратаколе ZModem.</p>"
 
-#: session/SessionController.cpp:2087
+#: session/SessionController.cpp:2105
 #, kde-format
 msgid "<p>No suitable ZModem software was found on this system.</p><p>You may wish to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr "<p>У гэтай сістэме не знойдзена адпаведнага праграмнага забеспячэння ZModem.</p><p>Магчыма, вы захочаце ўсталяваць пакунак \"rzsz\" або \"lrzsz\".</p>"
 
-#: session/SessionController.cpp:2092
+#: session/SessionController.cpp:2110
 #, kde-format
 msgid "Select Files for ZModem Upload"
 msgstr "Абярыце файлы для запампоўвання з дапамогай пратакола ZModem"
@@ -3007,12 +3019,12 @@ msgstr "Ctrl"
 msgid "Enable thumbnails generation"
 msgstr "Уключыць генераванне мініяцюр"
 
-#: terminalDisplay/TerminalDisplay.cpp:659
+#: terminalDisplay/TerminalDisplay.cpp:663
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "Памер: %1 x %2"
 
-#: terminalDisplay/TerminalDisplay.cpp:2223
+#: terminalDisplay/TerminalDisplay.cpp:2234
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
@@ -3021,96 +3033,96 @@ msgstr[1] "Сапраўды хочаце ўставіць %1 сімвалы?"
 msgstr[2] "Сапраўды хочаце ўставіць %1 сімвалаў?"
 msgstr[3] "Сапраўды хочаце ўставіць %1 сімвалы?"
 
-#: terminalDisplay/TerminalDisplay.cpp:2224
+#: terminalDisplay/TerminalDisplay.cpp:2235
 #, kde-format
 msgid "Confirm Paste"
 msgstr "Пацвердзіць устаўлянне"
 
-#: terminalDisplay/TerminalDisplay.cpp:2257
+#: terminalDisplay/TerminalDisplay.cpp:2268
 #, kde-format
 msgid "End Of Text/Interrupt: may exit the current process"
 msgstr "End Of Text/Interrupt: можа скончыць бягучы працэс"
 
-#: terminalDisplay/TerminalDisplay.cpp:2258
+#: terminalDisplay/TerminalDisplay.cpp:2269
 #, kde-format
 msgid "End Of Transmission: may exit the current process"
 msgstr "End Of Transmission: можа скончыць бягучы працэс"
 
-#: terminalDisplay/TerminalDisplay.cpp:2259
+#: terminalDisplay/TerminalDisplay.cpp:2270
 #, kde-format
 msgid "Bell: will try to emit an audible warning"
 msgstr "Bell: паспрабуе выдаць гукавы сігнал"
 
-#: terminalDisplay/TerminalDisplay.cpp:2260
+#: terminalDisplay/TerminalDisplay.cpp:2271
 #, kde-format
 msgid "Backspace"
 msgstr "Backspace"
 
-#: terminalDisplay/TerminalDisplay.cpp:2261
+#: terminalDisplay/TerminalDisplay.cpp:2272
 #, kde-format
 msgid "Device Control Three/XOFF: suspends output"
 msgstr "Device Control Three/XOFF: прыпыняе вывад"
 
-#: terminalDisplay/TerminalDisplay.cpp:2262
+#: terminalDisplay/TerminalDisplay.cpp:2273
 #, kde-format
 msgid "Substitute/Suspend: may suspend current process"
 msgstr "Substitute/Suspend: паспрабуе прыпыніць бягучы працэс"
 
-#: terminalDisplay/TerminalDisplay.cpp:2263
+#: terminalDisplay/TerminalDisplay.cpp:2274
 #, kde-format
 msgid "Escape: used for manipulating terminal state"
 msgstr "Escape: выкарыстоўваецца для кіравання станам тэрмінала"
 
-#: terminalDisplay/TerminalDisplay.cpp:2264
+#: terminalDisplay/TerminalDisplay.cpp:2275
 #, kde-format
 msgid "File Separator/Quit: may abort the current process"
 msgstr "File Separator/Quit: можа перарваць бягучы працэс"
 
-#: terminalDisplay/TerminalDisplay.cpp:2291
+#: terminalDisplay/TerminalDisplay.cpp:2302
 #, kde-format
 msgid "The text you're trying to paste contains hidden control characters, do you want to filter them out?"
 msgstr "Тэкст, які вы спрабуеце ўставіць, змяшчае схаваныя кіроўныя сімвалы. Хочаце адфільтраваць іх?"
 
-#: terminalDisplay/TerminalDisplay.cpp:2294
+#: terminalDisplay/TerminalDisplay.cpp:2305
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Paste"
 msgstr "Пацвердзіць устаўлянне"
 
-#: terminalDisplay/TerminalDisplay.cpp:2295
+#: terminalDisplay/TerminalDisplay.cpp:2306
 #, kde-format
 msgctxt "@action:button"
 msgid "Paste &without control characters"
 msgstr "Уставіць &без кіроўных сімвалаў"
 
-#: terminalDisplay/TerminalDisplay.cpp:2296
+#: terminalDisplay/TerminalDisplay.cpp:2307
 #, kde-format
 msgctxt "@action:button"
 msgid "&Paste everything"
 msgstr "Уставіць &усё"
 
-#: terminalDisplay/TerminalDisplay.cpp:2297
+#: terminalDisplay/TerminalDisplay.cpp:2308
 #, kde-format
 msgctxt "@action:button"
 msgid "&Cancel"
 msgstr "&Скасаваць"
 
-#: terminalDisplay/TerminalDisplay.cpp:2536
+#: terminalDisplay/TerminalDisplay.cpp:2547
 #, kde-format
 msgid "<qt>Output has been <a href=\"https://en.wikipedia.org/wiki/Software_flow_control\">suspended</a> by pressing Ctrl+S. Press <b>Ctrl+Q</b> to resume.</qt>"
 msgstr "<qt>Вывад быў <a href=\"https://en.wikipedia.org/wiki/Software_flow_control\">прыпынены</a> націсканнем Ctrl+S. Каб аднавіць, націсніце <b>Ctrl+Q</b>.</qt>"
 
-#: terminalDisplay/TerminalDisplay.cpp:2591
+#: terminalDisplay/TerminalDisplay.cpp:2602
 #, kde-format
 msgid "This terminal is read-only."
 msgstr "Гэты тэрмінал даступны толькі для чытання."
 
-#: terminalDisplay/TerminalDisplay.cpp:2986
+#: terminalDisplay/TerminalDisplay.cpp:2997
 #, kde-format
 msgid "Change &Directory To"
 msgstr "З&мяніць каталог на"
 
-#: terminalDisplay/TerminalDisplay.cpp:3019
+#: terminalDisplay/TerminalDisplay.cpp:3030
 #, kde-format
 msgid "&Paste Location"
 msgstr "Уставіць &размяшчэнне"
@@ -3323,19 +3335,19 @@ msgstr "Семантычныя падказкі "
 msgid "Line numbers "
 msgstr "Нумары радкоў "
 
-#: ViewManager.cpp:1132
+#: ViewManager.cpp:1134
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Tab Layout"
 msgstr "Захаваць макет укладак"
 
-#: ViewManager.cpp:1134 ViewManager.cpp:1221
+#: ViewManager.cpp:1136 ViewManager.cpp:1223
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Konsole View Layout (*.json)"
 msgstr "Макет кампанавання тэрміналаў Konsole (*.json)"
 
-#: ViewManager.cpp:1147
+#: ViewManager.cpp:1149
 #, kde-format
 msgctxt "@label:textbox"
 msgid "A problem occurred when saving the Layout.\n"
@@ -3343,7 +3355,7 @@ msgid "A problem occurred when saving the Layout.\n"
 msgstr "Падчас захавання макета ўзнікла праблема.\n"
 "%1"
 
-#: ViewManager.cpp:1208
+#: ViewManager.cpp:1210
 #, kde-format
 msgctxt "@label:textbox"
 msgid "A problem occurred when loading the Layout.\n"
@@ -3351,13 +3363,13 @@ msgid "A problem occurred when loading the Layout.\n"
 msgstr "Падчас загрузкі макета ўзнікла праблема.\n"
 "%1"
 
-#: ViewManager.cpp:1219
+#: ViewManager.cpp:1221
 #, kde-format
 msgctxt "@title:window"
 msgid "Load Tab Layout"
 msgstr "Загрузіць макет укладак"
 
-#: Vt102Emulation.cpp:2384
+#: Vt102Emulation.cpp:2453
 #, kde-format
 msgid "No keyboard translator available.  The information needed to convert key presses into characters to send to the terminal is missing."
 msgstr "Не знойдзена табліцы адпаведнасці для клавіятуры. Адсутнічаюць звесткі, якія неабходныя для пераўтварэння сігналу ад клавіш у сімвалы, якія будуць паказвацца на экране."

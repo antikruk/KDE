@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-07 00:55+0000\n"
-"PO-Revision-Date: 2023-03-23 09:06\n"
+"POT-Creation-Date: 2023-04-30 00:44+0000\n"
+"PO-Revision-Date: 2023-05-06 12:58\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -45,7 +45,7 @@ msgstr "Не ўдалося змяніць уласніка файла <filename
 msgid "Unable to create KIO worker: %1"
 msgstr "Не ўдалося стварыць KIO worker: %1"
 
-#: core/copyjob.cpp:164 ioslaves/file/file_unix.cpp:1277
+#: core/copyjob.cpp:164 ioslaves/file/file_unix.cpp:1279
 #, kde-format
 msgctxt "The first arg is the path to the symlink that couldn't be created, the secondarg is the filesystem type (e.g. vfat, exfat)"
 msgid "Could not create symlink \"%1\".\n"
@@ -2037,13 +2037,19 @@ msgstr "&Падрабязнасці"
 msgid "&Forever"
 msgstr "&Заўсёды"
 
-#: core/slaveinterface.cpp:428 core/tcpslavebase.cpp:537
+#: core/slaveinterface.cpp:426 core/tcpslavebase.cpp:294
+#: core/tcpworkerbase.cpp:285
+#, kde-format
+msgid "C&ontinue Loading"
+msgstr "П&рацягнуць загрузку"
+
+#: core/slaveinterface.cpp:430 core/tcpslavebase.cpp:537
 #: core/tcpworkerbase.cpp:530 widgets/sslui.cpp:70
 #, kde-format
 msgid "Co&ntinue"
 msgstr "Пр&ацягнуць"
 
-#: core/slaveinterface.cpp:430 core/tcpslavebase.cpp:551
+#: core/slaveinterface.cpp:432 core/tcpslavebase.cpp:551
 #: core/tcpworkerbase.cpp:544 widgets/sslui.cpp:106
 #, kde-format
 msgid "&Current Session only"
@@ -2061,11 +2067,6 @@ msgstr "Вы збіраецеся выйсці з бяспечнага рэжы�
 #, kde-format
 msgid "Security Information"
 msgstr "Звесткі пра бяспеку"
-
-#: core/tcpslavebase.cpp:294 core/tcpworkerbase.cpp:285
-#, kde-format
-msgid "C&ontinue Loading"
-msgstr "П&рацягнуць загрузку"
 
 #: core/tcpslavebase.cpp:347 core/tcpworkerbase.cpp:338
 #, kde-format
@@ -2181,7 +2182,7 @@ msgstr "Новы каталог..."
 
 #: filewidgets/kdiroperator.cpp:2083 widgets/jobuidelegate.cpp:321
 #: widgets/jobuidelegate.cpp:322 widgets/jobuidelegate.cpp:331
-#: widgets/jobuidelegate.cpp:332 widgets/widgetsaskuseractionhandler.cpp:281
+#: widgets/jobuidelegate.cpp:332 widgets/widgetsaskuseractionhandler.cpp:285
 #, kde-format
 msgid "Move to Trash"
 msgstr "Перамясціць у сметніцу"
@@ -2362,16 +2363,16 @@ msgstr "Спачатку меншыя"
 msgid "Encoding:"
 msgstr "Кадаванне:"
 
-#: filewidgets/kencodingfiledialog.cpp:121
-#: filewidgets/kencodingfiledialog.cpp:135
-#: filewidgets/kencodingfiledialog.cpp:148
-#: filewidgets/kencodingfiledialog.cpp:162 widgets/kurlrequesterdialog.cpp:105
+#: filewidgets/kencodingfiledialog.cpp:125
+#: filewidgets/kencodingfiledialog.cpp:139
+#: filewidgets/kencodingfiledialog.cpp:152
+#: filewidgets/kencodingfiledialog.cpp:166 widgets/kurlrequesterdialog.cpp:105
 #, kde-format
 msgid "Open"
 msgstr "Адкрыць"
 
-#: filewidgets/kencodingfiledialog.cpp:176
-#: filewidgets/kencodingfiledialog.cpp:194
+#: filewidgets/kencodingfiledialog.cpp:180
+#: filewidgets/kencodingfiledialog.cpp:198
 #, kde-format
 msgid "Save As"
 msgstr "Захаваць як"
@@ -2985,7 +2986,7 @@ msgid "*|All Files"
 msgstr "*|Усе файлы"
 
 #: filewidgets/kfilewidget.cpp:2211 widgets/executablefileopendialog.cpp:44
-#: widgets/kfileitemactions.cpp:900
+#: widgets/kfileitemactions.cpp:907
 #, kde-format
 msgid "&Open"
 msgstr "&Адкрыць"
@@ -3236,31 +3237,31 @@ msgstr "Націсніце, каб перайсці да размяшчэння"
 msgid "Click to Edit Location"
 msgstr "Націсніце, каб рэдагаваць размяшчэнне"
 
-#: gui/applicationlauncherjob.cpp:108 gui/kprocessrunner.cpp:238
+#: gui/applicationlauncherjob.cpp:111 gui/kprocessrunner.cpp:238
 #, kde-format
 msgid "You are not authorized to execute this file."
 msgstr "Вы не аўтарызаваныя для выканання гэтага файла."
 
-#: gui/applicationlauncherjob.cpp:119 gui/commandlauncherjob.cpp:117
+#: gui/applicationlauncherjob.cpp:122 gui/commandlauncherjob.cpp:117
 #, kde-format
 msgctxt "Launching application"
 msgid "Launching %1"
 msgstr "Запуск %1"
 
-#: gui/applicationlauncherjob.cpp:156
+#: gui/applicationlauncherjob.cpp:159
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution.\n"
 "%2."
 msgstr "Не ўдалося зрабіць службу %1 выканальнай, скасаванне выканання.\n"
 " %2."
 
-#: gui/applicationlauncherjob.cpp:253 gui/openurljob.cpp:627
+#: gui/applicationlauncherjob.cpp:274 gui/openurljob.cpp:627
 #: widgets/krun.cpp:196
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr "Вы не аўтарызаваныя для таго, каб абраць праграму для адкрыцця гэтага файла."
 
-#: gui/applicationlauncherjob.cpp:261
+#: gui/applicationlauncherjob.cpp:282
 #, kde-format
 msgid "Internal error: could not prompt the user for which application to start"
 msgstr "Унутраная памылка: не ўдалося падказаць карыстальніку, якую праграму запусціць"
@@ -3373,29 +3374,29 @@ msgstr "Не ўдалося запусціць праграму \"%1\"."
 msgid "Setting ACL for %1"
 msgstr "Параметр ACL для %1"
 
-#: ioslaves/file/file.cpp:716
+#: ioslaves/file/file.cpp:720
 #, kde-format
 msgid "Could not change permissions for\n"
 "%1"
 msgstr "Не ўдалося змяніць правы доступу для\n"
 "%1"
 
-#: ioslaves/file/file.cpp:799
+#: ioslaves/file/file.cpp:803
 #, kde-format
 msgid "mounting is not supported by Windows CE."
 msgstr "мантаванне не падтрымліваецца ў Windows CE."
 
-#: ioslaves/file/file.cpp:829
+#: ioslaves/file/file.cpp:833
 #, kde-format
 msgid "Could not find program \"mount\""
 msgstr "Не ўдалося знайсці праграму \"mount\""
 
-#: ioslaves/file/file.cpp:896
+#: ioslaves/file/file.cpp:900
 #, kde-format
 msgid "unmounting is not supported by Windows CE."
 msgstr "адмантаванне не падтрымліваецца ў Windows CE."
 
-#: ioslaves/file/file.cpp:911
+#: ioslaves/file/file.cpp:915
 #, kde-format
 msgid "Could not find program \"umount\""
 msgstr "Не ўдалося знайсці праграму \"umount\""
@@ -3484,22 +3485,22 @@ msgstr "Дзеянне: %1\n"
 "Крыніца: %2\n"
 "%3"
 
-#: ioslaves/file/file_unix.cpp:842
+#: ioslaves/file/file_unix.cpp:844
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr "Не ўдалося скапіяваць файл з %1 у %2. (Код памылкі: %3)"
 
-#: ioslaves/file/file_unix.cpp:1069
+#: ioslaves/file/file_unix.cpp:1071
 #, kde-format
 msgid "No media in device for %1"
 msgstr "Няма носьбіта ў прыладзе %1"
 
-#: ioslaves/file/file_unix.cpp:1362
+#: ioslaves/file/file_unix.cpp:1364
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr "Не ўдалося атрымаць ідэнтыфікатар карыстальніка для пададзенага імя карыстальніка %1"
 
-#: ioslaves/file/file_unix.cpp:1374
+#: ioslaves/file/file_unix.cpp:1376
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr "Не ўдалося атрымаць ідэнтыфікатар групы для пададзенай групы %1"
@@ -5937,14 +5938,14 @@ msgid "Do you really want to permanently delete this item?<nl/><filename>%1</fil
 msgstr "Сапраўды хочаце назаўсёды выдаліць элемент?<nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>Гэтае дзеянне нельга скасаваць.</emphasis>"
 
 #: widgets/jobuidelegate.cpp:283 widgets/jobuidelegate.cpp:297
-#: widgets/jobuidelegate.cpp:309 widgets/widgetsaskuseractionhandler.cpp:194
+#: widgets/jobuidelegate.cpp:309 widgets/widgetsaskuseractionhandler.cpp:198
 #, kde-format
 msgid "Delete Permanently"
 msgstr "Выдаліць назаўсёды"
 
 #: widgets/jobuidelegate.cpp:284 widgets/jobuidelegate.cpp:298
-#: widgets/widgetsaskuseractionhandler.cpp:237
-#: widgets/widgetsaskuseractionhandler.cpp:259
+#: widgets/widgetsaskuseractionhandler.cpp:241
+#: widgets/widgetsaskuseractionhandler.cpp:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete Permanently"
@@ -5968,19 +5969,19 @@ msgstr[1] "Сапраўды хочаце назаўсёды выдаліць %1 
 msgstr[2] "Сапраўды хочаце назаўсёды выдаліць %1 элементаў?<nl/><nl/><emphasis strong='true'>Гэтае дзеянне нельга скасаваць.</emphasis>"
 msgstr[3] "Сапраўды хочаце назаўсёды выдаліць %1 элементы?<nl/><nl/><emphasis strong='true'>Гэтае дзеянне нельга скасаваць.</emphasis>"
 
-#: widgets/jobuidelegate.cpp:308 widgets/widgetsaskuseractionhandler.cpp:266
+#: widgets/jobuidelegate.cpp:308 widgets/widgetsaskuseractionhandler.cpp:270
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you want to permanently delete all items from the Trash?<nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
 msgstr "Хочаце назаўсёды выдаліць усе элементы са сметніцы?<nl/><nl/><emphasis strong='true'>Гэтае дзеянне немагчыма скасаваць.</emphasis>"
 
-#: widgets/jobuidelegate.cpp:310 widgets/widgetsaskuseractionhandler.cpp:268
+#: widgets/jobuidelegate.cpp:310 widgets/widgetsaskuseractionhandler.cpp:272
 #, kde-format
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Ачысціць сметніцу"
 
-#: widgets/jobuidelegate.cpp:320 widgets/widgetsaskuseractionhandler.cpp:274
+#: widgets/jobuidelegate.cpp:320 widgets/widgetsaskuseractionhandler.cpp:278
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you really want to move this item to the Trash?<nl/><filename>%1</filename>"
@@ -5996,12 +5997,12 @@ msgstr[1] "Сапраўды хочаце перамясціць гэтыя %1 э
 msgstr[2] "Сапраўды хочаце перамясціць гэтыя %1 элементаў у сметніцу?"
 msgstr[3] "Сапраўды хочаце перамясціць гэтыя %1 элементы ў сметніцу?"
 
-#: widgets/jobuidelegate.cpp:456 widgets/widgetsaskuseractionhandler.cpp:534
+#: widgets/jobuidelegate.cpp:456 widgets/widgetsaskuseractionhandler.cpp:541
 #, kde-format
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Выглядае, што ланцужок аднарангавых сертыфікатаў SSL пашкоджаны."
 
-#: widgets/jobuidelegate.cpp:456 widgets/widgetsaskuseractionhandler.cpp:537
+#: widgets/jobuidelegate.cpp:456 widgets/widgetsaskuseractionhandler.cpp:544
 #, kde-format
 msgid "SSL"
 msgstr "SSL"
@@ -6228,58 +6229,58 @@ msgctxt "@title:column"
 msgid "Type"
 msgstr "Тып"
 
-#: widgets/kfileitemactions.cpp:428
+#: widgets/kfileitemactions.cpp:435
 #, kde-format
 msgid "Open &with %1"
 msgstr "Адкрыць &з дапамогай %1"
 
-#: widgets/kfileitemactions.cpp:430
+#: widgets/kfileitemactions.cpp:437
 #, kde-format
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
 msgstr "%1"
 
-#: widgets/kfileitemactions.cpp:614
+#: widgets/kfileitemactions.cpp:621
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "&Дзеянні"
 
-#: widgets/kfileitemactions.cpp:851
+#: widgets/kfileitemactions.cpp:858
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open Folder With..."
 msgstr "Адкрыць &каталог з дапамогай..."
 
-#: widgets/kfileitemactions.cpp:851
+#: widgets/kfileitemactions.cpp:858
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "&Адкрыць з дапамогай..."
 
-#: widgets/kfileitemactions.cpp:889
+#: widgets/kfileitemactions.cpp:896
 #, kde-format
 msgid "&Open folder with %1"
 msgstr "Адкрыць &каталог з дапамогай %1"
 
-#: widgets/kfileitemactions.cpp:889
+#: widgets/kfileitemactions.cpp:896
 #, kde-format
 msgid "&Open with %1"
 msgstr "&Адкрыць з дапамогай %1"
 
-#: widgets/kfileitemactions.cpp:922
+#: widgets/kfileitemactions.cpp:929
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open Folder With"
 msgstr "Адкрыць &каталог з дапамогай"
 
-#: widgets/kfileitemactions.cpp:922
+#: widgets/kfileitemactions.cpp:929
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "&Адкрыць з дапамогай"
 
-#: widgets/kfileitemactions.cpp:933
+#: widgets/kfileitemactions.cpp:940
 #, kde-format
 msgctxt "@action:inmenu Open With"
 msgid "&Other Application..."
@@ -7323,7 +7324,7 @@ msgstr "Дадаць адзін або некалькі тыпаў файлаў:
 msgid "Only executables on local file systems are supported."
 msgstr "Падтрымліваюцца толькі выканальныя файлы, размешчаныя ў лакальнай файлавай сістэме."
 
-#: widgets/kpropertiesdialog.cpp:3609
+#: widgets/kpropertiesdialog.cpp:3608
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "Адмысловыя параметры для %1"
@@ -7840,13 +7841,13 @@ msgid "The remote host did not send any SSL certificates.\n"
 msgstr "Адлеглы хост не адправіў сертыфікаты SSL.\n"
 "Працэс быў перарваны, бо немагчыма вызначыць уліковыя даныя хоста."
 
-#: widgets/widgetsaskuseractionhandler.cpp:225
+#: widgets/widgetsaskuseractionhandler.cpp:229
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you really want to permanently delete this item?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
 msgstr "Сапраўды хочаце назаўсёды выдаліць элемент?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>Гэтае дзеянне нельга скасаваць.</emphasis>"
 
-#: widgets/widgetsaskuseractionhandler.cpp:231
+#: widgets/widgetsaskuseractionhandler.cpp:235
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you really want to permanently delete this %1 item?<nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
@@ -7856,13 +7857,13 @@ msgstr[1] "Сапраўды хочаце назаўсёды выдаліць %1 
 msgstr[2] "Сапраўды хочаце назаўсёды выдаліць %1 элементаў?<nl/><nl/><emphasis strong='true'>Гэтае дзеянне немагчыма скасаваць.</emphasis>"
 msgstr[3] "Сапраўды хочаце назаўсёды выдаліць %1 элементы?<nl/><nl/><emphasis strong='true'>Гэтае дзеянне немагчыма скасаваць.</emphasis>"
 
-#: widgets/widgetsaskuseractionhandler.cpp:244
+#: widgets/widgetsaskuseractionhandler.cpp:248
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Moving this item to Trash failed as it is too large. Permanently delete it instead?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
 msgstr "Не ўлалося перамясціць гэты элемент у сметніцу, бо ён занадта вялікі. Выдаліць яго назаўсёды?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>Гэтае дзеянне нельга адрабіць.</emphasis>"
 
-#: widgets/widgetsaskuseractionhandler.cpp:251
+#: widgets/widgetsaskuseractionhandler.cpp:255
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Moving this %1 item to Trash failed as it is too large. Permanently delete it instead?<nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
@@ -7872,7 +7873,7 @@ msgstr[1] "Не ўдалося перамясціць %1 элементы ў с�
 msgstr[2] "Не ўдалося перамясціць %1 элементаў у сметніцу, бо яны занадта вялікія. Выдаліць яго назаўсёды?<nl/><nl/><emphasis strong='true'>Гэтае дзеянне нельга адрабіць.</emphasis>"
 msgstr[3] "Не ўдалося перамясціць %1 элементы ў сметніцу, бо яны занадта вялікія. Выдаліць яго назаўсёды?<nl/><nl/><emphasis strong='true'>Гэтае дзеянне нельга адрабіць.</emphasis>"
 
-#: widgets/widgetsaskuseractionhandler.cpp:279
+#: widgets/widgetsaskuseractionhandler.cpp:283
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you really want to move this %1 item to the Trash?"
@@ -7882,19 +7883,19 @@ msgstr[1] "Сапраўды хочаце перамясціць %1 элемен�
 msgstr[2] "Сапраўды хочаце перамясціць %1 элементаў у сметніцу?"
 msgstr[3] "Сапраўды хочаце перамясціць %1 элементы ў сметніцу?"
 
-#: widgets/widgetsaskuseractionhandler.cpp:335
+#: widgets/widgetsaskuseractionhandler.cpp:338
 #, kde-format
 msgctxt "@option:checkbox"
 msgid "Do not ask again"
 msgstr "Больш не пытацца"
 
-#: widgets/widgetsaskuseractionhandler.cpp:387
+#: widgets/widgetsaskuseractionhandler.cpp:390
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not ask again"
 msgstr "Больш не пытацца"
 
-#: widgets/widgetsaskuseractionhandler.cpp:416
+#: widgets/widgetsaskuseractionhandler.cpp:419
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not show this message again"
