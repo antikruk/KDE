@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-17 01:02+0000\n"
-"PO-Revision-Date: 2023-02-19 19:21\n"
+"POT-Creation-Date: 2023-07-10 00:50+0000\n"
+"PO-Revision-Date: 2023-07-10 14:52\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -37,6 +37,7 @@ msgid "File Info"
 msgstr "Інфармацыя пра файл"
 
 #: controllers/document/info/documentinfoview.cpp:70
+#: controllers/view/structures/datatypes/datainformation.cpp:229
 #, kde-format
 msgid "Type:"
 msgstr "Тып:"
@@ -47,6 +48,7 @@ msgid "Location:"
 msgstr "Размяшчэнне:"
 
 #: controllers/document/info/documentinfoview.cpp:94
+#: controllers/view/structures/datatypes/datainformation.cpp:231
 #, kde-format
 msgid "Size:"
 msgstr "Памер:"
@@ -96,44 +98,44 @@ msgctxt "@title:column title of the bookmark"
 msgid "Title"
 msgstr "Назва"
 
-#: controllers/view/bookmarks/bookmarkscontroller.cpp:50
+#: controllers/view/bookmarks/bookmarkscontroller.cpp:51
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Bookmark"
 msgstr "Выдаліць закладку"
 
-#: controllers/view/bookmarks/bookmarkscontroller.cpp:56
+#: controllers/view/bookmarks/bookmarkscontroller.cpp:57
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove All Bookmarks"
 msgstr ""
 
-#: controllers/view/bookmarks/bookmarkscontroller.cpp:62
+#: controllers/view/bookmarks/bookmarkscontroller.cpp:63
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go to Next Bookmark"
 msgstr ""
 
-#: controllers/view/bookmarks/bookmarkscontroller.cpp:68
+#: controllers/view/bookmarks/bookmarkscontroller.cpp:69
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go to Previous Bookmark"
 msgstr ""
 
-#: controllers/view/bookmarks/bookmarkscontroller.cpp:161
+#: controllers/view/bookmarks/bookmarkscontroller.cpp:162
 #, kde-format
 msgctxt "@item description of bookmark"
 msgid "%1: %2"
 msgstr "%1: %2"
 
-#: controllers/view/bookmarks/bookmarkscontroller.cpp:240
-#: controllers/view/bookmarks/bookmarkstool.cpp:125
+#: controllers/view/bookmarks/bookmarkscontroller.cpp:241
+#: controllers/view/bookmarks/bookmarkstool.cpp:126
 #, kde-format
 msgctxt "default name of a bookmark"
 msgid "Bookmark"
 msgstr "Закладка"
 
-#: controllers/view/bookmarks/bookmarkstool.cpp:39
+#: controllers/view/bookmarks/bookmarkstool.cpp:40
 #: controllers/view/bookmarks/bookmarkstoolviewfactory.cpp:24
 #, kde-format
 msgctxt "@title:window"
@@ -189,42 +191,42 @@ msgid "If you press this button, the name of the bookmark which was last selecte
 msgstr ""
 
 #: controllers/view/bytetable/bytetablemodel.cpp:121
-#: controllers/view/info/statistictablemodel.cpp:136
+#: controllers/view/info/statistictablemodel.cpp:137
 #, kde-format
 msgctxt "@item:intable character is not defined"
 msgid "undef."
 msgstr ""
 
 #: controllers/view/bytetable/bytetablemodel.cpp:158
-#: controllers/view/info/statistictablemodel.cpp:209
+#: controllers/view/info/statistictablemodel.cpp:214
 #, kde-format
 msgctxt "@title:column short for Decimal"
 msgid "Dec"
 msgstr "Сне"
 
 #: controllers/view/bytetable/bytetablemodel.cpp:159
-#: controllers/view/info/statistictablemodel.cpp:208
+#: controllers/view/info/statistictablemodel.cpp:213
 #, kde-format
 msgctxt "@title:column short for Hexadecimal"
 msgid "Hex"
 msgstr ""
 
 #: controllers/view/bytetable/bytetablemodel.cpp:160
-#: controllers/view/info/statistictablemodel.cpp:210
+#: controllers/view/info/statistictablemodel.cpp:215
 #, kde-format
 msgctxt "@title:column short for Octal"
 msgid "Oct"
 msgstr "Кас"
 
 #: controllers/view/bytetable/bytetablemodel.cpp:161
-#: controllers/view/info/statistictablemodel.cpp:211
+#: controllers/view/info/statistictablemodel.cpp:216
 #, kde-format
 msgctxt "@title:column short for Binary"
 msgid "Bin"
 msgstr ""
 
 #: controllers/view/bytetable/bytetablemodel.cpp:162
-#: controllers/view/info/statistictablemodel.cpp:213
+#: controllers/view/info/statistictablemodel.cpp:218
 #| msgctxt "@title:menu"
 #| msgid "Panels"
 msgctxt "@title:column short for Character"
@@ -232,35 +234,35 @@ msgid "Char"
 msgstr ""
 
 #: controllers/view/bytetable/bytetablemodel.cpp:168
-#: controllers/view/info/statistictablemodel.cpp:224
+#: controllers/view/info/statistictablemodel.cpp:229
 #, kde-format
 msgctxt "@info:tooltip column contains the value in decimal format"
 msgid "Decimal"
 msgstr "Decimal"
 
 #: controllers/view/bytetable/bytetablemodel.cpp:170
-#: controllers/view/info/statistictablemodel.cpp:222
+#: controllers/view/info/statistictablemodel.cpp:227
 #, kde-format
 msgctxt "@info:tooltip column contains the value in hexadecimal format"
 msgid "Hexadecimal"
 msgstr "Шаснаццатковы"
 
 #: controllers/view/bytetable/bytetablemodel.cpp:172
-#: controllers/view/info/statistictablemodel.cpp:226
+#: controllers/view/info/statistictablemodel.cpp:231
 #, kde-format
 msgctxt "@info:tooltip column contains the value in octal format"
 msgid "Octal"
 msgstr "Васьмярковы"
 
 #: controllers/view/bytetable/bytetablemodel.cpp:174
-#: controllers/view/info/statistictablemodel.cpp:228
+#: controllers/view/info/statistictablemodel.cpp:233
 #, kde-format
 msgctxt "@info:tooltip column contains the value in binary format"
 msgid "Binary"
 msgstr "Двайковы"
 
 #: controllers/view/bytetable/bytetablemodel.cpp:176
-#: controllers/view/info/statistictablemodel.cpp:232
+#: controllers/view/info/statistictablemodel.cpp:237
 #, kde-format
 msgctxt "@info:tooltip column contains the character with the value"
 msgid "Character"
@@ -546,74 +548,74 @@ msgctxt "@title:window of the tool to set a new offset for the cursor"
 msgid "Goto"
 msgstr "Перайсці"
 
-#: controllers/view/gotooffset/gotooffsetview.cpp:38
+#: controllers/view/gotooffset/gotooffsetview.cpp:77
 #, kde-format
 msgctxt "@label:listbox"
 msgid "O&ffset:"
 msgstr ""
 
-#: controllers/view/gotooffset/gotooffsetview.cpp:48
-#: controllers/view/selectrange/selectrangeview.cpp:47
-#: controllers/view/selectrange/selectrangeview.cpp:67
+#: controllers/view/gotooffset/gotooffsetview.cpp:87
+#: controllers/view/selectrange/selectrangeview.cpp:86
+#: controllers/view/selectrange/selectrangeview.cpp:106
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter an offset to go to, or select a previous offset from the list."
 msgstr ""
 
-#: controllers/view/gotooffset/gotooffsetview.cpp:64
+#: controllers/view/gotooffset/gotooffsetview.cpp:103
 #: controllers/view/libfinddialog/abstractfinddialog.cpp:112
 #, kde-format
 msgctxt "@option:check"
 msgid "From c&ursor"
 msgstr ""
 
-#: controllers/view/gotooffset/gotooffsetview.cpp:66
+#: controllers/view/gotooffset/gotooffsetview.cpp:105
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Go relative from the current cursor location and not absolute."
 msgstr ""
 
-#: controllers/view/gotooffset/gotooffsetview.cpp:69
+#: controllers/view/gotooffset/gotooffsetview.cpp:108
 #, kde-format
 msgctxt "@option:check"
 msgid "&Extend selection"
 msgstr ""
 
-#: controllers/view/gotooffset/gotooffsetview.cpp:71
-#: controllers/view/selectrange/selectrangeview.cpp:83
+#: controllers/view/gotooffset/gotooffsetview.cpp:110
+#: controllers/view/selectrange/selectrangeview.cpp:128
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Extend the selection by the cursor move."
 msgstr ""
 
-#: controllers/view/gotooffset/gotooffsetview.cpp:74
+#: controllers/view/gotooffset/gotooffsetview.cpp:113
 #: controllers/view/libfinddialog/abstractfinddialog.cpp:115
-#: controllers/view/selectrange/selectrangeview.cpp:87
+#: controllers/view/selectrange/selectrangeview.cpp:120
 #, kde-format
 msgctxt "@option:check"
 msgid "&Backwards"
 msgstr "Назад(&B)"
 
-#: controllers/view/gotooffset/gotooffsetview.cpp:76
-#: controllers/view/selectrange/selectrangeview.cpp:89
+#: controllers/view/gotooffset/gotooffsetview.cpp:115
+#: controllers/view/selectrange/selectrangeview.cpp:122
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Go backwards from the end or the current cursor location."
 msgstr ""
 
-#: controllers/view/gotooffset/gotooffsetview.cpp:91
+#: controllers/view/gotooffset/gotooffsetview.cpp:130
 #, kde-format
 msgctxt "@action:button"
 msgid "&Go"
 msgstr "&Пераход"
 
-#: controllers/view/gotooffset/gotooffsetview.cpp:94
+#: controllers/view/gotooffset/gotooffsetview.cpp:133
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go to the Offset"
 msgstr ""
 
-#: controllers/view/gotooffset/gotooffsetview.cpp:96
+#: controllers/view/gotooffset/gotooffsetview.cpp:135
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "If you press the <interface>Go</interface> button, the cursor will be moved in the document to or, on your option, by the offset you entered above."
@@ -626,39 +628,57 @@ msgctxt "@title:window"
 msgid "Statistics"
 msgstr "Статыстыка"
 
-#: controllers/view/info/infoview.cpp:43
+#: controllers/view/info/infoview.cpp:44
 #, kde-format
 msgctxt "@label size of selected bytes"
 msgid "Size:"
 msgstr "Памер:"
 
-#: controllers/view/info/infoview.cpp:48
+#: controllers/view/info/infoview.cpp:49
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The number of the bytes the statistic was built for."
 msgstr ""
 
-#: controllers/view/info/infoview.cpp:63
+#: controllers/view/info/infoview.cpp:64
 #, kde-format
 msgctxt "@action:button build the statistic of the byte frequency"
 msgid "&Build"
 msgstr ""
 
-#: controllers/view/info/infoview.cpp:66
+#: controllers/view/info/infoview.cpp:67
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Builds the byte frequency statistic for the bytes in the selected range."
 msgstr ""
 
-#: controllers/view/info/infoview.cpp:68
+#: controllers/view/info/infoview.cpp:69
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "If you press the <interface>Build</interface> button, the byte frequency statistic is built for the bytes in the selected range."
 msgstr ""
 
-#: controllers/view/info/infoview.cpp:155
-#: controllers/view/structures/datatypes/datainformation.cpp:57
-#: controllers/view/structures/datatypes/datainformation.cpp:60
+#: controllers/view/info/infoview.cpp:112
+#: controllers/view/stringsextract/stringsextractview.cpp:136
+#, kde-format
+msgid "C&opy"
+msgstr ""
+
+#: controllers/view/info/infoview.cpp:115
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Copies the selected statistic lines to the clipboard."
+msgstr ""
+
+#: controllers/view/info/infoview.cpp:117
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "If you press the <interface>Copy</interface> button, all statistic lines you selected in the list are copied to the clipboard."
+msgstr ""
+
+#: controllers/view/info/infoview.cpp:183
+#: controllers/view/structures/datatypes/datainformation.cpp:58
+#: controllers/view/structures/datatypes/datainformation.cpp:61
 #: controllers/view/viewstatus/viewstatuscontroller.cpp:217
 #, kde-format
 msgid "1 byte"
@@ -668,13 +688,13 @@ msgstr[1] "%1 байтаў"
 msgstr[2] "%1 байтаў"
 msgstr[3] "%1 байтаў"
 
-#: controllers/view/info/statistictablemodel.cpp:214
+#: controllers/view/info/statistictablemodel.cpp:219
 #, kde-format
 msgctxt "@title:column count of characters"
 msgid "Count"
 msgstr "Лічыльнік"
 
-#: controllers/view/info/statistictablemodel.cpp:215
+#: controllers/view/info/statistictablemodel.cpp:220
 #, kde-format
 msgctxt "@title:column Percent of byte in total"
 msgid "Percent"
@@ -747,17 +767,17 @@ msgid "Modular sum 8-bit"
 msgstr ""
 
 #: controllers/view/libbytearraychecksum/algorithm/modsumbytearraychecksumparametersetedit.cpp:28
-#: controllers/view/poddecoder/podtableview.cpp:79
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Little-endian"
-msgstr ""
-
-#: controllers/view/libbytearraychecksum/algorithm/modsumbytearraychecksumparametersetedit.cpp:29
 #: controllers/view/poddecoder/podtableview.cpp:78
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Big-endian"
+msgstr ""
+
+#: controllers/view/libbytearraychecksum/algorithm/modsumbytearraychecksumparametersetedit.cpp:29
+#: controllers/view/poddecoder/podtableview.cpp:79
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Little-endian"
 msgstr ""
 
 #: controllers/view/libbytearraychecksum/algorithm/modsumbytearraychecksumparametersetedit.cpp:35
@@ -965,8 +985,8 @@ msgid "operand XOR data"
 msgstr ""
 
 #: controllers/view/libfinddialog/abstractfinddialog.cpp:72
-#: controllers/view/search/searchcontroller.cpp:106
-#: controllers/view/search/searchcontroller.cpp:112
+#: controllers/view/search/searchcontroller.cpp:111
+#: controllers/view/search/searchcontroller.cpp:117
 #, kde-format
 msgctxt "@title:window"
 msgid "Find"
@@ -1045,20 +1065,20 @@ msgctxt "@info:whatsthis"
 msgid "Choose whether you want the input to be inserted or to overwrite existing data."
 msgstr ""
 
-#: controllers/view/poddecoder/poddecodertool.cpp:118
+#: controllers/view/poddecoder/poddecodertool.cpp:100
 #: controllers/view/poddecoder/poddecodertoolviewfactory.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Decoding Table"
 msgstr ""
 
-#: controllers/view/poddecoder/poddecodertool.cpp:183
+#: controllers/view/poddecoder/poddecodertool.cpp:165
 #, kde-format
 msgctxt "@label:textbox"
 msgid "UTF-16:"
 msgstr ""
 
-#: controllers/view/poddecoder/poddecodertool.cpp:329
+#: controllers/view/poddecoder/poddecodertool.cpp:311
 #, kde-format
 msgctxt "Edited as %datatype"
 msgid "Edited as %1"
@@ -1131,7 +1151,7 @@ msgid "The new value needs <emphasis>more</emphasis> bytes (%1 instead of %2).<n
 msgstr ""
 
 #: controllers/view/poddecoder/podtableview.cpp:236
-#: controllers/view/selectrange/selectrangeview.cpp:105
+#: controllers/view/selectrange/selectrangeview.cpp:144
 #: controllers/view/structures/structureview.cpp:338
 #, kde-format
 msgctxt "@action:button"
@@ -1285,62 +1305,62 @@ msgid "Replace pattern not found in byte array."
 msgstr ""
 
 #: controllers/view/replace/replacecontroller.cpp:92
-#: controllers/view/search/searchcontroller.cpp:114
+#: controllers/view/search/searchcontroller.cpp:119
 #, kde-kuit-format
 msgctxt "@info"
 msgid "End of byte array reached.<nl/>Continue from the beginning?"
 msgstr ""
 
 #: controllers/view/replace/replacecontroller.cpp:93
-#: controllers/view/search/searchcontroller.cpp:115
+#: controllers/view/search/searchcontroller.cpp:120
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Beginning of byte array reached.<nl/>Continue from the end?"
 msgstr ""
 
-#: controllers/view/replace/replacedialog.cpp:111
+#: controllers/view/replace/replacedialog.cpp:48
 #, kde-format
 msgctxt "@title:window"
 msgid "Replace Bytes"
 msgstr ""
 
-#: controllers/view/replace/replacedialog.cpp:113
+#: controllers/view/replace/replacedialog.cpp:50
 #, kde-format
 msgctxt "@action;button"
 msgid "&Replace"
 msgstr "&Замяніць"
 
-#: controllers/view/replace/replacedialog.cpp:115
+#: controllers/view/replace/replacedialog.cpp:52
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Start replace"
 msgstr ""
 
-#: controllers/view/replace/replacedialog.cpp:117
+#: controllers/view/replace/replacedialog.cpp:54
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "If you press the <interface>Replace</interface> button, the bytes you entered above are searched for within the byte array and any occurrence is replaced with the replacement bytes."
 msgstr ""
 
-#: controllers/view/replace/replacedialog.cpp:125
+#: controllers/view/replace/replacedialog.cpp:62
 #, kde-format
 msgctxt "@title:group"
 msgid "Replace With"
 msgstr ""
 
-#: controllers/view/replace/replacedialog.cpp:132
+#: controllers/view/replace/replacedialog.cpp:69
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Enter the bytes to replace with, or select bytes previously replaced with from the list."
 msgstr ""
 
-#: controllers/view/replace/replacedialog.cpp:141
+#: controllers/view/replace/replacedialog.cpp:78
 #, kde-format
 msgctxt "@option:check"
 msgid "&Prompt on replace"
 msgstr ""
 
-#: controllers/view/replace/replacedialog.cpp:142
+#: controllers/view/replace/replacedialog.cpp:79
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Ask before replacing each match found."
@@ -1370,43 +1390,43 @@ msgctxt "@action:button"
 msgid "Replace"
 msgstr "Замяніць"
 
-#: controllers/view/replace/replacetool.cpp:75
+#: controllers/view/replace/replacetool.cpp:59
 #, kde-format
 msgctxt "@title"
 msgid "Replace"
 msgstr "Замяніць"
 
-#: controllers/view/search/searchcontroller.cpp:107
+#: controllers/view/search/searchcontroller.cpp:112
 #, kde-format
 msgctxt "@info"
 msgid "Search key not found in byte array."
 msgstr ""
 
-#: controllers/view/search/searchdialog.cpp:102
+#: controllers/view/search/searchdialog.cpp:40
 #, kde-format
 msgctxt "@title:window"
 msgid "Find Bytes"
 msgstr ""
 
-#: controllers/view/search/searchdialog.cpp:104
+#: controllers/view/search/searchdialog.cpp:42
 #, kde-format
 msgctxt "@action:button"
 msgid "&Find"
 msgstr "&Шукаць"
 
-#: controllers/view/search/searchdialog.cpp:106
+#: controllers/view/search/searchdialog.cpp:44
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Start searching"
 msgstr ""
 
-#: controllers/view/search/searchdialog.cpp:108
+#: controllers/view/search/searchdialog.cpp:46
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "If you press the <interface>Find</interface> button, the bytes you entered above are searched for within the byte array."
 msgstr ""
 
-#: controllers/view/search/searchtool.cpp:76
+#: controllers/view/search/searchtool.cpp:60
 #, kde-format
 msgctxt "@title"
 msgid "Search"
@@ -1424,31 +1444,31 @@ msgctxt "@title:window of the tool to select a range"
 msgid "Select"
 msgstr "Абраць"
 
-#: controllers/view/selectrange/selectrangeview.cpp:41
+#: controllers/view/selectrange/selectrangeview.cpp:80
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Start offset:"
 msgstr ""
 
-#: controllers/view/selectrange/selectrangeview.cpp:61
+#: controllers/view/selectrange/selectrangeview.cpp:100
 #, kde-format
 msgctxt "@label:listbox"
 msgid "End offset:"
 msgstr ""
 
-#: controllers/view/selectrange/selectrangeview.cpp:81
+#: controllers/view/selectrange/selectrangeview.cpp:126
 #, kde-format
 msgctxt "@option:check"
 msgid "End relative"
 msgstr ""
 
-#: controllers/view/selectrange/selectrangeview.cpp:108
+#: controllers/view/selectrange/selectrangeview.cpp:147
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select the range."
 msgstr ""
 
-#: controllers/view/selectrange/selectrangeview.cpp:110
+#: controllers/view/selectrange/selectrangeview.cpp:149
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "If you press the <interface>Select</interface> button, the cursor will be moved in the document to or, on your option, by the offset you entered above."
@@ -1513,11 +1533,6 @@ msgstr "Фільтр:"
 msgid "Enter a term to limit the list."
 msgstr ""
 
-#: controllers/view/stringsextract/stringsextractview.cpp:136
-#, kde-format
-msgid "C&opy"
-msgstr ""
-
 #: controllers/view/stringsextract/stringsextractview.cpp:139
 #, kde-format
 msgctxt "@info:tooltip"
@@ -1553,7 +1568,7 @@ msgctxt "type name, then array length"
 msgid "%1[%2]"
 msgstr ""
 
-#: controllers/view/structures/datatypes/datainformation.cpp:61
+#: controllers/view/structures/datatypes/datainformation.cpp:62
 #, kde-format
 msgid "1 bit"
 msgid_plural "%1 bits"
@@ -1562,80 +1577,51 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: controllers/view/structures/datatypes/datainformation.cpp:62
+#: controllers/view/structures/datatypes/datainformation.cpp:63
 #, kde-format
 msgctxt "number of bytes, then number of bits"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: controllers/view/structures/datatypes/datainformation.cpp:190
+#: controllers/view/structures/datatypes/datainformation.cpp:199
 #, kde-format
 msgctxt "invalid value (End of file reached)"
 msgid "<EOF reached>"
 msgstr ""
 
-#: controllers/view/structures/datatypes/datainformation.cpp:205
-#: controllers/view/structures/datatypes/datainformationwithchildren.cpp:232
+#: controllers/view/structures/datatypes/datainformation.cpp:228
+#, kde-format
+msgid "Name:"
+msgstr "Імя:"
+
+#: controllers/view/structures/datatypes/datainformation.cpp:230
+#, kde-format
+msgid "Value:"
+msgstr "Значэнне:"
+
+#: controllers/view/structures/datatypes/datainformation.cpp:237
+#, kde-format
+msgctxt "size (elements)"
+msgid "%2 (%1 child)"
+msgid_plural "%2 (%1 children)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: controllers/view/structures/datatypes/datainformation.cpp:262
+#: controllers/view/structures/datatypes/datainformationwithchildren.cpp:233
 #, kde-format
 msgctxt "not all values in this structure are as they should be"
 msgid "Validation failed."
 msgstr ""
 
-#: controllers/view/structures/datatypes/datainformation.cpp:208
-#: controllers/view/structures/datatypes/datainformationwithchildren.cpp:235
+#: controllers/view/structures/datatypes/datainformation.cpp:265
+#: controllers/view/structures/datatypes/datainformationwithchildren.cpp:236
 #, kde-format
 msgctxt "not all values in this structure are as they should be"
 msgid "Validation failed: \"%1\""
 msgstr ""
-
-#: controllers/view/structures/datatypes/datainformation.cpp:210
-#, kde-format
-msgid "Name: %1\n"
-"Value: %2\n\n"
-"Type: %3\n"
-"Size: %4\n\n"
-"%5"
-msgstr ""
-
-#: controllers/view/structures/datatypes/datainformation.cpp:214
-#, kde-format
-msgid "Name: %1\n"
-"Value: %2\n\n"
-"Type: %3\n"
-"Size: %4"
-msgstr ""
-
-#: controllers/view/structures/datatypes/datainformationwithchildren.cpp:237
-#, kde-format
-msgid "Name: %2\n"
-"Value: %3\n\n"
-"Type: %4\n"
-"Size: %5 (%1 child)\n\n"
-" %6"
-msgid_plural "Name: %2\n"
-"Value: %3\n\n"
-"Type: %4\n"
-"Size: %5 (%1 children)\n\n"
-" %6"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: controllers/view/structures/datatypes/datainformationwithchildren.cpp:242
-#, kde-format
-msgid "Name: %2\n"
-"Value: %3\n\n"
-"Type: %4\n"
-"Size: %5 (%1 child)"
-msgid_plural "Name: %2\n"
-"Value: %3\n\n"
-"Type: %4\n"
-"Size: %5 (%1 children)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: controllers/view/structures/datatypes/primitive/bitfield/abstractbitfielddatainformation.cpp:32
 #, kde-format
@@ -1696,19 +1682,19 @@ msgctxt "boolean value with actual value"
 msgid "true (%1)"
 msgstr ""
 
-#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:42
-#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:81
+#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:41
+#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:80
 #, kde-format
 msgid "%1 (value not in enum)"
 msgstr ""
 
-#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:50
-#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:78
+#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:49
+#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:77
 #, kde-format
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:88
+#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:87
 #, kde-format
 msgctxt "Displayed in the type column. first comes the name of the enum, then the underlying type (e.g. uint32)"
 msgid "enum %1 (%2)"
@@ -1725,7 +1711,7 @@ msgctxt "Displayed in the type column. first comes the name of the enum, then th
 msgid "flag %1 (%2)"
 msgstr ""
 
-#: controllers/view/structures/datatypes/primitive/pointerdatainformation.cpp:116
+#: controllers/view/structures/datatypes/primitive/pointerdatainformation.cpp:115
 #, kde-format
 msgctxt "memory pointer with underlying type"
 msgid "%1 pointer"
@@ -1853,7 +1839,7 @@ msgstr ""
 msgid "Latin1 string"
 msgstr ""
 
-#: controllers/view/structures/datatypes/strings/stringdatainformation.cpp:302
+#: controllers/view/structures/datatypes/strings/stringdatainformation.cpp:315
 #, kde-format
 msgid "End of file reached prematurely"
 msgstr ""
@@ -2261,77 +2247,83 @@ msgctxt "value of a data structure (primitive type)"
 msgid "Value"
 msgstr "Значэнне"
 
-#: controllers/view/structures/structureview.cpp:96
+#: controllers/view/structures/structurestool.cpp:193
+#, kde-format
+msgctxt "size of a data structure"
+msgid "Size"
+msgstr "Памер"
+
+#: controllers/view/structures/structureview.cpp:95
 #, kde-format
 msgctxt "@action:button"
 msgid "Validate"
 msgstr ""
 
-#: controllers/view/structures/structureview.cpp:98
+#: controllers/view/structures/structureview.cpp:97
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Validate all structures."
 msgstr ""
 
-#: controllers/view/structures/structureview.cpp:120
+#: controllers/view/structures/structureview.cpp:119
 #, kde-format
 msgctxt "@action:button"
 msgid "Script console"
 msgstr ""
 
-#: controllers/view/structures/structureview.cpp:122
+#: controllers/view/structures/structureview.cpp:121
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open script console."
 msgstr ""
 
-#: controllers/view/structures/structureview.cpp:126
+#: controllers/view/structures/structureview.cpp:125
 #, kde-format
 msgctxt "@action:button"
 msgid "Settings"
 msgstr "Налады"
 
-#: controllers/view/structures/structureview.cpp:128
+#: controllers/view/structures/structureview.cpp:127
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open settings."
 msgstr ""
 
-#: controllers/view/structures/structureview.cpp:159
+#: controllers/view/structures/structureview.cpp:158
 #, kde-format
 msgid "Value Display"
 msgstr ""
 
-#: controllers/view/structures/structureview.cpp:171
+#: controllers/view/structures/structureview.cpp:170
 #, kde-format
 msgid "Structures management"
 msgstr ""
 
-#: controllers/view/structures/structureview.cpp:258
+#: controllers/view/structures/structureview.cpp:257
 #, kde-format
 msgctxt "@action:button unlock the starting offset of the current structure"
 msgid "Unlock"
 msgstr "Разблакаваць"
 
-#: controllers/view/structures/structureview.cpp:260
+#: controllers/view/structures/structureview.cpp:259
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Unlock selected structure, i.e. the starting offset is always set to the current cursor position."
 msgstr ""
 
-#: controllers/view/structures/structureview.cpp:265
+#: controllers/view/structures/structureview.cpp:264
 #, kde-format
 msgctxt "@action:button unlock the starting offset of the current structure"
 msgid "Lock"
 msgstr "Заблакаваць"
 
-#: controllers/view/structures/structureview.cpp:267
+#: controllers/view/structures/structureview.cpp:266
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Lock selected structure to current offset."
 msgstr ""
 
-#: controllers/view/structures/structureview.cpp:296
+#: controllers/view/structures/structureview.cpp:295
 #, kde-format
 msgctxt "@title:window"
 msgid "Structures Script Console"
@@ -2515,33 +2507,33 @@ msgctxt "@item:inmenu"
 msgid "&Rows"
 msgstr ""
 
-#: controllers/view/viewprofiles/viewprofilecontroller.cpp:39
+#: controllers/view/viewprofiles/viewprofilecontroller.cpp:38
 #, kde-format
 msgctxt "@title:menu submenu to select the view profile or change it"
 msgid "View Profile"
 msgstr ""
 
-#: controllers/view/viewprofiles/viewprofilecontroller.cpp:46
+#: controllers/view/viewprofiles/viewprofilecontroller.cpp:45
 #, kde-format
 msgctxt "@action:inmenu create a new view profile"
 msgid "Create New..."
 msgstr ""
 
-#: controllers/view/viewprofiles/viewprofilecontroller.cpp:53
+#: controllers/view/viewprofiles/viewprofilecontroller.cpp:52
 #| msgctxt "@title:menu"
 #| msgid "Panels"
 msgctxt "@action:inmenu save changed to the view profile to the base profile"
 msgid "Save Changes"
 msgstr "Захаваць змены"
 
-#: controllers/view/viewprofiles/viewprofilecontroller.cpp:60
+#: controllers/view/viewprofiles/viewprofilecontroller.cpp:59
 #| msgctxt "@title:menu"
 #| msgid "Panels"
 msgctxt "@action:inmenu reset settings back to those of the saved base profile"
 msgid "Reset Changes"
 msgstr ""
 
-#: controllers/view/viewprofiles/viewprofilecontroller.cpp:180
+#: controllers/view/viewprofiles/viewprofilecontroller.cpp:179
 #: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:180
 #, kde-format
 msgctxt "@window:title"
@@ -2925,13 +2917,13 @@ msgstr ""
 msgid "Support to load files larger than 2 GiB has not yet been implemented."
 msgstr ""
 
-#: gui/io/generator/pattern/bytearraypatterngenerator.cpp:53
+#: gui/io/generator/pattern/bytearraypatterngenerator.cpp:105
 #, kde-format
 msgctxt "name of the generated data"
 msgid "Pattern..."
 msgstr ""
 
-#: gui/io/generator/pattern/bytearraypatterngenerator.cpp:103
+#: gui/io/generator/pattern/bytearraypatterngenerator.cpp:155
 #, kde-format
 msgid "Pattern inserted."
 msgstr ""
@@ -2942,25 +2934,25 @@ msgctxt "@label:textbox"
 msgid "Pattern:"
 msgstr "Шаблон:"
 
-#: gui/io/generator/pattern/bytearraypatterngeneratorconfigeditor.cpp:42
+#: gui/io/generator/pattern/bytearraypatterngeneratorconfigeditor.cpp:44
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter a pattern to search for, or select a previous pattern from the list."
 msgstr ""
 
-#: gui/io/generator/pattern/bytearraypatterngeneratorconfigeditor.cpp:50
+#: gui/io/generator/pattern/bytearraypatterngeneratorconfigeditor.cpp:52
 #, kde-format
 msgctxt "@label:spinbox number of times to insert the pattern"
 msgid "&Number:"
 msgstr ""
 
-#: gui/io/generator/pattern/bytearraypatterngeneratorconfigeditor.cpp:58
+#: gui/io/generator/pattern/bytearraypatterngeneratorconfigeditor.cpp:60
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter the number of times the pattern should be inserted."
 msgstr ""
 
-#: gui/io/generator/pattern/bytearraypatterngeneratorconfigeditor.cpp:70
+#: gui/io/generator/pattern/bytearraypatterngeneratorconfigeditor.cpp:72
 #| msgctxt "@title:menu"
 #| msgid "Insert"
 msgctxt "@item name of the generated data"
@@ -3182,6 +3174,12 @@ msgstr ""
 #, kde-format
 msgctxt "@label:textbox substring which separates the values"
 msgid "Separation:"
+msgstr ""
+
+#: gui/io/streamencoder/viewhtml/bytearrayviewhtmlstreamencoder.cpp:36
+#, kde-format
+msgctxt "name of the encoding target"
+msgid "View in HTML"
 msgstr ""
 
 #: gui/io/streamencoder/viewtext/bytearrayviewtextstreamencoder.cpp:41
