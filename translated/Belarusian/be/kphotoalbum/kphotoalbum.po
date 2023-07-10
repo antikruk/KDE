@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-05-02 00:45+0000\n"
-"PO-Revision-Date: 2023-05-06 12:59\n"
+"POT-Creation-Date: 2023-07-10 00:45+0000\n"
+"PO-Revision-Date: 2023-07-10 14:50\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -77,7 +77,7 @@ msgctxt "@info:whatsthis"
 msgid "<para>A descriptive text of the image.</para><para>If <emphasis>Use Exif description</emphasis> is enabled under <interface>Settings|Configure KPhotoAlbum...|General</interface>, a description embedded in the image Exif information is imported to this field if available.</para>"
 msgstr ""
 
-#: AnnotationDialog/Dialog.cpp:166 DB/ImageDB.cpp:146
+#: AnnotationDialog/Dialog.cpp:166 DB/ImageDB.cpp:397
 #, kde-format
 msgid "Cancel"
 msgstr "Скасаваць"
@@ -357,12 +357,12 @@ msgstr "Выдаліць"
 msgid "Copy tags from previous image"
 msgstr ""
 
-#: AnnotationDialog/Dialog.cpp:1329 MainWindow/Window.cpp:809
+#: AnnotationDialog/Dialog.cpp:1329 MainWindow/Window.cpp:814
 #, kde-format
 msgid "Rotate counterclockwise"
 msgstr "Паварочванне супраць стрэлкі гадзінніка"
 
-#: AnnotationDialog/Dialog.cpp:1332 MainWindow/Window.cpp:813
+#: AnnotationDialog/Dialog.cpp:1332 MainWindow/Window.cpp:818
 #, kde-format
 msgid "Rotate clockwise"
 msgstr "Паварочванне па стрэлцы гадзінніка"
@@ -457,12 +457,12 @@ msgctxt "@label:textbox"
 msgid "Enter a tag ..."
 msgstr ""
 
-#: AnnotationDialog/ListSelect.cpp:82 DB/ImageSearchInfo.cpp:338
+#: AnnotationDialog/ListSelect.cpp:82 DB/search/ImageSearchInfo.cpp:339
 #, kde-format
 msgid "or"
 msgstr "ці"
 
-#: AnnotationDialog/ListSelect.cpp:83 DB/ImageSearchInfo.cpp:333
+#: AnnotationDialog/ListSelect.cpp:83 DB/search/ImageSearchInfo.cpp:334
 #, kde-format
 msgid "and"
 msgstr "і"
@@ -612,47 +612,47 @@ msgctxt "Category name, then number of selected tags. E.g. 'People (1)'"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: AnnotationDialog/ResizableFrame.cpp:54
+#: AnnotationDialog/ResizableFrame.cpp:56
 #, kde-format
 msgctxt "area of an image; rectangle that is overlayed upon the image"
 msgid "Remove area"
 msgstr ""
 
-#: AnnotationDialog/ResizableFrame.cpp:309
+#: AnnotationDialog/ResizableFrame.cpp:311
 #, kde-format
 msgctxt "%1 is a prefix like 'Associate with', %2 is the tag name and %3 is the tag's category"
 msgid "%1 %2 (%3)"
 msgstr "%1 %2 (%3)"
 
-#: AnnotationDialog/ResizableFrame.cpp:313
+#: AnnotationDialog/ResizableFrame.cpp:315
 #, kde-format
 msgctxt "%1 is the tag name and %2 is the tag's category"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: AnnotationDialog/ResizableFrame.cpp:354
+#: AnnotationDialog/ResizableFrame.cpp:356
 #, kde-format
 msgid "<p>%1 has already been tagged in another area on this image.</p><p>If you continue, the previous tag will be removed...</p>"
 msgstr ""
 
-#: AnnotationDialog/ResizableFrame.cpp:357
+#: AnnotationDialog/ResizableFrame.cpp:359
 #, kde-format
 msgid "Replace existing area?"
 msgstr ""
 
-#: AnnotationDialog/ResizableFrame.cpp:458
+#: AnnotationDialog/ResizableFrame.cpp:460
 #, kde-format
 msgctxt "As in: remove tag %1 in category %2 [from this marked area of the image]"
 msgid "Remove tag %1 (%2)"
 msgstr ""
 
-#: AnnotationDialog/ResizableFrame.cpp:469
+#: AnnotationDialog/ResizableFrame.cpp:471
 #, kde-format
 msgid "Associate with"
 msgstr ""
 
-#: AnnotationDialog/ResizableFrame.cpp:491
-#: AnnotationDialog/ResizableFrame.cpp:500
+#: AnnotationDialog/ResizableFrame.cpp:495
+#: AnnotationDialog/ResizableFrame.cpp:504
 #, kde-format
 msgctxt "As in: associate [this marked area of the image] with one of the following choices/menu items"
 msgid "Associate with"
@@ -840,12 +840,12 @@ msgctxt "Breadcrumb denoting that we 'browsed' to a search result."
 msgid "search"
 msgstr "пошук"
 
-#: Browser/OverviewPage.cpp:314 MainWindow/Window.cpp:1733
+#: Browser/OverviewPage.cpp:314 MainWindow/Window.cpp:1754
 #, kde-format
 msgid "<p>You have not yet configured which tag to use for indicating untagged images.</p><p>Please follow these steps to do so:<ul><li>In the menu bar choose <b>Settings</b></li><li>From there choose <b>Configure KPhotoAlbum</b></li><li>Now choose the <b>Categories</b> icon</li><li>Now configure section <b>Untagged Images</b></li></ul></p>"
 msgstr ""
 
-#: Browser/OverviewPage.cpp:320 MainWindow/Window.cpp:1740
+#: Browser/OverviewPage.cpp:320 MainWindow/Window.cpp:1761
 #, kde-format
 msgid "Feature has not been configured"
 msgstr ""
@@ -1012,22 +1012,22 @@ msgstr ""
 msgid "10 Seconds"
 msgstr ""
 
-#: DB/Category.cpp:164
+#: DB/Category.cpp:299
 #, kde-format
 msgid "Unable to create folder '%1'."
 msgstr ""
 
-#: DB/Category.cpp:164
+#: DB/Category.cpp:299
 #, kde-format
 msgid "Unable to Create Folder"
 msgstr ""
 
-#: DB/Category.cpp:173
+#: DB/Category.cpp:308
 #, kde-format
 msgid "Error when saving image '%1'."
 msgstr ""
 
-#: DB/Category.cpp:173
+#: DB/Category.cpp:308
 #, kde-format
 msgid "Error Saving Image"
 msgstr ""
@@ -1104,27 +1104,47 @@ msgctxt "Abbreviated month name"
 msgid "dec"
 msgstr ""
 
-#: DB/ImageDB.cpp:145
+#: DB/ImageDB.cpp:61
+#, kde-format
+msgid "Autosave file '%1' exists (size %3 KB) and is newer than '%2'. Should the autosave file be used?"
+msgstr ""
+
+#: DB/ImageDB.cpp:64
+#, kde-format
+msgid "Found Autosave File"
+msgstr ""
+
+#: DB/ImageDB.cpp:396
 #, kde-format
 msgid "Loading information from images"
 msgstr "Загрузка звестак з відарысаў"
 
-#: DB/ImageSearchInfo.cpp:330
+#: DB/ImageDB.cpp:559 DB/ImageDB.cpp:846 DB/XML/FileReader.cpp:135
+#: Settings/CategoryPage.cpp:255 ThumbnailView/ThumbnailModel.cpp:352
 #, kde-format
-msgctxt "As in No persons, no locations etc. I do realize that translators may have problem with this, but I need some how to indicate the category, and users may create their own categories, so this is the best I can do - Jesper."
-msgid "No %1"
-msgstr "Няма %1"
+msgid "Media Type"
+msgstr "Тып носьбіту"
 
-#: DB/ImageSearchInfo.cpp:339
-#, kde-format
-msgid "not"
-msgstr "не"
+#: DB/ImageDB.cpp:560 DB/ImageDB.cpp:847 DB/XML/FileReader.cpp:137
+#| msgid "Image"
+msgid "Image"
+msgstr "Выява"
 
-#: DB/ImageSearchInfo.cpp:344
+#: DB/ImageDB.cpp:560 DB/ImageDB.cpp:848 DB/XML/FileReader.cpp:138
+#| msgid "Video"
+msgid "Video"
+msgstr "Відэа"
+
+#: DB/ImageDB.cpp:952
 #, kde-format
-msgctxt "As in no other persons, or no other locations. I do realize that translators may have problem with this, but I need some how to indicate the category, and users may create their own categories, so this is the best I can do - Jesper."
-msgid "No other %1"
+msgid "KPhotoAlbum - manual repair needed (%1)"
 msgstr ""
+
+#: DB/ImageDB.cpp:953
+#, kde-format
+msgctxt "Separator in a list of tags"
+msgid ", "
+msgstr ", "
 
 #: DB/NewImageFinder.cpp:467
 #, kde-format
@@ -1148,6 +1168,270 @@ msgstr ""
 #: DB/NewImageFinder.cpp:727
 #, kde-format
 msgid "Following files could not be read:"
+msgstr ""
+
+#: DB/search/ImageSearchInfo.cpp:331
+#, kde-format
+msgctxt "As in No persons, no locations etc. I do realize that translators may have problem with this, but I need some how to indicate the category, and users may create their own categories, so this is the best I can do - Jesper."
+msgid "No %1"
+msgstr "Няма %1"
+
+#: DB/search/ImageSearchInfo.cpp:340
+#, kde-format
+msgid "not"
+msgstr "не"
+
+#: DB/search/ImageSearchInfo.cpp:345
+#, kde-format
+msgctxt "As in no other persons, or no other locations. I do realize that translators may have problem with this, but I need some how to indicate the category, and users may create their own categories, so this is the best I can do - Jesper."
+msgid "No other %1"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:58
+#, kde-format
+msgid "<p>The database file (index.xml) is from a newer version of KPhotoAlbum!</p><p>Chances are you will be able to read this file, but when writing it back, information saved in the newer version will be lost</p>"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:61
+#, kde-format
+msgid "index.xml version mismatch"
+msgstr ""
+
+#. i18n("Folder")), and then start KPA with the C locale, which would produce a
+#. doubled "Folder" category.
+#: DB/XML/FileReader.cpp:87 Settings/CategoryPage.cpp:253
+#: ThumbnailView/CellGeometry.cpp:93 ThumbnailView/ThumbnailModel.cpp:352
+#, kde-format
+msgid "Folder"
+msgstr "Тэчка"
+
+#: DB/XML/FileReader.cpp:109 DB/XML/FileReader.cpp:121
+#, kde-format
+msgid "Tokens"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:189
+#, kde-format
+msgid "<p>Line %1, column %2: duplicate category '%3'</p><p>Choose continue to ignore the duplicate category and try an automatic repair, or choose cancel to quit.</p>"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:195 DB/XML/FileReader.cpp:300
+#| msgid "Loading Database"
+msgid "Error in database file"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:255
+#, kde-format
+msgctxt "Leave \"Folder\" and \"Media Type\" untranslated below, those will show up with these exact names. Thanks :-)"
+msgid "<p><b>This version of KPhotoAlbum does not translate \"standard\" categories any more.</b></p><p>This may mean that – if you use a locale other than English – some of your categories are now displayed in English.</p><p>You can manually rename your categories any time and then save your database.</p><p>In some cases, you may get two additional empty categories, \"Folder\" and \"Media Type\". You can delete those.</p>"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:263
+#, kde-format
+msgid "Changed standard category names"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:295
+#, kde-format
+msgid "<p>Line %1, column %2: duplicate entry for file '%3' with different MD5 sum.</p><p>Manual repair required!</p>"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:418
+#, kde-format
+msgid "<p>Your images/videos are not sorted, which means that navigating using the date bar will only work suboptimally.</p><p>In the <b>Maintenance</b> menu, you can find <b>Display Images with Incomplete Dates</b> which you can use to find the images that are missing date information.</p><p>You can then select the images that you have reason to believe have a correct date in either their Exif data or on the file, and execute <b>Maintenance->Read Exif Info</b> to reread the information.</p><p>Finally, once all images have their dates set, you can execute <b>Maintenance->Sort All by Date & Time</b> to sort them in the database. </p>"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:427
+#, kde-format
+msgid "Images/Videos Are Not Sorted"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:439
+#, kde-format
+msgid "<p>Not all the images in the database have information about image sizes; this is needed to get the best result in the thumbnail view. To fix this, simply go to the <b>Maintenance</b> menu, and first choose <b>Remove All Thumbnails</b>, and after that choose <tt>Build Thumbnails</tt>.</p><p>Not doing so will result in extra space around images in the thumbnail view - that is all - so there is no urgency in doing it.</p>"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:444
+#, kde-format
+msgid "Not All Images Have Size Information"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:458
+#, kde-format
+msgctxt "repair merged tags"
+msgid "<p>Inconsistencies were found and repaired in your database. Some categories now contain tags that were merged during the repair.</p><p>The following tags require manual inspection:<ul>"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:468
+#, kde-format
+msgctxt "repair merged tags"
+msgid "<li>%1:<br/>"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:470
+#, kde-format
+msgctxt "repair merged tags"
+msgid "%1<br/>"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:473
+#, kde-format
+msgctxt "repair merged tags"
+msgid "</li>"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:478
+#, kde-format
+msgctxt "repair merged tags"
+msgid "</ul></p><p>All affected images have also been marked with a tag <em>KPhotoAlbum - manual repair needed</em>.</p>"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:482
+#| msgid "Database name:"
+msgid "Database repair required"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:505
+#, kde-format
+msgid "<p>KPhotoAlbum was unable to load a default setup, which indicates an installation error</p><p>If you have installed KPhotoAlbum yourself, then you must remember to set the environment variable <b>KDEDIRS</b>, to point to the topmost installation folder.</p><p>If you for example ran cmake with <b>-DCMAKE_INSTALL_PREFIX=/usr/local/kde</b>, then you must use the following environment variable setup (this example is for Bash and compatible shells):</p><p><b>export KDEDIRS=/usr/local/kde</b></p><p>In case you already have KDEDIRS set, simply append the string as if you where setting the <b>PATH</b> environment variable</p>"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:513
+#, kde-format
+msgid "No default setup file found"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:520 Settings/BirthdayPage.cpp:134
+#, kde-format
+msgid "People"
+msgstr "Людзі"
+
+#: DB/XML/FileReader.cpp:521
+#, kde-format
+msgid "Places"
+msgstr "Месцы"
+
+#. i18n("Events"))
+#: DB/XML/FileReader.cpp:522 lib/kpabase/SettingsData.cpp:411
+#, kde-format
+msgid "Events"
+msgstr "Падзеі"
+
+#. i18n("untagged"))
+#: DB/XML/FileReader.cpp:523 lib/kpabase/SettingsData.cpp:421
+#, kde-format
+msgid "untagged"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:534 Utilities/DemoUtil.cpp:34
+#: Utilities/DemoUtil.cpp:51 Utilities/DemoUtil.cpp:85
+#, kde-format
+msgid "Error Running Demo"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:534
+#, kde-format
+msgid "Unable to open '%1' for reading"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:547
+#, kde-format
+msgid "line %1 column %2 in file %3: %4"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:549
+#, kde-format
+msgid "Failed to recover the backup: %1"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:560
+#, kde-format
+msgid "Error in file %1: No elements found"
+msgstr ""
+
+#: DB/XML/FileReader.cpp:566
+#, kde-format
+msgid "Error in file %1: expected 'KPhotoAlbum' as top element but found '%2'"
+msgstr ""
+
+#: DB/XML/FileWriter.cpp:74
+#, kde-format
+msgid "<p>Could not save the image database to XML.</p>File %1 could not be opened because of the following error: %2"
+msgstr ""
+
+#: DB/XML/FileWriter.cpp:77 DB/XML/FileWriter.cpp:112 DB/XML/FileWriter.cpp:121
+#, kde-format
+msgid "Error while saving..."
+msgstr ""
+
+#: DB/XML/FileWriter.cpp:109
+#, kde-format
+msgid "<p>Failed to remove old version of image database.</p><p>Please try again or replace the file %1 with file %2 manually!</p>"
+msgstr ""
+
+#: DB/XML/FileWriter.cpp:118
+#, kde-format
+msgid "<p>Failed to move temporary XML file to permanent location.</p><p>Please try again or rename file %1 to %2 manually!</p>"
+msgstr ""
+
+#: DB/XML/NumberedBackup.cpp:41
+#, kde-format
+msgid "Error creating zip file %1"
+msgstr ""
+
+#: DB/XML/NumberedBackup.cpp:41 DB/XML/NumberedBackup.cpp:46
+#, kde-format
+msgid "Error Making Numbered Backup"
+msgstr ""
+
+#: DB/XML/NumberedBackup.cpp:46
+#, kde-format
+msgid "Error writing file %1 to zip file %2"
+msgstr ""
+
+#: DB/XML/XmlReader.cpp:43
+#, kde-format
+msgid "Error reading next element"
+msgstr ""
+
+#: DB/XML/XmlReader.cpp:46
+#, kde-format
+msgid "Expected to read a start or stop element, but read %1"
+msgstr ""
+
+#: DB/XML/XmlReader.cpp:51
+#, kde-format
+msgid "Expected to read %1, but read %2"
+msgstr ""
+
+#: DB/XML/XmlReader.cpp:62
+#, kde-format
+msgid "Expected to read an end element but read %1"
+msgstr ""
+
+#: DB/XML/XmlReader.cpp:80
+#, kde-format
+msgid "Expected to read start element '%1'"
+msgstr ""
+
+#: DB/XML/XmlReader.cpp:86
+#, kde-format
+msgid "<p>An error was encountered on line %1, column %2:<nl/><message>%3</message></p>"
+msgstr ""
+
+#: DB/XML/XmlReader.cpp:90
+#, kde-format
+msgid "<p>Additional error information:<nl/><message>%1</message></p>"
+msgstr ""
+
+#: DB/XML/XmlReader.cpp:91
+#, kde-kuit-format
+msgid "<p>Database path: <filename>%1</filename></p>"
+msgstr ""
+
+#: DB/XML/XmlReader.cpp:94
+#| msgid "Loading Database"
+msgid "Error while reading database file"
 msgstr ""
 
 #: Exif/InfoDialog.cpp:33
@@ -1416,67 +1700,67 @@ msgstr ""
 msgid "Not all images in the database have lens information. <note>Recreate the Exif search database to ensure lens data for all images.</note>"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:50
+#: HTMLGenerator/Generator.cpp:57
 #, kde-format
 msgid "<p>No file name given!</p>"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:76
+#: HTMLGenerator/Generator.cpp:83
 #, kde-format
 msgid "Generating images for HTML page "
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:179
+#: HTMLGenerator/Generator.cpp:186
 #, kde-format
 msgid "Error copying %1 to %2"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:465
+#: HTMLGenerator/Generator.cpp:472
 #, kde-format
 msgid "<a href=\"%1\">prev</a>"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:467 HTMLGenerator/Generator.cpp:475
+#: HTMLGenerator/Generator.cpp:474 HTMLGenerator/Generator.cpp:482
 #, kde-format
 msgid "prev"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:479
+#: HTMLGenerator/Generator.cpp:486
 #, kde-format
 msgid "<a href=\"index-%1.html\">index</a>"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:488
+#: HTMLGenerator/Generator.cpp:495
 #, kde-format
 msgid "<a href=\"%1\">next</a>"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:490 HTMLGenerator/Generator.cpp:497
+#: HTMLGenerator/Generator.cpp:497 HTMLGenerator/Generator.cpp:504
 #, kde-format
 msgid "next"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:643
+#: HTMLGenerator/Generator.cpp:650
 #, kde-format
 msgid "Could not create file '%1'."
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:644
+#: HTMLGenerator/Generator.cpp:651
 #, kde-format
 msgid "Could Not Create File"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:663
+#: HTMLGenerator/Generator.cpp:670
 #, kde-format
 msgid "<p>Unable to copy %1 to %2</p>"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:697
+#: HTMLGenerator/Generator.cpp:704
 #, kde-format
 msgid "Unable to write image '%1'."
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:771 HTMLGenerator/HTMLDialog.cpp:147
+#: HTMLGenerator/Generator.cpp:778 HTMLGenerator/HTMLDialog.cpp:147
 #| msgid "Date: "
 msgid "Date"
 msgstr "Дата"
@@ -1754,123 +2038,123 @@ msgstr ""
 msgid "Building thumbnails"
 msgstr ""
 
-#: ImportExport/Export.cpp:61
+#: ImportExport/Export.cpp:74
 #| msgid "Import"
 msgid "Save an export file"
 msgstr ""
 
-#: ImportExport/Export.cpp:63 ImportExport/Import.cpp:28
+#: ImportExport/Export.cpp:76 ImportExport/Import.cpp:28
 #| msgid "KPhotoAlbum"
 msgid "KPhotoAlbum import files"
 msgstr ""
 
-#: ImportExport/Export.cpp:79
+#: ImportExport/Export.cpp:92
 #| msgid "Export..."
 msgctxt "@title:window"
 msgid "Export Configuration / Copy Images"
 msgstr ""
 
-#: ImportExport/Export.cpp:92
+#: ImportExport/Export.cpp:105
 #, kde-format
 msgid "How to Handle Images"
 msgstr ""
 
-#: ImportExport/Export.cpp:96
+#: ImportExport/Export.cpp:109
 #, kde-format
 msgid "Include in .kim file"
 msgstr ""
 
-#: ImportExport/Export.cpp:97
+#: ImportExport/Export.cpp:110
 #, kde-format
 msgid "Do not copy files, only generate .kim file"
 msgstr ""
 
-#: ImportExport/Export.cpp:98
+#: ImportExport/Export.cpp:111
 #, kde-format
 msgid "Automatically copy next to .kim file"
 msgstr ""
 
-#: ImportExport/Export.cpp:99
+#: ImportExport/Export.cpp:112
 #, kde-format
 msgid "Hard link next to .kim file"
 msgstr ""
 
-#: ImportExport/Export.cpp:100
+#: ImportExport/Export.cpp:113
 #, kde-format
 msgid "Symbolic link next to .kim file"
 msgstr ""
 
-#: ImportExport/Export.cpp:110
+#: ImportExport/Export.cpp:123
 #, kde-format
 msgid "Compress export file"
 msgstr ""
 
-#: ImportExport/Export.cpp:114
+#: ImportExport/Export.cpp:127
 #, kde-format
 msgid "Generate thumbnails"
 msgstr ""
 
-#: ImportExport/Export.cpp:122
+#: ImportExport/Export.cpp:135
 #, kde-format
 msgid "Limit maximum image dimensions to: "
 msgstr ""
 
-#: ImportExport/Export.cpp:134
+#: ImportExport/Export.cpp:147
 #, kde-format
 msgid "<p>If your images are stored in a non-compressed file format then you may check this; otherwise, this just wastes time during import and export operations.</p><p>In other words, do not check this if your images are stored in jpg, png or gif; but do check this if your images are stored in tiff.</p>"
 msgstr ""
 
-#: ImportExport/Export.cpp:140
+#: ImportExport/Export.cpp:153
 #, kde-format
 msgid "<p>Generate thumbnail images</p>"
 msgstr ""
 
-#: ImportExport/Export.cpp:143
+#: ImportExport/Export.cpp:156
 #, kde-format
 msgid "<p>With this option you may limit the maximum dimensions (width and height) of your images. Doing so will make the resulting export file smaller, but will of course also make the quality worse if someone wants to see the exported images with larger dimensions.</p>"
 msgstr ""
 
-#: ImportExport/Export.cpp:150
+#: ImportExport/Export.cpp:163
 #, kde-format
 msgid "<p>When exporting images, bear in mind that there are two things the person importing these images again will need:<br/>1) meta information (image content, date etc.)<br/>2) the images themselves.</p><p>The images themselves can either be placed next to the .kim file, or copied into the .kim file. Copying the images into the .kim file works well for a recipient who wants all, or most of those images, for example when emailing a whole group of images. However, when you place the images on the Web, a lot of people will see them but most likely only download a few of them. It works better in this kind of case, to separate the images and the .kim file, by place them next to each other, so the user can access the images s/he wants.</p>"
 msgstr ""
 
-#: ImportExport/Export.cpp:229
+#: ImportExport/Export.cpp:242
 #, kde-format
 msgid "Error creating zip file"
 msgstr ""
 
-#: ImportExport/Export.cpp:243
+#: ImportExport/Export.cpp:256
 #, kde-format
 msgid "&Cancel"
 msgstr "&Скасаваць"
 
-#: ImportExport/Export.cpp:262
+#: ImportExport/Export.cpp:275
 #, kde-format
 msgid "Creating index file"
 msgstr ""
 
-#: ImportExport/Export.cpp:274
+#: ImportExport/Export.cpp:287
 #, kde-format
 msgid "Creating thumbnails"
 msgstr ""
 
-#: ImportExport/Export.cpp:297
+#: ImportExport/Export.cpp:310
 #, kde-format
 msgid "Copying image files"
 msgstr ""
 
-#: ImportExport/Export.cpp:362
+#: ImportExport/Export.cpp:375
 #, kde-format
 msgid "Error writing file %1"
 msgstr ""
 
-#: ImportExport/Export.cpp:390
+#: ImportExport/Export.cpp:403
 #, kde-format
 msgid "<p>Other KPhotoAlbum users may now load the import file into their database, by choosing <b>import</b> in the file menu.</p><p>If they find it on a web site, and the web server is correctly configured, all they need to do is simply to click it from within konqueror. To enable this, your web server needs to be configured for KPhotoAlbum. You do so by adding the following line to <b>/etc/httpd/mime.types</b> or similar:<pre>application/vnd.kde.kphotoalbum-import kim</pre>This will make your web server tell konqueror that it is a KPhotoAlbum file when clicking on the link, otherwise the web server will just tell konqueror that it is a plain text file.</p>"
 msgstr ""
 
-#: ImportExport/Export.cpp:399
+#: ImportExport/Export.cpp:412
 #, kde-format
 msgid "How to Use the Export File"
 msgstr ""
@@ -1901,7 +2185,7 @@ msgctxt "@title:tab introduction page"
 msgid "Introduction"
 msgstr "Уводзіны"
 
-#: ImportExport/ImportDialog.cpp:153 MainWindow/TokenEditor.cpp:53
+#: ImportExport/ImportDialog.cpp:153 MainWindow/TokenEditor.cpp:58
 #, kde-format
 msgid "Select All"
 msgstr "Вылучыць усё"
@@ -1953,7 +2237,7 @@ msgid "Create folder?"
 msgstr ""
 
 #: ImportExport/ImportDialog.cpp:303 MainWindow/WelcomeDialog.cpp:161
-#: MainWindow/Window.cpp:1181
+#: MainWindow/Window.cpp:1188
 #, kde-format
 msgctxt "@action:button"
 msgid "Create"
@@ -2012,47 +2296,47 @@ msgstr ""
 msgid "Key in your database"
 msgstr ""
 
-#: ImportExport/KimFileReader.cpp:28
+#: ImportExport/KimFileReader.cpp:27
 #, kde-format
 msgid "Unable to open '%1' for reading."
 msgstr ""
 
-#: ImportExport/KimFileReader.cpp:28
+#: ImportExport/KimFileReader.cpp:27
 #, kde-format
 msgid "Error Importing Data"
 msgstr ""
 
-#: ImportExport/KimFileReader.cpp:36
+#: ImportExport/KimFileReader.cpp:35
 #, kde-format
 msgid "Error reading folder contents of file %1; it is likely that the file is broken."
 msgstr ""
 
-#: ImportExport/KimFileReader.cpp:49
+#: ImportExport/KimFileReader.cpp:48
 #, kde-format
 msgid "Error reading index.xml file from %1; it is likely that the file is broken."
 msgstr ""
 
-#: ImportExport/KimFileReader.cpp:69
+#: ImportExport/KimFileReader.cpp:68
 #, kde-format
 msgid "Thumbnail item in export file was not a folder, this indicates that the file is broken."
 msgstr ""
 
-#: ImportExport/KimFileReader.cpp:80
+#: ImportExport/KimFileReader.cpp:79
 #, kde-format
 msgid "No thumbnail existed in export file for %1"
 msgstr ""
 
-#: ImportExport/KimFileReader.cpp:95
+#: ImportExport/KimFileReader.cpp:94
 #, kde-format
 msgid "Export file did not contain a Images subfolder, this indicates that the file is broken"
 msgstr ""
 
-#: ImportExport/KimFileReader.cpp:100
+#: ImportExport/KimFileReader.cpp:99
 #, kde-format
 msgid "Images item in export file was not a folder, this indicates that the file is broken"
 msgstr ""
 
-#: ImportExport/KimFileReader.cpp:108
+#: ImportExport/KimFileReader.cpp:107
 #, kde-format
 msgid "No image existed in export file for %1"
 msgstr ""
@@ -2366,26 +2650,14 @@ msgstr "Утулкі"
 msgid "Main Toolbar"
 msgstr "Галоўная панель начыння"
 
-#: lib/kpabase/SettingsData.cpp:223
+#: lib/kpabase/SettingsData.cpp:238
 #, kde-format
 msgid "When reading time information of images, their Exif info is used. Exif info may, however, not be supported by your KPhotoAlbum installation, or no valid information may be in the file. As a backup, KPhotoAlbum may use the timestamp of the image - this may, however, not be valid in case the image is scanned in. So the question is, should KPhotoAlbum trust the time stamp on your images?"
 msgstr ""
 
-#: lib/kpabase/SettingsData.cpp:230
+#: lib/kpabase/SettingsData.cpp:245
 #, kde-format
 msgid "Trust Time Stamps?"
-msgstr ""
-
-#. i18n("Events"))
-#: lib/kpabase/SettingsData.cpp:396 XMLDB/FileReader.cpp:516
-#, kde-format
-msgid "Events"
-msgstr "Падзеі"
-
-#. i18n("untagged"))
-#: lib/kpabase/SettingsData.cpp:406 XMLDB/FileReader.cpp:517
-#, kde-format
-msgid "untagged"
 msgstr ""
 
 #: lib/kpaexif/Database.cpp:173
@@ -2991,70 +3263,70 @@ msgctxt "@label:textbox"
 msgid "Search ..."
 msgstr ""
 
-#: MainWindow/StatisticsDialog.cpp:31
+#: MainWindow/StatisticsDialog.cpp:35
 #, kde-format
 msgid "<h1>Description</h1><table><tr><td># of Items</td><td>This is the number of different items in the category</td></tr><tr><td>Tags Total</td><td>This is a count of how many tags was made,<br/>i.e. a simple counting though all the images</td></tr><tr><td>Tags Per Picture</td><td>This tells you how many tags are on each picture on average</td></tr></table><br/><br/>Do not get too attached to this dialog, it has the problem that it counts categories AND subcategories,<br/>so if an image has been taken in Las Vegas, Nevada, USA, then 3 tags are counted for that image,<br/>while it should only be one.<br/>I am not really sure if it is worth fixing that bug (as it is pretty hard to fix),<br/>so maybe the dialog will simply go away again"
 msgstr ""
 
-#: MainWindow/StatisticsDialog.cpp:48
+#: MainWindow/StatisticsDialog.cpp:52
 #, kde-format
 msgid "<h1>Statistics</h1>"
 msgstr ""
 
-#: MainWindow/StatisticsDialog.cpp:55
+#: MainWindow/StatisticsDialog.cpp:59
 #, kde-format
 msgid "Category"
 msgstr "Катэгорыя"
 
-#: MainWindow/StatisticsDialog.cpp:55
+#: MainWindow/StatisticsDialog.cpp:59
 #| msgid "Move Items"
 msgid "# of Items"
 msgstr ""
 
-#: MainWindow/StatisticsDialog.cpp:55
+#: MainWindow/StatisticsDialog.cpp:59
 #, kde-format
 msgid "Tags Totals"
 msgstr ""
 
-#: MainWindow/StatisticsDialog.cpp:55
+#: MainWindow/StatisticsDialog.cpp:59
 #, kde-format
 msgid "Tags Per Picture"
 msgstr ""
 
-#: MainWindow/StatisticsDialog.cpp:100
+#: MainWindow/StatisticsDialog.cpp:104
 #, kde-format
 msgid "Tag indication completed annotation"
 msgstr ""
 
-#: MainWindow/StatisticsDialog.cpp:106
+#: MainWindow/StatisticsDialog.cpp:110
 #, kde-format
 msgid "If you use a specific tag to indicate that an image has been tagged, then specify it here."
 msgstr ""
 
-#: MainWindow/StatisticsDialog.cpp:110 Settings/BirthdayPage.cpp:47
+#: MainWindow/StatisticsDialog.cpp:114 Settings/BirthdayPage.cpp:47
 #: Settings/UntaggedGroupBox.cpp:29
 #, kde-format
 msgid "Category:"
 msgstr "Катэгорыя:"
 
-#: MainWindow/StatisticsDialog.cpp:116 Settings/UntaggedGroupBox.cpp:36
+#: MainWindow/StatisticsDialog.cpp:120 Settings/UntaggedGroupBox.cpp:36
 #, kde-format
 msgid "Tag:"
 msgstr "Цэтлік:"
 
-#: MainWindow/StatisticsDialog.cpp:123
+#: MainWindow/StatisticsDialog.cpp:127
 #| msgid "None"
 msgctxt "@item:inlistbox meaning 'no category'"
 msgid "None"
 msgstr "Няма"
 
-#: MainWindow/StatisticsDialog.cpp:163
+#: MainWindow/StatisticsDialog.cpp:167
 #, kde-format
 msgctxt "As in 'all images'"
 msgid "All"
 msgstr "Усе"
 
-#: MainWindow/StatisticsDialog.cpp:209
+#: MainWindow/StatisticsDialog.cpp:213
 #| msgid "Total: %1"
 msgid "Total"
 msgstr "Агулам"
@@ -3064,18 +3336,18 @@ msgstr "Агулам"
 msgid "Thumbnail settings..."
 msgstr ""
 
-#: MainWindow/TokenEditor.cpp:29
+#: MainWindow/TokenEditor.cpp:34
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove Tokens"
 msgstr ""
 
-#: MainWindow/TokenEditor.cpp:35
+#: MainWindow/TokenEditor.cpp:40
 #, kde-format
 msgid "Select tokens to remove from all images and videos:"
 msgstr ""
 
-#: MainWindow/TokenEditor.cpp:54
+#: MainWindow/TokenEditor.cpp:59
 #, kde-format
 msgid "Select None"
 msgstr "Скінуць вылучэнне"
@@ -3140,352 +3412,347 @@ msgstr ""
 msgid "Congratulations: all dynamic features have been enabled."
 msgstr ""
 
-#: MainWindow/Window.cpp:142
+#: MainWindow/Window.cpp:147
 #, kde-format
 msgid "Loading Database"
 msgstr "Загрузка базы"
 
-#: MainWindow/Window.cpp:149
+#: MainWindow/Window.cpp:154
 #, kde-format
 msgid "Loading Main Window"
 msgstr "Загрузка галоўнага акна"
 
-#: MainWindow/Window.cpp:262
+#: MainWindow/Window.cpp:267
 #, kde-format
 msgid "Searching for New Files"
 msgstr ""
 
-#: MainWindow/Window.cpp:298
+#: MainWindow/Window.cpp:303
 #, kde-format
 msgid "<p><b>Delete Your Temporary Demo Database</b></p><p>I hope you enjoyed the KPhotoAlbum demo. The demo database was created in the folder <tt>/tmp</tt>, should it be deleted now? If you do not delete it, it will waste disk space; on the other hand, if you want to come back and try the demo again, you might want to keep it around with the changes you made through this session.</p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:303
+#: MainWindow/Window.cpp:308
 #| msgid "Delete"
 msgctxt "@title"
 msgid "Delete Demo Database"
 msgstr ""
 
-#: MainWindow/Window.cpp:358
+#: MainWindow/Window.cpp:363
 #, kde-format
 msgid "Some of the selected images already belong to a stack. Do you want to remove them from their stacks and create a completely new one?"
 msgstr ""
 
-#: MainWindow/Window.cpp:361
+#: MainWindow/Window.cpp:366
 #, kde-format
 msgctxt "@title"
 msgid "Stacking problem"
 msgstr ""
 
-#: MainWindow/Window.cpp:376
+#: MainWindow/Window.cpp:381
 #, kde-format
 msgid "Unknown error, stack creation failed."
 msgstr ""
 
-#: MainWindow/Window.cpp:377
+#: MainWindow/Window.cpp:382
 #, kde-format
 msgid "Stacking Error"
 msgstr ""
 
-#: MainWindow/Window.cpp:456 MainWindow/Window.cpp:582
-#: MainWindow/Window.cpp:1282 MainWindow/Window.cpp:1379
+#: MainWindow/Window.cpp:461 MainWindow/Window.cpp:587
+#: MainWindow/Window.cpp:1289 MainWindow/Window.cpp:1386
 #, kde-format
 msgid "No item is selected."
 msgstr ""
 
-#: MainWindow/Window.cpp:456 MainWindow/Window.cpp:582
-#: MainWindow/Window.cpp:1282 MainWindow/Window.cpp:1380
+#: MainWindow/Window.cpp:461 MainWindow/Window.cpp:587
+#: MainWindow/Window.cpp:1289 MainWindow/Window.cpp:1387
 #, kde-format
 msgid "No Selection"
 msgstr ""
 
-#: MainWindow/Window.cpp:502
+#: MainWindow/Window.cpp:507
 #, kde-format
 msgid "Saving..."
 msgstr "Запіс..."
 
-#: MainWindow/Window.cpp:507
+#: MainWindow/Window.cpp:512
 #, kde-format
 msgid "Saving... Done"
 msgstr ""
 
-#: MainWindow/Window.cpp:655
+#: MainWindow/Window.cpp:660
 #, kde-format
 msgid "There are no images to be shown."
 msgstr ""
 
-#: MainWindow/Window.cpp:744
+#: MainWindow/Window.cpp:749
 #, kde-format
 msgid "Generate HTML..."
 msgstr ""
 
-#: MainWindow/Window.cpp:748
+#: MainWindow/Window.cpp:753
 #, kde-format
 msgid "Import..."
 msgstr "Імпартаваць..."
 
-#: MainWindow/Window.cpp:751
+#: MainWindow/Window.cpp:756
 #| msgid "Export..."
 msgid "Export/Copy Images..."
 msgstr ""
 
-#: MainWindow/Window.cpp:778
+#: MainWindow/Window.cpp:783
 #, kde-format
 msgctxt "Delete selected images"
 msgid "Delete Selected"
 msgstr ""
 
-#: MainWindow/Window.cpp:784
+#: MainWindow/Window.cpp:789
 #, kde-format
 msgid "Remove Tokens..."
 msgstr ""
 
-#: MainWindow/Window.cpp:787
+#: MainWindow/Window.cpp:792
 #, kde-format
 msgid "Open List of Files..."
 msgstr ""
 
-#: MainWindow/Window.cpp:790
+#: MainWindow/Window.cpp:795
 #, kde-format
 msgid "Annotate Individual Items"
 msgstr ""
 
-#: MainWindow/Window.cpp:794
+#: MainWindow/Window.cpp:799
 #, kde-format
 msgid "Annotate Multiple Items at a Time"
 msgstr ""
 
-#: MainWindow/Window.cpp:798
+#: MainWindow/Window.cpp:803
 #, kde-format
 msgid "Merge Images into a Stack"
 msgstr ""
 
-#: MainWindow/Window.cpp:802
+#: MainWindow/Window.cpp:807
 #, kde-format
 msgid "Remove Images from Stack"
 msgstr ""
 
-#: MainWindow/Window.cpp:805
+#: MainWindow/Window.cpp:810
 #, kde-format
 msgid "Set as First Image in Stack"
 msgstr ""
 
-#: MainWindow/Window.cpp:818
+#: MainWindow/Window.cpp:823
 #, kde-format
 msgid "View"
 msgstr "Выгляд"
 
-#: MainWindow/Window.cpp:821
+#: MainWindow/Window.cpp:826
 #, kde-format
 msgid "View (In New Window)"
 msgstr ""
 
-#: MainWindow/Window.cpp:824
+#: MainWindow/Window.cpp:829
 #, kde-format
 msgid "Run Slide Show"
 msgstr ""
 
-#: MainWindow/Window.cpp:829
+#: MainWindow/Window.cpp:834
 #, kde-format
 msgid "Run Randomized Slide Show"
 msgstr ""
 
-#: MainWindow/Window.cpp:835
+#: MainWindow/Window.cpp:840
 #, kde-format
 msgid "Collapse all stacks"
 msgstr ""
 
-#: MainWindow/Window.cpp:841
+#: MainWindow/Window.cpp:846
 #, kde-format
 msgid "Expand all stacks"
 msgstr ""
 
-#: MainWindow/Window.cpp:846
+#: MainWindow/Window.cpp:851
 #, kde-format
 msgid "Show &Oldest First"
 msgstr ""
 
-#: MainWindow/Window.cpp:851
+#: MainWindow/Window.cpp:856
 #, kde-format
 msgid "Show &Newest First"
 msgstr ""
 
-#: MainWindow/Window.cpp:856
+#: MainWindow/Window.cpp:861
 #, kde-format
 msgid "Sort Selected by Date && Time"
 msgstr ""
 
-#: MainWindow/Window.cpp:859
+#: MainWindow/Window.cpp:864
 #, kde-format
 msgid "Limit View to Selection"
 msgstr ""
 
-#: MainWindow/Window.cpp:862
+#: MainWindow/Window.cpp:867
 #, kde-format
 msgid "Jump to Context"
 msgstr ""
 
-#: MainWindow/Window.cpp:868
+#: MainWindow/Window.cpp:873
 #, kde-format
 msgid "Lock Images"
 msgstr ""
 
-#: MainWindow/Window.cpp:872
+#: MainWindow/Window.cpp:877
 #, kde-format
 msgid "Unlock"
 msgstr "Разблакаваць"
 
-#: MainWindow/Window.cpp:875
+#: MainWindow/Window.cpp:880
 #, kde-format
 msgid "Lock Away All Other Items"
 msgstr ""
 
-#: MainWindow/Window.cpp:878
+#: MainWindow/Window.cpp:883
 #, kde-format
 msgid "Lock Away Current Set of Items"
 msgstr ""
 
-#: MainWindow/Window.cpp:881
+#: MainWindow/Window.cpp:886
 #, kde-format
 msgid "Configure Current View"
 msgstr ""
 
-#: MainWindow/Window.cpp:893
+#: MainWindow/Window.cpp:898
 #| msgid "Theme:"
 msgid "Tree"
 msgstr ""
 
-#: MainWindow/Window.cpp:898
+#: MainWindow/Window.cpp:903
 #, kde-format
 msgid "Tree with User Icons"
 msgstr ""
 
-#: MainWindow/Window.cpp:903
+#: MainWindow/Window.cpp:908
 #| msgid "Icon:"
 msgid "Icons"
 msgstr "Значкі"
 
-#: MainWindow/Window.cpp:911
+#: MainWindow/Window.cpp:916
 #, kde-format
 msgid "Show Tooltips in Thumbnails Window"
 msgstr ""
 
-#: MainWindow/Window.cpp:916
+#: MainWindow/Window.cpp:921
 #, kde-format
 msgid "Show Labels in Thumbnails Window"
 msgstr ""
 
-#: MainWindow/Window.cpp:926
+#: MainWindow/Window.cpp:931
 #, kde-format
 msgid "Show Categories in Thumbnails Window"
 msgstr ""
 
-#: MainWindow/Window.cpp:940
+#: MainWindow/Window.cpp:952
 #, kde-format
 msgid "Choose Color Scheme"
 msgstr ""
 
-#: MainWindow/Window.cpp:951
+#: MainWindow/Window.cpp:963
 #, kde-format
 msgid "Display Images and Videos Not on Disk"
 msgstr ""
 
-#: MainWindow/Window.cpp:954
+#: MainWindow/Window.cpp:966
 #, kde-format
 msgid "Display Images and Videos with Incomplete Dates..."
 msgstr ""
 
-#: MainWindow/Window.cpp:958
-#, kde-format
-msgid "Display Images and Videos with Changed MD5 Sum"
-msgstr ""
-
-#: MainWindow/Window.cpp:962
+#: MainWindow/Window.cpp:969
 #, kde-format
 msgid "Merge duplicates"
 msgstr ""
 
-#: MainWindow/Window.cpp:964 MainWindow/Window.cpp:1021
+#: MainWindow/Window.cpp:971 MainWindow/Window.cpp:1028
 #, kde-format
 msgid "Refresh Selected Thumbnails and Checksums"
 msgstr ""
 
-#: MainWindow/Window.cpp:968
+#: MainWindow/Window.cpp:975
 #, kde-format
 msgid "Rescan for Images and Videos"
 msgstr ""
 
-#: MainWindow/Window.cpp:971
+#: MainWindow/Window.cpp:978
 #, kde-format
 msgid "Recreate Exif Search Database"
 msgstr ""
 
-#: MainWindow/Window.cpp:974
+#: MainWindow/Window.cpp:981
 #| msgid "Loading information from images"
 msgid "Read Exif Info from Files..."
 msgstr ""
 
-#: MainWindow/Window.cpp:977
+#: MainWindow/Window.cpp:984
 #, kde-format
 msgid "Sort All by Date && Time"
 msgstr ""
 
-#: MainWindow/Window.cpp:981
+#: MainWindow/Window.cpp:988
 #, kde-format
 msgid "Automatically Stack Selected Images..."
 msgstr ""
 
-#: MainWindow/Window.cpp:984
+#: MainWindow/Window.cpp:991
 #, kde-format
 msgid "Build Thumbnails"
 msgstr ""
 
-#: MainWindow/Window.cpp:987
+#: MainWindow/Window.cpp:994
 #, kde-format
 msgid "Statistics..."
 msgstr ""
 
-#: MainWindow/Window.cpp:991
+#: MainWindow/Window.cpp:998
 #, kde-format
 msgid "Mark As Untagged"
 msgstr ""
 
-#: MainWindow/Window.cpp:1000
+#: MainWindow/Window.cpp:1007
 #, kde-format
 msgid "Enable All Messages"
 msgstr ""
 
-#: MainWindow/Window.cpp:1008
+#: MainWindow/Window.cpp:1015
 #, kde-format
 msgid "Run KPhotoAlbum Demo"
 msgstr ""
 
-#: MainWindow/Window.cpp:1011
+#: MainWindow/Window.cpp:1018
 #, kde-format
 msgid "KPhotoAlbum Feature Status"
 msgstr ""
 
-#: MainWindow/Window.cpp:1014
+#: MainWindow/Window.cpp:1021
 #, kde-format
 msgid "Show Demo Videos"
 msgstr ""
 
-#: MainWindow/Window.cpp:1018 Viewer/ViewerWidget.cpp:177
+#: MainWindow/Window.cpp:1025 Viewer/ViewerWidget.cpp:195
 #, kde-format
 msgid "Show Exif Info and file metadata"
 msgstr ""
 
-#: MainWindow/Window.cpp:1024
+#: MainWindow/Window.cpp:1031
 #, kde-format
 msgid "Use next video thumbnail"
 msgstr ""
 
-#: MainWindow/Window.cpp:1028
+#: MainWindow/Window.cpp:1035
 #, kde-format
 msgid "Use previous video thumbnail"
 msgstr ""
 
-#: MainWindow/Window.cpp:1032 MainWindow/Window.cpp:1260
+#: MainWindow/Window.cpp:1039 MainWindow/Window.cpp:1267
 #| msgid "Export..."
 msgid "Copy image to ..."
 msgid_plural "Copy images to ..."
@@ -3494,7 +3761,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: MainWindow/Window.cpp:1036 MainWindow/Window.cpp:1264
+#: MainWindow/Window.cpp:1043 MainWindow/Window.cpp:1271
 #| msgid "Export..."
 msgid "Link image to ..."
 msgid_plural "Link images to ..."
@@ -3503,136 +3770,136 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: MainWindow/Window.cpp:1062
+#: MainWindow/Window.cpp:1069
 #, kde-format
 msgid "Auto saving...."
 msgstr ""
 
-#: MainWindow/Window.cpp:1065
+#: MainWindow/Window.cpp:1072
 #, kde-format
 msgid "Auto saving.... Done"
 msgstr ""
 
-#: MainWindow/Window.cpp:1167
+#: MainWindow/Window.cpp:1174
 #, kde-format
 msgid "<p>Could not open given index.xml, as the provided folder does not exist.<br />%1</p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1174
+#: MainWindow/Window.cpp:1181
 #, kde-format
 msgid "<p>Given index file does not exist, do you want to create following?<br />%1/index.xml</p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1177
+#: MainWindow/Window.cpp:1184
 #| msgid "Updating Database"
 msgctxt "@title"
 msgid "Create database"
 msgstr ""
 
-#: MainWindow/Window.cpp:1205
+#: MainWindow/Window.cpp:1212
 #, kde-format
 msgid "<p>You have configured a tag for untagged images, but either the tag itself or its category does not exist in the database.</p><p>Please review your untagged tag setting under <interface>Settings|Configure KPhotoAlbum...|Categories</interface></p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1331 Settings/SettingsDialog.cpp:46
+#: MainWindow/Window.cpp:1338 Settings/SettingsDialog.cpp:46
 #, kde-format
 msgid "General"
 msgstr "Агульныя"
 
-#: MainWindow/Window.cpp:1332 Settings/SettingsDialog.cpp:52
+#: MainWindow/Window.cpp:1339 Settings/SettingsDialog.cpp:52
 #, kde-format
 msgid "Viewer"
 msgstr "Праглядчык"
 
-#: MainWindow/Window.cpp:1333
+#: MainWindow/Window.cpp:1340
 #| msgid "Date: "
 msgctxt "I.e. the timeline histogram widget"
 msgid "Date Bar"
 msgstr ""
 
-#: MainWindow/Window.cpp:1336
+#: MainWindow/Window.cpp:1343
 #, kde-format
 msgid "Annotation Dialog"
 msgstr ""
 
-#: MainWindow/Window.cpp:1337 Settings/SettingsDialog.cpp:48
+#: MainWindow/Window.cpp:1344 Settings/SettingsDialog.cpp:48
 #, kde-format
 msgid "Thumbnail View"
 msgstr ""
 
-#: MainWindow/Window.cpp:1482
+#: MainWindow/Window.cpp:1489
 #, kde-format
 msgid "<p>Really enable all message boxes where you previously checked the do-not-show-again check box?</p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1484
+#: MainWindow/Window.cpp:1491
 #, kde-format
 msgctxt "@title"
 msgid "Reset hidden dialogs"
 msgstr ""
 
-#: MainWindow/Window.cpp:1503
+#: MainWindow/Window.cpp:1510
 #, kde-format
 msgid "<p>KPhotoAlbum hit an internal error (missing plug-in menu in MainWindow::Window::setupPluginMenu). This indicate that you forgot to do a make install. If you did compile KPhotoAlbum yourself, then please run make install. If not, please report this as a bug.</p><p>KPhotoAlbum will continue execution, but it is not entirely unlikely that it will crash later on due to the missing make install.</p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1503
+#: MainWindow/Window.cpp:1510
 #, kde-format
 msgid "Internal Error"
 msgstr "Унутраная памылка"
 
-#: MainWindow/Window.cpp:1514
+#: MainWindow/Window.cpp:1521
 #, kde-format
 msgid "Successfully shared image(s). Copying location to clipboard..."
 msgstr ""
 
-#: MainWindow/Window.cpp:1517
+#: MainWindow/Window.cpp:1524
 #, kde-format
 msgid "Successfully shared image(s)."
 msgstr ""
 
-#: MainWindow/Window.cpp:1522
+#: MainWindow/Window.cpp:1529
 #, kde-format
 msgid "Image sharing failed with message: %1"
 msgstr ""
 
-#: MainWindow/Window.cpp:1585
+#: MainWindow/Window.cpp:1592
 #, kde-format
 msgid "Open List of Files"
 msgstr ""
 
-#: MainWindow/Window.cpp:1586
+#: MainWindow/Window.cpp:1593
 #, kde-format
 msgid "You can open a set of files from KPhotoAlbum's image root by listing the files here."
 msgstr ""
 
-#: MainWindow/Window.cpp:1599
+#: MainWindow/Window.cpp:1606
 #, kde-format
 msgid "No images matching your input were found."
 msgstr ""
 
-#: MainWindow/Window.cpp:1599
+#: MainWindow/Window.cpp:1606
 #, kde-format
 msgid "No Matches"
 msgstr "Супадзенняў не знойдзена"
 
-#: MainWindow/Window.cpp:1757
+#: MainWindow/Window.cpp:1778
 #| msgid "Loading information from images"
 msgid "Rereading Exif information from all images"
 msgstr ""
 
-#: MainWindow/Window.cpp:1784
+#: MainWindow/Window.cpp:1805
 #, no-c-format, kde-format
 msgctxt "@info:status"
 msgid "Thumbnail width: %1px (storage size: %2px)"
 msgstr ""
 
-#: MainWindow/Window.cpp:1837
+#: MainWindow/Window.cpp:1858
 #, kde-format
 msgid "<p>Unable to find ffmpeg on the system.</p><p>Without it, KPhotoAlbum will not be able to display video thumbnails and video lengths. Please install the ffmpeg package</p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1840
+#: MainWindow/Window.cpp:1861
 #, kde-format
 msgid "Video thumbnails are not available"
 msgstr ""
@@ -3643,70 +3910,70 @@ msgctxt "The number of images in an area of the map"
 msgid "%1"
 msgstr "%1"
 
-#: Map/MapView.cpp:170
+#: Map/MapView.cpp:171
 #, kde-format
 msgid "Save the current map settings"
 msgstr ""
 
-#: Map/MapView.cpp:177
+#: Map/MapView.cpp:178
 #, kde-format
 msgid "Go to last map position"
 msgstr ""
 
-#: Map/MapView.cpp:184
+#: Map/MapView.cpp:185
 #, kde-format
 msgid "Show thumbnails"
 msgstr ""
 
-#: Map/MapView.cpp:193
+#: Map/MapView.cpp:194
 #, kde-format
 msgctxt "@action to group, as in aggregate thumbnails into clusters"
 msgid "Group adjacent thumbnails into clickable clusters"
 msgstr ""
 
-#: Map/MapView.cpp:205
+#: Map/MapView.cpp:206
 #, kde-format
 msgctxt "@action Decrease size of the markers (i.e. thumbnails) drawn on the map"
 msgid "Decrease marker size"
 msgstr ""
 
-#: Map/MapView.cpp:212
+#: Map/MapView.cpp:213
 #, kde-format
 msgctxt "@action Increase size of the markers (i.e. thumbnails) drawn on the map"
 msgid "Increase marker size"
 msgstr ""
 
-#: Map/MapView.cpp:362
+#: Map/MapView.cpp:363
 #, kde-format
 msgid "Map view"
 msgstr ""
 
-#: Map/MapView.cpp:362
+#: Map/MapView.cpp:363
 #| msgid "Settings"
 msgid "Settings saved!"
 msgstr ""
 
-#: Map/MapView.cpp:389
+#: Map/MapView.cpp:390
 #| msgid "Loading information from images"
 msgid "<i>Loading coordinates from the images ...</i>"
 msgstr ""
 
-#: Map/MapView.cpp:405
+#: Map/MapView.cpp:406
 #, kde-format
 msgid "<i>This image does not contain geographic coordinates.</i>"
 msgstr ""
 
-#: Map/MapView.cpp:413
+#: Map/MapView.cpp:414
 #, kde-format
 msgid "<i>Some of the selected images do not contain geographic coordinates.</i>"
 msgstr ""
 
-#: Map/MapView.cpp:423
+#: Map/MapView.cpp:424
 #, kde-format
 msgid "<i>Search for geographic coordinates.</i>"
 msgstr ""
 
-#: Map/MapView.cpp:431
+#: Map/MapView.cpp:432
 #, kde-format
 msgid "<i>None of the selected images contain geographic coordinates.</i>"
 msgstr ""
@@ -3766,11 +4033,6 @@ msgstr ""
 #, kde-format
 msgid "Set the date of birth for items (say people) here, and then see their age when viewing the images."
 msgstr ""
-
-#: Settings/BirthdayPage.cpp:134 XMLDB/FileReader.cpp:514
-#, kde-format
-msgid "People"
-msgstr "Людзі"
 
 #: Settings/BirthdayPage.cpp:156
 #, kde-format
@@ -3872,20 +4134,6 @@ msgstr ""
 #, kde-format
 msgid "<i>Pending change: rename to \"%1\"</i>"
 msgstr ""
-
-#. i18n("Folder")), and then start KPA with the C locale, which would produce a
-#. doubled "Folder" category.
-#: Settings/CategoryPage.cpp:253 ThumbnailView/CellGeometry.cpp:93
-#: ThumbnailView/ThumbnailModel.cpp:351 XMLDB/FileReader.cpp:75
-#, kde-format
-msgid "Folder"
-msgstr "Тэчка"
-
-#: Settings/CategoryPage.cpp:255 ThumbnailView/ThumbnailModel.cpp:351
-#: XMLDB/Database.cpp:290 XMLDB/Database.cpp:654 XMLDB/FileReader.cpp:125
-#, kde-format
-msgid "Media Type"
-msgstr "Тып носьбіту"
 
 #: Settings/CategoryPage.cpp:260
 #, kde-format
@@ -4871,12 +5119,6 @@ msgstr ""
 msgid "Unable to copy '%1' to '%2'."
 msgstr ""
 
-#: Utilities/DemoUtil.cpp:34 Utilities/DemoUtil.cpp:51
-#: Utilities/DemoUtil.cpp:85 XMLDB/FileReader.cpp:528
-#, kde-format
-msgid "Error Running Demo"
-msgstr ""
-
 #: Utilities/DemoUtil.cpp:51 Utilities/DemoUtil.cpp:85
 #, kde-format
 msgid "Unable to create folder '%1' needed for demo."
@@ -5121,370 +5363,370 @@ msgctxt "OSD for slideshow"
 msgid "<p><center><font size=\"+4\">Ending Slideshow</font></center></p>"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:167
+#: Viewer/ViewerWidget.cpp:185
 #| msgid "Annotate..."
 msgctxt "@action:inmenu"
 msgid "Annotate..."
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:172
+#: Viewer/ViewerWidget.cpp:190
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Set as First Image in Stack"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:183
+#: Viewer/ViewerWidget.cpp:201
 #| msgid "Export..."
 msgctxt "@action:inmenu"
 msgid "Copy image to ..."
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:188
+#: Viewer/ViewerWidget.cpp:206
 #| msgid "Export..."
 msgctxt "@action:inmenu"
 msgid "Link image to ..."
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:196
+#: Viewer/ViewerWidget.cpp:214
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "Close"
 msgstr "Закрыць"
 
-#: Viewer/ViewerWidget.cpp:252
+#: Viewer/ViewerWidget.cpp:270
 #, kde-format
 msgctxt "@title:inmenu"
 msgid "Rotate"
 msgstr "Павярнуць"
 
-#: Viewer/ViewerWidget.cpp:263
+#: Viewer/ViewerWidget.cpp:281
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Rotate clockwise"
 msgstr "Паварочванне па стрэлцы гадзінніка"
 
-#: Viewer/ViewerWidget.cpp:264
+#: Viewer/ViewerWidget.cpp:282
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Flip Over"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:265
+#: Viewer/ViewerWidget.cpp:283
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Rotate counterclockwise"
 msgstr "Паварочванне супраць стрэлкі гадзінніка"
 
-#: Viewer/ViewerWidget.cpp:272
+#: Viewer/ViewerWidget.cpp:290
 #| msgid "Skip"
 msgctxt "@title:inmenu As in 'skip 2 images'"
 msgid "Skip"
 msgstr "Прапусціць"
 
-#: Viewer/ViewerWidget.cpp:275
+#: Viewer/ViewerWidget.cpp:293
 #| msgid "First"
 msgctxt "@action:inmenu Go to first image"
 msgid "First"
 msgstr "У пачатак"
 
-#: Viewer/ViewerWidget.cpp:282
+#: Viewer/ViewerWidget.cpp:300
 #| msgid "Last"
 msgctxt "@action:inmenu Go to last image"
 msgid "Last"
 msgstr "У канец"
 
-#: Viewer/ViewerWidget.cpp:289
+#: Viewer/ViewerWidget.cpp:307
 #| msgid "Show Label"
 msgctxt "@action:inmenu"
 msgid "Show Next"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:295
+#: Viewer/ViewerWidget.cpp:313
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Skip 10 Forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:301
+#: Viewer/ViewerWidget.cpp:319
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Skip 100 Forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:307
+#: Viewer/ViewerWidget.cpp:325
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Skip 1000 Forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:313
+#: Viewer/ViewerWidget.cpp:331
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Previous"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:319
+#: Viewer/ViewerWidget.cpp:337
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Skip 10 Backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:325
+#: Viewer/ViewerWidget.cpp:343
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Skip 100 Backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:331
+#: Viewer/ViewerWidget.cpp:349
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Skip 1000 Backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:337
+#: Viewer/ViewerWidget.cpp:355
 #| msgid "Delete"
 msgctxt "@action:inmenu"
 msgid "Delete Image"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:342
+#: Viewer/ViewerWidget.cpp:360
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Image from Display List"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:353
+#: Viewer/ViewerWidget.cpp:371
 #| msgid "Zoom"
 msgctxt "@action:inmenu"
 msgid "Zoom"
 msgstr "Павялічыць"
 
-#: Viewer/ViewerWidget.cpp:357
+#: Viewer/ViewerWidget.cpp:375
 #| msgid "Zoom In"
 msgctxt "@action:inmenu"
 msgid "Zoom In"
 msgstr "Наблізіць"
 
-#: Viewer/ViewerWidget.cpp:363
+#: Viewer/ViewerWidget.cpp:381
 #| msgid "Zoom Out"
 msgctxt "@action:inmenu"
 msgid "Zoom Out"
 msgstr "Аддаліць"
 
-#: Viewer/ViewerWidget.cpp:369
+#: Viewer/ViewerWidget.cpp:387
 #| msgid "View"
 msgctxt "@action:inmenu"
 msgid "Full View"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:375
+#: Viewer/ViewerWidget.cpp:393
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pixel for Pixel View"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:381
+#: Viewer/ViewerWidget.cpp:399
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Full Screen"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:391
+#: Viewer/ViewerWidget.cpp:409
 #, kde-format
 msgctxt "@title:inmenu"
 msgid "Slideshow"
 msgstr "Слайд-шоу"
 
-#: Viewer/ViewerWidget.cpp:394 Viewer/ViewerWidget.cpp:789
+#: Viewer/ViewerWidget.cpp:412 Viewer/ViewerWidget.cpp:807
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Run Slideshow"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:399
+#: Viewer/ViewerWidget.cpp:417
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Run Faster"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:404
+#: Viewer/ViewerWidget.cpp:422
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Run Slower"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:439
+#: Viewer/ViewerWidget.cpp:457
 #, kde-format
 msgid "File not available"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:489
+#: Viewer/ViewerWidget.cpp:507
 #, kde-format
 msgctxt "@title:window %1 is the filename, %2 its detail info"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: Viewer/ViewerWidget.cpp:505
+#: Viewer/ViewerWidget.cpp:523
 #| msgid "Play"
 msgctxt "@action:inmenu Start video playback"
 msgid "Play"
 msgstr "Прайграваць"
 
-#: Viewer/ViewerWidget.cpp:507
+#: Viewer/ViewerWidget.cpp:525
 #| msgid "Pause"
 msgctxt "@action:inmenu Pause video playback"
 msgid "Pause"
 msgstr "Паўза"
 
-#: Viewer/ViewerWidget.cpp:742
+#: Viewer/ViewerWidget.cpp:760
 #| msgid "<b>Sub Categories</b>"
 msgctxt "Basically 'enter a category name'"
 msgid "<b>Setting Category: </b>"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:747
+#: Viewer/ViewerWidget.cpp:765
 #, kde-format
 msgctxt "Basically 'enter a tag name'"
 msgid "<b>Assigning: </b>"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:795
+#: Viewer/ViewerWidget.cpp:813
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Slideshow"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1194
+#: Viewer/ViewerWidget.cpp:1215
 #, kde-format
 msgctxt "@title:inmenu"
 msgid "Seek"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1215
+#: Viewer/ViewerWidget.cpp:1236
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "10 minutes backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1216
+#: Viewer/ViewerWidget.cpp:1237
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "1 minute backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1217
+#: Viewer/ViewerWidget.cpp:1238
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "10 seconds backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1218
+#: Viewer/ViewerWidget.cpp:1239
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "1 seconds backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1219
+#: Viewer/ViewerWidget.cpp:1240
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "100 milliseconds backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1220
+#: Viewer/ViewerWidget.cpp:1241
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "100 milliseconds forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1221
+#: Viewer/ViewerWidget.cpp:1242
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "1 seconds forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1222
+#: Viewer/ViewerWidget.cpp:1243
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "10 seconds forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1223
+#: Viewer/ViewerWidget.cpp:1244
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "1 minute forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1224
+#: Viewer/ViewerWidget.cpp:1245
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "10 minutes forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1232
+#: Viewer/ViewerWidget.cpp:1253
 #| msgid "Stop"
 msgctxt "@action:inmenu Stop video playback"
 msgid "Stop"
 msgstr "Спыніць"
 
-#: Viewer/ViewerWidget.cpp:1245
+#: Viewer/ViewerWidget.cpp:1266
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Use current frame in thumbnail view"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1251
+#: Viewer/ViewerWidget.cpp:1272
 #, kde-format
 msgctxt "@action:inmenu Restart video playback."
 msgid "Restart"
 msgstr "Перазапуск"
 
-#: Viewer/ViewerWidget.cpp:1266
+#: Viewer/ViewerWidget.cpp:1287
 #| msgid "First"
 msgctxt "@title:inmenu"
 msgid "Filters"
 msgstr "Фільтры"
 
-#: Viewer/ViewerWidget.cpp:1269
+#: Viewer/ViewerWidget.cpp:1290
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove All Filters"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1273
+#: Viewer/ViewerWidget.cpp:1294
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Grayscale Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1278
+#: Viewer/ViewerWidget.cpp:1299
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Contrast Stretching Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1283
+#: Viewer/ViewerWidget.cpp:1304
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Histogram Equalization Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1288
+#: Viewer/ViewerWidget.cpp:1309
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Monochrome Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1340
+#: Viewer/ViewerWidget.cpp:1361
 #, kde-format
 msgid "<p>It seems that KPhotoAlbum previously crashed during video playback. On some platforms, this is a common problem with some video players.</p><p>Press <i>Continue</i> to let KPhotoAlbum try a different backend...</p>"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1344
+#: Viewer/ViewerWidget.cpp:1365
 #, kde-format
 msgid "<p>Video backend that was interrupted: <tt>%1</tt></p><p>Video backend that will be used instead: <tt>%2</tt></p>"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1357
+#: Viewer/ViewerWidget.cpp:1378
 #, kde-format
 msgid "<p>KPhotoAlbum has tried out all available video backends, but every one crashed at some point.</p><p>Crash detection is now turned off.</p>"
 msgstr ""
@@ -5542,253 +5784,6 @@ msgstr ""
 #: Viewer/VisibleOptionsMenu.cpp:71
 #, kde-format
 msgid "Show Rating"
-msgstr ""
-
-#: XMLDB/Database.cpp:48
-#, kde-format
-msgid "Autosave file '%1' exists (size %3 KB) and is newer than '%2'. Should the autosave file be used?"
-msgstr ""
-
-#: XMLDB/Database.cpp:51
-#, kde-format
-msgid "Found Autosave File"
-msgstr ""
-
-#: XMLDB/Database.cpp:291 XMLDB/Database.cpp:655 XMLDB/FileReader.cpp:127
-#| msgid "Image"
-msgid "Image"
-msgstr "Выява"
-
-#: XMLDB/Database.cpp:291 XMLDB/Database.cpp:656 XMLDB/FileReader.cpp:128
-#| msgid "Video"
-msgid "Video"
-msgstr "Відэа"
-
-#: XMLDB/Database.cpp:801
-#, kde-format
-msgid "KPhotoAlbum - manual repair needed (%1)"
-msgstr ""
-
-#: XMLDB/Database.cpp:802
-#, kde-format
-msgctxt "Separator in a list of tags"
-msgid ", "
-msgstr ", "
-
-#: XMLDB/FileReader.cpp:46
-#, kde-format
-msgid "<p>The database file (index.xml) is from a newer version of KPhotoAlbum!</p><p>Chances are you will be able to read this file, but when writing it back, information saved in the newer version will be lost</p>"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:49
-#, kde-format
-msgid "index.xml version mismatch"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:99 XMLDB/FileReader.cpp:111
-#, kde-format
-msgid "Tokens"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:181
-#, kde-format
-msgid "<p>Line %1, column %2: duplicate category '%3'</p><p>Choose continue to ignore the duplicate category and try an automatic repair, or choose cancel to quit.</p>"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:187 XMLDB/FileReader.cpp:292
-#| msgid "Loading Database"
-msgid "Error in database file"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:247
-#, kde-format
-msgctxt "Leave \"Folder\" and \"Media Type\" untranslated below, those will show up with these exact names. Thanks :-)"
-msgid "<p><b>This version of KPhotoAlbum does not translate \"standard\" categories any more.</b></p><p>This may mean that – if you use a locale other than English – some of your categories are now displayed in English.</p><p>You can manually rename your categories any time and then save your database.</p><p>In some cases, you may get two additional empty categories, \"Folder\" and \"Media Type\". You can delete those.</p>"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:255
-#, kde-format
-msgid "Changed standard category names"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:287
-#, kde-format
-msgid "<p>Line %1, column %2: duplicate entry for file '%3' with different MD5 sum.</p><p>Manual repair required!</p>"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:411
-#, kde-format
-msgid "<p>Your images/videos are not sorted, which means that navigating using the date bar will only work suboptimally.</p><p>In the <b>Maintenance</b> menu, you can find <b>Display Images with Incomplete Dates</b> which you can use to find the images that are missing date information.</p><p>You can then select the images that you have reason to believe have a correct date in either their Exif data or on the file, and execute <b>Maintenance->Read Exif Info</b> to reread the information.</p><p>Finally, once all images have their dates set, you can execute <b>Maintenance->Sort All by Date & Time</b> to sort them in the database. </p>"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:420
-#, kde-format
-msgid "Images/Videos Are Not Sorted"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:432
-#, kde-format
-msgid "<p>Not all the images in the database have information about image sizes; this is needed to get the best result in the thumbnail view. To fix this, simply go to the <b>Maintenance</b> menu, and first choose <b>Remove All Thumbnails</b>, and after that choose <tt>Build Thumbnails</tt>.</p><p>Not doing so will result in extra space around images in the thumbnail view - that is all - so there is no urgency in doing it.</p>"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:437
-#, kde-format
-msgid "Not All Images Have Size Information"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:451
-#, kde-format
-msgctxt "repair merged tags"
-msgid "<p>Inconsistencies were found and repaired in your database. Some categories now contain tags that were merged during the repair.</p><p>The following tags require manual inspection:<ul>"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:462
-#, kde-format
-msgctxt "repair merged tags"
-msgid "<li>%1:<br/>"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:464
-#, kde-format
-msgctxt "repair merged tags"
-msgid "%1<br/>"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:467
-#, kde-format
-msgctxt "repair merged tags"
-msgid "</li>"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:472
-#, kde-format
-msgctxt "repair merged tags"
-msgid "</ul></p><p>All affected images have also been marked with a tag <em>KPhotoAlbum - manual repair needed</em>.</p>"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:476
-#| msgid "Database name:"
-msgid "Database repair required"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:499
-#, kde-format
-msgid "<p>KPhotoAlbum was unable to load a default setup, which indicates an installation error</p><p>If you have installed KPhotoAlbum yourself, then you must remember to set the environment variable <b>KDEDIRS</b>, to point to the topmost installation folder.</p><p>If you for example ran cmake with <b>-DCMAKE_INSTALL_PREFIX=/usr/local/kde</b>, then you must use the following environment variable setup (this example is for Bash and compatible shells):</p><p><b>export KDEDIRS=/usr/local/kde</b></p><p>In case you already have KDEDIRS set, simply append the string as if you where setting the <b>PATH</b> environment variable</p>"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:507
-#, kde-format
-msgid "No default setup file found"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:515
-#, kde-format
-msgid "Places"
-msgstr "Месцы"
-
-#: XMLDB/FileReader.cpp:528
-#, kde-format
-msgid "Unable to open '%1' for reading"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:541
-#, kde-format
-msgid "line %1 column %2 in file %3: %4"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:543
-#, kde-format
-msgid "Failed to recover the backup: %1"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:554
-#, kde-format
-msgid "Error in file %1: No elements found"
-msgstr ""
-
-#: XMLDB/FileReader.cpp:560
-#, kde-format
-msgid "Error in file %1: expected 'KPhotoAlbum' as top element but found '%2'"
-msgstr ""
-
-#: XMLDB/FileWriter.cpp:67
-#, kde-format
-msgid "<p>Could not save the image database to XML.</p>File %1 could not be opened because of the following error: %2"
-msgstr ""
-
-#: XMLDB/FileWriter.cpp:70 XMLDB/FileWriter.cpp:105 XMLDB/FileWriter.cpp:114
-#, kde-format
-msgid "Error while saving..."
-msgstr ""
-
-#: XMLDB/FileWriter.cpp:102
-#, kde-format
-msgid "<p>Failed to remove old version of image database.</p><p>Please try again or replace the file %1 with file %2 manually!</p>"
-msgstr ""
-
-#: XMLDB/FileWriter.cpp:111
-#, kde-format
-msgid "<p>Failed to move temporary XML file to permanent location.</p><p>Please try again or rename file %1 to %2 manually!</p>"
-msgstr ""
-
-#: XMLDB/NumberedBackup.cpp:38
-#, kde-format
-msgid "Error creating zip file %1"
-msgstr ""
-
-#: XMLDB/NumberedBackup.cpp:38 XMLDB/NumberedBackup.cpp:43
-#, kde-format
-msgid "Error Making Numbered Backup"
-msgstr ""
-
-#: XMLDB/NumberedBackup.cpp:43
-#, kde-format
-msgid "Error writing file %1 to zip file %2"
-msgstr ""
-
-#: XMLDB/XmlReader.cpp:41
-#, kde-format
-msgid "Error reading next element"
-msgstr ""
-
-#: XMLDB/XmlReader.cpp:44
-#, kde-format
-msgid "Expected to read a start or stop element, but read %1"
-msgstr ""
-
-#: XMLDB/XmlReader.cpp:49
-#, kde-format
-msgid "Expected to read %1, but read %2"
-msgstr ""
-
-#: XMLDB/XmlReader.cpp:60
-#, kde-format
-msgid "Expected to read an end element but read %1"
-msgstr ""
-
-#: XMLDB/XmlReader.cpp:78
-#, kde-format
-msgid "Expected to read start element '%1'"
-msgstr ""
-
-#: XMLDB/XmlReader.cpp:84
-#, kde-format
-msgid "<p>An error was encountered on line %1, column %2:<nl/><message>%3</message></p>"
-msgstr ""
-
-#: XMLDB/XmlReader.cpp:88
-#, kde-format
-msgid "<p>Additional error information:<nl/><message>%1</message></p>"
-msgstr ""
-
-#: XMLDB/XmlReader.cpp:89
-#, kde-kuit-format
-msgid "<p>Database path: <filename>%1</filename></p>"
-msgstr ""
-
-#: XMLDB/XmlReader.cpp:92
-#| msgid "Loading Database"
-msgid "Error while reading database file"
 msgstr ""
 
 #, fuzzy
