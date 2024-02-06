@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-13 00:56+0000\n"
-"PO-Revision-Date: 2022-11-10 12:10\n"
+"POT-Creation-Date: 2023-07-04 00:55+0000\n"
+"PO-Revision-Date: 2023-07-10 14:48\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -30,19 +30,19 @@ msgctxt "Comment"
 msgid "KDE e-mail client"
 msgstr ""
 
-#: agents/maildispatcher/akonadi_maildispatcher_agent.notifyrc:55
+#: agents/maildispatcher/akonadi_maildispatcher_agent.notifyrc:57
 #| msgctxt "Name"
 #| msgid "KMail"
 msgctxt "Name"
 msgid "KDE Mail"
 msgstr ""
 
-#: agents/maildispatcher/akonadi_maildispatcher_agent.notifyrc:110
+#: agents/maildispatcher/akonadi_maildispatcher_agent.notifyrc:114
 msgctxt "Name"
 msgid "E-mail successfully sent"
 msgstr ""
 
-#: agents/maildispatcher/akonadi_maildispatcher_agent.notifyrc:165
+#: agents/maildispatcher/akonadi_maildispatcher_agent.notifyrc:171
 msgctxt "Name"
 msgid "E-mail sending failed"
 msgstr ""
@@ -52,7 +52,7 @@ msgctxt "Name"
 msgid "Mail Dispatcher Agent"
 msgstr ""
 
-#: agents/maildispatcher/maildispatcheragent.desktop:52
+#: agents/maildispatcher/maildispatcheragent.desktop:54
 msgctxt "Comment"
 msgid "Dispatches email messages"
 msgstr ""
@@ -67,12 +67,12 @@ msgctxt "Comment"
 msgid "New email notify"
 msgstr ""
 
-#: agents/newmailnotifier/akonadi_newmailnotifier_agent.notifyrc:50
+#: agents/newmailnotifier/akonadi_newmailnotifier_agent.notifyrc:52
 msgctxt "Name"
 msgid "New email notify"
 msgstr ""
 
-#: agents/newmailnotifier/akonadi_newmailnotifier_agent.notifyrc:100
+#: agents/newmailnotifier/akonadi_newmailnotifier_agent.notifyrc:104
 msgctxt "Name"
 msgid "New email arrived"
 msgstr ""
@@ -82,13 +82,14 @@ msgctxt "Name"
 msgid "New Email Notifier"
 msgstr ""
 
-#: agents/newmailnotifier/newmailnotifieragent.desktop:51
+#: agents/newmailnotifier/newmailnotifieragent.desktop:53
 msgctxt "Comment"
 msgid "Notifications about newly received emails"
 msgstr ""
 
 #: defaultsetup/defaultaddressbook.desktop:4
 #: resources/contacts/contactsresource.desktop:2
+#: resources/contacts/org.kde.akonadi_contacts_resource.desktop:3
 #: resources/contacts/wizard/contactswizard.desktop:2
 #| msgctxt "Comment"
 #| msgid "Personal Information"
@@ -116,7 +117,7 @@ msgctxt "Name"
 msgid "AkoNotes"
 msgstr ""
 
-#: resources/akonotes/akonotesresource.desktop:51
+#: resources/akonotes/akonotesresource.desktop:52
 #| msgid "Name=KAB Distribution List Plugin"
 msgctxt "Comment"
 msgid "Loads a notes hierarchy from a local maildir folder"
@@ -127,13 +128,13 @@ msgctxt "Name"
 msgid "Birthdays & Anniversaries"
 msgstr ""
 
-#: resources/birthdays/birthdaysresource.desktop:54
+#: resources/birthdays/birthdaysresource.desktop:56
 msgctxt "Comment"
 msgid "Provides access to birthday and anniversary dates of contacts in your address book as calendar events"
 msgstr ""
 
-#: resources/contacts/contactsresource.desktop:54
-#: resources/contacts/wizard/contactswizard.desktop:54
+#: resources/contacts/contactsresource.desktop:56
+#: resources/contacts/wizard/contactswizard.desktop:56
 msgctxt "Comment"
 msgid "The address book with personal contacts"
 msgstr ""
@@ -143,7 +144,7 @@ msgctxt "Name"
 msgid "DAV groupware resource"
 msgstr ""
 
-#: resources/dav/resource/davgroupwareresource.desktop:50
+#: resources/dav/resource/davgroupwareresource.desktop:51
 msgctxt "Comment"
 msgid "Resource to manage DAV calendars and address books (CalDAV, CardDAV)"
 msgstr ""
@@ -170,6 +171,11 @@ msgstr ""
 #| msgid "GroupWise"
 msgctxt "Name"
 msgid "eGroupware"
+msgstr ""
+
+#: resources/dav/services/mailbox-org.desktop:2
+msgctxt "Name"
+msgid "mailbox.org"
 msgstr ""
 
 #: resources/dav/services/nextcloud.desktop:2
@@ -229,7 +235,7 @@ msgctxt "Name"
 msgid "EteSync Groupware Resource"
 msgstr ""
 
-#: resources/etesync/etesyncresource.desktop:29
+#: resources/etesync/etesyncresource.desktop:31
 msgctxt "Comment"
 msgid "Access your encrypted EteSync calendars, contacts and tasks from KDE"
 msgstr ""
@@ -239,12 +245,12 @@ msgctxt "Comment"
 msgid "Microsoft Exchange Server (EWS)"
 msgstr ""
 
-#: resources/ews/akonadi_ews_resource.notifyrc:39
+#: resources/ews/akonadi_ews_resource.notifyrc:40
 msgctxt "Name"
 msgid "Microsoft Exchange authentication expired"
 msgstr ""
 
-#: resources/ews/akonadi_ews_resource.notifyrc:71
+#: resources/ews/akonadi_ews_resource.notifyrc:73
 msgctxt "Comment"
 msgid "Credentials used to access Microsoft Exchange are no longer valid"
 msgstr ""
@@ -254,17 +260,18 @@ msgctxt "Name"
 msgid "Microsoft Exchange Server (EWS) Mail Transport"
 msgstr ""
 
-#: resources/ews/ewsmtaresource.desktop:37
+#: resources/ews/ewsmtaresource.desktop:39
 msgctxt "Comment"
 msgid "Allows sending e-mail through the Microsoft Exchange server using EWS"
 msgstr ""
 
 #: resources/ews/ewsresource.desktop.cmake:2
+#: resources/ews/org.kde.akonadi_ews_resource.desktop:3
 msgctxt "Name"
 msgid "Microsoft Exchange Server (EWS)"
 msgstr ""
 
-#: resources/ews/ewsresource.desktop.cmake:39
+#: resources/ews/ewsresource.desktop.cmake:40
 msgctxt "Comment"
 msgid "Provides access to mail, appointments tasks and contacts of a Microsoft Exchange server using EWS"
 msgstr ""
@@ -285,16 +292,6 @@ msgctxt "Comment"
 msgid "Exchange account"
 msgstr ""
 
-#: resources/facebook/facebookresource.desktop:2
-msgctxt "Name"
-msgid "Facebook Events"
-msgstr ""
-
-#: resources/facebook/facebookresource.desktop:38
-msgctxt "Comment"
-msgid "Access your Facebook events from KDE"
-msgstr ""
-
 #: resources/google-groupware/akonadi_google_resource.notifyrc:3
 #: resources/google-groupware/googleresource.desktop:2
 #: resources/google-groupware/org.kde.akonadi_google_resource.desktop:3
@@ -304,18 +301,18 @@ msgctxt "Name"
 msgid "Google Groupware"
 msgstr ""
 
-#: resources/google-groupware/akonadi_google_resource.notifyrc:32
-#: resources/google-groupware/googleresource.desktop:31
+#: resources/google-groupware/akonadi_google_resource.notifyrc:34
+#: resources/google-groupware/googleresource.desktop:33
 msgctxt "Comment"
 msgid "Access your Google Calendars, Contacts and Tasks from KDE"
 msgstr ""
 
-#: resources/google-groupware/akonadi_google_resource.notifyrc:63
+#: resources/google-groupware/akonadi_google_resource.notifyrc:68
 msgctxt "Name"
 msgid "Google Groupware needs to authenticate"
 msgstr ""
 
-#: resources/google-groupware/akonadi_google_resource.notifyrc:90
+#: resources/google-groupware/akonadi_google_resource.notifyrc:98
 msgctxt "Comment"
 msgid "Google Groupware has been logged off and needs to be reauthenticated"
 msgstr ""
@@ -326,7 +323,7 @@ msgctxt "Name"
 msgid "iCal Calendar Folder"
 msgstr ""
 
-#: resources/icaldir/icaldirresource.desktop:40
+#: resources/icaldir/icaldirresource.desktop:41
 msgctxt "Comment"
 msgid "Provides access to calendar items, each stored in a single file, in a given directory"
 msgstr ""
@@ -338,8 +335,8 @@ msgctxt "Name"
 msgid "iCal Calendar File"
 msgstr ""
 
-#: resources/ical/icalresource.desktop:40
-#: resources/ical/wizard/icalwizard.desktop:41
+#: resources/ical/icalresource.desktop:41
+#: resources/ical/wizard/icalwizard.desktop:42
 msgctxt "Comment"
 msgid "Loads data from an iCal file"
 msgstr ""
@@ -354,7 +351,7 @@ msgctxt "Name"
 msgid "IMAP E-Mail Server"
 msgstr ""
 
-#: resources/imap/imapresource.desktop:53
+#: resources/imap/imapresource.desktop:54
 msgctxt "Comment"
 msgid "Connects to an IMAP e-mail server"
 msgstr ""
@@ -370,7 +367,7 @@ msgctxt "Name"
 msgid "Generic IMAP Email Server"
 msgstr ""
 
-#: resources/imap/wizard/imapwizard.desktop:53
+#: resources/imap/wizard/imapwizard.desktop:54
 #| msgctxt "Keywords"
 #| msgid "kmail,accounts"
 msgctxt "Comment"
@@ -383,7 +380,7 @@ msgctxt "Name"
 msgid "Kolab Groupware Server"
 msgstr ""
 
-#: resources/kolab/kolabresource.desktop:52
+#: resources/kolab/kolabresource.desktop:53
 msgctxt "Comment"
 msgid "Provides access to Kolab groupware folders and e-mail on a Kolab IMAP Server."
 msgstr ""
@@ -393,7 +390,7 @@ msgctxt "Name"
 msgid "Kolab Groupware"
 msgstr ""
 
-#: resources/kolab/wizard/kolabwizard.desktop:53
+#: resources/kolab/wizard/kolabwizard.desktop:54
 msgctxt "Comment"
 msgid "Kolab Groupware Server"
 msgstr ""
@@ -428,7 +425,7 @@ msgctxt "Name"
 msgid "MailBox"
 msgstr ""
 
-#: resources/mbox/wizard/mailboxwizard.desktop:55
+#: resources/mbox/wizard/mailboxwizard.desktop:56
 #| msgctxt "Keywords"
 #| msgid "kmail,accounts"
 msgctxt "Comment"
@@ -442,18 +439,19 @@ msgctxt "Name"
 msgid "KMail Mail Folder"
 msgstr ""
 
-#: resources/mixedmaildir/mixedmaildirresource.desktop:48
+#: resources/mixedmaildir/mixedmaildirresource.desktop:49
 #| msgid "Name=KAB Distribution List Plugin"
 msgctxt "Comment"
 msgid "Loads data from a local KMail mail folder"
 msgstr ""
 
 #: resources/openxchange/openxchangeresource.desktop:2
+#: resources/openxchange/org.kde.akonadi_openxchange_resource.desktop:3
 msgctxt "Name"
 msgid "Open-Xchange Groupware Server"
 msgstr ""
 
-#: resources/openxchange/openxchangeresource.desktop:51
+#: resources/openxchange/openxchangeresource.desktop:52
 msgctxt "Comment"
 msgid "Provides access to the appointments, tasks, and contacts of an Open-Xchange groupware server."
 msgstr ""
@@ -463,12 +461,12 @@ msgctxt "Comment"
 msgid "POP3 Resource"
 msgstr ""
 
-#: resources/pop3/akonadi_pop3_resource.notifyrc:43
+#: resources/pop3/akonadi_pop3_resource.notifyrc:44
 msgctxt "Name"
 msgid "Error While Checking Mail"
 msgstr ""
 
-#: resources/pop3/akonadi_pop3_resource.notifyrc:90
+#: resources/pop3/akonadi_pop3_resource.notifyrc:92
 msgctxt "Comment"
 msgid "There was an error while checking for new mail"
 msgstr ""
@@ -478,7 +476,7 @@ msgctxt "Name"
 msgid "POP3 E-Mail Server"
 msgstr ""
 
-#: resources/pop3/pop3resource.desktop:52
+#: resources/pop3/pop3resource.desktop:53
 msgctxt "Comment"
 msgid "Connects to a POP3 e-mail server"
 msgstr ""
@@ -488,7 +486,7 @@ msgctxt "Name"
 msgid "POP3"
 msgstr "POP3"
 
-#: resources/pop3/wizard/pop3wizard.desktop:46
+#: resources/pop3/wizard/pop3wizard.desktop:47
 msgctxt "Comment"
 msgid "Pop3 account"
 msgstr ""
@@ -498,11 +496,12 @@ msgctxt "Name"
 msgid "Akonadi TomboyNotes Resource"
 msgstr ""
 
-#: resources/tomboynotes/tomboynotesresource.desktop:39
+#: resources/tomboynotes/tomboynotesresource.desktop:40
 msgctxt "Comment"
 msgid "Resource for Tomboy compatible notes server"
 msgstr ""
 
+#: resources/vcarddir/org.kde.akonadi_vcarddir_resource.desktop:3
 #: resources/vcarddir/vcarddirresource.desktop:2
 #: resources/vcarddir/wizard/vcarddirwizard.desktop:2
 #| msgctxt "Name"
@@ -511,18 +510,19 @@ msgctxt "Name"
 msgid "vCard Directory"
 msgstr ""
 
-#: resources/vcarddir/vcarddirresource.desktop:47
+#: resources/vcarddir/vcarddirresource.desktop:48
 #| msgid "Name=KAB Distribution List Plugin"
 msgctxt "Comment"
 msgid "Loads data from a directory with vCards"
 msgstr ""
 
-#: resources/vcarddir/wizard/vcarddirwizard.desktop:48
+#: resources/vcarddir/wizard/vcarddirwizard.desktop:49
 #| msgid "Name=KAB Distribution List Plugin"
 msgctxt "Comment"
 msgid "Loads contact from vCard Directory"
 msgstr ""
 
+#: resources/vcard/org.kde.akonadi_vcard_resource.desktop:3
 #: resources/vcard/vcardresource.desktop:2
 #: resources/vcard/wizard/vcardwizard.desktop:2
 #| msgctxt "Name"
@@ -531,17 +531,22 @@ msgctxt "Name"
 msgid "vCard File"
 msgstr ""
 
-#: resources/vcard/vcardresource.desktop:48
+#: resources/vcard/vcardresource.desktop:49
 #| msgid "Name=KAB Distribution List Plugin"
 msgctxt "Comment"
 msgid "Loads data from a vCard file"
 msgstr ""
 
-#: resources/vcard/wizard/vcardwizard.desktop:49
+#: resources/vcard/wizard/vcardwizard.desktop:50
 #| msgid "Name=KAB Distribution List Plugin"
 msgctxt "Comment"
 msgid "Loads contact from vCard File"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Facebook Events"
+#~ msgstr "Набліжаючыяся здарэнні"
 
 #, fuzzy
 #~ msgctxt "Name"

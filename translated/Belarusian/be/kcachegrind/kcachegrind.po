@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-29 02:36+0100\n"
-"PO-Revision-Date: 2022-09-20 12:48\n"
+"POT-Creation-Date: 2023-07-08 01:18+0000\n"
+"PO-Revision-Date: 2023-07-10 14:47\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -30,12 +30,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "serzh.by@gmail.com"
 
-#: kcachegrind/configdlg.cpp:135 kcachegrind/configdlg.cpp:323
-#: kcachegrind/configdlg.cpp:342
+#: kcachegrind/configdlg.cpp:141 kcachegrind/configdlg.cpp:329
+#: kcachegrind/configdlg.cpp:348
 msgid "(always)"
 msgstr ""
 
-#: kcachegrind/configdlg.cpp:349
+#: kcachegrind/configdlg.cpp:355
 msgid "Choose Source Folder"
 msgstr ""
 
@@ -139,8 +139,8 @@ msgid "Object / Related Source Base"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DumpSelectionBase)
-#: kcachegrind/dumpselectionbase.ui:13 kcachegrind/toplevel.cpp:289
-#: kcachegrind/toplevel.cpp:512
+#: kcachegrind/dumpselectionbase.ui:13 kcachegrind/toplevel.cpp:296
+#: kcachegrind/toplevel.cpp:519
 msgid "Profile Dumps"
 msgstr ""
 
@@ -533,341 +533,341 @@ msgstr ""
 msgid "[trace...]"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:258 kcachegrind/toplevel.cpp:486
+#: kcachegrind/toplevel.cpp:265 kcachegrind/toplevel.cpp:493
 msgid "Parts Overview"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:267
+#: kcachegrind/toplevel.cpp:274
 msgid "Top Cost Call Stack"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:269
+#: kcachegrind/toplevel.cpp:276
 #, kde-format
 msgid "<b>The Top Cost Call Stack</b><p>This is a purely fictional 'most probable' call stack. It is built up by starting with the current selected function and adds the callers/callees with highest cost at the top and to bottom.</p><p>The <b>Cost</b> and <b>Calls</b> columns show the cost used for all calls from the function in the line above.</p>"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:283
+#: kcachegrind/toplevel.cpp:290
 msgid "Flat Profile"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:296
+#: kcachegrind/toplevel.cpp:303
 #, kde-format
 msgid "<b>Profile Dumps</b><p>This dockable shows in the top part the list of loadable profile dumps in all subdirectories of: <ul><li>current working directory of KCachegrind, i.e. where it was started from, and </li><li>the default profile dump directory given in the configuration.</li></ul> The list is sorted according to the target command profiled in the corresponding dump.</p><p>On selecting a profile dump, information for it is shown in the bottom area of the dockable: <ul><li><b>Options</b> allows you to view the profiled command and profile options of this dump. By changing any item, a new (yet unexisting) profile template is created. Press <b>Run Profile</b> to start a profile run with these options in the background. </li><li><b>Info</b> gives detailed info on the selected dump like event cost summary and properties of the simulated cache. </li><li><b>State</b> is only available for current happening profiles runs. Press <b>Update</b> to see different counters of the run, and a stack trace of the current position in the program profiled. Check the <b>Every</b> option to let KCachegrind regularly poll these data. Check the <b>Sync</b> option to let the dockable activate the top function in the current loaded dump.</li></ul></p>"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:367
+#: kcachegrind/toplevel.cpp:374
 msgid "&Duplicate"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:370
+#: kcachegrind/toplevel.cpp:377
 msgid "<b>Duplicate Current Layout</b><p>Make a copy of the current layout.</p>"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:375
+#: kcachegrind/toplevel.cpp:382
 #, kde-format
 msgid "&Remove"
 msgstr "&Выдаліць"
 
-#: kcachegrind/toplevel.cpp:377
+#: kcachegrind/toplevel.cpp:384
 msgid "<b>Remove Current Layout</b><p>Delete current layout and make the previous active.</p>"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:382
+#: kcachegrind/toplevel.cpp:389
 msgid "&Go to Next"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:385
+#: kcachegrind/toplevel.cpp:392
 msgid "Go to Next Layout"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:389
+#: kcachegrind/toplevel.cpp:396
 msgid "&Go to Previous"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:392
+#: kcachegrind/toplevel.cpp:399
 msgid "Go to Previous Layout"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:396
+#: kcachegrind/toplevel.cpp:403
 msgid "&Restore to Default"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:398
+#: kcachegrind/toplevel.cpp:405
 msgid "Restore Layouts to Default"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:402
+#: kcachegrind/toplevel.cpp:409
 msgid "&Save as Default"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:404
+#: kcachegrind/toplevel.cpp:411
 msgid "Save Layouts as Default"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:415
+#: kcachegrind/toplevel.cpp:422
 msgid "<b>New</b><p>Open new empty KCachegrind window.</p>"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:419
+#: kcachegrind/toplevel.cpp:426
 msgid "&Add..."
 msgstr "&Дадаць..."
 
-#: kcachegrind/toplevel.cpp:421
+#: kcachegrind/toplevel.cpp:428
 msgid "<b>Add Profile Data</b><p>This opens an additional profile data file in the current window.</p>"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:427
+#: kcachegrind/toplevel.cpp:434
 #, kde-format
 msgctxt "Reload a document"
 msgid "&Reload"
 msgstr "&Перазагрузіць"
 
-#: kcachegrind/toplevel.cpp:430
+#: kcachegrind/toplevel.cpp:437
 msgid "<b>Reload Profile Data</b><p>This loads any new created parts, too.</p>"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:435
+#: kcachegrind/toplevel.cpp:442
 msgid "&Export Graph"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:438
+#: kcachegrind/toplevel.cpp:445
 msgid "<b>Export Call Graph</b><p>Generates a file with extension .dot for the tools of the GraphViz package.</p>"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:446
+#: kcachegrind/toplevel.cpp:453
 msgid "&Force Dump"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:449
+#: kcachegrind/toplevel.cpp:456
 #, kde-format
 msgid "<b>Force Dump</b><p>This forces a dump for a Callgrind profile run in the current directory. This action is checked while KCachegrind looks for the dump. If the dump is finished, it automatically reloads the current trace. If this is the one from the running Callgrind, the new created trace part will be loaded, too.</p><p>Force dump creates a file 'callgrind.cmd', and checks every second for its existence. A running Callgrind will detect this file, dump a trace part, and delete 'callgrind.cmd'. The deletion is detected by KCachegrind, and it does a Reload. If there is <em>no</em> Callgrind running, press 'Force Dump' again to cancel the dump request. This deletes 'callgrind.cmd' itself and stops polling for a new dump.</p><p>Note: A Callgrind run <em>only</em> detects existence of 'callgrind.cmd' when actively running a few milliseconds, i.e. <em>not</em> sleeping. Tip: For a profiled GUI program, you can awake Callgrind e.g. by resizing a window of the program.</p>"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:474
+#: kcachegrind/toplevel.cpp:481
 msgid "<b>Open Profile Data</b><p>This opens a profile data file, with possible multiple parts</p>"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:489
+#: kcachegrind/toplevel.cpp:496
 msgid "Show/Hide the Parts Overview Dockable"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:494
+#: kcachegrind/toplevel.cpp:501
 msgid "Call Stack"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:497
+#: kcachegrind/toplevel.cpp:504
 msgid "Show/Hide the Call Stack Dockable"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:502
+#: kcachegrind/toplevel.cpp:509
 msgid "Function Profile"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:505
+#: kcachegrind/toplevel.cpp:512
 msgid "Show/Hide the Function Profile Dockable"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:513
+#: kcachegrind/toplevel.cpp:520
 msgid "Show/Hide the Profile Dumps Dockable"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:520
+#: kcachegrind/toplevel.cpp:527
 msgid "Relative"
 msgstr "Адносны"
 
-#: kcachegrind/toplevel.cpp:522
+#: kcachegrind/toplevel.cpp:529
 msgid "Show relative instead of absolute costs"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:528
+#: kcachegrind/toplevel.cpp:535
 msgid "Relative to Parent"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:531
+#: kcachegrind/toplevel.cpp:538
 msgid "Show percentage costs relative to parent"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:535
+#: kcachegrind/toplevel.cpp:542
 msgid "<b>Show percentage costs relative to parent</b><p>If this is switched off, percentage costs are always shown relative to the total cost of the profile part(s) that are currently browsed. By turning on this option, percentage cost of shown cost items will be relative to the parent cost item.</p><ul><table><tr><td><b>Cost Type</b></td><td><b>Parent Cost</b></td></tr><tr><td>Function Cumulative</td><td>Total</td></tr><tr><td>Function Self</td><td>Function Group (*) / Total</td></tr><tr><td>Call</td><td>Function Inclusive</td></tr><tr><td>Source Line</td><td>Function Inclusive</td></tr></table></ul><p>(*) Only if function grouping is switched on (e.g. ELF object grouping).</p>"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:552
+#: kcachegrind/toplevel.cpp:559
 msgid "Cycle Detection"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:555
+#: kcachegrind/toplevel.cpp:562
 msgid "<b>Detect recursive cycles</b><p>If this is switched off, the treemap drawing will show black areas when a recursive call is made instead of drawing the recursion ad infinitum. Note that the size of black areas often will be wrong, as inside recursive cycles the cost of calls cannot be determined; the error is small, however, for false cycles (see documentation).</p><p>The correct handling for cycles is to detect them and collapse all functions of a cycle into an artificial function, which is done when this option is selected. Unfortunately, with GUI applications, this often will lead to huge false cycles, making the analysis impossible; therefore, there is the option to switch this off.</p>"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:571
+#: kcachegrind/toplevel.cpp:578
 #, kde-format
 msgid "Shorten Templates"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:573
+#: kcachegrind/toplevel.cpp:580
 #, kde-format
 msgid "Hide Template Parameters in C++ Symbols"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:574
+#: kcachegrind/toplevel.cpp:581
 #, kde-format
 msgid "<b>Hide Template Parameters in C++ Symbols</b><p>If this is switched on, every symbol displayed will have any C++ template parameters hidden, just showing &lt;&gt; instead of a potentially nested template parameter.</p><p>In this mode, you can hover the mouse pointer over the activated symbol label to show a tooltip with the unabbreviated symbol.</p>"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:590
+#: kcachegrind/toplevel.cpp:597
 msgid "&Up"
 msgstr "&Уверх"
 
-#: kcachegrind/toplevel.cpp:599
+#: kcachegrind/toplevel.cpp:606
 msgid "<b>Go Up</b><p>Go to last selected caller of current function. If no caller was visited, use that with highest cost.</p>"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:616
+#: kcachegrind/toplevel.cpp:623
 msgid "Go back in function selection history"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:630
+#: kcachegrind/toplevel.cpp:637
 msgid "Go forward in function selection history"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:635 kcachegrind/toplevel.cpp:1512
+#: kcachegrind/toplevel.cpp:642 kcachegrind/toplevel.cpp:1533
 msgid "Primary Event Type"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:636
+#: kcachegrind/toplevel.cpp:643
 msgid "Select primary event type of costs"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:658 kcachegrind/toplevel.cpp:1517
+#: kcachegrind/toplevel.cpp:670 kcachegrind/toplevel.cpp:1538
 msgid "Secondary Event Type"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:659
+#: kcachegrind/toplevel.cpp:671
 msgid "Select secondary event type for cost e.g. shown in annotations"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:669
+#: kcachegrind/toplevel.cpp:685
 msgid "Grouping"
 msgstr "Групаванне"
 
-#: kcachegrind/toplevel.cpp:671
+#: kcachegrind/toplevel.cpp:687
 #, kde-format
 msgid "Select how functions are grouped into higher level cost items"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:677
+#: kcachegrind/toplevel.cpp:693
 msgid "(No Grouping)"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:689
+#: kcachegrind/toplevel.cpp:710
 msgid "Split"
 msgstr "Split"
 
-#: kcachegrind/toplevel.cpp:692
+#: kcachegrind/toplevel.cpp:713
 msgid "Show two information panels"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:698
+#: kcachegrind/toplevel.cpp:719
 msgid "Split Horizontal"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:701
+#: kcachegrind/toplevel.cpp:722
 msgid "Change Split Orientation when main window is split."
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:898
+#: kcachegrind/toplevel.cpp:919
 msgid "Select Callgrind Profile Data"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:900 kcachegrind/toplevel.cpp:968
+#: kcachegrind/toplevel.cpp:921 kcachegrind/toplevel.cpp:989
 msgid "Callgrind Profile Data (cachegrind.out* callgrind.out*);;All Files (*)"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:928 kcachegrind/toplevel.cpp:957
+#: kcachegrind/toplevel.cpp:949 kcachegrind/toplevel.cpp:978
 #, kde-format
 msgid "Could not open the file \"%1\". Check it exists and you have enough permissions to read it."
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:966
+#: kcachegrind/toplevel.cpp:987
 msgid "Add Callgrind Profile Data"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:1136 kcachegrind/toplevel.cpp:1465
+#: kcachegrind/toplevel.cpp:1157 kcachegrind/toplevel.cpp:1486
 msgid "(Hidden)"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:1522
+#: kcachegrind/toplevel.cpp:1543
 msgid "Hide"
 msgstr "Хаваць"
 
-#: kcachegrind/toplevel.cpp:1564
+#: kcachegrind/toplevel.cpp:1585
 msgid "Show Absolute Cost"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:1567
+#: kcachegrind/toplevel.cpp:1588
 msgid "Show Relative Cost"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:1599
+#: kcachegrind/toplevel.cpp:1620
 msgid "Go Back"
 msgstr "Назад"
 
-#: kcachegrind/toplevel.cpp:1600
+#: kcachegrind/toplevel.cpp:1621
 msgid "Go Forward"
 msgstr "Наперад"
 
-#: kcachegrind/toplevel.cpp:1601
+#: kcachegrind/toplevel.cpp:1622
 msgid "Go Up"
 msgstr "Уверх"
 
-#: kcachegrind/toplevel.cpp:1813
+#: kcachegrind/toplevel.cpp:1834
 msgid "Layout Count: %1"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:1820
+#: kcachegrind/toplevel.cpp:1841
 msgid "No profile data file loaded."
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:1829
+#: kcachegrind/toplevel.cpp:1850
 msgid "Total %1 Cost: %2"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:1841
+#: kcachegrind/toplevel.cpp:1862
 msgid "No event type selected"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:2027
+#: kcachegrind/toplevel.cpp:2052
 #, kde-format
 msgid "Cannot determine receiver PID for dump request"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:2068
+#: kcachegrind/toplevel.cpp:2098
 #, kde-format
 msgid "Error running callgrind_control"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:2107 kcachegrind/toplevel.cpp:2144
-#: kcachegrind/toplevel.cpp:2181
+#: kcachegrind/toplevel.cpp:2137 kcachegrind/toplevel.cpp:2174
+#: kcachegrind/toplevel.cpp:2211
 msgid "(No Stack)"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:2113
+#: kcachegrind/toplevel.cpp:2143
 msgid "(No next function)"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:2150
+#: kcachegrind/toplevel.cpp:2180
 msgid "(No previous function)"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:2186
+#: kcachegrind/toplevel.cpp:2216
 msgid "(No Function Up)"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:2318 kcachegrind/toplevel.cpp:2332
+#: kcachegrind/toplevel.cpp:2348 kcachegrind/toplevel.cpp:2362
 msgid "Loading %1"
 msgstr ""
 
-#: kcachegrind/toplevel.cpp:2326
+#: kcachegrind/toplevel.cpp:2356
 msgid "Error loading %1: %2"
 msgstr ""
 

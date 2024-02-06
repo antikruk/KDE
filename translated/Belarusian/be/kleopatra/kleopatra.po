@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-05-05 00:48+0000\n"
-"PO-Revision-Date: 2023-05-06 12:58\n"
+"POT-Creation-Date: 2023-07-07 00:51+0000\n"
+"PO-Revision-Date: 2023-07-10 14:49\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -299,12 +299,12 @@ msgstr ""
 msgid "Certification Succeeded"
 msgstr ""
 
-#: src/commands/changeexpirycommand.cpp:229
+#: src/commands/changeexpirycommand.cpp:230
 #, kde-format
 msgid "<p>An error occurred while trying to change the end of the validity period for <b>%1</b>:</p><p>%2</p>"
 msgstr ""
 
-#: src/commands/changeexpirycommand.cpp:237
+#: src/commands/changeexpirycommand.cpp:238
 #| msgid "Overwrite File?"
 msgid "End of validity period changed successfully."
 msgstr ""
@@ -994,10 +994,10 @@ msgstr ""
 #: src/commands/exportgroupscommand.cpp:239
 #: src/commands/exportgroupscommand.cpp:247
 #: src/commands/exportgroupscommand.cpp:258
-#: src/commands/exportsecretsubkeycommand.cpp:236
-#: src/commands/exportsecretsubkeycommand.cpp:244
-#: src/commands/exportsecretsubkeycommand.cpp:255
-#: src/commands/exportsecretsubkeycommand.cpp:274
+#: src/commands/exportsecretsubkeycommand.cpp:241
+#: src/commands/exportsecretsubkeycommand.cpp:249
+#: src/commands/exportsecretsubkeycommand.cpp:260
+#: src/commands/exportsecretsubkeycommand.cpp:279
 #| msgid "Canceled."
 msgctxt "@title:window"
 msgid "Export Failed"
@@ -1159,7 +1159,7 @@ msgstr "Усе файлы"
 
 #: src/commands/exportsecretkeycommand.cpp:105
 #: src/commands/exportsecretkeycommand.cpp:278
-#: src/commands/exportsecretsubkeycommand.cpp:264
+#: src/commands/exportsecretsubkeycommand.cpp:269
 #| msgid "Overwrite File?"
 msgctxt "@title:window"
 msgid "Secret Key Backup"
@@ -1184,7 +1184,7 @@ msgid "The result of the backup is empty. Maybe you entered an empty or a wrong 
 msgstr ""
 
 #: src/commands/exportsecretkeycommand.cpp:263
-#: src/commands/exportsecretsubkeycommand.cpp:243
+#: src/commands/exportsecretsubkeycommand.cpp:248
 #| msgid "Overwrite File?"
 msgctxt "@info"
 msgid "Cannot open file <filename>%1</filename> for writing."
@@ -1277,13 +1277,13 @@ msgctxt "@info:status"
 msgid "Exporting subkeys..."
 msgstr ""
 
-#: src/commands/exportsecretsubkeycommand.cpp:235
+#: src/commands/exportsecretsubkeycommand.cpp:240
 #, kde-format
 msgctxt "@info"
 msgid "The result of the export is empty."
 msgstr ""
 
-#: src/commands/exportsecretsubkeycommand.cpp:252
+#: src/commands/exportsecretsubkeycommand.cpp:257
 #| msgid "Overwrite File?"
 msgctxt "@info"
 msgid "Writing subkey to file <filename>%2</filename> failed."
@@ -1293,7 +1293,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/commands/exportsecretsubkeycommand.cpp:261
+#: src/commands/exportsecretsubkeycommand.cpp:266
 #| msgid "Overwrite File?"
 msgctxt "@info"
 msgid "The subkey was exported successfully."
@@ -1303,7 +1303,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/commands/exportsecretsubkeycommand.cpp:271
+#: src/commands/exportsecretsubkeycommand.cpp:276
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>An error occurred during the export:</para><para><message>%1</message></para>"
@@ -1414,7 +1414,7 @@ msgid "Could not determine certificate type of clipboard contents."
 msgstr ""
 
 #: src/commands/importcertificatefromclipboardcommand.cpp:112
-#: src/utils/clipboardmenu.cpp:41 src/utils/output.cpp:768
+#: src/utils/clipboardmenu.cpp:41 src/utils/output.cpp:767
 #, kde-format
 msgid "Clipboard"
 msgstr "Буфер абмену"
@@ -1801,7 +1801,7 @@ msgid "Import CRL Finished"
 msgstr ""
 
 #: src/commands/importpaperkeycommand.cpp:87
-#: src/crypto/autodecryptverifyfilescontroller.cpp:340
+#: src/crypto/autodecryptverifyfilescontroller.cpp:349
 #, kde-kuit-format
 msgid "Cannot open <filename>%1</filename> for reading."
 msgstr ""
@@ -2986,7 +2986,7 @@ msgstr "Групы"
 msgid "Help"
 msgstr "Даведка"
 
-#: src/conf/groupsconfigdialog.cpp:110 src/mainwindow.cpp:633
+#: src/conf/groupsconfigdialog.cpp:110
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "handout_group-feature_gnupg_en.pdf"
@@ -3347,69 +3347,75 @@ msgid "Entering an LDAP server here will make all LDAP requests go to that serve
 "The syntax is \"HOST\" or \"HOST:PORT\". If PORT is omitted, port 389 (standard LDAP port) is used."
 msgstr ""
 
-#: src/crypto/autodecryptverifyfilescontroller.cpp:153
+#: src/crypto/autodecryptverifyfilescontroller.cpp:149
 #, kde-kuit-format
 msgid "Failed to find encrypted or signed data in one or more files.<nl/>You can manually select what to do with the files now.<nl/>If they contain signed or encrypted data please report a bug (see Help->Report Bug)."
 msgstr ""
 
-#: src/crypto/autodecryptverifyfilescontroller.cpp:213
+#: src/crypto/autodecryptverifyfilescontroller.cpp:214
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Failed to move <filename>%1</filename> to <filename>%2</filename>.</para><para><message>%3</message></para>"
 msgstr ""
 
-#: src/crypto/autodecryptverifyfilescontroller.cpp:226
+#: src/crypto/autodecryptverifyfilescontroller.cpp:222
+#| msgid "Overwrite File?"
+msgctxt "@info"
+msgid "<para>Failed to move <filename>%1</filename> to <filename>%2</filename>.</para>"
+msgstr ""
+
+#: src/crypto/autodecryptverifyfilescontroller.cpp:235
 #, kde-kuit-format
 msgid "Shall the file be saved with the original file name <filename>%1</filename>?"
 msgstr ""
 
-#: src/crypto/autodecryptverifyfilescontroller.cpp:227
+#: src/crypto/autodecryptverifyfilescontroller.cpp:236
 #, kde-format
 msgid "Use Original File Name?"
 msgstr ""
 
-#: src/crypto/autodecryptverifyfilescontroller.cpp:228
+#: src/crypto/autodecryptverifyfilescontroller.cpp:237
 #| msgid "Overwrite File?"
 msgid "No, Save As <filename>%1</filename>"
 msgstr ""
 
-#: src/crypto/autodecryptverifyfilescontroller.cpp:229
+#: src/crypto/autodecryptverifyfilescontroller.cpp:238
 #| msgid "Overwrite File?"
 msgid "Yes, Save As <filename>%1</filename>"
 msgstr ""
 
-#: src/crypto/autodecryptverifyfilescontroller.cpp:244
+#: src/crypto/autodecryptverifyfilescontroller.cpp:253
 #, kde-format
 msgid "The file <b>%1</b> already exists.\n"
 "Overwrite?"
 msgstr ""
 
-#: src/crypto/autodecryptverifyfilescontroller.cpp:247
+#: src/crypto/autodecryptverifyfilescontroller.cpp:256
 #| msgid "Overwrite File?"
 msgid "Overwrite Existing File?"
 msgstr ""
 
-#: src/crypto/autodecryptverifyfilescontroller.cpp:249
+#: src/crypto/autodecryptverifyfilescontroller.cpp:258
 #| msgid "Overwrite File?"
 msgid "Overwrite All"
 msgstr ""
 
-#: src/crypto/autodecryptverifyfilescontroller.cpp:261
+#: src/crypto/autodecryptverifyfilescontroller.cpp:270
 #, kde-kuit-format
 msgid "Failed to delete <filename>%1</filename>."
 msgstr ""
 
-#: src/crypto/autodecryptverifyfilescontroller.cpp:268
+#: src/crypto/autodecryptverifyfilescontroller.cpp:277
 #, kde-kuit-format
 msgid "Failed to move <filename>%1</filename> to <filename>%2</filename>."
 msgstr ""
 
-#: src/crypto/autodecryptverifyfilescontroller.cpp:348
+#: src/crypto/autodecryptverifyfilescontroller.cpp:357
 #, kde-kuit-format
 msgid "The file <filename>%1</filename> contains certificates and can't be decrypted or verified."
 msgstr ""
 
-#: src/crypto/autodecryptverifyfilescontroller.cpp:398
+#: src/crypto/autodecryptverifyfilescontroller.cpp:407
 #, kde-kuit-format
 msgid "Select the file to verify with the signature <filename>%1</filename>"
 msgstr ""
@@ -3444,7 +3450,7 @@ msgid "Create Checksums: input files must be either all checksum files or all fi
 msgstr ""
 
 #: src/crypto/createchecksumscontroller.cpp:293
-#: src/dialogs/updatenotification.cpp:74 src/mainwindow.cpp:788
+#: src/dialogs/updatenotification.cpp:75 src/mainwindow.cpp:805
 #| msgid "Canceled."
 msgid "Cancel"
 msgstr "Скасаваць"
@@ -3461,14 +3467,14 @@ msgid "Create Checksum Progress"
 msgstr ""
 
 #: src/crypto/createchecksumscontroller.cpp:498
-#: src/crypto/verifychecksumscontroller.cpp:485 src/utils/output.cpp:740
+#: src/crypto/verifychecksumscontroller.cpp:485 src/utils/output.cpp:739
 #, kde-format
 msgid "Error while running %1: %2"
 msgstr ""
 
 #: src/crypto/createchecksumscontroller.cpp:501
 #: src/crypto/verifychecksumscontroller.cpp:488 src/utils/input.cpp:385
-#: src/utils/output.cpp:743
+#: src/utils/output.cpp:742
 #, kde-format
 msgid "Failed to execute %1: %2"
 msgstr ""
@@ -3567,153 +3573,153 @@ msgstr ""
 msgid "No usable inputs found"
 msgstr ""
 
-#: src/crypto/decryptverifyfilescontroller.cpp:219
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:84
+#: src/crypto/decryptverifyfilescontroller.cpp:221
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:85
 #| msgid "&Details"
 msgctxt "@title:window"
 msgid "Decrypt/Verify Files"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:181
+#: src/crypto/decryptverifytask.cpp:185
 #, kde-format
 msgid "Error: Signature not verified"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:183
+#: src/crypto/decryptverifytask.cpp:187
 #, kde-format
 msgid "Good signature"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:185
+#: src/crypto/decryptverifytask.cpp:189
 #| msgid "Canceled."
 msgid "Signing certificate was revoked"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:187
+#: src/crypto/decryptverifytask.cpp:191
 #| msgid "Canceled."
 msgid "Signing certificate is expired"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:189
+#: src/crypto/decryptverifytask.cpp:193
 #| msgid "Overwrite File?"
 msgid "Certificate is not available"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:191
+#: src/crypto/decryptverifytask.cpp:195
 #, kde-format
 msgid "Signature expired"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:193
+#: src/crypto/decryptverifytask.cpp:197
 #, kde-format
 msgid "CRL missing"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:195
+#: src/crypto/decryptverifytask.cpp:199
 #, kde-format
 msgid "CRL too old"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:197
+#: src/crypto/decryptverifytask.cpp:201
 #, kde-format
 msgid "Bad policy"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:199
+#: src/crypto/decryptverifytask.cpp:203
 #, kde-format
 msgid "System error"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:201
+#: src/crypto/decryptverifytask.cpp:205
 #, kde-format
 msgid "Bad signature"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:212
+#: src/crypto/decryptverifytask.cpp:216
 #, kde-format
 msgid "The signature is valid but the trust in the certificate's validity is only marginal."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:214
+#: src/crypto/decryptverifytask.cpp:218
 #, kde-format
 msgid "The signature is valid and the certificate's validity is fully trusted."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:216
+#: src/crypto/decryptverifytask.cpp:220
 #, kde-format
 msgid "The signature is valid and the certificate's validity is ultimately trusted."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:218
+#: src/crypto/decryptverifytask.cpp:222
 #, kde-format
 msgid "The signature is valid but the certificate's validity is <em>not trusted</em>."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:220
+#: src/crypto/decryptverifytask.cpp:224
 #, kde-format
 msgid "The signature is valid but the certificate's validity is unknown."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:223
+#: src/crypto/decryptverifytask.cpp:227
 #, kde-format
 msgid "The signature is valid but the certificate's validity is undefined."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:235 src/crypto/decryptverifytask.cpp:250
+#: src/crypto/decryptverifytask.cpp:239 src/crypto/decryptverifytask.cpp:254
 #| msgid "Canceled."
 msgid "Unknown certificate"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:270
+#: src/crypto/decryptverifytask.cpp:274
 #, kde-format
 msgctxt "1 is a date"
 msgid "Signature created on %1"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:273
+#: src/crypto/decryptverifytask.cpp:277
 #| msgid "Overwrite File?"
 msgid "With unavailable certificate:"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:275
+#: src/crypto/decryptverifytask.cpp:279
 #| msgid "Canceled."
 msgid "With certificate:"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:282
+#: src/crypto/decryptverifytask.cpp:286
 #| msgid "Canceled."
 msgctxt "%1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED compliant or VS-NfD compliant"
 msgid "The signature is %1"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:284
+#: src/crypto/decryptverifytask.cpp:288
 #, kde-format
 msgctxt "%1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED compliant or VS-NfD compliant"
 msgid "The signature <b>is not</b> %1."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:300 src/crypto/signencrypttask.cpp:54
+#: src/crypto/decryptverifytask.cpp:304 src/crypto/signencrypttask.cpp:54
 #, kde-format
 msgctxt "Input file --> Output file (rarr is arrow"
 msgid "%1 &rarr; %2"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:406
+#: src/crypto/decryptverifytask.cpp:425
 #, kde-format
 msgid "<b>Verification canceled.</b>"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:408
+#: src/crypto/decryptverifytask.cpp:427
 #, kde-format
 msgid "<b>Verification failed: %1.</b>"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:414
+#: src/crypto/decryptverifytask.cpp:433
 #, kde-format
 msgid "<b>No signatures found.</b>"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:419
+#: src/crypto/decryptverifytask.cpp:438
 #, kde-format
 msgid "<b>Invalid signature.</b>"
 msgid_plural "<b>%1 invalid signatures.</b>"
@@ -3722,7 +3728,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/crypto/decryptverifytask.cpp:423
+#: src/crypto/decryptverifytask.cpp:442
 #, kde-format
 msgid "<b>The data could not be verified.</b>"
 msgid_plural "<b>%1 signatures could not be verified.</b>"
@@ -3731,22 +3737,22 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/crypto/decryptverifytask.cpp:429
+#: src/crypto/decryptverifytask.cpp:448
 #, kde-format
 msgid "<b>Valid signature by %1</b>"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:431
+#: src/crypto/decryptverifytask.cpp:450
 #, kde-format
 msgid "<br/><b>Warning:</b> The sender's mail address is not stored in the %1 used for signing."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:432
+#: src/crypto/decryptverifytask.cpp:451
 #| msgid "Canceled."
 msgid "certificate"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:434
+#: src/crypto/decryptverifytask.cpp:453
 #, kde-format
 msgid "<b>Valid signature.</b>"
 msgid_plural "<b>%1 valid signatures.</b>"
@@ -3755,71 +3761,71 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/crypto/decryptverifytask.cpp:436
+#: src/crypto/decryptverifytask.cpp:455
 #, kde-format
 msgid "<br/><b>Warning:</b> The sender's mail address is not stored in the certificates used for signing."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:448
+#: src/crypto/decryptverifytask.cpp:467
 #, kde-format
 msgid "<b>Decryption canceled.</b>"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:451
+#: src/crypto/decryptverifytask.cpp:470
 #, kde-format
 msgid "No integrity protection (MDC)."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:451 src/crypto/decryptverifytask.cpp:454
-#: src/crypto/decryptverifytask.cpp:456
+#: src/crypto/decryptverifytask.cpp:470 src/crypto/decryptverifytask.cpp:473
+#: src/crypto/decryptverifytask.cpp:475
 #, kde-format
 msgid "<b>Decryption failed: %1.</b>"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:458
+#: src/crypto/decryptverifytask.cpp:477
 #, kde-format
 msgid "<b>Decryption succeeded.</b>"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:478 src/crypto/decryptverifytask.cpp:499
+#: src/crypto/decryptverifytask.cpp:497 src/crypto/decryptverifytask.cpp:518
 #, kde-format
 msgid "The signature is invalid: %1"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:487
+#: src/crypto/decryptverifytask.cpp:506
 #| msgid "Overwrite File?"
 msgid "You can search the certificate on a keyserver or import it from a file."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:494
+#: src/crypto/decryptverifytask.cpp:513
 #, kde-format
 msgid "The used key is not certified by you or any trusted person."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:495
+#: src/crypto/decryptverifytask.cpp:514
 #, kde-format
 msgid "The used certificate is not certified by a trustworthy Certificate Authority or the Certificate Authority is unknown."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:519 src/crypto/decryptverifytask.cpp:572
+#: src/crypto/decryptverifytask.cpp:538 src/crypto/decryptverifytask.cpp:591
 #: src/crypto/signencrypttask.cpp:226 src/crypto/signencrypttask.cpp:243
-#: src/crypto/signencrypttask.cpp:736
+#: src/crypto/signencrypttask.cpp:824
 #, kde-format
 msgid "Input error: %1"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:530
+#: src/crypto/decryptverifytask.cpp:549
 #, kde-format
 msgctxt "separator for a list of e-mail addresses"
 msgid ", "
 msgstr ", "
 
-#: src/crypto/decryptverifytask.cpp:530
+#: src/crypto/decryptverifytask.cpp:549
 #, kde-format
 msgid "<p>The sender's address %1 is not stored in the certificate. Stored: %2</p>"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:543
+#: src/crypto/decryptverifytask.cpp:562
 #, kde-format
 msgid "One unknown recipient."
 msgid_plural "%1 unknown recipients."
@@ -3828,7 +3834,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/crypto/decryptverifytask.cpp:547
+#: src/crypto/decryptverifytask.cpp:566
 #| msgid "Description"
 msgid "Recipient:"
 msgid_plural "Recipients:"
@@ -3837,7 +3843,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/crypto/decryptverifytask.cpp:558
+#: src/crypto/decryptverifytask.cpp:577
 #, kde-format
 msgid "One unknown recipient"
 msgid_plural "%1 unknown recipients"
@@ -3846,101 +3852,101 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/crypto/decryptverifytask.cpp:584
+#: src/crypto/decryptverifytask.cpp:603
 #| msgid "Set &Background Color..."
 msgctxt "%1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED compliant or VS-NfD compliant"
 msgid "The decryption is %1."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:586
+#: src/crypto/decryptverifytask.cpp:605
 #, kde-format
 msgctxt "%1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED compliant or VS-NfD compliant"
 msgid "The decryption <b>is not</b> %1."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:596
+#: src/crypto/decryptverifytask.cpp:615
 #, kde-format
 msgid "Embedded file name: '%1'"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:603
+#: src/crypto/decryptverifytask.cpp:622
 #, kde-format
 msgid "<b>Note:</b> You cannot be sure who encrypted this message as it is not signed."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:609
+#: src/crypto/decryptverifytask.cpp:628
 #, kde-format
 msgctxt "Integrity protection was missing because an old cipher was used."
 msgid "<b>Hint:</b> If this file was encrypted before the year 2003 it is likely that the file is legitimate.  This is because back then integrity protection was not widely used."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:613
+#: src/crypto/decryptverifytask.cpp:632
 #, kde-format
 msgctxt "The user is offered to force decrypt a non integrity protected message. With the strong advice to re-encrypt it."
 msgid "If you are confident that the file was not manipulated you should re-encrypt it after you have forced the decryption."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:882
+#: src/crypto/decryptverifytask.cpp:901
 #, kde-format
 msgctxt "label: result example: foo.sig: Verification failed. "
 msgid "%1: %2"
 msgstr "%1: %2"
 
-#: src/crypto/decryptverifytask.cpp:1009 src/crypto/decryptverifytask.cpp:1181
-#: src/crypto/decryptverifytask.cpp:1260 src/crypto/decryptverifytask.cpp:1363
-#: src/crypto/decryptverifytask.cpp:1413 src/crypto/decryptverifytask.cpp:1547
-#: src/crypto/decryptverifytask.cpp:1615 src/crypto/decryptverifytask.cpp:1720
+#: src/crypto/decryptverifytask.cpp:1048 src/crypto/decryptverifytask.cpp:1221
+#: src/crypto/decryptverifytask.cpp:1314 src/crypto/decryptverifytask.cpp:1413
+#: src/crypto/decryptverifytask.cpp:1464 src/crypto/decryptverifytask.cpp:1599
+#: src/crypto/decryptverifytask.cpp:1681 src/crypto/decryptverifytask.cpp:1782
 #, kde-format
 msgid "Caught exception: %1"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1012 src/crypto/decryptverifytask.cpp:1183
-#: src/crypto/decryptverifytask.cpp:1263 src/crypto/decryptverifytask.cpp:1365
-#: src/crypto/decryptverifytask.cpp:1416 src/crypto/decryptverifytask.cpp:1549
-#: src/crypto/decryptverifytask.cpp:1617 src/crypto/decryptverifytask.cpp:1722
+#: src/crypto/decryptverifytask.cpp:1051 src/crypto/decryptverifytask.cpp:1223
+#: src/crypto/decryptverifytask.cpp:1317 src/crypto/decryptverifytask.cpp:1415
+#: src/crypto/decryptverifytask.cpp:1467 src/crypto/decryptverifytask.cpp:1601
+#: src/crypto/decryptverifytask.cpp:1683 src/crypto/decryptverifytask.cpp:1784
 #: src/uiserver/assuanserverconnection.cpp:1368
 #: src/uiserver/assuanserverconnection.cpp:1419
 #, kde-format
 msgid "Caught unknown exception"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1064
+#: src/crypto/decryptverifytask.cpp:1103
 #, kde-format
 msgid "Could not determine whether this is an S/MIME or an OpenPGP signature/ciphertext - maybe it is neither ciphertext nor a signature?"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1071 src/crypto/decryptverifytask.cpp:1322
+#: src/crypto/decryptverifytask.cpp:1110 src/crypto/decryptverifytask.cpp:1376
 #, kde-format
 msgid "Decrypting: %1..."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1315
+#: src/crypto/decryptverifytask.cpp:1369
 #, kde-format
 msgid "Could not determine whether this was S/MIME- or OpenPGP-encrypted - maybe it is not ciphertext at all?"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1469 src/crypto/decryptverifytask.cpp:1656
+#: src/crypto/decryptverifytask.cpp:1520 src/crypto/decryptverifytask.cpp:1722
 #, kde-format
 msgid "Could not determine whether this is an S/MIME or an OpenPGP signature - maybe it is not a signature at all?"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1476
+#: src/crypto/decryptverifytask.cpp:1527
 #, kde-format
 msgid "Verifying: %1..."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1671
+#: src/crypto/decryptverifytask.cpp:1737
 #, kde-kuit-format
 msgctxt "Verification of a detached signature in progress. The first file contains the data.The second file is the signature file."
 msgid "Verifying: <filename>%1</filename> with <filename>%2</filename>..."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1676
+#: src/crypto/decryptverifytask.cpp:1742
 #, kde-format
 msgid "Verifying signature: %1..."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1684
+#: src/crypto/decryptverifytask.cpp:1750
 #, kde-kuit-format
 msgctxt "Verification of a detached signature summary. The first file contains the data.The second file is signature."
 msgid "Verified <filename>%1</filename> with <filename>%2</filename>"
@@ -3954,7 +3960,7 @@ msgstr ""
 #: src/crypto/encryptemailcontroller.cpp:139
 #: src/crypto/newsignencryptemailcontroller.cpp:241
 #: src/crypto/signemailcontroller.cpp:159
-#: src/crypto/signencryptfilescontroller.cpp:364
+#: src/crypto/signencryptfilescontroller.cpp:365
 #, kde-format
 msgid "User cancel"
 msgstr ""
@@ -3974,34 +3980,34 @@ msgstr ""
 msgid "Encryption succeeded."
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:200
+#: src/crypto/gui/certificatelineedit.cpp:270
 #, kde-format
 msgid "Please enter a name or email address..."
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:213
-#: src/crypto/gui/certificatelineedit.cpp:214
+#: src/crypto/gui/certificatelineedit.cpp:285
+#: src/crypto/gui/certificatelineedit.cpp:286
 #| msgid "Overwrite File?"
 msgid "Show certificate list"
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:233
+#: src/crypto/gui/certificatelineedit.cpp:305
 #| msgid "&Details"
 msgctxt "@action:inmenu"
 msgid "Show Details"
 msgstr "Паказаць падрабязнасці"
 
-#: src/crypto/gui/certificatelineedit.cpp:500
+#: src/crypto/gui/certificatelineedit.cpp:577
 #| msgid "Canceled."
 msgid "No matching certificates or groups found"
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:502
+#: src/crypto/gui/certificatelineedit.cpp:579
 #| msgid "Canceled."
 msgid "Multiple matching certificates or groups found"
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:572 src/view/formtextinput.cpp:120
+#: src/crypto/gui/certificatelineedit.cpp:649 src/view/formtextinput.cpp:120
 #, kde-format
 msgctxt "@info"
 msgid "Error: %1"
@@ -4028,31 +4034,31 @@ msgstr ""
 msgid "..."
 msgstr "..."
 
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:49
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:50
 #: src/crypto/gui/decryptverifyfileswizard.cpp:210
 #, kde-format
 msgid "&Output folder:"
 msgstr ""
 
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:91
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:92
 #| msgid "&Details"
 msgctxt "@title:window"
 msgid "Verify Files"
 msgstr ""
 
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:115
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:116
 #: src/crypto/gui/newresultpage.cpp:96 src/crypto/gui/resultpage.cpp:88
 #, kde-format
 msgid "%1: All operations completed."
 msgstr ""
 
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:117
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:118
 #: src/crypto/gui/newresultpage.cpp:98 src/crypto/gui/resultpage.cpp:90
 #, kde-format
 msgid "All operations completed."
 msgstr ""
 
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:139
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:140
 #: src/crypto/gui/newresultpage.cpp:119 src/crypto/gui/resultlistwidget.cpp:195
 #: src/crypto/gui/resultpage.cpp:107
 #, kde-format
@@ -4060,37 +4066,52 @@ msgctxt "number, operation description"
 msgid "Operation %1: %2"
 msgstr ""
 
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:141
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:142
 #: src/crypto/gui/newresultpage.cpp:121 src/crypto/gui/resultpage.cpp:109
 #, kde-format
 msgctxt "tag( \"OpenPGP\" or \"CMS\"),  operation description"
 msgid "%1: %2"
 msgstr "%1: %2"
 
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:192
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:193
 #| msgid "Overwrite File?"
 msgid "Please select an output folder."
 msgstr ""
 
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:193
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:194
 #, kde-format
-msgid "No output folder."
+msgctxt "@title:window"
+msgid "No Output Folder"
 msgstr ""
 
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:207
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:216
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:203
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>Failed to create output folder <filename>%1</filename>.</para><para>Please select a different output folder.</para>"
+msgstr ""
+
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:204
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:213
+#, kde-format
+msgctxt "@title:window"
+msgid "Unusable Output Folder"
+msgstr ""
+
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:209
 #| msgid "Overwrite File?"
 msgid "Please select a different output folder."
 msgstr ""
 
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:208
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:210
 #, kde-format
-msgid "Failed to create output folder."
+msgctxt "@title:window"
+msgid "Invalid Output Folder"
 msgstr ""
 
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:217
-#, kde-format
-msgid "Invalid output folder."
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:212
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>Cannot write in the output folder <filename>%1</filename>.</para><para>Please select a different output folder.</para>"
 msgstr ""
 
 #: src/crypto/gui/decryptverifyfileswizard.cpp:199
@@ -4655,19 +4676,19 @@ msgctxt "text for screen readers"
 msgid "recipient key"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:588
+#: src/crypto/gui/signencryptwidget.cpp:590
 #| msgid "Canceled."
 msgctxt "@info"
 msgid "This certificate is expired."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:591
+#: src/crypto/gui/signencryptwidget.cpp:593
 #| msgid "Canceled."
 msgctxt "@info"
 msgid "This certificate expires today."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:593
+#: src/crypto/gui/signencryptwidget.cpp:595
 #| msgid "Canceled."
 msgctxt "@info"
 msgid "This certificate expires tomorrow."
@@ -4677,24 +4698,24 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/crypto/gui/signencryptwidget.cpp:598
+#: src/crypto/gui/signencryptwidget.cpp:600
 #| msgid "Overwrite File?"
 msgctxt "@info"
 msgid "This certificate cannot be used for encryption."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:600
+#: src/crypto/gui/signencryptwidget.cpp:602
 #| msgid "Overwrite File?"
 msgctxt "@info"
 msgid "This certificate cannot be used for signing."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:799
+#: src/crypto/gui/signencryptwidget.cpp:801
 #, kde-format
 msgid "Could not find a key for the following recipients:"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:801
+#: src/crypto/gui/signencryptwidget.cpp:803
 #, kde-format
 msgid "Failed to find some keys"
 msgstr ""
@@ -4903,12 +4924,12 @@ msgctxt "base name of an archive file, e.g. archive.zip or archive.tar.gz"
 msgid "archive"
 msgstr ""
 
-#: src/crypto/signencryptfilescontroller.cpp:627
+#: src/crypto/signencryptfilescontroller.cpp:661
 #, kde-format
 msgid "Caught unexpected exception in SignEncryptFilesController::Private::slotWizardOperationPrepared: %1"
 msgstr ""
 
-#: src/crypto/signencryptfilescontroller.cpp:631
+#: src/crypto/signencryptfilescontroller.cpp:665
 #, kde-format
 msgid "Caught unknown exception in SignEncryptFilesController::Private::slotWizardOperationPrepared"
 msgstr ""
@@ -4954,21 +4975,39 @@ msgctxt "label: result. Example: foo -> foo.gpg: Encryption failed."
 msgid "%1: <b>%2</b>"
 msgstr ""
 
-#: src/crypto/signencrypttask.cpp:450
+#: src/crypto/signencrypttask.cpp:461
 #, kde-format
 msgid "Cannot determine protocol for task"
 msgstr ""
 
-#: src/crypto/signencrypttask.cpp:459
+#: src/crypto/signencrypttask.cpp:520
 #, kde-format
 msgctxt "<name of first file>, ..."
 msgid "%1, ..."
 msgstr ""
 
-#: src/crypto/signencrypttask.cpp:628 src/utils/archivedefinition.cpp:350
+#: src/crypto/signencrypttask.cpp:681 src/utils/archivedefinition.cpp:361
 #, kde-format
 msgid "Cannot find common base directory for these files:\n"
 "%1"
+msgstr ""
+
+#: src/crypto/signencrypttask.cpp:695
+#| msgid "Description"
+msgctxt "@info"
+msgid "Creating signed and encrypted archive ..."
+msgstr ""
+
+#: src/crypto/signencrypttask.cpp:715
+#, kde-format
+msgctxt "@info"
+msgid "Creating encrypted archive ..."
+msgstr ""
+
+#: src/crypto/signencrypttask.cpp:735
+#, kde-format
+msgctxt "@info"
+msgid "Creating signed archive ..."
 msgstr ""
 
 #: src/crypto/task.cpp:159
@@ -5174,7 +5213,7 @@ msgid "Valid from:"
 msgstr ""
 
 #: src/dialogs/certificatedetailswidget.cpp:290
-#: src/dialogs/expirydialog.cpp:204
+#: src/dialogs/expirydialog.cpp:205
 #, kde-format
 msgid "Valid until:"
 msgstr ""
@@ -5846,7 +5885,7 @@ msgctxt "@title:window"
 msgid "Edit Group"
 msgstr ""
 
-#: src/dialogs/expirydialog.cpp:69
+#: src/dialogs/expirydialog.cpp:70
 #, kde-format
 msgid "Valid for %1 day"
 msgid_plural "Valid for %1 days"
@@ -5855,7 +5894,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/dialogs/expirydialog.cpp:71
+#: src/dialogs/expirydialog.cpp:72
 #, kde-format
 msgid "Valid for %1 week"
 msgid_plural "Valid for %1 weeks"
@@ -5864,7 +5903,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/dialogs/expirydialog.cpp:73
+#: src/dialogs/expirydialog.cpp:74
 #, kde-format
 msgid "Valid for %1 month"
 msgid_plural "Valid for %1 months"
@@ -5873,7 +5912,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/dialogs/expirydialog.cpp:75
+#: src/dialogs/expirydialog.cpp:76
 #, kde-format
 msgid "Valid for %1 year"
 msgid_plural "Valid for %1 years"
@@ -5882,58 +5921,58 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/dialogs/expirydialog.cpp:161
+#: src/dialogs/expirydialog.cpp:162
 #| msgid "Overwrite File?"
 msgid "Please select until when the subkey should be valid:"
 msgstr ""
 
-#: src/dialogs/expirydialog.cpp:162
+#: src/dialogs/expirydialog.cpp:163
 #| msgid "Overwrite File?"
 msgid "Please select until when the certificate should be valid:"
 msgstr ""
 
-#: src/dialogs/expirydialog.cpp:166
+#: src/dialogs/expirydialog.cpp:167
 #, kde-format
 msgid "Unlimited validity"
 msgstr ""
 
-#: src/dialogs/expirydialog.cpp:174
+#: src/dialogs/expirydialog.cpp:175
 #, kde-format
 msgid "Valid for:"
 msgstr ""
 
-#: src/dialogs/expirydialog.cpp:187
+#: src/dialogs/expirydialog.cpp:188
 #, kde-format
 msgid "Days"
 msgstr "Дзён"
 
-#: src/dialogs/expirydialog.cpp:188
+#: src/dialogs/expirydialog.cpp:189
 #, kde-format
 msgid "Weeks"
 msgstr "Тыдняў"
 
-#: src/dialogs/expirydialog.cpp:189
+#: src/dialogs/expirydialog.cpp:190
 #, kde-format
 msgid "Months"
 msgstr "Месяцаў"
 
-#: src/dialogs/expirydialog.cpp:190
+#: src/dialogs/expirydialog.cpp:191
 #| msgid "Yes"
 msgid "Years"
 msgstr "Гадоў"
 
-#: src/dialogs/expirydialog.cpp:220
+#: src/dialogs/expirydialog.cpp:221
 #, kde-format
 msgid "Also update the validity period of the subkeys"
 msgstr ""
 
-#: src/dialogs/expirydialog.cpp:276
+#: src/dialogs/expirydialog.cpp:277
 #, kde-format
 msgctxt "Valid until DATE"
 msgid "Valid until %1"
 msgstr ""
 
-#: src/dialogs/expirydialog.cpp:312
+#: src/dialogs/expirydialog.cpp:313
 #, kde-format
 msgctxt "@title:window"
 msgid "Change Validity Period"
@@ -6473,47 +6512,47 @@ msgctxt "@title:window"
 msgid "Trust Chain"
 msgstr ""
 
-#: src/dialogs/updatenotification.cpp:73
+#: src/dialogs/updatenotification.cpp:74
 #, kde-format
 msgid "Searching for updates..."
 msgstr ""
 
-#: src/dialogs/updatenotification.cpp:163
+#: src/dialogs/updatenotification.cpp:164
 #, kde-format
 msgctxt "@info"
 msgid "No update found in the available version database."
 msgstr ""
 
-#: src/dialogs/updatenotification.cpp:164
+#: src/dialogs/updatenotification.cpp:165
 #| msgid "&Update"
 msgctxt "@title"
 msgid "Up to date"
 msgstr "Абнаўляць"
 
-#: src/dialogs/updatenotification.cpp:191
+#: src/dialogs/updatenotification.cpp:192
 #, kde-format
 msgctxt "%1 is the version number"
 msgid "Version %1 is available."
 msgstr ""
 
-#: src/dialogs/updatenotification.cpp:194
+#: src/dialogs/updatenotification.cpp:195
 #, kde-format
 msgctxt "Link to NEWS style changelog"
 msgid "See the <a href=\"https://www.gpg4win.org/change-history.html\">new features</a>."
 msgstr ""
 
-#: src/dialogs/updatenotification.cpp:198
+#: src/dialogs/updatenotification.cpp:199
 #, kde-format
 msgctxt "@title:window"
 msgid "Update Available"
 msgstr "Даступныя абнаўленні"
 
-#: src/dialogs/updatenotification.cpp:203
+#: src/dialogs/updatenotification.cpp:204
 #, kde-format
 msgid "Show this notification for future updates."
 msgstr ""
 
-#: src/dialogs/updatenotification.cpp:210
+#: src/dialogs/updatenotification.cpp:211
 #| msgid "&Update"
 msgid "&Get update"
 msgstr ""
@@ -6768,7 +6807,7 @@ msgstr ""
 #. i18n: ectx: whatsthis, entry, group (CertificateCreationWizard)
 #: src/kcfg/settings.kcfg:44
 #, kde-format
-msgid "This setting specifies how many days a new OpenPGP key is valid by default, or, in other words, after how many days the key will expire. Set this to 0 for unlimited validity. If this setting is not set or if it is set to a negative value, then new OpenPGP keys will be valid for two years (possibly clamped to the allowed minimum or maximum validity period) by default."
+msgid "This setting specifies how many days a new OpenPGP key is valid by default, or, in other words, after how many days the key will expire. Set this to 0 for unlimited validity. If this setting is not set or if it is set to a negative value, then new OpenPGP keys will be valid for three years (possibly clamped to the allowed minimum or maximum validity period) by default."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (CertificateCreationWizard)
@@ -7144,7 +7183,7 @@ msgstr "&Выгляд"
 
 #. i18n: ectx: Menu (certMenu)
 #. i18n: ectx: Menu (listview_popup)
-#: src/kleopatra.rc:44 src/kleopatra.rc:121
+#: src/kleopatra.rc:44 src/kleopatra.rc:128
 #, kde-format
 msgid "&Certificates"
 msgstr ""
@@ -7173,8 +7212,14 @@ msgstr "Акно(&W)"
 msgid "&Help"
 msgstr "&Даведка"
 
+#. i18n: ectx: Menu (help_more)
+#: src/kleopatra.rc:98
+#, kde-format
+msgid "&More documentation"
+msgstr ""
+
 #. i18n: ectx: ToolBar (mainToolBar)
-#: src/kleopatra.rc:106 src/kwatchgnupg/kwatchgnupgui.rc:13
+#: src/kleopatra.rc:113 src/kwatchgnupg/kwatchgnupgui.rc:13
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Галоўная панэль інструментаў"
@@ -7390,47 +7435,47 @@ msgstr ""
 msgid "There was an error while connecting to Kleopatra: %1"
 msgstr ""
 
-#: src/main.cpp:138
+#: src/main.cpp:141
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>The version of the <application>GpgME</application> library you are running against is older than the one that the <application>GpgME++</application> library was built against.</para><para><application>Kleopatra</application> will not function in this setting.</para><para>Please ask your administrator for help in resolving this issue.</para>"
 msgstr ""
 
-#: src/main.cpp:142
+#: src/main.cpp:145
 #, kde-format
 msgctxt "@title"
 msgid "GpgME Too Old"
 msgstr ""
 
-#: src/main.cpp:166
+#: src/main.cpp:169
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para><application>Kleopatra</application> cannot be run as adminstrator without breaking file permissions in the GnuPG data folder.</para><para>To manage keys for other users please manage them as a normal user and copy the <filename>AppData\\Roaming\\gnupg</filename> directory with proper permissions.</para>"
 msgstr ""
 
-#: src/main.cpp:170
+#: src/main.cpp:173
 #, kde-kuit-format
 msgid "<para>Are you sure that you want to continue?</para>"
 msgstr ""
 
-#: src/main.cpp:171
+#: src/main.cpp:174
 #, kde-format
 msgctxt "@title"
 msgid "Running as Administrator"
 msgstr ""
 
-#: src/main.cpp:244
+#: src/main.cpp:247
 #, kde-format
 msgid "GPG UI Server Error"
 msgstr ""
 
-#: src/main.cpp:248
+#: src/main.cpp:251
 #, kde-format
 msgctxt "This error message is only shown on Windows when the socket to communicate with Windows Explorer could not be created. This often times means that the whole installation is buggy. e.g. GnuPG is not installed at all."
 msgid "<qt>The Kleopatra Windows Explorer Module could not be initialized.<br/>The error given was: <b>%1</b><br/>This likely means that there is a problem with your installation. Try reinstalling or contact your Administrator for support.<br/>You can try to continue to use Kleopatra but there might be other problems.</qt>"
 msgstr ""
 
-#: src/main.cpp:278
+#: src/main.cpp:281
 #, kde-format
 msgid "Invalid arguments: %1"
 msgstr ""
@@ -7550,273 +7595,301 @@ msgid "gpg4win-compendium-en.pdf"
 msgstr ""
 
 #: src/mainwindow.cpp:601
-#| msgid "Description"
-msgid "Password-based encryption"
+#, kde-format
+msgid "&Quickguide"
 msgstr ""
 
 #: src/mainwindow.cpp:603
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
-msgid "handout_symmetric_encryption_gnupg_en.pdf"
+msgid "encrypt_and_sign_gnupgvsd_en.pdf"
 msgstr ""
 
 #: src/mainwindow.cpp:607
-#, kde-format
-msgid "Quickguide"
+#| msgid "Description"
+msgid "&Password-based encryption"
 msgstr ""
 
 #: src/mainwindow.cpp:609
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
-msgid "handout_sign_encrypt_gnupg_en.pdf"
+msgid "symmetric_encryption_gnupgvsd_en.pdf"
 msgstr ""
 
 #: src/mainwindow.cpp:613
-#, kde-format
-msgid "SecOps VSA-10573"
+#| msgid "Information"
+msgid "&Group configuration"
 msgstr ""
 
 #: src/mainwindow.cpp:615
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
+msgid "groupfeature_gnupgvsd_en.pdf"
+msgstr ""
+
+#: src/mainwindow.cpp:620
+#, kde-format
+msgid "&Mail encryption in Outlook"
+msgstr ""
+
+#: src/mainwindow.cpp:622
+#, kde-format
+msgctxt "Only available in German and English. Leave to English for other languages. Only shown on Windows."
+msgid "gpgol_outlook_addin_en.pdf"
+msgstr ""
+
+#: src/mainwindow.cpp:628
+#| msgid "Canceled."
+msgid "&Certification Management"
+msgstr ""
+
+#: src/mainwindow.cpp:630
+#, kde-format
+msgctxt "Only available in German and English. Leave to English for other languages."
+msgid "certification_management_gnupgvsd_en.pdf"
+msgstr ""
+
+#: src/mainwindow.cpp:634
+#| msgid "Set &Background Color..."
+msgid "&Smartcard setup"
+msgstr ""
+
+#: src/mainwindow.cpp:636
+#, kde-format
+msgctxt "Only available in German and English. Leave to English for other languages."
+msgid "smartcard_setup_gnupgvsd_en.pdf"
+msgstr ""
+
+#: src/mainwindow.cpp:640
+#, kde-format
+msgid "GnuPG Command&line"
+msgstr ""
+
+#: src/mainwindow.cpp:646
+#, kde-format
+msgid "SecOps VSA-10573"
+msgstr ""
+
+#: src/mainwindow.cpp:648
+#, kde-format
+msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "BSI-VSA-10573-ENG_secops-20220207.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:619
+#: src/mainwindow.cpp:652
 #, kde-format
 msgid "SecOps VSA-10584"
 msgstr ""
 
-#: src/mainwindow.cpp:621
+#: src/mainwindow.cpp:654
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "BSI-VSA-10584-ENG_secops-20220207.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:625 src/view/smartcardwidget.cpp:119
-#, kde-format
-msgid "Smartcard Management"
-msgstr ""
-
-#: src/mainwindow.cpp:627
-#, kde-format
-msgctxt "Only available in German and English. Leave to English for other languages."
-msgid "smartcard_howto_de.pdf"
-msgstr ""
-
-#: src/mainwindow.cpp:631
-#| msgid "Information"
-msgid "Group configuration"
-msgstr ""
-
-#: src/mainwindow.cpp:637
-#, kde-format
-msgid "GnuPG Manual"
-msgstr ""
-
-#: src/mainwindow.cpp:661
+#: src/mainwindow.cpp:678
 #, kde-format
 msgid "There are still some background operations ongoing. These will be terminated when closing the window. Proceed?"
 msgstr ""
 
-#: src/mainwindow.cpp:664
+#: src/mainwindow.cpp:681
 #, kde-format
 msgid "Ongoing Background Tasks"
 msgstr ""
 
-#: src/mainwindow.cpp:772 src/view/keylistcontroller.cpp:392
+#: src/mainwindow.cpp:789 src/view/keylistcontroller.cpp:392
 #, kde-format
 msgid "Sign/Encrypt..."
 msgstr ""
 
-#: src/mainwindow.cpp:773 src/utils/clipboardmenu.cpp:49
+#: src/mainwindow.cpp:790 src/utils/clipboardmenu.cpp:49
 #: src/view/keylistcontroller.cpp:388
 #| msgid "&Details"
 msgid "Decrypt/Verify..."
 msgstr ""
 
-#: src/mainwindow.cpp:778
+#: src/mainwindow.cpp:795
 #, kde-format
 msgid "Import Certificates"
 msgstr ""
 
-#: src/mainwindow.cpp:779
+#: src/mainwindow.cpp:796
 #, kde-format
 msgid "Import CRLs"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:244
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:225
 #| msgid "Canceled."
 msgctxt "@title:window"
 msgid "Advanced Settings"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:260
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:241
 #| msgid "&Update"
 msgctxt "@title:group"
 msgid "Key Material"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:264
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:245
 #, kde-format
 msgctxt "@option:radio"
 msgid "RSA"
 msgstr "RSA"
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:276
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:257
 #, kde-format
 msgctxt "@option:check"
 msgid "+ RSA"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:285
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:266
 #, kde-format
 msgctxt "@option:radio"
 msgid "DSA"
 msgstr "DSA"
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:293
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:274
 #, kde-format
 msgctxt "@option:check"
 msgid "+ Elgamal"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:294
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:312
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:275
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:293
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This subkey is required for encryption."
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:303
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:284
 #, kde-format
 msgctxt "@option:radio"
 msgid "ECDSA"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:311
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:292
 #, kde-format
 msgctxt "@option:check"
 msgid "+ ECDH"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:325
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:306
 #| msgid "Overwrite File?"
 msgctxt "@title:group"
 msgid "Certificate Usage"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:329
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:310
 #| msgid "Canceled."
 msgctxt "@option:check"
 msgid "Signing"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:333
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:314
 #| msgid "Canceled."
 msgctxt "@option:check"
 msgid "Certification"
 msgstr "Сертыфікацыя"
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:337
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:318
 #| msgid "Description"
 msgctxt "@option:check"
 msgid "Encryption"
 msgstr "Шыфраванне"
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:341
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:322
 #| msgid "Information"
 msgctxt "@option:check"
 msgid "Authentication"
 msgstr "Праверка"
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:348
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:329
 #, kde-format
 msgctxt "@option:check"
 msgid "Valid until:"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:362
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:343
 #| msgid "&Details"
 msgctxt "@title:tab"
 msgid "Technical Details"
 msgstr "Тэхнічныя падрабязнасці"
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:376
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:357
 #, kde-format
 msgctxt "@title:group"
 msgid "Additional User IDs"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:384
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:365
 #, kde-format
 msgctxt "@title:group"
 msgid "EMail Addresses"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:392
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:373
 #| msgid "Serial"
 msgctxt "@title:group"
 msgid "DNS Names"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:400
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:381
 #, kde-format
 msgctxt "@title:group"
 msgid "URIs"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:410
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:980
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:391
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:961
 #| msgid "&Details"
 msgctxt "@title:tab"
 msgid "Personal Details"
 msgstr "Персанальныя звесткі"
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:452
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:433
 #, kde-format
 msgid "new email"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:453
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:434
 #, kde-format
 msgid "new dns name"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:454
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:435
 #, kde-format
 msgid "new uri"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:506
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:487
 #, kde-format
 msgid "The validity period cannot be changed."
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:508
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:489
 #, kde-format
 msgctxt "... between today and <another date>."
 msgid "The validity period must end between today and %1."
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:511
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:492
 #, kde-format
 msgctxt "... between <a date> and <another date>."
 msgid "The validity period must end between %1 and %2."
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:516
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:497
 #, kde-format
 msgid "The validity period must end after today."
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:518
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:499
 #, kde-format
 msgctxt "... after <a date>."
 msgid "The validity period must end after %1."
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:818
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:799
 #, kde-format
 msgctxt "%2: some admin-supplied text, %1: key size in bits"
 msgid "%2 (1 bit)"
@@ -7826,7 +7899,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:819
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:800
 #, kde-format
 msgctxt "%1: key size in bits"
 msgid "1 bit"
@@ -7836,7 +7909,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:985
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:966
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Adding more than one user ID is not yet implemented."
@@ -9035,7 +9108,7 @@ msgstr ""
 msgid "cannot use argument passing on standard input for unpack-command"
 msgstr ""
 
-#: src/utils/archivedefinition.cpp:407
+#: src/utils/archivedefinition.cpp:418
 #, kde-format
 msgid "Caught unknown exception in group %1"
 msgstr ""
@@ -9075,12 +9148,12 @@ msgstr ""
 msgid "File \"%1\" is already open, but not for reading"
 msgstr ""
 
-#: src/utils/input.cpp:330 src/utils/output.cpp:710
+#: src/utils/input.cpp:330 src/utils/output.cpp:709
 #, kde-format
 msgid "Command not specified"
 msgstr ""
 
-#: src/utils/input.cpp:338 src/utils/input.cpp:343 src/utils/output.cpp:716
+#: src/utils/input.cpp:338 src/utils/input.cpp:343 src/utils/output.cpp:715
 #, kde-format
 msgid "Could not start %1 process: %2"
 msgstr ""
@@ -9138,71 +9211,71 @@ msgstr ""
 msgid "Log Error: Could not open log file \"%1\" for writing."
 msgstr ""
 
-#: src/utils/output.cpp:281
+#: src/utils/output.cpp:289
 #, kde-format
 msgid "No output device"
 msgstr ""
 
-#: src/utils/output.cpp:497
+#: src/utils/output.cpp:501
 #, kde-format
 msgid "Could not open FD %1 for writing"
 msgstr ""
 
-#: src/utils/output.cpp:523
+#: src/utils/output.cpp:527
 #, kde-format
 msgid "Could not create temporary file for output \"%1\""
 msgstr ""
 
-#: src/utils/output.cpp:557
+#: src/utils/output.cpp:560
 #, kde-format
 msgctxt "@title:window"
 msgid "File Already Exists"
 msgstr "Файл ужо існуе"
 
-#: src/utils/output.cpp:651
+#: src/utils/output.cpp:654
 #| msgid "Overwrite File?"
 msgid "Overwriting declined"
 msgstr ""
 
-#: src/utils/output.cpp:657
+#: src/utils/output.cpp:660
 #| msgid "Overwrite File?"
 msgctxt "@info"
 msgid "Could not remove file <filename>%1</filename> for overwriting."
 msgstr ""
 
-#: src/utils/output.cpp:682
+#: src/utils/output.cpp:681
 #, kde-format
 msgid "Could not rename file \"%1\" to \"%2\""
 msgstr ""
 
-#: src/utils/output.cpp:727
+#: src/utils/output.cpp:726
 #, kde-format
 msgctxt "e.g. \"Input to tar xf - file1 ...\""
 msgid "Input to %1 ..."
 msgstr ""
 
-#: src/utils/output.cpp:729
+#: src/utils/output.cpp:728
 #, kde-format
 msgctxt "e.g. \"Input to tar xf - file\""
 msgid "Input to %1"
 msgstr ""
 
-#: src/utils/output.cpp:761
+#: src/utils/output.cpp:760
 #, kde-format
 msgid "Could not write to clipboard"
 msgstr ""
 
-#: src/utils/output.cpp:770
+#: src/utils/output.cpp:769
 #, kde-format
 msgid "Find buffer"
 msgstr ""
 
-#: src/utils/output.cpp:772
+#: src/utils/output.cpp:771
 #| msgid "Description"
 msgid "Selection"
 msgstr "Вылучэнне"
 
-#: src/utils/output.cpp:786
+#: src/utils/output.cpp:785
 #, kde-format
 msgid "Could not find clipboard"
 msgstr ""
@@ -9309,6 +9382,16 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Overwrite the existing file and any other files that already exist."
+msgstr ""
+
+#: src/utils/path-helper.cpp:158
+#, kde-format
+msgid "Cannot remove directory %1"
+msgstr ""
+
+#: src/utils/path-helper.cpp:163
+#, kde-format
+msgid "Cannot remove file %1: %2"
 msgstr ""
 
 #: src/view/formtextinput.cpp:28
@@ -10327,6 +10410,11 @@ msgstr ""
 msgid "Kleopatra currently supports the following card types:"
 msgstr ""
 
+#: src/view/smartcardwidget.cpp:119
+#, kde-format
+msgid "Smartcard Management"
+msgstr ""
+
 #: src/view/smartcardwidget.cpp:161
 #, kde-format
 msgctxt "@title:tab smartcard application - name of card holder - serial number of smartcard"
@@ -10594,11 +10682,6 @@ msgstr ""
 #~| msgid "Canceled."
 #~ msgctxt "@title:window arg is name, email of certificate holder"
 #~ msgid "Revoke Certification: %1"
-#~ msgstr "Скасавана."
-
-#, fuzzy
-#~| msgid "Canceled."
-#~ msgid "Certification key:"
 #~ msgstr "Скасавана."
 
 #, fuzzy
