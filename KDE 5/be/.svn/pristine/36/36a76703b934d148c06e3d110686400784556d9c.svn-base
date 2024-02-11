@@ -1,0 +1,480 @@
+# translation of desktop_kdebase.po to Belarusian
+# Copyright (C) 2002-2004 KDE Team.
+#
+# Eugene Zelenko <greendeath@mail.ru>, 2002-2004.
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2006.
+# Symbol <symbol@akeeri.tk>, 2006.
+# Darafei Praliaskouski <symbol@akeeri.tk>, 2006.
+# Darafei Praliaskouski <komzpa@licei2.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop_kdebase\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-01-11 01:06+0000\n"
+"PO-Revision-Date: 2007-12-09 18:26+0200\n"
+"Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
+"Language-Team: Belarusian <i18n@mova.org>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
+"%100>=11 && n%100<=14 ? 2 : 3);\n"
+
+#: app/khotkeys.desktop:2
+msgctxt "Name"
+msgid "Input Actions"
+msgstr "Дзеянні уводу"
+
+#: app/khotkeys.desktop:86
+msgctxt "Comment"
+msgid "Input Actions service performing configured actions on key presses"
+msgstr ""
+
+#: data/defaults.khotkeys:5 data/defaults.khotkeys:157
+#, fuzzy
+msgctxt "Comment"
+msgid "Comment"
+msgstr "Адукацыя"
+
+#: data/defaults.khotkeys:78
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Menu Editor"
+msgctxt "Name"
+msgid "KMenuEdit"
+msgstr "Рэдактар меню"
+
+#: data/defaults.khotkeys:229
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "PHP Search"
+msgctxt "Name"
+msgid "Search"
+msgstr "Пошук PHP"
+
+#: data/defaults.khotkeys:315 data/kde32b1.khotkeys:524
+#: data/kde32b1.khotkeys:765 data/kde32b1.khotkeys:1022
+#: data/kde32b1.khotkeys:1529 data/kde32b1.khotkeys:1947
+#: data/kde32b1.khotkeys:3349
+msgctxt "Comment"
+msgid "Simple_action"
+msgstr ""
+
+#: data/kde32b1.khotkeys:5
+msgctxt "Comment"
+msgid ""
+"This group contains various examples demonstrating most of the features of "
+"KHotkeys. (Note that this group and all its actions are disabled by default.)"
+msgstr ""
+
+#: data/kde32b1.khotkeys:79
+msgctxt "Name"
+msgid "Examples"
+msgstr "Прыклады"
+
+#: data/kde32b1.khotkeys:173
+msgctxt "Comment"
+msgid ""
+"After pressing Ctrl+Alt+I, the KSIRC window will be activated, if it exists. "
+"Simple."
+msgstr ""
+
+#: data/kde32b1.khotkeys:250
+msgctxt "Name"
+msgid "Activate KSIRC Window"
+msgstr "Актывізаваць акно KSIRC"
+
+#: data/kde32b1.khotkeys:340
+msgctxt "Comment"
+msgid "KSIRC window"
+msgstr ""
+
+#: data/kde32b1.khotkeys:428
+msgctxt "Comment"
+msgid "KSIRC"
+msgstr "KSIRC"
+
+#: data/kde32b1.khotkeys:608
+msgctxt "Comment"
+msgid ""
+"After pressing Alt+Ctrl+H the input of 'Hello' will be simulated, as if you "
+"typed it.  This is especially useful if you have call to frequently type a "
+"word (for instance, 'unsigned').  Every keypress in the input is separated "
+"by a colon ':'. Note that the keypresses literally mean keypresses, so you "
+"have to write what you would press on the keyboard. In the table below, the "
+"left column shows the input and the right column shows what to type.\\n\\n"
+"\"enter\" (i.e. new line)                Enter or Return\\na (i.e. small "
+"a)                          A\\nA (i.e. capital a)                       "
+"Shift+A\\n: (colon)                                  Shift+;\\n' "
+"'  (space)                              Space"
+msgstr ""
+
+#: data/kde32b1.khotkeys:671
+msgctxt "Name"
+msgid "Type 'Hello'"
+msgstr ""
+
+#: data/kde32b1.khotkeys:849
+msgctxt "Comment"
+msgid "This action runs Konsole, after pressing Ctrl+Alt+T."
+msgstr ""
+
+#: data/kde32b1.khotkeys:926
+msgctxt "Name"
+msgid "Run Konsole"
+msgstr "Запусціць Konsole"
+
+#: data/kde32b1.khotkeys:1106
+msgctxt "Comment"
+msgid ""
+"Read the comment on the \"Type 'Hello'\" action first.\\n\\nQt Designer uses "
+"Ctrl+F4 for closing windows.  In KDE, however, Ctrl+F4 is the shortcut for "
+"going to virtual desktop 4, so this shortcut does not work in Qt Designer.  "
+"Further, Qt Designer does not use KDE's standard Ctrl+W for closing the "
+"window.\\n\\nThis problem can be solved by remapping Ctrl+W to Ctrl+F4 when "
+"the active window is Qt Designer. When Qt Designer is active, every time Ctrl"
+"+W is pressed, Ctrl+F4 will be sent to Qt Designer instead. In other "
+"applications, the effect of Ctrl+W is unchanged.\\n\\nWe now need to specify "
+"three things: A new shortcut trigger on 'Ctrl+W', a new keyboard input "
+"action sending Ctrl+F4, and a new condition that the active window is Qt "
+"Designer.\\nQt Designer seems to always have title 'Qt Designer by "
+"Trolltech', so the condition will check for the active window having that "
+"title."
+msgstr ""
+
+#: data/kde32b1.khotkeys:1160
+msgctxt "Name"
+msgid "Remap Ctrl+W to Ctrl+F4 in Qt Designer"
+msgstr ""
+
+#: data/kde32b1.khotkeys:1252
+msgctxt "Comment"
+msgid "Qt Designer"
+msgstr "Qt Designer"
+
+#: data/kde32b1.khotkeys:1342
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Qt Designer"
+msgctxt "Title"
+msgid "Qt Designer by Trolltech"
+msgstr "Qt Designer"
+
+#: data/kde32b1.khotkeys:1391
+msgctxt "Comment"
+msgid ""
+"By pressing Alt+Ctrl+W a D-Bus call will be performed that will show the "
+"minicli. You can use any kind of D-Bus call, just like using the command "
+"line 'qdbus' tool."
+msgstr ""
+
+#: data/kde32b1.khotkeys:1457
+msgctxt "Name"
+msgid "Perform D-Bus call 'qdbus org.kde.krunner /App display'"
+msgstr ""
+
+#: data/kde32b1.khotkeys:1613
+msgctxt "Comment"
+msgid ""
+"Read the comment on the \"Type 'Hello'\" action first.\\n\\nJust like the "
+"\"Type 'Hello'\" action, this one simulates keyboard input, specifically, "
+"after pressing Ctrl+Alt+B, it sends B to XMMS (B in XMMS jumps to the next "
+"song). The 'Send to specific window' checkbox is checked and a window with "
+"its class containing 'XMMS_Player' is specified; this will make the input "
+"always be sent to this window. This way, you can control XMMS even if, for "
+"instance, it is on a different virtual desktop.\\n\\n(Run 'xprop' and click "
+"on the XMMS window and search for WM_CLASS to see 'XMMS_Player')."
+msgstr ""
+
+#: data/kde32b1.khotkeys:1673
+msgctxt "Name"
+msgid "Next in XMMS"
+msgstr "Наступны ў XMMS"
+
+#: data/kde32b1.khotkeys:1766
+msgctxt "Comment"
+msgid "XMMS window"
+msgstr "Акно XMMS"
+
+#: data/kde32b1.khotkeys:1855
+msgctxt "Comment"
+msgid "XMMS Player window"
+msgstr ""
+
+#: data/kde32b1.khotkeys:2031
+msgctxt "Comment"
+msgid ""
+"Konqueror in KDE3.1 has tabs, and now you can also have gestures.\\n\\nJust "
+"press the middle mouse button and start drawing one of the gestures, and "
+"after you are finished, release the mouse button. If you only need to paste "
+"the selection, it still works, just click the middle mouse button. (You can "
+"change the mouse button to use in the global settings).\\n\\nRight now, "
+"there are the following gestures available:\\nmove right and back left - "
+"Forward (Alt+Right)\\nmove left and back right - Back (Alt+Left)\\nmove up "
+"and back down  - Up (Alt+Up)\\ncircle counterclockwise - Reload (F5)\\n"
+"\\nThe gesture shapes can be entered by performing them in the configuration "
+"dialog. You can also look at your numeric pad to help you: gestures are "
+"recognized like a 3x3 grid of fields, numbered 1 to 9.\\n\\nNote that you "
+"must perform exactly the gesture to trigger the action. Because of this, it "
+"is possible to enter more gestures for the action. You should try to avoid "
+"complicated gestures where you change the direction of mouse movement more "
+"than once.  For instance, 45654 or 74123 are simple to perform, but 1236987 "
+"may be already quite difficult.\\n\\nThe conditions for all gestures are "
+"defined in this group. All these gestures are active only if the active "
+"window is Konqueror (class contains 'konqueror')."
+msgstr ""
+
+#: data/kde32b1.khotkeys:2071
+msgctxt "Name"
+msgid "Konqi Gestures"
+msgstr ""
+
+#: data/kde32b1.khotkeys:2152 data/konqueror_gestures_kde321.khotkeys:169
+msgctxt "Comment"
+msgid "Konqueror window"
+msgstr "Акно Konqueror"
+
+#: data/kde32b1.khotkeys:2242 data/kde32b1.khotkeys:2332
+#: data/konqueror_gestures_kde321.khotkeys:259
+#: data/konqueror_gestures_kde321.khotkeys:349
+msgctxt "Comment"
+msgid "Konqueror"
+msgstr "Konqueror"
+
+#: data/kde32b1.khotkeys:2427 data/konqueror_gestures_kde321.khotkeys:557
+msgctxt "Name"
+msgid "Back"
+msgstr "Назад"
+
+#: data/kde32b1.khotkeys:2529 data/kde32b1.khotkeys:2720
+#: data/kde32b1.khotkeys:2911 data/kde32b1.khotkeys:3101
+#: data/konqueror_gestures_kde321.khotkeys:817
+#: data/konqueror_gestures_kde321.khotkeys:1068
+#: data/konqueror_gestures_kde321.khotkeys:1306
+#: data/konqueror_gestures_kde321.khotkeys:1563
+#: data/konqueror_gestures_kde321.khotkeys:1819
+#: data/konqueror_gestures_kde321.khotkeys:1910
+#: data/konqueror_gestures_kde321.khotkeys:2163
+#: data/konqueror_gestures_kde321.khotkeys:2416
+#: data/konqueror_gestures_kde321.khotkeys:2675
+#: data/konqueror_gestures_kde321.khotkeys:2933
+#: data/konqueror_gestures_kde321.khotkeys:3188
+#: data/konqueror_gestures_kde321.khotkeys:3441
+#: data/konqueror_gestures_kde321.khotkeys:3702
+#: data/konqueror_gestures_kde321.khotkeys:3960
+msgctxt "Comment"
+msgid "Gesture_triggers"
+msgstr ""
+
+#: data/kde32b1.khotkeys:2618 data/konqueror_gestures_kde321.khotkeys:2573
+msgctxt "Name"
+msgid "Forward"
+msgstr "Наперад"
+
+#: data/kde32b1.khotkeys:2809 data/konqueror_gestures_kde321.khotkeys:966
+msgctxt "Name"
+msgid "Up"
+msgstr "Угору"
+
+#: data/kde32b1.khotkeys:3000 data/konqueror_gestures_kde321.khotkeys:3859
+msgctxt "Name"
+msgid "Reload"
+msgstr "Абнавіць"
+
+#: data/kde32b1.khotkeys:3188
+msgctxt "Comment"
+msgid ""
+"After pressing Win+E (Tux+E) a WWW browser will be launched, and it will "
+"open http://www.kde.org . You may run all kind of commands you can run in "
+"minicli (Alt+F2)."
+msgstr ""
+
+#: data/kde32b1.khotkeys:3254
+msgctxt "Name"
+msgid "Go to KDE Website"
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:5
+msgctxt "Comment"
+msgid "Basic Konqueror gestures."
+msgstr "Базавые жэсты Konqueror"
+
+#: data/konqueror_gestures_kde321.khotkeys:86
+msgctxt "Name"
+msgid "Konqueror Gestures"
+msgstr "Жэсты Konqueror"
+
+#: data/konqueror_gestures_kde321.khotkeys:436
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Konqueror"
+msgctxt "Title"
+msgid "file:/ - Konqueror"
+msgstr "Konqueror"
+
+#: data/konqueror_gestures_kde321.khotkeys:478
+msgctxt "Comment"
+msgid "Press, move left, release."
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:647
+msgctxt "Comment"
+msgid ""
+"Opera-style: Press, move up, release.\\nNOTE: Conflicts with 'New Tab', and "
+"as such is disabled by default."
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:719
+msgctxt "Name"
+msgid "Stop Loading"
+msgstr "Спыніць загрузку"
+
+#: data/konqueror_gestures_kde321.khotkeys:896
+msgctxt "Comment"
+msgid ""
+"Going up in URL/directory structure.\\nMozilla-style: Press, move up, move "
+"left, move up, release."
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:1147
+msgctxt "Comment"
+msgid ""
+"Going up in URL/directory structure.\\nOpera-style: Press, move up, move "
+"left, move up, release.\\nNOTE: Conflicts with  \"Activate Previous Tab\", "
+"and as such is disabled by default."
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:1214
+msgctxt "Name"
+msgid "Up #2"
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:1385
+msgctxt "Comment"
+msgid "Press, move up, move right, release."
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:1463
+msgctxt "Name"
+msgid "Activate Next Tab"
+msgstr "Актывізаваць наступную картку"
+
+#: data/konqueror_gestures_kde321.khotkeys:1642
+msgctxt "Comment"
+msgid "Press, move up, move left, release."
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:1720
+msgctxt "Name"
+msgid "Activate Previous Tab"
+msgstr "Актывізаваць папярэднюю картку"
+
+#: data/konqueror_gestures_kde321.khotkeys:1989
+msgctxt "Comment"
+msgid "Press, move down, move up, move down, release."
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:2067
+msgctxt "Name"
+msgid "Duplicate Tab"
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:2242
+msgctxt "Comment"
+msgid "Press, move down, move up, release."
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:2320
+msgctxt "Name"
+msgid "Duplicate Window"
+msgstr "Зрабіць копію акна"
+
+#: data/konqueror_gestures_kde321.khotkeys:2495
+msgctxt "Comment"
+msgid "Press, move right, release."
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:2754
+msgctxt "Comment"
+msgid ""
+"Press, move down, move half up, move right, move down, release.\\n(Drawing a "
+"lowercase 'h'.)"
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:2827
+msgctxt "Name"
+msgid "Home"
+msgstr "Хатняя тэчка"
+
+#: data/konqueror_gestures_kde321.khotkeys:3016
+msgctxt "Comment"
+msgid ""
+"Press, move right, move down, move right, release.\\nMozilla-style: Press, "
+"move down, move right, release."
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:3089
+msgctxt "Name"
+msgid "Close Tab"
+msgstr "Закрыць картку"
+
+#: data/konqueror_gestures_kde321.khotkeys:3271
+msgctxt "Comment"
+msgid ""
+"Press, move up, release.\\nConflicts with Opera-style 'Up #2', which is "
+"disabled by default."
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:3342
+msgctxt "Name"
+msgid "New Tab"
+msgstr "Новая картка"
+
+#: data/konqueror_gestures_kde321.khotkeys:3520
+msgctxt "Comment"
+msgid "Press, move down, release."
+msgstr ""
+
+#: data/konqueror_gestures_kde321.khotkeys:3598
+msgctxt "Name"
+msgid "New Window"
+msgstr "Новае акно"
+
+#: data/konqueror_gestures_kde321.khotkeys:3781
+msgctxt "Comment"
+msgid "Press, move up, move down, release."
+msgstr ""
+
+#: kcm_hotkeys/khotkeys.desktop:13
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Web Shortcuts"
+msgctxt "Name"
+msgid "Custom Shortcuts"
+msgstr "Скароты Сеціва"
+
+#: kcm_hotkeys/khotkeys.desktop:77
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure Hotkey settings"
+msgctxt "Comment"
+msgid "Configure Input Actions settings"
+msgstr "Настаўленні клавішных скаротаў"
+
+#: kcm_hotkeys/khotkeys.desktop:147
+msgctxt "X-KDE-Keywords"
+msgid ""
+"global,keyboard shortcuts,hot keys,hotkeys,KHotKeys,input actions,mouse "
+"gestures,actions,triggers,launch"
+msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Preset Actions"
+#~ msgstr "Існуючыя дзеянні"
+
+#~ msgctxt "Name"
+#~ msgid "PrintScreen"
+#~ msgstr "PrintScreen"
