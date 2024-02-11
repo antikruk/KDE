@@ -1,0 +1,509 @@
+# Siarhei Liantsevich <serzh.by@gmail.com>, 2007.
+# Darafei Praliaskouski <komzpa@licei2.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-12 00:48+0000\n"
+"PO-Revision-Date: 2022-08-29 04:56\n"
+"Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
+"Language-Team: Belarusian\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: 86ff119b1606fcaa910d6b44fc14b611\n"
+"X-Crowdin-Project-ID: 127\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /main/be/kfloppy/kfloppy.po\n"
+"X-Crowdin-File-ID: 7917\n"
+
+#: floppy.cpp:81
+msgid "Floppy &drive:"
+msgstr ""
+
+#: floppy.cpp:89 floppy.cpp:364 floppy.cpp:654
+msgctxt "Primary floppy drive"
+msgid "Primary"
+msgstr "Асноўны"
+
+#: floppy.cpp:90 floppy.cpp:366
+msgctxt "Secondary floppy drive"
+msgid "Secondary"
+msgstr "Другасны"
+
+#: floppy.cpp:92
+msgid "<qt>Select the floppy drive.</qt>"
+msgstr ""
+
+#: floppy.cpp:98
+msgid "&Size:"
+msgstr ""
+
+#: floppy.cpp:104 floppy.cpp:656
+msgid "Auto-Detect"
+msgstr ""
+
+#: floppy.cpp:106 floppy.cpp:372 floppy.cpp:658
+msgid "3.5\" 1.44MB"
+msgstr ""
+
+#: floppy.cpp:107 floppy.cpp:374
+msgid "3.5\" 720KB"
+msgstr ""
+
+#: floppy.cpp:108 floppy.cpp:376
+msgid "5.25\" 1.2MB"
+msgstr ""
+
+#: floppy.cpp:109 floppy.cpp:378
+msgid "5.25\" 360KB"
+msgstr ""
+
+#: floppy.cpp:112
+msgid "<qt>This allows you to select the floppy disk's size and density.</qt>"
+msgstr ""
+
+#: floppy.cpp:119
+msgid "F&ile system:"
+msgstr ""
+
+#: floppy.cpp:126 floppy.cpp:136
+msgctxt "Linux"
+msgid "KFloppy supports three file formats under Linux: MS-DOS, Ext2, and Minix"
+msgstr ""
+
+#: floppy.cpp:128
+msgctxt "BSD"
+msgid "KFloppy supports three file formats under BSD: MS-DOS, UFS, and Ext2"
+msgstr ""
+
+#: floppy.cpp:138 floppy.cpp:163 floppy.cpp:558 floppy.cpp:660
+msgid "DOS"
+msgstr ""
+
+#: floppy.cpp:140
+msgctxt "Linux"
+msgid "Program mkdosfs found."
+msgstr ""
+
+#: floppy.cpp:142
+msgctxt "Linux"
+msgid "Program mkdosfs <b>not found</b>. MSDOS formatting <b>not available</b>."
+msgstr ""
+
+#: floppy.cpp:146 floppy.cpp:179 floppy.cpp:569
+msgid "ext2"
+msgstr ""
+
+#: floppy.cpp:148 floppy.cpp:181
+msgid "Program mke2fs found."
+msgstr ""
+
+#: floppy.cpp:150 floppy.cpp:183
+msgid "Program mke2fs <b>not found</b>. Ext2 formatting <b>not available</b>"
+msgstr ""
+
+#: floppy.cpp:154 floppy.cpp:588
+msgid "Minix"
+msgstr ""
+
+#: floppy.cpp:156
+msgctxt "Linux"
+msgid "Program mkfs.minix found."
+msgstr ""
+
+#: floppy.cpp:158
+msgctxt "Linux"
+msgid "Program mkfs.minix <b>not found</b>. Minix formatting <b>not available</b>"
+msgstr ""
+
+#: floppy.cpp:161
+msgctxt "BSD"
+msgid "KFloppy supports two file formats under BSD: MS-DOS and UFS"
+msgstr ""
+
+#: floppy.cpp:165
+msgctxt "BSD"
+msgid "Program newfs_msdos found."
+msgstr ""
+
+#: floppy.cpp:167
+msgctxt "BSD"
+msgid "Program newfs_msdos <b>not found</b>. MSDOS formatting <b>not available</b>."
+msgstr ""
+
+#: floppy.cpp:171 floppy.cpp:487 floppy.cpp:580
+msgid "UFS"
+msgstr ""
+
+#: floppy.cpp:173
+msgctxt "BSD"
+msgid "Program newfs found."
+msgstr ""
+
+#: floppy.cpp:175
+msgctxt "BSD"
+msgid "Program newfs <b>not found</b>. UFS formatting <b>not available</b>."
+msgstr ""
+
+#: floppy.cpp:189
+msgid "&Formatting"
+msgstr ""
+
+#: floppy.cpp:192
+msgid "Q&uick format"
+msgstr ""
+
+#: floppy.cpp:196
+msgid "<qt>Quick format is only a high-level format: it creates only a file system.</qt>"
+msgstr ""
+
+#: floppy.cpp:199
+msgid "&Zero out and quick format"
+msgstr ""
+
+#: floppy.cpp:202
+msgid "<qt>This first erases the floppy by writing zeros and then it creates the file system.</qt>"
+msgstr ""
+
+#: floppy.cpp:204
+msgid "Fu&ll format"
+msgstr ""
+
+#: floppy.cpp:207
+msgid "Full format is a low-level and high-level format. It erases everything on the disk."
+msgstr ""
+
+#: floppy.cpp:216
+msgid "Program fdformat found."
+msgstr ""
+
+#: floppy.cpp:220
+msgid "Program fdformat <b>not found</b>. Full formatting <b>disabled</b>."
+msgstr ""
+
+#: floppy.cpp:226
+msgid "Program dd found."
+msgstr ""
+
+#: floppy.cpp:229
+msgid "Program dd <b>not found</b>. Zeroing-out <b>disabled</b>."
+msgstr ""
+
+#: floppy.cpp:234
+msgid "&Verify integrity"
+msgstr ""
+
+#: floppy.cpp:238
+msgid "<qt>Check this if you want the floppy disk to be checked after formatting. Please note that the floppy will be checked twice if you have selected full formatting.</qt>"
+msgstr ""
+
+#: floppy.cpp:243
+msgid "Volume la&bel:"
+msgstr ""
+
+#: floppy.cpp:247
+msgid "<qt>Check this if you want a volume label for your floppy. Please note that Minix does not support labels at all.</qt>"
+msgstr ""
+
+#: floppy.cpp:256 floppy.cpp:652
+msgctxt "Volume label, maximal 11 characters"
+msgid "KDE Floppy"
+msgstr ""
+
+#: floppy.cpp:260
+msgid "<qt>This is for the volume label. Due to a limitation of MS-DOS the label can only be 11 characters long. Please note that Minix does not support labels, whatever you enter here.</qt>"
+msgstr ""
+
+#: floppy.cpp:270 floppy.cpp:469
+msgid "&Format"
+msgstr ""
+
+#: floppy.cpp:276
+msgid "<qt>Click here to start formatting.</qt>"
+msgstr ""
+
+#: floppy.cpp:301
+msgid "<qt>This is the status window, where error messages are displayed.</qt>"
+msgstr ""
+
+#: floppy.cpp:314
+msgid "<qt>Shows progress of the format.</qt>"
+msgstr ""
+
+#: floppy.cpp:323
+msgid "KFloppy cannot find any of the needed programs for creating file systems; please check your installation.<br /><br />Log:"
+msgstr ""
+
+#: floppy.cpp:355
+msgid "KDE Floppy Formatter"
+msgstr ""
+
+#: floppy.cpp:488
+msgctxt "BSD"
+msgid "Formatting with BSD on a user-given device is only possible with UFS"
+msgstr ""
+
+#: floppy.cpp:495
+msgid "<qt>Formatting will erase all data on the device:<br/><b>%1</b><br/>(Please check the correctness of the device name.)<br/>Are you sure you wish to proceed?</qt>"
+msgstr ""
+
+#: floppy.cpp:499 floppy.cpp:511
+msgid "Proceed?"
+msgstr "Працягнуць?"
+
+#: floppy.cpp:505
+msgid "Full formatting of a user-given device is not possible."
+msgstr ""
+
+#: floppy.cpp:509
+msgid "Formatting will erase all data on the disk.\n"
+"Are you sure you wish to proceed?"
+msgstr ""
+
+#: format.cpp:247
+msgid "Unexpected drive number %1."
+msgstr ""
+
+#: format.cpp:257
+msgid "Unexpected density number %1."
+msgstr ""
+
+#: format.cpp:270
+msgid "Cannot find a device for drive %1 and density %2."
+msgstr ""
+
+#: format.cpp:284
+msgid "Cannot access %1\n"
+"Make sure that the device exists and that you have write permission to it."
+msgstr ""
+
+#: format.cpp:316
+msgid "The program %1 terminated with an error."
+msgstr ""
+
+#: format.cpp:320
+msgid "The program %1 terminated abnormally."
+msgstr ""
+
+#: format.cpp:377 format.cpp:508 format.cpp:597 format.cpp:691 format.cpp:762
+#: format.cpp:852
+msgid "Internal error: device not correctly defined."
+msgstr ""
+
+#: format.cpp:383
+msgid "Cannot find fdformat."
+msgstr ""
+
+#: format.cpp:410
+msgid "Could not start fdformat."
+msgstr ""
+
+#: format.cpp:432
+msgid "Error formatting track %1."
+msgstr ""
+
+#: format.cpp:435 format.cpp:460
+msgid "Cannot access floppy or floppy drive.\n"
+"Please insert a floppy and make sure that you have selected a valid floppy drive."
+msgstr ""
+
+#: format.cpp:453
+msgid "Low-level formatting error at track %1."
+msgstr ""
+
+#: format.cpp:456
+msgid "Low-level formatting error: %1"
+msgstr ""
+
+#: format.cpp:467 format.cpp:647 format.cpp:803 format.cpp:889
+msgid "Device busy.\n"
+"Perhaps you need to unmount the floppy first."
+msgstr ""
+
+#: format.cpp:472
+msgid "Low-level format error: %1"
+msgstr ""
+
+#: format.cpp:514
+msgid "Cannot find dd."
+msgstr ""
+
+#: format.cpp:528
+msgid "Could not start dd."
+msgstr ""
+
+#: format.cpp:603
+msgid "Cannot find a program to create FAT filesystems."
+msgstr ""
+
+#: format.cpp:630
+msgid "Cannot start FAT format program."
+msgstr ""
+
+#: format.cpp:643 format.cpp:799 format.cpp:885
+msgid "Floppy is mounted.\n"
+"You need to unmount the floppy first."
+msgstr ""
+
+#: format.cpp:697
+msgctxt "BSD"
+msgid "Cannot find a program to create UFS filesystems."
+msgstr ""
+
+#: format.cpp:714
+msgctxt "BSD"
+msgid "Cannot start UFS format program."
+msgstr ""
+
+#: format.cpp:768
+msgid "Cannot find a program to create ext2 filesystems."
+msgstr ""
+
+#: format.cpp:786
+msgid "Cannot start ext2 format program."
+msgstr ""
+
+#: format.cpp:858
+msgid "Cannot find a program to create Minix filesystems."
+msgstr ""
+
+#: format.cpp:875
+msgid "Cannot start Minix format program."
+msgstr ""
+
+#: main.cpp:51
+msgid "KFloppy"
+msgstr ""
+
+#: main.cpp:53
+msgid "KDE Floppy Disk Utility"
+msgstr ""
+
+#: main.cpp:55
+#, kde-format
+msgid "(c) 1997, Bernd Johannes Wuebben\n"
+"(c) 2001, Chris Howells\n"
+"(c) 2002, Adriaan de Groot\n"
+"(c) 2004, 2005, Nicolas Goutte\n"
+"(c) 2015, 2016, Wolfgang Bauer"
+msgstr ""
+
+#: main.cpp:60
+msgid "KFloppy helps you format floppies with the filesystem of your choice."
+msgstr ""
+
+#: main.cpp:63
+#, kde-format
+msgid "Bernd Johannes Wuebben"
+msgstr ""
+
+#: main.cpp:63
+msgid "Author and former maintainer"
+msgstr ""
+
+#: main.cpp:64
+#, kde-format
+msgid "Chris Howells"
+msgstr ""
+
+#: main.cpp:64
+msgid "User interface re-design"
+msgstr ""
+
+#: main.cpp:65
+#, kde-format
+msgid "Adriaan de Groot"
+msgstr ""
+
+#: main.cpp:65
+msgid "Add BSD support"
+msgstr ""
+
+#: main.cpp:66
+#, kde-format
+msgid "Nicolas Goutte"
+msgstr ""
+
+#: main.cpp:66
+msgid "Make KFloppy work again for KDE 3.4"
+msgstr ""
+
+#: main.cpp:67
+#, kde-format
+msgid "Wolfgang Bauer"
+msgstr ""
+
+#: main.cpp:67
+#, kde-format
+msgid "Port KFloppy to KF5"
+msgstr ""
+
+#: main.cpp:69
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Дарафей Праляскоўскі"
+
+#: main.cpp:69
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "komzpa@licei2. com, nashtlumach@gmail. com"
+
+#: main.cpp:77
+msgid "Default device"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Cannot start dd to zero disk."
+#~ msgstr "Не атрымліваецца запусціць праграму фарматавання FAT."
+
+#, fuzzy
+#~ msgid "Cannot start newfs."
+#~ msgstr "Не атрымліваецца запусціць праграму dd."
+
+#, fuzzy
+#~ msgid ""
+#~ "_: BSD\n"
+#~ "Cannot find a program to create UFS filesystems."
+#~ msgstr ""
+#~ "Не атрымліваецца знайсці праграму для стварэння файлавай сістэмы UFS."
+
+#, fuzzy
+#~ msgid ""
+#~ "_: BSD\n"
+#~ "Cannot start UFS format program."
+#~ msgstr "Не атрымліваецца запусціць праграму фарматавання UFS."
+
+#, fuzzy
+#~ msgid ""
+#~ "_: Linux\n"
+#~ "Program mkdosfs found."
+#~ msgstr "Знойдзеная праграма mkdosfs."
+
+#, fuzzy
+#~ msgid ""
+#~ "_: BSD\n"
+#~ "Program newfs found."
+#~ msgstr "Знойдзеная праграма newfs."
+
+#, fuzzy
+#~ msgid ""
+#~ "_: Volume label, maximal 11 characters\n"
+#~ "KDE Floppy"
+#~ msgstr "Дыскета KDE"
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Сяржук Лянцэвіч"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "serzh.by@gmail.com"
+
