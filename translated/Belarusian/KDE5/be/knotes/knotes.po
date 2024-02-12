@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-26 00:58+0000\n"
-"PO-Revision-Date: 2024-02-11 23:24\n"
+"POT-Creation-Date: 2023-03-28 00:48+0000\n"
+"PO-Revision-Date: 2024-02-12 08:25\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -134,7 +134,7 @@ msgstr "Заметкі KDE"
 msgid "Copyright © 1997–%1 KNotes authors"
 msgstr ""
 
-#: apps/main.cpp:69 kontactplugin/kcmknotessummary.cpp:44
+#: apps/main.cpp:69
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Лаўрэн Монтэль"
@@ -375,7 +375,7 @@ msgstr "Шрыфт назвы:"
 msgid "Editor Settings"
 msgstr "Настаўленні рэдактара"
 
-#: configdialog/knotesimpleconfigdialog.cpp:44
+#: configdialog/knotesimpleconfigdialog.cpp:43
 #, kde-format
 msgid "Display Settings"
 msgstr "Настаўленні паказу"
@@ -416,61 +416,61 @@ msgstr ""
 msgid "Note Actions"
 msgstr "Дзеянні заметак"
 
-#: finddialog/knotefinddialog.cpp:30
+#: finddialog/knotefinddialog.cpp:36
 #| msgid "Show All Notes"
 msgctxt "@title:window"
 msgid "Search Notes"
 msgstr ""
 
-#: finddialog/knotefinddialog.cpp:79
-#| msgid "Show All Notes"
-msgctxt "@label:textbox"
-msgid "Search notes:"
-msgstr ""
-
-#: finddialog/knotefinddialog.cpp:87
+#: finddialog/knotefinddialog.cpp:81
 #| msgid "Show All Notes"
 msgctxt "@action:button Search notes"
 msgid "Search..."
 msgstr "Пошук..."
 
-#: finddialog/knotefinddialog.cpp:171
+#: finddialog/knotefinddialog.cpp:88
+#| msgid "Show All Notes"
+msgctxt "@label:textbox"
+msgid "Search notes:"
+msgstr ""
+
+#: finddialog/knotefinddialog.cpp:179
 #, kde-format
 msgctxt "@label"
 msgid "No Results found in search."
 msgstr ""
 
-#: finddialog/knotefinddialog.cpp:187
+#: finddialog/knotefinddialog.cpp:195
 #| msgid "Show All Notes"
 msgid "Show Note"
 msgstr ""
 
-#: knoteconfigmodule.cpp:80
+#: knoteconfigmodule.cpp:115 knoteconfigmodule.cpp:117
 #, kde-format
 msgid "Show number of notes in tray icon"
 msgstr ""
 
-#: knoteconfigmodule.cpp:87
+#: knoteconfigmodule.cpp:126 knoteconfigmodule.cpp:128
 #| msgid "Default &width:"
 msgid "Default Title:"
 msgstr ""
 
-#: knoteconfigmodule.cpp:94
+#: knoteconfigmodule.cpp:140
 #, kde-format
 msgid "<a href=\"whatsthis\">How does this work?</a>"
 msgstr ""
 
-#: knoteconfigmodule.cpp:128
+#: knoteconfigmodule.cpp:179
 #, kde-format
 msgid "<qt><p>You can customize title note. You can use:</p><ul><li>%d current date (short format)</li><li>%l current date (long format)</li><li>%t current time</li></ul></qt>"
 msgstr ""
 
-#: knoteconfigmodule.cpp:150
+#: knoteconfigmodule.cpp:212 knoteconfigmodule.cpp:214
 #, kde-format
 msgid "Theme:"
 msgstr "Тэма:"
 
-#: knoteconfigmodule.cpp:160
+#: knoteconfigmodule.cpp:229
 #| msgid "Print %1"
 msgid "Download new printing themes"
 msgstr ""
@@ -570,21 +570,6 @@ msgstr "Уставіць дату"
 msgid "Insert Checkmark"
 msgstr ""
 
-#: kontactplugin/kcmknotessummary.cpp:39
-#, kde-format
-msgid "kcmknotessummary"
-msgstr ""
-
-#: kontactplugin/kcmknotessummary.cpp:41
-#, kde-format
-msgid "Notes Summary Configuration Dialog"
-msgstr ""
-
-#: kontactplugin/kcmknotessummary.cpp:43
-#, kde-format
-msgid "Copyright © 2013-%1 Laurent Montel <montel@kde.org>"
-msgstr ""
-
 #: kontactplugin/knotes_part.cpp:84
 #, kde-format
 msgctxt "@action:inmenu create new popup note"
@@ -660,32 +645,32 @@ msgstr ""
 msgid "Preferences KNotes..."
 msgstr ""
 
-#: kontactplugin/knotes_part.cpp:142 notes/knote.cpp:680
+#: kontactplugin/knotes_part.cpp:142 notes/knote.cpp:682
 #, kde-format
 msgid "Mail..."
 msgstr "Па пошце..."
 
-#: kontactplugin/knotes_part.cpp:146 notes/knote.cpp:676
+#: kontactplugin/knotes_part.cpp:146 notes/knote.cpp:678
 #, kde-format
 msgid "Send..."
 msgstr "Даслаць..."
 
-#: kontactplugin/knotes_part.cpp:150 notes/knote.cpp:672
+#: kontactplugin/knotes_part.cpp:150 notes/knote.cpp:674
 #, kde-format
 msgid "Set Alarm..."
 msgstr "Наставіць нагадванне..."
 
-#: kontactplugin/knotes_part.cpp:162 notes/knote.cpp:684
+#: kontactplugin/knotes_part.cpp:162 notes/knote.cpp:686
 #, kde-format
 msgid "Save As..."
 msgstr "Запісаць як..."
 
-#: kontactplugin/knotes_part.cpp:166 notes/knote.cpp:658
+#: kontactplugin/knotes_part.cpp:166 notes/knote.cpp:660
 #, kde-format
 msgid "Lock"
 msgstr "Заблакаваць"
 
-#: kontactplugin/knotes_part.cpp:169 notes/knote.cpp:661
+#: kontactplugin/knotes_part.cpp:169 notes/knote.cpp:663
 #, kde-format
 msgid "Unlock"
 msgstr "Разблакаваць"
@@ -762,7 +747,7 @@ msgstr ""
 msgid "Save As"
 msgstr "Запісаць як"
 
-#: kontactplugin/knotes_part.cpp:705 notes/knote.cpp:505
+#: kontactplugin/knotes_part.cpp:705 notes/knote.cpp:507
 #| msgid ""
 #| "<qt>A file named <b>%1</b> already exists.<br>Are you sure you want to "
 #| "overwrite it?</qt>"
@@ -941,63 +926,63 @@ msgstr "В&ыдаліць"
 msgid "Please enter the new name:"
 msgstr "Калі ласка, увядзіце новае імя:"
 
-#: notes/knote.cpp:481
+#: notes/knote.cpp:483
 #, kde-format
 msgid "Save note as plain text"
 msgstr "Запісаць заметку як просты тэкст"
 
-#: notes/knote.cpp:488
+#: notes/knote.cpp:490
 #| msgid "Save As"
 msgctxt "@title:window"
 msgid "Save As"
 msgstr "Захаваць як"
 
-#: notes/knote.cpp:608
+#: notes/knote.cpp:610
 #, kde-format
 msgid "&All Desktops"
 msgstr "&Усе працоўныя cталы"
 
-#: notes/knote.cpp:650
+#: notes/knote.cpp:652
 #, kde-format
 msgid "New"
 msgstr "Новая"
 
-#: notes/knote.cpp:654
+#: notes/knote.cpp:656
 #, kde-format
 msgid "Rename..."
 msgstr "Змяніць назву..."
 
-#: notes/knote.cpp:663
+#: notes/knote.cpp:665
 #, kde-format
 msgid "Hide"
 msgstr "Схаваць"
 
-#: notes/knote.cpp:668
+#: notes/knote.cpp:670
 #, kde-format
 msgid "Delete"
 msgstr "Выдаліць"
 
-#: notes/knote.cpp:693
+#: notes/knote.cpp:695
 #, kde-format
 msgid "Preferences..."
 msgstr "Настаўленні..."
 
-#: notes/knote.cpp:697
+#: notes/knote.cpp:699
 #, kde-format
 msgid "Keep Above Others"
 msgstr "Трымаць вышэй астатніх"
 
-#: notes/knote.cpp:701
+#: notes/knote.cpp:703
 #, kde-format
 msgid "Keep Below Others"
 msgstr "Трымаць ніжэй астатніх"
 
-#: notes/knote.cpp:706
+#: notes/knote.cpp:708
 #, kde-format
 msgid "To Desktop"
 msgstr "На працоўным cтале"
 
-#: notes/knote.cpp:718
+#: notes/knote.cpp:720
 #, kde-format
 msgid "Walk Through Notes"
 msgstr "Прагледзець заметкі"
@@ -1046,13 +1031,13 @@ msgstr "Папярэдні прагляд"
 msgid "Print"
 msgstr "Print"
 
-#: print/knoteprintselectthemedialog.cpp:21
+#: print/knoteprintselectthemedialog.cpp:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Select theme"
 msgstr ""
 
-#: print/knoteprintselectthemedialog.cpp:38
+#: print/knoteprintselectthemedialog.cpp:39
 #, kde-format
 msgid "Themes:"
 msgstr ""
