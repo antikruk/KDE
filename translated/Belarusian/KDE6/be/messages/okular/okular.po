@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-08 00:37+0000\n"
-"PO-Revision-Date: 2024-02-12 20:00\n"
+"PO-Revision-Date: 2024-02-15 13:25\n"
 "Last-Translator: Siarhei Liantsevich <serzh.by@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -1055,7 +1055,7 @@ msgid "Reason: %1"
 msgstr "Прычына: %1"
 
 #: gui/signaturemodel.cpp:168
-#| msgid "Location:"
+#, kde-format
 msgid "Location: %1"
 msgstr "Размяшчэнне: %1"
 
@@ -1472,14 +1472,13 @@ msgid "Opacity"
 msgstr "Непразрыстасць"
 
 #: part/annotationactionhandler.cpp:695
-#| msgctxt "@item:inlistbox"
-#| msgid "%1%"
+#, kde-format
 msgctxt "@item:inlistbox Annotation opacity percentage level, make sure to include %1 in your translation"
 msgid "%1%"
 msgstr "%1%"
 
 #: part/annotationmodel.cpp:326
-#| msgid "Page %1"
+#, kde-format
 msgctxt "Page label (number)"
 msgid "Page %1 (%2)"
 msgstr "Старонка %1 (%2)"
@@ -1510,7 +1509,7 @@ msgid "&Open Pop-up Note"
 msgstr "&Адкрыць выплыўную нататку"
 
 #: part/annotationpopup.cpp:90 part/annotationpopup.cpp:135
-#| msgid "Copy to Clipboard"
+#, kde-format
 msgid "Copy Text to Clipboard"
 msgstr "Скапіяваць тэкст у буфер абмену"
 
@@ -3317,7 +3316,7 @@ msgid "Find as you type"
 msgstr "Шукаць па меры ўводу"
 
 #: part/formwidgets.cpp:767
-#| msgid "All files (*)"
+#, kde-format
 msgid "All Files (*)"
 msgstr "Усе файлы (*)"
 
@@ -3661,8 +3660,7 @@ msgid "Auto Fit"
 msgstr "Аўтаматычна"
 
 #: part/pageview.cpp:4088
-#| msgctxt "@item:inlistbox"
-#| msgid "%1%"
+#, kde-format
 msgctxt "Zoom percentage value %1 will be replaced by the actual zoom factor value, so make sure you include it in your translation in order to not to break anything"
 msgid "%1%"
 msgstr "%1%"
@@ -4264,10 +4262,7 @@ msgid "Could not open %1. %2"
 msgstr "Не ўдалося адкрыць %1. %2"
 
 #: part/part.cpp:1825
-#| msgid ""
-#| "There are unsaved changes, and the file '%1' has been modified by another "
-#| "program. Your changes will be lost, because the file can no longer be "
-#| "saved.<br>Do you want to continue reloading the file?"
+#, kde-kuit-format
 msgctxt "@info"
 msgid "The file <filename>%1</filename> has unsaved changes but has been modified by another program. Reloading it will replace the unsaved changes with the changes made in the other program.<nl/><nl/>Do you want to continue reloading the file?"
 msgstr "У файле <filename>%1</filename> ёсць незахаваныя змены, але ён быў зменены іншай праграмай. Калі перазагрузіць яго, то незахаваныя змены заменяцца праўкамі, зробленымі ў іншай праграме.<nl/><nl/>Хочаце працягнуць перазагрузку файла?"
@@ -4288,10 +4283,7 @@ msgid "Abort Reloading"
 msgstr "Перарваць перазагрузку"
 
 #: part/part.cpp:1835
-#| msgid ""
-#| "There are unsaved changes, and the file '%1' has been modified by another "
-#| "program. Your changes will be lost, because the file can no longer be "
-#| "saved.<br>Do you want to continue closing the file?"
+#, kde-kuit-format
 msgctxt "@info"
 msgid "The file <filename>%1</filename> has unsaved changes but has been modified by another program. Closing it will replace the unsaved changes with the changes made in the other program.<nl/><nl/>Do you want to continue closing the file?"
 msgstr "У файле <filename>%1</filename> ёсць незахаваныя змены, але ён быў зменены іншай праграмай. Калі закрыць яго, то незахаваныя змены заменяцца праўкамі, зробленымі ў іншай праграме.<nl/><nl/>Хочаце працягнуць закрыццё файла?"
@@ -5043,13 +5035,13 @@ msgstr "Параметры фільтра"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, SelectCertificateDialog)
 #: part/selectcertificatedialog.ui:14
-#| msgid "Certificates:"
+#, kde-format
 msgid "Certificates"
 msgstr "Сертыфікаты"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: part/selectcertificatedialog.ui:20
-#| msgid "Select certificate to sign with"
+#, kde-format
 msgid "Select certificate to sign with:"
 msgstr "Абраць сертыфікат для падпісання:"
 
@@ -5064,7 +5056,7 @@ msgstr "Прычына:"
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, backgroundInput)
 #: part/selectcertificatedialog.ui:49 part/selectcertificatedialog.ui:66
 #: part/selectcertificatedialog.ui:85
-#| msgid "Options"
+#, kde-format
 msgid "optional"
 msgstr "неабавязкова"
 
@@ -5076,8 +5068,7 @@ msgstr "Размяшчэнне:"
 
 #. i18n: ectx: property (text), widget (QLabel, backgroundLabel)
 #: part/selectcertificatedialog.ui:76
-#| msgctxt "@label:chooser Config dialog, presentation page"
-#| msgid "Background color:"
+#, kde-format
 msgid "Background:"
 msgstr "Фон:"
 
@@ -5089,8 +5080,7 @@ msgstr "Абраць..."
 
 #. i18n: ectx: property (text), widget (QLabel, recentLabel)
 #: part/selectcertificatedialog.ui:107
-#| msgctxt "@label:listbox Config dialog, general page"
-#| msgid "Use custom background color:"
+#, kde-format
 msgid "Recent backgrounds:"
 msgstr "Нядаўнія фоны:"
 
@@ -5130,24 +5120,23 @@ msgid "Properties"
 msgstr "Уласцівасці"
 
 #: part/signaturepartutils.cpp:360
-#| msgid "Pages: %1"
+#, kde-format
 msgctxt "file types in a file open dialog"
 msgid "Images (%1)"
 msgstr "Выявы (%1)"
 
 #: part/signaturepartutils.cpp:361
+#, kde-format
 msgid "Select background image"
 msgstr "Абраць фонавую выяву"
 
 #: part/signaturepartutils.cpp:366
-#| msgctxt "on welcome screen (recent document list)"
-#| msgid "Forget All"
+#, kde-format
 msgid "Forget image"
 msgstr "Забыцца на выяву"
 
 #: part/signaturepartutils.cpp:367
-#| msgctxt "on welcome screen (recent document list)"
-#| msgid "Forget All"
+#, kde-format
 msgid "Forget all images"
 msgstr "Забыцца на ўсе выявы"
 
@@ -5229,7 +5218,7 @@ msgid "View Certificate..."
 msgstr "Праглядзець сертыфікат..."
 
 #: part/signaturepropertiesdialog.cpp:92
-#| msgid "View Certificate..."
+#, kde-format
 msgid "View in Certificate Manager"
 msgstr "Праглядзець у кіраўніку сертыфікатаў"
 
@@ -5347,7 +5336,7 @@ msgid "Find a string on the text"
 msgstr "Пошук радка ў тэксце"
 
 #: shell/main.cpp:76
-#| msgid "sets the external editor command"
+#, kde-format
 msgid "Sets the external editor command"
 msgstr "Вызначэнне загаду вонкавага рэдактара"
 
@@ -5392,7 +5381,7 @@ msgid "Unable to find the Okular component: %1"
 msgstr "Не ўдалося знайсці кампанент Okular: %1"
 
 #: shell/shell.cpp:253
-#| msgid "Show S&idebar"
+#, kde-format
 msgid "Sidebar"
 msgstr "Бакавая панэль"
 
@@ -5434,7 +5423,7 @@ msgid "Undo close tab"
 msgstr "Адрабіць закрыццё ўкладкі"
 
 #: shell/shell.cpp:588
-#| msgid "Show S&idebar"
+#, kde-format
 msgid "Lock Sidebar"
 msgstr "Заблакаваць бакавую панэль"
 
