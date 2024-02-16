@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-01-27 00:38+0000\n"
-"PO-Revision-Date: 2024-02-13 20:30\n"
+"PO-Revision-Date: 2024-02-16 13:20\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -32,7 +32,7 @@ msgid "To use Discover for apps, install your preferred module on the <interface
 msgstr "Каб выкарыстоўваць Discover для праграм, усталюйце патрэбны модуль на старонцы <interface>Налады</interface> у раздзеле <interface>Адсутныя рухавік і</interface>."
 
 #: discover/DiscoverObject.cpp:195
-#| msgid "Report This Issue"
+#, kde-format
 msgctxt "@action:button %1 is the distro name"
 msgid "Report This Issue to %1"
 msgstr "Паведаміць пра праблему %1"
@@ -150,7 +150,7 @@ msgid "An application explorer"
 msgstr "Агляд праграм"
 
 #: discover/main.cpp:121
-#| msgid "© 2010-2022 Plasma Development Team"
+#, kde-format
 msgid "© 2010-2024 Plasma Development Team"
 msgstr "© 2010-2024 Каманда распрацоўвання Plasma"
 
@@ -272,18 +272,17 @@ msgid "Unknown author"
 msgstr "Невядомы аўтар"
 
 #: discover/qml/ApplicationPage.qml:247
-#| msgid "Version"
+#, kde-format
 msgid "Version:"
 msgstr "Версія:"
 
 #: discover/qml/ApplicationPage.qml:259
-#| msgid "Size"
+#, kde-format
 msgid "Size:"
 msgstr "Памер:"
 
 #: discover/qml/ApplicationPage.qml:271
-#| msgid "License"
-#| msgid_plural "Licenses"
+#, kde-format
 msgid "License:"
 msgid_plural "Licenses:"
 msgstr[0] "Ліцэнзія:"
@@ -312,7 +311,7 @@ msgstr[2] "Паказаць яшчэ…"
 msgstr[3] "Паказаць яшчэ…"
 
 #: discover/qml/ApplicationPage.qml:333
-#| msgid "Content Rating"
+#, kde-format
 msgid "Content Rating:"
 msgstr "Рэйтынг змесціва:"
 
@@ -402,8 +401,7 @@ msgid "Reviews for %1 are temporarily unavailable"
 msgstr "Водгукі для %1 часова недаступныя"
 
 #: discover/qml/ApplicationPage.qml:721
-#| msgid "Show all %1 Reviews"
-#| msgid_plural "Show all %1 Reviews"
+#, kde-format
 msgctxt "@action:button"
 msgid "Show All Reviews"
 msgstr "Паказаць усе водгукі"
@@ -481,8 +479,7 @@ msgid "This application's source code is partially or entirely closed to public 
 msgstr "Зыходны код гэтай праграмы часткова або цалкам закрыты для правярання і паляпшэння. Гэта азначае, што трэція асобы не могуць правяраць функцыянал, бяспеку і надзейнасць, а таксама змяняць і распаўсюджваць яго без відавочнага дазволу аўтараў.<nl/><nl/>Праграма можа быць цалкам бяспечнай у выкарыстанні або можа дзейнічаць супраць вас рознымі спосабамі: збіраць вашыя асабістыя звесткі, адсочваць вашае месцазнаходжанне або перадаваць змесціва вашых файлаў іншым асобам. Няма простага спосабу праверыць гэта, таму вам варта ўсталёўваць гэтую праграму, толькі калі вы цалкам давяраеце яе аўтарам (%1).<nl/><nl/>Падрабязней можна даведацца на <link url='%2'>%2</link>."
 
 #: discover/qml/ApplicationsListPage.qml:53
-#| msgid "Search: %2 - %1 item"
-#| msgid_plural "Search: %2 - %1 items"
+#, kde-format
 msgid "Search: %2 - %3 item"
 msgid_plural "Search: %2 - %3 items"
 msgstr[0] "Пошук: %2 - %3 элемент"
@@ -586,11 +583,7 @@ msgid "\"%1\" was not found in the available sources"
 msgstr "Не ўдалося знайсці \"%1\" у даступных крыніцах"
 
 #: discover/qml/ApplicationsListPage.qml:236
-#| msgctxt "@info:placeholder%1 is the name of an application"
-#| msgid ""
-#| "\"%1\" may be available on the web. Software acquired from the web has "
-#| "not been reviewed by your distributor for functionality or stability. Use "
-#| "with caution."
+#, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid "\"%1\" may be available on the web. Software acquired from the web has not been reviewed by your distributor for functionality or stability. Use with caution."
 msgstr "Можна паспрабаваць знайсці \"%1\" у інтэрнэце. Праграмнае забеспячэнне з інтэрнэту не правяралася вашым дыстрыбутывам на функцыянальнасць або стабільнасць. Выкарыстоўвайце з асцярожнасцю."
@@ -601,7 +594,7 @@ msgid "Still looking…"
 msgstr "Пошук працягваецца…"
 
 #: discover/qml/BrowsingPage.qml:20
-#| msgid "&Home"
+#, kde-format
 msgctxt "@title:window the name of a top-level 'home' page"
 msgid "Home"
 msgstr "Каталог праграмы"
@@ -715,8 +708,7 @@ msgid "Fetching &updates…"
 msgstr "Атрыманне &абнаўленняў…"
 
 #: discover/qml/DiscoverWindow.qml:87
-#| msgctxt "Update section name"
-#| msgid "&Update (%1)"
+#, kde-format
 msgid "&Update (%1)"
 msgid_plural "&Updates (%1)"
 msgstr[0] "&Абнаўленне (%1)"
@@ -834,13 +826,13 @@ msgid "Loading…"
 msgstr "Загрузка…"
 
 #: discover/qml/InstallApplicationButton.qml:28
-#| msgid "Install"
+#, kde-format
 msgctxt "@action:button %1 is the name of a software repository"
 msgid "Install from %1"
 msgstr "Усталяваць з %1"
 
 #: discover/qml/InstallApplicationButton.qml:30
-#| msgid "Install"
+#, kde-format
 msgctxt "@action:button"
 msgid "Install"
 msgstr "Усталяваць"
@@ -1019,14 +1011,13 @@ msgid "Most Recent"
 msgstr "Самыя апошнія"
 
 #: discover/qml/ReviewsPage.qml:117
-#| msgctxt "@title:group"
-#| msgid "Highest-Rated Games"
+#, kde-format
 msgctxt "@label:listbox Reviews with the highest ratings"
 msgid "Highest Ratings"
 msgstr "З найбольшым рэйтынгам"
 
 #: discover/qml/ReviewsStats.qml:53
-#| msgid "Reviews"
+#, kde-format
 msgctxt "how many reviews"
 msgid "%1 reviews"
 msgstr "%1 водгукаў"
@@ -1038,7 +1029,7 @@ msgid "M"
 msgstr "М"
 
 #: discover/qml/ReviewsStats.qml:154
-#| msgid "unknown reviewer"
+#, kde-format
 msgid "Unknown reviewer"
 msgstr "Невядомы рэцэнзент"
 
@@ -1162,19 +1153,19 @@ msgid "Error message copied. Remember to report it to %1, not KDE!"
 msgstr "Паведамленне памылкі скапіявана. Не забудзьцеся паведаміць пра гэта %1, а не KDE!"
 
 #: discover/qml/UpdatesPage.qml:114
-#| msgid "Report This Issue"
+#, kde-format
 msgctxt "@action:button %1 is the name of the user's distro/OS"
 msgid "Report Issue to %1"
 msgstr "Паведаміць пра праблему %1"
 
 #: discover/qml/UpdatesPage.qml:140
-#| msgid "Update Selected"
+#, kde-format
 msgctxt "@action:button as in, 'update the selected items' "
 msgid "Update Selected"
 msgstr "Абнавіць абранае"
 
 #: discover/qml/UpdatesPage.qml:140
-#| msgid "Update All"
+#, kde-format
 msgctxt "@action:button as in, 'update all items'"
 msgid "Update All"
 msgstr "Абнавіць усё"
