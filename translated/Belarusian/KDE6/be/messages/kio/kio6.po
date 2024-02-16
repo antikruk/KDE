@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-13 00:35+0000\n"
-"PO-Revision-Date: 2024-02-13 08:34\n"
+"PO-Revision-Date: 2024-02-16 01:20\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -2003,7 +2003,7 @@ msgstr "Не ўдалося стварыць сокет для запуску KI
 #: core/worker.cpp:393
 #| msgid "Can not find 'kioslave5' executable at '%1'"
 msgid "Can not find 'kioworker' executable at '%1'"
-msgstr ""
+msgstr "Не ўдалося знайсці выканальны файл \"kioworker\" у \"%1\""
 
 #: core/workerinterface.cpp:361 widgets/sslui.cpp:61
 #: widgets/widgetsaskuseractionhandler.cpp:492
@@ -2030,7 +2030,7 @@ msgstr "Т&олькі бягучы сеанс"
 #, kde-format
 msgctxt "Loading bar percent value"
 msgid "%p%"
-msgstr ""
+msgstr "%p%"
 
 #: filewidgets/kdiroperator.cpp:712 filewidgets/kdiroperator.cpp:744
 #, kde-format
@@ -2617,7 +2617,7 @@ msgstr ", "
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reformat or Edit with Partition Manager"
-msgstr ""
+msgstr "Перафарматаваць або рэдагаваць з дапамогай Partition Manager"
 
 #: filewidgets/kfileplacesview.cpp:592
 #, kde-format
@@ -2664,7 +2664,7 @@ msgstr "&Рэдагаванне…"
 #| msgid "Remove File"
 msgctxt "@action:inmenu"
 msgid "Remove from Places"
-msgstr ""
+msgstr "Выдаліць з размяшчэнняў"
 
 #: filewidgets/kfileplacesview.cpp:1179
 #, kde-format
@@ -2899,7 +2899,7 @@ msgstr "Адлеглыя файлы не дапускаюцца"
 #: filewidgets/kfilewidget.cpp:1881
 #| msgid "*|All Folders"
 msgid "All Folders"
-msgstr ""
+msgstr "Усе каталогі"
 
 #: filewidgets/kfilewidget.cpp:2033 widgets/executablefileopendialog.cpp:44
 #: widgets/kfileitemactions.cpp:725
@@ -3428,7 +3428,7 @@ msgstr "Не ўдалося змяніць правы доступу для\n"
 msgctxt "@info"
 msgid "Could not change owner and group for\n"
 "%1"
-msgstr ""
+msgstr "Не ўдалося змяніць уласніка і групу для %1"
 
 #: kioworkers/file/file.cpp:853
 #, kde-format
@@ -4426,7 +4426,7 @@ msgstr "Абнаўленне канфігурацыі сістэмы"
 #: widgets/kbuildsycocaprogressdialog.cpp:32
 #| msgid "Updating system configuration."
 msgid "Updating system configuration…"
-msgstr ""
+msgstr "Абнаўленне канфігурацыі сістэмы…"
 
 #: widgets/kdirmodel.cpp:1223
 #, kde-format
@@ -4931,7 +4931,7 @@ msgstr "Зменныя асяроддзя:"
 #: widgets/kpropertiesdesktopbase.ui:95 widgets/kpropertiesdesktopbase.ui:110
 #| msgid "Enter the user name you want to run the application as here."
 msgid "Type the command to start this application here."
-msgstr ""
+msgstr "Увядзіце загад для запуску гэтай праграмы тут."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #: widgets/kpropertiesdesktopbase.ui:98
@@ -4976,13 +4976,21 @@ msgid "Type the arguments to use when starting this application here.\n\n"
 "%i - the icon of the .desktop file\n"
 "%c - the name of the .desktop file\n"
 "%k - the location of the .desktop file"
-msgstr ""
+msgstr "Увядзіце тут аргументы для выкарыстання пры запуску гэтай праграмы.\n\n"
+"Вы можаце мець некалькі запаўняльнікаў, якія заменяцца фактычнымі значэннямі пры запуску рэальнай праграмы:\n\n"
+" %f - адна назва файла\n"
+" %F - спіс файлаў (для праграм, якія могуць адкрываць некалькі файлаў адначасова)\n"
+" %u - адзін URL\n"
+" %U - спіс URL-адрасоў\n"
+" %i - значок файла .desktop\n"
+" %c - назва файла .desktop\n"
+" %k - размяшчэнне файла .desktop"
 
 #. i18n: ectx: property (text), widget (QLabel, argumentsLabel)
 #: widgets/kpropertiesdesktopbase.ui:142
 #| msgid "Arguments:"
 msgid "&Arguments:"
-msgstr ""
+msgstr "&Аргументы:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel5)
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, pathEdit)
@@ -5854,12 +5862,12 @@ msgstr "П&рацягнуць"
 #: widgets/renamedialog.cpp:362
 #| msgid "This action will overwrite the destination."
 msgid "Would you like to overwrite the destination?"
-msgstr ""
+msgstr "Хочаце перазапісаць мэтавы элемент?"
 
 #: widgets/renamedialog.cpp:364
 #| msgid "This action will overwrite the destination."
 msgid "Would you like to merge the contents of '%1' into '%2'?"
-msgstr ""
+msgstr "Хочаце аб'яднаць змесціва \"%1\" у \"%2\"?"
 
 #: widgets/renamedialog.cpp:372
 #, kde-format
@@ -5874,37 +5882,37 @@ msgstr "Мэтавы элемент"
 #: widgets/renamedialog.cpp:405
 #| msgid "The destination is <b>smaller by %1</b>"
 msgid "The source is <b>more recent</b>."
-msgstr ""
+msgstr "Крыніца <b>навейшая</b>."
 
 #: widgets/renamedialog.cpp:407
 #| msgid "The destination is <b>smaller by %1</b>"
 msgid "The source is <b>older</b>."
-msgstr ""
+msgstr "Крыніца <b>старэйшая</b>."
 
 #: widgets/renamedialog.cpp:416
 #| msgid "The destination is <b>smaller by %1</b>"
 msgid "The source is <b>smaller by %1</b>."
-msgstr ""
+msgstr "Крыніца <b>меншая на %1</b>."
 
 #: widgets/renamedialog.cpp:419
 #| msgid "The destination is <b>bigger by %1</b>"
 msgid "The source is <b>bigger by %1</b>."
-msgstr ""
+msgstr "Крыніца <b>большая на %1</b>."
 
 #: widgets/renamedialog.cpp:432
 #| msgid "The files are identical."
 msgid "The files are <b>identical</b>."
-msgstr ""
+msgstr "Файлы <b>аднолькавыя</b>."
 
 #: widgets/renamedialog.cpp:435
 #| msgid "The files seem identical."
 msgid "The files <b>seem identical</b>."
-msgstr ""
+msgstr "Файлы <b>выглядаюць аднолькавымі</b>."
 
 #: widgets/renamedialog.cpp:438
 #| msgid "The files are different."
 msgid "The files are <b>different</b>."
-msgstr ""
+msgstr "Файлы <b>адрозніваюцца</b>."
 
 #: widgets/renamedialog.cpp:446
 #, kde-format
