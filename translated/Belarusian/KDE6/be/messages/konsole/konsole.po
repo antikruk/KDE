@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-01-24 00:39+0000\n"
-"PO-Revision-Date: 2024-02-15 13:23\n"
+"PO-Revision-Date: 2024-02-22 13:34\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -1363,7 +1363,7 @@ msgid "No quick commands found. You can add one on Plugins -> Quick Commands"
 msgstr "Хуткія загады не знойдзены. Вы можаце дадаць іх у \"Убудовы -> Хуткія загады\""
 
 #: plugins/QuickCommands/quickcommandsplugin.cpp:107
-#| msgid "Quick Commands"
+#, kde-format
 msgid "Plugins - Quick Commands"
 msgstr "Убудовы - Хуткія загады"
 
@@ -1494,7 +1494,7 @@ msgid "No saved SSH config found. You can add one on Plugins -> SSH Manager"
 msgstr "Захаваная канфігурацыя SSH не знойдзена. Вы можаце дадаць яе ў \"Убудовы -> Кіраўнік SSH\""
 
 #: plugins/SSHManager/sshmanagerplugin.cpp:147
-#| msgid "Hide Menu Bar"
+#, kde-format
 msgid "Plugins - SSH Manager"
 msgstr "Убудовы - Кіраўнік SSH"
 
@@ -1811,7 +1811,7 @@ msgid "Default profile"
 msgstr "Прадвызначаны профіль"
 
 #: profile/ProfileManager.cpp:256
-#| msgid "Edit Profile \"%1\""
+#, kde-format
 msgctxt "New profile name, %1 is a number"
 msgid "Profile %1"
 msgstr "Профіль %1"
@@ -2074,14 +2074,12 @@ msgid "Copy"
 msgstr "Капіяваць"
 
 #: session/SessionController.cpp:667
-#| msgctxt "@action:inmenu"
-#| msgid "Split View Left/Right"
+#, kde-format
 msgid "Split View Left-Right"
 msgstr "Падзяліць па вертыкалі"
 
 #: session/SessionController.cpp:672
-#| msgctxt "@action:inmenu"
-#| msgid "Split View Top/Bottom"
+#, kde-format
 msgid "Split View Top-Bottom"
 msgstr "Падзяліць па гарызанталі"
 
@@ -2161,16 +2159,13 @@ msgid "Set &Encoding"
 msgstr "Вызначыць &кадаванне"
 
 #: session/SessionController.cpp:802
-#| msgctxt ""
-#| "@item:inmenu Allows terminal applications to request mouse tracking"
-#| msgid "Allow mouse tracking"
+#, kde-format
 msgctxt "@item:inmenu Allows terminal applications to request mouse tracking"
 msgid "Allow Mouse Tracking"
 msgstr "Дазволіць пракручванне мышшу"
 
 #: session/SessionController.cpp:811
-#| msgctxt "@item:inmenu A read only (locked) session"
-#| msgid "Read-only"
+#, kde-format
 msgctxt "@item:inmenu A read only (locked) session"
 msgid "Read-Only"
 msgstr "Толькі чытанне"
@@ -2212,7 +2207,7 @@ msgid "One-Shot Monitors"
 msgstr "Аднаразовыя сачэнні"
 
 #: session/SessionController.cpp:867
-#| msgid "Monitor for &Activity"
+#, kde-format
 msgid "Monitor for &Prompt"
 msgstr "Адсочваць &падказкі"
 
@@ -2696,7 +2691,7 @@ msgstr "Выкарыстоўваць для файлаў журнала выва
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableMemoryMonitoring)
 #: settings/MemorySettings.ui:17
-#| msgid "Tab Monitoring"
+#, kde-format
 msgid "Enable memory monitoring:"
 msgstr "Уключыць сачэнне за памяццю:"
 
@@ -3319,15 +3314,13 @@ msgid "Toggle maximize current view"
 msgstr "Разгарнуць бягучыя аддзеленыя тэрміналы"
 
 #: ViewManager.cpp:304
-#| msgctxt "@action Shortcut entry"
-#| msgid "Toggle maximize current view"
+#, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Toggle zoom-maximize current view"
 msgstr "Пераключыць максімальнае маштабаванне"
 
 #: ViewManager.cpp:305
-#| msgctxt "@action:inmenu"
-#| msgid "Toggle maximize current view"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle zoom-maximize current view"
 msgstr "Пераключыць максімальнае маштабаванне"
@@ -3767,15 +3760,14 @@ msgstr "Магутнасць зацямнення:"
 
 #. i18n: ectx: property (text), widget (QLabel, borderLabel)
 #: widgets/EditProfileAppearancePage.ui:533
-#| msgctxt "Cursor color options"
-#| msgid "Color:"
+#, kde-format
 msgctxt "Border color options"
 msgid "Color:"
 msgstr "Колер:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, focusBorderColor)
 #: widgets/EditProfileAppearancePage.ui:549
-#| msgid "Select the color used to draw the cursor"
+#, kde-format
 msgid "Select the color used to draw the border"
 msgstr "Абраць колер, які будзе выкарыстоўвацца для рамкі"
 
@@ -3787,7 +3779,7 @@ msgstr "Неактыўныя тэрміналы:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: widgets/EditProfileAppearancePage.ui:581
-#| msgid "Inactive Terminals:"
+#, kde-format
 msgid "Active Terminals:"
 msgstr "Актыўныя тэрміналы:"
 
@@ -3845,7 +3837,7 @@ msgstr "Зацямненне"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, borderWhenActiveCheckbox)
 #: widgets/EditProfileAppearancePage.ui:743
-#| msgid "Indicate whether the window is active by dimming the colors"
+#, kde-format
 msgid "Indicate whether the window is active by drawing a border"
 msgstr "Пазначаць актыўнае акно рамкай"
 
@@ -3953,8 +3945,7 @@ msgstr "Сімвалы табліцы перавызначаюць рэжым Bi
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ignoreWcWidth)
 #: widgets/EditProfileAppearancePage.ui:998
-#| msgctxt "@action:button"
-#| msgid "Paste &without control characters"
+#, kde-format
 msgid "Ignore wcwidth of problematic characters"
 msgstr "Не зважаць на wcwidth праблемных сімвалаў"
 
