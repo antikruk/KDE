@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-22 00:38+0000\n"
-"PO-Revision-Date: 2024-02-23 01:30\n"
+"POT-Creation-Date: 2024-02-27 00:38+0000\n"
+"PO-Revision-Date: 2024-02-27 07:45\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -1154,30 +1154,25 @@ msgid "<para>\"%1\" of <application>%2</application> is not responding. Do you w
 msgstr "<para>\"%1\" of <application>%2</application> не адказвае. Хочаце знішчыць працэс гэтай праграмы?</para>"
 
 #: helpers/killer/killer.cpp:154
-#| msgctxt "@info"
-#| msgid ""
-#| "<para>Do you want to terminate this application?</"
-#| "para><para><warning>Terminating the application will close all of its "
-#| "child windows. Any unsaved data will be lost.</warning></para>"
+#, kde-kuit-format
 msgctxt "@info"
 msgid "<para><emphasis strong='true'>Terminating this application will close all of its windows. Any unsaved data will be lost.</emphasis></para>"
 msgstr "<para><emphasis strong='true'>Калі знішчыць працэс гэтай праграмы, то ўсе яе вокны закрыюцца. Усе незахаваныя змены страцяцца.</emphasis></para>"
 
 #: helpers/killer/killer.cpp:156
-#| msgid "Terminate"
+#, kde-format
 msgctxt "@action:button Terminate app"
 msgid "&Terminate %1"
 msgstr "&Знішчыць %1"
 
 #: helpers/killer/killer.cpp:157
-#| msgid "Wait Longer"
+#, kde-format
 msgctxt "@action:button Wait for frozen app to maybe respond again"
 msgid "&Wait Longer"
 msgstr "&Пачакаць яшчэ"
 
 #: helpers/killer/killer.cpp:165
-#| msgctxt "Application is not responding, appended to window title"
-#| msgid "(Not Responding)"
+#, kde-format
 msgctxt "@title:window"
 msgid "Not Responding"
 msgstr "Не адказвае"
@@ -1189,7 +1184,7 @@ msgid "Process ID: %1"
 msgstr "Ідэнтыфікатар працэсу: %1"
 
 #: helpers/killer/killer.cpp:183
-#| msgid "hostname"
+#, kde-format
 msgctxt "@info"
 msgid "Host name: %1"
 msgstr "Назва хоста: %1"
@@ -1292,8 +1287,7 @@ msgid "Vlad Zahorodnii"
 msgstr "Vlad Zahorodnii"
 
 #: main.cpp:194
-#| msgctxt "@item:inlistbox Button size:"
-#| msgid "Very Huge"
+#, kde-format
 msgid "Xaver Hugl"
 msgstr "Xaver Hugl"
 
@@ -1455,8 +1449,7 @@ msgstr "Магутнасць размыцця:"
 #. i18n: ectx: property (text), widget (QLabel, labelConstantBlurLight)
 #. i18n: ectx: property (text), widget (QLabel, labelConstantNoiseLight)
 #: plugins/blur/blur_config.ui:42 plugins/blur/blur_config.ui:108
-#| msgctxt "A mouse button"
-#| msgid "Right"
+#, kde-format
 msgid "Light"
 msgstr "Светлы"
 
@@ -1524,9 +1517,7 @@ msgid "Intensity:"
 msgstr "Насычанасць:"
 
 #: plugins/colorpicker/colorpicker.cpp:104
-#| msgid ""
-#| "Select window to force close with left click or enter.\n"
-#| "Escape or right click to cancel."
+#, kde-format
 msgid "Select a position for color picking with left click or enter.\n"
 "Escape or right click to cancel."
 msgstr "Абярыце пазіцыю для выбару колеру з дапамогай левай кнопкі мышы або клавіша ўводу.\n"
@@ -1552,32 +1543,32 @@ msgstr "Док-панэлі і панэлі"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimDesktop)
 #: plugins/diminactive/diminactive_config.ui:54
-#| msgid "&Desktops"
+#, kde-format
 msgid "Desktop"
 msgstr "Працоўны стол"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimKeepAbove)
 #: plugins/diminactive/diminactive_config.ui:61
-#| msgid "Keep above"
+#, kde-format
 msgid "Keep above windows"
 msgstr "Размяшчаць вышэй акон"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimByGroup)
 #: plugins/diminactive/diminactive_config.ui:68
-#| msgid "Window role"
+#, kde-format
 msgid "By window group"
 msgstr "Па групах акон"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimFullScreen)
 #: plugins/diminactive/diminactive_config.ui:75
-#| msgid "Fullscreen"
+#, kde-format
 msgid "Fullscreen windows"
 msgstr "Вокны на ўвесь экран"
 
 #. i18n: ectx: property (text), widget (QLabel, label_Duration)
 #: plugins/glide/glide_config.ui:19
 #: plugins/scale/package/contents/ui/config.ui:17
-#| msgid "caption"
+#, kde-format
 msgid "Duration:"
 msgstr "Працягласць:"
 
@@ -1598,14 +1589,14 @@ msgstr " мілісекунд"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_InAnimation)
 #: plugins/glide/glide_config.ui:50
-#| msgid "Window position"
+#, kde-format
 msgid "Window Open Animation"
 msgstr "Анімацыя адкрыцця акон"
 
 #. i18n: ectx: property (text), widget (QLabel, label_InRotationEdge)
 #. i18n: ectx: property (text), widget (QLabel, label_OutRotationEdge)
 #: plugins/glide/glide_config.ui:56 plugins/glide/glide_config.ui:154
-#| msgid "Rotation"
+#, kde-format
 msgid "Rotation edge:"
 msgstr "Край паварочвання:"
 
@@ -1621,8 +1612,7 @@ msgstr "Верх"
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignRight)
 #: plugins/glide/glide_config.ui:75 plugins/glide/glide_config.ui:173
 #: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:43
-#| msgctxt "A mouse button"
-#| msgid "Right"
+#, kde-format
 msgid "Right"
 msgstr "Справа"
 
@@ -1638,15 +1628,14 @@ msgstr "Дол"
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignLeft)
 #: plugins/glide/glide_config.ui:85 plugins/glide/glide_config.ui:183
 #: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:29
-#| msgctxt "A mouse button"
-#| msgid "Left"
+#, kde-format
 msgid "Left"
 msgstr "Злева"
 
 #. i18n: ectx: property (text), widget (QLabel, label_InRotationAngle)
 #. i18n: ectx: property (text), widget (QLabel, label_OutRotationAngle)
 #: plugins/glide/glide_config.ui:93 plugins/glide/glide_config.ui:191
-#| msgid "Rotation"
+#, kde-format
 msgid "Rotation angle:"
 msgstr "Вугал паварочвання:"
 
@@ -1659,17 +1648,17 @@ msgstr "Адлегласць:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_OutAnimation)
 #: plugins/glide/glide_config.ui:148
-#| msgid "Window position"
+#, kde-format
 msgid "Window Close Animation"
 msgstr "Анімацыя закрыцця акон"
 
 #: plugins/invert/invert.cpp:43 plugins/invert/invert_config.cpp:38
-#| msgid "Toggle Invert effect"
+#, kde-format
 msgid "Toggle Invert Effect"
 msgstr "Пераключэнне эфекту інвертавання"
 
 #: plugins/invert/invert.cpp:50 plugins/invert/invert_config.cpp:44
-#| msgid "Toggle Invert effect"
+#, kde-format
 msgid "Toggle Invert Effect on Window"
 msgstr "Пераключэнне эфекту інвертавання акон"
 
@@ -1715,19 +1704,19 @@ msgid "Very Huge"
 msgstr "Надта вялізныя"
 
 #: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:54
-#| msgid "&Resize"
+#, kde-format
 msgctxt "@item:inlistbox Button size:"
 msgid "Oversized"
 msgstr "Празмерныя"
 
 #: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:57
-#| msgid "Buttons"
+#, kde-format
 msgid "Button size:"
 msgstr "Памеры кнопак:"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PlastikConfigDialog)
 #: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:14
-#| msgid "Dialog"
+#, kde-format
 msgid "Config Dialog"
 msgstr "Дыялогавае акно наладжвання"
 
@@ -1751,7 +1740,7 @@ msgstr "Адзначце гэты параметр, калі рамка акна
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_coloredBorder)
 #: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:56
-#| msgid "Toggle Window Border"
+#, kde-format
 msgid "Colored window border"
 msgstr "Каляровыя рамкі акон"
 
@@ -1939,34 +1928,30 @@ msgstr " пікс"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/magnifier/magnifier_config.ui:55
-#| msgctxt "A mouse button"
-#| msgid "Right"
+#, kde-format
 msgid "&Height:"
 msgstr "&Вышыня:"
 
 #: plugins/mouseclick/mouseclick.cpp:38
 #: plugins/mouseclick/mouseclick_config.cpp:43
-#| msgid "Toggle Invert effect"
+#, kde-format
 msgid "Toggle Mouse Click Effect"
 msgstr "Пераключэнне эфекту пстрыкання мышшу"
 
 #: plugins/mouseclick/mouseclick.cpp:45
-#| msgctxt "A mouse button"
-#| msgid "Left"
+#, kde-format
 msgctxt "Left mouse button"
 msgid "Left"
 msgstr "Злева"
 
 #: plugins/mouseclick/mouseclick.cpp:46
-#| msgctxt "A mouse button"
-#| msgid "Middle"
+#, kde-format
 msgctxt "Middle mouse button"
 msgid "Middle"
 msgstr "Сярэдняя"
 
 #: plugins/mouseclick/mouseclick.cpp:47
-#| msgctxt "A mouse button"
-#| msgid "Right"
+#, kde-format
 msgctxt "Right mouse button"
 msgid "Right"
 msgstr "Справа"
@@ -1979,25 +1964,25 @@ msgstr "Базавыя налады"
 
 #. i18n: ectx: property (text), widget (QLabel, button1_label)
 #: plugins/mouseclick/mouseclick_config.ui:37
-#| msgid "No Mouse Buttons"
+#, kde-format
 msgid "Left Mouse Button Color:"
 msgstr "Колер левай кнопкі мышы:"
 
 #. i18n: ectx: property (text), widget (QLabel, button2_label)
 #: plugins/mouseclick/mouseclick_config.ui:50
-#| msgid "No Mouse Buttons"
+#, kde-format
 msgid "Middle Mouse Button Color:"
 msgstr "Колер сярэдняй кнопкі мышы:"
 
 #. i18n: ectx: property (text), widget (QLabel, button3_label)
 #: plugins/mouseclick/mouseclick_config.ui:70
-#| msgid "No Mouse Buttons"
+#, kde-format
 msgid "Right Mouse Button Color:"
 msgstr "Колер правай кнопкі мышы:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, advanced_tab)
 #: plugins/mouseclick/mouseclick_config.ui:91
-#| msgid "Ad&vanced"
+#, kde-format
 msgid "Advanced Settings"
 msgstr "Дадатковыя налады"
 
@@ -2041,8 +2026,7 @@ msgstr "Радыус кола:"
 
 #. i18n: ectx: property (text), widget (QLabel, ring_count_label)
 #: plugins/mouseclick/mouseclick_config.ui:184
-#| msgctxt "Number of fingers in this pinch gesture"
-#| msgid "Finger count"
+#, kde-format
 msgid "Ring Count:"
 msgstr "Колькасць колаў:"
 
@@ -2060,22 +2044,22 @@ msgstr "Шрыфт:"
 
 #. i18n: ectx: property (text), widget (QLabel, showtext_label)
 #: plugins/mouseclick/mouseclick_config.ui:233
-#| msgid "Show Desktop Grid"
+#, kde-format
 msgid "Show Text:"
 msgstr "Паказваць тэкст:"
 
 #: plugins/mousemark/mousemark.cpp:43
-#| msgid "ClearMouseMarks"
+#, kde-format
 msgid "Clear All Mouse Marks"
 msgstr "Выдаліць усе сляды мышы"
 
 #: plugins/mousemark/mousemark.cpp:49 plugins/mousemark/mousemark_config.cpp:52
-#| msgid "ClearMouseMarks"
+#, kde-format
 msgid "Clear Last Mouse Mark"
 msgstr "Выдаліць апошні след мышы"
 
 #: plugins/mousemark/mousemark_config.cpp:46
-#| msgid "ClearMouseMarks"
+#, kde-format
 msgid "Clear Mouse Marks"
 msgstr "Выдаліць сляды мышы"
 
@@ -2110,13 +2094,13 @@ msgstr "&Колер:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
 #: plugins/mousemark/mousemark_config.ui:82
-#| msgid "Draw with the mouse by holding Shift+Meta keys and moving the mouse."
+#, kde-format
 msgid "Draw with the mouse by holding modifier keys and moving the mouse"
 msgstr "Маляванне мышшу, утрымліваючы клавішы-мадыфікатары і рухаючы мышшу"
 
 #. i18n: ectx: property (text), widget (QLabel, label_FreedrawModifierKeys)
 #: plugins/mousemark/mousemark_config.ui:103
-#| msgid "Modifiers"
+#, kde-format
 msgid "Free draw modifier keys:"
 msgstr "Адвольныя клавішы-мадыфікатары для малявання:"
 
@@ -2126,8 +2110,7 @@ msgstr "Адвольныя клавішы-мадыфікатары для мал
 #: plugins/mousemark/mousemark_config.ui:125
 #: plugins/mousemark/mousemark_config.ui:179
 #: plugins/trackmouse/trackmouse_config.ui:65
-#| msgctxt "A keyboard modifier"
-#| msgid "Alt"
+#, kde-format
 msgid "Alt"
 msgstr "Alt"
 
@@ -2147,8 +2130,7 @@ msgstr "Ctrl"
 #: plugins/mousemark/mousemark_config.ui:139
 #: plugins/mousemark/mousemark_config.ui:193
 #: plugins/trackmouse/trackmouse_config.ui:79
-#| msgctxt "A keyboard modifier"
-#| msgid "Shift"
+#, kde-format
 msgid "Shift"
 msgstr "Shift"
 
@@ -2158,33 +2140,30 @@ msgstr "Shift"
 #: plugins/mousemark/mousemark_config.ui:146
 #: plugins/mousemark/mousemark_config.ui:200
 #: plugins/trackmouse/trackmouse_config.ui:86
-#| msgctxt "A keyboard modifier"
-#| msgid "Meta"
+#, kde-format
 msgid "Meta"
 msgstr "Meta"
 
 #. i18n: ectx: property (text), widget (QLabel, label_ArrowdrawModifierKeys)
 #: plugins/mousemark/mousemark_config.ui:157
-#| msgid "Modifiers"
+#, kde-format
 msgid "Arrow draw modifier keys:"
 msgstr "Стрэлкі як клавішы-мадыфікатары для малявання:"
 
 #: plugins/nightcolor/nightcolormanager.cpp:67
-#| msgctxt "Night Color was disabled"
-#| msgid "Night Color Off"
+#, kde-format
 msgctxt "Night Light was disabled"
 msgid "Night Light Off"
 msgstr "Начны рэжым адключаны"
 
 #: plugins/nightcolor/nightcolormanager.cpp:68
-#| msgctxt "Night Color was enabled"
-#| msgid "Night Color On"
+#, kde-format
 msgctxt "Night Light was enabled"
 msgid "Night Light On"
 msgstr "Начны рэжым уключаны"
 
 #: plugins/nightcolor/nightcolormanager.cpp:89
-#| msgid "Toggle Night Color"
+#, kde-format
 msgid "Toggle Night Light"
 msgstr "Пераключэнне начнога рэжыму"
 
@@ -2194,8 +2173,7 @@ msgid "Color Temperature Preview"
 msgstr "Папярэдні прагляд колеравай тэмпературы"
 
 #: plugins/outputlocator/outputlocator.cpp:50
-#| msgctxt "The input device of the event is not known"
-#| msgid "Unknown"
+#, kde-format
 msgctxt "@label"
 msgid "Unknown"
 msgstr "Невядома"
@@ -2207,27 +2185,27 @@ msgid "Cycle through Overview and Grid View"
 msgstr "Пераключэнне паміж аглядам і рэжымам сеткі"
 
 #: plugins/overview/kcm/overvieweffectkcm.cpp:46
-#: plugins/overview/overvieweffect.cpp:132
+#: plugins/overview/overvieweffect.cpp:133
 #, kde-format
 msgctxt "@action Grid View and Overview are the name of KWin effects"
 msgid "Cycle through Grid View and Overview"
 msgstr "Пераключэнне паміж рэжымам сеткі і аглядам"
 
 #: plugins/overview/kcm/overvieweffectkcm.cpp:53
-#| msgid "Toggle Invert effect"
+#, kde-format
 msgctxt "@action Overview is the name of a KWin effect"
 msgid "Toggle Overview"
 msgstr "Пераключэнне агляду"
 
 #: plugins/overview/kcm/overvieweffectkcm.cpp:60
-#| msgid "Toggle Invert effect"
+#, kde-format
 msgctxt "@action Grid View is the name of a KWin effect"
 msgid "Toggle Grid View"
 msgstr "Пераключэнне рэжыму ў выглядзе сеткі"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/overview/kcm/overvieweffectkcm.ui:22
-#| msgid "Resize Window"
+#, kde-format
 msgid "Ignore minimized windows:"
 msgstr "Ігнараванне згорнутых акон:"
 
@@ -2243,56 +2221,54 @@ msgstr "Парадкаванне акон у выглядзе сеткі:"
 msgid "Search results include filtered windows:"
 msgstr "Вынікі пошуку з адфільтраванымі вокнамі:"
 
-#: plugins/overview/overvieweffect.cpp:124
+#: plugins/overview/overvieweffect.cpp:125
 #, kde-format
 msgctxt "@action Grid View and Overview are the name of KWin effects"
 msgid "Cycle through Overview and Grid View"
 msgstr "Пераключэнне паміж аглядам і рэжымам сеткі"
 
-#: plugins/overview/overvieweffect.cpp:140
-#| msgid "Toggle Invert effect"
+#: plugins/overview/overvieweffect.cpp:141
+#, kde-format
 msgctxt "@action Overview is the name of a Kwin effect"
 msgid "Toggle Overview"
 msgstr "Пераключэнне агляду"
 
-#: plugins/overview/overvieweffect.cpp:148
-#| msgid "Toggle Invert effect"
+#: plugins/overview/overvieweffect.cpp:149
+#, kde-format
 msgctxt "@action Grid view is the name of a Kwin effect"
 msgid "Toggle Grid View"
 msgstr "Пераключэнне рэжыму ў выглядзе сеткі"
 
 #: plugins/overview/qml/DesktopBar.qml:172
-#| msgid "Peek at Desktop"
+#, kde-format
 msgid "Delete Virtual Desktop"
 msgstr "Выдаліць віртуальны працоўны стол"
 
 #: plugins/overview/qml/DesktopBar.qml:269
-#| msgctxt "Create a new desktop and add the window to that desktop"
-#| msgid "Add to &New Desktop"
+#, kde-format
 msgid "Add Virtual Desktop"
 msgstr "Дадаць віртуальны працоўны стол"
 
 #: plugins/overview/qml/main.qml:381
-#| msgid "Peek at Desktop"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No other Virtual Desktops to show"
 msgstr "Няма іншых віртуальных працоўных сталоў"
 
 #: plugins/overview/qml/main.qml:387
-#| msgctxt "Create a new desktop and add the window to that desktop"
-#| msgid "Add to &New Desktop"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Virtual Desktop"
 msgstr "Дадаць віртуальны працоўны стол"
 
 #: plugins/overview/qml/main.qml:394
-#| msgid "Configur&e Window Behavior..."
+#, kde-format
 msgctxt "@action:button"
 msgid "Configure Virtual Desktops…"
 msgstr "Наладжванне віртуальных працоўных сталоў…"
 
 #: plugins/overview/qml/main.qml:730
-#| msgid "X11 Unmanaged Windows"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No matching windows"
 msgstr "Няма адпаведных акон"
@@ -2303,20 +2279,20 @@ msgid "Drag Down To Close"
 msgstr "Перацягнуць уніз, каб закрыць"
 
 #: plugins/private/qml/WindowHeapDelegate.qml:450
-#| msgid "Close Window"
+#, kde-format
 msgctxt "@info:tooltip as in: 'close this window'"
 msgid "Close window"
 msgstr "Закрыць акно"
 
 #. i18n: ectx: property (text), widget (QLabel, label_InScale)
 #: plugins/scale/package/contents/ui/config.ui:46
-#| msgid "Window role"
+#, kde-format
 msgid "Window open scale:"
 msgstr "Маштаб адкрыцця акон:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_OutScale)
 #: plugins/scale/package/contents/ui/config.ui:53
-#| msgid "Window role"
+#, kde-format
 msgid "Window close scale:"
 msgstr "Маштаб закрыцця акон:"
 
@@ -2337,7 +2313,7 @@ msgid "Failed to connect PipeWire context"
 msgstr "Не ўдалося падлучыць кантэкст PipeWire"
 
 #: plugins/screencast/screencastmanager.cpp:107
-#| msgid "Close running window on %1"
+#, kde-format
 msgid "Could not find window id %1"
 msgstr "Не ўдалося знайсці ідэнтыфікатар акна %1"
 
@@ -2362,26 +2338,21 @@ msgid "Failed to create PipeWire stream"
 msgstr "Не ўдалося стварыць струмень PipeWire"
 
 #: plugins/screenshot/screenshotdbusinterface2.cpp:532
-#| msgid ""
-#| "Select window to force close with left click or enter.\n"
-#| "Escape or right click to cancel."
+#, kde-format
 msgid "Select window to screen shot with left click or enter.\n"
 "Escape or right click to cancel."
 msgstr "Абярыце акно, здымак якога трэба зрабіць, пстрыкнуўшы левай кнопкай мышы або клавішай \"Enter\".\n"
 "Націсніце \"Escape\" або пстрыкніце правай кнопкай мышы, каб скасаваць."
 
 #: plugins/screenshot/screenshotdbusinterface2.cpp:550
-#| msgid ""
-#| "Select window to force close with left click or enter.\n"
-#| "Escape or right click to cancel."
+#, kde-format
 msgid "Create screen shot with left click or enter.\n"
 "Escape or right click to cancel."
 msgstr "Зрабіце здымак экрана пстрыкнуўшы левай кнопкай мышы або клавішай \"Enter\".\n"
 "Націсніце \"Escape\" або пстрыкніце правай кнопкай мышы, каб скасаваць."
 
 #: plugins/showfps/qml/main.qml:110
-#| msgctxt "A mouse pointer motion event"
-#| msgid "Pointer Motion"
+#, kde-format
 msgctxt "@label"
 msgid "Paint Duration"
 msgstr "Працягласць малявання"
@@ -2393,7 +2364,7 @@ msgid "Paint Amount"
 msgstr "Памер малявання"
 
 #: plugins/showfps/qml/main.qml:175
-#| msgid "Current Layout:"
+#, kde-format
 msgctxt "@label"
 msgid "Current FPS"
 msgstr "Бягучая колькасць кадраў за секунду (FPS)"
@@ -2410,8 +2381,8 @@ msgctxt "@label"
 msgid "This effect is not a benchmark"
 msgstr "Гэты эфект не правяраецца"
 
-#: plugins/showpaint/showpaint.cpp:41 plugins/showpaint/showpaint_config.cpp:37
-#| msgid "Window to Next Desktop"
+#: plugins/showpaint/showpaint.cpp:42 plugins/showpaint/showpaint_config.cpp:37
+#, kde-format
 msgid "Toggle Show Paint"
 msgstr "Пераключэнне паказу малявання"
 
@@ -2423,15 +2394,13 @@ msgstr "Пераключэнне паміж працоўнымі сталамі"
 
 #. i18n: ectx: property (text), widget (QLabel, label_HorizontalGap)
 #: plugins/slide/slide_config.ui:23
-#| msgctxt "An orientation of a pointer axis event"
-#| msgid "Horizontal"
+#, kde-format
 msgid "Horizontal:"
 msgstr "Па гарызанталі:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_VerticalGap)
 #: plugins/slide/slide_config.ui:46
-#| msgctxt "An orientation of a pointer axis event"
-#| msgid "Vertical"
+#, kde-format
 msgid "Vertical:"
 msgstr "Па вертыкалі:"
 
@@ -2469,7 +2438,7 @@ msgstr " пікселяў"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/thumbnailaside/thumbnailaside_config.ui:68
-#| msgid "&Opacity"
+#, kde-format
 msgid "&Opacity:"
 msgstr "&Непразрыстасць:"
 
@@ -2481,7 +2450,7 @@ msgstr " %"
 
 #: plugins/tileseditor/kcm/tileseditoreffectkcm.cpp:37
 #: plugins/tileseditor/tileseditoreffect.cpp:30
-#| msgid "Toggle Video Recording"
+#, kde-format
 msgid "Toggle Tiles Editor"
 msgstr "Пераключыць рэдактар ​​кампанавання"
 
@@ -2496,25 +2465,23 @@ msgid "Load Layout..."
 msgstr "Загрузіць макет..."
 
 #: plugins/tileseditor/qml/main.qml:271
-#| msgid "&Close"
+#, kde-format
 msgid "Close"
 msgstr "Закрыць"
 
 #: plugins/tileseditor/qml/TileDelegate.qml:167
-#| msgctxt "An orientation of a pointer axis event"
-#| msgid "Horizontal"
+#, kde-format
 msgid "Split Horizontally"
 msgstr "Падзяліць гарызантальна"
 
 #: plugins/tileseditor/qml/TileDelegate.qml:174
-#| msgctxt "An orientation of a pointer axis event"
-#| msgid "Vertical"
+#, kde-format
 msgid "Split Vertically"
 msgstr "Падзяліць вертыкальна"
 
 #: plugins/tileseditor/qml/TileDelegate.qml:182
 #: plugins/tileseditor/qml/TileDelegate.qml:211
-#| msgid "Close Window"
+#, kde-format
 msgid "Add Floating Tile"
 msgstr "Дадаць элемент, які плавае"
 
@@ -2537,13 +2504,13 @@ msgstr "Запуск эфекту:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_KeyboardShortcut)
 #: plugins/trackmouse/trackmouse_config.ui:33
-#| msgid "Keyboard"
+#, kde-format
 msgid "Keyboard shortcut:"
 msgstr "Спалучэнне клавіш:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_ModifierKeys)
 #: plugins/trackmouse/trackmouse_config.ui:43
-#| msgid "Modifiers"
+#, kde-format
 msgid "Modifier keys:"
 msgstr "Клавішы-мадыфікатары:"
 
@@ -2575,7 +2542,7 @@ msgstr "Непразрыстасць"
 
 #. i18n: ectx: property (text), widget (QLabel, dialogs_label)
 #: plugins/translucency/package/contents/ui/config.ui:137
-#| msgid "Dialog"
+#, kde-format
 msgid "Dialogs:"
 msgstr "Дыялогавыя вокны:"
 
@@ -2589,19 +2556,19 @@ msgstr "Празрыстасць"
 
 #. i18n: ectx: property (text), widget (QLabel, menus_label)
 #: plugins/translucency/package/contents/ui/config.ui:188
-#| msgid "Menu"
+#, kde-format
 msgid "Menus:"
 msgstr "Меню:"
 
 #. i18n: ectx: property (text), widget (QLabel, moveresize_label)
 #: plugins/translucency/package/contents/ui/config.ui:207
-#| msgid "Resize Window"
+#, kde-format
 msgid "Moving windows:"
 msgstr "Перамяшчэнне акон:"
 
 #. i18n: ectx: property (text), widget (QLabel, inactive_label)
 #: plugins/translucency/package/contents/ui/config.ui:226
-#| msgid "Internal Windows"
+#, kde-format
 msgid "Inactive windows:"
 msgstr "Неактыўныя вокны:"
 
@@ -2657,8 +2624,7 @@ msgstr "Спіс класаў акон праз коску"
 
 #. i18n: ectx: property (text), widget (QLabel, applyLabel)
 #: plugins/videowall/package/contents/ui/config.ui:45
-#| msgctxt "A keyboard modifier"
-#| msgid "Alt"
+#, kde-format
 msgid "All"
 msgstr "Усе"
 
@@ -2676,31 +2642,31 @@ msgstr "Няма"
 
 #: plugins/windowview/kcm/windowvieweffectkcm.cpp:42
 #: plugins/windowview/windowvieweffect.cpp:46
-#| msgid "Window to Next Desktop"
+#, kde-format
 msgid "Toggle Present Windows (Current desktop)"
 msgstr "Пераключэнне бягучых акон (бягучы працоўны стол)"
 
 #: plugins/windowview/kcm/windowvieweffectkcm.cpp:49
 #: plugins/windowview/windowvieweffect.cpp:55
-#| msgid "Keep Window on All Desktops"
+#, kde-format
 msgid "Toggle Present Windows (All desktops)"
 msgstr "Пераключэнне бягучых акон (усе працоўныя сталы)"
 
 #: plugins/windowview/kcm/windowvieweffectkcm.cpp:56
 #: plugins/windowview/windowvieweffect.cpp:64
-#| msgid "Keep Window on All Desktops"
+#, kde-format
 msgid "Toggle Present Windows (Window class)"
 msgstr "Пераключэнне бягучых акон (класы акон)"
 
 #: plugins/windowview/kcm/windowvieweffectkcm.cpp:62
 #: plugins/windowview/windowvieweffect.cpp:73
-#| msgid "Window to Next Desktop"
+#, kde-format
 msgid "Toggle Present Windows (Window class on current desktop)"
 msgstr "Пераключэнне бягучых акон (класы акон на бягучым працоўным стале)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreMinimized)
 #: plugins/windowview/kcm/windowvieweffectkcm.ui:22
-#| msgid "Minimize Window"
+#, kde-format
 msgid "Ignore &minimized windows"
 msgstr "Не зважаць на &згорнутыя вокны"
 
@@ -2710,18 +2676,18 @@ msgid "No Matches"
 msgstr "Няма супадзенняў"
 
 #: plugins/windowview/qml/main.qml:107
-#| msgid "Windows"
+#, kde-format
 msgid "No Windows"
 msgstr "Няма акон"
 
 #: plugins/windowview/qml/main.qml:122
-#| msgid "Internal Windows"
+#, kde-format
 msgid "Filter windows…"
 msgstr "Філтраванне акон…"
 
 #. i18n: ectx: property (title), widget (QGroupBox, advancedGroup)
 #: plugins/wobblywindows/wobblywindows_config.ui:20
-#| msgid "Ad&vanced"
+#, kde-format
 msgid "Advanced"
 msgstr "Дадатковыя"
 
@@ -2739,7 +2705,7 @@ msgstr "&Перацягванне:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: plugins/wobblywindows/wobblywindows_config.ui:81
-#| msgid "Left"
+#, kde-format
 msgid "&Move factor:"
 msgstr "&Каэфіцыент перамяшчэння:"
 
@@ -2780,12 +2746,12 @@ msgid "More"
 msgstr "Яшчэ"
 
 #: plugins/zoom/zoom.cpp:68
-#| msgid "Window One Screen to the Left"
+#, kde-format
 msgid "Move Zoomed Area to Left"
 msgstr "Перамясціць павялічаную вобласць улева"
 
 #: plugins/zoom/zoom.cpp:75
-#| msgid "Window One Screen to the Right"
+#, kde-format
 msgid "Move Zoomed Area to Right"
 msgstr "Перамясціць павялічаную вобласць управа"
 
@@ -2800,32 +2766,32 @@ msgid "Move Zoomed Area Downwards"
 msgstr "Перамясціць павялічаную вобласць уніз"
 
 #: plugins/zoom/zoom.cpp:97 plugins/zoom/zoom_config.cpp:98
-#| msgid "No Mouse Buttons"
+#, kde-format
 msgid "Move Mouse to Focus"
 msgstr "Перамясціць мыш у фокус"
 
 #: plugins/zoom/zoom.cpp:104 plugins/zoom/zoom_config.cpp:105
-#| msgid "Move Window to the Center"
+#, kde-format
 msgid "Move Mouse to Center"
 msgstr "Перамясціць мыш у цэнтр"
 
 #: plugins/zoom/zoom_config.cpp:70
-#| msgid "Left"
+#, kde-format
 msgid "Move Left"
 msgstr "Перамясціць улева"
 
 #: plugins/zoom/zoom_config.cpp:77
-#| msgid "Right"
+#, kde-format
 msgid "Move Right"
 msgstr "Перамясціць управа"
 
 #: plugins/zoom/zoom_config.cpp:84
-#| msgid "&Move"
+#, kde-format
 msgid "Move Up"
 msgstr "Перамясціць вышэй"
 
 #: plugins/zoom/zoom_config.cpp:91
-#| msgid "Move Window"
+#, kde-format
 msgid "Move Down"
 msgstr "Перамясціць ніжэй"
 
@@ -2880,8 +2846,7 @@ msgstr "Бачнасць паказальніка мышы."
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
 #: plugins/zoom/zoom_config.ui:103
-#| msgctxt "Current scale in pinch gesture"
-#| msgid "Scale"
+#, kde-format
 msgid "Scale"
 msgstr "Маштабаванне"
 
@@ -2905,7 +2870,7 @@ msgstr "Адсочваць перамяшчэнне мышы."
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
 #: plugins/zoom/zoom_config.ui:125
-#| msgid "Position"
+#, kde-format
 msgid "Proportional"
 msgstr "Прапарцыйна"
 
@@ -3451,7 +3416,7 @@ msgstr "Слой"
 
 #. i18n: ectx: label, entry (layerrule), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:441
-#| msgid "Shaded rule type"
+#, kde-format
 msgid "Layer rule type"
 msgstr "Тып правіла слою"
 
@@ -3463,7 +3428,7 @@ msgstr "AdaptiveSync"
 
 #. i18n: ectx: label, entry (adaptivesyncrule), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:450
-#| msgid "Activity rule type"
+#, kde-format
 msgid "AdaptiveSync rule type"
 msgstr "Тып правіла AdaptiveSync"
 
@@ -3505,7 +3470,7 @@ msgid "Show Desktop"
 msgstr "Паказаць працоўны стол"
 
 #: tabbox/switchers/thumbnail_grid/contents/ui/main.qml:208
-#| msgid "Windows"
+#, kde-format
 msgctxt "@info:placeholder no entries in the task switcher"
 msgid "No open windows"
 msgstr "Няма адкрытых акон"
@@ -3599,17 +3564,17 @@ msgid "&No Titlebar and Frame"
 msgstr "&Без панэлі загалоўка і рамкі"
 
 #: useractions.cpp:254
-#| msgid "Set Window Short&cut..."
+#, kde-format
 msgid "Set Window Short&cut…"
 msgstr "Вызначыць &спалучэнне клавіш акна…"
 
 #: useractions.cpp:260
-#| msgid "Configure Special &Window Settings..."
+#, kde-format
 msgid "Configure Special &Window Settings…"
 msgstr "Наладжванне адмысловых &налад акна…"
 
 #: useractions.cpp:265
-#| msgid "Configure S&pecial Application Settings..."
+#, kde-format
 msgid "Configure S&pecial Application Settings…"
 msgstr "Наладжванне адмысловых &налад праграмы…"
 
@@ -3960,37 +3925,37 @@ msgid "Window One Desktop Down"
 msgstr "Акно на ніжэйшы працоўны стол"
 
 #: useractions.cpp:1015
-#| msgid "Window to Screen %1"
+#, kde-format
 msgid "Move Window to Screen %1"
 msgstr "Перамясціць акно на экран %1"
 
 #: useractions.cpp:1022
-#| msgid "Window to Next Screen"
+#, kde-format
 msgid "Move Window to Next Screen"
 msgstr "Перамясціць акно на наступны экран"
 
 #: useractions.cpp:1024
-#| msgid "Window to Previous Screen"
+#, kde-format
 msgid "Move Window to Previous Screen"
 msgstr "Перамясціць акно на папярэдні экран"
 
 #: useractions.cpp:1026
-#| msgid "Window One Screen to the Right"
+#, kde-format
 msgid "Move Window One Screen to the Right"
 msgstr "Перамясціць акно на адзін экран управа"
 
 #: useractions.cpp:1028
-#| msgid "Window One Screen to the Left"
+#, kde-format
 msgid "Move Window One Screen to the Left"
 msgstr "Перамясціць акно на адзін экран улева"
 
 #: useractions.cpp:1030
-#| msgid "Window One Screen Up"
+#, kde-format
 msgid "Move Window One Screen Up"
 msgstr "Перамясціць акно на адзін экран уверх"
 
 #: useractions.cpp:1032
-#| msgid "Window One Screen Down"
+#, kde-format
 msgid "Move Window One Screen Down"
 msgstr "Перамясціць акно на адзін экран уніз"
 
@@ -4052,8 +4017,7 @@ msgstr "Кіраўнік акон наладжаны так, каб разгля
 "Таму нельга непасрэдна пераключыцца на экран."
 
 #: utils/edid.cpp:233
-#| msgctxt "The input device of the event is not known"
-#| msgid "Unknown"
+#, kde-format
 msgid "unknown"
 msgstr "невядома"
 
@@ -4097,24 +4061,14 @@ msgstr "Пераключыцца на працоўны стол ніжэй"
 msgid "Switch to Desktop %1"
 msgstr "Пераключыцца на працоўны стол \"%1\""
 
-#: window.cpp:3082
+#: window.cpp:3118
 #, kde-format
 msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
 msgstr "(Не адказвае)"
 
 #: workspace.cpp:1627
-#| msgctxt "Introductory text shown in the support information."
-#| msgid ""
-#| "KWin Support Information:\n"
-#| "The following information should be used when requesting support on e.g. "
-#| "https://forum.kde.org.\n"
-#| "It provides information about the currently running instance, which "
-#| "options are used,\n"
-#| "what OpenGL driver and which effects are running.\n"
-#| "Please post the information provided underneath this introductory text to "
-#| "a paste bin service\n"
-#| "like https://paste.kde.org instead of pasting into support threads.\n"
+#, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid "KWin Support Information:\n"
 "The following information should be used when requesting support on e.g. https://discuss.kde.org.\n"
