@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-29 01:38+0000\n"
-"PO-Revision-Date: 2024-02-27 07:45\n"
+"POT-Creation-Date: 2024-02-28 00:38+0000\n"
+"PO-Revision-Date: 2024-02-28 07:43\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,43 +19,48 @@ msgstr ""
 "X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/kwin/kcm_kwinxwayland.po\n"
 "X-Crowdin-File-ID: 10428\n"
 
-#: ui/main.qml:47
+#: ui/main.qml:32
 #, kde-format
 msgid "Legacy X11 apps require the ability to read keystrokes typed in other apps for features that are activated using global keyboard shortcuts. This is disabled by default for security reasons. If you need to use such apps, you can choose your preferred balance of security and functionality here."
 msgstr "Для функцый, якія актывуюцца з дапамогай глабальных спалучэнняў клавіш, састарэлым праграмам X11 трэба мець магчымасць апрацоўваць націсканні клавіш з іншых праграмах. Гэта прадвызначана адключана з меркаванняў бяспекі. Калі вам неабходна выкарыстоўваць такія праграмы, тут вы можаце дасягнуць патрэбнага балансу бяспекі і функцыянальнасці."
 
-#: ui/main.qml:64
+#: ui/main.qml:48
 #, kde-format
 msgid "Allow legacy X11 apps to read keystrokes typed in all apps:"
 msgstr "Дазволіць састарэлым праграмам X11 апрацоўваць націсканні клавіш ва ўсіх праграмах:"
 
-#: ui/main.qml:65
+#: ui/main.qml:49
 #, kde-format
 msgid "Never"
 msgstr "Ніколі"
 
-#: ui/main.qml:68
-#, kde-format
-msgid "Only non-character keys"
-msgstr "Толькі несімвальныя клавішы"
+#: ui/main.qml:55
+#| msgid "Only Meta, Control, Alt, and Shift keys"
+msgid "Only Meta, Control, Alt and Shift keys"
+msgstr ""
 
-#: ui/main.qml:71
+#: ui/main.qml:61
 #, kde-format
 msgid "As above, plus any key typed while the Control, Alt, or Meta keys are pressed"
 msgstr "Як і вышэй, плюс любая клавіша, націснутая пры націснутых клавішах Control, Alt або Meta"
 
-#: ui/main.qml:75
+#: ui/main.qml:68
 #, kde-format
 msgid "Always"
 msgstr "Заўсёды"
 
-#: ui/main.qml:82
+#: ui/main.qml:78
+#, kde-format
+msgid "Additionally include mouse buttons"
+msgstr ""
+
+#: ui/main.qml:89
 #, kde-format
 msgid "Note that using this setting will reduce system security to that of the X11 session by permitting malicious software to steal passwords and spy on the text that you type. Make sure you understand and accept this risk."
 msgstr "Звярніце ўвагу, што калі выкарыстоўваць гэты параметр, то бяспека сістэмы панізіцца да ўзроўню сеанса X11, дазваляючы шкоднаснаму праграмнаму забеспячэнню красці паролі і шпіёніць за тэкстам, які вы ўводзіце. Пераканайцеся, што вы разумееце і прымаеце гэтую рызыку."
 
-#~ msgid "Only Meta, Control, Alt, and Shift keys"
-#~ msgstr "Толькі Meta, Control, Alt, Shift"
+#~ msgid "Only non-character keys"
+#~ msgstr "Толькі несімвальныя клавішы"
 
 #~ msgid ""
 #~ "This module lets configure which keyboard events are forwarded to X11 "
