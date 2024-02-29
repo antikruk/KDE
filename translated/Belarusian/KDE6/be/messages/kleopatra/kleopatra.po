@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-27 00:37+0000\n"
-"PO-Revision-Date: 2024-02-27 07:44\n"
+"POT-Creation-Date: 2024-02-29 00:38+0000\n"
+"PO-Revision-Date: 2024-02-29 07:42\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -404,7 +404,7 @@ msgid "Is '%1' your own certificate?"
 msgstr ""
 
 #: src/commands/changeownertrustcommand.cpp:104
-#: src/commands/importcertificatescommand.cpp:638
+#: src/commands/importcertificatescommand.cpp:639
 #| msgid "Overwrite File?"
 msgctxt "@title:window"
 msgid "Mark Own Certificate"
@@ -805,23 +805,23 @@ msgctxt "@title"
 msgid "Error Saving Request"
 msgstr ""
 
-#: src/commands/creategroupcommand.cpp:96
+#: src/commands/creategroupcommand.cpp:97
 #| msgid "Overwrite File?"
 msgid "None of the selected certificates can be used for encryption. No group will be created."
 msgstr ""
 
-#: src/commands/creategroupcommand.cpp:101
+#: src/commands/creategroupcommand.cpp:102
 #| msgid "Overwrite File?"
 msgid "Some of the selected certificates cannot be used for encryption. These will not be added to the group."
 msgstr ""
 
-#: src/commands/creategroupcommand.cpp:105 src/conf/groupsconfigwidget.cpp:326
+#: src/commands/creategroupcommand.cpp:106 src/conf/groupsconfigwidget.cpp:327
 #, kde-format
 msgctxt "default name for new group of keys"
 msgid "New Group"
 msgstr "Новая група"
 
-#: src/commands/creategroupcommand.cpp:108 src/conf/groupsconfigwidget.cpp:329
+#: src/commands/creategroupcommand.cpp:109 src/conf/groupsconfigwidget.cpp:330
 #, kde-format
 msgctxt "@title:window a group of keys"
 msgid "New Group"
@@ -1266,7 +1266,7 @@ msgid "<para>The GPG process that tried to export OpenPGP certificates ended pre
 msgstr ""
 
 #: src/commands/exportopenpgpcertstoservercommand.cpp:162
-#: src/commands/importcertificatescommand.cpp:620
+#: src/commands/importcertificatescommand.cpp:621
 #, kde-format
 msgid " "
 msgstr ""
@@ -1558,8 +1558,8 @@ msgstr ""
 #: src/commands/importcertificatefromclipboardcommand.cpp:105
 #: src/commands/importcertificatefromclipboardcommand.cpp:109
 #: src/commands/importcertificatefromfilecommand.cpp:135
-#: src/commands/importcertificatescommand.cpp:890
-#: src/commands/importcertificatescommand.cpp:940
+#: src/commands/importcertificatescommand.cpp:891
+#: src/commands/importcertificatescommand.cpp:941
 #, kde-format
 msgid "Certificate Import Failed"
 msgstr ""
@@ -1589,7 +1589,7 @@ msgid "Notepad"
 msgstr ""
 
 #: src/commands/importcertificatefromfilecommand.cpp:127
-#: src/commands/importcertificatescommand.cpp:186
+#: src/commands/importcertificatescommand.cpp:187
 #| msgid "Overwrite File?"
 msgctxt "@title:window"
 msgid "Importing Certificates"
@@ -1610,7 +1610,7 @@ msgid "Could not open file %1 for reading: %2"
 msgstr ""
 
 #: src/commands/importcertificatefromfilecommand.cpp:157
-#: src/commands/importcertificatescommand.cpp:282 src/view/keytreeview.cpp:266
+#: src/commands/importcertificatescommand.cpp:283 src/view/keytreeview.cpp:266
 #| msgid "Canceled."
 msgid "Certificates"
 msgstr "Сертыфікаты"
@@ -1650,257 +1650,257 @@ msgstr ""
 msgid "Card Certificate"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:187
+#: src/commands/importcertificatescommand.cpp:188
 #| msgid "Overwrite File?"
 msgid "Importing certificates... (this can take a while)"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:242
+#: src/commands/importcertificatescommand.cpp:243
 #| msgid "Overwrite File?"
 msgctxt "@info:tooltip"
 msgid "Imported Certificates from %1"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:244
+#: src/commands/importcertificatescommand.cpp:245
 #| msgid "Overwrite File?"
 msgctxt "@info:tooltip"
 msgid "Imported certificates from these sources:<br/>%1"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:254
+#: src/commands/importcertificatescommand.cpp:255
 #| msgid "Overwrite File?"
 msgctxt "@title:tab"
 msgid "Imported Certificates"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:267
+#: src/commands/importcertificatescommand.cpp:268
 #, kde-format
 msgid "<tr><td align=\"right\">%1</td><td>%2</td></tr>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:268
+#: src/commands/importcertificatescommand.cpp:269
 #, kde-format
 msgid "<tr><td align=\"right\"><b>%1</b></td><td>%2</td></tr>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:269
+#: src/commands/importcertificatescommand.cpp:270
 #, kde-format
 msgid "<tr><th colspan=\"2\" align=\"center\">%1</th></tr>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:283
-#: src/commands/importcertificatescommand.cpp:323
+#: src/commands/importcertificatescommand.cpp:284
+#: src/commands/importcertificatescommand.cpp:324
 #, kde-format
 msgid "Total number processed:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:284
+#: src/commands/importcertificatescommand.cpp:285
 #, kde-format
 msgid "Imported:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:286
+#: src/commands/importcertificatescommand.cpp:287
 #, kde-format
 msgid "New signatures:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:288
+#: src/commands/importcertificatescommand.cpp:289
 #, kde-format
 msgid "New user IDs:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:290
+#: src/commands/importcertificatescommand.cpp:291
 #, kde-format
 msgid "Certificates without user IDs:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:292
+#: src/commands/importcertificatescommand.cpp:293
 #, kde-format
 msgid "New subkeys:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:294
+#: src/commands/importcertificatescommand.cpp:295
 #, kde-format
 msgid "Newly revoked:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:296
+#: src/commands/importcertificatescommand.cpp:297
 #, kde-format
 msgid "Not imported:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:298
+#: src/commands/importcertificatescommand.cpp:299
 #, kde-format
 msgid "Unchanged:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:300
+#: src/commands/importcertificatescommand.cpp:301
 #| msgid "Canceled."
 msgid "Secret keys processed:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:302
+#: src/commands/importcertificatescommand.cpp:303
 #| msgid "Canceled."
 msgid "Secret keys imported:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:306
+#: src/commands/importcertificatescommand.cpp:307
 #| msgid "Canceled."
 msgid "Secret keys <em>not</em> imported:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:308
+#: src/commands/importcertificatescommand.cpp:309
 #| msgid "Overwrite File?"
 msgid "Secret keys unchanged:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:310
+#: src/commands/importcertificatescommand.cpp:311
 #, kde-format
 msgid "Deprecated PGP-2 keys skipped:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:322
+#: src/commands/importcertificatescommand.cpp:323
 #| msgid "Canceled."
 msgid "Certificate Groups"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:324
+#: src/commands/importcertificatescommand.cpp:325
 #, kde-format
 msgid "New groups:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:325
+#: src/commands/importcertificatescommand.cpp:326
 #, kde-format
 msgid "Updated groups:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:340
+#: src/commands/importcertificatescommand.cpp:341
 #, kde-format
 msgid "No imports (should not happen, please report a bug)."
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:342
+#: src/commands/importcertificatescommand.cpp:343
 #, kde-format
 msgid "Detailed results of importing %1:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:343
+#: src/commands/importcertificatescommand.cpp:344
 #, kde-format
 msgid "Detailed results of import:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:401
+#: src/commands/importcertificatescommand.cpp:402
 #, kde-format
 msgid "A phone call to the person."
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:402
+#: src/commands/importcertificatescommand.cpp:403
 #, kde-format
 msgid "Using a business card."
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:403
+#: src/commands/importcertificatescommand.cpp:404
 #, kde-format
 msgid "Confirming it on a trusted website."
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:407
+#: src/commands/importcertificatescommand.cpp:408
 #| msgid "Canceled."
 msgid "In order to mark the certificate as valid it needs to be certified."
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:408
+#: src/commands/importcertificatescommand.cpp:409
 #, kde-format
 msgid "Certifying means that you check the Fingerprint."
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:409
+#: src/commands/importcertificatescommand.cpp:410
 #, kde-format
 msgid "Some suggestions to do this are:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:411
+#: src/commands/importcertificatescommand.cpp:412
 #, kde-format
 msgid "Do you wish to start this process now?"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:412
+#: src/commands/importcertificatescommand.cpp:413
 #, kde-format
 msgctxt "@title"
 msgid "You have imported a new certificate (public key)"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:413
-#: src/conf/groupsconfigwidget.cpp:200
+#: src/commands/importcertificatescommand.cpp:414
+#: src/conf/groupsconfigwidget.cpp:201
 #| msgid "&Details"
 msgctxt "@action:button"
 msgid "Certify"
 msgstr "Сертыфікаваць"
 
-#: src/commands/importcertificatescommand.cpp:466
+#: src/commands/importcertificatescommand.cpp:467
 #, kde-format
 msgctxt "file name (imported with gpg/gpgsm)"
 msgid "%1 (imported with %2)"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:470
+#: src/commands/importcertificatescommand.cpp:471
 #, kde-format
 msgctxt "@info"
 msgid "Audit log is empty."
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:472
+#: src/commands/importcertificatescommand.cpp:473
 #| msgid "Canceled."
 msgctxt "@info"
 msgid "Import was canceled."
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:492
+#: src/commands/importcertificatescommand.cpp:493
 #, kde-format
 msgid "Certificate Import Result"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:501
+#: src/commands/importcertificatescommand.cpp:502
 #, kde-format
 msgid "<qt><p>An error occurred while trying to import the certificate:</p><p><b>%1</b></p></qt>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:506
+#: src/commands/importcertificatescommand.cpp:507
 #, kde-format
 msgid "<qt><p>An error occurred while trying to import the certificate %1:</p><p><b>%2</b></p></qt>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:622
+#: src/commands/importcertificatescommand.cpp:623
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1<item>%2</item>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:626
+#: src/commands/importcertificatescommand.cpp:627
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>You have imported a certificate with fingerprint</para><para><numid>%1</numid></para><para>and user IDs<list>%2</list></para><para>Is this your own certificate?</para>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:639
+#: src/commands/importcertificatescommand.cpp:640
 #, kde-format
 msgctxt "@action:button"
 msgid "Yes, It's Mine"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:640
+#: src/commands/importcertificatescommand.cpp:641
 #, kde-format
 msgctxt "@action:button"
 msgid "No, It's Not Mine"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:790
+#: src/commands/importcertificatescommand.cpp:791
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>The imported group</para><para><emphasis>%1</emphasis></para><para>contains certificates that cannot be used for encryption. This may lead to unexpected results.</para>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:854
+#: src/commands/importcertificatescommand.cpp:855
 #, kde-format
 msgid "Fetching 1 signer key... (this can take a while)"
 msgid_plural "Fetching %1 signer keys... (this can take a while)"
@@ -1909,8 +1909,8 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/commands/importcertificatescommand.cpp:889
-#: src/commands/importcertificatescommand.cpp:939
+#: src/commands/importcertificatescommand.cpp:890
+#: src/commands/importcertificatescommand.cpp:940
 #, kde-format
 msgid "The type of this certificate (%1) is not supported by this Kleopatra installation."
 msgstr ""
@@ -3197,84 +3197,84 @@ msgctxt "Only available in German and English. Leave to English for other langua
 msgid "handout_group-feature_gnupg_en.pdf"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:154 src/dialogs/editgroupdialog.cpp:174
-#: src/dialogs/editgroupdialog.cpp:234
+#: src/conf/groupsconfigwidget.cpp:155 src/dialogs/editgroupdialog.cpp:175
+#: src/dialogs/editgroupdialog.cpp:235
 #| msgid "Search:"
 msgctxt "@label"
 msgid "Search:"
 msgstr "Пошук:"
 
-#: src/conf/groupsconfigwidget.cpp:155 src/conf/groupsconfigwidget.cpp:161
+#: src/conf/groupsconfigwidget.cpp:156 src/conf/groupsconfigwidget.cpp:162
 #| msgid "Overwrite File?"
 msgctxt "@label"
 msgid "Search groups"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:156 src/conf/groupsconfigwidget.cpp:162
+#: src/conf/groupsconfigwidget.cpp:157 src/conf/groupsconfigwidget.cpp:163
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Search the list for groups matching the search term."
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:163 src/dialogs/editgroupdialog.cpp:183
-#: src/dialogs/editgroupdialog.cpp:243
+#: src/conf/groupsconfigwidget.cpp:164 src/dialogs/editgroupdialog.cpp:184
+#: src/dialogs/editgroupdialog.cpp:244
 #| msgid "Serial"
 msgctxt "@info::placeholder"
 msgid "Enter search term"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:180
+#: src/conf/groupsconfigwidget.cpp:181
 #| msgid "&Details"
 msgctxt "groups of keys"
 msgid "groups"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:189
+#: src/conf/groupsconfigwidget.cpp:190
 #, kde-format
 msgctxt "@action:button"
 msgid "New"
 msgstr "Стварыць"
 
-#: src/conf/groupsconfigwidget.cpp:192 src/view/pgpcardwidget.cpp:185
+#: src/conf/groupsconfigwidget.cpp:193 src/view/pgpcardwidget.cpp:185
 #: src/view/pgpcardwidget.cpp:203
 #, kde-format
 msgctxt "@action:button"
 msgid "Edit"
 msgstr "Рэдагаваць"
 
-#: src/conf/groupsconfigwidget.cpp:196
+#: src/conf/groupsconfigwidget.cpp:197
 #: src/dialogs/deletecertificatesdialog.cpp:151
 #| msgid "Delete"
 msgctxt "@action:button"
 msgid "Delete"
 msgstr "Выдаліць"
 
-#: src/conf/groupsconfigwidget.cpp:201
+#: src/conf/groupsconfigwidget.cpp:202
 #| msgid "Canceled."
 msgctxt "@info:tooltip"
 msgid "Start the certification process for all certificates in the group."
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:205
+#: src/conf/groupsconfigwidget.cpp:206
 #: src/dialogs/certificatedetailswidget.cpp:358
 #| msgid "Canceled."
 msgctxt "@action:button"
 msgid "Export"
 msgstr "Экспартаваць"
 
-#: src/conf/groupsconfigwidget.cpp:366
+#: src/conf/groupsconfigwidget.cpp:367
 #, kde-format
 msgctxt "@title:window a group of keys"
 msgid "Edit Group"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:397
+#: src/conf/groupsconfigwidget.cpp:398
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Do you really want to delete this group?</para><para><emphasis>%1</emphasis></para><para>Once deleted, it cannot be restored.</para>"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:403
+#: src/conf/groupsconfigwidget.cpp:404
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Do you really want to delete this %1 group?</para><para>Once deleted, it cannot be restored.</para>"
@@ -3284,7 +3284,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/conf/groupsconfigwidget.cpp:415
+#: src/conf/groupsconfigwidget.cpp:416
 #| msgid "Delete"
 msgctxt "@title:window"
 msgid "Delete Group"
@@ -3294,7 +3294,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/conf/groupsconfigwidget.cpp:470
+#: src/conf/groupsconfigwidget.cpp:471
 #, kde-format
 msgctxt "@info"
 msgid "The group contains keys that cannot be used for encryption. This may lead to unexpected results."
@@ -6111,93 +6111,93 @@ msgctxt "@title:window"
 msgid "Secret Key Deletion"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:82
+#: src/dialogs/editgroupdialog.cpp:83
 #| msgid "Overwrite File?"
 msgctxt "@info:tooltip"
 msgid "This certificate cannot be used for encryption."
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:113
+#: src/dialogs/editgroupdialog.cpp:114
 #| msgid "Overwrite File?"
 msgctxt "@info:tooltip"
 msgid "This certificate cannot be added to the group as it cannot be used for encryption."
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:156
+#: src/dialogs/editgroupdialog.cpp:157
 #| msgid "Serial"
 msgctxt "Name of a group of keys"
 msgid "Name:"
 msgstr "Імя:"
 
-#: src/dialogs/editgroupdialog.cpp:168
+#: src/dialogs/editgroupdialog.cpp:169
 #, kde-format
 msgctxt "@title"
 msgid "Available Keys"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:175 src/dialogs/editgroupdialog.cpp:181
+#: src/dialogs/editgroupdialog.cpp:176 src/dialogs/editgroupdialog.cpp:182
 #| msgid "Overwrite File?"
 msgctxt "@label"
 msgid "Search available keys"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:176 src/dialogs/editgroupdialog.cpp:182
+#: src/dialogs/editgroupdialog.cpp:177 src/dialogs/editgroupdialog.cpp:183
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Search the list of available keys for keys matching the search term."
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:196
+#: src/dialogs/editgroupdialog.cpp:197
 #, kde-format
 msgid "available keys"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:212
+#: src/dialogs/editgroupdialog.cpp:213
 #| msgid "Set &Background Color..."
 msgctxt "@action:button"
 msgid "Add Selected Keys"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:213
+#: src/dialogs/editgroupdialog.cpp:214
 #, kde-format
 msgid "Add the selected keys to the group"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:219
+#: src/dialogs/editgroupdialog.cpp:220
 #| msgid "Set &Background Color..."
 msgctxt "@action:button"
 msgid "Remove Selected Keys"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:220
+#: src/dialogs/editgroupdialog.cpp:221
 #, kde-format
 msgid "Remove the selected keys from the group"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:228
+#: src/dialogs/editgroupdialog.cpp:229
 #| msgid "&Details"
 msgctxt "@title"
 msgid "Group Keys"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:235 src/dialogs/editgroupdialog.cpp:241
+#: src/dialogs/editgroupdialog.cpp:236 src/dialogs/editgroupdialog.cpp:242
 #| msgid "Overwrite File?"
 msgctxt "@label"
 msgid "Search group keys"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:236 src/dialogs/editgroupdialog.cpp:242
+#: src/dialogs/editgroupdialog.cpp:237 src/dialogs/editgroupdialog.cpp:243
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Search the list of group keys for keys matching the search term."
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:255
+#: src/dialogs/editgroupdialog.cpp:256
 #| msgid "&Details"
 msgid "group keys"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:422
+#: src/dialogs/editgroupdialog.cpp:423
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Group"
@@ -7516,7 +7516,7 @@ msgstr "&Выгляд"
 
 #. i18n: ectx: Menu (certMenu)
 #. i18n: ectx: Menu (listview_popup)
-#: src/kleopatra.rc:44 src/kleopatra.rc:132
+#: src/kleopatra.rc:44 src/kleopatra.rc:133
 #, kde-format
 msgid "&Certificates"
 msgstr ""
@@ -7552,7 +7552,7 @@ msgid "&More documentation"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: src/kleopatra.rc:115 src/kwatchgnupg/kwatchgnupgui.rc:13
+#: src/kleopatra.rc:116 src/kwatchgnupg/kwatchgnupgui.rc:13
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Асноўныя інструменты"
@@ -8006,32 +8006,43 @@ msgstr ""
 
 #: src/mainwindow.cpp:756
 #, kde-format
-msgid "SecOps VSA-10573"
+msgid "Manual for VS-NfD approval (German)"
 msgstr ""
 
 #: src/mainwindow.cpp:757
 #, kde-format
-msgctxt "Only available in German and English. Leave to English for other languages."
-msgid "BSI-VSA-10573-ENG_secops-20220207.pdf"
+msgctxt "Only available in German. Keep German file name for all languages"
+msgid "Handbuch-Zulassung-gnupgvsd-v3.2.pdf"
 msgstr ""
 
 #: src/mainwindow.cpp:764
 #, kde-format
-msgid "SecOps VSA-10584"
+msgid "SecOps VSA-10573"
 msgstr ""
 
 #: src/mainwindow.cpp:765
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
+msgid "BSI-VSA-10573-ENG_secops-20220207.pdf"
+msgstr ""
+
+#: src/mainwindow.cpp:772
+#, kde-format
+msgid "SecOps VSA-10584"
+msgstr ""
+
+#: src/mainwindow.cpp:773
+#, kde-format
+msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "BSI-VSA-10584-ENG_secops-20220207.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:791
+#: src/mainwindow.cpp:799
 #, kde-format
 msgid "There are still some background operations ongoing. These will be terminated when closing the window. Proceed?"
 msgstr ""
 
-#: src/mainwindow.cpp:794
+#: src/mainwindow.cpp:802
 #, kde-format
 msgid "Ongoing Background Tasks"
 msgstr ""
