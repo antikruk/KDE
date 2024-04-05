@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-02 00:35+0000\n"
-"PO-Revision-Date: 2024-03-02 07:52\n"
+"POT-Creation-Date: 2024-04-05 00:35+0000\n"
+"PO-Revision-Date: 2024-04-05 19:36\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -40,7 +40,7 @@ msgstr "Не ўдалося змяніць уласніка файла %1"
 msgid "Could not modify the ownership of file <filename>%1</filename>. You have insufficient access to the file to perform the change."
 msgstr "Не ўдалося змяніць уласніка файла <filename>%1</filename>. Вы не маеце правоў доступу, патрэбных для выканання гэтага дзеяння."
 
-#: core/connectionbackend.cpp:108
+#: core/connectionbackend.cpp:107
 #, kde-format
 msgid "Unable to create KIO worker: %1"
 msgstr "Не ўдалося стварыць KIO worker: %1"
@@ -339,7 +339,7 @@ msgstr "Змяніць назву"
 msgid "Root privileges are required to complete renaming. Do you want to continue?"
 msgstr "Для завяршэння змены назвы патрэбныя правы суперкарыстальніка (root). Хочаце працягнуць?"
 
-#: core/job.cpp:300 filewidgets/knewfilemenu.cpp:625
+#: core/job.cpp:300 filewidgets/knewfilemenu.cpp:626
 #: kioworkers/file/file_unix.cpp:129
 #, kde-format
 msgid "Create Symlink"
@@ -1872,17 +1872,17 @@ msgstr "Адфарматуйце мэтавую прыладу, каб файл�
 msgid "Undocumented Error"
 msgstr "Незадакументаваная памылка"
 
-#: core/kfileitem.cpp:1395
+#: core/kfileitem.cpp:1397
 #, kde-format
 msgid "(Symbolic Link to %1)"
 msgstr "(Сімвалічная спасылка на %1)"
 
-#: core/kfileitem.cpp:1397
+#: core/kfileitem.cpp:1399
 #, kde-format
 msgid "(%1, Link to %2)"
 msgstr "(%1, спасылка на %2)"
 
-#: core/kfileitem.cpp:1400
+#: core/kfileitem.cpp:1402
 #, kde-format
 msgid " (Points to %1)"
 msgstr " (Спасылаецца на %1)"
@@ -1895,23 +1895,23 @@ msgid "Malformed URL\n"
 msgstr "Памылковы URL\n"
 "%1"
 
-#: core/mimetypefinderjob.cpp:225
+#: core/mimetypefinderjob.cpp:223
 #, kde-format
 msgid "Unable to determine the type of file for %1"
 msgstr "Не ўдалося вызначыць тып файла %1"
 
-#: core/openwith.cpp:88
+#: core/openwith.cpp:90
 #, kde-format
 msgid "Could not extract executable name from '%1', please type a valid program name."
 msgstr "Не ўдалося выняць назву выканальнага файла з \"%1\", увядзіце прыдатную назву праграмы."
 
-#: core/openwith.cpp:140
+#: core/openwith.cpp:142
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<filename>%1</filename> does not appear to be an executable program."
 msgstr "<filename>%1</filename> не ёсць выканальнай праграмай."
 
-#: core/openwith.cpp:141
+#: core/openwith.cpp:143
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<filename>%1</filename> was not found; please enter a valid path to an executable program."
@@ -2028,7 +2028,8 @@ msgstr "Не ўдалося знайсці выканальны файл \"kiowo
 msgid "&Details"
 msgstr "&Падрабязнасці"
 
-#: core/workerinterface.cpp:363 widgets/sslui.cpp:97
+#: core/workerinterface.cpp:363 kioworkers/http/http.cpp:190
+#: widgets/sslui.cpp:97
 #, kde-format
 msgid "&Forever"
 msgstr "&Заўсёды"
@@ -2038,7 +2039,8 @@ msgstr "&Заўсёды"
 msgid "Co&ntinue"
 msgstr "Пр&ацягнуць"
 
-#: core/workerinterface.cpp:369 widgets/sslui.cpp:98
+#: core/workerinterface.cpp:369 kioworkers/http/http.cpp:191
+#: widgets/sslui.cpp:98
 #, kde-format
 msgid "&Current Session only"
 msgstr "Т&олькі бягучы сеанс"
@@ -2243,7 +2245,7 @@ msgstr "Паказваць мініяцюры"
 msgid "Open Containing Folder"
 msgstr "Адкрыць каталог змесціва"
 
-#: filewidgets/kdiroperator.cpp:2163 filewidgets/kfileplacesview.cpp:1159
+#: filewidgets/kdiroperator.cpp:2163 filewidgets/kfileplacesview.cpp:1160
 #, kde-format
 msgid "Properties"
 msgstr "Уласцівасці"
@@ -2368,7 +2370,7 @@ msgid "All Supported Files"
 msgstr "Усе файлы, якія падтрымліваюцца"
 
 #: filewidgets/kfilefiltercombo.cpp:170 filewidgets/kfilefiltercombo.cpp:171
-#: filewidgets/kfilewidget.cpp:1883
+#: filewidgets/kfilewidget.cpp:1898
 #, kde-format
 msgid "All Files"
 msgstr "Усе файлы"
@@ -2470,152 +2472,152 @@ msgctxt "@item"
 msgid "Tags"
 msgstr "Тэгі"
 
-#: filewidgets/kfileplacesmodel.cpp:159
+#: filewidgets/kfileplacesmodel.cpp:158
 msgctxt "KFile System Bookmarks"
 msgid "All tags"
 msgstr "Усе тэгі"
 
 #. i18nc calls has to be "KFile System Bookmarks".
 #. The real i18nc call is made later, with this context, so the two must match.
-#: filewidgets/kfileplacesmodel.cpp:255
+#: filewidgets/kfileplacesmodel.cpp:254
 msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "Хатні каталог"
 
-#: filewidgets/kfileplacesmodel.cpp:264
+#: filewidgets/kfileplacesmodel.cpp:263
 msgctxt "KFile System Bookmarks"
 msgid "Desktop"
 msgstr "Працоўны стол"
 
-#: filewidgets/kfileplacesmodel.cpp:271
+#: filewidgets/kfileplacesmodel.cpp:270
 msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "Дакументы"
 
-#: filewidgets/kfileplacesmodel.cpp:278
+#: filewidgets/kfileplacesmodel.cpp:277
 msgctxt "KFile System Bookmarks"
 msgid "Downloads"
 msgstr "Спампоўванні"
 
-#: filewidgets/kfileplacesmodel.cpp:283
+#: filewidgets/kfileplacesmodel.cpp:282
 msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "Сетка"
 
-#: filewidgets/kfileplacesmodel.cpp:288
+#: filewidgets/kfileplacesmodel.cpp:287
 msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "Сметніца"
 
-#: filewidgets/kfileplacesmodel.cpp:349
+#: filewidgets/kfileplacesmodel.cpp:348
 msgctxt "KFile System Bookmarks"
 msgid "Music"
 msgstr "Музыка"
 
-#: filewidgets/kfileplacesmodel.cpp:356
+#: filewidgets/kfileplacesmodel.cpp:355
 msgctxt "KFile System Bookmarks"
 msgid "Pictures"
 msgstr "Малюнкі"
 
-#: filewidgets/kfileplacesmodel.cpp:365
+#: filewidgets/kfileplacesmodel.cpp:364
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr "Відэа"
 
-#: filewidgets/kfileplacesmodel.cpp:392
+#: filewidgets/kfileplacesmodel.cpp:391
 msgctxt "KFile System Bookmarks"
 msgid "Recent Files"
 msgstr "Нядаўнія файлы"
 
-#: filewidgets/kfileplacesmodel.cpp:397
+#: filewidgets/kfileplacesmodel.cpp:396
 msgctxt "KFile System Bookmarks"
 msgid "Recent Locations"
 msgstr "Нядаўнія размяшчэнні"
 
-#: filewidgets/kfileplacesmodel.cpp:420
+#: filewidgets/kfileplacesmodel.cpp:419
 msgctxt "KFile System Bookmarks"
 msgid "Modified Today"
 msgstr "Зменена сёння"
 
-#: filewidgets/kfileplacesmodel.cpp:424
+#: filewidgets/kfileplacesmodel.cpp:423
 msgctxt "KFile System Bookmarks"
 msgid "Modified Yesterday"
 msgstr "Зменена ўчора"
 
-#: filewidgets/kfileplacesmodel.cpp:1092
+#: filewidgets/kfileplacesmodel.cpp:1091
 #, kde-format
 msgctxt "Placeholder is error message"
 msgid "Could not add to the Places panel: %1"
 msgstr "Не ўдалося дадаць панэль размяшчэнняў: %1"
 
-#: filewidgets/kfileplacesmodel.cpp:1099
+#: filewidgets/kfileplacesmodel.cpp:1098
 #, kde-format
 msgid "Only folders can be added to the Places panel."
 msgstr "На панэль размяшчэнняў можна дадаваць толькі каталогі."
 
-#: filewidgets/kfileplacesmodel.cpp:1363
+#: filewidgets/kfileplacesmodel.cpp:1362
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Releasing…"
 msgstr "Вызваленне…"
 
-#: filewidgets/kfileplacesmodel.cpp:1365
+#: filewidgets/kfileplacesmodel.cpp:1364
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Release"
 msgstr "&Выпуск"
 
-#: filewidgets/kfileplacesmodel.cpp:1369
+#: filewidgets/kfileplacesmodel.cpp:1368
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Safely Removing…"
 msgstr "Бяспечнае выманне…"
 
-#: filewidgets/kfileplacesmodel.cpp:1371
+#: filewidgets/kfileplacesmodel.cpp:1370
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Safely Remove"
 msgstr "&Бяспечнае выманне"
 
-#: filewidgets/kfileplacesmodel.cpp:1376
+#: filewidgets/kfileplacesmodel.cpp:1375
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmounting…"
 msgstr "Адмантаванне…"
 
-#: filewidgets/kfileplacesmodel.cpp:1378
+#: filewidgets/kfileplacesmodel.cpp:1377
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Unmount"
 msgstr "&Адмантаваць"
 
-#: filewidgets/kfileplacesmodel.cpp:1402
+#: filewidgets/kfileplacesmodel.cpp:1401
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Eject"
 msgstr "&Выняць"
 
-#: filewidgets/kfileplacesmodel.cpp:1449
+#: filewidgets/kfileplacesmodel.cpp:1448
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Прылада \"%1\" - не дыск, таму нельга выканаць выманне."
 
-#: filewidgets/kfileplacesmodel.cpp:1484
+#: filewidgets/kfileplacesmodel.cpp:1483
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "Падчас спробы атрымаць доступ да \"%1\" адбылася памылка. Адказ сістэмы: %2"
 
-#: filewidgets/kfileplacesmodel.cpp:1486
+#: filewidgets/kfileplacesmodel.cpp:1485
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "Падчас спробы атрымаць доступ да \"%1\" адбылася памылка"
 
-#: filewidgets/kfileplacesmodel.cpp:1512
+#: filewidgets/kfileplacesmodel.cpp:1511
 #, kde-format
 msgid "One or more files on this device are open within an application."
 msgstr "Адзін або некалькі файлаў на гэтай прыладзе адкрытыя ў праграме."
 
-#: filewidgets/kfileplacesmodel.cpp:1515
+#: filewidgets/kfileplacesmodel.cpp:1514
 #, kde-kuit-format
 msgid "One or more files on this device are opened in application <application>\"%2\"</application>."
 msgid_plural "One or more files on this device are opened in following applications: <application>%2</application>."
@@ -2624,13 +2626,13 @@ msgstr[1] "Адзін або некалькі файлаў на гэтай пр�
 msgstr[2] "Адзін або некалькі файлаў на гэтай прыладзе адкрытыя ў праграмах: <application>%2</application>."
 msgstr[3] "Адзін або некалькі файлаў на гэтай прыладзе адкрытыя ў праграмах: <application>%2</application>."
 
-#: filewidgets/kfileplacesmodel.cpp:1518
+#: filewidgets/kfileplacesmodel.cpp:1517
 #, kde-format
 msgctxt "separator in list of apps blocking device unmount"
 msgid ", "
 msgstr ", "
 
-#: filewidgets/kfileplacesmodel.cpp:1564
+#: filewidgets/kfileplacesmodel.cpp:1563
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reformat or Edit with Partition Manager"
@@ -2641,128 +2643,128 @@ msgstr "Перафарматаваць або рэдагаваць з дапам
 msgid "%1 (hidden)"
 msgstr "%1 (схавана)"
 
-#: filewidgets/kfileplacesview.cpp:1121
+#: filewidgets/kfileplacesview.cpp:1122
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "Ачысціць сметніцу"
 
-#: filewidgets/kfileplacesview.cpp:1146
+#: filewidgets/kfileplacesview.cpp:1147
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mount"
 msgstr "Прымантаваць"
 
-#: filewidgets/kfileplacesview.cpp:1152
+#: filewidgets/kfileplacesview.cpp:1153
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open in New Tab"
 msgstr "Адкрыць у новай укладцы"
 
-#: filewidgets/kfileplacesview.cpp:1155
+#: filewidgets/kfileplacesview.cpp:1156
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open in New Window"
 msgstr "Адкрыць у новым акне"
 
-#: filewidgets/kfileplacesview.cpp:1164
+#: filewidgets/kfileplacesview.cpp:1165
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add Entry…"
 msgstr "Дадаць запіс…"
 
-#: filewidgets/kfileplacesview.cpp:1170
+#: filewidgets/kfileplacesview.cpp:1171
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Edit…"
 msgstr "&Рэдагаванне…"
 
-#: filewidgets/kfileplacesview.cpp:1175
+#: filewidgets/kfileplacesview.cpp:1176
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove from Places"
 msgstr "Выдаліць з размяшчэнняў"
 
-#: filewidgets/kfileplacesview.cpp:1179
+#: filewidgets/kfileplacesview.cpp:1180
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Hide"
 msgstr "&Схаваць"
 
-#: filewidgets/kfileplacesview.cpp:1187
+#: filewidgets/kfileplacesview.cpp:1188
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hide Section '%1'"
 msgstr "Схаваць раздзел \"%1\""
 
-#: filewidgets/kfileplacesview.cpp:1187
+#: filewidgets/kfileplacesview.cpp:1188
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hide Section"
 msgstr "Схаваць раздзел"
 
-#: filewidgets/kfileplacesview.cpp:1195
+#: filewidgets/kfileplacesview.cpp:1196
 #, kde-format
 msgid "&Show All Entries"
 msgstr "&Паказаць усе запісы"
 
-#: filewidgets/kfileplacesview.cpp:1200
+#: filewidgets/kfileplacesview.cpp:1201
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Icon Size"
 msgstr "Памер значка"
 
-#: filewidgets/kfileplacesview.cpp:1320
+#: filewidgets/kfileplacesview.cpp:1321
 #, kde-format
 msgctxt "@item:inmenu Auto set icon size based on available space inthe Places side-panel"
 msgid "Auto Resize"
 msgstr "Аўтаматычная змена памеру"
 
-#: filewidgets/kfileplacesview.cpp:1340
+#: filewidgets/kfileplacesview.cpp:1341
 #, kde-format
 msgctxt "Small icon size"
 msgid "Small (%1x%1)"
 msgstr "Маленькія (%1x%1)"
 
-#: filewidgets/kfileplacesview.cpp:1343
+#: filewidgets/kfileplacesview.cpp:1344
 #, kde-format
 msgctxt "Medium icon size"
 msgid "Medium (%1x%1)"
 msgstr "Сярэднія (%1x%1)"
 
-#: filewidgets/kfileplacesview.cpp:1346
+#: filewidgets/kfileplacesview.cpp:1347
 #, kde-format
 msgctxt "Large icon size"
 msgid "Large (%1x%1)"
 msgstr "Вялікія (%1x%1)"
 
-#: filewidgets/kfileplacesview.cpp:1349
+#: filewidgets/kfileplacesview.cpp:1350
 #, kde-format
 msgctxt "Huge icon size"
 msgid "Huge (%1x%1)"
 msgstr "Вялізныя (%1x%1)"
 
-#: filewidgets/kfilewidget.cpp:600
+#: filewidgets/kfilewidget.cpp:615
 #, kde-format
 msgid "You can only select one file"
 msgstr "Вы можаце абраць толькі адзін файл"
 
-#: filewidgets/kfilewidget.cpp:600
+#: filewidgets/kfilewidget.cpp:615
 #, kde-format
 msgid "More than one file provided"
 msgstr "Пададзена больш за адзін файл"
 
-#: filewidgets/kfilewidget.cpp:771
+#: filewidgets/kfilewidget.cpp:786
 #, kde-format
 msgid "You can only select local files"
 msgstr "Вы можаце абраць толькі лакальныя файлы"
 
-#: filewidgets/kfilewidget.cpp:771
+#: filewidgets/kfilewidget.cpp:786
 #, kde-format
 msgid "Remote files not accepted"
 msgstr "Адлеглыя файлы не дапускаюцца"
 
-#: filewidgets/kfilewidget.cpp:778
+#: filewidgets/kfilewidget.cpp:793
 #, kde-format
 msgid "The selected URL uses an unsupported scheme. Please use the following scheme: %2"
 msgid_plural "The selected URL uses an unsupported scheme. Please use one of the following schemes: %2"
@@ -2771,313 +2773,319 @@ msgstr[1] "Абраны URL выкарыстоўвае схему, якая не
 msgstr[2] "Абраны URL выкарыстоўвае схему, якая не падтрымліваецца. Калі ласка, выкарыстоўвайце наступныя схемы: %2"
 msgstr[3] "Абраны URL выкарыстоўвае схему, якая не падтрымліваецца. Калі ласка, выкарыстоўвайце наступныя схемы: %2"
 
-#: filewidgets/kfilewidget.cpp:784
+#: filewidgets/kfilewidget.cpp:799
 #, kde-format
 msgid "Unsupported URL scheme"
 msgstr "Схема URL не падтрымліваецца"
 
-#: filewidgets/kfilewidget.cpp:800
+#: filewidgets/kfilewidget.cpp:815
 #, kde-format
 msgid "More than one folder has been selected and this dialog does not accept folders, so it is not possible to decide which one to enter. Please select only one folder to list it."
 msgstr "Было абрана больш за адзін каталог, таму гэтае дыялогавае акно не прымае каталогі. З гэтай прычыны немагчыма вызначыць патрэбны каталог. Абярыце толькі адзін каталог."
 
-#: filewidgets/kfilewidget.cpp:802
+#: filewidgets/kfilewidget.cpp:817
 #, kde-format
 msgid "More than one folder provided"
 msgstr "Пададзена больш за адзін каталог"
 
-#: filewidgets/kfilewidget.cpp:812
+#: filewidgets/kfilewidget.cpp:827
 #, kde-format
 msgid "At least one folder and one file has been selected. Selected files will be ignored and the selected folder will be listed"
 msgstr "Абраны прынамсі адзін каталог і адзін файл. Абраныя файлы будуць ігнаравацца, а абраны каталог будзе паказвацца ў спісе"
 
-#: filewidgets/kfilewidget.cpp:813
+#: filewidgets/kfilewidget.cpp:828
 #, kde-format
 msgid "Files and folders selected"
 msgstr "Абраны файлы і каталогі"
 
-#: filewidgets/kfilewidget.cpp:831
+#: filewidgets/kfilewidget.cpp:846
 #, kde-format
 msgid "The file \"%1\" could not be found"
 msgstr "Не ўдалося знайсці файл \"%1\""
 
-#: filewidgets/kfilewidget.cpp:831
+#: filewidgets/kfilewidget.cpp:846
 #, kde-format
 msgid "Cannot open file"
 msgstr "Не ўдалося адкрыць файл"
 
-#: filewidgets/kfilewidget.cpp:1176
+#: filewidgets/kfilewidget.cpp:1191
 #, kde-format
 msgid "<qt>Click this button to enter the parent folder.<br /><br />For instance, if the current location is file:/home/konqi clicking this button will take you to file:/home.</qt>"
 msgstr "<qt>Націсніце гэтую кнопку, каб перайсці ў бацькоўскі каталог.<br /><br />Напрыклад, калі бягучае размяшчэнне file:/home/konqi, то націснуўшы кнопку, вы пяройдзеце ў file:/home.</qt>"
 
-#: filewidgets/kfilewidget.cpp:1180
+#: filewidgets/kfilewidget.cpp:1195
 #, kde-format
 msgid "Click this button to move backwards one step in the browsing history."
 msgstr "Націсніце гэтую кнопку, каб перайсці на адзін крок назад у гісторыі прагляду."
 
-#: filewidgets/kfilewidget.cpp:1181
+#: filewidgets/kfilewidget.cpp:1196
 #, kde-format
 msgid "Click this button to move forward one step in the browsing history."
 msgstr "Націсніце гэтую кнопку, каб перайсці на адзін крок уперад у гісторыі прагляду."
 
-#: filewidgets/kfilewidget.cpp:1183
+#: filewidgets/kfilewidget.cpp:1198
 #, kde-format
 msgid "Click this button to reload the contents of the current location."
 msgstr "Націсніце гэтую кнопку, каб перазагрузіць змесціва бягучага размяшчэння."
 
-#: filewidgets/kfilewidget.cpp:1185
+#: filewidgets/kfilewidget.cpp:1200
 #, kde-format
 msgid "Click this button to create a new folder."
 msgstr "Націсніце гэтую кнопку, каб стварыць новы каталог."
 
-#: filewidgets/kfilewidget.cpp:1187
+#: filewidgets/kfilewidget.cpp:1202
 #, kde-format
 msgid "Show Places Panel"
 msgstr "Паказваць панэль размяшчэнняў"
 
-#: filewidgets/kfilewidget.cpp:1194
+#: filewidgets/kfilewidget.cpp:1209
 #, kde-format
 msgid "Show Bookmarks Button"
 msgstr "Паказваць кнопку закладак"
 
-#: filewidgets/kfilewidget.cpp:1201
+#: filewidgets/kfilewidget.cpp:1216
 #, kde-format
 msgid "Options"
 msgstr "Параметры"
 
-#: filewidgets/kfilewidget.cpp:1204
+#: filewidgets/kfilewidget.cpp:1219
 #, kde-format
 msgid "<qt>This is the preferences menu for the file dialog. Various options can be accessed from this menu including: <ul><li>how files are sorted in the list</li><li>types of view, including icon and list</li><li>showing of hidden files</li><li>the Places panel</li><li>file previews</li><li>separating folders from files</li></ul></qt>"
 msgstr "<qt>Гэта меню налад файлавых дыялогавых акон. З гэтага меню можна атрымаць доступ да розных налад, у тым ліку: <ul><li>сартаванне файлаў у спісе</li><li>выгляд</li><li>паказ схаваных файлаў</li><li>панэль размяшчэнняў</li><li>прагляд файлаў</li><li>аддзяленне каталогаў ад файлаў</li></ul></qt>"
 
-#: filewidgets/kfilewidget.cpp:1223
+#: filewidgets/kfilewidget.cpp:1238
 #, kde-format
 msgid "Bookmarks"
 msgstr "Закладкі"
 
-#: filewidgets/kfilewidget.cpp:1227
+#: filewidgets/kfilewidget.cpp:1242
 #, kde-format
 msgid "<qt>This button allows you to bookmark specific locations. Click on this button to open the bookmark menu where you may add, edit or select a bookmark.<br /><br />These bookmarks are specific to the file dialog, but otherwise operate like bookmarks elsewhere in KDE.</qt>"
 msgstr "<qt>Гэтая кнопка дазваляе рабіць закладкі для пэўных размяшчэнняў. Націсніце на гэтую кнопку, каб адкрыць меню закладак, у якім вы можаце дадаць, адрэдагаваць або абраць закладку.<br /><br />Гэтыя закладкі адносяцца да файлавых дыялогавых акон, але ў астатнім працуюць як закладкі ў іншых месцах у KDE.</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: filewidgets/kfilewidget.cpp:1266 widgets/kpropertiesdesktopbase.ui:25
+#: filewidgets/kfilewidget.cpp:1281 widgets/kpropertiesdesktopbase.ui:25
 #, kde-format
 msgid "&Name:"
 msgstr "&Назва:"
 
-#: filewidgets/kfilewidget.cpp:1343
+#: filewidgets/kfilewidget.cpp:1358
 #, kde-format
 msgid "<qt>While typing in the text area, you may be presented with possible matches. This feature can be controlled by clicking with the right mouse button and selecting a preferred mode from the <b>Text Completion</b> menu.</qt>"
 msgstr "<qt>Пры ўводзе ў тэкставае поле вам могуць быць прапаноўвацца магчымыя словы. Гэтай функцыяй можна кіраваць націснуўшы правай кнопкай мышы і абраўшы патрэбны рэжым з меню <b>Аўтаматычнае запаўненне тэксту</b>.</qt>"
 
-#: filewidgets/kfilewidget.cpp:1350
+#: filewidgets/kfilewidget.cpp:1365
 #, kde-format
 msgid "This is the name to save the file as."
 msgstr "Гэта назва, з якой трэба захаваць файл."
 
-#: filewidgets/kfilewidget.cpp:1353
+#: filewidgets/kfilewidget.cpp:1368
 #, kde-format
 msgid "This is the list of files to open. More than one file can be specified by listing several files, separated by spaces."
 msgstr "Гэта спіс файлаў, якія трэба адкрыць. Можна пазначыць некалькі файлаў, раздзяліўшы іх назвы прагаламі."
 
-#: filewidgets/kfilewidget.cpp:1358
+#: filewidgets/kfilewidget.cpp:1373
 #, kde-format
 msgid "This is the name of the file to open."
 msgstr "Гэта назва файла, які трэба адкрыць."
 
-#: filewidgets/kfilewidget.cpp:1371
+#: filewidgets/kfilewidget.cpp:1386
 #, kde-format
 msgctxt "@title:window"
 msgid "Places"
 msgstr "Размяшчэнні"
 
-#: filewidgets/kfilewidget.cpp:1590
+#: filewidgets/kfilewidget.cpp:1605
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr "Файл \"%1\" ужо існуе. Хочаце перазапісаць?"
 
-#: filewidgets/kfilewidget.cpp:1591
+#: filewidgets/kfilewidget.cpp:1606
 #, kde-format
 msgid "Overwrite File?"
 msgstr "Перазапісаць файл?"
 
-#: filewidgets/kfilewidget.cpp:1787
+#: filewidgets/kfilewidget.cpp:1802
 #, kde-format
 msgid "You can only select local files."
 msgstr "Вы можаце абраць толькі лакальныя файлы."
 
-#: filewidgets/kfilewidget.cpp:1787
+#: filewidgets/kfilewidget.cpp:1802
 #, kde-format
 msgid "Remote Files Not Accepted"
 msgstr "Адлеглыя файлы не дапускаюцца"
 
-#: filewidgets/kfilewidget.cpp:1881
+#: filewidgets/kfilewidget.cpp:1896
 #, kde-format
 msgid "All Folders"
 msgstr "Усе каталогі"
 
-#: filewidgets/kfilewidget.cpp:2033 widgets/executablefileopendialog.cpp:44
-#: widgets/kfileitemactions.cpp:725
+#: filewidgets/kfilewidget.cpp:2048 widgets/executablefileopendialog.cpp:44
+#: widgets/kfileitemactions.cpp:709
 #, kde-format
 msgid "&Open"
 msgstr "&Адкрыць"
 
-#: filewidgets/kfilewidget.cpp:2133
+#: filewidgets/kfilewidget.cpp:2148
 #, kde-format
 msgid "Icon size: %1 pixels"
 msgstr "Памер значка: %1 пікселяў"
 
-#: filewidgets/kfilewidget.cpp:2281
+#: filewidgets/kfilewidget.cpp:2296
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr "Аўтаматычна абіраць п&ашырэнне (%1) для назвы файла"
 
-#: filewidgets/kfilewidget.cpp:2282
+#: filewidgets/kfilewidget.cpp:2297
 #, kde-format
 msgid "the extension <b>%1</b>"
 msgstr "пашырэнне <b>%1</b>"
 
-#: filewidgets/kfilewidget.cpp:2288
+#: filewidgets/kfilewidget.cpp:2303
 #, kde-format
 msgid "Automatically select filename e&xtension"
 msgstr "Аўтаматычна абіраць п&ашырэнне для назвы файла"
 
-#: filewidgets/kfilewidget.cpp:2289
+#: filewidgets/kfilewidget.cpp:2304
 #, kde-format
 msgid "a suitable extension"
 msgstr "прыдатнае пашырэнне"
 
-#: filewidgets/kfilewidget.cpp:2297
+#: filewidgets/kfilewidget.cpp:2312
 #, kde-format
 msgid "This option enables some convenient features for saving files with extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area will be updated if you change the file type to save in.<br /><br /></li><li>If no extension is specified in the <b>%2</b> text area when you click <b>Save</b>, %3 will be added to the end of the filename (if the filename does not already exist). This extension is based on the file type that you have chosen to save in.<br /><br />If you do not want KDE to supply an extension for the filename, you can either turn this option off or you can suppress it by adding a period (.) to the end of the filename (the period will be automatically removed).</li></ol>If unsure, keep this option enabled as it makes your files more manageable."
 msgstr "Гэты параметр уключае некаторыя зручныя функцыі для захавання файлаў з пашырэннямі:<br /><ol><li>Любое пашырэнне, пазначанае ў тэкставым полі <b>%1</b>абновіцца, калі вы зменіце тып файла для захавання.<br /><br /></li><li>Калі ў тэкставым полі <b>%2</b> не пазначана пашырэнне, то пры націсканні <b>Захаваць</b> у канец назвы файла (калі яна яшчэ не існуе) дадасца %3. Гэтае пашырэнне заснавана на тыпе файла, які вы абралі для захавання.<br /><br />Калі вы не хочаце, каб KDE падаваў пашырэнне для назвы файла, вы можаце адключыць гэты параметр або забараніць яго дадаўшы кропку (.) у канцы назвы файла (кропка будзе аўтаматычна выдаленая).</li></ol>Калі маеце сумневы, пакіньце гэты параметр ўключаным, бо ён дапамагае палепшыць кіраванне вашымі файламі."
 
-#: filewidgets/kfilewidget.cpp:2770
+#: filewidgets/kfilewidget.cpp:2785
 #, kde-format
 msgid "&File type:"
 msgstr "&Тып файла:"
 
-#: filewidgets/kfilewidget.cpp:2771
+#: filewidgets/kfilewidget.cpp:2786
 #, kde-format
 msgid "<qt>This is the file type selector. It is used to select the format that the file will be saved as.</qt>"
 msgstr "<qt>Гэта сродак выбару тыпу файла. Ён выкарыстоўваецца для выбару фармату, у якім будзе захаваны файл.</qt>"
 
-#: filewidgets/kfilewidget.cpp:2773
+#: filewidgets/kfilewidget.cpp:2788
 #, kde-format
 msgid "&Filter:"
 msgstr "&Фільтр:"
 
-#: filewidgets/kfilewidget.cpp:2775
+#: filewidgets/kfilewidget.cpp:2790
 #, kde-format
 msgid "<qt>This is the filter to apply to the file list. File names that do not match the filter will not be shown.<p>You may select from one of the preset filters in the drop down menu, or you may enter a custom filter directly into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
 msgstr "<qt>Гэта фільтр для ўжывання да спіса файлаў. Назвы файлаў, якія не адпавядаюць фільтру, паказвацца не будуць.<p>Вы можаце абраць адзін з перадусталяваных фільтраў у выплыўным меню або ўвесці адвольны фільтр непасрэдна ў тэкставым полі.</p><p >Можна ўжываць сімвалы * і ?.</p></qt>"
 
-#: filewidgets/knewfilemenu.cpp:467
+#: filewidgets/knewfilemenu.cpp:428
+#| msgid "Create new file type"
+msgctxt "@title:window"
+msgid "Create New File"
+msgstr "Стварыць новы файл"
+
+#: filewidgets/knewfilemenu.cpp:468
 #, kde-format
 msgid "Sorry"
 msgstr "Выбачайце"
 
-#: filewidgets/knewfilemenu.cpp:478
+#: filewidgets/knewfilemenu.cpp:479
 #, kde-format
 msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
 msgstr "<qt>Файл шаблона <b>%1</b> не існуе.</qt>"
 
-#: filewidgets/knewfilemenu.cpp:622 filewidgets/knewfilemenu.cpp:687
+#: filewidgets/knewfilemenu.cpp:623 filewidgets/knewfilemenu.cpp:688
 #, kde-format
 msgid "Name for new link:"
 msgstr "Назва для новай спасылкі:"
 
-#: filewidgets/knewfilemenu.cpp:691
+#: filewidgets/knewfilemenu.cpp:692
 #, kde-format
 msgid "Create link to URL"
 msgstr "Стварыць спасылку на URL"
 
-#: filewidgets/knewfilemenu.cpp:732 filewidgets/knewfilemenu.cpp:787
+#: filewidgets/knewfilemenu.cpp:733 filewidgets/knewfilemenu.cpp:788
 #, kde-format
 msgctxt "@item:inmenu Create New"
 msgid "%1"
 msgstr "%1"
 
-#: filewidgets/knewfilemenu.cpp:1135
+#: filewidgets/knewfilemenu.cpp:1136
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The name <filename>%1</filename> cannot be used because it is reserved for use by the operating system."
 msgstr "Назву <filename>%1</filename> нельга выкарыстоўваць, бо яна зарэзерваваная для выкарыстання аперацыйнай сістэмай."
 
-#: filewidgets/knewfilemenu.cpp:1143
+#: filewidgets/knewfilemenu.cpp:1144
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The name <filename>%1</filename> starts with a dot, so it will be hidden by default."
 msgstr "Назва <filename>%1</filename> пачынаецца з кропкі, таму прадвызначана файл будзе схаваны."
 
-#: filewidgets/knewfilemenu.cpp:1151
+#: filewidgets/knewfilemenu.cpp:1152
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The name <filename>%1</filename> starts with a space, which will result in it being shown before other items when sorting alphabetically, among other potential oddities."
 msgstr "Назва <filename>%1</filename> пачынаецца з прагалу, што прывядзе да таго, што пры сартаванні ў алфавітным парадку элемент будзе паказвацца перад іншымі элементамі."
 
-#: filewidgets/knewfilemenu.cpp:1169
+#: filewidgets/knewfilemenu.cpp:1170
 #, kde-format
 msgid "Using slashes in folder names will create sub-folders, like so:"
 msgstr "Пры выкарыстанні касой рысы ў назвах каталогаў будуць стварацца ўкладзеныя каталогі, напрыклад:"
 
-#: filewidgets/knewfilemenu.cpp:1179
+#: filewidgets/knewfilemenu.cpp:1180
 #, kde-format
 msgid "Using slashes in folder names will create sub-folders."
 msgstr "Пры выкарыстанні касой рысы ў назвах каталогаў будуць стварацца ўкладзеныя каталогі."
 
-#: filewidgets/knewfilemenu.cpp:1191
+#: filewidgets/knewfilemenu.cpp:1192
 #, kde-format
 msgid "Slashes cannot be used in file and folder names."
 msgstr "Касыя рысы нельга выкарыстоўваць у назвах файлаў і каталогаў."
 
-#: filewidgets/knewfilemenu.cpp:1196
+#: filewidgets/knewfilemenu.cpp:1197
 #, kde-format
 msgid "Backslashes cannot be used in file and folder names."
 msgstr "Адваротныя касыя рысы нельга выкарыстоўваць у назвах файлаў і каталогаў."
 
-#: filewidgets/knewfilemenu.cpp:1206
+#: filewidgets/knewfilemenu.cpp:1207
 #, kde-format
 msgid "Starting a file or folder name with a tilde is not recommended because it may be confusing or dangerous when using the terminal to delete things."
 msgstr "Не рэкамендуецца пачынаць назву файла або каталога з \"~\", бо такая назва можа канфліктаваць з функцыямі эмулятара тэрмінала."
 
-#: filewidgets/knewfilemenu.cpp:1274
+#: filewidgets/knewfilemenu.cpp:1275
 #, kde-kuit-format
 msgctxt "@info"
 msgid "A directory with name <filename>%1</filename> already exists."
 msgstr "Каталог з назвай <filename>%1</filename> ужо існуе."
 
-#: filewidgets/knewfilemenu.cpp:1276
+#: filewidgets/knewfilemenu.cpp:1277
 #, kde-kuit-format
 msgctxt "@info"
 msgid "A file with name <filename>%1</filename> already exists."
 msgstr "Файл з назвай <filename>%1</filename> ужо існуе."
 
-#: filewidgets/knewfilemenu.cpp:1362
+#: filewidgets/knewfilemenu.cpp:1363
 #, kde-format
 msgid "Create New"
 msgstr "Стварыць"
 
-#: filewidgets/knewfilemenu.cpp:1374
+#: filewidgets/knewfilemenu.cpp:1375
 #, kde-format
 msgid "Link to Device"
 msgstr "Спасылка на прыладу"
 
-#: filewidgets/knewfilemenu.cpp:1414
+#: filewidgets/knewfilemenu.cpp:1415
 #, kde-format
 msgctxt "Default name for a new folder"
 msgid "New Folder"
 msgstr "Новы каталог"
 
-#: filewidgets/knewfilemenu.cpp:1433
-#, kde-format
+#: filewidgets/knewfilemenu.cpp:1434
+#| msgid "Create Folder"
 msgctxt "@title:window"
-msgid "New Folder"
-msgstr "Новы каталог"
+msgid "Create New Folder"
+msgstr "Стварыць новы каталог"
 
-#: filewidgets/knewfilemenu.cpp:1435
+#: filewidgets/knewfilemenu.cpp:1436
 #, kde-format
 msgid "Create new folder in %1:"
 msgstr "Стварыць новы каталог у %1:"
@@ -3165,7 +3173,7 @@ msgstr "Націсніце, каб перайсці да размяшчэння"
 msgid "Click to Edit Location"
 msgstr "Націсніце, каб рэдагаваць размяшчэнне"
 
-#: gui/applicationlauncherjob.cpp:119 gui/kprocessrunner.cpp:227
+#: gui/applicationlauncherjob.cpp:119 gui/kprocessrunner.cpp:229
 #, kde-format
 msgid "You are not authorized to execute this file."
 msgstr "Вы не аўтарызаваныя для выканання гэтага файла."
@@ -3213,7 +3221,7 @@ msgstr "Файл значка занадта вялікі, спампоўван�
 msgid "No mail client found"
 msgstr "Паштовы кліент не знойдзены"
 
-#: gui/kprocessrunner.cpp:110
+#: gui/kprocessrunner.cpp:112
 #, kde-format
 msgid "The desktop entry file\n"
 "%1\n"
@@ -3222,12 +3230,12 @@ msgstr "Файл запісу працоўнага стала\n"
 "%1\n"
 "непрыдатны."
 
-#: gui/kprocessrunner.cpp:274
+#: gui/kprocessrunner.cpp:276
 #, kde-format
 msgid "Launching %1"
 msgstr "Запуск %1"
 
-#: gui/kprocessrunner.cpp:461
+#: gui/kprocessrunner.cpp:463
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The command <command>%1</command> could not be found."
@@ -3304,45 +3312,45 @@ msgctxt "@info"
 msgid "The file <filename>%1</filename><nl/>has been modified. Do you want to upload the changes?"
 msgstr ""
 
-#: kioexec/kioexecd.cpp:87 kioexec/main.cpp:237 kioexec/main.cpp:247
+#: kioexec/kioexecd.cpp:87 kioexec/main.cpp:240 kioexec/main.cpp:250
 #, kde-format
 msgid "File Changed"
 msgstr "Файл зменены"
 
-#: kioexec/kioexecd.cpp:88 kioexec/main.cpp:248
+#: kioexec/kioexecd.cpp:88 kioexec/main.cpp:251
 #, kde-format
 msgid "Upload"
 msgstr "Запампаваць"
 
-#: kioexec/kioexecd.cpp:89 kioexec/main.cpp:249
+#: kioexec/kioexecd.cpp:89 kioexec/main.cpp:252
 #, kde-format
 msgid "Do Not Upload"
 msgstr "Не запампоўваць"
 
-#: kioexec/main.cpp:57
+#: kioexec/main.cpp:58
 #, kde-format
 msgid "Invalid URL: %1"
 msgstr "Хібны URL: %1"
 
-#: kioexec/main.cpp:63
+#: kioexec/main.cpp:64
 #, kde-format
 msgid "File not found: %1"
 msgstr "Файл не знойдзены: %1"
 
-#: kioexec/main.cpp:80
+#: kioexec/main.cpp:81
 #, kde-format
 msgid "The URL %1\n"
 "is malformed"
 msgstr "URL %1\n"
 "памылковы"
 
-#: kioexec/main.cpp:82
+#: kioexec/main.cpp:83
 #, kde-format
 msgid "Remote URL %1\n"
 "not allowed with --tempfiles switch"
 msgstr "Забаронена выкарыстоўваць URL %1 пераключальнік --tempfiles"
 
-#: kioexec/main.cpp:236
+#: kioexec/main.cpp:239
 #, kde-format
 msgid "The supposedly temporary file\n"
 "%1\n"
@@ -3353,12 +3361,12 @@ msgstr "Меркавана часовы файл\n"
 "быў зменены.\n"
 "Усё яшчэ хочаце выдаліць яго?"
 
-#: kioexec/main.cpp:239
+#: kioexec/main.cpp:242
 #, kde-format
 msgid "Do Not Delete"
 msgstr "Не выдаляць"
 
-#: kioexec/main.cpp:246
+#: kioexec/main.cpp:249
 #, kde-format
 msgid "The file\n"
 "%1\n"
@@ -3369,62 +3377,62 @@ msgstr "Файл\n"
 "быў зменены.\n"
 "Хочаце запампаваць змены?"
 
-#: kioexec/main.cpp:286
+#: kioexec/main.cpp:300
 #, kde-format
 msgid "KIOExec"
 msgstr "KIOExec"
 
-#: kioexec/main.cpp:288
+#: kioexec/main.cpp:302
 #, kde-format
 msgid "KIO Exec - Opens remote files, watches modifications, asks for upload"
 msgstr "KIO Exec - адкрывае адлеглыя файлы, сочыць за зменамі, адпраўляе запыты для запампоўвання"
 
-#: kioexec/main.cpp:290
+#: kioexec/main.cpp:304
 #, kde-format
 msgid "(c) 1998-2000,2003 The KFM/Konqueror Developers"
 msgstr "(c) 1998-2000,2003 The KFM/Konqueror Developers"
 
-#: kioexec/main.cpp:291
+#: kioexec/main.cpp:305
 #, kde-format
 msgid "David Faure"
 msgstr "David Faure"
 
-#: kioexec/main.cpp:292
+#: kioexec/main.cpp:306
 #, kde-format
 msgid "Stephan Kulow"
 msgstr "Stephan Kulow"
 
-#: kioexec/main.cpp:293
+#: kioexec/main.cpp:307
 #, kde-format
 msgid "Bernhard Rosenkraenzer"
 msgstr "Bernhard Rosenkraenzer"
 
-#: kioexec/main.cpp:294
+#: kioexec/main.cpp:308
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: kioexec/main.cpp:295
+#: kioexec/main.cpp:309
 #, kde-format
 msgid "Oswald Buddenhagen"
 msgstr "Oswald Buddenhagen"
 
-#: kioexec/main.cpp:300
+#: kioexec/main.cpp:314
 #, kde-format
 msgid "Treat URLs as local files and delete them afterwards"
 msgstr "Разглядаць URL як лакальныя файлы і выдаляць іх пасля"
 
-#: kioexec/main.cpp:302
+#: kioexec/main.cpp:316
 #, kde-format
 msgid "Suggested file name for the downloaded file"
 msgstr "Прапанаваная назва файла для спампаванага файла"
 
-#: kioexec/main.cpp:303
+#: kioexec/main.cpp:317
 #, kde-format
 msgid "Command to execute"
 msgstr "Загад для выканання"
 
-#: kioexec/main.cpp:304
+#: kioexec/main.cpp:318
 #, kde-format
 msgid "URL(s) or local file(s) used for 'command'"
 msgstr "URL-адрас(ы) або лакальны(я) файл(ы) для \"command\""
@@ -3593,12 +3601,12 @@ msgstr "Паведамленне адпраўлена:\n"
 "Адказ сервера:\n"
 "%2\n\n"
 
-#: kioworkers/ftp/ftp.cpp:568 kioworkers/http/http.cpp:261
+#: kioworkers/ftp/ftp.cpp:568 kioworkers/http/http.cpp:301
 #, kde-format
 msgid "You need to supply a username and a password to access this site."
 msgstr "Каб атрымаць доступ да гэтага сайта, трэба пазначыць імя карыстальніка і пароль."
 
-#: kioworkers/ftp/ftp.cpp:570 kioworkers/http/http.cpp:263
+#: kioworkers/ftp/ftp.cpp:570 kioworkers/http/http.cpp:303
 #, kde-format
 msgid "Site:"
 msgstr "Сайт:"
@@ -3625,12 +3633,12 @@ msgid "\n"
 msgstr "\n"
 "Адказ сервера: \"%1\""
 
-#: kioworkers/ftp/ftp.cpp:2487 kioworkers/http/http.cpp:311
+#: kioworkers/ftp/ftp.cpp:2487 kioworkers/http/http.cpp:351
 #, kde-format
 msgid "You need to supply a username and a password for the proxy server listed below before you are allowed to access any sites."
 msgstr "Перш чым вам будзе дазволены доступ да розных сайтаў, трэба пазначыць імя карыстальніка і пароль для сервера проксі."
 
-#: kioworkers/ftp/ftp.cpp:2491 kioworkers/http/http.cpp:315
+#: kioworkers/ftp/ftp.cpp:2491 kioworkers/http/http.cpp:355
 #, kde-format
 msgid "Proxy:"
 msgstr "Проксі:"
@@ -3680,113 +3688,124 @@ msgstr "Пошук раздзела"
 msgid "Could not find filename %1 in %2."
 msgstr "Не ўдалося знайсці назву %1 у %2."
 
-#: kioworkers/http/http.cpp:281 kioworkers/http/http.cpp:320
-#: kioworkers/http/http.cpp:334
+#: kioworkers/http/http.cpp:186 widgets/sslui.cpp:93
+#, kde-format
+msgid "Would you like to accept this certificate forever without being prompted?"
+msgstr "Хочаце ўхваліць гэты сертыфікат назаўжды без пацвярджэння?"
+
+#: kioworkers/http/http.cpp:189 widgets/sslui.cpp:60 widgets/sslui.cpp:96
+#: widgets/widgetsaskuseractionhandler.cpp:490
+#, kde-format
+msgid "Server Authentication"
+msgstr "Аўтэнтыфікацыя сервера"
+
+#: kioworkers/http/http.cpp:321 kioworkers/http/http.cpp:360
+#: kioworkers/http/http.cpp:374
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> на <b>%2</b>"
 
-#: kioworkers/http/http.cpp:1236
+#: kioworkers/http/http.cpp:1276
 #, kde-format
 msgid "Otherwise, the request would have succeeded."
 msgstr "Інакш запыт быў бы ўдалым."
 
-#: kioworkers/http/http.cpp:1239
+#: kioworkers/http/http.cpp:1279
 #, kde-format
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "атрымаць значэнні ўласцівасцяў"
 
-#: kioworkers/http/http.cpp:1241
+#: kioworkers/http/http.cpp:1281
 #, kde-format
 msgctxt "request type"
 msgid "set property values"
 msgstr "вызначыць значэнні ўласцівасцяў"
 
-#: kioworkers/http/http.cpp:1243
+#: kioworkers/http/http.cpp:1283
 #, kde-format
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "стварыць запытаны каталог"
 
-#: kioworkers/http/http.cpp:1245
+#: kioworkers/http/http.cpp:1285
 #, kde-format
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "скапіяваць вызначаны файл або каталог"
 
-#: kioworkers/http/http.cpp:1247
+#: kioworkers/http/http.cpp:1287
 #, kde-format
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "перамясціць вызначаны файл або каталог"
 
-#: kioworkers/http/http.cpp:1249
+#: kioworkers/http/http.cpp:1289
 #, kde-format
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "шукаць у вызначаным каталозе"
 
-#: kioworkers/http/http.cpp:1251
+#: kioworkers/http/http.cpp:1291
 #, kde-format
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "заблакаваць вызначаны файл або каталог"
 
-#: kioworkers/http/http.cpp:1253
+#: kioworkers/http/http.cpp:1293
 #, kde-format
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "разблакаваць вызначаны файл або каталог"
 
-#: kioworkers/http/http.cpp:1255
+#: kioworkers/http/http.cpp:1295
 #, kde-format
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "выдаліць вызначаны файл або каталог"
 
-#: kioworkers/http/http.cpp:1257
+#: kioworkers/http/http.cpp:1297
 #, kde-format
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "запытаць магчымасці сервера"
 
-#: kioworkers/http/http.cpp:1259
+#: kioworkers/http/http.cpp:1299
 #, kde-format
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "атрымаць змесціва вызначанага файла або каталога"
 
-#: kioworkers/http/http.cpp:1261
+#: kioworkers/http/http.cpp:1301
 #, kde-format
 msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr "запусціць стварэнне справаздачы ў вызначаным каталозе"
 
-#: kioworkers/http/http.cpp:1269
+#: kioworkers/http/http.cpp:1309
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Падчас спробы %2 адбылася нечаканая памылка (%1)."
 
-#: kioworkers/http/http.cpp:1309
+#: kioworkers/http/http.cpp:1349
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid "An error occurred while attempting to %1, %2. A summary of the reasons is below."
 msgstr "Падчас спробы %2 адбылася памылка %1. Зводка знаходзіцца ніжэй."
 
-#: kioworkers/http/http.cpp:1327 kioworkers/http/http.cpp:1471
+#: kioworkers/http/http.cpp:1367 kioworkers/http/http.cpp:1511
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "Падчас спробы %1 было адмоўлена ў доступе."
 
-#: kioworkers/http/http.cpp:1341 kioworkers/http/http.cpp:1478
+#: kioworkers/http/http.cpp:1381 kioworkers/http/http.cpp:1518
 #, kde-format
 msgid "A resource cannot be created at the destination until one or more intermediate collections (folders) have been created."
 msgstr "Немагчыма стварыць рэсурс у месцы прызначэння, пакуль не будзе створаная адна або больш калекцый (каталогаў)."
 
-#: kioworkers/http/http.cpp:1350
+#: kioworkers/http/http.cpp:1390
 #, kde-format
 msgid "The server was unable to maintain the liveness of the\n"
 "properties listed in the propertybehavior XML element\n"
@@ -3799,50 +3818,50 @@ msgstr "Сервер не змог забяспечыць працаздольн
 "гэтыя файлы не перазапісваюцца.\n"
 " %1"
 
-#: kioworkers/http/http.cpp:1358
+#: kioworkers/http/http.cpp:1398
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr "Немагчыма выканаць запытанае блакаванне. %1"
 
-#: kioworkers/http/http.cpp:1364
+#: kioworkers/http/http.cpp:1404
 #, kde-format
 msgid "The server does not support the request type of the body."
 msgstr "Сервер не падтрымлівае тып запыту цела."
 
-#: kioworkers/http/http.cpp:1369 kioworkers/http/http.cpp:1486
+#: kioworkers/http/http.cpp:1409 kioworkers/http/http.cpp:1526
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr "Не ўдалося %1, бо рэсурс заблакаваны."
 
-#: kioworkers/http/http.cpp:1373
+#: kioworkers/http/http.cpp:1413
 #, kde-format
 msgid "This action was prevented by another error."
 msgstr "Гэтае дзеянне перарвана іншай памылкай."
 
-#: kioworkers/http/http.cpp:1380 kioworkers/http/http.cpp:1493
+#: kioworkers/http/http.cpp:1420 kioworkers/http/http.cpp:1533
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the destination server refuses to accept the file or folder."
 msgstr "Не ўдалося %1, бо мэтавы сервер адмаўляецца прыняць файл або каталог."
 
-#: kioworkers/http/http.cpp:1389 kioworkers/http/http.cpp:1502
+#: kioworkers/http/http.cpp:1429 kioworkers/http/http.cpp:1542
 #, kde-format
 msgid "The destination resource does not have sufficient space to record the state of the resource after the execution of this method."
 msgstr "Мэтавы рэсурс не мае месца для запісу стану рэсурсу пасля выканання гэтага метаду."
 
-#: kioworkers/http/http.cpp:1442
+#: kioworkers/http/http.cpp:1482
 #, kde-format
 msgid "The resource cannot be deleted."
 msgstr "Не ўдалося выдаліць рэсурс."
 
-#: kioworkers/http/http.cpp:1462
+#: kioworkers/http/http.cpp:1502
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
 msgstr "запампаваць %1"
 
-#: kioworkers/http/http.cpp:1513
+#: kioworkers/http/http.cpp:1553
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
@@ -4488,58 +4507,58 @@ msgctxt "@title:column"
 msgid "Type"
 msgstr "Тып"
 
-#: widgets/kfileitemactions.cpp:370
+#: widgets/kfileitemactions.cpp:365
 #, kde-format
 msgid "Open &with %1"
 msgstr "Адкрыць &з дапамогай %1"
 
-#: widgets/kfileitemactions.cpp:372
+#: widgets/kfileitemactions.cpp:367
 #, kde-format
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
 msgstr "%1"
 
-#: widgets/kfileitemactions.cpp:504
+#: widgets/kfileitemactions.cpp:499
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "&Дзеянні"
 
-#: widgets/kfileitemactions.cpp:676
+#: widgets/kfileitemactions.cpp:660
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open Folder With..."
 msgstr "Адкрыць &каталог з дапамогай..."
 
-#: widgets/kfileitemactions.cpp:676
+#: widgets/kfileitemactions.cpp:660
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "&Адкрыць з дапамогай..."
 
-#: widgets/kfileitemactions.cpp:714
+#: widgets/kfileitemactions.cpp:698
 #, kde-format
 msgid "&Open folder with %1"
 msgstr "Адкрыць &каталог з дапамогай %1"
 
-#: widgets/kfileitemactions.cpp:714
+#: widgets/kfileitemactions.cpp:698
 #, kde-format
 msgid "&Open with %1"
 msgstr "&Адкрыць з дапамогай %1"
 
-#: widgets/kfileitemactions.cpp:747
+#: widgets/kfileitemactions.cpp:730
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open Folder With"
 msgstr "Адкрыць &каталог з дапамогай"
 
-#: widgets/kfileitemactions.cpp:747
+#: widgets/kfileitemactions.cpp:730
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "&Адкрыць з дапамогай"
 
-#: widgets/kfileitemactions.cpp:758
+#: widgets/kfileitemactions.cpp:741
 #, kde-format
 msgctxt "@action:inmenu Open With"
 msgid "&Other Application..."
@@ -5562,32 +5581,32 @@ msgid "URL:"
 msgstr "URL:"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2501
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2773
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2772
 #, kde-format
 msgid "Could not save properties. Only entries on local file systems are supported."
 msgstr "Не ўдалося захаваць уласцівасці. Падтрымліваюцца толькі запісы ў лакальных файлавых сістэмах."
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2573
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2572
 #, kde-format
 msgid "&Application"
 msgstr "&Праграма"
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2713
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2712
 #, kde-format
 msgid "Add File Type for %1"
 msgstr "Дадаць тып файлаў для %1"
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2714
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2713
 #, kde-format
 msgid "Select one or more file types to add:"
 msgstr "Дадаць адзін або некалькі тыпаў файлаў:"
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2856
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2851
 #, kde-format
 msgid "Only executables on local file systems are supported."
 msgstr "Падтрымліваюцца толькі выканальныя файлы, размешчаныя ў лакальнай файлавай сістэме."
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2870
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2865
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "Адмысловыя параметры для %1"
@@ -6089,17 +6108,6 @@ msgstr "Адлеглы хост не адправіў сертыфікаты SSL
 msgid "The server failed the authenticity check (%1).\n\n"
 msgstr "Сервер не прайшоў правяранне сапраўднасці (%1).\n\n"
 
-#: widgets/sslui.cpp:60 widgets/sslui.cpp:96
-#: widgets/widgetsaskuseractionhandler.cpp:490
-#, kde-format
-msgid "Server Authentication"
-msgstr "Аўтэнтыфікацыя сервера"
-
-#: widgets/sslui.cpp:93
-#, kde-format
-msgid "Would you like to accept this certificate forever without being prompted?"
-msgstr "Хочаце ўхваліць гэты сертыфікат назаўжды без пацвярджэння?"
-
 #: widgets/widgetsaskuseractionhandler.cpp:235
 #, kde-kuit-format
 msgctxt "@info"
@@ -6160,12 +6168,12 @@ msgctxt "@option:check"
 msgid "Do not show this message again"
 msgstr "Больш не паказваць гэтае паведамленне"
 
-#: widgets/widgetsaskuseractionhandler.cpp:550
+#: widgets/widgetsaskuseractionhandler.cpp:548
 #, kde-format
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Выглядае, што ланцужок аднарангавых сертыфікатаў SSL пашкоджаны."
 
-#: widgets/widgetsaskuseractionhandler.cpp:553
+#: widgets/widgetsaskuseractionhandler.cpp:551
 #, kde-format
 msgid "SSL"
 msgstr "SSL"
@@ -6186,6 +6194,17 @@ msgstr "Гэта запусціць праграму:"
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
 msgstr "Калі вы не давяраеце гэтай праграме, націсніце \"Скасаваць\""
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "New Folder"
+#~ msgctxt "@title:window"
+#~ msgid "New File"
+#~ msgstr "Новы каталог"
+
+#~ msgctxt "@title:window"
+#~ msgid "New Folder"
+#~ msgstr "Новы каталог"
 
 #~ msgid "Differences"
 #~ msgstr "Адрозненні"
@@ -7969,11 +7988,6 @@ msgstr "Калі вы не давяраеце гэтай праграме, на�
 #~| msgid "Invalid Filenames"
 #~ msgid "Invalid Directory Name"
 #~ msgstr "Няправільныя назвы файлаў"
-
-#, fuzzy
-#~| msgid "Create new file type"
-#~ msgid "Create New File Type"
-#~ msgstr "Стварыць новы тып файлаў"
 
 #~ msgid "Edit Entry..."
 #~ msgstr "Змяніць запіс..."
