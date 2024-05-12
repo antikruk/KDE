@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-05 00:38+0000\n"
-"PO-Revision-Date: 2024-04-05 19:34\n"
+"POT-Creation-Date: 2024-04-29 00:40+0000\n"
+"PO-Revision-Date: 2024-05-12 08:00\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -44,8 +44,8 @@ msgstr "Публічны дамен"
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:297
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:360
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:386
-#: libdiscover/UpdateModel/UpdateModel.cpp:121
-#: libdiscover/UpdateModel/UpdateModel.cpp:332
+#: libdiscover/UpdateModel/UpdateModel.cpp:122
+#: libdiscover/UpdateModel/UpdateModel.cpp:335
 #, kde-format
 msgid "Unknown"
 msgstr "Невядома"
@@ -521,28 +521,28 @@ msgctxt "user denotes this as user-scoped flatpak repo"
 msgid "%1 (user)"
 msgstr "%1 (карыстальнік)"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:721
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:724
 #, kde-format
 msgid "Local bundle"
 msgstr "Лакальны пакет"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1832
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:811
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1885
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:815
 #, kde-format
 msgid "Malformed appstream url '%1'"
 msgstr "Памылковы url-адрас \"%1\""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1937
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1990
 #, kde-format
 msgid "Failed to add source '%1': %2"
 msgstr "Не ўдалося дадаць крыніцу \"%1\": %2"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2058
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2111
 #, kde-format
 msgid "There are no Flatpak sources."
 msgstr "Крыніц Flatpak няма."
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2062
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2115
 #, kde-format
 msgid "Failed to load \"%1\" source"
 msgstr "Не ўдалося загрузіць крыніцу \"%1\""
@@ -1041,13 +1041,13 @@ msgctxt "%1 is the date as formatted by the locale"
 msgid "Your operating system ended support on %1. Consider upgrading to a supported version."
 msgstr "Падтрымка вашай аперацыйная сістэмы была спыненая %1. Падумайце пра тое, каб абнавіцца да версіі, якая падтрымліваецца."
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:918
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:922
 #, kde-format
 msgid "Cannot remove '%1'"
 msgstr "Не ўдалося выдаліць \"%1\""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1004
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:402
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1008
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:403
 #, kde-format
 msgctxt "@info:status %1 is a new major version of the user's distro"
 msgid "<b>%1 is now available.</b>\n"
@@ -1055,14 +1055,14 @@ msgid "<b>%1 is now available.</b>\n"
 msgstr "<b> Даступны %1.</b>\n"
 "Каб мець магчымасць абнавіць да гэтай новай версіі, спачатку ўжывіце ўсе даступныя абнаўленні, а потым перазапусціце сістэму."
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1013
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1017
 #, kde-format
 msgctxt "@action: button"
 msgid "Upgrade Now"
 msgstr "Абнавіць зараз"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1036
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:412
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1040
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:413
 #, kde-format
 msgctxt "@info:status %1 is a new major version of the user's distro"
 msgid "%1 is now available."
@@ -2090,23 +2090,23 @@ msgstr "rpm-ostree: знойдзена некалькі загружаных р�
 msgid "rpm-ostree: No booted deployment found. Please file a bug."
 msgstr "rpm-ostree: не знойдзена загружаных размяшчэнняў. Адпраўце справаздачу пра хібу."
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:410
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:411
 #, kde-format
 msgctxt "@action: button"
 msgid "Begin Upgrade…"
 msgstr "Пачаць абнаўленне…"
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:548
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:549
 #, kde-format
 msgid "You have pending updates for the current version. Proceeding anyway."
 msgstr "У вас ёсць незавершаныя абнаўленні для бягучай версіі. Усё адно працягваецца."
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:551
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:552
 #, kde-format
 msgid "Please update to the latest version before rebasing to a major version"
 msgstr "Перш чым перайсці да новай значнай версіі, трэба абнавіцца да апошняй версіі"
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:559
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:560
 #, kde-format
 msgid "Missing remote ref for rebase operation. Please file a bug."
 msgstr "Для выканання аперацыі пераходу не хапае спасылкі. Адпраўце справаздачу пра хібу."
@@ -2187,7 +2187,6 @@ msgid "rpm-ostree-backend: Error: Can not rebase to an empty ref. Please file a 
 msgstr "rpm-ostree-backend: Памылка: немагчыма перайсці па пустой спасылцы. Паведаміце пра памылку."
 
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:96
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:270
 #, kde-format
 msgid "rpm-ostree-backend: Error: Unknown operation requested. Please file a bug."
 msgstr "rpm-ostree-backend: Памылка: запытана невядомая аперацыя. Паведаміце пра памылку."
@@ -2205,37 +2204,37 @@ msgstr "не ўдалося выканаць трансакцыю rpm-ostree з:
 msgid "rpm-ostree-backend: Error: Unknown resource format. Please file a bug."
 msgstr "rpm-ostree-backend: Памылка: невядомы фармат рэсурсу. Паведаміце пра памылку."
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:366
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:364
 #, kde-format
 msgid "Cancelling rpm-ostree transaction. This may take some time. Please wait."
 msgstr "Скасаванне трансакцыі rpm-ostree. Гэта можа заняць пэўны час."
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:395
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:393
 #, kde-format
 msgid "Checking for a system update"
 msgstr "Правяранне наяўнасці абнаўлення сістэмы"
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:398
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:396
 #, kde-format
-msgid "Downloading system update"
-msgstr "Спампоўванне абнаўлення сістэмы"
+msgid "Downloading system update. Please be patient as progress is not reported."
+msgstr ""
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:401
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:399
 #, kde-format
-msgid "Updating the system"
-msgstr "Абнаўленне сістэмы"
+msgid "Updating the system. Please be patient as progress is not reported."
+msgstr ""
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:404
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:402
 #, kde-format
-msgid "Updating to the next major version"
-msgstr "Абнаўленне да наступнай значнай версіі"
+msgid "Updating to the next major version. Please be patient as progress is not reported."
+msgstr ""
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:407
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:405
 #, kde-format
 msgid "Operation in progress (started outside of Discover)"
 msgstr "Выконваецца аперацыя (запушчана па-за межамі Discover)"
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:413
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:411
 #, kde-format
 msgid "Unknown transaction type"
 msgstr "Невядомы тып трансакцыі"
@@ -2251,7 +2250,7 @@ msgid "%1 channels"
 msgstr "%1 каналаў"
 
 #: libdiscover/backends/SnapBackend/qml/ChannelsButton.qml:43
-#: libdiscover/backends/SnapBackend/SnapResource.cpp:356
+#: libdiscover/backends/SnapBackend/SnapResource.cpp:364
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
@@ -2271,7 +2270,7 @@ msgstr "Правы доступу для \"%1\""
 msgid "Snap"
 msgstr "Snap"
 
-#: libdiscover/backends/SnapBackend/SnapTransaction.cpp:51
+#: libdiscover/backends/SnapBackend/SnapTransaction.cpp:53
 #, kde-format
 msgid "This Snap application is not compatible with security sandboxing and will have full access to this computer. Install it anyway?"
 msgstr "Гэтая праграма Snap несумяшчальная з ізаляваным асяроддзем бяспекі і будзе мець поўны доступ да гэтага камп'ютара. Усё адно ўсталяваць?"
@@ -2323,7 +2322,7 @@ msgctxt "Do not translate or alter \\u009C"
 msgid "%1 → %2%1 → %2%2"
 msgstr "%1 → %2%1 → %2%2"
 
-#: libdiscover/resources/AbstractResourcesBackend.cpp:174
+#: libdiscover/resources/AbstractResourcesBackend.cpp:181
 #, kde-format
 msgid "Please verify Internet connectivity"
 msgstr "Праверце злучэнне з інтэрнэтам"
@@ -2404,23 +2403,32 @@ msgctxt "@info:status"
 msgid "Cancelled"
 msgstr "Скасавана"
 
-#: libdiscover/UpdateModel/UpdateModel.cpp:133
+#: libdiscover/UpdateModel/UpdateModel.cpp:136
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Applications"
 msgstr "Праграмы"
 
-#: libdiscover/UpdateModel/UpdateModel.cpp:134
+#: libdiscover/UpdateModel/UpdateModel.cpp:137
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "System Software"
 msgstr "Сістэмнае праграмнае забеспячэнне"
 
-#: libdiscover/UpdateModel/UpdateModel.cpp:135
+#: libdiscover/UpdateModel/UpdateModel.cpp:138
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "Дапаўненні"
+
+#~ msgid "Downloading system update"
+#~ msgstr "Спампоўванне абнаўлення сістэмы"
+
+#~ msgid "Updating the system"
+#~ msgstr "Абнаўленне сістэмы"
+
+#~ msgid "Updating to the next major version"
+#~ msgstr "Абнаўленне да наступнай значнай версіі"
 
 #, fuzzy
 #~| msgid "<b>A new major version has been released!</b>"

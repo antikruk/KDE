@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-27 00:38+0000\n"
-"PO-Revision-Date: 2024-04-05 19:34\n"
+"POT-Creation-Date: 2024-05-05 00:39+0000\n"
+"PO-Revision-Date: 2024-05-12 08:00\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,77 +19,77 @@ msgstr ""
 "X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/discover/plasma-discover.po\n"
 "X-Crowdin-File-ID: 9808\n"
 
-#: discover/DiscoverObject.cpp:190
+#: discover/DiscoverObject.cpp:173
 #, kde-format
 msgctxt "@title %1 is the distro name"
 msgid "%1 is not configured for installing apps through Discover—only app add-ons"
 msgstr "Дыстрыбутыў \"%1\" не наладжаны на ўсталяванне праграм з дапамогай Discover - толькі дапаўненняў для праграм"
 
-#: discover/DiscoverObject.cpp:192
+#: discover/DiscoverObject.cpp:175
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the distro name"
 msgid "To use Discover for apps, install your preferred module on the <interface>Settings</interface> page, under <interface>Missing Backends</interface>."
 msgstr "Каб выкарыстоўваць Discover для праграм, усталюйце патрэбны модуль на старонцы <interface>Налады</interface> у раздзеле <interface>Адсутныя рухавік і</interface>."
 
-#: discover/DiscoverObject.cpp:195
+#: discover/DiscoverObject.cpp:178
 #, kde-format
 msgctxt "@action:button %1 is the distro name"
 msgid "Report This Issue to %1"
 msgstr "Паведаміць пра праблему %1"
 
-#: discover/DiscoverObject.cpp:200
+#: discover/DiscoverObject.cpp:183
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the distro name; in this case it always contains 'Arch Linux'"
 msgid "To use Discover for apps, install <link url='https://wiki.archlinux.org/title/Flatpak#Installation'>Flatpak</link> or <link url='https://wiki.archlinux.org/title/KDE#Discover_does_not_show_any_applications'>PackageKit</link> using the <command>pacman</command> package manager.<nl/><nl/> Review <link url='https://archlinux.org/packages/extra/x86_64/discover/'>%1's packaging for Discover</link>"
 msgstr "Каб выкарыстоўваць Discover для праграм, усталюйце <link url='https://wiki.archlinux.org/title/Flatpak#Installation'>Flatpak</link> або <link url='https://wiki.archlinux.org/title/KDE#Discover_does_not_show_any_applications'>PackageKit</link> з дапамогай <command>pacman</command>.<nl/><nl/> Агляд <link url='https://archlinux.org/packages/extra/x86_64/discover/'>%1's пакункаў для Discover</link>"
 
-#: discover/DiscoverObject.cpp:291
+#: discover/DiscoverObject.cpp:274
 #, kde-format
 msgid "Could not find category '%1'"
 msgstr "Не ўдалося знайсці катэгорыю \"%1\""
 
-#: discover/DiscoverObject.cpp:306
+#: discover/DiscoverObject.cpp:289
 #, kde-format
 msgid "Trying to open inexisting file '%1'"
 msgstr "Спроба адкрыцця файла \"%1\", які не існуе"
 
-#: discover/DiscoverObject.cpp:328
+#: discover/DiscoverObject.cpp:311
 #, kde-format
 msgid "Cannot interact with flatpak resources without the flatpak backend %1. Please install it first."
 msgstr "Немагчыма ўзаемадзейнічаць з рэсурсамі Flatpak без рухавіка Flatpak %1. Спачатку ўсталюйце яго."
 
-#: discover/DiscoverObject.cpp:332
+#: discover/DiscoverObject.cpp:315
 #, kde-format
 msgid "Could not open %1"
 msgstr "Не ўдалося адкрыць %1"
 
-#: discover/DiscoverObject.cpp:394
+#: discover/DiscoverObject.cpp:377
 #, kde-format
 msgid "Please make sure Snap support is installed"
 msgstr "Пераканайцеся, што падтрымка Snap усталяваная"
 
-#: discover/DiscoverObject.cpp:397
+#: discover/DiscoverObject.cpp:380
 #, kde-format
 msgid "Could not open %1 because it was not found in any available software repositories."
 msgstr "Немагчыма адкрыць %1, бо яго не ўдалося знайсці ні ў адным з даступных рэпазіторыяў праграмнага забеспячэння."
 
-#: discover/DiscoverObject.cpp:401
+#: discover/DiscoverObject.cpp:384
 #, kde-format
 msgid "Please report this issue to the packagers of your distribution."
 msgstr "Адпраўце справаздачу пра памылку ў службу падтрымкі вашага дыстрыбутыва."
 
-#: discover/DiscoverObject.cpp:404
+#: discover/DiscoverObject.cpp:387
 #, kde-format
 msgid "Report This Issue"
 msgstr "Паведаміць пра праблему"
 
-#: discover/DiscoverObject.cpp:466 discover/DiscoverObject.cpp:468
+#: discover/DiscoverObject.cpp:449 discover/DiscoverObject.cpp:451
 #: discover/main.cpp:118
 #, kde-format
 msgid "Discover"
 msgstr "Discover"
 
-#: discover/DiscoverObject.cpp:469
+#: discover/DiscoverObject.cpp:452
 #, kde-format
 msgid "Discover was closed before certain tasks were done, waiting for it to finish."
 msgstr "Discover быў закрыты да таго, як былі выкананы пэўныя задачы, таму зараз чакаецца іх завяршэнне."
@@ -516,7 +516,7 @@ msgstr[3] "Пошук - %1 элементы"
 msgid "Search"
 msgstr "Пошук"
 
-#: discover/qml/ApplicationsListPage.qml:98 discover/qml/ReviewsPage.qml:99
+#: discover/qml/ApplicationsListPage.qml:98 discover/qml/ReviewsPage.qml:144
 #, kde-format
 msgid "Sort: %1"
 msgstr "Сартаванне: %1"
@@ -599,42 +599,42 @@ msgctxt "@title:window the name of a top-level 'home' page"
 msgid "Home"
 msgstr "Каталог праграмы"
 
-#: discover/qml/BrowsingPage.qml:64
+#: discover/qml/BrowsingPage.qml:53
 #, kde-format
 msgid "Unable to load applications"
 msgstr "Не ўдалося загрузіць праграмы"
 
-#: discover/qml/BrowsingPage.qml:99
+#: discover/qml/BrowsingPage.qml:88
 #, kde-format
 msgctxt "@title:group"
 msgid "Most Popular"
 msgstr "Найбольш папулярныя"
 
-#: discover/qml/BrowsingPage.qml:121
+#: discover/qml/BrowsingPage.qml:110
 #, kde-format
 msgctxt "@title:group"
 msgid "Newly Published & Recently Updated"
 msgstr "Нядаўна апублікаваныя і нядаўна абноўленыя"
 
-#: discover/qml/BrowsingPage.qml:164
+#: discover/qml/BrowsingPage.qml:153
 #, kde-format
 msgctxt "@title:group"
 msgid "Editor's Choice"
 msgstr "Выбар рэдакцыі"
 
-#: discover/qml/BrowsingPage.qml:181
+#: discover/qml/BrowsingPage.qml:170
 #, kde-format
 msgctxt "@title:group"
 msgid "Highest-Rated Games"
 msgstr "Гульні з самым высокім рэйтынгам"
 
-#: discover/qml/BrowsingPage.qml:201 discover/qml/BrowsingPage.qml:232
+#: discover/qml/BrowsingPage.qml:190 discover/qml/BrowsingPage.qml:221
 #, kde-format
 msgctxt "@action:button"
 msgid "See More"
 msgstr "Паказаць яшчэ"
 
-#: discover/qml/BrowsingPage.qml:212
+#: discover/qml/BrowsingPage.qml:201
 #, kde-format
 msgctxt "@title:group"
 msgid "Highest-Rated Developer Tools"
@@ -880,48 +880,48 @@ msgctxt "TransactioName - TransactionStatus"
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
-#: discover/qml/ReviewDelegate.qml:65
+#: discover/qml/ReviewDelegate.qml:58
 #, kde-format
 msgid "unknown reviewer"
 msgstr "невядомы рэцэнзент"
 
-#: discover/qml/ReviewDelegate.qml:66
+#: discover/qml/ReviewDelegate.qml:59
 #, kde-format
 msgid "<b>%1</b> by %2"
 msgstr "<b>%1</b> ад %2"
 
-#: discover/qml/ReviewDelegate.qml:66
+#: discover/qml/ReviewDelegate.qml:59
 #, kde-format
 msgid "Comment by %1"
 msgstr "Каментар ад %1"
 
-#: discover/qml/ReviewDelegate.qml:84
+#: discover/qml/ReviewDelegate.qml:73
 #, kde-format
 msgid "Version: %1"
 msgstr "Версія: %1"
 
-#: discover/qml/ReviewDelegate.qml:84
+#: discover/qml/ReviewDelegate.qml:73
 #, kde-format
 msgid "Version: unknown"
 msgstr "Версія: невядома"
 
-#: discover/qml/ReviewDelegate.qml:100
+#: discover/qml/ReviewDelegate.qml:87
 #, kde-format
 msgid "Votes: %1 out of %2"
 msgstr "Галасы: %1 з %2"
 
-#: discover/qml/ReviewDelegate.qml:107
+#: discover/qml/ReviewDelegate.qml:94
 #, kde-format
 msgid "Was this review useful?"
 msgstr "Гэты водгук быў карысным?"
 
-#: discover/qml/ReviewDelegate.qml:119
+#: discover/qml/ReviewDelegate.qml:106
 #, kde-format
 msgctxt "Keep this string as short as humanly possible"
 msgid "Yes"
 msgstr "Так"
 
-#: discover/qml/ReviewDelegate.qml:136
+#: discover/qml/ReviewDelegate.qml:122
 #, kde-format
 msgctxt "Keep this string as short as humanly possible"
 msgid "No"
@@ -983,34 +983,34 @@ msgctxt "@info:usagetip"
 msgid "Insert a name"
 msgstr "Уставіць назву"
 
-#: discover/qml/ReviewsPage.qml:54
+#: discover/qml/ReviewsPage.qml:43
 #, kde-format
 msgid "Reviews for %1"
 msgstr "Водгукі для %1"
 
-#: discover/qml/ReviewsPage.qml:62
+#: discover/qml/ReviewsPage.qml:108
 #, kde-format
 msgid "Write a Review…"
 msgstr "Напісаць водгук…"
 
-#: discover/qml/ReviewsPage.qml:74
+#: discover/qml/ReviewsPage.qml:121
 #, kde-format
 msgid "Install this app to write a review"
 msgstr "Каб напісаць водгук, усталюйце гэтую праграму"
 
-#: discover/qml/ReviewsPage.qml:103
+#: discover/qml/ReviewsPage.qml:148
 #, kde-format
 msgctxt "@label:listbox Most relevant reviews"
 msgid "Most Relevant"
 msgstr "Самыя актуальныя"
 
-#: discover/qml/ReviewsPage.qml:110
+#: discover/qml/ReviewsPage.qml:155
 #, kde-format
 msgctxt "@label:listbox Most recent reviews"
 msgid "Most Recent"
 msgstr "Самыя апошнія"
 
-#: discover/qml/ReviewsPage.qml:117
+#: discover/qml/ReviewsPage.qml:162
 #, kde-format
 msgctxt "@label:listbox Reviews with the highest ratings"
 msgid "Highest Ratings"
@@ -1110,61 +1110,61 @@ msgstr "Паказаць змесціва"
 msgid "Missing Backends"
 msgstr "Адсутныя рухавікі"
 
-#: discover/qml/UpdatesPage.qml:13
+#: discover/qml/UpdatesPage.qml:14
 #, kde-format
 msgid "Updates"
 msgstr "Абнаўленні"
 
-#: discover/qml/UpdatesPage.qml:46
+#: discover/qml/UpdatesPage.qml:47
 #, kde-format
 msgid "Update Issue"
 msgstr "Праблема з абнаўленнем"
 
-#: discover/qml/UpdatesPage.qml:46
+#: discover/qml/UpdatesPage.qml:47
 #, kde-format
 msgid "Technical details"
 msgstr "Тэхнічныя падрабязнасці"
 
-#: discover/qml/UpdatesPage.qml:62
+#: discover/qml/UpdatesPage.qml:63
 #, kde-format
 msgid "There was an issue installing this update. Please try again later."
 msgstr "Падчас усталявання гэтага абнаўлення паўстала праблема. Паўтарыце спробу пазней."
 
-#: discover/qml/UpdatesPage.qml:68
+#: discover/qml/UpdatesPage.qml:69
 #, kde-format
 msgid "See Technical Details"
 msgstr "Паглядзець тэхнічныя падрабязнасці"
 
-#: discover/qml/UpdatesPage.qml:95
+#: discover/qml/UpdatesPage.qml:96
 #, kde-format
 msgctxt "@info %1 is the name of the user's distro/OS"
 msgid "If the error indicated above looks like a real issue and not a temporary network error, please report it to %1, not KDE."
 msgstr "Калі памылка, пазначаная вышэй, выглядае як рэальная праблема, а не часовая памылка сеткі, паведаміце пра гэта ў %1, а не ў KDE."
 
-#: discover/qml/UpdatesPage.qml:103
+#: discover/qml/UpdatesPage.qml:104
 #, kde-format
 msgid "Copy Text"
 msgstr "Скапіяваць тэкст"
 
-#: discover/qml/UpdatesPage.qml:107
+#: discover/qml/UpdatesPage.qml:108
 #, kde-format
 msgctxt "@info %1 is the name of the user's distro/OS"
 msgid "Error message copied. Remember to report it to %1, not KDE!"
 msgstr "Паведамленне памылкі скапіявана. Не забудзьцеся паведаміць пра гэта %1, а не KDE!"
 
-#: discover/qml/UpdatesPage.qml:114
+#: discover/qml/UpdatesPage.qml:115
 #, kde-format
 msgctxt "@action:button %1 is the name of the user's distro/OS"
 msgid "Report Issue to %1"
 msgstr "Паведаміць пра праблему %1"
 
-#: discover/qml/UpdatesPage.qml:140
+#: discover/qml/UpdatesPage.qml:141
 #, kde-format
 msgctxt "@action:button as in, 'update the selected items' "
 msgid "Update Selected"
 msgstr "Абнавіць абранае"
 
-#: discover/qml/UpdatesPage.qml:140
+#: discover/qml/UpdatesPage.qml:141
 #, kde-format
 msgctxt "@action:button as in, 'update all items'"
 msgid "Update All"
