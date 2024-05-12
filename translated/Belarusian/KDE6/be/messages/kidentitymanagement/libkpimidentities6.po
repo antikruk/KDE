@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-05 00:38+0000\n"
-"PO-Revision-Date: 2024-04-05 19:36\n"
+"POT-Creation-Date: 2024-04-19 00:38+0000\n"
+"PO-Revision-Date: 2024-05-12 08:02\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -42,11 +42,27 @@ msgstr "%1 #%2"
 msgid "Unnamed"
 msgstr "Без назвы"
 
-#: core/identitymodel.cpp:58
+#: core/identitymodel.cpp:44
 #, kde-format
 msgctxt "Separator between identity name and email address"
 msgid " - "
 msgstr " - "
+
+#: core/identitytreemodel.cpp:88
+#, kde-format
+msgctxt "Default identity"
+msgid " (default)"
+msgstr " (прадвызначана)"
+
+#: core/identitytreemodel.cpp:124
+#| msgid "Identity"
+msgid "Identity Name"
+msgstr ""
+
+#: core/identitytreemodel.cpp:127
+#| msgid "Email address"
+msgid "Email Address"
+msgstr "Адрас электроннай пошты"
 
 #: core/signature.cpp:170
 #, kde-format
@@ -182,12 +198,6 @@ msgstr "Сапраўды хочаце выдаліць гэтыя асабіст
 msgid "Cancel"
 msgstr "Скасаваць"
 
-#: widgets/identitycombo.cpp:61
-#, kde-format
-msgctxt "Default identity"
-msgid " (default)"
-msgstr " (прадвызначана)"
-
 #: widgets/signatureconfigurator.cpp:107
 #, kde-format
 msgid "&Enable signature"
@@ -286,6 +296,17 @@ msgstr "Памер тэкставага файла"
 #, kde-format
 msgid "&Use HTML (disabling removes formatting)"
 msgstr "&Выкарыстоўваць HTML (пры адключэнні выдаляецца фарматаванне)"
+
+#, fuzzy
+#~| msgid "Unnamed"
+#~ msgid "Rename"
+#~ msgstr "Без назвы"
+
+#, fuzzy
+#~| msgctxt "use default address from control center"
+#~| msgid "Default"
+#~ msgid "Set as Default"
+#~ msgstr "Прадвызначаны"
 
 #, fuzzy
 #~| msgid "Default"
