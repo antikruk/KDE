@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-10 01:46+0000\n"
-"PO-Revision-Date: 2024-02-11 18:54\n"
+"POT-Creation-Date: 2024-05-15 00:37+0000\n"
+"PO-Revision-Date: 2024-05-16 21:14\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -22,6 +22,7 @@ msgstr ""
 "X-Crowdin-File-ID: 10462\n"
 
 #: highscore/kgamehighscore.cpp:154
+msgctxt "@action:button"
 msgid "Retry"
 msgstr "Паўтарыць"
 
@@ -30,32 +31,43 @@ msgid "Cannot access the highscore file. Another user is probably currently writ
 msgstr ""
 
 #: highscore/kgamehighscoredialog.cpp:100
-#: highscore/kgamehighscoredialog.cpp:271
+msgctxt "@title:window"
 msgid "High Scores"
 msgstr ""
 
-#: highscore/kgamehighscoredialog.cpp:114 private/kgame/kplayer.cpp:77
-#, kde-format
+#: highscore/kgamehighscoredialog.cpp:114
+#| msgid "Name"
+msgctxt "@title:column"
 msgid "Name"
 msgstr "Імя"
 
 #: highscore/kgamehighscoredialog.cpp:116
+msgctxt "@title:column"
 msgid "Date"
 msgstr "Дата"
 
 #: highscore/kgamehighscoredialog.cpp:118
+msgctxt "@title:column"
 msgid "Level"
 msgstr "Узровень"
 
 #: highscore/kgamehighscoredialog.cpp:120
+msgctxt "@title:column"
 msgid "Score"
 msgstr "Балы"
 
 #: highscore/kgamehighscoredialog.cpp:122
+msgctxt "@title:column"
 msgid "Time"
 msgstr "Час"
 
+#: highscore/kgamehighscoredialog.cpp:271
+msgctxt "@title:tab"
+msgid "High Scores"
+msgstr ""
+
 #: highscore/kgamehighscoredialog.cpp:288
+msgctxt "@title:group"
 msgid "Rank"
 msgstr "Ранг"
 
@@ -66,19 +78,23 @@ msgstr ""
 
 #: highscore/kgamehighscoredialog.cpp:548
 #, kde-format
+msgctxt "@action:button"
 msgid "&Remember"
 msgstr ""
 
 #: highscore/kgamehighscoredialog.cpp:549
 #, kde-format
+msgctxt "@action:button"
 msgid "&Forget"
 msgstr ""
 
 #: highscore/kgamehighscoredialog.cpp:550
+msgctxt "@info:tooltip"
 msgid "Remember this high score"
 msgstr ""
 
 #: highscore/kgamehighscoredialog.cpp:551
+msgctxt "@info:tooltip"
 msgid "Forget this high score"
 msgstr ""
 
@@ -146,21 +162,30 @@ msgid "Changing the difficulty level will end the current game!"
 msgstr ""
 
 #: kgamedifficulty.cpp:318
-msgid "Change the difficulty level"
+msgctxt "@action:button"
+msgid "Change the Difficulty Level"
 msgstr ""
 
-#: kgamedifficulty.cpp:402 kgamedifficulty.cpp:410
+#: kgamedifficulty.cpp:402
 #, kde-format
-msgctxt "Game difficulty level"
+msgctxt "@info:tooltip Game difficulty level"
+msgid "Difficulty"
+msgstr "Складанасць"
+
+#: kgamedifficulty.cpp:410
+#, kde-format
+msgctxt "@title:menu Game difficulty level"
 msgid "Difficulty"
 msgstr "Складанасць"
 
 #: kgamedifficulty.cpp:411
+msgctxt "@info:tooltip"
 msgid "Set the difficulty level"
 msgstr ""
 
 #: kgamedifficulty.cpp:412
-msgid "Set the difficulty level of the game."
+msgctxt "@info:whatsthis"
+msgid "Sets the difficulty level of the game."
 msgstr ""
 
 #: kgamestandardaction.cpp:68
@@ -177,11 +202,11 @@ msgid "Start a new game"
 msgstr ""
 
 #: kgamestandardaction.cpp:70
-msgid "&Load..."
-msgstr "&Загрузіць..."
+msgid "&Load…"
+msgstr ""
 
 #: kgamestandardaction.cpp:70
-msgid "Open a saved game..."
+msgid "Open a saved game"
 msgstr ""
 
 #: kgamestandardaction.cpp:72
@@ -189,7 +214,7 @@ msgid "Load &Recent"
 msgstr ""
 
 #: kgamestandardaction.cpp:72
-msgid "Open a recently saved game..."
+msgid "Open a recently saved game"
 msgstr ""
 
 #: kgamestandardaction.cpp:74
@@ -209,8 +234,8 @@ msgid "Save the current game"
 msgstr ""
 
 #: kgamestandardaction.cpp:78
-msgid "Save &As..."
-msgstr "Захаваць &як..."
+msgid "Save &As…"
+msgstr ""
 
 #: kgamestandardaction.cpp:78
 msgid "Save the current game to another file"
@@ -265,8 +290,8 @@ msgid "Delete all-time statistics."
 msgstr ""
 
 #: kgamestandardaction.cpp:92
-msgid "&Print..."
-msgstr "&Друкаваць..."
+msgid "&Print…"
+msgstr ""
 
 #: kgamestandardaction.cpp:94
 msgid "&Quit"
@@ -337,15 +362,16 @@ msgid "Solve the game"
 msgstr ""
 
 #: kgamestandardaction.cpp:116
-msgid "Configure &Carddecks..."
+msgid "Configure &Carddecks…"
 msgstr ""
 
 #: kgamestandardaction.cpp:118
-msgid "Configure &High Scores..."
+msgid "Configure &High Scores…"
 msgstr ""
 
 #: kgamethemeselector.cpp:108
-msgid "Get New Themes..."
+msgctxt "@action:button"
+msgid "Download New Themes…"
 msgstr ""
 
 #: kgamethemeselector.cpp:210
@@ -355,14 +381,15 @@ msgstr ""
 
 #: kgamethemeselector.cpp:282
 #| msgid "Your name:"
+msgctxt "@item name of theme, missing"
 msgid "[No name]"
 msgstr ""
 
 #: kgamethemeselector.cpp:298
 #, kde-format
-msgctxt "Author attribution, e.g. \"by Jack\""
-msgid "by %1"
-msgstr "ад %1"
+msgctxt "@info author attribution"
+msgid "By %1"
+msgstr ""
 
 #: private/kchatbase.cpp:98
 msgid "Send to All Players"
@@ -560,6 +587,11 @@ msgstr "Група"
 #, kde-format
 msgid "default"
 msgstr "прадвызначана"
+
+#: private/kgame/kplayer.cpp:77
+#, kde-format
+msgid "Name"
+msgstr "Імя"
 
 #: private/kgame/kplayer.cpp:80
 #, kde-format
