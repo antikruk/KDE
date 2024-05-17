@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-29 13:39+0000\n"
-"PO-Revision-Date: 2024-02-11 18:55\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
+"PO-Revision-Date: 2024-05-16 21:14\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -815,7 +815,7 @@ msgstr ""
 msgid "Styled Joined Rectangles"
 msgstr ""
 
-#: core/view.cpp:682
+#: core/view.cpp:682 core/widgets/configurefilterswidget.cpp:152
 #| msgid "No signature found"
 msgid "No result found"
 msgstr ""
@@ -1003,8 +1003,8 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: core/widgetbase.cpp:186
-#, kde-format
-msgid "Any filter defined."
+#| msgid "Log filter actions"
+msgid "No filter defined."
 msgstr ""
 
 #: core/widgetbase.cpp:186
@@ -1019,7 +1019,7 @@ msgid "Theme"
 msgstr "Тэма"
 
 #: core/widgetbase.cpp:429 core/widgetbase.cpp:519
-#: core/widgets/configurefilterswidget.cpp:74
+#: core/widgets/configurefilterswidget.cpp:75
 #: core/widgets/filtersavedmenu.cpp:17 utils/aggregationconfigbutton.cpp:32
 #: utils/themeconfigbutton.cpp:46
 #| msgid "&Configure KMail..."
@@ -1062,17 +1062,17 @@ msgctxt "@title:window"
 msgid "Configure Filter"
 msgstr "Наладжванне фільтра"
 
-#: core/widgets/configurefilterswidget.cpp:78
+#: core/widgets/configurefilterswidget.cpp:79
 #| msgid "Remo&ve"
 msgid "Remove"
 msgstr "Выдаліць"
 
-#: core/widgets/configurefilterswidget.cpp:81
+#: core/widgets/configurefilterswidget.cpp:82
 #| msgid "Are you sure you want to empty the trash folder?"
 msgid "Do you want to delete this filter?"
 msgstr ""
 
-#: core/widgets/configurefilterswidget.cpp:82
+#: core/widgets/configurefilterswidget.cpp:83
 #| msgid "Rename Filter"
 msgctxt "@title:window"
 msgid "Remove Filter"
@@ -1084,7 +1084,7 @@ msgctxt "@title:window"
 msgid "Edit Filter"
 msgstr ""
 
-#: core/widgets/filternamewidget.cpp:31
+#: core/widgets/filternamewidget.cpp:32
 #| msgid "Name:"
 msgid "Name:"
 msgstr "Назва:"
@@ -1106,6 +1106,7 @@ msgid "The words less than 3 letters are ignored."
 msgstr ""
 
 #: core/widgets/quicksearchwarning.cpp:22
+msgctxt "@action"
 msgid "Do not show again"
 msgstr "Не паказваць зноў"
 
@@ -1214,21 +1215,25 @@ msgstr ""
 
 #: core/widgets/searchlinestatus.cpp:273
 #| msgid "&Full message"
+msgctxt "@action"
 msgid "Full Message"
 msgstr ""
 
 #: core/widgets/searchlinestatus.cpp:280
 #, kde-format
+msgctxt "@action"
 msgid "Body"
 msgstr "Цела"
 
 #: core/widgets/searchlinestatus.cpp:285
 #| msgid "Subject"
+msgctxt "@action"
 msgid "Subject"
 msgstr "Тэма"
 
 #: core/widgets/searchlinestatus.cpp:296
 #| msgid "BCC"
+msgctxt "@action"
 msgid "BCC"
 msgstr ""
 
@@ -1283,8 +1288,9 @@ msgstr "Закрыць укладку"
 
 #: pane.cpp:180
 #, kde-format
+msgctxt "@action"
 msgid "Activate Tab %1"
-msgstr "Перайсці на картку %1"
+msgstr "Перайсці да ўкладкі %1"
 
 #: pane.cpp:200
 #| msgid "Show Quick Search"
@@ -1297,33 +1303,38 @@ msgid "Message List"
 msgstr "Спіс паведамленняў"
 
 #: pane.cpp:227
+msgctxt "@action"
 msgid "Create New Tab"
 msgstr ""
 
 #: pane.cpp:258
-#, kde-format
+msgctxt "@action"
 msgid "Activate Next Tab"
 msgstr "Актываваць наступную ўкладку"
 
 #: pane.cpp:268
 #, kde-format
+msgctxt "@action"
 msgid "Activate Previous Tab"
 msgstr "Актываваць папярэднюю ўкладку"
 
 #: pane.cpp:280
 #, kde-format
+msgctxt "@action"
 msgid "Move Tab Left"
-msgstr "Перамясціць укладку ўлева"
+msgstr "Пасунуць картку ўлева"
 
 #: pane.cpp:288
 #, kde-format
+msgctxt "@action"
 msgid "Move Tab Right"
-msgstr "Перамясціць укладку ўправа"
+msgstr "Пасунуць картку ўправа"
 
 #: pane.cpp:298
 #| msgid ""
 #| "_: View->\n"
 #| "C&ollapse All Threads"
+msgctxt "@action"
 msgid "Close Tab"
 msgstr "Закрыць укладку"
 
@@ -3179,9 +3190,6 @@ msgstr "&Адмяніць"
 #, fuzzy
 #~ msgid "Log filter pattern evaluation"
 #~ msgstr "Праверка па ўзоры"
-
-#~ msgid "Log filter actions"
-#~ msgstr "Рэгістраваць дзеянні фільтру"
 
 #~ msgid "Log size limit:"
 #~ msgstr "Абмежаванне памеру часопіса:"
