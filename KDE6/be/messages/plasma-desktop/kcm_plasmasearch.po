@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-23 00:38+0000\n"
+"POT-Creation-Date: 2024-04-06 00:39+0000\n"
 "PO-Revision-Date: 2024-03-01 19:50\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -11,16 +11,19 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
+"%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Generator: Lokalize 22.08.1\n"
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/plasma-desktop/kcm_plasmasearch.po\n"
+"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/plasma-desktop/"
+"kcm_plasmasearch.po\n"
 "X-Crowdin-File-ID: 10614\n"
 
 #: plasmasearch/kcm.h:70
-#| msgid "Available Plugins"
+#, kde-format
 msgid "Favorite Plugins"
 msgstr "Улюбёныя ўбудовы"
 
@@ -40,18 +43,22 @@ msgid "Get New Plugins…"
 msgstr "Атрымаць новыя ўбудовы…"
 
 #: plasmasearch/ui/main.qml:44
-#| msgid ""
-#| "Enable or disable plugins (used in KRunner, Application Launcher, and the "
-#| "Overview effect)"
-msgid "Enable or disable plugins (used in KRunner, Application Launcher, and the Overview effect). Mark plugins as favorites and arrange them in order you want to see them."
-msgstr "Уключыць або адключыць убудовы (выкарыстоўваюцца ў KRunner, сродку запуску праграм і аглядзе). Пазначце ўбудовы як улюбёныя і ўпарадкуйце іх так, як вы хочаце іх бачыць."
+#, kde-format
+msgid ""
+"Enable or disable plugins (used in KRunner, Application Launcher, and the "
+"Overview effect). Mark plugins as favorites and arrange them in order you "
+"want to see them."
+msgstr ""
+"Уключыць або адключыць убудовы (выкарыстоўваюцца ў KRunner, сродку запуску "
+"праграм і аглядзе). Пазначце ўбудовы як улюбёныя і ўпарадкуйце іх так, як вы "
+"хочаце іх бачыць."
 
-#: plasmasearch/ui/main.qml:89
+#: plasmasearch/ui/main.qml:90
 #, kde-format
 msgid "Remove from favorites"
 msgstr "Выдаліць з улюбёных"
 
-#: plasmasearch/ui/main.qml:89
+#: plasmasearch/ui/main.qml:90
 #, kde-format
 msgid "Add to favorites"
 msgstr "Дадаць ва ўлюбёныя"
@@ -60,7 +67,8 @@ msgstr "Дадаць ва ўлюбёныя"
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Failed to run install script in terminal <message>%1</message>"
-msgstr "Не ўдалося запусціць скрыпт усталявання ў тэрмінале <message>%1</message>"
+msgstr ""
+"Не ўдалося запусціць скрыпт усталявання ў тэрмінале <message>%1</message>"
 
 #: plugininstaller/AbstractJob.cpp:29
 #, kde-format
@@ -126,8 +134,12 @@ msgstr "Пацвердзіць усталяванне"
 #: plugininstaller/PackageKitConfirmationDialog.h:26
 #, kde-kuit-format
 msgctxt "@info"
-msgid "You are about to install a binary package. You should only install these from a trusted author/packager."
-msgstr "Вы збіраецеся ўсталяваць двайковы пакунак. Варта ўсталёўваць пакункі толькі ад праверанага аўтара."
+msgid ""
+"You are about to install a binary package. You should only install these "
+"from a trusted author/packager."
+msgstr ""
+"Вы збіраецеся ўсталяваць двайковы пакунак. Варта ўсталёўваць пакункі толькі "
+"ад праверанага аўтара."
 
 #: plugininstaller/PackageKitConfirmationDialog.h:33
 #: plugininstaller/ScriptConfirmationDialog.h:94
@@ -151,44 +163,92 @@ msgstr "Тып mime %1 не падтрымліваецца рухавіком pa
 #: plugininstaller/ScriptConfirmationDialog.h:44
 #, kde-kuit-format
 msgctxt "@info"
-msgid "This plugin executes the following command for starting the \"%1\" service:<nl/>%2"
-msgstr "Гэтая ўбудова выконвае наступны загад для запуску службы \"%1\":<nl/>%2"
+msgid ""
+"This plugin executes the following command for starting the \"%1\" service:"
+"<nl/>%2"
+msgstr ""
+"Гэтая ўбудова выконвае наступны загад для запуску службы \"%1\":<nl/>%2"
 
 #: plugininstaller/ScriptConfirmationDialog.h:47
 #, kde-kuit-format
 msgctxt "@info"
-msgid "This plugin does not provide an uninstallation script. Please contact the author. You can try to uninstall the plugin manually.<nl/>If you do not feel capable or comfortable with this, click <interface>Cancel</interface>  now."
-msgstr "З гэтай убудовай не пастаўляўся скрыпт выдалення. Звяжыцеся з аўтарам. Вы можаце паспрабаваць выдаліць убудову ўласнаручна.<nl/>Калі вы не ўпэўненыя, што можаце гэта зрабіць, націсніце <interface>Скасаваць</interface>."
+msgid ""
+"This plugin does not provide an uninstallation script. Please contact the "
+"author. You can try to uninstall the plugin manually.<nl/>If you do not feel "
+"capable or comfortable with this, click <interface>Cancel</interface>  now."
+msgstr ""
+"З гэтай убудовай не пастаўляўся скрыпт выдалення. Звяжыцеся з аўтарам. Вы "
+"можаце паспрабаваць выдаліць убудову ўласнаручна.<nl/>Калі вы не ўпэўненыя, "
+"што можаце гэта зрабіць, націсніце <interface>Скасаваць</interface>."
 
 #: plugininstaller/ScriptConfirmationDialog.h:52
 #, kde-kuit-format
 msgctxt "@info"
-msgid "This plugin does not provide an uninstallation script. Please contact the author. You can try to uninstall the plugin manually. Please have a look at the README for instructions from the author.<nl/>If you do not feel capable or comfortable with this, click <interface>Cancel</interface>  now."
-msgstr "З гэтай убудовай не пастаўляўся скрыпт выдалення. Звяжыцеся з аўтарам. Вы можаце паспрабаваць выдаліць убудову ўласнаручна. Праглядзіце файл README, каб пашукаць інструкцыі ад аўтара.<nl/>Калі вы не ўпэўненыя, што можаце гэта зрабіць, націсніце <interface>Скасаваць</interface>."
+msgid ""
+"This plugin does not provide an uninstallation script. Please contact the "
+"author. You can try to uninstall the plugin manually. Please have a look at "
+"the README for instructions from the author.<nl/>If you do not feel capable "
+"or comfortable with this, click <interface>Cancel</interface>  now."
+msgstr ""
+"З гэтай убудовай не пастаўляўся скрыпт выдалення. Звяжыцеся з аўтарам. Вы "
+"можаце паспрабаваць выдаліць убудову ўласнаручна. Праглядзіце файл README, "
+"каб пашукаць інструкцыі ад аўтара.<nl/>Калі вы не ўпэўненыя, што можаце гэта "
+"зрабіць, націсніце <interface>Скасаваць</interface>."
 
 #: plugininstaller/ScriptConfirmationDialog.h:58
 #, kde-kuit-format
 msgctxt "@info"
-msgid "This plugin does not provide an installation script. Please contact the author. You can try to install the plugin manually.<nl/>If you do not feel capable or comfortable with this, click <interface>Cancel</interface>  now."
-msgstr "З гэтай убудовай не пастаўляўся скрыпт усталявання. Звяжыцеся з аўтарам. Вы можаце паспрабаваць усталяваць убудову ўласнаручна.<nl/>Калі вы не ўпэўненыя, што можаце гэта зрабіць, націсніце <interface>Скасаваць</interface>."
+msgid ""
+"This plugin does not provide an installation script. Please contact the "
+"author. You can try to install the plugin manually.<nl/>If you do not feel "
+"capable or comfortable with this, click <interface>Cancel</interface>  now."
+msgstr ""
+"З гэтай убудовай не пастаўляўся скрыпт усталявання. Звяжыцеся з аўтарам. Вы "
+"можаце паспрабаваць усталяваць убудову ўласнаручна.<nl/>Калі вы не "
+"ўпэўненыя, што можаце гэта зрабіць, націсніце <interface>Скасаваць</"
+"interface>."
 
 #: plugininstaller/ScriptConfirmationDialog.h:63
 #, kde-kuit-format
 msgctxt "@info"
-msgid "This plugin does not provide an installation script. Please contact the author. You can try to install the plugin manually. Please have a look at the README for instructions from the author.<nl/>If you do not feel capable or comfortable with this, click <interface>Cancel</interface>  now."
-msgstr "З гэтай убудовай не пастаўляўся скрыпт усталявання. Звяжыцеся з аўтарам. Вы можаце паспрабаваць усталяваць убудову ўласнаручна. Праглядзіце файл README, каб пашукаць інструкцыі ад аўтара.<nl/>Калі вы не ўпэўненыя, што можаце гэта зрабіць, націсніце <interface>Скасаваць</interface>."
+msgid ""
+"This plugin does not provide an installation script. Please contact the "
+"author. You can try to install the plugin manually. Please have a look at "
+"the README for instructions from the author.<nl/>If you do not feel capable "
+"or comfortable with this, click <interface>Cancel</interface>  now."
+msgstr ""
+"З гэтай убудовай не пастаўляўся скрыпт усталявання. Звяжыцеся з аўтарам. Вы "
+"можаце паспрабаваць усталяваць убудову ўласнаручна. Праглядзіце файл README, "
+"каб пашукаць інструкцыі ад аўтара.<nl/>Калі вы не ўпэўненыя, што можаце гэта "
+"зрабіць, націсніце <interface>Скасаваць</interface>."
 
 #: plugininstaller/ScriptConfirmationDialog.h:69
 #, kde-kuit-format
 msgctxt "@info"
-msgid "This plugin uses a script for installation which can pose a security risk. Please examine the entire plugin's contents before installing, or at least read the script's source code.<nl/>If you do not feel capable or comfortable with this, click <interface>Cancel</interface>  now."
-msgstr "Гэтая ўбудова выкарыстоўвае для ўсталявання скрыпт, які можа пагражаць бяспецы. Перад усталяваннем азнаёмцеся з усім змесцівам убудовы або прачытайце зыходны код скрыпта.<nl/>Калі вы не ўпэўненыя, што можаце гэта зрабіць, націсніце <interface>Скасаваць</interface>."
+msgid ""
+"This plugin uses a script for installation which can pose a security risk. "
+"Please examine the entire plugin's contents before installing, or at least "
+"read the script's source code.<nl/>If you do not feel capable or comfortable "
+"with this, click <interface>Cancel</interface>  now."
+msgstr ""
+"Гэтая ўбудова выкарыстоўвае для ўсталявання скрыпт, які можа пагражаць "
+"бяспецы. Перад усталяваннем азнаёмцеся з усім змесцівам убудовы або "
+"прачытайце зыходны код скрыпта.<nl/>Калі вы не ўпэўненыя, што можаце гэта "
+"зрабіць, націсніце <interface>Скасаваць</interface>."
 
 #: plugininstaller/ScriptConfirmationDialog.h:75
 #, kde-kuit-format
 msgctxt "@info"
-msgid "This plugin uses a script for installation which can pose a security risk. Please examine the entire plugin's contents before installing, or at least read the README file and the script's source code.<nl/>If you do not feel capable or comfortable with this, click <interface>Cancel</interface>  now."
-msgstr "Гэтая ўбудова выкарыстоўвае для ўсталявання скрыпт, які можа пагражаць бяспецы. Перад усталяваннем азнаёмцеся з усім змесцівам убудовы або прачытайце файл README і зыходны код скрыпта.<nl/>Калі вы не ўпэўненыя, што можаце гэта зрабіць, націсніце <interface>Скасаваць</interface>."
+msgid ""
+"This plugin uses a script for installation which can pose a security risk. "
+"Please examine the entire plugin's contents before installing, or at least "
+"read the README file and the script's source code.<nl/>If you do not feel "
+"capable or comfortable with this, click <interface>Cancel</interface>  now."
+msgstr ""
+"Гэтая ўбудова выкарыстоўвае для ўсталявання скрыпт, які можа пагражаць "
+"бяспецы. Перад усталяваннем азнаёмцеся з усім змесцівам убудовы або "
+"прачытайце файл README і зыходны код скрыпта.<nl/>Калі вы не ўпэўненыя, што "
+"можаце гэта зрабіць, націсніце <interface>Скасаваць</interface>."
 
 #: plugininstaller/ScriptConfirmationDialog.h:90
 #, kde-format
@@ -231,4 +291,3 @@ msgstr "Не ўдалося развязаць назву пакунка %1"
 msgctxt "@info"
 msgid "Failed to run install command: <message>%1</message>"
 msgstr "Не ўдалося запусціць скрыпт усталявання: <message>%1</message>"
-
