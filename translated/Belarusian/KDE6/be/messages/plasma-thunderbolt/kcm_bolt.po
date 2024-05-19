@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-12 02:01+0000\n"
-"PO-Revision-Date: 2024-05-12 20:05\n"
+"POT-Creation-Date: 2024-03-03 00:40+0000\n"
+"PO-Revision-Date: 2024-05-19 09:15\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -24,10 +24,15 @@ msgstr ""
 msgid "Enable Thunderbolt devices"
 msgstr "Уключыць прылады Thunderbolt"
 
-#: ui/DeviceList.qml:59
+#: ui/DeviceList.qml:60
 #, kde-format
 msgid "No Thunderbolt devices connected"
 msgstr "Няма падлучаных прылад Thunderbolt"
+
+#: ui/DeviceList.qml:61
+#| msgid "Enable Thunderbolt devices"
+msgid "Plug in a Thunderbolt device"
+msgstr ""
 
 #: ui/DeviceView.qml:63
 #, kde-format
@@ -114,15 +119,25 @@ msgstr "Падказка: давераная прылада будзе аўта�
 msgid "Hint: an untrusted device needs to be manually authorized each time it is connected to the computer."
 msgstr "Падказка: пры падлучэнні да камп'ютара недаверанай прылады трэба кожны раз уласнаручна выконваць аўтарызацыю."
 
-#: ui/main.qml:37
+#: ui/main.qml:33
 #, kde-format
 msgid "Thunderbolt support has been disabled in BIOS"
 msgstr "Падтрымка Thunderbolt адключаная ў BIOS"
 
-#: ui/main.qml:42
+#: ui/main.qml:34
 #, kde-format
-msgid "Thunderbolt subsystem is not available"
-msgstr "Падсістэма Thunderbolt недаступная"
+msgid "Follow your system manufacturer's guide to enable Thunderbolt support"
+msgstr ""
+
+#: ui/main.qml:42
+#| msgid "Thunderbolt subsystem is not available"
+msgid "Thunderbolt subsystem is disabled or unavailable"
+msgstr ""
+
+#: ui/main.qml:43
+#, kde-format
+msgid "If the device supports Thunderbolt, try plugging in a Thunderbolt device"
+msgstr ""
 
 #: ui/utils.js:16
 msgid "Disconnected"
