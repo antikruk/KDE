@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-04 01:37+0000\n"
-"PO-Revision-Date: 2024-02-27 07:48\n"
+"POT-Creation-Date: 2024-04-14 00:41+0000\n"
+"PO-Revision-Date: 2024-05-19 21:16\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -29,12 +29,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "nashtlumach@gmail.com"
 
-#: DocumentModel.cpp:52 DocumentModel.cpp:69 DocumentModel.cpp:80
+#: DocumentModel.cpp:54 DocumentModel.cpp:71 DocumentModel.cpp:82
 #, kde-format
 msgid "New document"
 msgstr "Новы дакумент"
 
-#: DocumentModel.cpp:72
+#: DocumentModel.cpp:74
 #, kde-format
 msgctxt "for file names, indicates a range: from file0000.png to file0014.png"
 msgid "%1 ... %2"
@@ -86,20 +86,35 @@ msgstr "Дакумент захаваны як PDF."
 msgid "Document saved with OCR as PDF."
 msgstr "Дакумент захаваны з дапамогай OCR як PDF."
 
-#: DocumentSaver.cpp:183
+#: DocumentSaver.cpp:191
 #, kde-format
 msgid "Document saved as image."
 msgstr "Дакумент захаваны як выява."
 
-#: DocumentSaver.cpp:192
+#: DocumentSaver.cpp:200
 #, kde-format
 msgid "Failed to save document as image."
 msgstr "Не ўдалося захаваць дакумент як выяву."
 
-#: DocumentSaver.cpp:207
+#: DocumentSaver.cpp:215
+#| msgid "Failed to save image"
+msgid "Failed to save image."
+msgstr ""
+
+#: FormatModel.cpp:54
 #, kde-format
-msgid "Failed to save image"
-msgstr "Не ўдалося захаваць выяву"
+msgid "All files"
+msgstr "Усе файлы"
+
+#: ImageImport.cpp:42
+#| msgid "Failed to save image"
+msgid "Failed to load image!"
+msgstr ""
+
+#: ImageImport.cpp:53
+#| msgid "Failed to save image"
+msgid "Failed to load PDF file!"
+msgstr ""
 
 #: main.cpp:56
 #, kde-format
@@ -130,6 +145,11 @@ msgstr "Назва сканера Sane. Выкарыстоўвайце \"test\" 
 #, kde-format
 msgid "device"
 msgstr "прылада"
+
+#: main.cpp:78
+#, kde-format
+msgid "A file path in which the options of your scanner device are dumped."
+msgstr ""
 
 #: qml/ContentView.qml:18
 #, kde-format
@@ -167,74 +187,74 @@ msgctxt "@info"
 msgid "Searching for available devices."
 msgstr "Пошук даступных прылад."
 
-#: qml/DocumentList.qml:74
+#: qml/DocumentList.qml:73
 #, kde-format
 msgid "Select previous page"
 msgstr "Абраць папярэднюю старонку"
 
-#: qml/DocumentList.qml:80
+#: qml/DocumentList.qml:79
 #, kde-format
 msgid "Select next page"
 msgstr "Абраць наступную старонку"
 
-#: qml/DocumentList.qml:86
+#: qml/DocumentList.qml:85
 #, kde-format
 msgid "Move selected page up"
 msgstr "Перамясціць абраную старонку вышэй"
 
-#: qml/DocumentList.qml:95
+#: qml/DocumentList.qml:94
 #, kde-format
 msgid "Move selected page down"
 msgstr "Перамясціць абраную старонку ніжэй"
 
-#: qml/DocumentList.qml:207
+#: qml/DocumentList.qml:205
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Processing page..."
 msgstr "Апрацоўванне старонкі..."
 
-#: qml/DocumentList.qml:220
+#: qml/DocumentList.qml:218
 #, kde-format
 msgctxt "Page index"
 msgid "Page %1"
 msgstr "Старонка %1"
 
-#: qml/DocumentList.qml:231
+#: qml/DocumentList.qml:229
 #, kde-format
 msgid "Move Up"
 msgstr "Перамясціць вышэй"
 
-#: qml/DocumentList.qml:241
+#: qml/DocumentList.qml:239
 #, kde-format
 msgid "Move Down"
 msgstr "Перамясціць ніжэй"
 
-#: qml/DocumentList.qml:251 qml/DocumentPage.qml:418
+#: qml/DocumentList.qml:249 qml/DocumentPage.qml:140
 #, kde-format
 msgid "Rotate Left"
 msgstr "Павярнуць улева"
 
-#: qml/DocumentList.qml:257 qml/DocumentPage.qml:425
+#: qml/DocumentList.qml:255 qml/DocumentPage.qml:147
 #, kde-format
 msgid "Rotate Right"
 msgstr "Павярнуць управа"
 
-#: qml/DocumentList.qml:263 qml/DocumentPage.qml:432
+#: qml/DocumentList.qml:261 qml/DocumentPage.qml:154
 #, kde-format
 msgid "Flip"
 msgstr "Адлюстраваць"
 
-#: qml/DocumentList.qml:269 qml/DocumentPage.qml:439
+#: qml/DocumentList.qml:267 qml/DocumentPage.qml:161
 #, kde-format
 msgid "Save Page"
 msgstr "Захаваць старонку"
 
-#: qml/DocumentList.qml:275 qml/DocumentPage.qml:446
+#: qml/DocumentList.qml:273 qml/DocumentPage.qml:168
 #, kde-format
 msgid "Delete Page"
 msgstr "Выдаліць старонку"
 
-#: qml/DocumentList.qml:294
+#: qml/DocumentList.qml:292
 #, kde-format
 msgid "%1 page"
 msgid_plural "%1 pages"
@@ -243,85 +263,75 @@ msgstr[1] "%1 старонкі"
 msgstr[2] "%1 старонак"
 msgstr[3] "%1 старонкі"
 
-#: qml/DocumentList.qml:303
+#: qml/DocumentList.qml:301
+#, kde-format
+msgid "Flip Pages"
+msgstr ""
+
+#: qml/DocumentList.qml:306
+#, kde-format
+msgid "Flip Odd Pages"
+msgstr ""
+
+#: qml/DocumentList.qml:313
+#, kde-format
+msgid "Flip Even Pages"
+msgstr ""
+
+#: qml/DocumentList.qml:320
+#, kde-format
+msgid "Flip All Pages"
+msgstr ""
+
+#: qml/DocumentList.qml:328
 #, kde-format
 msgid "Reorder Pages"
 msgstr "Змяніць парадак старонак"
 
-#: qml/DocumentList.qml:308
+#: qml/DocumentList.qml:333
 #, kde-format
 msgctxt "Indicates how pages are going to be reordered"
 msgid "13 24 → 1234"
 msgstr "13 24 → 1234"
 
-#: qml/DocumentList.qml:315
+#: qml/DocumentList.qml:340
 #, kde-format
 msgctxt "Indicates how pages are going to be reordered"
 msgid "13 42 → 1234"
 msgstr "13 42 → 1234"
 
-#: qml/DocumentList.qml:322
+#: qml/DocumentList.qml:347
 #, kde-format
 msgid "Reverse Order"
 msgstr "Адваротны парадак"
 
-#: qml/DocumentPage.qml:56
-#, kde-format
-msgid "Show Preview"
-msgstr "Паказваць мініяцюры"
-
-#: qml/DocumentPage.qml:72
+#: qml/DocumentPage.qml:40
 #, kde-kuit-format
 msgctxt "@info"
 msgid "You do not have any images in this document.<nl/><nl/>Start scanning!"
 msgstr "У гэтым дакуменце няма выяў.<nl/><nl/>Пачаць сканаванне!"
 
-#: qml/DocumentPage.qml:258
-#, kde-format
-msgid "Discard this selection"
-msgstr "Адкінуць выбар"
-
-#: qml/DocumentPage.qml:278
-#, kde-format
-msgid "Add Selection Area"
-msgstr "Дадаць абраную вобласць"
-
-#: qml/DocumentPage.qml:283
-#, kde-format
-msgid "Click and drag to select another area"
-msgstr "Пстрыкніце і перацягніце, каб абраць іншую вобласць"
-
-#: qml/DocumentPage.qml:293
-#, kde-format
-msgid "Split Scan Vertically"
-msgstr "Падзяліць па вертыкалі"
-
-#: qml/DocumentPage.qml:304
-#, kde-format
-msgid "Split Scan Horizontally"
-msgstr "Падзяліць па гарызанталі"
-
-#: qml/DocumentPage.qml:376
+#: qml/DocumentPage.qml:98
 #, kde-format
 msgid "Zoom In"
 msgstr "Павялічыць"
 
-#: qml/DocumentPage.qml:385
+#: qml/DocumentPage.qml:107
 #, kde-format
 msgid "Zoom Out"
 msgstr "Паменшыць"
 
-#: qml/DocumentPage.qml:394
+#: qml/DocumentPage.qml:116
 #, kde-format
 msgid "Zoom Fit"
 msgstr "Маштабаваць да памераў акна"
 
-#: qml/DocumentPage.qml:410
+#: qml/DocumentPage.qml:132
 #, kde-format
 msgid "Zoom 100%"
 msgstr "Маштабаваць да 100%"
 
-#: qml/ExportWindow.qml:21 qml/MainWindow.qml:103
+#: qml/ExportWindow.qml:21 qml/MainWindow.qml:119
 #, kde-format
 msgid "Export PDF"
 msgstr "Экспартаваць у PDF"
@@ -346,22 +356,22 @@ msgstr "Уключыць аптычнае распазнаванне знака�
 msgid "Languages:"
 msgstr "Мовы:"
 
-#: qml/ExportWindow.qml:135
+#: qml/ExportWindow.qml:133
 #, kde-format
 msgid "%1 [%2]"
 msgstr "%1 [%2]"
 
-#: qml/ExportWindow.qml:156
+#: qml/ExportWindow.qml:154
 #, kde-format
 msgid "If your required language is not listed, please install Tesseract's language file with your package manager."
 msgstr "Калі неабходнай мовы няма ў спісе, усталюйце ў кіраўніку пакункаў моўны файл Tesseract."
 
-#: qml/ExportWindow.qml:182
+#: qml/ExportWindow.qml:180
 #, kde-format
 msgid "Save"
 msgstr "Захаваць"
 
-#: qml/ExportWindow.qml:198 qml/MainWindow.qml:136
+#: qml/ExportWindow.qml:196 qml/MainWindow.qml:161
 #, kde-format
 msgid "Cancel"
 msgstr "Скасаваць"
@@ -412,47 +422,53 @@ msgstr "Адкінуць усё"
 msgid "Save All"
 msgstr "Захаваць усё"
 
-#: qml/MainWindow.qml:111
+#: qml/MainWindow.qml:107
+#, kde-format
+msgctxt "@action:button import existing PDF file"
+msgid "Import"
+msgstr "Імпартаваць"
+
+#: qml/MainWindow.qml:127
 #, kde-format
 msgid "Preview"
 msgstr "Папярэдні прагляд"
 
-#: qml/MainWindow.qml:123
+#: qml/MainWindow.qml:146
 #, kde-format
 msgid "Scan"
 msgstr "Сканаваць"
 
-#: qml/MainWindow.qml:145
+#: qml/MainWindow.qml:170
 #, kde-format
 msgid "Show Scanner Options"
 msgstr "Паказаць параметры сканера"
 
-#: qml/MainWindow.qml:155 qml/ShareWindow.qml:20
+#: qml/MainWindow.qml:180 qml/ShareWindow.qml:20
 #, kde-format
 msgid "Share"
 msgstr "Падзяліцца"
 
-#: qml/MainWindow.qml:163
+#: qml/MainWindow.qml:188
 #, kde-format
 msgid "Print"
 msgstr "Друкаванне"
 
-#: qml/MainWindow.qml:184 qml/MainWindow.qml:381
+#: qml/MainWindow.qml:209 qml/MainWindow.qml:421
 #, kde-format
 msgid "About Skanpage"
 msgstr "Пра Skanpage"
 
-#: qml/MainWindow.qml:191
+#: qml/MainWindow.qml:216
 #, kde-format
 msgid "Configure Skanpage…"
 msgstr "Наладжванне Skanpage…"
 
-#: qml/MainWindow.qml:199
+#: qml/MainWindow.qml:224
 #, kde-format
 msgid "Configure Keyboard Shortcuts…"
 msgstr "Наладжванне спалучэнняў клавіш…"
 
-#: qml/MainWindow.qml:207
+#: qml/MainWindow.qml:232
 #, kde-format
 msgid "Quit"
 msgstr "Выхад"
@@ -545,26 +561,61 @@ msgstr "пікс."
 msgid "Select options for quick access:"
 msgstr "Абярыце параметры для хуткага доступу:"
 
-#: qml/OptionsPanel.qml:70
+#: qml/OptionsPanel.qml:71
 #, kde-format
 msgctxt "scanner device vendor and model"
 msgid "%1 %2"
 msgstr "%1%2"
 
-#: qml/OptionsPanel.qml:83
+#: qml/OptionsPanel.qml:84
 #, kde-format
 msgid "Show More"
 msgstr "Паказаць яшчэ"
 
-#: qml/OptionsPanel.qml:93
+#: qml/OptionsPanel.qml:94
 #, kde-format
 msgid "Configure Visibility"
 msgstr "Наладжванне бачнасці"
 
-#: qml/OptionsPanel.qml:108
+#: qml/OptionsPanel.qml:109
 #, kde-format
 msgid "Reselect Scanner"
 msgstr "Паўторна абраць сканер"
+
+#: qml/PreviewScanView.qml:239
+#, kde-format
+msgid "Discard this selection"
+msgstr "Адкінуць выбар"
+
+#: qml/PreviewScanView.qml:262
+#| msgid "Show Preview"
+msgid "New Preview Scan"
+msgstr ""
+
+#: qml/PreviewScanView.qml:271
+#, kde-format
+msgid "Add Selection Area"
+msgstr "Дадаць абраную вобласць"
+
+#: qml/PreviewScanView.qml:275
+#, kde-format
+msgid "Click and drag to select another area"
+msgstr "Пстрыкніце і перацягніце, каб абраць іншую вобласць"
+
+#: qml/PreviewScanView.qml:285
+#, kde-format
+msgid "Split Scan Vertically"
+msgstr "Падзяліць па вертыкалі"
+
+#: qml/PreviewScanView.qml:295
+#, kde-format
+msgid "Split Scan Horizontally"
+msgstr "Падзяліць па гарызанталі"
+
+#: qml/PreviewScanView.qml:305
+#| msgid "Show Preview"
+msgid "Close Preview"
+msgstr ""
 
 #: qml/SettingsWindow.qml:20
 #, kde-format
