@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-17 00:39+0000\n"
-"PO-Revision-Date: 2024-05-17 21:12\n"
+"POT-Creation-Date: 2024-05-19 00:39+0000\n"
+"PO-Revision-Date: 2024-05-19 21:12\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -5420,6 +5420,7 @@ msgid "Smartcard information is only available for your own certificates."
 msgstr ""
 
 #: src/dialogs/cardinfotab.cpp:80
+#: src/dialogs/certificateselectiondialog.cpp:162
 #, kde-format
 msgctxt "@action:button"
 msgid "Reload"
@@ -5796,12 +5797,6 @@ msgstr ""
 msgid "Please select one of the following certificates:"
 msgstr ""
 
-#: src/dialogs/certificateselectiondialog.cpp:162
-#: src/view/smartcardwidget.cpp:67
-#, kde-format
-msgid "Reload"
-msgstr "Абнавіць"
-
 #: src/dialogs/certificateselectiondialog.cpp:163
 #| msgid "Overwrite File?"
 msgctxt "@info:tooltip"
@@ -5809,8 +5804,8 @@ msgid "Refresh certificate list"
 msgstr ""
 
 #: src/dialogs/certificateselectiondialog.cpp:164
-#: src/view/keylistcontroller.cpp:390 src/view/welcomewidget.cpp:137
-#, kde-format
+#| msgid "Canceled."
+msgctxt "@action:button"
 msgid "Import..."
 msgstr "Імпартаваць..."
 
@@ -5826,7 +5821,8 @@ msgid "Import certificate"
 msgstr ""
 
 #: src/dialogs/certificateselectiondialog.cpp:167
-#, kde-format
+#| msgid "Overwrite File?"
+msgctxt "@action:button"
 msgid "Lookup..."
 msgstr ""
 
@@ -5843,8 +5839,9 @@ msgstr ""
 
 #: src/dialogs/certificateselectiondialog.cpp:170
 #, kde-format
+msgctxt "@action:button"
 msgid "New..."
-msgstr "Новы..."
+msgstr "Новае..."
 
 #: src/dialogs/certificateselectiondialog.cpp:171
 #| msgid "Overwrite File?"
@@ -5859,6 +5856,7 @@ msgstr ""
 
 #: src/dialogs/certificateselectiondialog.cpp:173
 #| msgid "&Details"
+msgctxt "@action:button"
 msgid "Groups..."
 msgstr ""
 
@@ -6892,6 +6890,7 @@ msgstr ""
 
 #: src/dialogs/updatenotification.cpp:207
 #| msgid "&Update"
+msgctxt "@action:button"
 msgid "&Get update"
 msgstr ""
 
@@ -9854,6 +9853,11 @@ msgstr ""
 msgid "Search for certificates online using a public keyserver"
 msgstr ""
 
+#: src/view/keylistcontroller.cpp:390 src/view/welcomewidget.cpp:137
+#, kde-format
+msgid "Import..."
+msgstr "Імпартаваць..."
+
 #: src/view/keylistcontroller.cpp:391
 #| msgid "Overwrite File?"
 msgid "Import a certificate from a file"
@@ -10829,6 +10833,11 @@ msgstr ""
 #, kde-format
 msgid "Kleopatra currently supports the following card types:"
 msgstr ""
+
+#: src/view/smartcardwidget.cpp:67
+#, kde-format
+msgid "Reload"
+msgstr "Абнавіць"
 
 #: src/view/smartcardwidget.cpp:118
 #, kde-format
