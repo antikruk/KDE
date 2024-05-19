@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-15 00:40+0000\n"
-"PO-Revision-Date: 2024-05-18 09:10\n"
+"POT-Creation-Date: 2024-05-18 00:40+0000\n"
+"PO-Revision-Date: 2024-05-19 21:16\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -60,8 +60,7 @@ msgid "Configure your connection"
 msgstr "Наладжванне злучэння"
 
 #: src/add-printer/AddPrinterAssistant.cpp:195
-#| msgctxt "@title:window"
-#| msgid "Pick a Driver"
+#, kde-format
 msgctxt "@title:window"
 msgid "Pick a Driver for %1"
 msgstr "Абраць драйвер для %1"
@@ -274,7 +273,7 @@ msgstr "Порт Qt 5 / Plasma 5"
 
 #: src/add-printer/main.cpp:32 src/configure-printer/main.cpp:32
 #: src/printqueue/main.cpp:32
-#| msgid "Port to Qt 5 / Plasma 5"
+#, kde-format
 msgid "Port to Qt 6 / Plasma 6"
 msgstr "Порт Qt 6 / Plasma 6"
 
@@ -309,7 +308,7 @@ msgid "Changes the PPD of a given printer/deviceid"
 msgstr "Змяняе PPD пададзенага прынтара або ідэнтыфікатара прылады"
 
 #: src/add-printer/main.cpp:77
-#| msgid "Changes the PPD of a given printer/deviceid"
+#, kde-format
 msgid "The expected input should be printer/deviceid"
 msgstr "Чакаецца ўвод ідэнтыфікатара прынтара або прылады"
 
@@ -425,7 +424,7 @@ msgstr "Абярыце элемент са спіса"
 
 #: src/configure-printer/ConfigureDialog.cpp:93
 #: src/configure-printer/ConfigureDialog.cpp:94
-#| msgid "Print settings"
+#, kde-format
 msgid "Media Settings"
 msgstr "Налады медыя"
 
@@ -580,7 +579,7 @@ msgstr "&Забараніць гэтым карыстальнікам друка
 msgid "A&llow these users to print"
 msgstr "&Дазволіць гэтым карыстальнікам друкаванне"
 
-#: src/configure-printer/PrinterOptions.cpp:53 src/kcm/printermanager.cpp:197
+#: src/configure-printer/PrinterOptions.cpp:53
 #, kde-format
 msgid "Set Default Options"
 msgstr "Вызначыць прадвызначаныя параметры"
@@ -591,51 +590,47 @@ msgstr "Вызначыць прадвызначаныя параметры"
 msgid "Query Printer for Default Options"
 msgstr "Запытаць прынтар для прадвызначаных параметраў"
 
-#: src/kcm/printermanager.cpp:205
-#| msgctxt "@info"
-#| msgid "Failed to configure class"
+#: src/kcm/printermanager.cpp:200
+#, kde-format
 msgctxt "@info"
 msgid "Failed to configure class: "
 msgstr "Не ўдалося наладзіць клас: "
 
-#: src/kcm/printermanager.cpp:205
-#| msgctxt "@info"
-#| msgid "Failed to configure printer"
+#: src/kcm/printermanager.cpp:200
+#, kde-format
 msgctxt "@info"
 msgid "Failed to configure printer: "
 msgstr "Не ўдалося наладзіць прынтар: "
 
-#: src/kcm/printermanager.cpp:372
+#: src/kcm/printermanager.cpp:367
 #, kde-format
 msgid "Failed to perform request: %1"
 msgstr "Не ўдалося выканаць запыт: %1"
 
-#: src/kcm/printermanager.cpp:424
-#| msgctxt "@info"
-#| msgid "Failed to get server settings"
+#: src/kcm/printermanager.cpp:419
+#, kde-format
 msgctxt "@info"
 msgid "Failed to get server settings: %1"
 msgstr "Не ўдалося атрымаць налады сервера: %1"
 
-#: src/kcm/printermanager.cpp:460
+#: src/kcm/printermanager.cpp:455
 #, kde-format
 msgctxt "@info"
 msgid "Server Settings Not Saved: (%1): %2"
 msgstr "Налады сервера не захаваныя: (%1): %2"
 
-#: src/kcm/printermanager.cpp:467
-#| msgctxt "@info"
-#| msgid "Failed to get server settings"
+#: src/kcm/printermanager.cpp:462
+#, kde-format
 msgctxt "@info"
 msgid "Fatal Save Server Settings: (%1): %2"
 msgstr "Пры захаванні налад сервера адбылася фатальная памылка: (%1): %2"
 
-#: src/kcm/printermanager.cpp:519
+#: src/kcm/printermanager.cpp:514
 #, kde-format
 msgid "Print Self-Test Page"
 msgstr "Надрукаваць старонку самаправярання"
 
-#: src/kcm/printermanager.cpp:525
+#: src/kcm/printermanager.cpp:520
 #, kde-format
 msgid "Clean Print Heads"
 msgstr "Ачышчэнне друкавальных галовак"
@@ -719,8 +714,7 @@ msgid "'%1' is ready for printing."
 msgstr "Прынтар \"%1\" гатовы да друкавання."
 
 #: src/libkcups/DevicesModel.cpp:50
-#| msgctxt "@item"
-#| msgid "Manual URI"
+#, kde-format
 msgctxt "@item"
 msgid "Manual Config"
 msgstr "Уласнаручнае наладжванне"
@@ -829,27 +823,21 @@ msgid "Local printer detected by the Hardware Abstraction Layer (HAL)"
 msgstr "Лакальны прынтар, выяўлены з дапамогай Hardware Abstraction Layer (HAL)"
 
 #: src/libkcups/DevicesModel.cpp:125
-#| msgctxt "@info:tooltip"
-#| msgid ""
-#| "HPLIP software driving a fax machine, or the fax function of a multi-"
-#| "function device"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "HPLIP software driving a fax machine,\n"
 "or the fax function of a multi-function device"
 msgstr "Праграмнае забеспячэнне HPLIP, якое кіруе факсам, або функцыя факса шматфункцыянальнай прылады"
 
 #: src/libkcups/DevicesModel.cpp:126
-#| msgctxt "@info:tooltip"
-#| msgid ""
-#| "HPLIP software driving a printer, or the printer function of a multi-"
-#| "function device"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "HPLIP software driving a printer,\n"
 "or the printer function of a multi-function device"
 msgstr "Праграмнае забеспячэнне HPLIP, якое кіруе прынтарам, або функцыя прынтара шматфункцыянальнай прылады"
 
 #: src/libkcups/DevicesModel.cpp:127
-#| msgid "IPP network printer via DNS-SD"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "IPP Network printer via IPP"
 msgstr "Сеткавы прынтар, падлучаны з дапамогай IPP"
@@ -867,13 +855,13 @@ msgid "Remote CUPS printer via DNS-SD"
 msgstr "Адлеглы прынтар CUPS, падлучаны з дапамогай DNS-SD"
 
 #: src/libkcups/DevicesModel.cpp:146
-#| msgid "Network printer via DNS-SD"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Network printer via DNS-SD"
 msgstr "Сеткавы прынтар, падлучаны з дапамогай DNS-SD"
 
 #: src/libkcups/DevicesModel.cpp:148
-#| msgid "%1 network printer via DNS-SD"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "%1 network printer via DNS-SD"
 msgstr "%1 - сеткавы прынтар, падлучаны з дапамогай DNS-SD"
@@ -1112,7 +1100,7 @@ msgid "Unknown - '%1'"
 msgstr "Невядома - \"%1\""
 
 #: src/libkcups/SelectMakeModel.cpp:115
-#| msgid "Choose &the driver from the list"
+#, kde-format
 msgid "Choose the driver for %1"
 msgstr "Абраць драйвер для %1"
 
@@ -1134,7 +1122,7 @@ msgstr "Абраць драйвер"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonSelectDriver)
 #: src/libkcups/SelectMakeModel.ui:79
-#| msgid "Choose &the driver from the list"
+#, kde-format
 msgid "Choose &the driver"
 msgstr "Абраць &драйвер"
 
