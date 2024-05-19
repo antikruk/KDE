@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-12 00:40+0000\n"
-"PO-Revision-Date: 2024-05-17 21:16\n"
+"PO-Revision-Date: 2024-05-19 21:15\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -96,7 +96,7 @@ msgid "%1%"
 msgstr "%1%"
 
 #: package/contents/ui/main.qml:75
-#| msgid "The battery applet has enabled system-wide inhibition"
+#, kde-format
 msgid "The battery applet has enabled suppressing sleep and screen locking"
 msgstr "Аплет батарэі ўключыў падаўленне сну і блакавання экрана"
 
@@ -108,7 +108,7 @@ msgid "Power Management"
 msgstr "Кіраванне сілкаваннем"
 
 #: package/contents/ui/main.qml:97
-#| msgid "has Battery"
+#, kde-format
 msgid "Power and Battery"
 msgstr "Сілкаванне і батарэя"
 
@@ -165,13 +165,12 @@ msgid "Not charging"
 msgstr "Не зараджаецца"
 
 #: package/contents/ui/main.qml:166
-#| msgid "Automatic sleep and screen locking are disabled"
+#, kde-format
 msgid "Automatic sleep and screen locking are disabled; middle-click to re-enable"
 msgstr "Аўтаматычны пераход у рэжым сну і блакаванне экрана адключаныя; пстрыкніце сярэдняй кнопкай мышы, каб уключыць"
 
 #: package/contents/ui/main.qml:168
-#| msgctxt "Minimize the length of this string as much as possible"
-#| msgid "Manually block sleep and screen locking"
+#, kde-format
 msgid "Middle-click to disable automatic sleep and screen locking"
 msgstr "Пстрыкніце сярэдняй кнопкай мышы, каб адключыць аўтаматычны пераход у рэжым сну і блакаванне экрана"
 
@@ -185,7 +184,7 @@ msgstr[2] "%1 праграм запыталі актывацыю прадукц�
 msgstr[3] "%1 праграмы запыталі актывацыю прадукцыйнага рэжыму"
 
 #: package/contents/ui/main.qml:177
-#| msgid "System is in Performance mode"
+#, kde-format
 msgid "System is in Performance mode; scroll to change"
 msgstr "Сістэма працуе ў прадукцыйным рэжыме; пракруціце, каб змяніць"
 
@@ -199,7 +198,7 @@ msgstr[2] "%1 праграм запыталі актывацыю энергаз�
 msgstr[3] "%1 праграмы запыталі актывацыю энергазберагальнага рэжыму"
 
 #: package/contents/ui/main.qml:185
-#| msgid "System is in Power Save mode"
+#, kde-format
 msgid "System is in Power Save mode; scroll to change"
 msgstr "Сістэма працуе ў энергазберагальным рэжыме; пракруціце, каб змяніць"
 
@@ -219,7 +218,7 @@ msgid "Show Battery Percentage on Icon When Not Fully Charged"
 msgstr "Паказваць на значку ўзровень зараду батарэі, калі яна зараджаная не поўнасцю"
 
 #: package/contents/ui/main.qml:319
-#| msgid "&Configure Energy Saving…"
+#, kde-format
 msgid "&Configure Power Management…"
 msgstr "&Наладжванне кіравання сілкаваннем…"
 
@@ -248,14 +247,12 @@ msgid "Manually block"
 msgstr "Уласнаручнае блакаванне"
 
 #: package/contents/ui/PowerManagementItem.qml:133
-#| msgctxt "Minimize the length of this string as much as possible"
-#| msgid "Manually block sleep and screen locking"
+#, kde-format
 msgid "Failed to unblock automatic sleep and screen locking"
 msgstr "Не ўдалося разблакаваць аўтаматычны пераход у рэжым сну і блакаванне экрана"
 
 #: package/contents/ui/PowerManagementItem.qml:136
-#| msgctxt "Minimize the length of this string as much as possible"
-#| msgid "Manually block sleep and screen locking"
+#, kde-format
 msgid "Failed to block automatic sleep and screen locking"
 msgstr "Не ўдалося заблакаваць аўтаматычны пераход у рэжым сну і блакаванне экрана"
 
@@ -285,15 +282,12 @@ msgid "%1 is currently blocking sleep and screen locking (unknown reason)"
 msgstr "%1 блакуе пераход у рэжым сну і блакаванне экрана (невядомая прычына)"
 
 #: package/contents/ui/PowerManagementItem.qml:209
-#| msgid "%1 application is currently blocking sleep and screen locking:"
-#| "%1 applications are currently blocking sleep and screen locking:"
-#| msgid_plural ""
-#| "%1 applications are currently blocking sleep and screen locking:"
+#, kde-format
 msgid "An application is currently blocking sleep and screen locking (%1)"
 msgstr "Праграма блакуе пераход у рэжым сну і блакаванне экрана (%1)"
 
 #: package/contents/ui/PowerManagementItem.qml:211
-#| msgid "%1 is currently blocking sleep and screen locking (unknown reason)"
+#, kde-format
 msgid "An application is currently blocking sleep and screen locking (unknown reason)"
 msgstr "Праграма блакуе пераход у рэжым сну і блакаванне экрана (невядомая прычына)"
 
@@ -316,8 +310,7 @@ msgid "Unknown application: %1"
 msgstr "Невядомая праграма: %1"
 
 #: package/contents/ui/PowerManagementItem.qml:221
-#| msgctxt "Application name: reason for preventing sleep and screen locking"
-#| msgid "%1: unknown reason"
+#, kde-format
 msgctxt "Application name: reason for preventing sleep and screen locking"
 msgid "Unknown application: unknown reason"
 msgstr "Невядомая праграма: невядомая прычына"
@@ -343,7 +336,7 @@ msgid "Power Profile"
 msgstr "Профіль сілкавання"
 
 #: package/contents/ui/PowerProfileItem.qml:107
-#| msgid "No Batteries Available"
+#, kde-format
 msgctxt "Power profile"
 msgid "Not available"
 msgstr "Недаступна"
