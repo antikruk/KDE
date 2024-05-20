@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-18 00:39+0000\n"
-"PO-Revision-Date: 2024-05-17 21:15\n"
+"POT-Creation-Date: 2024-04-13 00:40+0000\n"
+"PO-Revision-Date: 2024-05-19 21:15\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,62 +19,62 @@ msgstr ""
 "X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/plasma-workspace/kcm_autostart.po\n"
 "X-Crowdin-File-ID: 10754\n"
 
-#: autostartmodel.cpp:376
+#: autostartmodel.cpp:382
 #, kde-format
 msgid "\"%1\" is not an absolute url."
 msgstr "\"%1\" - не абсалютны url."
 
-#: autostartmodel.cpp:379
+#: autostartmodel.cpp:385
 #, kde-format
 msgid "\"%1\" does not exist."
 msgstr "\"%1\" не існуе."
 
-#: autostartmodel.cpp:382
+#: autostartmodel.cpp:388
 #, kde-format
 msgid "\"%1\" is not a file."
 msgstr "\"%1\" - не файл."
 
-#: autostartmodel.cpp:385
+#: autostartmodel.cpp:391
 #, kde-format
 msgid "\"%1\" is not readable."
 msgstr "\"%1\" нечытальны."
 
-#: ui/entry.qml:52
-#, kde-format
-msgctxt "@label The name of a Systemd unit for an app or script that will autostart"
-msgid "Name:"
-msgstr "Назва:"
-
-#: ui/entry.qml:58
-#, kde-format
-msgctxt "@label The current status (e.g. active or inactive) of a Systemd unit for an app or script that will autostart"
-msgid "Status:"
-msgstr "Стан:"
-
-#: ui/entry.qml:64
-#, kde-format
-msgctxt "@label A date and time follows this text, making a sentence like 'Last activated on: August 7th 11 PM 2023'"
-msgid "Last activated on:"
-msgstr "Апошняя актывацыя:"
-
-#: ui/entry.qml:74
+#: ui/entry.qml:30
 #, kde-format
 msgctxt "@label Stop the Systemd unit for a running process"
 msgid "Stop"
 msgstr "Спыніць"
 
-#: ui/entry.qml:74
+#: ui/entry.qml:31
 #, kde-format
 msgctxt "@label Start the Systemd unit for a currently inactive process"
 msgid "Start"
 msgstr "Запусціць"
 
-#: ui/entry.qml:109
+#: ui/entry.qml:68
+#, kde-format
+msgctxt "@label The name of a Systemd unit for an app or script that will autostart"
+msgid "Name:"
+msgstr "Назва:"
+
+#: ui/entry.qml:74
+#, kde-format
+msgctxt "@label The current status (e.g. active or inactive) of a Systemd unit for an app or script that will autostart"
+msgid "Status:"
+msgstr "Стан:"
+
+#: ui/entry.qml:80
+#, kde-format
+msgctxt "@label A date and time follows this text, making a sentence like 'Last activated on: August 7th 11 PM 2023'"
+msgid "Last activated on:"
+msgstr "Апошняя актывацыя:"
+
+#: ui/entry.qml:111
 #, kde-format
 msgid "Unable to load logs. Try refreshing."
 msgstr "Немагчыма загрузіць журналы. Паспрабуйце абнавіць."
 
-#: ui/entry.qml:113
+#: ui/entry.qml:115
 #, kde-format
 msgctxt "@action:button Refresh entry logs when it failed to load"
 msgid "Refresh"
@@ -96,25 +96,25 @@ msgid "The file '%1' must be executable to run at login."
 msgstr "Для таго, каб запускаць файл \"%1\" пры ўваходзе ў сістэму, ён павінен быць выканальным."
 
 #: ui/main.qml:66
-#| msgid "Add…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add…"
 msgstr "Дадаць…"
 
 #: ui/main.qml:69
-#| msgid "Add Application…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Application…"
 msgstr "Дадаць праграму…"
 
 #: ui/main.qml:74
-#| msgid "Add Login Script…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Login Script…"
 msgstr "Дадаць скрыпт пры ўваходзе…"
 
 #: ui/main.qml:79
-#| msgid "Add Logout Script…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Logout Script…"
 msgstr "Дадаць скрыпт пры выхадзе…"
@@ -131,13 +131,13 @@ msgid "Not autostarted yet"
 msgstr "Яшчэ не выконваўся аўтазапуск"
 
 #: ui/main.qml:146
-#| msgid "Properties"
+#, kde-format
 msgctxt "@action:button"
 msgid "See properties"
 msgstr "Паглядзець уласцівасці"
 
 #: ui/main.qml:157
-#| msgid "Remove"
+#, kde-format
 msgctxt "@action:button"
 msgid "Remove entry"
 msgstr "Выдаліць элемент"
@@ -168,8 +168,7 @@ msgid "No user-specified autostart items"
 msgstr "Няма элементаў для аўтазапуску, вызначаных карыстальнікам"
 
 #: ui/main.qml:192
-#| msgctxt "@info"
-#| msgid "Click the <interface>Add…</interface> button below to add some"
+#, kde-kuit-format
 msgctxt "@info 'some' refers to autostart items"
 msgid "Click the <interface>Add…</interface> button to add some"
 msgstr "Пстрыкніце <interface>Дадаць…</interface>, каб дадаць"
