@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-18 00:40+0000\n"
-"PO-Revision-Date: 2024-05-20 21:10\n"
+"POT-Creation-Date: 2024-05-25 00:40+0000\n"
+"PO-Revision-Date: 2024-05-25 23:57\n"
 "Last-Translator: Antikruk <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,50 +19,57 @@ msgstr ""
 "X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/print-manager/kcm_printer_manager.po\n"
 "X-Crowdin-File-ID: 17910\n"
 
-#: printermanager.cpp:200
+#: printermanager.cpp:255
 #, kde-format
 msgctxt "@info"
 msgid "Failed to configure class: "
 msgstr "Не ўдалося наладзіць клас: "
 
-#: printermanager.cpp:200
+#: printermanager.cpp:255
 #, kde-format
 msgctxt "@info"
 msgid "Failed to configure printer: "
 msgstr "Не ўдалося наладзіць прынтар: "
 
-#: printermanager.cpp:367
+#: printermanager.cpp:422
 #, kde-format
 msgid "Failed to perform request: %1"
 msgstr "Не ўдалося выканаць запыт: %1"
 
-#: printermanager.cpp:419
+#: printermanager.cpp:474
 #, kde-format
 msgctxt "@info"
 msgid "Failed to get server settings: %1"
 msgstr "Не ўдалося атрымаць налады сервера: %1"
 
-#: printermanager.cpp:455
+#: printermanager.cpp:510
 #, kde-format
 msgctxt "@info"
 msgid "Server Settings Not Saved: (%1): %2"
 msgstr "Налады сервера не захаваныя: (%1): %2"
 
-#: printermanager.cpp:462
+#: printermanager.cpp:517
 #, kde-format
 msgctxt "@info"
 msgid "Fatal Save Server Settings: (%1): %2"
 msgstr "Пры захаванні налад сервера адбылася фатальная памылка: (%1): %2"
 
-#: printermanager.cpp:514
+#: printermanager.cpp:569
 #, kde-format
 msgid "Print Self-Test Page"
 msgstr "Надрукаваць старонку самаправярання"
 
-#: printermanager.cpp:520
+#: printermanager.cpp:575
 #, kde-format
 msgid "Clean Print Heads"
 msgstr "Ачышчэнне друкавальных галовак"
+
+#: scpinstaller.cpp:70
+#, kde-format
+msgctxt "@info"
+msgid "Install Error (package: %1)\n"
+"Check authentication credentials and make sure PackageKit is installed properly."
+msgstr ""
 
 #: ui/components/AddressExamples.qml:28
 #, kde-format
@@ -307,87 +314,135 @@ msgctxt "@option:check"
 msgid "Allow users to cancel any job (not just their own)"
 msgstr "Дазволіць карыстальнікам скасаванне любой задачы (не толькі сваёй)"
 
-#: ui/main.qml:28
+#: ui/InstallDialog.qml:14
+#| msgid "Printer Groups"
+msgctxt "@title:window"
+msgid "Printer Setup Helpers"
+msgstr ""
+
+#: ui/InstallDialog.qml:70
+#, kde-format
+msgctxt "@info:status"
+msgid "Install has completed successfully"
+msgstr ""
+
+#: ui/InstallDialog.qml:72
+#, kde-format
+msgctxt "@info:status"
+msgid "Installation failed"
+msgstr "Не атрымалася ўсталяваць"
+
+#: ui/InstallDialog.qml:74
+#, kde-format
+msgctxt "@info:status"
+msgid "Installing…"
+msgstr "Усталяванне…"
+
+#: ui/InstallDialog.qml:90
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Report this issue to %1"
+msgstr ""
+
+#: ui/main.qml:29
 #, kde-format
 msgid "new_queue"
 msgstr "new_queue"
 
-#: ui/main.qml:28
+#: ui/main.qml:29
 #, kde-format
 msgid "new_group"
 msgstr "new_group"
 
-#: ui/main.qml:62
+#: ui/main.qml:69
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid "A printer support package that provides convenience features does not appear to be installed.<nl/><nl/>Because this distro does not include PackageKit, we cannot provide an install option, so you will have to use your package manager to install the <command>system-config-printer</command> package manually."
+msgstr ""
+
+#: ui/main.qml:71
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "A printer support package that provides convenience features does not appear to be installed."
+msgstr ""
+
+#: ui/main.qml:77
+#, kde-format
+msgctxt "@action:button Install printer setup helper package"
+msgid "Install It"
+msgstr ""
+
+#: ui/main.qml:108
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Printer…"
 msgstr "Дадаць прынтар…"
 
-#: ui/main.qml:71
+#: ui/main.qml:117
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Group…"
 msgstr "Дадаць групу…"
 
-#: ui/main.qml:80
+#: ui/main.qml:126
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Print Server…"
 msgstr "Наладжванне сервера друкавання…"
 
-#: ui/main.qml:185
+#: ui/main.qml:231
 #, kde-format
 msgctxt "@info:status"
 msgid "No printers are currently set up"
 msgstr "Няма наладжаныя прынтараў"
 
-#: ui/main.qml:186
+#: ui/main.qml:232
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "Click <interface>Add Printer…</interface> to set up a new printer on this computer"
 msgstr "Каб наладзіць новы прынтар на гэтым камп'ютары, націсніце <interface>Дадаць прынтар…</interface>"
 
-#: ui/main.qml:196
+#: ui/main.qml:242
 #, kde-format
 msgid "Printers"
 msgstr "Прынтары"
 
-#: ui/main.qml:196
+#: ui/main.qml:242
 #, kde-format
 msgid "Printer Groups"
 msgstr "Групы прынтараў"
 
-#: ui/main.qml:234
+#: ui/main.qml:280
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure…"
 msgstr "Наладжванне…"
 
-#: ui/main.qml:255
+#: ui/main.qml:301
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Print Queue…"
 msgstr "Адкрыць чаргу друкавання…"
 
-#: ui/main.qml:272
+#: ui/main.qml:318
 #, kde-format
 msgctxt "@action:button Resume printing"
 msgid "Resume"
 msgstr "Узнавіць"
 
-#: ui/main.qml:273
+#: ui/main.qml:319
 #, kde-format
 msgctxt "@action:button Pause printing"
 msgid "Pause"
 msgstr "Прыпыніць"
 
-#: ui/main.qml:287
+#: ui/main.qml:333
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Resume printing"
 msgstr "Узнавіць друкаванне"
 
-#: ui/main.qml:288
+#: ui/main.qml:334
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Pause printing"
@@ -460,207 +515,216 @@ msgstr "Абраць"
 msgid "PostScript Printer Description Files (*.ppd)"
 msgstr "PostScript-файлы апісання прынтара (*.ppd)"
 
-#: ui/PrinterSettings.qml:48
+#: ui/PrinterSettings.qml:49
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Group"
 msgstr "Дадаць групу"
 
-#: ui/PrinterSettings.qml:49
+#: ui/PrinterSettings.qml:50
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Printer"
 msgstr "Дадаць прынтар"
 
-#: ui/PrinterSettings.qml:60
+#: ui/PrinterSettings.qml:61
 #, kde-format
 msgid "Configure…"
 msgstr "Наладжванне…"
 
-#: ui/PrinterSettings.qml:65
+#: ui/PrinterSettings.qml:66
 #, kde-format
 msgid "Remove"
 msgstr "Выдаліць"
 
-#: ui/PrinterSettings.qml:81
+#: ui/PrinterSettings.qml:83
 #, kde-format
 msgctxt "@action:button"
 msgid "CUPS Printers Overview Help"
 msgstr "Даведка па \"Аглядзе прынтараў CUPS\""
 
-#: ui/PrinterSettings.qml:87
+#: ui/PrinterSettings.qml:89
 #, kde-format
 msgctxt "@action:button"
 msgid "Printer/Device Admin Page"
 msgstr "Старонка адміністравання прынтараў або прылад"
 
-#: ui/PrinterSettings.qml:105
+#: ui/PrinterSettings.qml:107
 #, kde-format
 msgctxt "@action:button Add printer"
 msgid "Add"
 msgstr "Дадаць"
 
-#: ui/PrinterSettings.qml:106
+#: ui/PrinterSettings.qml:108
 #, kde-format
 msgctxt "@action:button Apply changes"
 msgid "Apply"
 msgstr "Ужыць"
 
-#: ui/PrinterSettings.qml:114
+#: ui/PrinterSettings.qml:116
 #, kde-format
 msgctxt "@info:status"
 msgid "Queue name is required. Enter a unique queue name."
 msgstr "Патрэбная назва чаргі. Увядзіце ўнікальную назву чаргі."
 
-#: ui/PrinterSettings.qml:119
+#: ui/PrinterSettings.qml:121
 #, kde-format
 msgctxt "@info:status"
 msgid "Queue name must be unique. Enter a unique queue name."
 msgstr "Назва чаргі мусіць быць унікальнай. Увядзіце ўнікальную назву чаргі."
 
-#: ui/PrinterSettings.qml:127
-#, kde-format
+#: ui/PrinterSettings.qml:129
+#| msgctxt "@info:status"
+#| msgid "Make/Model is required.  Choose \"Select\" to pick Make/Model"
 msgctxt "@info:status"
-msgid "Make/Model is required.  Choose \"Select\" to pick Make/Model"
-msgstr "Патрэбна марка/мадэль. Каб абраць марку/мадэль, націсніце \"Абраць\""
+msgid "Make/Model is required. Choose \"Select\" to pick Make/Model"
+msgstr ""
 
-#: ui/PrinterSettings.qml:137
+#: ui/PrinterSettings.qml:139
 #, kde-format
 msgctxt "@info:status"
 msgid "Configuring %1, please wait…."
 msgstr "Наладжванне \"%1\". Пачакайце…."
 
-#: ui/PrinterSettings.qml:178
+#: ui/PrinterSettings.qml:180
 #, kde-format
 msgid "Failed to remove the printer: %1"
 msgstr "Не ўдалося выдаліць прынтар: \"%1\""
 
-#: ui/PrinterSettings.qml:199
+#: ui/PrinterSettings.qml:201
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove Group?"
 msgstr "Выдаліць групу?"
 
-#: ui/PrinterSettings.qml:200
+#: ui/PrinterSettings.qml:202
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove Printer?"
 msgstr "Выдаліць прынтар?"
 
-#: ui/PrinterSettings.qml:202
-#, kde-format
+#: ui/PrinterSettings.qml:204
+#| msgctxt "@info %1 is the name of a printer or printer group"
+#| msgid "“%1” will be removed."
 msgctxt "@info %1 is the name of a printer or printer group"
-msgid "“%1” will be removed."
-msgstr "Будзе выдалена: \"%1\"."
+msgid "'%1' will be removed."
+msgstr ""
 
-#: ui/PrinterSettings.qml:209
+#: ui/PrinterSettings.qml:211
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove Group"
 msgstr "Выдаліць групу"
 
-#: ui/PrinterSettings.qml:210
+#: ui/PrinterSettings.qml:212
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove Printer"
 msgstr "Выдаліць прынтар"
 
-#: ui/PrinterSettings.qml:219
+#: ui/PrinterSettings.qml:221
 #, kde-format
 msgid "Cancel"
 msgstr "Скасаваць"
 
-#: ui/PrinterSettings.qml:388
+#: ui/PrinterSettings.qml:389
+#| msgctxt "@action:check Set default printer"
+#| msgid "Default printer"
+msgctxt "@info:status This is the default printer"
+msgid "** Default Printer"
+msgstr ""
+
+#: ui/PrinterSettings.qml:395
 #, kde-format
 msgctxt "@action:check Set default printer"
 msgid "Default printer"
 msgstr "Прадвызначаны прынтар"
 
-#: ui/PrinterSettings.qml:395
+#: ui/PrinterSettings.qml:410
 #, kde-format
 msgctxt "@action:check"
 msgid "Share this group"
 msgstr "Абагуліць гэтую групу"
 
-#: ui/PrinterSettings.qml:396
+#: ui/PrinterSettings.qml:411
 #, kde-format
 msgctxt "@action:check"
 msgid "Share this printer"
 msgstr "Абагуліць гэты прынтар"
 
-#: ui/PrinterSettings.qml:403
+#: ui/PrinterSettings.qml:418
 #, kde-format
 msgctxt "@action:check"
 msgid "Accepting print jobs"
 msgstr "Прыём задач друкавання"
 
-#: ui/PrinterSettings.qml:452
+#: ui/PrinterSettings.qml:467
 #, kde-format
 msgctxt "@action:button"
 msgid "Print Test Page"
 msgstr "Надрукаваць тэставую старонку"
 
-#: ui/PrinterSettings.qml:458
+#: ui/PrinterSettings.qml:473
 #, kde-format
 msgctxt "@action:button"
 msgid "Print Self-Test Page"
 msgstr "Надрукаваць старонку самаправярання"
 
-#: ui/PrinterSettings.qml:465
+#: ui/PrinterSettings.qml:480
 #, kde-format
 msgctxt "@action:button"
 msgid "Clean Print Heads"
 msgstr "Ачышчэнне друкавальных галовак"
 
-#: ui/PrinterSettings.qml:485
+#: ui/PrinterSettings.qml:500
 #, kde-format
 msgctxt "@action:button"
 msgid "Find a Printer…"
 msgstr "Знайсці прынтар…"
 
-#: ui/PrinterSettings.qml:493
+#: ui/PrinterSettings.qml:508
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Queue Name:"
 msgstr "Назва чаргі:"
 
-#: ui/PrinterSettings.qml:510
+#: ui/PrinterSettings.qml:525
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "A <interface>printer group</interface> is used to pool printing resources."
 msgstr "<interface>Група прынтараў</interface> выкарыстоўваецца для аб'яднання рэсурсаў друкавання."
 
-#: ui/PrinterSettings.qml:518
+#: ui/PrinterSettings.qml:533
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Апісанне:"
 
-#: ui/PrinterSettings.qml:530
+#: ui/PrinterSettings.qml:545
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Location:"
 msgstr "Размяшчэнне:"
 
-#: ui/PrinterSettings.qml:542
+#: ui/PrinterSettings.qml:557
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Connection:"
 msgstr "Злучэнне:"
 
-#: ui/PrinterSettings.qml:556
+#: ui/PrinterSettings.qml:571
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Member Printers:"
 msgstr "Прынтары ўдзельнікаў:"
 
-#: ui/PrinterSettings.qml:693
+#: ui/PrinterSettings.qml:708
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Make/Model:"
 msgstr "Вытворца/Мадэль:"
 
-#: ui/PrinterSettings.qml:708
+#: ui/PrinterSettings.qml:723
 #, kde-format
 msgctxt "@action:button Select printer make/model"
 msgid "Select…"
