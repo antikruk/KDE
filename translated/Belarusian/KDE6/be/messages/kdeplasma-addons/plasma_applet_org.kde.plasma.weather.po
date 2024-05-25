@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-26 00:38+0000\n"
-"PO-Revision-Date: 2024-04-05 19:35\n"
+"POT-Creation-Date: 2024-05-24 00:40+0000\n"
+"PO-Revision-Date: 2024-05-25 23:51\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -127,19 +127,19 @@ msgctxt "wind speed"
 msgid "Calm"
 msgstr "Ціхі"
 
-#: package/contents/config/config.qml:13
+#: package/contents/config/config.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Weather Station"
 msgstr ""
 
-#: package/contents/config/config.qml:19
+#: package/contents/config/config.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Appearance"
 msgstr "Выгляд"
 
-#: package/contents/config/config.qml:25
+#: package/contents/config/config.qml:31
 #, kde-format
 msgctxt "@title"
 msgid "Units"
@@ -292,6 +292,12 @@ msgctxt "@info"
 msgid "Search for a weather station to set your location"
 msgstr ""
 
+#: package/contents/ui/config/ConfigWeatherStation.qml:192
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "If you've used this weather station in the past, it's possible that a server outage at the weather station provider has made it temporarily unavailable. Try again later."
+msgstr ""
+
 #: package/contents/ui/ForecastView.qml:77
 #, kde-format
 msgctxt "certain weather condition (probability percentage)"
@@ -324,7 +330,13 @@ msgstr ""
 
 #: package/contents/ui/FullRepresentation.qml:55
 #, kde-format
-msgid "Weather information retrieval for %1 timed out."
+msgid "Unable to retrieve weather information for %1"
+msgstr ""
+
+#: package/contents/ui/FullRepresentation.qml:57
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "The network request timed out, possibly due to a server outage at the weather station provider. Check again later."
 msgstr ""
 
 #: package/contents/ui/main.qml:95
