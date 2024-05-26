@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-19 00:39+0000\n"
-"PO-Revision-Date: 2024-05-19 21:13\n"
+"POT-Creation-Date: 2024-05-23 00:39+0000\n"
+"PO-Revision-Date: 2024-05-25 23:54\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -1340,7 +1340,13 @@ msgctxt "@title:window"
 msgid "Edit Directory Service"
 msgstr ""
 
-#: ui/filenamerequester.cpp:81 ui/filenamerequester.cpp:82
+#: ui/filenamerequester.cpp:81
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open file dialog"
+msgstr "Адкрыць файлавы дыялог"
+
+#: ui/filenamerequester.cpp:82
 #, kde-format
 msgid "Open file dialog"
 msgstr "Адкрыць файлавы дыялог"
@@ -1407,7 +1413,8 @@ msgid "Encryption preference:"
 msgstr ""
 
 #: ui/keyrequester.cpp:89
-#, kde-format
+#| msgid "Clear"
+msgctxt "@info:tooltip"
 msgid "Clear"
 msgstr "Ясна"
 
@@ -1713,6 +1720,7 @@ msgstr ""
 
 #: ui/newkeyapprovaldialog.cpp:185
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Show keys matching the email address"
 msgstr ""
 
@@ -1724,6 +1732,7 @@ msgstr "Паказваць усё"
 
 #: ui/newkeyapprovaldialog.cpp:189
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Show all keys"
 msgstr ""
 
