@@ -11,9 +11,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
-"%100>=11 && n%100<=14 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Generator: Lokalize 22.12.2\n"
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
@@ -99,7 +97,7 @@ msgid "Failed to save document as image."
 msgstr "Не ўдалося захаваць дакумент як выяву."
 
 #: DocumentSaver.cpp:215
-#, kde-format
+#| msgid "Failed to save image"
 msgid "Failed to save image."
 msgstr "Не ўдалося захаваць выяву."
 
@@ -109,12 +107,12 @@ msgid "All files"
 msgstr "Усе файлы"
 
 #: ImageImport.cpp:42
-#, kde-format
+#| msgid "Failed to save image"
 msgid "Failed to load image!"
 msgstr "Не ўдалося загрузіць выяву!"
 
 #: ImageImport.cpp:53
-#, kde-format
+#| msgid "Failed to save image"
 msgid "Failed to load PDF file!"
 msgstr "Не ўдалося загрузіць PDF-файл!"
 
@@ -161,13 +159,10 @@ msgstr "* %1"
 
 #: qml/DeviceSelection.qml:54
 #, kde-format
-msgctxt ""
-"Device vendor with device model, followed by the device name identifier"
-msgid ""
-"%1 %2\n"
+msgctxt "Device vendor with device model, followed by the device name identifier"
+msgid "%1 %2\n"
 "(%3)"
-msgstr ""
-"%1 %2\n"
+msgstr "%1 %2\n"
 "(%3)"
 
 #: qml/DeviceSelection.qml:69
@@ -368,12 +363,8 @@ msgstr "%1 [%2]"
 
 #: qml/ExportWindow.qml:154
 #, kde-format
-msgid ""
-"If your required language is not listed, please install Tesseract's language "
-"file with your package manager."
-msgstr ""
-"Калі неабходнай мовы няма ў спісе, усталюйце ў кіраўніку пакункаў моўны файл "
-"Tesseract."
+msgid "If your required language is not listed, please install Tesseract's language file with your package manager."
+msgstr "Калі неабходнай мовы няма ў спісе, усталюйце ў кіраўніку пакункаў моўны файл Tesseract."
 
 #: qml/ExportWindow.qml:180
 #, kde-format
@@ -597,7 +588,7 @@ msgid "Discard this selection"
 msgstr "Адкінуць выбар"
 
 #: qml/PreviewScanView.qml:262
-#, kde-format
+#| msgid "Show Preview"
 msgid "New Preview Scan"
 msgstr "Новая папярэдняе сканаванне"
 
@@ -622,7 +613,7 @@ msgid "Split Scan Horizontally"
 msgstr "Падзяліць па гарызанталі"
 
 #: qml/PreviewScanView.qml:305
-#, kde-format
+#| msgid "Show Preview"
 msgid "Close Preview"
 msgstr "Закрыць папярэдні прагляд"
 
@@ -667,3 +658,4 @@ msgstr "Закрыць"
 #, kde-format
 msgid "Share as:"
 msgstr "Абагуліць як:"
+
