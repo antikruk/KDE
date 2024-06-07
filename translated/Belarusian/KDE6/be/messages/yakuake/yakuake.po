@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-01-03 01:38+0000\n"
-"PO-Revision-Date: 2024-06-05 19:00\n"
+"PO-Revision-Date: 2024-06-06 19:00\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -71,41 +71,41 @@ msgstr "Не ўдалося выдаліць абалонку"
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Unable to locate required files in the skin archive.<nl/><nl/>The archive appears to be invalid."
-msgstr ""
+msgstr "Не ўдалося знайсці патрэбныя файлы ў архіве абалонкі.<nl/><nl/>Выглядае, што архіў несапраўдны."
 
 #: app/config/appearancesettings.cpp:327
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The skin archive file could not be opened."
-msgstr ""
+msgstr "Не ўдалося адкрыць файл архіва абалонкі."
 
 #: app/config/appearancesettings.cpp:332
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Cannot Install Skin"
-msgstr ""
+msgstr "Немагчыма ўсталяваць абалонку"
 
 #: app/config/appearancesettings.cpp:376
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you want to remove \"%1\" by %2?"
-msgstr ""
+msgstr "Хочаце выдаліць \"%1\" ад %2?"
 
 #: app/config/appearancesettings.cpp:377
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Remove Skin"
-msgstr ""
+msgstr "Выдаліць абалонку"
 
 #: app/config/appearancesettings.cpp:471
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The following skin is missing required files. Thus it was removed:<ul>%2</ul>"
 msgid_plural "The following skins are missing required files. Thus they were removed:<ul>%2</ul>"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "У наступнай абалонцы няма неабходных файлаў, таму яна была выдаленая:<ul>%2</ul>"
+msgstr[1] "У наступных абалонках няма неабходных файлаў, таму яны былі выдаленыя:<ul>%2</ul>"
+msgstr[2] "У наступных абалонках няма неабходных файлаў, таму яны былі выдаленыя:<ul>%2</ul>"
+msgstr[3] "У наступных абалонках няма неабходных файлаў, таму яны былі выдаленыя:<ul>%2</ul>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
 #: app/config/appearancesettings.ui:29 app/config/behaviorsettings.ui:20
@@ -119,20 +119,20 @@ msgstr "Асноўныя налады"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enabling this option will make Yakuake briefly display a colored overlay above the newly focused terminal when moving focus between multiple terminals in a session, as well as over the currently focused terminal when switching to a session with multiple terminals."
-msgstr ""
+msgstr "Калі ўключыць гэты параметр, пры перамяшчэнні фокуса паміж некалькімі тэрміналамі ў сеансе Yakuake ненадоўга пазначыць колерам тэрмінал у фокусе, а таксама пры пераключэнні на сеанс з некалькімі тэрміналамі."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_TerminalHighlightOnManualActivation)
 #: app/config/appearancesettings.ui:38
 #, kde-format
 msgctxt "@option:check"
 msgid "Highlight terminals when moving focus between them"
-msgstr ""
+msgstr "Падсвятленне тэрміналаў пры пераходзе фокуса паміж імі"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideSkinBorders)
 #: app/config/appearancesettings.ui:45
 #, kde-format
 msgid "Hide borders"
-msgstr ""
+msgstr "Схаваць рамкі"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: app/config/appearancesettings.ui:55
@@ -155,14 +155,14 @@ msgstr "Колер фону:"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Translucency requires support by the selected skin as well as your desktop environment. The default skin supports translucency."
-msgstr ""
+msgstr "Каб паўпразрыстасць працавала, яе мусіць падтрымліваць абраная абалонка і працоўнае асяроддзе. Прадвызначаная абалонка падтрымлівае паўпразрыстасць."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_Translucency)
 #: app/config/appearancesettings.ui:95
 #, kde-format
 msgctxt "@option:check"
 msgid "Use skin translucency if supported"
-msgstr ""
+msgstr "Выкарыстоўваць паўпразрыстасць абалонкі, калі яна падтрымліваецца"
 
 #. i18n: ectx: property (text), widget (QLabel, backgroundColorOpacityLabel)
 #: app/config/appearancesettings.ui:126
@@ -170,14 +170,14 @@ msgstr ""
 #| msgid "Window background color"
 msgctxt "@label:spinbox"
 msgid "Background color opacity:"
-msgstr ""
+msgstr "Непразрыстасць фонавага колеру:"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_BackgroundColorOpacity)
 #: app/config/appearancesettings.ui:136
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "When using translucency, the background color will be filled in using the given opacity before the skin elements are painted on top of the background. This allows influencing the opacity and color tint of translucent areas of the skin."
-msgstr ""
+msgstr "Калі выкарыстоўваецца паўпразрыстасць, перад вывадам элементаў абалонкі колер фону будзе ўжывацца з вызначаным значэннем непразрыстасці. Гэта дае магчымасць уплываць на непразрыстасць і адценне колеру паўпразрыстых участкаў абалонкі."
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Width)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Height)
@@ -202,21 +202,21 @@ msgstr "Абалонка"
 #, kde-format
 msgctxt "@action:button"
 msgid "Get New Skins..."
-msgstr ""
+msgstr "Атрымаць новыя абалонкі..."
 
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #: app/config/appearancesettings.ui:186
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove Skin"
-msgstr ""
+msgstr "Выдаліць абалонку"
 
 #. i18n: ectx: property (text), widget (QPushButton, installButton)
 #: app/config/appearancesettings.ui:196
 #, kde-format
 msgctxt "@action:button"
 msgid "Install Skin..."
-msgstr ""
+msgstr "Усталяваць абалонку..."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FocusFollowsMouse)
 #: app/config/behaviorsettings.ui:26
@@ -230,14 +230,14 @@ msgstr "Факусавацца на тэрміналах, калі курсор 
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "If this option is enabled, the shortcut normally used to open and retract the window will give it focus, rather than close it, if it has previously lost focus. Unless the window is set to show on all virtual desktops, this may cause the window manager to switch to the virtual desktop it currently resides on."
-msgstr ""
+msgstr "Калі гэты параметр уключаны, спалучэнне клавіш, якое звычайна выкарыстоўваецца для адкрыцця і пераходу акна, перавядзе яго ў фокус, а не закрые, калі яно раней страціла фокус. Калі акно не наладжана на паказ на ўсіх віртуальных працоўных сталах, кіраўнік акон можа пераключыцца на віртуальны працоўны стол, на якім знаходзіцца акно."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ToggleToFocus)
 #: app/config/behaviorsettings.ui:45
 #, kde-format
 msgctxt "@option:check"
 msgid "Use Open/Retract action to focus window"
-msgstr ""
+msgstr "Выкарыстоўваць дзеянне адкрыць(уцягнуць), каб перавесці акно ў фокус"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepAbove)
 #: app/config/behaviorsettings.ui:61
@@ -245,40 +245,40 @@ msgstr ""
 #| msgid "Keep window on top"
 msgctxt "@option:check"
 msgid "Keep window above other windows"
-msgstr ""
+msgstr "Размяшчаць акно вышэй астатніх акон"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_OpenAfterStart)
 #: app/config/behaviorsettings.ui:84
 #, kde-format
 msgctxt "@option:check"
 msgid "Open window after program start"
-msgstr ""
+msgstr "Адкрыць акно пасля запуску праграмы"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_PollMouse)
 #: app/config/behaviorsettings.ui:91
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "If this option is enabled, the window will automatically open when the mouse pointer is moved to the same edge of the screen that it would open on when using the shortcut."
-msgstr ""
+msgstr "Калі гэты параметр уключаны, акно будзе адкрывацца аўтаматычна, калі паказальнік мышы перамяшчаецца на той самы край экрана, на якім яно адкрывалася з дапамогай спалучэння клавіш."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PollMouse)
 #: app/config/behaviorsettings.ui:94
 #, kde-format
 msgctxt "@option:check"
 msgid "Open window when the mouse pointer touches the screen edge"
-msgstr ""
+msgstr "Адкрываць акно, калі паказальнік мышы дасягае краю экрана"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RememberFullscreen)
 #: app/config/behaviorsettings.ui:101
 #, kde-format
 msgid "Remember and restore window fullscreen state"
-msgstr ""
+msgstr "Запамінаць і аднаўляць поўнаэкранны стан акна"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSystrayIcon)
 #: app/config/behaviorsettings.ui:108
 #, kde-format
 msgid "Show system tray icon"
-msgstr ""
+msgstr "Паказваць значок на прасторы апавяшчэнняў"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepOpen)
 #: app/config/behaviorsettings.ui:118
@@ -294,7 +294,7 @@ msgstr "Пакідаць акно адкрытым пры страце фоку�
 #| msgid "Keep window on top"
 msgctxt "@option:check"
 msgid "Keep window open after the last session is closed"
-msgstr ""
+msgstr "Пакідаць акно адкрытым пасля закрыцця апошняга сеанса"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: app/config/behaviorsettings.ui:151
@@ -308,7 +308,7 @@ msgstr "Дыялогі"
 #, kde-format
 msgctxt "@option:check"
 msgid "Confirm quit when more than one session is open"
-msgstr ""
+msgstr "Пытацца пацвярджэння выхаду, калі адкрыты больш за адзін сеанс"
 
 #: app/config/skinlistdelegate.cpp:124 app/config/skinlistdelegate.cpp:164
 #, kde-kuit-format
@@ -326,7 +326,7 @@ msgstr "Экран %1"
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Hiding Title Bar"
-msgstr ""
+msgstr "Паказ панэлі загалоўкаў"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_0)
 #: app/config/windowsettings.ui:32
@@ -338,42 +338,42 @@ msgstr "Панэль назвы"
 #: app/config/windowsettings.ui:38
 #, kde-format
 msgid "Show title bar"
-msgstr ""
+msgstr "Паказваць панэль загалоўкаў"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
 #: app/config/windowsettings.ui:54
 #, kde-format
 msgctxt "@title:group"
 msgid "Tab Bar"
-msgstr ""
+msgstr "Панэль укладак"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_DynamicTabTitles)
 #: app/config/windowsettings.ui:69
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "If this option is enabled, the information about the active terminal's contents that is normally shown in the title bar will also be shown on the tab bar. You can modify the format of the information in the terminal profile."
-msgstr ""
+msgstr "Калі гэты параметр уключаны, звесткі пра змесціва актыўнага тэрмінала, якія звычайна паказваюцца на панэлі загалоўкаў, таксама будзе паказвацца на панэлі ўкладак. Вы можаце змяніць фармат ўвестак у профілі тэрмінала."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DynamicTabTitles)
 #: app/config/windowsettings.ui:72
 #, kde-format
 msgctxt "@option:check"
 msgid "Show title bar contents in tab labels"
-msgstr ""
+msgstr "Паказваць змесціва панэлі загалоўкаў ў адмецінах укладак"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTabBar)
 #: app/config/windowsettings.ui:95
 #, kde-format
 msgctxt "@option:check"
 msgid "Show the tab bar"
-msgstr ""
+msgstr "Паказваць панэль укладак"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: app/config/windowsettings.ui:105
 #, kde-format
 msgctxt "@title:group"
 msgid "Size and Animation"
-msgstr ""
+msgstr "Памер і анімацыя"
 
 #. i18n: ectx: property (text), widget (QLabel, widthLabel)
 #: app/config/windowsettings.ui:111
@@ -415,14 +415,14 @@ msgstr "~"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "If this option is enabled, Yakuake will ask the window manager to perform the window open/retract animation. If the window manager is unable to provide the requested service, Yakuake will fall back to an animation strategy of progressively adjusting the window mask."
-msgstr ""
+msgstr "Калі гэты параметр уключаны, Yakuake перадасць кіраўніку акон запыт на выкананне анімацыі адкрыцця або ўцягвання акна. Калі кіраўнік акон не зможа гэта зрабіць, Yakuake выканае анімацыю паступовай змены маскі акна."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseWMAssist)
 #: app/config/windowsettings.ui:273
 #, kde-format
 msgctxt "@option:check"
 msgid "Ask the window manager to perform the animation"
-msgstr ""
+msgstr "Адпраўляць кіраўніку акон запыт на выкананне анімацыі"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: app/config/windowsettings.ui:283
@@ -451,21 +451,21 @@ msgstr "Справа"
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Open on screen:"
-msgstr ""
+msgstr "Адкрываць на экране:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Screen)
 #: app/config/windowsettings.ui:348
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "At mouse location"
-msgstr ""
+msgstr "На месцы мышы"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Screen)
 #: app/config/windowsettings.ui:353
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Screen 1"
-msgstr ""
+msgstr "Экран 1"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowOnAllDesktops)
 #: app/config/windowsettings.ui:376
@@ -480,14 +480,14 @@ msgstr "Паказваць на ўсіх працоўных сталах"
 #, kde-format
 msgctxt "@label"
 msgid "Screen to use"
-msgstr ""
+msgstr "Экран для выкарыстання"
 
 #. i18n: ectx: whatsthis, entry (Screen), group (Window)
 #: app/config/yakuake.kcfg:10
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The screen on which the application window will appear. 0 is understood to be the screen the mouse pointer is on."
-msgstr ""
+msgstr "Экран, на якім з'явіцца акно праграмы. 0 - экран, на якім знаходзіцца паказальнік мышы."
 
 #. i18n: ectx: label, entry (Width), group (Window)
 #: app/config/yakuake.kcfg:14
@@ -501,7 +501,7 @@ msgstr "Шырыня акна"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Width of the application window as a percentage of the screen."
-msgstr ""
+msgstr "Шырыня акна праграмы ў адсотках ад экрана."
 
 #. i18n: ectx: label, entry (Height), group (Window)
 #: app/config/yakuake.kcfg:21
@@ -515,7 +515,7 @@ msgstr "Вышыня акна"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Height of the application window as a percentage of the screen."
-msgstr ""
+msgstr "Вышыня акна праграмы ў адсотках ад экрана."
 
 #. i18n: ectx: label, entry (Position), group (Window)
 #: app/config/yakuake.kcfg:28
@@ -529,7 +529,7 @@ msgstr "Пазіцыя акна"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Center point of the application window, as a percentage, measured from the left-hand edge of the screen."
-msgstr ""
+msgstr "Цэнтральны пункт праграмы ў адсотках, вымераны ад левага краю экрана."
 
 #. i18n: ectx: label, entry (ShowOnAllDesktops), group (Window)
 #: app/config/yakuake.kcfg:35
@@ -537,7 +537,7 @@ msgstr ""
 #| msgid "Keep window on top"
 msgctxt "@label"
 msgid "Show window on all desktops"
-msgstr ""
+msgstr "Паказваць акно на ўсіх працоўных сталах"
 
 #. i18n: ectx: whatsthis, entry (ShowOnAllDesktops), group (Window)
 #: app/config/yakuake.kcfg:36
@@ -545,7 +545,7 @@ msgstr ""
 #| msgid "Keep window on top"
 msgctxt "@info:whatsthis"
 msgid "Whether to show the window on all desktops."
-msgstr ""
+msgstr "Ці паказваць акно на ўсіх працоўных сталах."
 
 #. i18n: ectx: label, entry (KeepOpen), group (Window)
 #: app/config/yakuake.kcfg:40
@@ -553,42 +553,42 @@ msgstr ""
 #| msgid "Keep window on top"
 msgctxt "@label"
 msgid "Keep window open"
-msgstr ""
+msgstr "Пакідаць акно адкрытым"
 
 #. i18n: ectx: whatsthis, entry (KeepOpen), group (Window)
 #: app/config/yakuake.kcfg:41
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to keep the application window open when it loses focus."
-msgstr ""
+msgstr "Ці пакідаць акно праграмы адкрытым, калі яно не ў фокусе."
 
 #. i18n: ectx: label, entry (KeepOpenAfterLastSessionCloses), group (Window)
 #: app/config/yakuake.kcfg:45
 #, kde-format
 msgctxt "@label"
 msgid "Keep window open after last session closes"
-msgstr ""
+msgstr "Пакідаць акно адкрытым пасля закрыцця апошняга сеанса"
 
 #. i18n: ectx: whatsthis, entry (KeepOpenAfterLastSessionCloses), group (Window)
 #: app/config/yakuake.kcfg:46
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to keep the application window open after the last session is closed."
-msgstr ""
+msgstr "Ці пакідаць акно праграмы адкрытым пасля закрыцця апошняга сеанса."
 
 #. i18n: ectx: label, entry (ToggleToFocus), group (Window)
 #: app/config/yakuake.kcfg:50
 #, kde-format
 msgctxt "@label"
 msgid "Use open/retract shortcut to focus window"
-msgstr ""
+msgstr "Выкарыстоўваць спалучэнне клавіш адкрыць(уцягнуць), каб перавесці акно ў фокус"
 
 #. i18n: ectx: whatsthis, entry (ToggleToFocus), group (Window)
 #: app/config/yakuake.kcfg:51
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether the open/retract keyboard shortcut can be used to focus the application window when it is already open."
-msgstr ""
+msgstr "Ці можна выкарыстоўваць спалучэнне клавіш адкрыцця (уцягвання), каб перавесці акно праграмы ў фокус, калі яно ўжо адкрыта."
 
 #. i18n: ectx: label, entry (KeepAbove), group (Window)
 #: app/config/yakuake.kcfg:55
@@ -602,14 +602,14 @@ msgstr "Паказваць акно вышэй астатніх"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to keep the application window above other windows on the screen."
-msgstr ""
+msgstr "Ці пакідаць акно праграмы над іншымі вокнамі на экране."
 
 #. i18n: ectx: label, entry (ShowTitleBar), group (Window)
 #: app/config/yakuake.kcfg:60
 #, kde-format
 msgctxt "@label"
 msgid "Show title bar"
-msgstr ""
+msgstr "Паказваць панэль загалоўкаў"
 
 #. i18n: ectx: whatsthis, entry (ShowTitleBar), group (Window)
 #: app/config/yakuake.kcfg:61
@@ -617,49 +617,49 @@ msgstr ""
 #| msgid "Keep window on top"
 msgctxt "@info:whatsthis"
 msgid "Whether to show the title bar in the application window."
-msgstr ""
+msgstr "Ці паказваць у акне праграмы панэль загалоўкаў."
 
 #. i18n: ectx: label, entry (ShowTabBar), group (Window)
 #: app/config/yakuake.kcfg:65
 #, kde-format
 msgctxt "@label"
 msgid "Show tab bar"
-msgstr ""
+msgstr "Паказваць панэль укладак"
 
 #. i18n: ectx: whatsthis, entry (ShowTabBar), group (Window)
 #: app/config/yakuake.kcfg:66
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to show the tab bar in the application window."
-msgstr ""
+msgstr "Ці паказваць у акне праграмы панэль укладак."
 
 #. i18n: ectx: label, entry (DynamicTabTitles), group (Window)
 #: app/config/yakuake.kcfg:70
 #, kde-format
 msgctxt "@label"
 msgid "Dynamic tab titles"
-msgstr ""
+msgstr "Дынамічныя загалоўкі ўкладак"
 
 #. i18n: ectx: whatsthis, entry (DynamicTabTitles), group (Window)
 #: app/config/yakuake.kcfg:71
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to update tab titles along with the title bar."
-msgstr ""
+msgstr "Ці абнаўляць загалоўкі ўкладак разам з панэллю загалоўкаў."
 
 #. i18n: ectx: label, entry (ShowSystrayIcon), group (Window)
 #: app/config/yakuake.kcfg:75
 #, kde-format
 msgctxt "@label"
 msgid "Show a system tray icon"
-msgstr ""
+msgstr "Паказваць значок на прасторы апавяшчэнняў"
 
 #. i18n: ectx: whatsthis, entry (ShowSystrayIcon), group (Window)
 #: app/config/yakuake.kcfg:76
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to show a system tray icon."
-msgstr ""
+msgstr "Ці будзе паказвацца значок на прасторы апавяшчэнняў."
 
 #. i18n: ectx: label, entry (FocusFollowsMouse), group (Behavior)
 #: app/config/yakuake.kcfg:82
@@ -673,35 +673,35 @@ msgstr "Факусавацца ўслед за мышшу"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether an individual terminal in a session will be given focus when the mouse pointer is moved above it."
-msgstr ""
+msgstr "Ці будзе асобны тэрмінал у сеансе знаходзіцца ў фокусе, калі паказальнік мышы перамяшчаецца па-над ім."
 
 #. i18n: ectx: label, entry (OpenAfterStart), group (Behavior)
 #: app/config/yakuake.kcfg:87
 #, kde-format
 msgctxt "@label"
 msgid "Open after start"
-msgstr ""
+msgstr "Адкрываць пасля запуску"
 
 #. i18n: ectx: whatsthis, entry (OpenAfterStart), group (Behavior)
 #: app/config/yakuake.kcfg:88
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether the application window should be opened after program start."
-msgstr ""
+msgstr "Ці трэба адкрываць акно праграмы пасля запуску праграмы."
 
 #. i18n: ectx: label, entry (RememberFullscreen), group (Behavior)
 #: app/config/yakuake.kcfg:92
 #, kde-format
 msgctxt "@label"
 msgid "Remember window fullscreen state"
-msgstr ""
+msgstr "Запамінаць поўнаэкранны стан акна"
 
 #. i18n: ectx: whatsthis, entry (RememberFullscreen), group (Behavior)
 #: app/config/yakuake.kcfg:93
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether the window will be shown fullscreen again when it has been previously."
-msgstr ""
+msgstr "Ці будзе акно зноў паказвацца ў поўнаэкранным рэжыме, калі яно было ў ім перад гэтым."
 
 #. i18n: ectx: label, entry (Skin), group (Appearance)
 #: app/config/yakuake.kcfg:99
@@ -715,21 +715,21 @@ msgstr "Абалонка"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The skin to be used by the application window."
-msgstr ""
+msgstr "Абалонка, якая будзе выкарыстоўвацца акном праграмы."
 
 #. i18n: ectx: label, entry (SkinInstalledWithKns), group (Appearance)
 #: app/config/yakuake.kcfg:104
 #, kde-format
 msgctxt "@label"
 msgid "Skin installed by KNS"
-msgstr ""
+msgstr "Абалонка, усталяваная KNS"
 
 #. i18n: ectx: whatsthis, entry (SkinInstalledWithKns), group (Appearance)
 #: app/config/yakuake.kcfg:105
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether the currently active skin was installed via KNS."
-msgstr ""
+msgstr "Ці была актыўная абалонка ўсталяваная з дапамогай KNS."
 
 #. i18n: ectx: label, entry (Translucency), group (Appearance)
 #: app/config/yakuake.kcfg:109
@@ -743,7 +743,7 @@ msgstr "Выкарыстоўваць празрысты фон"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to make use of XComposite ARGB translucency."
-msgstr ""
+msgstr "Ці патрэбна выкарыстоўваць паўпразрыстасць XComposite ARGB."
 
 #. i18n: ectx: label, entry (BackgroundColor), group (Appearance)
 #: app/config/yakuake.kcfg:114
@@ -758,7 +758,7 @@ msgstr "Фонавы колер акна"
 #| msgid "Window background color"
 msgctxt "@info:whatsthis"
 msgid "Background color painted below skin elements."
-msgstr ""
+msgstr "Колер фону выводзіцца пад элементамі абалонкі."
 
 #. i18n: ectx: label, entry (BackgroundColorOpacity), group (Appearance)
 #: app/config/yakuake.kcfg:119
@@ -766,91 +766,91 @@ msgstr ""
 #| msgid "Window background color"
 msgctxt "@label"
 msgid "Background color opacity"
-msgstr ""
+msgstr "Непразрыстасць фонавага колеру"
 
 #. i18n: ectx: whatsthis, entry (BackgroundColorOpacity), group (Appearance)
 #: app/config/yakuake.kcfg:120
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The opacity of the background color fill when using translucency."
-msgstr ""
+msgstr "Непразрыстасць запаўнення фону колерам пры выкарыстанні паўпразрыстасці."
 
 #. i18n: ectx: label, entry (TerminalHighlightOnManualActivation), group (Appearance)
 #: app/config/yakuake.kcfg:126
 #, kde-format
 msgctxt "@label"
 msgid "Highlight newly focused terminals"
-msgstr ""
+msgstr "Падсвятляць тэрміналы, якія пераходзяць у фокус"
 
 #. i18n: ectx: whatsthis, entry (TerminalHighlightOnManualActivation), group (Appearance)
 #: app/config/yakuake.kcfg:127
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to briefly display a colored overlay above the newly focused terminal when moving focus between multiple terminals in a session, as well as over the currently focused terminal when switching to a session with multiple terminals."
-msgstr ""
+msgstr "Ці патрэбна пры перамяшчэнні фокуса паміж некалькімі тэрміналамі ў сеансе Yakuake ненадоўга пазначыць колерам тэрмінал у фокусе, а таксама пры пераключэнні на сеанс з некалькімі тэрміналамі."
 
 #. i18n: ectx: label, entry (HideSkinBorders), group (Appearance)
 #: app/config/yakuake.kcfg:131
 #, kde-format
 msgctxt "@label"
 msgid "Hide the borders defined by the skin"
-msgstr ""
+msgstr "Хаваць рамкі, вызначаныя абалонкай"
 
 #. i18n: ectx: whatsthis, entry (HideSkinBorders), group (Appearance)
 #: app/config/yakuake.kcfg:132
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Skins can define borders around the terminal including the tabbar. This option, when turned on, will overwrite the border settings defined by the skin and hide all borders."
-msgstr ""
+msgstr "Абалонкі могуць вызначаць рамкі вакол тэрмінала, уключаючы панэль укладак. Калі гэты параметр уключаны, ён перазапіша налады рамак, вызначаныя абалонкай, і схавае іх."
 
 #. i18n: ectx: label, entry (TerminalHighlightOpacity), group (Appearance)
 #: app/config/yakuake.kcfg:136
 #, kde-format
 msgctxt "@label"
 msgid "Terminal highlight opacity"
-msgstr ""
+msgstr "Непразрыстасць падсвятлення тэрмінала"
 
 #. i18n: ectx: whatsthis, entry (TerminalHighlightOpacity), group (Appearance)
 #: app/config/yakuake.kcfg:137
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The opacity of the colored overlay used to highlight a terminal."
-msgstr ""
+msgstr "Непразрыстасць каляровага элемента, які выкарыстоўваецца для падсвятлення тэрмінала."
 
 #. i18n: ectx: label, entry (TerminalHighlightDuration), group (Appearance)
 #: app/config/yakuake.kcfg:143
 #, kde-format
 msgctxt "@label"
 msgid "Terminal highlight duration"
-msgstr ""
+msgstr "Працягласць падсвятлення тэрмінала"
 
 #. i18n: ectx: whatsthis, entry (TerminalHighlightDuration), group (Appearance)
 #: app/config/yakuake.kcfg:144
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The duration of the terminal highlight overlay."
-msgstr ""
+msgstr "Працягласць падсвятлення тэрмінала."
 
 #. i18n: ectx: label, entry (KeyboardInputBlockIndicatorColor), group (Appearance)
 #: app/config/yakuake.kcfg:150
 #, kde-format
 msgctxt "@label"
 msgid "Keyboard input block indicator color"
-msgstr ""
+msgstr "Колер індыкатара блока ўводу з клавіятуры"
 
 #. i18n: ectx: whatsthis, entry (KeyboardInputBlockIndicatorColor), group (Appearance)
 #: app/config/yakuake.kcfg:151
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The color of the keyboard input block indicator overlay."
-msgstr ""
+msgstr "Колер накладкі індыкатара блока ўводу з клавіятуры."
 
 #. i18n: ectx: label, entry (KeyboardInputBlockIndicatorOpacity), group (Appearance)
 #: app/config/yakuake.kcfg:155
 #, kde-format
 msgctxt "@label"
 msgid "Keyboard input block indicator opacity"
-msgstr ""
+msgstr "Непразрыстасць індыкатара блока ўводу з клавіятуры"
 
 #. i18n: ectx: whatsthis, entry (KeyboardInputBlockIndicatorOpacity), group (Appearance)
 #: app/config/yakuake.kcfg:156
@@ -1000,7 +1000,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "(c) 2008-2018 The Yakuake Team"
-msgstr ""
+msgstr "(c) 2008-2018 Каманда Yakuake"
 
 #: app/main.cpp:36
 #, kde-kuit-format
@@ -1018,7 +1018,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Francois Chazal"
-msgstr ""
+msgstr "Francois Chazal"
 
 #: app/main.cpp:37
 #, kde-kuit-format
@@ -1030,7 +1030,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Daniel 'suslik' D."
-msgstr ""
+msgstr "Daniel 'suslik' D."
 
 #: app/main.cpp:38
 #, kde-kuit-format
@@ -1042,7 +1042,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Juan Carlos Torres"
-msgstr ""
+msgstr "Juan Carlos Torres"
 
 #: app/main.cpp:40
 #, kde-kuit-format
@@ -1054,7 +1054,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Gustavo Ribeiro Croscato"
-msgstr ""
+msgstr "Gustavo Ribeiro Croscato"
 
 #: app/main.cpp:43
 #, kde-kuit-format
@@ -1066,7 +1066,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Danilo Cesar Lemes de Paula"
-msgstr ""
+msgstr "Danilo Cesar Lemes de Paula"
 
 #: app/main.cpp:46
 #, kde-kuit-format
@@ -1114,13 +1114,13 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Really Quit?"
-msgstr ""
+msgstr "Сапраўды выйсці?"
 
 #: app/mainwindow.cpp:251
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Open/Retract Yakuake"
-msgstr ""
+msgstr "Адкрыць(уцягнуць) Yakuake"
 
 #: app/mainwindow.cpp:260
 #| msgctxt "@label"
@@ -1146,28 +1146,28 @@ msgstr "Рэдагаваць бягучы профіль..."
 #| msgid "Window width"
 msgctxt "@action"
 msgid "Increase Window Width"
-msgstr ""
+msgstr "Павялічыць шырыню акна"
 
 #: app/mainwindow.cpp:281
 #| msgctxt "@label"
 #| msgid "Window width"
 msgctxt "@action"
 msgid "Decrease Window Width"
-msgstr ""
+msgstr "Паменшыць шырыню акна"
 
 #: app/mainwindow.cpp:286
 #| msgctxt "@label"
 #| msgid "Window height"
 msgctxt "@action"
 msgid "Increase Window Height"
-msgstr ""
+msgstr "Павялічыць вышыню акна"
 
 #: app/mainwindow.cpp:291
 #| msgctxt "@label"
 #| msgid "Window height"
 msgctxt "@action"
 msgid "Decrease Window Height"
-msgstr ""
+msgstr "Паменшыць вышыню акна"
 
 #: app/mainwindow.cpp:296
 #, kde-kuit-format
@@ -1257,31 +1257,31 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Previous Terminal"
-msgstr ""
+msgstr "Папярэдні тэрмінал"
 
 #: app/mainwindow.cpp:391
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Next Terminal"
-msgstr ""
+msgstr "Наступны тэрмінал"
 
 #: app/mainwindow.cpp:397
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Close Active Terminal"
-msgstr ""
+msgstr "Закрыць актыўны тэрмінал"
 
 #: app/mainwindow.cpp:404
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Split Left/Right"
-msgstr ""
+msgstr "Падзяліць па вертыкалі"
 
 #: app/mainwindow.cpp:411
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Split Top/Bottom"
-msgstr ""
+msgstr "Падзяліць па гарызанталі"
 
 #: app/mainwindow.cpp:418
 #, kde-kuit-format
