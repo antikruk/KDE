@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-24 00:40+0000\n"
-"PO-Revision-Date: 2024-06-01 17:50\n"
+"POT-Creation-Date: 2024-06-08 00:40+0000\n"
+"PO-Revision-Date: 2024-06-08 23:03\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,77 +19,93 @@ msgstr ""
 "X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/discover/plasma-discover.po\n"
 "X-Crowdin-File-ID: 9808\n"
 
-#: discover/DiscoverObject.cpp:173
+#: discover/DiscoverObject.cpp:176
 #, kde-format
 msgctxt "@title %1 is the distro name"
 msgid "%1 is not configured for installing apps through Discover—only app add-ons"
 msgstr "Дыстрыбутыў \"%1\" не наладжаны на ўсталяванне праграм з дапамогай Discover - толькі дапаўненняў для праграм"
 
-#: discover/DiscoverObject.cpp:175
+#: discover/DiscoverObject.cpp:178
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the distro name"
 msgid "To use Discover for apps, install your preferred module on the <interface>Settings</interface> page, under <interface>Missing Backends</interface>."
 msgstr "Каб выкарыстоўваць Discover для праграм, усталюйце патрэбны модуль на старонцы <interface>Налады</interface> у раздзеле <interface>Адсутныя рухавік і</interface>."
 
-#: discover/DiscoverObject.cpp:178
+#: discover/DiscoverObject.cpp:181
 #, kde-format
 msgctxt "@action:button %1 is the distro name"
 msgid "Report This Issue to %1"
 msgstr "Паведаміць пра праблему %1"
 
-#: discover/DiscoverObject.cpp:183
-#, kde-kuit-format
+#: discover/DiscoverObject.cpp:186
+#| msgctxt ""
+#| "@info:usagetip %1 is the distro name; in this case it always contains "
+#| "'Arch Linux'"
+#| msgid ""
+#| "To use Discover for apps, install <link url='https://wiki.archlinux.org/"
+#| "title/Flatpak#Installation'>Flatpak</link> or <link url='https://wiki."
+#| "archlinux.org/title/"
+#| "KDE#Discover_does_not_show_any_applications'>PackageKit</link> using the "
+#| "<command>pacman</command> package manager.<nl/><nl/> Review <link "
+#| "url='https://archlinux.org/packages/extra/x86_64/discover/'>%1's "
+#| "packaging for Discover</link>"
 msgctxt "@info:usagetip %1 is the distro name; in this case it always contains 'Arch Linux'"
-msgid "To use Discover for apps, install <link url='https://wiki.archlinux.org/title/Flatpak#Installation'>Flatpak</link> or <link url='https://wiki.archlinux.org/title/KDE#Discover_does_not_show_any_applications'>PackageKit</link> using the <command>pacman</command> package manager.<nl/><nl/> Review <link url='https://archlinux.org/packages/extra/x86_64/discover/'>%1's packaging for Discover</link>"
-msgstr "Каб выкарыстоўваць Discover для праграм, усталюйце <link url='https://wiki.archlinux.org/title/Flatpak#Installation'>Flatpak</link> або <link url='https://wiki.archlinux.org/title/KDE#Discover_does_not_show_any_applications'>PackageKit</link> з дапамогай <command>pacman</command>.<nl/><nl/> Агляд <link url='https://archlinux.org/packages/extra/x86_64/discover/'>%1's пакетаў для Discover</link>"
+msgid "To use Discover for apps, install <link url='https://wiki.archlinux.org/title/Flatpak#Installation'>Flatpak</link> using the <command>pacman</command> package manager.<nl/><nl/> Review <link url='https://archlinux.org/packages/extra/x86_64/discover/'>%1's packaging for Discover</link>"
+msgstr ""
 
-#: discover/DiscoverObject.cpp:274
+#: discover/DiscoverObject.cpp:199
+#, kde-kuit-format
+msgctxt "@info:usagetip %1 is the distro name"
+msgid "Support for managing packages from %1 is incomplete; you may experience any number of problems. Do not report bugs to KDE. It is highly recommended to uninstall the <resource>packagekit-qt6</resource> package and use Discover only to manage Flatpaks, Snaps, and Add-Ons.<para>%1 maintainers recommended instead using the <command>pacman</command> command-line tool to manage packages.</para>"
+msgstr ""
+
+#: discover/DiscoverObject.cpp:287
 #, kde-format
 msgid "Could not find category '%1'"
 msgstr "Не ўдалося знайсці катэгорыю \"%1\""
 
-#: discover/DiscoverObject.cpp:289
+#: discover/DiscoverObject.cpp:302
 #, kde-format
 msgid "Trying to open inexisting file '%1'"
 msgstr "Спроба адкрыцця файла \"%1\", які не існуе"
 
-#: discover/DiscoverObject.cpp:311
+#: discover/DiscoverObject.cpp:324
 #, kde-format
 msgid "Cannot interact with flatpak resources without the flatpak backend %1. Please install it first."
 msgstr "Немагчыма ўзаемадзейнічаць з рэсурсамі Flatpak без рухавіка Flatpak %1. Спачатку ўсталюйце яго."
 
-#: discover/DiscoverObject.cpp:315
+#: discover/DiscoverObject.cpp:328
 #, kde-format
 msgid "Could not open %1"
 msgstr "Не ўдалося адкрыць %1"
 
-#: discover/DiscoverObject.cpp:377
+#: discover/DiscoverObject.cpp:390
 #, kde-format
 msgid "Please make sure Snap support is installed"
 msgstr "Пераканайцеся, што падтрымка Snap усталяваная"
 
-#: discover/DiscoverObject.cpp:380
+#: discover/DiscoverObject.cpp:393
 #, kde-format
 msgid "Could not open %1 because it was not found in any available software repositories."
 msgstr "Немагчыма адкрыць %1, бо яго не ўдалося знайсці ні ў адным з даступных рэпазіторыяў праграмнага забеспячэння."
 
-#: discover/DiscoverObject.cpp:384
+#: discover/DiscoverObject.cpp:397
 #, kde-format
 msgid "Please report this issue to the packagers of your distribution."
 msgstr "Адпраўце справаздачу пра памылку ў службу падтрымкі вашага дыстрыбутыва."
 
-#: discover/DiscoverObject.cpp:387
+#: discover/DiscoverObject.cpp:400
 #, kde-format
 msgid "Report This Issue"
 msgstr "Паведаміць пра праблему"
 
-#: discover/DiscoverObject.cpp:449 discover/DiscoverObject.cpp:451
+#: discover/DiscoverObject.cpp:462 discover/DiscoverObject.cpp:464
 #: discover/main.cpp:118
 #, kde-format
 msgid "Discover"
 msgstr "Discover"
 
-#: discover/DiscoverObject.cpp:452
+#: discover/DiscoverObject.cpp:465
 #, kde-format
 msgid "Discover was closed before certain tasks were done, waiting for it to finish."
 msgstr "Discover быў закрыты да таго, як былі выкананы пэўныя задачы, таму зараз чакаецца іх завяршэнне."
@@ -467,35 +483,13 @@ msgid "Risks of proprietary software"
 msgstr "Імавернасць несвабоднага праграмнага забеспячэння"
 
 #: discover/qml/ApplicationPage.qml:912
-#| msgctxt "@info"
-#| msgid ""
-#| "This application's source code is partially or entirely closed to public "
-#| "inspection and improvement. That means third parties and users like you "
-#| "cannot verify its operation, security, and trustworthiness, or modify and "
-#| "redistribute it without the authors' express permission.<nl/><nl/>The "
-#| "application may be perfectly safe to use, or it may be acting against you "
-#| "in various ways—such as harvesting your personal information, tracking "
-#| "your location, or transmitting the contents of your files to someone "
-#| "else. There is no easy way to be sure, so you should only install this "
-#| "application if you fully trust its authors (%1).<nl/><nl/>You can learn "
-#| "more at <link url='%2'>%2</link>."
+#, kde-kuit-format
 msgctxt "@info"
 msgid "Only install this application if you fully trust its authors (<link url='%1'>%2</link>).<nl/><nl/>Its source code is partially or entirely closed to public inspection and improvement, so third parties and users like you cannot verify its operation, security, and trustworthiness, or modify and redistribute it without the authors' express permission.<nl/><nl/>The application may be perfectly safe to use, or it may be acting against you in various ways—such as harvesting your personal information, tracking your location, or transmitting the contents of your files to someone else.<nl/><nl/>You can learn more at <link url='%3'>%3</link>."
 msgstr ""
 
 #: discover/qml/ApplicationPage.qml:913
-#| msgctxt "@info"
-#| msgid ""
-#| "This application's source code is partially or entirely closed to public "
-#| "inspection and improvement. That means third parties and users like you "
-#| "cannot verify its operation, security, and trustworthiness, or modify and "
-#| "redistribute it without the authors' express permission.<nl/><nl/>The "
-#| "application may be perfectly safe to use, or it may be acting against you "
-#| "in various ways—such as harvesting your personal information, tracking "
-#| "your location, or transmitting the contents of your files to someone "
-#| "else. There is no easy way to be sure, so you should only install this "
-#| "application if you fully trust its authors (%1).<nl/><nl/>You can learn "
-#| "more at <link url='%2'>%2</link>."
+#, kde-kuit-format
 msgctxt "@info"
 msgid "Only install this application if you fully trust its authors (%1).<nl/><nl/>This application's source code is partially or entirely closed to public inspection and improvement. That means third parties and users like you cannot verify its operation, security, and trustworthiness, or modify and redistribute it without the authors' express permission.<nl/><nl/>The application may be perfectly safe to use, or it may be acting against you in various ways—such as harvesting your personal information, tracking your location, or transmitting the contents of your files to someone else.<nl/><nl/>You can learn more at <link url='%2'>%2</link>."
 msgstr ""
@@ -792,7 +786,7 @@ msgid "Copy to Clipboard"
 msgstr "Скапіяваць у буфер абмену"
 
 #: discover/qml/Feedback.qml:14
-#| msgid "Submit usage information"
+#, kde-format
 msgid "Submit Usage Information"
 msgstr ""
 
@@ -812,7 +806,7 @@ msgid "Configure"
 msgstr "Наладжванне"
 
 #: discover/qml/Feedback.qml:23
-#| msgid "Configure feedback…"
+#, kde-format
 msgid "Configure Feedback…"
 msgstr ""
 
