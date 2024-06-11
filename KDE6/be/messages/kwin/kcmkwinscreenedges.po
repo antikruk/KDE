@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-09 00:39+0000\n"
+"POT-Creation-Date: 2024-02-27 00:38+0000\n"
 "PO-Revision-Date: 2024-02-27 07:45\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -11,15 +11,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
-"%100>=11 && n%100<=14 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Generator: Lokalize 22.08.3\n"
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/kwin/"
-"kcmkwinscreenedges.po\n"
+"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/kwin/kcmkwinscreenedges.po\n"
 "X-Crowdin-File-ID: 10436\n"
 
 #: main.cpp:151 touch.cpp:118
@@ -95,12 +92,8 @@ msgstr "Змена рэжыму альтэрнатыўнага пераключ�
 #. i18n: ectx: property (text), widget (QLabel, infoLabel)
 #: main.ui:23
 #, kde-format
-msgid ""
-"You can trigger an action by pushing the mouse cursor against the "
-"corresponding screen edge or corner."
-msgstr ""
-"Вы можаце запусціць дзеянне, калі наведзяце курсор мышы на адпаведны край "
-"або кут экрана і націснеце ў гэтым месцы."
+msgid "You can trigger an action by pushing the mouse cursor against the corresponding screen edge or corner."
+msgstr "Вы можаце запусціць дзеянне, калі наведзяце курсор мышы на адпаведны край або кут экрана і націснеце ў гэтым месцы."
 
 #. i18n: ectx: property (text), widget (QLabel, quickMaximizeLabel)
 #: main.ui:67
@@ -165,8 +158,7 @@ msgstr "экрана"
 #. i18n: ectx: property (toolTip), widget (QLabel, desktopSwitchLabel)
 #: main.ui:174
 #, kde-format
-msgid ""
-"Change desktop when the mouse cursor is pushed against the edge of the screen"
+msgid "Change desktop when the mouse cursor is pushed against the edge of the screen"
 msgstr "Змяняць працоўны стол пры падвядзенні курсора мышы да краю экрана"
 
 #. i18n: ectx: property (text), widget (QLabel, desktopSwitchLabel)
@@ -197,12 +189,8 @@ msgstr "Заўсёды ўключана"
 #. i18n: ectx: property (toolTip), widget (QLabel, activationDelayLabel)
 #: main.ui:206
 #, kde-format
-msgid ""
-"Amount of time required for the mouse cursor to be pushed against the edge "
-"of the screen before the action is triggered"
-msgstr ""
-"Прамежак часу, неабходны для таго, каб курсор мышы быў падведзены да краю "
-"экрана, перш чым дзеянне будзе запушчана"
+msgid "Amount of time required for the mouse cursor to be pushed against the edge of the screen before the action is triggered"
+msgstr "Прамежак часу, неабходны для таго, каб курсор мышы быў падведзены да краю экрана, перш чым дзеянне будзе запушчана"
 
 #. i18n: ectx: property (text), widget (QLabel, activationDelayLabel)
 #: main.ui:209
@@ -220,11 +208,8 @@ msgstr " мс"
 #. i18n: ectx: property (toolTip), widget (QLabel, triggerCooldownLabel)
 #: main.ui:238
 #, kde-format
-msgid ""
-"Amount of time required after triggering an action until the next trigger "
-"can occur"
-msgstr ""
-"Прамежак часу, які павінен мінуць пасля запуску дзеяння да наступнага запуску"
+msgid "Amount of time required after triggering an action until the next trigger can occur"
+msgstr "Прамежак часу, які павінен мінуць пасля запуску дзеяння да наступнага запуску"
 
 #. i18n: ectx: property (text), widget (QLabel, triggerCooldownLabel)
 #: main.ui:241
@@ -232,72 +217,10 @@ msgstr ""
 msgid "&Reactivation delay:"
 msgstr "&Затрымліванне паўторнай актывацыі:"
 
-#. i18n: ectx: property (text), widget (QLabel, CornerBarrierLabel)
-#: main.ui:270
-#, kde-format
-msgid "&Corner barrier:"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_CornerBarrier)
-#: main.ui:280
-#, kde-format
-msgid ""
-"Here you can enable or disable the virtual corner barrier between screens. "
-"The barrier prevents the cursor from moving to another screen when it is "
-"already touching a screen corner. This makes it easier to trigger user "
-"interface elements like maximized windows' close buttons when using multiple "
-"screens."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CornerBarrier)
-#: main.ui:283
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Prevents cursors from crossing at screen corners."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, EdgeBarrierLabel)
-#: main.ui:290
-#, kde-format
-msgid "&Edge barrier:"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_EdgeBarrier)
-#: main.ui:300
-#, kde-format
-msgid ""
-"Here you can set size of the edge barrier between different screens. The "
-"barrier adds additional distance you have to move your pointer before it "
-"crosses the edge onto the other screen. This makes it easier to access user "
-"interface elements like Plasma Panels that are located on an edge between "
-"screens."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_EdgeBarrier)
-#: main.ui:303
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Additional distance cursor needs to travel to cross screen edges."
-msgstr ""
-
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_EdgeBarrier)
-#: main.ui:306
-#, kde-format
-msgid "None"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_EdgeBarrier)
-#: main.ui:309
-#, kde-format
-msgid " px"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_1)
 #: touch.ui:17
 #, kde-format
-msgid ""
-"You can trigger an action by swiping from the screen edge towards the center "
-"of the screen."
+msgid "You can trigger an action by swiping from the screen edge towards the center of the screen."
 msgstr "Вы можаце запусціць дзеянне, правёўшы ад краю экрана да цэнтра экрана."
 
 #~ msgctxt "NAME OF TRANSLATORS"
@@ -307,3 +230,4 @@ msgstr "Вы можаце запусціць дзеянне, правёўшы а
 #~ msgctxt "EMAIL OF TRANSLATORS"
 #~ msgid "Your emails"
 #~ msgstr "nashtlumach@gmail.com"
+
