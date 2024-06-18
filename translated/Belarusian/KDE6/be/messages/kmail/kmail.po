@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-30 00:39+0000\n"
-"PO-Revision-Date: 2024-06-05 07:03\n"
+"POT-Creation-Date: 2024-06-16 00:39+0000\n"
+"PO-Revision-Date: 2024-06-17 08:03\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -417,7 +417,7 @@ msgid "Address type:"
 msgstr "Тып адраса:"
 
 #: collectionpage/collectionmailinglistpage.cpp:103
-#| msgid "Mailing list description:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "URL for mailing list posting:"
 msgstr ""
@@ -475,13 +475,13 @@ msgid "Quota"
 msgstr ""
 
 #: collectionpage/collectionquotawidget.cpp:24
-#| msgid "Usage:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Usage:"
 msgstr "Выкарыстанне:"
 
 #: collectionpage/collectionquotawidget.cpp:30
-#| msgid "Status:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Status:"
 msgstr "Статус:"
@@ -509,7 +509,7 @@ msgid "<qt>To choose a key or a combination of keys which select the current fol
 msgstr ""
 
 #: collectionpage/collectiontemplatespage.cpp:28
-#| msgid "Templates"
+#, kde-format
 msgctxt "@title:tab Templates settings page."
 msgid "Templates"
 msgstr "Шаблоны"
@@ -547,46 +547,47 @@ msgstr ""
 msgid "Retrieval Options"
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:52
+#: configuredialog/configureaccountpage.cpp:50
 #, kde-format
 msgctxt "@title:tab Tab page where the user configures identities"
 msgid "Identities"
 msgstr "Асабістыя даныя"
 
-#: configuredialog/configureaccountpage.cpp:58
+#: configuredialog/configureaccountpage.cpp:56
 #, kde-format
 msgctxt "@title:tab Tab page where the user configures accounts to receive mail"
 msgid "Receiving"
 msgstr "Атрыманне"
 
-#: configuredialog/configureaccountpage.cpp:65
+#: configuredialog/configureaccountpage.cpp:63
 #, kde-format
 msgctxt "@title:tab Tab page where the user configures accounts to send mail"
 msgid "Sending"
 msgstr "Адпраўленне"
 
-#: configuredialog/configureaccountpage.cpp:71
+#: configuredialog/configureaccountpage.cpp:69
 #, kde-format
 msgctxt "@title:tab Tab page where the user configures ldap server"
 msgid "LDAP server"
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:86
+#: configuredialog/configureaccountpage.cpp:84
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Outgoing accounts (add at least one):"
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:93
+#: configuredialog/configureaccountpage.cpp:91
 #, kde-format
 msgid "&Confirm action"
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:94
+#: configuredialog/configureaccountpage.cpp:93
 #, kde-format
 msgid "Before sending:"
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:101
+#: configuredialog/configureaccountpage.cpp:100
 #, kde-format
 msgid "Check spelling"
 msgstr "Праверыць правапіс"
@@ -631,48 +632,48 @@ msgstr ""
 msgid "Enable Undo Send"
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:209
+#: configuredialog/configureaccountpage.cpp:201
 #, kde-format
 msgid "Add Mail Account…"
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:210
+#: configuredialog/configureaccountpage.cpp:202
 #, kde-format
 msgid "Custom Account…"
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:230
+#: configuredialog/configureaccountpage.cpp:222
 #: kmlaunchexternalcomponent.cpp:148
 #, kde-format
 msgid "Could not start the account wizard. Please make sure you have AccountWizard properly installed."
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:232
+#: configuredialog/configureaccountpage.cpp:224
 #: kmlaunchexternalcomponent.cpp:150
 #, kde-format
 msgctxt "@title:window"
 msgid "Unable to start account wizard"
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:280
+#: configuredialog/configureaccountpage.cpp:272
 #, kde-format
 msgctxt "Label to a checkbox, so is either checked/unchecked"
 msgid "Include in Manual Mail Check"
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:288
+#: configuredialog/configureaccountpage.cpp:280
 #, kde-format
 msgctxt "Label to a checkbox, so is either checked/unchecked"
 msgid "Switch offline on KMail Shutdown"
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:295
+#: configuredialog/configureaccountpage.cpp:287
 #, kde-format
 msgctxt "@action"
 msgid "Check mail on startup"
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:342
+#: configuredialog/configureaccountpage.cpp:334
 #, kde-format
 msgid "New Mail Notifier Agent not registered. Please contact your administrator."
 msgstr ""
@@ -742,7 +743,7 @@ msgid "&Use custom fonts"
 msgstr ""
 
 #: configuredialog/configureappearancepage.cpp:171
-#| msgid "&Reply to:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Apply &to:"
 msgstr ""
@@ -923,8 +924,7 @@ msgid "Enable system tray icon"
 msgstr "Уключыць значок на прасторы апавяшчэнняў"
 
 #. i18n: ectx: label, entry (StartInTray), group (General)
-#: configuredialog/configureappearancepage.cpp:867 kmail_options.h:30
-#: settings/kmail.kcfg.in:92
+#: configuredialog/configureappearancepage.cpp:867 settings/kmail.kcfg.in:92
 #, kde-format
 msgid "Start minimized to tray"
 msgstr ""
@@ -935,10 +935,12 @@ msgid "Show unread email in Taskbar"
 msgstr ""
 
 #: configuredialog/configureappearancepage.cpp:902
+#, kde-format
 msgid "Plasma activities"
 msgstr ""
 
 #: configuredialog/configureappearancepage.cpp:907
+#, kde-format
 msgid "Enable"
 msgstr "Уключыць"
 
@@ -948,13 +950,13 @@ msgid "A&vailable Tags"
 msgstr ""
 
 #: configuredialog/configureappearancepage.cpp:993
-#| msgid "Add new tag"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Add new tag"
 msgstr "Дадаць новы тэг"
 
 #: configuredialog/configureappearancepage.cpp:998
-#| msgid "Remove selected tag"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove selected tag"
 msgstr "Выдаліць абраны тэг"
@@ -1120,7 +1122,7 @@ msgid "Set the default forwarded message format"
 msgstr ""
 
 #: configuredialog/configurecomposerpage.cpp:300
-#| msgid "Delete Folder"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default forwarding type:"
 msgstr ""
@@ -1330,8 +1332,7 @@ msgid "&Name:"
 msgstr "&Назва:"
 
 #: configuredialog/configurecomposerpage.cpp:852
-#| msgctxt "@title:column Value of the mimeheader."
-#| msgid "Value"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&Value:"
 msgstr ""
@@ -1373,7 +1374,7 @@ msgid "Attachment Word:"
 msgstr ""
 
 #: configuredialog/configurecomposerpage.cpp:1064
-#| msgid "Has Attachment"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Maximum Attachment Size:"
 msgstr ""
@@ -1589,12 +1590,13 @@ msgid "Archive"
 msgstr "Архіў"
 
 #: dialog/archivefolderdialog.cpp:72
-#| msgid "&Folder:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&Folder:"
 msgstr "&Каталог:"
 
 #: dialog/archivefolderdialog.cpp:82
+#, kde-format
 msgctxt "@label:textbox"
 msgid "F&ormat:"
 msgstr ""
@@ -1620,7 +1622,7 @@ msgid "GZ-Compressed Tar Archive (.tar.gz)"
 msgstr ""
 
 #: dialog/archivefolderdialog.cpp:97
-#| msgid "&New Folder..."
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&Archive File:"
 msgstr ""
@@ -1667,13 +1669,13 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: editor/attachment/attachmentview.cpp:198
-#| msgid "Has Attachment"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Hide attachment list"
 msgstr ""
 
 #: editor/attachment/attachmentview.cpp:200
-#| msgid "Show attachment icon"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Show attachment list"
 msgstr ""
@@ -1697,37 +1699,37 @@ msgid "Select the sent-mail folder where a copy of this message will be saved"
 msgstr ""
 
 #: editor/kmcomposerwin.cpp:379
-#| msgid "Remove Identity"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Select the outgoing account to use for sending this message"
 msgstr ""
 
 #: editor/kmcomposerwin.cpp:387
-#| msgid "Remove Identity"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Set the \"From:\" email address for this message"
 msgstr ""
 
 #: editor/kmcomposerwin.cpp:415
-#| msgid "&Identity:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&Identity:"
 msgstr ""
 
 #: editor/kmcomposerwin.cpp:416
-#| msgid "&Dictionary"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&Dictionary:"
 msgstr ""
 
 #: editor/kmcomposerwin.cpp:417
-#| msgid "Renaming folder"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&Sent-Mail folder:"
 msgstr ""
 
 #: editor/kmcomposerwin.cpp:418
-#| msgid "Special &transport:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&Mail transport:"
 msgstr ""
@@ -2002,7 +2004,7 @@ msgid "&Cryptographic Message Format"
 msgstr ""
 
 #: editor/kmcomposerwin.cpp:1503
-#| msgid "Remove Identity"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Select a cryptographic format for this message"
 msgstr ""
@@ -2035,7 +2037,7 @@ msgid " Line: %1 "
 msgstr ""
 
 #: editor/kmcomposerwin.cpp:1677
-#| msgid "View Columns"
+#, kde-format
 msgctxt "@label:textbox"
 msgid " Column: %1 "
 msgstr ""
@@ -2461,7 +2463,7 @@ msgid "Send Now"
 msgstr "Адправіць зараз"
 
 #: editor/subjectlineeditwithautocorrection.cpp:16
-#| msgid "Remove Identity"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Set a subject for this message"
 msgstr ""
@@ -2711,7 +2713,7 @@ msgid "&Duplicate existing vCard"
 msgstr ""
 
 #: identity/identityaddvcarddialog.cpp:89 identity/newidentitydialog.cpp:91
-#| msgid "&User identifier:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&Existing identities:"
 msgstr ""
@@ -2754,8 +2756,7 @@ msgid "General"
 msgstr "Асноўныя налады"
 
 #: identity/identitydialog.cpp:272
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&Your name:"
 msgstr ""
@@ -2766,7 +2767,7 @@ msgid "<qt><h3>Your name</h3><p>This field should contain your name as you would
 msgstr ""
 
 #: identity/identitydialog.cpp:288
-#| msgid "Organization:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Organi&zation:"
 msgstr ""
@@ -2777,7 +2778,7 @@ msgid "<qt><h3>Organization</h3><p>This field should have the name of your organ
 msgstr ""
 
 #: identity/identitydialog.cpp:305
-#| msgid "&Email address:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&Email address:"
 msgstr "Адрас &электроннай пошты:"
@@ -2788,7 +2789,7 @@ msgid "<qt><h3>Email address</h3><p>This field should have your full email addre
 msgstr ""
 
 #: identity/identitydialog.cpp:329
-#| msgid "&Email address:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Email a&liases:"
 msgstr ""
@@ -2809,7 +2810,7 @@ msgid "<qt><p>The OpenPGP key you choose here will be used to digitally sign mes
 msgstr ""
 
 #: identity/identitydialog.cpp:363
-#| msgid "OpenPGP key:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "OpenPGP signing key:"
 msgstr ""
@@ -2835,7 +2836,7 @@ msgid "<qt><p>The OpenPGP key you choose here will be used to encrypt messages t
 msgstr ""
 
 #: identity/identitydialog.cpp:411
-#| msgid "Your OpenPGP Encryption Key"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "OpenPGP encryption key:"
 msgstr ""
@@ -2846,7 +2847,7 @@ msgid "<qt><p>The S/MIME (X.509) certificate you choose here will be used to dig
 msgstr ""
 
 #: identity/identitydialog.cpp:426
-#| msgid "Your S/MIME Signature Certificate"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "S/MIME signing certificate:"
 msgstr ""
@@ -2857,7 +2858,7 @@ msgid "<qt><p>The S/MIME certificate you choose here will be used to encrypt mes
 msgstr ""
 
 #: identity/identitydialog.cpp:446
-#| msgid "Your S/MIME Encryption Certificate"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "S/MIME encryption certificate:"
 msgstr ""
@@ -2890,7 +2891,7 @@ msgid "Overwrite global settings for security defaults"
 msgstr ""
 
 #: identity/identitydialog.cpp:483
-#| msgid "Overwrite File?"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Overwrite defaults:"
 msgstr ""
@@ -2924,7 +2925,7 @@ msgid "Advanced"
 msgstr "Дадатковыя"
 
 #: identity/identitydialog.cpp:515
-#| msgid "&Email address:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&Reply-To address:"
 msgstr ""
@@ -2935,7 +2936,7 @@ msgid "<qt><h3>Reply-To addresses</h3><p>This sets the <tt>Reply-to:</tt> header
 msgstr ""
 
 #: identity/identitydialog.cpp:537
-#| msgid "&Email address:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&CC addresses:"
 msgstr ""
@@ -2946,7 +2947,7 @@ msgid "<qt><h3>CC (Carbon Copy) addresses</h3><p>The addresses that you enter he
 msgstr ""
 
 #: identity/identitydialog.cpp:559
-#| msgid "&Email address:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&BCC addresses:"
 msgstr ""
@@ -2957,7 +2958,7 @@ msgid "<qt><h3>BCC (Blind Carbon Copy) addresses</h3><p>The addresses that you e
 msgstr ""
 
 #: identity/identitydialog.cpp:577
-#| msgid "&Dictionary"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "D&ictionary:"
 msgstr ""
@@ -2978,7 +2979,7 @@ msgid "Select Draft Folder"
 msgstr ""
 
 #: identity/identitydialog.cpp:593
-#| msgid "&Destination folder:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&Drafts folder:"
 msgstr ""
@@ -2989,7 +2990,7 @@ msgid "Select Templates Folder"
 msgstr ""
 
 #: identity/identitydialog.cpp:601
-#| msgid "&Replace"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&Templates folder:"
 msgstr ""
@@ -3010,7 +3011,7 @@ msgid "Create…"
 msgstr "Стварыць…"
 
 #: identity/identitydialog.cpp:618
-#| msgid "Autocorrection"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Autocorrection language:"
 msgstr ""
@@ -3022,7 +3023,7 @@ msgid "Restore default domain name"
 msgstr ""
 
 #: identity/identitydialog.cpp:633
-#| msgid "Delete T&hread"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Defaul&t domain:"
 msgstr ""
@@ -3246,8 +3247,7 @@ msgid "New Identity"
 msgstr "Новыя асабістыя даныя"
 
 #: identity/newidentitydialog.cpp:61
-#| msgctxt "@title:window"
-#| msgid "New Identity"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "&New identity:"
 msgstr ""
@@ -3472,73 +3472,88 @@ msgctxt "@title:window"
 msgid "Save File as"
 msgstr "Захаваць файл як"
 
-#: kmail_options.h:15
-#, kde-format
+#: kmail_options.h:16
+#| msgid "Todo Message"
+msgctxt "@info:shell"
 msgid "Set subject of message"
 msgstr ""
 
-#: kmail_options.h:17
+#: kmail_options.h:19
 #, kde-format
 msgid "Send CC: to 'address'. This can be repeated"
 msgstr ""
 
-#: kmail_options.h:20
+#: kmail_options.h:22
 #, kde-format
 msgid "Send BCC: to 'address'. This can be repeated"
 msgstr ""
 
-#: kmail_options.h:23
+#: kmail_options.h:25
 #, kde-format
 msgid "Set replyTo to 'address'"
 msgstr ""
 
-#: kmail_options.h:25
-#, kde-format
+#: kmail_options.h:28
+#| msgid "Add 'header' to message"
+msgctxt "@info:shell"
 msgid "Add 'header' to message. This can be repeated"
 msgstr ""
 
-#: kmail_options.h:26
-#, kde-format
+#: kmail_options.h:30
+#| msgid "Removing old messages from folder %1 failed."
+msgctxt "@info:shell"
 msgid "Read message body from 'file'"
 msgstr ""
 
-#: kmail_options.h:27
-#, kde-format
-msgid "Set body of message"
-msgstr ""
-
-#: kmail_options.h:28
-#, kde-format
-msgid "Add an attachment to the mail. This can be repeated"
-msgstr ""
-
-#: kmail_options.h:29
-#, kde-format
-msgid "Only check for new mail"
-msgstr ""
-
 #: kmail_options.h:31
-#, kde-format
-msgid "Only open composer window"
+#| msgid "Todo Message"
+msgctxt "@info:shell"
+msgid "Set body of message"
 msgstr ""
 
 #: kmail_options.h:32
 #, kde-format
-msgid "Set identity name"
+msgctxt "@info:shell"
+msgid "Add an attachment to the mail. This can be repeated"
 msgstr ""
 
 #: kmail_options.h:33
+#| msgid "Checking account %1 for new mail"
+msgctxt "@info:shell"
+msgid "Only check for new mail"
+msgstr ""
+
+#: kmail_options.h:34
 #, kde-format
-msgid "View the given message file"
+msgctxt "@info:shell"
+msgid "Start minimized to tray"
 msgstr ""
 
 #: kmail_options.h:35
 #, kde-format
+msgctxt "@info:shell"
+msgid "Only open composer window"
+msgstr ""
+
+#: kmail_options.h:36
+msgctxt "@info:shell"
+msgid "Set identity name"
+msgstr ""
+
+#: kmail_options.h:37
+msgctxt "@info:shell"
+msgid "View the given message file"
+msgstr ""
+
+#: kmail_options.h:39
+#| msgid "Lists the available options for user feedback"
+msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr "Спіс даступных параметраў для водгукаў"
 
-#: kmail_options.h:40
+#: kmail_options.h:44
 #, kde-format
+msgctxt "@info:shell"
 msgid "Send message to 'address' or attach the file the 'URL' points to"
 msgstr ""
 
@@ -4261,7 +4276,7 @@ msgid "Check Mail"
 msgstr ""
 
 #: kmmainwidget.cpp:2937
-#| msgid "Check &Mail"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Check Mail"
 msgstr "Праверыць пошту"
@@ -5022,7 +5037,7 @@ msgid "Akonadi restarted."
 msgstr ""
 
 #: kmmainwin.cpp:53
-#| msgid "Starting…"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Starting…"
 msgstr "Запуск…"
@@ -5304,6 +5319,7 @@ msgid "%1 / %2"
 msgstr ""
 
 #: kontactplugin/kmail/summarywidget.cpp:196
+#, kde-format
 msgctxt "@label:textbox"
 msgid "No unread messages in your monitored folders"
 msgstr ""
@@ -6323,13 +6339,13 @@ msgstr "&Абраць усё"
 msgid "Unselect All"
 msgstr "Адкінуць выбар"
 
-#. i18n: ectx: property (text), widget (QCheckBox, mShowPopupAfterDnD)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPopupAfterDnD)
 #: ui/miscpagemaintab.ui:19
 #, kde-format
 msgid "&Ask for action after dragging messages to another folder"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, mEmptyTrashCheck)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EmptyTrashOnExit)
 #: ui/miscpagemaintab.ui:26
 #, kde-format
 msgid "Empty local &trash folder on program exit"
@@ -6349,31 +6365,31 @@ msgctxt "to be continued with \"jump to first new message\", \"jump to first unr
 msgid "When ente&ring a folder:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, mExcludeImportantFromExpiry)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ExcludeImportantMailFromExpiry)
 #: ui/miscpagemaintab.ui:68
 #, kde-format
 msgid "E&xclude important messages from expiry"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, mActionEnterFolder)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ActionEnterFolder)
 #: ui/miscpagemaintab.ui:76
 #, kde-format
 msgid "Jump to First Unread Message"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, mActionEnterFolder)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ActionEnterFolder)
 #: ui/miscpagemaintab.ui:81
 #, kde-format
 msgid "Jump to Last Selected Message"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, mActionEnterFolder)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ActionEnterFolder)
 #: ui/miscpagemaintab.ui:86
 #, kde-format
 msgid "Jump to Newest Message"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, mActionEnterFolder)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ActionEnterFolder)
 #: ui/miscpagemaintab.ui:91
 #, kde-format
 msgid "Jump to Oldest Message"
@@ -6385,7 +6401,7 @@ msgstr ""
 msgid "Mar&k selected message as read after"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QComboBox, mLoopOnGotoUnread)
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_LoopOnGotoUnread)
 #: ui/miscpagemaintab.ui:127
 #, kde-format
 msgctxt "what's this help"
@@ -6401,25 +6417,25 @@ msgid "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"https://www.w3.org/T
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Loop in all marked folders: </span>This is the same as \"Loop in all folders\" except that only folders are taken into account which have been marked with the folder property \"Act on new/unread mail in this folder\".</p></body></html>"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, mLoopOnGotoUnread)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LoopOnGotoUnread)
 #: ui/miscpagemaintab.ui:131
 #, kde-format
 msgid "Do not Loop"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, mLoopOnGotoUnread)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LoopOnGotoUnread)
 #: ui/miscpagemaintab.ui:136
 #, kde-format
 msgid "Loop in Current Folder"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, mLoopOnGotoUnread)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LoopOnGotoUnread)
 #: ui/miscpagemaintab.ui:141
 #, kde-format
 msgid "Loop in All Folders"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, mLoopOnGotoUnread)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LoopOnGotoUnread)
 #: ui/miscpagemaintab.ui:146
 #, kde-format
 msgid "Loop in All Marked Folders"
@@ -6431,19 +6447,19 @@ msgstr ""
 msgid " sec"
 msgstr " сек"
 
-#. i18n: ectx: property (text), widget (QCheckBox, mStartUpFolderCheck)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_StartSpecificFolderAtStartup)
 #: ui/miscpagemaintab.ui:173
 #, kde-format
 msgid "Open this folder on &startup:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, mDeleteMessagesWithoutConfirmation)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DeleteMessageWithoutConfirmation)
 #: ui/miscpagemaintab.ui:180
 #, kde-format
 msgid "Allow deleting messages without confirmation"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, mEnableFolderDragAndDrop)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableFolderDnD)
 #: ui/miscpagemaintab.ui:187
 #, kde-format
 msgid "Enable folders drag and drop"
@@ -9529,9 +9545,6 @@ msgstr ""
 #~ msgid "Ready."
 #~ msgstr "Гатовы."
 
-#~ msgid "Add 'header' to message"
-#~ msgstr "Дадаць 'загаловак' да паведамлення"
-
 #, fuzzy
 #~| msgid "is in address book"
 #~ msgid "Add address book"
@@ -10121,10 +10134,6 @@ msgstr ""
 #~ msgstr "Выдаліць увасабленне"
 
 #, fuzzy
-#~ msgid "&Sender identity:"
-#~ msgstr "Новае ўвасабленне"
-
-#, fuzzy
 #~ msgid ""
 #~ "Select the sender identity to be used when writing new mail or replying "
 #~ "to mail in this folder. This means that if you are in one of your work "
@@ -10681,11 +10690,6 @@ msgstr ""
 #~ msgstr "Выдаліць паведамленне"
 
 #, fuzzy
-#~| msgid "Todo Message"
-#~ msgid "Body of Message"
-#~ msgstr "Паведамленне з паметкай \"зрабіць\""
-
-#, fuzzy
 #~ msgid "Anywhere in Headers"
 #~ msgstr "Перапісаць загаловак"
 
@@ -11221,14 +11225,6 @@ msgstr ""
 #~ msgstr[0] "Немагчыма перанесці старыя паведамленні з тэчкі %1 у тэчку %2."
 #~ msgstr[1] "Немагчыма перанесці старыя паведамленні з тэчкі %1 у тэчку %2."
 #~ msgstr[2] "Немагчыма перанесці старыя паведамленні з тэчкі %1 у тэчку %2."
-
-#, fuzzy
-#~| msgid "Removing old messages from folder %1 failed."
-#~ msgid "Removed 1 old message from folder %2."
-#~ msgid_plural "Removed %1 old messages from folder %2."
-#~ msgstr[0] "Немагчыма выдаліць старыя паведамленні з тэчкі %1."
-#~ msgstr[1] "Немагчыма выдаліць старыя паведамленні з тэчкі %1."
-#~ msgstr[2] "Немагчыма выдаліць старыя паведамленні з тэчкі %1."
 
 #, fuzzy
 #~| msgid "Moving old messages from folder %1 to folder %2 failed."
@@ -13857,10 +13853,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Above the message pane"
 #~ msgstr "Над паведамленнем"
-
-#, fuzzy
-#~ msgid "Below the message pane"
-#~ msgstr "Пад паведамленнем"
 
 #, fuzzy
 #~| msgid "Show &never"
@@ -17653,9 +17645,6 @@ msgstr ""
 #~ "Рахунак %1 не ўтрымлівае паштовай скрыні:\n"
 #~ "праверка пошты перарваная.\n"
 #~ "Праверце настаўленні сваёй паштовай скрыні."
-
-#~ msgid "Checking account %1 for new mail"
-#~ msgstr "Пошук новых паведамленняў для рахунку %1"
 
 #~ msgid "POP Account"
 #~ msgstr "POP рахунак"

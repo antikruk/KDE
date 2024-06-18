@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-11 00:40+0000\n"
-"PO-Revision-Date: 2024-06-12 08:11\n"
+"POT-Creation-Date: 2024-06-15 00:40+0000\n"
+"PO-Revision-Date: 2024-06-17 08:06\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -110,10 +110,11 @@ msgid "Welcome Center"
 msgstr "Азнаямляльны цэнтр"
 
 #: src/main.cpp:50
-#, kde-format
+#| msgctxt "@info copyright string"
+#| msgid "© 2021-2024, KDE Community"
 msgctxt "@info copyright string"
-msgid "© 2021-2024, KDE Community"
-msgstr "© 2021-2024, Супольнасць KDE"
+msgid "© 2021–2024, KDE Community"
+msgstr ""
 
 #: src/main.cpp:52
 #, kde-format
@@ -208,8 +209,7 @@ msgid "&OK"
 msgstr "&Добра"
 
 #: src/qml/mock/MockActivities.qml:58
-#| msgctxt "@title:row Name of the 'Activities' Plasma feature"
-#| msgid "Activities"
+#, kde-format
 msgctxt "@title:window Title of the Plasma activities sidebar"
 msgid "Activities"
 msgstr "Пакоі"
@@ -297,7 +297,7 @@ msgctxt "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
 msgid "The <application>%1</application> app helps you find and install applications, games, and tools. You can search or browse by category, look at screenshots, and read reviews to help you find the perfect app."
 msgstr "Праграма <application>%1</application> дапамагае знаходзіць і ўсталёўваць праграмы, гульні і інш. Вы можаце шукаць па назве або праглядаць па катэгорыях, глядзець здымкі экрана і чытаць агляды."
 
-#: src/qml/pages/Discover.qml:102
+#: src/qml/pages/Discover.qml:105
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -310,22 +310,28 @@ msgid "Enjoy It!"
 msgstr "Карыстайцеся!"
 
 #: src/qml/pages/Enjoy.qml:20
-#, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "We hope you love Plasma as much as we loved making it for you! Now it's "
+#| "time to jump right in. Explore its features, install your favorite apps "
+#| "and games, and get busy doing what makes you you!"
 msgctxt "@info:usagetip"
-msgid "We hope you love Plasma as much as we loved making it for you! Now it's time to jump right in. Explore its features, install your favorite apps and games, and get busy doing what makes you you!"
-msgstr "Мы спадзяемся, што вам спадабаецца Plasma гэтак жа моцна, як нам падабалася рабіць яе для вас! Надыйшоў час прыступіць да працы. Паглядзіце магчымасці Plasma, усталюйце свае ўлюбёныя праграмы і гульні і займіцеся сваімі звычайнымі справамі!"
+msgid "We hope you love Plasma as much as we loved making it for you! Now it’s time to jump right in. Explore its features, install your favorite apps and games, and get busy doing what makes you you!"
+msgstr ""
 
-#: src/qml/pages/Enjoy.qml:25 src/qml/pages/Welcome.qml:58
-#, kde-format
-msgctxt "@action:button"
+#: src/qml/pages/Enjoy.qml:25
+#| msgctxt "@action:button"
+#| msgid "Learn more about the KDE community"
+msgctxt "@label:URL"
 msgid "Learn more about the KDE community"
 msgstr "Даведайцеся больш пра супольнасць KDE"
 
 #: src/qml/pages/Enjoy.qml:30
-#, kde-format
-msgctxt "@action:button"
-msgid "Get help at KDE's discussion forums"
-msgstr "Атрымайце дапамогу на форумах KDE"
+#| msgctxt "@action:button"
+#| msgid "Get help at KDE's discussion forums"
+msgctxt "@label:URL"
+msgid "Get help at KDE’s discussion forums"
+msgstr ""
 
 #: src/qml/pages/Enjoy.qml:60
 #, kde-kuit-format
@@ -448,10 +454,11 @@ msgid "To manage network connections, Plasma requires <icode>plasma-nm</icode> t
 msgstr "Каб у Plasma можна было кіраваць сеткавымі злучэннямі, трэба ўсталяваць <icode>plasma-nm</icode>. Калі ласка, паведаміце пра гэтую недакладнасць на %1."
 
 #: src/qml/pages/Network.qml:249
-#, kde-format
+#| msgctxt "@info:placeholder Shown when connected to the internet"
+#| msgid "You're connected"
 msgctxt "@info:placeholder Shown when connected to the internet"
-msgid "You're connected"
-msgstr "Вы падлучаныя"
+msgid "You’re connected"
+msgstr ""
 
 #: src/qml/pages/Network.qml:250
 #, kde-format
@@ -478,28 +485,33 @@ msgid "Plasma has been updated to %1"
 msgstr "Plasma была абноўлена да версіі %1"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:17
-#, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Thank you for testing this beta release of Plasma—your feedback is "
+#| "fundamental to helping us improve it! Please report any and all bugs you "
+#| "find so that we can fix them."
 msgctxt "@info:usagetip"
-msgid "Thank you for testing this beta release of Plasma—your feedback is fundamental to helping us improve it! Please report any and all bugs you find so that we can fix them."
-msgstr "Дзякуй за тэставанне гэтага бэта-выпуску Plasma. Ваш водгук вельмі важны, бо дапаможа нам палепшыць Plasma! Калі ласка, паведамляйце пра любыя выяўленыя вамі памылкі, каб мы маглі іх выправіць."
+msgid "Thank you for testing this beta release of Plasma — your feedback is fundamental to helping us improve it! Please report any and all bugs you find so that we can fix them."
+msgstr ""
 
 #: src/qml/pages/plasmaupdate/Beta.qml:23
-#: src/qml/pages/plasmaupdate/Update.qml:24
-#, kde-format
-msgctxt "@action:button"
-msgid "<b>Find out what's new</b>"
-msgstr "<b>Даведайцеся, што новага ў Plasma</b>"
+#| msgctxt "@action:button"
+#| msgid "<b>Find out what's new</b>"
+msgctxt "@label:URL"
+msgid "<b>Find out what’s new</b>"
+msgstr ""
 
 #: src/qml/pages/plasmaupdate/Beta.qml:28
-#, kde-format
-msgctxt "@action:button"
+#| msgctxt "@action:button"
+#| msgid "Report a bug"
+msgctxt "@label:URL"
 msgid "Report a bug"
 msgstr "Справаздача пра хібу"
 
 #: src/qml/pages/plasmaupdate/Beta.qml:32
-#: src/qml/pages/plasmaupdate/Update.qml:29
-#, kde-format
-msgctxt "@action:button"
+#| msgctxt "@action:button"
+#| msgid "Help work on the next release"
+msgctxt "@label:URL"
 msgid "Help work on the next release"
 msgstr "Дапамагчы з наступным выпускам"
 
@@ -508,6 +520,18 @@ msgstr "Дапамагчы з наступным выпускам"
 msgctxt "@info:usagetip"
 msgid "KDE contributors have spent the last four months hard at work on this release. We hope you enjoy using Plasma as much as we enjoyed making it!"
 msgstr "Удзельнікі каманды KDE напружана працавалі над гэтым выпускам апошнія чатыры месяцы. Мы спадзяемся, што вам будзе прыемна карыстацца Plasma гэтаксама, як нам было прыемна яе ствараць!"
+
+#: src/qml/pages/plasmaupdate/Update.qml:24
+#, kde-format
+msgctxt "@action:button"
+msgid "<b>Find out what's new</b>"
+msgstr "<b>Даведайцеся, што новага ў Plasma</b>"
+
+#: src/qml/pages/plasmaupdate/Update.qml:29
+#, kde-format
+msgctxt "@action:button"
+msgid "Help work on the next release"
+msgstr "Дапамагчы з наступным выпускам"
 
 #: src/qml/pages/plasmaupdate/Update.qml:70
 #, kde-kuit-format
@@ -618,13 +642,10 @@ msgstr "Пакоі"
 #| "you can focus on one at a time. You can have an activity for \"Home\", "
 #| "\"School\", \"Work\", and so on. Each Activity has access to all your "
 #| "files but has its own set of open apps and windows, recent documents, "
-#| "\"Favorite\" apps, and desktop widgets.<nl/><nl/>To get started, launch "
-#| "<interface>System Settings</interface> and search for \"Activities\". On "
-#| "that page, you can create more Activities. You can then switch between "
-#| "them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+#| "\"Favorite\" apps, and desktop widgets."
 msgctxt "@info:usagetip"
-msgid "Activities can be used to separate high-level projects or workflows so you can focus on one at a time. You can have an activity for \"Home\", \"School\", \"Work\", and so on. Each Activity has access to all your files but has its own set of open apps and windows, recent documents, \"Favorite\" apps, and desktop widgets."
-msgstr "Пакоі можна выкарыстоўваць для дзялення складаных праектаў або працоўных працэсаў, каб вы маглі сканцэнтравацца на кожным элеменце асобна. Вы можаце мець пакой \"Дом\", \"Школа\", \"Праца\" і гэтак далей. Кожны пакой мае доступ да ўсіх вашых файлаў, але мае ўласны набор адкрытых праграм і акон, нядаўніх дакументаў, улюбёных праграм і віджэтаў працоўнага стала."
+msgid "Activities can be used to separate high-level projects or workflows so you can focus on one at a time. You can have an activity for “Home”, “School”, “Work”, and so on. Each Activity has access to all your files but has its own set of open apps and windows, recent documents, “Favorite” apps, and desktop widgets."
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:27
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
@@ -635,10 +656,15 @@ msgid "Open Settings…"
 msgstr "Налады сістэмы…"
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:62
-#, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "To get started, launch <interface>System Settings</interface> and search "
+#| "for \"Activities\". On that page, you can create more Activities. You can "
+#| "then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
+#| "shortcut."
 msgctxt "@info:usagetip"
-msgid "To get started, launch <interface>System Settings</interface> and search for \"Activities\". On that page, you can create more Activities. You can then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
-msgstr "Каб пачаць, запусціце <interface>Налады сістэмы</interface> і знайдзіце \"Пакоі\". На гэтай старонцы вы можаце ствараць пакоі. Затым вы можаце пераключацца паміж імі з дапамогай спалучэння клавіш <shortcut>Meta+Tab</shortcut>."
+msgid "To get started, launch <interface>System Settings</interface> and search for “Activities”. On that page, you can create more Activities. You can then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
 #, kde-format
@@ -647,10 +673,20 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KDE Connect lets you integrate your phone with your computer in various "
+#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
+#| "item><item>Reply to text messages from your phone on your computer</"
+#| "item><item>Sync your clipboard contents between your computer and your "
+#| "phone</item><item>Make a noise on your phone when it's been misplaced</"
+#| "item><item>Copy pictures, videos, and other files from your phone to your "
+#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
+#| "get started, launch <interface>System Settings</interface> and search for "
+#| "\"KDE Connect\". On that page, you can pair your phone."
 msgctxt "@info:usagetip"
-msgid "KDE Connect lets you integrate your phone with your computer in various ways:<nl/><list><item>See notifications from your phone on your computer</item><item>Reply to text messages from your phone on your computer</item><item>Sync your clipboard contents between your computer and your phone</item><item>Make a noise on your phone when it's been misplaced</item><item>Copy pictures, videos, and other files from your phone to your computer, and vice versa</item><item>…And much more!</item></list><nl/>To get started, launch <interface>System Settings</interface> and search for \"KDE Connect\". On that page, you can pair your phone."
-msgstr "KDE Connect дае магчымасць інтэграваць тэлефон з камп'ютарам рознымі спосабамі:<nl/><list><item>Праглядаць апавяшчэнні з тэлефона на камп'ютары</item><item>Адказваць на тэкставыя паведамленні з тэлефона на камп'ютары</item><item>Сінхранізаваць змесціва буфера абмену паміж камп'ютарам і тэлефонам</item><item>Прайграваць гукавы сігнал у тэлефоне, калі ён згубіцца</item><item>Капіяваць малюнкі, відэа і іншыя файлы з вашага тэлефон на камп'ютар і наадварот</item><item>…І многае іншае!</item></list><nl/>Каб пачаць, запусціце <interface>Налады сістэмы</interface> і знайдзіце \"KDE Connect\". На гэтай старонцы вы можаце спалучыць свой тэлефон."
+msgid "KDE Connect lets you integrate your phone with your computer in various ways:<nl/><list><item>See notifications from your phone on your computer</item><item>Reply to text messages from your phone on your computer</item><item>Sync your clipboard contents between your computer and your phone</item><item>Make a noise on your phone when it’s been misplaced</item><item>Copy pictures, videos, and other files from your phone to your computer, and vice versa</item><item>…And much more!</item></list><nl/>To get started, launch <interface>System Settings</interface> and search for “KDE Connect”. On that page, you can pair your phone."
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:21
 #, kde-format
@@ -659,10 +695,18 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
-#, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KRunner is Plasma's exceptionally powerful and versatile search system. "
+#| "It powers the search functionality in the Application Launcher menu and "
+#| "the Overview screen, and it can be accessed as a standalone search bar "
+#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
+#| "addition to finding your files and folders, KRunner can launch apps, "
+#| "search the web, convert between currencies, calculate math problems, and "
+#| "a lot more."
 msgctxt "@info:usagetip"
-msgid "KRunner is Plasma's exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more."
-msgstr "KRunner - гэта магутная і ўніверсальная сістэма пошуку Plasma. З дапамогай KRunner выконваецца пошук у меню запуску праграм і на экране агляду. Праграму можна адкрыць як асобную панэль пошуку з дапамогай спалучэння клавіш <shortcut>Alt+Прагал</shortcut>.<nl/><nl/>Апроч пошуку вашых файлаў і каталогаў KRunner можа запускаць праграмы, шукаць у інтэрнэце, выконваць канверсію валют, рашаць матэматычныя задачы і многае іншае."
+msgid "KRunner is Plasma’s exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more."
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:62
 #, kde-kuit-format
@@ -719,10 +763,15 @@ msgid "System Settings"
 msgstr "Налады сістэмы"
 
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
-#, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "The System Settings app lets you extensively customize the system to suit "
+#| "your tastes and preferences. Default apps, wallpapers, visual styles and "
+#| "icons, virtual desktops, power management, 3rd-party add-ons—you'll find "
+#| "it all there!"
 msgctxt "@info:usagetip"
-msgid "The System Settings app lets you extensively customize the system to suit your tastes and preferences. Default apps, wallpapers, visual styles and icons, virtual desktops, power management, 3rd-party add-ons—you'll find it all there!"
-msgstr "Праграма \"Налады сістэмы\" магчымасць разнастайна наладзіць сістэму ў адпаведнасці з вашымі густамі і перавагамі. Прадвызначаныя праграмы, шпалеры, стылі і значкі, віртуальныя працоўныя сталы, кіраванне сілкаваннем, дадатковыя кампаненты іншых вытворцаў - усё гэта вы знойдзеце там!"
+msgid "The System Settings app lets you extensively customize the system to suit your tastes and preferences. Default apps, wallpapers, visual styles and icons, virtual desktops, power management, 3rd-party add-ons — you’ll find it all there!"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:16
 #, kde-format
@@ -743,10 +792,16 @@ msgid "Simple by Default"
 msgstr "Проста ад самага пачатку"
 
 #: src/qml/pages/SimpleByDefault.qml:22
-#, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Plasma is designed to be simple and usable out of the box. Things are "
+#| "where you'd expect, and there is generally no need to configure anything "
+#| "before you can be comfortable and productive.<nl/><nl/>Below is a visual "
+#| "representation of a typical Plasma Desktop; move the pointer over or "
+#| "click on something to learn about it!"
 msgctxt "@info:usagetip"
-msgid "Plasma is designed to be simple and usable out of the box. Things are where you'd expect, and there is generally no need to configure anything before you can be comfortable and productive.<nl/><nl/>Below is a visual representation of a typical Plasma Desktop; move the pointer over or click on something to learn about it!"
-msgstr "Працоўнае асяроддзе \"Plasma\" распрацавана так, каб ад пачатку быць простым і зручным у выкарыстанні. Усё там, дзе вы чакаеце. Звычайна няма неабходнасці што-небудзь наладжваць. Вы адразу будзеце пачувацца камфортна і працаваць прадуктыўна.<nl/><nl/>Ніжэй пададзены выгляд звычайнага працоўнага стала Plasma. Перамясціце паказальнік або націсніце што-небудзь, каб даведацца пра гэты элемент!"
+msgid "Plasma is designed to be simple and usable out of the box. Things are where you would expect, and there is generally no need to configure anything before you can be comfortable and productive.<nl/><nl/>Below is a visual representation of a typical Plasma Desktop; move the pointer over or click on something to learn about it!"
+msgstr ""
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -755,10 +810,15 @@ msgid "This is the “Desktop”. It shows files and folders that are contained 
 msgstr "Гэта \"Працоўны стол\". Тут паказваюцца файлы і каталогі, якія знаходзяцца ў каталозе <filename>Працоўны стол</filename>. Таксама ён можа змяшчаць віджэты. Пстрыкніце па ім правай кнопкай мышы і абярыце <interface>Працоўны стол і шпалеры…</interface>, каб наладзіць выгляд працоўнага стала. Таксама можаце абраць <interface>Увайсці ў рэжым рэдагавання</interface>, каб дадаць, выдаліць або змяніць віджэты."
 
 #: src/qml/pages/SimpleByDefault.qml:36
-#, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "This is a “Panel”—a container to hold widgets. Right-click on it and "
+#| "choose <interface>Show Panel Configuration</interface> to change how it "
+#| "behaves, which screen edge it lives on, and to add, remove or modify "
+#| "widgets."
 msgctxt "@info"
-msgid "This is a “Panel”—a container to hold widgets. Right-click on it and choose <interface>Show Panel Configuration</interface> to change how it behaves, which screen edge it lives on, and to add, remove or modify widgets."
-msgstr "Гэта \"Панэль\" — кантэйнер для захоўвання віджэтаў. Пстрыкніце па ім правай кнопкай мышы і абярыце <interface>Паказаць канфігурацыю панэлі</interface>, каб змяніць, як яна сябе паводзіць, на якім краі экрана знаходзіцца, а таксама дадаць, выдаліць або змяніць віджэты."
+msgid "This is a “Panel” — a container to hold widgets. Right-click on it and choose <interface>Show Panel Configuration</interface> to change how it behaves, which screen edge it lives on, and to add, remove or modify widgets."
+msgstr ""
 
 #: src/qml/pages/SimpleByDefault.qml:39
 #, kde-format
@@ -825,6 +885,12 @@ msgstr "Пра азнаямляльны цэнтр"
 msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr "Пра KDE"
+
+#: src/qml/pages/Welcome.qml:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Learn more about the KDE community"
+msgstr "Даведайцеся больш пра супольнасць KDE"
 
 #: src/qml/pages/Welcome.qml:63
 #, kde-format
