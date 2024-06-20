@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-28 00:39+0000\n"
-"PO-Revision-Date: 2024-05-30 05:06\n"
+"POT-Creation-Date: 2024-06-18 00:40+0000\n"
+"PO-Revision-Date: 2024-06-20 05:34\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -1020,8 +1020,7 @@ msgstr "Тэма"
 
 #: core/widgetbase.cpp:429 core/widgetbase.cpp:519
 #: core/widgets/configurefilterswidget.cpp:75
-#: core/widgets/filtersavedmenu.cpp:17 utils/aggregationconfigbutton.cpp:32
-#: utils/themeconfigbutton.cpp:46
+#: core/widgets/filtersavedmenu.cpp:17
 #| msgid "&Configure KMail..."
 msgid "Configure..."
 msgstr "Наладжванне..."
@@ -1148,6 +1147,7 @@ msgstr ""
 
 #: core/widgets/searchlinestatus.cpp:217
 #| msgid "&Create Filter"
+msgctxt "@action:button"
 msgid "Clear Filter"
 msgstr ""
 
@@ -1373,17 +1373,23 @@ msgctxt "@action:inmenu"
 msgid "Lock Tab"
 msgstr ""
 
-#: storagemodel.cpp:219
+#: storagemodel.cpp:218
 #| msgid "No Subject"
 msgctxt "displayed as subject when the subject of a mail is empty"
 msgid "No Subject"
 msgstr "Без тэмы"
 
-#: storagemodel.cpp:220
+#: storagemodel.cpp:219
 #| msgid "Unknown"
 msgctxt "displayed when a mail has unknown sender, receiver or date"
 msgid "Unknown"
 msgstr "Невядома"
+
+#: utils/aggregationconfigbutton.cpp:32 utils/themeconfigbutton.cpp:46
+#| msgid "&Configure KMail..."
+msgctxt "@action:button"
+msgid "Configure..."
+msgstr "Наладзіць..."
 
 #: utils/aggregationeditor.cpp:31
 #| msgid ""
@@ -1437,34 +1443,43 @@ msgid "Customize Message Aggregation Modes"
 msgstr ""
 
 #: utils/configureaggregationsdialog.cpp:121
-#: utils/configureaggregationsdialog.cpp:360
 #| msgid "Suggestions"
+msgctxt "@action:button"
 msgid "New Aggregation"
 msgstr ""
 
 #: utils/configureaggregationsdialog.cpp:129
 #| msgid "Suggestions"
+msgctxt "@action:button"
 msgid "Clone Aggregation"
 msgstr ""
 
 #: utils/configureaggregationsdialog.cpp:142
 #| msgid "Suggestions"
+msgctxt "@action:button"
 msgid "Export Aggregation..."
 msgstr ""
 
 #: utils/configureaggregationsdialog.cpp:149
 #| msgid "Suggestions"
+msgctxt "@action:button"
 msgid "Import Aggregation..."
 msgstr ""
 
 #: utils/configureaggregationsdialog.cpp:160
 #| msgid "Delete T&hread"
+msgctxt "@action:button"
 msgid "Delete Aggregation"
 msgstr ""
 
 #: utils/configureaggregationsdialog.cpp:343
 #| msgid "Suggestions"
 msgid "Unnamed Aggregation"
+msgstr ""
+
+#: utils/configureaggregationsdialog.cpp:360
+#| msgid "Suggestions"
+msgid "New Aggregation"
 msgstr ""
 
 #: utils/configureaggregationsdialog.cpp:413
@@ -1489,27 +1504,32 @@ msgctxt "@title:window"
 msgid "Customize Themes"
 msgstr ""
 
-#: utils/configurethemesdialog.cpp:117 utils/configurethemesdialog.cpp:353
+#: utils/configurethemesdialog.cpp:117
 #| msgid "New Message"
+msgctxt "@action:button"
 msgid "New Theme"
 msgstr "Новая тэма"
 
 #: utils/configurethemesdialog.cpp:125
 #| msgid "New Message"
+msgctxt "@action:button"
 msgid "Clone Theme"
 msgstr ""
 
 #: utils/configurethemesdialog.cpp:138
+msgctxt "@action:button"
 msgid "Export Theme..."
 msgstr ""
 
 #: utils/configurethemesdialog.cpp:145
 #| msgid "&Import"
+msgctxt "@action:button"
 msgid "Import Theme..."
 msgstr ""
 
 #: utils/configurethemesdialog.cpp:156
 #| msgid "Delete T&hread"
+msgctxt "@action:button"
 msgid "Delete Theme"
 msgstr ""
 
@@ -1517,6 +1537,11 @@ msgstr ""
 #| msgid "Unnamed"
 msgid "Unnamed Theme"
 msgstr ""
+
+#: utils/configurethemesdialog.cpp:353
+#| msgid "New Message"
+msgid "New Theme"
+msgstr "Новая тэма"
 
 #: utils/configurethemesdialog.cpp:355 utils/themeeditor.cpp:1216
 #| msgid "View Columns"
