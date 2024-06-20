@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-15 00:39+0000\n"
-"PO-Revision-Date: 2024-06-17 08:03\n"
+"POT-Creation-Date: 2024-06-18 00:40+0000\n"
+"PO-Revision-Date: 2024-06-20 05:32\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -4507,6 +4507,7 @@ msgstr ""
 
 #: src/crypto/gui/resultitemwidget.cpp:135
 #| msgid "Description"
+msgctxt "@action:button"
 msgid "Force decryption"
 msgstr ""
 
@@ -5084,8 +5085,8 @@ msgid "Unknown Recipient:"
 msgstr ""
 
 #: src/crypto/gui/unknownrecipientwidget.cpp:33
-#: src/dialogs/lookupcertificatesdialog.cpp:140
 #| msgid "Search:"
+msgctxt "@action:button"
 msgid "Search"
 msgstr "Шукаць"
 
@@ -6484,6 +6485,11 @@ msgstr ""
 #| msgid "Find"
 msgid "Find:"
 msgstr "Шукаць:"
+
+#: src/dialogs/lookupcertificatesdialog.cpp:140
+#| msgid "Search:"
+msgid "Search"
+msgstr "Шукаць"
 
 #: src/dialogs/lookupcertificatesdialog.cpp:157
 #| msgid "Set &Background Color..."
@@ -10653,6 +10659,7 @@ msgstr ""
 
 #: src/view/pgpcardwidget.cpp:243
 #| msgid "Canceled."
+msgctxt "@action:button"
 msgid "Generate New Keys"
 msgstr ""
 
@@ -10662,8 +10669,9 @@ msgctxt "@info:tooltip"
 msgid "<para>Generate three new keys on the smart card and create a new OpenPGP certificate with those keys. Optionally, the encryption key is generated off-card and a backup is created so that you can still access data encrypted with this key in case the card is lost or damaged.</para><para><emphasis strong='true'>Existing keys on the smart card will be overwritten.</emphasis></para>"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:256
-#, kde-format
+#: src/view/pgpcardwidget.cpp:256 src/view/pivcardwidget.cpp:144
+#| msgid "Canceled."
+msgctxt "@action:button"
 msgid "Change PIN"
 msgstr "Змяніць PIN-код"
 
@@ -10675,6 +10683,7 @@ msgstr ""
 
 #: src/view/pgpcardwidget.cpp:266
 #| msgid "Set &Background Color..."
+msgctxt "@action:button"
 msgid "Unblock Card"
 msgstr ""
 
@@ -10685,7 +10694,8 @@ msgid "Unblock the smart card with the PUK (if available) or the Admin PIN."
 msgstr ""
 
 #: src/view/pgpcardwidget.cpp:280
-#, kde-format
+#| msgid "Canceled."
+msgctxt "@action:button"
 msgid "Change Admin PIN"
 msgstr ""
 
@@ -10866,12 +10876,6 @@ msgstr ""
 msgctxt "@info"
 msgid "URL successfully changed."
 msgstr ""
-
-#: src/view/pivcardwidget.cpp:144
-#| msgid "Canceled."
-msgctxt "@action:button"
-msgid "Change PIN"
-msgstr "Змяніць PIN-код"
 
 #: src/view/pivcardwidget.cpp:146
 #, kde-format
