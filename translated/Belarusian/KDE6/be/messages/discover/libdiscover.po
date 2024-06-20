@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-30 00:39+0000\n"
-"PO-Revision-Date: 2024-06-13 20:10\n"
+"POT-Creation-Date: 2024-06-19 00:40+0000\n"
+"PO-Revision-Date: 2024-06-20 05:30\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -45,7 +45,7 @@ msgstr "Публічны дамен"
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:360
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:386
 #: libdiscover/UpdateModel/UpdateModel.cpp:122
-#: libdiscover/UpdateModel/UpdateModel.cpp:335
+#: libdiscover/UpdateModel/UpdateModel.cpp:342
 #, kde-format
 msgid "Unknown"
 msgstr "Невядома"
@@ -526,23 +526,23 @@ msgstr "%1 (карыстальнік)"
 msgid "Local bundle"
 msgstr "Лакальны пакет"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1887
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:815
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1888
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:816
 #, kde-format
 msgid "Malformed appstream url '%1'"
 msgstr "Памылковы url-адрас \"%1\""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1992
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1993
 #, kde-format
 msgid "Failed to add source '%1': %2"
 msgstr "Не ўдалося дадаць крыніцу \"%1\": %2"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2113
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2114
 #, kde-format
 msgid "There are no Flatpak sources."
 msgstr "Крыніц Flatpak няма."
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2117
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2118
 #, kde-format
 msgid "Failed to load \"%1\" source"
 msgstr "Не ўдалося загрузіць крыніцу \"%1\""
@@ -1019,7 +1019,7 @@ msgstr "Крама KDE"
 msgid "Log in information for %1"
 msgstr "Уваходныя даныя для %1"
 
-#: libdiscover/backends/PackageKitBackend/AppPackageKitResource.cpp:238
+#: libdiscover/backends/PackageKitBackend/AppPackageKitResource.cpp:244
 #, kde-format
 msgid "Cannot launch %1"
 msgstr "Не ўдалося запусціць %1"
@@ -1053,12 +1053,12 @@ msgctxt "%1 is the date as formatted by the locale"
 msgid "Your operating system ended support on %1. Consider upgrading to a supported version."
 msgstr "Падтрымка вашай аперацыйная сістэмы была спыненая %1. Падумайце пра тое, каб абнавіцца да версіі, якая падтрымліваецца."
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:922
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:923
 #, kde-format
 msgid "Cannot remove '%1'"
 msgstr "Не ўдалося выдаліць \"%1\""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1008
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1009
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:403
 #, kde-format
 msgctxt "@info:status %1 is a new major version of the user's distro"
@@ -1067,13 +1067,13 @@ msgid "<b>%1 is now available.</b>\n"
 msgstr "<b> Даступны %1.</b>\n"
 "Каб мець магчымасць абнавіць да гэтай новай версіі, спачатку ўжывіце ўсе даступныя абнаўленні, а потым перазапусціце сістэму."
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1017
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1018
 #, kde-format
 msgctxt "@action: button"
 msgid "Upgrade Now"
 msgstr "Абнавіць зараз"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1040
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1041
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:413
 #, kde-format
 msgctxt "@info:status %1 is a new major version of the user's distro"
@@ -1806,6 +1806,31 @@ msgstr "Надзейныя"
 msgid "Unavailable"
 msgstr "Недаступна"
 
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:380
+#, kde-format
+msgid "Critical"
+msgstr "Крытычная"
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:382
+#| msgid "Installed"
+msgid "Install"
+msgstr "Усталяваць"
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:384
+#| msgid "Remove…"
+msgid "Remove"
+msgstr "Выдаліць"
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:386
+#| msgid "Obsoletes:"
+msgid "Obsolete"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:388
+#| msgid "Downgrading"
+msgid "Downgrade"
+msgstr ""
+
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:127
 #, kde-format
 msgid "Failed Offline Update"
@@ -1975,28 +2000,28 @@ msgctxt "@info:status %1 is a formatted disk space string e.g. '240 MiB'"
 msgid "Not enough space to perform the update; only %1 of space are available."
 msgstr "Для выканання абнаўлення не хапае месца; даступна толькі %1."
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:581
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:591
 #, kde-format
 msgid "This update cannot be completed as it would remove the following software which is critical to the system's operation:<nl/><ul><li>%1</li></ul><nl/>If you believe this is an error, please report it as a bug to the packagers of your distribution."
 msgstr "Немагчыма завяршыць гэтае абнаўленне, бо будзе выдалена наступнае праграмнае забеспячэння, якое мае крытычна важнае значэнне для працы сістэмы:<nl/><ul><li>%1</li></ul><nl/>Калі вы лічыце, што гэта памылка, паведаміце пра гэта як пра хібу ў службу падтрымкі вашага дыстрыбутыва."
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:588
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:598
 #, kde-format
 msgid "Confirm Changes"
 msgstr "Пацвердзіць змены"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:589
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:599
 #, kde-format
 msgid "The following packages will be removed by the update:<ul><li>%1</li></ul><br/>in order to install:<ul><li>%2</li></ul>"
 msgstr "Пры абнаўленні будуць выдаленыя наступныя пакеты:<ul><li>%1</li></ul><br/>, каб усталяваць:<ul><li>%2</li></ul>"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:715
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:725
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1:<nl/><nl/>%2"
 msgstr "%1:<nl/><nl/>%2"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:723
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:733
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:327
 #, kde-format
 msgid "Media Change of type '%1' is requested.\n"
@@ -2004,13 +2029,13 @@ msgid "Media Change of type '%1' is requested.\n"
 msgstr "Трэба змяніць носьбіт тыпу \"%1\".\n"
 "%2"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:756
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:766
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:304
 #, kde-format
 msgid "Accept EULA"
 msgstr "Прыняць EULA"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:757
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:767
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:305
 #, kde-format
 msgid "The package %1 and its vendor %2 require that you accept their license:\n"
@@ -2018,13 +2043,13 @@ msgid "The package %1 and its vendor %2 require that you accept their license:\n
 msgstr "Для пакета %1 яго стваральнік %2 патрабуе прыняць ліцэнзію:\n"
 " %3"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:874
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:884
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:344
 #, kde-format
 msgid "Missing signature for %1 in %2"
 msgstr "У %2 няма подпісу для %1"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:875
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:885
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:345
 #, kde-format
 msgid "Do you trust the following key?\n\n"
@@ -2421,12 +2446,18 @@ msgid "Applications"
 msgstr "Праграмы"
 
 #: libdiscover/UpdateModel/UpdateModel.cpp:137
+#| msgid "Applications"
+msgctxt "@item:inlistbox"
+msgid "Application Support"
+msgstr ""
+
+#: libdiscover/UpdateModel/UpdateModel.cpp:138
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "System Software"
 msgstr "Сістэмнае праграмнае забеспячэнне"
 
-#: libdiscover/UpdateModel/UpdateModel.cpp:138
+#: libdiscover/UpdateModel/UpdateModel.cpp:139
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Addons"
