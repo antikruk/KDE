@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-31 00:41+0000\n"
-"PO-Revision-Date: 2024-06-13 20:10\n"
+"POT-Creation-Date: 2024-06-27 00:41+0000\n"
+"PO-Revision-Date: 2024-06-30 08:00\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -1268,7 +1268,7 @@ msgid "Empty Recently Closed Tabs"
 msgstr "Ачысціць спіс нядаўна закрытых укладак"
 
 #: dolphinrecenttabsmenu.cpp:37 dolphinrecenttabsmenu.cpp:40
-#: dolphinviewcontainer.cpp:506 search/dolphinsearchbox.cpp:300
+#: dolphinviewcontainer.cpp:494 search/dolphinsearchbox.cpp:300
 #, kde-format
 msgid "Search for %1 in %2"
 msgstr "Пошук %1 у %2"
@@ -1350,65 +1350,65 @@ msgstr "<para>Гэтае дзеянне дапамагае шукаць файл
 msgid "Running Dolphin as root can be dangerous. Please be careful."
 msgstr "Запуск Dolphin ад імя суперкарыстальніка можа быць небяспечным. Будзьце пільнымі."
 
-#: dolphinviewcontainer.cpp:542
-#, kde-format
-msgid "Search"
-msgstr "Пошук"
-
-#: dolphinviewcontainer.cpp:544
-#, kde-format
-msgid "Search for %1"
-msgstr "Пошук %1"
-
-#: dolphinviewcontainer.cpp:628
+#: dolphinviewcontainer.cpp:164
 #, kde-format
 msgctxt "@info:progress"
 msgid "Loading folder…"
 msgstr "Загрузка каталога…"
 
-#: dolphinviewcontainer.cpp:636
+#: dolphinviewcontainer.cpp:167
 #, kde-format
 msgctxt "@info:progress"
 msgid "Sorting…"
 msgstr "Сартаванне…"
 
-#: dolphinviewcontainer.cpp:647
+#: dolphinviewcontainer.cpp:530
+#, kde-format
+msgid "Search"
+msgstr "Пошук"
+
+#: dolphinviewcontainer.cpp:532
+#, kde-format
+msgid "Search for %1"
+msgstr "Пошук %1"
+
+#: dolphinviewcontainer.cpp:619
 #, kde-format
 msgctxt "@info"
 msgid "Searching…"
 msgstr "Пршук…"
 
-#: dolphinviewcontainer.cpp:672
+#: dolphinviewcontainer.cpp:639
 #, kde-format
 msgctxt "@info:status"
 msgid "No items found."
 msgstr "Не знойдзена элементаў."
 
-#: dolphinviewcontainer.cpp:851
+#: dolphinviewcontainer.cpp:814
 #, kde-format
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin не падтрымлівае вэб-старонкі, быў запушчаны вэб-браўзер"
 
-#: dolphinviewcontainer.cpp:854
+#: dolphinviewcontainer.cpp:817
 #, kde-format
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, default application has been launched"
 msgstr "Пратакол не падтрымліваецца Dolphin, была запушчаная прадвызначаная праграма"
 
-#: dolphinviewcontainer.cpp:861
+#: dolphinviewcontainer.cpp:824
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid protocol '%1'"
 msgstr "Хібны пратакол \"%1\""
 
-#: dolphinviewcontainer.cpp:863
+#: dolphinviewcontainer.cpp:826
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "Хібны пратакол"
 
-#: dolphinviewcontainer.cpp:974
+#: dolphinviewcontainer.cpp:937
 #, kde-kuit-format
 msgid "Current location changed, <filename>%1</filename> is no longer accessible."
 msgstr "Бягучае размяшчэнне зменена, <filename>%1</filename> больш не даступны."
@@ -3771,10 +3771,15 @@ msgid "Show previews for folders"
 msgstr "Паказваць мініяцюры для каталогаў"
 
 #: settings/interface/previewssettingspage.cpp:100
-#, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "<para>Creating <emphasis>previews</emphasis> for remote folders is "
+#| "<emphasis strong='true'>very expensive</emphasis> in terms of network "
+#| "resources.</para><para>Disable this if navigating remote folders in "
+#| "Dolphin is slow or when accessing storage over metered connections.</para>"
 msgctxt "@info"
-msgid "<para>Creating <emphasis>previews</emphasis> for remote folders is <emphasis strong='true'>very expensive</emphasis> in terms of network resources.</para><para>Disable this if navigating remote folders in Dolphin is slow or when accessing storage over metered connections.</para>"
-msgstr "<para >Стварэнне<emphasis >мініяцюр</emphasis> для адлеглых каталогаў <emphasis strong='true'>вельмі павялічвае</emphasis> спажыванне трафіка.</para><para>Адключыце гэты параметр, калі пры перамяшчэнні па адлеглых каталогах Dolphin працуе павольна або калі падлучаецеся да сховішча праз лімітаваныя злучэнні.</para>"
+msgid "<para>Creating <emphasis>previews</emphasis> for remote folders is very intensive in terms of network resource usage.</para><para>Disable this if navigating remote folders in Dolphin is slow or when accessing storage over metered connections.</para>"
+msgstr ""
 
 #: settings/interface/previewssettingspage.cpp:112
 #, kde-format
@@ -4282,7 +4287,7 @@ msgid "Open files and folders:"
 msgstr "Адкрыццё файлаў і каталогаў:"
 
 #: settings/viewmodes/viewsettingstab.cpp:243
-#: statusbar/dolphinstatusbar.cpp:327
+#: statusbar/dolphinstatusbar.cpp:332
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Size: 1 pixel"
@@ -4480,13 +4485,13 @@ msgctxt "@info:whatsthis Statusbar"
 msgid "<para>This is the <emphasis>Statusbar</emphasis>. It contains three elements by default (left to right):<list><item>A <emphasis>text field</emphasis> that displays the size of selected items. If only one item is selected the name and type is shown as well.</item><item>A <emphasis>zoom slider</emphasis> that allows you to adjust the size of the icons in the view.</item><item><emphasis>Space information</emphasis> about the current storage device.</item></list></para>"
 msgstr "<para>Гэта <emphasis>Панэль стану</emphasis>. Прадвызначана яна змяшчае тры элементы (злева направа):<list><item><emphasis>Тэкставае поле</emphasis>, якое паказвае памер абраных элементаў. Калі абраны толькі адзін элемент, таксама будуць паказвацца назва і тып.</item><item><emphasis>Паўзунок маштабу</emphasis>, які дазваляе наладжваць памер значкоў.</item> <item><emphasis>Звесткі пра прастору</emphasis> пра бягучую назапашвальную прыладу.</item></list></para>"
 
-#: statusbar/dolphinstatusbar.cpp:269
+#: statusbar/dolphinstatusbar.cpp:274
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Zoom Slider"
 msgstr "Паказваць паўзунок маштабу"
 
-#: statusbar/dolphinstatusbar.cpp:273
+#: statusbar/dolphinstatusbar.cpp:278
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Space Information"
