@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-21 01:57+0000\n"
-"PO-Revision-Date: 2024-05-12 20:05\n"
+"POT-Creation-Date: 2024-07-01 00:40+0000\n"
+"PO-Revision-Date: 2024-07-06 23:48\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,177 +19,354 @@ msgstr ""
 "X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/plasma-sdk/plasma_shell_org.kde.plasmoidviewershell.po\n"
 "X-Crowdin-File-ID: 10712\n"
 
-#: contents/applet/AppletError.qml:40
-msgid "Sorry! There was an error loading %1."
-msgstr "Выбачайце! Не ўдалося загрузіць %1."
+#: contents/applet/AppletError.qml:164
+#| msgid "Copy Error Details to Clipboard"
+msgid "Copy to Clipboard"
+msgstr "Скапіяваць у буфер абмену"
 
-#: contents/applet/AppletError.qml:48
-msgid "Copy Error Details to Clipboard"
-msgstr "Скапіяваць падрабязнасці памылкі буфер абмену"
+#: contents/applet/AppletError.qml:187
+msgid "View Error Details…"
+msgstr "Праглядзець звесткі пра памылку…"
 
-#: contents/applet/CompactApplet.qml:74
+#: contents/applet/CompactApplet.qml:76
 msgid "Open %1"
 msgstr "Адкрыць %1"
 
-#: contents/configuration/AboutPlugin.qml:20
-#: contents/configuration/AppletConfiguration.qml:247
+#: contents/configuration/AboutPlugin.qml:21
+#: contents/configuration/AppletConfiguration.qml:304
 msgid "About"
 msgstr "Пра праграму"
 
-#: contents/configuration/AboutPlugin.qml:46
+#: contents/configuration/AboutPlugin.qml:50
 msgid "Send an email to %1"
 msgstr "Адправіць электронны ліст да %1"
 
-#: contents/configuration/AboutPlugin.qml:95
+#: contents/configuration/AboutPlugin.qml:64
+#| msgid "Open %1"
+msgctxt "@info:tooltip %1 url"
+msgid "Open website %1"
+msgstr "Адкрыць вэб-сайт %1"
+
+#: contents/configuration/AboutPlugin.qml:137
 msgid "Copyright"
 msgstr "Аўтарскія правы"
 
-#: contents/configuration/AboutPlugin.qml:115
+#: contents/configuration/AboutPlugin.qml:158
 msgid "License:"
 msgstr "Ліцэнзія:"
 
-#: contents/configuration/AboutPlugin.qml:128
+#: contents/configuration/AboutPlugin.qml:163
+msgctxt "@info:whatsthis"
+msgid "View license text"
+msgstr "Паглядзець тэкст ліцэнзіі"
+
+#: contents/configuration/AboutPlugin.qml:177
 msgid "Authors"
 msgstr "Стваральнікі"
 
-#: contents/configuration/AboutPlugin.qml:138
+#: contents/configuration/AboutPlugin.qml:189
 msgid "Credits"
 msgstr "Падзякі"
 
-#: contents/configuration/AboutPlugin.qml:149
+#: contents/configuration/AboutPlugin.qml:202
 msgid "Translators"
 msgstr "Перакладчыкі"
 
-#: contents/configuration/AppletConfiguration.qml:55
+#: contents/configuration/AboutPlugin.qml:220
+msgid "Report a Bug…"
+msgstr "Паведаміць пра хібу…"
+
+#: contents/configuration/AppletConfiguration.qml:75
 msgid "Keyboard Shortcuts"
 msgstr "Спалучэнні клавіш"
 
-#: contents/configuration/AppletConfiguration.qml:294
+#: contents/configuration/AppletConfiguration.qml:352
 msgid "Apply Settings"
 msgstr "Ужыць налады"
 
-#: contents/configuration/AppletConfiguration.qml:297
+#: contents/configuration/AppletConfiguration.qml:353
 msgid "The settings of the current module have changed. Do you want to apply the changes or discard them?"
 msgstr "Налады бягучага модуля змяніліся.\n"
 "Хочаце ўжыць змены ці адкінуць іх?"
 
-#: contents/configuration/AppletConfiguration.qml:328
+#: contents/configuration/AppletConfiguration.qml:384
 msgid "OK"
 msgstr "Добра"
 
-#: contents/configuration/AppletConfiguration.qml:336
+#: contents/configuration/AppletConfiguration.qml:392
 msgid "Apply"
 msgstr "Ужыць"
 
-#: contents/configuration/AppletConfiguration.qml:342
+#: contents/configuration/AppletConfiguration.qml:398
 msgid "Cancel"
 msgstr "Скасаваць"
 
-#: contents/configuration/ConfigCategoryDelegate.qml:28
+#: contents/configuration/ConfigCategoryDelegate.qml:27
 msgid "Open configuration page"
 msgstr "Адкрыць старонку канфігурацыі"
 
-#: contents/configuration/ConfigurationContainmentActions.qml:19
+#: contents/configuration/ConfigurationContainmentActions.qml:21
 msgid "Left-Button"
 msgstr "Левая кнопка"
 
-#: contents/configuration/ConfigurationContainmentActions.qml:20
+#: contents/configuration/ConfigurationContainmentActions.qml:22
 msgid "Right-Button"
 msgstr "Правая кнопка"
 
-#: contents/configuration/ConfigurationContainmentActions.qml:21
+#: contents/configuration/ConfigurationContainmentActions.qml:23
 msgid "Middle-Button"
 msgstr "Сярэдняя кнопка"
 
-#: contents/configuration/ConfigurationContainmentActions.qml:22
+#: contents/configuration/ConfigurationContainmentActions.qml:24
 msgid "Back-Button"
 msgstr "Кнопка \"Назад\""
 
-#: contents/configuration/ConfigurationContainmentActions.qml:23
+#: contents/configuration/ConfigurationContainmentActions.qml:25
 msgid "Forward-Button"
 msgstr "Кнопка \"Наперад\""
 
-#: contents/configuration/ConfigurationContainmentActions.qml:25
+#: contents/configuration/ConfigurationContainmentActions.qml:27
 msgid "Vertical-Scroll"
 msgstr "Вертыкальнае пракручванне"
 
-#: contents/configuration/ConfigurationContainmentActions.qml:26
+#: contents/configuration/ConfigurationContainmentActions.qml:28
 msgid "Horizontal-Scroll"
 msgstr "Гарызантальнае пракручванне"
 
-#: contents/configuration/ConfigurationContainmentActions.qml:28
+#: contents/configuration/ConfigurationContainmentActions.qml:30
 msgid "Shift"
 msgstr "Shift"
 
-#: contents/configuration/ConfigurationContainmentActions.qml:29
+#: contents/configuration/ConfigurationContainmentActions.qml:31
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: contents/configuration/ConfigurationContainmentActions.qml:30
+#: contents/configuration/ConfigurationContainmentActions.qml:32
 msgid "Alt"
 msgstr "Alt"
 
-#: contents/configuration/ConfigurationContainmentActions.qml:31
+#: contents/configuration/ConfigurationContainmentActions.qml:33
 msgid "Meta"
 msgstr "Meta"
 
-#: contents/configuration/ConfigurationContainmentActions.qml:73
+#: contents/configuration/ConfigurationContainmentActions.qml:95
 msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
 msgid "+"
 msgstr "+"
 
-#: contents/configuration/ConfigurationContainmentActions.qml:153
+#: contents/configuration/ConfigurationContainmentActions.qml:167
+#| msgid "About"
+msgctxt "@title"
+msgid "About"
+msgstr "Пра праграму"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:182
 #: contents/configuration/MouseEventInputButton.qml:14
 msgid "Add Action"
 msgstr "Дадаць дзеянне"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:26
-msgid "Appearance"
-msgstr "Выгляд"
-
-#: contents/configuration/ConfigurationContainmentAppearance.qml:68
+#: contents/configuration/ConfigurationContainmentAppearance.qml:69
 msgid "Layout changes have been restricted by the system administrator"
 msgstr "Змена макета абмежаваная сістэмным адміністратарам"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:83
+#: contents/configuration/ConfigurationContainmentAppearance.qml:84
 msgid "Layout:"
 msgstr "Макет:"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:98
-msgid "Wallpaper Type:"
+#| msgid "Wallpaper Type:"
+msgid "Wallpaper type:"
 msgstr "Тып шпалер:"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:115
-msgid "Get New Plugins..."
-msgstr "Атрымаць новыя ўбудовы..."
+#: contents/configuration/ConfigurationContainmentAppearance.qml:119
+#| msgid "Get New Plugins..."
+msgid "Get New Plugins…"
+msgstr "Атрымаць новыя ўбудовы…"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:127
+#: contents/configuration/ConfigurationContainmentAppearance.qml:189
 msgid "Layout changes must be applied before other changes can be made"
 msgstr "Змены макета неабходна ўжыць да іншых зменаў"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:133
-msgid "Apply now"
+#: contents/configuration/ConfigurationContainmentAppearance.qml:193
+#| msgid "Apply now"
+msgid "Apply Now"
 msgstr "Ужыць зараз"
 
 #: contents/configuration/ConfigurationShortcuts.qml:18
 msgid "Shortcuts"
 msgstr "Спалучэнні клавіш"
 
-#: contents/configuration/ConfigurationShortcuts.qml:28
+#: contents/configuration/ConfigurationShortcuts.qml:30
 msgid "This shortcut will activate the applet as though it had been clicked."
 msgstr "Гэтае спалучэнне клавіш будзе актываваць аплет, як быццам бы па ім пстрыкнулі."
 
-#: contents/configuration/ContainmentConfiguration.qml:29
+#: contents/configuration/ContainmentConfiguration.qml:27
 msgid "Wallpaper"
 msgstr "Шпалеры"
 
-#: contents/configuration/ContainmentConfiguration.qml:34
+#: contents/configuration/ContainmentConfiguration.qml:32
 msgid "Mouse Actions"
 msgstr "Дзеянні мышы"
 
 #: contents/configuration/MouseEventInputButton.qml:21
 msgid "Input Here"
 msgstr "Увядзіце тут"
+
+#: contents/configuration/PanelConfiguration.qml:97
+#| msgid "Apply Settings"
+msgid "Panel Settings"
+msgstr "Налады панэлі"
+
+#: contents/configuration/PanelConfiguration.qml:104
+msgid "Add Spacer"
+msgstr "Дадаць падзяляльнік"
+
+#: contents/configuration/PanelConfiguration.qml:107
+msgid "Add spacer widget to the panel"
+msgstr "Дадаць віджэт падзяляльніка на панэль"
+
+#: contents/configuration/PanelConfiguration.qml:114
+msgid "Add Widgets…"
+msgstr "Дадаць віджэты…"
+
+#: contents/configuration/PanelConfiguration.qml:117
+msgid "Open the widget selector to drag and drop widgets to the panel"
+msgstr "Каб перацягваць віджэты на панэль, адкрыйце сродак выбару віджэтаў"
+
+#: contents/configuration/PanelConfiguration.qml:146
+#| msgid "Location"
+msgid "Position"
+msgstr "Пазіцыя"
+
+#: contents/configuration/PanelConfiguration.qml:151
+#: contents/configuration/PanelConfiguration.qml:266
+msgid "Top"
+msgstr "Верх"
+
+#: contents/configuration/PanelConfiguration.qml:152
+#: contents/configuration/PanelConfiguration.qml:268
+#| msgid "Right Edge"
+msgid "Right"
+msgstr "Управа"
+
+#: contents/configuration/PanelConfiguration.qml:153
+#: contents/configuration/PanelConfiguration.qml:266
+#| msgid "Left Edge"
+msgid "Left"
+msgstr "Улева"
+
+#: contents/configuration/PanelConfiguration.qml:154
+#: contents/configuration/PanelConfiguration.qml:268
+#| msgid "Bottom Edge"
+msgid "Bottom"
+msgstr "Дол"
+
+#: contents/configuration/PanelConfiguration.qml:174
+msgid "Set Position…"
+msgstr "Вызначыць пазіцыю…"
+
+#: contents/configuration/PanelConfiguration.qml:201
+msgid "Alignment"
+msgstr "Выраўноўванне"
+
+#: contents/configuration/PanelConfiguration.qml:267
+msgid "Center"
+msgstr "Па цэнтры"
+
+#: contents/configuration/PanelConfiguration.qml:290
+msgid "Height"
+msgstr "Вышыня"
+
+#: contents/configuration/PanelConfiguration.qml:291
+msgid "Width"
+msgstr "Шырыня"
+
+#: contents/configuration/PanelConfiguration.qml:310
+msgid "Fill height"
+msgstr "Запаўненне па вышыні"
+
+#: contents/configuration/PanelConfiguration.qml:310
+msgid "Fill width"
+msgstr "Запаўненне па шырыні"
+
+#: contents/configuration/PanelConfiguration.qml:311
+msgid "Fit content"
+msgstr "Запаўненне змесцівам"
+
+#: contents/configuration/PanelConfiguration.qml:312
+msgid "Custom"
+msgstr "Адвольна"
+
+#: contents/configuration/PanelConfiguration.qml:338
+msgid "Visibility"
+msgstr "Бачнасць"
+
+#: contents/configuration/PanelConfiguration.qml:351
+msgid "Always visible"
+msgstr "Заўсёды бачна"
+
+#: contents/configuration/PanelConfiguration.qml:352
+msgid "Auto hide"
+msgstr "Аўтаматычнае хаванне"
+
+#: contents/configuration/PanelConfiguration.qml:353
+msgid "Dodge windows"
+msgstr "Хаваць вокны"
+
+#: contents/configuration/PanelConfiguration.qml:354
+msgid "Windows Go Below"
+msgstr "Вокны не могуць быць зверху"
+
+#: contents/configuration/PanelConfiguration.qml:397
+msgid "Opacity"
+msgstr "Непразрыстасць"
+
+#: contents/configuration/PanelConfiguration.qml:411
+msgid "Adaptive"
+msgstr "Прыстасавальная"
+
+#: contents/configuration/PanelConfiguration.qml:412
+msgid "Opaque"
+msgstr "Непразрыстасць"
+
+#: contents/configuration/PanelConfiguration.qml:413
+#| msgid "Translators"
+msgid "Translucent"
+msgstr "Паўпразрыстая"
+
+#: contents/configuration/PanelConfiguration.qml:437
+msgid "Style"
+msgstr "Стыль"
+
+#: contents/configuration/PanelConfiguration.qml:449
+#: contents/views/SdkButtons.qml:90
+msgid "Floating"
+msgstr "Плавальная"
+
+#: contents/configuration/PanelConfiguration.qml:520
+msgid "Panel Width:"
+msgstr "Шырыня панэлі:"
+
+#: contents/configuration/PanelConfiguration.qml:520
+msgid "Height:"
+msgstr "Вышыня:"
+
+#: contents/configuration/PanelConfiguration.qml:555
+msgid "Focus shortcut:"
+msgstr "Спалучэнне клавіш для фокуса:"
+
+#: contents/configuration/PanelConfiguration.qml:566
+msgid "Press this keyboard shortcut to move focus to the Panel"
+msgstr "Націснуць гэтае спалучэнне клавіш, каб перамясціць фокус на панэль"
+
+#: contents/configuration/PanelConfiguration.qml:582
+msgctxt "@action:button Delete the panel"
+msgid "Delete Panel"
+msgstr "Выдаліць панэль"
+
+#: contents/configuration/PanelConfiguration.qml:585
+msgid "Remove this panel; this action is undo-able"
+msgstr "Выдаліць гэтую панэль; гэтае дзеянне нельга адрабіць"
 
 #: contents/views/SdkButtons.qml:45
 msgid "FormFactors"
@@ -219,10 +396,6 @@ msgstr "Праграма"
 msgid "Location"
 msgstr "Размяшчэнне"
 
-#: contents/views/SdkButtons.qml:90
-msgid "Floating"
-msgstr "Плавальная"
-
 #: contents/views/SdkButtons.qml:94
 msgid "Desktop"
 msgstr "Працоўны стол"
@@ -250,4 +423,10 @@ msgstr "Правы край"
 #: contents/views/SdkButtons.qml:126
 msgid "Configure Containment"
 msgstr "Наладжванне абмежавання"
+
+#~ msgid "Sorry! There was an error loading %1."
+#~ msgstr "Выбачайце! Не ўдалося загрузіць %1."
+
+#~ msgid "Appearance"
+#~ msgstr "Выгляд"
 
