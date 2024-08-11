@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-06 00:39+0000\n"
-"PO-Revision-Date: 2024-07-06 23:43\n"
+"POT-Creation-Date: 2024-08-08 00:40+0000\n"
+"PO-Revision-Date: 2024-08-11 21:00\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -338,7 +338,7 @@ msgstr "Укладкі"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AlwaysShowTabBar)
 #. i18n: ectx: label, entry, group (Browser)
-#: configuration/ui/settings_browser.ui:116 interfaces/akregator.kcfg:199
+#: configuration/ui/settings_browser.ui:116 interfaces/akregator.kcfg:202
 #, kde-format
 msgid "Always show the tab bar"
 msgstr ""
@@ -351,7 +351,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_NewWindowInTab)
 #. i18n: ectx: label, entry, group (Browser)
-#: configuration/ui/settings_browser.ui:130 interfaces/akregator.kcfg:209
+#: configuration/ui/settings_browser.ui:130 interfaces/akregator.kcfg:212
 #, kde-format
 msgid "Open links in new tab instead of in new window"
 msgstr ""
@@ -370,21 +370,21 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableJavascript)
 #. i18n: ectx: label, entry, group (Browser)
-#: configuration/ui/settings_browser.ui:153 interfaces/akregator.kcfg:195
+#: configuration/ui/settings_browser.ui:153 interfaces/akregator.kcfg:198
 #, kde-format
-msgid "Enable Javascript"
+msgid "Enable JavaScript"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: configuration/ui/settings_browser.ui:163
 #, kde-format
-msgid "Misc"
-msgstr "Рознае"
+msgid "Accessibility"
+msgstr "Адмысловыя магчымасці"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccessKeyEnabled)
 #: configuration/ui/settings_browser.ui:169
 #, kde-format
-msgid "Access Key Enabled"
+msgid "Enable Access Key activation with Ctrl key"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -495,7 +495,13 @@ msgstr "Карыстацца кэшам браўзэра (менш трафік�
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LoadExternalReferences)
 #: configuration/ui/settings_security.ui:17
 #, kde-format
-msgid "Allow feed to load external references from internet."
+msgid "Allow article preview to load external references"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_LoadExternalReferences)
+#: configuration/ui/settings_security.ui:20
+#, kde-format
+msgid "Allow the article preview to load external references from the Internet. This may allow websites or third parties to observe the articles that you have viewed."
 msgstr ""
 
 #: export/akregatorstorageexporter.cpp:280
@@ -804,91 +810,91 @@ msgid "Specifies if we show unread article in taskbar."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:200
+#: interfaces/akregator.kcfg:203
 #, kde-format
 msgid "Always show the tab bar, even when only one tab is open"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Browser)
-#: interfaces/akregator.kcfg:204
+#: interfaces/akregator.kcfg:207
 #, kde-format
 msgid "Show close buttons on tabs"
 msgstr "Паказваць кнопкі закрыцця картак"
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:205
+#: interfaces/akregator.kcfg:208
 #, kde-format
 msgid "Show close buttons on tabs instead of icons"
 msgstr "Паказваць кнопкі закрыцця картак замест значак"
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:210
+#: interfaces/akregator.kcfg:213
 #, kde-format
 msgid "Open a link which would normally open in a new window (external browser) in a new tab instead"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Browser)
-#: interfaces/akregator.kcfg:214
+#: interfaces/akregator.kcfg:217
 #, kde-format
 msgid "Use default KDE web browser"
 msgstr "Браўзэр KDE па змаўчанні"
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:215
+#: interfaces/akregator.kcfg:218
 #, kde-format
 msgid "Use KDE web browser when opening in external browser."
 msgstr "Выкарыстаць браўзэр KDE для адкрыцця \"у знешнім браўзэры\"."
 
 #. i18n: ectx: label, entry, group (Browser)
-#: interfaces/akregator.kcfg:219
+#: interfaces/akregator.kcfg:222
 #, kde-format
 msgid "Use this command:"
 msgstr "Іншая праграма:"
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:220
+#: interfaces/akregator.kcfg:223
 #, kde-format
 msgid "Use the specified command when opening in external browser."
 msgstr "Выкарыстаць наступную каманду для адкрыцця ў знешнім браўзэры."
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:224
+#: interfaces/akregator.kcfg:227
 #| msgid "Command to launch external browser.  URL will substitute for %u."
 msgid "Command to launch external browser. URL will substitute for %u."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:228
+#: interfaces/akregator.kcfg:231
 #, kde-format
 msgid "What the click with left mouse button should do."
 msgstr "Што рабіць пры пстрычцы левай кнопкай мышы."
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:237
+#: interfaces/akregator.kcfg:240
 #, kde-format
 msgid "What the click with middle mouse button should do."
 msgstr "Што рабіць пры пстрычцы сярэдняй кнопкай мышы."
 
 #. i18n: ectx: label, entry, group (Browser)
-#: interfaces/akregator.kcfg:246
+#: interfaces/akregator.kcfg:249
 #, kde-format
 msgid "Enabled Plasma Activity"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Advanced)
-#: interfaces/akregator.kcfg:266
+#: interfaces/akregator.kcfg:269
 #, kde-format
 msgid "Archive Backend"
 msgstr "Рухавік захавання артыкулаў"
 
 #. i18n: ectx: whatsthis, entry (UseMarkReadDelay), group (Advanced)
-#: interfaces/akregator.kcfg:270
+#: interfaces/akregator.kcfg:273
 #, kde-format
 msgid "Whether to delay before marking an article as read upon selecting it."
 msgstr "Затрымка адзнакі артыкула як прачытаны."
 
 #. i18n: ectx: whatsthis, entry (MarkReadDelay), group (Advanced)
-#: interfaces/akregator.kcfg:274
+#: interfaces/akregator.kcfg:277
 #| msgid ""
 #| "Configurable delay between selecting and article and it being marked as "
 #| "read."
@@ -896,7 +902,7 @@ msgid "Configurable delay between selecting an article and it being marked as re
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Advanced)
-#: interfaces/akregator.kcfg:278
+#: interfaces/akregator.kcfg:281
 #, kde-format
 msgid "Resets the quick filter when changing feeds."
 msgstr ""
@@ -1205,7 +1211,7 @@ msgstr ""
 msgid "Ma&rk All Feeds as Read"
 msgstr "Адзначыць усе стужкі як прачытаныя"
 
-#: src/actions/actionmanagerimpl.cpp:341 src/actions/actionmanagerimpl.cpp:609
+#: src/actions/actionmanagerimpl.cpp:341 src/actions/actionmanagerimpl.cpp:613
 #, kde-format
 msgid "Copy Link Address"
 msgstr "Скапіраваць адрас спасылкі"
@@ -1313,145 +1319,150 @@ msgctxt "@action"
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:465
+#: src/actions/actionmanagerimpl.cpp:439
+#, kde-format
+msgid "What's new"
+msgstr "Што новага"
+
+#: src/actions/actionmanagerimpl.cpp:469
 #, kde-format
 msgid "&Previous Article"
 msgstr "&Папярэдні артыкул"
 
-#: src/actions/actionmanagerimpl.cpp:469
+#: src/actions/actionmanagerimpl.cpp:473
 #, kde-format
 msgid "&Next Article"
 msgstr "&Наступны артыкул"
 
-#: src/actions/actionmanagerimpl.cpp:485
+#: src/actions/actionmanagerimpl.cpp:489
 #, kde-format
 msgid "&Previous Feed"
 msgstr "Папярэдняя стужка"
 
-#: src/actions/actionmanagerimpl.cpp:490
+#: src/actions/actionmanagerimpl.cpp:494
 #, kde-format
 msgid "&Next Feed"
 msgstr "&Наступная стужка"
 
-#: src/actions/actionmanagerimpl.cpp:496
+#: src/actions/actionmanagerimpl.cpp:500
 #, kde-format
 msgid "N&ext Unread Feed"
 msgstr "Нас&тупная непрачытаная стужка"
 
-#: src/actions/actionmanagerimpl.cpp:502
+#: src/actions/actionmanagerimpl.cpp:506
 #, kde-format
 msgid "Prev&ious Unread Feed"
 msgstr "Папярэдняя непрачытаная стужка"
 
-#: src/actions/actionmanagerimpl.cpp:507
+#: src/actions/actionmanagerimpl.cpp:511
 #, kde-format
 msgid "Go to Top of Tree"
 msgstr "У пачатак"
 
-#: src/actions/actionmanagerimpl.cpp:512
+#: src/actions/actionmanagerimpl.cpp:516
 #, kde-format
 msgid "Go to Bottom of Tree"
 msgstr "У канец"
 
-#: src/actions/actionmanagerimpl.cpp:517
+#: src/actions/actionmanagerimpl.cpp:521
 #, kde-format
 msgid "Go Left in Tree"
 msgstr "Налева па дрэве"
 
-#: src/actions/actionmanagerimpl.cpp:522
+#: src/actions/actionmanagerimpl.cpp:526
 #, kde-format
 msgid "Go Right in Tree"
 msgstr "Направа па дрэве"
 
-#: src/actions/actionmanagerimpl.cpp:527
+#: src/actions/actionmanagerimpl.cpp:531
 #, kde-format
 msgid "Go Up in Tree"
 msgstr "Уверх па дрэве"
 
-#: src/actions/actionmanagerimpl.cpp:532
+#: src/actions/actionmanagerimpl.cpp:536
 #, kde-format
 msgid "Go Down in Tree"
 msgstr "Уніз па дрэве"
 
-#: src/actions/actionmanagerimpl.cpp:538
+#: src/actions/actionmanagerimpl.cpp:542
 #| msgid "N&ext Unread Feed"
 msgid "Hide Read Feeds"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:544
+#: src/actions/actionmanagerimpl.cpp:548
 #, kde-format
 msgid "Lock Feeds In Place"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:550
+#: src/actions/actionmanagerimpl.cpp:554
 #| msgid " (no unread articles)"
 msgid "Auto-expand folders with unread articles"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:566
+#: src/actions/actionmanagerimpl.cpp:570
 #, kde-format
 msgid "Select Next Tab"
 msgstr "Перайсці на наступную картку"
 
-#: src/actions/actionmanagerimpl.cpp:571
+#: src/actions/actionmanagerimpl.cpp:575
 #, kde-format
 msgid "Select Previous Tab"
 msgstr "Перайсці на папярэднюю картку"
 
-#: src/actions/actionmanagerimpl.cpp:577
+#: src/actions/actionmanagerimpl.cpp:581
 #, kde-format
 msgid "Detach Tab"
 msgstr "Аддзяліць картку"
 
-#: src/actions/actionmanagerimpl.cpp:591
+#: src/actions/actionmanagerimpl.cpp:595
 #, kde-format
 msgid "Mute"
 msgstr "Сцішыць"
 
-#: src/actions/actionmanagerimpl.cpp:595
+#: src/actions/actionmanagerimpl.cpp:599
 #, kde-format
 msgid "Unmute"
 msgstr "Уключыць мікрафон"
 
-#: src/actions/actionmanagerimpl.cpp:598
+#: src/actions/actionmanagerimpl.cpp:602
 #, kde-format
 msgctxt "@action"
 msgid "Speak Text"
 msgstr "Прачытаць тэкст уголас"
 
-#: src/actions/actionmanagerimpl.cpp:603
+#: src/actions/actionmanagerimpl.cpp:607
 #, kde-format
 msgid "&Find in Message…"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:614
+#: src/actions/actionmanagerimpl.cpp:618
 #| msgid "&Close Tab"
 msgid "Close Tab"
 msgstr "Закрыць картку"
 
-#: src/actions/actionmanagerimpl.cpp:627
+#: src/actions/actionmanagerimpl.cpp:631
 #, kde-format
 msgctxt "@action"
 msgid "Activate Tab %1"
 msgstr "Перайсці да ўкладкі %1"
 
-#: src/actions/actionmanagerimpl.cpp:633
+#: src/actions/actionmanagerimpl.cpp:637
 #| msgid "&Save Link As..."
 msgid "&Save Link As…"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:637
+#: src/actions/actionmanagerimpl.cpp:641
 #, kde-format
 msgid "Copy &Link Address"
 msgstr "Скапіраваць адрас &спасылкі"
 
-#: src/actions/actionmanagerimpl.cpp:640
+#: src/actions/actionmanagerimpl.cpp:644
 #, kde-format
 msgctxt "@action"
 msgid "Copy Image Location"
 msgstr "Скапіяваць адрас выявы"
 
-#: src/actions/actionmanagerimpl.cpp:647
+#: src/actions/actionmanagerimpl.cpp:651
 #, kde-format
 msgctxt "@action"
 msgid "Save Image On Disk…"
@@ -1552,8 +1563,9 @@ msgstr ""
 msgid "Access denied: Cannot save feed list to <b>%1</b>. Please check your permissions."
 msgstr ""
 
-#: src/akregator_part.cpp:428
-#, kde-format
+#: src/akregator_part.cpp:428 src/akregator_part.cpp:481
+#| msgid "Write Error"
+msgctxt "@title:window"
 msgid "Write Error"
 msgstr "Памылка запісу"
 
@@ -1583,12 +1595,6 @@ msgstr "Памылка чытання"
 #| msgid "Access denied: cannot write to file %1"
 msgid "Access denied: cannot write to file %1. Please check your permissions."
 msgstr ""
-
-#: src/akregator_part.cpp:481
-#| msgid "Write Error"
-msgctxt "@title:window"
-msgid "Write Error"
-msgstr "Памылка запісу"
 
 #: src/akregator_part.cpp:496 src/akregator_part.cpp:505
 #| msgid "OPML Outlines (*.opml, *.xml)"
@@ -1882,8 +1888,14 @@ msgstr "&Артыкул"
 msgid "&Settings"
 msgstr "&Налады"
 
+#. i18n: ectx: Menu (help)
+#: src/data/akregator_part.rc:90
+#, kde-format
+msgid "&Help"
+msgstr "&Даведка"
+
 #. i18n: ectx: ToolBar (mainToolBar)
-#: src/data/akregator_part.rc:93 src/data/akregator_shell.rc:54
+#: src/data/akregator_part.rc:96 src/data/akregator_shell.rc:54
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Асноўныя інструменты"
@@ -1899,7 +1911,12 @@ msgstr "&Файл"
 msgid "All Feeds"
 msgstr "Усе стужкі"
 
-#: src/feed/feedpropertiesdialog.cpp:45 src/feed/feedpropertiesdialog.cpp:77
+#: src/feed/feedpropertiesdialog.cpp:36
+#, kde-format
+msgid "Activities"
+msgstr "Дзейнасць"
+
+#: src/feed/feedpropertiesdialog.cpp:61 src/feed/feedpropertiesdialog.cpp:109
 #| msgid "Minutes"
 msgid "Minute"
 msgid_plural "Minutes"
@@ -1908,7 +1925,7 @@ msgstr[1] "Хвіліны"
 msgstr[2] "Хвіліны"
 msgstr[3] "Хвіліны"
 
-#: src/feed/feedpropertiesdialog.cpp:46 src/feed/feedpropertiesdialog.cpp:78
+#: src/feed/feedpropertiesdialog.cpp:62 src/feed/feedpropertiesdialog.cpp:110
 #| msgid "Hours"
 msgid "Hour"
 msgid_plural "Hours"
@@ -1917,7 +1934,7 @@ msgstr[1] "Гадзіны"
 msgstr[2] "Гадзіны"
 msgstr[3] "Гадзіны"
 
-#: src/feed/feedpropertiesdialog.cpp:47 src/feed/feedpropertiesdialog.cpp:79
+#: src/feed/feedpropertiesdialog.cpp:63 src/feed/feedpropertiesdialog.cpp:111
 #| msgid "Days"
 msgid "Day"
 msgid_plural "Days"
@@ -1926,19 +1943,19 @@ msgstr[1] "Дзён"
 msgstr[2] "Дзён"
 msgstr[3] "Дзён"
 
-#: src/feed/feedpropertiesdialog.cpp:60 src/feed/feedpropertiesdialog.cpp:112
+#: src/feed/feedpropertiesdialog.cpp:93 src/feed/feedpropertiesdialog.cpp:147
 #| msgid "Feed Properties"
 msgctxt "@title:window"
 msgid "Feed Properties"
 msgstr "Уласцівасці стужкі"
 
-#: src/feed/feedpropertiesdialog.cpp:80
+#: src/feed/feedpropertiesdialog.cpp:112
 #| msgid "Never"
 msgctxt "never fetch new articles"
 msgid "Never"
 msgstr "Ніколі"
 
-#: src/feed/feedpropertiesdialog.cpp:81
+#: src/feed/feedpropertiesdialog.cpp:113
 #| msgid "1 day"
 msgid " day"
 msgid_plural " days"
@@ -1947,7 +1964,7 @@ msgstr[1] " дзён"
 msgstr[2] " дні"
 msgstr[3] " дні"
 
-#: src/feed/feedpropertiesdialog.cpp:82
+#: src/feed/feedpropertiesdialog.cpp:114
 #| msgid "1 article"
 msgid " article"
 msgid_plural " articles"
@@ -1956,7 +1973,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/feed/feedpropertiesdialog.cpp:112
+#: src/feed/feedpropertiesdialog.cpp:147
 #| msgid "Properties of %1"
 msgctxt "@title:window"
 msgid "Properties of %1"
@@ -2042,69 +2059,69 @@ msgstr "Загрузка спынена"
 msgid "Loading completed"
 msgstr "Загрузка завершана"
 
-#: src/mainwidget.cpp:156
+#: src/mainwidget.cpp:178
 #, kde-format
 msgid "You can view multiple articles in several open tabs."
 msgstr "Вы можаце праглядаць накалькі артыкулаў у розных картках."
 
-#: src/mainwidget.cpp:160
+#: src/mainwidget.cpp:182
 #, kde-format
 msgid "Articles list."
 msgstr "Спіс артыкулаў."
 
-#: src/mainwidget.cpp:222 src/mainwidget.cpp:647
+#: src/mainwidget.cpp:244 src/mainwidget.cpp:675
 #, kde-format
 msgid "Articles"
 msgstr "Артыкулы"
 
-#: src/mainwidget.cpp:251
+#: src/mainwidget.cpp:273
 #, kde-format
 msgid "About"
 msgstr "Звесткі"
 
-#: src/mainwidget.cpp:777
+#: src/mainwidget.cpp:814
 #| msgid "<qt>Are you sure you want to delete feed <b>%1</b>?</qt>"
 msgid "<qt>Are you sure you want to mark <b>all articles in the feed</b> as read?</qt>"
 msgstr ""
 
-#: src/mainwidget.cpp:778
+#: src/mainwidget.cpp:815
 #| msgid "&Mark Feed as Read"
 msgctxt "@title:window"
 msgid "Mark Feed as Read"
 msgstr ""
 
-#: src/mainwidget.cpp:781
+#: src/mainwidget.cpp:818
 #| msgid "<qt>Are you sure you want to delete feed <b>%1</b>?</qt>"
 msgid "<qt>Are you sure you want to mark <b>all feeds</b> as read?</qt>"
 msgstr ""
 
-#: src/mainwidget.cpp:783
+#: src/mainwidget.cpp:820
 #| msgid "<qt>Are you sure you want to delete this feed?</qt>"
 msgid "<qt>Are you sure you want to mark <b>all feeds in the folder</b> as read?</qt>"
 msgstr ""
 
-#: src/mainwidget.cpp:785
+#: src/mainwidget.cpp:822
 #| msgid "&Mark Feeds as Read"
 msgctxt "@title:window"
 msgid "Mark Feeds as Read"
 msgstr ""
 
-#: src/mainwidget.cpp:849 src/mainwidget.cpp:858 src/mainwidget.cpp:1260
+#: src/mainwidget.cpp:886 src/mainwidget.cpp:895 src/mainwidget.cpp:1297
 #, kde-format
 msgid "Networking is not available."
 msgstr ""
 
-#: src/mainwidget.cpp:866
+#: src/mainwidget.cpp:903
 #| msgid "Fetching Feeds..."
 msgid "Fetching Feeds…"
 msgstr ""
 
-#: src/mainwidget.cpp:1065
+#: src/mainwidget.cpp:1102
 #, kde-format
 msgid "<qt>Are you sure you want to delete article <b>%1</b>?</qt>"
 msgstr "<qt>Выдаліць артыкул <b>%1</b>?</qt>"
 
-#: src/mainwidget.cpp:1068
+#: src/mainwidget.cpp:1105
 #| msgid "<qt>Are you sure you want to delete the %1 selected articles?</qt>"
 msgid "<qt>Are you sure you want to delete the selected article?</qt>"
 msgid_plural "<qt>Are you sure you want to delete the %1 selected articles?</qt>"
@@ -2113,13 +2130,13 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/mainwidget.cpp:1075
+#: src/mainwidget.cpp:1112
 #| msgid "Delete Article"
 msgctxt "@title:window"
 msgid "Delete Article"
 msgstr "Выдаліць артыкул"
 
-#: src/mainwidget.cpp:1257
+#: src/mainwidget.cpp:1294
 #, kde-format
 msgid "Networking is available now."
 msgstr ""
@@ -2194,89 +2211,89 @@ msgstr "Вузел ці тэчка прызначэння не знойдзен�
 msgid "Cannot move folder %1 to its own subfolder %2"
 msgstr ""
 
-#: src/subscription/subscriptionlistmodel.cpp:49
+#: src/subscription/subscriptionlistmodel.cpp:54
 #, kde-format
 msgid "Timeout on remote server"
 msgstr "Перавышэнне тэрміну чакання сервера"
 
-#: src/subscription/subscriptionlistmodel.cpp:51
+#: src/subscription/subscriptionlistmodel.cpp:56
 #, kde-format
 msgid "Unknown host"
 msgstr "Невядомы вузел"
 
-#: src/subscription/subscriptionlistmodel.cpp:53
+#: src/subscription/subscriptionlistmodel.cpp:58
 #, kde-format
 msgid "Feed file not found on remote server"
 msgstr "Стужка не знойдзеная на серверы."
 
-#: src/subscription/subscriptionlistmodel.cpp:55
+#: src/subscription/subscriptionlistmodel.cpp:60
 #| msgid "Could not import the file %1 (no valid OPML)"
 msgid "Could not read feed (invalid XML)"
 msgstr ""
 
-#: src/subscription/subscriptionlistmodel.cpp:57
+#: src/subscription/subscriptionlistmodel.cpp:62
 #, kde-format
 msgid "Could not read feed (unknown format)"
 msgstr "Немагчыма прачытаць стужку (невядомы фармат)"
 
-#: src/subscription/subscriptionlistmodel.cpp:59
+#: src/subscription/subscriptionlistmodel.cpp:64
 #| msgid "Could not import the file %1 (no valid OPML)"
 msgid "Could not read feed (invalid feed)"
 msgstr ""
 
-#: src/subscription/subscriptionlistmodel.cpp:227
+#: src/subscription/subscriptionlistmodel.cpp:246
 #, kde-format
 msgid "Could not fetch feed: %1"
 msgstr "Немагчыма сцягнуць стужку: %1"
 
-#: src/subscription/subscriptionlistmodel.cpp:272
+#: src/subscription/subscriptionlistmodel.cpp:295
 #| msgid "Feeds"
 msgctxt "Feedlist's column header"
 msgid "Feeds"
 msgstr "Стужкі"
 
-#: src/subscription/subscriptionlistmodel.cpp:274
+#: src/subscription/subscriptionlistmodel.cpp:297
 #| msgid "Unread"
 msgctxt "Feedlist's column header"
 msgid "Unread"
 msgstr "У непрачытанае"
 
-#: src/subscription/subscriptionlistmodel.cpp:276
+#: src/subscription/subscriptionlistmodel.cpp:299
 #| msgid "Total"
 msgctxt "Feedlist's column header"
 msgid "Total"
 msgstr "Агулам"
 
-#: src/tabwidget.cpp:91
+#: src/tabwidget.cpp:92
 #| msgid "Close the current tab"
 msgctxt "@info:tooltip"
 msgid "Close the current tab"
 msgstr "Закрыць гэтую картку"
 
-#: src/tabwidget.cpp:94
+#: src/tabwidget.cpp:95
 #| msgid "&Close Tab"
 msgid "Close tab"
 msgstr "Закрыць укладку"
 
-#: src/tabwidget.cpp:117
+#: src/tabwidget.cpp:118
 #| msgid "Detach Tab"
 msgctxt "@action:inmenu"
 msgid "Detach Tab"
 msgstr "Аддзяліць картку"
 
-#: src/tabwidget.cpp:122
+#: src/tabwidget.cpp:123
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Закрыць укладку"
 
-#: src/tabwidget.cpp:126
+#: src/tabwidget.cpp:127
 #| msgid "Close the current tab"
 msgctxt "@action:inmenu"
 msgid "Close All Other Tabs"
 msgstr ""
 
-#: src/tabwidget.cpp:130
+#: src/tabwidget.cpp:131
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "Close All Tabs"
@@ -2462,6 +2479,14 @@ msgstr ""
 msgid "Open In External Browser"
 msgstr ""
 
+#: src/whatsnew/whatsnewtranslations.cpp:16
+msgid "Implement Plasma Activity."
+msgstr ""
+
+#: src/whatsnew/whatsnewtranslations.cpp:16
+msgid "Add new whatsnew widget."
+msgstr ""
+
 #: src/widgets/searchbar.cpp:43
 #| msgid " articles"
 msgctxt "@info:placeholder"
@@ -2503,6 +2528,9 @@ msgstr "Чытанне"
 msgctxt "Important articles filter"
 msgid "Important"
 msgstr "Важна"
+
+#~ msgid "Write Error"
+#~ msgstr "Памылка запісу"
 
 #, fuzzy
 #~| msgid "Show Quick Filter"
