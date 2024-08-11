@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-13 00:39+0000\n"
-"PO-Revision-Date: 2024-06-12 20:14\n"
+"POT-Creation-Date: 2024-07-23 00:40+0000\n"
+"PO-Revision-Date: 2024-08-11 21:04\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -661,78 +661,78 @@ msgstr "Абраць файл"
 msgid "KWin Rules (*.kwinrule)"
 msgstr "Правілы KWin (*.kwinrule)"
 
-#: ui/main.qml:29
+#: ui/main.qml:28
 #, kde-format
 msgid "Add New…"
 msgstr "Дадаць…"
 
-#: ui/main.qml:35
+#: ui/main.qml:34
 #, kde-format
 msgid "Import…"
 msgstr "Імпартаванне…"
 
-#: ui/main.qml:40
+#: ui/main.qml:39
 #, kde-format
 msgid "Cancel Export"
 msgstr "Скасаваць экспартаванне"
 
-#: ui/main.qml:40
+#: ui/main.qml:39
 #, kde-format
 msgid "Export…"
 msgstr "Экспартаванне…"
 
-#: ui/main.qml:88
+#: ui/main.qml:87
 #, kde-format
 msgid "No rules for specific windows are currently set"
 msgstr "На дадзены момант няма правіл для пэўных акон"
 
-#: ui/main.qml:89
+#: ui/main.qml:88
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Click <interface>Add New…</interface> to add some"
 msgstr "Пстрыкніце па кнопцы <interface>Дадаць...</interface>, каб дадаць"
 
-#: ui/main.qml:97
+#: ui/main.qml:96
 #, kde-format
 msgid "Select the rules to export"
 msgstr "Абраць правілы для экспартавання"
 
-#: ui/main.qml:101
+#: ui/main.qml:100
 #, kde-format
 msgid "Unselect All"
 msgstr "Адкінуць выбар"
 
-#: ui/main.qml:101
+#: ui/main.qml:100
 #, kde-format
 msgid "Select All"
 msgstr "Абраць усё"
 
-#: ui/main.qml:115
+#: ui/main.qml:114
 #, kde-format
 msgid "Save Rules"
 msgstr "Захаваць правілы"
 
-#: ui/main.qml:196
+#: ui/main.qml:195
 #, kde-format
 msgid "Edit"
 msgstr "Рэдагаваць"
 
-#: ui/main.qml:202
+#: ui/main.qml:201
 #, kde-format
 msgid "Duplicate"
 msgstr "Дубляваць"
 
-#: ui/main.qml:208
+#: ui/main.qml:207
 #, kde-format
 msgid "Delete"
 msgstr "Выдаліць"
 
-#: ui/main.qml:240
+#: ui/main.qml:239
 #, kde-format
 msgid "Import Rules"
 msgstr "Імпартаваць правілы"
 
-#: ui/main.qml:252
+#: ui/main.qml:251
 #, kde-format
 msgid "Export Rules"
 msgstr "Экспартаваць правілы"
@@ -769,25 +769,20 @@ msgstr "Пстрыкніце па кнопцы <interface>Дадаць улас�
 
 #: ui/RulesEditor.qml:88
 #, kde-format
-msgid "Close"
-msgstr "Закрыць"
-
-#: ui/RulesEditor.qml:88
-#, kde-format
 msgid "Add Property..."
 msgstr "Дадаць уласцівасць..."
 
-#: ui/RulesEditor.qml:101
+#: ui/RulesEditor.qml:99
 #, kde-format
 msgid "Detect Window Properties"
 msgstr "Выявіць уласцівасці акна"
 
-#: ui/RulesEditor.qml:117 ui/RulesEditor.qml:124
+#: ui/RulesEditor.qml:115 ui/RulesEditor.qml:122
 #, kde-format
 msgid "Instantly"
 msgstr "Неадкладна"
 
-#: ui/RulesEditor.qml:118 ui/RulesEditor.qml:129
+#: ui/RulesEditor.qml:116 ui/RulesEditor.qml:127
 #, kde-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
@@ -796,33 +791,45 @@ msgstr[1] "Праз %1 секунды"
 msgstr[2] "Праз %1 секунд"
 msgstr[3] "Праз %1 секунды"
 
-#: ui/RulesEditor.qml:176
+#: ui/RulesEditor.qml:174
 #, kde-format
 msgid "Add property to the rule"
 msgstr "Дадаць уласцівасць у правіла"
 
-#: ui/RulesEditor.qml:279 ui/ValueEditor.qml:54
+#: ui/RulesEditor.qml:267
+#| msgid "No window properties changed"
+msgctxt "@info:placeholder"
+msgid "No properties left to add"
+msgstr ""
+
+#: ui/RulesEditor.qml:269
+#| msgid "No window properties changed"
+msgctxt "@info:placeholder %1 is a filter text introduced by the user"
+msgid "No properties match \"%1\""
+msgstr ""
+
+#: ui/RulesEditor.qml:290 ui/ValueEditor.qml:54
 #, kde-format
 msgid "Yes"
 msgstr "Так"
 
-#: ui/RulesEditor.qml:279 ui/ValueEditor.qml:60
+#: ui/RulesEditor.qml:290 ui/ValueEditor.qml:60
 #, kde-format
 msgid "No"
 msgstr "Не"
 
-#: ui/RulesEditor.qml:281 ui/ValueEditor.qml:168 ui/ValueEditor.qml:175
+#: ui/RulesEditor.qml:292 ui/ValueEditor.qml:168 ui/ValueEditor.qml:175
 #, kde-format
 msgid "%1 %"
 msgstr "%1 %"
 
-#: ui/RulesEditor.qml:283
+#: ui/RulesEditor.qml:294
 #, kde-format
 msgctxt "Coordinates (x, y)"
 msgid "(%1, %2)"
 msgstr "(%1, %2)"
 
-#: ui/RulesEditor.qml:285
+#: ui/RulesEditor.qml:296
 #, kde-format
 msgctxt "Size (width, height)"
 msgid "(%1, %2)"
@@ -833,6 +840,9 @@ msgstr "(%1, %2)"
 msgctxt "(x, y) coordinates separator in size/position"
 msgid "x"
 msgstr "x"
+
+#~ msgid "Close"
+#~ msgstr "Закрыць"
 
 #~ msgid "Set window type"
 #~ msgstr "Вызначыць тып акна"
