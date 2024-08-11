@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-06 00:39+0000\n"
-"PO-Revision-Date: 2024-07-06 23:47\n"
+"POT-Creation-Date: 2024-08-01 00:41+0000\n"
+"PO-Revision-Date: 2024-08-11 21:04\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -143,72 +143,72 @@ msgstr ""
 msgid "Batch Job (No Interactivity)"
 msgstr ""
 
-#: core/item.cpp:252 core/messageitem.cpp:489
+#: core/item.cpp:251 core/messageitem.cpp:489
 #| msgid "Read"
 msgctxt "Status of an item"
 msgid "Read"
 msgstr "Чытанне"
 
-#: core/item.cpp:254 core/messageitem.cpp:489
+#: core/item.cpp:253 core/messageitem.cpp:489
 #| msgid "Unread"
 msgctxt "Status of an item"
 msgid "Unread"
 msgstr "У непрачытанае"
 
-#: core/item.cpp:258
+#: core/item.cpp:257
 #| msgid "Has Attachment"
 msgctxt "Status of an item"
 msgid "Has Attachment"
 msgstr ""
 
-#: core/item.cpp:262
+#: core/item.cpp:261
 msgctxt "Status of an item"
 msgid "Action Item"
 msgstr ""
 
-#: core/item.cpp:266 core/messageitem.cpp:487
+#: core/item.cpp:265 core/messageitem.cpp:487
 #| msgid "Replied"
 msgctxt "Status of an item"
 msgid "Replied"
 msgstr "Быў адказ"
 
-#: core/item.cpp:270
+#: core/item.cpp:269
 #| msgid "Forwarded"
 msgctxt "Status of an item"
 msgid "Forwarded"
 msgstr "Перасланыя"
 
-#: core/item.cpp:274
+#: core/item.cpp:273
 #| msgid "Sent"
 msgctxt "Status of an item"
 msgid "Sent"
 msgstr "Адпраўлена"
 
-#: core/item.cpp:278
+#: core/item.cpp:277
 #| msgid "Important"
 msgctxt "Status of an item"
 msgid "Important"
 msgstr "Важнае"
 
-#: core/item.cpp:282
+#: core/item.cpp:281
 #| msgid "Spam"
 msgctxt "Status of an item"
 msgid "Spam"
 msgstr "Спам"
 
-#: core/item.cpp:286
+#: core/item.cpp:285
 #| msgid "Ham"
 msgctxt "Status of an item"
 msgid "Ham"
 msgstr ""
 
-#: core/item.cpp:290
+#: core/item.cpp:289
 #| msgid "Watched"
 msgctxt "Status of an item"
 msgid "Watched"
 msgstr "Прагледжанае"
 
-#: core/item.cpp:294
+#: core/item.cpp:293
 #| msgid "Ignored"
 msgctxt "Status of an item"
 msgid "Ignored"
@@ -831,8 +831,8 @@ msgstr ""
 msgid "Display Tooltips"
 msgstr ""
 
-#: core/view.cpp:2237 core/view.cpp:2241 core/widgets/searchlinestatus.cpp:326
-#: core/widgets/searchmessagebybuttons.cpp:55
+#: core/view.cpp:2237 core/view.cpp:2241
+#: core/widgets/searchmessagebybuttons.cpp:72
 #| msgid "&From"
 msgid "From"
 msgstr "Ад"
@@ -994,55 +994,54 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: core/widgetbase.cpp:186
+#: core/widgetbase.cpp:190
 #| msgid "Log filter actions"
 msgid "No filter defined."
 msgstr ""
 
-#: core/widgetbase.cpp:186
+#: core/widgetbase.cpp:190
 #| msgid "&Create Filter"
 msgctxt "@title:window"
 msgid "Create Filter"
 msgstr ""
 
-#: core/widgetbase.cpp:408 messagelistutil.cpp:114
+#: core/widgetbase.cpp:412 messagelistutil.cpp:114
 #| msgid "Time"
 msgid "Theme"
 msgstr "Тэма"
 
-#: core/widgetbase.cpp:429 core/widgetbase.cpp:519
+#: core/widgetbase.cpp:433 core/widgetbase.cpp:523
 #: core/widgets/configurefilterswidget.cpp:75
-#: core/widgets/filtersavedmenu.cpp:17
 #| msgid "&Configure KMail..."
 msgid "Configure..."
 msgstr "Наладжванне..."
 
-#: core/widgetbase.cpp:498 messagelistutil.cpp:109
+#: core/widgetbase.cpp:502 messagelistutil.cpp:109
 #| msgid "Suggestions"
 msgid "Aggregation"
 msgstr ""
 
-#: core/widgetbase.cpp:581
+#: core/widgetbase.cpp:585
 #| msgid "Message Part Properties"
 msgid "Message Sort Order"
 msgstr ""
 
-#: core/widgetbase.cpp:603
+#: core/widgetbase.cpp:607
 #| msgid "Message List"
 msgid "Message Sort Direction"
 msgstr ""
 
-#: core/widgetbase.cpp:620
+#: core/widgetbase.cpp:624
 #| msgid "Delete Folder"
 msgid "Group Sort Order"
 msgstr ""
 
-#: core/widgetbase.cpp:637
+#: core/widgetbase.cpp:641
 #| msgid "Message List"
 msgid "Group Sort Direction"
 msgstr ""
 
-#: core/widgetbase.cpp:652
+#: core/widgetbase.cpp:656
 #, kde-format
 msgid "Folder Always Uses This Sort Order"
 msgstr ""
@@ -1083,10 +1082,17 @@ msgstr "Імя:"
 
 #: core/widgets/filtersavedmenu.cpp:16
 #| msgid "Save List..."
+msgctxt "@action"
 msgid "Save Filter..."
 msgstr ""
 
-#: core/widgets/quicksearchline.cpp:42
+#: core/widgets/filtersavedmenu.cpp:17
+#| msgid "&Configure KMail..."
+msgctxt "@action"
+msgid "Configure..."
+msgstr "Наладзіць..."
+
+#: core/widgets/quicksearchline.cpp:45
 #| msgid "&Search"
 msgctxt "Search for messages."
 msgid "Search"
@@ -1107,156 +1113,128 @@ msgstr "Не паказваць зноў"
 msgid "Some of the search folders in this query are still being indexed or are excluded from indexing completely. The results below may be incomplete."
 msgstr ""
 
-#: core/widgets/searchlinestatus.cpp:80
+#: core/widgets/searchlinestatus.cpp:77
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Prevent the quick search field from being cleared when changing folders"
 msgstr ""
 
-#: core/widgets/searchlinestatus.cpp:83
+#: core/widgets/searchlinestatus.cpp:80
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear the quick search field when changing folders"
 msgstr ""
 
-#: core/widgets/searchlinestatus.cpp:103
+#: core/widgets/searchlinestatus.cpp:100
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Toggle this button if you want to keep your quick search locked when moving to other folders or when narrowing the search by message status."
 msgstr ""
 
-#: core/widgets/searchlinestatus.cpp:114
-#| msgid "Filter Rules"
-msgctxt "@info:tooltip"
-msgid "Filter Mails by Status"
-msgstr ""
-
-#: core/widgets/searchlinestatus.cpp:118
+#: core/widgets/searchlinestatus.cpp:108
 #| msgid "Save List..."
 msgctxt "@info:tooltip"
 msgid "Saved Filter"
 msgstr ""
 
-#: core/widgets/searchlinestatus.cpp:217
+#: core/widgets/searchlinestatus.cpp:186
 #| msgid "&Create Filter"
-msgctxt "@action:button"
-msgid "Clear Filter"
-msgstr ""
+msgid "Clear History"
+msgstr "Ачысціць гісторыю"
 
-#: core/widgets/searchlinestatus.cpp:223
-#: core/widgets/searchstatusbuttons.cpp:37
-#| msgid "Unread"
-msgctxt "@action:inmenu Status of a message"
-msgid "Unread"
-msgstr "У непрачытанае"
-
-#: core/widgets/searchlinestatus.cpp:227
-#: core/widgets/searchstatusbuttons.cpp:41
-#| msgid "Replied"
-msgctxt "@action:inmenu Status of a message"
-msgid "Replied"
-msgstr "Быў адказ"
-
-#: core/widgets/searchlinestatus.cpp:231
-#: core/widgets/searchstatusbuttons.cpp:45
-#| msgid "Forwarded"
-msgctxt "@action:inmenu Status of a message"
-msgid "Forwarded"
-msgstr "Перасланыя"
-
-#: core/widgets/searchlinestatus.cpp:235
-#: core/widgets/searchstatusbuttons.cpp:49
-#| msgid "Important"
-msgctxt "@action:inmenu Status of a message"
-msgid "Important"
-msgstr "Важна"
-
-#: core/widgets/searchlinestatus.cpp:239
-#: core/widgets/searchstatusbuttons.cpp:53
-msgctxt "@action:inmenu Status of a message"
-msgid "Action Item"
-msgstr ""
-
-#: core/widgets/searchlinestatus.cpp:243
-#: core/widgets/searchstatusbuttons.cpp:57
-#| msgid "Watched"
-msgctxt "@action:inmenu Status of a message"
-msgid "Watched"
-msgstr "Прагледжанае"
-
-#: core/widgets/searchlinestatus.cpp:247
-#: core/widgets/searchstatusbuttons.cpp:61
-#| msgid "Ignored"
-msgctxt "@action:inmenu Status of a message"
-msgid "Ignored"
-msgstr "Ігнаруецца"
-
-#: core/widgets/searchlinestatus.cpp:251
-#: core/widgets/searchstatusbuttons.cpp:65
-#| msgid "Has Attachment"
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Attachment"
-msgstr ""
-
-#: core/widgets/searchlinestatus.cpp:255
-#: core/widgets/searchstatusbuttons.cpp:69
-#| msgid "Advanced Options"
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Invitation"
-msgstr ""
-
-#: core/widgets/searchlinestatus.cpp:259
-#: core/widgets/searchstatusbuttons.cpp:73
-#| msgid "Spam"
-msgctxt "@action:inmenu Status of a message"
-msgid "Spam"
-msgstr "Спам"
-
-#: core/widgets/searchlinestatus.cpp:263
-#: core/widgets/searchstatusbuttons.cpp:77
-#| msgid "Ham"
-msgctxt "@action:inmenu Status of a message"
-msgid "Ham"
-msgstr ""
-
-#: core/widgets/searchlinestatus.cpp:273
-#: core/widgets/searchmessagebybuttons.cpp:35
+#: core/widgets/searchmessagebybuttons.cpp:34
 #| msgid "&Full message"
 msgctxt "@action"
 msgid "Full Message"
 msgstr ""
 
-#: core/widgets/searchlinestatus.cpp:280
 #: core/widgets/searchmessagebybuttons.cpp:36
 #, kde-format
 msgctxt "@action"
 msgid "Body"
 msgstr "Цела"
 
-#: core/widgets/searchlinestatus.cpp:285
 #: core/widgets/searchmessagebybuttons.cpp:37
 #| msgid "Subject"
 msgctxt "@action"
 msgid "Subject"
 msgstr "Тэма"
 
-#: core/widgets/searchlinestatus.cpp:296
 #: core/widgets/searchmessagebybuttons.cpp:39
 #| msgid "BCC"
 msgctxt "@action"
 msgid "BCC"
 msgstr ""
 
-#: core/widgets/searchlinestatus.cpp:324
-#: core/widgets/searchmessagebybuttons.cpp:53
+#: core/widgets/searchmessagebybuttons.cpp:70
 #| msgid "To"
 msgid "To"
 msgstr "Да"
 
-#: core/widgets/searchlinestatus.cpp:406
-#| msgid "&Create Filter"
-msgid "Clear History"
-msgstr "Ачысціць гісторыю"
+#: core/widgets/searchstatusbuttons.cpp:35
+#| msgid "Unread"
+msgctxt "@action:inmenu Status of a message"
+msgid "Unread"
+msgstr "У непрачытанае"
+
+#: core/widgets/searchstatusbuttons.cpp:39
+#| msgid "Replied"
+msgctxt "@action:inmenu Status of a message"
+msgid "Replied"
+msgstr "Быў адказ"
+
+#: core/widgets/searchstatusbuttons.cpp:43
+#| msgid "Forwarded"
+msgctxt "@action:inmenu Status of a message"
+msgid "Forwarded"
+msgstr "Перасланыя"
+
+#: core/widgets/searchstatusbuttons.cpp:47
+#| msgid "Important"
+msgctxt "@action:inmenu Status of a message"
+msgid "Important"
+msgstr "Важна"
+
+#: core/widgets/searchstatusbuttons.cpp:51
+msgctxt "@action:inmenu Status of a message"
+msgid "Action Item"
+msgstr ""
+
+#: core/widgets/searchstatusbuttons.cpp:55
+#| msgid "Watched"
+msgctxt "@action:inmenu Status of a message"
+msgid "Watched"
+msgstr "Прагледжанае"
+
+#: core/widgets/searchstatusbuttons.cpp:59
+#| msgid "Ignored"
+msgctxt "@action:inmenu Status of a message"
+msgid "Ignored"
+msgstr "Ігнаруецца"
+
+#: core/widgets/searchstatusbuttons.cpp:63
+#| msgid "Has Attachment"
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Attachment"
+msgstr ""
+
+#: core/widgets/searchstatusbuttons.cpp:67
+#| msgid "Advanced Options"
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Invitation"
+msgstr ""
+
+#: core/widgets/searchstatusbuttons.cpp:71
+#| msgid "Spam"
+msgctxt "@action:inmenu Status of a message"
+msgid "Spam"
+msgstr "Спам"
+
+#: core/widgets/searchstatusbuttons.cpp:75
+#| msgid "Ham"
+msgctxt "@action:inmenu Status of a message"
+msgid "Ham"
+msgstr ""
 
 #: core/widgets/tablockedwarning.cpp:17
 #, kde-format
@@ -1492,11 +1470,13 @@ msgstr ""
 
 #: utils/configureaggregationsdialog.cpp:413
 #| msgid "Suggestions"
+msgctxt "@title:window"
 msgid "Import Aggregation"
 msgstr ""
 
 #: utils/configureaggregationsdialog.cpp:446
 #| msgid "Suggestions"
+msgctxt "@title:window"
 msgid "Export Aggregation"
 msgstr ""
 
@@ -1574,11 +1554,13 @@ msgstr ""
 
 #: utils/configurethemesdialog.cpp:436
 #| msgid "&Import Messages..."
+msgctxt "@title:window"
 msgid "Import Theme"
 msgstr ""
 
 #: utils/configurethemesdialog.cpp:470
 #| msgid "Key Export Failed"
+msgctxt "@title:window"
 msgid "Export Theme"
 msgstr ""
 
@@ -1625,6 +1607,7 @@ msgstr ""
 
 #: utils/themeeditor.cpp:83
 #| msgid "Set as Default"
+msgctxt "@option:check"
 msgid "Visible by default"
 msgstr ""
 
@@ -1636,6 +1619,7 @@ msgstr ""
 
 #: utils/themeeditor.cpp:87
 #, kde-format
+msgctxt "@option:check"
 msgid "Contains \"Sender or Receiver\" field"
 msgstr ""
 
@@ -1905,6 +1889,18 @@ msgstr "&Скапіраваць сюды"
 #, kde-format
 msgid "C&ancel"
 msgstr "&Адмяніць"
+
+#, fuzzy
+#~| msgid "Filter Rules"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Filter Mails by Status"
+#~ msgstr "Правілы фільтру"
+
+#, fuzzy
+#~| msgid "&Create Filter"
+#~ msgctxt "@action:button"
+#~ msgid "Clear Filter"
+#~ msgstr "&Стварыць фільтар"
 
 #, fuzzy
 #~ msgid "Note Icon"
