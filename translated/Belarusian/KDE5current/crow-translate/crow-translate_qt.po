@@ -10,13 +10,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 24.05.1\n"
 "X-Crowdin-Project: bd87baec11060495bd9655e79d34ea19\n"
 "X-Crowdin-Project-ID: 140\n"
 "X-Crowdin-Language: be\n"
 "X-Crowdin-File: /main/KDE5current/crow-translate/crow-translate_qt.po\n"
 "X-Crowdin-File-ID: 18012\n"
+"X-Language: be_BY\n"
+"X-Source-Language: en\n"
 
 #: src/cli.cpp:40
 msgctxt "Cli|"
@@ -25,23 +27,38 @@ msgstr "Паказаць усе коды моў."
 
 #: src/cli.cpp:41
 msgctxt "Cli|"
-msgid "Specify the source language (by default, engine will try to determine the language on its own)."
-msgstr "Пазначце зыходную мову (прадвызначана рухавіць будзе спрабаваць вызначыць мову самастойна)."
+msgid ""
+"Specify the source language (by default, engine will try to determine the "
+"language on its own)."
+msgstr ""
+"Пазначце зыходную мову (прадвызначана рухавіць будзе спрабаваць вызначыць "
+"мову самастойна)."
 
 #: src/cli.cpp:42
 msgctxt "Cli|"
-msgid "Specify the translation language(s), splitted by '+' (by default, the system language is used)."
-msgstr "Пазначце мову(ы) перакладу, падзяліўшы іх знакам \"+\" (прадвызначана выкарыстоўваецца сістэмная мова)."
+msgid ""
+"Specify the translation language(s), splitted by '+' (by default, the system "
+"language is used)."
+msgstr ""
+"Пазначце мову(ы) перакладу, падзяліўшы іх знакам \"+\" (прадвызначана "
+"выкарыстоўваецца сістэмная мова)."
 
 #: src/cli.cpp:43
 msgctxt "Cli|"
-msgid "Specify the translator engine ('google', 'yandex', 'bing', 'libretranslate' or 'lingva'), Google is used by default."
-msgstr "Пазначце рухавік перакладчыка (google, yandex, bing, libretranslate або lingva), прадвызначана выкарыстоўваецца Google."
+msgid ""
+"Specify the translator engine ('google', 'yandex', 'bing', 'libretranslate' "
+"or 'lingva'), Google is used by default."
+msgstr ""
+"Пазначце рухавік перакладчыка (google, yandex, bing, libretranslate або "
+"lingva), прадвызначана выкарыстоўваецца Google."
 
 #: src/cli.cpp:44
 msgctxt "Cli|"
-msgid "Specify Mozhi instance URL. Random instance URL will be used by default."
-msgstr "Пазначце URL-адрас асобніка Mozhi. Прадвызначана будзе выкарыстоўвацца выпадковы URL-адрас асобніка."
+msgid ""
+"Specify Mozhi instance URL. Random instance URL will be used by default."
+msgstr ""
+"Пазначце URL-адрас асобніка Mozhi. Прадвызначана будзе выкарыстоўвацца "
+"выпадковы URL-адрас асобніка."
 
 #: src/cli.cpp:45
 msgctxt "Cli|"
@@ -55,8 +72,11 @@ msgstr "Вымавіць зыходны тэкст."
 
 #: src/cli.cpp:47
 msgctxt "Cli|"
-msgid "Read source text from files. Arguments will be interpreted as file paths."
-msgstr "Чытаць зыходны тэкст з файлаў. Аргументы будуць інтэрпрэтавацца як шляхі да файлаў."
+msgid ""
+"Read source text from files. Arguments will be interpreted as file paths."
+msgstr ""
+"Чытаць зыходны тэкст з файлаў. Аргументы будуць інтэрпрэтавацца як шляхі да "
+"файлаў."
 
 #: src/cli.cpp:48
 msgctxt "Cli|"
@@ -86,8 +106,11 @@ msgstr "Перакладчык, які можа перакладаць і вым
 
 #: src/cli.cpp:55
 msgctxt "Cli|"
-msgid "Text to translate. By default, the translation will be done to the system language."
-msgstr "Тэкст для перакладу. Прадвызначана будзе перакладзена на сістэмную мову."
+msgid ""
+"Text to translate. By default, the translation will be done to the system "
+"language."
+msgstr ""
+"Тэкст для перакладу. Прадвызначана будзе перакладзена на сістэмную мову."
 
 #: src/cli.cpp:77
 #, qt-format
@@ -207,28 +230,6 @@ msgctxt "MainWindow|"
 msgid "Unable to translate text"
 msgstr "Не ўдалося перакласці тэкст"
 
-#: src/mainwindow.cpp:867
-msgctxt "TrayIcon|"
-msgid "Invalid tray icon"
-msgstr "Хібны значок прасторы апавяшчэнняў"
-
-#: src/mainwindow.cpp:867
-#, qt-format
-msgctxt "TrayIcon|"
-msgid "The specified icon '%1' is invalid. The default icon will be used."
-msgstr "Пазначаны значок \"%1\" хібны. Будзе выкарыстоўвацца хібны значок."
-
-#: src/mainwindow.cpp:896
-msgctxt "Ocr|"
-msgid "Unable to set OCR languages"
-msgstr "Не ўдалося вызначыць мовы OCR"
-
-#: src/mainwindow.cpp:896
-#, qt-format
-msgctxt "Ocr|"
-msgid "Unable to initialize Tesseract with %1"
-msgstr "Немагчыма ініцыялізаваць Tesseract з %1"
-
 #: src/mainwindow.ui:36
 msgctxt "MainWindow|"
 msgid "Copy source text to the clipboard"
@@ -295,11 +296,63 @@ msgctxt "MainWindow|"
 msgid "Application settings"
 msgstr "Налады праграмы"
 
+#: src/mainwindow.cpp:867
+msgctxt "TrayIcon|"
+msgid "Invalid tray icon"
+msgstr "Хібны значок прасторы апавяшчэнняў"
+
+#: src/mainwindow.cpp:867
+#, qt-format
+msgctxt "TrayIcon|"
+msgid "The specified icon '%1' is invalid. The default icon will be used."
+msgstr "Пазначаны значок \"%1\" хібны. Будзе выкарыстоўвацца хібны значок."
+
+#: src/trayicon.cpp:19 src/trayicon.cpp:44
+msgctxt "TrayIcon|"
+msgid "Show window"
+msgstr "Паказаць акно"
+
+#: src/trayicon.cpp:20 src/trayicon.cpp:45
+msgctxt "TrayIcon|"
+msgid "Settings"
+msgstr "Налады"
+
+#: src/trayicon.cpp:21 src/trayicon.cpp:46
+msgctxt "TrayIcon|"
+msgid "Quit"
+msgstr "Выхад"
+
+#: src/trayicon.cpp:51
+msgctxt "TrayIcon|"
+msgid "Translation result"
+msgstr "Вынік перакладу"
+
+#: src/mainwindow.cpp:896
+msgctxt "Ocr|"
+msgid "Unable to set OCR languages"
+msgstr "Не ўдалося вызначыць мовы OCR"
+
+#: src/mainwindow.cpp:896
+#, qt-format
+msgctxt "Ocr|"
+msgid "Unable to initialize Tesseract with %1"
+msgstr "Немагчыма ініцыялізаваць Tesseract з %1"
+
 #: src/ocr/ocr.cpp:136
 #, qt-format
 msgctxt "Ocr|"
 msgid "%1 is not a valid Tesseract parameter name."
 msgstr "%1 - няправільная назва параметра Tesseract."
+
+#: src/transitions/ocruninitializedtransition.cpp:28
+msgctxt "Ocr|"
+msgid "OCR languages are not loaded"
+msgstr "Мовы OCR не загружаныя"
+
+#: src/transitions/ocruninitializedtransition.cpp:28
+msgctxt "Ocr|"
+msgid "You should set at least one OCR language in the application settings"
+msgstr "Неабходна ўсталяваць прынамсі адну мову OCR у наладах праграмы"
 
 #: src/ocr/screengrabbers/abstractscreengrabber.cpp:46
 msgctxt "AbstractScreenGrabber|"
@@ -357,9 +410,11 @@ msgstr "Атрымана хібная выява экрана %1."
 
 #: src/ocr/snippingarea.cpp:626
 msgctxt "SnippingArea|"
-msgid "Click and drag to draw a selection rectangle,\n"
+msgid ""
+"Click and drag to draw a selection rectangle,\n"
 "or press Esc to quit"
-msgstr "Націсніце і пацягніце, каб намаляваць прамавугольнік выбару,\n"
+msgstr ""
+"Націсніце і пацягніце, каб намаляваць прамавугольнік выбару,\n"
 "або націсніце \"Esc\", каб выйсці"
 
 #: src/ocr/snippingarea.cpp:832
@@ -1724,8 +1779,14 @@ msgstr "Арыентацыя галоўнага акна:"
 
 #: src/settings/settingsdialog.ui:168
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Orientation of the main window layout<br/>When using <span style=\" font-style:italic;\">Auto</span>, the window orientation will match the screen orientation</p></body></html>"
-msgstr "<html><head/><body><p>Арыентацыя макета галоўнага акна<br/>Калі выкарыстоўваецца <span style=\" font-style:italic;\">Аўтаматычна</span>, арыентацыя акна будзе адпавядаць арыентацыя экрана</p></body></html>"
+msgid ""
+"<html><head/><body><p>Orientation of the main window layout<br/>When using "
+"<span style=\" font-style:italic;\">Auto</span>, the window orientation will "
+"match the screen orientation</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Арыентацыя макета галоўнага акна<br/>Калі "
+"выкарыстоўваецца <span style=\" font-style:italic;\">Аўтаматычна</span>, "
+"арыентацыя акна будзе адпавядаць арыентацыя экрана</p></body></html>"
 
 #. Orientation
 #: src/settings/settingsdialog.ui:172
@@ -1752,8 +1813,13 @@ msgstr "Рэжым перакладу:"
 
 #: src/settings/settingsdialog.ui:197
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>A window for translating selected text. If the application is minimized, the main window will always be used.</p></body></html>"
-msgstr "<html><head/><body><p>Акно для перакладу абранага тэксту. Калі праграма згорнутая, заўсёды будзе выкарыстоўвацца галоўнае акно.</p></body></html>"
+msgid ""
+"<html><head/><body><p>A window for translating selected text. If the "
+"application is minimized, the main window will always be "
+"used.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Акно для перакладу абранага тэксту. Калі праграма "
+"згорнутая, заўсёды будзе выкарыстоўвацца галоўнае акно.</p></body></html>"
 
 #: src/settings/settingsdialog.ui:201 src/settings/settingsdialog.ui:350
 msgctxt "SettingsDialog|"
@@ -1777,8 +1843,11 @@ msgstr "Час чакання апавяшчэння перакладу:"
 
 #: src/settings/settingsdialog.ui:232
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Notification with translation display time</p></body></html>"
-msgstr "<html><head/><body><p>Апавяшчэнне з часам паказу перакладу</p></body></html>"
+msgid ""
+"<html><head/><body><p>Notification with translation display "
+"time</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Апавяшчэнне з часам паказу перакладу</p></body></html>"
 
 #: src/settings/settingsdialog.ui:235 src/settings/settingsdialog.ui:440
 msgctxt "SettingsDialog|"
@@ -1788,7 +1857,8 @@ msgstr " сек"
 #: src/settings/settingsdialog.ui:248
 msgctxt "SettingsDialog|"
 msgid "<html><head/><body><p>Display icon in the system tray</p></body></html>"
-msgstr "<html><head/><body><p>Паказ значка на прасторы апавяшчэнняў</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Паказ значка на прасторы апавяшчэнняў</p></body></html>"
 
 #: src/settings/settingsdialog.ui:251
 msgctxt "SettingsDialog|"
@@ -1797,8 +1867,12 @@ msgstr "Паказваць значок на прасторы апавяшчэн
 
 #: src/settings/settingsdialog.ui:261
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Start application minimized to the system tray</p></body></html>"
-msgstr "<html><head/><body><p>Запуск праграмы ў згорнутым стане на прасторы апавяшчэнняў</p></body></html>"
+msgid ""
+"<html><head/><body><p>Start application minimized to the system "
+"tray</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Запуск праграмы ў згорнутым стане на прасторы "
+"апавяшчэнняў</p></body></html>"
 
 #: src/settings/settingsdialog.ui:264
 msgctxt "SettingsDialog|"
@@ -1807,8 +1881,11 @@ msgstr "Запуск у згорнутым стане"
 
 #: src/settings/settingsdialog.ui:271
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Run the application at system startup</p></body></html>"
-msgstr "<html><head/><body><p>Запуск праграмы падчас запуску сістэмы</p></body></html>"
+msgid ""
+"<html><head/><body><p>Run the application at system startup</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Запуск праграмы падчас запуску "
+"сістэмы</p></body></html>"
 
 #: src/settings/settingsdialog.ui:274
 msgctxt "SettingsDialog|"
@@ -1827,8 +1904,10 @@ msgstr "Назва:"
 
 #: src/settings/settingsdialog.ui:320
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Translation and source text font</p></body></html>"
-msgstr "<html><head/><body><p>Шрыфт перакладу і зыходнага тэксту</p></body></html>"
+msgid ""
+"<html><head/><body><p>Translation and source text font</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Шрыфт перакладу і зыходнага тэксту</p></body></html>"
 
 #: src/settings/settingsdialog.ui:327
 msgctxt "SettingsDialog|"
@@ -1837,13 +1916,18 @@ msgstr "Памер:"
 
 #: src/settings/settingsdialog.ui:334
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Font size of translation and source text</p></body></html>"
-msgstr "<html><head/><body><p>Памер шрыфту перакладу і зыходнага тэксту</p></body></html>"
+msgid ""
+"<html><head/><body><p>Font size of translation and source "
+"text</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Памер шрыфту перакладу і зыходнага "
+"тэксту</p></body></html>"
 
 #: src/settings/settingsdialog.ui:356
 msgctxt "SettingsDialog|"
 msgid "<html><head/><body><p>Pop-up window height in pixels</p></body></html>"
-msgstr "<html><head/><body><p>Вышыня выплыўнога акна ў пікселях</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Вышыня выплыўнога акна ў пікселях</p></body></html>"
 
 #: src/settings/settingsdialog.ui:366
 msgctxt "SettingsDialog|"
@@ -1853,12 +1937,14 @@ msgstr "Шырыня:"
 #: src/settings/settingsdialog.ui:373
 msgctxt "SettingsDialog|"
 msgid "<html><head/><body><p>Pop-up window width in pixels</p></body></html>"
-msgstr "<html><head/><body><p>Шырыня выплыўнога акна ў пікселях</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Шырыня выплыўнога акна ў пікселях</p></body></html>"
 
 #: src/settings/settingsdialog.ui:383
 msgctxt "SettingsDialog|"
 msgid "<html><head/><body><p>Pop-up window opacity</p></body></html>"
-msgstr "<html><head/><body><p>Не празрыстасць выплыўнога акна</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Не празрыстасць выплыўнога акна</p></body></html>"
 
 #: src/settings/settingsdialog.ui:410
 msgctxt "SettingsDialog|"
@@ -1877,8 +1963,12 @@ msgstr "Вышыня:"
 
 #: src/settings/settingsdialog.ui:437
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>The number of seconds after which the window will be hidden if it has no focus</p></body></html>"
-msgstr "<html><head/><body><p>Колькасць секунд, пасля якіх акно будзе схавана, калі яно не будзе ў фокусе</p></body></html>"
+msgid ""
+"<html><head/><body><p>The number of seconds after which the window will be "
+"hidden if it has no focus</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Колькасць секунд, пасля якіх акно будзе схавана, калі "
+"яно не будзе ў фокусе</p></body></html>"
 
 #: src/settings/settingsdialog.ui:460
 msgctxt "SettingsDialog|"
@@ -1923,7 +2013,8 @@ msgstr "Значок:"
 #: src/settings/settingsdialog.ui:536
 msgctxt "SettingsDialog|"
 msgid "<html><head/><body><p>System tray icon</p></body></html>"
-msgstr "<html><head/><body><p>Значок на прасторы апавяшчэнняў</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Значок на прасторы апавяшчэнняў</p></body></html>"
 
 #: src/settings/settingsdialog.ui:540
 msgctxt "SettingsDialog|"
@@ -1962,8 +2053,12 @@ msgstr "<html><head/><body><p>Абраць значок</p></body></html>"
 
 #: src/settings/settingsdialog.ui:648
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Enable or disable source transliteration</p></body></html>"
-msgstr "<html><head/><body><p>Уключэнне або адключэнне транслітарацыі зыходнага тэксту</p></body></html>"
+msgid ""
+"<html><head/><body><p>Enable or disable source "
+"transliteration</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Уключэнне або адключэнне транслітарацыі зыходнага "
+"тэксту</p></body></html>"
 
 #: src/settings/settingsdialog.ui:651
 msgctxt "SettingsDialog|"
@@ -1972,8 +2067,12 @@ msgstr "Уключыць транслітарацыю зыходнага тэк�
 
 #: src/settings/settingsdialog.ui:658
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Enable or disable translation transliteration</p></body></html>"
-msgstr "<html><head/><body><p>Уключэнне або адключэнне транслітарацыі перакладу</p></body></html>"
+msgid ""
+"<html><head/><body><p>Enable or disable translation "
+"transliteration</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Уключэнне або адключэнне транслітарацыі "
+"перакладу</p></body></html>"
 
 #: src/settings/settingsdialog.ui:661
 msgctxt "SettingsDialog|"
@@ -1982,8 +2081,12 @@ msgstr "Уключыць транслітарацыю перакладу"
 
 #: src/settings/settingsdialog.ui:668
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Enable or disable source transcription</p></body></html>"
-msgstr "<html><head/><body><p>Уключэнне або адключэнне транскрыпцыі зыходнага тэксту</p></body></html>"
+msgid ""
+"<html><head/><body><p>Enable or disable source "
+"transcription</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Уключэнне або адключэнне транскрыпцыі зыходнага "
+"тэксту</p></body></html>"
 
 #: src/settings/settingsdialog.ui:671
 msgctxt "SettingsDialog|"
@@ -1992,8 +2095,11 @@ msgstr "Уключыць транскрыпцыю зыходнага тэкст�
 
 #: src/settings/settingsdialog.ui:678
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Enable or disable translation options</p></body></html>"
-msgstr "<html><head/><body><p>Уключэнне або адключэнне параметраў перакладу</p></body></html>"
+msgid ""
+"<html><head/><body><p>Enable or disable translation options</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Уключэнне або адключэнне параметраў "
+"перакладу</p></body></html>"
 
 #: src/settings/settingsdialog.ui:681
 msgctxt "SettingsDialog|"
@@ -2002,8 +2108,10 @@ msgstr "Уключыць параметры перакладу"
 
 #: src/settings/settingsdialog.ui:688
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Enable or disable usage examples</p></body></html>"
-msgstr "<html><head/><body><p>Уключэнне або адключэнне прыкладаў</p></body></html>"
+msgid ""
+"<html><head/><body><p>Enable or disable usage examples</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Уключэнне або адключэнне прыкладаў</p></body></html>"
 
 #: src/settings/settingsdialog.ui:691
 msgctxt "SettingsDialog|"
@@ -2012,8 +2120,14 @@ msgstr "Уключыць прыклады"
 
 #: src/settings/settingsdialog.ui:698
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Replace each sequence of whitespaces (this includes the ASCII characters '\\t', '\\n', '\\v', '\\f', '\\r', and ' ') with a single space in queries</p></body></html>"
-msgstr "<html><head/><body><p>Замяніць кожную паслядоўнасць прагалаў (гэта ўключае сімвалы ASCII '\\t', '\\n', '\\v', '\\f', '\\r' і ' ') адным прагалам</p></body></html>"
+msgid ""
+"<html><head/><body><p>Replace each sequence of whitespaces (this includes "
+"the ASCII characters '\\t', '\\n', '\\v', '\\f', '\\r', and ' ') with a "
+"single space in queries</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Замяніць кожную паслядоўнасць прагалаў (гэта ўключае "
+"сімвалы ASCII '\\t', '\\n', '\\v', '\\f', '\\r' і ' ') адным "
+"прагалам</p></body></html>"
 
 #: src/settings/settingsdialog.ui:701
 msgctxt "SettingsDialog|"
@@ -2032,8 +2146,12 @@ msgstr "Першасная мова перакладу:"
 
 #: src/settings/settingsdialog.ui:724
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Language to which text will be translated when autodetecting</p></body></html>"
-msgstr "<html><head/><body><p>Мова, на якую будзе перакладзены тэкст пры аўтавызначэнні</p></body></html>"
+msgid ""
+"<html><head/><body><p>Language to which text will be translated when "
+"autodetecting</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Мова, на якую будзе перакладзены тэкст пры "
+"аўтавызначэнні</p></body></html>"
 
 #: src/settings/settingsdialog.ui:731
 msgctxt "SettingsDialog|"
@@ -2042,13 +2160,23 @@ msgstr "Другасная мова перакладу:"
 
 #: src/settings/settingsdialog.ui:738
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Language to which the text will be translated if it is in the language selected above</p></body></html>"
-msgstr "<html><head/><body><p>Мова, на якую будзе перакладзены тэкст, калі ён на мове, абранай вышэй</p></body></html>"
+msgid ""
+"<html><head/><body><p>Language to which the text will be translated if it is "
+"in the language selected above</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Мова, на якую будзе перакладзены тэкст, калі ён на "
+"мове, абранай вышэй</p></body></html>"
 
 #: src/settings/settingsdialog.ui:745 src/settings/settingsdialog.ui:755
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Automatically switch to <span style=\" font-style:italic;\">Auto</span> when using OCR and global shortcuts</p></body></html>"
-msgstr "<html><head/><body><p>Аўтаматычнае пераключэнне на <span style=\" font-style:italic;\">Аўтаматычна</span> пры выкарыстанні OCR і глабальных спалучэнняў клавіш</p></body></html>"
+msgid ""
+"<html><head/><body><p>Automatically switch to <span style=\" "
+"font-style:italic;\">Auto</span> when using OCR and global "
+"shortcuts</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Аўтаматычнае пераключэнне на <span style=\" "
+"font-style:italic;\">Аўтаматычна</span> пры выкарыстанні OCR і глабальных "
+"спалучэнняў клавіш</p></body></html>"
 
 #: src/settings/settingsdialog.ui:748
 msgctxt "SettingsDialog|"
@@ -2062,8 +2190,14 @@ msgstr "Прымусовае вызначэнне мовы перакладу"
 
 #: src/settings/settingsdialog.ui:787
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Lingva engine URL</p><p>All instances can be found here: https://github.com/TheDavidDelta/lingva-translate#instances</p></body></html>"
-msgstr "<html><head/><body><p>URL-адрас рухавіка Lingva</p><p>Усе асобнікі можна знайсці тут: https://github.com/TheDavidDelta/lingva-translate#instances</p></body></html>"
+msgid ""
+"<html><head/><body><p>Lingva engine URL</p><p>All instances can be found "
+"here: "
+"https://github.com/TheDavidDelta/lingva-translate#instances</p></body></html>"
+msgstr ""
+"<html><head/><body><p>URL-адрас рухавіка Lingva</p><p>Усе асобнікі можна "
+"знайсці тут: "
+"https://github.com/TheDavidDelta/lingva-translate#instances</p></body></html>"
 
 #: src/settings/settingsdialog.ui:826
 msgctxt "SettingsDialog|"
@@ -2072,8 +2206,16 @@ msgstr "Мовы"
 
 #: src/settings/settingsdialog.ui:832
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Loading additional languages will impact both speed and accuracy, as there is more work to do to decide on the applicable language, and there is more chance of hallucinating incorrect words.</p></body></html>"
-msgstr "<html><head/><body><p>Загрузка дадатковых моў паўплывае як на хуткасць, так і на дакладнасць, бо трэба зрабіць больш працы, каб вызначыць прыдатную мову. Таксама павялічваецца магчымасць няправільнага распазнавання слоў.</p ></body></html>"
+msgid ""
+"<html><head/><body><p>Loading additional languages will impact both speed "
+"and accuracy, as there is more work to do to decide on the applicable "
+"language, and there is more chance of hallucinating incorrect "
+"words.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Загрузка дадатковых моў паўплывае як на хуткасць, так "
+"і на дакладнасць, бо трэба зрабіць больш працы, каб вызначыць прыдатную "
+"мову. Таксама павялічваецца магчымасць няправільнага распазнавання слоў.</p "
+"></body></html>"
 
 #: src/settings/settingsdialog.ui:839
 msgctxt "SettingsDialog|"
@@ -2092,8 +2234,16 @@ msgstr "<html><head/><body><p>Адкрыць рэпазіторый GitHub</p></
 
 #: src/settings/settingsdialog.ui:860
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p><a href=\"https://github.com/tesseract-ocr/tessdata\"><span style=\" text-decoration: underline; color:#2980b9;\">Download more</span></a></p></body></html>"
-msgstr "<html><head/><body><p><a href=\"https://github.com/tesseract-ocr/tessdata\"><span style=\" text-decoration: underline; color:#2980b9;\">Спампаваць яшчэ</span></a></p></body></html>"
+msgid ""
+"<html><head/><body><p><a "
+"href=\"https://github.com/tesseract-ocr/tessdata\"><span style=\" "
+"text-decoration: underline; color:#2980b9;\">Download "
+"more</span></a></p></body></html>"
+msgstr ""
+"<html><head/><body><p><a "
+"href=\"https://github.com/tesseract-ocr/tessdata\"><span style=\" "
+"text-decoration: underline; color:#2980b9;\">Спампаваць "
+"яшчэ</span></a></p></body></html>"
 
 #: src/settings/settingsdialog.ui:870
 msgctxt "SettingsDialog|"
@@ -2102,8 +2252,12 @@ msgstr "Каталог з навучанымі мадэлямі"
 
 #: src/settings/settingsdialog.ui:886
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Replace all single line breaks with a space after text recognition</p></body></html>"
-msgstr "<html><head/><body><p>Замяніць усе разрывы радкоў прагалам пасля распазнавання тэксту</p></body></html>"
+msgid ""
+"<html><head/><body><p>Replace all single line breaks with a space after text "
+"recognition</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Замяніць усе разрывы радкоў прагалам пасля "
+"распазнавання тэксту</p></body></html>"
 
 #: src/settings/settingsdialog.ui:889
 msgctxt "SettingsDialog|"
@@ -2122,8 +2276,12 @@ msgstr "Запамінанне вобласці:"
 
 #: src/settings/settingsdialog.ui:974
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>When to remember the last selected region</p></body></html>"
-msgstr "<html><head/><body><p>Калі запамінаць апошнюю абраную вобласць</p></body></html>"
+msgid ""
+"<html><head/><body><p>When to remember the last selected "
+"region</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Калі запамінаць апошнюю абраную "
+"вобласць</p></body></html>"
 
 #: src/settings/settingsdialog.ui:978
 msgctxt "SettingsDialog|"
@@ -2157,8 +2315,10 @@ msgstr " мс"
 
 #: src/settings/settingsdialog.ui:1016
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Show a magnifier next to the cursor</p></body></html>"
-msgstr "<html><head/><body><p>Паказваць лупу побач з курсорам</p></body></html>"
+msgid ""
+"<html><head/><body><p>Show a magnifier next to the cursor</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Паказваць лупу побач з курсорам</p></body></html>"
 
 #: src/settings/settingsdialog.ui:1019
 msgctxt "SettingsDialog|"
@@ -2167,8 +2327,12 @@ msgstr "Паказ лупы"
 
 #: src/settings/settingsdialog.ui:1029
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Finish capturing the fragment when the mouse button is released</p></body></html>"
-msgstr "<html><head/><body><p>Завяршыць захопліванне фрагмента, калі адпушчана кнопку мышы</p></body></html>"
+msgid ""
+"<html><head/><body><p>Finish capturing the fragment when the mouse button is "
+"released</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Завяршыць захопліванне фрагмента, калі адпушчана "
+"кнопку мышы</p></body></html>"
 
 #: src/settings/settingsdialog.ui:1032
 msgctxt "SettingsDialog|"
@@ -2177,8 +2341,11 @@ msgstr "Пацвярджэнне пры адпусканні кнопкі"
 
 #: src/settings/settingsdialog.ui:1039
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Apply a slight fog to the unselected part</p></body></html>"
-msgstr "<html><head/><body><p>Затуманьваць частку, якая не абраная</p></body></html>"
+msgid ""
+"<html><head/><body><p>Apply a slight fog to the unselected "
+"part</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Затуманьваць частку, якая не абраная</p></body></html>"
 
 #: src/settings/settingsdialog.ui:1042
 msgctxt "SettingsDialog|"
@@ -2237,8 +2404,11 @@ msgstr "Інфармацыя: проксі працуе толькі для пе
 
 #: src/settings/settingsdialog.ui:1192
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Enable or disable authentication</p></body></html>"
-msgstr "<html><head/><body><p>Уключэнне або адключэнне аўтэнтыфікацыі</p></body></html>"
+msgid ""
+"<html><head/><body><p>Enable or disable authentication</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Уключэнне або адключэнне "
+"аўтэнтыфікацыі</p></body></html>"
 
 #: src/settings/settingsdialog.ui:1195
 msgctxt "SettingsDialog|"
@@ -2252,8 +2422,11 @@ msgstr "Імя карыстальніка:"
 
 #: src/settings/settingsdialog.ui:1215
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Proxy username for authentication</p></body></html>"
-msgstr "<html><head/><body><p>Імя карыстальніка проксі для аўтэнтыфікацыі</p></body></html>"
+msgid ""
+"<html><head/><body><p>Proxy username for authentication</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Імя карыстальніка проксі для "
+"аўтэнтыфікацыі</p></body></html>"
 
 #: src/settings/settingsdialog.ui:1225
 msgctxt "SettingsDialog|"
@@ -2262,8 +2435,10 @@ msgstr "Пароль:"
 
 #: src/settings/settingsdialog.ui:1235
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Proxy password for authentication</p></body></html>"
-msgstr "<html><head/><body><p>Пароль проксі для аўтэнтыфікацыі</p></body></html>"
+msgid ""
+"<html><head/><body><p>Proxy password for authentication</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Пароль проксі для аўтэнтыфікацыі</p></body></html>"
 
 #: src/settings/settingsdialog.ui:1248
 msgctxt "SettingsDialog|"
@@ -2272,8 +2447,11 @@ msgstr "Інфармацыя: пароль захоўваецца незашыф
 
 #: src/settings/settingsdialog.ui:1284
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>Register global shortcuts in system</p></body></html>"
-msgstr "<html><head/><body><p>Рэгістраваць глабальныя спалучэнні клавіш у сістэме</p></body></html>"
+msgid ""
+"<html><head/><body><p>Register global shortcuts in system</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Рэгістраваць глабальныя спалучэнні клавіш у "
+"сістэме</p></body></html>"
 
 #: src/settings/settingsdialog.ui:1287
 msgctxt "SettingsDialog|"
@@ -2283,7 +2461,9 @@ msgstr "Уключыць глабальныя спалучэнні клавіш"
 #: src/settings/settingsdialog.ui:1303
 msgctxt "SettingsDialog|"
 msgid "<html><head/><body><p>Reset all shortcuts to defaults</p></body></html>"
-msgstr "<html><head/><body><p>Скінуць усе спалучэнні клавіш да прадвызначаных значэнняў</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Скінуць усе спалучэнні клавіш да прадвызначаных "
+"значэнняў</p></body></html>"
 
 #: src/settings/settingsdialog.ui:1306
 msgctxt "SettingsDialog|"
@@ -2302,8 +2482,12 @@ msgstr "Паслядоўнасць клавіш:"
 
 #: src/settings/settingsdialog.ui:1329
 msgctxt "SettingsDialog|"
-msgid "<html><head/><body><p>The key sequence for the selected action</p></body></html>"
-msgstr "<html><head/><body><p>Паслядоўнасць клавіш для абранага дзеяння</p></body></html>"
+msgid ""
+"<html><head/><body><p>The key sequence for the selected "
+"action</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Паслядоўнасць клавіш для абранага "
+"дзеяння</p></body></html>"
 
 #: src/settings/settingsdialog.ui:1336
 msgctxt "SettingsDialog|"
@@ -2328,7 +2512,9 @@ msgstr "Ачысціць"
 #: src/settings/settingsdialog.ui:1364
 msgctxt "SettingsDialog|"
 msgid "<html><head/><body><p>Reset shortcut to default</p></body></html>"
-msgstr "<html><head/><body><p>Скінуць спалучэнне клавіш да прадвызначанага значэння</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Скінуць спалучэнне клавіш да прадвызначанага "
+"значэння</p></body></html>"
 
 #: src/settings/settingsdialog.ui:1367
 msgctxt "SettingsDialog|"
@@ -2501,16 +2687,6 @@ msgctxt "SpeakButtons|"
 msgid "Stop text speaking"
 msgstr "Спыніць вымаўленне тэксту"
 
-#: src/transitions/ocruninitializedtransition.cpp:28
-msgctxt "Ocr|"
-msgid "OCR languages are not loaded"
-msgstr "Мовы OCR не загружаныя"
-
-#: src/transitions/ocruninitializedtransition.cpp:28
-msgctxt "Ocr|"
-msgid "You should set at least one OCR language in the application settings"
-msgstr "Неабходна ўсталяваць прынамсі адну мову OCR у наладах праграмы"
-
 #: src/translationedit.cpp:62
 msgctxt "TranslationEdit|"
 msgid "translation options:"
@@ -2520,24 +2696,3 @@ msgstr "параметры перакладу:"
 msgctxt "TranslationEdit|"
 msgid "examples:"
 msgstr "прыклады:"
-
-#: src/trayicon.cpp:19 src/trayicon.cpp:44
-msgctxt "TrayIcon|"
-msgid "Show window"
-msgstr "Паказаць акно"
-
-#: src/trayicon.cpp:20 src/trayicon.cpp:45
-msgctxt "TrayIcon|"
-msgid "Settings"
-msgstr "Налады"
-
-#: src/trayicon.cpp:21 src/trayicon.cpp:46
-msgctxt "TrayIcon|"
-msgid "Quit"
-msgstr "Выхад"
-
-#: src/trayicon.cpp:51
-msgctxt "TrayIcon|"
-msgid "Translation result"
-msgstr "Вынік перакладу"
-
