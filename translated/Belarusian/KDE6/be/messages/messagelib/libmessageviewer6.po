@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-04 00:39+0000\n"
-"PO-Revision-Date: 2024-07-06 23:47\n"
+"POT-Creation-Date: 2024-08-01 00:41+0000\n"
+"PO-Revision-Date: 2024-08-11 21:04\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -458,17 +458,15 @@ msgid "No rules found"
 msgstr ""
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:79
+#: dkim-verify/dkimmanagerulesdialog.cpp:82
 #| msgid "Key Export Failed"
 msgctxt "@title:window"
 msgid "Export Rules"
 msgstr "Экспартаваць правілы"
 
-#: dkim-verify/dkimmanagerulesdialog.cpp:82
-#| msgid "Key Export Failed"
-msgid "Export Rules"
-msgstr "Экспартаваць правілы"
-
 #: dkim-verify/dkimmanagerulesdialog.cpp:90
+#: dkim-verify/dkimmanagerulesdialog.cpp:93
+msgctxt "@title:window"
 msgid "Import Rules"
 msgstr "Імпартаваць правілы"
 
@@ -476,11 +474,6 @@ msgstr "Імпартаваць правілы"
 #| msgid "No signature found"
 msgid "No rules imported."
 msgstr ""
-
-#: dkim-verify/dkimmanagerulesdialog.cpp:93
-msgctxt "@title:window"
-msgid "Import Rules"
-msgstr "Імпартаваць правілы"
 
 #: dkim-verify/dkimmanageruleswidget.cpp:73
 #: remote-content/remotecontentconfigurewidget.cpp:52
@@ -570,6 +563,7 @@ msgid "Modify Rule"
 msgstr ""
 
 #: dkim-verify/dkimrulewidget.cpp:18
+msgctxt "@option:check"
 msgid "Enabled"
 msgstr "Уключана"
 
@@ -1640,6 +1634,7 @@ msgstr ""
 
 #: utils/messageviewerutil.cpp:182
 #| msgid "Save Attachment As"
+msgctxt "@title:window"
 msgid "Save Attachment"
 msgstr ""
 
@@ -2240,19 +2235,14 @@ msgstr "Захаваць усе далучэнні..."
 msgid "The network is broken."
 msgstr ""
 
-#: viewer/viewer_p.cpp:1994
+#: viewer/viewer_p.cpp:1994 viewer/viewer_p.cpp:1997
 #, kde-format
+msgctxt "@title:window"
 msgid "Check Phishing URL"
 msgstr ""
 
 #: viewer/viewer_p.cpp:1997
 msgid "The URL %1 is not valid."
-msgstr ""
-
-#: viewer/viewer_p.cpp:1997
-#, kde-format
-msgctxt "@title:window"
-msgid "Check Phishing URL"
 msgstr ""
 
 #: viewer/viewer_p.cpp:2017
@@ -2354,7 +2344,7 @@ msgstr ""
 msgid "Click to toggle between HTML, plain text and calendar."
 msgstr ""
 
-#: widgets/invitationsettings.cpp:86
+#: widgets/invitationsettings.cpp:70
 msgid "<qt>Invitations are normally sent as attachments to a mail. This switch changes the invitation mails to be sent in the text of the mail instead; this is necessary to send invitations and replies to Microsoft Outlook.<br />But, when you do this, you no longer get descriptive text that mail programs can read; so, to people who have email programs that do not understand the invitations, the resulting messages look very odd.<br />People that have email programs that do understand invitations will still be able to work with this.</qt>"
 msgstr ""
 
@@ -2387,7 +2377,7 @@ msgstr ""
 
 #: widgets/opensavedfilefolderwidget.cpp:26
 #, kde-format
-msgctxt "@action"
+msgctxt "@action - For we don't know if it's one or many attachments"
 msgid "Open folder where attachment was saved"
 msgstr ""
 
@@ -2399,6 +2389,7 @@ msgstr "Адкрыць файл"
 
 #: widgets/opensavedfilefolderwidget.cpp:62
 #, kde-format
+msgctxt "@action"
 msgid "Open folder where attachment was saved"
 msgid_plural "Open folder where attachments were saved"
 msgstr[0] ""
@@ -2408,6 +2399,7 @@ msgstr[3] ""
 
 #: widgets/opensavedfilefolderwidget.cpp:65
 #, kde-format
+msgctxt "@action"
 msgid "Open folder where PDF file was saved"
 msgstr ""
 
@@ -2427,6 +2419,15 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Previous Message"
 msgstr "Папярэдняе паведамленне"
+
+#, fuzzy
+#~| msgid "Key Export Failed"
+#~ msgid "Export Rules"
+#~ msgstr "Немагчыма экспартаваць ключ"
+
+#, fuzzy
+#~ msgid "Import Rules"
+#~ msgstr "Немагчыма імпартаваць vCard"
 
 #, fuzzy
 #~ msgid "The most recent selected folder using for Todo."

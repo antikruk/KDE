@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-01 00:40+0000\n"
-"PO-Revision-Date: 2024-04-05 19:37\n"
+"POT-Creation-Date: 2024-07-30 00:44+0000\n"
+"PO-Revision-Date: 2024-08-11 21:03\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -29,7 +29,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "komzpa@licei2.com, nashtlumach@gmail.com"
 
-#: altnwidget.cpp:25 altnwidget.cpp:34 regexpbuttons.cpp:84
+#: altnwidget.cpp:25 altnwidget.cpp:34 regexpbuttons.cpp:82
 #, kde-format
 msgid "Alternatives"
 msgstr "Варыянты"
@@ -96,7 +96,8 @@ msgid "Specify Characters"
 msgstr "Вызначаныя знакі"
 
 #: characterswidget.cpp:275
-#, kde-format
+#| msgid "Do not match the characters specified here"
+msgctxt "@option:check"
 msgid "Do not match the characters specified here"
 msgstr "Акрамя знакаў"
 
@@ -106,32 +107,38 @@ msgid "Predefined Character Ranges"
 msgstr "Групы знакаў"
 
 #: characterswidget.cpp:283
-#, kde-format
+#| msgid "A word character"
+msgctxt "@option:check"
 msgid "A word character"
 msgstr "Літара"
 
 #: characterswidget.cpp:285
-#, kde-format
+#| msgid "A digit character"
+msgctxt "@option:check"
 msgid "A digit character"
 msgstr "Лічба"
 
 #: characterswidget.cpp:287
-#, kde-format
+#| msgid "A space character"
+msgctxt "@option:check"
 msgid "A space character"
 msgstr "Пусты падзельнік"
 
 #: characterswidget.cpp:290
-#, kde-format
+#| msgid "A non-word character"
+msgctxt "@option:check"
 msgid "A non-word character"
 msgstr "Не літара"
 
 #: characterswidget.cpp:292
-#, kde-format
+#| msgid "A non-digit character"
+msgctxt "@option:check"
 msgid "A non-digit character"
 msgstr "Не лічба"
 
 #: characterswidget.cpp:294
-#, kde-format
+#| msgid "A non-space character"
+msgctxt "@option:check"
 msgid "A non-space character"
 msgstr "Не падзельнік"
 
@@ -217,6 +224,7 @@ msgid "&Description:"
 msgstr "&Апісанне:"
 
 #: compoundwidget.cpp:47
+msgctxt "@option:check"
 msgid "&Automatically replace using this item"
 msgstr ""
 
@@ -322,31 +330,31 @@ msgstr "Дадаць"
 msgid "Widget Configuration"
 msgstr ""
 
-#: kregexpeditorprivate.cpp:48
+#: kregexpeditorprivate.cpp:47
 msgid "Compound regular expression:"
 msgstr ""
 
-#: kregexpeditorprivate.cpp:50
+#: kregexpeditorprivate.cpp:49
 msgid "In this window you will find predefined regular expressions. Both regular expressions you have developed and saved, and regular expressions shipped with the system."
 msgstr ""
 
-#: kregexpeditorprivate.cpp:60
+#: kregexpeditorprivate.cpp:59
 msgid "In this window you will develop your regular expressions. Select one of the actions from the action buttons above, and click the mouse in this window to insert the given action."
 msgstr ""
 
-#: kregexpeditorprivate.cpp:69
+#: kregexpeditorprivate.cpp:68
 msgid "<p>Type in some text in this window, and see what the regular expression you have developed matches.</p><p>Each second match will be colored in red and each other match will be colored blue, simply so you can distinguish them from each other.</p><p>If you select part of the regular expression in the editor window, then this part will be highlighted - This allows you to <i>debug</i> your regular expressions</p>"
 msgstr ""
 
-#: kregexpeditorprivate.cpp:110
+#: kregexpeditorprivate.cpp:109
 msgid "ASCII syntax:"
 msgstr ""
 
-#: kregexpeditorprivate.cpp:124
+#: kregexpeditorprivate.cpp:123
 msgid "<p>This is the regular expression in ASCII syntax. You are likely only to be interested in this if you are a programmer, and need to develop a regular expression using QRegExp.</p><p>You may develop your regular expression both by using the graphical editor, and by typing the regular expression in this line edit.</p>"
 msgstr ""
 
-#: kregexpeditorprivate.cpp:348
+#: kregexpeditorprivate.cpp:347
 msgid "Could not open file '%1' for reading"
 msgstr ""
 
@@ -468,103 +476,103 @@ msgstr ""
 msgid "Back reference regular expressions not supported"
 msgstr ""
 
-#: regexpbuttons.cpp:38
+#: regexpbuttons.cpp:36
 msgid "Selection tool"
 msgstr ""
 
-#: regexpbuttons.cpp:40
+#: regexpbuttons.cpp:38
 msgid "<p>This will change the state of the editor to <i>selection state</i>.</p><p>In this state you will not be inserting <i>regexp items</i>, but instead select them. To select a number of items, press down the left mouse button and drag it over the items.</p><p>When you have selected a number of items, you may use cut/copy/paste. These functions are found in the right mouse button menu.</p>"
 msgstr ""
 
-#: regexpbuttons.cpp:51
+#: regexpbuttons.cpp:49
 msgid "Text"
 msgstr "Тэкст"
 
-#: regexpbuttons.cpp:52
+#: regexpbuttons.cpp:50
 msgid "<qt>This will insert a text field, where you may write text. The text you write will be matched literally. (i.e. you do not need to escape any characters)</qt>"
 msgstr ""
 
-#: regexpbuttons.cpp:58
+#: regexpbuttons.cpp:56
 msgid "A single character specified in a range"
 msgstr ""
 
-#: regexpbuttons.cpp:59
+#: regexpbuttons.cpp:57
 msgid "<p>This will match a single character from a predefined range.</p><p>When you insert this widget a dialog box will appear, which lets you specify which characters this <i>regexp item</i> will match.</p>"
 msgstr ""
 
-#: regexpbuttons.cpp:64
+#: regexpbuttons.cpp:62
 msgid "Any character"
 msgstr ""
 
-#: regexpbuttons.cpp:64
+#: regexpbuttons.cpp:62
 msgid "<qt>This will match any single character</qt>"
 msgstr ""
 
-#: regexpbuttons.cpp:69
+#: regexpbuttons.cpp:67
 msgid "Repeated content"
 msgstr ""
 
-#: regexpbuttons.cpp:70
+#: regexpbuttons.cpp:68
 msgid "<qt>This <i>regexp item</i> will repeat the <i>regexp items</i> it surrounds a specified number of times.<br />The number of times to repeat may be specified using ranges; e.g. it could be specified that it should match from 2 to 4 times, that it should match exactly 5 times, or that it should match at least one time.<br />Examples:<br />If you specify that it should match <i>any</i> time, and the content it surrounds is <tt>abc</tt>, then this <i>regexp item</i> will match the empty string, the string <tt>abc</tt>, the string <tt>abcabc</tt>, the string <tt>abcabcabcabc</tt>, etc.</qt>"
 msgstr ""
 
-#: regexpbuttons.cpp:85
+#: regexpbuttons.cpp:83
 msgid "<p>This <i>regexp item</i> will match any of its alternatives.</p><p>Alternatives are specified by placing <i>regexp items</i> on top of each other inside this widget.</p>"
 msgstr ""
 
-#: regexpbuttons.cpp:92
+#: regexpbuttons.cpp:90
 msgid "Compound regexp"
 msgstr ""
 
-#: regexpbuttons.cpp:93
+#: regexpbuttons.cpp:91
 msgid "<qt>This <i>regexp item</i> serves two purposes:<ul><li>It makes it possible for you to collapse a huge <i>regexp item</i> into a small box. This makes it easier for you to get an overview of large <i>regexp items</i>. This is especially useful if you load a predefined <i>regexp item</i> that you perhaps do not care about the inner workings of.</qt>"
 msgstr ""
 
-#: regexpbuttons.cpp:100
+#: regexpbuttons.cpp:98
 msgid "Beginning of line"
 msgstr ""
 
-#: regexpbuttons.cpp:100
+#: regexpbuttons.cpp:98
 msgid "<qt>This will match the beginning of a line.</qt>"
 msgstr ""
 
-#: regexpbuttons.cpp:103
+#: regexpbuttons.cpp:101
 msgid "End of line"
 msgstr ""
 
-#: regexpbuttons.cpp:103
+#: regexpbuttons.cpp:101
 msgid "<qt>This will match the end of a line.</qt>"
 msgstr ""
 
-#: regexpbuttons.cpp:108
+#: regexpbuttons.cpp:106
 msgid "Word boundary"
 msgstr ""
 
-#: regexpbuttons.cpp:109
+#: regexpbuttons.cpp:107
 msgid "<qt>This asserts a word boundary (This part does not actually match any characters)</qt>"
 msgstr ""
 
-#: regexpbuttons.cpp:114
+#: regexpbuttons.cpp:112
 msgid "Non Word boundary"
 msgstr ""
 
-#: regexpbuttons.cpp:115
+#: regexpbuttons.cpp:113
 msgid "<qt>This asserts a non-word boundary (This part does not actually match any characters)</qt>"
 msgstr ""
 
-#: regexpbuttons.cpp:121
+#: regexpbuttons.cpp:119
 msgid "Positive Look Ahead"
 msgstr ""
 
-#: regexpbuttons.cpp:122
+#: regexpbuttons.cpp:120
 msgid "<qt>This asserts a regular expression (This part does not actually match any characters). You can only use this at the end of a regular expression.</qt>"
 msgstr ""
 
-#: regexpbuttons.cpp:128
+#: regexpbuttons.cpp:126
 msgid "Negative Look Ahead"
 msgstr ""
 
-#: regexpbuttons.cpp:129
+#: regexpbuttons.cpp:127
 msgid "<qt>This asserts a regular expression that must not match (This part does not actually match any characters). You can only use this at the end of a regular expression.</qt>"
 msgstr ""
 
@@ -651,6 +659,7 @@ msgid "Times to Match"
 msgstr ""
 
 #: repeatwidget.cpp:177
+msgctxt "@option:radio"
 msgid "Any number of times (including zero times)"
 msgstr ""
 
@@ -667,6 +676,7 @@ msgid "Exactly"
 msgstr ""
 
 #: repeatwidget.cpp:189
+msgctxt "@option:radio"
 msgid "From"
 msgstr "Ад"
 

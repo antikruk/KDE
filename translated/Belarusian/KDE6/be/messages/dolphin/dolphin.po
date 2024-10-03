@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-05 00:40+0000\n"
-"PO-Revision-Date: 2024-07-06 23:44\n"
+"POT-Creation-Date: 2024-07-28 00:42+0000\n"
+"PO-Revision-Date: 2024-08-11 21:00\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -31,29 +31,42 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "greendeath@mail.ru, ihar.hrachyshka@gmail.com, nashtlumach@gmail.com"
 
-#: admin/bar.cpp:35
+#: admin/bar.cpp:45
 #, kde-format
 msgctxt "@info label above the view explaining the state"
 msgid "Acting as an Administrator — Be careful!"
 msgstr "Выкананне дзеянняў ад імя адміністратара - будзьце ўважлівымі!"
 
-#: admin/bar.cpp:36
+#: admin/bar.cpp:46
 #, kde-format
 msgctxt "@info label above the view explaining the state, keep short"
 msgid "Acting as Admin"
 msgstr "Дзеянні ад імя адміністратара"
 
-#: admin/bar.cpp:45
+#: admin/bar.cpp:55
 #, kde-format
 msgctxt "@action:button Finish/Stop/Done acting as an admin"
 msgid "Finish"
 msgstr "Завяршыць"
 
-#: admin/bar.cpp:47
+#: admin/bar.cpp:57
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Finish acting as an administrator"
 msgstr "Завяршыць выкананне дзеянняў ад імя адміністратара"
+
+#: admin/bar.cpp:140
+#| msgctxt "@action:inmenu"
+#| msgid "Act as Administrator"
+msgctxt "@action:button shown after acting as admin ended"
+msgid "Act as Administrator Again"
+msgstr ""
+
+#: admin/bar.cpp:148
+#, kde-format
+msgctxt "@info"
+msgid "Administrator authorization has expired."
+msgstr ""
 
 #: admin/workerintegration.cpp:33
 #, kde-format
@@ -99,19 +112,19 @@ msgid "<para>You are about to use administrator privileges. While acting as an a
 msgstr "<para>Вы хочаце дзейнічаць ад імя адміністратара. Ад імя адміністратара вы можаце змяніць або замяніць любы файл або каталог у гэтай сістэме. Гэта тычыцца і элементаў, якія маюць крытычна \n"
 "важнае значэнне для функцыянавання гэтай сістэмы.</para><para>Вы можаце <emphasis>выдаліць даныя ўсіх карыстальнікаў</emphasis> на гэтым камп'ютары і <emphasis>перапыніць гэтае ўсталяванне без магчымасці аднаўлення.</emphasis> Нават калі дадаць толькі адну літару ў назву каталога або файла ці ў яго змесціва, то сістэма <emphasis>можа не загрузіцца.</emphasis></para><para>Напэўна, іншага папярэджання не будзе, нават калі вы будзеце рабіць нешта, што можа пашкодзіць гэтую сістэму.</para><para>Вы можаце <emphasis>зрабіць рэзервовыя копіі файлаў і каталогаў</emphasis>, перш чым працягваць.</para>"
 
-#: admin/workerintegration.cpp:153
+#: admin/workerintegration.cpp:159
 #, kde-format
 msgctxt "@title:window"
 msgid "Risks of Acting as an Administrator"
 msgstr "Рызыкі выканання дзеянняў ад імя адміністратара"
 
-#: admin/workerintegration.cpp:155
+#: admin/workerintegration.cpp:161
 #, kde-format
 msgctxt "@action:button"
 msgid "I Understand and Accept These Risks"
 msgstr "Я разумею і прымаю гэтыя рызыкі"
 
-#: admin/workerintegration.cpp:157
+#: admin/workerintegration.cpp:163
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not warn me about these risks again"
@@ -1317,7 +1330,7 @@ msgid "Empty Recently Closed Tabs"
 msgstr "Ачысціць спіс нядаўна закрытых укладак"
 
 #: dolphinrecenttabsmenu.cpp:37 dolphinrecenttabsmenu.cpp:40
-#: dolphinviewcontainer.cpp:491 search/dolphinsearchbox.cpp:300
+#: dolphinviewcontainer.cpp:503 search/dolphinsearchbox.cpp:300
 #, kde-format
 msgid "Search for %1 in %2"
 msgstr "Пошук %1 у %2"
@@ -1388,76 +1401,82 @@ msgctxt "@info:tooltip of a 'locked' symbol in url navigator"
 msgid "This folder is not writable for you."
 msgstr "Вы не можаце запісваць у гэты каталог."
 
-#: dolphinviewcontainer.cpp:89
+#: dolphinviewcontainer.cpp:92
 #, kde-kuit-format
 msgctxt "@info:whatsthis findbar"
 msgid "<para>This helps you find files and folders. Enter a <emphasis>search term</emphasis> and specify search settings with the buttons at the bottom:<list><item>Filename/Content: Does the item you are looking for contain the search terms within its filename or its contents?<nl/>The contents of images, audio files and videos will not be searched.</item><item>From Here/Everywhere: Do you want to search in this folder and its sub-folders or everywhere?</item><item>More Options: Click this to search by media type, access time or rating.</item><item>More Search Tools: Install other means to find an item.</item></list></para>"
 msgstr "<para>Гэтае дзеянне дапамагае шукаць файлы і каталогі. Увядзіце <emphasis>тэкст для пошуку</emphasis> і вызначце налады пошуку з дапамогай кнопак унізе:<list><item>Назва файла/змесціва: ці змяшчае элемент, які вы шукаеце, тэкст у назве файла або яго змесціве? <nl/>Змесціва малюнкаў, аўдыяфайлаў і відэа не будзе шукацца.</item><item>Тут/паўсюль: трэба шукаць у гэтым каталозе і ўкладзеных у яго каталогах або паўсюль?</item> <item>Дадатковыя параметры: пстрыкніце тут, каб шукаць па тыпу носьбіта, часу доступу або рэйтынгу.</item><item>Дадатковыя інструменты пошуку: усталюйце іншыя сродкі для пошуку элемента.</item></list></para>"
 
-#: dolphinviewcontainer.cpp:109
+#: dolphinviewcontainer.cpp:112
 #, kde-format
 msgid "Running Dolphin as root can be dangerous. Please be careful."
 msgstr "Запуск Dolphin ад імя суперкарыстальніка можа быць небяспечным. Будзьце пільнымі."
 
-#: dolphinviewcontainer.cpp:161
+#: dolphinviewcontainer.cpp:163
 #, kde-format
 msgctxt "@info:progress"
 msgid "Loading folder…"
 msgstr "Загрузка каталога…"
 
-#: dolphinviewcontainer.cpp:164
+#: dolphinviewcontainer.cpp:166
 #, kde-format
 msgctxt "@info:progress"
 msgid "Sorting…"
 msgstr "Сартаванне…"
 
-#: dolphinviewcontainer.cpp:527
+#: dolphinviewcontainer.cpp:548
 #, kde-format
 msgid "Search"
 msgstr "Пошук"
 
-#: dolphinviewcontainer.cpp:529
+#: dolphinviewcontainer.cpp:550
 #, kde-format
 msgid "Search for %1"
 msgstr "Пошук %1"
 
-#: dolphinviewcontainer.cpp:612
+#: dolphinviewcontainer.cpp:633
 #, kde-format
 msgctxt "@info"
 msgid "Searching…"
 msgstr "Пршук…"
 
-#: dolphinviewcontainer.cpp:632
+#: dolphinviewcontainer.cpp:653
 #, kde-format
 msgctxt "@info:status"
 msgid "No items found."
 msgstr "Не знойдзена элементаў."
 
-#: dolphinviewcontainer.cpp:807
+#: dolphinviewcontainer.cpp:825
 #, kde-format
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin не падтрымлівае вэб-старонкі, быў запушчаны вэб-браўзер"
 
-#: dolphinviewcontainer.cpp:810
+#: dolphinviewcontainer.cpp:828
 #, kde-format
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, default application has been launched"
 msgstr "Пратакол не падтрымліваецца Dolphin, была запушчаная прадвызначаная праграма"
 
-#: dolphinviewcontainer.cpp:817
+#: dolphinviewcontainer.cpp:835
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid protocol '%1'"
 msgstr "Хібны пратакол \"%1\""
 
-#: dolphinviewcontainer.cpp:819
+#: dolphinviewcontainer.cpp:837
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "Хібны пратакол"
 
-#: dolphinviewcontainer.cpp:930
+#: dolphinviewcontainer.cpp:928
+#, kde-format
+msgctxt "@info"
+msgid "Authorization required to enter this folder."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:970
 #, kde-kuit-format
 msgid "Current location changed, <filename>%1</filename> is no longer accessible."
 msgstr "Бягучае размяшчэнне зменена, <filename>%1</filename> больш не даступны."
@@ -2024,199 +2043,199 @@ msgctxt "@label"
 msgid "User Group"
 msgstr "Група карыстальнікаў"
 
-#: kitemviews/kfileitemmodel.cpp:2865
+#: kitemviews/kfileitemmodel.cpp:2866
 #, kde-format
 msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "Невядомая памылка."
 
-#: main.cpp:69
+#: main.cpp:61
 #, kde-kuit-format
 msgctxt "@info:shell %1 is a terminal command"
 msgid "Running <application>Dolphin</application> with <command>sudo</command> is discouraged. Please run <icode>%1</icode> instead."
 msgstr ""
 
-#: main.cpp:121
+#: main.cpp:99
 #, kde-format
 msgid "Dolphin"
 msgstr "Dolphin"
 
-#: main.cpp:123
+#: main.cpp:101
 #, kde-format
 msgctxt "@title"
 msgid "File Manager"
 msgstr "Кіраўнік файлаў"
 
-#: main.cpp:125
+#: main.cpp:103
 #, kde-format
 msgctxt "@info:credit"
 msgid "(C) 2006-2022 The Dolphin Developers"
 msgstr "(C) 2006-2022 Распрацоўнікі Dolphin"
 
-#: main.cpp:127
+#: main.cpp:105
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felix Ernst"
 msgstr "Felix Ernst"
 
-#: main.cpp:128
+#: main.cpp:106
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer (since 2021) and developer"
 msgstr "Суправаджальнік (з 2021) і распрацоўнік"
 
-#: main.cpp:130
+#: main.cpp:108
 #, kde-format
 msgctxt "@info:credit"
 msgid "Méven Car"
 msgstr "Méven Car"
 
-#: main.cpp:131
+#: main.cpp:109
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer (since 2021) and developer (since 2019)"
 msgstr "Суправаджальнік (з 2021) і распрацоўнік(з 2019)"
 
-#: main.cpp:133
+#: main.cpp:111
 #, kde-format
 msgctxt "@info:credit"
 msgid "Elvis Angelaccio"
 msgstr "Elvis Angelaccio"
 
-#: main.cpp:134
+#: main.cpp:112
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer (2018-2021) and developer"
 msgstr "Суправаджальнік (2018-2021) і распрацоўнік"
 
-#: main.cpp:136
+#: main.cpp:114
 #, kde-format
 msgctxt "@info:credit"
 msgid "Emmanuel Pescosta"
 msgstr "Emmanuel Pescosta"
 
-#: main.cpp:137
+#: main.cpp:115
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer (2014-2018) and developer"
 msgstr "Суправаджальнік (2014-2018) і распрацоўнік"
 
-#: main.cpp:139
+#: main.cpp:117
 #, kde-format
 msgctxt "@info:credit"
 msgid "Frank Reininghaus"
 msgstr "Frank Reininghaus"
 
-#: main.cpp:140
+#: main.cpp:118
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer (2012-2014) and developer"
 msgstr "Суправаджальнік (2012-2014) і распрацоўнік"
 
-#: main.cpp:142
+#: main.cpp:120
 #, kde-format
 msgctxt "@info:credit"
 msgid "Peter Penz"
 msgstr "Peter Penz"
 
-#: main.cpp:143
+#: main.cpp:121
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and developer (2006-2012)"
 msgstr "Суправаджальнік і распрацоўнік(2006-2012)"
 
-#: main.cpp:145
+#: main.cpp:123
 #, kde-format
 msgctxt "@info:credit"
 msgid "Sebastian Trüg"
 msgstr "Sebastian Trüg"
 
-#: main.cpp:145 main.cpp:146 main.cpp:147 main.cpp:148 main.cpp:149
-#: main.cpp:150 main.cpp:151
+#: main.cpp:123 main.cpp:124 main.cpp:125 main.cpp:126 main.cpp:127
+#: main.cpp:128 main.cpp:129
 #, kde-format
 msgctxt "@info:credit"
 msgid "Developer"
 msgstr "Распрацоўнік"
 
-#: main.cpp:146
+#: main.cpp:124
 #, kde-format
 msgctxt "@info:credit"
 msgid "David Faure"
 msgstr "David Faure"
 
-#: main.cpp:147
+#: main.cpp:125
 #, kde-format
 msgctxt "@info:credit"
 msgid "Aaron J. Seigo"
 msgstr "Aaron J. Seigo"
 
-#: main.cpp:148
+#: main.cpp:126
 #, kde-format
 msgctxt "@info:credit"
 msgid "Rafael Fernández López"
 msgstr "Rafael Fernández López"
 
-#: main.cpp:149
+#: main.cpp:127
 #, kde-format
 msgctxt "@info:credit"
 msgid "Kevin Ottens"
 msgstr "Kevin Ottens"
 
-#: main.cpp:150
+#: main.cpp:128
 #, kde-format
 msgctxt "@info:credit"
 msgid "Holger Freyther"
 msgstr "Holger Freyther"
 
-#: main.cpp:151
+#: main.cpp:129
 #, kde-format
 msgctxt "@info:credit"
 msgid "Max Blazejak"
 msgstr "Max Blazejak"
 
-#: main.cpp:152
+#: main.cpp:130
 #, kde-format
 msgctxt "@info:credit"
 msgid "Michael Austin"
 msgstr "Michael Austin"
 
-#: main.cpp:152
+#: main.cpp:130
 #, kde-format
 msgctxt "@info:credit"
 msgid "Documentation"
 msgstr "Дакументацыя"
 
-#: main.cpp:162
+#: main.cpp:140
 #, kde-format
 msgctxt "@info:shell"
 msgid "The files and folders passed as arguments will be selected."
 msgstr "Будуць абраныя файлы і каталогі, перададзеныя ў якасці аргументаў."
 
-#: main.cpp:164
+#: main.cpp:142
 #, kde-format
 msgctxt "@info:shell"
 msgid "Dolphin will get started with a split view."
 msgstr "Dolphin будзе запускацца з падзеленай панэллю."
 
-#: main.cpp:165
+#: main.cpp:143
 #, kde-format
 msgctxt "@info:shell"
 msgid "Dolphin will explicitly open in a new window."
 msgstr "Dolphin адкрыецца ў новым акне."
 
-#: main.cpp:167
+#: main.cpp:145
 #, kde-format
 msgctxt "@info:shell"
 msgid "Set up Dolphin for administrative tasks."
 msgstr ""
 
-#: main.cpp:169
+#: main.cpp:147
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Dolphin Daemon (only required for DBus Interface)."
 msgstr "Запуск дэмана Dolphin (патрэбна толькі для інтэрфейсу DBus)."
 
-#: main.cpp:170
+#: main.cpp:148
 #, kde-format
 msgctxt "@info:shell"
 msgid "Document to open"
@@ -2348,13 +2367,13 @@ msgctxt "@action:inmenu"
 msgid "Condensed Date"
 msgstr "Скарочаная дата"
 
-#: panels/information/informationpanelcontent.cpp:105
+#: panels/information/informationpanelcontent.cpp:106
 #, kde-format
 msgctxt "@label::textbox"
 msgid "Select which data should be shown:"
 msgstr "Абраць даныя, якія будуць паказвацца:"
 
-#: panels/information/informationpanelcontent.cpp:285
+#: panels/information/informationpanelcontent.cpp:286
 #, kde-format
 msgctxt "@label"
 msgid "%1 item selected"
@@ -4348,7 +4367,7 @@ msgid "Open files and folders:"
 msgstr "Адкрыццё файлаў і каталогаў:"
 
 #: settings/viewmodes/viewsettingstab.cpp:243
-#: statusbar/dolphinstatusbar.cpp:332
+#: statusbar/dolphinstatusbar.cpp:339
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Size: 1 pixel"
@@ -4529,79 +4548,105 @@ msgctxt "Description for zoom-slider (accessibility)"
 msgid "Sets the size of the file icons."
 msgstr "Вызначае памер значкоў файлаў."
 
-#: statusbar/dolphinstatusbar.cpp:77
+#: statusbar/dolphinstatusbar.cpp:84
 #, kde-format
 msgid "Stop"
 msgstr "Спыніць"
 
-#: statusbar/dolphinstatusbar.cpp:79
+#: statusbar/dolphinstatusbar.cpp:86
 #, kde-format
 msgctxt "@tooltip"
 msgid "Stop loading"
 msgstr "Спыніць загрузку"
 
-#: statusbar/dolphinstatusbar.cpp:134
+#: statusbar/dolphinstatusbar.cpp:141
 #, kde-kuit-format
 msgctxt "@info:whatsthis Statusbar"
 msgid "<para>This is the <emphasis>Statusbar</emphasis>. It contains three elements by default (left to right):<list><item>A <emphasis>text field</emphasis> that displays the size of selected items. If only one item is selected the name and type is shown as well.</item><item>A <emphasis>zoom slider</emphasis> that allows you to adjust the size of the icons in the view.</item><item><emphasis>Space information</emphasis> about the current storage device.</item></list></para>"
 msgstr "<para>Гэта <emphasis>Панэль стану</emphasis>. Прадвызначана яна змяшчае тры элементы (злева направа):<list><item><emphasis>Тэкставае поле</emphasis>, якое паказвае памер абраных элементаў. Калі абраны толькі адзін элемент, таксама будуць паказвацца назва і тып.</item><item><emphasis>Паўзунок маштабу</emphasis>, які дазваляе наладжваць памер значкоў.</item> <item><emphasis>Звесткі пра прастору</emphasis> пра бягучую назапашвальную прыладу.</item></list></para>"
 
-#: statusbar/dolphinstatusbar.cpp:274
+#: statusbar/dolphinstatusbar.cpp:281
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Zoom Slider"
 msgstr "Паказваць паўзунок маштабу"
 
-#: statusbar/dolphinstatusbar.cpp:278
+#: statusbar/dolphinstatusbar.cpp:285
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Space Information"
 msgstr "Паказваць звесткі пра прастору"
 
-#: statusbar/statusbarspaceinfo.cpp:120
-#, kde-format
-msgid "Install Filelight to View Disk Usage Statistics…"
-msgstr "Усталяваць Filelight для прагляду статыстыкі выкарыстання дыска…"
-
-#: statusbar/statusbarspaceinfo.cpp:134
+#: statusbar/statusbarspaceinfo.cpp:136
 #, kde-format
 msgid "Disk Usage Statistics - current folder"
 msgstr "Статыстыка выкарыстання дыска - бягучы каталог"
 
-#: statusbar/statusbarspaceinfo.cpp:145
+#: statusbar/statusbarspaceinfo.cpp:147
 #, kde-format
 msgid "Disk Usage Statistics - current device"
 msgstr "Статыстыка выкарыстання дыска - бягучая прылада"
 
-#: statusbar/statusbarspaceinfo.cpp:158
+#: statusbar/statusbarspaceinfo.cpp:160
 #, kde-format
 msgid "Disk Usage Statistics - all devices"
 msgstr "Статыстыка выкарыстання дыска - усе прылады"
 
-#: statusbar/statusbarspaceinfo.cpp:171
+#: statusbar/statusbarspaceinfo.cpp:173
 #, kde-format
 msgid "KDiskFree"
 msgstr "KDiskFree"
 
-#: statusbar/statusbarspaceinfo.cpp:196
+#: statusbar/statusbarspaceinfo.cpp:199
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<application>Filelight</application> installed successfully."
+msgstr ""
+
+#: statusbar/statusbarspaceinfo.cpp:207
+#, kde-format
+msgctxt "@info:status"
+msgid "Installing Filelight…"
+msgstr ""
+
+#: statusbar/statusbarspaceinfo.cpp:234
 #, kde-format
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "Вольна %1"
 
-#: statusbar/statusbarspaceinfo.cpp:197
+#: statusbar/statusbarspaceinfo.cpp:235
 #, kde-format
 msgctxt "tooltip:status Free disk space"
 msgid "%1 free out of %2 (%3% used)"
 msgstr "%1 вольна з %2 (%3% выкарыстоўваецца)"
 
-#: statusbar/statusbarspaceinfo.cpp:199
+#: statusbar/statusbarspaceinfo.cpp:237
 #, kde-format
 msgctxt "@info:tooltip for the free disk space button"
 msgid "%1 free out of %2 (%3% used)\n"
 "Press to manage disk space usage."
 msgstr "%1 вольна з %2 (%3% выкарыстоўваецца)\n"
 "Націсніце, каб кіраваць выкарыстаннем прасторы на дыску."
+
+#: statusbar/statusbarspaceinfo.cpp:263
+#, kde-format
+msgctxt "@title"
+msgid "Free Up Disk Space"
+msgstr ""
+
+#. i18n: The new line ("<nl/>") tag is only there to format this text visually pleasing, i.e. to avoid having one very long line.
+#: statusbar/statusbarspaceinfo.cpp:275
+#, kde-kuit-format
+msgctxt "@title"
+msgid "<para>Install additional software to view disk usage statistics<nl/>and identify big files and folders.</para>"
+msgstr ""
+
+#: statusbar/statusbarspaceinfo.cpp:284
+#, kde-format
+msgctxt "@action:button"
+msgid "Install Filelight…"
+msgstr ""
 
 #: trash/dolphintrash.cpp:50
 #, kde-format
@@ -4652,7 +4697,7 @@ msgstr "Прадвызначана"
 msgid "Reload"
 msgstr "Перазагрузіць"
 
-#: views/dolphinview.cpp:654
+#: views/dolphinview.cpp:656
 #, kde-format
 msgctxt "@info:status"
 msgid "1 folder selected"
@@ -4662,7 +4707,7 @@ msgstr[1] "Абрана %1 каталогі"
 msgstr[2] "Абрана %1 каталогаў"
 msgstr[3] "Абрана %1 каталогі"
 
-#: views/dolphinview.cpp:655
+#: views/dolphinview.cpp:657
 #, kde-format
 msgctxt "@info:status"
 msgid "1 file selected"
@@ -4672,7 +4717,7 @@ msgstr[1] "Абрана %1 файлы"
 msgstr[2] "Абрана %1 файлаў"
 msgstr[3] "Абрана %1 файлы"
 
-#: views/dolphinview.cpp:657
+#: views/dolphinview.cpp:659
 #, kde-format
 msgctxt "@info:status"
 msgid "1 folder"
@@ -4682,7 +4727,7 @@ msgstr[1] "%1 каталогі"
 msgstr[2] "%1 каталогаў"
 msgstr[3] "%1 каталогі"
 
-#: views/dolphinview.cpp:658
+#: views/dolphinview.cpp:660
 #, kde-format
 msgctxt "@info:status"
 msgid "1 file"
@@ -4692,31 +4737,31 @@ msgstr[1] "%1 файлы"
 msgstr[2] "%1 файлаў"
 msgstr[3] "%1 файлы"
 
-#: views/dolphinview.cpp:662
+#: views/dolphinview.cpp:664
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: views/dolphinview.cpp:664
+#: views/dolphinview.cpp:666
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:668
+#: views/dolphinview.cpp:670
 #, kde-format
 msgctxt "@info:status"
 msgid "0 folders, 0 files"
 msgstr "0 каталогаў, 0 файлаў"
 
-#: views/dolphinview.cpp:884 views/dolphinview.cpp:893
+#: views/dolphinview.cpp:886 views/dolphinview.cpp:895
 #, kde-format
 msgctxt "<filename> copy"
 msgid "%1 copy"
 msgstr "%1 копія"
 
-#: views/dolphinview.cpp:1077
+#: views/dolphinview.cpp:1079
 #, kde-format
 msgid "Are you sure you want to open 1 item?"
 msgid_plural "Are you sure you want to open %1 items?"
@@ -4725,7 +4770,7 @@ msgstr[1] "Сапраўды хочаце адкрыць %1 элементы?"
 msgstr[2] "Сапраўды хочаце адкрыць %1 элементаў?"
 msgstr[3] "Сапраўды хочаце адкрыць %1 элементы?"
 
-#: views/dolphinview.cpp:1082
+#: views/dolphinview.cpp:1084
 #, kde-format
 msgctxt "@action:button"
 msgid "Open %1 Item"
@@ -4735,142 +4780,142 @@ msgstr[1] "Адкрыць %1 элементы"
 msgstr[2] "Адкрыць %1 элементаў"
 msgstr[3] "Адкрыць %1 элементы"
 
-#: views/dolphinview.cpp:1212
+#: views/dolphinview.cpp:1214
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Side Padding"
 msgstr "Бакавы водступ"
 
-#: views/dolphinview.cpp:1216
+#: views/dolphinview.cpp:1218
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Automatic Column Widths"
 msgstr "Аўтаматычная шырыня слупкоў"
 
-#: views/dolphinview.cpp:1221
+#: views/dolphinview.cpp:1223
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Custom Column Widths"
 msgstr "Адвольная шырыня слупкоў"
 
-#: views/dolphinview.cpp:1827
+#: views/dolphinview.cpp:1829
 #, kde-format
 msgctxt "@info:status"
 msgid "Trash operation completed."
 msgstr "Аперацыя перамяшчэння ў сметніцу завершаная."
 
-#: views/dolphinview.cpp:1837
+#: views/dolphinview.cpp:1839
 #, kde-format
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Выдаленне скончана."
 
-#: views/dolphinview.cpp:1993
+#: views/dolphinview.cpp:1995
 #, kde-format
 msgctxt "@action:button"
 msgid "Rename and Hide"
 msgstr "Змяніць назву і схаваць"
 
-#: views/dolphinview.cpp:1997
+#: views/dolphinview.cpp:1999
 #, kde-format
 msgid "Adding a dot to the beginning of this file's name will hide it from view.\n"
 "Do you still want to rename it?"
 msgstr "Калі ў пачатку назвы гэтага файла дадаць кропку, то гэта схавае яго ад прагляду. Усё яшчэ хочаце змяніць назву?"
 
-#: views/dolphinview.cpp:1999
+#: views/dolphinview.cpp:2001
 #, kde-format
 msgid "Adding a dot to the beginning of this folder's name will hide it from view.\n"
 "Do you still want to rename it?"
 msgstr "Калі ў пачатку назвы гэтага каталога дадаць кропку, то гэта схавае яго ад прагляду. Усё яшчэ хочаце змяніць назву?"
 
-#: views/dolphinview.cpp:2001
+#: views/dolphinview.cpp:2003
 #, kde-format
 msgid "Hide this File?"
 msgstr "Схаваць гэты файл?"
 
-#: views/dolphinview.cpp:2001
+#: views/dolphinview.cpp:2003
 #, kde-format
 msgid "Hide this Folder?"
 msgstr "Схаваць гэты каталог?"
 
-#: views/dolphinview.cpp:2051
+#: views/dolphinview.cpp:2053
 #, kde-format
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Размяшчэнне пустое."
 
-#: views/dolphinview.cpp:2053
+#: views/dolphinview.cpp:2055
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "Размяшчэнне \"%1\" хібнае."
 
-#: views/dolphinview.cpp:2322
+#: views/dolphinview.cpp:2324
 #, kde-format
 msgid "Loading…"
 msgstr "Загрузка…"
 
-#: views/dolphinview.cpp:2341
+#: views/dolphinview.cpp:2343
 #, kde-format
 msgid "Loading canceled"
 msgstr "Загрузка скасаваная"
 
-#: views/dolphinview.cpp:2343
+#: views/dolphinview.cpp:2345
 #, kde-format
 msgid "No items matching the filter"
 msgstr "Няма элементаў, якія адпавядаюць фільтру"
 
-#: views/dolphinview.cpp:2345
+#: views/dolphinview.cpp:2347
 #, kde-format
 msgid "No items matching the search"
 msgstr "Няма элементаў, якія адпавядаюць пошуку"
 
-#: views/dolphinview.cpp:2347
+#: views/dolphinview.cpp:2349
 #, kde-format
 msgid "Trash is empty"
 msgstr "Сметніца пустая"
 
-#: views/dolphinview.cpp:2350
+#: views/dolphinview.cpp:2352
 #, kde-format
 msgid "No tags"
 msgstr "Няма тэгаў"
 
-#: views/dolphinview.cpp:2353
+#: views/dolphinview.cpp:2355
 #, kde-format
 msgid "No files tagged with \"%1\""
 msgstr "Няма файлаў з тэгам \"%1\""
 
-#: views/dolphinview.cpp:2357
+#: views/dolphinview.cpp:2359
 #, kde-format
 msgid "No recently used items"
 msgstr "Няма элементаў, якія нядаўна выкарыстоўваліся"
 
-#: views/dolphinview.cpp:2359
+#: views/dolphinview.cpp:2361
 #, kde-format
 msgid "No shared folders found"
 msgstr "Не знойдзена абагуленых каталогаў"
 
-#: views/dolphinview.cpp:2361
+#: views/dolphinview.cpp:2363
 #, kde-format
 msgid "No relevant network resources found"
 msgstr "Не знойдзена адпаведных сеткавых рэсурсаў"
 
-#: views/dolphinview.cpp:2363
+#: views/dolphinview.cpp:2365
 #, kde-format
 msgid "No MTP-compatible devices found"
 msgstr "Не знойдзена MTP-сумяшчальных прылад"
 
-#: views/dolphinview.cpp:2365
+#: views/dolphinview.cpp:2367
 #, kde-format
 msgid "No Apple devices found"
 msgstr "Не знойдзена прылад Apple"
 
-#: views/dolphinview.cpp:2367
+#: views/dolphinview.cpp:2369
 #, kde-format
 msgid "No Bluetooth devices found"
 msgstr "Не знойдзена прылад Bluetooth"
 
-#: views/dolphinview.cpp:2369
+#: views/dolphinview.cpp:2371
 #, kde-format
 msgid "Folder is empty"
 msgstr "Каталог пусты"
@@ -5223,6 +5268,9 @@ msgstr[3] "Дзеянні для %1 абраных элементаў"
 msgctxt "@info:status"
 msgid "Updating version information…"
 msgstr "Абнаўленне звестак пра версію…"
+
+#~ msgid "Install Filelight to View Disk Usage Statistics…"
+#~ msgstr "Усталяваць Filelight для прагляду статыстыкі выкарыстання дыска…"
 
 #~ msgctxt "@action:button"
 #~ msgid "Stop Acting as an Administrator"

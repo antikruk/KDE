@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-28 00:39+0000\n"
-"PO-Revision-Date: 2024-06-30 08:00\n"
+"POT-Creation-Date: 2024-08-11 00:41+0000\n"
+"PO-Revision-Date: 2024-08-11 21:00\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -49,7 +49,7 @@ msgctxt "@action:button"
 msgid "&Install Debug Symbols"
 msgstr ""
 
-#: backtracewidget.cpp:70 qml/DeveloperPage.qml:55
+#: backtracewidget.cpp:70 qml/DeveloperPage.qml:54
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to install the missing debug symbols packages."
@@ -61,13 +61,13 @@ msgctxt "@info:tooltip"
 msgid "Symbol installation is unavailable because the application was updated or uninstalled after it had been started."
 msgstr ""
 
-#: backtracewidget.cpp:85 qml/DeveloperPage.qml:75
+#: backtracewidget.cpp:85 qml/DeveloperPage.qml:74
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to copy the crash information (backtrace) to the clipboard."
 msgstr ""
 
-#: backtracewidget.cpp:94 qml/DeveloperPage.qml:83
+#: backtracewidget.cpp:94 qml/DeveloperPage.qml:82
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to save the crash information (backtrace) to a file. This is useful if you want to take a look at it or to report the bug later."
@@ -156,14 +156,14 @@ msgctxt "@info:status"
 msgid "The debugger has quit unexpectedly."
 msgstr ""
 
-#: backtracewidget.cpp:303 backtracewidget.cpp:319 qml/DeveloperPage.qml:213
-#: qml/DeveloperPage.qml:217
+#: backtracewidget.cpp:303 backtracewidget.cpp:319 qml/DeveloperPage.qml:212
+#: qml/DeveloperPage.qml:216
 #, kde-format
 msgctxt "@info:status"
 msgid "The crash information could not be generated."
 msgstr ""
 
-#: backtracewidget.cpp:307 qml/DeveloperPage.qml:214
+#: backtracewidget.cpp:307 qml/DeveloperPage.qml:213
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid "You could try to regenerate the backtrace by clicking the <interface>Reload</interface> button."
@@ -181,14 +181,14 @@ msgctxt "@info/rich"
 msgid "<strong>You need to first install the debugger application (%1) then click the <interface>Reload</interface> button.</strong>"
 msgstr ""
 
-#: backtracewidget.cpp:378 qml/DeveloperPage.qml:114
+#: backtracewidget.cpp:378 qml/DeveloperPage.qml:113
 #, kde-format
 msgctxt "@title:window"
 msgid "Error during the installation of debug symbols"
 msgstr ""
 
 #. i18nc here because that'd close the html tag but we need to append an unordered list of paths
-#: backtracewidget.cpp:409 qml/DeveloperPage.qml:241
+#: backtracewidget.cpp:409 qml/DeveloperPage.qml:240
 #, kde-format
 msgid "The packages containing debug information for the following application and libraries are missing:"
 msgstr ""
@@ -199,7 +199,7 @@ msgctxt "messagebox title"
 msgid "Missing debug information packages"
 msgstr ""
 
-#: bugzillaintegration/reportinterface.cpp:176
+#: bugzillaintegration/reportinterface.cpp:177
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "<placeholder>In detail, tell us what you were doing  when the application crashed.</placeholder>"
@@ -354,89 +354,71 @@ msgctxt "@info:tooltip"
 msgid "Use this button to restart the crashed application."
 msgstr ""
 
-#: drkonqidialog.cpp:127
+#: drkonqidialog.cpp:126
 #| msgid "General"
 msgctxt "@title:tab general information"
 msgid "&General"
 msgstr "&Асноўныя"
 
-#: drkonqidialog.cpp:131
+#: drkonqidialog.cpp:130
 #, kde-format
 msgctxt "@title:tab"
 msgid "&Developer Information"
 msgstr ""
 
-#: drkonqidialog.cpp:166 qml/MainPage.qml:29
+#: drkonqidialog.cpp:165 qml/MainPage.qml:35
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>We are sorry, <application>%1</application> closed unexpectedly.</para>"
 msgstr ""
 
-#: drkonqidialog.cpp:174
+#: drkonqidialog.cpp:173
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>As the Crash Handler itself has failed, the automatic reporting process is disabled to reduce the risks of failing again.<nl /><nl />Please, <link url='%1'>manually report</link> this error to the KDE bug tracking system. Do not forget to include the backtrace from the <interface>Developer Information</interface> tab.</para>"
 msgstr ""
 
-#: drkonqidialog.cpp:184
+#: drkonqidialog.cpp:183
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>The reporting assistant is disabled because the crash handler dialog was started in safe mode.<nl />You can manually report this bug to %1 (including the backtrace from the <interface>Developer Information</interface> tab.)</para>"
 msgstr ""
 
-#: drkonqidialog.cpp:193
+#: drkonqidialog.cpp:192
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>The reporting assistant is disabled because the crashed application appears to have been updated or uninstalled since it had been started. This prevents accurate crash reporting and can also be the cause of this crash.</para><para>After updating it is always a good idea to log out and back in to make sure the update is fully applied and will not cause any side effects.</para>"
 msgstr ""
 
-#: drkonqidialog.cpp:202 qml/main.qml:63
+#: drkonqidialog.cpp:201 qml/main.qml:63
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>You can help us improve KDE Software by reporting this error.<nl /><link url='%1'>Learn more about bug reporting.</link></para>"
 msgstr ""
 
-#: drkonqidialog.cpp:209 qml/main.qml:25
+#: drkonqidialog.cpp:208 qml/main.qml:25
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>You cannot report this error, because <application>%1</application> does not provide a bug reporting address.</para>"
 msgstr ""
 
-#: drkonqidialog.cpp:217
+#: drkonqidialog.cpp:216
 #| msgctxt "EMAIL OF TRANSLATORS"
 #| msgid "Your emails"
 msgctxt "@label"
 msgid "Details:"
 msgstr "Падрабязнасці:"
 
-#: drkonqidialog.cpp:221
+#: drkonqidialog.cpp:220
 #, kde-kuit-format
 msgctxt "@info Note the time information is divided into date and time parts"
 msgid "<para>Executable: <application>%1</application> PID: %2 Signal: %3 (%4) Time: %5 %6</para>"
 msgstr ""
 
-#: drkonqidialog.cpp:244
-#| msgid "&Debugger"
-msgctxt "@action:button this is the debug menu button label which contains the debugging applications"
-msgid "&Debug"
-msgstr "&Адладжванне"
-
-#: drkonqidialog.cpp:246
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Starts a program to debug the crashed application."
-msgstr ""
-
-#: drkonqidialog.cpp:275
+#: drkonqidialog.cpp:249
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close this dialog (you will lose the crash information.)"
-msgstr ""
-
-#: drkonqidialog.cpp:284
-#, kde-format
-msgctxt "@action:inmenu 1 is the debugger name"
-msgid "Debug in %1"
 msgstr ""
 
 #: main.cpp:151
@@ -643,7 +625,7 @@ msgctxt "@action:check"
 msgid "Custom settings of the application that may be related"
 msgstr ""
 
-#: qml/ContextPage.qml:79 qml/DeveloperPage.qml:234
+#: qml/ContextPage.qml:79 qml/DeveloperPage.qml:233
 msgctxt "@title"
 msgid "Not Sufficiently Useful"
 msgstr ""
@@ -663,39 +645,39 @@ msgctxt "@action Report the bug on this domain"
 msgid "Report on %1"
 msgstr ""
 
-#: qml/DeveloperPage.qml:35
+#: qml/DeveloperPage.qml:34
 msgctxt "@info:tooltip"
 msgid "Starts the bug report assistant."
 msgstr ""
 
-#: qml/DeveloperPage.qml:42
+#: qml/DeveloperPage.qml:41
 msgctxt "@action:button"
 msgid "Install Debug Symbols"
 msgstr ""
 
-#: qml/DeveloperPage.qml:62
+#: qml/DeveloperPage.qml:61
 msgctxt "@action:button"
 msgid "Reload"
 msgstr "Абнавіць"
 
-#: qml/DeveloperPage.qml:64
+#: qml/DeveloperPage.qml:63
 msgctxt "@info:tooltip"
 msgid "Use this button to reload the crash information (backtrace). This is useful when you have\n"
 "installed the proper debug symbol packages and you want to obtain a better backtrace."
 msgstr ""
 
-#: qml/DeveloperPage.qml:74
+#: qml/DeveloperPage.qml:73
 #| msgid "C&opy"
 msgctxt "@action:button"
 msgid "Copy"
 msgstr "Скапіраваць"
 
-#: qml/DeveloperPage.qml:81
+#: qml/DeveloperPage.qml:80
 msgctxt "@action:button"
 msgid "Save"
 msgstr "Запісаць"
 
-#: qml/DeveloperPage.qml:131
+#: qml/DeveloperPage.qml:130
 msgctxt "@info"
 msgid "<subtitle>What is a \"backtrace\" ?</subtitle><para>A backtrace basically describes what was\n"
 "happening inside the application when it crashed, so the developers may track\n"
@@ -704,20 +686,20 @@ msgid "<subtitle>What is a \"backtrace\" ?</subtitle><para>A backtrace basically
 "used during interactive and post-mortem debugging.</para>"
 msgstr ""
 
-#: qml/DeveloperPage.qml:199
+#: qml/DeveloperPage.qml:198
 msgctxt "@info/rich"
 msgid "You can click the <interface>Install Debug Symbols</interface> button in order to automatically install the missing debugging information packages. If this method\n"
 "does not work: please read <link url='%1'>How to create useful crash reports</link> to learn how to get a useful\n"
 "backtrace; install the needed packages (<link url='%2'>list of files</link>) and click the <interface>Reload</interface> button."
 msgstr ""
 
-#: qml/DeveloperPage.qml:207
+#: qml/DeveloperPage.qml:206
 msgctxt "@info/rich"
 msgid "Please read <link url='%1'>How to create useful crash reports</link> to learn how to get a useful backtrace; install the needed packages\n"
 "(<link url='%2'>list of files</link>) and click the <interface>Reload</interface> button."
 msgstr ""
 
-#: qml/DeveloperPage.qml:219
+#: qml/DeveloperPage.qml:218
 msgctxt "@info/rich"
 msgid "<emphasis strong='true'>You need to first install the debugger application (%1) then click the <interface>Reload</interface> button.</emphasis>"
 msgstr ""
@@ -730,7 +712,7 @@ msgstr ""
 #: qml/DownloadSymbolsCheckBox.qml:25
 msgctxt "@info:tooltip"
 msgid "Crash reports can be of greater value if additional debugging resources are downloaded from your distributor first.\n"
-"This causes downloads of unknown size when a crash occurs. This is skipped automatically when using a metered internet connection."
+"This may also cause increased memory usage and will take longer, and causes downloads of unknown size when a crash occurs. This is skipped automatically when using a metered internet connection."
 msgstr ""
 
 #: qml/LoginPage.qml:14
@@ -802,22 +784,22 @@ msgid "<para>The reporting assistant is disabled because\n"
 "any side effects.</para>"
 msgstr ""
 
-#: qml/main.qml:84
+#: qml/main.qml:85
 msgctxt "@label"
 msgid "Gathering crash information failed for unknown reasons. You can retry, or close the window."
 msgstr ""
 
-#: qml/main.qml:89
+#: qml/main.qml:90
 msgctxt "@action retry gathering crash data"
 msgid "Retry"
 msgstr "Паўтарыць"
 
-#: qml/MainPage.qml:55
+#: qml/MainPage.qml:57
 msgctxt "@action"
 msgid "Send Automatic Report"
 msgstr ""
 
-#: qml/MainPage.qml:69
+#: qml/MainPage.qml:73
 msgctxt "@action"
 msgid "See Developer Information"
 msgstr ""
@@ -960,7 +942,7 @@ msgstr ""
 
 #: qml/SentryPage.qml:32
 msgctxt "@label"
-msgid "Collecting crash data…"
+msgid "Collecting crash data. The collected data will automatically submit in the background."
 msgstr ""
 
 #: qml/SentryPage.qml:53
@@ -1156,6 +1138,14 @@ msgstr ""
 msgctxt "@info:shell"
 msgid "bugstest.kde.org password"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Debugger"
+#~ msgctxt ""
+#~ "@action:button this is the debug menu button label which contains the "
+#~ "debugging applications"
+#~ msgid "&Debug"
+#~ msgstr "Адладчык"
 
 #, fuzzy
 #~| msgid "The program was started by kdeinit"
