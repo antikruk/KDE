@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-21 00:37+0000\n"
-"PO-Revision-Date: 2024-06-30 08:01\n"
+"POT-Creation-Date: 2024-09-18 00:38+0000\n"
+"PO-Revision-Date: 2024-10-04 07:50\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -498,7 +498,7 @@ msgid "Dimensions <="
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: app/filtercontroller.cpp:239 lib/crop/cropwidget.cpp:221
+#: app/filtercontroller.cpp:238 lib/crop/cropwidget.cpp:221
 #: lib/resize/resizeimagewidget.ui:40
 #, kde-format
 msgid "Height"
@@ -507,37 +507,37 @@ msgstr "Вышыня"
 #. i18n("%1:%2") because ':' should not be translated, it is
 #. used to parse the ratio string.
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: app/filtercontroller.cpp:241 lib/crop/cropwidget.cpp:221
+#: app/filtercontroller.cpp:240 lib/crop/cropwidget.cpp:221
 #: lib/resize/resizeimagewidget.ui:30
 #, kde-format
 msgid "Width"
 msgstr "Шырыня"
 
-#: app/filtercontroller.cpp:335
+#: app/filtercontroller.cpp:330
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Filter by Name"
 msgstr "Фільтраваць па назве"
 
-#: app/filtercontroller.cpp:337
+#: app/filtercontroller.cpp:332
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Filter by Date"
 msgstr "Фільтраваць па даце"
 
-#: app/filtercontroller.cpp:340
+#: app/filtercontroller.cpp:335
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Filter by Rating"
 msgstr "Фільтраваць па рэйтынгу"
 
-#: app/filtercontroller.cpp:342
+#: app/filtercontroller.cpp:337
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Filter by Tag"
 msgstr "Фільтраваць па тэгу"
 
-#: app/filtercontroller.cpp:344
+#: app/filtercontroller.cpp:339
 #| msgctxt "@action:inmenu"
 #| msgid "Filter by Date"
 msgctxt "@action:inmenu"
@@ -2246,8 +2246,20 @@ msgstr "Дапасаваць выяву да памераў вобласці п�
 #. but a more elaborate translation would also be fine.
 #. The text "in the settings" is supposed to sound like clicking it opens the settings.
 #: lib/documentview/documentviewcontroller.cpp:70
-#, kde-kuit-format
-msgctxt "@info:whatsthis, %1 the action's text"
+#| msgctxt "@info:whatsthis, %1 the action's text"
+#| msgid ""
+#| "<para>This fits the image into the available viewing area:"
+#| "<list><item>Images that are bigger than the viewing area are displayed at "
+#| "a smaller size so they fit.</item><item>Images that are smaller than the "
+#| "viewing area are displayed at their normal size. If smaller images should "
+#| "instead use all of the available viewing area, turn on <emphasis>Enlarge "
+#| "smaller images</emphasis> <link url='%2'>in the settings</link>.</item></"
+#| "list></para><para>If \"%1\" is already enabled, pressing it again will "
+#| "switch it off and the image will be displayed at its normal size instead."
+#| "</para><para>\"%1\" is the default zoom mode for images. This can be "
+#| "changed so images are displayed at a previous zoom value instead <link "
+#| "url='%2'>in the settings</link>.</para>"
+msgctxt "@info:whatsthis %1 is the action's text"
 msgid "<para>This fits the image into the available viewing area:<list><item>Images that are bigger than the viewing area are displayed at a smaller size so they fit.</item><item>Images that are smaller than the viewing area are displayed at their normal size. If smaller images should instead use all of the available viewing area, turn on <emphasis>Enlarge smaller images</emphasis> <link url='%2'>in the settings</link>.</item></list></para><para>If \"%1\" is already enabled, pressing it again will switch it off and the image will be displayed at its normal size instead.</para><para>\"%1\" is the default zoom mode for images. This can be changed so images are displayed at a previous zoom value instead <link url='%2'>in the settings</link>.</para>"
 msgstr "<para>Гэты параметр дапасоўвае выяву да памераў даступнай вобласці прагляду:<list><item>Выявы, памер якіх перавышае вобласць прагляду, памяншаюцца.</item><item>Выявы, меншыя за вобласць прагляду, паказваюцца ў звычайным памеры. Калі вы хочаце, каб малыя выявы паказваліся па памеры даступнай вобласці прагляду, уключыце ў наладах<emphasis>Павялічваць малыя выявы</emphasis> <link url='%2'></link>.</item></list></para><para>Калі параметр \"%1\" ужо ўключаны, то пры паўторным націсканні ён адключыцца, і выявы будуць паказвацца ў іх звычайным памеры.</para><para>\"%1\" - прадвызначаны рэжым маштабавання для выяў. Гэта можна змяніць у наладах. Выявы будуць паказваццца з папярэднім значэннем маштабавання замест <link url='%2'></link>.</para>"
 
@@ -2676,7 +2688,7 @@ msgstr "Захоўваць суадносіны бакоў"
 msgid "Current size:"
 msgstr "Бягучы памер:"
 
-#: lib/semanticinfo/tagitemdelegate.cpp:62
+#: lib/semanticinfo/tagitemdelegate.cpp:75
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Assign this tag to all selected images"

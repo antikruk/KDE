@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-29 00:39+0000\n"
-"PO-Revision-Date: 2024-05-12 08:06\n"
+"POT-Creation-Date: 2024-08-24 00:39+0000\n"
+"PO-Revision-Date: 2024-10-04 07:57\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -160,7 +160,7 @@ msgstr "Па памяншэнні"
 #. i18n: ectx: property (windowTitle), widget (QDialog, BibliographyConfigureDialog)
 #. i18n: ectx: property (toolTip), widget (QToolButton, configureBibliography)
 #: dialogs/BibliographyConfigureDialog.ui:14
-#: dialogs/SimpleCitationBibliographyWidget.ui:52
+#: dialogs/SimpleCitationBibliographyWidget.ui:55
 #| msgid "Insert"
 msgid "Configure bibliography"
 msgstr ""
@@ -240,17 +240,17 @@ msgstr "Бібліяграфія"
 msgid "References"
 msgstr ""
 
-#: dialogs/ChangeConfigureDialog.cpp:143
+#: dialogs/ChangeConfigureDialog.cpp:141
 #, kde-format
 msgid "This is a line of inserted text."
 msgstr ""
 
-#: dialogs/ChangeConfigureDialog.cpp:149
+#: dialogs/ChangeConfigureDialog.cpp:147
 #, kde-format
 msgid "This is a line of deleted text."
 msgstr ""
 
-#: dialogs/ChangeConfigureDialog.cpp:155
+#: dialogs/ChangeConfigureDialog.cpp:153
 #, kde-format
 msgid "This is a line of text whose format has been changed."
 msgstr ""
@@ -335,7 +335,6 @@ msgstr "Колер фону"
 #. i18n: ectx: property (text), widget (QToolButton, splitCells)
 #. i18n: ectx: property (text), widget (QToolButton, mergeCells)
 #. i18n: ectx: property (text), widget (FormattingButton, border)
-#. i18n: ectx: property (text), widget (QToolButton, resetBackgroundColor)
 #. i18n: ectx: property (text), widget (QPushButton, insertionColorButton)
 #. i18n: ectx: property (text), widget (QPushButton, deletionColorButton)
 #. i18n: ectx: property (text), widget (QPushButton, formatColorButton)
@@ -348,14 +347,13 @@ msgstr "Колер фону"
 #: dialogs/FontDecorations.ui:148 dialogs/FontDecorations.ui:161
 #: dialogs/FontDecorations.ui:174 dialogs/FontDecorations.ui:187
 #: dialogs/FontDecorations.ui:200 dialogs/ParagraphBulletsNumbers.ui:221
-#: dialogs/ParagraphDecorations.ui:55 dialogs/SimpleCharacterWidget.ui:128
-#: dialogs/SimpleInsertWidget.ui:49 dialogs/SimpleInsertWidget.ui:62
-#: dialogs/SimpleInsertWidget.ui:75 dialogs/SimpleInsertWidget.ui:88
-#: dialogs/SimpleInsertWidget.ui:101 dialogs/SimpleInsertWidget.ui:114
-#: dialogs/SimpleInsertWidget.ui:124 dialogs/SimpleParagraphWidget.ui:80
-#: dialogs/SimpleParagraphWidget.ui:204 dialogs/SimpleSpellCheckingWidget.ui:23
-#: dialogs/SimpleTableWidget.ui:101 dialogs/SimpleTableWidget.ui:111
-#: dialogs/SimpleTableWidget.ui:137
+#: dialogs/SimpleCharacterWidget.ui:128 dialogs/SimpleInsertWidget.ui:49
+#: dialogs/SimpleInsertWidget.ui:62 dialogs/SimpleInsertWidget.ui:75
+#: dialogs/SimpleInsertWidget.ui:88 dialogs/SimpleInsertWidget.ui:101
+#: dialogs/SimpleInsertWidget.ui:114 dialogs/SimpleInsertWidget.ui:124
+#: dialogs/SimpleParagraphWidget.ui:73 dialogs/SimpleParagraphWidget.ui:167
+#: dialogs/SimpleSpellCheckingWidget.ui:26 dialogs/SimpleTableWidget.ui:101
+#: dialogs/SimpleTableWidget.ui:111 dialogs/SimpleTableWidget.ui:137
 #, kde-format
 msgid "..."
 msgstr "..."
@@ -415,38 +413,38 @@ msgstr ""
 msgid "Show Changes"
 msgstr ""
 
-#: dialogs/CharacterGeneral.cpp:59 dialogs/FormattingPreview.cpp:38
+#: dialogs/CharacterGeneral.cpp:60 dialogs/FormattingPreview.cpp:38
 #, kde-format
 msgid "Font"
 msgstr "Шрыфт"
 
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
-#: dialogs/CharacterGeneral.ui:27
+#: dialogs/CharacterGeneral.ui:33
 #, kde-format
 msgid "General"
 msgstr "Агульныя"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: dialogs/CharacterGeneral.ui:33
+#: dialogs/CharacterGeneral.ui:39
 #| msgid "Name:"
 msgctxt "Name of the style"
 msgid "Name:"
 msgstr "Назва:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: dialogs/CharacterGeneral.ui:46
+#: dialogs/CharacterGeneral.ui:52
 #| msgid "Style"
 msgid "Next style:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: dialogs/CharacterGeneral.ui:62
+#: dialogs/CharacterGeneral.ui:68
 #| msgid "Style"
 msgid "Parent style:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, inToc)
-#: dialogs/CharacterGeneral.ui:78
+#: dialogs/CharacterGeneral.ui:84
 #, kde-format
 msgid "Include in table of contents"
 msgstr ""
@@ -476,12 +474,12 @@ msgstr "Ніжні рэгістр"
 msgid "Capitalize"
 msgstr ""
 
-#: dialogs/CharacterHighlighting.cpp:310 TextTool.cpp:279
+#: dialogs/CharacterHighlighting.cpp:310 TextTool.cpp:280
 #, kde-format
 msgid "Superscript"
 msgstr "Верхні індэкс"
 
-#: dialogs/CharacterHighlighting.cpp:311 TextTool.cpp:285
+#: dialogs/CharacterHighlighting.cpp:311 TextTool.cpp:286
 #, kde-format
 msgid "Subscript"
 msgstr "Ніжні індэкс"
@@ -494,6 +492,7 @@ msgstr "Колер тэксту:"
 
 #. i18n: ectx: property (text), widget (QLabel, backgroundColorLabel)
 #: dialogs/CharacterHighlighting.ui:71 dialogs/FontDecorations.ui:69
+#: dialogs/ParagraphDecorations.ui:15
 #, kde-format
 msgid "Background color:"
 msgstr "Фонавы колер:"
@@ -528,7 +527,7 @@ msgstr "Пазіцыя:"
 msgid "Select"
 msgstr "Абраць"
 
-#: dialogs/CitationInsertionDialog.cpp:40 dialogs/StyleManager.cpp:431
+#: dialogs/CitationInsertionDialog.cpp:40 dialogs/StyleManager.cpp:442
 #, kde-format
 msgid "Warning"
 msgstr "Папярэджанне"
@@ -976,7 +975,7 @@ msgstr "Шрыфт"
 #. i18n: ectx: property (text), widget (FormattingButton, addBibliography)
 #. i18n: ectx: property (windowTitle), widget (QDialog, InsertBibliographyDialog)
 #: dialogs/InsertBibliographyDialog.ui:17
-#: dialogs/SimpleCitationBibliographyWidget.ui:36 ReferencesTool.cpp:164
+#: dialogs/SimpleCitationBibliographyWidget.ui:39 ReferencesTool.cpp:162
 #| msgid "Insert"
 msgid "Insert Bibliography"
 msgstr ""
@@ -1090,7 +1089,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonInsert)
 #: dialogs/InsertCharacter.cpp:26 dialogs/ManageBookmark.ui:34
-#: ReferencesTool.cpp:116 TextTool.cpp:2260
+#: ReferencesTool.cpp:114 TextTool.cpp:2261
 #, kde-format
 msgid "Insert"
 msgstr "Знак устаўляння"
@@ -1107,28 +1106,28 @@ msgstr "Закрыць"
 msgid "Quick search:"
 msgstr ""
 
-#: dialogs/LinkInsertionDialog.cpp:70 dialogs/LinkInsertionDialog.cpp:151
-#: dialogs/LinkInsertionDialog.cpp:185 dialogs/LinkInsertionDialog.cpp:277
+#: dialogs/LinkInsertionDialog.cpp:71 dialogs/LinkInsertionDialog.cpp:152
+#: dialogs/LinkInsertionDialog.cpp:186 dialogs/LinkInsertionDialog.cpp:278
 #, kde-format
 msgid "The URL is invalid"
 msgstr ""
 
-#: dialogs/LinkInsertionDialog.cpp:87
+#: dialogs/LinkInsertionDialog.cpp:88
 #, kde-format
 msgid "Bookmark does not exist"
 msgstr ""
 
-#: dialogs/LinkInsertionDialog.cpp:189
+#: dialogs/LinkInsertionDialog.cpp:190
 #, no-c-format, kde-format
 msgid "Fetching the title: 0% complete"
 msgstr ""
 
-#: dialogs/LinkInsertionDialog.cpp:212
+#: dialogs/LinkInsertionDialog.cpp:213
 #, kde-format
 msgid "Fetch timed out"
 msgstr ""
 
-#: dialogs/LinkInsertionDialog.cpp:266
+#: dialogs/LinkInsertionDialog.cpp:267
 #, no-c-format, kde-format
 msgid "Fetching the title: %1% complete"
 msgstr ""
@@ -1216,10 +1215,8 @@ msgid " Name:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QWidget, ParagraphIndentSpacing)
-#. i18n: ectx: property (whatsThis), widget (QGroupBox)
 #. i18n: ectx: property (whatsThis), widget (QWidget, ListLevelWidget)
 #: dialogs/ListLevelWidget.ui:14 dialogs/ParagraphIndentSpacing.ui:14
-#: dialogs/ParagraphIndentSpacing.ui:97
 #, kde-format
 msgid "<p><ul><li><b>Single</b>: The normal linespacing</li></ul></p> "
 msgstr ""
@@ -1268,21 +1265,21 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, left)
 #. i18n: ectx: property (text), item, widget (QComboBox, alignment)
-#: dialogs/ListLevelWidget.ui:204 dialogs/ParagraphLayout.ui:23
+#: dialogs/ListLevelWidget.ui:204 dialogs/ParagraphLayout.ui:22
 #, kde-format
 msgid "Left"
 msgstr "Леваруч"
 
 #. i18n: ectx: property (text), widget (QRadioButton, center)
 #. i18n: ectx: property (text), item, widget (QComboBox, alignment)
-#: dialogs/ListLevelWidget.ui:209 dialogs/ParagraphLayout.ui:30
+#: dialogs/ListLevelWidget.ui:209 dialogs/ParagraphLayout.ui:29
 #, kde-format
 msgid "Center"
 msgstr "Пасярэдзіне"
 
 #. i18n: ectx: property (text), widget (QRadioButton, right)
 #. i18n: ectx: property (text), item, widget (QComboBox, alignment)
-#: dialogs/ListLevelWidget.ui:214 dialogs/ParagraphLayout.ui:37
+#: dialogs/ListLevelWidget.ui:214 dialogs/ParagraphLayout.ui:36
 #, kde-format
 msgid "Right"
 msgstr "Праваруч"
@@ -1372,7 +1369,7 @@ msgstr "Уставіць закладку"
 msgid "Please provide a name for the bookmark"
 msgstr ""
 
-#: dialogs/ManageBookmarkDialog.cpp:129 ReferencesTool.cpp:195
+#: dialogs/ManageBookmarkDialog.cpp:129 ReferencesTool.cpp:193
 #| msgid "Bookmarks"
 msgid "Manage Bookmarks"
 msgstr ""
@@ -1554,8 +1551,9 @@ msgstr ""
 msgid "Start at:"
 msgstr "Пачаць ад каталога:"
 
+#. i18n: ectx: property (text), widget (QLabel, distanceLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: dialogs/ParagraphBulletsNumbers.ui:57
+#: dialogs/ParagraphBulletsNumbers.ui:57 dialogs/ParagraphLayout.ui:15
 #| msgid "Align Left"
 msgid "Alignment:"
 msgstr "Выраўноўванне:"
@@ -1648,43 +1646,38 @@ msgstr "Вышыня"
 msgid "Browse..."
 msgstr "Агляд..."
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: dialogs/ParagraphDecorations.ui:31 TextTool.cpp:381
+#: dialogs/ParagraphDecorations.cpp:18
 #| msgid "Background color:"
-msgid "Background"
-msgstr "Фон"
+msgctxt "@action:button"
+msgid "Reset background color"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, backgroundColorLabel)
-#: dialogs/ParagraphDecorations.ui:65
+#. i18n: ectx: property (toolTip), widget (QToolButton, resetBackgroundColor)
+#: dialogs/ParagraphDecorations.ui:36
 #| msgid "Background color:"
-msgid "Background color"
-msgstr "Колер фону"
+msgid "Reset background color"
+msgstr ""
 
-#: dialogs/ParagraphDropCaps.cpp:20
+#: dialogs/ParagraphDropCaps.cpp:22
 #, kde-format
 msgid "Whole Word"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: dialogs/ParagraphDropCaps.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, capsState)
+#: dialogs/ParagraphDropCaps.ui:15
 #, kde-format
-msgid "Drop caps:"
+msgid "Enable drop caps"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: dialogs/ParagraphDropCaps.ui:84
+#. i18n: ectx: property (text), widget (QLabel, distanceLabel)
+#. i18n: ectx: property (text), widget (QLabel, charactersLabel)
+#: dialogs/ParagraphDropCaps.ui:22 dialogs/ParagraphDropCaps.ui:42
 #| msgid "Insert"
 msgid "Distance to paragraph:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: dialogs/ParagraphDropCaps.ui:94
-#| msgid "Create"
-msgid "Number of characters:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: dialogs/ParagraphDropCaps.ui:104
+#. i18n: ectx: property (text), widget (QLabel, linesLabel)
+#: dialogs/ParagraphDropCaps.ui:71
 #| msgid "Create"
 msgid "Number of lines it covers:"
 msgstr ""
@@ -1714,152 +1707,134 @@ msgstr ""
 msgid "Drop Caps"
 msgstr ""
 
-#: dialogs/ParagraphIndentSpacing.cpp:25
+#: dialogs/ParagraphIndentSpacing.cpp:28
 #, kde-format
 msgctxt "Line spacing value"
 msgid "Single"
 msgstr "Адзін"
 
-#: dialogs/ParagraphIndentSpacing.cpp:26
+#: dialogs/ParagraphIndentSpacing.cpp:29
 #, kde-format
 msgctxt "Line spacing value"
 msgid "1.5 Lines"
 msgstr ""
 
-#: dialogs/ParagraphIndentSpacing.cpp:27
+#: dialogs/ParagraphIndentSpacing.cpp:30
 #, kde-format
 msgctxt "Line spacing value"
 msgid "Double"
 msgstr "Падвойны"
 
-#: dialogs/ParagraphIndentSpacing.cpp:28
+#: dialogs/ParagraphIndentSpacing.cpp:31
 #| msgid "Position"
 msgctxt "Line spacing type"
 msgid "Proportional"
 msgstr "Прапарцыйна"
 
-#: dialogs/ParagraphIndentSpacing.cpp:29
+#: dialogs/ParagraphIndentSpacing.cpp:32
 #| msgid "Position"
 msgctxt "Line spacing type"
 msgid "Additional"
 msgstr "Дадатковыя"
 
-#: dialogs/ParagraphIndentSpacing.cpp:30
+#: dialogs/ParagraphIndentSpacing.cpp:33
 #, kde-format
 msgctxt "Line spacing type"
 msgid "Fixed"
 msgstr "Фіксаваная"
 
-#: dialogs/ParagraphIndentSpacing.cpp:31
+#: dialogs/ParagraphIndentSpacing.cpp:34
 #, kde-format
 msgctxt "Line spacing type"
 msgid "At least"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: dialogs/ParagraphIndentSpacing.ui:20
+#. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:22
 #| msgid "Insert"
-msgid "Indent"
-msgstr "Водступ"
-
-#. i18n: ectx: property (text), widget (QLabel)
-#: dialogs/ParagraphIndentSpacing.ui:26
-#| msgid "Left"
-msgid "Left:"
+msgid "Left Indent:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel)
-#: dialogs/ParagraphIndentSpacing.ui:55
-#| msgid "Right"
-msgid "Right:"
+#: dialogs/ParagraphIndentSpacing.ui:35
+#| msgid "Insert"
+msgid "Right Indent:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel)
-#: dialogs/ParagraphIndentSpacing.ui:71
-#, kde-format
-msgid "First Line:"
+#: dialogs/ParagraphIndentSpacing.ui:48
+#| msgid "Font Size"
+msgid "First Line Indent:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, autoTextIndent)
-#: dialogs/ParagraphIndentSpacing.ui:87
+#: dialogs/ParagraphIndentSpacing.ui:66
 #, kde-format
 msgid "Auto-infer from text size"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: dialogs/ParagraphIndentSpacing.ui:100
+#. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:75
 #, kde-format
-msgid "Line Spacing"
+msgid "Line Spacing:"
 msgstr ""
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, proportional)
-#: dialogs/ParagraphIndentSpacing.ui:134
+#. i18n: ectx: property (suffix), widget (QSpinBox, percentPage)
+#: dialogs/ParagraphIndentSpacing.ui:107
 #, no-c-format, kde-format
 msgid " %"
 msgstr " %"
 
-#. i18n: ectx: property (text), widget (QLabel)
-#: dialogs/ParagraphIndentSpacing.ui:180
+#. i18n: ectx: property (text), widget (QCheckBox, useFont)
+#: dialogs/ParagraphIndentSpacing.ui:129
 #, kde-format
-msgid "Use Font Metrics:"
+msgid "Use Font Metrics"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: dialogs/ParagraphIndentSpacing.ui:202
+#. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:136
 #| msgid "Insert"
-msgid "Paragraph Space"
+msgid "Paragraph Space Before:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel)
-#: dialogs/ParagraphIndentSpacing.ui:208
-#, kde-format
-msgid "Before:"
+#: dialogs/ParagraphIndentSpacing.ui:146
+#| msgid "Insert"
+msgid "Paragraph Space After:"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel)
-#: dialogs/ParagraphIndentSpacing.ui:221
-#, kde-format
-msgid "After:"
-msgstr "Пасля:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: dialogs/ParagraphLayout.ui:17
-#| msgid "Align Center"
-msgid "Alignment"
-msgstr "Выраўніванне"
 
 #. i18n: ectx: property (text), widget (QRadioButton, justify)
-#: dialogs/ParagraphLayout.ui:44
+#: dialogs/ParagraphLayout.ui:43
 #, kde-format
 msgid "Justify"
 msgstr "Выраўнаваць"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: dialogs/ParagraphLayout.ui:54
+#. i18n: ectx: property (text), widget (QLabel, distanceLabel)
+#: dialogs/ParagraphLayout.ui:50
 #, kde-format
-msgid "Behavior at End of Frame/Page"
+msgid "Behavior at end of frame and page:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, keepTogether)
-#: dialogs/ParagraphLayout.ui:60
+#: dialogs/ParagraphLayout.ui:57
 #, kde-format
 msgid "Keep lines together"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, breakBefore)
-#: dialogs/ParagraphLayout.ui:67
+#: dialogs/ParagraphLayout.ui:64
 #| msgid "Insert"
 msgid "Insert break before paragraph"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, breakAfter)
-#: dialogs/ParagraphLayout.ui:74
+#: dialogs/ParagraphLayout.ui:71
 #| msgid "Insert"
 msgid "Insert break after paragraph"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: dialogs/ParagraphLayout.ui:83
+#: dialogs/ParagraphLayout.ui:78
 #, kde-format
 msgid "Leave at least this many lines (orphans):"
 msgstr ""
@@ -1920,13 +1895,13 @@ msgid "after end of section:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, insertAnnotation)
-#: dialogs/SimpleAnnotationWidget.ui:29
+#: dialogs/SimpleAnnotationWidget.ui:32
 #| msgid "Insert"
 msgid "Insert Note"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, removeAnnotation)
-#: dialogs/SimpleAnnotationWidget.ui:39
+#: dialogs/SimpleAnnotationWidget.ui:42
 #| msgid "Insert"
 msgid "Remove Note"
 msgstr ""
@@ -1943,19 +1918,19 @@ msgid "Change font format"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, addCitation)
-#: dialogs/SimpleCitationBibliographyWidget.ui:23
+#: dialogs/SimpleCitationBibliographyWidget.ui:26
 #, kde-format
 msgid "Insert citation at current position"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, addCitation)
-#: dialogs/SimpleCitationBibliographyWidget.ui:26 ReferencesTool.cpp:159
+#: dialogs/SimpleCitationBibliographyWidget.ui:29 ReferencesTool.cpp:157
 #| msgid "Insert"
 msgid "Insert Citation"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, configureBibliography)
-#: dialogs/SimpleCitationBibliographyWidget.ui:55
+#: dialogs/SimpleCitationBibliographyWidget.ui:58
 #| msgid "Insert"
 msgid "Configure Bibliography"
 msgstr ""
@@ -1995,7 +1970,7 @@ msgid "Hyperlinks"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (FormattingButton, invokeBookmarkHandler)
-#: dialogs/SimpleLinksWidget.ui:44 ReferencesTool.cpp:191
+#: dialogs/SimpleLinksWidget.ui:44 ReferencesTool.cpp:189
 #| msgid "Bookmarks"
 msgid "Bookmarks"
 msgstr "Закладкі"
@@ -2017,7 +1992,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bDelete)
 #: dialogs/SimpleParagraphWidget.cpp:301 dialogs/SimpleParagraphWidget.cpp:356
-#: dialogs/StyleManager.ui:75 TextTool.cpp:2639
+#: dialogs/StyleManager.ui:104 TextTool.cpp:2640
 #, kde-format
 msgid "Delete"
 msgstr "Выдаліць"
@@ -2059,13 +2034,13 @@ msgstr "Змесціва"
 msgid "Set Border Color..."
 msgstr ""
 
-#: dialogs/SimpleTableWidget.cpp:169
+#: dialogs/SimpleTableWidget.cpp:173
 #| msgid "None"
 msgctxt "No border - has to fit in 48pixels"
 msgid "None"
 msgstr "Няма"
 
-#: dialogs/SimpleTableWidget.cpp:170
+#: dialogs/SimpleTableWidget.cpp:174
 #, kde-format
 msgid "No Border"
 msgstr ""
@@ -2075,45 +2050,45 @@ msgstr ""
 msgid "Create a new style inheriting the current style"
 msgstr ""
 
-#: dialogs/StyleManager.cpp:342 dialogs/StyleManager.cpp:355
+#: dialogs/StyleManager.cpp:344 dialogs/StyleManager.cpp:357
 #| msgid "Style"
 msgid "New Style"
 msgstr ""
 
-#: dialogs/StyleManager.cpp:431
+#: dialogs/StyleManager.cpp:442
 #, kde-format
 msgid "Another style named '%1' already exist. Please choose another name."
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QListView, paragraphStylesListView)
-#: dialogs/StyleManager.ui:46 TextTool.cpp:2252
+#: dialogs/StyleManager.ui:52 TextTool.cpp:2253
 #| msgid "Insert"
 msgid "Paragraph"
 msgstr "Абзац"
 
 #. i18n: ectx: attribute (title), widget (QListView, characterStylesListView)
-#: dialogs/StyleManager.ui:60 TextTool.cpp:2250
+#: dialogs/StyleManager.ui:66 TextTool.cpp:2251
 #| msgid "Create"
 msgid "Character"
 msgstr "Знак"
 
 #. i18n: ectx: property (text), widget (QPushButton, bNew)
-#: dialogs/StyleManager.ui:68
+#: dialogs/StyleManager.ui:97
 #, kde-format
 msgid "&New"
 msgstr "&Новы"
 
-#: dialogs/StyleManagerDialog.cpp:20
+#: dialogs/StyleManagerDialog.cpp:23
 #, kde-format
 msgid "Style Manager"
 msgstr ""
 
-#: dialogs/StyleManagerDialog.cpp:50
+#: dialogs/StyleManagerDialog.cpp:53
 #| msgid "Record"
 msgid "Save Changes"
 msgstr "Захаваць змены"
 
-#: dialogs/StyleManagerDialog.cpp:51
+#: dialogs/StyleManagerDialog.cpp:54
 #, kde-format
 msgid "You have changes that are not applied. What do you want to do with those changes?"
 msgstr ""
@@ -2212,7 +2187,7 @@ msgstr ""
 msgid "Use styles"
 msgstr ""
 
-#: dialogs/TableOfContentsConfigure.cpp:66 ReferencesTool.cpp:172
+#: dialogs/TableOfContentsConfigure.cpp:66 ReferencesTool.cpp:170
 #| msgid "General"
 msgid "Configure"
 msgstr "Наладжванне"
@@ -2304,168 +2279,168 @@ msgstr "Адключана"
 msgid "Table Of Contents"
 msgstr ""
 
-#: ReferencesTool.cpp:118
+#: ReferencesTool.cpp:116
 #| msgid "Insert"
 msgid "Insert a Table of Contents into the document."
 msgstr ""
 
-#: ReferencesTool.cpp:120 TextTool.cpp:406
+#: ReferencesTool.cpp:118 TextTool.cpp:407
 #| msgid "Insert"
 msgid "Insert Custom..."
 msgstr ""
 
-#: ReferencesTool.cpp:122
+#: ReferencesTool.cpp:120
 #| msgid "Insert"
 msgid "Insert a custom Table of Contents into the document."
 msgstr ""
 
-#: ReferencesTool.cpp:124
+#: ReferencesTool.cpp:122
 #, kde-format
 msgid "Configure..."
 msgstr "Наладзіць..."
 
-#: ReferencesTool.cpp:126
+#: ReferencesTool.cpp:124
 #, kde-format
 msgid "Configure the Table of Contents"
 msgstr ""
 
-#: ReferencesTool.cpp:129
+#: ReferencesTool.cpp:127
 #| msgid "Insert"
 msgid "Insert footnote with auto number"
 msgstr ""
 
-#: ReferencesTool.cpp:134
+#: ReferencesTool.cpp:132
 #| msgid "Insert"
 msgid "Insert Labeled Footnote"
 msgstr ""
 
-#: ReferencesTool.cpp:135 ReferencesTool.cpp:146
+#: ReferencesTool.cpp:133 ReferencesTool.cpp:144
 #| msgid "Insert"
 msgid "Insert with label:"
 msgstr ""
 
-#: ReferencesTool.cpp:140
+#: ReferencesTool.cpp:138
 #| msgid "Insert"
 msgid "Insert endnote with auto number"
 msgstr ""
 
-#: ReferencesTool.cpp:145
+#: ReferencesTool.cpp:143
 #| msgid "Insert"
 msgid "Insert Labeled Endnote"
 msgstr ""
 
-#: ReferencesTool.cpp:151 ReferencesTool.cpp:155
+#: ReferencesTool.cpp:149 ReferencesTool.cpp:153
 #| msgid "General"
 msgid "Settings..."
 msgstr "Налады..."
 
-#: ReferencesTool.cpp:161
+#: ReferencesTool.cpp:159
 #| msgid "Insert"
 msgid "Insert a citation into the document."
 msgstr ""
 
-#: ReferencesTool.cpp:166
+#: ReferencesTool.cpp:164
 #| msgid "Insert"
 msgid "Insert a bibliography into the document."
 msgstr ""
 
-#: ReferencesTool.cpp:168
+#: ReferencesTool.cpp:166
 #| msgid "Insert"
 msgid "Insert Custom Bibliography"
 msgstr ""
 
-#: ReferencesTool.cpp:170
+#: ReferencesTool.cpp:168
 #| msgid "Insert"
 msgid "Insert a custom Bibliography into the document."
 msgstr ""
 
-#: ReferencesTool.cpp:174
+#: ReferencesTool.cpp:172
 #| msgid "Insert"
 msgid "Configure the bibliography"
 msgstr ""
 
-#: ReferencesTool.cpp:177
+#: ReferencesTool.cpp:175
 #| msgid "Insert"
 msgid "Insert Link"
 msgstr "Уставіць спасылку"
 
-#: ReferencesTool.cpp:179
+#: ReferencesTool.cpp:177
 #, kde-format
 msgid "Insert a weblink or link to a bookmark."
 msgstr ""
 
-#: ReferencesTool.cpp:183
+#: ReferencesTool.cpp:181
 #| msgid "Bookmarks"
 msgid "Add Bookmark"
 msgstr "Дадаць закладку"
 
-#: ReferencesTool.cpp:184
+#: ReferencesTool.cpp:182
 #| msgid "Bookmarks"
 msgid "Add Bookmark :"
 msgstr ""
 
-#: ReferencesTool.cpp:189
+#: ReferencesTool.cpp:187
 #, kde-format
 msgid "Insert a Bookmark. This is useful to create links that point to areas within the document"
 msgstr ""
 
-#: ReferencesTool.cpp:193
+#: ReferencesTool.cpp:191
 #, kde-format
 msgid "Display a pop up that hosts the options to add new Bookmark or handle existing Bookmarks"
 msgstr ""
 
-#: ReferencesTool.cpp:197
+#: ReferencesTool.cpp:195
 #, kde-format
 msgid "Manage your Bookmarks. Check where are they pointing to, Delete or Rename."
 msgstr ""
 
-#: ReferencesTool.cpp:232
+#: ReferencesTool.cpp:230
 #, kde-format
 msgctxt "as in table of contents, list of pictures, index"
 msgid "Tables, Lists & Indexes"
 msgstr ""
 
-#: ReferencesTool.cpp:235
+#: ReferencesTool.cpp:233
 #, kde-format
 msgid "Footnotes and Endnotes"
 msgstr ""
 
-#: ReferencesTool.cpp:238
+#: ReferencesTool.cpp:236
 #| msgid "Insert"
 msgid "Citations and Bibliography"
 msgstr ""
 
-#: ReferencesTool.cpp:241
+#: ReferencesTool.cpp:239
 #| msgid "Bookmarks"
 msgid "Links and Bookmarks"
 msgstr ""
 
-#: ReferencesTool.cpp:366
+#: ReferencesTool.cpp:364
 #, kde-format
 msgid "Bookmark cannot be empty"
 msgstr ""
 
-#: ReferencesTool.cpp:373
+#: ReferencesTool.cpp:371
 #, kde-format
 msgid "Duplicate Name. Click \"Manage Bookmarks\""
 msgstr ""
 
-#: ReferencesTool.cpp:374
+#: ReferencesTool.cpp:372
 #| msgid "Bookmarks"
 msgid "to Rename or Delete Bookmarks"
 msgstr ""
 
-#: ReviewTool.cpp:53 ReviewTool.cpp:54
+#: ReviewTool.cpp:51 ReviewTool.cpp:52
 #| msgid "Insert"
 msgid "Remove Comment"
 msgstr ""
 
-#: ReviewTool.cpp:98
+#: ReviewTool.cpp:96
 #, kde-format
 msgid "Spell check"
 msgstr ""
 
-#: ReviewTool.cpp:101
+#: ReviewTool.cpp:99
 #| msgid "Insert"
 msgid "Comments"
 msgstr "Каментары"
@@ -2490,420 +2465,425 @@ msgstr ""
 msgid "Text Shape"
 msgstr ""
 
-#: TextTool.cpp:202
+#: TextTool.cpp:203
 #| msgid "Delete"
 msgid "Configure current section"
 msgstr ""
 
-#: TextTool.cpp:206
+#: TextTool.cpp:207
 #| msgid "Insert"
 msgid "Insert new section"
 msgstr ""
 
-#: TextTool.cpp:210
+#: TextTool.cpp:211
 #| msgid "Insert"
 msgid "Insert paragraph between sections"
 msgstr ""
 
-#: TextTool.cpp:214
+#: TextTool.cpp:215
 #, kde-format
 msgid "Paste As Text"
 msgstr ""
 
-#: TextTool.cpp:219
+#: TextTool.cpp:220
 #, kde-format
 msgid "Bold"
 msgstr "Тоўсты"
 
-#: TextTool.cpp:225
+#: TextTool.cpp:226
 #, kde-format
 msgid "Italic"
 msgstr "Курсіў"
 
-#: TextTool.cpp:231
+#: TextTool.cpp:232
 #| msgid "Underline"
 msgctxt "Text formatting"
 msgid "Underline"
 msgstr "Падкрэсліванне"
 
-#: TextTool.cpp:237
+#: TextTool.cpp:238
 #| msgid "Strike Out"
 msgid "Strikethrough"
 msgstr "Закрэслены"
 
-#: TextTool.cpp:243
+#: TextTool.cpp:244
 #, kde-format
 msgid "Align Left"
 msgstr "Па левым боку"
 
-#: TextTool.cpp:250
+#: TextTool.cpp:251
 #, kde-format
 msgid "Align Right"
 msgstr "Па правым боку"
 
-#: TextTool.cpp:257
+#: TextTool.cpp:258
 #, kde-format
 msgid "Align Center"
 msgstr "Па цэнтры"
 
-#: TextTool.cpp:265
+#: TextTool.cpp:266
 #, kde-format
 msgid "Align Block"
 msgstr "Па шырыні"
 
-#: TextTool.cpp:272
+#: TextTool.cpp:273
 #, kde-format
 msgid "Change text direction"
 msgstr ""
 
-#: TextTool.cpp:274
+#: TextTool.cpp:275
 #, kde-format
 msgid "Change writing direction"
 msgstr ""
 
-#: TextTool.cpp:293
+#: TextTool.cpp:294
 #| msgid "Font Size"
 msgid "Increase Indent"
 msgstr "Павялічыць водступ"
 
-#: TextTool.cpp:299
+#: TextTool.cpp:300
 #| msgid "Font Size"
 msgid "Decrease Indent"
 msgstr "Паменшыць водступ"
 
-#: TextTool.cpp:303
+#: TextTool.cpp:304
 #, kde-format
 msgid "Toggle List or List Level Formatting"
 msgstr ""
 
-#: TextTool.cpp:304
+#: TextTool.cpp:305
 #, kde-format
 msgid "Toggle list on/off, or change format of current level"
 msgstr ""
 
-#: TextTool.cpp:307
+#: TextTool.cpp:308
 #| msgid "Font Size"
 msgid "Increase Font Size"
 msgstr "Павялічыць памер шрыфту"
 
-#: TextTool.cpp:312
+#: TextTool.cpp:313
 #| msgid "Font Size"
 msgid "Decrease Font Size"
 msgstr "Паменшыць памер шрыфту"
 
-#: TextTool.cpp:318
+#: TextTool.cpp:319
 #| msgid "Layout"
 msgid "Font Family"
 msgstr "Сямейства шрыфтоў"
 
-#: TextTool.cpp:322
+#: TextTool.cpp:323
 #| msgid "Distance:"
 msgid "Variable"
 msgstr "Зменная"
 
-#: TextTool.cpp:326
+#: TextTool.cpp:327
 #, kde-format
 msgid "Insert Non-Breaking Space"
 msgstr ""
 
-#: TextTool.cpp:331
+#: TextTool.cpp:332
 #| msgid "Insert"
 msgid "Insert Non-Breaking Hyphen"
 msgstr ""
 
-#: TextTool.cpp:336
+#: TextTool.cpp:337
 #| msgid "Insert"
 msgid "Insert Index"
 msgstr ""
 
-#: TextTool.cpp:341
+#: TextTool.cpp:342
 #| msgid "Insert"
 msgid "Insert Soft Hyphen"
 msgstr ""
 
-#: TextTool.cpp:347
+#: TextTool.cpp:348
 #, kde-format
 msgid "Line Break"
 msgstr ""
 
-#: TextTool.cpp:352
+#: TextTool.cpp:353
 #, kde-format
 msgid "Page Break"
 msgstr ""
 
-#: TextTool.cpp:356
+#: TextTool.cpp:357
 #| msgid "Insert"
 msgid "Insert a page break"
 msgstr ""
 
-#: TextTool.cpp:357
+#: TextTool.cpp:358
 #, kde-format
 msgid "All text after this point will be moved into the next page."
 msgstr ""
 
-#: TextTool.cpp:360
+#: TextTool.cpp:361
 #| msgid "Font"
 msgid "Font..."
 msgstr ""
 
-#: TextTool.cpp:363
+#: TextTool.cpp:364
 #, kde-format
 msgid "Change character size, font, boldface, italics etc."
 msgstr ""
 
-#: TextTool.cpp:364
+#: TextTool.cpp:365
 #, kde-format
 msgid "Change the attributes of the currently selected characters."
 msgstr ""
 
-#: TextTool.cpp:367
+#: TextTool.cpp:368
 #, kde-format
 msgid "Font Size"
 msgstr "Памер шрыфту"
 
-#: TextTool.cpp:373
+#: TextTool.cpp:374
 #| msgid "Text color:"
 msgid "Text Color..."
 msgstr "Колер тэксту..."
 
-#: TextTool.cpp:374
+#: TextTool.cpp:375
 #| msgid "Text color:"
 msgid "Text Color"
 msgstr ""
 
-#: TextTool.cpp:380
+#: TextTool.cpp:381
 #| msgid "Background color:"
 msgid "Background Color..."
 msgstr ""
 
-#: TextTool.cpp:385
+#: TextTool.cpp:382
+#| msgid "Background color:"
+msgid "Background"
+msgstr "Фон"
+
+#: TextTool.cpp:386
 #, kde-format
 msgid "Auto Resize To Content"
 msgstr ""
 
-#: TextTool.cpp:390
+#: TextTool.cpp:391
 #, kde-format
 msgid "Grow To Fit Width"
 msgstr ""
 
-#: TextTool.cpp:395
+#: TextTool.cpp:396
 #, kde-format
 msgid "Grow To Fit Height"
 msgstr ""
 
-#: TextTool.cpp:400
+#: TextTool.cpp:401
 #, kde-format
 msgid "Shrink To Fit"
 msgstr ""
 
-#: TextTool.cpp:408
+#: TextTool.cpp:409
 #| msgid "Insert"
 msgid "Insert a table into the document."
 msgstr ""
 
-#: TextTool.cpp:411
+#: TextTool.cpp:412
 #| msgid "Insert"
 msgid "Row Above"
 msgstr ""
 
-#: TextTool.cpp:412
+#: TextTool.cpp:413
 #| msgid "Insert"
 msgid "Insert Row Above"
 msgstr ""
 
-#: TextTool.cpp:416
+#: TextTool.cpp:417
 #| msgid "Insert"
 msgid "Row Below"
 msgstr ""
 
-#: TextTool.cpp:417
+#: TextTool.cpp:418
 #| msgid "Insert"
 msgid "Insert Row Below"
 msgstr ""
 
-#: TextTool.cpp:421
+#: TextTool.cpp:422
 #| msgid "Align Left"
 msgid "Column Left"
 msgstr ""
 
-#: TextTool.cpp:422
+#: TextTool.cpp:423
 #| msgid "Insert"
 msgid "Insert Column Left"
 msgstr ""
 
-#: TextTool.cpp:426
+#: TextTool.cpp:427
 #| msgid "Align Right"
 msgid "Column Right"
 msgstr ""
 
-#: TextTool.cpp:427
+#: TextTool.cpp:428
 #| msgid "Insert"
 msgid "Insert Column Right"
 msgstr ""
 
-#: TextTool.cpp:431
+#: TextTool.cpp:432
 #| msgid "Align Left"
 msgid "Column"
 msgstr "Слупок"
 
-#: TextTool.cpp:432
+#: TextTool.cpp:433
 #| msgid "Delete"
 msgid "Delete Column"
 msgstr ""
 
-#: TextTool.cpp:436
+#: TextTool.cpp:437
 #, kde-format
 msgid "Row"
 msgstr ""
 
-#: TextTool.cpp:437
+#: TextTool.cpp:438
 #| msgid "Delete"
 msgid "Delete Row"
 msgstr ""
 
-#: TextTool.cpp:441
+#: TextTool.cpp:442
 #, kde-format
 msgid "Merge Cells"
 msgstr ""
 
-#: TextTool.cpp:445
+#: TextTool.cpp:446
 #| msgid "Delete"
 msgid "Split Cells"
 msgstr ""
 
-#: TextTool.cpp:450
+#: TextTool.cpp:451
 #, kde-format
 msgid "Select a border style and paint that style onto a table"
 msgstr ""
 
-#: TextTool.cpp:454
+#: TextTool.cpp:455
 #| msgid "Insert"
 msgid "Paragraph..."
 msgstr ""
 
-#: TextTool.cpp:457
+#: TextTool.cpp:458
 #, kde-format
 msgid "Change paragraph margins, text flow, borders, bullets, numbering etc."
 msgstr ""
 
-#: TextTool.cpp:459
+#: TextTool.cpp:460
 #, kde-format
 msgid "<p>Change paragraph margins, text flow, borders, bullets, numbering etc.</p><p>Select text in multiple paragraphs to change the formatting of all selected paragraphs.</p><p>If no text is selected, the paragraph where the cursor is located will be changed.</p>"
 msgstr ""
 
-#: TextTool.cpp:463
+#: TextTool.cpp:464
 #, kde-format
 msgid "Style Manager..."
 msgstr ""
 
-#: TextTool.cpp:465
+#: TextTool.cpp:466
 #, kde-format
 msgid "Change attributes of styles"
 msgstr ""
 
-#: TextTool.cpp:466
+#: TextTool.cpp:467
 #, kde-format
 msgid "<p>Change font and paragraph attributes of styles.</p><p>Multiple styles can be changed using the dialog box.</p>"
 msgstr ""
 
-#: TextTool.cpp:473
+#: TextTool.cpp:474
 #| msgid "Create"
 msgid "Special Character..."
 msgstr ""
 
-#: TextTool.cpp:477
+#: TextTool.cpp:478
 #, kde-format
 msgid "Insert one or more symbols or characters not found on the keyboard"
 msgstr ""
 
-#: TextTool.cpp:478
+#: TextTool.cpp:479
 #, kde-format
 msgid "Insert one or more symbols or characters not found on the keyboard."
 msgstr ""
 
-#: TextTool.cpp:481
+#: TextTool.cpp:482
 #, kde-format
 msgid "Repaint"
 msgstr ""
 
-#: TextTool.cpp:486
+#: TextTool.cpp:487
 #| msgid "Insert"
 msgid "Insert Comment"
 msgstr ""
 
-#: TextTool.cpp:570
+#: TextTool.cpp:571
 #| msgid "Insert"
 msgid "Insertion"
 msgstr ""
 
-#: TextTool.cpp:572
+#: TextTool.cpp:573
 #| msgid "Delete"
 msgid "Deletion"
 msgstr ""
 
-#: TextTool.cpp:574
+#: TextTool.cpp:575
 #| msgid "Form"
 msgid "Formatting"
 msgstr "Фарматаванне"
 
-#: TextTool.cpp:589
+#: TextTool.cpp:590
 #, kde-format
 msgid "Ctrl+click to go to link "
 msgstr ""
 
-#: TextTool.cpp:596
+#: TextTool.cpp:597
 #, kde-format
 msgid "Ctrl+click to go to the note "
 msgstr ""
 
-#: TextTool.cpp:602
+#: TextTool.cpp:603
 #, kde-format
 msgid "Ctrl+click to go to the note reference"
 msgstr ""
 
-#: TextTool.cpp:698
+#: TextTool.cpp:699
 #, kde-format
 msgid "follows along"
 msgstr ""
 
-#: TextTool.cpp:728
+#: TextTool.cpp:729
 #, kde-format
 msgid "Press shift to not resize this"
 msgstr ""
 
-#: TextTool.cpp:929
+#: TextTool.cpp:930
 msgctxt "(qtundo-format)"
 msgid "Change Border Formatting"
 msgstr ""
 
-#: TextTool.cpp:1153
+#: TextTool.cpp:1154
 #| msgid "Custom"
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr "Выразаць"
 
-#: TextTool.cpp:1413
+#: TextTool.cpp:1414
 #| msgid "Insert"
 msgctxt "(qtundo-format)"
 msgid "Adjust Column Width"
 msgstr ""
 
-#: TextTool.cpp:1457
+#: TextTool.cpp:1458
 msgctxt "(qtundo-format)"
 msgid "Adjust Row Height"
 msgstr ""
 
-#: TextTool.cpp:2258
+#: TextTool.cpp:2259
 #| msgid "Tamil"
 msgid "Table"
 msgstr "Табліца"
 
-#: TextTool.cpp:2634 TextTool.cpp:2639
+#: TextTool.cpp:2635 TextTool.cpp:2640
 #| msgid "Insert"
 msgid "Autocorrection"
 msgstr "Аўтакарэкцыя"
 
-#: TextTool.cpp:2634
+#: TextTool.cpp:2635
 #, kde-format
 msgid "Key Press"
 msgstr "Націсканне кнопкі"
@@ -2912,6 +2892,29 @@ msgstr "Націсканне кнопкі"
 #| msgid "Position"
 msgid "Text editing"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Create"
+#~ msgid "Number of characters:"
+#~ msgstr "Стварыць"
+
+#, fuzzy
+#~| msgid "Align Center"
+#~ msgid "Alignment"
+#~ msgstr "Па цэнтры"
+
+#, fuzzy
+#~| msgid "Left"
+#~ msgid "Left:"
+#~ msgstr "Леваруч"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgid "Right:"
+#~ msgstr "Праваруч"
+
+#~ msgid "After:"
+#~ msgstr "Пасля:"
 
 #, fuzzy
 #~| msgid "Insert"
