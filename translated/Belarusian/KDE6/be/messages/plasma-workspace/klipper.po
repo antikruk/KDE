@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-09 00:41+0000\n"
-"PO-Revision-Date: 2024-08-11 21:06\n"
+"POT-Creation-Date: 2024-10-05 00:41+0000\n"
+"PO-Revision-Date: 2024-10-14 09:36\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -30,210 +30,214 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com, nashtlumach@gmail.com"
 
-#: configdialog.cpp:81
+#: configdialog.cpp:82
 #, kde-format
 msgid "Clipboard history:"
 msgstr "Гісторыя буфера абмену:"
 
-#: configdialog.cpp:87
-#, kde-format
+#: configdialog.cpp:88
+#| msgctxt "Number of entries"
+#| msgid " entry"
+#| msgid_plural " entries"
 msgctxt "Number of entries"
-msgid " entry"
-msgid_plural " entries"
-msgstr[0] " запіс"
-msgstr[1] " запісы"
-msgstr[2] " запісаў"
-msgstr[3] " запісы"
+msgid "%v entry"
+msgid_plural "%v entries"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: configdialog.cpp:96
+#: configdialog.cpp:97
 #, kde-format
 msgid "Selection and Clipboard:"
 msgstr "Абраныя элементы і буфер абмену:"
 
-#: configdialog.cpp:103
+#: configdialog.cpp:104
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "When text or an area of the screen is highlighted with the mouse or keyboard, this is the <emphasis>selection</emphasis>. It can be pasted using the middle mouse button.<nl/><nl/>If the selection is explicitly copied using a <interface>Copy</interface> or <interface>Cut</interface> action, it is saved to the <emphasis>clipboard</emphasis>. It can be pasted using a <interface>Paste</interface> action. <nl/><nl/>When turned on this option keeps the selection and the clipboard the same, so that any selection is immediately available to paste by any means. If it is turned off, the selection may still be saved in the clipboard history (subject to the options below), but it can only be pasted using the middle mouse button."
 msgstr "Калі тэкст або частка экрана абраныя мышшу або клавіятурай - гэта <emphasis>абраныя элементы</emphasis>. Іх можна ўставіць з дапамогай сярэдняй кнопкі мышы.<nl/><nl/>Калі абраныя элементы скапіяваныя з дапамогай дзеяння <interface>Капіяваць</interface> або <interface>Выразаць</interface>, яны захоўваюцца ў <emphasis>буферы абмену</emphasis>. Іх можна ўставіць з дапамогай дзеяння <interface>Уставіць</interface>. <nl/><nl/>Калі гэты параметр уключаны, абраныя элементы і буфер абмену будуць аднолькавымі, таму абраныя элементы можна адразу ўставіць любым спосабам. Калі ён адключаны, абраныя элементы ўсё яшчэ будуць захоўвацца ў гісторыі буфера абмену (з улікам параметраў ніжэй), але іх можна ўстаўляць толькі з дапамогай сярэдняй кнопкі мышы."
 
-#: configdialog.cpp:132 configdialog.cpp:170
+#: configdialog.cpp:133 configdialog.cpp:171
 #, kde-format
 msgid "Always save in history"
 msgstr "Заўсёды захоўваць у гісторыі"
 
-#: configdialog.cpp:136
+#: configdialog.cpp:137
 #, kde-format
 msgid "Text selection:"
 msgstr "Абраны тэкст:"
 
-#: configdialog.cpp:138 configdialog.cpp:176
+#: configdialog.cpp:139 configdialog.cpp:177
 #, kde-format
 msgid "Only when explicitly copied"
 msgstr "Толькі непасрэднае капіяванне"
 
-#: configdialog.cpp:143
+#: configdialog.cpp:144
 #, kde-format
 msgid "Whether text selections are saved in the clipboard history."
 msgstr "Захаванне абранага тэксту ў гісторыі буфера абмену."
 
-#: configdialog.cpp:174
+#: configdialog.cpp:175
 #, kde-format
 msgid "Non-text selection:"
 msgstr "Абраныя нетэкставыя элементы:"
 
-#: configdialog.cpp:181
+#: configdialog.cpp:182
 #, kde-format
 msgid "Never save in history"
 msgstr "Ніколі не захоўваць у гісторыі"
 
-#: configdialog.cpp:186
+#: configdialog.cpp:187
 #, kde-format
 msgid "Whether non-text selections (such as images) are saved in the clipboard history."
 msgstr "Захаванне нетэкставых абраных элементаў (напрыклад, выяў) у гісторыі буфера абмену."
 
-#: configdialog.cpp:260
+#: configdialog.cpp:261
 #, kde-format
 msgid "Show action popup menu:"
 msgstr "Паказ выплыўнога меню дзеянняў:"
 
-#: configdialog.cpp:270
+#: configdialog.cpp:271
 #, kde-kuit-format
 msgctxt "@info"
 msgid "When text that matches an action pattern is selected or is chosen from the clipboard history, automatically show the popup menu with applicable actions. If the automatic menu is turned off here, or it is not shown for an excluded window, then it can be shown by using the <shortcut>%1</shortcut> key shortcut."
 msgstr "Калі тэкст, які адпавядае шаблону дзеяння, абіраецца або бярэцца з гісторыі буфера абмену, будзе аўтаматычна паказвацца выплыўное меню з адпаведнымі дзеяннямі. Калі аўтаматычны вывад меню адключаны або дзеянне выконваецца з выключаным акном, то меню можна вывесці з дапамогай спалучэння клавіш <shortcut>%1</shortcut>."
 
-#: configdialog.cpp:279
+#: configdialog.cpp:280
 #, kde-format
 msgid "Exclude Windows..."
 msgstr "Выключыць вокны..."
 
-#: configdialog.cpp:293
-#, kde-format
-msgctxt "Unit of time"
-msgid " second"
-msgid_plural " seconds"
-msgstr[0] " секунда"
-msgstr[1] " секунды"
-msgstr[2] " секунд"
-msgstr[3] " секунды"
-
 #: configdialog.cpp:294
+#| msgctxt "Unit of time"
+#| msgid " second"
+#| msgid_plural " seconds"
+msgctxt "Unit of time"
+msgid "%v second"
+msgid_plural "%v seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: configdialog.cpp:295
 #, kde-format
 msgctxt "No timeout"
 msgid "None"
 msgstr "Няма"
 
-#: configdialog.cpp:303
+#: configdialog.cpp:304
 #, kde-format
 msgid "Options:"
 msgstr "Параметры:"
 
-#: configdialog.cpp:330
+#: configdialog.cpp:331
 #, kde-format
 msgid "Exclude Windows"
 msgstr "Выключыць вокны"
 
-#: configdialog.cpp:360
+#: configdialog.cpp:361
 #, kde-kuit-format
 msgctxt "@info"
 msgid "When a <interface>match pattern</interface> matches the clipboard contents, its <interface>commands</interface> appear in the Klipper popup menu and can be executed."
 msgstr "Калі <interface>шаблон супадзення</interface> адпавядае змесціву буфера абмену, то гэтыя <interface>каманды</interface> з'яўляюцца ў выплыўным меню Klipper."
 
-#: configdialog.cpp:369
+#: configdialog.cpp:370
 #, kde-format
 msgctxt "@title:column"
 msgid "Match pattern and commands"
 msgstr "Шаблон супадзення і каманды"
 
-#: configdialog.cpp:369
+#: configdialog.cpp:370
 #, kde-format
 msgctxt "@title:column"
 msgid "Description"
 msgstr "Апісанне"
 
-#: configdialog.cpp:375
+#: configdialog.cpp:376
 #, kde-format
 msgid "Add Action..."
 msgstr "Дадаць дзеянне..."
 
-#: configdialog.cpp:379
+#: configdialog.cpp:380
 #, kde-format
 msgid "Edit Action..."
 msgstr "Рэдагаваць дзеянне..."
 
-#: configdialog.cpp:384
+#: configdialog.cpp:385
 #, kde-format
 msgid "Delete Action"
 msgstr "Выдаліць дзеянне"
 
-#: configdialog.cpp:391
+#: configdialog.cpp:392
 #, kde-kuit-format
 msgctxt "@info"
 msgid "These actions appear in the popup menu which can be configured on the <interface>Action Menu</interface> page."
 msgstr "Гэтыя дзеянні, якія паказваюцца ў выплыўным меню, можна наладзіць на старонцы <interface>Меню дзеянняў</interface>."
 
-#: configdialog.cpp:575
+#: configdialog.cpp:576
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Delete the selected action <resource>%1</resource><nl/>and all of its commands?"
 msgstr "Выдаліць абранае дзеянне <resource>%1</resource><nl/>і ўсе яго каманды?"
 
-#: configdialog.cpp:576
+#: configdialog.cpp:577
 #, kde-format
 msgid "Confirm Delete Action"
 msgstr "Пацвердзіць выдаленне дзеяння"
 
-#: configdialog.cpp:605
+#: configdialog.cpp:606
 #, kde-format
 msgctxt "General Config"
 msgid "General"
 msgstr "Асноўныя"
 
-#: configdialog.cpp:605
+#: configdialog.cpp:606
 #, kde-format
 msgid "General Configuration"
 msgstr "Асноўная канфігурацыя"
 
-#: configdialog.cpp:606
+#: configdialog.cpp:607
 #, kde-format
 msgctxt "Popup Menu Config"
 msgid "Action Menu"
 msgstr "Меню дзеянняў"
 
-#: configdialog.cpp:606
+#: configdialog.cpp:607
 #, kde-format
 msgid "Action Menu"
 msgstr "Меню дзеянняў"
 
-#: configdialog.cpp:607
+#: configdialog.cpp:608
 #, kde-format
 msgctxt "Actions Config"
 msgid "Actions Configuration"
 msgstr "Канфігурацыя дзеянняў"
 
-#: configdialog.cpp:607
+#: configdialog.cpp:608
 #, kde-format
 msgid "Actions Configuration"
 msgstr "Канфігурацыя дзеянняў"
 
-#: configdialog.cpp:610
+#: configdialog.cpp:611
 #, kde-format
 msgctxt "Shortcuts Config"
 msgid "Shortcuts"
 msgstr "Спалучэнні клавіш"
 
-#: configdialog.cpp:610
+#: configdialog.cpp:611
 #, kde-format
 msgid "Shortcuts Configuration"
 msgstr "Канфігурацыя спалучэнняў клавіш"
 
-#: configdialog.cpp:691
+#: configdialog.cpp:692
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The action popup will not be shown automatically for these windows, even if it is enabled. This is because, for example, a web browser may highlight a URL in the address bar while typing, so the menu would show for every keystroke.<nl/><nl/>If the action menu appears unexpectedly when using a particular application, then add it to this list. <link>How to find the name to enter</link>."
 msgstr "Выплыўное меню дзеянняў не будзе паказвацца для гэтых акон, нават калі меню ўключана. Напрыклад, гэтая функцыя карысная для вэб-браўзераў, бо ў іх падчас уводу ў адрасным радку можа абрацца URL-адрас, таму меню будзе паказвацца пры кожным націсканні клавішы.<nl/><nl/>Калі вы не хочаце, каб меню з'яўлялася ў нейкай праграме, дадайце яе ў гэты спіс. <link>Як знайсці назву</link>."
 
-#: configdialog.cpp:704
+#: configdialog.cpp:705
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "The name that needs to be entered here is the WM_CLASS name of the window to be excluded. To find the WM_CLASS name for a window, in another terminal window enter the command:<nl/><nl/>&nbsp;&nbsp;<icode>xprop | grep WM_CLASS</icode><nl/><nl/>and click on the window that you want to exclude. The first name that it displays after the equal sign is the one that you need to enter."
@@ -290,17 +294,17 @@ msgstr "Недастаткова месца для паказу QR-кода. П�
 msgid "Creating QR code failed"
 msgstr "Не ўдалося стварыць QR-код"
 
-#: declarative/qml/ClipboardMenu.qml:187
+#: declarative/qml/ClipboardMenu.qml:186
 #| msgid "Clipboard history"
 msgid "Clear History"
 msgstr "Ачысціць гісторыю"
 
-#: declarative/qml/ClipboardMenu.qml:278
+#: declarative/qml/ClipboardMenu.qml:277
 #, kde-format
 msgid "No matches"
 msgstr "Няма супадзенняў"
 
-#: declarative/qml/ClipboardMenu.qml:278
+#: declarative/qml/ClipboardMenu.qml:277
 #, kde-format
 msgid "Clipboard is empty"
 msgstr "Буфер абмену пусты"
@@ -326,13 +330,19 @@ msgstr "Рэдагаваць змесціва"
 msgid "Remove from history"
 msgstr "Выдаліць з гісторыі"
 
-#: declarative/qml/EditPage.qml:87
+#: declarative/qml/EditPage.qml:63
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Text edit area"
+msgstr ""
+
+#: declarative/qml/EditPage.qml:80
 #, kde-format
 msgctxt "@action:button"
 msgid "Save"
 msgstr "Захаваць"
 
-#: declarative/qml/EditPage.qml:95
+#: declarative/qml/EditPage.qml:88
 #| msgid "&Cancel"
 msgctxt "@action:button"
 msgid "Cancel"
@@ -509,12 +519,12 @@ msgstr "Значок:"
 msgid "%1x%2 %3bpp"
 msgstr "%1x%2 %3 бітаў/піксель"
 
-#: historymodel.cpp:100
+#: historymodel.cpp:103
 #, kde-format
 msgid "Do you really want to clear and delete the entire clipboard history?"
 msgstr "Сапраўды хочаце ачысціць усю гісторыю буфера абмену?"
 
-#: historymodel.cpp:101
+#: historymodel.cpp:104
 #, kde-format
 msgid "Clear Clipboard History"
 msgstr "Ачысціць гісторыю буфера абмену"
