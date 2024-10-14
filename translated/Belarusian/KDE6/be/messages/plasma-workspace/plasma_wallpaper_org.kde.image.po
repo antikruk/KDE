@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-06 00:40+0000\n"
-"PO-Revision-Date: 2024-07-06 23:49\n"
+"POT-Creation-Date: 2024-10-08 00:41+0000\n"
+"PO-Revision-Date: 2024-10-14 09:36\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -42,32 +42,38 @@ msgid "Directory with the wallpaper to show slides from"
 msgstr "Каталог са шпалерамі для паказу слайдаў"
 
 #: imagepackage/contents/ui/config.qml:128
-#, kde-format
+#| msgid "Positioning:"
+msgctxt "@label:listbox"
 msgid "Positioning:"
 msgstr "Становішча:"
 
 #: imagepackage/contents/ui/config.qml:131
-#, kde-format
-msgid "Scaled and Cropped"
-msgstr "Маштабавана і абрэзана"
+#| msgid "Scaled and Cropped"
+msgctxt "@item:inlistbox"
+msgid "Scaled and cropped"
+msgstr ""
 
 #: imagepackage/contents/ui/config.qml:135
-#, kde-format
+#| msgid "Scaled"
+msgctxt "@item:inlistbox"
 msgid "Scaled"
 msgstr "Маштабавана"
 
 #: imagepackage/contents/ui/config.qml:139
-#, kde-format
-msgid "Scaled, Keep Proportions"
-msgstr "Маштабавана, прапорцыі захаваныя"
+#| msgid "Scaled, Keep Proportions"
+msgctxt "@item:inlistbox"
+msgid "Scaled, keep proportions"
+msgstr ""
 
 #: imagepackage/contents/ui/config.qml:143
-#, kde-format
+#| msgid "Centered"
+msgctxt "@item:inlistbox"
 msgid "Centered"
 msgstr "Па цэнтры"
 
 #: imagepackage/contents/ui/config.qml:147
-#, kde-format
+#| msgid "Tiled"
+msgctxt "@item:inlistbox"
 msgid "Tiled"
 msgstr "Скампанавана"
 
@@ -155,33 +161,43 @@ msgstr "Гэты інструмент дазваляе вызначыць шпа
 msgid "An image file or an installed wallpaper kpackage that you wish to set as the wallpaper for your Plasma session"
 msgstr "Файл выявы або ўсталяваны пакет шпалер, які вы хочаце вызначыць шпалерамі для сеанса Plasma"
 
-#: plasma-apply-wallpaperimage.cpp:44
+#: plasma-apply-wallpaperimage.cpp:33
+#, kde-format
+msgid "Specify the fill mode (e.g., stretch, preserveAspectCrop, etc.)"
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:61
 #, kde-format
 msgid "There is a stray single quote in the filename of this wallpaper (') - please contact the author of the wallpaper to fix this, or rename the file yourself: %1"
 msgstr "У назве файла гэтых шпалер ёсць толькі адзін знак двукосся (')- звярніцеся да аўтара шпалер, каб выправіць гэта, або змяніце назву файла самастойна: %1"
 
-#: plasma-apply-wallpaperimage.cpp:84
+#: plasma-apply-wallpaperimage.cpp:99
+#, kde-format
+msgid "Invalid fill mode specified: %1"
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:115
 #, kde-format
 msgid "An error occurred while attempting to set the Plasma wallpaper:\n"
 msgstr "Падчас выканання спробы вызначэння шпалер Plasma адбылася памылка:\n"
 
-#: plasma-apply-wallpaperimage.cpp:88
+#: plasma-apply-wallpaperimage.cpp:119
 #, kde-format
 msgid "Successfully set the wallpaper for all desktops to the KPackage based %1"
 msgstr "Пакет %1 паспяхова вызначаны шпалерамі для ўсіх працоўных сталоў"
 
-#: plasma-apply-wallpaperimage.cpp:90
+#: plasma-apply-wallpaperimage.cpp:121
 #, kde-format
 msgid "Successfully set the wallpaper for all desktops to the image %1"
 msgstr "Выява %1 паспяхова вызначаная шпалерамі для ўсіх працоўных сталоў"
 
-#: plasma-apply-wallpaperimage.cpp:96
+#: plasma-apply-wallpaperimage.cpp:128
 #, kde-format
 msgid "The file passed to be set as wallpaper does not exist, or we cannot identify it as a wallpaper: %1"
 msgstr "Пададзены для шпалеры файл не існуе, або яго немагчыма распазнаць як шпалеры: %1"
 
 #. i18n people, this isn't a "word puzzle". there is a specific string format for QFileDialog::setNameFilters
-#: plugin/imagebackend.cpp:330
+#: plugin/imagebackend.cpp:340
 #, kde-format
 msgid "Media Files"
 msgstr "Медыяфайлы"
