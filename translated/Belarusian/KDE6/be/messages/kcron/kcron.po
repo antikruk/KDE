@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-01 00:41+0000\n"
-"PO-Revision-Date: 2024-10-04 07:51\n"
+"POT-Creation-Date: 2024-10-10 00:41+0000\n"
+"PO-Revision-Date: 2024-10-14 09:31\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -18,6 +18,67 @@ msgstr ""
 "X-Crowdin-Language: be\n"
 "X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/kcron/kcron.po\n"
 "X-Crowdin-File-ID: 9960\n"
+
+#: src/cronPrinter.cpp:62
+#| msgid "Scheduled Tasks"
+msgctxt "@title Note: that is an HTML tag"
+msgid "<b>Tasks</b>"
+msgstr ""
+
+#: src/cronPrinter.cpp:63
+#| msgid "Variables"
+msgctxt "@title Note: that is an HTML tag"
+msgid "<b>Environment Variables</b>"
+msgstr ""
+
+#: src/cronPrinter.cpp:102 src/ui/TasksComponent.qml:66
+#| msgid "Scheduled Tasks"
+msgctxt "@title:column"
+msgid "Scheduling"
+msgstr ""
+
+#: src/cronPrinter.cpp:102 src/ui/TasksComponent.qml:75
+#| msgid "Modify Task"
+msgctxt "@title:column"
+msgid "Command"
+msgstr "Каманда"
+
+#: src/cronPrinter.cpp:103
+#| msgid "Description"
+msgctxt "@title:column"
+msgid "Description"
+msgstr "Апісанне"
+
+#: src/cronPrinter.cpp:116 src/ui/VariablesComponent.qml:67
+#| msgid "Variables"
+msgctxt "@title:column"
+msgid "Variable"
+msgstr "Зменная"
+
+#: src/cronPrinter.cpp:116 src/ui/VariablesComponent.qml:98
+#| msgid "Value"
+msgctxt "@title:column"
+msgid "Value"
+msgstr "Значэнне"
+
+#: src/cronPrinter.cpp:117 src/ui/TasksComponent.qml:84
+#: src/ui/VariablesComponent.qml:106
+#| msgid "Co&mment:"
+msgctxt "@title:column"
+msgid "Comment"
+msgstr "Каментар"
+
+#: src/cronPrinter.cpp:144
+#| msgid "(System Crontab)"
+msgctxt "@title"
+msgid "System Crontab"
+msgstr ""
+
+#: src/cronPrinter.cpp:146
+#, kde-format
+msgctxt "@title"
+msgid "Crontab of user %1"
+msgstr ""
 
 #: src/crontablib/ctcron.cpp:85
 #, kde-format
@@ -484,7 +545,7 @@ msgstr ""
 msgid "Local Variable"
 msgstr ""
 
-#: src/tasksmodel.cpp:47
+#: src/tasksmodel.cpp:48
 #, kde-format
 msgctxt "Do not use any quote characters (') in this string"
 msgid "End of script execution. Type Enter or Ctrl+C to exit."
@@ -553,8 +614,8 @@ msgstr ""
 #: src/ui/main.qml:64
 #, kde-format
 msgctxt "@action:button"
-msgid "Print"
-msgstr "Друк"
+msgid "Print Summary…"
+msgstr ""
 
 #: src/ui/Onboarding.qml:22
 #| msgid "Task Scheduler"
@@ -860,24 +921,6 @@ msgctxt "@title:column"
 msgid "User"
 msgstr "Карыстальніцкія"
 
-#: src/ui/TasksComponent.qml:66
-#| msgid "Scheduled Tasks"
-msgctxt "@title:column"
-msgid "Scheduling"
-msgstr ""
-
-#: src/ui/TasksComponent.qml:75
-#| msgid "Modify Task"
-msgctxt "@title:column"
-msgid "Command"
-msgstr "Каманда"
-
-#: src/ui/TasksComponent.qml:84 src/ui/VariablesComponent.qml:106
-#| msgid "Co&mment:"
-msgctxt "@title:column"
-msgid "Comment"
-msgstr "Каментар"
-
 #: src/ui/TasksComponent.qml:92
 #| msgid "Scheduled Tasks"
 msgctxt "@title:column"
@@ -1029,18 +1072,6 @@ msgctxt "@title:group"
 msgid "Environment Variables"
 msgstr ""
 
-#: src/ui/VariablesComponent.qml:67
-#| msgid "Variables"
-msgctxt "@title:column"
-msgid "Variable"
-msgstr "Зменная"
-
-#: src/ui/VariablesComponent.qml:98
-#| msgid "Value"
-msgctxt "@title:column"
-msgid "Value"
-msgstr "Значэнне"
-
 #: src/ui/VariablesComponent.qml:112
 #| msgid "Variables"
 msgctxt "@action:button"
@@ -1061,14 +1092,6 @@ msgstr ""
 #~ msgid "Your emails"
 #~ msgstr "komzpa@licei2.com"
 
-#~ msgid "Description"
-#~ msgstr "Апісанне"
-
-#, fuzzy
-#~| msgid "(System Crontab)"
-#~ msgid "System Crontab"
-#~ msgstr "(Сістэмны crontab)"
-
 #, fuzzy
 #~| msgid "(System Crontab)"
 #~ msgid "All Users Crontabs"
@@ -1086,11 +1109,6 @@ msgstr ""
 #~| msgid "every day "
 #~ msgid "Run &every day"
 #~ msgstr "штодзень"
-
-#, fuzzy
-#~| msgid "Scheduled Tasks"
-#~ msgid "<b>Scheduled Tasks</b>"
-#~ msgstr "Запланаваныя заданні"
 
 #~ msgid "Modify Task"
 #~ msgstr "Змяніць заданне"
@@ -1120,11 +1138,6 @@ msgstr ""
 #~| msgid "Variables"
 #~ msgctxt "The environmental variable name ie HOME, MAILTO etc"
 #~ msgid "&Variable:"
-#~ msgstr "Пераменныя"
-
-#, fuzzy
-#~| msgid "Variables"
-#~ msgid "<b>Environment Variables</b>"
 #~ msgstr "Пераменныя"
 
 #, fuzzy

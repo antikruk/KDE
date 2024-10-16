@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-01 00:41+0000\n"
-"PO-Revision-Date: 2024-08-11 21:03\n"
+"POT-Creation-Date: 2024-10-10 00:40+0000\n"
+"PO-Revision-Date: 2024-10-14 09:33\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -44,79 +44,79 @@ msgid "Unnamed"
 msgstr "Без назвы"
 
 #. i18n: ectx: label, entry (host), group (Transport $(transportId))
-#: mailtransport.kcfg:27
+#: mailtransport.kcfg:30
 #, kde-format
 msgid "Host name of the server"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (host), group (Transport $(transportId))
-#: mailtransport.kcfg:28
+#: mailtransport.kcfg:31
 #, kde-format
 msgid "The domain name or numerical address of the SMTP server."
 msgstr ""
 
 #. i18n: ectx: label, entry (port), group (Transport $(transportId))
-#: mailtransport.kcfg:31
+#: mailtransport.kcfg:34
 #, kde-format
 msgid "Port number of the server"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (port), group (Transport $(transportId))
-#: mailtransport.kcfg:32
+#: mailtransport.kcfg:35
 #, kde-format
 msgid "The port number that the SMTP server is listening on. The default port is 587."
 msgstr ""
 
 #. i18n: ectx: label, entry (userName), group (Transport $(transportId))
-#: mailtransport.kcfg:36
+#: mailtransport.kcfg:39
 #, kde-format
 msgid "User name needed for login"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (userName), group (Transport $(transportId))
-#: mailtransport.kcfg:37
+#: mailtransport.kcfg:40
 #, kde-format
 msgid "The user name to send to the server for authorization."
 msgstr ""
 
 #. i18n: ectx: label, entry (precommand), group (Transport $(transportId))
-#: mailtransport.kcfg:40
+#: mailtransport.kcfg:43
 #, kde-format
 msgid "Command to execute before sending a mail"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (precommand), group (Transport $(transportId))
-#: mailtransport.kcfg:41
+#: mailtransport.kcfg:44
 #, kde-format
 msgid "A command to run locally, prior to sending email. This can be used to set up SSH tunnels, for example. Leave it empty if no command should be run."
 msgstr ""
 
 #. i18n: ectx: label, entry (options), group (Transport $(transportId))
-#: mailtransport.kcfg:44
+#: mailtransport.kcfg:47
 #, kde-format
 msgid "Options added to mailtransport method"
 msgstr ""
 
 #. i18n: ectx: label, entry (requiresAuthentication), group (Transport $(transportId))
-#: mailtransport.kcfg:47
+#: mailtransport.kcfg:50
 #| msgid "Server &requires authentication"
 msgid "Server requires authentication"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (requiresAuthentication), group (Transport $(transportId))
-#: mailtransport.kcfg:48
+#: mailtransport.kcfg:51
 #, kde-format
 msgid "Check this option if your SMTP server requires authentication before accepting mail. This is known as 'Authenticated SMTP' or simply ASMTP."
 msgstr ""
 
 #. i18n: ectx: label, entry (storePassword), group (Transport $(transportId))
-#: mailtransport.kcfg:52
+#: mailtransport.kcfg:55
 #| msgid "Store Password"
 msgid "Store password"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (storePassword), group (Transport $(transportId))
-#: mailtransport.kcfg:55
+#: mailtransport.kcfg:58
 #, kde-format
 msgid "Check this option to have your password stored.\n"
 "If KWallet is available the password will be stored there, which is considered safe.\n"
@@ -124,31 +124,31 @@ msgid "Check this option to have your password stored.\n"
 msgstr ""
 
 #. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
-#: mailtransport.kcfg:59
+#: mailtransport.kcfg:62
 #, kde-format
 msgid "Encryption method used for communication"
 msgstr ""
 
 #. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
-#: mailtransport.kcfg:62
+#: mailtransport.kcfg:65
 #| msgid "Encryption"
 msgid "No encryption"
 msgstr ""
 
 #. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
-#: mailtransport.kcfg:65
+#: mailtransport.kcfg:68
 #| msgid "Encryption"
 msgid "SSL/TLS encryption"
 msgstr ""
 
 #. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
-#: mailtransport.kcfg:68
+#: mailtransport.kcfg:71
 #| msgid "Encryption"
 msgid "STARTTLS encryption"
 msgstr ""
 
 #. i18n: ectx: label, entry (authenticationType), group (Transport $(transportId))
-#: mailtransport.kcfg:74
+#: mailtransport.kcfg:77
 #, kde-format
 msgid "Authentication method"
 msgstr "Метад ідэнтыфікацыі"
@@ -157,66 +157,71 @@ msgstr "Метад ідэнтыфікацыі"
 #. i18n: ectx: label, entry (localHostname), group (Transport $(transportId))
 #. i18n: ectx: label, entry (specifySenderOverwriteAddress), group (Transport $(transportId))
 #. i18n: ectx: label, entry (senderOverwriteAddress), group (Transport $(transportId))
-#: mailtransport.kcfg:91 mailtransport.kcfg:96 mailtransport.kcfg:100
-#: mailtransport.kcfg:105
+#: mailtransport.kcfg:94 mailtransport.kcfg:99 mailtransport.kcfg:103
+#: mailtransport.kcfg:108
 #, kde-format
 msgid "<!-- TODO -->"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (specifyHostname), group (Transport $(transportId))
-#: mailtransport.kcfg:92
+#: mailtransport.kcfg:95
 #, kde-format
 msgid "Check this option to use a custom hostname when identifying to the mail server. This is useful when your system's hostname may not be set correctly or to mask your system's true hostname."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (localHostname), group (Transport $(transportId))
-#: mailtransport.kcfg:97
+#: mailtransport.kcfg:100
 #, kde-format
 msgid "Enter the hostname that should be used when identifying to the server."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (specifySenderOverwriteAddress), group (Transport $(transportId))
-#: mailtransport.kcfg:101
+#: mailtransport.kcfg:104
 #, kde-format
 msgid "Check this option to use a custom sender address when identifying to the mail server. If not checked, the address from the identity is used."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (senderOverwriteAddress), group (Transport $(transportId))
-#: mailtransport.kcfg:106
+#: mailtransport.kcfg:109
 #, kde-format
 msgid "Enter the address that should be used to overwrite the default sender address."
 msgstr ""
 
 #. i18n: ectx: label, entry (useProxy), group (Transport $(transportId))
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useProxy)
-#: mailtransport.kcfg:109 plugins/smtp/smtpsettings.ui:284
+#: mailtransport.kcfg:112 plugins/smtp/smtpsettings.ui:284
 #, kde-format
 msgid "Connect using the system proxy settings"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (useProxy), group (Transport $(transportId))
-#: mailtransport.kcfg:110
+#: mailtransport.kcfg:113
 #, kde-format
 msgid "If checked, the system proxy settings will be used to connect to the mail server."
 msgstr ""
 
-#: plugins/smtp/smtpconfigwidget.cpp:148
+#: plugins/smtp/smtpconfigwidget.cpp:150
 #, kde-format
 msgid "The password to send to the server for authorization."
 msgstr ""
 
-#: plugins/smtp/smtpconfigwidget.cpp:160 servertest.cpp:552
+#: plugins/smtp/smtpconfigwidget.cpp:162 servertest.cpp:552
 #, kde-format
 msgctxt "Percent value; %p is the value, % is the percent sign"
 msgid "%p%"
 msgstr "%p%"
 
-#: plugins/smtp/smtpconfigwidget.cpp:281
+#: plugins/smtp/smtpconfigwidget.cpp:200
+#, kde-format
+msgid "Activities"
+msgstr "Дзейнасць"
+
+#: plugins/smtp/smtpconfigwidget.cpp:303
 #, kde-format
 msgid "Failed to check capabilities. Please verify port and authentication mode."
 msgstr ""
 
-#: plugins/smtp/smtpconfigwidget.cpp:282
+#: plugins/smtp/smtpconfigwidget.cpp:304
 #, kde-format
 msgctxt "@title:window"
 msgid "Check Capabilities Failed"
@@ -509,19 +514,19 @@ msgctxt "@action:button"
 msgid "Keep"
 msgstr "Пакінуць"
 
-#: transportmodel.cpp:61
+#: transportmodel.cpp:63
 #| msgid " (Default)"
 msgctxt "Default transport"
 msgid " (default)"
 msgstr " (прадвызначана)"
 
-#: transportmodel.cpp:83 widgets/transportlistwidget.cpp:27
+#: transportmodel.cpp:85
 #| msgid "Name"
 msgctxt "@title:column email transport name"
 msgid "Name"
 msgstr "Імя"
 
-#: transportmodel.cpp:85 widgets/transportlistwidget.cpp:27
+#: transportmodel.cpp:87
 #| msgid "Type"
 msgctxt "@title:column email transport type"
 msgid "Type"
@@ -564,46 +569,40 @@ msgstr "Тып"
 msgid "Description"
 msgstr "Апісанне"
 
+#. i18n: ectx: property (text), widget (QPushButton, editButton)
+#: ui/transportmanagementwidgetng.ui:17
+#| msgid "&Modify..."
+msgid "&Modify…"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#: ui/transportmanagementwidget.ui:17 ui/transportmanagementwidgetng.ui:17
+#: ui/transportmanagementwidgetng.ui:42
 #| msgid "R&emove"
 msgid "Remo&ve"
 msgstr "Выда&ліць"
 
-#. i18n: ectx: property (text), widget (QPushButton, defaultButton)
-#: ui/transportmanagementwidget.ui:24 ui/transportmanagementwidgetng.ui:24
-#| msgid "Set Default"
-msgid "&Set as Default"
-msgstr "&Зрабіць прадвызначаным"
-
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: ui/transportmanagementwidget.ui:54
-#, kde-format
-msgid "A&dd..."
-msgstr "&Дадаць..."
-
-#. i18n: ectx: property (text), widget (QPushButton, renameButton)
-#: ui/transportmanagementwidget.ui:61 ui/transportmanagementwidgetng.ui:61
-#| msgid "&Name:"
-msgid "&Rename"
-msgstr "&Змяніць назву"
-
-#. i18n: ectx: property (text), widget (QPushButton, editButton)
-#: ui/transportmanagementwidget.ui:68
-#, kde-format
-msgid "&Modify..."
-msgstr "&Змяніць..."
-
-#. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: ui/transportmanagementwidgetng.ui:54
+#: ui/transportmanagementwidgetng.ui:49
 #, kde-format
 msgid "A&dd…"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, editButton)
-#: ui/transportmanagementwidgetng.ui:68
-#| msgid "&Modify..."
-msgid "&Modify…"
+#. i18n: ectx: property (text), widget (QPushButton, renameButton)
+#: ui/transportmanagementwidgetng.ui:56
+#| msgid "&Name:"
+msgid "&Rename"
+msgstr "&Змяніць назву"
+
+#. i18n: ectx: property (text), widget (QPushButton, defaultButton)
+#: ui/transportmanagementwidgetng.ui:76
+#| msgid "Set Default"
+msgid "&Set as Default"
+msgstr "&Зрабіць прадвызначаным"
+
+#. i18n: ectx: property (text), widget (QCheckBox, transportOnCurrentActivity)
+#: ui/transportmanagementwidgetng.ui:83
+#, kde-format
+msgid "Show only transport on current activity"
 msgstr ""
 
 #: widgets/addtransportdialogng.cpp:94
@@ -618,18 +617,12 @@ msgctxt "create and configure a mail transport"
 msgid "Create and Configure"
 msgstr ""
 
-#: widgets/transportlistwidget.cpp:99
-#| msgid " (Default)"
-msgctxt "@label the default mail transport"
-msgid " (Default)"
-msgstr ""
-
-#: widgets/transportmanagementwidgetng.cpp:137
+#: widgets/transportmanagementwidgetng.cpp:155
 #, kde-format
 msgid "Do you want to remove outgoing account '%1'?"
 msgstr ""
 
-#: widgets/transportmanagementwidgetng.cpp:138
+#: widgets/transportmanagementwidgetng.cpp:156
 #, kde-format
 msgid "Do you really want to remove this %1 outgoing account?"
 msgid_plural "Do you really want to remove these %1 outgoing accounts?"
@@ -638,40 +631,52 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: widgets/transportmanagementwidgetng.cpp:141
+#: widgets/transportmanagementwidgetng.cpp:159
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove outgoing account?"
 msgstr ""
 
-#: widgets/transportmanagementwidgetng.cpp:171
+#: widgets/transportmanagementwidgetng.cpp:189
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add…"
 msgstr "Дадаць…"
 
-#: widgets/transportmanagementwidgetng.cpp:176
+#: widgets/transportmanagementwidgetng.cpp:194
 #| msgid "&Modify..."
 msgctxt "@action:inmenu"
 msgid "Modify…"
 msgstr "Змяніць…"
 
-#: widgets/transportmanagementwidgetng.cpp:179
+#: widgets/transportmanagementwidgetng.cpp:197
 #| msgid "&Name:"
 msgctxt "@action:inmenu"
 msgid "Rename"
 msgstr "Змяніць назву"
 
-#: widgets/transportmanagementwidgetng.cpp:183
+#: widgets/transportmanagementwidgetng.cpp:201
 #| msgid "R&emove"
 msgctxt "@action:inmenu"
 msgid "Remove"
 msgstr "Выдаліць"
 
-#: widgets/transportmanagementwidgetng.cpp:189
+#: widgets/transportmanagementwidgetng.cpp:207
 #| msgid "Set Default"
 msgid "Set as Default"
 msgstr "Зрабіць прадвызначаным"
+
+#~ msgid "A&dd..."
+#~ msgstr "&Дадаць..."
+
+#~ msgid "&Modify..."
+#~ msgstr "&Змяніць..."
+
+#, fuzzy
+#~| msgid " (Default)"
+#~ msgctxt "@label the default mail transport"
+#~ msgid " (Default)"
+#~ msgstr " (Стандартны)"
 
 #, fuzzy
 #~| msgid "A&dd..."
