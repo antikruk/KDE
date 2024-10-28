@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-12-23 01:46+0000\n"
-"PO-Revision-Date: 2024-10-25 20:20\n"
+"PO-Revision-Date: 2024-10-28 19:13\n"
 "Last-Translator: Antikruk <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be_BY\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: vpnc.cpp:73
 #, kde-format
 msgid "Error decrypting the obfuscated password"
-msgstr ""
+msgstr "Не ўдалося расшыфраваць заблытаны пароль"
 
 #: vpnc.cpp:73
 #, kde-format
@@ -32,12 +32,12 @@ msgstr "Памылка"
 #: vpnc.cpp:118
 #, kde-format
 msgid "NetworkManager is missing support for Cisco Compatible VPN"
-msgstr ""
+msgstr "NetworkManager не падтрымлівае Cisco Compatible VPN"
 
 #: vpnc.cpp:146
 #, kde-format
 msgid "%1: file could not be created"
-msgstr ""
+msgstr "%1: не ўдалося стварыць файл"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: vpnc.ui:18
@@ -49,7 +49,7 @@ msgstr "Шлюз:"
 #: vpnc.ui:31
 #, kde-format
 msgid "IP/hostname of IPsec gateway."
-msgstr ""
+msgstr "IP (назва хоста шлюза IPsec)."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: vpnc.ui:38
@@ -62,7 +62,7 @@ msgstr "Імя карыстальніка:"
 #: vpnc.ui:51 vpncauth.ui:97
 #, kde-format
 msgid "User name for the connection."
-msgstr ""
+msgstr "Імя карыстальніка для злучэння."
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: vpnc.ui:58
@@ -107,31 +107,31 @@ msgstr "Пароль групы."
 #: vpnc.ui:141
 #, kde-format
 msgid "Enable hybrid authentication, i.e. use certificate in addition to password."
-msgstr ""
+msgstr "Уключыць гібрыдную аўтэнтыфікацыю: выкарыстоўваць сертыфікат у дадатак да пароля."
 
 #. i18n: ectx: property (text), widget (QCheckBox, useHybridAuth)
 #: vpnc.ui:144
 #, kde-format
 msgid "Use hybrid authentication"
-msgstr ""
+msgstr "Выкарыстоўваць гібрыдную аўтэнтыфікацыю"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: vpnc.ui:154
 #, kde-format
 msgid "CA file:"
-msgstr ""
+msgstr "Файл CA:"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, caFile)
 #: vpnc.ui:167
 #, kde-format
 msgid "CA certificate in PEM format."
-msgstr ""
+msgstr "Сертыфікат CA у фармаце PEM."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
 #: vpnc.ui:194
 #, kde-format
 msgid "Advanced…"
-msgstr ""
+msgstr "Дадаткова…"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: vpncadvanced.ui:18
@@ -149,7 +149,7 @@ msgstr "Дамен:"
 #: vpncadvanced.ui:37
 #, kde-format
 msgid "(NT-)Domain name for authentication."
-msgstr ""
+msgstr "(NT-)назва дамена для аўтэнтыфікацыі."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: vpncadvanced.ui:44
@@ -161,13 +161,13 @@ msgstr "Вытворца:"
 #: vpncadvanced.ui:60
 #, kde-format
 msgid "Vendor of your IPsec gateway."
-msgstr ""
+msgstr "Пастаўшчык вашага шлюза IPsec."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: vpncadvanced.ui:70
 #, kde-format
 msgid "Transport and Security"
-msgstr ""
+msgstr "Транспартаванне і бяспека"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: vpncadvanced.ui:82
@@ -179,55 +179,55 @@ msgstr "Метад шыфравання:"
 #: vpncadvanced.ui:98
 #, kde-format
 msgid "Encryption method."
-msgstr ""
+msgstr "Метад шыфравання."
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: vpncadvanced.ui:105
 #, kde-format
 msgid "NAT traversal:"
-msgstr ""
+msgstr "Абыход NAT:"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, nat)
 #: vpncadvanced.ui:121
 #, kde-format
 msgid "NAT traversal method to use."
-msgstr ""
+msgstr "Метад абыходу NAT для выкарыстання."
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: vpncadvanced.ui:128
 #, kde-format
 msgid "IKE DH Group:"
-msgstr ""
+msgstr "Група IKE DH:"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, dhGroup)
 #: vpncadvanced.ui:144
 #, kde-format
 msgid "Name of the IKE DH group."
-msgstr ""
+msgstr "Назва групы IKE DH."
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: vpncadvanced.ui:151
 #, kde-format
 msgid "Perfect Forward Secrecy:"
-msgstr ""
+msgstr "PFS (Perfect Forward Secrecy):"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, pfs)
 #: vpncadvanced.ui:167
 #, kde-format
 msgid "Diffie-Hellman group to use for PFS."
-msgstr ""
+msgstr "Група Diffie-Hellman для PFS."
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: vpncadvanced.ui:174
 #, kde-format
 msgid "Local Port:"
-msgstr ""
+msgstr "Лакальны порт:"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, localport)
 #: vpncadvanced.ui:190
 #, kde-format
 msgid "Local port to use (0-65535). 0 (default value) means random port. 500 is vpnc's default."
-msgstr ""
+msgstr "Лакальны порт для выкарыстання (0-65535). 0 (прадвызначанае значэнне) азначае выпадковы порт, 500 - vpnc."
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, localport)
 #: vpncadvanced.ui:193
@@ -239,18 +239,18 @@ msgstr "Выпадковы"
 #: vpncadvanced.ui:209
 #, kde-format
 msgid "Disable sending DPD packets (set timeout to 0)."
-msgstr ""
+msgstr "Адключыць адпраўленне пакетаў DPD (прызначыць час чакання на 0)."
 
 #. i18n: ectx: property (text), widget (QCheckBox, deadPeer)
 #: vpncadvanced.ui:212
 #, kde-format
 msgid "Disable dead peer detection"
-msgstr ""
+msgstr "Адключыць выяўленне неактыўных аднарангавых вузлоў"
 
 #: vpncadvancedwidget.cpp:20
 #, kde-format
 msgid "Advanced VPNC properties"
-msgstr ""
+msgstr "Дадатковыя ўласцівасці VPNC"
 
 #: vpncadvancedwidget.cpp:23
 #, kde-format
@@ -262,43 +262,43 @@ msgstr "Cisco"
 #, kde-format
 msgctxt "VPNC vendor name"
 msgid "Netscreen"
-msgstr ""
+msgstr "Netscreen"
 
 #: vpncadvancedwidget.cpp:27
 #, kde-format
 msgctxt "VPNC encryption method"
 msgid "Secure (default)"
-msgstr ""
+msgstr "Бяспека (прадвызначана)"
 
 #: vpncadvancedwidget.cpp:28
 #, kde-format
 msgctxt "VPNC encryption method"
 msgid "Weak (DES encryption, use with caution)"
-msgstr ""
+msgstr "Слабы (шыфраванне DES, выкарыстоўвайце з асцярожнасцю)"
 
 #: vpncadvancedwidget.cpp:29
 #, kde-format
 msgctxt "VPNC encryption method"
 msgid "None (completely insecure)"
-msgstr ""
+msgstr "Няма (ніяк не абаронена)"
 
 #: vpncadvancedwidget.cpp:32
 #, kde-format
 msgctxt "NAT traversal method"
 msgid "NAT-T when available (default)"
-msgstr ""
+msgstr "NAT-T, калі даступна (прадвызначана)"
 
 #: vpncadvancedwidget.cpp:33
 #, kde-format
 msgctxt "NAT traversal method"
 msgid "NAT-T always"
-msgstr ""
+msgstr "NAT-T заўсёды"
 
 #: vpncadvancedwidget.cpp:34
 #, kde-format
 msgctxt "NAT traversal method"
 msgid "Cisco UDP"
-msgstr ""
+msgstr "Cisco UDP"
 
 #: vpncadvancedwidget.cpp:35
 #, kde-format
@@ -310,25 +310,25 @@ msgstr "Адключана"
 #, kde-format
 msgctxt "IKE DH group"
 msgid "DH Group 1"
-msgstr ""
+msgstr "Група DH 1"
 
 #: vpncadvancedwidget.cpp:39
 #, kde-format
 msgctxt "IKE DH group"
 msgid "DH Group 2 (default)"
-msgstr ""
+msgstr "Група DH 2 (прадвызначана)"
 
 #: vpncadvancedwidget.cpp:40
 #, kde-format
 msgctxt "IKE DH group"
 msgid "DH Group 5"
-msgstr ""
+msgstr "Група DH 5"
 
 #: vpncadvancedwidget.cpp:43
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "Server (default)"
-msgstr ""
+msgstr "Сервер (прадвызначана)"
 
 #: vpncadvancedwidget.cpp:44
 #, kde-format
@@ -340,25 +340,25 @@ msgstr "Няма"
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "DH Group 1"
-msgstr ""
+msgstr "Група DH 1"
 
 #: vpncadvancedwidget.cpp:46
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "DH Group 2"
-msgstr ""
+msgstr "Група DH 2"
 
 #: vpncadvancedwidget.cpp:47
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "DH Group 5"
-msgstr ""
+msgstr "Група DH 5"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, VpncAuth)
 #: vpncauth.ui:14
 #, kde-format
 msgid "VPNCAuthentication"
-msgstr ""
+msgstr "Аўтэнтыфікацыя VPNC"
 
 #. i18n: ectx: property (text), widget (QLabel, userPasswordLabel)
 #: vpncauth.ui:32
