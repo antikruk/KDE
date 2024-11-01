@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-28 01:33+0000\n"
-"PO-Revision-Date: 2024-02-11 18:55\n"
+"POT-Creation-Date: 2024-10-21 00:39+0000\n"
+"PO-Revision-Date: 2024-11-01 06:24\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -49,7 +49,7 @@ msgstr ""
 msgid "Waiting for other data checks to finish"
 msgstr ""
 
-#: src/datachecker/datacheckerjob.cpp:73 src/torrent/torrentstats.cpp:92
+#: src/datachecker/datacheckerjob.cpp:73 src/torrent/torrentstats.cpp:93
 #, kde-format
 msgid "Checking data"
 msgstr ""
@@ -67,62 +67,62 @@ msgstr ""
 msgid "Cannot open file %1: %2"
 msgstr ""
 
-#: src/diskio/cache.cpp:148 src/diskio/multifilecache.cpp:95
+#: src/diskio/cache.cpp:149 src/diskio/multifilecache.cpp:95
 #: src/diskio/singlefilecache.cpp:67
 msgid "Failed to create %1: %2"
 msgstr ""
 
-#: src/diskio/cachefile.cpp:76 src/util/fileops.cpp:313
-#: src/util/fileops.cpp:355
+#: src/diskio/cachefile.cpp:78 src/util/fileops.cpp:322
+#: src/util/fileops.cpp:365
 #, kde-format
 msgid "Cannot open %1: %2"
 msgstr ""
 
-#: src/diskio/cachefile.cpp:103 src/diskio/cachefile.cpp:215
-#: src/diskio/cachefile.cpp:368 src/diskio/cachefile.cpp:427
+#: src/diskio/cachefile.cpp:105 src/diskio/cachefile.cpp:217
+#: src/diskio/cachefile.cpp:370 src/diskio/cachefile.cpp:429
 #, kde-format
 msgid "Cannot open %1 for writing: readonly filesystem"
 msgstr ""
 
-#: src/diskio/cachefile.cpp:109 src/diskio/cachefile.cpp:373
+#: src/diskio/cachefile.cpp:111 src/diskio/cachefile.cpp:375
 #, kde-format
 msgid "Attempting to write beyond the maximum size of %1"
 msgstr ""
 
-#: src/diskio/cachefile.cpp:220
+#: src/diskio/cachefile.cpp:222
 #, kde-format
 msgid "Cannot expand file %1: attempting to grow the file beyond the maximum size"
 msgstr ""
 
-#: src/diskio/cachefile.cpp:224
+#: src/diskio/cachefile.cpp:226
 #, kde-format
 msgid "Cannot expand file %1: %2"
 msgstr ""
 
-#: src/diskio/cachefile.cpp:336
+#: src/diskio/cachefile.cpp:338
 #, kde-format
 msgid "Error: Reading past the end of the file %1"
 msgstr ""
 
-#: src/diskio/cachefile.cpp:341 src/diskio/cachefile.cpp:383
+#: src/diskio/cachefile.cpp:343 src/diskio/cachefile.cpp:385
 msgid "Failed to seek file %1: %2"
 msgstr ""
 
-#: src/diskio/cachefile.cpp:348
+#: src/diskio/cachefile.cpp:350
 #, kde-format
 msgid "Error reading from %1"
 msgstr ""
 
-#: src/diskio/cachefile.cpp:386
+#: src/diskio/cachefile.cpp:388
 msgid "Failed to write to file %1: %2"
 msgstr ""
 
-#: src/diskio/cachefile.cpp:443
+#: src/diskio/cachefile.cpp:445
 #, kde-format
 msgid "Cannot preallocate diskspace: %1"
 msgstr ""
 
-#: src/diskio/chunkmanager.cpp:844 src/diskio/chunkmanager.cpp:867
+#: src/diskio/chunkmanager.cpp:849 src/diskio/chunkmanager.cpp:872
 msgid "Cannot open index file %1: %2"
 msgstr ""
 
@@ -182,13 +182,13 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/download/downloader.cpp:693
+#: src/download/downloader.cpp:695
 #, kde-format
 msgid "Disabled because webseed does not match torrent"
 msgstr ""
 
-#: src/download/httpconnection.cpp:29 src/download/webseed.cpp:40
-#: src/download/webseed.cpp:85
+#: src/download/httpconnection.cpp:29 src/download/webseed.cpp:42
+#: src/download/webseed.cpp:87
 #| msgid "Not queued"
 msgid "Not connected"
 msgstr "Не падлучана"
@@ -208,7 +208,7 @@ msgstr ""
 msgid "Resolving hostname %1"
 msgstr ""
 
-#: src/download/httpconnection.cpp:126 src/download/webseed.cpp:313
+#: src/download/httpconnection.cpp:126 src/download/webseed.cpp:315
 #| msgid "Connections"
 msgid "Connection closed"
 msgstr ""
@@ -258,7 +258,7 @@ msgstr ""
 msgid "Redirected without a new location."
 msgstr ""
 
-#: src/download/webseed.cpp:500
+#: src/download/webseed.cpp:502
 #, kde-format
 msgid "Unused for %1 second (Too many connection failures)"
 msgid_plural "Unused for %1 seconds (Too many connection failures)"
@@ -267,22 +267,22 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/interfaces/trackerinterface.cpp:45
+#: src/interfaces/trackerinterface.cpp:46
 #, kde-format
 msgid "OK"
 msgstr "ДОБРА"
 
-#: src/interfaces/trackerinterface.cpp:45
+#: src/interfaces/trackerinterface.cpp:46
 #, kde-format
 msgid "Warning: %1"
 msgstr ""
 
-#: src/interfaces/trackerinterface.cpp:47
+#: src/interfaces/trackerinterface.cpp:48
 #| msgid "Connections"
 msgid "Announcing"
 msgstr ""
 
-#: src/interfaces/trackerinterface.cpp:49 src/torrent/torrentstats.cpp:86
+#: src/interfaces/trackerinterface.cpp:50 src/torrent/torrentstats.cpp:87
 #| msgid "Error: "
 msgid "Error: %1"
 msgstr "Памылка: %1"
@@ -329,67 +329,67 @@ msgstr ""
 msgid "Cannot create index file: %1"
 msgstr ""
 
-#: src/torrent/torrentstats.cpp:72
+#: src/torrent/torrentstats.cpp:73
 #, kde-format
 msgid "Not started"
 msgstr "Не распачата"
 
-#: src/torrent/torrentstats.cpp:74
+#: src/torrent/torrentstats.cpp:75
 #| msgid "Downloads"
 msgid "Download completed"
 msgstr ""
 
-#: src/torrent/torrentstats.cpp:76
+#: src/torrent/torrentstats.cpp:77
 #, kde-format
 msgid "Seeding completed"
 msgstr ""
 
-#: src/torrent/torrentstats.cpp:78
+#: src/torrent/torrentstats.cpp:79
 #| msgid "Sharing"
 msgctxt "Status of a torrent file"
 msgid "Seeding"
 msgstr ""
 
-#: src/torrent/torrentstats.cpp:80
+#: src/torrent/torrentstats.cpp:81
 #, kde-format
 msgid "Downloading"
 msgstr "Спампоўванне"
 
-#: src/torrent/torrentstats.cpp:82
+#: src/torrent/torrentstats.cpp:83
 #, kde-format
 msgid "Stalled"
 msgstr "Прастойвае"
 
-#: src/torrent/torrentstats.cpp:84
+#: src/torrent/torrentstats.cpp:85
 #, kde-format
 msgid "Stopped"
 msgstr "Спынена"
 
-#: src/torrent/torrentstats.cpp:88
+#: src/torrent/torrentstats.cpp:89
 #, kde-format
 msgid "Allocating diskspace"
 msgstr ""
 
-#: src/torrent/torrentstats.cpp:90
+#: src/torrent/torrentstats.cpp:91
 #, kde-format
 msgid "Queued for seeding"
 msgstr ""
 
-#: src/torrent/torrentstats.cpp:90
+#: src/torrent/torrentstats.cpp:91
 #, kde-format
 msgid "Queued for downloading"
 msgstr ""
 
-#: src/torrent/torrentstats.cpp:94
+#: src/torrent/torrentstats.cpp:95
 #, kde-format
 msgid "Stopped. No space left on device."
 msgstr ""
 
-#: src/torrent/torrentstats.cpp:96
+#: src/torrent/torrentstats.cpp:97
 msgid "Paused"
 msgstr "Прыпынена"
 
-#: src/torrent/torrentstats.cpp:98
+#: src/torrent/torrentstats.cpp:99
 #| msgid "Sharing"
 msgid "Superseeding"
 msgstr ""
@@ -410,13 +410,13 @@ msgstr ""
 msgid "Invalid tracker URL"
 msgstr ""
 
-#: src/tracker/httptracker.cpp:463 src/tracker/udptracker.cpp:315
-#: src/tracker/udptracker.cpp:322
+#: src/tracker/httptracker.cpp:463 src/tracker/udptracker.cpp:314
+#: src/tracker/udptracker.cpp:321
 #, kde-format
 msgid "Timeout contacting tracker %1"
 msgstr ""
 
-#: src/tracker/udptracker.cpp:343
+#: src/tracker/udptracker.cpp:342
 #, kde-format
 msgid "Unable to resolve hostname %1"
 msgstr ""
@@ -457,67 +457,66 @@ msgstr ""
 msgid "Cannot read from %1"
 msgstr ""
 
-#: src/util/fileops.cpp:92
+#: src/util/fileops.cpp:97
 #, kde-format
 msgid "Cannot create directory %1"
 msgstr "Не атрымалася стварыць каталог %1"
 
-#: src/util/fileops.cpp:150
+#: src/util/fileops.cpp:160
 #, kde-format
 msgid "Cannot symlink %1 to %2: %3"
 msgstr ""
 
-#: src/util/fileops.cpp:163
+#: src/util/fileops.cpp:172
 #, kde-format
 msgid "Cannot move %1 to %2: %3"
 msgstr ""
 
-#: src/util/fileops.cpp:174 src/util/fileops.cpp:185
+#: src/util/fileops.cpp:183 src/util/fileops.cpp:194
 #, kde-format
 msgid "Cannot copy %1 to %2: %3"
 msgstr ""
 
-#: src/util/fileops.cpp:239
+#: src/util/fileops.cpp:248
 #, kde-format
 msgid "Cannot delete %1: %2"
 msgstr ""
 
-#: src/util/fileops.cpp:255
+#: src/util/fileops.cpp:264
 #, kde-format
 msgid "Cannot create %1: %2"
 msgstr ""
 
-#: src/util/fileops.cpp:272
+#: src/util/fileops.cpp:281
 #, kde-format
 msgid "Cannot calculate the filesize of %1: %2"
 msgstr ""
 
-#: src/util/fileops.cpp:288
+#: src/util/fileops.cpp:297
 #, kde-format
 msgid "Cannot calculate the filesize: %1"
 msgstr ""
 
-#: src/util/fileops.cpp:333 src/util/fileops.cpp:337 src/util/fileops.cpp:340
-#: src/util/fileops.cpp:343 src/util/fileops.cpp:346
+#: src/util/fileops.cpp:344 src/util/fileops.cpp:357
 #, kde-format
 msgid "Cannot expand file: %1"
 msgstr ""
 
-#: src/util/fileops.cpp:373
+#: src/util/fileops.cpp:383
 #, kde-format
 msgid "Cannot seek in file: %1"
 msgstr ""
 
-#: src/util/fileops.cpp:614
+#: src/util/fileops.cpp:624
 msgid "Unable to open file %1: %2"
 msgstr ""
 
-#: src/util/functions.cpp:205
+#: src/util/functions.cpp:231
 #| msgid "%1 %"
 msgid "%1/s"
 msgstr "%1/с"
 
-#: src/util/functions.cpp:214
+#: src/util/functions.cpp:240
 #, kde-format
 msgid "1 day "
 msgid_plural "%1 days "
