@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-10 00:43+0000\n"
-"PO-Revision-Date: 2024-08-11 21:05\n"
+"POT-Creation-Date: 2024-10-23 00:42+0000\n"
+"PO-Revision-Date: 2024-11-01 06:26\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -48,7 +48,7 @@ msgstr "Наладжванне"
 msgid "Stop activity"
 msgstr "Спыніць пакой"
 
-#: contents/activitymanager/ActivityList.qml:142
+#: contents/activitymanager/ActivityList.qml:148
 #, kde-format
 msgid "Stopped activities:"
 msgstr "Спыненыя пакоі:"
@@ -89,7 +89,7 @@ msgid "Open %1"
 msgstr "Адкрыць %1"
 
 #: contents/configuration/AboutPlugin.qml:21
-#: contents/configuration/AppletConfiguration.qml:304
+#: contents/configuration/AppletConfiguration.qml:305
 #, kde-format
 msgid "About"
 msgstr "Пра праграму"
@@ -146,18 +146,18 @@ msgstr "Паведаміць пра хібу…"
 msgid "Keyboard Shortcuts"
 msgstr "Спалучэнні клавіш"
 
-#: contents/configuration/AppletConfiguration.qml:352
+#: contents/configuration/AppletConfiguration.qml:353
 #, kde-format
 msgid "Apply Settings"
 msgstr "Ужыць налады"
 
-#: contents/configuration/AppletConfiguration.qml:353
+#: contents/configuration/AppletConfiguration.qml:354
 #, kde-format
 msgid "The settings of the current module have changed. Do you want to apply the changes or discard them?"
 msgstr "Налады бягучага модуля змяніліся.\n"
 "Хочаце ўжыць змены ці адкінуць іх?"
 
-#: contents/configuration/AppletConfiguration.qml:384
+#: contents/configuration/AppletConfiguration.qml:385
 #, kde-format
 msgid "OK"
 msgstr "Добра"
@@ -321,9 +321,9 @@ msgid "Add spacer widget to the panel"
 msgstr "Дадаць віджэт падзяляльніка на панэль"
 
 #: contents/configuration/PanelConfiguration.qml:114
-#, kde-format
-msgid "Add Widgets…"
-msgstr "Дадаць віджэты…"
+#| msgid "Add Widgets…"
+msgid "Add or Manage Widgets…"
+msgstr ""
 
 #: contents/configuration/PanelConfiguration.qml:117
 #, kde-format
@@ -497,48 +497,61 @@ msgid "Remove this panel; this action is undo-able"
 msgstr "Выдаліць гэтую панэль; гэтае дзеянне нельга адрабіць"
 
 #: contents/configuration/PanelConfiguration.qml:647
-#, kde-format
-msgctxt "@action:button Done configuring the panel"
-msgid "Done"
-msgstr "Завершана"
+#| msgid "Close"
+msgctxt "@action:button Close the panel configuration window"
+msgid "Close"
+msgstr "Закрыць"
+
+#: contents/configuration/PanelConfiguration.qml:647
+#| msgid "Exit Edit Mode"
+msgctxt "@action:button Close the panel configuration window and exit edit mode"
+msgid "Exit Edit Mode"
+msgstr "Выйсці з рэжыму рэдагавання"
 
 #: contents/configuration/PanelConfiguration.qml:650
 #, kde-format
 msgid "Close Panel Settings window and exit Edit Mode"
 msgstr "Закрыць акно налад панэлі і выйсці з рэжыму рэдагавання"
 
-#: contents/configuration/panelconfiguration/Ruler.qml:30
-#, kde-format
+#: contents/configuration/panelconfiguration/Ruler.qml:32
+#| msgid "Drag to change maximum height."
+msgctxt "@info:tooltip slider handle"
 msgid "Drag to change maximum height."
 msgstr "Перацягніце, каб змяніць максімальную вышыню."
 
-#: contents/configuration/panelconfiguration/Ruler.qml:30
-#, kde-format
+#: contents/configuration/panelconfiguration/Ruler.qml:33
+#| msgid "Drag to change maximum width."
+msgctxt "@info:tooltip slider handle"
 msgid "Drag to change maximum width."
 msgstr "Перацягніце, каб змяніць максімальную шырыню."
 
-#: contents/configuration/panelconfiguration/Ruler.qml:30
-#: contents/configuration/panelconfiguration/Ruler.qml:31
-#, kde-format
-msgid "Double click to reset."
-msgstr "Двойчы пстрыкніце, каб скінуць."
+#: contents/configuration/panelconfiguration/Ruler.qml:34
+#: contents/configuration/panelconfiguration/Ruler.qml:39
+#| msgid "Double click to reset."
+msgctxt "@info:tooltip slider handle"
+msgid "Double-click to reset."
+msgstr ""
 
-#: contents/configuration/panelconfiguration/Ruler.qml:31
-#, kde-format
+#: contents/configuration/panelconfiguration/Ruler.qml:37
+#| msgid "Drag to change minimum height."
+msgctxt "@info:tooltip slider handle"
 msgid "Drag to change minimum height."
 msgstr "Перацягніце, каб змяніць мінімалюную вышыню."
 
-#: contents/configuration/panelconfiguration/Ruler.qml:31
-#, kde-format
+#: contents/configuration/panelconfiguration/Ruler.qml:38
+#| msgid "Drag to change minimum width."
+msgctxt "@info:tooltip slider handle"
 msgid "Drag to change minimum width."
 msgstr "Перацягніце, каб змяніць мінімальную шырыню."
 
-#: contents/configuration/panelconfiguration/Ruler.qml:78
-#, kde-format
+#: contents/configuration/panelconfiguration/Ruler.qml:87
+#| msgid ""
+#| "Drag to change position on this screen edge.\n"
+#| "Double click to reset."
+msgctxt "@info:tooltip slider handle"
 msgid "Drag to change position on this screen edge.\n"
-"Double click to reset."
-msgstr "Перацягніце, каб змяніць пазіцыю на гэтым краі экрана.\n"
-"Двойчы пстрыкніце, каб скінуць."
+"Double-click to reset."
+msgstr ""
 
 #: contents/configuration/ShellContainmentConfiguration.qml:19
 #, kde-format
@@ -555,27 +568,27 @@ msgstr "Вы можаце перацягваць панэлі і працоўн�
 msgid "Close"
 msgstr "Закрыць"
 
-#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:179
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:187
 #, kde-format
 msgid "Swap with Desktop on Screen %1"
 msgstr "Памяняць месцамі з працоўным сталом на экране %1"
 
-#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:180
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:188
 #, kde-format
 msgid "Move to Screen %1"
 msgstr "Перамясціць на экран %1"
 
-#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:194
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:202
 #, kde-format
 msgid "Remove Desktop"
 msgstr "Выдаліць працоўны стол"
 
-#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:195
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:203
 #, kde-format
 msgid "Remove Panel"
 msgstr "Выдаліць панэль"
 
-#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:268
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:279
 #, kde-format
 msgid "%1 (primary)"
 msgstr "%1 (асноўны)"
@@ -590,15 +603,27 @@ msgstr "Альтэрнатыўныя віджэты"
 msgid "Unsupported Widget"
 msgstr "Віджэт не падтрымліваецца"
 
+#: contents/explorer/AppletDelegate.qml:172
+#, kde-format
+msgctxt "Text displayed on top of newly installed widgets"
+msgid "New!"
+msgstr ""
+
 #: contents/explorer/AppletDelegate.qml:188
 #, kde-format
 msgid "Undo uninstall"
 msgstr "Адрабіць выдаленне"
 
 #: contents/explorer/AppletDelegate.qml:189
-#, kde-format
-msgid "Uninstall widget"
-msgstr "Выдаліць віджэт"
+#| msgid "Uninstall"
+msgctxt "@info:tooltip uninstall a widget"
+msgid "Uninstall"
+msgstr "Выдаліць"
+
+#: contents/explorer/AppletDelegate.qml:231
+#| msgid "Remove Panel"
+msgid "Remove all instances"
+msgstr ""
 
 #: contents/explorer/Tooltip.qml:105
 #, kde-format
@@ -615,49 +640,51 @@ msgstr "Электронная пошта:"
 msgid "Uninstall"
 msgstr "Выдаліць"
 
-#: contents/explorer/WidgetExplorer.qml:129
-#: contents/explorer/WidgetExplorer.qml:206
+#: contents/explorer/WidgetExplorer.qml:140
+#: contents/explorer/WidgetExplorer.qml:220
 #, kde-format
 msgid "All Widgets"
 msgstr "Усе віджэты"
 
-#: contents/explorer/WidgetExplorer.qml:155
+#: contents/explorer/WidgetExplorer.qml:169
 #, kde-format
 msgid "Widgets"
 msgstr "Віджэты"
 
-#: contents/explorer/WidgetExplorer.qml:164
+#: contents/explorer/WidgetExplorer.qml:178
 #| msgid "Get New Plugins…"
 msgctxt "@action:button The word 'new' refers to widgets"
 msgid "Get New…"
 msgstr "Атрымаць новыя…"
 
-#: contents/explorer/WidgetExplorer.qml:165
+#: contents/explorer/WidgetExplorer.qml:179
 #| msgid "Get New Widgets…"
 msgctxt "@action:button"
 msgid "Get New Widgets…"
 msgstr "Атрымаць новыя віджэты…"
 
-#: contents/explorer/WidgetExplorer.qml:217
+#: contents/explorer/WidgetExplorer.qml:234
 #, kde-format
 msgid "Categories"
 msgstr "Катэгорыі"
 
-#: contents/explorer/WidgetExplorer.qml:228
-#, kde-format
-msgid "Confirm Removal Of One Widget"
-msgid_plural "Confirm Removal Of %1 Widgets"
-msgstr[0] "Пацвердзіць выдаленне %1 віджэта"
-msgstr[1] "Пацвердзіць выдаленне %1 віджэтаў"
-msgstr[2] "Пацвердзіць выдаленне %1 віджэтаў"
-msgstr[3] "Пацвердзіць выдаленне %1 віджэтаў"
+#: contents/explorer/WidgetExplorer.qml:254
+#| msgid "Confirm Removal Of One Widget"
+#| msgid_plural "Confirm Removal Of %1 Widgets"
+msgctxt "@action:button uninstall widgets in widget explorer"
+msgid "Confirm Removal of One Widget"
+msgid_plural "Confirm Removal of %1 Widgets"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: contents/explorer/WidgetExplorer.qml:312
+#: contents/explorer/WidgetExplorer.qml:355
 #, kde-format
 msgid "No widgets matched the search terms"
 msgstr "Няма віджэтаў, якія адпавядаюць умовам пошуку"
 
-#: contents/explorer/WidgetExplorer.qml:312
+#: contents/explorer/WidgetExplorer.qml:355
 #, kde-format
 msgid "No widgets available"
 msgstr "Няма даступных віджэтаў"
@@ -769,7 +796,7 @@ msgstr "Прайграць або прыпыніць"
 msgid "Next track"
 msgstr "Наступная кампазіцыя"
 
-#: contents/osd/OsdItem.qml:32
+#: contents/osd/OsdItem.qml:34
 #, kde-format
 msgctxt "Percentage value"
 msgid "%1%"
@@ -800,6 +827,13 @@ msgstr "Выйсці з рэжыму рэдагавання"
 #, kde-format
 msgid "Panel Focus Indicator"
 msgstr "Індыкатар фокуса панэлі"
+
+#~ msgid "Uninstall widget"
+#~ msgstr "Выдаліць віджэт"
+
+#~ msgctxt "@action:button Done configuring the panel"
+#~ msgid "Done"
+#~ msgstr "Завершана"
 
 #~ msgctxt "@option:check"
 #~ msgid "Keep visible when unlocking prompt disappears"
