@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-01 00:41+0000\n"
-"PO-Revision-Date: 2024-08-11 21:04\n"
+"POT-Creation-Date: 2024-10-14 00:40+0000\n"
+"PO-Revision-Date: 2024-11-01 06:25\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -125,8 +125,6 @@ msgid "The message is encrypted for the following keys:"
 msgstr ""
 
 #: messagepartthemes/default/templates/encryptedmessagepart.html:20
-#: messagepartthemes/default/templates/signedmessagepart.html:72
-#: messagepartthemes/default/templates/signedmessagepart.html:146
 #| msgid "Logging Details"
 msgid "Hide Details"
 msgstr "Схаваць падрабязнасці"
@@ -154,7 +152,6 @@ msgid "Encrypted message"
 msgstr "Зашыфраванае паведамленне"
 
 #: messagepartthemes/default/templates/encryptedmessagepart.html:43
-#: messagepartthemes/default/templates/signedmessagepart.html:174
 #| msgid "Show alway&s"
 msgid "Show Details"
 msgstr "Паказваць падрабязнасці"
@@ -193,128 +190,7 @@ msgstr ""
 msgid "Please wait while the signature is being verified..."
 msgstr ""
 
-#: messagepartthemes/default/templates/signedmessagepart.html:15
-msgid "Not enough information to check signature. %1"
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:20
-#: messagepartthemes/default/templates/signedmessagepart.html:88
-#: messagepartthemes/default/templates/signedmessagepart.html:115
-#: messagepartthemes/default/templates/signedmessagepart.html:134
-#, kde-format
-msgid "Message was signed by %1."
-msgstr "Паведамленне падпісана %1."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:22
-#: messagepartthemes/default/templates/signedmessagepart.html:99
-msgid "Message was signed with unknown key."
-msgstr "Паведамленне падпісана невядомым ключом."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:28
-#: messagepartthemes/default/templates/signedmessagepart.html:36
-#: messagepartthemes/default/templates/signedmessagepart.html:48
-#, kde-format
-msgid "Message was signed with key %1."
-msgstr "Паведамленне падпісана ключом %1."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:31
-msgid "Message was signed by %3 on %1 with key %2"
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:39
-msgid "Message was signed on %1 with key %2."
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:45
-#, kde-format
-msgid "Message was signed by %2 with key %1."
-msgstr "Паведамленне падпісана %2 ключом %1."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:57
-#: messagepartthemes/default/templates/signedmessagepart.html:105
-msgid "Status: "
-msgstr "Статус: "
-
-#: messagepartthemes/default/templates/signedmessagepart.html:85
-#: messagepartthemes/default/templates/signedmessagepart.html:112
-#: messagepartthemes/default/templates/signedmessagepart.html:131
-#, kde-format
-msgid "Message was signed by %2 (Key ID: %1)."
-msgstr "Паведамленне падпісана %2 (ID ключа: %1)."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:92
-msgid "Message was signed on %1 with unknown key %2."
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:95
-#, kde-format
-msgid "Message was signed with unknown key %1."
-msgstr "Паведамленне падпісана невядомым ключом %1."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:102
-msgid "The validity of the signature cannot be verified."
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:119
-msgid "The signature is valid, but the key's validity is unknown."
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:121
-msgid "The signature is valid and the key is marginally trusted."
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:123
-msgid "The signature is valid and the key is fully trusted."
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:125
-msgid "The signature is valid and the key is ultimately trusted."
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:127
-msgid "The signature is valid, but the key is untrusted."
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:137
-msgid "Warning: The signature is bad."
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:142
-#| msgid " Column: %1 "
-msgid "Compliance: %1"
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:154
-#| msgid "&Enable signature"
-msgid "Invalid signature"
-msgstr "Хібны подпіс"
-
-#: messagepartthemes/default/templates/signedmessagepart.html:156
-msgid "Not enough information to check signature validity"
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:159
-#, kde-format
-msgid "Signed by <a href='mailto:%1'>%1</a>"
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:161
-#| msgid "Signatures"
-msgid "Signature is valid"
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:164
-#| msgid "No signature found"
-msgid "Unknown signature state"
-msgstr ""
-
-#: messagepartthemes/default/templates/signedmessagepart.html:167
-#| msgid "Mail"
-msgctxt "Status of signature (status/type of compliance)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: messagepartthemes/default/templates/signedmessagepart.html:186
+#: messagepartthemes/default/templates/signedmessagepart.html:17
 msgid "End of signed message"
 msgstr "Канец падпісанага паведамлення"
 
@@ -989,108 +865,79 @@ msgctxt "@action"
 msgid "Send Deny"
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:67
+#: messagepartthemes/default/defaultrenderer.cpp:69
 msgid "Error: Signature not verified"
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:71
+#: messagepartthemes/default/defaultrenderer.cpp:73
 msgid "Good signature"
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:75
+#: messagepartthemes/default/defaultrenderer.cpp:77
 msgid "Bad signature"
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:79
+#: messagepartthemes/default/defaultrenderer.cpp:81
 msgid "No public key to verify the signature"
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:83
+#: messagepartthemes/default/defaultrenderer.cpp:85
 #, kde-format
 msgid "No signature found"
 msgstr "Подпіс не знойдзены"
 
-#: messagepartthemes/default/defaultrenderer.cpp:87
+#: messagepartthemes/default/defaultrenderer.cpp:89
 #, kde-format
 msgid "Error verifying the signature"
 msgstr "Немагчыма праверыць подпіс"
 
-#: messagepartthemes/default/defaultrenderer.cpp:91
+#: messagepartthemes/default/defaultrenderer.cpp:93
 msgid "Different results for signatures"
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:111
+#: messagepartthemes/default/defaultrenderer.cpp:113
 msgid "No status information available."
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:118
-#: messagepartthemes/default/defaultrenderer.cpp:203
+#: messagepartthemes/default/defaultrenderer.cpp:120
+#: messagepartthemes/default/defaultrenderer.cpp:205
 msgid "Good signature."
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:139
+#: messagepartthemes/default/defaultrenderer.cpp:141
 msgid "One key has expired."
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:143
+#: messagepartthemes/default/defaultrenderer.cpp:145
 msgid "The signature has expired."
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:148
+#: messagepartthemes/default/defaultrenderer.cpp:150
 msgid "Unable to verify: key missing."
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:155
+#: messagepartthemes/default/defaultrenderer.cpp:157
 msgid "CRL not available."
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:159
+#: messagepartthemes/default/defaultrenderer.cpp:161
 msgid "Available CRL is too old."
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:163
+#: messagepartthemes/default/defaultrenderer.cpp:165
 msgid "A policy was not met."
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:167
+#: messagepartthemes/default/defaultrenderer.cpp:169
 msgid "A system error occurred."
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:178
+#: messagepartthemes/default/defaultrenderer.cpp:180
 msgid "One key has been revoked."
 msgstr ""
 
-#: messagepartthemes/default/defaultrenderer.cpp:205
+#: messagepartthemes/default/defaultrenderer.cpp:207
 msgid "Bad signature."
-msgstr ""
-
-#: messagepartthemes/default/defaultrenderer.cpp:525
-#: messagepartthemes/default/defaultrenderer.cpp:527
-#| msgid "Certificates"
-msgid "certificate"
-msgstr ""
-
-#: messagepartthemes/default/defaultrenderer.cpp:537
-#: messagepartthemes/default/defaultrenderer.cpp:556
-#| msgid "Warning:"
-msgctxt "Start of warning message."
-msgid "Warning:"
-msgstr "Увага:"
-
-#: messagepartthemes/default/defaultrenderer.cpp:538
-msgid "Sender's mail address is not stored in the %1 used for signing."
-msgstr ""
-
-#: messagepartthemes/default/defaultrenderer.cpp:538
-msgid "sender: "
-msgstr ""
-
-#: messagepartthemes/default/defaultrenderer.cpp:539
-msgid "stored: "
-msgstr ""
-
-#: messagepartthemes/default/defaultrenderer.cpp:557
-msgid "No mail address is stored in the %1 used for signing, so we cannot compare it to the sender's address %2."
 msgstr ""
 
 #: remote-content/remotecontentconfiguredialog.cpp:27
@@ -1202,7 +1049,7 @@ msgid "Disable scam detection for all messages"
 msgstr ""
 
 #: scamdetection/scamdetectionwebengine.cpp:115
-#: scamdetection/scamdetectionwebengine.cpp:202
+#: scamdetection/scamdetectionwebengine.cpp:214
 #, kde-format
 msgid "This email contains a link which reads as '%1' in the text, but actually points to '%2'. This is often the case in scam emails to mislead the recipient"
 msgstr ""
@@ -1232,12 +1079,12 @@ msgstr ""
 msgid "This email contains a shorturl (%1). It can redirect to another server."
 msgstr ""
 
-#: scamdetection/scamdetectionwebengine.cpp:222
+#: scamdetection/scamdetectionwebengine.cpp:233
 #, kde-format
 msgid "Message contains form element. This is often the case in scam emails."
 msgstr ""
 
-#: scamdetection/scamdetectionwebengine.cpp:226
+#: scamdetection/scamdetectionwebengine.cpp:237
 #| msgid "[Details]"
 msgid "Details:"
 msgstr "Падрабязнасці:"
@@ -1856,75 +1703,75 @@ msgstr "Паказаць увесь цытуемы тэкст."
 msgid "Collapse quoted text."
 msgstr "Схаваць увесь цытуемы тэкст."
 
-#: viewer/urlhandlermanager.cpp:532
+#: viewer/urlhandlermanager.cpp:495
 #, kde-format
 msgid "Could not start certificate manager. Please check your installation."
 msgstr "Не атрымалася запусціць мэнэджэр сертыфікатаў. Праверце правільнасць усталёўкі праграмы."
 
-#: viewer/urlhandlermanager.cpp:534
+#: viewer/urlhandlermanager.cpp:497
 #, kde-format
 msgid "KMail Error"
 msgstr "Памылка KMail"
 
-#: viewer/urlhandlermanager.cpp:549
+#: viewer/urlhandlermanager.cpp:514
 #, kde-format
 msgid "Show certificate 0x%1"
 msgstr "Паказваць сертыфікат 0x%1"
 
-#: viewer/urlhandlermanager.cpp:608
+#: viewer/urlhandlermanager.cpp:573
 #| msgid "Open in Address Book"
 msgid "&Open in Address Book"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:610
+#: viewer/urlhandlermanager.cpp:575
 #| msgid "Email Address"
 msgid "&Copy Email Address"
 msgstr "&Скапіяваць адрас электроннай пошты"
 
-#: viewer/urlhandlermanager.cpp:623 viewer/viewer_p.cpp:2720
+#: viewer/urlhandlermanager.cpp:588 viewer/viewer_p.cpp:2720
 #, kde-format
 msgid "Address copied to clipboard."
 msgstr "Адрас скапіраваны ў буфер абмену."
 
-#: viewer/urlhandlermanager.cpp:634
+#: viewer/urlhandlermanager.cpp:599
 #| msgid "Open in Address Book"
 msgid "Lookup the contact in KAddressbook"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:810
+#: viewer/urlhandlermanager.cpp:775
 #, kde-format
 msgid "Attachment: %1"
 msgstr "Далучэнне: %1"
 
-#: viewer/urlhandlermanager.cpp:813
+#: viewer/urlhandlermanager.cpp:778
 msgid "Encapsulated Message (Subject: %1)"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:815
+#: viewer/urlhandlermanager.cpp:780
 msgid "Encapsulated Message"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:818
+#: viewer/urlhandlermanager.cpp:783
 #| msgid "Name of the attachment:"
 msgid "Unnamed attachment"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:853
+#: viewer/urlhandlermanager.cpp:818
 #, kde-format
 msgid "Show GnuPG Audit Log for this operation"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:894
+#: viewer/urlhandlermanager.cpp:859
 msgid "Opening URL..."
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:903
+#: viewer/urlhandlermanager.cpp:868
 #| msgid "<qt>Do you really want to execute <b>%1</b>?</qt>"
 msgctxt "@info"
 msgid "Do you really want to execute <filename>%1</filename>?"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:905
+#: viewer/urlhandlermanager.cpp:870
 #| msgid "Execute"
 msgctxt "@action:button"
 msgid "Execute"
@@ -2419,6 +2266,132 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Previous Message"
 msgstr "Папярэдняе паведамленне"
+
+#, fuzzy
+#~ msgid "Not enough information to check signature. %1"
+#~ msgstr "Нядосыць інфармацыі для праверкі подпісу. %1"
+
+#~ msgid "Message was signed by %1."
+#~ msgstr "Паведамленне падпісана %1."
+
+#~ msgid "Message was signed with unknown key."
+#~ msgstr "Паведамленне падпісана невядомым ключом."
+
+#~ msgid "Message was signed with key %1."
+#~ msgstr "Паведамленне падпісана ключом %1."
+
+#, fuzzy
+#~ msgid "Message was signed by %3 on %1 with key %2"
+#~ msgstr "Паведамленне падпісана %3 %1 ключом %2."
+
+#, fuzzy
+#~ msgid "Message was signed on %1 with key %2."
+#~ msgstr "Паведамленне падпісана %1 ключом %2."
+
+#~ msgid "Message was signed by %2 with key %1."
+#~ msgstr "Паведамленне падпісана %2 ключом %1."
+
+#~ msgid "Status: "
+#~ msgstr "Статус: "
+
+#~ msgid "Message was signed by %2 (Key ID: %1)."
+#~ msgstr "Паведамленне падпісана %2 (ID ключа: %1)."
+
+#, fuzzy
+#~ msgid "Message was signed on %1 with unknown key %2."
+#~ msgstr "Паведамленне падпісана %1 невядомым ключом %2."
+
+#~ msgid "Message was signed with unknown key %1."
+#~ msgstr "Паведамленне падпісана невядомым ключом %1."
+
+#, fuzzy
+#~ msgid "The validity of the signature cannot be verified."
+#~ msgstr "Не атрымоўваецца ўсталяваць сапраўднасць подпісу."
+
+#, fuzzy
+#~ msgid "The signature is valid, but the key's validity is unknown."
+#~ msgstr "Подпіс дакладная, але пэўнасць ключа невядомая."
+
+#, fuzzy
+#~ msgid "The signature is valid and the key is marginally trusted."
+#~ msgstr "Подпіс дакладная, але ключ не цалкам правераны."
+
+#, fuzzy
+#~ msgid "The signature is valid and the key is fully trusted."
+#~ msgstr "Подпіс дакладная, і ключ цалкам правераны."
+
+#, fuzzy
+#~ msgid "The signature is valid and the key is ultimately trusted."
+#~ msgstr "Подпіс дакладная, і ключ канчаткова правераны."
+
+#, fuzzy
+#~ msgid "The signature is valid, but the key is untrusted."
+#~ msgstr "Подпіс дакладная, але ключ не правераны."
+
+#, fuzzy
+#~ msgid "Warning: The signature is bad."
+#~ msgstr "Папярэджанне: памылка ў подпісы."
+
+#, fuzzy
+#~| msgid " Column: %1 "
+#~ msgid "Compliance: %1"
+#~ msgstr " Калонка: %1 "
+
+#, fuzzy
+#~| msgid "&Enable signature"
+#~ msgid "Invalid signature"
+#~ msgstr "&Уключыць подпіс"
+
+#, fuzzy
+#~ msgid "Not enough information to check signature validity"
+#~ msgstr "Нядосыць інфармацыі для праверкі подпісу. %1"
+
+#, fuzzy
+#~| msgid "Signatures"
+#~ msgid "Signature is valid"
+#~ msgstr "Подпісы"
+
+#, fuzzy
+#~| msgid "No signature found"
+#~ msgid "Unknown signature state"
+#~ msgstr "Подпіс не знойдзены"
+
+#, fuzzy
+#~| msgid "Mail"
+#~ msgctxt "Status of signature (status/type of compliance)"
+#~ msgid "%1 (%2)"
+#~ msgstr "Пошта: %1"
+
+#, fuzzy
+#~| msgid "Certificates"
+#~ msgid "certificate"
+#~ msgstr "Сертыфікаты"
+
+#, fuzzy
+#~| msgid "Warning:"
+#~ msgctxt "Start of warning message."
+#~ msgid "Warning:"
+#~ msgstr "Папярэджанне:"
+
+#, fuzzy
+#~ msgid "Sender's mail address is not stored in the %1 used for signing."
+#~ msgstr "Адрас адпраўніка не паказаны ў %1, выкарыстоўваным для подпісу."
+
+#, fuzzy
+#~ msgid "sender: "
+#~ msgstr "Адпраўнік:"
+
+#, fuzzy
+#~ msgid "stored: "
+#~ msgstr "захаваны:"
+
+#, fuzzy
+#~ msgid ""
+#~ "No mail address is stored in the %1 used for signing, so we cannot "
+#~ "compare it to the sender's address %2."
+#~ msgstr ""
+#~ "Не паказаны адрас у %1, выкарыстоўваным для подпісу, параўнанне з адрасам "
+#~ "адпраўніка %2 немагчыма."
 
 #, fuzzy
 #~| msgid "Key Export Failed"

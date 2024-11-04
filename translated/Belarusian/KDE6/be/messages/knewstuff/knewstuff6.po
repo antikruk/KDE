@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-20 00:37+0000\n"
-"PO-Revision-Date: 2024-08-11 21:03\n"
+"POT-Creation-Date: 2024-10-15 00:37+0000\n"
+"PO-Revision-Date: 2024-11-01 06:23\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -32,7 +32,7 @@ msgstr ""
 msgid "All categories are missing"
 msgstr "Няма катэгорый"
 
-#: attica/atticaprovider.cpp:481
+#: attica/atticaprovider.cpp:346
 #, kde-format
 msgctxt "the price of a download item, parameter 1 is the currency, 2 is the price"
 msgid "This item costs %1 %2.\n"
@@ -40,7 +40,7 @@ msgid "This item costs %1 %2.\n"
 msgstr "Гэты тавар каштуе %1 %2.\n"
 "Хочаце яго купіць?"
 
-#: attica/atticaprovider.cpp:495
+#: attica/atticaprovider.cpp:360
 #, kde-format
 msgid "Your account balance is too low:\n"
 "Your balance: %1\n"
@@ -49,39 +49,39 @@ msgstr "У вас не хапае сродкаў на рахунку:\n"
 "Ваш баланс: %1\n"
 "Кошт: %2"
 
-#: attica/atticaprovider.cpp:538
+#: attica/atticaprovider.cpp:392
 #| msgid "No text was replaced."
 msgctxt "voting for an item (good/bad)"
 msgid "Your vote was recorded."
 msgstr "Ваш голас быў запісаны."
 
-#: attica/atticaprovider.cpp:553
+#: attica/atticaprovider.cpp:407
 #, kde-format
 msgid "You are now a fan."
 msgstr "Цяпер вы заўзятар."
 
-#: attica/atticaprovider.cpp:581 core/enginebase.cpp:208
+#: attica/atticaprovider.cpp:435 core/enginebase.cpp:208
 #: opds/opdsprovider.cpp:287
 #, kde-format
 msgid "The service is currently undergoing maintenance and is expected to be back in %1."
 msgstr "Служба зараз знаходзіцца на тэхнічным абслугоўванні і, як чакаецца, будзе адноўленая ў %1."
 
-#: attica/atticaprovider.cpp:586
+#: attica/atticaprovider.cpp:440
 #, kde-format
 msgid "Network error %1: %2"
 msgstr "Памылка сеткі %1: %2"
 
-#: attica/atticaprovider.cpp:593
+#: attica/atticaprovider.cpp:447
 #, kde-format
 msgid "Too many requests to server. Please try again in a few minutes."
 msgstr "На сервер адпраўлена занадта шмат запытаў. Паўтарыце спробу праз некалькі хвілін."
 
-#: attica/atticaprovider.cpp:597
+#: attica/atticaprovider.cpp:451
 #, kde-format
 msgid "The Open Collaboration Services instance %1 does not support the attempted function."
 msgstr ""
 
-#: attica/atticaprovider.cpp:601
+#: attica/atticaprovider.cpp:455
 #, kde-format
 msgid "Unknown Open Collaboration Service API error. (%1)"
 msgstr ""
@@ -224,11 +224,11 @@ msgid "The uninstallation process failed to successfully run the command %1\n"
 "If you think this is incorrect, you can continue or cancel the uninstallation process"
 msgstr ""
 
-#: core/jobs/filecopyworker.cpp:49
+#: core/jobs/filecopyworker.cpp:60
 msgid "Could not open %1 for writing"
 msgstr "Немагчыма адкрыць %1 для запісу"
 
-#: core/jobs/filecopyworker.cpp:52
+#: core/jobs/filecopyworker.cpp:63
 msgid "Could not open %1 for reading"
 msgstr ""
 
@@ -252,7 +252,7 @@ msgstr ""
 msgid "We failed to identify a good link for updating %1, and are unable to perform the update"
 msgstr ""
 
-#: core/transaction.cpp:424
+#: core/transaction.cpp:425
 #| msgid "Failed to load file '%1'"
 msgid "Failed to adopt '%1'\n"
 "%2"
@@ -412,119 +412,128 @@ msgstr ""
 
 #: qtquick/qml/Page.qml:140
 #, kde-kuit-format
+msgctxt "@info displayed as InlineMessage"
 msgid "Use caution when accessing user-created content shown here, as it may contain executable code that hasn't been tested by KDE or your distributor for safety, stability, or quality."
 msgstr ""
 
 #: qtquick/qml/Page.qml:141
 #, kde-format
+msgctxt "@info displayed as InlineMessage"
 msgid "User-created content shown here hasn't been tested by KDE or your distributor for functionality or quality."
 msgstr ""
 
 #: qtquick/qml/Page.qml:172
-#, kde-format
-msgid "Everything"
-msgstr "Усё"
+#| msgid "&All"
+msgctxt "@action:button opening menu similar to combobox, filter list"
+msgid "All"
+msgstr "Усе"
 
 #: qtquick/qml/Page.qml:174
 #| msgid "Install"
+msgctxt "@action:button opening menu similar to combobox, filter list"
 msgid "Installed"
 msgstr "Усталявана"
 
 #: qtquick/qml/Page.qml:176
 #| msgid "Update"
+msgctxt "@action:button opening menu similar to combobox, filter list"
 msgid "Updateable"
 msgstr ""
 
-#: qtquick/qml/Page.qml:196
-#| msgid "&Show All Entries"
-msgctxt "List option which will set the filter to show everything"
-msgid "Show All Entries"
+#: qtquick/qml/Page.qml:186
+#| msgid "&All"
+msgctxt "@option:radio similar to combobox item, List option which will set the filter to show everything"
+msgid "All"
+msgstr "Усе"
+
+#: qtquick/qml/Page.qml:197
+#| msgid "Install"
+msgctxt "@option:radio similar to combobox item, List option which will set the filter so only installed items are shown"
+msgid "Installed"
+msgstr "Усталявана"
+
+#: qtquick/qml/Page.qml:208
+#| msgid "Update"
+msgctxt "@option:radio similar to combobox item, List option which will set the filter so only installed items with updates available are shown"
+msgid "Updateable"
 msgstr ""
 
-#: qtquick/qml/Page.qml:207
-#| msgid "&Show All Entries"
-msgctxt "List option which will set the filter so only installed items are shown"
-msgid "Show Only Installed Entries"
-msgstr ""
-
-#: qtquick/qml/Page.qml:218
-#| msgid "&Show All Entries"
-msgctxt "List option which will set the filter so only installed items with updates available are shown"
-msgid "Show Only Updateable Entries"
-msgstr ""
-
-#: qtquick/qml/Page.qml:231
-#| msgid "Open &Recent"
-msgid "Recent"
-msgstr "Нядаўнія"
-
-#: qtquick/qml/Page.qml:233
+#: qtquick/qml/Page.qml:221
 #, kde-format
-msgid "Alphabetical"
+msgctxt "@action:button opening menu similar to combobox, filter list"
+msgid "Sort: Release date"
 msgstr ""
 
-#: qtquick/qml/Page.qml:235
+#: qtquick/qml/Page.qml:223
+#| msgid "Action"
+msgctxt "@action:button opening menu similar to combobox, filter list"
+msgid "Sort: Name"
+msgstr ""
+
+#: qtquick/qml/Page.qml:225
+#| msgid "Sorting"
+msgctxt "@action:button opening menu similar to combobox, filter list"
+msgid "Sort: Rating"
+msgstr ""
+
+#: qtquick/qml/Page.qml:227
+#| msgid "Most Downloads"
+msgctxt "@action:button opening menu similar to combobox, filter list"
+msgid "Sort: Downloads"
+msgstr ""
+
+#: qtquick/qml/Page.qml:236
+#| msgid "Name"
+msgctxt "@option:radio in menu, List option which will set the sort order to be alphabetical based on the name"
+msgid "Name"
+msgstr "Імя"
+
+#: qtquick/qml/Page.qml:247
 #| msgid "Rating: "
+msgctxt "@option:radio in menu, List option which will set the sort order to based on user ratings"
 msgid "Rating"
 msgstr "Рэйтынг"
 
-#: qtquick/qml/Page.qml:237
+#: qtquick/qml/Page.qml:258
 #| msgid "Download"
+msgctxt "@option:radio similar to combobox item, List option which will set the sort order to based on number of downloads"
 msgid "Downloads"
 msgstr "Спампоўванні"
 
-#: qtquick/qml/Page.qml:257
-#| msgid "Show directories first"
-msgctxt "List option which will set the sort order to based on when items were most recently updated"
-msgid "Show Most Recent First"
-msgstr ""
+#: qtquick/qml/Page.qml:269
+#| msgid "&Remove '%1'"
+msgctxt "@option:radio similar to combobox item, List option which will set the sort order to based on when items were most recently updated"
+msgid "Release date"
+msgstr "Дата выпуску"
 
-#: qtquick/qml/Page.qml:268
-#, kde-format
-msgctxt "List option which will set the sort order to be alphabetical based on the name"
-msgid "Sort Alphabetically By Name"
-msgstr ""
-
-#: qtquick/qml/Page.qml:279
-#| msgid "Show directories first"
-msgctxt "List option which will set the sort order to based on user ratings"
-msgid "Show Highest Rated First"
-msgstr ""
-
-#: qtquick/qml/Page.qml:290
-#| msgid "Most Downloads"
-msgctxt "List option which will set the sort order to based on number of downloads"
-msgid "Show Most Downloaded First"
-msgstr ""
-
-#: qtquick/qml/Page.qml:303
+#: qtquick/qml/Page.qml:282
 #| msgid "&Replace..."
 msgid "Upload…"
 msgstr ""
 
-#: qtquick/qml/Page.qml:304
+#: qtquick/qml/Page.qml:283
 #, kde-format
 msgid "Learn how to add your own hot new stuff to this list"
 msgstr ""
 
-#: qtquick/qml/Page.qml:314
+#: qtquick/qml/Page.qml:293
 #| msgid "&Go To..."
 msgid "Go to…"
 msgstr ""
 
-#: qtquick/qml/Page.qml:321 qtquick/qml/Page.qml:330
+#: qtquick/qml/Page.qml:300 qtquick/qml/Page.qml:309
 #| msgid "Search:"
 msgid "Search…"
 msgstr "Пошук…"
 
-#: qtquick/qml/Page.qml:384
+#: qtquick/qml/Page.qml:363
 #| msgid "Character:"
 msgid "Category:"
 msgstr "Катэгорыя:"
 
-#: qtquick/qml/Page.qml:404
+#: qtquick/qml/Page.qml:383
 #| msgid "Continue operation"
-msgid "Contribute your own…"
+msgid "Contribute Your Own…"
 msgstr ""
 
 #: qtquick/qml/private/EntryCommentDelegate.qml:103
@@ -673,18 +682,18 @@ msgctxt "A description of how to upload content to the KDE Store specifically"
 msgid "To upload new entries, or to add content to an existing entry, please open the provider's website and follow the instructions there. You will likely need to create a user and log in to a product management system, where you will need to follow the instructions for how to add. Alternatively, you might be required to contact the managers of the site directly to get new content added."
 msgstr ""
 
-#: qtquick/quickengine.cpp:54 qtquick/quickengine.cpp:134
-#: qtquick/quickengine.cpp:142
+#: qtquick/quickengine.cpp:54 qtquick/quickengine.cpp:135
+#: qtquick/quickengine.cpp:143
 #| msgid "Loading Applet"
 msgid "Loading data"
 msgstr "Загрузка даных"
 
-#: qtquick/quickengine.cpp:138
+#: qtquick/quickengine.cpp:139
 #| msgid "Install"
 msgid "Installing"
 msgstr "Усталяванне"
 
-#: qtquick/quickengine.cpp:193
+#: qtquick/quickengine.cpp:194
 #, kde-format
 msgctxt "An informational message which is shown to inform the user they are not authorized to use GetHotNewStuff functionality"
 msgid "You are not authorized to Get Hot New Stuff. If you think this is in error, please contact the person in charge of your permissions."
@@ -789,6 +798,53 @@ msgstr ""
 msgctxt "@action"
 msgid "Download New Stuff…"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Show All Entries"
+#~ msgctxt "List option which will set the filter to show everything"
+#~ msgid "Show All Entries"
+#~ msgstr "Паказаць усе опцыі"
+
+#, fuzzy
+#~| msgid "&Show All Entries"
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items are shown"
+#~ msgid "Show Only Installed Entries"
+#~ msgstr "Паказаць усе опцыі"
+
+#, fuzzy
+#~| msgid "&Show All Entries"
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items with "
+#~ "updates available are shown"
+#~ msgid "Show Only Updateable Entries"
+#~ msgstr "Паказаць усе опцыі"
+
+#, fuzzy
+#~| msgid "Open &Recent"
+#~ msgid "Recent"
+#~ msgstr "Адкрыць &ранейшы файл"
+
+#, fuzzy
+#~| msgid "Show directories first"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Show Most Recent First"
+#~ msgstr "Спачатку паказваць тэчкі"
+
+#, fuzzy
+#~| msgid "Show directories first"
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Show Highest Rated First"
+#~ msgstr "Спачатку паказваць тэчкі"
+
+#, fuzzy
+#~| msgid "Most Downloads"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Show Most Downloaded First"
+#~ msgstr "Больш спампоўванняў"
 
 #, fuzzy
 #~| msgid "File"
@@ -1484,9 +1540,6 @@ msgstr ""
 #~ msgctxt "EMAIL OF TRANSLATORS"
 #~ msgid "Your emails"
 #~ msgstr "komzpa@gmail.com"
-
-#~ msgid "Name"
-#~ msgstr "Назва"
 
 #, fuzzy
 #~ msgid "Host"
@@ -5449,12 +5502,6 @@ msgstr ""
 #~ msgid "Replace"
 #~ msgstr "Замяніць"
 
-#, fuzzy
-#~| msgid "&All"
-#~ msgctxt "@action:button Replace all occurrences"
-#~ msgid "&All"
-#~ msgstr "&Усе"
-
 #~ msgid "&Skip"
 #~ msgstr "&Прапусціць"
 
@@ -8950,9 +8997,6 @@ msgstr ""
 #~ msgid "Highest Rated"
 #~ msgstr "Вышэйшыя адзнакі"
 
-#~ msgid "Most Downloads"
-#~ msgstr "Больш спампоўванняў"
-
 #~ msgid "Add Rating"
 #~ msgstr "Дадаць адзнаку"
 
@@ -10134,11 +10178,6 @@ msgstr ""
 #~| msgid "Description"
 #~ msgid "description"
 #~ msgstr "Апісанне"
-
-#, fuzzy
-#~| msgid "Action"
-#~ msgid "Autor Name"
-#~ msgstr "&Назва дзеяння:"
 
 #, fuzzy
 #~| msgid "Could not construct value"
@@ -12338,11 +12377,6 @@ msgstr ""
 #~ msgid "Root"
 #~ msgstr "Корань"
 
-#, fuzzy
-#~| msgid "&Remove '%1'"
-#~ msgid "&Release '%1'"
-#~ msgstr "&Выдаліць '%1'"
-
 #~ msgid "&Safely Remove '%1'"
 #~ msgstr "Бяспечна выняць '%1'"
 
@@ -12482,9 +12516,6 @@ msgstr ""
 
 #~ msgid "New Folder..."
 #~ msgstr "Новая тэчка..."
-
-#~ msgid "Sorting"
-#~ msgstr "Упарадкаванне"
 
 #~ msgid "By Name"
 #~ msgstr "Па назве"
