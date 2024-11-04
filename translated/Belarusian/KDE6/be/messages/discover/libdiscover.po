@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-09 00:41+0000\n"
-"PO-Revision-Date: 2024-10-28 19:13\n"
+"POT-Creation-Date: 2024-11-03 00:40+0000\n"
+"PO-Revision-Date: 2024-11-04 22:00\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -66,7 +66,7 @@ msgid "Error while submitting review: %1"
 msgstr "Падчас адпраўлення водгуку адбылася памылка: %1"
 
 #: libdiscover/backends/AlpineApkBackend/AlpineApkAuthActionFactory.cpp:26
-#| msgid "Packages to remove"
+#, kde-format
 msgid "Package management"
 msgstr "Кіраванне пакетамі"
 
@@ -76,7 +76,7 @@ msgid "Loading, please wait..."
 msgstr "Загружаецца, пачакайце..."
 
 #: libdiscover/backends/AlpineApkBackend/AlpineApkBackend.cpp:290
-#| msgid "Additional packages: "
+#, kde-format
 msgctxt "Root category name"
 msgid "Alpine Linux packages"
 msgstr "Пакеты Alpine Linux"
@@ -912,12 +912,7 @@ msgid "Automatic Removal"
 msgstr "Аўтаматычнае выдаленне"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakTransactionThread.cpp:443
-#| msgctxt ""
-#| "@info %1 and 2 are flatpak ids e.g. org.kde.krita (can be rather lengthy "
-#| "though)"
-#| msgid ""
-#| "<resource>%1</resource> is no longer receiving updates.<nl/><nl/>Replace "
-#| "it with the supported version provided by <resource>%2</resource>?"
+#, kde-kuit-format
 msgctxt "@info %1 is a flatpak id e.g. org.kde.krita (can be rather lengthy though)"
 msgid "<resource>%1</resource> is no longer receiving updates.<nl/><p>The reason given is: <message>%2</message></p><nl/><p>Automatically remove it?</p>"
 msgstr "<resource>%1</resource> больш не атрымлівае абнаўленні.<nl/><p>Прычына: <message>%2</message></p><nl/><p>Аўтаматычна выдаліць?</p>"
@@ -957,7 +952,7 @@ msgstr "Ачышчэнне налад і даных карыстальніка�
 
 #: libdiscover/backends/FlatpakBackend/qml/PermissionsList.qml:26
 #: libdiscover/backends/PackageKitBackend/qml/PackageKitPermissions.qml:23
-#| msgid "Permissions for %1"
+#, kde-format
 msgctxt "Permission to access system resources and hardware devices"
 msgid "Permissions"
 msgstr "Правы доступу"
@@ -1119,7 +1114,7 @@ msgid "Cannot remove '%1'"
 msgstr "Не ўдалося выдаліць \"%1\""
 
 #: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1024
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:360
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:368
 #, kde-format
 msgctxt "@info:status %1 is a new major version of the user's distro"
 msgid "<b>%1 is now available.</b>\n"
@@ -1134,7 +1129,7 @@ msgid "Upgrade Now"
 msgstr "Абнавіць зараз"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1056
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:370
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:378
 #, kde-format
 msgctxt "@info:status %1 is a new major version of the user's distro"
 msgid "%1 is now available."
@@ -1878,22 +1873,22 @@ msgid "Critical"
 msgstr "Крытычная"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:382
-#| msgid "Installed"
+#, kde-format
 msgid "Install"
 msgstr "Усталяваць"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:384
-#| msgid "Remove…"
+#, kde-format
 msgid "Remove"
 msgstr "Выдаліць"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:386
-#| msgid "Obsoletes:"
+#, kde-format
 msgid "Obsolete"
 msgstr "Састарэла"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:388
-#| msgid "Downgrading"
+#, kde-format
 msgid "Downgrade"
 msgstr "Вяртанне да папярэдняй версіі"
 
@@ -2192,23 +2187,23 @@ msgstr "rpm-ostree: знойдзена некалькі загружаных р�
 msgid "rpm-ostree: No booted deployment found. Please file a bug."
 msgstr "rpm-ostree: не знойдзена загружаных размяшчэнняў. Адпраўце справаздачу пра хібу."
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:368
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:376
 #, kde-format
 msgctxt "@action: button"
 msgid "Begin Upgrade…"
 msgstr "Пачаць абнаўленне…"
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:513
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:521
 #, kde-format
 msgid "You have pending updates for the current version. Proceeding anyway."
 msgstr "У вас ёсць незавершаныя абнаўленні для бягучай версіі. Усё адно працягваецца."
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:516
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:524
 #, kde-format
 msgid "Please update to the latest version before rebasing to a major version"
 msgstr "Перш чым перайсці да новай значнай версіі, трэба абнавіцца да апошняй версіі"
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:524
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:532
 #, kde-format
 msgid "Missing remote ref for rebase operation. Please file a bug."
 msgstr "Для выканання аперацыі пераходу не хапае спасылкі. Адпраўце справаздачу пра хібу."
@@ -2342,12 +2337,12 @@ msgid "Unknown transaction type"
 msgstr "Невядомы тып трансакцыі"
 
 #: libdiscover/backends/SnapBackend/qml/ChannelsButton.qml:22
-#| msgid "Channels…"
+#, kde-format
 msgid "Channel: %1"
 msgstr "Канал: %1"
 
 #: libdiscover/backends/SnapBackend/qml/ChannelsButton.qml:31
-#| msgid "Channels…"
+#, kde-format
 msgid "Channels for %1"
 msgstr "Каналы для %1"
 
@@ -2372,7 +2367,7 @@ msgstr "Правы доступу для \"%1\""
 msgid "Snap"
 msgstr "Snap"
 
-#: libdiscover/backends/SnapBackend/SnapTransaction.cpp:53
+#: libdiscover/backends/SnapBackend/SnapTransaction.cpp:58
 #, kde-format
 msgid "This Snap application is not compatible with security sandboxing and will have full access to this computer. Install it anyway?"
 msgstr "Гэтая праграма Snap несумяшчальная з ізаляваным асяроддзем бяспекі і будзе мець поўны доступ да гэтага камп'ютара. Усё адно ўсталяваць?"
@@ -2434,7 +2429,7 @@ msgstr "Праверце злучэнне з інтэрнэтам"
 msgid "Refresh"
 msgstr "Абнавіць"
 
-#: libdiscover/resources/ResourcesProxyModel.cpp:796
+#: libdiscover/resources/ResourcesProxyModel.cpp:800
 #, kde-format
 msgctxt "an approximation number, like 3000+"
 msgid "%1+"
@@ -2512,7 +2507,7 @@ msgid "Applications"
 msgstr "Праграмы"
 
 #: libdiscover/UpdateModel/UpdateModel.cpp:137
-#| msgid "Applications"
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "Application Support"
 msgstr "Падтрымка праграм"
