@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-05 00:41+0000\n"
-"PO-Revision-Date: 2024-10-29 20:10\n"
+"POT-Creation-Date: 2024-10-27 00:42+0000\n"
+"PO-Revision-Date: 2024-11-04 22:00\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -36,9 +36,7 @@ msgid "Clipboard history:"
 msgstr "Гісторыя буфера абмену:"
 
 #: configdialog.cpp:88
-#| msgctxt "Number of entries"
-#| msgid " entry"
-#| msgid_plural " entries"
+#, kde-format
 msgctxt "Number of entries"
 msgid "%v entry"
 msgid_plural "%v entries"
@@ -110,9 +108,7 @@ msgid "Exclude Windows..."
 msgstr "Выключыць вокны..."
 
 #: configdialog.cpp:294
-#| msgctxt "Unit of time"
-#| msgid " second"
-#| msgid_plural " seconds"
+#, kde-format
 msgctxt "Unit of time"
 msgid "%v second"
 msgid_plural "%v seconds"
@@ -275,7 +271,7 @@ msgid "Code 128"
 msgstr "Код 128"
 
 #: declarative/qml/BarcodePage.qml:52
-#| msgid "Add to Clipboard"
+#, kde-format
 msgid "Return to Clipboard"
 msgstr "Вярнуцца да буфера абмену"
 
@@ -294,8 +290,20 @@ msgstr "Недастаткова месца для паказу QR-кода. П�
 msgid "Creating QR code failed"
 msgstr "Не ўдалося стварыць QR-код"
 
+#: declarative/qml/ClipboardItemDelegate.qml:178
+#, kde-format
+msgctxt "@action:button"
+msgid "Collapse"
+msgstr "Згарнуць"
+
+#: declarative/qml/ClipboardItemDelegate.qml:178
+#, kde-format
+msgctxt "@action:button"
+msgid "Expand"
+msgstr "Разгарнуць"
+
 #: declarative/qml/ClipboardMenu.qml:186
-#| msgid "Clipboard history"
+#, kde-format
 msgid "Clear History"
 msgstr "Ачысціць гісторыю"
 
@@ -309,24 +317,23 @@ msgstr "Няма супадзенняў"
 msgid "Clipboard is empty"
 msgstr "Буфер абмену пусты"
 
-#: declarative/qml/DelegateToolButtons.qml:26
-#| msgid "<new action>"
+#: declarative/qml/DelegateToolButtons.qml:31
+#, kde-format
 msgid "Invoke action"
 msgstr "Выклікаць дзеянне"
 
-#: declarative/qml/DelegateToolButtons.qml:39
-#| msgctxt "@action:inmenu"
-#| msgid "&Show Barcode…"
+#: declarative/qml/DelegateToolButtons.qml:32
+#, kde-format
 msgid "Show QR code"
 msgstr "Паказваць QR-код"
 
-#: declarative/qml/DelegateToolButtons.qml:55
-#| msgid "Edit Contents"
+#: declarative/qml/DelegateToolButtons.qml:33
+#, kde-format
 msgid "Edit contents"
 msgstr "Рэдагаваць змесціва"
 
-#: declarative/qml/DelegateToolButtons.qml:69
-#| msgid "For an item chosen from history"
+#: declarative/qml/DelegateToolButtons.qml:34
+#, kde-format
 msgid "Remove from history"
 msgstr "Выдаліць з гісторыі"
 
@@ -343,7 +350,7 @@ msgid "Save"
 msgstr "Захаваць"
 
 #: declarative/qml/EditPage.qml:88
-#| msgid "&Cancel"
+#, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Скасаваць"
@@ -369,91 +376,91 @@ msgstr "Замяніць у буферы абмену"
 msgid "Add to Clipboard"
 msgstr "Дадаць у буфер абмену"
 
-#: editactiondialog.cpp:122
+#: editactiondialog.cpp:126
 #, kde-format
 msgid "Command"
 msgstr "Каманда"
 
-#: editactiondialog.cpp:124
+#: editactiondialog.cpp:128
 #, kde-format
 msgid "Output"
 msgstr "Вывад"
 
-#: editactiondialog.cpp:126
+#: editactiondialog.cpp:130
 #, kde-format
 msgid "Description"
 msgstr "Апісанне"
 
-#: editactiondialog.cpp:179
+#: editactiondialog.cpp:183
 #, kde-format
 msgid "Action Properties"
 msgstr "Уласцівасці дзеяння"
 
-#: editactiondialog.cpp:191
+#: editactiondialog.cpp:195
 #, kde-kuit-format
 msgctxt "@info"
 msgid "An action takes effect when its <interface>match pattern</interface> matches the clipboard contents. When this happens, the action's <interface>commands</interface> appear in the Klipper popup menu; if one of them is chosen, the command is executed."
 msgstr "Дзеянне выконваецца, калі яго <interface>шаблон супадзення</interface> адпавядае змесціву буфера абмену. Калі гэта адбываецца, <interface>каманды</interface> дзеяння з'яўляюцца ў выплыўным меню Klipper; калі абіраецца адзін з іх, каманда выконваецца."
 
-#: editactiondialog.cpp:203
+#: editactiondialog.cpp:207
 #, kde-format
 msgid "Enter a pattern to match against the clipboard"
 msgstr "Увядзіце шаблон супадзення з буферам абмену"
 
-#: editactiondialog.cpp:205
+#: editactiondialog.cpp:209
 #, kde-format
 msgid "Match pattern:"
 msgstr "Шаблон супадзення:"
 
-#: editactiondialog.cpp:208
+#: editactiondialog.cpp:212
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The match pattern is a regular expression. For more information see the <link url=\"https://en.wikipedia.org/wiki/Regular_expression\">Wikipedia entry</link> for this topic."
 msgstr "Шаблон супадзення - гэта рэгулярны выраз. Каб даведацца падрабязней, глядзіце <link url=\"https://en.wikipedia.org/wiki/Regular_expression\">запіс у Вікіпедыі</link> па гэтай тэме."
 
-#: editactiondialog.cpp:219
+#: editactiondialog.cpp:223
 #, kde-format
 msgid "Enter a description for the action"
 msgstr "Увядзіце апісанне дзеяння"
 
-#: editactiondialog.cpp:220 editcommanddialog.cpp:83
+#: editactiondialog.cpp:224 editcommanddialog.cpp:83
 #, kde-format
 msgid "Description:"
 msgstr "Апісанне:"
 
-#: editactiondialog.cpp:223
+#: editactiondialog.cpp:227
 #, kde-format
 msgid "Include in automatic popup"
 msgstr "Уключыць у выплыўное меню"
 
-#: editactiondialog.cpp:227
+#: editactiondialog.cpp:231
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The commands for this match will be included in the automatic action popup, if it is enabled in the <interface>Action Menu</interface> page. If this option is turned off, the commands for this match will not be included in the automatic popup but they will be included if the popup is activated manually with the <shortcut>%1</shortcut> key shortcut."
 msgstr "Каманды для гэтага супадзення будуць дададзеныя ў выплыўное меню для дзеяння, калі меню ўключана на старонцы <interface>Меню дзеянняў</interface>. Калі гэты параметр адключаны, каманды для гэтага супадзення не будуць дададзеныя ў выплыўное меню, але дададуцца, калі меню будзе актывавана з дапамогай спалучэння клавіш <shortcut>%1</shortcut>."
 
-#: editactiondialog.cpp:262
+#: editactiondialog.cpp:266
 #, kde-format
 msgid "Add Command..."
 msgstr "Дадаць каманду..."
 
-#: editactiondialog.cpp:267
+#: editactiondialog.cpp:271
 #, kde-format
 msgid "Edit Command..."
 msgstr "Рэдагаваць каманду..."
 
-#: editactiondialog.cpp:273
+#: editactiondialog.cpp:277
 #, kde-format
 msgid "Delete Command"
 msgstr "Выдаліць каманду"
 
-#: editactiondialog.cpp:388
+#: editactiondialog.cpp:392
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Delete the selected command <resource>%1</resource>?"
 msgstr "Выдаліць абраную каманду <resource>%1</resource>?"
 
-#: editactiondialog.cpp:389
+#: editactiondialog.cpp:393
 #, kde-format
 msgid "Confirm Delete Command"
 msgstr "Пацвердзіць выдаленне каманды"
@@ -777,7 +784,7 @@ msgid "If a file name or URL is selected, include applications that can accept i
 msgstr "Калі абрана назва файла або URL-адрас, дадаваць у выплыўное меню праграмы, якія могуць апрацоўваць адпаведны тып MIME."
 
 #: klipperpopup.cpp:33
-#| msgid "Clipboard history"
+#, kde-format
 msgid "Clipboard Popup"
 msgstr "Выплыўное акно буфера абмену"
 
