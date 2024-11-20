@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-07 00:37+0000\n"
-"PO-Revision-Date: 2024-11-09 05:04\n"
+"POT-Creation-Date: 2024-11-19 00:38+0000\n"
+"PO-Revision-Date: 2024-11-20 08:40\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -2649,6 +2649,8 @@ msgstr ""
 
 #: script/data/commands/jumpMatchingIndent.js:11
 #: script/data/commands/jumpMatchingIndent.js:16
+#: script/data/commands/jumpMatchingIndent.js:21
+#: script/data/commands/jumpMatchingIndent.js:26
 #: script/data/commands/navigation.js:10 script/data/commands/navigation.js:14
 #| msgctxt "Language Section"
 #| msgid "Configuration"
@@ -2662,14 +2664,36 @@ msgctxt "Script command name"
 msgid "Move Cursor to Next Matching Indent"
 msgstr ""
 
-#: script/data/commands/jumpMatchingIndent.js:44
+#: script/data/commands/jumpMatchingIndent.js:19
+#| msgid "Move to Matching Bracket"
+msgctxt "Script command name"
+msgid "Move Cursor to Next Blank Line"
+msgstr ""
+
+#: script/data/commands/jumpMatchingIndent.js:24
+#| msgid "Move to Matching Bracket"
+msgctxt "Script command name"
+msgid "Move Cursor to Previous Blank Line"
+msgstr ""
+
+#: script/data/commands/jumpMatchingIndent.js:80
 #| msgid "Move to Matching Bracket"
 msgid "Move cursor to previous matching indent"
 msgstr ""
 
-#: script/data/commands/jumpMatchingIndent.js:47
+#: script/data/commands/jumpMatchingIndent.js:83
 #| msgid "Move to Matching Bracket"
 msgid "Move cursor to next matching indent"
+msgstr ""
+
+#: script/data/commands/jumpMatchingIndent.js:85
+#| msgid "Move to Matching Bracket"
+msgid "Move cursor to next blank line"
+msgstr ""
+
+#: script/data/commands/jumpMatchingIndent.js:87
+#| msgid "Move to Matching Bracket"
+msgid "Move cursor to previous blank line"
 msgstr ""
 
 #: script/data/commands/navigation.js:9
@@ -4115,7 +4139,7 @@ msgstr ""
 msgid "Marker Colors"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:324 view/kateviewhelpers.cpp:1486
+#: syntax/katethemeconfig.cpp:324 view/kateviewhelpers.cpp:1507
 #, kde-format
 msgid "Bookmark"
 msgstr "Закладка"
@@ -6785,34 +6809,34 @@ msgstr ""
 msgid "Export File as HTML"
 msgstr "Экспартаваць файл як HTML"
 
-#: view/kateviewhelpers.cpp:287 view/kateviewhelpers.cpp:332
-#: view/kateviewhelpers.cpp:988
+#: view/kateviewhelpers.cpp:296 view/kateviewhelpers.cpp:345
+#: view/kateviewhelpers.cpp:1005
 #, kde-format
 msgctxt "from line - to line"
 msgid "<center>%1<br/>&#x2014;<br/>%2</center>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1162
+#: view/kateviewhelpers.cpp:1183
 #, kde-format
 msgid "Available Commands"
 msgstr "Даступныя каманды"
 
-#: view/kateviewhelpers.cpp:1163
+#: view/kateviewhelpers.cpp:1184
 #, kde-format
 msgid "<p>For help on individual commands, do <code>'help &lt;command&gt;'</code></p>"
 msgstr "<p>Каб паглядзець даведку па асобных камандах, выканайце <code>\"help &lt;каманду&gt;\"</code></p>"
 
-#: view/kateviewhelpers.cpp:1170
+#: view/kateviewhelpers.cpp:1191
 #, kde-format
 msgid "No help for '%1'"
 msgstr "Няма даведкі для \"%1\""
 
-#: view/kateviewhelpers.cpp:1173
+#: view/kateviewhelpers.cpp:1194
 #, kde-format
 msgid "No such command <b>%1</b>"
 msgstr "Няма каманды <b>%1</b>"
 
-#: view/kateviewhelpers.cpp:1179
+#: view/kateviewhelpers.cpp:1200
 #| msgid ""
 #| "<p>This is the Katepart <b>command line</b>.<br>Syntax: <code><b>command "
 #| "[ arguments ]</b></code><br>For a list of available commands, enter "
@@ -6821,37 +6845,37 @@ msgstr "Няма каманды <b>%1</b>"
 msgid "<p>This is the Katepart <b>command line</b>.<br />Syntax: <code><b>command [ arguments ]</b></code><br />For a list of available commands, enter <code><b>help list</b></code><br />For help for individual commands, enter <code><b>help &lt;command&gt;</b></code></p>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1267 vimode/emulatedcommandbar/commandmode.cpp:210
+#: view/kateviewhelpers.cpp:1288 vimode/emulatedcommandbar/commandmode.cpp:210
 #, kde-format
 msgid "No such command: \"%1\""
 msgstr "Такой каманды няма: \"%1\""
 
-#: view/kateviewhelpers.cpp:1270 vimode/emulatedcommandbar/commandmode.cpp:192
+#: view/kateviewhelpers.cpp:1291 vimode/emulatedcommandbar/commandmode.cpp:192
 #, kde-format
 msgid "Error: No range allowed for command \"%1\"."
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1280 vimode/emulatedcommandbar/commandmode.cpp:196
+#: view/kateviewhelpers.cpp:1301 vimode/emulatedcommandbar/commandmode.cpp:196
 #, kde-format
 msgid "Success: "
 msgstr "Паспяхова: "
 
-#: view/kateviewhelpers.cpp:1294 vimode/emulatedcommandbar/commandmode.cpp:205
+#: view/kateviewhelpers.cpp:1315 vimode/emulatedcommandbar/commandmode.cpp:205
 #, kde-format
 msgid "Command \"%1\" failed."
 msgstr "Не ўдалося выканаць каманду \"%1\"."
 
-#: view/kateviewhelpers.cpp:2582 view/kateviewhelpers.cpp:2583
+#: view/kateviewhelpers.cpp:2603 view/kateviewhelpers.cpp:2604
 #, kde-format
 msgid "Mark Type %1"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:2606
+#: view/kateviewhelpers.cpp:2627
 #, kde-format
 msgid "Set Default Mark Type"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:2747
+#: view/kateviewhelpers.cpp:2768
 #, kde-format
 msgid "Disable Annotation Bar"
 msgstr ""
@@ -7144,17 +7168,17 @@ msgid "There are no more chars for the next bookmark."
 msgstr ""
 
 #: vimode/modes/insertvimode.cpp:260 vimode/modes/modebase.cpp:793
-#: vimode/modes/normalvimode.cpp:3562
+#: vimode/modes/normalvimode.cpp:3561
 #, kde-format
 msgid "Nothing in register %1"
 msgstr ""
 
-#: vimode/modes/normalvimode.cpp:1685
+#: vimode/modes/normalvimode.cpp:1684
 #, kde-format
 msgid "'%1' %2,  Hex %3,  Octal %4"
 msgstr ""
 
-#: vimode/modes/normalvimode.cpp:2528
+#: vimode/modes/normalvimode.cpp:2527
 msgid "Mark not set: %1"
 msgstr ""
 
