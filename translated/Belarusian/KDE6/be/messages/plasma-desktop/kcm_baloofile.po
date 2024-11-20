@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-29 00:40+0000\n"
-"PO-Revision-Date: 2024-11-01 18:20\n"
+"POT-Creation-Date: 2024-08-28 00:40+0000\n"
+"PO-Revision-Date: 2024-11-20 08:42\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -107,8 +107,7 @@ msgid "%1, %2% complete"
 msgstr "%1, %2% скончана"
 
 #: ui/main.qml:217
-#| msgctxt "@info Currently Indexing"
-#| msgid "<filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info Currently Indexing"
 msgid "Currently indexing: <filename>%1</filename>"
 msgstr "Бягучае індэксаванне: <filename>%1</filename>"
@@ -124,9 +123,10 @@ msgid "Indexed"
 msgstr "Індэксаваны"
 
 #: ui/main.qml:301
-#, kde-format
-msgid "Delete entry"
-msgstr "Выдаліць запіс"
+#| msgid "Delete entry"
+msgctxt "Remove the list item for this filesystem path"
+msgid "Remove entry"
+msgstr "Выдаліць элемент"
 
 #: ui/main.qml:316
 #, kde-format
