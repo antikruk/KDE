@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-03 00:41+0000\n"
-"PO-Revision-Date: 2024-11-06 22:00\n"
+"POT-Creation-Date: 2024-11-12 00:42+0000\n"
+"PO-Revision-Date: 2024-11-21 20:40\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -26,7 +26,7 @@ msgid "Disabled"
 msgstr "Адключана"
 
 #: inputsequence.cpp:175
-#| msgid "None"
+#, kde-format
 msgctxt "@action:button There is no keybinding"
 msgid "None"
 msgstr "Няма"
@@ -56,7 +56,7 @@ msgid "Application-defined"
 msgstr "Вызначаецца праграмай"
 
 #: inputsequence.cpp:194
-#| msgid "Pen button 1:"
+#, kde-format
 msgctxt "@action:button"
 msgid "Pen Button %1"
 msgstr "Кнопка стылуса %1"
@@ -104,27 +104,30 @@ msgstr "%1 - (%2,%3 %4×%5)"
 
 #: kcmtablet.cpp:163
 #, kde-format
-msgid "Fit to Screen"
-msgstr "Па памеры экрана"
+msgctxt "@item:inlistbox Stretch and fill to the screen"
+msgid "Stretch and Fill"
+msgstr "Расцягнуць і запоўніць"
 
 #: kcmtablet.cpp:164
-#, kde-format
-msgid "Keep Aspect Ratio and Fit Within Screen"
+#| msgid "Keep Aspect Ratio and Fit Within Screen"
+msgctxt "@item:inlistbox Keep aspect ratio and fit within the screen"
+msgid "Keep Aspect Ratio and Fit"
 msgstr "Захоўваць суадносіны бакоў і адпавядаць памеру экрану"
 
 #: kcmtablet.cpp:165
-#, kde-format
-msgid "Map to Portion of Screen"
-msgstr "Суадносіны з часткай экрана"
+#| msgid "Map to Portion of Screen"
+msgctxt "@item:inlistbox Map to portion of the screen"
+msgid "Map to Portion"
+msgstr "Размясціць у частцы экрана"
 
 #: kcmtablet.cpp:290
-#| msgid "Pen button 1:"
+#, kde-format
 msgctxt "Stylus pen button"
 msgid "Pen button %1:"
 msgstr "Кнопка стылуса %1:"
 
 #: kcmtablet.cpp:291
-#| msgid "Pen button 1:"
+#, kde-format
 msgctxt "@info Meant to be inserted into an existing sentence like 'configuring pen button X'"
 msgid "pen button %1"
 msgstr "кнопка стылуса %1"
@@ -160,7 +163,7 @@ msgid "Send mouse button click"
 msgstr "Адправіць пстрыканне левай кнопкай мышы"
 
 #: ui/ActionDialog.qml:132
-#| msgid "Pen button 1:"
+#, kde-format
 msgctxt "@option:radio Set this action to a pen button type"
 msgid "Send pen button"
 msgstr "Адправіць кнопку стылуса"
@@ -220,19 +223,19 @@ msgid "Shift"
 msgstr "Shift"
 
 #: ui/ActionDialog.qml:264
-#| msgid "Tool Button 1"
+#, kde-format
 msgctxt "@action:inmenu Stylus button"
 msgid "Button 1"
 msgstr "Кнопка 1"
 
 #: ui/ActionDialog.qml:265
-#| msgid "Pen button 2:"
+#, kde-format
 msgctxt "@action:inmenu Stylus button"
 msgid "Button 2"
 msgstr "Кнопка 2"
 
 #: ui/ActionDialog.qml:266
-#| msgid "Pen button 3:"
+#, kde-format
 msgctxt "@action:inmenu Stylus button"
 msgid "Button 3"
 msgstr "Кнопка 3"
@@ -307,7 +310,7 @@ msgctxt "@label:listbox The device we are configuring"
 msgid "Device:"
 msgstr "Прылада:"
 
-#: ui/main.qml:125
+#: ui/main.qml:126
 #, kde-format
 msgid "Map to screen:"
 msgstr "Суадносіны з экранам:"
@@ -322,116 +325,105 @@ msgstr "Арыентацыя:"
 msgid "Not Applicable"
 msgstr "Не дастасавальна"
 
-#: ui/main.qml:158
+#: ui/main.qml:162
 #, kde-format
 msgid "Left-handed mode:"
 msgstr "Рэжым для ляўшэй:"
 
-#: ui/main.qml:169
+#: ui/main.qml:173
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Tells the device to accommodate left-handed users. Effects will vary by device, but often it reverses the pad buttonsʼ functionality so the tablet can be used upside-down."
 msgstr "Паказвае, што прылада можа быць прыстасавана да ляўшэй. Эфекты будуць адрознівацца ў залежнасці ад прылады, але часта функцыянальнасць кнопак панэлі змяняецца, таму планшэт можна выкарыстоўваць перавернутым."
 
-#: ui/main.qml:175
+#: ui/main.qml:183
 #, kde-format
 msgid "Mapped Area:"
 msgstr "Вобласць суадносін:"
 
-#: ui/main.qml:262
+#: ui/main.qml:274
 #, kde-format
 msgid "Resize the tablet area"
 msgstr "Змяніць памер вобласці планшэта"
 
-#: ui/main.qml:286
+#: ui/main.qml:298
 #, kde-format
 msgctxt "@option:check"
 msgid "Lock aspect ratio"
 msgstr "Заблакаваць суадносіны бакоў"
 
-#: ui/main.qml:294
+#: ui/main.qml:306
 #, kde-format
 msgctxt "tablet area position - size"
 msgid "%1,%2 - %3×%4"
 msgstr "%1,%2 - %3×%4"
 
-#: ui/main.qml:352
+#: ui/main.qml:369
 #, kde-format
 msgid "Pen Pressure:"
 msgstr "Узровень націскання стылусам:"
 
-#: ui/main.qml:403
+#: ui/main.qml:421
 #, kde-format
 msgctxt "Low pen pressure"
 msgid "Low Pressure"
 msgstr "Слабое націсканне"
 
-#: ui/main.qml:411
+#: ui/main.qml:429
 #, kde-format
 msgctxt "High pen pressure"
 msgid "High Pressure"
 msgstr "Моцнае націсканне"
 
-#: ui/main.qml:422
+#: ui/main.qml:440
 #, kde-format
 msgctxt "100% or maximum pen pressure"
 msgid "100%"
 msgstr "100%"
 
-#: ui/main.qml:430
+#: ui/main.qml:448
 #, kde-format
 msgctxt "0% or zero pen pressure"
 msgid "0%"
 msgstr "0%"
 
-#: ui/main.qml:434
+#: ui/main.qml:452
 #, kde-format
 msgctxt "@info"
 msgid "This curve controls the relationship between the pressure on the stylus and the pressure values received by applications."
 msgstr "Гэтая крывая кіруе залежнасцю націскання стылусам са значэннямі, якія атрымліваюць праграмы."
 
-#: ui/main.qml:445
+#: ui/main.qml:463
 #, kde-format
 msgctxt "@action:button Calibration in progress"
 msgid "Calibration in Progress"
 msgstr "Выконваецца калібраванне"
 
-#: ui/main.qml:447
+#: ui/main.qml:465
 #, kde-format
 msgctxt "@action:button Calibrate the pen display"
 msgid "Calibrate"
 msgstr "Калібраваць"
 
-#: ui/main.qml:450
+#: ui/main.qml:468
 #, kde-format
 msgctxt "@action:button Pen display doesn't support calibration"
 msgid "Calibration Not Supported"
 msgstr "Калібраванне не падтрымліваецца"
 
-#: ui/main.qml:483
+#: ui/main.qml:501
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Calibration across multiple screens is not supported."
 msgstr "Калібраванне на некалькіх экранах не падтрымліваецца."
 
-#: ui/main.qml:493
-#, kde-format
-msgctxt "@label:listbox The pad we are configuring"
-msgid "Pad:"
-msgstr "Планшэт:"
-
-#: ui/main.qml:504
-#, kde-format
-msgid "None"
-msgstr "Няма"
-
-#: ui/main.qml:529
+#: ui/main.qml:527
 #, kde-format
 msgid "Pad button %1:"
 msgstr "Кнопка планшэта %1:"
 
-#: ui/main.qml:532
-#| msgid "Pad button %1:"
+#: ui/main.qml:530
+#, kde-format
 msgctxt "@info Meant to be inserted into an existing sentence like 'configuring pad button 0'"
 msgid "pad button %1"
 msgstr "кнопка планшэта %1"
@@ -469,6 +461,16 @@ msgstr "## Легенда:\n"
 msgctxt "Clear the event log"
 msgid "Clear"
 msgstr "Ачысціць"
+
+#~ msgid "Fit to Screen"
+#~ msgstr "Па памеры экрана"
+
+#~ msgctxt "@label:listbox The pad we are configuring"
+#~ msgid "Pad:"
+#~ msgstr "Планшэт:"
+
+#~ msgid "None"
+#~ msgstr "Няма"
 
 #~ msgid "Pen button 2:"
 #~ msgstr "Кнопка стылуса 2:"

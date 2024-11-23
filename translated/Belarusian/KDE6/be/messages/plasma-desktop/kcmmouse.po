@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-12 00:40+0000\n"
-"PO-Revision-Date: 2024-11-06 10:00\n"
+"POT-Creation-Date: 2024-09-05 00:41+0000\n"
+"PO-Revision-Date: 2024-11-21 20:40\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -67,8 +67,7 @@ msgid "Pointer device disconnected. No other devices found."
 msgstr "Прылада для кіравання курсорам адлучаная. Іншыя прылады не знойдзеныя."
 
 #: ui/bindings.qml:27
-#| msgctxt "@label for assigning an action to a numbered button"
-#| msgid "Extra Button %1:"
+#, kde-format
 msgctxt "@title"
 msgid "Extra Mouse Buttons"
 msgstr "Дадатковыя кнопкі мышы"
@@ -136,8 +135,8 @@ msgid "Accept input through this device."
 msgstr "Ухваліць увод з дапамогай гэтай прылады."
 
 #: ui/main.qml:107
-#, kde-format
-msgid "Left handed mode"
+#| msgid "Left handed mode"
+msgid "Left-handed mode"
 msgstr "Рэжым для ляўшэй"
 
 #: ui/main.qml:119
@@ -146,19 +145,26 @@ msgid "Swap left and right buttons."
 msgstr "Памяняць левую і правую кнопкі."
 
 #: ui/main.qml:126
-#, kde-format
+#| msgid "Press left and right buttons for middle-click"
+msgctxt "@option:check"
 msgid "Press left and right buttons for middle-click"
 msgstr "Націсканне левай і правай кнопкі для імітацыі сярэдняй кнопкі"
 
 #: ui/main.qml:138
-#, kde-format
-msgid "Clicking left and right button simultaneously sends middle button click."
-msgstr "Адначасовае націсканне левай і правай кнопак адпраўляе сігнал сярэдняй кнопкі."
+#| msgid ""
+#| "Clicking left and right button simultaneously sends middle button click."
+msgctxt "@info:tooltip"
+msgid "Pressing the left and right button simultaneously acts as middle-click."
+msgstr "Адначасовае націсканне левай і правай кнопак дзейнічае як пстрыканне сярэдняй кнопкай."
 
 #: ui/main.qml:142
-#, kde-format
-msgid "Activating this setting increases mouse click latency by 50ms. The extra delay is needed to correctly detect simultaneous left and right mouse clicks."
-msgstr "Калі актываваць гэтую наладу, то затрымліванне пстрыкання мышшу павялічыцца на 50 мс. Дадатковае затрымліванне патрэбна для правільнага вызначэння адначасовага націскання левай і правай кнопкай мышы."
+#| msgid ""
+#| "Activating this setting increases mouse click latency by 50ms. The extra "
+#| "delay is needed to correctly detect simultaneous left and right mouse "
+#| "clicks."
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid "Activating this setting increases click latency by 50ms. The extra delay is needed to correctly detect simultaneous left and right button presses."
+msgstr "Калі актываваць гэтую наладу, то затрымліванне пстрыкання павялічыцца на 50 мс. Дадатковае затрымліванне патрэбна для правільнага вызначэння адначасовага націскання левай і правай кнопак."
 
 #: ui/main.qml:154
 #, kde-format
@@ -218,8 +224,8 @@ msgid "Invert scroll direction"
 msgstr "Адваротны кірунак пракручвання"
 
 #: ui/main.qml:351
-#, kde-format
-msgid "Touchscreen like scrolling."
+#| msgid "Touchscreen like scrolling."
+msgid "Touchscreen-like scrolling."
 msgstr "Пракручванне на сэнсарным экране."
 
 #: ui/main.qml:356

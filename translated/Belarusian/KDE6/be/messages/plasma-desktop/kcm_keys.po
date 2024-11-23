@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-23 00:40+0000\n"
-"PO-Revision-Date: 2024-11-04 22:06\n"
+"POT-Creation-Date: 2024-09-27 00:41+0000\n"
+"PO-Revision-Date: 2024-11-21 20:40\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/plasma-desktop/kcm_keys.po\n"
 "X-Crowdin-File-ID: 10608\n"
 
-#: basemodel.cpp:157
+#: basemodel.cpp:158
 #, kde-format
 msgctxt "@title:group Launch app"
 msgid "Launch"
@@ -37,7 +37,7 @@ msgctxt "%1 is the name of an application"
 msgid "Error while adding %1, it seems it has no actions."
 msgstr "Не ўдалося дадаць %1. Выглядае, што няма дзеянняў."
 
-#: globalaccelmodel.cpp:397
+#: globalaccelmodel.cpp:398
 #, kde-format
 msgid "Error while communicating with the global shortcuts service"
 msgstr "Не ўдалося звязацца з глабальнай службай спалучэнняў клавіш"
@@ -47,31 +47,25 @@ msgstr "Не ўдалося звязацца з глабальнай служб�
 msgid "Failed to communicate with global shortcuts daemon"
 msgstr "Не ўдалося звязацца з дэманам спалучэнняў клавіш"
 
-#: kcm_keys.cpp:315
-#| msgctxt "%2 is the name of a category inside the 'Common Actions' section"
-#| msgid ""
-#| "Shortcut %1 is already assigned to the common %2 action '%3'.\n"
-#| "Do you want to reassign it?"
+#: kcm_keys.cpp:379
+#, kde-kuit-format
 msgctxt "@info %2 is the name of a category inside the 'Common Actions' section"
 msgid "Shortcut <shortcut>%1</shortcut> is already assigned to the common %2 action <interface>%3</interface>.<nl/><nl/>Re-assign it to %4?"
 msgstr "Спалучэнне клавіш <shortcut>%1</shortcut> ужо прызначана для звычайнага дзеяння %2 <interface>%3</interface>.<nl/><nl/>Перапрызначыць яго %4?"
 
-#: kcm_keys.cpp:321
-#| msgctxt "%2 is the name of a category inside the 'Common Actions' section"
-#| msgid ""
-#| "Shortcut %1 is already assigned to the common %2 action '%3'.\n"
-#| "Do you want to reassign it?"
+#: kcm_keys.cpp:385
+#, kde-kuit-format
 msgctxt "@info"
 msgid "Shortcut <shortcut>%1</shortcut> is already assigned to action <interface>%2</interface> of <application>%3</application>.<nl/><nl/>Reassign it to action <interface>%4</interface> of <application>%5</application>?"
 msgstr "Спалучэнне клавіш <shortcut>%1</shortcut> ужо прызначана для дзеяння <interface>%2</interface> <application>%3</application>.<nl/><nl/>Перапрызначыць яго для дзеяння <interface> %4</interface> з <application>%5</application>?"
 
-#: kcm_keys.cpp:330
+#: kcm_keys.cpp:394
 #, kde-format
 msgctxt "@title:window"
 msgid "Resolve Shortcut Conflict"
 msgstr "Развязаць канфлікт спалучэнняў клавіш"
 
-#: kcm_keys.cpp:340
+#: kcm_keys.cpp:404
 #, kde-format
 msgctxt "@action:button"
 msgid "Reassign"
@@ -128,8 +122,7 @@ msgid "Common Actions"
 msgstr "Глабальныя дзеянні"
 
 #: ui/main.qml:43
-#| msgctxt "@action: button Import shortcut scheme"
-#| msgid "Import…"
+#, kde-format
 msgctxt "@action:button Import shortcut scheme"
 msgid "Import…"
 msgstr "Імпартаванне…"
@@ -157,8 +150,7 @@ msgid "Select the components below that should be included in the exported schem
 msgstr "Абярыце ніжэй кампаненты, якія патрэбна ўключыць у схему для экспартавання"
 
 #: ui/main.qml:103
-#| msgctxt "@action:button Export shortcut scheme"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@action:button Export shortcut scheme"
 msgid "Export"
 msgstr "Экспартаванне"
@@ -182,71 +174,68 @@ msgid "Command or Script…"
 msgstr "Каманда або скрыпт…"
 
 #: ui/main.qml:225
-#| msgctxt "@action:button Export shortcut scheme"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@option:check accessible export shortcuts %1 is application/group name"
 msgid "Export %1"
 msgstr "Экспартаваць %1"
 
 #: ui/main.qml:234
-#| msgctxt "@tooltip:button %1 is the text of a custom command"
-#| msgid "Edit command for %1"
+#, kde-format
 msgctxt "@action:button accessible %1 is the name of a custom command"
 msgid "Edit command for %1"
 msgstr "Рэдагаваць каманду для %1"
 
 #: ui/main.qml:250
-#| msgctxt "@tooltip:button %1 is the text of a custom command"
-#| msgid "Edit command for %1"
+#, kde-format
 msgctxt "@info:tooltip %1 is the text of a custom command"
 msgid "Edit command for %1"
 msgstr "Рэдагаваць каманду для %1"
 
 #: ui/main.qml:258
-#| msgid "Remove all shortcuts for %1"
+#, kde-format
 msgctxt "@action:button accessible %1 is the name of a shortcut category"
 msgid "Remove all shortcuts for %1"
 msgstr "Выдаліць усе спалучэнні клавіш для %1"
 
-#: ui/main.qml:267
-#| msgid "Remove all shortcuts for %1"
+#: ui/main.qml:268
+#, kde-format
 msgctxt "@info:tooltip %1 is the text of a shortcut category"
 msgid "Remove all shortcuts for %1"
 msgstr "Выдаліць усе спалучэнні клавіш для %1"
 
-#: ui/main.qml:274
-#| msgid "Undo deletion"
+#: ui/main.qml:275
+#, kde-format
 msgctxt "@action:button accessible"
 msgid "Undo deletion"
 msgstr "Адрабіць выдаленне"
 
-#: ui/main.qml:279
-#| msgid "Undo deletion"
+#: ui/main.qml:280
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Undo deletion"
 msgstr "Адрабіць выдаленне"
 
-#: ui/main.qml:333
+#: ui/main.qml:334
 #, kde-format
 msgid "No items matched the search terms"
 msgstr "Няма элементаў, якія адпавядаюць умовам пошуку"
 
-#: ui/main.qml:366
+#: ui/main.qml:367
 #, kde-format
 msgid "Select an item from the list to view its shortcuts here"
 msgstr "Абярыце элемент са спіса, каб убачыць тут яго спалучэнні клавіш"
 
-#: ui/main.qml:378
+#: ui/main.qml:379
 #, kde-format
 msgid "Export Shortcut Scheme"
 msgstr "Экспартаванне схемы спалучэнняў клавіш"
 
-#: ui/main.qml:378 ui/main.qml:503
+#: ui/main.qml:379 ui/main.qml:521
 #, kde-format
 msgid "Import Shortcut Scheme"
 msgstr "Імпартаванне схемы спалучэнняў клавіш"
 
-#: ui/main.qml:380
+#: ui/main.qml:381
 #, kde-format
 msgctxt "Template for file dialog"
 msgid "Shortcut Scheme (*.kksrc)"
@@ -262,68 +251,86 @@ msgstr "Рэдагаваць каманду"
 msgid "Add Command"
 msgstr "Дадаць каманду"
 
-#: ui/main.qml:428
+#: ui/main.qml:430
 #, kde-format
 msgid "Save"
 msgstr "Захаваць"
 
-#: ui/main.qml:428
+#: ui/main.qml:430
 #, kde-format
 msgid "Add"
 msgstr "Дадаць"
 
-#: ui/main.qml:457
+#: ui/main.qml:460
 #, kde-format
 msgid "Enter a command or choose a script file:"
 msgstr "Увядзіце каманду або абярыце файл скрыпта:"
 
-#: ui/main.qml:467
-#| msgid "Commands"
+#: ui/main.qml:469
+#| msgctxt "@label:textbox accessible"
+#| msgid "Command"
+msgctxt "@label:textbox A shell command"
+msgid "Command:"
+msgstr "Каманда:"
+
+#: ui/main.qml:475
+#, kde-format
 msgctxt "@label:textbox accessible"
 msgid "Command"
 msgstr "Каманда"
 
-#: ui/main.qml:473
+#: ui/main.qml:482
 #, kde-format
 msgctxt "@action:button"
 msgid "Choose…"
 msgstr "Абраць…"
 
-#: ui/main.qml:474
-#| msgctxt "@title:window"
-#| msgid "Choose Script File"
+#: ui/main.qml:483
+#, kde-format
 msgctxt "@action:button accessible"
 msgid "Choose script file"
 msgstr "Абраць файл скрыпта"
 
-#: ui/main.qml:487
+#: ui/main.qml:491
+#, kde-format
+msgctxt "@label:textfield Human-readable name given to a shell command"
+msgid "Name:"
+msgstr "Назва:"
+
+#: ui/main.qml:492
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Enter name here"
+msgstr "Увядзіце сюды назву"
+
+#: ui/main.qml:504
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose Script File"
 msgstr "Абраць файл скрыпта"
 
-#: ui/main.qml:489
+#: ui/main.qml:506
 #, kde-format
-msgctxt "Template for file dialog"
-msgid "Script file (*.*sh)"
-msgstr "Файл скрыпта (*.*sh)"
+msgctxt "Filename filters for file dialog. Do not translate any of the filename extensions"
+msgid "Script files (.sh, .bash, .zsh, etc.) (*.*sh)"
+msgstr "Файлы скрыптоў (.sh, .bash, .zsh, etc.) (*.*sh)"
 
-#: ui/main.qml:511
+#: ui/main.qml:529
 #, kde-format
 msgid "Select the scheme to import:"
 msgstr "Абярыце схему для імпартавання:"
 
-#: ui/main.qml:530
+#: ui/main.qml:548
 #, kde-format
 msgid "Custom Scheme"
 msgstr "Адвольная схема"
 
-#: ui/main.qml:538
+#: ui/main.qml:556
 #, kde-format
 msgid "Select File…"
 msgstr "Абраць файл…"
 
-#: ui/main.qml:538
+#: ui/main.qml:556
 #, kde-format
 msgid "Import"
 msgstr "Імпартаванне"
@@ -333,18 +340,18 @@ msgstr "Імпартаванне"
 msgid "Editing shortcut: %1"
 msgstr "Рэдагаванне спалучэння клавіш: %1"
 
-#: ui/ShortcutActionDelegate.qml:53
+#: ui/ShortcutActionDelegate.qml:55
 #, kde-format
 msgctxt "%1 is the name action that is triggered by the key sequences following after :"
 msgid "%1:"
 msgstr "%1:"
 
-#: ui/ShortcutActionDelegate.qml:77
+#: ui/ShortcutActionDelegate.qml:79
 #, kde-format
 msgid "No active shortcuts"
 msgstr "Няма актыўных спалучэнняў клавіш"
 
-#: ui/ShortcutActionDelegate.qml:120
+#: ui/ShortcutActionDelegate.qml:122
 #, kde-format
 msgctxt "%1 decides if singular or plural will be used"
 msgid "Default shortcut"
@@ -354,61 +361,65 @@ msgstr[1] "Прадвызначаныя спалучэнні клавіш"
 msgstr[2] "Прадвызначаныя спалучэнні клавіш"
 msgstr[3] "Прадвызначаныя спалучэнні клавіш"
 
-#: ui/ShortcutActionDelegate.qml:122
+#: ui/ShortcutActionDelegate.qml:124
 #, kde-format
 msgid "No default shortcuts"
 msgstr "Няма прадвызначаных спалучэнняў клавіш"
 
-#: ui/ShortcutActionDelegate.qml:131
+#: ui/ShortcutActionDelegate.qml:133
 #, kde-format
 msgid "Default shortcut %1 is enabled."
 msgstr "Прадвызначанае спалучэнне клавіш %1 уключана."
 
-#: ui/ShortcutActionDelegate.qml:131
+#: ui/ShortcutActionDelegate.qml:133
 #, kde-format
 msgid "Default shortcut %1 is disabled."
 msgstr "Прадвызначанае спалучэнне клавіш %1 адключана."
 
-#: ui/ShortcutActionDelegate.qml:154
+#: ui/ShortcutActionDelegate.qml:156
 #, kde-format
 msgid "Custom shortcuts"
 msgstr "Адвольныя спалучэнні клавіш"
 
-#: ui/ShortcutActionDelegate.qml:180
-#| msgid "Delete this shortcut"
+#: ui/ShortcutActionDelegate.qml:182
+#, kde-format
 msgctxt "@action:button accessible"
 msgid "Delete shortcut"
 msgstr "Выдаліць спалучэнне клавіш"
 
-#: ui/ShortcutActionDelegate.qml:184
-#| msgid "Delete this shortcut"
+#: ui/ShortcutActionDelegate.qml:186
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Delete this shortcut"
 msgstr "Выдаліць гэтае спалучэнне клавіш"
 
-#: ui/ShortcutActionDelegate.qml:190
+#: ui/ShortcutActionDelegate.qml:192
 #, kde-format
 msgctxt "@action:button Add custom shortcut"
 msgid "Add…"
 msgstr "Дадаць…"
 
-#: ui/ShortcutActionDelegate.qml:191
-#| msgid "Add custom shortcut"
+#: ui/ShortcutActionDelegate.qml:193
+#, kde-format
 msgctxt "@action:button accessible"
 msgid "Add custom shortcut"
 msgstr "Дадаць адвольнае спалучэнне клавіш"
 
-#: ui/ShortcutActionDelegate.qml:226
-#| msgid "Cancel capturing of new shortcut"
+#: ui/ShortcutActionDelegate.qml:228
+#, kde-format
 msgctxt "@action:button accessible"
 msgid "Cancel capturing shortcut"
 msgstr "Скасаваць захопліванне спалучэння клавіш"
 
-#: ui/ShortcutActionDelegate.qml:230
-#| msgid "Cancel capturing of new shortcut"
+#: ui/ShortcutActionDelegate.qml:232
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel capturing of new shortcut"
 msgstr "Скасаваць захопліванне новага спалучэння клавіш"
+
+#~ msgctxt "Template for file dialog"
+#~ msgid "Script file (*.*sh)"
+#~ msgstr "Файл скрыпта (*.*sh)"
 
 #~ msgctxt "@action:button Save shortcut scheme"
 #~ msgid "Save Scheme"
