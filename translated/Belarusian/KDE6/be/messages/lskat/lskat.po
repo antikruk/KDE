@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-19 00:36+0000\n"
-"PO-Revision-Date: 2024-06-13 08:10\n"
+"POT-Creation-Date: 2024-11-22 00:38+0000\n"
+"PO-Revision-Date: 2024-11-24 09:44\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -201,6 +201,42 @@ msgstr ""
 msgid "Game ended"
 msgstr ""
 
+#: fromlibkdegames/carddeckinfo.cpp:62 fromlibkdegames/carddeckinfo.cpp:63
+#, kde-format
+msgid "unnamed"
+msgstr "безназоўны"
+
+#: fromlibkdegames/kcarddialog.cpp:190
+#, kde-format
+msgctxt "@title:window"
+msgid "Card Deck Selection"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, previerGroupBox)
+#: fromlibkdegames/kgamecardselector.ui:23
+#, kde-format
+msgid "Preview"
+msgstr "Папярэдні прагляд"
+
+#. i18n: ectx: property (text), widget (QLabel, cardDescription)
+#: fromlibkdegames/kgamecardselector.ui:41
+#, kde-format
+msgid "Deck description."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, cardName)
+#: fromlibkdegames/kgamecardselector.ui:54
+#, kde-format
+msgid "Deck Name"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, previewImage)
+#: fromlibkdegames/kgamecardselector.ui:83
+#, kde-format
+msgid "Frontside\n"
+"Preview"
+msgstr ""
+
 #. i18n: ectx: Menu (game)
 #: lskatui.rc:10
 msgid "&Game"
@@ -216,60 +252,60 @@ msgstr "&Налады"
 msgid "Main Toolbar"
 msgstr "Галоўная панэль інструментаў"
 
-#: main.cpp:62
+#: main.cpp:80
 #, kde-format
 msgid "LSkat"
 msgstr ""
 
-#: main.cpp:64
+#: main.cpp:82
 #, kde-format
 msgid "LSkat: A desktop card game"
 msgstr ""
 
-#: main.cpp:66
+#: main.cpp:84
 msgid "(c) 1995-2007, Martin Heni"
 msgstr ""
 
-#: main.cpp:71
+#: main.cpp:89
 msgid "Martin Heni"
 msgstr ""
 
-#: main.cpp:71
+#: main.cpp:89
 #, kde-format
 msgid "Game design and code"
 msgstr ""
 
-#: main.cpp:72
+#: main.cpp:90
 #, kde-format
 msgid "Eugene Trounev"
 msgstr "Eugene Trounev"
 
-#: main.cpp:72
+#: main.cpp:90
 #, kde-format
 msgid "Graphics"
 msgstr "Графіка"
 
-#: main.cpp:74
+#: main.cpp:92
 #, kde-format
 msgid "Benjamin Meyer"
 msgstr "Benjamin Meyer"
 
-#: main.cpp:74
+#: main.cpp:92
 #, kde-format
 msgid "Code Improvements"
 msgstr "Паляпшэнні кода"
 
-#: main.cpp:81
+#: main.cpp:99
 #, kde-format
 msgid "Enter debug level"
 msgstr ""
 
-#: main.cpp:82
+#: main.cpp:100
 #, kde-format
 msgid "Skip intro animation"
 msgstr ""
 
-#: main.cpp:83
+#: main.cpp:101
 #, kde-format
 msgid "Run game in demo (autoplay) mode"
 msgstr ""
@@ -316,11 +352,13 @@ msgid "Quits the program."
 msgstr ""
 
 #: mainwindow.cpp:374
+msgctxt "@title:menu"
 msgid "Starting Player"
 msgstr ""
 
 #: mainwindow.cpp:377
-msgid "Changing starting player..."
+msgctxt "@info:tooltip"
+msgid "Change starting player"
 msgstr ""
 
 #: mainwindow.cpp:378
@@ -328,19 +366,23 @@ msgid "Chooses which player begins the next game."
 msgstr ""
 
 #: mainwindow.cpp:380
+msgctxt "@item:inmenu"
 msgid "Player &1"
 msgstr ""
 
 #: mainwindow.cpp:381
+msgctxt "@item:inmenu"
 msgid "Player &2"
 msgstr ""
 
 #: mainwindow.cpp:386
+msgctxt "@title:menu"
 msgid "Player &1 Played By"
 msgstr ""
 
 #: mainwindow.cpp:389
-msgid "Changing who plays player 1..."
+msgctxt "@info:tooltip"
+msgid "Change who plays player 1"
 msgstr ""
 
 #: mainwindow.cpp:390
@@ -348,21 +390,25 @@ msgid "Changing who plays player 1."
 msgstr ""
 
 #: mainwindow.cpp:392
-#, kde-format
+#| msgid "&Mouse"
+msgctxt "@item:inmenu"
 msgid "&Mouse"
 msgstr "&Мыш"
 
 #: mainwindow.cpp:393
-#, kde-format
+#| msgid "&Computer"
+msgctxt "@item:inmenu"
 msgid "&Computer"
 msgstr ""
 
 #: mainwindow.cpp:399
+msgctxt "@title:menu"
 msgid "Player &2 Played By"
 msgstr ""
 
 #: mainwindow.cpp:402
-msgid "Changing who plays player 2..."
+msgctxt "@info:tooltip"
+msgid "Change who plays player 2"
 msgstr ""
 
 #: mainwindow.cpp:403
@@ -370,11 +416,13 @@ msgid "Changing who plays player 2."
 msgstr ""
 
 #: mainwindow.cpp:411
+msgctxt "@title:menu"
 msgid "&Theme"
 msgstr ""
 
 #: mainwindow.cpp:417
-msgid "Changing theme..."
+msgctxt "@info:tooltip"
+msgid "Change theme"
 msgstr ""
 
 #: mainwindow.cpp:418
@@ -382,11 +430,13 @@ msgid "Changing theme."
 msgstr ""
 
 #: mainwindow.cpp:422
-msgid "Select &Card Deck..."
+msgctxt "@action"
+msgid "Select &Card Deck…"
 msgstr ""
 
 #: mainwindow.cpp:424
-msgid "Configure card decks..."
+msgctxt "@info:tooltip"
+msgid "Configure card decks"
 msgstr ""
 
 #: mainwindow.cpp:425
@@ -394,7 +444,8 @@ msgid "Choose how the cards should look."
 msgstr ""
 
 #: mainwindow.cpp:429
-msgid "&Change Player Names..."
+msgctxt "@action"
+msgid "&Change Player Names…"
 msgstr ""
 
 #: mainwindow.cpp:500
@@ -403,7 +454,8 @@ msgstr ""
 
 #: mainwindow.cpp:573
 #, kde-format
-msgid "Dealing cards..."
+msgctxt "@info"
+msgid "Dealing cards…"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, NameDialog)
@@ -435,6 +487,18 @@ msgstr "Балы: %1 "
 msgctxt "Won and overall games in score widget"
 msgid "Games: %1 / %2"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Changing who plays player 1..."
+#~ msgstr "Змяняю гульца # 1..."
+
+#, fuzzy
+#~ msgid "Changing who plays player 2..."
+#~ msgstr "Змяняю гульца # 2..."
+
+#, fuzzy
+#~ msgid "Changing theme..."
+#~ msgstr "Змяніць узровень..."
 
 #~ msgid "OK"
 #~ msgstr "Добра"
