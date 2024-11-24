@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-06 00:37+0000\n"
-"PO-Revision-Date: 2024-11-11 19:00\n"
+"POT-Creation-Date: 2024-11-22 00:38+0000\n"
+"PO-Revision-Date: 2024-11-24 09:44\n"
 "Last-Translator: Alaksandr Suša <isushik94@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -113,101 +113,112 @@ msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr "&Падтрымка KDE"
 
-#: kabstractaboutdialog_p.cpp:43
+#: kabstractaboutdialog_p.cpp:46
 #, kde-format
 msgctxt "Version version-number"
 msgid "Version %1"
 msgstr "Версія %1"
 
-#: kabstractaboutdialog_p.cpp:87
+#: kabstractaboutdialog_p.cpp:90
 #, kde-format
 msgid "License: %1"
 msgstr "Ліцэнзія: %1"
 
-#: kabstractaboutdialog_p.cpp:112
-#| msgid "The <em>%1</em> windowing system"
-msgid "Windowing system"
-msgstr "Аконная сістэма"
+#: kabstractaboutdialog_p.cpp:117
+#| msgctxt ""
+#| "%1 is the operating system name, e.g. 'Windows 10', %2 is the CPU "
+#| "architecture, e.g. 'x86_64'"
+#| msgid "%1 (%2)"
+msgctxt "@info Platform name"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
 
-#: kabstractaboutdialog_p.cpp:113
-#, kde-format
-msgid "Qt"
-msgstr "Qt"
-
-#: kabstractaboutdialog_p.cpp:114
-#, kde-format
-msgctxt "@info"
-msgid "Cross-platform application development framework"
-msgstr "Кросплатформенны фрэймворк для распрацоўвання праграм"
-
-#: kabstractaboutdialog_p.cpp:115
-#| msgid "%1 (built against %2)"
-msgid "Using %1 and built against %2"
-msgstr "Выкарыстоўвае %1 і сабраны на %2"
-
-#: kabstractaboutdialog_p.cpp:118
+#: kabstractaboutdialog_p.cpp:122
 #, kde-format
 msgid "KDE Frameworks"
 msgstr "KDE Frameworks"
 
-#: kabstractaboutdialog_p.cpp:119
+#: kabstractaboutdialog_p.cpp:123
+#| msgctxt "@info"
+#| msgid "Collection of libraries created by the KDE Community to extend Qt"
+msgctxt "@info"
+msgid "Collection of libraries created by the KDE Community to extend Qt."
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:127
+#, kde-format
+msgid "Qt"
+msgstr "Qt"
+
+#: kabstractaboutdialog_p.cpp:128
+#| msgctxt "@info"
+#| msgid "Cross-platform application development framework"
+msgctxt "@info"
+msgid "Cross-platform application development framework."
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:129
+#, kde-format
+msgid "Using %1 and built against %2"
+msgstr "Выкарыстоўвае %1 і сабраны на %2"
+
+#: kabstractaboutdialog_p.cpp:132
 #, kde-format
 msgctxt "@info"
-msgid "Collection of libraries created by the KDE Community to extend Qt"
-msgstr "Калекцыя бібліятэк, створаных супольнасцю KDE для пашырэння магчымасцяў Qt"
+msgid "Underlying platform."
+msgstr ""
 
-#: kabstractaboutdialog_p.cpp:146
-#| msgid "Visit component's homepage"
+#: kabstractaboutdialog_p.cpp:156
+#, kde-format
 msgctxt "@action:button"
 msgid "Visit component's homepage"
 msgstr "Наведаць хатнюю старонку кампанента"
 
-#: kabstractaboutdialog_p.cpp:147
+#: kabstractaboutdialog_p.cpp:157
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Visit components's homepage\n"
 "%1"
 msgstr "Наведаць хатнюю старонку кампанента %1"
 
-#: kabstractaboutdialog_p.cpp:211
-#| msgid "Visit contributor's homepage"
+#: kabstractaboutdialog_p.cpp:190
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "Скапіяваць у буфер абмену"
+
+#: kabstractaboutdialog_p.cpp:246
+#, kde-format
 msgctxt "@action:button"
 msgid "Visit author's homepage"
 msgstr "Наведаць асабістую старонку аўтара"
 
-#: kabstractaboutdialog_p.cpp:212
-#| msgctxt "@info:tooltip"
-#| msgid ""
-#| "Visit contributor's homepage\n"
-#| "%1"
+#: kabstractaboutdialog_p.cpp:247
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Visit author's homepage\n"
 "%1"
 msgstr "Наведаць асабістую старонку аўтара %1"
 
-#: kabstractaboutdialog_p.cpp:234
-#| msgctxt "Action to send an email to a contributor"
-#| msgid "Email contributor"
+#: kabstractaboutdialog_p.cpp:269
+#, kde-format
 msgctxt "@action:button Send an email to a contributor"
 msgid "Email contributor"
 msgstr "Напісаць удзельніку"
 
-#: kabstractaboutdialog_p.cpp:235
-#| msgctxt "@info:tooltip Action to send an email to a contributor"
-#| msgid ""
-#| "Email contributor\n"
-#| "%1"
+#: kabstractaboutdialog_p.cpp:270
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Email contributor: %1"
 msgstr "Email удзельніка: %1"
 
-#: kabstractaboutdialog_p.cpp:286
+#: kabstractaboutdialog_p.cpp:321
 #, kde-format
 msgctxt "Reference to website"
 msgid "Please use %1 to report bugs.\n"
 msgstr "Для адпраўлення справаздач пра хібы выкарыстоўвайце %1.\n"
 
-#: kabstractaboutdialog_p.cpp:294
+#: kabstractaboutdialog_p.cpp:329
 #, kde-format
 msgctxt "Reference to email address"
 msgid "Please report bugs to %1.\n"
@@ -262,6 +273,12 @@ msgstr "Версія:"
 #, kde-format
 msgid "no version set (programmer error)"
 msgstr "версія не вызначана (памылка праграміста)"
+
+#: kbugreport.cpp:117
+#| msgid "KDE Frameworks"
+msgctxt "%1 is the program version, %2 is the kde framework version"
+msgid "%1 with KDE Frameworks %2"
+msgstr ""
 
 #: kbugreport.cpp:125
 #, kde-format
@@ -475,7 +492,7 @@ msgid "Change Icon"
 msgstr "Змяніць значок"
 
 #. i18n: ectx: Menu (help)
-#: khelpmenu.cpp:146 ui_standards.rc:179
+#: khelpmenu.cpp:165 ui_standards.rc:179
 #, kde-format
 msgid "&Help"
 msgstr "&Даведка"
@@ -818,45 +835,45 @@ msgstr "Жэст кнопак мышы"
 msgid "Mouse Shape Gesture"
 msgstr "Жэст рухаў мышы"
 
-#: kshortcutseditor.cpp:522
+#: kshortcutseditor.cpp:526
 #, kde-format
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "Спалучэнні клавіш для %1"
 
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: kshortcutseditor.cpp:542 kshortcutwidget.ui:22
+#: kshortcutseditor.cpp:546 kshortcutwidget.ui:22
 #, kde-format
 msgid "Main:"
 msgstr "Галоўнае:"
 
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: kshortcutseditor.cpp:543 kshortcutwidget.ui:52
+#: kshortcutseditor.cpp:547 kshortcutwidget.ui:52
 #, kde-format
 msgid "Alternate:"
 msgstr "Дадатковае:"
 
-#: kshortcutseditor.cpp:544
+#: kshortcutseditor.cpp:548
 #, kde-format
 msgid "Global:"
 msgstr "Глабальнае:"
 
-#: kshortcutseditor.cpp:545
+#: kshortcutseditor.cpp:549
 #, kde-format
 msgid "Global alternate:"
 msgstr "Глабальнае дадатковае:"
 
-#: kshortcutseditor.cpp:561
+#: kshortcutseditor.cpp:565
 #, kde-format
 msgid "Action Name"
 msgstr "Назва дзеяння"
 
-#: kshortcutseditor.cpp:565
+#: kshortcutseditor.cpp:569
 #, kde-format
 msgid "Shortcuts"
 msgstr "Спалучэнні клавіш"
 
-#: kshortcutseditor.cpp:569
+#: kshortcutseditor.cpp:573
 #, kde-format
 msgid "Description"
 msgstr "Апісанне"
@@ -1168,6 +1185,10 @@ msgstr "&Налады"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Галоўная панэль інструментаў"
+
+#~| msgid "The <em>%1</em> windowing system"
+#~ msgid "Windowing system"
+#~ msgstr "Аконная сістэма"
 
 #~ msgctxt "@item Component name in about dialog."
 #~ msgid "%1"
