@@ -1,1183 +1,1083 @@
-# translation of kdelibs4.po to Belarusian
-# translation of kdelibs4.po to
-#
-# Eugene Zelenko <greendeath@mail.ru>, 2002-2004.
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2006.
-# Darafei Praliaskouski <komzpa@licei2.com>, 2007.
-# Komяpa <symbol@me.by>, 2007.
-# Komяpa <komzpa@gmail.com>, 2007.
-# Darafei Praliaskoski <komzpa@gmail.com>, 2007.
-# Darafei Praliaskouski <komzpa@gmail.com>, 2008, 2009.
-# Siarhei Liantsevich <serzh.by@gmail.com>, 2008.
-# kom <me@komzpa.net>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: kdelibs4\n"
-"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-08 02:04+0000\n"
-"PO-Revision-Date: 2009-09-06 15:21+0300\n"
-"Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
-"Language-Team: Belarusian <i18n@mova.org>\n"
+"Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-03-23 01:50+0000\n"
+"PO-Revision-Date: 2024-06-05 07:01\n"
+"Last-Translator: Alaksandr Suša <isushik94@gmail.com>\n"
+"Language-Team: Belarusian\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Gtranslator 40.0\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
 "%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Qt-Contexts: true\n"
+"X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
+"X-Crowdin-Project-ID: 136\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/kcoreaddons/"
+"kcoreaddons6_qt.po\n"
+"X-Crowdin-File-ID: 9952\n"
 
-#: kmoretools.cpp:517
-#, fuzzy, kde-format
-#| msgid "Install"
-msgctxt "@action:inmenu"
-msgid "Not installed:"
-msgstr "Устанавіць"
+#: lib/io/kfilesystemtype.cpp:252
+msgctxt "KFileSystemType|"
+msgid "NFS"
+msgstr "NFS"
 
-#: kmoretools.cpp:614
-#, fuzzy, kde-format
-#| msgid "Choose..."
-msgctxt "@action:inmenu"
-msgid "More"
-msgstr "Выбраць..."
+#: lib/io/kfilesystemtype.cpp:254
+msgctxt "KFileSystemType|"
+msgid "SMB"
+msgstr "SMB"
 
-#: kmoretools.cpp:650
-#, fuzzy, kde-format
-#| msgid "Confi&gure..."
-msgctxt "@action:inmenu"
-msgid "Configure..."
-msgstr "На&ставіць..."
+#: lib/io/kfilesystemtype.cpp:256
+msgctxt "KFileSystemType|"
+msgid "FAT"
+msgstr "FAT"
 
-#: kmoretools_p.h:369
-#, fuzzy, kde-format
-#| msgid "Homepage"
-msgctxt "@action:inmenu"
-msgid "Visit homepage"
-msgstr "Хатняя старонка"
+#: lib/io/kfilesystemtype.cpp:258
+msgctxt "KFileSystemType|"
+msgid "RAMFS"
+msgstr "RAMFS"
 
-#: kmoretools_p.h:378
-#, fuzzy, kde-format
-#| msgid "Install"
-msgctxt "@action:inmenu"
-msgid "Install"
-msgstr "Устанавіць"
+#: lib/io/kfilesystemtype.cpp:260
+msgctxt "KFileSystemType|"
+msgid "Other"
+msgstr "Іншая"
 
-#: kmoretools_p.h:386
-#, fuzzy, kde-format
-#| msgid "There is no matching item available.\n"
-msgctxt "@action:inmenu"
-msgid "No further information available."
-msgstr "Няма супадзенняў.\n"
+#: lib/io/kfilesystemtype.cpp:262
+msgctxt "KFileSystemType|"
+msgid "NTFS"
+msgstr "NTFS"
 
-#: kmoretoolsconfigdialog_p.cpp:170
-#, fuzzy, kde-format
-#| msgid "Configure"
-msgid "Configure menu"
-msgstr "Настаўленне"
+#: lib/io/kfilesystemtype.cpp:264
+msgctxt "KFileSystemType|"
+msgid "ExFAT"
+msgstr "ExFAT"
 
-#: kmoretoolsconfigdialog_p.cpp:172
-#, fuzzy, kde-format
-#| msgid "&Configure %1..."
-msgid "Configure menu - %1"
-msgstr "&Наставіць %1..."
+#: lib/io/kfilesystemtype.cpp:266
+msgctxt "KFileSystemType|"
+msgid "FUSE"
+msgstr "FUSE"
 
-#: kmoretoolsmenufactory.cpp:172
-#, fuzzy, kde-format
-#| msgid "Path to documents folder"
-msgctxt "@action:inmenu %1=\"$GenericName\""
-msgid "%1 - current folder"
-msgstr "Шлях да тэчкі з дакументамі"
+#: lib/io/kfilesystemtype.cpp:268
+msgctxt "KFileSystemType|"
+msgid "Unknown"
+msgstr "Невядома"
 
-#: kmoretoolsmenufactory.cpp:181
-#, kde-format
-msgctxt "@action:inmenu %1=\"$GenericName\""
-msgid "%1 - current device"
-msgstr ""
+#: lib/kaboutdata.cpp:279 lib/kaboutdata.cpp:300
+#, qt-format
+msgctxt "KAboutLicense|"
+msgid "This program is distributed under the terms of the %1."
+msgstr "Гэтая праграма распаўсюджваецца на ўмовах %1."
 
-#: kmoretoolsmenufactory.cpp:194
-#, kde-format
-msgctxt "@action:inmenu %1=\"$GenericName\""
-msgid "%1 - all devices"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
-#: ui/kmoretoolsconfigwidget.ui:25
-#, fuzzy, kde-format
-#| msgid "MainWindow"
-msgid "Main section"
-msgstr "ГалоўнаеВакно"
-
-#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
-#: ui/kmoretoolsconfigwidget.ui:58
-#, fuzzy, kde-format
-#| msgid "Move &Down"
-msgid "Move down"
-msgstr "Перанесці &долу"
-
-#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
-#: ui/kmoretoolsconfigwidget.ui:77
-#, fuzzy, kde-format
-#| msgid "Move &Up"
-msgid "Move up"
-msgstr "Перанесці ў&гору"
-
-#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
-#: ui/kmoretoolsconfigwidget.ui:96
-#, fuzzy, kde-format
-#| msgid "Move to Trash"
-msgid "Move to Main section"
-msgstr "Перамясціць у сметніцу"
-
-#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
-#: ui/kmoretoolsconfigwidget.ui:115
-#, fuzzy, kde-format
-#| msgid "Action"
-msgid "Move to More section"
-msgstr "Дзеянне"
-
-#. i18n: ectx: property (text), widget (QToolButton, buttonReset)
-#: ui/kmoretoolsconfigwidget.ui:134
-#, kde-format
-msgid "Reset"
-msgstr "Скінуць"
-
-#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
-#: ui/kmoretoolsconfigwidget.ui:154
-#, fuzzy, kde-format
-#| msgid "Action"
-msgid "More section"
-msgstr "Дзеянне"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: ui/kmoretoolsconfigwidget.ui:206
-#, kde-format
+#: lib/kaboutdata.cpp:281
+#, qt-format
+msgctxt "KAboutLicense|"
 msgid ""
-"For this menu there are some more tools suggested which are currently not "
-"installed:"
+"You can find the full term <a href=\"https://spdx.org/licenses/%1.html\">the "
+"SPDX website</a>"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
-#: ui/kmoretoolsconfigwidget.ui:216
-#, fuzzy, kde-format
-#| msgid "Choose..."
-msgid "More tools..."
-msgstr "Выбраць..."
-
-#, fuzzy
-#~| msgid "Pages"
-#~ msgid "All categories are missing"
-#~ msgstr "Старонкі"
-
-#, fuzzy
-#~| msgid "No text was replaced."
-#~ msgctxt "voting for an item (good/bad)"
-#~ msgid "Your vote was recorded."
-#~ msgstr "Тэкст не заменены."
-
-#, fuzzy
-#~| msgid "Download New Stuff"
-#~ msgid "Download New Stuff..."
-#~ msgstr "Сцягнцуь новыя файлы"
-
-#, fuzzy
-#~| msgid "Unknown error"
-#~ msgctxt ""
-#~ "The value returned for an unknown role when requesting data from the "
-#~ "model."
-#~ msgid "Unknown CommentsModel role"
-#~ msgstr "Невядомая памылка"
-
-#, fuzzy
-#~| msgid "An error occurred while accessing '%1'"
-#~ msgid ""
-#~ "An error occurred during the installation process:\n"
-#~ "%1"
-#~ msgstr "Адбылася памылка адкрыцця '%1':"
-
-#, fuzzy
-#~| msgid "Install"
-#~ msgid "Initializing"
-#~ msgstr "Устанавіць"
-
-#, fuzzy
-#~| msgid "Configuration files"
-#~ msgid "Configuration file exists, but cannot be opened: \"%1\""
-#~ msgstr "Файлы настаўлення"
-
-#, fuzzy
-#~| msgid "Configuration files"
-#~ msgid "Configuration file is invalid: \"%1\""
-#~ msgstr "Файлы настаўлення"
-
-#, fuzzy
-#~| msgid "View Frame Information"
-#~ msgid "Loading provider information"
-#~ msgstr "Паказаць інфармацыю пра фрэйм"
-
-#, fuzzy
-#~| msgid "Loading Applet"
-#~ msgid "Loading data"
-#~ msgstr "Апрацоўванне аплета"
-
-#, fuzzy
-#~| msgid "Redo: %1"
-#~ msgid "Re: %1"
-#~ msgstr "Паўтарыць: %1"
-
-#, fuzzy
-#~| msgid "Install"
-#~ msgid "Installing"
-#~ msgstr "Устанавіць"
-
-#, fuzzy
-#~| msgid "Print Preview"
-#~ msgid "Loading one preview"
-#~ msgid_plural "Loading %1 previews"
-#~ msgstr[0] "Прагляд друку"
-#~ msgstr[1] "Прагляд друку"
-#~ msgstr[2] "Прагляд друку"
-
-#, fuzzy
-#~| msgid "Failed to load file '%1'"
-#~ msgid ""
-#~ "Failed to adopt '%1'\n"
-#~ "%2"
-#~ msgstr "Немагчыма загрузіць файл '%1'"
-
-#, fuzzy
-#~| msgid "Invalid Filenames"
-#~ msgid "Invalid item."
-#~ msgstr "Недапушчальныя назвы файлаў"
-
-#, fuzzy
-#~| msgid "Could not read file '%1'"
-#~ msgid "Could not install \"%1\": file not found."
-#~ msgstr "Немагчыма прачытаць файл '%1'"
-
-#, fuzzy
-#~| msgid "Install"
-#~ msgid "Installation of %1 failed: %2"
-#~ msgstr "Устанавіць"
-
-#, fuzzy
-#~| msgid "Unable to open temporary file."
-#~ msgid "Failed to open the archive file %1. The reported error was: %2"
-#~ msgstr "Немагчыма адкрыць часовы файл."
-
-#, fuzzy
-#~| msgid "Overwrite File?"
-#~ msgid "Overwrite File"
-#~ msgstr "Перазапісаць файл?"
-
-#, fuzzy
-#~ msgid "Could not open %1 for writing"
-#~ msgstr "Немагчыма адкрыць %1 для чытання"
-
-#, fuzzy
-#~ msgid "Could not open %1 for reading"
-#~ msgstr "Немагчыма адкрыць %1 для чытання"
-
-#~ msgid ""
-#~ "<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure "
-#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
-#~ "resources will not be possible.</qt>"
-#~ msgstr ""
-#~ "<qt>Немагчыма выканаць <i>gpg</i> і атрымаць спіс наяўных ключоў. "
-#~ "Праверце, ці ўстаноўлена праграма <i>gpg</i>, інакш праверка "
-#~ "апублікаваных рэсурсаў будзе немагчымай.</qt>"
-
-#~ msgid ""
-#~ "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;"
-#~ "%3&gt;</i><br />:</qt>"
-#~ msgstr ""
-#~ "<qt>Набярыце пароль для ключа <b>0x%1</b>, які належыць<br /><i>%2&lt;"
-#~ "%3&gt;</i><br />:</qt>"
-
-#~ msgid ""
-#~ "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
-#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
-#~ "resources will not be possible.</qt>"
-#~ msgstr ""
-#~ "<qt>Немагчыма выканаць праграму <i>gpg</i> і праверыць файл. Праверце, ці "
-#~ "ўстаноўлена праграма <i>gpg</i>, інакш праверка апублікаваных рэсурсаў "
-#~ "будзе немагчымай.</qt>"
-
-#~ msgid "Key used for signing:"
-#~ msgstr "Ключ для падпісвання:"
-
-#~ msgid "Select Signing Key"
-#~ msgstr "Выберыце ключ для падпісвання"
-
-#~ msgid ""
-#~ "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> "
-#~ "is installed, otherwise signing of the resources will not be possible.</"
-#~ "qt>"
-#~ msgstr ""
-#~ "<qt>Немагчыма выканаць праграму <i>gpg</i> і падпісаць файл. Праверце, ці "
-#~ "ўстаноўлена праграма <i>gpg</i>, інакш падпісванне рэсурсу будзе "
-#~ "немагчымым.</qt>"
-
-#, fuzzy
-#~| msgid "Get Hot New Stuff!"
-#~ msgid "Get Hot New Stuff"
-#~ msgstr "Сцягнуць новыя рэчы!"
-
-#, fuzzy
-#~| msgctxt "Program name followed by 'Add On Installer'"
-#~| msgid "%1 Add On Installer"
-#~ msgctxt "Program name followed by 'Add On Installer'"
-#~ msgid "%1 Add-On Installer"
-#~ msgstr "Устаноўка утулак %1"
-
-#, fuzzy
-#~| msgid "Timeout. Check internet connection!"
-#~ msgid "Timeout. Check Internet connection."
-#~ msgstr "Перавышаны тэрмін чакання. Праверце злучэнне з інтэрнэтам!"
-
-#~ msgid "Server: %1"
-#~ msgstr "Сервер: %1"
-
-#, fuzzy
-#~| msgid "Provider: %1"
-#~ msgid "<br />Provider: %1"
-#~ msgstr "Пастаўшчык: %1"
-
-#, fuzzy
-#~| msgid "Version: %1"
-#~ msgid "<br />Version: %1"
-#~ msgstr "Версія: %1"
-
-#~ msgid "Provider information"
-#~ msgstr "Звесткі пра пастаўшчыка"
-
-#, fuzzy
-#~| msgid "Could not read file '%1'"
-#~ msgid "Could not install %1"
-#~ msgstr "Немагчыма прачытаць файл '%1'"
-
-#, fuzzy
-#~| msgid "Get Hot New Stuff!"
-#~ msgid "Get Hot New Stuff!"
-#~ msgstr "Сцягнуць новыя рэчы!"
-
-#, fuzzy
-#~| msgid "Detailed View"
-#~ msgid "Details view mode"
-#~ msgstr "Падрабязны выгляд"
-
-#, fuzzy
-#~| msgid "*|All Folders"
-#~ msgid "All Providers"
-#~ msgstr "*|Усе тэчкі"
-
-#, fuzzy
-#~| msgid "Pages"
-#~ msgid "All Categories"
-#~ msgstr "Старонкі"
-
-#, fuzzy
-#~| msgid "Provider: %1"
-#~ msgid "Provider:"
-#~ msgstr "Пастаўшчык: %1"
-
-#, fuzzy
-#~| msgid "Character:"
-#~ msgid "Category:"
-#~ msgstr "Сімвал:"
-
-#, fuzzy
-#~| msgid "Most Downloads"
-#~ msgid "Most downloads"
-#~ msgstr "Больш спампоўванняў"
-
-#, fuzzy
-#~| msgctxt "@action"
-#~| msgid "New"
-#~ msgid "Newest"
-#~ msgstr "Новы"
-
-#, fuzzy
-#~| msgid "Rating: "
-#~ msgid "Rating"
-#~ msgstr "Рэйтынг:"
-
-#, fuzzy
-#~| msgid "Install"
-#~ msgid "Installed"
-#~ msgstr "Устанавіць"
-
-#, fuzzy
-#~| msgid "&Order by:"
-#~ msgid "Order by:"
-#~ msgstr "Упарадкаваць па:"
-
-#~ msgid "Search:"
-#~ msgstr "Шукаць:"
-
-#, fuzzy
-#~| msgid "Search"
-#~ msgid "Search..."
-#~ msgstr "Пошук"
-
-#~ msgid "Author:"
-#~ msgstr "Аўтар:"
-
-#~ msgid "Update"
-#~ msgstr "Абнавіць"
-
-#~ msgid "Uninstall"
-#~ msgstr "Выдаліць"
-
-#~ msgid "Install"
-#~ msgstr "Устанавіць"
-
-#, fuzzy
-#~| msgid "Pages"
-#~ msgctxt ""
-#~ "The first entry in the category selection list (also the default value)"
-#~ msgid "All Categories"
-#~ msgstr "Старонкі"
-
-#, fuzzy
-#~| msgid "Unknown error"
-#~ msgctxt ""
-#~ "The string passed back in the case the requested category is not known"
-#~ msgid "Unknown Category"
-#~ msgstr "Невядомая памылка"
-
-#, fuzzy
-#~| msgid "Download New %1"
-#~ msgid "Download New %1..."
-#~ msgstr "Сцягнуць новую %1"
-
-#, fuzzy
-#~| msgid "Download New %1"
-#~ msgctxt ""
-#~ "The dialog title when we know which type of stuff is being requested"
-#~ msgid "Download New %1"
-#~ msgstr "Сцягнуць новую %1"
-
-#, fuzzy
-#~| msgid "Download New Stuff"
-#~ msgctxt ""
-#~ "A placeholder title used in the dialog when there is no better title "
-#~ "available"
-#~ msgid "Download New Stuff"
-#~ msgstr "Сцягнцуь новыя файлы"
-
-#, fuzzy
-#~| msgid "Install"
-#~ msgctxt ""
-#~ "A passive notification shown when installation of an item is initiated"
-#~ msgid "Installing %1 from %2"
-#~ msgstr "Устанавіць"
-
-#, fuzzy
-#~| msgid "Install"
-#~ msgctxt ""
-#~ "Request installation of this item, available when there is exactly one "
-#~ "downloadable item"
-#~ msgid "Install"
-#~ msgstr "Устанавіць"
-
-#, fuzzy
-#~| msgid "Install"
-#~ msgctxt ""
-#~ "Show installation options, where there is more than one downloadable item"
-#~ msgid "Install..."
-#~ msgstr "Устанавіць"
-
-#, fuzzy
-#~| msgid "Update"
-#~ msgctxt "Request updating of this item"
-#~ msgid "Update"
-#~ msgstr "Абнавіць"
-
-#, fuzzy
-#~| msgid "Uninstall"
-#~ msgctxt "Request uninstallation of this item"
-#~ msgid "Uninstall"
-#~ msgstr "Выдаліць"
-
-#, fuzzy
-#~| msgid "Comments"
-#~ msgctxt ""
-#~ "A link which, when clicked, opens a new sub page with comments (comments "
-#~ "with or without ratings) for this entry"
-#~ msgid "%1 Reviews and Comments"
-#~ msgstr "Каментары"
-
-#, fuzzy
-#~| msgid "Rating: "
-#~ msgid "Rating:"
-#~ msgstr "Рэйтынг:"
-
-#, fuzzy
-#~| msgid "Homepage"
-#~ msgid "Homepage:"
-#~ msgstr "Хатняя старонка"
-
-#, fuzzy
-#~| msgid "Install"
-#~ msgctxt "Request installation of this item"
-#~ msgid "Install"
-#~ msgstr "Устанавіць"
-
-#, fuzzy
-#~| msgid "Install"
-#~ msgctxt ""
-#~ "List option which will set the filter so only installed items are shown"
-#~ msgid "Installed Only"
-#~ msgstr "Устанавіць"
-
-#, fuzzy
-#~| msgid "Show directories first"
-#~ msgctxt ""
-#~ "List option which will set the sort order to based on when items were "
-#~ "most recently updated"
-#~ msgid "Show most recent first"
-#~ msgstr "Спачатку паказваць тэчкі"
-
-#, fuzzy
-#~| msgid "Show directories first"
-#~ msgctxt "List option which will set the sort order to based on user ratings"
-#~ msgid "Show highest rated first"
-#~ msgstr "Спачатку паказваць тэчкі"
-
-#, fuzzy
-#~| msgid "Most Downloads"
-#~ msgctxt ""
-#~ "List option which will set the sort order to based on number of downloads"
-#~ msgid "Show most downloaded first"
-#~ msgstr "Больш спампоўванняў"
-
-#, fuzzy
-#~| msgid "File"
-#~ msgid "Tiles"
-#~ msgstr "Файл"
-
-#~ msgid "Icons"
-#~ msgstr "Значкі"
-
-#, fuzzy
-#~| msgid "Show Preview"
-#~ msgid "Preview"
-#~ msgstr "Паказваць прагляд"
-
-#, fuzzy
-#~| msgid "Detailed View"
-#~ msgid "Detailed Tiles View Mode"
-#~ msgstr "Падрабязны выгляд"
-
-#, fuzzy
-#~| msgid "Icons Only"
-#~ msgid "Icons Only View Mode"
-#~ msgstr "Толькі значкі"
-
-#, fuzzy
-#~| msgid "Detailed View"
-#~ msgid "Large Preview View Mode"
-#~ msgstr "Падрабязны выгляд"
-
-#, fuzzy
-#~| msgid "Update"
-#~ msgid "Updateable"
-#~ msgstr "Абнавіць"
-
-#, fuzzy
-#~| msgid "&Show All Entries"
-#~ msgctxt "List option which will set the filter to show everything"
-#~ msgid "Show All Entries"
-#~ msgstr "Паказаць усе опцыі"
-
-#, fuzzy
-#~| msgid "&Show All Entries"
-#~ msgctxt ""
-#~ "List option which will set the filter so only installed items are shown"
-#~ msgid "Show Only Installed Entries"
-#~ msgstr "Паказаць усе опцыі"
-
-#, fuzzy
-#~| msgid "&Show All Entries"
-#~ msgctxt ""
-#~ "List option which will set the filter so only installed items with "
-#~ "updates available are shown"
-#~ msgid "Show Only Updateable Entries"
-#~ msgstr "Паказаць усе опцыі"
-
-#, fuzzy
-#~| msgid "Open &Recent"
-#~ msgid "Recent"
-#~ msgstr "Адкрыць &ранейшы файл"
-
-#, fuzzy
-#~| msgid "Download"
-#~ msgid "Downloads"
-#~ msgstr "Спампаваць"
-
-#, fuzzy
-#~| msgid "Show directories first"
-#~ msgctxt ""
-#~ "List option which will set the sort order to based on when items were "
-#~ "most recently updated"
-#~ msgid "Show Most Recent First"
-#~ msgstr "Спачатку паказваць тэчкі"
-
-#, fuzzy
-#~| msgid "Show directories first"
-#~ msgctxt "List option which will set the sort order to based on user ratings"
-#~ msgid "Show Highest Rated First"
-#~ msgstr "Спачатку паказваць тэчкі"
-
-#, fuzzy
-#~| msgid "Most Downloads"
-#~ msgctxt ""
-#~ "List option which will set the sort order to based on number of downloads"
-#~ msgid "Show Most Downloaded First"
-#~ msgstr "Больш спампоўванняў"
-
-#, fuzzy
-#~| msgid "&Replace..."
-#~ msgid "Upload..."
-#~ msgstr "&Замяніць..."
-
-#, fuzzy
-#~| msgid "&Go To..."
-#~ msgid "Go to..."
-#~ msgstr "&Ісці да..."
-
-#, fuzzy
-#~| msgid "Continue operation"
-#~ msgid "Contribute your own…"
-#~ msgstr "Працягнуць выкананне аперацыі"
-
-#, fuzzy
-#~| msgid "Print Preview"
-#~ msgctxt ""
-#~ "A text shown beside a busy indicator suggesting that data is being fetched"
-#~ msgid "Loading more…"
-#~ msgstr "Прагляд друку"
-
-#, fuzzy
-#~| msgctxt "@note/rich"
-#~| msgid "<i>Note</i>: %1"
-#~ msgctxt ""
-#~ "Placeholder title for when a comment has no subject, but does have a "
-#~ "rating"
-#~ msgid "<i>(no title)</i>"
-#~ msgstr "<i>Заўвага</i>: %1"
-
-#, fuzzy
-#~| msgid "Pages"
-#~ msgctxt ""
-#~ "Title for the item which is checked when all comments should be shown"
-#~ msgid "Show All Comments"
-#~ msgstr "Старонкі"
-
-#, fuzzy
-#~| msgid "Show Preview"
-#~ msgctxt ""
-#~ "Title for the item which is checked when only comments which are reviews "
-#~ "should be shown"
-#~ msgid "Show Reviews Only"
-#~ msgstr "Паказваць прагляд"
-
-#, fuzzy
-#~| msgid "Download"
-#~ msgctxt "The number of times the item has been downloaded"
-#~ msgid "%1 downloads"
-#~ msgstr "Спампаваць"
-
-#, fuzzy
-#~| msgctxt "@interface/rich"
-#~| msgid "<i>%1</i>"
-#~ msgctxt ""
-#~ "Subheading for the tile view, located immediately underneath the name of "
-#~ "the item"
-#~ msgid "By <i>%1</i>"
-#~ msgstr "<i>%1</i>"
-
-#, fuzzy
-#~| msgid "Update"
-#~ msgctxt ""
-#~ "Label for the busy indicator showing an item is in the process of being "
-#~ "updated"
-#~ msgid "Updating..."
-#~ msgstr "Абнавіць"
-
-#, fuzzy
-#~| msgid "Install"
-#~ msgctxt "Label for the busy indicator showing an item is installing"
-#~ msgid "Installing..."
-#~ msgstr "Устанавіць"
-
-#, fuzzy
-#~| msgid "Please put in a name."
-#~ msgid "Please try again later."
-#~ msgstr "Калі ласка, вызначце назву."
-
-#, fuzzy
-#~| msgid "None"
-#~ msgid "None"
-#~ msgstr "Няма"
-
-#, fuzzy
-#~| msgid "(%1/s)"
-#~ msgctxt ""
-#~ "A text representation of the rating, shown as a fraction of the max value"
-#~ msgid "(%1/%2)"
-#~ msgstr "(%1/с)"
-
-#, fuzzy
-#~| msgid "Download New Stuff"
-#~ msgctxt "@knewstuff5"
-#~ msgid "Upload New Stuff: %1"
-#~ msgstr "Сцягнцуь новыя файлы"
-
-#, fuzzy
-#~| msgid "Show license information"
-#~ msgctxt ""
-#~ "A text shown beside a busy indicator suggesting that data is being fetched"
-#~ msgid "Updating information..."
-#~ msgstr "Паказаць звесткі пра ліцэнзію"
-
-#, fuzzy
-#~| msgid "Store"
-#~ msgctxt "The name of the KDE Store"
-#~ msgid "KDE Store"
-#~ msgstr "Захоўваць"
-
-#, fuzzy
-#~| msgid "Provider: %1"
-#~ msgctxt "An unnamed provider"
-#~ msgid "Your Provider"
-#~ msgstr "Пастаўшчык: %1"
-
-#, fuzzy
-#~| msgid "Website:"
-#~ msgctxt ""
-#~ "Text for an action which causes the specified website to be opened using "
-#~ "the user's system default browser"
-#~ msgid "Open Website: %1"
-#~ msgstr "Web-старонка:"
-
-#, fuzzy
-#~| msgid "&Send Email"
-#~ msgctxt ""
-#~ "Text for an action which will attempt to send an email using the user's "
-#~ "system default email client"
-#~ msgid "Send Email To: %1"
-#~ msgstr "&Даслаць ліст"
-
-#, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Back"
-#~ msgctxt "Knewstuff5"
-#~ msgid "Back"
-#~ msgstr "Назад"
+#: lib/kaboutdata.cpp:292
+msgctxt "KAboutLicense|"
+msgid ""
+"No licensing terms for this program have been specified.\n"
+"Please check the documentation or the source for any\n"
+"licensing terms.\n"
+msgstr ""
+"Для гэтай праграмы не былі вызначаныя ліцэнзійныя ўмовы.\n"
+"Калі ласка, праглядзіце дакументацыю ці зыходны код праграмы на наяўнасць\n"
+"ліцэнзійных умоў.\n"
+
+#: lib/kaboutdata.cpp:344
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "GPL v2"
+msgstr "GPL v2"
+
+#: lib/kaboutdata.cpp:345
+msgctxt "KAboutLicense|@item license"
+msgid "GNU General Public License Version 2"
+msgstr "GNU General Public License версія 2"
+
+#: lib/kaboutdata.cpp:348
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "LGPL v2"
+msgstr "LGPL v2"
+
+#: lib/kaboutdata.cpp:349
+msgctxt "KAboutLicense|@item license"
+msgid "GNU Lesser General Public License Version 2"
+msgstr "GNU Lesser General Public License версія 2"
+
+#: lib/kaboutdata.cpp:352
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "BSD License"
+msgstr "Ліцэнзія BSD"
+
+#: lib/kaboutdata.cpp:353
+msgctxt "KAboutLicense|@item license"
+msgid "BSD License"
+msgstr "Ліцэнзія BSD"
+
+#: lib/kaboutdata.cpp:356
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "Artistic License"
+msgstr "Ліцэнзія Artistic"
+
+#: lib/kaboutdata.cpp:357
+msgctxt "KAboutLicense|@item license"
+msgid "Artistic License"
+msgstr "Ліцэнзія Artistic"
+
+#: lib/kaboutdata.cpp:360
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "GPL v3"
+msgstr "GPL v3"
+
+#: lib/kaboutdata.cpp:361
+msgctxt "KAboutLicense|@item license"
+msgid "GNU General Public License Version 3"
+msgstr "GNU General Public License версія 3"
+
+#: lib/kaboutdata.cpp:364
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "LGPL v3"
+msgstr "LGPL v3"
+
+#: lib/kaboutdata.cpp:365
+msgctxt "KAboutLicense|@item license"
+msgid "GNU Lesser General Public License Version 3"
+msgstr "GNU Lesser General Public License версія 3"
+
+#: lib/kaboutdata.cpp:368
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "LGPL v2.1"
+msgstr "LGPL v2.1"
+
+#: lib/kaboutdata.cpp:369
+msgctxt "KAboutLicense|@item license"
+msgid "GNU Lesser General Public License Version 2.1"
+msgstr "GNU Lesser General Public License версія 2.1"
+
+#: lib/kaboutdata.cpp:372
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "MIT License"
+msgstr ""
+
+#: lib/kaboutdata.cpp:373
+msgctxt "KAboutLicense|@item license"
+msgid "MIT License"
+msgstr ""
+
+#: lib/kaboutdata.cpp:376
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "CC0"
+msgstr ""
+
+#: lib/kaboutdata.cpp:377
+msgctxt "KAboutLicense|@item license"
+msgid "Creative Commons Zero"
+msgstr ""
+
+#: lib/kaboutdata.cpp:380
+#, fuzzy
+#| msgctxt "KAboutLicense|@item license (short name)"
+#| msgid "QPL v1.0"
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "ODbL v1.0"
+msgstr "QPL v1.0"
+
+#: lib/kaboutdata.cpp:381
+msgctxt "KAboutLicense|@item license"
+msgid "Open Data Commons Open Database License v1.0"
+msgstr ""
+
+#: lib/kaboutdata.cpp:384
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "Apache 2.0"
+msgstr ""
+
+#: lib/kaboutdata.cpp:385
+msgctxt "KAboutLicense|@item license"
+msgid "Apache License 2.0"
+msgstr ""
+
+#: lib/kaboutdata.cpp:388
+#, fuzzy
+#| msgctxt "KFileSystemType|"
+#| msgid "FAT"
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "FTL"
+msgstr "FAT"
+
+#: lib/kaboutdata.cpp:389
+msgctxt "KAboutLicense|@item license"
+msgid "Freetype Project License"
+msgstr ""
+
+#: lib/kaboutdata.cpp:392
+#, fuzzy
+#| msgctxt "KAboutLicense|@item license (short name)"
+#| msgid "BSD License"
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "Boost License"
+msgstr "Ліцэнзія BSD"
+
+#: lib/kaboutdata.cpp:393
+msgctxt "KAboutLicense|@item license"
+msgid "Boost Software License 1.0"
+msgstr ""
+
+#: lib/kaboutdata.cpp:396
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "BSD-3-Clause"
+msgstr ""
+
+#: lib/kaboutdata.cpp:397
+msgctxt "KAboutLicense|@item license"
+msgid "BSD 3-Clause \"New\" or \"Revised\" License"
+msgstr ""
+
+#: lib/kaboutdata.cpp:401
+msgctxt "KAboutLicense|@item license"
+msgid "Custom"
+msgstr "Адвольная"
+
+#: lib/kaboutdata.cpp:404
+msgctxt "KAboutLicense|@item license"
+msgid "Not specified"
+msgstr "Не вызначана"
+
+#: lib/kaboutdata.cpp:986
+msgctxt "KAboutData|replace this with information about your translation team"
+msgid ""
+"<p>KDE is translated into many languages thanks to the work of the "
+"translation teams all over the world.</p><p>For more information on KDE "
+"internationalization visit <a href=\"https://l10n.kde.org\">https://l10n.kde."
+"org</a></p>"
+msgstr ""
+"<p>Дзякуючы працы каманд перакладчыкаў з усяго свету праект KDE перакладзены "
+"на вялікую колькасць моў.</p><p>Каб больш падрабязна даведацца пра "
+"інтэрнацыяналізацыю KDE, наведайце <a href=\"https://l10n.kde.org\">https://"
+"l10n.kde.org</a></p>"
+
+#: lib/kaboutdata.cpp:1219
+msgctxt "KAboutData CLI|"
+msgid "Show author information."
+msgstr "Паказаць звесткі пра стваральніка."
+
+#: lib/kaboutdata.cpp:1220
+msgctxt "KAboutData CLI|"
+msgid "Show license information."
+msgstr "Паказаць звесткі пра ліцэнзію."
+
+#: lib/kaboutdata.cpp:1222
+msgctxt "KAboutData CLI|"
+msgid "The base file name of the desktop entry for this application."
+msgstr "Базавая назва файла элемента працоўнага стала для гэтай праграммы."
+
+#: lib/kaboutdata.cpp:1223
+msgctxt "KAboutData CLI|"
+msgid "file name"
+msgstr "назва файла"
+
+#: lib/kaboutdata.cpp:1233
+msgctxt "KAboutData CLI|"
+msgid "This application was written by somebody who wants to remain anonymous."
+msgstr "Гэтая праграма створаная чалавекам, які захацеў застацца невядомым."
+
+#: lib/kaboutdata.cpp:1235
+#, qt-format
+msgctxt "KAboutData CLI|"
+msgid "%1 was written by:"
+msgstr "%1 стварыў:"
+
+#: lib/kaboutdata.cpp:1246
+msgctxt "KAboutData CLI|"
+msgid "Please use https://bugs.kde.org to report bugs."
+msgstr ""
+"Для адпраўлення справаздач пра хібы выкарыстоўвайце http://bugs.kde.org."
+
+#: lib/kaboutdata.cpp:1248
+#, qt-format
+msgctxt "KAboutData CLI|"
+msgid "Please report bugs to %1."
+msgstr "Паведамляйце пра хібы на %1."
+
+#: lib/plugin/kpluginfactory.cpp:33
+#, qt-format
+msgctxt "KPluginFactory|"
+msgid "Could not find plugin %1"
+msgstr "Не ўдалося знайсці ўбудову %1"
+
+#: lib/plugin/kpluginfactory.cpp:42
+#, qt-format
+msgctxt "KPluginFactory|"
+msgid "Could not load plugin from %1: %2"
+msgstr "Не ўдалося загрузіць убудову з %1: %2"
+
+#: lib/plugin/kpluginfactory.cpp:53
+#, qt-format
+msgctxt "KPluginFactory|"
+msgid "The library %1 does not offer a KPluginFactory."
+msgstr "Бібліятэка %1 не прапаноўвае KPluginFactory."
+
+#: lib/plugin/kpluginfactory.h:386
+#, qt-format
+msgctxt "KPluginFactory|"
+msgid "KPluginFactory could not create a %1 instance from %2"
+msgstr "KPluginFactory не ўдалося стварыць асобнік %1 з %2"
+
+#: lib/util/kformatprivate.cpp:102
+msgctxt "KFormat|SI prefix for 10^⁻24"
+msgid "y"
+msgstr "ё"
+
+#: lib/util/kformatprivate.cpp:103
+msgctxt "KFormat|SI prefix for 10^⁻21"
+msgid "z"
+msgstr "з"
+
+#: lib/util/kformatprivate.cpp:104
+msgctxt "KFormat|SI prefix for 10^⁻18"
+msgid "a"
+msgstr "а"
+
+#: lib/util/kformatprivate.cpp:105
+msgctxt "KFormat|SI prefix for 10^⁻15"
+msgid "f"
+msgstr "ф"
+
+#: lib/util/kformatprivate.cpp:106
+msgctxt "KFormat|SI prefix for 10^⁻12"
+msgid "p"
+msgstr "п"
+
+#: lib/util/kformatprivate.cpp:107
+msgctxt "KFormat|SI prefix for 10^⁻9"
+msgid "n"
+msgstr "н"
+
+#: lib/util/kformatprivate.cpp:108
+msgctxt "KFormat|SI prefix for 10^⁻6"
+msgid "µ"
+msgstr "мк"
+
+#: lib/util/kformatprivate.cpp:109
+msgctxt "KFormat|SI prefix for 10^⁻3"
+msgid "m"
+msgstr "м"
+
+#: lib/util/kformatprivate.cpp:111
+msgctxt "KFormat|SI prefix for 10^3"
+msgid "k"
+msgstr "к"
+
+#: lib/util/kformatprivate.cpp:111
+msgctxt "KFormat|IEC binary prefix for 2^10"
+msgid "Ki"
+msgstr "Кі"
+
+#: lib/util/kformatprivate.cpp:112
+msgctxt "KFormat|SI prefix for 10^6"
+msgid "M"
+msgstr "М"
+
+#: lib/util/kformatprivate.cpp:112
+msgctxt "KFormat|IEC binary prefix for 2^20"
+msgid "Mi"
+msgstr "Мі"
+
+#: lib/util/kformatprivate.cpp:113
+msgctxt "KFormat|SI prefix for 10^9"
+msgid "G"
+msgstr "Г"
+
+#: lib/util/kformatprivate.cpp:113
+msgctxt "KFormat|IEC binary prefix for 2^30"
+msgid "Gi"
+msgstr "Гі"
+
+#: lib/util/kformatprivate.cpp:114
+msgctxt "KFormat|SI prefix for 10^12"
+msgid "T"
+msgstr "Т"
+
+#: lib/util/kformatprivate.cpp:114
+msgctxt "KFormat|IEC binary prefix for 2^40"
+msgid "Ti"
+msgstr "Ті"
+
+#: lib/util/kformatprivate.cpp:115
+msgctxt "KFormat|SI prefix for 10^15"
+msgid "P"
+msgstr "П"
+
+#: lib/util/kformatprivate.cpp:115
+msgctxt "KFormat|IEC binary prefix for 2^50"
+msgid "Pi"
+msgstr "Пі"
+
+#: lib/util/kformatprivate.cpp:116
+msgctxt "KFormat|SI prefix for 10^18"
+msgid "E"
+msgstr "Э"
+
+#: lib/util/kformatprivate.cpp:116
+msgctxt "KFormat|IEC binary prefix for 2^60"
+msgid "Ei"
+msgstr "Эі"
+
+#: lib/util/kformatprivate.cpp:117
+msgctxt "KFormat|SI prefix for 10^21"
+msgid "Z"
+msgstr "З"
+
+#: lib/util/kformatprivate.cpp:117
+msgctxt "KFormat|IEC binary prefix for 2^70"
+msgid "Zi"
+msgstr "Зі"
+
+#: lib/util/kformatprivate.cpp:118
+msgctxt "KFormat|SI prefix for 10^24"
+msgid "Y"
+msgstr "Ё"
+
+#: lib/util/kformatprivate.cpp:118
+msgctxt "KFormat|IEC binary prefix for 2^80"
+msgid "Yi"
+msgstr "Ёі"
+
+#: lib/util/kformatprivate.cpp:127
+msgctxt "KFormat|Symbol of binary digit"
+msgid "bit"
+msgstr "біт"
+
+#: lib/util/kformatprivate.cpp:130
+msgctxt "KFormat|Symbol of byte"
+msgid "B"
+msgstr "Б"
+
+#: lib/util/kformatprivate.cpp:133
+msgctxt "KFormat|Symbol of meter"
+msgid "m"
+msgstr "м"
+
+#: lib/util/kformatprivate.cpp:136
+msgctxt "KFormat|Symbol of hertz"
+msgid "Hz"
+msgstr "Гц"
+
+#. value without prefix, format "<val> <unit>"
+#: lib/util/kformatprivate.cpp:145
+#, qt-format
+msgctxt "KFormat|no Prefix"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#. value with prefix, format "<val> <prefix><unit>"
+#: lib/util/kformatprivate.cpp:164
+#, qt-format
+msgctxt "KFormat|MetricBinaryDialect"
+msgid "%1 %2%3"
+msgstr "%1 %2%3"
+
+#. MetricBinaryDialect size in bytes
+#: lib/util/kformatprivate.cpp:218
+#, qt-format
+msgctxt "KFormat|MetricBinaryDialect"
+msgid "%1 B"
+msgstr "%1 Б"
+
+#. MetricBinaryDialect size in 1000 bytes
+#: lib/util/kformatprivate.cpp:221
+#, qt-format
+msgctxt "KFormat|MetricBinaryDialect"
+msgid "%1 kB"
+msgstr "%1 кБ"
+
+#. MetricBinaryDialect size in 10^6 bytes
+#: lib/util/kformatprivate.cpp:224
+#, qt-format
+msgctxt "KFormat|MetricBinaryDialect"
+msgid "%1 MB"
+msgstr "%1 МБ"
+
+#. MetricBinaryDialect size in 10^9 bytes
+#: lib/util/kformatprivate.cpp:227
+#, qt-format
+msgctxt "KFormat|MetricBinaryDialect"
+msgid "%1 GB"
+msgstr "%1 ГБ"
+
+#. MetricBinaryDialect size in 10^12 bytes
+#: lib/util/kformatprivate.cpp:230
+#, qt-format
+msgctxt "KFormat|MetricBinaryDialect"
+msgid "%1 TB"
+msgstr "%1 TБ"
+
+#. MetricBinaryDialect size in 10^15 bytes
+#: lib/util/kformatprivate.cpp:233
+#, qt-format
+msgctxt "KFormat|MetricBinaryDialect"
+msgid "%1 PB"
+msgstr "%1 ПБ"
+
+#. MetricBinaryDialect size in 10^18 byte
+#: lib/util/kformatprivate.cpp:236
+#, qt-format
+msgctxt "KFormat|MetricBinaryDialect"
+msgid "%1 EB"
+msgstr "%1 ЭБ"
+
+#. MetricBinaryDialect size in 10^21 bytes
+#: lib/util/kformatprivate.cpp:239
+#, qt-format
+msgctxt "KFormat|MetricBinaryDialect"
+msgid "%1 ZB"
+msgstr "%1 ЗБ"
+
+#. MetricBinaryDialect size in 10^24 bytes
+#: lib/util/kformatprivate.cpp:242
+#, qt-format
+msgctxt "KFormat|MetricBinaryDialect"
+msgid "%1 YB"
+msgstr "%1 ЁБ"
+
+#. JEDECBinaryDialect memory size in bytes
+#: lib/util/kformatprivate.cpp:248
+#, qt-format
+msgctxt "KFormat|JEDECBinaryDialect"
+msgid "%1 B"
+msgstr "%1 Б"
+
+#. JEDECBinaryDialect memory size in 1024 bytes
+#: lib/util/kformatprivate.cpp:251
+#, qt-format
+msgctxt "KFormat|JEDECBinaryDialect"
+msgid "%1 KB"
+msgstr "%1 КБ"
+
+#. JEDECBinaryDialect memory size in 10^20 bytes
+#: lib/util/kformatprivate.cpp:254
+#, qt-format
+msgctxt "KFormat|JEDECBinaryDialect"
+msgid "%1 MB"
+msgstr "%1 МБ"
+
+#. JEDECBinaryDialect memory size in 10^30 bytes
+#: lib/util/kformatprivate.cpp:257
+#, qt-format
+msgctxt "KFormat|JEDECBinaryDialect"
+msgid "%1 GB"
+msgstr "%1 ГБ"
+
+#. JEDECBinaryDialect memory size in 10^40 bytes
+#: lib/util/kformatprivate.cpp:260
+#, qt-format
+msgctxt "KFormat|JEDECBinaryDialect"
+msgid "%1 TB"
+msgstr "%1 TБ"
+
+#. JEDECBinaryDialect memory size in 10^50 bytes
+#: lib/util/kformatprivate.cpp:263
+#, qt-format
+msgctxt "KFormat|JEDECBinaryDialect"
+msgid "%1 PB"
+msgstr "%1 ПБ"
+
+#. JEDECBinaryDialect memory size in 10^60 bytes
+#: lib/util/kformatprivate.cpp:266
+#, qt-format
+msgctxt "KFormat|JEDECBinaryDialect"
+msgid "%1 EB"
+msgstr "%1 ЭБ"
+
+#. JEDECBinaryDialect memory size in 10^70 bytes
+#: lib/util/kformatprivate.cpp:269
+#, qt-format
+msgctxt "KFormat|JEDECBinaryDialect"
+msgid "%1 ZB"
+msgstr "%1 ЗБ"
+
+#. JEDECBinaryDialect memory size in 10^80 bytes
+#: lib/util/kformatprivate.cpp:272
+#, qt-format
+msgctxt "KFormat|JEDECBinaryDialect"
+msgid "%1 YB"
+msgstr "%1 ЁБ"
+
+#. IECBinaryDialect size in bytes
+#: lib/util/kformatprivate.cpp:278
+#, qt-format
+msgctxt "KFormat|IECBinaryDialect"
+msgid "%1 B"
+msgstr "%1 Б"
+
+#. IECBinaryDialect size in 1024 bytes
+#: lib/util/kformatprivate.cpp:281
+#, qt-format
+msgctxt "KFormat|IECBinaryDialect"
+msgid "%1 KiB"
+msgstr "%1 КіБ"
+
+#. IECBinaryDialect size in 10^20 bytes
+#: lib/util/kformatprivate.cpp:284
+#, qt-format
+msgctxt "KFormat|IECBinaryDialect"
+msgid "%1 MiB"
+msgstr "%1 МіБ"
+
+#. IECBinaryDialect size in 10^30 bytes
+#: lib/util/kformatprivate.cpp:287
+#, qt-format
+msgctxt "KFormat|IECBinaryDialect"
+msgid "%1 GiB"
+msgstr "%1 ГіБ"
+
+#. IECBinaryDialect size in 10^40 bytes
+#: lib/util/kformatprivate.cpp:290
+#, qt-format
+msgctxt "KFormat|IECBinaryDialect"
+msgid "%1 TiB"
+msgstr "%1 TiБ"
+
+#. IECBinaryDialect size in 10^50 bytes
+#: lib/util/kformatprivate.cpp:293
+#, qt-format
+msgctxt "KFormat|IECBinaryDialect"
+msgid "%1 PiB"
+msgstr "%1 ПiБ"
+
+#. IECBinaryDialect size in 10^60 bytes
+#: lib/util/kformatprivate.cpp:296
+#, qt-format
+msgctxt "KFormat|IECBinaryDialect"
+msgid "%1 EiB"
+msgstr "%1 ЭiБ"
+
+#. IECBinaryDialect size in 10^70 bytes
+#: lib/util/kformatprivate.cpp:299
+#, qt-format
+msgctxt "KFormat|IECBinaryDialect"
+msgid "%1 ZiB"
+msgstr "%1 ЗiБ"
+
+#. IECBinaryDialect size in 10^80 bytes
+#: lib/util/kformatprivate.cpp:302
+#, qt-format
+msgctxt "KFormat|IECBinaryDialect"
+msgid "%1 YiB"
+msgstr "%1 ЁiБ"
+
+#. @item:intext Duration format minutes, seconds and milliseconds
+#: lib/util/kformatprivate.cpp:339
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1m%2.%3s"
+msgstr "%1хв%2,%3с"
+
+#. @item:intext Duration format minutes and seconds
+#: lib/util/kformatprivate.cpp:342
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1m%2s"
+msgstr "%1хв%2с"
+
+#. @item:intext Duration format hours and minutes
+#: lib/util/kformatprivate.cpp:345
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1h%2m"
+msgstr "%1г%2хв"
+
+#. @item:intext Duration format hours, minutes, seconds, milliseconds
+#: lib/util/kformatprivate.cpp:348
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1h%2m%3.%4s"
+msgstr "%1г%2хв%3,%4с"
+
+#. @item:intext Duration format hours, minutes, seconds
+#: lib/util/kformatprivate.cpp:355
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1h%2m%3s"
+msgstr "%1г%2хв%3с"
+
+#. @item:intext Duration format minutes, seconds and milliseconds
+#: lib/util/kformatprivate.cpp:361
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1:%2.%3"
+msgstr "%1:%2,%3"
+
+#. @item:intext Duration format minutes and seconds
+#. ----------
+#. @item:intext Duration format hours and minutes
+#: lib/util/kformatprivate.cpp:364 lib/util/kformatprivate.cpp:367
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1:%2"
+msgstr "%1:%2"
+
+#. @item:intext Duration format hours, minutes, seconds, milliseconds
+#: lib/util/kformatprivate.cpp:370
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1:%2:%3.%4"
+msgstr "%1:%2:%3,%4"
+
+#. @item:intext Duration format hours, minutes, seconds
+#: lib/util/kformatprivate.cpp:377
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1:%2:%3"
+msgstr "%1:%2:%3"
+
+#. @item:intext %1 is a real number, e.g. 1.23 days
+#: lib/util/kformatprivate.cpp:389
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1 days"
+msgstr "%1 дзень(ён)"
+
+#. @item:intext %1 is a real number, e.g. 1.23 hours
+#: lib/util/kformatprivate.cpp:392
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1 hours"
+msgstr "%1 гадзін(а)"
+
+#. @item:intext %1 is a real number, e.g. 1.23 minutes
+#: lib/util/kformatprivate.cpp:395
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1 minutes"
+msgstr "%1 хвілін(а)"
+
+#. @item:intext %1 is a real number, e.g. 1.23 seconds
+#: lib/util/kformatprivate.cpp:398
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1 seconds"
+msgstr "%1 сенунд(а)"
+
+#. @item:intext %1 is a whole number
+#: lib/util/kformatprivate.cpp:403
+#, qt-format
+msgctxt "KFormat|"
+msgid "%n millisecond(s)"
+msgid_plural "%n millisecond(s)"
+msgstr[0] "%n мілісекунда"
+msgstr[1] "%n мілісекунды"
+msgstr[2] "%n мілісекунд"
+msgstr[3] "%n мілісекунды"
+
+#. @item:intext %n is a whole number
+#: lib/util/kformatprivate.cpp:421
+#, qt-format
+msgctxt "KFormat|"
+msgid "%n day(s)"
+msgid_plural "%n day(s)"
+msgstr[0] "%n дзень"
+msgstr[1] "%n дні"
+msgstr[2] "%n дзён"
+msgstr[3] "%n дні"
+
+#. @item:intext %n is a whole number
+#: lib/util/kformatprivate.cpp:426
+#, qt-format
+msgctxt "KFormat|"
+msgid "%n hour(s)"
+msgid_plural "%n hour(s)"
+msgstr[0] "%n гадзіна"
+msgstr[1] "%n гадзіны"
+msgstr[2] "%n гадзін"
+msgstr[3] "%n гадзіны"
+
+#. @item:intext %n is a whole number
+#: lib/util/kformatprivate.cpp:431
+#, qt-format
+msgctxt "KFormat|"
+msgid "%n minute(s)"
+msgid_plural "%n minute(s)"
+msgstr[0] "%n хвіліна"
+msgstr[1] "%n хвіліны"
+msgstr[2] "%n хвілін"
+msgstr[3] "%n хвіліны"
+
+#. @item:intext %n is a whole number
+#: lib/util/kformatprivate.cpp:436
+#, qt-format
+msgctxt "KFormat|"
+msgid "%n second(s)"
+msgid_plural "%n second(s)"
+msgstr[0] "%n секунда"
+msgstr[1] "%n секунды"
+msgstr[2] "%n секунд"
+msgstr[3] "%n секунды"
+
+#. @item:intext days and hours. This uses the previous item:intext messages. If this does not fit the grammar of your language please contact the i18n team to solve the problem
+#. ----------
+#. @item:intext hours and minutes. This uses the previous item:intext messages. If this does not fit the grammar of your language please contact the i18n team to solve the problem
+#. ----------
+#. @item:intext minutes and seconds. This uses the previous item:intext messages. If this does not fit the grammar of your language please contact the i18n team to solve the problem
+#: lib/util/kformatprivate.cpp:461 lib/util/kformatprivate.cpp:467
+#: lib/util/kformatprivate.cpp:473
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1 and %2"
+msgstr "%1 і %2"
+
+#: lib/util/kformatprivate.cpp:484
+msgctxt ""
+"KFormat|used when a relative date string can't be generated because the date "
+"is invalid"
+msgid "Invalid date"
+msgstr "Хібная дата"
+
+#: lib/util/kformatprivate.cpp:494
+msgctxt "KFormat|"
+msgid "In two days"
+msgstr "На працягу двух дзён"
+
+#: lib/util/kformatprivate.cpp:496
+msgctxt "KFormat|"
+msgid "Tomorrow"
+msgstr "Заўтра"
+
+#: lib/util/kformatprivate.cpp:498
+msgctxt "KFormat|"
+msgid "Today"
+msgstr "Сёння"
+
+#: lib/util/kformatprivate.cpp:500
+msgctxt "KFormat|"
+msgid "Yesterday"
+msgstr "Учора"
+
+#: lib/util/kformatprivate.cpp:502
+msgctxt "KFormat|"
+msgid "Two days ago"
+msgstr "Два дні таму"
+
+#: lib/util/kformatprivate.cpp:516
+msgctxt "KFormat|"
+msgid "Just now"
+msgstr "Зараз"
+
+#. @item:intext %1 is a whole number
+#: lib/util/kformatprivate.cpp:521
+#, qt-format
+msgctxt "KFormat|"
+msgid "%n minute(s) ago"
+msgid_plural "%n minute(s) ago"
+msgstr[0] "%n хвіліну таму"
+msgstr[1] "%n хвіліны таму"
+msgstr[2] "%n хвілін таму"
+msgstr[3] "%n хвіліны таму"
+
+#. relative datetime with %1 result of QLocale.toString(date, format) or formatRelativeDate and %2 result of QLocale.toString(time, timeformatType) If this does not fit the grammar of your language please contact the i18n team to solve the problem
+#: lib/util/kformatprivate.cpp:537
+#, qt-format
+msgctxt "KFormat|"
+msgid "%1 at %2"
+msgstr "%1 а %2"
+
+#: lib/util/klistopenfilesjob_unix.cpp:39
+#, qt-format
+msgctxt "QObject|"
+msgid "Path %1 doesn't exist"
+msgstr "Шлях не існуе: %1"
+
+#: lib/util/klistopenfilesjob_unix.cpp:46
+msgctxt "QObject|"
+msgid "Could not find lsof executable in PATH:"
+msgstr "Не ўдалося знайсці выканальны файл lsof па шляху:"
+
+#: lib/util/klistopenfilesjob_unix.cpp:55
+#, qt-format
+msgctxt "QObject|"
+msgid "Failed to execute `lsof'. Error code %1"
+msgstr "Не ўдалося выканаць \"lsof\". Код памылкі %1"
+
+#: lib/util/klistopenfilesjob_win.cpp:27
+msgctxt "QObject|"
+msgid "KListOpenFilesJob is not supported on Windows"
+msgstr "KListOpenFilesJob не падтрымліваецца ў Windows"
+
+#~ msgctxt "KAboutLicense|@item license"
+#~ msgid "Q Public License"
+#~ msgstr "Q Public License"
+
+#~ msgctxt "KPluginLoader|"
+#~ msgid "The library %1 does not offer a KPluginFactory."
+#~ msgstr "Бібліятэка %1 не прапаноўвае KPluginFactory."
+
+#~ msgctxt "KFormat|"
+#~ msgid "%1, %2"
+#~ msgstr "%1, %2"
+
+#, fuzzy
+#~ msgctxt "KFormat|most recent such day before today"
+#~ msgid "Last Monday"
+#~ msgstr "Наступны месяц"
+
+#, fuzzy
+#~| msgid "Tuesday"
+#~ msgctxt "KFormat|most recent such day before today"
+#~ msgid "Last Tuesday"
+#~ msgstr "Аўторак"
+
+#, fuzzy
+#~| msgid "Wednesday"
+#~ msgctxt "KFormat|most recent such day before today"
+#~ msgid "Last Wednesday"
+#~ msgstr "Серада"
+
+#, fuzzy
+#~| msgid "Thursday"
+#~ msgctxt "KFormat|most recent such day before today"
+#~ msgid "Last Thursday"
+#~ msgstr "Чацвер"
+
+#, fuzzy
+#~| msgid "Friday"
+#~ msgctxt "KFormat|most recent such day before today"
+#~ msgid "Last Friday"
+#~ msgstr "Пятніца"
 
 #, fuzzy
 #~| msgid "Saturday"
-#~ msgctxt "Knewstuff5"
-#~ msgid "Featured"
+#~ msgctxt "KFormat|most recent such day before today"
+#~ msgid "Last Saturday"
 #~ msgstr "Субота"
 
 #, fuzzy
-#~| msgid "Restart"
-#~ msgctxt "Knewstuff5"
-#~ msgid "Restart"
-#~ msgstr "Працягнуць"
+#~| msgid "Sunday"
+#~ msgctxt "KFormat|most recent such day before today"
+#~ msgid "Last Sunday"
+#~ msgstr "Нядзеля"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "New"
-#~ msgctxt "Knewstuff5"
-#~ msgid "New"
-#~ msgstr "Новы"
+#~ msgctxt "KFormat|the next such day after today"
+#~ msgid "Next Monday"
+#~ msgstr "Наступны месяц"
 
 #, fuzzy
-#~| msgctxt "keyboard-key-name"
-#~| msgid "Home"
-#~ msgctxt "Knewstuff5"
-#~ msgid "Home"
-#~ msgstr "Home"
+#~| msgid "Tuesday"
+#~ msgctxt "KFormat|the next such day after today"
+#~ msgid "Next Tuesday"
+#~ msgstr "Аўторак"
 
 #, fuzzy
-#~| msgctxt "keyboard-key-name"
-#~| msgid "Up"
-#~ msgctxt "Knewstuff5"
-#~ msgid "Up"
-#~ msgstr "Угору"
+#~| msgid "Wednesday"
+#~ msgctxt "KFormat|the next such day after today"
+#~ msgid "Next Wednesday"
+#~ msgstr "Серада"
 
 #, fuzzy
-#~| msgctxt "dictionary variant"
-#~| msgid "extended"
-#~ msgctxt "Knewstuff5"
-#~ msgid "Recommended"
-#~ msgstr "пашыраны"
+#~| msgid "Thursday"
+#~ msgctxt "KFormat|the next such day after today"
+#~ msgid "Next Thursday"
+#~ msgstr "Чацвер"
 
 #, fuzzy
-#~| msgid "Subscribe"
-#~ msgctxt "Knewstuff5"
-#~ msgid "Subscriptions"
-#~ msgstr "Ніжні індэкс"
+#~| msgid "Friday"
+#~ msgctxt "KFormat|the next such day after today"
+#~ msgid "Next Friday"
+#~ msgstr "Пятніца"
 
 #, fuzzy
-#~| msgid "&Show All Entries"
-#~ msgctxt "Knewstuff5"
-#~ msgid "All Entries"
-#~ msgstr "Паказаць усе опцыі"
+#~| msgid "Saturday"
+#~ msgctxt "KFormat|the next such day after today"
+#~ msgid "Next Saturday"
+#~ msgstr "Субота"
 
 #, fuzzy
-#~| msgid "Suggestion List"
-#~ msgid "Details for %1"
-#~ msgstr "Спіс прапановаў"
+#~| msgid "Sunday"
+#~ msgctxt "KFormat|the next such day after today"
+#~ msgid "Next Sunday"
+#~ msgstr "Нядзеля"
 
 #, fuzzy
-#~| msgid "Changelog"
-#~ msgid "Changelog:"
-#~ msgstr "Гісторыя зменаў"
+#~| msgid "&Last Page"
+#~ msgctxt "KFormat|"
+#~ msgid "Last %1"
+#~ msgstr "&Апошняя старонка"
 
 #, fuzzy
-#~| msgid "Homepage"
-#~ msgctxt "A link to the description of this Get Hot New Stuff item"
-#~ msgid "Homepage"
-#~ msgstr "Хатняя старонка"
-
-#, fuzzy
-#~| msgid "HTML documentation"
-#~ msgctxt ""
-#~ "A link to make a donation for a Get Hot New Stuff item (opens a web "
-#~ "browser)"
-#~ msgid "Make a donation"
-#~ msgstr "Дакументацыя HTML"
-
-#, fuzzy
-#~| msgid "Open in New &Window"
-#~ msgctxt "Tooltip for a link in a dialog"
-#~ msgid "Opens in a browser window"
-#~ msgstr "Адкрыць у новым &акне"
-
-#, fuzzy
-#~| msgid "Rating: "
-#~ msgid "Rating: %1%"
-#~ msgstr "Рэйтынг:"
-
-#, fuzzy
-#~| msgid "Provider: %1"
-#~ msgctxt "Show the size of the file in a list"
-#~ msgid "<br />Size: %1"
-#~ msgstr "Пастаўшчык: %1"
-
-#, fuzzy
-#~| msgctxt "@interface/rich"
-#~| msgid "<i>%1</i>"
-#~ msgctxt "Show the author of this item in a list"
-#~ msgid "By <i>%1</i>"
-#~ msgstr "<i>%1</i>"
-
-#, fuzzy
-#~| msgid "Download"
-#~ msgid "1 download"
-#~ msgid_plural "%1 downloads"
-#~ msgstr[0] "Спампаваць"
-#~ msgstr[1] "Спампаваць"
-#~ msgstr[2] "Спампаваць"
-
-#, fuzzy
-#~| msgid "Print Preview"
-#~ msgid "Loading Preview"
-#~ msgstr "Прагляд друку"
-
-#~ msgid "Details"
-#~ msgstr "Падрабязнасці"
-
-#, fuzzy
-#~| msgid "Update"
-#~ msgid "Updating"
-#~ msgstr "Абнавіць"
-
-#, fuzzy
-#~| msgid "Install"
-#~ msgid "Install Again"
-#~ msgstr "Устанавіць"
-
-#, fuzzy
-#~| msgid "Downloads: "
-#~ msgctxt "Show the size of the file in a list"
-#~ msgid "<p>Size: %1</p>"
-#~ msgstr "Сцягванні:"
-
-#, fuzzy
-#~| msgid "Yes"
-#~ msgctxt "@action:button"
-#~ msgid "Yes"
-#~ msgstr "Так"
-
-#, fuzzy
-#~| msgid "No"
-#~ msgctxt "@action:button"
-#~ msgid "No"
-#~ msgstr "Не"
-
-#, fuzzy
-#~| msgid "Could not create temporary file."
-#~ msgid "Possibly bad download link"
-#~ msgstr "Немагчыма стварыць часовы файл."
-
-#~ msgctxt "Opposite to Back"
-#~ msgid "Next"
+#~| msgctxt "Opposite to Back"
+#~| msgid "Next"
+#~ msgctxt "KFormat|"
+#~ msgid "Next %1"
 #~ msgstr "Далей"
 
-#~ msgid "Finish"
-#~ msgstr "Скончыць"
+#, fuzzy
+#~ msgctxt "KPluginLoader|"
+#~ msgid "Could not find plugin '%1' for application '%2'"
+#~ msgstr ""
+#~ "Немагчыма знайсці 'kdemain' у '%1'.\n"
+#~ "%2"
 
 #, fuzzy
-#~| msgid "Provider information"
-#~ msgid "Fetching provider information..."
-#~ msgstr "Звесткі пра пастаўшчыка"
+#~ msgctxt "KAboutLicense|GNU General Public License Version 2"
+#~ msgid "@item license"
+#~ msgstr "Artistic License"
 
 #, fuzzy
-#~| msgid "Provider information"
-#~ msgid "Could not fetch provider information."
-#~ msgstr "Звесткі пра пастаўшчыка"
+#~ msgctxt "KAboutLicense|GNU Lesser General Public License Version 2"
+#~ msgid "@item license"
+#~ msgstr "Artistic License"
 
 #, fuzzy
-#~| msgid "Check Spelling..."
-#~ msgid "Checking login..."
-#~ msgstr "Праверка правапісу..."
+#~ msgctxt "KAboutLicense|BSD License"
+#~ msgid "@item license"
+#~ msgstr "Artistic License"
 
 #, fuzzy
-#~| msgid "Print Preview"
-#~ msgid "Fetching your previously updated content..."
-#~ msgstr "Прагляд друку"
+#~ msgctxt "KAboutLicense|Artistic License"
+#~ msgid "@item license"
+#~ msgstr "Artistic License"
 
 #, fuzzy
-#~| msgid "Save Login Information"
-#~ msgid "Could not verify login, please try again."
-#~ msgstr "Запісаць інфармацыю аўтарызацыі"
-
-#~ msgid "Share Hot New Stuff"
-#~ msgstr "Апублікаваць тэмы"
+#~ msgctxt "KAboutLicense|Q Public License"
+#~ msgid "@item license"
+#~ msgstr "Artistic License"
 
 #, fuzzy
-#~| msgctxt "Program name followed by 'Add On Installer'"
-#~| msgid "%1 Add On Installer"
-#~ msgctxt "Program name followed by 'Add On Uploader'"
-#~ msgid "%1 Add-On Uploader"
-#~ msgstr "Устаноўка утулак %1"
+#~ msgctxt "KAboutLicense|GNU General Public License Version 3"
+#~ msgid "@item license"
+#~ msgstr "Artistic License"
 
 #, fuzzy
-#~| msgid "File %1 not found."
-#~ msgid "File not found: %1"
-#~ msgstr "Файл %1 не знойдзены."
+#~ msgctxt "KAboutLicense|GNU Lesser General Public License Version 3"
+#~ msgid "@item license"
+#~ msgstr "Artistic License"
 
 #, fuzzy
-#~| msgid "Download"
-#~ msgid "Upload Failed"
-#~ msgstr "Спампаваць"
-
-#~ msgid "Error"
-#~ msgstr "Памылка"
+#~ msgctxt "KAboutLicense|Custom"
+#~ msgid "@item license"
+#~ msgstr "Artistic License"
 
 #, fuzzy
-#~| msgid "Select Region of Image"
-#~ msgid "Select preview image"
-#~ msgstr "Выберыце кавалак малюнку"
+#~ msgctxt "KAboutLicense|Not specified"
+#~ msgid "@item license"
+#~ msgstr "Artistic License"
 
 #, fuzzy
-#~| msgid "Download"
-#~ msgid "Uploading Failed"
-#~ msgstr "Спампаваць"
-
-#, fuzzy
-#~| msgid "Communication error"
-#~ msgid "Authentication error."
-#~ msgstr "Памылка сувязі"
-
-#, fuzzy
-#~| msgid "Download"
-#~ msgid "Upload failed: %1"
-#~ msgstr "Спампаваць"
-
-#~ msgid "Password:"
-#~ msgstr "Пароль:"
-
-#~ msgid "Username:"
-#~ msgstr "Карыстальнік:"
-
-#, fuzzy
-#~| msgid "Page loaded."
-#~ msgid "File to upload:"
-#~ msgstr "Старонка загружаная."
-
-#, fuzzy
-#~| msgid "Reload"
-#~ msgid "New Upload"
-#~ msgstr "Абнавіць"
-
-#~ msgid "GPL"
-#~ msgstr "GPL"
-
-#~ msgid "LGPL"
-#~ msgstr "LGPL"
-
-#~ msgid "BSD"
-#~ msgstr "BSD"
-
-#~ msgid "Description:"
-#~ msgstr "Апісанне:"
-
-#~ msgid "Version:"
-#~ msgstr "Версія:"
-
-#~ msgid "License:"
-#~ msgstr "Ліцэнзія:"
-
-#, fuzzy
-#~| msgid "Please give some information about yourself."
-#~ msgid "Please fill out the information about your upload in English."
+#~ msgctxt ""
+#~ "KAboutData|<p>KDE is translated into many languages thanks to the work of "
+#~ "the translation teams all over the world.</p><p>For more information on "
+#~ "KDE internationalization visit <a href=\"http://l10n.kde.org\">http://"
+#~ "l10n.kde.org</a></p>"
+#~ msgid "replace this with information about your translation team"
 #~ msgstr "Калі ласка, дайце пра вас звесткі."
-
-#~ msgid "Title:"
-#~ msgstr "Назва:"
-
-#, fuzzy
-#~| msgid "Preview URL:"
-#~ msgid "Preview Images"
-#~ msgstr "URL прагляду:"
-
-#, fuzzy
-#~| msgid "Select Files..."
-#~ msgid "Select Preview..."
-#~ msgstr "Выбраць файлы..."
-
-#, fuzzy
-#~| msgid "Ne&ver for This Site"
-#~ msgid "Set a price for this item"
-#~ msgstr "Ні&колі для гэтага сайту"
-
-#, fuzzy
-#~| msgid "Source:"
-#~ msgid "Price"
-#~ msgstr "Крыніца:"
-
-#, fuzzy
-#~| msgid "Source:"
-#~ msgid "Price:"
-#~ msgstr "Крыніца:"
-
-#, fuzzy
-#~| msgid "Print Preview"
-#~ msgid "Upload content"
-#~ msgstr "Прагляд друку"
-
-#, fuzzy
-#~| msgid "Print Preview"
-#~ msgid "Upload first preview"
-#~ msgstr "Прагляд друку"
-
-#, fuzzy
-#~| msgid "Print Preview"
-#~ msgid "Upload second preview"
-#~ msgstr "Прагляд друку"
-
-#, fuzzy
-#~| msgid "Print Preview"
-#~ msgid "Upload third preview"
-#~ msgstr "Прагляд друку"
-
-#, fuzzy
-#~| msgid "Start replace"
-#~ msgid "Start Upload"
-#~ msgstr "Пачаць замену"
-
-#, fuzzy
-#~| msgid "Failed to open scriptfile \"%1\""
-#~ msgid "Failed to execute install script"
-#~ msgstr "Немагчыма адкрыць файл сцэнару \"%1\"."
-
-#, fuzzy
-#~| msgid "Install"
-#~ msgctxt "Label for the busy indicator showing an item is being installed"
-#~ msgid "Installing..."
-#~ msgstr "Устанавіць"
-
-#, fuzzy
-#~| msgid "Detailed View"
-#~ msgid "Tiles view mode"
-#~ msgstr "Падрабязны выгляд"
-
-#~ msgid "Show:"
-#~ msgstr "Паказаць:"
-
-#, fuzzy
-#~| msgid "Show directories first"
-#~ msgctxt ""
-#~ "List option which will set the sort order to based on when items were "
-#~ "most recently updated"
-#~ msgid "Most recent first"
-#~ msgstr "Спачатку паказваць тэчкі"
-
-#, fuzzy
-#~| msgid "Show directories first"
-#~ msgctxt "List option which will set the sort order to based on user ratings"
-#~ msgid "Highest rated first"
-#~ msgstr "Спачатку паказваць тэчкі"
-
-#, fuzzy
-#~| msgid "Most Downloads"
-#~ msgctxt ""
-#~ "List option which will set the sort order to based on number of downloads"
-#~ msgid "Most downloaded first"
-#~ msgstr "Больш спампоўванняў"
-
-#, fuzzy
-#~| msgid "Rating: "
-#~ msgid "Using %1"
-#~ msgstr "Рэйтынг:"
-
-#, fuzzy
-#~| msgid "Details"
-#~ msgctxt "Show a page with details for this item"
-#~ msgid "Details..."
-#~ msgstr "Падрабязнасці"
-
-#, fuzzy
-#~| msgid "Pages"
-#~ msgctxt ""
-#~ "The first entry in the category selection list (also the default value)"
-#~ msgid "Show All Categories"
-#~ msgstr "Старонкі"
-
-#~ msgid "Enter search phrase here"
-#~ msgstr "Увядзіце сюды тэкст для пошуку"
-
-#~ msgid "Close"
-#~ msgstr "Закрыць"
-
-#, fuzzy
-#~| msgid "Show Preview"
-#~ msgctxt ""
-#~ "A link which, when clicked, opens a new sub page with reviews (comments) "
-#~ "for this entry"
-#~ msgid "%1 Reviews"
-#~ msgstr "Паказваць прагляд"
-
-#, fuzzy
-#~| msgid "Overwrite File?"
-#~ msgid "Overwrite existing file?"
-#~ msgstr "Перазапісаць файл?"
-
-#, fuzzy
-#~| msgid "Download"
-#~ msgid "Download File"
-#~ msgstr "Спампаваць"
-
-#, fuzzy
-#~| msgid "Configuration files"
-#~ msgid "Configuration file not found: \"%1\""
-#~ msgstr "Файлы настаўлення"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
@@ -1195,7 +1095,6 @@ msgstr "Выбраць..."
 #~ msgstr "Вузел"
 
 #, fuzzy
-#~| msgid "Print"
 #~ msgid "Port"
 #~ msgstr "Порт"
 
@@ -1206,11 +1105,6 @@ msgstr "Выбраць..."
 #~ msgstr "Выбар рэдактара"
 
 #, fuzzy
-#~| msgid ""
-#~| "Please choose the default text editing component that you wish to use in "
-#~| "this application. If you choose <B>System Default</B>, the application "
-#~| "will honor your changes in the Control Center. All other choices will "
-#~| "override that setting."
 #~ msgid ""
 #~ "Please choose the default text editing component that you wish to use in "
 #~ "this application. If you choose <B>System Default</B>, the application "
@@ -1293,6 +1187,9 @@ msgstr "Выбраць..."
 #~ msgid "Email"
 #~ msgstr "Электронная скрыня"
 
+#~ msgid "Homepage"
+#~ msgstr "Хатняя старонка"
+
 #~ msgid "Task"
 #~ msgstr "Заданне"
 
@@ -1302,9 +1199,6 @@ msgstr "Выбраць..."
 #~ msgstr ""
 #~ "<html><font size=\"5\">%1</font><br/><b>версіі %2</b><br/>Пры дапамозе "
 #~ "KDE %3</html>"
-
-#~ msgid "%1 %2, %3"
-#~ msgstr "%1 %2, %3"
 
 #~ msgid "Other Contributors:"
 #~ msgstr "Іншыя ўдзельнікі:"
@@ -1332,6 +1226,9 @@ msgstr "Выбраць..."
 
 #~ msgid "&Redo: %1"
 #~ msgstr "&Паўтарыць: %1"
+
+#~ msgid "Close"
+#~ msgstr "Закрыць"
 
 #~ msgctxt "Freeze the window geometry"
 #~ msgid "Freeze"
@@ -1390,7 +1287,6 @@ msgstr "Выбраць..."
 #~ msgid "Password is empty"
 #~ msgstr "Пароль пусты"
 
-#, fuzzy
 #~ msgid "Password must be at least 1 character long"
 #~ msgid_plural "Password must be at least %1 characters long"
 #~ msgstr[0] "Пароль павінны складацца з як менш %1 сімвалу"
@@ -1401,8 +1297,6 @@ msgstr "Выбраць..."
 #~ msgstr "Паролі супадаюць"
 
 #, fuzzy
-#~| msgctxt "@option:check"
-#~| msgid "Do SpellChecking"
 #~ msgctxt "@option:check"
 #~ msgid "Do Spellchecking"
 #~ msgstr "Праверыць правапіс"
@@ -1440,8 +1334,6 @@ msgstr "Выбраць..."
 #~ msgstr "<application>Zemberek</application>"
 
 #, fuzzy
-#~| msgctxt "@item:inlistbox Spell checker"
-#~| msgid "<application>Hspell</application>"
 #~ msgctxt "@item:inlistbox Spell checker"
 #~ msgid "<application>Hunspell</application>"
 #~ msgstr "<application>Hspell</application>"
@@ -1563,8 +1455,6 @@ msgstr "Выбраць..."
 #~ msgstr "Прадвызначаны - %1"
 
 #, fuzzy
-#~| msgctxt "@item Spelling dictionary"
-#~| msgid "<application>ISpell</application> Default"
 #~ msgctxt "@item Spelling dictionary"
 #~ msgid "<application>Hunspell</application> Default"
 #~ msgstr "Прадвызначаны <application>ISpell</application>"
@@ -1651,15 +1541,6 @@ msgstr "Выбраць..."
 #~ msgstr "... <b>няправільнае</b> слова ў кантэксце ..."
 
 #, fuzzy
-#~| msgid ""
-#~| "<qt>\n"
-#~| "<p>The unknown word was detected and considered unknown because it is "
-#~| "not included in the dictionary.<br>\n"
-#~| "Click here if you consider that the unknown word is not misspelled and "
-#~| "you want to avoid wrongly detecting it again in the future. If you want "
-#~| "to let it remain as is, but not add it to the dictionary, then click "
-#~| "<b>Ignore</b> or <b>Ignore All</b> instead.</p>\n"
-#~| "</qt>"
 #~ msgid ""
 #~ "<qt>\n"
 #~ "<p>The unknown word was detected and considered unknown because it is not "
@@ -1844,15 +1725,8 @@ msgstr "Выбраць..."
 #~ msgstr "Калі ласка, звяжыцеся з сістэмным адміністратарам."
 
 #, fuzzy
-#~| msgid "Configuration files"
 #~ msgid "Configuration file \"%1\" not writable.\n"
 #~ msgstr "Файлы настаўленняў \"%1\" не запісаны.\n"
-
-#~ msgid "am"
-#~ msgstr "am"
-
-#~ msgid "pm"
-#~ msgstr "pm"
 
 #~ msgid "No target filename has been given."
 #~ msgstr "Не зададзена назвы файлу прызначэння."
@@ -1862,6 +1736,10 @@ msgstr "Выбраць..."
 
 #~ msgid "Insufficient permissions in target directory."
 #~ msgstr "Недастаткова правоў доступу ў тэчцы прызначэння."
+
+#, fuzzy
+#~ msgid "Unable to open temporary file. Error was: %1."
+#~ msgstr "Немагчыма адкрыць часовы файл."
 
 #~ msgid "Error during rename."
 #~ msgstr "Памылка пад час пераназвання файла."
@@ -1912,7 +1790,6 @@ msgstr "Выбраць..."
 #~ msgstr "Меню праграмаў (файлы .desktop)"
 
 #, fuzzy
-#~| msgid "Path to the autostart directory"
 #~ msgid "Autostart directories"
 #~ msgstr "Шлях да тэчкі аўтазапуску"
 
@@ -1933,6 +1810,9 @@ msgstr "Выбраць..."
 
 #~ msgid "HTML documentation"
 #~ msgstr "Дакументацыя HTML"
+
+#~ msgid "Icons"
+#~ msgstr "Значкі"
 
 #~ msgid "Configuration description files"
 #~ msgstr "Файлы апісання настаўленняў"
@@ -1989,7 +1869,6 @@ msgstr "Выбраць..."
 #~ msgstr "Расклад меню XDG (файлы .menu)"
 
 #, fuzzy
-#~| msgid "Path to the autostart directory"
 #~ msgid "XDG autostart directory"
 #~ msgstr "Шлях да тэчкі аўтазапуску"
 
@@ -2007,113 +1886,9 @@ msgstr "Выбраць..."
 #~ msgid "%1 - unknown type of userpath\n"
 #~ msgstr "%1 - невядомы тып шляху карыстальніка\n"
 
-#~ msgid ""
-#~ "No licensing terms for this program have been specified.\n"
-#~ "Please check the documentation or the source for any\n"
-#~ "licensing terms.\n"
-#~ msgstr ""
-#~ "Для гэтай праграмы не былі вызначаныя ліцэнзійныя ўмовы.\n"
-#~ "Калі ласка, праглядзіце дакументацыю ці крынічны код праграмы на прадмет "
-#~ "ліцэнзійных умоваў.\n"
-
-#~ msgid "This program is distributed under the terms of the %1."
-#~ msgstr "Гэтая праграма распаўсюджваецца на ўмовах %1."
-
-#, fuzzy
-#~| msgid "GPL"
-#~ msgctxt "@item license (short name)"
-#~ msgid "GPL v2"
-#~ msgstr "GPL"
-
-#~ msgctxt "@item license"
-#~ msgid "GNU General Public License Version 2"
-#~ msgstr "GNU General Public License Version 2"
-
-#, fuzzy
-#~| msgid "LGPL"
-#~ msgctxt "@item license (short name)"
-#~ msgid "LGPL v2"
-#~ msgstr "LGPL"
-
-#, fuzzy
-#~| msgctxt "@item license"
-#~| msgid "GNU General Public License Version 2"
-#~ msgctxt "@item license"
-#~ msgid "GNU Lesser General Public License Version 2"
-#~ msgstr "GNU General Public License Version 2"
-
-#, fuzzy
-#~| msgctxt "@item license"
-#~| msgid "BSD License"
-#~ msgctxt "@item license (short name)"
-#~ msgid "BSD License"
-#~ msgstr "Ліцэнзія BSD"
-
 #~ msgctxt "@item license"
 #~ msgid "BSD License"
 #~ msgstr "Ліцэнзія BSD"
-
-#, fuzzy
-#~| msgctxt "@item license"
-#~| msgid "Artistic License"
-#~ msgctxt "@item license (short name)"
-#~ msgid "Artistic License"
-#~ msgstr "Artistic License"
-
-#~ msgctxt "@item license"
-#~ msgid "Artistic License"
-#~ msgstr "Artistic License"
-
-#~ msgctxt "@item license"
-#~ msgid "Q Public License"
-#~ msgstr "Q Public License"
-
-#, fuzzy
-#~| msgid "GPL"
-#~ msgctxt "@item license (short name)"
-#~ msgid "GPL v3"
-#~ msgstr "GPL"
-
-#, fuzzy
-#~| msgctxt "@item license"
-#~| msgid "GNU General Public License Version 2"
-#~ msgctxt "@item license"
-#~ msgid "GNU General Public License Version 3"
-#~ msgstr "GNU General Public License Version 2"
-
-#, fuzzy
-#~| msgid "LGPL"
-#~ msgctxt "@item license (short name)"
-#~ msgid "LGPL v3"
-#~ msgstr "LGPL"
-
-#, fuzzy
-#~| msgctxt "@item license"
-#~| msgid "GNU General Public License Version 2"
-#~ msgctxt "@item license"
-#~ msgid "GNU Lesser General Public License Version 3"
-#~ msgstr "GNU General Public License Version 2"
-
-#~ msgctxt "@item license"
-#~ msgid "Custom"
-#~ msgstr "Асаблівая"
-
-#~ msgctxt "@item license"
-#~ msgid "Not specified"
-#~ msgstr "Не вызначана"
-
-#~ msgctxt "replace this with information about your translation team"
-#~ msgid ""
-#~ "<p>KDE is translated into many languages thanks to the work of the "
-#~ "translation teams all over the world.</p><p>For more information on KDE "
-#~ "internationalization visit <a href=\"http://l10n.kde.org\">http://l10n."
-#~ "kde.org</a></p>"
-#~ msgstr ""
-#~ "<p>KDE перакладзенае на шмат моваў свету дзякуючы працы вольных "
-#~ "перакладчыкаў.</p><p>Каб атрымаць падрабязную інфармацыю аб перакладзе "
-#~ "KDE, наведайце <a href=\"http://l10n.kde.org\">http://l10n.kde.org</a>. "
-#~ "Пра пераклад на беларускую мову вы можаце даведацца на <a href=\"http://"
-#~ "i18n.linux.by\">http://i18n.linux.by</a></p>"
 
 #~ msgid "Use the X-server display 'displayname'"
 #~ msgstr "Выкарыстоўваць экран 'displayname' сервера X"
@@ -2209,9 +1984,6 @@ msgstr "Выбраць..."
 #~ msgstr "вызначае стыль графічных элементаў кіравання праграмы"
 
 #, fuzzy
-#~| msgid ""
-#~| "sets the client geometry of the main widget - see man X for the argument "
-#~| "format"
 #~ msgid ""
 #~ "sets the client geometry of the main widget - see man X for the argument "
 #~ "format (usually WidthxHeight+XPos+YPos)"
@@ -2233,24 +2005,6 @@ msgstr "Выбраць..."
 #~ msgctxt "@info:shell %1 is cmdoption name"
 #~ msgid "'%1' missing."
 #~ msgstr "Адсутнічае '%1'."
-
-#~ msgctxt "the 2nd argument is a list of name+address, one on each line"
-#~ msgid ""
-#~ "%1 was written by\n"
-#~ "%2"
-#~ msgstr ""
-#~ "%1 напісана\n"
-#~ "%2"
-
-#~ msgid ""
-#~ "This application was written by somebody who wants to remain anonymous."
-#~ msgstr "Гэтая праграма створаная чалавекам, які захацеў застацца невядомым."
-
-#~ msgid "Please use http://bugs.kde.org to report bugs.\n"
-#~ msgstr "Калі ласка, паведамляйце пра памылкі на http://bugs.kde.org.\n"
-
-#~ msgid "Please report bugs to %1.\n"
-#~ msgstr "Калі ласка, паведамляйце пра памылкі %1.\n"
 
 #~ msgid "Unexpected argument '%1'."
 #~ msgstr "Нечаканы аргумент '%1'."
@@ -2284,14 +2038,8 @@ msgstr "Выбраць..."
 #~ msgid "Show all options"
 #~ msgstr "Паказаць усе опцыі"
 
-#~ msgid "Show author information"
-#~ msgstr "Паказаць звесткі пра стваральніка"
-
 #~ msgid "Show version information"
 #~ msgstr "Паказаць звесткі пра версію"
-
-#~ msgid "Show license information"
-#~ msgstr "Паказаць звесткі пра ліцэнзію"
 
 #~ msgid "End of options"
 #~ msgstr "Канец спіса опцый"
@@ -2327,9 +2075,6 @@ msgstr "Выбраць..."
 #~ msgstr "Функцыя павінна выклікацца з галоўнага патоку."
 
 #, fuzzy
-#~| msgid ""
-#~| "KLauncher could not be reached via D-Bus, error when calling %1:\n"
-#~| "%2\n"
 #~ msgid ""
 #~ "KLauncher could not be reached via D-Bus. Error when calling %1:\n"
 #~ "%2\n"
@@ -2359,7 +2104,6 @@ msgstr "Выбраць..."
 #~ "%1"
 
 #, fuzzy
-#~| msgid "Could not Launch Mail Client"
 #~ msgid "Could not launch Mail Client"
 #~ msgstr "Немагчыма стартаваць паштовага кліента"
 
@@ -2373,15 +2117,10 @@ msgstr "Выбраць..."
 #~ "%1"
 
 #, fuzzy
-#~| msgid "Could not Launch Browser"
 #~ msgid "Could not launch Browser"
 #~ msgstr "Немагчыма стартаваць сеціўнага вандроўніка"
 
 #, fuzzy
-#~| msgid ""
-#~| "Could not launch the mail client:\n"
-#~| "\n"
-#~| "%1"
 #~ msgid ""
 #~ "Could not launch the terminal client:\n"
 #~ "\n"
@@ -2392,7 +2131,6 @@ msgstr "Выбраць..."
 #~ "%1"
 
 #, fuzzy
-#~| msgid "Could not Launch Mail Client"
 #~ msgid "Could not launch Terminal Client"
 #~ msgstr "Немагчыма стартаваць паштовага кліента"
 
@@ -2460,10 +2198,6 @@ msgstr "Выбраць..."
 #~ msgid "Northern Saami"
 #~ msgstr "Паўночна-саамскі"
 
-#~ msgctxt "@item Text character set"
-#~ msgid "Other"
-#~ msgstr "Іншая"
-
 #~ msgctxt "@item %1 character set, %2 encoding"
 #~ msgid "%1 ( %2 )"
 #~ msgstr "%1 ( %2 )"
@@ -2477,300 +2211,121 @@ msgstr "Выбраць..."
 #~ msgstr "%1 ( %2 )"
 
 #, fuzzy
-#~| msgid "disable XIM"
 #~ msgctxt "@item Text character set"
 #~ msgid "Disabled"
 #~ msgstr "Неактыўная"
 
 #, fuzzy
-#~| msgid "Uninstall"
 #~ msgctxt "@item Text character set"
 #~ msgid "Universal"
 #~ msgstr "Выдаліць"
 
 #, fuzzy
-#~| msgctxt "@item Text character set"
-#~| msgid "Arabic"
 #~ msgctxt "digit set"
 #~ msgid "Arabic-Indic"
 #~ msgstr "Арабская"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Bengali"
 #~ msgctxt "digit set"
 #~ msgid "Bengali"
 #~ msgstr "Бенгальская"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Devanagari"
 #~ msgctxt "digit set"
 #~ msgid "Devanagari"
 #~ msgstr "Дэванагары"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Gujarati"
 #~ msgctxt "digit set"
 #~ msgid "Gujarati"
 #~ msgstr "Гуяраці"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Gurmukhi"
 #~ msgctxt "digit set"
 #~ msgid "Gurmukhi"
 #~ msgstr "Гурмухі"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Kannada"
 #~ msgctxt "digit set"
 #~ msgid "Kannada"
 #~ msgstr "Каннада"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Khmer"
 #~ msgctxt "digit set"
 #~ msgid "Khmer"
 #~ msgstr "Хмерская"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Malayalam"
 #~ msgctxt "digit set"
 #~ msgid "Malayalam"
 #~ msgstr "Малаялам"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Oriya"
 #~ msgctxt "digit set"
 #~ msgid "Oriya"
 #~ msgstr "Орыя"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Tamil"
 #~ msgctxt "digit set"
 #~ msgid "Tamil"
 #~ msgstr "Тамільская"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Telugu"
 #~ msgctxt "digit set"
 #~ msgid "Telugu"
 #~ msgstr "Тэлугу"
 
 #, fuzzy
-#~| msgctxt "@item Text character set"
-#~| msgid "Thai"
 #~ msgctxt "digit set"
 #~ msgid "Thai"
 #~ msgstr "Тайская"
 
 #, fuzzy
-#~| msgctxt "@item Text character set"
-#~| msgid "Arabic"
 #~ msgctxt "digit set"
 #~ msgid "Arabic"
 #~ msgstr "Арабская"
 
 #, fuzzy
-#~| msgctxt "dictionary name. %1-language and %2-country name"
-#~| msgid "%1 (%2)"
 #~ msgctxt "name of digit set with digit string, e.g. 'Arabic (0123456789)'"
 #~ msgid "%1 (%2)"
 #~ msgstr "%1 (%2)"
 
 #, fuzzy
-#~| msgid "%1 B"
-#~ msgctxt "size in bytes"
-#~ msgid "%1 B"
-#~ msgstr "%1 б"
-
-#, fuzzy
-#~| msgid "%1 B"
-#~ msgctxt "size in 1000 bytes"
-#~ msgid "%1 kB"
-#~ msgstr "%1 б"
-
-#, fuzzy
-#~| msgid "%1 MiB"
-#~ msgctxt "size in 10^6 bytes"
-#~ msgid "%1 MB"
-#~ msgstr "%1 МіБ"
-
-#, fuzzy
-#~| msgid "%1 GiB"
-#~ msgctxt "size in 10^9 bytes"
-#~ msgid "%1 GB"
-#~ msgstr "%1 ГіБ"
-
-#, fuzzy
-#~| msgid "%1 TiB"
-#~ msgctxt "size in 10^12 bytes"
-#~ msgid "%1 TB"
-#~ msgstr "%1 TiБ"
-
-#, fuzzy
-#~| msgid "%1 B"
-#~ msgctxt "size in 10^15 bytes"
-#~ msgid "%1 PB"
-#~ msgstr "%1 б"
-
-#, fuzzy
-#~| msgid "%1 B"
-#~ msgctxt "size in 10^18 bytes"
-#~ msgid "%1 EB"
-#~ msgstr "%1 б"
-
-#, fuzzy
-#~| msgid "%1 B"
-#~ msgctxt "size in 10^21 bytes"
-#~ msgid "%1 ZB"
-#~ msgstr "%1 б"
-
-#, fuzzy
-#~| msgid "%1 B"
-#~ msgctxt "size in 10^24 bytes"
-#~ msgid "%1 YB"
-#~ msgstr "%1 б"
-
-#, fuzzy
-#~| msgid "%1 KiB"
-#~ msgctxt "memory size in 1024 bytes"
-#~ msgid "%1 KB"
-#~ msgstr "%1 КіБ"
-
-#, fuzzy
-#~| msgid "%1 MiB"
 #~ msgctxt "memory size in 2^20 bytes"
 #~ msgid "%1 MB"
 #~ msgstr "%1 МіБ"
 
 #, fuzzy
-#~| msgid "%1 GiB"
 #~ msgctxt "memory size in 2^30 bytes"
 #~ msgid "%1 GB"
 #~ msgstr "%1 ГіБ"
 
 #, fuzzy
-#~| msgid "%1 TiB"
 #~ msgctxt "memory size in 2^40 bytes"
 #~ msgid "%1 TB"
 #~ msgstr "%1 TiБ"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^50 bytes"
 #~ msgid "%1 PB"
 #~ msgstr "%1 б"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^60 bytes"
 #~ msgid "%1 EB"
 #~ msgstr "%1 б"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^70 bytes"
 #~ msgid "%1 ZB"
 #~ msgstr "%1 б"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^80 bytes"
 #~ msgid "%1 YB"
 #~ msgstr "%1 б"
 
 #, fuzzy
-#~| msgid "%1 KiB"
-#~ msgctxt "size in 1024 bytes"
-#~ msgid "%1 KiB"
-#~ msgstr "%1 КіБ"
-
-#, fuzzy
-#~| msgid "%1 MiB"
-#~ msgctxt "size in 2^20 bytes"
-#~ msgid "%1 MiB"
-#~ msgstr "%1 МіБ"
-
-#, fuzzy
-#~| msgid "%1 GiB"
-#~ msgctxt "size in 2^30 bytes"
-#~ msgid "%1 GiB"
-#~ msgstr "%1 ГіБ"
-
-#, fuzzy
-#~| msgid "%1 TiB"
-#~ msgctxt "size in 2^40 bytes"
-#~ msgid "%1 TiB"
-#~ msgstr "%1 TiБ"
-
-#, fuzzy
-#~| msgid "%1 TiB"
-#~ msgctxt "size in 2^50 bytes"
-#~ msgid "%1 PiB"
-#~ msgstr "%1 TiБ"
-
-#, fuzzy
-#~| msgid "%1 TiB"
-#~ msgctxt "size in 2^60 bytes"
-#~ msgid "%1 EiB"
-#~ msgstr "%1 TiБ"
-
-#, fuzzy
-#~| msgid "%1 TiB"
-#~ msgctxt "size in 2^70 bytes"
-#~ msgid "%1 ZiB"
-#~ msgstr "%1 TiБ"
-
-#, fuzzy
-#~| msgid "%1 TiB"
-#~ msgctxt "size in 2^80 bytes"
-#~ msgid "%1 YiB"
-#~ msgstr "%1 TiБ"
-
-#, fuzzy
-#~| msgid "%1 days"
-#~ msgctxt "@item:intext %1 is a real number, e.g. 1.23 days"
-#~ msgid "%1 days"
-#~ msgstr "%1 дзён"
-
-#, fuzzy
-#~| msgid "%1 hours"
-#~ msgctxt "@item:intext %1 is a real number, e.g. 1.23 hours"
-#~ msgid "%1 hours"
-#~ msgstr "%1 гадзін"
-
-#, fuzzy
-#~| msgid "%1 minutes"
-#~ msgctxt "@item:intext %1 is a real number, e.g. 1.23 minutes"
-#~ msgid "%1 minutes"
-#~ msgstr "%1 хвілін"
-
-#, fuzzy
-#~| msgid "%1 seconds"
-#~ msgctxt "@item:intext %1 is a real number, e.g. 1.23 seconds"
-#~ msgid "%1 seconds"
-#~ msgstr "%1 сенунд"
-
-#, fuzzy
-#~| msgid "%1 milliseconds"
-#~ msgctxt "@item:intext"
-#~ msgid "%1 millisecond"
-#~ msgid_plural "%1 milliseconds"
-#~ msgstr[0] "%1 мілісекунд"
-#~ msgstr[1] "%1 мілісекунд"
-#~ msgstr[2] "%1 мілісекунд"
-
-#, fuzzy
-#~| msgid "%1 days"
 #~ msgctxt "@item:intext"
 #~ msgid "1 day"
 #~ msgid_plural "%1 days"
@@ -2779,7 +2334,6 @@ msgstr "Выбраць..."
 #~ msgstr[2] "%1 дзён"
 
 #, fuzzy
-#~| msgid "%1 hours"
 #~ msgctxt "@item:intext"
 #~ msgid "1 hour"
 #~ msgid_plural "%1 hours"
@@ -2788,7 +2342,6 @@ msgstr "Выбраць..."
 #~ msgstr[2] "%1 гадзін"
 
 #, fuzzy
-#~| msgid "%1 minutes"
 #~ msgctxt "@item:intext"
 #~ msgid "1 minute"
 #~ msgid_plural "%1 minutes"
@@ -2797,7 +2350,6 @@ msgstr "Выбраць..."
 #~ msgstr[2] "%1 хвілін"
 
 #, fuzzy
-#~| msgid "%1 seconds"
 #~ msgctxt "@item:intext"
 #~ msgid "1 second"
 #~ msgid_plural "%1 seconds"
@@ -2806,18 +2358,6 @@ msgstr "Выбраць..."
 #~ msgstr[2] "%1 сенунд"
 
 #, fuzzy
-#~| msgctxt "concatenation of dates and time"
-#~| msgid "%1 %2"
-#~ msgctxt ""
-#~ "@item:intext days and hours. This uses the previous item:intext messages. "
-#~ "If this does not fit the grammar of your language please contact the i18n "
-#~ "team to solve the problem"
-#~ msgid "%1 and %2"
-#~ msgstr "І"
-
-#, fuzzy
-#~| msgctxt "concatenation of dates and time"
-#~| msgid "%1 %2"
 #~ msgctxt ""
 #~ "@item:intext hours and minutes. This uses the previous item:intext "
 #~ "messages. If this does not fit the grammar of your language please "
@@ -2826,8 +2366,6 @@ msgstr "Выбраць..."
 #~ msgstr "І"
 
 #, fuzzy
-#~| msgctxt "concatenation of dates and time"
-#~| msgid "%1 %2"
 #~ msgctxt ""
 #~ "@item:intext minutes and seconds. This uses the previous item:intext "
 #~ "messages. If this does not fit the grammar of your language please "
@@ -2836,20 +2374,9 @@ msgstr "Выбраць..."
 #~ msgstr "І"
 
 #, fuzzy
-#~| msgid "AC"
 #~ msgctxt "Before Noon KLocale::NarrowName"
 #~ msgid "A"
 #~ msgstr "AC"
-
-#~ msgid "Today"
-#~ msgstr "Сёння"
-
-#~ msgid "Yesterday"
-#~ msgstr "Учора"
-
-#~ msgctxt "concatenation of dates and time"
-#~ msgid "%1 %2"
-#~ msgstr "%1 %2"
 
 #~ msgctxt "concatenation of date/time and time zone"
 #~ msgid "%1 %2"
@@ -2882,6 +2409,10 @@ msgstr "Выбраць..."
 #~ msgctxt "@note/plain"
 #~ msgid "Note: %1"
 #~ msgstr "Заўвага: %1"
+
+#~ msgctxt "@note/rich"
+#~ msgid "<i>Note</i>: %1"
+#~ msgstr "<i>Заўвага</i>: %1"
 
 #~ msgctxt ""
 #~ "@note-with-label/plain\n"
@@ -3004,15 +2535,11 @@ msgstr "Выбраць..."
 #~ msgstr "<i>%1</i>"
 
 #, fuzzy
-#~| msgctxt "@emphasis/plain"
-#~| msgid "*%1*"
 #~ msgctxt "@emphasis-strong/plain"
 #~ msgid "**%1**"
 #~ msgstr "*%1*"
 
 #, fuzzy
-#~| msgctxt "@shortcut/rich"
-#~| msgid "<b>%1</b>"
 #~ msgctxt "@emphasis-strong/rich"
 #~ msgid "<b>%1</b>"
 #~ msgstr "<b>%1</b>"
@@ -3124,6 +2651,10 @@ msgstr "Выбраць..."
 #~ msgstr "Escape"
 
 #~ msgctxt "keyboard-key-name"
+#~ msgid "Home"
+#~ msgstr "Home"
+
+#~ msgctxt "keyboard-key-name"
 #~ msgid "Hyper"
 #~ msgstr "Hyper"
 
@@ -3206,6 +2737,10 @@ msgstr "Выбраць..."
 #~ msgctxt "keyboard-key-name"
 #~ msgid "Tab"
 #~ msgstr "Tab"
+
+#~ msgctxt "keyboard-key-name"
+#~ msgid "Up"
+#~ msgstr "Угору"
 
 #~ msgctxt "keyboard-key-name"
 #~ msgid "Win"
@@ -3330,42 +2865,37 @@ msgstr "Выбраць..."
 #~ msgstr "Кліент Dante SOCKS"
 
 #, fuzzy
-#~| msgctxt "Socket error code NotSupported"
-#~| msgid "operation is not supported"
 #~ msgid "The socket operation is not supported"
 #~ msgstr "аперацыя не падтрымліваецца"
 
 #, fuzzy
-#~| msgctxt "Socket error code ConnectionRefused"
-#~| msgid "connection actively refused"
 #~ msgid "Connection refused"
 #~ msgstr "у злучэнні адмлоўлена"
 
 #, fuzzy
-#~| msgctxt "Socket error code ConnectionTimedOut"
-#~| msgid "connection timed out"
 #~ msgid "Connection timed out"
 #~ msgstr "злучэнне перавысіла тэрмін чакання"
 
+#~ msgid "Unknown error"
+#~ msgstr "Невядомая памылка"
+
 #, fuzzy
-#~| msgctxt "Socket error code AddressInUse"
-#~| msgid "address already in use"
 #~ msgid "Address is already in use"
 #~ msgstr "адрас ужо выкарыстоўваецца"
 
 #, fuzzy
-#~| msgid "No such interpreter \"%1\""
 #~ msgid "No such file or directory"
 #~ msgstr "Не існуе інтэрпрытатара \"%1\""
 
 #, fuzzy
-#~| msgid "Path to the autostart directory"
 #~ msgid "Not a directory"
 #~ msgstr "Шлях да тэчкі аўтазапуску"
 
 #, fuzzy
-#~| msgctxt "Socket error code NotSupported"
-#~| msgid "operation is not supported"
+#~ msgid "Unknown socket error"
+#~ msgstr "Невядомая памылка"
+
+#, fuzzy
 #~ msgid "Operation not supported"
 #~ msgstr "аперацыя не падтрымліваецца"
 
@@ -3373,13 +2903,11 @@ msgstr "Выбраць..."
 #~ msgstr "Перавышаны тэрмін чакання пры злучэнні з аддаленым вузлом"
 
 #, fuzzy
-#~| msgid "no error"
 #~ msgctxt "SSL error"
 #~ msgid "No error"
 #~ msgstr "без памылак"
 
 #, fuzzy
-#~| msgid "Unknown error"
 #~ msgctxt "SSL error"
 #~ msgid "Unknown error"
 #~ msgstr "Невядомая памылка"
@@ -3405,7 +2933,6 @@ msgstr "Выбраць..."
 #~ msgid "system error"
 #~ msgstr "сістэмная памылка"
 
-#, fuzzy
 #~ msgid "Could not find mime type <resource>%2</resource>"
 #~ msgid_plural ""
 #~ "Could not find mime types:\n"
@@ -3503,6 +3030,10 @@ msgstr "Выбраць..."
 #~ msgid "with yo"
 #~ msgstr "з ё"
 
+#~ msgctxt "dictionary variant"
+#~ msgid "extended"
+#~ msgstr "пашыраны"
+
 #~ msgctxt "dictionary name. %1-language, %2-country and %3 variant name"
 #~ msgid "%1 (%2) [%3]"
 #~ msgstr "%1 (%2) [%3]"
@@ -3516,17 +3047,14 @@ msgstr "Выбраць..."
 #~ msgstr "%1 [%2]"
 
 #, fuzzy
-#~| msgid "File %1 not found."
-#~ msgid "File %1 does not exist"
-#~ msgstr "Файл не існуе: %1"
+#~ msgid "Cannot open %1 for reading"
+#~ msgstr "Немагчыма адкрыць %1 для чытання"
 
 #, fuzzy
-#~| msgid "Could not create temporary file."
 #~ msgid "Cannot create memory segment for file %1"
 #~ msgstr "Немагчыма стварыць часовы файл."
 
 #, fuzzy
-#~| msgid "Could not read file '%1'"
 #~ msgid "Could not read data from %1 into shm"
 #~ msgstr "Немагчыма прачытаць файл '%1'"
 
@@ -3554,25 +3082,10 @@ msgstr "Выбраць..."
 #~ msgstr "KLibLoader: Невядомая памылка"
 
 #, fuzzy
-#~| msgid ""
-#~| "Could not find 'kdemain' in '%1'.\n"
-#~| "%2"
-#~ msgid "Could not find plugin '%1' for application '%2'"
-#~ msgstr ""
-#~ "Немагчыма знайсці 'kdemain' у '%1'.\n"
-#~ "%2"
-
-#, fuzzy
-#~| msgid ""
-#~| "The service '%1' provides no library or the Library key is missing in "
-#~| "the .desktop file."
 #~ msgid "The service '%1' provides no library or the Library key is missing"
 #~ msgstr ""
 #~ "Сервіс '%1' не прапаноўвае бібліятэкі ці ключ Library адсутнічае ў файлу ."
 #~ "desktop."
-
-#~ msgid "The library %1 does not offer a KDE 4 compatible factory."
-#~ msgstr "Бібліятэка %1 не прапаноўвае cумяшчальную з KDE 4 фабрыку."
 
 #~ msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 #~ msgstr "Утулка '%1' карыстаецца несумяшчальнай бібліятэкай KDE (%2)."
@@ -3620,7 +3133,6 @@ msgstr "Выбраць..."
 #~ msgstr "Праверыць базу данняў Sycoca толькі аднойчы"
 
 #, fuzzy
-#~| msgid "Default"
 #~ msgctxt "Encodings menu"
 #~ msgid "Default"
 #~ msgstr "Прадвызначаны"
@@ -3630,12 +3142,10 @@ msgstr "Выбраць..."
 #~ msgstr "Аўтаматычнае вызначэнне"
 
 #, fuzzy
-#~| msgid "No entries"
 #~ msgid "No Entries"
 #~ msgstr "Няма элементаў"
 
 #, fuzzy
-#~| msgid "Clear input"
 #~ msgid "Clear List"
 #~ msgstr "Ачысціць поле"
 
@@ -3665,9 +3175,6 @@ msgstr "Выбраць..."
 #~ msgstr "Паказаць радок ст&атусу"
 
 #, fuzzy
-#~| msgid ""
-#~| "Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
-#~| "bottom of the window used for status information."
 #~ msgid ""
 #~ "Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of "
 #~ "the window used for status information.</p>"
@@ -3679,7 +3186,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Новы"
 
 #, fuzzy
-#~| msgid "Create New Tag..."
 #~ msgid "Create new document"
 #~ msgstr "Стварыць новы цэтлік..."
 
@@ -3693,7 +3199,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Запісаць"
 
 #, fuzzy
-#~| msgid "Close Document"
 #~ msgid "Save document"
 #~ msgstr "Закрыць дакумент"
 
@@ -3707,7 +3212,6 @@ msgstr "Выбраць..."
 #~ msgstr "За&крыць"
 
 #, fuzzy
-#~| msgid "Close Document"
 #~ msgid "Close document"
 #~ msgstr "Закрыць дакумент"
 
@@ -3715,8 +3219,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Друкаваць..."
 
 #, fuzzy
-#~| msgctxt "keyboard-key-name"
-#~| msgid "PrintScreen"
 #~ msgid "Print document"
 #~ msgstr "PrintScreen"
 
@@ -3736,7 +3238,6 @@ msgstr "Выбраць..."
 #~ msgstr "Па&ўтарыць"
 
 #, fuzzy
-#~| msgid "HTML documentation"
 #~ msgid "Redo last undone action"
 #~ msgstr "Дакументацыя HTML"
 
@@ -3750,7 +3251,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Уставіць"
 
 #, fuzzy
-#~| msgid "Print Preview"
 #~ msgid "Paste clipboard content"
 #~ msgstr "Прагляд друку"
 
@@ -3797,7 +3297,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Маштаб..."
 
 #, fuzzy
-#~| msgid "Select a week"
 #~ msgid "Select zoom level"
 #~ msgstr "Выберыце тыдзень"
 
@@ -3805,7 +3304,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Абнавіць"
 
 #, fuzzy
-#~| msgid "&Redisplay"
 #~ msgid "Redisplay document"
 #~ msgstr "&Абнавіць"
 
@@ -3816,7 +3314,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Папярэдняя старонка"
 
 #, fuzzy
-#~| msgid "&Previous Page"
 #~ msgid "Go to previous page"
 #~ msgstr "&Папярэдняя старонка"
 
@@ -3824,10 +3321,11 @@ msgstr "Выбраць..."
 #~ msgstr "&Наступная старонка"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Go to Line"
 #~ msgid "Go to next page"
 #~ msgstr "Ісці да радка"
+
+#~ msgid "&Go To..."
+#~ msgstr "&Ісці да..."
 
 #~ msgid "&Go to Page..."
 #~ msgstr "&Ісці на старонку..."
@@ -3839,8 +3337,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Першая старонка"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Go to Line"
 #~ msgid "Go to first page"
 #~ msgstr "Ісці да радка"
 
@@ -3848,23 +3344,18 @@ msgstr "Выбраць..."
 #~ msgstr "&Апошняя старонка"
 
 #, fuzzy
-#~| msgid "&Go to Page..."
 #~ msgid "Go to last page"
 #~ msgstr "&Ісці на старонку..."
 
 #, fuzzy
-#~| msgid "Go back one step"
 #~ msgid "Go back in document"
 #~ msgstr "Ісці назад на адзін крок"
 
 #, fuzzy
-#~| msgctxt "go forward"
-#~| msgid "&Forward"
 #~ msgid "&Forward"
 #~ msgstr "&Далей"
 
 #, fuzzy
-#~| msgid "Go forward one step"
 #~ msgid "Go forward in document"
 #~ msgstr "Ісці наперад на адзін крок"
 
@@ -3872,7 +3363,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Дадаць закладку"
 
 #, fuzzy
-#~| msgid "&Edit Bookmarks"
 #~ msgid "&Edit Bookmarks..."
 #~ msgstr "&Рэдагаваць закладкі"
 
@@ -3880,12 +3370,10 @@ msgstr "Выбраць..."
 #~ msgstr "С&праўдзіць правапіс..."
 
 #, fuzzy
-#~| msgid "Check Spelling"
 #~ msgid "Check spelling in document"
 #~ msgstr "Праверыць правапіс"
 
 #, fuzzy
-#~| msgid "Show &Menubar"
 #~ msgid "Show or hide menubar"
 #~ msgstr "Паказаць &меню"
 
@@ -3893,12 +3381,10 @@ msgstr "Выбраць..."
 #~ msgstr "Паказаць &панэль начыння"
 
 #, fuzzy
-#~| msgid "Show &Toolbar"
 #~ msgid "Show or hide toolbar"
 #~ msgstr "Паказаць &панэль начыння"
 
 #, fuzzy
-#~| msgid "Show St&atusbar"
 #~ msgid "Show or hide statusbar"
 #~ msgstr "Паказаць радок ст&атусу"
 
@@ -3910,6 +3396,9 @@ msgstr "Выбраць..."
 
 #~ msgid "Configure S&hortcuts..."
 #~ msgstr "Наставіць &скароты..."
+
+#~ msgid "&Configure %1..."
+#~ msgstr "&Наставіць %1..."
 
 #~ msgid "Configure Tool&bars..."
 #~ msgstr "Настаўленні &панэлі начыння..."
@@ -3939,31 +3428,26 @@ msgstr "Выбраць..."
 #~ msgstr "Пра &KDE"
 
 #, fuzzy
-#~| msgid "Exit F&ull Screen Mode"
 #~ msgctxt "@action:inmenu"
 #~ msgid "Exit F&ull Screen Mode"
 #~ msgstr "Выйсці з &поўнаэкраннага рэжыму"
 
 #, fuzzy
-#~| msgid "Exit Full Screen"
 #~ msgctxt "@action:intoolbar"
 #~ msgid "Exit Full Screen"
 #~ msgstr "Выйсці з поўнаэкраннага рэжыму"
 
 #, fuzzy
-#~| msgid "Exit F&ull Screen Mode"
 #~ msgctxt "@info:tooltip"
 #~ msgid "Exit full screen mode"
 #~ msgstr "Выйсці з &поўнаэкраннага рэжыму"
 
 #, fuzzy
-#~| msgid "F&ull Screen Mode"
 #~ msgctxt "@action:inmenu"
 #~ msgid "F&ull Screen Mode"
 #~ msgstr "&Поўнаэкранны рэжым"
 
 #, fuzzy
-#~| msgid "Full Screen"
 #~ msgctxt "@action:intoolbar"
 #~ msgid "Full Screen"
 #~ msgstr "Поўнаэкранны рэжым"
@@ -4013,7 +3497,6 @@ msgstr "Выбраць..."
 #~ msgstr "Насычанасць:"
 
 #, fuzzy
-#~| msgid "Value:"
 #~ msgctxt "This is the V of HSV"
 #~ msgid "Value:"
 #~ msgstr "Яркасць:"
@@ -4051,9 +3534,6 @@ msgstr "Выбраць..."
 #~ msgstr "<qt>Інфармацыя адсутнічае.<br />Аб'ект KAboutData не існуе.</qt>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
-#~| "%3</html>"
 #~ msgid ""
 #~ "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
 #~ msgstr ""
@@ -4061,9 +3541,6 @@ msgstr "Выбраць..."
 #~ "KDE %3</html>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
-#~| "%3</html>"
 #~ msgctxt ""
 #~ "Program name, version and KDE platform version; do not translate "
 #~ "'Development Platform'"
@@ -4081,13 +3558,15 @@ msgstr "Выбраць..."
 #~ msgstr "Ліцэнзійнае пагадненне"
 
 #, fuzzy
-#~| msgid "Other Contributors:"
 #~ msgctxt "Action to send an email to a contributor"
 #~ msgid "Email contributor"
 #~ msgstr "Іншыя ўдзельнікі:"
 
 #, fuzzy
-#~| msgid "Other Contributors:"
+#~ msgid "Visit contributor's homepage"
+#~ msgstr "Хатняя старонка"
+
+#, fuzzy
 #~ msgctxt "Action to send an email to a contributor"
 #~ msgid ""
 #~ "Email contributor\n"
@@ -4095,49 +3574,34 @@ msgstr "Выбраць..."
 #~ msgstr "Іншыя ўдзельнікі:"
 
 #, fuzzy
-#~| msgid "Homepage"
 #~ msgid ""
 #~ "Visit contributor's homepage\n"
 #~ "%1"
 #~ msgstr "Хатняя старонка"
 
 #, fuzzy
-#~| msgid "Homepage"
 #~ msgid ""
 #~ "Visit contributor's page\n"
 #~ "%1"
 #~ msgstr "Хатняя старонка"
 
 #, fuzzy
-#~| msgid "Homepage"
 #~ msgid ""
 #~ "Visit contributor's blog\n"
 #~ "%1"
 #~ msgstr "Хатняя старонка"
 
 #, fuzzy
-#~| msgctxt "@application/plain"
-#~| msgid "%1"
 #~ msgctxt "@item Contributor name in about dialog."
 #~ msgid "%1"
 #~ msgstr "%1"
 
 #, fuzzy
-#~| msgctxt "concatenation of dates and time"
-#~| msgid "%1 %2"
-#~ msgctxt "City, Country"
-#~ msgid "%1, %2"
-#~ msgstr "%1 %2"
-
-#, fuzzy
-#~| msgctxt "@item Text character set"
-#~| msgid "Other"
 #~ msgctxt "A generic social network or homepage link of an unlisted type."
 #~ msgid "Other"
 #~ msgstr "Іншая"
 
 #, fuzzy
-#~| msgid "Homepage"
 #~ msgctxt "A type of link."
 #~ msgid "Homepage"
 #~ msgstr "Хатняя старонка"
@@ -4146,9 +3610,6 @@ msgstr "Выбраць..."
 #~ msgstr "Пра KDE"
 
 #, fuzzy
-#~| msgid ""
-#~| "<html><font size=\"5\">K Desktop Environment</font><br /><b>Version %1</"
-#~| "b></html>"
 #~ msgid ""
 #~ "<html><font size=\"5\">KDE - Be Free!</font><br /><b>Platform Version %1</"
 #~ "b></html>"
@@ -4157,14 +3618,6 @@ msgstr "Выбраць..."
 #~ "b></html>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<html>The <b>K Desktop Environment</b> is written and maintained by the "
-#~| "KDE Team, a world-wide network of software engineers committed to <a "
-#~| "href=\"http://www.gnu.org/philosophy/free-sw.html\">Free Software</a> "
-#~| "development.<br /><br />No single group, company or organization "
-#~| "controls the KDE source code. Everyone is welcome to contribute to KDE."
-#~| "<br /><br />Visit <a href=\"http://www.kde.org/\">http://www.kde.org</a> "
-#~| "for more information on the KDE project.</html>"
 #~ msgid ""
 #~ "<html><b>KDE</b> is a world-wide network of software engineers, artists, "
 #~ "writers, translators and facilitators who are committed to <a href="
@@ -4185,16 +3638,6 @@ msgstr "Выбраць..."
 #~ "</html>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<html>Software can always be improved, and the KDE Team is ready to do "
-#~| "so. However, you - the user - must tell us when something does not work "
-#~| "as expected or could be done better.<br /><br />The K Desktop "
-#~| "Environment has a bug tracking system. Visit <a href=\"http://bugs.kde."
-#~| "org/\">http://bugs.kde.org</a> or use the \"Report Bug...\" dialog from "
-#~| "the \"Help\" menu to report bugs.<br /><br />If you have a suggestion "
-#~| "for improvement then you are welcome to use the bug tracking system to "
-#~| "register your wish. Make sure you use the severity called \"Wishlist\".</"
-#~| "html>"
 #~ msgid ""
 #~ "<html>Software can always be improved, and the KDE team is ready to do "
 #~ "so. However, you - the user - must tell us when something does not work "
@@ -4217,16 +3660,6 @@ msgstr "Выбраць..."
 #~ "html>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<html>You do not have to be a software developer to be a member of the "
-#~| "KDE team. You can join the national teams that translate program "
-#~| "interfaces. You can provide graphics, themes, sounds, and improved "
-#~| "documentation. You decide!<br /><br />Visit <a href=\"http://www.kde.org/"
-#~| "jobs/\">http://www.kde.org/jobs/</a> for information on some projects in "
-#~| "which you can participate.<br /><br />If you need more information or "
-#~| "documentation, then a visit to <a href=\"http://techbase.kde.org/"
-#~| "\">http://techbase.kde.org</a> will provide you with what you need.</"
-#~| "html>"
 #~ msgid ""
 #~ "<html>You do not have to be a software developer to be a member of the "
 #~ "KDE team. You can join the national teams that translate program "
@@ -4246,18 +3679,6 @@ msgstr "Выбраць..."
 #~ "developer.kde.org</A>.</html>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<html>KDE is available free of charge, but making it is not free.<br /"
-#~| "><br />Thus, the KDE team formed the KDE e.V., a non-profit organization "
-#~| "legally founded in Tuebingen, Germany. The KDE e.V. represents the KDE "
-#~| "project in legal and financial matters. See <a href=\"http://www.kde-ev."
-#~| "org/\">http://www.kde-ev.org</a> for information on the KDE e.V.<br /"
-#~| "><br />The KDE team does need financial support. Most of the money is "
-#~| "used to reimburse members and others on expenses they experienced when "
-#~| "contributing to KDE. You are encouraged to support KDE through a "
-#~| "financial donation, using one of the ways described at <a href=\"http://"
-#~| "www.kde.org/support/\">http://www.kde.org/support/</a>.<br /><br />Thank "
-#~| "you very much in advance for your support.</html>"
 #~ msgid ""
 #~ "<html>KDE software is and will always be available free of charge, "
 #~ "however creating it is not free.<br /><br />To support development the "
@@ -4292,12 +3713,14 @@ msgstr "Выбраць..."
 #~ msgstr "&Паведаміць пра памылкі ці пажаданні"
 
 #, fuzzy
-#~| msgid "&Join the KDE Team"
 #~ msgid "&Join KDE"
 #~ msgstr "&Далучыцца да каманды KDE"
 
 #~ msgid "&Support KDE"
 #~ msgstr "&Падтрымаць KDE"
+
+#~ msgid "Finish"
+#~ msgstr "Скончыць"
 
 #~ msgid "Submit Bug Report"
 #~ msgstr "Паведаміць пра памылку"
@@ -4310,7 +3733,6 @@ msgstr "Выбраць..."
 #~ "\"Наставіць электронную пошту\", каб змяніць яго."
 
 #, fuzzy
-#~| msgid "From:"
 #~ msgctxt "Email sender address"
 #~ msgid "From:"
 #~ msgstr "Ад:"
@@ -4322,7 +3744,6 @@ msgstr "Выбраць..."
 #~ msgstr "Адрас электроннай пошты, на які трэба выслаць паведамленне."
 
 #, fuzzy
-#~| msgid "To:"
 #~ msgctxt "Email receiver address"
 #~ msgid "To:"
 #~ msgstr "Да:"
@@ -4354,8 +3775,10 @@ msgstr "Выбраць..."
 #~ "Версія гэтай праграмы - калі ласка, праверце, ці не існуюць больш новыя "
 #~ "версіі гэтай праграмы, перад тым, як дасылаць паведамленне пра памылку"
 
+#~ msgid "Version:"
+#~ msgstr "Версія:"
+
 #, fuzzy
-#~| msgid "no version set (programmer error!)"
 #~ msgid "no version set (programmer error)"
 #~ msgstr "версія нявызначаная (памылка праграміста!)"
 
@@ -4402,10 +3825,6 @@ msgstr "Выбраць..."
 #~ "пра памылку."
 
 #, fuzzy
-#~| msgid ""
-#~| "Unable to send the bug report.\n"
-#~| "Please submit a bug report manually...\n"
-#~| "See http://bugs.kde.org/ for instructions."
 #~ msgid ""
 #~ "Unable to send the bug report.\n"
 #~ "Please submit a bug report manually....\n"
@@ -4428,6 +3847,9 @@ msgstr "Выбраць..."
 #~ msgid "Close Message"
 #~ msgstr "Закрыць паведамленне"
 
+#~ msgid "Configure"
+#~ msgstr "Настаўленне"
+
 #~ msgid "Job"
 #~ msgstr "Заданне"
 
@@ -4435,12 +3857,14 @@ msgstr "Выбраць..."
 #~ msgstr "Кіраванне заданнямі"
 
 #, fuzzy
-#~| msgid "Scheduled Printing:"
 #~ msgid "Scheduled printing:"
 #~ msgstr "Планаваны друк:"
 
 #, fuzzy
-#~| msgid "Job Priority:"
+#~ msgid "Billing information:"
+#~ msgstr "Паказаць звесткі пра ліцэнзію"
+
+#, fuzzy
 #~ msgid "Job priority:"
 #~ msgstr "Прыярытэт задання:"
 
@@ -4454,7 +3878,6 @@ msgstr "Выбраць..."
 #~ msgstr "Значэнне"
 
 #, fuzzy
-#~| msgid "Print images"
 #~ msgid "Print Immediately"
 #~ msgstr "Друкаваць малюнкі"
 
@@ -4500,80 +3923,70 @@ msgstr "Выбраць..."
 #~ msgstr "Адлюстраваць старонкі"
 
 #, fuzzy
-#~| msgid "Save Link As"
+#~ msgctxt "No border line"
+#~ msgid "None"
+#~ msgstr "Няма"
+
+#, fuzzy
 #~ msgid "Single Line"
 #~ msgstr "Адзін радок"
 
 #, fuzzy
-#~| msgctxt "@item license"
-#~| msgid "Q Public License"
 #~ msgid "Double Thick Line"
 #~ msgstr "Q Public License"
 
 #, fuzzy
-#~| msgid "None"
 #~ msgctxt "Banner page"
 #~ msgid "None"
 #~ msgstr "Няма"
 
 #, fuzzy
-#~| msgid "Start"
 #~ msgctxt "Banner page"
 #~ msgid "Standard"
 #~ msgstr "Звычайная"
 
 #, fuzzy
-#~| msgid "Class"
 #~ msgctxt "Banner page"
 #~ msgid "Unclassified"
 #~ msgstr "Некласіфікаваны"
 
 #, fuzzy
-#~| msgid "Critical"
 #~ msgctxt "Banner page"
 #~ msgid "Confidential"
 #~ msgstr "Канфiдэнцыйна"
 
 #, fuzzy
-#~| msgid "Class"
 #~ msgctxt "Banner page"
 #~ msgid "Classified"
 #~ msgstr "Класіфікаваны"
 
 #, fuzzy
-#~| msgid "Security Alert"
 #~ msgctxt "Banner page"
 #~ msgid "Secret"
 #~ msgstr "Сакрэтны"
 
 #, fuzzy
-#~| msgid "Security Alert"
 #~ msgctxt "Banner page"
 #~ msgid "Top Secret"
 #~ msgstr "Абсалютна сакрэтны"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgid "All Pages"
 #~ msgstr "Старонкі"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgid "Odd Pages"
 #~ msgstr "Старонкі"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgid "Even Pages"
 #~ msgstr "Старонкі"
 
 #, fuzzy
-#~| msgid "Pages Per Sheet"
 #~ msgid "Page Set"
 #~ msgstr "Старонак на аркушы"
 
 #, fuzzy
-#~| msgid "Print"
 #~ msgctxt "@title:window"
 #~ msgid "Print"
 #~ msgstr "Print"
@@ -4594,12 +4007,10 @@ msgstr "Выбраць..."
 #~ msgstr "--- падзяляльнік ---"
 
 #, fuzzy
-#~| msgid "Change Icon"
 #~ msgid "Change Text"
 #~ msgstr "Змяніць значку"
 
 #, fuzzy
-#~| msgid "Find Text"
 #~ msgid "Icon te&xt:"
 #~ msgstr "Знайсці тэкст"
 
@@ -4614,9 +4025,11 @@ msgstr "Выбраць..."
 #~ "настаўленняў? Змены будуць ужытыя адразу."
 
 #, fuzzy
-#~| msgid "Reset ToolBars"
 #~ msgid "Reset Toolbars"
 #~ msgstr "Скінуць настаўленні панеляў начыння"
+
+#~ msgid "Reset"
+#~ msgstr "Скінуць"
 
 #~ msgid "&Toolbar:"
 #~ msgstr "&Панэль начыння:"
@@ -4625,7 +4038,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Наяўныя дзеянні:"
 
 #, fuzzy
-#~| msgid "&Filter:"
 #~ msgid "Filter"
 #~ msgstr "&Фільтр:"
 
@@ -4636,7 +4048,6 @@ msgstr "Выбраць..."
 #~ msgstr "Змяніць &значку..."
 
 #, fuzzy
-#~| msgid "Change &Icon..."
 #~ msgid "Change Te&xt..."
 #~ msgstr "Змяніць &значку..."
 
@@ -4673,17 +4084,14 @@ msgstr "Выбраць..."
 #~ msgstr "Змяніць значку"
 
 #, fuzzy
-#~| msgid "Save Link As"
 #~ msgid "Manage Link"
 #~ msgstr "Запісаць спасылку як"
 
 #, fuzzy
-#~| msgid "Find Text"
 #~ msgid "Link Text:"
 #~ msgstr "Знайсці тэкст"
 
 #, fuzzy
-#~| msgid "URL:"
 #~ msgid "Link URL:"
 #~ msgstr "URL:"
 
@@ -4707,6 +4115,9 @@ msgstr "Выбраць..."
 #~ msgid "."
 #~ msgstr "."
 
+#~ msgid "Details"
+#~ msgstr "Падрабязнасці"
+
 #~ msgid "Question"
 #~ msgstr "Пытанне"
 
@@ -4715,6 +4126,9 @@ msgstr "Выбраць..."
 
 #~ msgid "Warning"
 #~ msgstr "Папярэджанне"
+
+#~ msgid "Error"
+#~ msgstr "Памылка"
 
 #~ msgid "Sorry"
 #~ msgstr "Выбачайце"
@@ -4725,6 +4139,9 @@ msgstr "Выбраць..."
 #~ msgid "Do not show this message again"
 #~ msgstr "Больш не паказваць гэтае паведамленне"
 
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
+
 #~ msgid "Password"
 #~ msgstr "Пароль"
 
@@ -4732,9 +4149,11 @@ msgstr "Выбраць..."
 #~ msgstr "Задайце імя карыстальніка і пароль ніжэй."
 
 #, fuzzy
-#~| msgid "&Keep password"
 #~ msgid "Use this password:"
 #~ msgstr "&Захоўваць пароль"
+
+#~ msgid "Username:"
+#~ msgstr "Карыстальнік:"
 
 #~ msgid "Domain:"
 #~ msgstr "Дамен:"
@@ -4761,17 +4180,14 @@ msgstr "Выбраць..."
 #~ msgstr "Іншы:"
 
 #, fuzzy
-#~| msgid "Shortcuts"
 #~ msgid "Shortcut Schemes"
 #~ msgstr "Скароты"
 
 #, fuzzy
-#~| msgid "Curr&ent actions:"
 #~ msgid "Current scheme:"
 #~ msgstr "&Бягучыя дзеянні:"
 
 #, fuzzy
-#~| msgid "..."
 #~ msgid "New..."
 #~ msgstr "Новы..."
 
@@ -4779,27 +4195,26 @@ msgstr "Выбраць..."
 #~ msgstr "Выдаліць"
 
 #, fuzzy
-#~| msgid "&Defaults"
+#~ msgid "More Actions"
+#~ msgstr "Дзеянне"
+
+#, fuzzy
 #~ msgid "Save as Scheme Defaults"
 #~ msgstr "&Прадвызначэнні"
 
 #, fuzzy
-#~| msgid "Curr&ent actions:"
 #~ msgid "Name for new scheme:"
 #~ msgstr "&Бягучыя дзеянні:"
 
 #, fuzzy
-#~| msgid "Curr&ent actions:"
 #~ msgid "New Scheme"
 #~ msgstr "&Бягучыя дзеянні:"
 
 #, fuzzy
-#~| msgid "The tag %1 already exists"
 #~ msgid "A scheme with this name already exists."
 #~ msgstr "Цэтлік %1 ужо існуе."
 
 #, fuzzy
-#~| msgid "Click to Edit Location"
 #~ msgid "Export to Location"
 #~ msgstr "Націсніце, каб змяніць месцазнаходжанне"
 
@@ -4810,7 +4225,6 @@ msgstr "Выбраць..."
 #~ msgstr "Друкаваць"
 
 #, fuzzy
-#~| msgid "&Defaults"
 #~ msgid "Reset to Defaults"
 #~ msgstr "&Прадвызначэнні"
 
@@ -4850,9 +4264,6 @@ msgstr "Выбраць..."
 #~ msgid "Mouse Shape Gesture"
 #~ msgstr "Жэст рухаў мышы"
 
-#~ msgid "Unknown"
-#~ msgstr "Невядомы"
-
 #~ msgid "Key Conflict"
 #~ msgstr "Канфлікт клавішаў"
 
@@ -4867,7 +4278,6 @@ msgstr "Выбраць..."
 #~ msgstr "Пераназначыць"
 
 #, fuzzy
-#~| msgid "Shortcuts"
 #~ msgctxt "header for an applications shortcut list"
 #~ msgid "Shortcuts for %1"
 #~ msgstr "Скароты"
@@ -4879,12 +4289,10 @@ msgstr "Выбраць..."
 #~ msgstr "Дадатковы:"
 
 #, fuzzy
-#~| msgid "Global"
 #~ msgid "Global:"
 #~ msgstr "&Глабальна"
 
 #, fuzzy
-#~| msgid "Action"
 #~ msgid "Action Name"
 #~ msgstr "&Назва дзеяння:"
 
@@ -4902,7 +4310,6 @@ msgstr "Выбраць..."
 #~ msgstr "Пераключыць мову праграмы"
 
 #, fuzzy
-#~| msgid "Please choose language which should be used for this application:"
 #~ msgid ""
 #~ "Please choose the language which should be used for this application:"
 #~ msgstr ""
@@ -4913,9 +4320,6 @@ msgstr "Выбраць..."
 #~ msgstr "Дадаць запасную мову"
 
 #, fuzzy
-#~| msgid ""
-#~| "Adds one more language which will be used if other translations do not "
-#~| "contain proper translation"
 #~ msgid ""
 #~ "Adds one more language which will be used if other translations do not "
 #~ "contain a proper translation."
@@ -4923,9 +4327,6 @@ msgstr "Выбраць..."
 #~ "Дадае яшчэ адну мову, якая будзе выкарыстана пры недахопу перакладаў. "
 
 #, fuzzy
-#~| msgid ""
-#~| "Language for this application has been changed. The change will take "
-#~| "effect upon next start of application"
 #~ msgid ""
 #~ "The language for this application has been changed. The change will take "
 #~ "effect the next time the application is started."
@@ -4934,7 +4335,6 @@ msgstr "Выбраць..."
 #~ "запуску праграмы"
 
 #, fuzzy
-#~| msgid "Application language changed"
 #~ msgid "Application Language Changed"
 #~ msgstr "Мова праграмы змененая"
 
@@ -4948,9 +4348,6 @@ msgstr "Выбраць..."
 #~ msgstr "Выдаліць"
 
 #, fuzzy
-#~| msgid ""
-#~| "This is main application language which will be used first before any "
-#~| "other languages"
 #~ msgid ""
 #~ "This is the main application language which will be used first, before "
 #~ "any other languages."
@@ -4958,9 +4355,6 @@ msgstr "Выбраць..."
 #~ "Гэтая мова лічыцца галоўнай і будзе выкарыстана раней за любую іншую"
 
 #, fuzzy
-#~| msgid ""
-#~| "This is language which will be used if any previous languages does not "
-#~| "contain proper translation"
 #~ msgid ""
 #~ "This is the language which will be used if any previous languages do not "
 #~ "contain a proper translation."
@@ -5012,7 +4406,6 @@ msgstr "Выбраць..."
 #~ msgstr "Знайсці тэкст"
 
 #, fuzzy
-#~| msgid "Find"
 #~ msgctxt "@title:group"
 #~ msgid "Find"
 #~ msgstr "Знайсці"
@@ -5152,7 +4545,6 @@ msgstr "Выбраць..."
 #~ msgstr "Замяніць"
 
 #, fuzzy
-#~| msgid "&All"
 #~ msgctxt "@action:button Replace all occurrences"
 #~ msgid "&All"
 #~ msgstr "&Усе"
@@ -5166,7 +4558,6 @@ msgstr "Выбраць..."
 #~ msgid "No text was replaced."
 #~ msgstr "Тэкст не заменены."
 
-#, fuzzy
 #~ msgid "1 replacement done."
 #~ msgid_plural "%1 replacements done."
 #~ msgstr[0] "Зроблена %1 замена."
@@ -5180,7 +4571,11 @@ msgstr "Выбраць..."
 #~ msgstr "Вы хочаце працягнуць пошук з пачатку?"
 
 #, fuzzy
-#~| msgid "Stop"
+#~ msgctxt "@action:button Restart find & replace"
+#~ msgid "Restart"
+#~ msgstr "Працягнуць"
+
+#, fuzzy
 #~ msgctxt "@action:button Stop find & replace"
 #~ msgid "Stop"
 #~ msgstr "Спыніць"
@@ -5193,7 +4588,6 @@ msgstr "Выбраць..."
 #~ "Калі ласка, выпраўце."
 
 #, fuzzy
-#~| msgid "&Verify:"
 #~ msgctxt "@item Font name"
 #~ msgid "Serif"
 #~ msgstr "&Праверыць:"
@@ -5317,13 +4711,11 @@ msgstr "Выбраць..."
 #~ msgstr "%1"
 
 #, fuzzy
-#~| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 #~ msgctxt "short"
 #~ msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 #~ msgstr "Гэты тэкст адлюстроўвае выбраныя настаўленні шрыфту."
 
 #, fuzzy
-#~| msgid "1"
 #~ msgctxt "Numeric IDs of scripts for font previews"
 #~ msgid "1"
 #~ msgstr "1"
@@ -5357,6 +4749,9 @@ msgstr "Выбраць..."
 #~ "Гэта ўзор тэксту, напісанага шрыфтам \"%1\". Вы можаце змяніць яго, "
 #~ "націснуўшы кнопку \"Выбраць...\"."
 
+#~ msgid "Search"
+#~ msgstr "Пошук"
+
 #~ msgid "Stop"
 #~ msgstr "Спыніць"
 
@@ -5367,14 +4762,11 @@ msgstr "Выбраць..."
 #~ msgstr " %1/с "
 
 #, fuzzy
-#~| msgctxt "@application/plain"
-#~| msgid "%1"
 #~ msgctxt "%1 is the label, we add a ':' to it"
 #~ msgid "%1:"
 #~ msgstr "%1"
 
 #, fuzzy
-#~| msgid "%1 of %2 complete"
 #~ msgid "%2 of %3 complete"
 #~ msgid_plural "%2 of %3 complete"
 #~ msgstr[0] "%1 з %2 завершана"
@@ -5389,13 +4781,10 @@ msgstr "Выбраць..."
 #~ msgstr[2] "Тэчкі: %1"
 
 #, fuzzy
-#~| msgid "%1 % of %2 "
 #~ msgid "%1% of %2"
 #~ msgstr "%1 % з %2 "
 
 #, fuzzy
-#~| msgid "%1 file"
-#~| msgid_plural "%1 files"
 #~ msgid "%2% of 1 file"
 #~ msgid_plural "%2% of %1 files"
 #~ msgstr[0] "%1 файл"
@@ -5409,7 +4798,6 @@ msgstr "Выбраць..."
 #~ msgstr "Прастойвае"
 
 #, fuzzy
-#~| msgid "%1/s ( %2 remaining )"
 #~ msgid "%2/s (%3 remaining)"
 #~ msgid_plural "%2/s (%3 remaining)"
 #~ msgstr[0] "%1/с ( засталося %2 )"
@@ -5424,23 +4812,19 @@ msgstr "Выбраць..."
 #~ msgstr "%1/с (зроблена)"
 
 #, fuzzy
-#~| msgid "Resume"
 #~ msgid "&Resume"
 #~ msgstr "Працягнуць"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgid "&Pause"
 #~ msgstr "Паўза"
 
 #, fuzzy
-#~| msgid "Source:"
 #~ msgctxt "The source url of a job"
 #~ msgid "Source:"
 #~ msgstr "Крыніца:"
 
 #, fuzzy
-#~| msgid "Destination:"
 #~ msgctxt "The destination url of a job"
 #~ msgid "Destination:"
 #~ msgstr "Прызначэнне:"
@@ -5464,7 +4848,6 @@ msgstr "Выбраць..."
 #~ msgstr[1] "Тэчкі: %1"
 #~ msgstr[2] "Тэчкі: %1"
 
-#, fuzzy
 #~ msgid "%1 file"
 #~ msgid_plural "%1 files"
 #~ msgstr[0] "%1 файл"
@@ -5481,7 +4864,6 @@ msgstr "Выбраць..."
 #~ msgstr "Дададзена аўтаматычна калі запушчана з Finder"
 
 #, fuzzy
-#~| msgid "Quit application"
 #~ msgid "Unknown Application"
 #~ msgstr "Выйсці з праграмы"
 
@@ -5551,13 +4933,16 @@ msgstr "Выбраць..."
 #~ "Вы хочаце пераназначыць яе?"
 
 #, fuzzy
-#~| msgid "Conflict with Global Shortcut"
 #~ msgid "Conflict With Registered Global Shortcut"
 #~ msgstr "Канфліктуе з глабальным скаротам"
 
 #~ msgctxt "@action"
 #~ msgid "Open"
 #~ msgstr "Адкрыць"
+
+#~ msgctxt "@action"
+#~ msgid "New"
+#~ msgstr "Новы"
 
 #~ msgctxt "@action"
 #~ msgid "Close"
@@ -5656,6 +5041,10 @@ msgstr "Выбраць..."
 #~ msgstr "Угору"
 
 #~ msgctxt "@action"
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgctxt "@action"
 #~ msgid "Forward"
 #~ msgstr "Наперад"
 
@@ -5744,171 +5133,141 @@ msgstr "Выбраць..."
 #~ msgstr "Наступны элемент у спісе"
 
 #, fuzzy
-#~| msgid "Open &Recent"
 #~ msgctxt "@action"
 #~ msgid "Open Recent"
 #~ msgstr "Адкрыць &ранейшы файл"
 
 #, fuzzy
-#~| msgid "Save As"
 #~ msgctxt "@action"
 #~ msgid "Save As"
 #~ msgstr "Запісаць як"
 
 #, fuzzy
-#~| msgid "Re&vert"
 #~ msgctxt "@action"
 #~ msgid "Revert"
 #~ msgstr "Вярнуц&ь"
 
 #, fuzzy
-#~| msgid "Print Preview"
 #~ msgctxt "@action"
 #~ msgid "Print Preview"
 #~ msgstr "Прагляд друку"
 
 #, fuzzy
-#~| msgid "Main:"
 #~ msgctxt "@action"
 #~ msgid "Mail"
 #~ msgstr "Пошта"
 
 #, fuzzy
-#~| msgid "C&lear"
 #~ msgctxt "@action"
 #~ msgid "Clear"
 #~ msgstr "Ачысціць"
 
 #, fuzzy
-#~| msgid "&Actual Size"
 #~ msgctxt "@action"
 #~ msgid "Actual Size"
 #~ msgstr "&Сапраўдны памер"
 
 #, fuzzy
-#~| msgid "&Fit to Page"
 #~ msgctxt "@action"
 #~ msgid "Fit To Page"
 #~ msgstr "Размясціць у &старонку"
 
 #, fuzzy
-#~| msgid "Fit to Page &Width"
 #~ msgctxt "@action"
 #~ msgid "Fit To Width"
 #~ msgstr "Размясціць у &шырыню старонкі"
 
 #, fuzzy
-#~| msgid "Fit to Page &Height"
 #~ msgctxt "@action"
 #~ msgid "Fit To Height"
 #~ msgstr "Размясціць у &вышыню старонкі"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Zoom In"
 #~ msgctxt "@action"
 #~ msgid "Zoom"
 #~ msgstr "Маштаб"
 
 #, fuzzy
-#~| msgid "&Go to Page..."
 #~ msgctxt "@action"
 #~ msgid "Goto Page"
 #~ msgstr "&Ісці на старонку..."
 
 #, fuzzy
-#~| msgid "Close Document"
 #~ msgctxt "@action"
 #~ msgid "Document Back"
 #~ msgstr "Закрыць дакумент"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Forward"
 #~ msgctxt "@action"
 #~ msgid "Document Forward"
 #~ msgstr "Наперад"
 
 #, fuzzy
-#~| msgid "&Edit Bookmarks"
 #~ msgctxt "@action"
 #~ msgid "Edit Bookmarks"
 #~ msgstr "&Рэдагаваць закладкі"
 
 #, fuzzy
-#~| msgid "&Spelling..."
 #~ msgctxt "@action"
 #~ msgid "Spelling"
 #~ msgstr "Праверка правапісу"
 
 #, fuzzy
-#~| msgid "Show &Toolbar"
 #~ msgctxt "@action"
 #~ msgid "Show Toolbar"
 #~ msgstr "Паказаць &панэль начыння"
 
 #, fuzzy
-#~| msgid "Show St&atusbar"
 #~ msgctxt "@action"
 #~ msgid "Show Statusbar"
 #~ msgstr "Паказаць радок ст&атусу"
 
 #, fuzzy
-#~| msgid "Options"
 #~ msgctxt "@action"
 #~ msgid "Save Options"
 #~ msgstr "Параметры"
 
 #, fuzzy
-#~| msgid "Reference"
 #~ msgctxt "@action"
 #~ msgid "Preferences"
 #~ msgstr "Настаўленні"
 
 #, fuzzy
-#~| msgid "Configure Toolbars"
 #~ msgctxt "@action"
 #~ msgid "Configure Toolbars"
 #~ msgstr "Настаўленне панеляў начыння"
 
 #, fuzzy
-#~| msgid "Configure Notifications"
 #~ msgctxt "@action"
 #~ msgid "Configure Notifications"
 #~ msgstr "Наставіць &абвяшчэнні..."
 
 #, fuzzy
-#~| msgid "Tip of the Day"
 #~ msgctxt "@action"
 #~ msgid "Tip Of Day"
 #~ msgstr "Карысная парада"
 
 #, fuzzy
-#~| msgid "&Report Bug..."
 #~ msgctxt "@action"
 #~ msgid "Report Bug"
 #~ msgstr "&Паведаміць пра памылку..."
 
 #, fuzzy
-#~| msgid "Switch Application Language"
 #~ msgctxt "@action"
 #~ msgid "Switch Application Language"
 #~ msgstr "Пераключыць мову праграмы"
 
 #, fuzzy
-#~| msgid "Quit application"
 #~ msgctxt "@action"
 #~ msgid "About Application"
 #~ msgstr "Выйсці з праграмы"
 
 #, fuzzy
-#~| msgid "About KDE"
 #~ msgctxt "@action"
 #~ msgid "About KDE"
 #~ msgstr "Пра KDE"
 
 #, fuzzy
-#~| msgid "Send Confirmation"
 #~ msgid "Spell Checking Configuration"
 #~ msgstr "Даслаць пацверджанне"
 
@@ -5916,7 +5275,6 @@ msgstr "Выбраць..."
 #~ msgstr "Уключыць &фонавае спраўджванне правапісу"
 
 #, fuzzy
-#~| msgid "As-you-type spell checking enabled."
 #~ msgid "&Automatic spell checking enabled by default"
 #~ msgstr "Спраўджванне правапісу пры ўводзе ўключанае."
 
@@ -5930,7 +5288,6 @@ msgstr "Выбраць..."
 #~ msgstr "Прадвызначаная мова:"
 
 #, fuzzy
-#~| msgid "Suggested Words"
 #~ msgid "Ignored Words"
 #~ msgstr "Прапанаваныя словы"
 
@@ -5943,7 +5300,6 @@ msgstr "Выбраць..."
 #~ msgstr "С&кончана"
 
 #, fuzzy
-#~| msgid "Spell check stopped."
 #~ msgctxt "progress label"
 #~ msgid "Spell checking in progress..."
 #~ msgstr "Праверка правапісу спынена."
@@ -5973,6 +5329,9 @@ msgstr "Выбраць..."
 #~ msgstr ""
 #~ "Дапаўненне неадназначнае, больш за адно\n"
 #~ "супадзенне.\n"
+
+#~ msgid "There is no matching item available.\n"
+#~ msgstr "Няма супадзенняў.\n"
 
 #~ msgid "Backspace"
 #~ msgstr "Backspace"
@@ -6031,8 +5390,14 @@ msgstr "Выбраць..."
 #~ msgid "&Yes"
 #~ msgstr "&Так"
 
+#~ msgid "Yes"
+#~ msgstr "Так"
+
 #~ msgid "&No"
 #~ msgstr "&Не"
+
+#~ msgid "No"
+#~ msgstr "Не"
 
 #~ msgid "&Discard"
 #~ msgstr "Ад&хіліць"
@@ -6041,8 +5406,6 @@ msgstr "Выбраць..."
 #~ msgstr "Адхіліць змены"
 
 #, fuzzy
-#~| msgid ""
-#~| "Pressing this button will discard all recent changes made in this dialog"
 #~ msgid ""
 #~ "Pressing this button will discard all recent changes made in this dialog."
 #~ msgstr ""
@@ -6067,10 +5430,6 @@ msgstr "Выбраць..."
 #~ msgstr "Ужыць змены"
 
 #, fuzzy
-#~| msgid ""
-#~| "When clicking <b>Apply</b>, the settings will be handed over to the "
-#~| "program, but the dialog will not be closed.\n"
-#~| "Use this to try different settings."
 #~ msgid ""
 #~ "When you click <b>Apply</b>, the settings will be handed over to the "
 #~ "program, but the dialog will not be closed.\n"
@@ -6088,10 +5447,6 @@ msgstr "Выбраць..."
 #~ msgstr "Перайсці ў рэжым адміністратара"
 
 #, fuzzy
-#~| msgid ""
-#~| "When clicking <b>Administrator Mode</b> you will be prompted for the "
-#~| "administrator (root) password in order to make changes which require "
-#~| "root privileges."
 #~ msgid ""
 #~ "When you click <b>Administrator Mode</b> you will be prompted for the "
 #~ "administrator (root) password in order to make changes which require root "
@@ -6113,22 +5468,18 @@ msgstr "Выбраць..."
 #~ msgstr "Закрыць гэтае акно ці дакумент"
 
 #, fuzzy
-#~| msgid "Close window?"
 #~ msgid "&Close Window"
 #~ msgstr "Закрыць акно?"
 
 #, fuzzy
-#~| msgid "Close the current window or document"
 #~ msgid "Close the current window."
 #~ msgstr "Закрыць гэтае акно ці дакумент"
 
 #, fuzzy
-#~| msgid "Close Document"
 #~ msgid "&Close Document"
 #~ msgstr "Закрыць дакумент"
 
 #, fuzzy
-#~| msgid "Close the current window or document"
 #~ msgid "Close the current document."
 #~ msgstr "Закрыць гэтае акно ці дакумент"
 
@@ -6150,6 +5501,9 @@ msgstr "Выбраць..."
 #~ msgid "C&ontinue"
 #~ msgstr "П&рацягнуць"
 
+#~ msgid "Continue operation"
+#~ msgstr "Працягнуць выкананне аперацыі"
+
 #~ msgid "&Delete"
 #~ msgstr "В&ыдаліць"
 
@@ -6168,6 +5522,9 @@ msgstr "Выбраць..."
 #~ msgctxt "Verb"
 #~ msgid "&Insert"
 #~ msgstr "У&ставіць"
+
+#~ msgid "Confi&gure..."
+#~ msgstr "На&ставіць..."
 
 #~ msgid "Add"
 #~ msgstr "Дадаць"
@@ -6203,8 +5560,6 @@ msgstr "Выбраць..."
 #~ msgstr "Пісьменнасць сярэдняга ўсходу"
 
 #, fuzzy
-#~| msgctxt "KCharSelect section name"
-#~| msgid "South East Asian Scripts"
 #~ msgctxt "KCharSelect section name"
 #~ msgid "South Asian Scripts"
 #~ msgstr "Пісьменнасць юга-ўсходу азіі"
@@ -6294,7 +5649,6 @@ msgstr "Выбраць..."
 #~ msgstr "NKo"
 
 #, fuzzy
-#~| msgid "Ramadan"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Samaritan"
 #~ msgstr "Ramadan"
@@ -6404,8 +5758,6 @@ msgstr "Выбраць..."
 #~ msgstr "Мангольская"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Unified Canadian Aboriginal Syllabics"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Unified Canadian Aboriginal Syllabics Extended"
 #~ msgstr "Слогавая уніфікаваная пісьменнасць канадскіх абарыгенаў"
@@ -6431,21 +5783,16 @@ msgstr "Выбраць..."
 #~ msgstr "Балійская"
 
 #, fuzzy
-#~| msgid "Sunday"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Sundanese"
 #~ msgstr "Нядзеля"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Katakana"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Batak"
 #~ msgstr "Катакана"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Phonetic Extensions"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Vedic Extensions"
 #~ msgstr "Фанетычныя дапаўненні"
@@ -6479,8 +5826,6 @@ msgstr "Выбраць..."
 #~ msgstr "Грашовыя сімвалы"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Letterlike Symbols"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Letterlike Symbols"
 #~ msgstr "Сімвалы, падобныя на літары"
@@ -6582,8 +5927,6 @@ msgstr "Выбраць..."
 #~ msgstr "Эфіопскі пашыраны"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Latin Extended-A"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Cyrillic Extended-A"
 #~ msgstr "Latin Extended-A"
@@ -6617,21 +5960,16 @@ msgstr "Выбраць..."
 #~ msgstr "Бопамофа пашыраны"
 
 #, fuzzy
-#~| msgctxt "of Farvardin short"
-#~| msgid "of Far"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Vai"
 #~ msgstr "Far"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Latin Extended-B"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Cyrillic Extended-B"
 #~ msgstr "Latin Extended-В"
 
 #, fuzzy
-#~| msgid "Tamuz"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Bamum"
 #~ msgstr "Tamuz"
@@ -6641,63 +5979,46 @@ msgstr "Выбраць..."
 #~ msgstr "Пашыраная лацінка-D"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Number Forms"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Common Indic Number Forms"
 #~ msgstr "Формы лічбаў"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Devanagari"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Devanagari Extended"
 #~ msgstr "Дэванагары"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Latin Extended-A"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Hangul Jamo Extended-A"
 #~ msgstr "Latin Extended-A"
 
 #, fuzzy
-#~| msgctxt "@item Text character set"
-#~| msgid "Japanese"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Javanese"
 #~ msgstr "Японская"
 
 #, fuzzy
-#~| msgid "Kha"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Cham"
 #~ msgstr "Kha"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Latin Extended-A"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Myanmar Extended-A"
 #~ msgstr "Latin Extended-A"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Tai Le"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Tai Viet"
 #~ msgstr "Тай Ле"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Ethiopic Extended"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Ethiopic Extended-A"
 #~ msgstr "Эфіопскі пашыраны"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Latin Extended-B"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Hangul Jamo Extended-B"
 #~ msgstr "Latin Extended-В"
@@ -6723,31 +6044,24 @@ msgstr "Выбраць..."
 #~ msgstr "Спецыяльныя"
 
 #, fuzzy
-#~| msgid "Enter a search term here"
 #~ msgid "Enter a search term or character here"
 #~ msgstr "Увядзіце сюды тэрмін для пошуку"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Previous Item in List"
 #~ msgctxt "Goes to previous character"
 #~ msgid "Previous in History"
 #~ msgstr "Папярэдні элемент у спісе"
 
 #, fuzzy
-#~| msgid "Previous year"
 #~ msgid "Previous Character in History"
 #~ msgstr "Папярэдні год"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Next Item in List"
 #~ msgctxt "Goes to next character"
 #~ msgid "Next in History"
 #~ msgstr "Наступны элемент у спісе"
 
 #, fuzzy
-#~| msgid "Set of Characters"
 #~ msgid "Next Character in History"
 #~ msgstr "Набор сімвалаў"
 
@@ -6824,7 +6138,6 @@ msgstr "Выбраць..."
 #~ msgstr "UTF-16:"
 
 #, fuzzy
-#~| msgid "Unicode category: "
 #~ msgid "Unicode code point:"
 #~ msgstr "Катэгорыя Unicode:"
 
@@ -6856,60 +6169,35 @@ msgstr "Выбраць..."
 #~ msgstr "Падзяляльнік, прагал"
 
 #, fuzzy
-#~| msgid "Do you want to reload KDE configuration?"
 #~ msgid "You are not allowed to save the configuration"
 #~ msgstr "Вы хочаце перачытаць настаўленні KDE?"
 
 #, fuzzy
-#~| msgid "Next year"
 #~ msgctxt "@option next year"
 #~ msgid "Next Year"
 #~ msgstr "Наступны год"
 
 #, fuzzy
-#~| msgid "Next month"
-#~ msgctxt "@option next month"
-#~ msgid "Next Month"
-#~ msgstr "Наступны месяц"
-
-#, fuzzy
-#~| msgid "Next year"
 #~ msgctxt "@option next week"
 #~ msgid "Next Week"
 #~ msgstr "Наступны год"
 
 #, fuzzy
-#~| msgid "Today"
 #~ msgctxt "@option today"
 #~ msgid "Today"
 #~ msgstr "Сёння"
 
 #, fuzzy
-#~| msgid "Yesterday"
 #~ msgctxt "@option yesterday"
 #~ msgid "Yesterday"
 #~ msgstr "Учора"
 
 #, fuzzy
-#~| msgid "&Last Page"
-#~ msgctxt "@option last week"
-#~ msgid "Last Week"
-#~ msgstr "&Апошняя старонка"
-
-#, fuzzy
-#~| msgid "Next month"
-#~ msgctxt "@option last month"
-#~ msgid "Last Month"
-#~ msgstr "Наступны месяц"
-
-#, fuzzy
-#~| msgid "&Last Page"
 #~ msgctxt "@option last year"
 #~ msgid "Last Year"
 #~ msgstr "&Апошняя старонка"
 
 #, fuzzy
-#~| msgid "No text"
 #~ msgctxt "@option do not specify a date"
 #~ msgid "No Date"
 #~ msgstr "Няма тэксту"
@@ -6942,7 +6230,6 @@ msgstr "Выбраць..."
 #~ msgstr "Выберыце сённяшні дзень"
 
 #, fuzzy
-#~| msgid "Rating: "
 #~ msgctxt "No specific time zone"
 #~ msgid "Floating"
 #~ msgstr "Рэйтынг:"
@@ -6953,6 +6240,12 @@ msgstr "Выбраць..."
 #~ msgid "&Remove"
 #~ msgstr "&Выдаліць"
 
+#~ msgid "Move &Up"
+#~ msgstr "Перанесці ў&гору"
+
+#~ msgid "Move &Down"
+#~ msgstr "Перанесці &долу"
+
 #~ msgid "&Help"
 #~ msgstr "&Дапамога"
 
@@ -6960,12 +6253,10 @@ msgstr "Выбраць..."
 #~ msgstr "Ачысціць &часопіс"
 
 #, fuzzy
-#~| msgid "No further item in the history."
 #~ msgid "No further items in the history."
 #~ msgstr "Больш няма элементаў часопісу."
 
 #, fuzzy
-#~| msgid "Conflict with Global Shortcut"
 #~ msgctxt "%1 is the number of shortcuts with which there is a conflict"
 #~ msgid "Conflict with Registered Global Shortcut"
 #~ msgid_plural "Conflict with Registered Global Shortcuts"
@@ -6974,7 +6265,6 @@ msgstr "Выбраць..."
 #~ msgstr[2] "Канфліктуе з глабальным скаротам"
 
 #, fuzzy
-#~| msgid "Shortcut conflict"
 #~ msgctxt "%1 is the number of conflicts"
 #~ msgid "Shortcut Conflict"
 #~ msgid_plural "Shortcut Conflicts"
@@ -6983,15 +6273,10 @@ msgstr "Выбраць..."
 #~ msgstr[2] "Канфлікт скаротаў"
 
 #, fuzzy
-#~| msgid "Shortcuts"
 #~ msgid "Shortcut '%1' for action '%2'\n"
 #~ msgstr "Скароты"
 
 #, fuzzy
-#~| msgid ""
-#~| "The '%1' key combination has already been allocated to the \"%2\" "
-#~| "action.\n"
-#~| "Do you want to reassign it from that action to the current one?"
 #~ msgctxt "%1 is the number of ambigious shortcut clashes (hidden)"
 #~ msgid ""
 #~ "The \"%2\" shortcut is ambiguous with the following shortcut.\n"
@@ -7015,7 +6300,6 @@ msgstr "Выбраць..."
 #~ msgstr "Канфлікт скаротаў"
 
 #, fuzzy
-#~| msgid "Shortcut"
 #~ msgid "Reserved Shortcut"
 #~ msgstr "Скарот"
 
@@ -7023,10 +6307,6 @@ msgstr "Выбраць..."
 #~ msgstr "Канфліктуе з стандартным скаротам праграмы"
 
 #, fuzzy
-#~| msgid ""
-#~| "The '%1' key combination has already been allocated to the standard "
-#~| "action \"%2\" that many applications use.\n"
-#~| "You cannot use it for global shortcuts for this reason."
 #~ msgid ""
 #~ "The '%1' key combination is also used for the standard action \"%2\" that "
 #~ "some applications use.\n"
@@ -7041,7 +6321,6 @@ msgstr "Выбраць..."
 #~ msgstr "Увод"
 
 #, fuzzy
-#~| msgid "Unsorted"
 #~ msgid "Unsupported Key"
 #~ msgstr "Несартаваны"
 
@@ -7049,61 +6328,51 @@ msgstr "Выбраць..."
 #~ msgstr "без назвы"
 
 #, fuzzy
-#~| msgid "1"
 #~ msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
 #~ msgid "1"
 #~ msgstr "1"
 
 #, fuzzy
-#~| msgid "Clear text"
 #~ msgctxt "@action:button Clear current text in the line edit"
 #~ msgid "Clear text"
 #~ msgstr "Ачысціць тэ&кст"
 
 #, fuzzy
-#~| msgid "Text Completion"
 #~ msgctxt "@title:menu"
 #~ msgid "Text Completion"
 #~ msgstr "Дапаўненне тэксту"
 
 #, fuzzy
-#~| msgid "None"
 #~ msgctxt "@item:inmenu Text Completion"
 #~ msgid "None"
 #~ msgstr "Няма"
 
 #, fuzzy
-#~| msgid "Manual"
 #~ msgctxt "@item:inmenu Text Completion"
 #~ msgid "Manual"
 #~ msgstr "Самастойнае"
 
 #, fuzzy
-#~| msgid "Automatic"
 #~ msgctxt "@item:inmenu Text Completion"
 #~ msgid "Automatic"
 #~ msgstr "Аўтаматычнае"
 
 #, fuzzy
-#~| msgid "Dropdown List"
 #~ msgctxt "@item:inmenu Text Completion"
 #~ msgid "Dropdown List"
 #~ msgstr "Выпадаючы спіс"
 
 #, fuzzy
-#~| msgid "Short Automatic"
 #~ msgctxt "@item:inmenu Text Completion"
 #~ msgid "Short Automatic"
 #~ msgstr "(Каротка-) Аўтаматычнае"
 
 #, fuzzy
-#~| msgid "Dropdown List && Automatic"
 #~ msgctxt "@item:inmenu Text Completion"
 #~ msgid "Dropdown List && Automatic"
 #~ msgstr "Выпадаючы спіс && аўтаматычнае"
 
 #, fuzzy
-#~| msgid "Default"
 #~ msgctxt "@item:inmenu Text Completion"
 #~ msgid "Default"
 #~ msgstr "Прадвызначаны"
@@ -7116,42 +6385,31 @@ msgstr "Выбраць..."
 #~ msgstr "Павярнуць па гадзіннай стрэлцы"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Text Completion"
 #~ msgctxt "@action"
 #~ msgid "Text &Color..."
 #~ msgstr "Колер &тэксту:"
 
 #, fuzzy
-#~| msgctxt "palette name"
-#~| msgid "Web Colors"
 #~ msgctxt "@label stroke color"
 #~ msgid "Color"
 #~ msgstr "Колер"
 
 #, fuzzy
-#~| msgctxt "@option:check"
-#~| msgid "Font"
 #~ msgctxt "@action"
 #~ msgid "&Font"
 #~ msgstr "&Шрыфт"
 
 #, fuzzy
-#~| msgid "Icon Size"
 #~ msgctxt "@action"
 #~ msgid "Font &Size"
 #~ msgstr "Памер шрыфта"
 
 #, fuzzy
-#~| msgctxt "@item font"
-#~| msgid "Bold"
 #~ msgctxt "@action boldify selected text"
 #~ msgid "&Bold"
 #~ msgstr "&Цёмны"
 
 #, fuzzy
-#~| msgctxt "@item font"
-#~| msgid "Italic"
 #~ msgctxt "@action italicize selected text"
 #~ msgid "&Italic"
 #~ msgstr "&Курсіў"
@@ -7162,7 +6420,6 @@ msgstr "Выбраць..."
 #~ msgstr "Па&дкрэслены"
 
 #, fuzzy
-#~| msgid "Step Out"
 #~ msgctxt "@action"
 #~ msgid "&Strike Out"
 #~ msgstr "Закрэслены"
@@ -7173,8 +6430,6 @@ msgstr "Выбраць..."
 #~ msgstr "Па левым боку"
 
 #, fuzzy
-#~| msgctxt "keyboard-key-name"
-#~| msgid "Left"
 #~ msgctxt "@label left justify"
 #~ msgid "Left"
 #~ msgstr "Левая"
@@ -7185,7 +6440,6 @@ msgstr "Выбраць..."
 #~ msgstr "Па цэнтры"
 
 #, fuzzy
-#~| msgid "Enter"
 #~ msgctxt "@label center justify"
 #~ msgid "Center"
 #~ msgstr "Пасярэдзіне"
@@ -7196,68 +6450,61 @@ msgstr "Выбраць..."
 #~ msgstr "Па правым боку"
 
 #, fuzzy
-#~| msgctxt "keyboard-key-name"
-#~| msgid "Right"
 #~ msgctxt "@label right justify"
 #~ msgid "Right"
 #~ msgstr "Правя"
 
 #, fuzzy
-#~| msgid "None"
 #~ msgctxt "@item:inmenu no list style"
 #~ msgid "None"
 #~ msgstr "Няма"
 
 #, fuzzy
-#~| msgid "&Discard"
 #~ msgctxt "@item:inmenu disc list style"
 #~ msgid "Disc"
 #~ msgstr "Ад&хіліць"
 
 #, fuzzy
-#~| msgid "File"
 #~ msgctxt "@item:inmenu circle list style"
 #~ msgid "Circle"
 #~ msgstr "Нулік"
 
 #, fuzzy
-#~| msgid "Source:"
 #~ msgctxt "@item:inmenu square list style"
 #~ msgid "Square"
 #~ msgstr "Квадрат"
 
 #, fuzzy
-#~| msgid "Sab"
 #~ msgctxt "@item:inmenu lowercase abc lists"
 #~ msgid "abc"
 #~ msgstr "ABC"
 
 #, fuzzy
-#~| msgid "AC"
 #~ msgctxt "@item:inmenu uppercase abc lists"
 #~ msgid "ABC"
 #~ msgstr "ABC"
 
 #, fuzzy
-#~| msgid "Line"
 #~ msgctxt "@action"
 #~ msgid "Link"
 #~ msgstr "Спасылка"
 
 #, fuzzy
-#~| msgid "Find Text"
 #~ msgctxt "@action"
 #~ msgid "To Plain Text"
 #~ msgstr "Знайсці тэкст"
 
 #, fuzzy
-#~| msgid "Open Script"
+#~ msgctxt "@action"
+#~ msgid "Subscript"
+#~ msgstr "Ніжні індэкс"
+
+#, fuzzy
 #~ msgctxt "@action"
 #~ msgid "Superscript"
 #~ msgstr "Верхні індэкс"
 
 #, fuzzy
-#~| msgid "&Copy Text"
 #~ msgid "&Copy Full Text"
 #~ msgstr "С&капіраваць тэкст"
 
@@ -7265,33 +6512,27 @@ msgstr "Выбраць..."
 #~ msgstr "Няма дзе правяраць правапіс."
 
 #, fuzzy
-#~| msgid "&Break at Next Statement"
 #~ msgid "Speak Text"
 #~ msgstr "&Спыніцца на наступным выразе"
 
 #, fuzzy
-#~| msgid "Suggestion List"
 #~ msgid "No suggestions for %1"
 #~ msgstr "Спіс прапановаў"
 
 #, fuzzy
-#~| msgid "&Ignore"
 #~ msgid "Ignore"
 #~ msgstr "Ігнараваць"
 
 #, fuzzy
-#~| msgid "<< Add to Dictionary"
 #~ msgid "Add to Dictionary"
 #~ msgstr "<< Дадаць у слоўнік"
 
 #, fuzzy
-#~| msgid "Area"
 #~ msgctxt "Define an area in the time zone, like a town area"
 #~ msgid "Area"
 #~ msgstr "Зона"
 
 #, fuzzy
-#~| msgid "Region"
 #~ msgctxt "Time zone"
 #~ msgid "Region"
 #~ msgstr "Рэгіён"
@@ -7300,19 +6541,16 @@ msgstr "Выбраць..."
 #~ msgstr "Заўвага"
 
 #, fuzzy
-#~| msgid "Show help"
 #~ msgctxt "@title:menu"
 #~ msgid "Show Text"
 #~ msgstr "Паказаць даведку"
 
 #, fuzzy
-#~| msgid "Toolbar Menu"
 #~ msgctxt "@title:menu"
 #~ msgid "Toolbar Settings"
 #~ msgstr "Меню панэлі начыння"
 
 #, fuzzy
-#~| msgid "Orientation"
 #~ msgctxt "Toolbar orientation"
 #~ msgid "Orientation"
 #~ msgstr "Арыентацыя"
@@ -7336,6 +6574,9 @@ msgstr "Выбраць..."
 #~ msgid "Text Position"
 #~ msgstr "Размяшчэнне тэксту"
 
+#~ msgid "Icons Only"
+#~ msgstr "Толькі значкі"
+
 #~ msgid "Text Only"
 #~ msgstr "Толькі тэкст"
 
@@ -7349,7 +6590,6 @@ msgstr "Выбраць..."
 #~ msgstr "Памер значак"
 
 #, fuzzy
-#~| msgid "Default"
 #~ msgctxt "@item:inmenu Icon size"
 #~ msgid "Default"
 #~ msgstr "Прадвызначаны"
@@ -7367,7 +6607,6 @@ msgstr "Выбраць..."
 #~ msgstr "Вялізныя (%1×%2)"
 
 #, fuzzy
-#~| msgid "Lock Toolbars"
 #~ msgid "Lock Toolbar Positions"
 #~ msgstr "Прычапіць панелі начыння"
 
@@ -7389,7 +6628,6 @@ msgstr "Выбраць..."
 #~ msgstr "Наставіць скарот..."
 
 #, fuzzy
-#~| msgid "Toolbars"
 #~ msgid "Toolbars Shown"
 #~ msgstr "Панэлі начыння"
 
@@ -7461,9 +6699,6 @@ msgstr "Выбраць..."
 #~ msgstr "Enter"
 
 #, fuzzy
-#~| msgid ""
-#~| "A KDE text-editor component could not be found;\n"
-#~| "please check your KDE installation."
 #~ msgid ""
 #~ "Unable to find the Kate editor component;\n"
 #~ "please check your KDE installation."
@@ -7472,7 +6707,6 @@ msgstr "Выбраць..."
 #~ "калі ласка, праверце правільнасць устаноўкі KDE."
 
 #, fuzzy
-#~| msgid "Breakpoints"
 #~ msgid "Breakpoint"
 #~ msgstr "Пункты прыпынення"
 
@@ -7483,7 +6717,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Спыніцца на наступным выразе"
 
 #, fuzzy
-#~| msgid "&Break at Next Statement"
 #~ msgid "Break at Next"
 #~ msgstr "&Спыніцца на наступным выразе"
 
@@ -7500,7 +6733,6 @@ msgstr "Выбраць..."
 #~ msgstr "Крок вонкі"
 
 #, fuzzy
-#~| msgid "Action"
 #~ msgid "Report Exceptions"
 #~ msgstr "Дзеянне"
 
@@ -7547,7 +6779,6 @@ msgstr "Выбраць..."
 #~ msgstr "JavaScript"
 
 #, fuzzy
-#~| msgid "Open Script"
 #~ msgid "&Stop Script"
 #~ msgstr "Адкрыць сцэнар"
 
@@ -7582,15 +6813,11 @@ msgstr "Выбраць..."
 #~ msgstr "Даслаць пацверджанне"
 
 #, fuzzy
-#~| msgid "&Send Files"
 #~ msgid "&Send File"
 #~ msgid_plural "&Send Files"
 #~ msgstr[0] "&Даслаць файлы"
 #~ msgstr[1] "&Даслаць файлы"
 #~ msgstr[2] "&Даслаць файлы"
-
-#~ msgid "Submit"
-#~ msgstr "Перадаць"
 
 #~ msgid "Key Generator"
 #~ msgstr "Генератар клавіш"
@@ -7605,6 +6832,9 @@ msgstr "Выбраць..."
 #~ msgid "Missing Plugin"
 #~ msgstr "Няма ўтулкі"
 
+#~ msgid "Download"
+#~ msgstr "Спампаваць"
+
 #~ msgid "Do Not Download"
 #~ msgstr "Не спампоўваць"
 
@@ -7615,13 +6845,15 @@ msgstr "Выбраць..."
 #~ msgstr "Звесткі пра дакумент"
 
 #, fuzzy
-#~| msgid "General"
 #~ msgctxt "@title:group Document information"
 #~ msgid "General"
 #~ msgstr "Агульныя"
 
 #~ msgid "URL:"
 #~ msgstr "URL:"
+
+#~ msgid "Title:"
+#~ msgstr "Назва:"
 
 #~ msgid "Last modified:"
 #~ msgstr "Час апошняй змены:"
@@ -7699,7 +6931,6 @@ msgstr "Выбраць..."
 #~ msgstr "Адкрыць '%1'"
 
 #, fuzzy
-#~| msgid "Copy Email Address"
 #~ msgid "&Copy Email Address"
 #~ msgstr "Скапіраваць адрас электроннай пошты"
 
@@ -7707,7 +6938,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Запісаць спасылку як..."
 
 #, fuzzy
-#~| msgid "Copy &Link Address"
 #~ msgid "&Copy Link Address"
 #~ msgstr "Скапіраваць адрас спасылкі"
 
@@ -7789,6 +7019,9 @@ msgstr "Выбраць..."
 #~ msgstr ""
 #~ "Файл з назвай \"%1\" ужо існуе. Ці вы сапраўды хочаце перазапісаць яго?"
 
+#~ msgid "Overwrite File?"
+#~ msgstr "Перазапісаць файл?"
+
 #~ msgid "Overwrite"
 #~ msgstr "Перазапісаць"
 
@@ -7853,7 +7086,6 @@ msgstr "Выбраць..."
 #~ msgstr "Вывесці дрэва DOM на STDOUT"
 
 #, fuzzy
-#~| msgid "Print DOM Tree to STDOUT"
 #~ msgid "Print frame tree to STDOUT"
 #~ msgstr "Вывесці дрэва DOM на STDOUT"
 
@@ -7870,9 +7102,6 @@ msgstr "Выбраць..."
 #~ msgstr "Павялічыць памер шрыфту"
 
 #, fuzzy
-#~| msgid ""
-#~| "Enlarge Font<br /><br />Make the font in this window bigger. Click and "
-#~| "hold down the mouse button for a menu with all available font sizes."
 #~ msgid ""
 #~ "<qt>Enlarge Font<br /><br />Make the font in this window bigger. Click "
 #~ "and hold down the mouse button for a menu with all available font sizes.</"
@@ -7885,9 +7114,6 @@ msgstr "Выбраць..."
 #~ msgstr "Зменшыць памер шрыфту"
 
 #, fuzzy
-#~| msgid ""
-#~| "Shrink Font<br /><br />Make the font in this window smaller. Click and "
-#~| "hold down the mouse button for a menu with all available font sizes."
 #~ msgid ""
 #~ "<qt>Shrink Font<br /><br />Make the font in this window smaller. Click "
 #~ "and hold down the mouse button for a menu with all available font sizes.</"
@@ -7897,9 +7123,6 @@ msgstr "Выбраць..."
 #~ "левую кнопку мышы, каб убачыць спіс наяўных памераў шрыфту."
 
 #, fuzzy
-#~| msgid ""
-#~| "Find text<br /><br />Shows a dialog that allows you to find text on the "
-#~| "displayed page."
 #~ msgid ""
 #~ "<qt>Find text<br /><br />Shows a dialog that allows you to find text on "
 #~ "the displayed page.</qt>"
@@ -7908,9 +7131,6 @@ msgstr "Выбраць..."
 #~ "паказанай старонцы."
 
 #, fuzzy
-#~| msgid ""
-#~| "Find next<br /><br />Find the next occurrence of the text that you have "
-#~| "found using the <b>Find Text</b> function"
 #~ msgid ""
 #~ "<qt>Find next<br /><br />Find the next occurrence of the text that you "
 #~ "have found using the <b>Find Text</b> function.</qt>"
@@ -7919,9 +7139,6 @@ msgstr "Выбраць..."
 #~ "дапамогай функцыі <b>Знайсці тэкст</b>"
 
 #, fuzzy
-#~| msgid ""
-#~| "Find previous<br /><br />Find the previous occurrence of the text that "
-#~| "you have found using the <b>Find Text</b> function"
 #~ msgid ""
 #~ "<qt>Find previous<br /><br />Find the previous occurrence of the text "
 #~ "that you have found using the <b>Find Text</b> function.</qt>"
@@ -7936,9 +7153,6 @@ msgstr "Выбраць..."
 #~ msgstr "Шукаць спасылкі пры ўводзе"
 
 #, fuzzy
-#~| msgid ""
-#~| "Print Frame<br /><br />Some pages have several frames. To print only a "
-#~| "single frame, click on it and then use this function."
 #~ msgid ""
 #~ "<qt>Print Frame<br /><br />Some pages have several frames. To print only "
 #~ "a single frame, click on it and then use this function.</qt>"
@@ -7957,12 +7171,10 @@ msgstr "Выбраць..."
 #~ msgstr "&Выключыць паведамленні пра памылкі"
 
 #, fuzzy
-#~| msgid "<b>Error</b>: %1: %2"
 #~ msgid "<qt><b>Error</b>: %1: %2</qt>"
 #~ msgstr "Памылка: %1"
 
 #, fuzzy
-#~| msgid "<b>Error</b>: node %1: %2"
 #~ msgid "<qt><b>Error</b>: node %1: %2</qt>"
 #~ msgstr "<b>Памылка</b>: вузел %1: %2"
 
@@ -7970,7 +7182,6 @@ msgstr "Выбраць..."
 #~ msgstr "Паказваць малюнкі на старонцы"
 
 #, fuzzy
-#~| msgid "<b>Error</b>: %1: %2"
 #~ msgid "Error: %1 - %2"
 #~ msgstr "Памылка!"
 
@@ -7996,6 +7207,9 @@ msgstr "Выбраць..."
 #~ msgid "Additional Information: %1"
 #~ msgstr "Дадатковая інфармацыя: %1"
 
+#~ msgid "Description:"
+#~ msgstr "Апісанне:"
+
 #~ msgid "Possible Causes:"
 #~ msgstr "Магчымыя вынікі:"
 
@@ -8005,7 +7219,6 @@ msgstr "Выбраць..."
 #~ msgid "Page loaded."
 #~ msgstr "Старонка загружаная."
 
-#, fuzzy
 #~ msgid "%1 Image of %2 loaded."
 #~ msgid_plural "%1 Images of %2 loaded."
 #~ msgstr[0] "%1 малюнак з %2 загружаны."
@@ -8025,7 +7238,6 @@ msgstr "Выбраць..."
 #~ msgstr "%1 (спасылка)"
 
 #, fuzzy
-#~| msgid "%2 (%1 bytes)"
 #~ msgid "%2 (%1 byte)"
 #~ msgid_plural "%2 (%1 bytes)"
 #~ msgstr[0] "%2 (%1 байтаў)"
@@ -8070,14 +7282,11 @@ msgstr "Выбраць..."
 #~ msgstr "   <a href=\"%1\">[Уласцівасці]</a>"
 
 #, fuzzy
-#~| msgctxt "@item Text character set"
-#~| msgid "Turkish"
 #~ msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 #~ msgid "Quirks"
 #~ msgstr "Турэцкая"
 
 #, fuzzy
-#~| msgid "Start"
 #~ msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 #~ msgid "Strict"
 #~ msgstr "Запусціць"
@@ -8103,6 +7312,12 @@ msgstr "Выбраць..."
 #~ msgstr ""
 #~ "Гэты сайт спрабуе адаслаць звесткі па электроннай пошце.\n"
 #~ "Вы хочаце працягнуць?"
+
+#~ msgid "&Send Email"
+#~ msgstr "&Даслаць ліст"
+
+#~ msgid "(%1/s)"
+#~ msgstr "(%1/с)"
 
 #~ msgid "Security Warning"
 #~ msgstr "Папярэджанне сістэмы бяспекі"
@@ -8130,7 +7345,6 @@ msgstr "Выбраць..."
 #~ msgid "Popup Window Blocked"
 #~ msgstr "Выплыўнае акно заблакаванае"
 
-#, fuzzy
 #~ msgid "&Show Blocked Popup Window"
 #~ msgid_plural "&Show %1 Blocked Popup Windows"
 #~ msgstr[0] "&Паказаць %1 заблакаванае выплыўнае акно"
@@ -8156,8 +7370,6 @@ msgstr "Выбраць..."
 #~ msgstr "Памылка фільтру"
 
 #, fuzzy
-#~| msgctxt "@item font size"
-#~| msgid "Relative"
 #~ msgid "Inactive"
 #~ msgstr "Адносны"
 
@@ -8212,28 +7424,22 @@ msgstr "Выбраць..."
 #~ msgstr "Паўза"
 
 #, fuzzy
-#~| msgid "Shortcut"
 #~ msgid "New Web Shortcut"
 #~ msgstr "Скарот"
 
 #, fuzzy
-#~| msgctxt "Socket error code AlreadyCreated"
-#~| msgid "socket is already created"
 #~ msgid "%1 is already assigned to %2"
 #~ msgstr "сокет ужо створаны"
 
 #, fuzzy
-#~| msgid "Enter search phrase here"
 #~ msgid "New search provider"
 #~ msgstr "Увядзіце сюды тэкст для пошуку"
 
 #, fuzzy
-#~| msgid "Shortcuts"
 #~ msgid "UR&I shortcuts:"
 #~ msgstr "Скароты"
 
 #, fuzzy
-#~| msgid "Configure Shortcuts"
 #~ msgid "Create Web Shortcut"
 #~ msgstr "Наставіць скароты"
 
@@ -8265,9 +7471,6 @@ msgstr "Выбраць..."
 #~ msgstr "Прыпыніць/працягнуць рэгрэсіўны тэст"
 
 #, fuzzy
-#~| msgid ""
-#~| "You may select a file where the log content is stored, before the "
-#~| "regression testing started."
 #~ msgid ""
 #~ "You may select a file where the log content is stored, before the "
 #~ "regression testing is started."
@@ -8276,12 +7479,10 @@ msgstr "Выбраць..."
 #~ "тым, як рэгрэсіўны тэст пачнецца."
 
 #, fuzzy
-#~| msgid "Output to file..."
 #~ msgid "Output to File..."
 #~ msgstr "Вывесці ў файл..."
 
 #, fuzzy
-#~| msgid "Regression testing status"
 #~ msgid "Regression Testing Status"
 #~ msgstr "Стан рэгрэсіўнага тэсту"
 
@@ -8295,22 +7496,18 @@ msgstr "Выбраць..."
 #~ msgstr "Праверкі"
 
 #, fuzzy
-#~| msgid "Only run JS tests"
 #~ msgid "Only Run JS Tests"
 #~ msgstr "Запусціць толькі тэст JS"
 
 #, fuzzy
-#~| msgid "Only run HTML tests"
 #~ msgid "Only Run HTML Tests"
 #~ msgstr "Запусціць толькі тэст HTML"
 
 #, fuzzy
-#~| msgid "Run tests..."
 #~ msgid "Run Tests..."
 #~ msgstr "Выканаць тэсты..."
 
 #, fuzzy
-#~| msgid "Run single test..."
 #~ msgid "Run Single Test..."
 #~ msgstr "Запусціць адзін тэст..."
 
@@ -8330,7 +7527,6 @@ msgstr "Выбраць..."
 #~ msgstr "Наяўныя тэсты: %1 (праігнаравана: %2)"
 
 #, fuzzy
-#~| msgid "Can not find testregression executable."
 #~ msgid "Cannot find testregression executable."
 #~ msgstr "Немагчыма знайсці выканальны файл testregression"
 
@@ -8341,7 +7537,6 @@ msgstr "Выбраць..."
 #~ msgstr "Дадаць да ігнаруемых..."
 
 #, fuzzy
-#~| msgid "url to open"
 #~ msgid "URL to open"
 #~ msgstr "Адкрыць URL"
 
@@ -8349,44 +7544,38 @@ msgstr "Выбраць..."
 #~ msgstr "Testkhtml"
 
 #, fuzzy
-#~| msgid "Find Links as You Type"
 #~ msgid "Find &links only"
 #~ msgstr "Шукаць спасылкі пры ўводзе"
 
 #, fuzzy
-#~| msgid "Find"
 #~ msgid "F&ind:"
 #~ msgstr "Знайсці"
 
 #, fuzzy
-#~| msgctxt "Opposite to Previous"
-#~| msgid "&Next"
 #~ msgid "&Next"
 #~ msgstr "&Наступны"
 
 #, fuzzy
-#~| msgid "Options"
 #~ msgid "Opt&ions"
 #~ msgstr "Параметры"
 
 #, fuzzy
-#~| msgid "Do you really want to delete this item?"
-#~| msgid_plural "Do you really want to delete these %1 items?"
 #~ msgid "Do you want to store this password?"
 #~ msgstr "Вы сапраўды хочаце выдаліць %1 элемент?"
 
 #, fuzzy
-#~| msgid "Do you want to restart search from the end?"
 #~ msgid "Do you want to store this password for %1?"
 #~ msgstr "Вы хочаце працягнуць пошук з канца?"
 
 #, fuzzy
-#~| msgid "Ne&ver for This Site"
+#~ msgid "&Store"
+#~ msgstr "Захоўваць"
+
+#, fuzzy
 #~ msgid "Ne&ver store for this site"
 #~ msgstr "Ні&колі для гэтага сайту"
 
 #, fuzzy
-#~| msgid "Do not show this message again"
 #~ msgid "Do &not store this time"
 #~ msgstr "Больш не паказваць гэтае паведамленне"
 
@@ -8401,9 +7590,6 @@ msgstr "Выбраць..."
 
 #~ msgid "XML parsing error"
 #~ msgstr "Памылка апрацоўкі XML"
-
-#~ msgid "Could not find '%1' executable."
-#~ msgstr "Немагчыма знайсці праграму '%1'."
 
 #~ msgid ""
 #~ "Could not open library '%1'.\n"
@@ -8420,7 +7606,6 @@ msgstr "Выбраць..."
 #~ "%2"
 
 #, fuzzy
-#~| msgid "KDEInit could not launch '%1'."
 #~ msgid "KDEInit could not launch '%1'"
 #~ msgstr "KDEInit не можа выканаць '%1'."
 
@@ -8554,17 +7739,12 @@ msgstr "Выбраць..."
 #~ msgstr "Файл %1 не знойдзены."
 
 #, fuzzy
-#~| msgid "Alt"
 #~ msgid "Alert"
 #~ msgstr "Alt"
 
 #, fuzzy
-#~| msgid "Configure"
 #~ msgid "Confirm"
 #~ msgstr "Настаўленне"
-
-#~ msgid "Could not open file '%1'"
-#~ msgstr "Немагчыма адкрыць файл '%1'"
 
 #~ msgid "Could not create temporary file."
 #~ msgstr "Немагчыма стварыць часовы файл."
@@ -8588,7 +7768,6 @@ msgstr "Выбраць..."
 #~ msgstr "Нечаканая колькасць аргументаў."
 
 #, fuzzy
-#~| msgid "There is no matching item available.\n"
 #~ msgid "but there is only %1 available"
 #~ msgid_plural "but there are only %1 available"
 #~ msgstr[0] "Няма супадзенняў.\n"
@@ -8596,8 +7775,6 @@ msgstr "Выбраць..."
 #~ msgstr[2] "Няма супадзенняў.\n"
 
 #, fuzzy
-#~| msgctxt "concatenation of dates and time"
-#~| msgid "%1 %2"
 #~ msgctxt ""
 #~ "%1 is 'the slot asked for foo arguments', %2 is 'but there are only bar "
 #~ "available'"
@@ -8640,11 +7817,17 @@ msgstr "Выбраць..."
 #~ msgid "Could not open file '%1': %2"
 #~ msgstr "Немагчыма адкрыць файл '%1': %2"
 
+#~ msgid "Failed to load file '%1'"
+#~ msgstr "Немагчыма загрузіць файл '%1'"
+
 #~ msgid "Must supply a widget name."
 #~ msgstr "Трэба задаць назву віджэту."
 
 #, fuzzy
-#~| msgid "Latest"
+#~ msgid "loading %1"
+#~ msgstr "Рэйтынг:"
+
+#, fuzzy
 #~ msgctxt "describes the feed of the latest posted entries"
 #~ msgid "Latest"
 #~ msgstr "Апошні"
@@ -8655,6 +7838,55 @@ msgstr "Выбраць..."
 #~ msgid "Most Downloads"
 #~ msgstr "Больш спампоўванняў"
 
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure "
+#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
+#~ "resources will not be possible.</qt>"
+#~ msgstr ""
+#~ "<qt>Немагчыма выканаць <i>gpg</i> і атрымаць спіс наяўных ключоў. "
+#~ "Праверце, ці ўстаноўлена праграма <i>gpg</i>, інакш праверка "
+#~ "апублікаваных рэсурсаў будзе немагчымай.</qt>"
+
+#~ msgid ""
+#~ "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;"
+#~ "%3&gt;</i><br />:</qt>"
+#~ msgstr ""
+#~ "<qt>Набярыце пароль для ключа <b>0x%1</b>, які належыць<br /><i>%2&lt;"
+#~ "%3&gt;</i><br />:</qt>"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
+#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
+#~ "resources will not be possible.</qt>"
+#~ msgstr ""
+#~ "<qt>Немагчыма выканаць праграму <i>gpg</i> і праверыць файл. Праверце, ці "
+#~ "ўстаноўлена праграма <i>gpg</i>, інакш праверка апублікаваных рэсурсаў "
+#~ "будзе немагчымай.</qt>"
+
+#~ msgid "Select Signing Key"
+#~ msgstr "Выберыце ключ для падпісвання"
+
+#~ msgid "Key used for signing:"
+#~ msgstr "Ключ для падпісвання:"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> "
+#~ "is installed, otherwise signing of the resources will not be possible.</"
+#~ "qt>"
+#~ msgstr ""
+#~ "<qt>Немагчыма выканаць праграму <i>gpg</i> і падпісаць файл. Праверце, ці "
+#~ "ўстаноўлена праграма <i>gpg</i>, інакш падпісванне рэсурсу будзе "
+#~ "немагчымым.</qt>"
+
+#, fuzzy
+#~ msgid "Get Hot New Stuff"
+#~ msgstr "Сцягнуць новыя рэчы!"
+
+#, fuzzy
+#~ msgctxt "Program name followed by 'Add On Installer'"
+#~ msgid "%1 Add-On Installer"
+#~ msgstr "Устаноўка утулак %1"
+
 #~ msgid "Add Rating"
 #~ msgstr "Дадаць адзнаку"
 
@@ -8662,7 +7894,40 @@ msgstr "Выбраць..."
 #~ msgstr "Дадаць каментар"
 
 #, fuzzy
-#~| msgid "There was an error loading the module."
+#~ msgid "View Comments"
+#~ msgstr "Каментары"
+
+#, fuzzy
+#~ msgid "Re: %1"
+#~ msgstr "Паўтарыць: %1"
+
+#, fuzzy
+#~ msgid "Timeout. Check Internet connection."
+#~ msgstr "Перавышаны тэрмін чакання. Праверце злучэнне з інтэрнэтам!"
+
+#~ msgid "Server: %1"
+#~ msgstr "Сервер: %1"
+
+#, fuzzy
+#~ msgid "<br />Provider: %1"
+#~ msgstr "Пастаўшчык: %1"
+
+#, fuzzy
+#~ msgid "<br />Version: %1"
+#~ msgstr "Версія: %1"
+
+#~ msgid "Provider information"
+#~ msgstr "Звесткі пра пастаўшчыка"
+
+#, fuzzy
+#~ msgid "Could not install %1"
+#~ msgstr "Немагчыма прачытаць файл '%1'"
+
+#, fuzzy
+#~ msgid "Get Hot New Stuff!"
+#~ msgstr "Сцягнуць новыя рэчы!"
+
+#, fuzzy
 #~ msgid "There was an error loading data providers."
 #~ msgstr "Немагчыма адкрыць модуль."
 
@@ -8681,26 +7946,46 @@ msgstr "Выбраць..."
 #~ msgid "&Order by:"
 #~ msgstr "Упарадкаваць па:"
 
+#~ msgid "Enter search phrase here"
+#~ msgstr "Увядзіце сюды тэкст для пошуку"
+
 #~ msgid "Collaborate"
 #~ msgstr "Cупрацоўніцтва"
+
+#~ msgid "Rating: "
+#~ msgstr "Рэйтынг:"
 
 #~ msgid "Downloads: "
 #~ msgstr "Сцягванні:"
 
+#~ msgid "Install"
+#~ msgstr "Устанавіць"
+
+#~ msgid "Uninstall"
+#~ msgstr "Выдаліць"
+
 #, fuzzy
-#~| msgid "Most Downloads"
 #~ msgid "<p>No Downloads</p>"
 #~ msgstr "Больш спампоўванняў"
 
 #, fuzzy
-#~| msgid "Rating: "
+#~ msgid "<p>Downloads: %1</p>\n"
+#~ msgstr "Сцягванні:"
+
+#~ msgid "Update"
+#~ msgstr "Абнавіць"
+
+#, fuzzy
 #~ msgid "Rating: %1"
 #~ msgstr "Рэйтынг:"
 
 #, fuzzy
-#~| msgid "Show Preview"
 #~ msgid "No Preview"
 #~ msgstr "Паказваць прагляд"
+
+#, fuzzy
+#~ msgid "Loading Preview"
+#~ msgstr "Прагляд друку"
 
 #~ msgid "Comments"
 #~ msgstr "Каментары"
@@ -8772,7 +8057,6 @@ msgstr "Выбраць..."
 #~ msgstr "дапрацоўка KNewStuff"
 
 #, fuzzy
-#~| msgid "This operation needs authentication"
 #~ msgid "This operation requires authentication."
 #~ msgstr "Гэтая аперацыя патрабуе спраўджвання"
 
@@ -8788,6 +8072,10 @@ msgstr "Выбраць..."
 #~ msgid "Translate this entry"
 #~ msgstr "Перакласці гэты запіс"
 
+#, fuzzy
+#~ msgid "Download New Stuff..."
+#~ msgstr "Сцягнцуь новыя файлы"
+
 #~ msgid "Hot New Stuff Providers"
 #~ msgstr "Пастаўшчыкі новых файлаў"
 
@@ -8796,6 +8084,17 @@ msgstr "Выбраць..."
 
 #~ msgid "No provider selected."
 #~ msgstr "Пастаўшчык нявызначаны."
+
+#~ msgid "Share Hot New Stuff"
+#~ msgstr "Апублікаваць тэмы"
+
+#, fuzzy
+#~ msgctxt "Program name followed by 'Add On Uploader'"
+#~ msgid "%1 Add-On Uploader"
+#~ msgstr "Устаноўка утулак %1"
+
+#~ msgid "Please put in a name."
+#~ msgstr "Калі ласка, вызначце назву."
 
 #~ msgid "Old upload information found, fill out fields?"
 #~ msgstr "Знойдзены звесткі папярэдняй загрузкі, запоўніць палі?"
@@ -8806,10 +8105,21 @@ msgstr "Выбраць..."
 #~ msgid "Do Not Fill Out"
 #~ msgstr "Не запаўняць"
 
+#~ msgid "Author:"
+#~ msgstr "Аўтар:"
+
 #, fuzzy
-#~| msgid "E-mail address:"
 #~ msgid "Email address:"
 #~ msgstr "Адрас электроннай пошты:"
+
+#~ msgid "GPL"
+#~ msgstr "GPL"
+
+#~ msgid "LGPL"
+#~ msgstr "LGPL"
+
+#~ msgid "BSD"
+#~ msgstr "BSD"
 
 #~ msgid "Preview URL:"
 #~ msgstr "URL прагляду:"
@@ -8818,7 +8128,6 @@ msgstr "Выбраць..."
 #~ msgstr "Мова:"
 
 #, fuzzy
-#~| msgid "In which language did you describe above?"
 #~ msgid "In which language did you describe the above?"
 #~ msgstr "На якой мове вы напісалі тэкст вышэй?"
 
@@ -8830,6 +8139,234 @@ msgstr "Выбраць..."
 
 #~ msgid "Please give some information about yourself."
 #~ msgstr "Калі ласка, дайце пра вас звесткі."
+
+#, fuzzy
+#~ msgctxt "voting for an item (good/bad)"
+#~ msgid "Your vote was recorded."
+#~ msgstr "Тэкст не заменены."
+
+#, fuzzy
+#~ msgid "Initializing"
+#~ msgstr "Устанавіць"
+
+#, fuzzy
+#~ msgid "Configuration file not found: \"%1\""
+#~ msgstr "Файлы настаўлення"
+
+#, fuzzy
+#~ msgid "Configuration file is invalid: \"%1\""
+#~ msgstr "Файлы настаўлення"
+
+#, fuzzy
+#~ msgid "Loading provider information"
+#~ msgstr "Паказаць інфармацыю пра фрэйм"
+
+#, fuzzy
+#~ msgid "Loading data"
+#~ msgstr "Апрацоўванне аплета"
+
+#, fuzzy
+#~ msgid "Loading one preview"
+#~ msgid_plural "Loading %1 previews"
+#~ msgstr[0] "Прагляд друку"
+#~ msgstr[1] "Прагляд друку"
+#~ msgstr[2] "Прагляд друку"
+
+#, fuzzy
+#~ msgid "Installing"
+#~ msgstr "Устанавіць"
+
+#, fuzzy
+#~ msgid "Possibly bad download link"
+#~ msgstr "Немагчыма стварыць часовы файл."
+
+#, fuzzy
+#~ msgid "Could not install \"%1\": file not found."
+#~ msgstr "Немагчыма прачытаць файл '%1'"
+
+#, fuzzy
+#~ msgid "Overwrite existing file?"
+#~ msgstr "Перазапісаць файл?"
+
+#, fuzzy
+#~ msgid "Download File"
+#~ msgstr "Спампаваць"
+
+#, fuzzy
+#~ msgid "Details view mode"
+#~ msgstr "Падрабязны выгляд"
+
+#, fuzzy
+#~ msgid "All Providers"
+#~ msgstr "*|Усе тэчкі"
+
+#, fuzzy
+#~ msgid "All Categories"
+#~ msgstr "Старонкі"
+
+#, fuzzy
+#~ msgid "Provider:"
+#~ msgstr "Пастаўшчык: %1"
+
+#, fuzzy
+#~ msgid "Category:"
+#~ msgstr "Сімвал:"
+
+#, fuzzy
+#~ msgid "Newest"
+#~ msgstr "Новы"
+
+#, fuzzy
+#~ msgid "Rating"
+#~ msgstr "Рэйтынг:"
+
+#, fuzzy
+#~ msgid "Most downloads"
+#~ msgstr "Больш спампоўванняў"
+
+#, fuzzy
+#~ msgid "Installed"
+#~ msgstr "Устанавіць"
+
+#, fuzzy
+#~ msgid "Order by:"
+#~ msgstr "Упарадкаваць па:"
+
+#~ msgid "Search:"
+#~ msgstr "Шукаць:"
+
+#, fuzzy
+#~ msgid "Details for %1"
+#~ msgstr "Спіс прапановаў"
+
+#, fuzzy
+#~ msgid "Changelog:"
+#~ msgstr "Гісторыя зменаў"
+
+#, fuzzy
+#~ msgctxt "A link to the description of this Get Hot New Stuff item"
+#~ msgid "Homepage"
+#~ msgstr "Хатняя старонка"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "A link to make a donation for a Get Hot New Stuff item (opens a web "
+#~ "browser)"
+#~ msgid "Make a donation"
+#~ msgstr "Дакументацыя HTML"
+
+#, fuzzy
+#~ msgctxt "Tooltip for a link in a dialog"
+#~ msgid "Opens in a browser window"
+#~ msgstr "Адкрыць у новым &акне"
+
+#, fuzzy
+#~ msgid "Rating: %1%"
+#~ msgstr "Рэйтынг:"
+
+#, fuzzy
+#~ msgctxt "Show the author of this item in a list"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "<i>%1</i>"
+
+#, fuzzy
+#~ msgid "1 download"
+#~ msgid_plural "%1 downloads"
+#~ msgstr[0] "Спампаваць"
+#~ msgstr[1] "Спампаваць"
+#~ msgstr[2] "Спампаваць"
+
+#, fuzzy
+#~ msgid "Updating"
+#~ msgstr "Абнавіць"
+
+#, fuzzy
+#~ msgid "Install Again"
+#~ msgstr "Устанавіць"
+
+#, fuzzy
+#~ msgid "Checking login..."
+#~ msgstr "Праверка правапісу..."
+
+#, fuzzy
+#~ msgid "Fetching your previously updated content..."
+#~ msgstr "Прагляд друку"
+
+#, fuzzy
+#~ msgid "Could not verify login, please try again."
+#~ msgstr "Запісаць інфармацыю аўтарызацыі"
+
+#, fuzzy
+#~ msgid "File not found: %1"
+#~ msgstr "Файл %1 не знойдзены."
+
+#, fuzzy
+#~ msgid "Upload Failed"
+#~ msgstr "Спампаваць"
+
+#, fuzzy
+#~ msgid "Select preview image"
+#~ msgstr "Выберыце кавалак малюнку"
+
+#, fuzzy
+#~ msgid "Uploading Failed"
+#~ msgstr "Спампаваць"
+
+#, fuzzy
+#~ msgid "Authentication error."
+#~ msgstr "Памылка сувязі"
+
+#, fuzzy
+#~ msgid "Upload failed: %1"
+#~ msgstr "Спампаваць"
+
+#, fuzzy
+#~ msgid "File to upload:"
+#~ msgstr "Старонка загружаная."
+
+#, fuzzy
+#~ msgid "New Upload"
+#~ msgstr "Абнавіць"
+
+#, fuzzy
+#~ msgid "Preview Images"
+#~ msgstr "URL прагляду:"
+
+#, fuzzy
+#~ msgid "Select Preview..."
+#~ msgstr "Выбраць файлы..."
+
+#, fuzzy
+#~ msgid "Set a price for this item"
+#~ msgstr "Ні&колі для гэтага сайту"
+
+#, fuzzy
+#~ msgid "Price"
+#~ msgstr "Крыніца:"
+
+#, fuzzy
+#~ msgid "Price:"
+#~ msgstr "Крыніца:"
+
+#, fuzzy
+#~ msgid "Upload content"
+#~ msgstr "Прагляд друку"
+
+#, fuzzy
+#~ msgid "Upload first preview"
+#~ msgstr "Прагляд друку"
+
+#, fuzzy
+#~ msgid "Upload second preview"
+#~ msgstr "Прагляд друку"
+
+#, fuzzy
+#~ msgid "Upload third preview"
+#~ msgstr "Прагляд друку"
+
+#, fuzzy
+#~ msgid "Start Upload"
+#~ msgstr "Пачаць замену"
 
 #~ msgid "Play a &sound"
 #~ msgstr "Прайграць гук"
@@ -8856,12 +8393,10 @@ msgstr "Выбраць..."
 #~ msgstr "&Мова"
 
 #, fuzzy
-#~| msgid "&Break at Next Statement"
 #~ msgid "Speak Event Name"
 #~ msgstr "&Спыніцца на наступным выразе"
 
 #, fuzzy
-#~| msgid "&Break at Next Statement"
 #~ msgid "Speak Custom Text"
 #~ msgstr "&Спыніцца на наступным выразе"
 
@@ -8890,61 +8425,51 @@ msgstr "Выбраць..."
 #~ msgstr "&Шукаць"
 
 #, fuzzy
-#~| msgid "Redo: %1"
 #~ msgctxt "@label Type of file"
 #~ msgid "Type: %1"
 #~ msgstr "Паўтарыць: %1"
 
 #, fuzzy
-#~| msgid "Do not show this message again"
 #~ msgctxt "@label:checkbox"
 #~ msgid "Remember action for files of this type"
 #~ msgstr "Больш не паказваць гэтае паведамленне"
 
 #, fuzzy
-#~| msgid "&Open with '%1'"
 #~ msgctxt "@label:button"
 #~ msgid "&Open with %1"
 #~ msgstr "&Адкрыць у '%1'"
 
 #, fuzzy
-#~| msgid "&Open with '%1'"
 #~ msgctxt "@action:inmenu"
 #~ msgid "Open &with %1"
 #~ msgstr "&Адкрыць у '%1'"
 
 #, fuzzy
-#~| msgid "Open '%1'"
 #~ msgctxt "@info"
 #~ msgid "Open '%1'?"
 #~ msgstr "Адкрыць '%1'"
 
 #, fuzzy
-#~| msgid "&Open With..."
 #~ msgctxt "@label:button"
 #~ msgid "&Open with..."
 #~ msgstr "&Адкрыць у..."
 
 #, fuzzy
-#~| msgid "&Open With..."
 #~ msgctxt "@label:button"
 #~ msgid "&Open with"
 #~ msgstr "&Адкрыць у..."
 
 #, fuzzy
-#~| msgid "&Open"
 #~ msgctxt "@label:button"
 #~ msgid "&Open"
 #~ msgstr "&Адкрыць"
 
 #, fuzzy
-#~| msgid "Name:"
 #~ msgctxt "@label File name"
 #~ msgid "Name: %1"
 #~ msgstr "Назва:"
 
 #, fuzzy
-#~| msgid "This is the name to save the file as."
 #~ msgctxt "@info:whatsthis"
 #~ msgid "This is the file name suggested by the server"
 #~ msgstr "Гэта назва, з якой трэба захаваць файл."
@@ -9005,13 +8530,14 @@ msgstr "Выбраць..."
 #~ msgstr "Файл сцэнару"
 
 #, fuzzy
-#~| msgid "File %1 not found."
 #~ msgid "Scriptfile \"%1\" does not exist."
 #~ msgstr "Файл %1 не знойдзены."
 
 #, fuzzy
-#~| msgid "Failed to open scriptfile \"%1\""
 #~ msgid "Failed to determine interpreter for scriptfile \"%1\""
+#~ msgstr "Немагчыма адкрыць файл сцэнару \"%1\"."
+
+#~ msgid "Failed to open scriptfile \"%1\""
 #~ msgstr "Немагчыма адкрыць файл сцэнару \"%1\"."
 
 #~ msgid "Failed to load interpreter \"%1\""
@@ -9027,12 +8553,10 @@ msgstr "Выбраць..."
 #~ msgstr "Узровень бяспекі інтэрпрытатара Ruby"
 
 #, fuzzy
-#~| msgid "Cancel"
 #~ msgid "Cancel?"
 #~ msgstr "Скасаваць"
 
 #, fuzzy
-#~| msgid "No such interpreter \"%1\""
 #~ msgid "No such function \"%1\""
 #~ msgstr "Не існуе інтэрпрытатара \"%1\""
 
@@ -9072,11 +8596,7 @@ msgstr "Выбраць..."
 #~ msgid "Remove selected script."
 #~ msgstr "Выдаліць вызначаны сцэнар"
 
-#~ msgid "Edit"
-#~ msgstr "Змяніць"
-
 #, fuzzy
-#~| msgid "General"
 #~ msgctxt "@title:group Script properties"
 #~ msgid "General"
 #~ msgstr "Агульныя"
@@ -9085,9 +8605,6 @@ msgstr "Выбраць..."
 #~ msgstr "Модуль %1 не знойдзены."
 
 #, fuzzy
-#~| msgid ""
-#~| "<qt><p>The diagnostics is:<br />The desktop file %1 could not be found.</"
-#~| "p></qt>"
 #~ msgid ""
 #~ "<qt><p>The diagnosis is:<br />The desktop file %1 could not be found.</"
 #~ "p></qt>"
@@ -9101,9 +8618,6 @@ msgstr "Выбраць..."
 #~ msgstr "Модуль %1 не з'яўляецца нармальным модулем настаўлення."
 
 #, fuzzy
-#~| msgid ""
-#~| "<qt>The diagnostics is:<br />The desktop file %1 does not specify a "
-#~| "library.</qt>"
 #~ msgid ""
 #~ "<qt>The diagnosis is:<br />The desktop file %1 does not specify a library."
 #~ "</qt>"
@@ -9119,9 +8633,6 @@ msgstr "Выбраць..."
 #~ msgstr "Гэты раздзел настаўлення ўжо адкрыты ў праграме %1"
 
 #, fuzzy
-#~| msgid ""
-#~| "The document \"%1\" has been modified.\n"
-#~| "Do you want to save your changes or discard them?"
 #~ msgid ""
 #~ "The settings of the current module have changed.\n"
 #~ "Do you want to apply the changes or discard them?"
@@ -9130,7 +8641,6 @@ msgstr "Выбраць..."
 #~ "Вы хочаце захаваць змены ці адхіліць іх?"
 
 #, fuzzy
-#~| msgid "Settings"
 #~ msgid "Apply Settings"
 #~ msgstr "Настаўленні"
 
@@ -9218,6 +8728,9 @@ msgstr "Выбраць..."
 
 #~ msgid "Shortcut for shutting down the computer without confirmation"
 #~ msgstr "Скарот для выключэння вашага камп'ютэру без пацверджання"
+
+#~ msgid "Show directories first"
+#~ msgstr "Спачатку паказваць тэчкі"
 
 #~ msgid ""
 #~ "Whether directories should be placed at the top when displaying files"
@@ -9307,12 +8820,10 @@ msgstr "Выбраць..."
 #~ msgstr ", "
 
 #, fuzzy
-#~| msgid "Search Columns"
 #~ msgid "Search Plugins"
 #~ msgstr "Шукаць у слупках"
 
 #, fuzzy
-#~| msgid "About %1"
 #~ msgctxt "Used only for plugins"
 #~ msgid "About %1"
 #~ msgstr "Пра %1"
@@ -9327,7 +8838,6 @@ msgstr "Выбраць..."
 #~ msgstr "Выбар кампанентаў"
 
 #, fuzzy
-#~| msgid "Embeddable HTML component"
 #~ msgid "Enable component"
 #~ msgstr "Убудаваны кампанент HTML"
 
@@ -9341,7 +8851,6 @@ msgstr "Выбраць..."
 #~ msgstr "Няправільны тып у базе дадзеных"
 
 #, fuzzy
-#~| msgid "Esfand"
 #~ msgctxt ""
 #~ "Boolean AND keyword in desktop search strings. You can add several "
 #~ "variants separated by spaces, e.g. retain the English one alongside the "
@@ -9351,8 +8860,6 @@ msgstr "Выбраць..."
 #~ msgstr "Esfand"
 
 #, fuzzy
-#~| msgctxt "Mordad short"
-#~| msgid "Mor"
 #~ msgctxt ""
 #~ "Boolean OR keyword in desktop search strings. You can add several "
 #~ "variants separated by spaces, e.g. retain the English one alongside the "
@@ -9362,87 +8869,76 @@ msgstr "Выбраць..."
 #~ msgstr "Mor"
 
 #, fuzzy
-#~| msgid "(C) 2005-2007 Sebastian Sauer"
 #~ msgid "(c) 2006-2009, Sebastian Trüg"
 #~ msgstr "(C) 2005-2007 Себасцьян Саўэр"
 
 #, fuzzy
-#~| msgid "Sebastian Sauer"
 #~ msgid "Sebastian Trüg"
 #~ msgstr "Себасцьян Саўэр"
 
 #, fuzzy
-#~| msgid "Tobias Anton"
+#~ msgid "Maintainer"
+#~ msgstr "ГалоўнаеВакно"
+
+#, fuzzy
 #~ msgid "Tobias Koenig"
 #~ msgstr "Тобіяс Антон"
 
 #, fuzzy
-#~| msgid "Change Icon"
 #~ msgctxt "@title:window"
 #~ msgid "Change Tags"
 #~ msgstr "Змяніць значку"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "@title:window"
 #~ msgid "Add Tags"
 #~ msgstr "Старонкі"
 
 #, fuzzy
-#~| msgid "Create New Tag..."
 #~ msgctxt "@label"
 #~ msgid "Create new tag:"
 #~ msgstr "Стварыць новы цэтлік..."
 
 #, fuzzy
-#~| msgid "Delete"
 #~ msgctxt "@info"
 #~ msgid "Delete tag"
 #~ msgstr "Выдаліць"
 
 #, fuzzy
-#~| msgid "Delete"
 #~ msgctxt "@title"
 #~ msgid "Delete tag"
 #~ msgstr "Выдаліць"
 
 #, fuzzy
-#~| msgid "Delete"
 #~ msgctxt "@action:button"
 #~ msgid "Delete"
 #~ msgstr "Выдаліць"
 
 #, fuzzy
-#~| msgid "Cancel"
 #~ msgctxt "@action:button"
 #~ msgid "Cancel"
 #~ msgstr "Скасаваць"
 
 #, fuzzy
-#~| msgid "Configure Notifications"
 #~ msgid "Changing annotations"
 #~ msgstr "Наставіць &абвяшчэнні..."
 
 #, fuzzy
-#~| msgid "Show all options"
 #~ msgctxt "@label"
 #~ msgid "Show all tags..."
 #~ msgstr "Паказаць усе опцыі"
 
 #, fuzzy
-#~| msgid "Add..."
 #~ msgctxt "@label"
 #~ msgid "Add Tags..."
 #~ msgstr "Дадаць..."
 
 #, fuzzy
-#~| msgid "Change &Icon..."
 #~ msgctxt "@label"
 #~ msgid "Change..."
 #~ msgstr "Змяніць &значку..."
 
 #, fuzzy
-#~| msgid "Today"
 #~ msgctxt ""
 #~ "referring to a filter on the modification and usage date of files/"
 #~ "resources"
@@ -9450,7 +8946,6 @@ msgstr "Выбраць..."
 #~ msgstr "Сёння"
 
 #, fuzzy
-#~| msgid "Yesterday"
 #~ msgctxt ""
 #~ "referring to a filter on the modification and usage date of files/"
 #~ "resources"
@@ -9458,7 +8953,6 @@ msgstr "Выбраць..."
 #~ msgstr "Учора"
 
 #, fuzzy
-#~| msgid "&Last Page"
 #~ msgctxt ""
 #~ "referring to a filter on the modification and usage date of files/"
 #~ "resources"
@@ -9466,7 +8960,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Апошняя старонка"
 
 #, fuzzy
-#~| msgid "Next month"
 #~ msgctxt ""
 #~ "referring to a filter on the modification and usage date of files/"
 #~ "resources"
@@ -9474,7 +8967,6 @@ msgstr "Выбраць..."
 #~ msgstr "Наступны месяц"
 
 #, fuzzy
-#~| msgid "&Last Page"
 #~ msgctxt ""
 #~ "referring to a filter on the modification and usage date of files/"
 #~ "resources"
@@ -9482,8 +8974,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Апошняя старонка"
 
 #, fuzzy
-#~| msgctxt "Custom color"
-#~| msgid "Custom..."
 #~ msgctxt ""
 #~ "referring to a filter on the modification and usage date of files/"
 #~ "resources that will open a dialog to choose a date range"
@@ -9491,62 +8981,58 @@ msgstr "Выбраць..."
 #~ msgstr "Асаблівы..."
 
 #, fuzzy
-#~| msgid "&Restore"
 #~ msgid "Before"
 #~ msgstr "&Аднавіць"
 
 #, fuzzy
-#~| msgid "Enter"
 #~ msgid "After"
 #~ msgstr "Enter"
 
 #, fuzzy
-#~| msgid "Close Document"
+#~ msgctxt ""
+#~ "@option:check An item in a list of resources that allows to query for "
+#~ "more resources to put in the list"
+#~ msgid "More..."
+#~ msgstr "Выбраць..."
+
+#, fuzzy
 #~ msgctxt "@option:check A filter on file type"
 #~ msgid "Documents"
 #~ msgstr "Закрыць дакумент"
 
 #, fuzzy
-#~| msgid "&View"
 #~ msgctxt "@option:check A filter on file type - media video"
 #~ msgid "Video"
 #~ msgstr "&Выгляд"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "@option:check A filter on file type"
 #~ msgid "Images"
 #~ msgstr "Старонкі"
 
 #, fuzzy
-#~| msgid "Job Priority:"
 #~ msgctxt ""
 #~ "@option:radio A filter on prioritizing/sorting a selection of resources"
 #~ msgid "No priority"
 #~ msgstr "Прыярытэт задання:"
 
 #, fuzzy
-#~| msgid "Last modified:"
 #~ msgctxt ""
 #~ "@option:radio A filter on prioritizing/sorting a selection of resources"
 #~ msgid "Last modified"
 #~ msgstr "Час апошняй змены:"
 
 #, fuzzy
-#~| msgid "Add Rating"
 #~ msgctxt "@option:radio A filter on the rating of a resource"
 #~ msgid "Any Rating"
 #~ msgstr "Дадаць адзнаку"
 
 #, fuzzy
-#~| msgid "Rating: "
 #~ msgctxt "@option:radio A filter on the rating of a resource"
 #~ msgid "Max Rating"
 #~ msgstr "Рэйтынг:"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Miscellaneous Symbols"
 #~ msgctxt ""
 #~ "@title KCategorizedSortFilterProxyModel grouping for all Nepomukj "
 #~ "resources that are of type rdfs:Resource"
@@ -9554,49 +9040,45 @@ msgstr "Выбраць..."
 #~ msgstr "Розныя сімвалы"
 
 #, fuzzy
-#~| msgid "&Restore"
 #~ msgctxt "@title:column The Nepomuk resource label and icon"
 #~ msgid "Resource"
 #~ msgstr "&Аднавіць"
 
 #, fuzzy
-#~| msgid "Service types"
 #~ msgctxt "@title:column The Nepomuk resource's RDF type"
 #~ msgid "Resource Type"
 #~ msgstr "Тыпы сервісаў"
 
 #, fuzzy
-#~| msgid "Enter search phrase here"
 #~ msgid "Enter Search Terms..."
 #~ msgstr "Увядзіце сюды тэкст для пошуку"
 
 #, fuzzy
-#~| msgid "Contact author"
 #~ msgctxt "@option:check A filter on resource type"
 #~ msgid "Contacts"
 #~ msgstr "Звязацца з аўтарам"
 
 #, fuzzy
-#~| msgid "Email"
 #~ msgctxt "@option:check A filter on resource type"
 #~ msgid "Emails"
 #~ msgstr "Электронная скрыня"
 
 #, fuzzy
-#~| msgid "Task"
 #~ msgctxt "@option:check A filter on resource type"
 #~ msgid "Tasks"
 #~ msgstr "Заданне"
 
 #, fuzzy
-#~| msgid "Task"
 #~ msgctxt "@option:check A filter on resource type"
 #~ msgid "Tags"
 #~ msgstr "Заданне"
 
 #, fuzzy
-#~| msgctxt "@item Text character set"
-#~| msgid "Other"
+#~ msgctxt "@option:check Do filter on type - show only files"
+#~ msgid "Files"
+#~ msgstr "Файл"
+
+#, fuzzy
 #~ msgctxt "@option:check Do filter on type - show everything but files"
 #~ msgid "Other"
 #~ msgstr "Іншая"
@@ -9618,7 +9100,6 @@ msgstr "Выбраць..."
 #~ "Адмецьце, каб бачыць часопіс актыўнасці. Выводзіцца ён будзе на кансоль."
 
 #, fuzzy
-#~| msgid "Log Thread Activity"
 #~ msgid "Log thread activity"
 #~ msgstr "Запісваць актыўнасць патокаў"
 
@@ -9667,54 +9148,44 @@ msgstr "Выбраць..."
 #~ msgstr "Што &гэта"
 
 #, fuzzy
-#~| msgid "Next year"
 #~ msgctxt "@option next week"
 #~ msgid "Next week"
 #~ msgstr "Наступны год"
 
 #, fuzzy
-#~| msgid "&Last Page"
 #~ msgctxt "@option last week"
 #~ msgid "Last week"
 #~ msgstr "&Апошняя старонка"
 
 #, fuzzy
-#~| msgid "Today"
 #~ msgctxt "@info/plain"
 #~ msgid "today"
 #~ msgstr "Сёння"
 
 #, fuzzy
-#~| msgid "Show &Menubar"
 #~ msgid "Hide Menubar"
 #~ msgstr "Паказаць &меню"
 
 #, fuzzy
-#~| msgid "Show St&atusbar"
 #~ msgid "Hide Statusbar"
 #~ msgstr "Паказаць радок ст&атусу"
 
 #, fuzzy
-#~| msgid "File"
 #~ msgctxt "option:check A filter on resource type"
 #~ msgid "Files"
 #~ msgstr "Файл"
 
 #, fuzzy
-#~| msgctxt "@application/plain"
-#~| msgid "%1"
 #~ msgctxt "@item Author name in about dialog"
 #~ msgid "%1"
 #~ msgstr "%1"
 
 #, fuzzy
-#~| msgid "Meta"
 #~ msgctxt "option:check A filter on file type - media files"
 #~ msgid "Media"
 #~ msgstr "Meta"
 
 #, fuzzy
-#~| msgid "HTML Toolbar"
 #~ msgid "Hide Toolbar"
 #~ msgstr "Панель начыння HTML"
 
@@ -9773,18 +9244,14 @@ msgstr "Выбраць..."
 #~ msgstr "Настаўленне Sonnet"
 
 #, fuzzy
-#~| msgid "&Ignore"
 #~ msgid "I agree"
 #~ msgstr "Ігнараваць"
 
 #, fuzzy
-#~| msgid "Download"
 #~ msgid "Upload Your Own Files..."
 #~ msgstr "Спампаваць"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Devanagari"
 #~ msgctxt "digit set"
 #~ msgid "Devenagari"
 #~ msgstr "Дэванагары"
@@ -9799,6 +9266,10 @@ msgstr "Выбраць..."
 #~ "\"Што гэта?\". Калі вы хочаце дапамагчы нам апісаць гэты віджэт, вы "
 #~ "можаце <a href=\"submit-whatsthis\">даслаць нам яго апісанне</a>."
 
+#, fuzzy
+#~ msgid "Details..."
+#~ msgstr "Падрабязнасці"
+
 #~ msgid "New Tag"
 #~ msgstr "Новы цэтлік"
 
@@ -9810,6 +9281,10 @@ msgstr "Выбраць..."
 
 #~ msgid "Tag Exists"
 #~ msgstr "Цэтлік існуе"
+
+#, fuzzy
+#~ msgid "Loading preview..."
+#~ msgstr "Прагляд друку"
 
 #~ msgid "Error: HOME environment variable not set.\n"
 #~ msgstr "Памылка: зменная асяроддзя HOME не вызначаная.\n"
@@ -9833,80 +9308,81 @@ msgstr "Выбраць..."
 #~ msgstr "Новая назва вузла"
 
 #, fuzzy
-#~| msgid "Description"
 #~ msgid "description"
 #~ msgstr "Апісанне"
 
 #, fuzzy
-#~| msgid "Action"
 #~ msgid "Autor Name"
 #~ msgstr "&Назва дзеяння:"
 
 #, fuzzy
-#~| msgid "Could not construct value"
 #~ msgid "Could not get account balance."
 #~ msgstr "Немагчыма сканструіраваць значэнне"
 
 #, fuzzy
-#~| msgid "Download"
 #~ msgid "Voting failed."
 #~ msgstr "Спампаваць"
 
 #, fuzzy
-#~| msgid "Could not create temporary file."
 #~ msgid "Could not make you a fan."
 #~ msgstr "Немагчыма стварыць часовы файл."
 
 #, fuzzy
-#~| msgid "Comment"
+#~ msgid "Previews"
+#~ msgstr "Паказваць прагляд"
+
+#, fuzzy
 #~ msgid "Community"
 #~ msgstr "Заўвага"
 
 #, fuzzy
-#~| msgid "BSD"
+#~ msgid "Preview"
+#~ msgstr "Паказваць прагляд"
+
+#, fuzzy
 #~ msgid "USD"
 #~ msgstr "BSD"
 
 #, fuzzy
-#~| msgid "Print Preview"
 #~ msgid "Uploading preview image and content..."
 #~ msgstr "Прагляд друку"
 
 #, fuzzy
-#~| msgid "Server: %1"
 #~ msgid "Server:"
 #~ msgstr "Сервер: %1"
 
 #, fuzzy
-#~| msgid "The rating could not be submitted."
+#~ msgid "Upload..."
+#~ msgstr "&Замяніць..."
+
+#, fuzzy
+#~ msgid "Fetching provider information..."
+#~ msgstr "Звесткі пра пастаўшчыка"
+
+#, fuzzy
 #~ msgid "Provider could not be initialized."
 #~ msgstr "Рэйтынг не можа быць дададзены."
 
 #, fuzzy
-#~| msgid "Clear the input in the edit field"
 #~ msgid "Please fill out the name field."
 #~ msgstr "Ачысціць тэкставае поле"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^40 bytes"
 #~ msgid "%1 PB"
 #~ msgstr "%1 б"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^50 bytes"
 #~ msgid "%1 EB"
 #~ msgstr "%1 б"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^60 bytes"
 #~ msgid "%1 ZB"
 #~ msgstr "%1 б"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^70 bytes"
 #~ msgid "%1 YB"
 #~ msgstr "%1 б"
@@ -10159,215 +9635,152 @@ msgstr "Выбраць..."
 #~ msgid "Monday"
 #~ msgstr "Панядзелак"
 
-#~ msgid "Tuesday"
-#~ msgstr "Аўторак"
-
-#~ msgid "Wednesday"
-#~ msgstr "Серада"
-
-#~ msgid "Thursday"
-#~ msgstr "Чацвер"
-
-#~ msgid "Friday"
-#~ msgstr "Пятніца"
-
-#~ msgid "Sunday"
-#~ msgstr "Нядзеля"
-
 #, fuzzy
-#~| msgctxt "of Shahrivar short"
-#~| msgid "of Sha"
 #~ msgctxt "Indian National month 1 - ShortNamePossessive"
 #~ msgid "of Cha"
 #~ msgstr "Sha"
 
 #, fuzzy
-#~| msgctxt "of Farvardin short"
-#~| msgid "of Far"
 #~ msgctxt "Indian National month 2 - ShortNamePossessive"
 #~ msgid "of Vai"
 #~ msgstr "Far"
 
 #, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Indian National month 3 - ShortNamePossessive"
 #~ msgid "of Jya"
 #~ msgstr "чэрвеня"
 
 #, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Indian National month 4 - ShortNamePossessive"
 #~ msgid "of Āsh"
 #~ msgstr "Kho"
 
 #, fuzzy
-#~| msgctxt "of Shahrivar short"
-#~| msgid "of Sha"
 #~ msgctxt "Indian National month 5 - ShortNamePossessive"
 #~ msgid "of Shr"
 #~ msgstr "Sha"
 
 #, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Indian National month 6 - ShortNamePossessive"
 #~ msgid "of Bhā"
 #~ msgstr "Bah"
 
 #, fuzzy
-#~| msgctxt "of Esfand short"
-#~| msgid "of Esf"
 #~ msgctxt "Indian National month 7 - ShortNamePossessive"
 #~ msgid "of Āsw"
 #~ msgstr "Esf"
 
 #, fuzzy
-#~| msgctxt "of Farvardin short"
-#~| msgid "of Far"
 #~ msgctxt "Indian National month 8 - ShortNamePossessive"
 #~ msgid "of Kār"
 #~ msgstr "Far"
 
 #, fuzzy
-#~| msgctxt "of April"
-#~| msgid "of Apr"
 #~ msgctxt "Indian National month 9 - ShortNamePossessive"
 #~ msgid "of Agr"
 #~ msgstr "красавіка"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Indian National month 10 - ShortNamePossessive"
 #~ msgid "of Pau"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgctxt "of Mordad short"
-#~| msgid "of Mor"
 #~ msgctxt "Indian National month 11 - ShortNamePossessive"
 #~ msgid "of Māg"
 #~ msgstr "Mor"
 
 #, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Indian National month 12 - ShortNamePossessive"
 #~ msgid "of Phā"
 #~ msgstr "Kho"
 
 #, fuzzy
-#~| msgid "of Muharram"
 #~ msgctxt "Indian National month 1 - LongNamePossessive"
 #~ msgid "of Chaitra"
 #~ msgstr "of Muharram"
 
 #, fuzzy
-#~| msgid "of Nisan"
 #~ msgctxt "Indian National month 3 - LongNamePossessive"
 #~ msgid "of Jyaishtha"
 #~ msgstr "Nisan"
 
 #, fuzzy
-#~| msgid "of Shvat"
 #~ msgctxt "Indian National month 5 - LongNamePossessive"
 #~ msgid "of Shrāvana"
 #~ msgstr "Shvat"
 
 #, fuzzy
-#~| msgid "of Khordad"
 #~ msgctxt "Indian National month 6 - LongNamePossessive"
 #~ msgid "of Bhādrapad"
 #~ msgstr "Khordad"
 
 #, fuzzy
-#~| msgid "of Heshvan"
 #~ msgctxt "Indian National month 7 - LongNamePossessive"
 #~ msgid "of Āshwin"
 #~ msgstr "Heshvan"
 
 #, fuzzy
-#~| msgid "of Bahman"
 #~ msgctxt "Indian National month 9 - LongNamePossessive"
 #~ msgid "of Agrahayana"
 #~ msgstr "Bahman"
 
 #, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Indian National month 10 - LongNamePossessive"
 #~ msgid "of Paush"
 #~ msgstr "Bah"
 
 #, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
 #~ msgctxt "Indian National month 11 - LongNamePossessive"
 #~ msgid "of Māgh"
 #~ msgstr "Meh"
 
 #, fuzzy
-#~| msgid "Kha"
 #~ msgctxt "Indian National month 1 - ShortName"
 #~ msgid "Cha"
 #~ msgstr "Kha"
 
 #, fuzzy
-#~| msgctxt "January"
-#~| msgid "Jan"
 #~ msgctxt "Indian National month 3 - ShortName"
 #~ msgid "Jya"
 #~ msgstr "Сту"
 
 #, fuzzy
-#~| msgctxt "Shahrivar short"
-#~| msgid "Sha"
 #~ msgctxt "Indian National month 5 - ShortName"
 #~ msgid "Shr"
 #~ msgstr "Sha"
 
 #, fuzzy
-#~| msgid "Arb"
 #~ msgctxt "Indian National month 9 - ShortName"
 #~ msgid "Agr"
 #~ msgstr "Arb"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Indian National month 10 - ShortName"
 #~ msgid "Pau"
 #~ msgstr "Паўза"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Thaana"
 #~ msgctxt "Indian National month 9 - LongName"
 #~ msgid "Agrahayana"
 #~ msgstr "Таана"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Indian National month 10 - LongName"
 #~ msgid "Paush"
 #~ msgstr "Паўза"
 
 #, fuzzy
-#~| msgctxt "Jumee short"
-#~| msgid "Jom"
 #~ msgctxt "Indian National weekday 1 - ShortDayName"
 #~ msgid "Som"
 #~ msgstr "Jom"
 
 #, fuzzy
-#~| msgctxt "Sunday"
-#~| msgid "Sun"
 #~ msgctxt "Indian National weekday 5 - ShortDayName"
 #~ msgid "Suk"
 #~ msgstr "Няд"
 
 #, fuzzy
-#~| msgid "Sivan"
 #~ msgctxt "Indian National weekday 6 - ShortDayName"
 #~ msgid "San"
 #~ msgstr "Sivan"
@@ -10581,10 +9994,6 @@ msgstr "Выбраць..."
 #~ msgctxt "Khordad short"
 #~ msgid "Kho"
 #~ msgstr "Kho"
-
-#~ msgctxt "Tir short"
-#~ msgid "Tir"
-#~ msgstr "Tir"
 
 #~ msgctxt "Mordad short"
 #~ msgid "Mor"
@@ -10828,15 +10237,11 @@ msgstr "Выбраць..."
 #~ msgstr "Adar II"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Coptic"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Coptic"
 #~ msgstr "Копцкая"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Ethiopic"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Ethiopian"
 #~ msgstr "Эфіопскі"
@@ -10846,8 +10251,6 @@ msgstr "Выбраць..."
 #~ msgstr "Грыгарыянсая"
 
 #, fuzzy
-#~| msgctxt "@item Calendar system"
-#~| msgid "Gregorian"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Gregorian (Proleptic)"
 #~ msgstr "Грыгарыянсая"
@@ -10865,8 +10268,6 @@ msgstr "Выбраць..."
 #~ msgstr "Джалалі"
 
 #, fuzzy
-#~| msgctxt "January"
-#~| msgid "Jan"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Julian"
 #~ msgstr "Сту"
@@ -10876,712 +10277,556 @@ msgstr "Выбраць..."
 #~ msgstr "Няправільныя назвы файлаў"
 
 #, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Coptic month 1 - ShortNamePossessive"
 #~ msgid "of Tho"
 #~ msgstr "Kho"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 2 - ShortNamePossessive"
 #~ msgid "of Pao"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgid "of Shvat"
 #~ msgctxt "Coptic month 3 - ShortNamePossessive"
 #~ msgid "of Hat"
 #~ msgstr "Shvat"
 
 #, fuzzy
-#~| msgid "of Nisan"
 #~ msgctxt "Coptic month 4 - ShortNamePossessive"
 #~ msgid "of Kia"
 #~ msgstr "Nisan"
 
 #, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
 #~ msgctxt "Coptic month 5 - ShortNamePossessive"
 #~ msgid "of Tob"
 #~ msgstr "лютага"
 
 #, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
 #~ msgctxt "Coptic month 6 - ShortNamePossessive"
 #~ msgid "of Mes"
 #~ msgstr "Meh"
 
 #, fuzzy
-#~| msgctxt "of March"
-#~| msgid "of Mar"
 #~ msgctxt "Coptic month 7 - ShortNamePossessive"
 #~ msgid "of Par"
 #~ msgstr "сакавіка"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 8 - ShortNamePossessive"
 #~ msgid "of Pam"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Coptic month 9 - ShortNamePossessive"
 #~ msgid "of Pas"
 #~ msgstr "Bah"
 
 #, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Coptic month 10 - ShortNamePossessive"
 #~ msgid "of Pan"
 #~ msgstr "чэрвеня"
 
 #, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
 #~ msgctxt "Coptic month 11 - ShortNamePossessive"
 #~ msgid "of Epe"
 #~ msgstr "лютага"
 
 #, fuzzy
-#~| msgctxt "of Mordad short"
-#~| msgid "of Mor"
 #~ msgctxt "Coptic month 12 - ShortNamePossessive"
 #~ msgid "of Meo"
 #~ msgstr "Mor"
 
 #, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Coptic month 13 - ShortNamePossessive"
 #~ msgid "of Kou"
 #~ msgstr "Kho"
 
 #, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Coptic month 1 - LongNamePossessive"
 #~ msgid "of Thoout"
 #~ msgstr "Kho"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 2 - LongNamePossessive"
 #~ msgid "of Paope"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgid "of Hijjah"
 #~ msgctxt "Coptic month 3 - LongNamePossessive"
 #~ msgid "of Hathor"
 #~ msgstr "of Hijjah"
 
 #, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Coptic month 4 - LongNamePossessive"
 #~ msgid "of Kiahk"
 #~ msgstr "Kho"
 
 #, fuzzy
-#~| msgid "of October"
 #~ msgctxt "Coptic month 5 - LongNamePossessive"
 #~ msgid "of Tobe"
 #~ msgstr "кастрычніка"
 
 #, fuzzy
-#~| msgid "of Mehr"
 #~ msgctxt "Coptic month 6 - LongNamePossessive"
 #~ msgid "of Meshir"
 #~ msgstr "Mehr"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 8 - LongNamePossessive"
 #~ msgid "of Parmoute"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Coptic month 9 - LongNamePossessive"
 #~ msgid "of Pashons"
 #~ msgstr "Bah"
 
 #, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Coptic month 10 - LongNamePossessive"
 #~ msgid "of Paone"
 #~ msgstr "чэрвеня"
 
 #, fuzzy
-#~| msgctxt "of September"
-#~| msgid "of Sep"
 #~ msgctxt "Coptic month 11 - LongNamePossessive"
 #~ msgid "of Epep"
 #~ msgstr "верасня"
 
 #, fuzzy
-#~| msgctxt "of Mordad short"
-#~| msgid "of Mor"
 #~ msgctxt "Coptic month 12 - LongNamePossessive"
 #~ msgid "of Mesore"
 #~ msgstr "Mor"
 
 #, fuzzy
-#~| msgid "Thl"
 #~ msgctxt "Coptic month 1 - ShortName"
 #~ msgid "Tho"
 #~ msgstr "Thl"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic month 2 - ShortName"
 #~ msgid "Pao"
 #~ msgstr "Паўза"
 
 #, fuzzy
-#~| msgctxt "Saturday"
-#~| msgid "Sat"
 #~ msgctxt "Coptic month 3 - ShortName"
 #~ msgid "Hat"
 #~ msgstr "Суб"
 
 #, fuzzy
-#~| msgid "Kha"
-#~ msgctxt "Coptic month 4 - ShortName"
-#~ msgid "Kia"
-#~ msgstr "Kha"
-
-#, fuzzy
-#~| msgid "Job"
 #~ msgctxt "Coptic month 5 - ShortName"
 #~ msgid "Tob"
 #~ msgstr "Заданне"
 
 #, fuzzy
-#~| msgid "Yes"
 #~ msgctxt "Coptic month 6 - ShortName"
 #~ msgid "Mes"
 #~ msgstr "Так"
 
 #, fuzzy
-#~| msgctxt "March"
-#~| msgid "Mar"
 #~ msgctxt "Coptic month 7 - ShortName"
 #~ msgid "Par"
 #~ msgstr "Сак"
 
 #, fuzzy
-#~| msgid "am"
 #~ msgctxt "Coptic month 8 - ShortName"
 #~ msgid "Pam"
 #~ msgstr "am"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "Coptic month 9 - ShortName"
 #~ msgid "Pas"
 #~ msgstr "Старонкі"
 
 #, fuzzy
-#~| msgctxt "January"
-#~| msgid "Jan"
 #~ msgctxt "Coptic month 10 - ShortName"
 #~ msgid "Pan"
 #~ msgstr "Сту"
 
 #, fuzzy
-#~| msgid "Escape"
 #~ msgctxt "Coptic month 11 - ShortName"
 #~ msgid "Epe"
 #~ msgstr "Escape"
 
 #, fuzzy
-#~| msgctxt "Monday"
-#~| msgid "Mon"
 #~ msgctxt "Coptic month 12 - ShortName"
 #~ msgid "Meo"
 #~ msgstr "Пан"
 
 #, fuzzy
-#~| msgctxt "Khordad short"
-#~| msgid "Kho"
 #~ msgctxt "Coptic month 13 - ShortName"
 #~ msgid "Kou"
 #~ msgstr "Kho"
 
 #, fuzzy
-#~| msgctxt "Thursday"
-#~| msgid "Thu"
 #~ msgctxt "Coptic month 1 - LongName"
 #~ msgid "Thoout"
 #~ msgstr "Чац"
 
 #, fuzzy
-#~| msgid "Property"
 #~ msgctxt "Coptic month 2 - LongName"
 #~ msgid "Paope"
 #~ msgstr "Уласцівасць"
 
 #, fuzzy
-#~| msgid "Author"
 #~ msgctxt "Coptic month 3 - LongName"
 #~ msgid "Hathor"
 #~ msgstr "Стваральнік"
 
 #, fuzzy
-#~| msgid "Mehr"
 #~ msgctxt "Coptic month 6 - LongName"
 #~ msgid "Meshir"
 #~ msgstr "Mehr"
 
 #, fuzzy
-#~| msgid "Parameter"
 #~ msgctxt "Coptic month 7 - LongName"
 #~ msgid "Paremhotep"
 #~ msgstr "Параметр"
 
 #, fuzzy
-#~| msgid "Parameter"
 #~ msgctxt "Coptic month 8 - LongName"
 #~ msgid "Parmoute"
 #~ msgstr "Параметр"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic month 9 - LongName"
 #~ msgid "Pashons"
 #~ msgstr "Паўза"
 
 #, fuzzy
-#~| msgid "None"
 #~ msgctxt "Coptic month 10 - LongName"
 #~ msgid "Paone"
 #~ msgstr "Няма"
 
 #, fuzzy
-#~| msgid "Escape"
 #~ msgctxt "Coptic month 11 - LongName"
 #~ msgid "Epep"
 #~ msgstr "Escape"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "Coptic weekday 1 - ShortDayName"
 #~ msgid "Pes"
 #~ msgstr "Старонкі"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic weekday 2 - ShortDayName"
 #~ msgid "Psh"
 #~ msgstr "Паўза"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic weekday 6 - ShortDayName"
 #~ msgid "Psa"
 #~ msgstr "Паўза"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic weekday 1 - LongDayName"
 #~ msgid "Pesnau"
 #~ msgstr "Паўза"
 
 #, fuzzy
-#~| msgid "Comment"
 #~ msgctxt "Coptic weekday 2 - LongDayName"
 #~ msgid "Pshoment"
 #~ msgstr "Заўвага"
 
 #, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
 #~ msgctxt "Ethiopian month 1 - ShortNamePossessive"
 #~ msgid "of Mes"
 #~ msgstr "Meh"
 
 #, fuzzy
-#~| msgid "of Tevet"
 #~ msgctxt "Ethiopian month 2 - ShortNamePossessive"
 #~ msgid "of Teq"
 #~ msgstr "Tevet"
 
 #, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
 #~ msgctxt "Ethiopian month 3 - ShortNamePossessive"
 #~ msgid "of Hed"
 #~ msgstr "лютага"
 
 #, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Ethiopian month 4 - ShortNamePossessive"
 #~ msgid "of Tah"
 #~ msgstr "Bah"
 
 #, fuzzy
-#~| msgctxt "of Tir short"
-#~| msgid "of Tir"
 #~ msgctxt "Ethiopian month 5 - ShortNamePossessive"
 #~ msgid "of Ter"
 #~ msgstr "Tir"
 
 #, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Ethiopian month 6 - ShortNamePossessive"
 #~ msgid "of Yak"
 #~ msgstr "чэрвеня"
 
 #, fuzzy
-#~| msgctxt "of March"
-#~| msgid "of Mar"
 #~ msgctxt "Ethiopian month 7 - ShortNamePossessive"
 #~ msgid "of Mag"
 #~ msgstr "сакавіка"
 
 #, fuzzy
-#~| msgctxt "of May short"
-#~| msgid "of May"
 #~ msgctxt "Ethiopian month 8 - ShortNamePossessive"
 #~ msgid "of Miy"
 #~ msgstr "мая"
 
 #, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Ethiopian month 9 - ShortNamePossessive"
 #~ msgid "of Gen"
 #~ msgstr "чэрвеня"
 
 #, fuzzy
-#~| msgctxt "of September"
-#~| msgid "of Sep"
 #~ msgctxt "Ethiopian month 10 - ShortNamePossessive"
 #~ msgid "of Sen"
 #~ msgstr "верасня"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 11 - ShortNamePossessive"
 #~ msgid "of Ham"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
 #~ msgctxt "Ethiopian month 12 - ShortNamePossessive"
 #~ msgid "of Neh"
 #~ msgstr "Meh"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 13 - ShortNamePossessive"
 #~ msgid "of Pag"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgid "of Mehr"
 #~ msgctxt "Ethiopian month 1 - LongNamePossessive"
 #~ msgid "of Meskerem"
 #~ msgstr "Mehr"
 
 #, fuzzy
-#~| msgid "of Tevet"
 #~ msgctxt "Ethiopian month 2 - LongNamePossessive"
 #~ msgid "of Tequemt"
 #~ msgstr "Tevet"
 
 #, fuzzy
-#~| msgid "of Adar"
 #~ msgctxt "Ethiopian month 3 - LongNamePossessive"
 #~ msgid "of Hedar"
 #~ msgstr "Adar"
 
 #, fuzzy
-#~| msgid "of Bahman"
 #~ msgctxt "Ethiopian month 4 - LongNamePossessive"
 #~ msgid "of Tahsas"
 #~ msgstr "Bahman"
 
 #, fuzzy
-#~| msgctxt "of Tir short"
-#~| msgid "of Tir"
 #~ msgctxt "Ethiopian month 5 - LongNamePossessive"
 #~ msgid "of Ter"
 #~ msgstr "Tir"
 
 #, fuzzy
-#~| msgctxt "of Farvardin short"
-#~| msgid "of Far"
 #~ msgctxt "Ethiopian month 6 - LongNamePossessive"
 #~ msgid "of Yakatit"
 #~ msgstr "Far"
 
 #, fuzzy
-#~| msgid "of Rajab"
 #~ msgctxt "Ethiopian month 7 - LongNamePossessive"
 #~ msgid "of Magabit"
 #~ msgstr "of Rajab"
 
 #, fuzzy
-#~| msgctxt "of May short"
-#~| msgid "of May"
 #~ msgctxt "Ethiopian month 8 - LongNamePossessive"
 #~ msgid "of Miyazya"
 #~ msgstr "мая"
 
 #, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
 #~ msgctxt "Ethiopian month 9 - LongNamePossessive"
 #~ msgid "of Genbot"
 #~ msgstr "лютага"
 
 #, fuzzy
-#~| msgctxt "of September"
-#~| msgid "of Sep"
 #~ msgctxt "Ethiopian month 10 - LongNamePossessive"
 #~ msgid "of Sene"
 #~ msgstr "верасня"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 11 - LongNamePossessive"
 #~ msgid "of Hamle"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgctxt "of Shahrivar short"
-#~| msgid "of Sha"
 #~ msgctxt "Ethiopian month 12 - LongNamePossessive"
 #~ msgid "of Nehase"
 #~ msgstr "Sha"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 13 - LongNamePossessive"
 #~ msgid "of Pagumen"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgid "Yes"
 #~ msgctxt "Ethiopian month 1 - ShortName"
 #~ msgid "Mes"
 #~ msgstr "Так"
 
 #, fuzzy
-#~| msgctxt "Tuesday"
-#~| msgid "Tue"
 #~ msgctxt "Ethiopian month 2 - ShortName"
 #~ msgid "Teq"
 #~ msgstr "Аўт"
 
 #, fuzzy
-#~| msgctxt "Wednesday"
-#~| msgid "Wed"
 #~ msgctxt "Ethiopian month 3 - ShortName"
 #~ msgid "Hed"
 #~ msgstr "Сер"
 
 #, fuzzy
-#~| msgid "Trash"
 #~ msgctxt "Ethiopian month 4 - ShortName"
 #~ msgid "Tah"
 #~ msgstr "Сметніца"
 
 #, fuzzy
-#~| msgctxt "Tuesday"
-#~| msgid "Tue"
 #~ msgctxt "Ethiopian month 5 - ShortName"
 #~ msgid "Ter"
 #~ msgstr "Аўт"
 
 #, fuzzy
-#~| msgctxt "March"
-#~| msgid "Mar"
 #~ msgctxt "Ethiopian month 7 - ShortName"
 #~ msgid "Mag"
 #~ msgstr "Сак"
 
 #, fuzzy
-#~| msgctxt "May short"
-#~| msgid "May"
-#~ msgctxt "Ethiopian month 8 - ShortName"
-#~ msgid "Miy"
-#~ msgstr "Тра"
-
-#, fuzzy
-#~| msgid "Green:"
 #~ msgctxt "Ethiopian month 9 - ShortName"
 #~ msgid "Gen"
 #~ msgstr "Зялёны:"
 
 #, fuzzy
-#~| msgid "&Send"
 #~ msgctxt "Ethiopian month 10 - ShortName"
 #~ msgid "Sen"
 #~ msgstr "&Даслаць"
 
 #, fuzzy
-#~| msgid "am"
 #~ msgctxt "Ethiopian month 11 - ShortName"
 #~ msgid "Ham"
 #~ msgstr "am"
 
 #, fuzzy
-#~| msgctxt "Mehr short"
-#~| msgid "Meh"
 #~ msgctxt "Ethiopian month 12 - ShortName"
 #~ msgid "Neh"
 #~ msgstr "Meh"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "Ethiopian month 13 - ShortName"
 #~ msgid "Pag"
 #~ msgstr "Старонкі"
 
 #, fuzzy
-#~| msgid "Tevet"
 #~ msgctxt "Ethiopian month 2 - LongName"
 #~ msgid "Tequemt"
 #~ msgstr "Tevet"
 
 #, fuzzy
-#~| msgid "Adar"
 #~ msgctxt "Ethiopian month 3 - LongName"
 #~ msgid "Hedar"
 #~ msgstr "Adar"
 
 #, fuzzy
-#~| msgid "Task"
 #~ msgctxt "Ethiopian month 4 - LongName"
 #~ msgid "Tahsas"
 #~ msgstr "Заданне"
 
 #, fuzzy
-#~| msgctxt "Tuesday"
-#~| msgid "Tue"
 #~ msgctxt "Ethiopian month 5 - LongName"
 #~ msgid "Ter"
 #~ msgstr "Аўт"
 
 #, fuzzy
-#~| msgid "&Send"
 #~ msgctxt "Ethiopian month 10 - LongName"
 #~ msgid "Sene"
 #~ msgstr "&Даслаць"
 
 #, fuzzy
-#~| msgid "Name"
 #~ msgctxt "Ethiopian month 11 - LongName"
 #~ msgid "Hamle"
 #~ msgstr "Назва"
 
 #, fuzzy
-#~| msgid "Name"
 #~ msgctxt "Ethiopian month 12 - LongName"
 #~ msgid "Nehase"
 #~ msgstr "Назва"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "Ethiopian month 13 - LongName"
 #~ msgid "Pagumen"
 #~ msgstr "Старонкі"
 
 #, fuzzy
-#~| msgctxt "September"
-#~| msgid "Sep"
 #~ msgctxt "Ethiopian weekday 1 - ShortDayName"
 #~ msgid "Seg"
 #~ msgstr "Вер"
 
 #, fuzzy
-#~| msgctxt "March"
-#~| msgid "Mar"
 #~ msgctxt "Ethiopian weekday 2 - ShortDayName"
 #~ msgid "Mak"
 #~ msgstr "Сак"
 
 #, fuzzy
-#~| msgid "Job"
 #~ msgctxt "Ethiopian weekday 3 - ShortDayName"
 #~ msgid "Rob"
 #~ msgstr "Заданне"
 
 #, fuzzy
-#~| msgid "am"
 #~ msgctxt "Ethiopian weekday 4 - ShortDayName"
 #~ msgid "Ham"
 #~ msgstr "am"
 
 #, fuzzy
-#~| msgid "Arb"
 #~ msgctxt "Ethiopian weekday 5 - ShortDayName"
 #~ msgid "Arb"
 #~ msgstr "Arb"
 
 #, fuzzy
-#~| msgctxt "Wednesday"
-#~| msgid "Wed"
 #~ msgctxt "Ethiopian weekday 6 - ShortDayName"
 #~ msgid "Qed"
 #~ msgstr "Сер"
 
 #, fuzzy
-#~| msgctxt "Thursday"
-#~| msgid "Thu"
 #~ msgctxt "Ethiopian weekday 7 - ShortDayName"
 #~ msgid "Ehu"
 #~ msgstr "Чац"
 
 #, fuzzy
-#~| msgid "&Send"
 #~ msgctxt "Ethiopian weekday 1 - LongDayName"
 #~ msgid "Segno"
 #~ msgstr "&Даслаць"
 
 #, fuzzy
-#~| msgid "Job"
 #~ msgctxt "Ethiopian weekday 3 - LongDayName"
 #~ msgid "Rob"
 #~ msgstr "Заданне"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Ethiopian weekday 4 - LongDayName"
 #~ msgid "Hamus"
 #~ msgstr "Паўза"
 
 #, fuzzy
-#~| msgid "Arb"
 #~ msgctxt "Ethiopian weekday 5 - LongDayName"
 #~ msgid "Arb"
 #~ msgstr "Arb"
 
 #, fuzzy
-#~| msgid "Name"
 #~ msgctxt "Ethiopian weekday 6 - LongDayName"
 #~ msgid "Qedame"
 #~ msgstr "Назва"
 
 #, fuzzy
-#~| msgid "Most Downloads"
 #~ msgctxt "Sorting order of the list of items in get hot new stuff"
 #~ msgid "Most Downloads"
 #~ msgstr "Больш спампоўванняў"
+
+#, fuzzy
+#~ msgctxt "Sorting order of the list of items in get hot new stuff"
+#~ msgid "Installed only"
+#~ msgstr "Устанавіць"
+
+#, fuzzy
+#~ msgid "Download New Stuff"
+#~ msgstr "Сцягнцуь новыя файлы"
+
+#~ msgid "Download New %1"
+#~ msgstr "Сцягнуць новую %1"
 
 #~ msgid ""
 #~ "<qt><p>This word was considered to be an \"unknown word\" because it does "
@@ -11610,12 +10855,10 @@ msgstr "Выбраць..."
 #~ "</qt>"
 
 #, fuzzy
-#~| msgid "Conflict with Global Shortcut"
 #~ msgid "Conflict With Registered Global Shortcut(s)"
 #~ msgstr "Канфліктуе з глабальным скаротам"
 
 #, fuzzy
-#~| msgid "Shortcut conflict"
 #~ msgid "Shortcut Conflict(s)"
 #~ msgstr "Канфлікт скаротаў"
 
@@ -11623,7 +10866,6 @@ msgstr "Выбраць..."
 #~ msgstr "праверка воблака цэтлікаў"
 
 #, fuzzy
-#~| msgid "Unlock Toolbars"
 #~ msgid "Unlock Toolbar Positions"
 #~ msgstr "Адчапіць панелі начыння"
 
@@ -11632,29 +10874,23 @@ msgstr "Выбраць..."
 #~ msgstr "Індыйская пісьменнасць"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Save"
 #~ msgid "Save"
 #~ msgstr "Запісаць"
 
 #, fuzzy
-#~| msgid "Action"
 #~ msgid "Long Action"
 #~ msgstr "Дзеянне"
 
 #, fuzzy
-#~| msgid "Open"
 #~ msgctxt "The open file menu entry"
 #~ msgid "Open"
 #~ msgstr "Адкрыць"
 
 #, fuzzy
-#~| msgid "Test"
 #~ msgid "KIdleTest"
 #~ msgstr "Праверыць"
 
 #, fuzzy
-#~| msgid "David Faure"
 #~ msgid "Dario Freddi"
 #~ msgstr "Дэвід Фор"
 
@@ -11684,10 +10920,10 @@ msgstr "Выбраць..."
 #~ msgstr ""
 #~ "У гэтай тэчцы захоўваюцца файлы, якія знаходзяцца на працоўным стале"
 
+#~ msgid "Path to documents folder"
+#~ msgstr "Шлях да тэчкі з дакументамі"
+
 #, fuzzy
-#~| msgid ""
-#~| "<b>Changes in this section requires root access.</b><br />On applying "
-#~| "your changes you will have to supply your root password."
 #~ msgid ""
 #~ "<b>Changes in this section require root access.</b><br />On applying your "
 #~ "changes you will have to supply your root password."
@@ -11727,20 +10963,15 @@ msgstr "Выбраць..."
 #~ msgstr "us"
 
 #, fuzzy
-#~| msgid "Do Not Store"
 #~ msgid "Do &Not Store"
 #~ msgstr "Не захоўваць"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Back"
 #~ msgctxt "Goes to previous character"
 #~ msgid "Back"
 #~ msgstr "Назад"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Forward"
 #~ msgctxt "Goes to next character"
 #~ msgid "Forward"
 #~ msgstr "Наперад"
@@ -11754,29 +10985,22 @@ msgstr "Выбраць..."
 #~ "Unicode: U+%4<br />(Дзесяткавы: %5)</qt>"
 
 #, fuzzy
-#~| msgid "Add Comment"
 #~ msgid "Add Elements"
 #~ msgstr "Дадаць каментар"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Block Elements"
 #~ msgid "Remove Elements"
 #~ msgstr "Элементы блока"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Block Elements"
 #~ msgid "Replace Element"
 #~ msgstr "Элементы блока"
 
 #, fuzzy
-#~| msgid "Quit application"
 #~ msgid "Sample KFormula application"
 #~ msgstr "Выйсці з праграмы"
 
 #, fuzzy
-#~| msgid "Options"
 #~ msgid "&Options"
 #~ msgstr "Параметры"
 
@@ -11846,67 +11070,61 @@ msgstr "Выбраць..."
 #~ msgstr "Памылка расшыфроўкі."
 
 #, fuzzy
-#~| msgid "Save As"
+#~ msgctxt "@action"
+#~ msgid "OpenRecent"
+#~ msgstr "Адкрыць &ранейшы файл"
+
+#, fuzzy
 #~ msgctxt "@action"
 #~ msgid "SaveAs"
 #~ msgstr "Запісаць як"
 
 #, fuzzy
-#~| msgid "Print Preview"
 #~ msgctxt "@action"
 #~ msgid "PrintPreview"
 #~ msgstr "Прагляд друку"
 
 #, fuzzy
-#~| msgid "&Actual Size"
 #~ msgctxt "@action"
 #~ msgid "ActualSize"
 #~ msgstr "&Сапраўдны памер"
 
 #, fuzzy
-#~| msgid "&Edit Bookmarks"
 #~ msgctxt "@action"
 #~ msgid "EditBookmarks"
 #~ msgstr "&Рэдагаваць закладкі"
 
 #, fuzzy
-#~| msgid "Show &Toolbar"
 #~ msgctxt "@action"
 #~ msgid "ShowToolbar"
 #~ msgstr "Паказаць &панэль начыння"
 
 #, fuzzy
-#~| msgid "Show St&atusbar"
 #~ msgctxt "@action"
 #~ msgid "ShowStatusbar"
 #~ msgstr "Паказаць радок ст&атусу"
 
 #, fuzzy
-#~| msgid "Configure Toolbars"
 #~ msgctxt "@action"
 #~ msgid "ConfigureToolbars"
 #~ msgstr "Настаўленне панеляў начыння"
 
 #, fuzzy
-#~| msgid "Configure Notifications"
 #~ msgctxt "@action"
 #~ msgid "ConfigureNotifications"
 #~ msgstr "Наставіць &абвяшчэнні..."
 
 #, fuzzy
-#~| msgid "Switch Application Language"
 #~ msgctxt "@action"
 #~ msgid "SwitchApplicationLanguage"
 #~ msgstr "Пераключыць мову праграмы"
 
 #, fuzzy
-#~| msgid "About"
 #~ msgctxt "@action"
 #~ msgid "AboutApp"
 #~ msgstr "Пра праграму"
 
 #, fuzzy
-#~| msgid "About KDE"
 #~ msgctxt "@action"
 #~ msgid "AboutKDE"
 #~ msgstr "Пра KDE"
@@ -11915,7 +11133,6 @@ msgstr "Выбраць..."
 #~ msgstr "Англійская"
 
 #, fuzzy
-#~| msgid "Trash"
 #~ msgctxt "@action:inmenu"
 #~ msgid "Empty Trash"
 #~ msgstr "Сметніца"
@@ -11926,18 +11143,18 @@ msgstr "Выбраць..."
 #~ msgid "&Hide '%1'"
 #~ msgstr "Схаваць '%1'"
 
+#~ msgid "&Show All Entries"
+#~ msgstr "Паказаць усе опцыі"
+
 #~ msgid "&Remove '%1'"
 #~ msgstr "&Выдаліць '%1'"
 
 #, fuzzy
-#~| msgid "Do you really want to delete this item?"
-#~| msgid_plural "Do you really want to delete these %1 items?"
 #~ msgctxt "@info"
 #~ msgid "Do you really want to empty the Trash? All items will be deleted."
 #~ msgstr "Вы сапраўды хочаце выдаліць %1 элемент?"
 
 #, fuzzy
-#~| msgid "Trash"
 #~ msgctxt "@action:button"
 #~ msgid "Empty Trash"
 #~ msgstr "Сметніца"
@@ -11987,9 +11204,6 @@ msgstr "Выбраць..."
 #~ msgstr "Назва файла, які трэба адкрыць."
 
 #, fuzzy
-#~| msgid ""
-#~| "A file named \"%1\" already exists. Are you sure you want to overwrite "
-#~| "it?"
 #~ msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 #~ msgstr ""
 #~ "Файл з назвай \"%1\" ужо існуе. Ці вы сапраўды хочаце перазапісаць яго?"
@@ -12011,9 +11225,6 @@ msgstr "Выбраць..."
 #~ "%1\n"
 #~ "недапушчальныя;\n"
 #~ "праверце, каб кожная назва файла была заключаная ў двукоссе."
-
-#~ msgid "Filename Error"
-#~ msgstr "Памылка назвы файла"
 
 #~ msgid "Automatically select filename e&xtension (%1)"
 #~ msgstr "Выбіраць п&ашырэнне (%1) для назвы файла аўтаматычна"
@@ -12041,7 +11252,6 @@ msgstr "Выбраць..."
 #~ msgstr "Корань"
 
 #, fuzzy
-#~| msgid "&Remove '%1'"
 #~ msgid "&Release '%1'"
 #~ msgstr "&Выдаліць '%1'"
 
@@ -12055,9 +11265,11 @@ msgstr "Выбраць..."
 #~ msgstr "&Выштурхнуць '%1'"
 
 #, fuzzy
-#~| msgid "An error occurred while accessing '%1', the system said: %2"
 #~ msgid "An error occurred while accessing '%1', the system responded: %2"
 #~ msgstr "Адбылася памылка пры спробе доступу да '%1', сістэма сказала: %2"
+
+#~ msgid "An error occurred while accessing '%1'"
+#~ msgstr "Адбылася памылка адкрыцця '%1':"
 
 #~ msgid "Custom Path"
 #~ msgstr "Шлях карыстальніка"
@@ -12109,8 +11321,6 @@ msgstr "Выбраць..."
 #~ msgstr "&Паказваць толькі пры выкарыстанні гэтай праграмы (%1)"
 
 #, fuzzy
-#~| msgctxt "@option:check"
-#~| msgid "Show Hidden Folders"
 #~ msgid "Show Hidden Folders"
 #~ msgstr "Паказваць схаваныя тэчкі"
 
@@ -12160,7 +11370,6 @@ msgstr "Выбраць..."
 #~ msgid "&Trash"
 #~ msgstr "&У сметніцу"
 
-#, fuzzy
 #~ msgid "translators: not called for n == 1"
 #~ msgid_plural "Do you really want to trash these %1 items?"
 #~ msgstr[0] "Вы сапраўды хочаце перанесці ў сметніцу %1 элемент?"
@@ -12185,6 +11394,9 @@ msgstr "Выбраць..."
 #~ msgid "New Folder..."
 #~ msgstr "Новая тэчка..."
 
+#~ msgid "Move to Trash"
+#~ msgstr "Перамясціць у сметніцу"
+
 #~ msgid "Sorting"
 #~ msgstr "Упарадкаванне"
 
@@ -12207,12 +11419,18 @@ msgstr "Выбраць..."
 #~ msgstr "Скарочана"
 
 #, fuzzy
-#~| msgid "Detailed View"
 #~ msgid "Tree View"
+#~ msgstr "Падрабязны выгляд"
+
+#, fuzzy
+#~ msgid "Detailed Tree View"
 #~ msgstr "Падрабязны выгляд"
 
 #~ msgid "Show Hidden Files"
 #~ msgstr "Паказваць схаваныя файлы"
+
+#~ msgid "Show Preview"
+#~ msgstr "Паказваць прагляд"
 
 #~ msgid "Click for Location Navigation"
 #~ msgstr "Націсніце для навігацыі па месцазнаходжанні"
@@ -12221,19 +11439,15 @@ msgstr "Выбраць..."
 #~ msgstr "Навігацыя"
 
 #, fuzzy
-#~| msgid "Show all options"
 #~ msgid "Show Full Path"
 #~ msgstr "Паказаць усе опцыі"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Buginese"
 #~ msgctxt "@item Text character set"
 #~ msgid "Chinese"
 #~ msgstr "Бугініз"
 
 #, fuzzy
-#~| msgid "Parent Folder"
 #~ msgctxt "@info:tooltip"
 #~ msgid "Parent Folder"
 #~ msgstr "Бацькоўская тэчка"
@@ -12245,7 +11459,6 @@ msgstr "Выбраць..."
 #~ msgstr "Ctrl"
 
 #, fuzzy
-#~| msgid "Comment:"
 #~ msgid ""
 #~ "\n"
 #~ "\n"
@@ -12254,7 +11467,6 @@ msgstr "Выбраць..."
 #~ msgstr "Каментар:"
 
 #, fuzzy
-#~| msgid "Author:"
 #~ msgid ""
 #~ "\n"
 #~ "\n"
@@ -12263,7 +11475,14 @@ msgstr "Выбраць..."
 #~ msgstr "Аўтар:"
 
 #, fuzzy
-#~| msgid "Version: %1"
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Website:\n"
+#~ "%1"
+#~ msgstr "Web-старонка:"
+
+#, fuzzy
 #~ msgid ""
 #~ "\n"
 #~ "\n"
@@ -12272,7 +11491,6 @@ msgstr "Выбраць..."
 #~ msgstr "Версія: %1"
 
 #, fuzzy
-#~| msgid "License: %1"
 #~ msgid ""
 #~ "\n"
 #~ "\n"
@@ -12281,7 +11499,6 @@ msgstr "Выбраць..."
 #~ msgstr "Ліцэнзія: %1"
 
 #, fuzzy
-#~| msgid "About %1 plugin"
 #~ msgid "About Plugin \"%1\""
 #~ msgstr "Пра ўтулку %1"
 
@@ -12296,15 +11513,16 @@ msgstr "Выбраць..."
 #~ msgstr "Працягнуць выкананне сцэнару"
 
 #, fuzzy
-#~| msgid "None"
 #~ msgctxt "@action no list style"
 #~ msgid "None"
 #~ msgstr "Няма"
 
 #, fuzzy
-#~| msgid "Email"
 #~ msgid "Email:"
 #~ msgstr "Электронная скрыня"
+
+#~ msgid "Show:"
+#~ msgstr "Паказаць:"
 
 #~ msgid "Transparent toolbars when moved"
 #~ msgstr "Рабіць панелі празрыстымі пры перамяшчэнні"
