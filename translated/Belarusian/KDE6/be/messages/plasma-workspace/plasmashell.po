@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-22 00:42+0000\n"
-"PO-Revision-Date: 2024-11-24 09:46\n"
+"POT-Creation-Date: 2025-01-07 00:42+0000\n"
+"PO-Revision-Date: 2025-01-07 21:26\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -16,8 +16,8 @@ msgstr ""
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/plasma-workspace/plasmashell.po\n"
-"X-Crowdin-File-ID: 10892\n"
+"X-Crowdin-File: /main/KDE6/be/messages/plasma-workspace/plasmashell.po\n"
+"X-Crowdin-File-ID: 20031\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -147,42 +147,42 @@ msgstr "Схаваць банер папярэдняга прагляду?"
 msgid "Enter Edit Mode"
 msgstr "Увайсці ў рэжым рэдагавання"
 
-#: main.cpp:88
+#: main.cpp:86
 #, kde-format
 msgid "Plasma Shell"
 msgstr "Абалонка Plasma"
 
-#: main.cpp:100
+#: main.cpp:99
 #, kde-format
 msgid "Enable QML Javascript debugger"
 msgstr "Уключыць сродак адладжвання QML Javascript"
 
-#: main.cpp:103
+#: main.cpp:102
 #, kde-format
 msgid "Do not restart plasma-shell automatically after a crash"
 msgstr "Не перазапускаць plasma-shell пасля збояў"
 
-#: main.cpp:106
+#: main.cpp:105
 #, kde-format
 msgid "Force loading the given shell plugin"
 msgstr "Прымусовая загрузка пададзенай убудовы абалонкі"
 
-#: main.cpp:110
+#: main.cpp:109
 #, kde-format
 msgid "Replace an existing instance"
 msgstr "Замяніць наяўны асобнік"
 
-#: main.cpp:113
+#: main.cpp:112
 #, kde-format
 msgid "Lists the available options for user feedback"
 msgstr "Спіс даступных параметраў для водгукаў"
 
-#: main.cpp:178
+#: main.cpp:177
 #, kde-format
 msgid "Plasma Failed To Start"
 msgstr "Не ўдалося запусціць Plasma"
 
-#: main.cpp:179
+#: main.cpp:178
 #, kde-format
 msgid "Plasma is unable to start as it could not correctly use OpenGL 2 or software fallback\n"
 "Please check that your graphic drivers are set up correctly."
@@ -308,13 +308,13 @@ msgstr "Прадукцыйны рэжым"
 msgid "With an NVIDIA GPU on X11, the Floating style and Adaptive opacity mode are known to cause poor window drag and resize performance. Consider using other settings."
 msgstr "Вядома, што з графічным працэсарам NVIDIA на X11 плывучы стыль і рэжым адаптыўнай непразрыстасці прыводзяць да нізкай прадукцыйнасці пры перацягванні і змене памеру акон. Падумайце над тым, каб скарыстацца іншымі наладамі."
 
-#: panelview.cpp:1100
+#: panelview.cpp:1105
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Panel Configuration"
 msgstr "Схаваць панэль канфігурацыі"
 
-#: panelview.cpp:1102
+#: panelview.cpp:1107
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Panel Configuration"
@@ -377,21 +377,22 @@ msgid "Activate Task Manager Entry %1"
 msgstr "Актываваць запіс кіраўніка задач %1"
 
 #: shellcorona.cpp:312
-#, kde-format
-msgid "Panel and Desktop Management"
-msgstr "Панэль і кіраванне працоўным сталом"
+#| msgid "Manage Desktops And Panels..."
+msgctxt "@action:button"
+msgid "Manage Desktops and Panels…"
+msgstr ""
 
 #: shellcorona.cpp:334
 #, kde-format
 msgid "Move keyboard focus between panels"
 msgstr "Перамяшчэнне фокуса клавіятуры паміж панэлямі"
 
-#: shellcorona.cpp:2120
+#: shellcorona.cpp:2150
 #, kde-format
 msgid "Add Panel"
 msgstr "Дадаць панэль"
 
-#: shellcorona.cpp:2181
+#: shellcorona.cpp:2211
 #, kde-format
 msgctxt "Creates an empty containment (%1 is the containment name)"
 msgid "Empty %1"
@@ -429,6 +430,9 @@ msgstr "Колькасць панэляў"
 msgid "Counts the panels"
 msgstr "Падлік колькасці панэляў"
 
+#~ msgid "Panel and Desktop Management"
+#~ msgstr "Панэль і кіраванне працоўным сталом"
+
 #~ msgid ""
 #~ "Enables test mode and specifies the layout javascript file to set up the "
 #~ "testing environment"
@@ -438,9 +442,6 @@ msgstr "Падлік колькасці панэляў"
 
 #~ msgid "file"
 #~ msgstr "файл"
-
-#~ msgid "Manage Desktops And Panels..."
-#~ msgstr "Кіраванне працоўнымі сталамі і панэлямі..."
 
 #~ msgid ""
 #~ "Load plasmashell as a standalone application, needs the shell-plugin "
