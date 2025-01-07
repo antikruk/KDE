@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-17 00:36+0000\n"
-"PO-Revision-Date: 2024-02-11 18:53\n"
+"POT-Creation-Date: 2024-05-03 00:37+0000\n"
+"PO-Revision-Date: 2025-01-07 21:20\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -17,8 +17,8 @@ msgstr ""
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/konquest/konquest.po\n"
-"X-Crowdin-File-ID: 10290\n"
+"X-Crowdin-File: /main/KDE6/be/messages/konquest/konquest.po\n"
+"X-Crowdin-File-ID: 19357\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -36,36 +36,42 @@ msgctxt "@title:window"
 msgid "Fleet Overview"
 msgstr ""
 
-#: dialogs/fleetdlg.cc:106
+#: dialogs/fleetdlg.cc:105
+msgctxt "@title:column"
 msgid "Fleet No."
 msgstr ""
 
-#: dialogs/fleetdlg.cc:107
+#: dialogs/fleetdlg.cc:106
 #, kde-format
+msgctxt "@title:column"
 msgid "Source"
 msgstr "Крыніца"
 
-#: dialogs/fleetdlg.cc:108
-#, kde-format
+#: dialogs/fleetdlg.cc:107
+#| msgid "Destination"
+msgctxt "@title:column"
 msgid "Destination"
 msgstr "Прызначэнне"
 
-#: dialogs/fleetdlg.cc:109
-#, kde-format
+#: dialogs/fleetdlg.cc:108
+#| msgid "Ships"
+msgctxt "@title:column"
 msgid "Ships"
 msgstr "Караблі"
 
-#: dialogs/fleetdlg.cc:110
-#, kde-format
+#: dialogs/fleetdlg.cc:109
+#| msgid "Kill Percentage"
+msgctxt "@title:column"
 msgid "Kill Percentage"
 msgstr "Моц флота"
 
-#: dialogs/fleetdlg.cc:111
-#, kde-format
+#: dialogs/fleetdlg.cc:110
+#| msgid "Arrival Turn"
+msgctxt "@title:column"
 msgid "Arrival Turn"
 msgstr "Ход прыбыцця"
 
-#: dialogs/fleetdlg.cc:136 gameview.cc:120
+#: dialogs/fleetdlg.cc:136
 #, kde-format
 msgid "Standing order"
 msgstr ""
@@ -229,18 +235,25 @@ msgid "Planet %2 has fallen to %1."
 msgstr ""
 
 #: gameview.cc:107
-#, kde-format
+#| msgid "End Turn"
+msgctxt "@action:button"
 msgid "End Turn"
 msgstr "Канец ходу"
 
+#: gameview.cc:120
+#| msgid "Final Standings"
+msgctxt "@option:check"
+msgid "Standing order"
+msgstr ""
+
 #: gameview.cc:290
 #| msgid "Select source planet..."
-msgid "%1: Select source planet..."
+msgid "%1: Select source planet…"
 msgstr ""
 
 #: gameview.cc:307
 #| msgid "Select destination planet..."
-msgid "%1: Select destination planet..."
+msgid "%1: Select destination planet…"
 msgstr ""
 
 #: gameview.cc:318
@@ -397,30 +410,37 @@ msgstr "Заваёва галактыкі"
 
 #: mainwin.cc:74
 #| msgid "&Measure Distance"
-msgid "&Measure Distance..."
+msgctxt "@action"
+msgid "&Measure Distance…"
 msgstr ""
 
 #: mainwin.cc:80
-msgid "&Fleet Overview..."
+#| msgid "Fleet Overview"
+msgctxt "@action"
+msgid "&Fleet Overview"
 msgstr ""
 
 #: mainwin.cc:89
 #, kde-format
+msgctxt "@title:window"
 msgid "Messages"
 msgstr "Лісты"
 
 #: mainwin.cc:95
-#, kde-format
+#| msgid "&Show Standings"
+msgctxt "@option:check"
 msgid "Show &Messages"
 msgstr ""
 
 #: mainwin.cc:114
 #| msgid "Final Standings"
+msgctxt "@title:window"
 msgid "Standings"
 msgstr ""
 
 #: mainwin.cc:121
 #| msgid "&Show Standings"
+msgctxt "@option:check"
 msgid "Show &Standings"
 msgstr ""
 
@@ -497,51 +517,72 @@ msgctxt "A human spectator"
 msgid "Human (Spectator)"
 msgstr ""
 
-#: view/standingswidget.cpp:152
-msgctxt "The player name"
+#: view/standingswidget.cpp:151
+msgctxt "@title:column the player name"
 msgid "Player"
 msgstr "Гулец"
 
-#: view/standingswidget.cpp:153
-#, kde-format
+#: view/standingswidget.cpp:152
+#| msgid ""
+#| "Ships\n"
+#| "Built"
+msgctxt "@title:column"
 msgid "Ships\n"
 "Built"
 msgstr "Пабудавана караблёў"
 
-#: view/standingswidget.cpp:154
-#, kde-format
+#: view/standingswidget.cpp:153
+#| msgid ""
+#| "Planets\n"
+#| "Conquered"
+msgctxt "@title:column"
 msgid "Planets\n"
 "Conquered"
 msgstr "Заваявана планет"
 
-#: view/standingswidget.cpp:155
-#, kde-format
+#: view/standingswidget.cpp:154
+#| msgid ""
+#| "Fleets\n"
+#| "Launched"
+msgctxt "@title:column"
 msgid "Fleets\n"
 "Launched"
 msgstr "Адпраўлена флатоў"
 
-#: view/standingswidget.cpp:156
-#, kde-format
+#: view/standingswidget.cpp:155
+#| msgid ""
+#| "Fleets\n"
+#| "Destroyed"
+msgctxt "@title:column"
 msgid "Fleets\n"
 "Destroyed"
 msgstr "Знішчана флатоў"
 
-#: view/standingswidget.cpp:157
-#, kde-format
+#: view/standingswidget.cpp:156
+#| msgid ""
+#| "Ships\n"
+#| "Destroyed"
+msgctxt "@title:column"
 msgid "Ships\n"
 "Destroyed"
 msgstr "Знішчана караблёў"
 
-#: view/standingswidget.cpp:158
+#: view/standingswidget.cpp:157
+msgctxt "@title:column"
 msgid "Current\n"
 "Production"
 msgstr ""
 
-#: view/standingswidget.cpp:159
+#: view/standingswidget.cpp:158
 #, kde-format
+msgctxt "@title:column"
 msgid "Current\n"
 "Fleet Size"
 msgstr ""
+
+#, fuzzy
+#~ msgid "&Fleet Overview..."
+#~ msgstr "Флот"
 
 #, fuzzy
 #~ msgid "Production"
