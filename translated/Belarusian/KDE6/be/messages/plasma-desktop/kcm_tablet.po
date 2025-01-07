@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-12 00:42+0000\n"
-"PO-Revision-Date: 2024-11-21 20:40\n"
+"POT-Creation-Date: 2024-12-27 00:43+0000\n"
+"PO-Revision-Date: 2025-01-07 21:24\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -16,14 +16,14 @@ msgstr ""
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/plasma-desktop/kcm_tablet.po\n"
-"X-Crowdin-File-ID: 10624\n"
+"X-Crowdin-File: /main/KDE6/be/messages/plasma-desktop/kcm_tablet.po\n"
+"X-Crowdin-File-ID: 19723\n"
 
 #: inputsequence.cpp:172
 #, kde-format
 msgctxt "@action:button This action is disabled"
 msgid "Disabled"
-msgstr "Адключана"
+msgstr "Неактыўныя вокны"
 
 #: inputsequence.cpp:175
 #, kde-format
@@ -102,31 +102,31 @@ msgctxt "model - (x,y widthxheight)"
 msgid "%1 - (%2,%3 %4×%5)"
 msgstr "%1 - (%2,%3 %4×%5)"
 
-#: kcmtablet.cpp:163
+#: kcmtablet.cpp:163 ui/DisplayTab.qml:91 ui/DisplayTab.qml:92
 #, kde-format
 msgctxt "@item:inlistbox Stretch and fill to the screen"
 msgid "Stretch and Fill"
 msgstr "Расцягнуць і запоўніць"
 
-#: kcmtablet.cpp:164
-#| msgid "Keep Aspect Ratio and Fit Within Screen"
+#: kcmtablet.cpp:164 ui/DisplayTab.qml:93
+#, kde-format
 msgctxt "@item:inlistbox Keep aspect ratio and fit within the screen"
 msgid "Keep Aspect Ratio and Fit"
 msgstr "Захоўваць суадносіны бакоў і адпавядаць памеру экрану"
 
-#: kcmtablet.cpp:165
-#| msgid "Map to Portion of Screen"
+#: kcmtablet.cpp:165 ui/DisplayTab.qml:94
+#, kde-format
 msgctxt "@item:inlistbox Map to portion of the screen"
 msgid "Map to Portion"
 msgstr "Размясціць у частцы экрана"
 
-#: kcmtablet.cpp:290
+#: kcmtablet.cpp:263
 #, kde-format
 msgctxt "Stylus pen button"
 msgid "Pen button %1:"
 msgstr "Кнопка стылуса %1:"
 
-#: kcmtablet.cpp:291
+#: kcmtablet.cpp:264
 #, kde-format
 msgctxt "@info Meant to be inserted into an existing sentence like 'configuring pen button X'"
 msgid "pen button %1"
@@ -288,145 +288,188 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Скасаваць"
 
-#: ui/main.qml:34
-#, kde-format
-msgid "No drawing tablets found"
-msgstr "Не знойдзена планшэтаў для малявання"
-
-#: ui/main.qml:35
-#, kde-format
-msgid "Connect a drawing tablet"
-msgstr "Падлучыць планшэт для малявання"
-
-#: ui/main.qml:43
-#, kde-format
-msgctxt "Tests tablet functionality like the pen"
-msgid "Test Tablet…"
-msgstr "Праверыць планшэт…"
-
-#: ui/main.qml:86
-#, kde-format
-msgctxt "@label:listbox The device we are configuring"
-msgid "Device:"
-msgstr "Прылада:"
-
-#: ui/main.qml:126
+#: ui/DisplayTab.qml:41
 #, kde-format
 msgid "Map to screen:"
 msgstr "Суадносіны з экранам:"
 
-#: ui/main.qml:145
+#: ui/DisplayTab.qml:67
 #, kde-format
 msgid "Orientation:"
 msgstr "Арыентацыя:"
 
-#: ui/main.qml:151
+#: ui/DisplayTab.qml:73
 #, kde-format
 msgid "Not Applicable"
 msgstr "Не дастасавальна"
 
-#: ui/main.qml:162
-#, kde-format
-msgid "Left-handed mode:"
-msgstr "Рэжым для ляўшэй:"
-
-#: ui/main.qml:173
-#, kde-kuit-format
-msgctxt "@info"
-msgid "Tells the device to accommodate left-handed users. Effects will vary by device, but often it reverses the pad buttonsʼ functionality so the tablet can be used upside-down."
-msgstr "Паказвае, што прылада можа быць прыстасавана да ляўшэй. Эфекты будуць адрознівацца ў залежнасці ад прылады, але часта функцыянальнасць кнопак панэлі змяняецца, таму планшэт можна выкарыстоўваць перавернутым."
-
-#: ui/main.qml:183
+#: ui/DisplayTab.qml:87
 #, kde-format
 msgid "Mapped Area:"
 msgstr "Вобласць суадносін:"
 
-#: ui/main.qml:274
-#, kde-format
-msgid "Resize the tablet area"
-msgstr "Змяніць памер вобласці планшэта"
-
-#: ui/main.qml:298
+#: ui/ExternalScreenMapping.qml:110
 #, kde-format
 msgctxt "@option:check"
 msgid "Lock aspect ratio"
 msgstr "Заблакаваць суадносіны бакоў"
 
-#: ui/main.qml:306
+#: ui/ExternalScreenMapping.qml:151
 #, kde-format
 msgctxt "tablet area position - size"
 msgid "%1,%2 - %3×%4"
 msgstr "%1,%2 - %3×%4"
 
-#: ui/main.qml:369
+#: ui/ExternalScreenMapping.qml:190
+#| msgid "Resize the tablet area"
+msgid "Resize the screen area"
+msgstr ""
+
+#: ui/ExternalScreenMapping.qml:265
+#| msgctxt "tablet area position - size"
+#| msgid "%1,%2 - %3×%4"
+msgctxt "tablet area position - size"
+msgid "%1%,%2% - %3%×%4%"
+msgstr ""
+
+#: ui/ExternalScreenMapping.qml:299
+#| msgid "Resize the tablet area"
+msgid "Resize the tablet area"
+msgstr "Змяніць памер вобласці планшэта"
+
+#: ui/main.qml:39
+#, kde-format
+msgid "No drawing tablets found"
+msgstr "Не знойдзена планшэтаў для малявання"
+
+#: ui/main.qml:40
+#, kde-format
+msgid "Connect a drawing tablet"
+msgstr "Падлучыць планшэт для малявання"
+
+#: ui/main.qml:48
+#, kde-format
+msgctxt "Tests tablet functionality like the pen"
+msgid "Test Tablet…"
+msgstr "Праверыць планшэт…"
+
+#: ui/main.qml:97
+#, kde-format
+msgctxt "@label:listbox The device we are configuring"
+msgid "Device:"
+msgstr "Прылада:"
+
+#: ui/main.qml:156
+#, kde-format
+msgctxt "@title:tab"
+msgid "Display"
+msgstr "Выгляд"
+
+#: ui/main.qml:169
+#, kde-format
+msgctxt "@title:tab"
+msgid "Pen"
+msgstr "Аловак"
+
+#: ui/main.qml:181
+#| msgctxt "@label:listbox The pad we are configuring"
+#| msgid "Pad:"
+msgctxt "@title:tab"
+msgid "Pad"
+msgstr "Планшэт"
+
+#: ui/PadTab.qml:33
+#, kde-format
+msgid "Pad button %1:"
+msgstr "Кнопка планшэта %1:"
+
+#: ui/PadTab.qml:36
+#, kde-format
+msgctxt "@info Meant to be inserted into an existing sentence like 'configuring pad button 0'"
+msgid "pad button %1"
+msgstr "кнопка планшэта %1"
+
+#: ui/StylusTab.qml:31
+#, kde-format
+msgid "Left-handed mode:"
+msgstr "Рэжым для ляўшэй:"
+
+#: ui/StylusTab.qml:37
+#, kde-format
+msgctxt "Enable left-handed mode"
+msgid "Enable"
+msgstr "Уключыць"
+
+#: ui/StylusTab.qml:43
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Tells the device to accommodate left-handed users. Effects will vary by device, but often it reverses the pad buttonsʼ functionality so the tablet can be used upside-down."
+msgstr "Паказвае, што прылада можа быць прыстасавана да ляўшэй. Эфекты будуць адрознівацца ў залежнасці ад прылады, але часта функцыянальнасць кнопак панэлі змяняецца, таму планшэт можна выкарыстоўваць перавернутым."
+
+#: ui/StylusTab.qml:102
 #, kde-format
 msgid "Pen Pressure:"
 msgstr "Узровень націскання стылусам:"
 
-#: ui/main.qml:421
+#: ui/StylusTab.qml:162
 #, kde-format
-msgctxt "Low pen pressure"
-msgid "Low Pressure"
-msgstr "Слабое націсканне"
+msgctxt "% of minimum pen pressure"
+msgid "%1%"
+msgstr "%1%"
 
-#: ui/main.qml:429
+#: ui/StylusTab.qml:170
 #, kde-format
-msgctxt "High pen pressure"
-msgid "High Pressure"
-msgstr "Моцнае націсканне"
+msgctxt "% of maximum pen pressure"
+msgid "%1%"
+msgstr "%1%"
 
-#: ui/main.qml:440
+#: ui/StylusTab.qml:181
 #, kde-format
 msgctxt "100% or maximum pen pressure"
 msgid "100%"
 msgstr "100%"
 
-#: ui/main.qml:448
+#: ui/StylusTab.qml:189
 #, kde-format
 msgctxt "0% or zero pen pressure"
 msgid "0%"
 msgstr "0%"
 
-#: ui/main.qml:452
+#: ui/StylusTab.qml:193
 #, kde-format
 msgctxt "@info"
 msgid "This curve controls the relationship between the pressure on the stylus and the pressure values received by applications."
 msgstr "Гэтая крывая кіруе залежнасцю націскання стылусам са значэннямі, якія атрымліваюць праграмы."
 
-#: ui/main.qml:463
+#: ui/StylusTab.qml:198
+#| msgid "Pen Pressure:"
+msgctxt "Pen pressure range"
+msgid "Pressure Range:"
+msgstr ""
+
+#: ui/StylusTab.qml:225
+#, kde-format
+msgctxt "@info"
+msgid "Pressure above or below the threshold will be clamped, and this becomes the new effective range."
+msgstr ""
+
+#: ui/StylusTab.qml:237
 #, kde-format
 msgctxt "@action:button Calibration in progress"
 msgid "Calibration in Progress"
 msgstr "Выконваецца калібраванне"
 
-#: ui/main.qml:465
+#: ui/StylusTab.qml:239
 #, kde-format
 msgctxt "@action:button Calibrate the pen display"
 msgid "Calibrate"
 msgstr "Калібраваць"
 
-#: ui/main.qml:468
+#: ui/StylusTab.qml:242
 #, kde-format
 msgctxt "@action:button Pen display doesn't support calibration"
 msgid "Calibration Not Supported"
 msgstr "Калібраванне не падтрымліваецца"
-
-#: ui/main.qml:501
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Calibration across multiple screens is not supported."
-msgstr "Калібраванне на некалькіх экранах не падтрымліваецца."
-
-#: ui/main.qml:527
-#, kde-format
-msgid "Pad button %1:"
-msgstr "Кнопка планшэта %1:"
-
-#: ui/main.qml:530
-#, kde-format
-msgctxt "@info Meant to be inserted into an existing sentence like 'configuring pad button 0'"
-msgid "pad button %1"
-msgstr "кнопка планшэта %1"
 
 #: ui/Tester.qml:25
 #, kde-format
@@ -445,29 +488,40 @@ msgid "Stylus release X=%1 Y=%2"
 msgstr "Вызваленне стылуса X=%1 Y=%2"
 
 #: ui/Tester.qml:68
-#, kde-format
-msgid "Stylus move X=%1 Y=%2"
-msgstr "Перамяшчэнне стылуса X=%1 Y=%2"
+#| msgid "Stylus move X=%1 Y=%2"
+msgid "Stylus move X=%1 Y=%2 P=%3% TX=%4 TY=%5"
+msgstr ""
 
-#: ui/Tester.qml:199
-#, kde-format
+#: ui/Tester.qml:205
+#| msgid ""
+#| "## Legend:\n"
+#| "# X, Y - event coordinate\n"
 msgid "## Legend:\n"
 "# X, Y - event coordinate\n"
-msgstr "## Легенда:\n"
-"# X, Y - каардынаты\n"
+"# P - pressure\n"
+"# TX,TY - tilt\n"
+msgstr ""
 
-#: ui/Tester.qml:206
+#: ui/Tester.qml:211
 #, kde-format
 msgctxt "Clear the event log"
 msgid "Clear"
 msgstr "Ачысціць"
 
+#~ msgctxt "Low pen pressure"
+#~ msgid "Low Pressure"
+#~ msgstr "Слабое націсканне"
+
+#~ msgctxt "High pen pressure"
+#~ msgid "High Pressure"
+#~ msgstr "Моцнае націсканне"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Calibration across multiple screens is not supported."
+#~ msgstr "Калібраванне на некалькіх экранах не падтрымліваецца."
+
 #~ msgid "Fit to Screen"
 #~ msgstr "Па памеры экрана"
-
-#~ msgctxt "@label:listbox The pad we are configuring"
-#~ msgid "Pad:"
-#~ msgstr "Планшэт:"
 
 #~ msgid "None"
 #~ msgstr "Няма"
