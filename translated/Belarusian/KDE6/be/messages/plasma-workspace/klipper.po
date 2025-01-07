@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-20 00:41+0000\n"
-"PO-Revision-Date: 2024-11-24 09:40\n"
+"POT-Creation-Date: 2024-12-22 00:42+0000\n"
+"PO-Revision-Date: 2025-01-07 21:25\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -17,8 +17,8 @@ msgstr ""
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/plasma-workspace/klipper.po\n"
-"X-Crowdin-File-ID: 10788\n"
+"X-Crowdin-File: /main/KDE6/be/messages/plasma-workspace/klipper.po\n"
+"X-Crowdin-File-ID: 19931\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -290,29 +290,29 @@ msgstr "Недастаткова месца для паказу QR-кода. П�
 msgid "Creating QR code failed"
 msgstr "Не ўдалося стварыць QR-код"
 
-#: declarative/qml/ClipboardItemDelegate.qml:178
+#: declarative/qml/ClipboardItemDelegate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Collapse"
 msgstr "Згарнуць"
 
-#: declarative/qml/ClipboardItemDelegate.qml:178
+#: declarative/qml/ClipboardItemDelegate.qml:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Expand"
 msgstr "Разгарнуць"
 
-#: declarative/qml/ClipboardMenu.qml:186
+#: declarative/qml/ClipboardMenu.qml:187
 #, kde-format
 msgid "Clear History"
 msgstr "Ачысціць гісторыю"
 
-#: declarative/qml/ClipboardMenu.qml:277
+#: declarative/qml/ClipboardMenu.qml:278
 #, kde-format
 msgid "No matches"
 msgstr "Няма супадзенняў"
 
-#: declarative/qml/ClipboardMenu.qml:277
+#: declarative/qml/ClipboardMenu.qml:278
 #, kde-format
 msgid "Clipboard is empty"
 msgstr "Буфер абмену пусты"
@@ -355,7 +355,7 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Скасаваць"
 
-#: declarative/qml/UrlItemDelegate.qml:95
+#: declarative/qml/UrlItemDelegate.qml:97
 #, kde-format
 msgctxt "Indicator that there are more urls in the clipboard than previews shown"
 msgid "+%1"
@@ -521,96 +521,97 @@ msgstr "Скінуць значок каманды да прадвызначан
 msgid "Icon:"
 msgstr "Значок:"
 
-#: historyimageitem.cpp:36
-#, kde-format
-msgid "%1x%2 %3bpp"
-msgstr "%1x%2 %3 бітаў/піксель"
-
-#: historymodel.cpp:103
+#: historymodel.cpp:192
 #, kde-format
 msgid "Do you really want to clear and delete the entire clipboard history?"
 msgstr "Сапраўды хочаце ачысціць усю гісторыю буфера абмену?"
 
-#: historymodel.cpp:104
+#: historymodel.cpp:193
 #, kde-format
 msgid "Clear Clipboard History"
 msgstr "Ачысціць гісторыю буфера абмену"
 
-#: klipper.cpp:95
+#: historymodel.cpp:242
+#| msgid "%1x%2 %3bpp"
+msgctxt "@info:tooltip width x height"
+msgid "%1x%2"
+msgstr "%1x%2"
+
+#: klipper.cpp:90
 #, kde-format
 msgctxt "@action:inmenu Toggle automatic action"
 msgid "Automatic Action Popup Menu"
 msgstr "Выплыўное меню дзеянняў"
 
-#: klipper.cpp:114
+#: klipper.cpp:109
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "C&lear Clipboard History"
 msgstr "&Ачысціць гісторыю буфера абмену"
 
-#: klipper.cpp:121
+#: klipper.cpp:116
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Configure Klipper…"
 msgstr "&Наладжванне Klipper…"
 
-#: klipper.cpp:125
+#: klipper.cpp:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr "Уласнаручны выклік дзеяння ў бягучым буферы абмену"
 
-#: klipper.cpp:132
+#: klipper.cpp:127
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Show Barcode…"
 msgstr "&Паказаць штрых-код…"
 
-#: klipper.cpp:141
+#: klipper.cpp:136
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Next History Item"
 msgstr "Наступны элемент гісторыі"
 
-#: klipper.cpp:146
+#: klipper.cpp:141
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Previous History Item"
 msgstr "Папярэдні элемент гісторыі"
 
-#: klipper.cpp:153
+#: klipper.cpp:148
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Clipboard Items at Mouse Position"
 msgstr "Паказваць элементы буфера абмену ў месцы курсора мышы"
 
-#: klipper.cpp:318
+#: klipper.cpp:313
 #, kde-kuit-format
 msgctxt "@info"
 msgid "You can enable URL actions later in the <interface>Actions</interface> page of the Clipboard applet's configuration window"
 msgstr "Вы можаце ўключыць URL-дзеянні пазней на старонцы <interface>Дзеянні</interface> акна канфігурацыі аплета буфера абмену"
 
-#: klipper.cpp:558
+#: klipper.cpp:447
 #, kde-format
 msgid "Mobile Barcode"
 msgstr "Мабільны штрых-код"
 
-#: klipper.cpp:601 klipper.cpp:610
+#: klipper.cpp:490 klipper.cpp:499
 #, kde-format
 msgid "Clipboard history"
 msgstr "Гісторыя буфера абмену"
 
-#: klipper.cpp:627
+#: klipper.cpp:516
 #, kde-format
 msgid "up"
 msgstr "уверх"
 
-#: klipper.cpp:634
+#: klipper.cpp:523
 #, kde-format
 msgid "current"
 msgstr "бягучая"
 
-#: klipper.cpp:641
+#: klipper.cpp:530
 #, kde-format
 msgid "down"
 msgstr "уніз"
