@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-27 00:41+0000\n"
-"PO-Revision-Date: 2024-11-06 22:00\n"
+"POT-Creation-Date: 2025-01-04 00:42+0000\n"
+"PO-Revision-Date: 2025-01-07 21:26\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -16,8 +16,8 @@ msgstr ""
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/plasma-workspace/plasmashellprivateplugin.po\n"
-"X-Crowdin-File-ID: 10894\n"
+"X-Crowdin-File: /main/KDE6/be/messages/plasma-workspace/plasmashellprivateplugin.po\n"
+"X-Crowdin-File-ID: 20033\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -145,7 +145,7 @@ msgstr "Наступнае дзесяцігоддзе"
 msgid "Keep Open"
 msgstr "Не закрываць"
 
-#: containmentlayoutmanager/qml/BasicAppletContainer.qml:270
+#: containmentlayoutmanager/qml/BasicAppletContainer.qml:286
 #, kde-format
 msgid "Configure…"
 msgstr "Наладжванне…"
@@ -325,10 +325,14 @@ msgid "Running"
 msgstr "Выконваецца"
 
 #: shellprivate/widgetexplorer.cpp:156
-#, kde-format
+#| msgctxt ""
+#| "@item:inmenu used in the widget filter. Filter widgets that can be un-"
+#| "installed from the system, which are usually installed by the user to a "
+#| "local place."
+#| msgid "Uninstallable"
 msgctxt "@item:inmenu used in the widget filter. Filter widgets that can be un-installed from the system, which are usually installed by the user to a local place."
-msgid "Uninstallable"
-msgstr "Немагчыма ўсталяваць"
+msgid "User-installed"
+msgstr ""
 
 #: shellprivate/widgetexplorer.cpp:160
 #, kde-format
@@ -352,7 +356,7 @@ msgid "Install Widget From Local File…"
 msgstr "Усталяваць віджэт з лакальнага файла…"
 
 #: shellprivate/widgetexplorer.cpp:493
-#| msgid "All Widgets"
+#, kde-format
 msgctxt "@title:window"
 msgid "Get New Widgets"
 msgstr "Атрымаць новыя віджэты"
@@ -363,7 +367,7 @@ msgid "Select Plasmoid File"
 msgstr "Абраць файл плазмоіда"
 
 #: shellprivate/widgetexplorer.cpp:528
-#| msgid "Installing the package %1 failed."
+#, kde-format
 msgctxt "%1 is the name of an applet, %2 is an error message"
 msgid "Installing the package %1 failed: %2."
 msgstr "Не ўдалося ўсталяваць пакет %1: %2."
