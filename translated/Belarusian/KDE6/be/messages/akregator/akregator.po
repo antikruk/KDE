@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-23 00:40+0000\n"
-"PO-Revision-Date: 2024-11-24 09:40\n"
+"POT-Creation-Date: 2024-12-28 00:42+0000\n"
+"PO-Revision-Date: 2025-01-07 21:14\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -23,8 +23,8 @@ msgstr ""
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/akregator/akregator.po\n"
-"X-Crowdin-File-ID: 9760\n"
+"X-Crowdin-File: /main/KDE6/be/messages/akregator/akregator.po\n"
+"X-Crowdin-File-ID: 18689\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -95,7 +95,7 @@ msgstr "Выдаліць артыкул"
 msgid "<b>Note:</b> For security reasons, external reference is blocked (See configure dialog)."
 msgstr ""
 
-#: configuration/akregator_config_archive.cpp:33
+#: configuration/akregator_config_archive.cpp:35
 #| msgid "1 article"
 msgctxt "Limit feed archive size to:"
 msgid "%v article"
@@ -105,7 +105,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: configuration/akregator_config_archive.cpp:34
+#: configuration/akregator_config_archive.cpp:36
 #| msgid "1 day"
 msgctxt "Delete articles older than:"
 msgid "%v day"
@@ -134,10 +134,10 @@ msgstr ""
 msgctxt "Mark selected article read after"
 msgid "%v second"
 msgid_plural "%v seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%v секунда"
+msgstr[1] "%v секунды"
+msgstr[2] "%v секунд"
+msgstr[3] "%v секунд"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: configuration/ui/settings_advancedbase.ui:30
@@ -908,7 +908,7 @@ msgid "Resets the quick filter when changing feeds."
 msgstr ""
 
 #: kontactplugin/akregator_plugin.cpp:27 src/aboutdata.cpp:19
-#: src/akregator_part.cpp:136
+#: src/akregator_part.cpp:126
 #: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:142
 #: src/trayicon.cpp:40 src/trayicon.cpp:41 src/trayicon.cpp:53
 #, kde-format
@@ -1530,78 +1530,68 @@ msgstr "Стужкі"
 
 #: src/akregator_part.cpp:89
 #, kde-format
-msgid "KDE Dot News"
-msgstr "Навіны KDE"
-
-#: src/akregator_part.cpp:94
-#, kde-format
-msgid "Linux.com"
-msgstr ""
-
-#: src/akregator_part.cpp:99
-#, kde-format
 msgid "Planet KDE"
 msgstr "Планета KDE"
 
-#: src/akregator_part.cpp:104
+#: src/akregator_part.cpp:94
 #, kde-format
 msgid "KDE Apps"
 msgstr "Праграмы KDE"
 
-#: src/akregator_part.cpp:110
+#: src/akregator_part.cpp:100
 #, kde-format
 msgid "Spanish feeds"
 msgstr ""
 
-#: src/akregator_part.cpp:114
+#: src/akregator_part.cpp:104
 #| msgid "Planet KDE"
 msgid "Planet KDE España"
 msgstr ""
 
-#: src/akregator_part.cpp:427
+#: src/akregator_part.cpp:417
 #| msgid "Access denied: cannot save feed list (%1)"
 msgid "Access denied: Cannot save feed list to <b>%1</b>. Please check your permissions."
 msgstr ""
 
-#: src/akregator_part.cpp:428 src/akregator_part.cpp:481
+#: src/akregator_part.cpp:418 src/akregator_part.cpp:471
 #| msgid "Write Error"
 msgctxt "@title:window"
 msgid "Write Error"
 msgstr "Памылка запісу"
 
-#: src/akregator_part.cpp:464
+#: src/akregator_part.cpp:454
 #, kde-format
 msgid "Could not import the file %1 (no valid OPML)"
 msgstr "Немагчыма імпартаваць файл %1 (няслушны фармат OPML)"
 
-#: src/akregator_part.cpp:464 src/command/loadfeedlistcommand.cpp:71
+#: src/akregator_part.cpp:454 src/command/loadfeedlistcommand.cpp:71
 #| msgid "OPML Parsing Error"
 msgctxt "@title:window"
 msgid "OPML Parsing Error"
 msgstr "Памылка апрацоўкі OPML"
 
-#: src/akregator_part.cpp:468
+#: src/akregator_part.cpp:458
 #, kde-format
 msgid "The file %1 could not be read, check if it exists or if it is readable for the current user."
 msgstr "Немагчыма адкрыць файл %1. Праверце, ці існуе гэты файл і ці даступны ён для чытання."
 
-#: src/akregator_part.cpp:469 src/command/loadfeedlistcommand.cpp:144
+#: src/akregator_part.cpp:459 src/command/loadfeedlistcommand.cpp:144
 #| msgid "Read Error"
 msgctxt "@title:window"
 msgid "Read Error"
 msgstr "Памылка чытання"
 
-#: src/akregator_part.cpp:480
+#: src/akregator_part.cpp:470
 #| msgid "Access denied: cannot write to file %1"
 msgid "Access denied: cannot write to file %1. Please check your permissions."
 msgstr ""
 
-#: src/akregator_part.cpp:496 src/akregator_part.cpp:505
+#: src/akregator_part.cpp:486 src/akregator_part.cpp:495
 #| msgid "OPML Outlines (*.opml, *.xml)"
 msgid "OPML Outlines (%1);;All Files (*)"
 msgstr ""
 
-#: src/akregator_part.cpp:629
+#: src/akregator_part.cpp:619
 #, kde-format
 msgid "Imported Folder"
 msgstr "Імпартаваная тэчка"
@@ -2241,24 +2231,24 @@ msgstr "Немагчыма прачытаць стужку (невядомы ф�
 msgid "Could not read feed (invalid feed)"
 msgstr ""
 
-#: src/subscription/subscriptionlistmodel.cpp:246
+#: src/subscription/subscriptionlistmodel.cpp:251
 #, kde-format
 msgid "Could not fetch feed: %1"
 msgstr "Немагчыма сцягнуць стужку: %1"
 
-#: src/subscription/subscriptionlistmodel.cpp:295
+#: src/subscription/subscriptionlistmodel.cpp:300
 #| msgid "Feeds"
 msgctxt "Feedlist's column header"
 msgid "Feeds"
 msgstr "Стужкі"
 
-#: src/subscription/subscriptionlistmodel.cpp:297
+#: src/subscription/subscriptionlistmodel.cpp:302
 #| msgid "Unread"
 msgctxt "Feedlist's column header"
 msgid "Unread"
 msgstr "У непрачытанае"
 
-#: src/subscription/subscriptionlistmodel.cpp:299
+#: src/subscription/subscriptionlistmodel.cpp:304
 #| msgid "Total"
 msgctxt "Feedlist's column header"
 msgid "Total"
@@ -2499,7 +2489,7 @@ msgctxt "@info:placeholder"
 msgid "Search articles…"
 msgstr ""
 
-#: src/widgets/searchbar.cpp:137
+#: src/widgets/searchbar.cpp:127
 #| msgid " articles"
 msgctxt "@info:placeholder"
 msgid "Search articles…<%1>"
@@ -2534,6 +2524,9 @@ msgstr "Чытанне"
 msgctxt "Important articles filter"
 msgid "Important"
 msgstr "Важна"
+
+#~ msgid "KDE Dot News"
+#~ msgstr "Навіны KDE"
 
 #~ msgid "Write Error"
 #~ msgstr "Памылка запісу"
