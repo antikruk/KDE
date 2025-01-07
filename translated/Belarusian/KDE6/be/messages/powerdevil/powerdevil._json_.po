@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-07 00:45+0000\n"
-"PO-Revision-Date: 2024-02-27 07:48\n"
+"POT-Creation-Date: 2024-12-18 00:50+0000\n"
+"PO-Revision-Date: 2025-01-07 21:27\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -16,10 +16,23 @@ msgstr ""
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/powerdevil/powerdevil._json_.po\n"
-"X-Crowdin-File-ID: 10922\n"
+"X-Crowdin-File: /main/KDE6/be/messages/powerdevil/powerdevil._json_.po\n"
+"X-Crowdin-File-ID: 20081\n"
+
+#: applets/batterymonitor/package/metadata.json
+#| msgctxt "Name"
+#| msgid "Power Management"
+msgctxt "Name"
+msgid "Power and Battery"
+msgstr "Сілкаванне і батарэя"
+
+#: applets/brightness/package/metadata.json
+msgctxt "Name"
+msgid "Brightness and Color"
+msgstr "Яркасць і колер"
 
 #: daemon/actions/bundled/powerdevilbrightnesscontrolaction.json
+#: daemon/actions/bundled/powerdevilscreenbrightnesscontrolaction.json
 msgctxt "Name"
 msgid "Screen brightness"
 msgstr "Яркасць экрана"
@@ -59,12 +72,28 @@ msgctxt "Name"
 msgid "Suspend session"
 msgstr "Прыпыніць сеанс"
 
-#: kcmodule/profiles/kcm_powerdevilprofilesconfig.json
+#: kcm/kcm_powerdevilprofilesconfig.json
 msgctxt "Name"
 msgid "Power Management"
 msgstr "Кіраванне сілкаваннем"
 
+#: runners/powerdevil/plasma-runner-powerdevil.json
+msgctxt "Name"
+msgid "Power"
+msgstr "Сілкаванне"
+
+#: applets/batterymonitor/package/metadata.json
+msgctxt "Description"
+msgid "Control power management settings and see the power status of your battery"
+msgstr "Налады кіравання сілкаваннем і прагляд стану сілкавання батарэі"
+
+#: applets/brightness/package/metadata.json
+msgctxt "Description"
+msgid "Control brightness and color of your screens and keyboards"
+msgstr "Кіраванне яркасцю і колерам вашых экранаў і клавіятур"
+
 #: daemon/actions/bundled/powerdevilbrightnesscontrolaction.json
+#: daemon/actions/bundled/powerdevilscreenbrightnesscontrolaction.json
 msgctxt "Description"
 msgid "Basic Controls for brightness"
 msgstr "Базавае кіраванне яркасцю"
@@ -104,10 +133,44 @@ msgctxt "Description"
 msgid "Suspends the session"
 msgstr "Прыпыненне сеанса"
 
-#: kcmodule/profiles/kcm_powerdevilprofilesconfig.json
+#: kcm/kcm_powerdevilprofilesconfig.json
 msgctxt "Description"
 msgid "Power Management"
 msgstr "Кіраванне сілкаваннем"
+
+#: runners/powerdevil/plasma-runner-powerdevil.json
+#| msgctxt "Description"
+#| msgid "Advanced Power Management Settings"
+msgctxt "Description"
+msgid "Basic Power Management Operations"
+msgstr "Асноўныя аперацыі кіравання сілкаваннем"
+
+#: applets/batterymonitor/package/metadata.json
+#: applets/brightness/package/metadata.json
+msgctxt "Authors Name"
+msgid "Sebastian Kügler"
+msgstr "Sebastian Kügler"
+
+#: applets/batterymonitor/package/metadata.json
+#: applets/brightness/package/metadata.json
+msgctxt "Authors Name"
+msgid "Kai Uwe Broulik"
+msgstr "Kai Uwe Broulik"
+
+#: applets/brightness/package/metadata.json
+msgctxt "Authors Name"
+msgid "Natalie Clarius"
+msgstr "Natalie Clarius"
+
+#: runners/powerdevil/plasma-runner-powerdevil.json
+msgctxt "Authors Name"
+msgid "Dario Freddi"
+msgstr "Dario Freddi"
+
+#: kcm/kcm_powerdevilprofilesconfig.json
+msgctxt "X-KDE-Keywords"
+msgid "system,power,power management,energy,energy saving,laptop,battery,suspension,AC,suspend,suspending,hibernating,hibernate,brightness,performance,lid,power saving,charging,charge,limit,charge limit,charging limit,discharge,discharging,dim screen,sleep,lock screen,lockscreen,turn screen off,turn off,power button,power buttons,battery levels,low battery,low level,critical level,power notifications,plug,unplug"
+msgstr ""
 
 #~ msgctxt "Name"
 #~ msgid "Energy Saving"
@@ -120,10 +183,6 @@ msgstr "Кіраванне сілкаваннем"
 #~ msgctxt "Name"
 #~ msgid "Advanced Power Settings"
 #~ msgstr "Дадатковыя налады сілкавання"
-
-#~ msgctxt "Description"
-#~ msgid "Advanced Power Management Settings"
-#~ msgstr "Дадатковыя налады кіравання сілкаваннем"
 
 #~ msgctxt "Name"
 #~ msgid "Activity Power Settings"
