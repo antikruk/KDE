@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-26 00:42+0000\n"
-"PO-Revision-Date: 2024-11-04 22:00\n"
+"POT-Creation-Date: 2025-01-03 00:43+0000\n"
+"PO-Revision-Date: 2025-01-07 21:25\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -16,8 +16,8 @@ msgstr ""
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/plasma-workspace/kcm_users.po\n"
-"X-Crowdin-File-ID: 10778\n"
+"X-Crowdin-File: /main/KDE6/be/messages/plasma-workspace/kcm_users.po\n"
+"X-Crowdin-File-ID: 19917\n"
 
 #: src/fingerprintmodel.cpp:145 src/fingerprintmodel.cpp:229
 #, kde-format
@@ -95,10 +95,13 @@ msgid "Change Wallet Password?"
 msgstr "Змяніць пароль кашалька?"
 
 #: src/ui/ChangeWalletPassword.qml:25
-#, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Now that you have changed your login password, you may also want to "
+#| "change the password on your default KWallet to match it."
 msgctxt "@info"
-msgid "Now that you have changed your login password, you may also want to change the password on your default KWallet to match it."
-msgstr "Цяпер, калі вы змянілі свой пароль для ўваходу, вы таксама можаце змяніць пароль у KWallet, каб яны супадалі."
+msgid "Now that you have changed your login password, consider changing the password on your default KWallet to match it."
+msgstr ""
 
 #: src/ui/ChangeWalletPassword.qml:31
 #, kde-format
@@ -531,6 +534,12 @@ msgctxt "@info"
 msgid "Fingerprints can be used in place of a password when unlocking the screen and providing administrator permissions to applications and command-line programs that request them.<nl/><nl/>Logging into the system with your fingerprint is not yet supported."
 msgstr "Адбіткі пальцаў можна выкарыстоўваць замест пароля пры разблакаванні экрана і выдачы правоў адміністратара праграмам, якія іх запытваюць.<nl/><nl/>Уваход у сістэму з дапамогай адбітка пальца пакуль не падтрымліваецца."
 
+#: src/user.cpp:126
+#, kde-format
+msgctxt "@info"
+msgid "Failed to crop image: %1"
+msgstr ""
+
 #: src/user.cpp:310
 #, kde-format
 msgid "Could not get permission to save user %1"
@@ -541,12 +550,12 @@ msgstr "Не ўдалося атрымаць дазвол на захаванн�
 msgid "There was an error while saving changes"
 msgstr "Падчас захавання зменаў адбылася памылка"
 
-#: src/user.cpp:417
+#: src/user.cpp:426
 #, kde-format
 msgid "Failed to resize image: opening temp file failed"
 msgstr "Не ўдалося змяніць памер выявы: не ўдалося адкрыць часовы файл"
 
-#: src/user.cpp:425
+#: src/user.cpp:434
 #, kde-format
 msgid "Failed to resize image: writing to temp file failed"
 msgstr "Не ўдалося змяніць памер выявы: не ўдалося запісаць у часовы файл"
