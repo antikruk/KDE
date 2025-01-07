@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-30 00:38+0000\n"
-"PO-Revision-Date: 2024-06-02 05:50\n"
+"POT-Creation-Date: 2024-11-26 00:41+0000\n"
+"PO-Revision-Date: 2025-01-07 21:16\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -18,8 +18,8 @@ msgstr ""
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/kde-cli-tools/kcm_filetypes.po\n"
-"X-Crowdin-File-ID: 9962\n"
+"X-Crowdin-File: /main/KDE6/be/messages/kde-cli-tools/kcm_filetypes.po\n"
+"X-Crowdin-File-ID: 18963\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -71,7 +71,7 @@ msgstr "Шаблоны назваў файлаў"
 msgid "This box contains a list of patterns that can be used to identify files of the selected type. For example, the pattern *.txt is associated with the file type 'text/plain'; all files ending in '.txt' are recognized as plain text files."
 msgstr "Гэтыя палі змяшчаюць шаблоны назваў асацыяваных файлаў гэтага тыпу. Напрыклад, шаблон *.txt звязаны з тыпам файлаў'text/plain'; усе файлы, назвы якіх заканчваюцца на '.txt', распазнаюцца як звычайныя тэкставыя файлы."
 
-#: filetypedetails.cpp:87 filetypesview.cpp:86 kservicelistwidget.cpp:106
+#: filetypedetails.cpp:87 filetypesview.cpp:86 kservicelistwidget.cpp:105
 #, kde-format
 msgid "Add..."
 msgstr "Дадаць..."
@@ -81,7 +81,7 @@ msgstr "Дадаць..."
 msgid "Add a new pattern for the selected file type."
 msgstr "Дадаць новы шаблон для выбранага тыпу файлаў."
 
-#: filetypedetails.cpp:94 kservicelistwidget.cpp:120
+#: filetypedetails.cpp:94 kservicelistwidget.cpp:119
 #, kde-format
 msgid "Remove"
 msgstr "Выдаліць"
@@ -264,27 +264,27 @@ msgstr "Рэдагаваць тып файлаў %1"
 msgid "Create New File Type %1"
 msgstr "Стварыць новы тып файлаў %1"
 
-#: kservicelistwidget.cpp:47
+#: kservicelistwidget.cpp:46
 #, kde-format
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: kservicelistwidget.cpp:52
+#: kservicelistwidget.cpp:51
 #, kde-format
 msgid "Application Preference Order"
 msgstr "Парадак выкарыстання праграмаў"
 
-#: kservicelistwidget.cpp:52
+#: kservicelistwidget.cpp:51
 #, kde-format
 msgid "Services Preference Order"
 msgstr "Парадак выкарыстання сервісаў"
 
-#: kservicelistwidget.cpp:64
+#: kservicelistwidget.cpp:63
 #, kde-format
 msgid "This is a list of applications associated with files of the selected file type. This list is shown in Konqueror's context menus when you select \"Open With...\". If more than one application is associated with this file type, then the list is ordered by priority with the uppermost item taking precedence over the others."
 msgstr "Гэта спіс праграмаў, асацыяваных з файламі выбранага тыпу. Гэты спіс паказваецца ў кантэкстным меню Konqueror, калі вы выбіраеце пункт меню \"Адкрыць у...\". Калі з тыпам файлаў асацыявана некалькі праграмаў, спіс парадкуецца па прыярытэтах: вышэйшы элемент мае большы прыярытэт."
 
-#: kservicelistwidget.cpp:69
+#: kservicelistwidget.cpp:68
 #| msgid ""
 #| "This is a list of services associated with files of the selected file "
 #| "type. This list is shown in Konqueror's context menus when you select a "
@@ -294,12 +294,12 @@ msgstr "Гэта спіс праграмаў, асацыяваных з файл
 msgid "This is a list of services associated with files of the selected file type. This list is shown in Konqueror's context menus when you select a \"Preview with...\" option. If more than one service is associated with this file type, then the list is ordered by priority with the uppermost item taking precedence over the others."
 msgstr ""
 
-#: kservicelistwidget.cpp:81
+#: kservicelistwidget.cpp:80
 #, kde-format
 msgid "Move &Up"
 msgstr "Перанесці ў&верх"
 
-#: kservicelistwidget.cpp:87
+#: kservicelistwidget.cpp:86
 #, kde-format
 msgid "Assigns a higher priority to the selected\n"
 "application, moving it up in the list. Note:  This\n"
@@ -310,19 +310,19 @@ msgstr "Павялічвае прыярытэт выбранай праграм�
 "толькі на выбраную праграму, калі тып файлаў\n"
 "асацыяваны з некалькімі праграмамі."
 
-#: kservicelistwidget.cpp:91
+#: kservicelistwidget.cpp:90
 #, kde-format
 msgid "Assigns a higher priority to the selected\n"
 "service, moving it up in the list."
 msgstr "Павялічвае прыярытэт выбранага сервісу,\n"
 "пасоўваючы яго ў спісе ўгору."
 
-#: kservicelistwidget.cpp:94
+#: kservicelistwidget.cpp:93
 #, kde-format
 msgid "Move &Down"
 msgstr "Перанесці ў&ніз"
 
-#: kservicelistwidget.cpp:99
+#: kservicelistwidget.cpp:98
 #, kde-format
 msgid "Assigns a lower priority to the selected\n"
 "application, moving it down in the list. Note: This \n"
@@ -333,50 +333,50 @@ msgstr "Паніжае прыярытэт выбранай праграмы,\n"
 "ўплывае толькі на выбраную праграму, калі\n"
 "некалькі праграмаў асацыяваныя з гэтым тыпам."
 
-#: kservicelistwidget.cpp:103
+#: kservicelistwidget.cpp:102
 #, kde-format
 msgid "Assigns a lower priority to the selected\n"
 "service, moving it down in the list."
 msgstr "Паніжае прыярытэт выбранага сервісу,\n"
 "пасоўваючы яго долу."
 
-#: kservicelistwidget.cpp:111
+#: kservicelistwidget.cpp:110
 #, kde-format
 msgid "Add a new application for this file type."
 msgstr "Дадаць новую праграму для гэтага тыпу файлаў."
 
-#: kservicelistwidget.cpp:113
+#: kservicelistwidget.cpp:112
 #, kde-format
 msgid "Edit..."
 msgstr "Рэдагаванне..."
 
-#: kservicelistwidget.cpp:118
+#: kservicelistwidget.cpp:117
 #, kde-format
 msgid "Edit command line of the selected application."
-msgstr ""
+msgstr "Рэдагаваць каманду для абранай праграмы."
 
-#: kservicelistwidget.cpp:125
+#: kservicelistwidget.cpp:124
 #, kde-format
 msgid "Remove the selected application from the list."
 msgstr "Выдаліць выбраную праграму са спіса."
 
-#: kservicelistwidget.cpp:127 multiapplydialog.cpp:19
+#: kservicelistwidget.cpp:126 multiapplydialog.cpp:19
 #, kde-format
 msgid "Apply To..."
 msgstr ""
 
-#: kservicelistwidget.cpp:132
+#: kservicelistwidget.cpp:131
 #, kde-format
 msgid "Apply the current preference order to other file types."
 msgstr ""
 
-#: kservicelistwidget.cpp:155
+#: kservicelistwidget.cpp:154
 #| msgid "None"
 msgctxt "No applications associated with this file type"
 msgid "None"
 msgstr "Няма"
 
-#: kservicelistwidget.cpp:168
+#: kservicelistwidget.cpp:167
 #| msgid "None"
 msgctxt "No components associated with this file type"
 msgid "None"
