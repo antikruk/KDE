@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-09 00:39+0000\n"
-"PO-Revision-Date: 2024-11-20 08:44\n"
+"POT-Creation-Date: 2024-12-09 00:40+0000\n"
+"PO-Revision-Date: 2025-01-07 21:19\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -18,8 +18,8 @@ msgstr ""
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/kmix/kmix.po\n"
-"X-Crowdin-File-ID: 18149\n"
+"X-Crowdin-File: /main/KDE6/be/messages/kmix/kmix.po\n"
+"X-Crowdin-File-ID: 19265\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -563,17 +563,17 @@ msgstr "Невядомая праграма"
 msgid "Event Sounds"
 msgstr ""
 
-#: backends/mixer_pulse.cpp:1086
+#: backends/mixer_pulse.cpp:1086 backends/mixer_sndio.cpp:171
 #, kde-format
 msgid "Playback Devices"
 msgstr ""
 
-#: backends/mixer_pulse.cpp:1094
+#: backends/mixer_pulse.cpp:1094 backends/mixer_sndio.cpp:178
 #, kde-format
 msgid "Capture Devices"
 msgstr ""
 
-#: backends/mixer_pulse.cpp:1102
+#: backends/mixer_pulse.cpp:1102 backends/mixer_sndio.cpp:185
 #, kde-format
 msgid "Playback Streams"
 msgstr ""
@@ -581,6 +581,11 @@ msgstr ""
 #: backends/mixer_pulse.cpp:1113
 #, kde-format
 msgid "Capture Streams"
+msgstr ""
+
+#: backends/mixer_sndio.cpp:164
+#, kde-format
+msgid "Server Devices"
 msgstr ""
 
 #: backends/mixer_sun.cpp:69
