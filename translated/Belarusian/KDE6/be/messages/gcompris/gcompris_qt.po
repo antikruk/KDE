@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-11-24 09:47\n"
+"PO-Revision-Date: 2025-01-07 21:15\n"
 "Last-Translator: Dzianis Jackievic <gcompris@miesta.by>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -18,8 +18,8 @@ msgstr ""
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/gcompris/gcompris_qt.po\n"
-"X-Crowdin-File-ID: 17974\n"
+"X-Crowdin-File: /main/KDE6/be/messages/gcompris/gcompris_qt.po\n"
+"X-Crowdin-File-ID: 18809\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Generator: Poedit 2.2.1\n"
@@ -327,6 +327,7 @@ msgstr "Вы ўбачыце танцуючых мятлікаў розных к�
 #: activities/redraw_symmetrical/ActivityInfo.qml:25
 #: activities/roman_numerals/ActivityInfo.qml:25
 #: activities/simplepaint/ActivityInfo.qml:24
+#: activities/sketch/ActivityInfo.qml:23
 #: activities/smallnumbers/ActivityInfo.qml:25
 #: activities/smallnumbers2/ActivityInfo.qml:25
 #: activities/solar_system/ActivityInfo.qml:27
@@ -2355,8 +2356,8 @@ msgstr "Вы выбралі карыстальніцкі набор узроўн
 
 #: activities/balancebox/Balancebox.qml:72
 msgctxt "Balancebox|"
-msgid "Ok"
-msgstr "Добра"
+msgid "OK"
+msgstr "ДОБРА"
 
 #: activities/balancebox/editor/balanceboxeditor.js:254
 msgctxt "balanceboxeditor|"
@@ -2860,37 +2861,37 @@ msgctxt "ActivityInfo|"
 msgid "Space or Enter: validate your answer"
 msgstr "Прагал ці Ўвод: спраўдзіць ваш адказ"
 
-#: activities/calendar/Calendar.qml:322
+#: activities/calendar/Calendar.qml:316
 msgctxt "Calendar|"
 msgid "Sunday"
 msgstr "Нядзеля"
 
-#: activities/calendar/Calendar.qml:323
+#: activities/calendar/Calendar.qml:317
 msgctxt "Calendar|"
 msgid "Monday"
 msgstr "Панядзелак"
 
-#: activities/calendar/Calendar.qml:324
+#: activities/calendar/Calendar.qml:318
 msgctxt "Calendar|"
 msgid "Tuesday"
 msgstr "Аўторак"
 
-#: activities/calendar/Calendar.qml:325
+#: activities/calendar/Calendar.qml:319
 msgctxt "Calendar|"
 msgid "Wednesday"
 msgstr "Серада"
 
-#: activities/calendar/Calendar.qml:326
+#: activities/calendar/Calendar.qml:320
 msgctxt "Calendar|"
 msgid "Thursday"
 msgstr "Чацвер"
 
-#: activities/calendar/Calendar.qml:327
+#: activities/calendar/Calendar.qml:321
 msgctxt "Calendar|"
 msgid "Friday"
 msgstr "Пятніца"
 
-#: activities/calendar/Calendar.qml:328
+#: activities/calendar/Calendar.qml:322
 msgctxt "Calendar|"
 msgid "Saturday"
 msgstr "Субота"
@@ -4365,9 +4366,13 @@ msgstr "Умею рухаць мыш і дакладна пстрыкаць па
 
 #. Help manual
 #: activities/clickanddraw/ActivityInfo.qml:24
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Draw the picture by clicking on each point in sequence. Each time a point "
+#| "is selected the next blue one appears."
 msgctxt "ActivityInfo|"
-msgid "Draw the picture by clicking on each point in sequence. Each time a point is selected the next blue one appears."
-msgstr "Стварыце малюнак, пстрыкаючы паслядоўна па патрэбных кропках. Пасля кожнага слушнага пстрычку, будзе падсвечаная наступная кропка."
+msgid "Draw the picture by clicking on each point in sequence. Each time a point is selected the next blue one appears. You can click and drag from one point to the next ones, or click on each point one after the other."
+msgstr ""
 
 #. Activity title
 #: activities/clickgame/ActivityInfo.qml:15
@@ -5603,8 +5608,8 @@ msgstr ""
 #. Help manual
 #: activities/drawletters/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
-msgid "Draw the letters by connecting the dots in the correct order."
-msgstr "Намалюйце літары, злучаючы кропкі ў слушным парадку."
+msgid "Draw the letters by connecting the dots in the correct order. You can click and drag from one point to the next ones, or click on each point one after the other."
+msgstr ""
 
 #. Activity title
 #: activities/drawnumbers/ActivityInfo.qml:15
@@ -5627,8 +5632,8 @@ msgstr ""
 #. Help manual
 #: activities/drawnumbers/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
-msgid "Draw the numbers by connecting the dots in the correct order."
-msgstr "Намалюйце лічбу, злучаючы кропкі ў слушным парадку."
+msgid "Draw the numbers by connecting the dots in the correct order. You can click and drag from one point to the next ones, or click on each point one after the other."
+msgstr ""
 
 #. Activity title
 #: activities/enumerate/ActivityInfo.qml:15
@@ -14434,18 +14439,18 @@ msgctxt "ActivityInfo|"
 msgid "A letter is displayed on the flag attached to the plane. Select all the words in the list containing this letter and then press the OK button."
 msgstr "Літара будзе паказана на сцягу, прычэпленым да самалёта. Выберыце ўсе словы са спісу, у якіх маецца дадзеная літара, і затым націсніце кнопку ОК."
 
-#: activities/letter-in-word/LetterInWord.qml:322
+#: activities/letter-in-word/LetterInWord.qml:320
 msgctxt "LetterInWord|"
 msgid "We are sorry, we don't have yet a translation for your language."
 msgstr "Выбачайце, мы яшчэ не маем перакладу для вашае мовы."
 
-#: activities/letter-in-word/LetterInWord.qml:323
+#: activities/letter-in-word/LetterInWord.qml:321
 #, qt-format
 msgctxt "LetterInWord|"
 msgid "GCompris is developed by the KDE community, you can translate GCompris by joining a translation team on <a href=\"%2\">%2</a>"
 msgstr "GCompris распрацоўваецца супольнасцю KDE, вы можаце перакладаць GCompris, далучыўшыся да суполкі перакладчыкаў па спасылцы <a href=\"%2\">%2</a>"
 
-#: activities/letter-in-word/LetterInWord.qml:325
+#: activities/letter-in-word/LetterInWord.qml:323
 msgctxt "LetterInWord|"
 msgid "We switched to English for this activity but you can select another language in the configuration dialog."
 msgstr "Мы пераключыліся на ангельскую мову для гэтага практыкавання, але вы можаце абраць іншую мову ў наладах."
@@ -15988,7 +15993,7 @@ msgstr "+"
 #: activities/memory/math_util.js:38
 msgctxt "math_util|"
 msgid "−"
-msgstr "−"
+msgstr ""
 
 #: activities/memory/math_util.js:54 activities/memory/math_util.js:57
 msgctxt "math_util|"
@@ -17085,8 +17090,12 @@ msgstr ""
 
 #. Help manual
 #: activities/number_sequence/ActivityInfo.qml:23
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Draw the picture by clicking on each point in sequence. Each time a point "
+#| "is selected the next blue one appears."
 msgctxt "ActivityInfo|"
-msgid "Draw the picture by clicking on the points in the numerical sequence order."
+msgid "Draw the picture by clicking on the points in the numerical sequence order. You can click and drag from one point to the next ones, or click on each point one after the other."
 msgstr ""
 
 #. Activity title
@@ -17973,22 +17982,22 @@ msgid "%1 BPM"
 msgstr ""
 
 #. Treble clef and Bass clef are the notations to indicate the pitch of the sound written on it.
-#: activities/piano_composition/KeyOption.qml:47
+#: activities/piano_composition/KeyOption.qml:46
 msgctxt "KeyOption|"
 msgid "Treble clef"
 msgstr "Скрыпковы ключ"
 
-#: activities/piano_composition/KeyOption.qml:47
+#: activities/piano_composition/KeyOption.qml:46
 msgctxt "KeyOption|"
 msgid "Bass clef"
 msgstr "Басавы ключ"
 
-#: activities/piano_composition/KeyOption.qml:63
+#: activities/piano_composition/KeyOption.qml:61
 msgctxt "KeyOption|"
 msgid "Treble clef added"
 msgstr "Дададзены скрыпковы ключ"
 
-#: activities/piano_composition/KeyOption.qml:63
+#: activities/piano_composition/KeyOption.qml:61
 msgctxt "KeyOption|"
 msgid "Bass clef added"
 msgstr "Дададзены басавы ключ"
@@ -18211,12 +18220,12 @@ msgid "Undo"
 msgstr "Адрабіць"
 
 #. Sharp notes and Flat notes represents the accidental style of the notes in the music.
-#: activities/piano_composition/OptionsRow.qml:166
+#: activities/piano_composition/OptionsRow.qml:165
 msgctxt "OptionsRow|"
 msgid "Sharp notes"
 msgstr "Дыезы"
 
-#: activities/piano_composition/OptionsRow.qml:166
+#: activities/piano_composition/OptionsRow.qml:165
 msgctxt "OptionsRow|"
 msgid "Flat notes"
 msgstr "Бемолі"
@@ -20218,10 +20227,6 @@ msgid "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her 
 msgstr ""
 
 #: activities/share/resource/2/Data.qml:226
-#| msgctxt "Data|"
-#| msgid ""
-#| "Jason's father gave him 16 pieces of candy to share with his friends: 2 "
-#| "boys and 2 girls. Help him give the pieces of candy to his friends."
 msgctxt "Data|"
 msgid "Jason's father gave him 17 pieces of candy to share equally between his friends: 2 boys and 2 girls. Help him give the pieces of candy to his friends."
 msgstr ""
@@ -20237,8 +20242,6 @@ msgid "Maria wants to share 23 pieces of candy equally between 5 of her friends:
 msgstr ""
 
 #: activities/share/resource/3/Data.qml:13
-#| msgctxt "Data|"
-#| msgid "Maximum 30 candies and 6 kids, possible rest."
 msgctxt "Data|"
 msgid "Maximum 30 pieces of candy and 6 kids, possible rest."
 msgstr ""
@@ -20319,8 +20322,6 @@ msgid "Use the various digital painting tools to draw images."
 msgstr ""
 
 #: activities/sketch/ActivityInfo.qml:20
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn about multiples and factors."
 msgctxt "ActivityInfo|"
 msgid "Learn about some digital painting tools."
 msgstr ""
@@ -20330,16 +20331,7 @@ msgctxt "ActivityInfo|"
 msgid "Select tools and colors from the foldable panels and draw images.<br><br>"
 msgstr ""
 
-#: activities/sketch/ActivityInfo.qml:23
-#| msgctxt "ActivityInfo|"
-#| msgid "Keyboard controls:"
-msgctxt "ActivityInfo|"
-msgid "<b>Keyboard controls:"
-msgstr ""
-
 #: activities/sketch/ActivityInfo.qml:24
-#| msgctxt "ActivityInfo|"
-#| msgid "Ctrl + Z: undo"
 msgctxt "ActivityInfo|"
 msgid "Ctrl + Z: undo last action"
 msgstr ""
@@ -20350,8 +20342,6 @@ msgid "Ctrl + Y: redo last action"
 msgstr ""
 
 #: activities/sketch/ActivityInfo.qml:26
-#| msgctxt "ActivityInfo|"
-#| msgid "Ctrl + A: select all the text"
 msgctxt "ActivityInfo|"
 msgid "Ctrl + S: save the image"
 msgstr ""
@@ -20377,15 +20367,11 @@ msgid "Sketch brush concept from:"
 msgstr ""
 
 #: activities/sketch/BackgroundColorSelector.qml:40
-#| msgctxt "DownloadDialog|"
-#| msgid "Background"
 msgctxt "BackgroundColorSelector|"
 msgid "Background color"
 msgstr "Колер фону"
 
 #: activities/sketch/BackgroundSelector.qml:42
-#| msgctxt "DownloadDialog|"
-#| msgid "Background"
 msgctxt "BackgroundSelector|"
 msgid "Background image"
 msgstr "Выява фону"
@@ -20400,100 +20386,76 @@ msgctxt "BrushToolPanel|"
 msgid "Drawing Tools"
 msgstr ""
 
-#: activities/sketch/ColorSelector.qml:75
-#| msgctxt "ColorMix|"
-#| msgid "Match the color"
+#: activities/sketch/ColorSelector.qml:76
 msgctxt "ColorSelector|"
 msgid "Palette Colors"
 msgstr ""
 
-#: activities/sketch/ColorSelector.qml:159
+#: activities/sketch/ColorSelector.qml:160
 msgctxt "ColorSelector|"
 msgid "Reset palette"
 msgstr ""
 
-#: activities/sketch/ColorSelector.qml:210
-#| msgctxt "ActivityConfig|"
-#| msgid "Selected"
+#: activities/sketch/ColorSelector.qml:211
 msgctxt "ColorSelector|"
 msgid "Selected Color"
 msgstr ""
 
 #. Color hue
-#: activities/sketch/ColorSelector.qml:234
-#| msgctxt "board14_0|"
-#| msgid "Hubei"
+#: activities/sketch/ColorSelector.qml:235
 msgctxt "ColorSelector|color hue"
 msgid "Hue"
 msgstr "Адценне"
 
 #. Color saturation
-#: activities/sketch/ColorSelector.qml:261
-#| msgctxt "Dataset|"
-#| msgid "Saturn"
+#: activities/sketch/ColorSelector.qml:262
 msgctxt "ColorSelector|color saturation"
 msgid "Saturation"
 msgstr "Насычанасць"
 
 #. Color lightness
-#: activities/sketch/ColorSelector.qml:286
-#| msgctxt "ActivityInfo|"
-#| msgid "Lights off"
+#: activities/sketch/ColorSelector.qml:287
 msgctxt "ColorSelector|color lightness"
 msgid "Lightness"
 msgstr ""
 
 #. Reload default color for selected slot
-#: activities/sketch/ColorSelector.qml:323
+#: activities/sketch/ColorSelector.qml:324
 msgctxt "ColorSelector|"
 msgid "Reset Color"
 msgstr ""
 
 #: activities/sketch/ColorsPanel.qml:157
-#| msgctxt "ActivityInfo|"
-#| msgid "Draw letters"
 msgctxt "ColorsPanel|"
 msgid "Palettes"
 msgstr ""
 
 #: activities/sketch/FilesPanel.qml:46
-#| msgctxt "ActivityConfig|"
-#| msgid "Select your mode"
 msgctxt "FilesPanel|"
 msgid "Save your image"
 msgstr ""
 
 #: activities/sketch/FilesPanel.qml:85
-#| msgctxt "ChangeLog|"
-#| msgid "Many new images"
 msgctxt "FilesPanel|"
 msgid "Open an image"
 msgstr "Адкрыць выяву"
 
 #: activities/sketch/FilesPanel.qml:116
-#| msgctxt "DialogChooseLevel|"
-#| msgid "%1 settings"
 msgctxt "FilesPanel|"
 msgid "New image settings"
 msgstr ""
 
 #: activities/sketch/FilesPanel.qml:144
-#| msgctxt "DownloadDialog|"
-#| msgid "Background"
 msgctxt "FilesPanel|"
 msgid "Background color"
 msgstr "Колер фону"
 
 #: activities/sketch/FilesPanel.qml:190
-#| msgctxt "DownloadDialog|"
-#| msgid "Background"
 msgctxt "FilesPanel|"
 msgid "Background image"
 msgstr "Выява фону"
 
 #: activities/sketch/FilesPanel.qml:231
-#| msgctxt "ChangeLog|"
-#| msgid "Many new images"
 msgctxt "FilesPanel|"
 msgid "Create a new image"
 msgstr "Стварыць новую выяву"
@@ -20520,8 +20482,6 @@ msgid "Gradient Tools"
 msgstr ""
 
 #: activities/sketch/Sketch.qml:673
-#| msgctxt "Piano_composition|"
-#| msgid "You have not selected any note. Do you want to erase all the notes?"
 msgctxt "Sketch|"
 msgid "You did not save this image. Do you want to close this activity?"
 msgstr ""
@@ -20532,15 +20492,11 @@ msgid "Do you want to erase this image?"
 msgstr ""
 
 #: activities/sketch/Sketch.qml:675
-#| msgctxt "balanceboxeditor|"
-#| msgid "Yes"
 msgctxt "Sketch|"
 msgid "Yes"
 msgstr "Так"
 
 #: activities/sketch/Sketch.qml:676
-#| msgctxt "balanceboxeditor|"
-#| msgid "No"
 msgctxt "Sketch|"
 msgid "No"
 msgstr "Не"
@@ -20561,8 +20517,6 @@ msgid "Type your text here"
 msgstr ""
 
 #: activities/sketch/ToolsPanel.qml:253
-#| msgctxt "category_tools|"
-#| msgid "Tools"
 msgctxt "ToolsPanel|"
 msgid "Tools"
 msgstr "Інструменты"
@@ -20583,8 +20537,6 @@ msgid "Size"
 msgstr "Памер"
 
 #: activities/sketch/ToolsPanel.qml:526
-#| msgctxt "ActivityConfig|"
-#| msgid "Speed"
 msgctxt "ToolsPanel|"
 msgid "Speed"
 msgstr "Хуткасць"
@@ -20595,8 +20547,6 @@ msgid "Density"
 msgstr ""
 
 #: activities/sketch/ToolsPanel.qml:566
-#| msgctxt "ActivityConfig|"
-#| msgid "Dots"
 msgctxt "ToolsPanel|"
 msgid "Dots Size"
 msgstr ""
@@ -20612,8 +20562,6 @@ msgid "Rotation"
 msgstr "Паварочванне"
 
 #: activities/sketch/ToolsPanel.qml:662
-#| msgctxt "ActivityInfo|"
-#| msgid "Mirror the given image"
 msgctxt "ToolsPanel|"
 msgid "Mirror image"
 msgstr "Адлюстраваць"
@@ -20751,16 +20699,12 @@ msgstr "Лікі з даміно"
 
 #. Help title
 #: activities/smallnumbers2/ActivityInfo.qml:17
-#| msgctxt "ActivityInfo|"
-#| msgid "Count the number of dots on the dice before it reaches the ground."
 msgctxt "ActivityInfo|"
 msgid "Count the number of dots on the domino before it reaches the ground."
 msgstr ""
 
 #. Help manual
 #: activities/smallnumbers2/ActivityInfo.qml:24
-#| msgctxt "ActivityInfo|"
-#| msgid "Type the number of dots you see on each falling dice."
 msgctxt "ActivityInfo|"
 msgid "Type the number of dots you see on each falling domino."
 msgstr ""
@@ -21010,8 +20954,6 @@ msgid "The maximum temperature on Earth is 58 °C."
 msgstr "Максімальнай тэмпературай на Зямлі з'яўляецца 58 °C."
 
 #: activities/solar_system/Dataset.js:54 activities/solar_system/Dataset.js:150
-#| msgctxt "Dataset|"
-#| msgid "The length of a year on Venus is 225 days."
 msgctxt "Dataset|"
 msgid "The length of a year on Venus is 225 Earth days."
 msgstr ""
@@ -21124,8 +21066,6 @@ msgid "365 Earth days"
 msgstr "365 Зямных дзён"
 
 #: activities/solar_system/Dataset.js:82
-#| msgctxt "Dataset|"
-#| msgid "365 Earth days"
 msgctxt "Dataset|"
 msgid "433 Earth days"
 msgstr ""
@@ -21227,22 +21167,16 @@ msgid "How long is a year on Venus?"
 msgstr "Колькі доўжыцца год на Венеры?"
 
 #: activities/solar_system/Dataset.js:121
-#| msgctxt "Dataset|"
-#| msgid "50 Earth days"
 msgctxt "Dataset|"
 msgid "225 Earth days"
 msgstr ""
 
 #: activities/solar_system/Dataset.js:121
-#| msgctxt "Dataset|"
-#| msgid "117 Earth days"
 msgctxt "Dataset|"
 msgid "116 Earth days"
 msgstr ""
 
 #: activities/solar_system/Dataset.js:121
-#| msgctxt "Dataset|"
-#| msgid "107 Earth days"
 msgctxt "Dataset|"
 msgid "100 Earth days"
 msgstr ""
@@ -21253,8 +21187,6 @@ msgid "How long is one rotation on Venus?"
 msgstr "Колькі займае адзін абарот Венеры?"
 
 #: activities/solar_system/Dataset.js:127
-#| msgctxt "Dataset|"
-#| msgid "365 Earth days"
 msgctxt "Dataset|"
 msgid "243 Earth days"
 msgstr ""
@@ -21486,22 +21418,16 @@ msgid "How long does it take for Mars to make one revolution around the Sun?"
 msgstr "За які час Марс робіць адзін абарот вакол Сонца?"
 
 #: activities/solar_system/Dataset.js:235
-#| msgctxt "Dataset|"
-#| msgid "88 Earth days"
 msgctxt "Dataset|"
 msgid "687 Earth days"
 msgstr ""
 
 #: activities/solar_system/Dataset.js:235
-#| msgctxt "Dataset|"
-#| msgid "50 Earth days"
 msgctxt "Dataset|"
 msgid "30 Earth days"
 msgstr ""
 
 #: activities/solar_system/Dataset.js:235
-#| msgctxt "Dataset|"
-#| msgid "107 Earth days"
 msgctxt "Dataset|"
 msgid "7 Earth days"
 msgstr ""
@@ -21709,22 +21635,16 @@ msgid "How many years does it take for Uranus to go once around the Sun?"
 msgstr "Колькі гадоў займае адзін абарот Урана вакол Сонца?"
 
 #: activities/solar_system/Dataset.js:352
-#| msgctxt "Dataset|"
-#| msgid "12 Earth years"
 msgctxt "Dataset|"
 msgid "24 Earth years"
 msgstr ""
 
 #: activities/solar_system/Dataset.js:352
-#| msgctxt "Dataset|"
-#| msgid "5 Earth years"
 msgctxt "Dataset|"
 msgid "68 Earth years"
 msgstr ""
 
 #: activities/solar_system/Dataset.js:352
-#| msgctxt "Dataset|"
-#| msgid "5 Earth years"
 msgctxt "Dataset|"
 msgid "84 Earth years"
 msgstr ""
@@ -21777,8 +21697,6 @@ msgid "The maximum temperature on Saturn is -178 °C."
 msgstr "Максімальная тэмпература на Сатурне складае -178 °C."
 
 #: activities/solar_system/Dataset.js:387
-#| msgctxt "Dataset|"
-#| msgid "The length of a year on Uranus is 84 years."
 msgctxt "Dataset|"
 msgid "The length of a year on Uranus is 84 Earth years."
 msgstr ""
@@ -21794,22 +21712,16 @@ msgid "How long does it take for Neptune to make one revolution around the Sun?"
 msgstr "За які час Нептун робіць адзін абарот вакол Сонца?"
 
 #: activities/solar_system/Dataset.js:397
-#| msgctxt "Dataset|"
-#| msgid "5 Earth years"
 msgctxt "Dataset|"
 msgid "165 Earth years"
 msgstr ""
 
 #: activities/solar_system/Dataset.js:397
-#| msgctxt "Dataset|"
-#| msgid "30 Earth years"
 msgctxt "Dataset|"
 msgid "3 Earth years"
 msgstr ""
 
 #: activities/solar_system/Dataset.js:397
-#| msgctxt "Dataset|"
-#| msgid "10 Earth years"
 msgctxt "Dataset|"
 msgid "100 Earth years"
 msgstr ""
@@ -22586,6 +22498,279 @@ msgid "Each car can only move either horizontally or vertically. You must make s
 msgstr "Кожны аўтамабіль можа рухацца альбо гарызантальна, альбо вертыкальна. Трэба вызваліць дарогу чырвонаму аўтамабілю да выезду справа."
 
 #. Activity title
+#: activities/vertical_addition/ActivityInfo.qml:15
+#| msgctxt "ActivityInfo|"
+#| msgid "Practice addition."
+msgctxt "ActivityInfo|"
+msgid "Vertical addition"
+msgstr ""
+
+#. Help title
+#: activities/vertical_addition/ActivityInfo.qml:17
+#| msgctxt "ActivityInfo|"
+#| msgid "Reproduce the given tower."
+msgctxt "ActivityInfo|"
+msgid "Solve the given addition."
+msgstr ""
+
+#. Help goal
+#: activities/vertical_addition/ActivityInfo.qml:20
+#| msgctxt "ActivityInfo|"
+#| msgid "Learn to share, practice division."
+msgctxt "ActivityInfo|"
+msgid "Learn to solve vertical additions."
+msgstr ""
+
+#. Help prerequisite
+#: activities/vertical_addition/ActivityInfo.qml:22
+#| msgctxt "Data|"
+#| msgid "Addition table of 1."
+msgctxt "ActivityInfo|"
+msgid "Addition tables."
+msgstr ""
+
+#. Help manual
+#: activities/vertical_addition/ActivityInfo.qml:24
+msgctxt "ActivityInfo|"
+msgid "In a vertical addition, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The result is written on the bottom line. To solve the addition, start by adding up the numbers of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the result gives a two digit number, write only the units digit on the result, and add the tens digit next to the top number of the next column: this is called the carry. Then add up the numbers of the next column, including the carry number, and repeat the process until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
+msgstr ""
+
+#: activities/vertical_addition/resource/1/Data.qml:12
+msgctxt "Data|"
+msgid "Solve addition, 2 digits, 2 lines, without carry."
+msgstr ""
+
+#: activities/vertical_addition/resource/10/Data.qml:12
+msgctxt "Data|"
+msgid "Solve addition, 4 digits, 3 lines."
+msgstr ""
+
+#: activities/vertical_addition/resource/11/Data.qml:12
+msgctxt "Data|"
+msgid "Solve addition, 4 digits, 4 lines."
+msgstr ""
+
+#: activities/vertical_addition/resource/12/Data.qml:12
+msgctxt "Data|"
+msgid "Write your own addition and solve it."
+msgstr ""
+
+#: activities/vertical_addition/resource/2/Data.qml:12
+msgctxt "Data|"
+msgid "Write and solve addition, 2 digits, 2 lines, without carry."
+msgstr ""
+
+#: activities/vertical_addition/resource/3/Data.qml:12
+msgctxt "Data|"
+msgid "Solve addition, 2 digits, 2 lines."
+msgstr ""
+
+#: activities/vertical_addition/resource/4/Data.qml:12
+msgctxt "Data|"
+msgid "Write and solve addition, 2 digits, 2 lines."
+msgstr ""
+
+#: activities/vertical_addition/resource/5/Data.qml:12
+msgctxt "Data|"
+msgid "Write and solve addition, 2 digits, 3 lines."
+msgstr ""
+
+#: activities/vertical_addition/resource/6/Data.qml:12
+msgctxt "Data|"
+msgid "Solve addition, 3 digits, 2 lines."
+msgstr ""
+
+#: activities/vertical_addition/resource/7/Data.qml:12
+msgctxt "Data|"
+msgid "Write and solve addition, 3 digits, 2 lines."
+msgstr ""
+
+#: activities/vertical_addition/resource/8/Data.qml:12
+msgctxt "Data|"
+msgid "Solve addition, 3 digits, 3 lines."
+msgstr ""
+
+#: activities/vertical_addition/resource/9/Data.qml:12
+msgctxt "Data|"
+msgid "Solve addition, 4 digits, 2 lines."
+msgstr ""
+
+#. Activity title
+#: activities/vertical_subtraction/ActivityInfo.qml:15
+#| msgctxt "ActivityInfo|"
+#| msgid "Practice subtraction."
+msgctxt "ActivityInfo|"
+msgid "Vertical subtraction"
+msgstr ""
+
+#. Help title
+#: activities/vertical_subtraction/ActivityInfo.qml:17
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:17
+#| msgctxt "InstructionArea|"
+#| msgid "Choose the instructions"
+msgctxt "ActivityInfo|"
+msgid "Solve the given subtraction."
+msgstr ""
+
+#. Help goal
+#: activities/vertical_subtraction/ActivityInfo.qml:20
+msgctxt "ActivityInfo|"
+msgid "Learn to solve vertical subtractions, with the borrowing by regrouping method."
+msgstr ""
+
+#. Help prerequisite
+#: activities/vertical_subtraction/ActivityInfo.qml:22
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:22
+#| msgctxt "Data|"
+#| msgid "Subtraction table of 1."
+msgctxt "ActivityInfo|"
+msgid "Subtraction tables."
+msgstr ""
+
+#. Help manual
+#: activities/vertical_subtraction/ActivityInfo.qml:24
+msgctxt "ActivityInfo|"
+msgid "In a vertical subtraction, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The top number is called the minuend: it is the amount that we are starting with, that another number is being subtracted from to get the difference. The number below is called the subtrahend: it is the amount to substract from the minuend to get the difference. The result is written on the bottom line. To solve the subtraction, start by subtracting the bottom number of the first column from the top number of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the top number is smaller than the bottom number, you can borrow from the minuend on the next column: for example, if you add 10 units to the top number, you need to remove one unit from the top number of the next column. This is called the borrowing by regrouping method. To do that in this activity, click on the empty rectangle on the left of the top number, select 1, and on the next column click on the empty rectangle on the right of the top number and select -1. Then write the result of the column on the bottom line, and do the same on the next columns until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
+msgstr ""
+
+#: activities/vertical_subtraction/resource/1/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/1/Data.qml:12
+msgctxt "Data|"
+msgid "Solve subtraction, 2 digits, 2 lines, without carry."
+msgstr ""
+
+#: activities/vertical_subtraction/resource/10/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/10/Data.qml:12
+#| msgctxt "Data|"
+#| msgid "Subtractions with 1, 2 and 3."
+msgctxt "Data|"
+msgid "Solve subtraction, 4 or 5 digits, 3 lines."
+msgstr ""
+
+#: activities/vertical_subtraction/resource/11/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/11/Data.qml:12
+#| msgctxt "Data|"
+#| msgid "Subtractions with 1, 2 and 3."
+msgctxt "Data|"
+msgid "Solve subtraction, 4 or 5 digits, 4 lines."
+msgstr ""
+
+#: activities/vertical_subtraction/resource/12/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/12/Data.qml:12
+#| msgctxt "Data|"
+#| msgid "Learn subtraction table of 1."
+msgctxt "Data|"
+msgid "Write your own subtraction and solve it."
+msgstr ""
+
+#: activities/vertical_subtraction/resource/2/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/2/Data.qml:12
+msgctxt "Data|"
+msgid "Write and solve subtraction, 2 digits, 2 lines, without carry."
+msgstr ""
+
+#: activities/vertical_subtraction/resource/3/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/3/Data.qml:12
+#| msgctxt "Data|"
+#| msgid "Subtractions with 1, 2 and 3."
+msgctxt "Data|"
+msgid "Solve subtraction, 2 or 3 digits, 2 lines."
+msgstr ""
+
+#: activities/vertical_subtraction/resource/4/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/4/Data.qml:12
+#| msgctxt "Data|"
+#| msgid "Subtractions with 1, 2 and 3."
+msgctxt "Data|"
+msgid "Write and solve subtraction, 2 or 3 digits, 2 lines."
+msgstr ""
+
+#: activities/vertical_subtraction/resource/5/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/5/Data.qml:12
+#| msgctxt "Data|"
+#| msgid "Subtractions with 1, 2 and 3."
+msgctxt "Data|"
+msgid "Write and solve subtraction, 2 or 3 digits, 3 lines."
+msgstr ""
+
+#: activities/vertical_subtraction/resource/6/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/6/Data.qml:12
+#| msgctxt "Data|"
+#| msgid "Subtractions with 1, 2 and 3."
+msgctxt "Data|"
+msgid "Solve subtraction, 3 or 4 digits, 2 lines."
+msgstr ""
+
+#: activities/vertical_subtraction/resource/7/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/7/Data.qml:12
+#| msgctxt "Data|"
+#| msgid "Subtractions with 1, 2 and 3."
+msgctxt "Data|"
+msgid "Write and solve subtraction, 3 or 4 digits, 2 lines."
+msgstr ""
+
+#: activities/vertical_subtraction/resource/8/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/8/Data.qml:12
+#| msgctxt "Data|"
+#| msgid "Subtractions with 1, 2 and 3."
+msgctxt "Data|"
+msgid "Solve subtraction, 3 or 4 digits, 3 lines."
+msgstr ""
+
+#: activities/vertical_subtraction/resource/9/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/9/Data.qml:12
+#| msgctxt "Data|"
+#| msgid "Subtractions with 1, 2 and 3."
+msgctxt "Data|"
+msgid "Solve subtraction, 4 or 5 digits, 2 lines."
+msgstr ""
+
+#: activities/vertical_subtraction/subtraction.js:71
+msgctxt "subtraction|"
+msgid "Write:"
+msgstr ""
+
+#: activities/vertical_subtraction/subtraction.js:71
+msgctxt "subtraction|"
+msgid "Solve:"
+msgstr ""
+
+#. Solve (= Find the result of): %1 (= the operation to solve)
+#: activities/vertical_subtraction/subtraction.js:166
+#| msgctxt "BackgroundMusicList|"
+#| msgid "Title: %1"
+msgctxt "subtraction|"
+msgid "Solve: %1"
+msgstr ""
+
+#: activities/vertical_subtraction/VerticalSubtraction.qml:399
+#| msgctxt "Frieze|"
+#| msgid "I am Ready"
+msgctxt "VerticalSubtraction|"
+msgid "Ready"
+msgstr "Гатовы"
+
+#. Activity title
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:15
+#| msgctxt "ActivityInfo|"
+#| msgid "Practice the subtraction operation."
+msgctxt "ActivityInfo|"
+msgid "Vertical subtraction (compensation)"
+msgstr ""
+
+#. Help goal
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:20
+msgctxt "ActivityInfo|"
+msgid "Learn to solve vertical subtractions, with the borrowing by compensation method."
+msgstr ""
+
+#. Help manual
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:24
+msgctxt "ActivityInfo|"
+msgid "In a vertical subtraction, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The top number is called the minuend: it is the amount that we are starting with, that another number is being subtracted from to get the difference. The number below is called the subtrahend: it is the amount to substract from the minuend to get the difference. The result is written on the bottom line. To solve the subtraction, start by subtracting the bottom number of the first column from the top number of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the top number is smaller than the bottom number, you can borrow from the subtrahend on the next column: for example, if you add 10 units to the top number, you need to add one unit to the bottom number of the next column. This is called the borrowing by compensation method. To do that in this activity, click on the empty rectangle on the left of the top number, select 1, and on the next column click on the empty rectangle on the right of the bottom number and select +1. Then write the result of the column on the bottom line, and do the same on the next columns until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
+msgstr ""
+
+#. Activity title
 #: activities/watercycle/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Watercycle"
@@ -22711,288 +22896,311 @@ msgstr "Увядзіце ўсё слова пакуль яно падае і н�
 #| msgctxt "ChangeLog|"
 #| msgid "Translation added for Azerbaijani"
 msgctxt "ChangeLog|"
-msgid "Translation added for Latvian"
+msgid "Translation added for Sanskrit"
 msgstr ""
 
-#: core/ChangeLog.qml:31 core/ChangeLog.qml:36 core/ChangeLog.qml:42
-#: core/ChangeLog.qml:71 core/ChangeLog.qml:106 core/ChangeLog.qml:109
-#: core/ChangeLog.qml:115
+#: core/ChangeLog.qml:31 core/ChangeLog.qml:40 core/ChangeLog.qml:46
+#: core/ChangeLog.qml:51 core/ChangeLog.qml:57 core/ChangeLog.qml:86
+#: core/ChangeLog.qml:121 core/ChangeLog.qml:124 core/ChangeLog.qml:130
 msgctxt "ChangeLog|"
 msgid "Many usability improvements"
 msgstr "Шмат выпраўленняў для зручнасці карыстання"
 
-#: core/ChangeLog.qml:32 core/ChangeLog.qml:37 core/ChangeLog.qml:44
-#: core/ChangeLog.qml:53 core/ChangeLog.qml:60 core/ChangeLog.qml:73
-#: core/ChangeLog.qml:111 core/ChangeLog.qml:117
-msgctxt "ChangeLog|"
-msgid "Many bug fixes"
-msgstr "Шматлікія выпраўленні памылак"
-
-#: core/ChangeLog.qml:41
-msgctxt "ChangeLog|"
-msgid "Translations added for Bulgarian, Galician and Swahili"
-msgstr ""
-
-#: core/ChangeLog.qml:43 core/ChangeLog.qml:52 core/ChangeLog.qml:59
-#: core/ChangeLog.qml:72 core/ChangeLog.qml:90 core/ChangeLog.qml:105
-#: core/ChangeLog.qml:110 core/ChangeLog.qml:116
+#: core/ChangeLog.qml:32 core/ChangeLog.qml:58 core/ChangeLog.qml:67
+#: core/ChangeLog.qml:74 core/ChangeLog.qml:87 core/ChangeLog.qml:105
+#: core/ChangeLog.qml:120 core/ChangeLog.qml:125 core/ChangeLog.qml:131
 msgctxt "ChangeLog|"
 msgid "Many new images"
 msgstr "Шмат новых выяваў"
 
+#: core/ChangeLog.qml:33 core/ChangeLog.qml:41 core/ChangeLog.qml:47
+#: core/ChangeLog.qml:52 core/ChangeLog.qml:59 core/ChangeLog.qml:68
+#: core/ChangeLog.qml:75 core/ChangeLog.qml:88 core/ChangeLog.qml:126
+#: core/ChangeLog.qml:132
+msgctxt "ChangeLog|"
+msgid "Many bug fixes"
+msgstr "Шматлікія выпраўленні памылак"
+
+#: core/ChangeLog.qml:34
+msgctxt "ChangeLog|"
+msgid "Automatic application of new language when changing it in the menu (no need to restart GCompris)"
+msgstr ""
+
+#: core/ChangeLog.qml:35
+msgctxt "ChangeLog|"
+msgid "Add splash screen at startup"
+msgstr ""
+
+#: core/ChangeLog.qml:36
+msgctxt "ChangeLog|"
+msgid "New command-line option to switch the renderer (--renderer renderer)"
+msgstr ""
+
 #: core/ChangeLog.qml:45
+#| msgctxt "ChangeLog|"
+#| msgid "Translation added for Azerbaijani"
+msgctxt "ChangeLog|"
+msgid "Translation added for Latvian"
+msgstr ""
+
+#: core/ChangeLog.qml:56
+msgctxt "ChangeLog|"
+msgid "Translations added for Bulgarian, Galician and Swahili"
+msgstr ""
+
+#: core/ChangeLog.qml:60
 msgctxt "ChangeLog|"
 msgid "New command-line option to directly start an activity at a specific level (--start-level level, to be used with --launch activity)"
 msgstr ""
 
-#: core/ChangeLog.qml:50
+#: core/ChangeLog.qml:65
 msgctxt "ChangeLog|"
 msgid "Translations added for Arabic and Esperanto"
 msgstr ""
 
-#: core/ChangeLog.qml:51 core/ChangeLog.qml:58
+#: core/ChangeLog.qml:66 core/ChangeLog.qml:73
 msgctxt "ChangeLog|"
 msgid "Many translation updates"
 msgstr ""
 
-#: core/ChangeLog.qml:57
+#: core/ChangeLog.qml:72
 msgctxt "ChangeLog|"
 msgid "New command-line option (--difficulty {value|min-max}) to start GCompris at specific difficulty"
 msgstr ""
 
-#: core/ChangeLog.qml:64
+#: core/ChangeLog.qml:79
 msgctxt "ChangeLog|"
 msgid "Fix issue in comparator activity"
 msgstr ""
 
-#: core/ChangeLog.qml:68
+#: core/ChangeLog.qml:83
 msgctxt "ChangeLog|"
 msgid "Map of Spain added for geography activity"
 msgstr ""
 
-#: core/ChangeLog.qml:69
+#: core/ChangeLog.qml:84
 msgctxt "ChangeLog|"
 msgid "Voices added for Ukrainian"
 msgstr ""
 
-#: core/ChangeLog.qml:70
+#: core/ChangeLog.qml:85
 msgctxt "ChangeLog|"
 msgid "New command-line option to list all the activities and start on a specific one"
 msgstr ""
 
-#: core/ChangeLog.qml:77
+#: core/ChangeLog.qml:92
 msgctxt "ChangeLog|"
 msgid "Reduce the size of the packages for all platforms and of the external word images set"
 msgstr ""
 
-#: core/ChangeLog.qml:78
+#: core/ChangeLog.qml:93
 msgctxt "ChangeLog|"
 msgid "Improve images quality in several activities"
 msgstr ""
 
-#: core/ChangeLog.qml:79
+#: core/ChangeLog.qml:94
 msgctxt "ChangeLog|"
 msgid "Fix some transitions in renewable_energy/watercycle on some platforms"
 msgstr ""
 
-#: core/ChangeLog.qml:80
+#: core/ChangeLog.qml:95
 msgctxt "ChangeLog|"
 msgid "Fix dead keys ignored on Linux for typing activities"
 msgstr ""
 
-#: core/ChangeLog.qml:81
+#: core/ChangeLog.qml:96
 msgctxt "ChangeLog|"
 msgid "Fix level reset when changing level manually in Logical associations"
 msgstr ""
 
-#: core/ChangeLog.qml:85
+#: core/ChangeLog.qml:100
 msgctxt "ChangeLog|"
 msgid "Fix Alphabet sequence, Even and odd numbers and Numbers in order activities"
 msgstr ""
 
-#: core/ChangeLog.qml:89 core/ChangeLog.qml:97
+#: core/ChangeLog.qml:104 core/ChangeLog.qml:112
 #| msgctxt "ChangeLog|"
 #| msgid "Many bug fixes"
 msgctxt "ChangeLog|"
 msgid "Several bug fixes"
 msgstr ""
 
-#: core/ChangeLog.qml:91
+#: core/ChangeLog.qml:106
 msgctxt "ChangeLog|"
 msgid "Translation updated for Russian"
 msgstr ""
 
-#: core/ChangeLog.qml:92
+#: core/ChangeLog.qml:107
 msgctxt "ChangeLog|"
 msgid "New voices for Norwegian Nynorsk"
 msgstr ""
 
-#: core/ChangeLog.qml:96
+#: core/ChangeLog.qml:111
 msgctxt "ChangeLog|"
 msgid "Translations added for Breton, Czech and Macedonian"
 msgstr ""
 
-#: core/ChangeLog.qml:101
+#: core/ChangeLog.qml:116
 msgctxt "ChangeLog|"
 msgid "Translation added for Azerbaijani"
 msgstr ""
 
-#: core/ChangeLog.qml:102
+#: core/ChangeLog.qml:117
 msgctxt "ChangeLog|"
 msgid "New maps and update of the maps for geography activities"
 msgstr ""
 
-#: core/ChangeLog.qml:103
+#: core/ChangeLog.qml:118
 msgctxt "ChangeLog|"
 msgid "New dataset containing loops operations for programming maze, and make tutorial images translated"
 msgstr ""
 
-#: core/ChangeLog.qml:104
+#: core/ChangeLog.qml:119
 msgctxt "ChangeLog|"
 msgid "Addition of a level to teach voltage source loop in analog electricity activity"
 msgstr ""
 
-#: core/ChangeLog.qml:114
+#: core/ChangeLog.qml:129
 msgctxt "ChangeLog|"
 msgid "New Activity Settings menu, with dataset selection"
 msgstr "Новае меню наладаў практыкавання, з выбарам набору звестак"
 
-#: core/ChangeLog.qml:120
+#: core/ChangeLog.qml:135
 msgctxt "ChangeLog|"
 msgid "New sub-categories to organize activities"
 msgstr "Новыя падкатэгорыі для ўпарадкавання практыкаванняў"
 
-#: core/ChangeLog.qml:121
+#: core/ChangeLog.qml:136
 msgctxt "ChangeLog|"
 msgid "Translation added for Macedonian."
 msgstr "Дададзены пераклад на македонскую."
 
-#: core/ChangeLog.qml:122
+#: core/ChangeLog.qml:137
 msgctxt "ChangeLog|"
 msgid "New activities Programming Maze and Baby Tangram"
 msgstr "Новыя практыкаванні: Праграмаванне лабірынту і Дзіцячы Танграм"
 
-#: core/ChangeLog.qml:123
+#: core/ChangeLog.qml:138
 msgctxt "ChangeLog|"
 msgid "New background music and volume settings."
 msgstr "Новыя налады для фонавай музыкі і гучнасці."
 
-#: core/ChangeLog.qml:124
+#: core/ChangeLog.qml:139
 msgctxt "ChangeLog|"
 msgid "New speed setting in several activities."
 msgstr "Новая налада хуткасці ў шэрагу практыкаванняў."
 
-#: core/ChangeLog.qml:125
+#: core/ChangeLog.qml:140
 msgctxt "ChangeLog|"
 msgid "New option in chess to display captured pieces."
 msgstr "Новая магчымасць паказваць узятыя фігуры ў шахматах."
 
-#: core/ChangeLog.qml:126
+#: core/ChangeLog.qml:141
 msgctxt "ChangeLog|"
 msgid "New images in Colors, Advanced colors and Target game."
 msgstr "Новыя выявы ў Колерах, Складаных колерах і Дартс."
 
-#: core/ChangeLog.qml:127
+#: core/ChangeLog.qml:142
 msgctxt "ChangeLog|"
 msgid "New voices for US English."
 msgstr "Новая агучка для Амерыканскай англійскай мовы."
 
-#: core/ChangeLog.qml:128 core/ChangeLog.qml:136
+#: core/ChangeLog.qml:143 core/ChangeLog.qml:151
 msgctxt "ChangeLog|"
 msgid "Many little fixes and improvements."
 msgstr "Шмат дробных выпраўленняў і паляпшэнняў."
 
-#: core/ChangeLog.qml:129
+#: core/ChangeLog.qml:144
 msgctxt "ChangeLog|"
 msgid "Translation updated for multiple languages (Breton, Brazilian Portuguese, Finnish...)."
 msgstr "Пераклад адноўлены для шэрагу моў (брэтонская, бразільская партугальская, фінская...)."
 
-#: core/ChangeLog.qml:130
+#: core/ChangeLog.qml:145
 msgctxt "ChangeLog|"
 msgid "Add Russian dataset for Click on letter activity."
 msgstr "Дададзены набор звестак для рускай мовы ў практыкаванні Пстрыкнуць па літары."
 
-#: core/ChangeLog.qml:131
+#: core/ChangeLog.qml:146
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Dutch."
 msgstr "Моўнае практыкаванне цяпер даступнае на дацкай мове."
 
-#: core/ChangeLog.qml:132
+#: core/ChangeLog.qml:147
 msgctxt "ChangeLog|"
 msgid "Merge Norwegian counties Nord-Trøndelag and Sør-Trøndelag into Trøndelag in geo-country activity."
 msgstr "У геаграфічным практыкаванні аб'яднаны каралеўствы Нарвегіі Nord-Trøndelag і Sør-Trøndelag у Trøndelag."
 
-#: core/ChangeLog.qml:133
+#: core/ChangeLog.qml:148
 msgctxt "ChangeLog|"
 msgid "Fix in braille activities where the cells start at 1, not 0."
 msgstr "Выпраўленыя практыкаванні пра сістэму Брайля, дзе клеткі пачыналіся з 1 замест 0."
 
-#: core/ChangeLog.qml:134
+#: core/ChangeLog.qml:149
 msgctxt "ChangeLog|"
 msgid "Translation added for Basque, Hungarian and Malayalam."
 msgstr "Дададзеныя пераклады на баскскую, вянгерскую і малаяльскую мову."
 
-#: core/ChangeLog.qml:135
+#: core/ChangeLog.qml:150
 msgctxt "ChangeLog|"
 msgid "Loading/saving of creations (Baby Wordprocessor, Balance Box and Piano Composition)."
 msgstr "Заладаванне/захаванне творчасці (Дзіцячы тэкставы рэдактар, Балансная скрыня і Кампазіцыя на піяніна)."
 
-#: core/ChangeLog.qml:136
+#: core/ChangeLog.qml:151
 msgctxt "ChangeLog|"
 msgid "Translations added for Scottish Gaelic."
 msgstr "Дададзены пераклад на гэльскую шатландскую мову."
 
-#: core/ChangeLog.qml:137
+#: core/ChangeLog.qml:152
 msgctxt "ChangeLog|"
 msgid "License page added in configuration."
 msgstr "У канфігурацыі дададзеная старонка з ліцэнзіяй."
 
-#: core/ChangeLog.qml:137
+#: core/ChangeLog.qml:152
 msgctxt "ChangeLog|"
 msgid "Multiple changes on layouts to improve the ergonomy."
 msgstr "Шэраг зменаў у шаблонах для паляпшэння эрганамічнасці."
 
-#: core/ChangeLog.qml:138
+#: core/ChangeLog.qml:153
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Polish, Swedish and Ukrainian."
 msgstr "Моўнае практыкаванне цяпер даступнае на Польскай, Шведскай і Ўкраінскай мовах."
 
-#: core/ChangeLog.qml:139
+#: core/ChangeLog.qml:154
 msgctxt "ChangeLog|"
 msgid "Search feature."
 msgstr "Функцыя пошуку."
 
-#: core/ChangeLog.qml:140
+#: core/ChangeLog.qml:155
 msgctxt "ChangeLog|"
 msgid "A Changelog."
 msgstr "Гісторыя змяненняў."
 
-#: core/ChangeLog.qml:141
+#: core/ChangeLog.qml:156
 msgctxt "ChangeLog|"
 msgid "Many little fixes."
 msgstr "Шматлікія малыя выпраўленні."
 
-#: core/ChangeLog.qml:141
+#: core/ChangeLog.qml:156
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in French."
 msgstr "Моўнае практыкаванне цяпер даступнае на франзуцскай мове."
 
-#: core/ChangeLog.qml:142
+#: core/ChangeLog.qml:157
 msgctxt "ChangeLog|"
 msgid "Adding a loading overlay to let the user know that some actions are taking place (loading an activity for example) and can take some seconds."
 msgstr "Дададзенае перакрыццё падчас ладавання, каб даць магчымасць зразумець карыстальніку калі адбываецца некаторая аперацыя (да прыкладу, зладаванне практыкавання) і можа заняць некалькі секунд."
 
-#: core/ChangeLog.qml:142
+#: core/ChangeLog.qml:157
 msgctxt "ChangeLog|"
 msgid "Translations added for: Catalan (Valencian), Chinese Traditional, Finnish (92% translated), Russian (98% translated), Slovak (92% translated), Turkish."
 msgstr "Дададзеныя пераклады для каталонскай (валенсійскай), традыцыйнай кітайскай, фінскай (92% перакладзена), рускай (98% перакладзена), славацкай (92% перакладзена), турэцкай моў."
 
-#: core/ChangeLog.qml:143
+#: core/ChangeLog.qml:158
 msgctxt "ChangeLog|"
 msgid "Translations added for: Slovenian, German, Galician."
 msgstr "Дададзеныя пераклады на славенскую, нямецкую, галісійскую мовы."
 
-#: core/ChangeLog.qml:197
+#: core/ChangeLog.qml:212
 #, qt-format
 msgctxt "ChangeLog|"
 msgid "Version %1:"
@@ -23161,17 +23369,17 @@ msgctxt "DialogChooseLevel|"
 msgid "Options"
 msgstr "Параметры"
 
-#: core/DialogChooseLevel.qml:344
+#: core/DialogChooseLevel.qml:345
 msgctxt "DialogChooseLevel|"
 msgid "Cancel"
 msgstr "Скасаваць"
 
-#: core/DialogChooseLevel.qml:352
+#: core/DialogChooseLevel.qml:353
 msgctxt "DialogChooseLevel|"
 msgid "Save"
 msgstr "Захаваць"
 
-#: core/DialogChooseLevel.qml:366
+#: core/DialogChooseLevel.qml:367
 msgctxt "DialogChooseLevel|"
 msgid "Save and start"
 msgstr "Захаваць і пачаць"
@@ -23321,8 +23529,8 @@ msgstr "%1 паспяхова выдалены!"
 #: core/GCCreationHandler.qml:177 core/GCCreationHandler.qml:182
 #: core/GCCreationHandler.qml:235
 msgctxt "GCCreationHandler|"
-msgid "Ok"
-msgstr "Добра"
+msgid "OK"
+msgstr "ДОБРА"
 
 #: core/GCCreationHandler.qml:181
 #, qt-format
@@ -23605,6 +23813,39 @@ msgctxt "Tutorial|"
 msgid "Start"
 msgstr "Пачаць"
 
+#~ msgctxt "ActivityInfo|"
+#~ msgid "<b>Keyboard controls:"
+#~ msgstr "<b>Кіраванне з клавіятуры:"
+
+#~ msgctxt "ActivityInfo|"
+#~ msgid "Draw the letters by connecting the dots in the correct order."
+#~ msgstr "Намалюйце літары, злучаючы кропкі ў слушным парадку."
+
+#~ msgctxt "ActivityInfo|"
+#~ msgid "Draw the numbers by connecting the dots in the correct order."
+#~ msgstr "Намалюйце лічбу, злучаючы кропкі ў слушным парадку."
+
+#~ msgctxt "ActivityInfo|"
+#~ msgid ""
+#~ "Draw the picture by clicking on the points in the numerical sequence "
+#~ "order."
+#~ msgstr "Стварыце малюнак, пстрыкаючы па кожным ліку ў слушным парадку."
+
+#, fuzzy
+#~| msgctxt "Data|"
+#~| msgid "Subtractions with 1, 2 and 3."
+#~ msgctxt "Data|"
+#~ msgid "Solve subtraction, 2 digits, 2 lines."
+#~ msgstr "Адыманне з 1, 2 і 3."
+
+#~ msgctxt "Balancebox|"
+#~ msgid "Ok"
+#~ msgstr "Добра"
+
+#~ msgctxt "GCCreationHandler|"
+#~ msgid "Ok"
+#~ msgstr "Добра"
+
 #~ msgctxt "Menu|"
 #~ msgid ""
 #~ "You selected a new locale, you need to restart GCompris to use it.<br/>Do "
@@ -23760,10 +24001,6 @@ msgstr "Пачаць"
 #~ msgstr ""
 #~ "Гэта выдатнае практыкаванне для ўдасканалення навычкаў чытання і "
 #~ "вымаўлення."
-
-#~ msgctxt "ActivityInfo|"
-#~ msgid "Reproduce the given tower."
-#~ msgstr "Утварыць дадзеную вежу."
 
 #~ msgctxt "ActivityInfo|"
 #~ msgid ""

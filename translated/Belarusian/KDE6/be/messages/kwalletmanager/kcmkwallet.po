@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-14 00:41+0000\n"
-"PO-Revision-Date: 2024-05-16 21:14\n"
+"POT-Creation-Date: 2024-08-14 00:42+0000\n"
+"PO-Revision-Date: 2025-01-07 21:21\n"
 "Last-Translator: Siarhei Liantsevich <serzh.by@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -16,8 +16,8 @@ msgstr ""
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/kwalletmanager/kcmkwallet.po\n"
-"X-Crowdin-File-ID: 10406\n"
+"X-Crowdin-File: /main/KDE6/be/messages/kwalletmanager/kcmkwallet.po\n"
+"X-Crowdin-File-ID: 19487\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -29,186 +29,197 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "komzpa@licei2.com, bashybuzuk@tut.by, ivan.telkontar@gmail.com, nashtlumach@gmail.com"
 
-#: konfigurator.cpp:100
+#: konfigurator.cpp:107
 msgid "New Wallet"
 msgstr ""
 
-#: konfigurator.cpp:100
+#: konfigurator.cpp:107
 msgid "Please choose a name for the new wallet:"
 msgstr ""
 
-#: konfigurator.cpp:214 konfigurator.cpp:292
+#: konfigurator.cpp:221 konfigurator.cpp:299
 msgid "Always Allow"
 msgstr "Заўсёды дазваляць"
 
-#: konfigurator.cpp:217 konfigurator.cpp:224 konfigurator.cpp:305
+#: konfigurator.cpp:224 konfigurator.cpp:231 konfigurator.cpp:312
 msgid "Always Deny"
 msgstr ""
 
-#: konfigurator.cpp:252
+#: konfigurator.cpp:259
 #, kde-format
 msgid "Permission denied."
 msgstr "Доступ забаронены."
 
-#: konfigurator.cpp:252 konfigurator.cpp:254
+#: konfigurator.cpp:259 konfigurator.cpp:261
 msgid "KDE Wallet Control Module"
 msgstr ""
 
-#: konfigurator.cpp:254
+#: konfigurator.cpp:261
 #, kde-format
 msgid "Error while authenticating action:\n"
 "%1"
 msgstr ""
 
-#: konfigurator.cpp:352
+#: konfigurator.cpp:359
 #, kde-format
 msgid "&Delete"
 msgstr "&Выдаліць"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab1)
-#: walletconfigwidget.ui:16
+#: walletconfigwidget.ui:27
 msgid "Wallet Preferences"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, _enabled)
-#: walletconfigwidget.ui:22
+#: walletconfigwidget.ui:33
 msgid "<p>The wallet subsystem provides a convenient and secure way to manage all your passwords. This option specifies whether or not you want to use it.</p>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, _enabled)
-#: walletconfigwidget.ui:25
+#: walletconfigwidget.ui:36
 msgid "&Enable the KDE wallet subsystem"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox2)
-#: walletconfigwidget.ui:35
+#: walletconfigwidget.ui:49
 msgid "It is best to close your wallets when you are not using them to prevent others from viewing or using them."
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: walletconfigwidget.ui:38
-msgid "Close Wallet"
+#: walletconfigwidget.ui:52
+#, kde-format
+msgid "Close Behavior"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, _closeIdle)
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, _idleTime)
-#: walletconfigwidget.ui:46 walletconfigwidget.ui:59
-msgid "<p><b>Close wallet after a period of inactivity.</b><br>When a wallet is closed the password is needed to access it again.</p>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, _closeIdle)
-#: walletconfigwidget.ui:49
-msgid "Close when unused for:"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, _idleTime)
-#: walletconfigwidget.ui:62
-msgid " minutes"
-msgstr " хвілін"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, _screensaverLock)
-#: walletconfigwidget.ui:99
-msgid "<p><b>Close wallet as soon as the screensaver starts.</b><br>When a wallet is closed the password is needed to access it again.</p>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, _screensaverLock)
-#: walletconfigwidget.ui:102
-msgid "Close when screensaver starts"
+#. i18n: ectx: property (text), widget (QLabel, closeWalletLabel)
+#: walletconfigwidget.ui:69
+msgid "Close wallet:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, _autoclose)
-#: walletconfigwidget.ui:109
+#: walletconfigwidget.ui:76
 msgid "<p><b>Close wallet as soon as applications that use it have stopped.</b><br>Note that your wallet will only be closed when all applications that use it have stopped.<br>When a wallet is closed the password is needed to access it again.</p>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, _autoclose)
-#: walletconfigwidget.ui:112
-msgid "Close when last application stops using it"
+#: walletconfigwidget.ui:79
+msgid "When last application stops using it"
 msgstr ""
 
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, _screensaverLock)
+#: walletconfigwidget.ui:86
+msgid "<p><b>Close wallet as soon as the screensaver starts.</b><br>When a wallet is closed the password is needed to access it again.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, _screensaverLock)
+#: walletconfigwidget.ui:89
+msgid "When screensaver starts"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, _closeIdle)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, _idleTime)
+#: walletconfigwidget.ui:96 walletconfigwidget.ui:115
+msgid "<p><b>Close wallet after a period of inactivity.</b><br>When a wallet is closed the password is needed to access it again.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, _closeIdle)
+#: walletconfigwidget.ui:99
+msgid "When unused for:"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, _idleTime)
+#: walletconfigwidget.ui:121
+msgid " minutes"
+msgstr " хвілін"
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
-#: walletconfigwidget.ui:122
+#: walletconfigwidget.ui:145
 msgid "Automatic Wallet Selection"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: walletconfigwidget.ui:128
-msgid "Select wallet to use as default:"
+#. i18n: ectx: property (text), widget (QCheckBox, _localWalletSelected)
+#: walletconfigwidget.ui:165
+msgid "Use different default wallet for local passwords"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, _newWallet)
 #. i18n: ectx: property (text), widget (QPushButton, _newLocalWallet)
-#: walletconfigwidget.ui:161 walletconfigwidget.ui:191
+#. i18n: ectx: property (text), widget (QPushButton, _newWallet)
+#: walletconfigwidget.ui:202 walletconfigwidget.ui:242
 msgid "New..."
 msgstr "Новае..."
 
-#. i18n: ectx: property (text), widget (QCheckBox, _localWalletSelected)
-#: walletconfigwidget.ui:168
-msgid "Different wallet for local passwords:"
+#. i18n: ectx: property (text), widget (QLabel, selectDefaultWalletLabel)
+#: walletconfigwidget.ui:211
+#, kde-format
+msgid "Default wallet:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
-#: walletconfigwidget.ui:201
+#: walletconfigwidget.ui:256
 msgid "Wallet Manager"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, _launchManager)
-#: walletconfigwidget.ui:207
+#: walletconfigwidget.ui:270
 msgid "Show manager in system tray"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, _autocloseManager)
-#: walletconfigwidget.ui:235
+#: walletconfigwidget.ui:298
 msgid "Hide system tray icon when last wallet closes"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox5)
-#: walletconfigwidget.ui:263
+#: walletconfigwidget.ui:312
 #, kde-format
 msgid "Secret Service"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, _secretServiceAPI)
-#: walletconfigwidget.ui:269
+#: walletconfigwidget.ui:331
 #, kde-format
-msgid "Use KWallet for the Secret Service interface"
+msgid "Use &KWallet for the Secret Service interface"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: walletconfigwidget.ui:279
+#. i18n: ectx: property (contextualHelpText), widget (KContextualHelpButton, kcontextualhelpbutton)
+#: walletconfigwidget.ui:341
 #, kde-format
 msgid "The Secret Service interface lets applications store passwords and other confidential data. Disable this to allow third-party wallet services such as KeePassXC or GNOME Keyring to manage it instead."
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab2)
-#: walletconfigwidget.ui:328
+#: walletconfigwidget.ui:388
 msgid "Access Control"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, _openPrompt)
-#: walletconfigwidget.ui:334
+#: walletconfigwidget.ui:394
 msgid "&Prompt when an application accesses a wallet"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _accessList)
-#: walletconfigwidget.ui:348
+#: walletconfigwidget.ui:408
 msgid "Wallet"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _accessList)
-#: walletconfigwidget.ui:359
+#: walletconfigwidget.ui:413
 msgid "Application"
 msgstr "Праграма"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _accessList)
-#: walletconfigwidget.ui:370
+#: walletconfigwidget.ui:418
 msgid "Policy"
 msgstr "Палітыка"
 
 #. i18n: ectx: property (text), widget (QPushButton, _launch)
-#: walletconfigwidget.ui:406
+#: walletconfigwidget.ui:451
 msgid "&Launch Wallet Manager"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Select wallet to use as default:"
+#~ msgstr "Вылучыце папернік, які будзе выкарыстоўвацца па змаўчанні:"
 
 #, fuzzy
 #~ msgid "(c) 2003 George Staikos"

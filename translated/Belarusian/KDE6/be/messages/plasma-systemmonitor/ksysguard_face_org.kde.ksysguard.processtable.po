@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-16 00:40+0000\n"
-"PO-Revision-Date: 2024-06-17 08:06\n"
+"POT-Creation-Date: 2024-09-09 00:40+0000\n"
+"PO-Revision-Date: 2025-01-07 21:25\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -16,14 +16,15 @@ msgstr ""
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/plasma-systemmonitor/ksysguard_face_org.kde.ksysguard.processtable.po\n"
-"X-Crowdin-File-ID: 10720\n"
+"X-Crowdin-File: /main/KDE6/be/messages/plasma-systemmonitor/ksysguard_face_org.kde.ksysguard.processtable.po\n"
+"X-Crowdin-File-ID: 19857\n"
 
 #: src/faces/processtable/contents/ui/Config.qml:24
-#, kde-format
+#| msgctxt "@option:check"
+#| msgid "Confirm ending processes."
 msgctxt "@option:check"
-msgid "Confirm ending processes."
-msgstr "Пацвердзіць сканчэнне працэсаў."
+msgid "Confirm ending processes"
+msgstr ""
 
 #: src/faces/processtable/contents/ui/Config.qml:29
 #, kde-format
@@ -32,28 +33,32 @@ msgid "By default show:"
 msgstr "Прадвызначана паказваць:"
 
 #: src/faces/processtable/contents/ui/Config.qml:38
-#, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Own Processes"
 msgctxt "@item:inlistbox"
-msgid "Own Processes"
-msgstr "Уласныя працэсы"
+msgid "Own processes"
+msgstr ""
 
 #: src/faces/processtable/contents/ui/Config.qml:39
-#, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "User Processes"
 msgctxt "@item:inlistbox"
-msgid "User Processes"
-msgstr "Працэсы карыстальніка"
+msgid "User processes"
+msgstr ""
 
 #: src/faces/processtable/contents/ui/Config.qml:40
-#, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "System Processes"
 msgctxt "@item:inlistbox"
-msgid "System Processes"
-msgstr "Сістэмныя працэсы"
+msgid "System processes"
+msgstr ""
 
 #: src/faces/processtable/contents/ui/Config.qml:41
-#, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "All Processes"
 msgctxt "@item:inlistbox"
-msgid "All Processes"
-msgstr "Усе працэсы"
+msgid "All processes"
+msgstr ""
 
 #: src/faces/processtable/contents/ui/FullRepresentation.qml:32
 #, kde-format
@@ -197,7 +202,19 @@ msgctxt "@action:inmenu"
 msgid "Configure Columns…"
 msgstr "Наладжванне слупкоў…"
 
-#: src/faces/processtable/contents/ui/FullRepresentation.qml:255
+#: src/faces/processtable/contents/ui/FullRepresentation.qml:256
+#| msgctxt "@title:window"
+#| msgid "End Process"
+#| msgid_plural "End %1 Processes"
+msgctxt "@title:window"
+msgid "Forcibly End Process"
+msgid_plural "Forcibly End %1 Processes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: src/faces/processtable/contents/ui/FullRepresentation.qml:257
 #, kde-format
 msgctxt "@title:window"
 msgid "End Process"
@@ -207,7 +224,19 @@ msgstr[1] "Скончыць %1 працэсы"
 msgstr[2] "Скончыць %1 працэсаў"
 msgstr[3] "Скончыць %1 працэсы"
 
-#: src/faces/processtable/contents/ui/FullRepresentation.qml:256
+#: src/faces/processtable/contents/ui/FullRepresentation.qml:259
+#| msgctxt "@action:button"
+#| msgid "End Process"
+#| msgid_plural "End Processes"
+msgctxt "@action:button"
+msgid "Forcibly End Process"
+msgid_plural "Forcibly End Processes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: src/faces/processtable/contents/ui/FullRepresentation.qml:260
 #, kde-format
 msgctxt "@action:button"
 msgid "End Process"
@@ -217,22 +246,39 @@ msgstr[1] "Скончыць працэсы"
 msgstr[2] "Скончыць працэсы"
 msgstr[3] "Скончыць працэсы"
 
-#: src/faces/processtable/contents/ui/FullRepresentation.qml:258
-#, kde-format
-msgid "Are you sure you want to end this process?\n"
-"Any unsaved work may be lost."
-msgid_plural "Are you sure you want to end these %1 processes?\n"
-"Any unsaved work may be lost."
-msgstr[0] "Сапраўды хочаце скончыць %1 працэс?\n"
-"Незахаваныя змены могуць страціцца."
-msgstr[1] "Сапраўды хочаце скончыць %1 працэсы?\n"
-"Незахаваныя змены могуць страціцца."
-msgstr[2] "Сапраўды хочаце скончыць %1 працэсаў?\n"
-"Незахаваныя змены могуць страціцца."
-msgstr[3] "Сапраўды хочаце скончыць %1 працэсы?\n"
-"Незахаваныя змены могуць страціцца."
+#: src/faces/processtable/contents/ui/FullRepresentation.qml:263
+#| msgid ""
+#| "Are you sure you want to end this process?\n"
+#| "Any unsaved work may be lost."
+#| "Are you sure you want to end these %1 processes?\n"
+#| "Any unsaved work may be lost."
+#| msgid_plural ""
+#| "Are you sure you want to end these %1 processes?\n"
+#| "Any unsaved work may be lost."
+msgid "Forcibly end (SIGKILL) this process? Unsaved work may be lost."
+msgid_plural "Forcibly end (SIGKILL) these %1 processes? Unsaved work may be lost."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: src/faces/processtable/contents/ui/FullRepresentation.qml:269
+#: src/faces/processtable/contents/ui/FullRepresentation.qml:266
+#| msgid ""
+#| "Are you sure you want to end this process?\n"
+#| "Any unsaved work may be lost."
+#| "Are you sure you want to end these %1 processes?\n"
+#| "Any unsaved work may be lost."
+#| msgid_plural ""
+#| "Are you sure you want to end these %1 processes?\n"
+#| "Any unsaved work may be lost."
+msgid "End this process? Unsaved work may be lost."
+msgid_plural "End these %1 processes? Unsaved work may be lost."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: src/faces/processtable/contents/ui/FullRepresentation.qml:278
 #, kde-format
 msgctxt "@item:intable %1 is process id, %2 is user name"
 msgid "Process ID %1, owned by %2"

@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-10 01:46+0000\n"
-"PO-Revision-Date: 2024-02-11 18:53\n"
+"POT-Creation-Date: 2024-05-04 00:37+0000\n"
+"PO-Revision-Date: 2025-01-07 21:19\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -17,8 +17,8 @@ msgstr ""
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/knavalbattle/knavalbattle.po\n"
-"X-Crowdin-File-ID: 10220\n"
+"X-Crowdin-File: /main/KDE6/be/messages/knavalbattle/knavalbattle.po\n"
+"X-Crowdin-File-ID: 19283\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -264,45 +264,55 @@ msgid "URL of a Naval Battle game server to connect to after startup"
 msgstr ""
 
 #: mainwindow.cpp:59
+msgctxt "@action"
 msgid "&Single Player"
 msgstr ""
 
 #: mainwindow.cpp:63
-msgid "&Host Game..."
+msgctxt "@action"
+msgid "&Host Game…"
 msgstr ""
 
 #: mainwindow.cpp:67
-msgid "&Connect to Game..."
+msgctxt "@action"
+msgid "&Connect to Game…"
 msgstr ""
 
 #: mainwindow.cpp:72
-msgid "Change &Nickname..."
+msgctxt "@action"
+msgid "Change &Nickname…"
 msgstr ""
 
-#: mainwindow.cpp:75
-msgid "&Play Sounds"
-msgstr "Прайграваць гукі"
+#: mainwindow.cpp:76
+msgctxt "@option:check"
+msgid "Play Sounds"
+msgstr ""
 
-#: mainwindow.cpp:80
+#: mainwindow.cpp:81
 #, kde-format
+msgctxt "@option:check"
 msgid "&Adjacent Ships"
 msgstr ""
 
-#: mainwindow.cpp:85
+#: mainwindow.cpp:86
 #, kde-format
+msgctxt "@option:check"
 msgid "&Multiple Ships"
 msgstr ""
 
-#: mainwindow.cpp:90
+#: mainwindow.cpp:91
 #, kde-format
+msgctxt "@option:check"
 msgid "Show End-of-Game Message"
 msgstr ""
 
-#: mainwindow.cpp:95
+#: mainwindow.cpp:96
+msgctxt "@option:check"
 msgid "Show &Left Grid"
 msgstr ""
 
-#: mainwindow.cpp:99
+#: mainwindow.cpp:100
+msgctxt "@option:check"
 msgid "Show &Right Grid"
 msgstr ""
 
@@ -325,20 +335,21 @@ msgstr "&Порт:"
 
 #: networkdialog.cpp:116
 #, kde-format
-msgid "&Enter server address manually"
+msgctxt "@action:button"
+msgid "&Enter Server Address Manually"
 msgstr ""
 
 #: networkdialog.cpp:148
-#, kde-format
+msgctxt "@title:window"
 msgid "Network Parameters"
 msgstr ""
 
 #: networkdialog.cpp:210
-msgid "Connecting to remote host..."
+msgid "Connecting to remote host…"
 msgstr ""
 
 #: networkdialog.cpp:217
-msgid "Waiting for an incoming connection..."
+msgid "Waiting for an incoming connection…"
 msgstr ""
 
 #: networkdialog.cpp:236
@@ -407,16 +418,18 @@ msgid "You lose. Better luck next time!"
 msgstr ""
 
 #: playfield.cpp:209
+msgctxt "@title:window"
 msgid "Change Nickname"
 msgstr ""
 
 #: playfield.cpp:209
-#, kde-format
+msgctxt "@label:textbox"
 msgid "Enter new nickname:"
 msgstr ""
 
 #: playfield.cpp:238
-msgid "Restart game"
+msgctxt "@title:window"
+msgid "Restart Game"
 msgstr ""
 
 #: playfield.cpp:239
@@ -444,7 +457,7 @@ msgid "Enemy has shot. Shoot now!"
 msgstr ""
 
 #: playfield.cpp:267
-msgid "Waiting for enemy to shoot..."
+msgid "Waiting for enemy to shoot…"
 msgstr ""
 
 #: playfield.cpp:276
@@ -453,11 +466,11 @@ msgid "Ships placed. Now shoot on the enemy field!"
 msgstr ""
 
 #: playfield.cpp:279
-msgid "Waiting for other player to start the game..."
+msgid "Waiting for other player to start the game…"
 msgstr ""
 
 #: playfield.cpp:283
-msgid "Waiting for other player to place his ships..."
+msgid "Waiting for other player to place his ships…"
 msgstr ""
 
 #: playfield.cpp:297
@@ -470,13 +483,13 @@ msgid "You can't place your remaining ships."
 msgstr ""
 
 #: playfield.cpp:304
-msgctxt "@action"
+msgctxt "@action:button"
 msgid "Restart"
-msgstr "Перазапусціць"
+msgstr "Перазапуск"
 
 #: playfield.cpp:305
 #, kde-format
-msgctxt "@action"
+msgctxt "@action:button"
 msgid "Abort"
 msgstr "Скасаванне"
 
@@ -485,26 +498,34 @@ msgstr "Скасаванне"
 msgid "You can't place your remaining ships. Please restart placing ships or abort game"
 msgstr ""
 
-#: playfield.cpp:307
+#: playfield.cpp:308
 #, kde-format
-msgid "Restart placing ships"
+msgctxt "@title:window"
+msgid "Restart Placing Ships"
 msgstr ""
 
 #: simplemenu.cpp:40
+msgctxt "@action:button"
 msgid "Single Player"
 msgstr ""
 
 #: simplemenu.cpp:41
+msgctxt "@action:button"
 msgid "Host Network Game"
 msgstr ""
 
 #: simplemenu.cpp:42
+msgctxt "@action:button"
 msgid "Connect to Network Game"
 msgstr ""
 
 #: simplemenu.cpp:132 simplemenu.cpp:149
 msgid "Remote player"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Change &Nickname..."
+#~ msgstr "Імя:"
 
 #, fuzzy
 #~ msgid "KBattleship"
