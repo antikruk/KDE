@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-16 00:40+0000\n"
+"POT-Creation-Date: 2024-12-05 00:39+0000\n"
 "PO-Revision-Date: 2024-11-21 08:40\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
@@ -12,11 +12,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
+"%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/kdenetwork-filesharing/kfileshare.po\n"
+"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/kdenetwork-filesharing/"
+"kfileshare.po\n"
 "X-Crowdin-File-ID: 9986\n"
 
 #: samba/aclproperties/plugin.cpp:59
@@ -26,14 +29,15 @@ msgid "Deny"
 msgstr "Адхіліць"
 
 #: samba/aclproperties/plugin.cpp:61
-#| msgid "Allow"
+#, kde-format
 msgctxt "@option:radio an entry allowing permissions"
 msgid "Allow"
 msgstr "Дазволіць"
 
 #: samba/aclproperties/plugin.cpp:65
 #, kde-format
-msgctxt "@option:radio an unknown permission entry type (doesn't really happen)"
+msgctxt ""
+"@option:radio an unknown permission entry type (doesn't really happen)"
 msgid "Unknown"
 msgstr "Невядома"
 
@@ -86,15 +90,20 @@ msgid "Unknown"
 msgstr "Невядома"
 
 #: samba/aclproperties/plugin.cpp:185
-#| msgid "Permissions"
+#, kde-format
 msgctxt "@title:tab"
 msgid "Remote Permissions"
 msgstr "Адлеглыя правы доступу"
 
 #: samba/aclproperties/qml/ACEPage.qml:29
 msgctxt "@info"
-msgid "This permission entry was inherited from a parent container and can only be modified on that parent (e.g. a higher level directory)."
-msgstr "Гэты запіс правоў доступу быў пераняты ад бацькоўскага кантэйнера і можа быць зменены толькі ў гэтым бацькоўскім кантэйнеры (напрыклад, у каталозе больш высокага ўзроўню)."
+msgid ""
+"This permission entry was inherited from a parent container and can only be "
+"modified on that parent (e.g. a higher level directory)."
+msgstr ""
+"Гэты запіс правоў доступу быў пераняты ад бацькоўскага кантэйнера і можа "
+"быць зменены толькі ў гэтым бацькоўскім кантэйнеры (напрыклад, у каталозе "
+"больш высокага ўзроўню)."
 
 #: samba/aclproperties/qml/ACEPage.qml:36
 msgctxt "@label"
@@ -157,13 +166,11 @@ msgid "Delete"
 msgstr "Выдаліць"
 
 #: samba/aclproperties/qml/ACEPage.qml:99
-#| msgid "Permissions"
 msgctxt "@option:check"
 msgid "Read permissions"
 msgstr "Правы на чытанне"
 
 #: samba/aclproperties/qml/ACEPage.qml:103
-#| msgid "Permissions"
 msgctxt "@option:check"
 msgid "Change permissions"
 msgstr "Змяніць правы доступу"
@@ -175,8 +182,12 @@ msgstr "Зрабіць уладальнікам"
 
 #: samba/aclproperties/qml/ACEPage.qml:112
 msgctxt "@option:check"
-msgid "Only apply these permissions to objects and/or containers within this container"
-msgstr "Ужывайце гэтыя правы доступу толькі да аб'ектаў і(або) кантэйнераў у гэтым кантэйнеры"
+msgid ""
+"Only apply these permissions to objects and/or containers within this "
+"container"
+msgstr ""
+"Ужывайце гэтыя правы доступу толькі да аб'ектаў і(або) кантэйнераў у гэтым "
+"кантэйнеры"
 
 #: samba/aclproperties/qml/MainPage.qml:13
 msgctxt "@title"
@@ -184,43 +195,46 @@ msgid "Access Control Entries"
 msgstr "Запісы кантролю доступу"
 
 #: samba/aclproperties/qml/MainPage.qml:29
-#| msgid "Owner"
 msgctxt "@title file/folder owner info"
 msgid "Ownership"
 msgstr "Валоданне"
 
 #: samba/aclproperties/qml/MainPage.qml:33
-#| msgid "Owner"
 msgctxt "@label"
 msgid "Owner:"
 msgstr "Уладальнік:"
 
 #: samba/aclproperties/qml/MainPage.qml:37
-#| msgid "Group"
 msgctxt "@label"
 msgid "Group:"
 msgstr "Група:"
 
 #: samba/aclproperties/qml/NoDataPage.qml:17
-#| msgid "Permissions"
 msgctxt "@info"
 msgid "No Permissions Found"
 msgstr "Не знойдзена правоў доступу"
 
 #: samba/aclproperties/qml/NoDataPage.qml:18
 msgctxt "@info"
-msgid "There are probably no SMB/Windows/Advanced permissions set on this file."
-msgstr "Магчыма, для гэтага файла не вызначаны правы доступу SMB/Windows/Advanced."
+msgid ""
+"There are probably no SMB/Windows/Advanced permissions set on this file."
+msgstr ""
+"Магчыма, для гэтага файла не вызначаны правы доступу SMB/Windows/Advanced."
 
 #: samba/filepropertiesplugin/authhelper.cpp:47
 #, kde-kuit-format
 msgctxt "@info"
-msgid "User name <resource>%1</resource> is not valid as the name of a Samba user; cannot check for its existence."
-msgstr "Імя карыстальніка <resource>%1</resource> несапраўднае як імя карыстальніка Samba. Немагчыма праверыць яго існаванне."
+msgid ""
+"User name <resource>%1</resource> is not valid as the name of a Samba user; "
+"cannot check for its existence."
+msgstr ""
+"Імя карыстальніка <resource>%1</resource> несапраўднае як імя карыстальніка "
+"Samba. Немагчыма праверыць яго існаванне."
 
 #: samba/filepropertiesplugin/authhelper.cpp:66
 #, kde-kuit-format
-msgctxt "@info '%1 %2' together make up a terminal command; %3 is the command's output"
+msgctxt ""
+"@info '%1 %2' together make up a terminal command; %3 is the command's output"
 msgid "Command <command>%1 %2</command> failed:<nl/><nl/>%3"
 msgstr "Не ўдалося выканаць каманду <command>%1 %2</command>:<nl/><nl/>%3"
 
@@ -234,20 +248,39 @@ msgstr "Немагчыма развязаць выклік карыстальн�
 #: samba/filepropertiesplugin/authhelper.cpp:86
 #, kde-format
 msgctxt "@info"
-msgid "For security reasons, creating Samba users with empty passwords is not allowed."
-msgstr "З меркаванняў бяспекі забаронена ствараць карыстальнікаў Samba з пустымі паролямі."
+msgid ""
+"For security reasons, creating Samba users with empty passwords is not "
+"allowed."
+msgstr ""
+"З меркаванняў бяспекі забаронена ствараць карыстальнікаў Samba з пустымі "
+"паролямі."
 
 #: samba/filepropertiesplugin/authhelper.cpp:131
 #, kde-kuit-format
 msgctxt "@info"
-msgid "<resource>%1</resource> is not a valid group name; cannot make user <resource>%2</resource> a member of it."
-msgstr "<resource>%1</resource> - няправільная назва групы. Нельга зрабіць карыстальніка <resource>%2</resource> яе ўдзельнікам."
+msgid ""
+"<resource>%1</resource> is not a valid group name; cannot make user "
+"<resource>%2</resource> a member of it."
+msgstr ""
+"<resource>%1</resource> - няправільная назва групы. Нельга зрабіць "
+"карыстальніка <resource>%2</resource> яе ўдзельнікам."
 
 #: samba/filepropertiesplugin/authhelper.cpp:139
 #, kde-kuit-format
 msgctxt "@info"
-msgid "For security reasons, cannot make user <resource>%1</resource> a member of group <resource>%2</resource>.                                                    The group name is insecure; valid group names do not                                                    include the text <resource>admin</resource> or <resource>root</resource>."
-msgstr "З меркаванняў бяспекі немагчыма зрабіць карыстальніка <resource>%1</resource> удзельнікам групы <resource>%2</resource>.                                                     Назва групы небяспечная;  сапраўдныя назвы групаў не ўключаюць тэкст <resource>admin</resource> або <resource>root</resource>."
+msgid ""
+"For security reasons, cannot make user <resource>%1</resource> a member of "
+"group <resource>%2</"
+"resource>.                                                    The group name "
+"is insecure; valid group names do "
+"not                                                    include the text "
+"<resource>admin</resource> or <resource>root</resource>."
+msgstr ""
+"З меркаванняў бяспекі немагчыма зрабіць карыстальніка <resource>%1</"
+"resource> удзельнікам групы <resource>%2</"
+"resource>.                                                     Назва групы "
+"небяспечная;  сапраўдныя назвы групаў не ўключаюць тэкст <resource>admin</"
+"resource> або <resource>root</resource>."
 
 #: samba/filepropertiesplugin/groupmanager.cpp:36
 #, kde-kuit-format
@@ -258,39 +291,69 @@ msgstr "Выглядае, што ў вас няправільна ўсталяв
 #: samba/filepropertiesplugin/groupmanager.cpp:40
 #, kde-kuit-format
 msgctxt "@info:status"
-msgid "This error is caused by your distribution not setting up Samba sharing properly. Please file a bug with your distribution or check your distribution's documentation on setting up Samba sharing."
-msgstr "Гэтая памылка звязаная з тым, што ваш дыстрыбутыў не наладзіў належным чынам Samba. Калі ласка, паведаміце пра хібу вашага дыстрыбутыва або пашукайце ў дакументацыі вашага дыстрыбутыва звесткі пра наладжванне агульнага доступу з дапамогай Samba."
+msgid ""
+"This error is caused by your distribution not setting up Samba sharing "
+"properly. Please file a bug with your distribution or check your "
+"distribution's documentation on setting up Samba sharing."
+msgstr ""
+"Гэтая памылка звязаная з тым, што ваш дыстрыбутыў не наладзіў належным чынам "
+"Samba. Калі ласка, паведаміце пра хібу вашага дыстрыбутыва або пашукайце ў "
+"дакументацыі вашага дыстрыбутыва звесткі пра наладжванне агульнага доступу з "
+"дапамогай Samba."
 
 #: samba/filepropertiesplugin/groupmanager.cpp:42
 #, kde-kuit-format
 msgctxt "@info:status"
-msgid "This error is caused by your distribution not setting up Samba sharing properly. Please file a bug with your distribution or check your distribution's documentation on setting up Samba sharing. Error:<nl/><message>%1</message>"
-msgstr "Гэтая памылка звязаная з тым, што ваш дыстрыбутыў не наладзіў належным чынам Samba. Калі ласка, паведаміце пра хібу вашага дыстрыбутыва або пашукайце ў дакументацыі вашага дыстрыбутыва звесткі пра наладжванне агульнага доступу з дапамогай Samba.\n"
+msgid ""
+"This error is caused by your distribution not setting up Samba sharing "
+"properly. Please file a bug with your distribution or check your "
+"distribution's documentation on setting up Samba sharing. Error:<nl/"
+"><message>%1</message>"
+msgstr ""
+"Гэтая памылка звязаная з тым, што ваш дыстрыбутыў не наладзіў належным чынам "
+"Samba. Калі ласка, паведаміце пра хібу вашага дыстрыбутыва або пашукайце ў "
+"дакументацыі вашага дыстрыбутыва звесткі пра наладжванне агульнага доступу з "
+"дапамогай Samba.\n"
 "Памылка:<nl/><message>%1</message>"
 
 #: samba/filepropertiesplugin/groupmanager.cpp:49
 #, kde-kuit-format
 msgctxt "@info:status"
-msgid "This folder can't be shared because <filename>%1</filename> does not exist."
+msgid ""
+"This folder can't be shared because <filename>%1</filename> does not exist."
 msgstr "Гэта каталог нельга абагуліць, бо <filename>%1</filename> не існуе."
 
 #: samba/filepropertiesplugin/groupmanager.cpp:51
 #, kde-kuit-format
 msgctxt "@info:status"
-msgid "This error is caused by your distribution not setting up Samba sharing properly. You can fix it yourself by creating that folder manually. Then close and re-open this window."
-msgstr "Гэтая памылка звязаная з тым, што ваш дыстрыбутыў не наладзіў належным чынам Samba. Вы можаце выправіць гэта самастойна, стварыўшы гэты каталог уласнаручна. Затым закрыйце і зноў адкрыйце гэтае акно."
+msgid ""
+"This error is caused by your distribution not setting up Samba sharing "
+"properly. You can fix it yourself by creating that folder manually. Then "
+"close and re-open this window."
+msgstr ""
+"Гэтая памылка звязаная з тым, што ваш дыстрыбутыў не наладзіў належным чынам "
+"Samba. Вы можаце выправіць гэта самастойна, стварыўшы гэты каталог "
+"уласнаручна. Затым закрыйце і зноў адкрыйце гэтае акно."
 
 #: samba/filepropertiesplugin/groupmanager.cpp:58
 #, kde-kuit-format
 msgctxt "@info:status"
-msgid "This folder can't be shared because your user account isn't a member of the <resource>%1</resource> group."
-msgstr "Гэты каталог нельга абагуліць, бо вашага акаўнта няма сярод удзельнікаў групы <resource>%1</resource>."
+msgid ""
+"This folder can't be shared because your user account isn't a member of the "
+"<resource>%1</resource> group."
+msgstr ""
+"Гэты каталог нельга абагуліць, бо вашага акаўнта няма сярод удзельнікаў "
+"групы <resource>%1</resource>."
 
 #: samba/filepropertiesplugin/groupmanager.cpp:60
 #, kde-kuit-format
 msgctxt "@info:status"
-msgid "You can fix this by making your user a member of that group. Then restart the system."
-msgstr "Вы можаце выправіць гэта, стаўшы ўдзельнікам гэтай групы. Затым перазапусціце сістэму."
+msgid ""
+"You can fix this by making your user a member of that group. Then restart "
+"the system."
+msgstr ""
+"Вы можаце выправіць гэта, стаўшы ўдзельнікам гэтай групы. Затым "
+"перазапусціце сістэму."
 
 #: samba/filepropertiesplugin/groupmanager.cpp:64
 #, kde-format
@@ -301,41 +364,58 @@ msgstr "Зрабіцца ўдзельнікам групы"
 #: samba/filepropertiesplugin/groupmanager.cpp:73
 #, kde-kuit-format
 msgctxt "@info:status"
-msgid "This folder can't be shared because your user account doesn't have permission to write into <filename>%1</filename>."
-msgstr "Гэты каталог нельга абагуліць, бо ваш акаўнт не мае правоў на запіс у <filename>%1</filename>."
+msgid ""
+"This folder can't be shared because your user account doesn't have "
+"permission to write into <filename>%1</filename>."
+msgstr ""
+"Гэты каталог нельга абагуліць, бо ваш акаўнт не мае правоў на запіс у "
+"<filename>%1</filename>."
 
 #: samba/filepropertiesplugin/groupmanager.cpp:75
 #, kde-kuit-format
 msgctxt "@info:status"
-msgid "You can fix this by ensuring that the <resource>%1</resource> group has write permission for <filename>%2</filename>. Then close and re-open this window."
-msgstr "Вы можаце выправіць гэта, даўшы групе <resource>%1</resource> правы на запіс у <filename>%2</filename>. Затым закрыйце і зноў адкрыйце гэтае акно."
+msgid ""
+"You can fix this by ensuring that the <resource>%1</resource> group has "
+"write permission for <filename>%2</filename>. Then close and re-open this "
+"window."
+msgstr ""
+"Вы можаце выправіць гэта, даўшы групе <resource>%1</resource> правы на запіс "
+"у <filename>%2</filename>. Затым закрыйце і зноў адкрыйце гэтае акно."
 
 #: samba/filepropertiesplugin/groupmanager.cpp:102
 #, kde-kuit-format
 msgctxt "@label kauth action description %1 is a username %2 a group name"
-msgid "Adding user <resource>%1</resource> to group <resource>%2</resource> so they may configure Samba user shares"
-msgstr "Дадаванне карыстальніка <resource>%1</resource> у групу <resource>%2</resource>, каб ён мог наладжваць абагульванне з дапамогай Samba"
+msgid ""
+"Adding user <resource>%1</resource> to group <resource>%2</resource> so they "
+"may configure Samba user shares"
+msgstr ""
+"Дадаванне карыстальніка <resource>%1</resource> у групу <resource>%2</"
+"resource>, каб ён мог наладжваць абагульванне з дапамогай Samba"
 
 #: samba/filepropertiesplugin/groupmanager.cpp:113
 #, kde-kuit-format
 msgctxt "@info"
-msgid "Failed to make user <resource>%1</resource> a member of group <resource>%2</resource>"
-msgstr "Не ўдалося зрабіць карыстальніка <resource>%1</resource> удзельнікам групы <resource>%2</resource>"
+msgid ""
+"Failed to make user <resource>%1</resource> a member of group <resource>%2</"
+"resource>"
+msgstr ""
+"Не ўдалося зрабіць карыстальніка <resource>%1</resource> удзельнікам групы "
+"<resource>%2</resource>"
 
 #: samba/filepropertiesplugin/permissionshelper.cpp:95
-#| msgid "Path"
+#, kde-format
 msgctxt "@title"
 msgid "File Path"
 msgstr "Шлях да файла"
 
 #: samba/filepropertiesplugin/permissionshelper.cpp:97
-#| msgid "Permissions"
+#, kde-format
 msgctxt "@title"
 msgid "Current Permissions"
 msgstr "Бягучыя правы доступу"
 
 #: samba/filepropertiesplugin/permissionshelper.cpp:99
-#| msgid "Permissions"
+#, kde-format
 msgctxt "@title"
 msgid "Required Permissions"
 msgstr "Патрэбныя правы доступу"
@@ -348,31 +428,49 @@ msgstr "Адмаўленне ў доступе"
 #. i18n markup; this also means newlines are ignored!
 #: samba/filepropertiesplugin/qml/ACLPage.qml:43
 msgctxt "@info"
-msgid "\n"
-"Denying access prevents using this share even when another access rule might grant access. A denial rule always\n"
-"takes precedence. In particular denying access to <resource>Everyone</resource> actually disables access for everyone.\n"
-"It is generally not necessary to deny anyone because the regular directory and file permissions still apply to shared\n"
-"directories. A user who does not have access to the directory locally will still not be able to access it remotely even\n"
+msgid ""
+"\n"
+"Denying access prevents using this share even when another access rule might "
+"grant access. A denial rule always\n"
+"takes precedence. In particular denying access to <resource>Everyone</"
+"resource> actually disables access for everyone.\n"
+"It is generally not necessary to deny anyone because the regular directory "
+"and file permissions still apply to shared\n"
+"directories. A user who does not have access to the directory locally will "
+"still not be able to access it remotely even\n"
 "when the Share access rules would allow it."
-msgstr "\n"
-"Адмаўленне ў доступе прадухіляе выкарыстанне гэтымі абагуленымі рэсурсамі, нават калі іншае правіла доступу можа даць доступ. Правіла адмаўлення заўсёды мае прыярытэт. У прыватнасці, адмаўленне ў доступе <resource>Усім</resource> фактычна адключае доступ для ўсіх.\n"
-"Як правіла, няма неабходнасці нікому адмаўляць, бо звычайныя правы доступу на каталог і файлы па-ранейшаму ўжываюцца да абагулены каталогаў. Карыстальнік, які не мае лакальнага доступу да каталога, усё адно не зможа атрымаць да яго доступ нават адлегла, калі гэта дазволяць правілы доступу абагуленага рэсурсу."
+msgstr ""
+"\n"
+"Адмаўленне ў доступе прадухіляе выкарыстанне гэтымі абагуленымі рэсурсамі, "
+"нават калі іншае правіла доступу можа даць доступ. Правіла адмаўлення "
+"заўсёды мае прыярытэт. У прыватнасці, адмаўленне ў доступе <resource>Усім</"
+"resource> фактычна адключае доступ для ўсіх.\n"
+"Як правіла, няма неабходнасці нікому адмаўляць, бо звычайныя правы доступу "
+"на каталог і файлы па-ранейшаму ўжываюцца да абагулены каталогаў. "
+"Карыстальнік, які не мае лакальнага доступу да каталога, усё адно не зможа "
+"атрымаць да яго доступ нават адлегла, калі гэта дазволяць правілы доступу "
+"абагуленага рэсурсу."
 
 #: samba/filepropertiesplugin/qml/ACLPage.qml:62
 msgctxt "@label"
 msgid "This folder needs extra permissions for sharing to work"
-msgstr "Каб абагульванне працавала, гэтаму каталогу патрэбныя дадатковыя правы доступу"
+msgstr ""
+"Каб абагульванне працавала, гэтаму каталогу патрэбныя дадатковыя правы "
+"доступу"
 
 #: samba/filepropertiesplugin/qml/ACLPage.qml:66
-#| msgid "Permissions"
 msgctxt "@action:button opens the change permissions page"
 msgid "Fix Permissions"
 msgstr "Выправіць правы доступу"
 
 #: samba/filepropertiesplugin/qml/ACLPage.qml:78
 msgctxt "@label"
-msgid "The share might not work properly because share folder or its paths has Advanced Permissions: %1"
-msgstr "Агульны доступ можа не працаваць належным чынам, бо каталог агульнага доступу або шляхі да яго маюць дадатковыя правы доступу: %1"
+msgid ""
+"The share might not work properly because share folder or its paths has "
+"Advanced Permissions: %1"
+msgstr ""
+"Агульны доступ можа не працаваць належным чынам, бо каталог агульнага "
+"доступу або шляхі да яго маюць дадатковыя правы доступу: %1"
 
 #: samba/filepropertiesplugin/qml/ACLPage.qml:85
 msgctxt "@option:check"
@@ -380,23 +478,30 @@ msgid "Share this folder with other computers on the local network"
 msgstr "Абагуліць гэты каталог з іншымі камп'ютарамі ў лакальнай сетцы"
 
 #: samba/filepropertiesplugin/qml/ACLPage.qml:102
-#| msgid "Name:"
 msgctxt "@label"
 msgid "Name:"
 msgstr "Назва:"
 
 #: samba/filepropertiesplugin/qml/ACLPage.qml:134
 msgctxt "@label"
-msgid "This name cannot be used. Share names must not be user names and there must not be two shares with the same name on the entire system."
-msgstr "Гэтую назву нельга выкарыстоўваць. Назвы абагуленых рэсурсаў не павінны быць імёнамі карыстальнікаў, і ва ўсёй сістэме не павінна быць двух абагуленых рэсурсаў з аднолькавай назвай."
+msgid ""
+"This name cannot be used. Share names must not be user names and there must "
+"not be two shares with the same name on the entire system."
+msgstr ""
+"Гэтую назву нельга выкарыстоўваць. Назвы абагуленых рэсурсаў не павінны быць "
+"імёнамі карыстальнікаў, і ва ўсёй сістэме не павінна быць двух абагуленых "
+"рэсурсаў з аднолькавай назвай."
 
 #: samba/filepropertiesplugin/qml/ACLPage.qml:143
 msgctxt "@label"
-msgid "This name may be too long. It can cause interoperability problems or get rejected by Samba."
-msgstr "Гэтая назва можа быць занадта доўгай. Праз гэта могуць з'явіцца праблемы ўзаемадзеяння або Samba можа адхіліць рэсурс."
+msgid ""
+"This name may be too long. It can cause interoperability problems or get "
+"rejected by Samba."
+msgstr ""
+"Гэтая назва можа быць занадта доўгай. Праз гэта могуць з'явіцца праблемы "
+"ўзаемадзеяння або Samba можа адхіліць рэсурс."
 
 #: samba/filepropertiesplugin/qml/ACLPage.qml:150
-#| msgid "Allowed Users"
 msgctxt "@option:check"
 msgid "Allow guests"
 msgstr "Дазволіць гасцявы доступ"
@@ -412,7 +517,6 @@ msgid "Full Control"
 msgstr "Поўны кантроль"
 
 #: samba/filepropertiesplugin/qml/ACLPage.qml:254
-#| msgid "Read only"
 msgctxt "@option:radio user can read"
 msgid "Read Only"
 msgstr "Толькі чытанне"
@@ -428,13 +532,11 @@ msgid "Show Samba status monitor"
 msgstr "Паказваць назіральнік за станам Samba"
 
 #: samba/filepropertiesplugin/qml/ChangePassword.qml:23
-#| msgid "Password"
 msgctxt "@title"
 msgid "Set password"
 msgstr "Прызначыць пароль"
 
 #: samba/filepropertiesplugin/qml/ChangePassword.qml:75
-#| msgid "Password"
 msgctxt "@label:textbox"
 msgid "Password"
 msgstr "Пароль"
@@ -450,42 +552,51 @@ msgid "Passwords must match"
 msgstr "Паролі мусяць супадаць"
 
 #: samba/filepropertiesplugin/qml/ChangePassword.qml:117
-#| msgid "Password"
-msgctxt "@action:button creates a new samba user with the user-specified password"
+msgctxt ""
+"@action:button creates a new samba user with the user-specified password"
 msgid "Set Password"
 msgstr "Прызначыць пароль"
 
 #: samba/filepropertiesplugin/qml/ChangePermissionsPage.qml:34
 msgctxt "@info"
-msgid "\n"
-"<para>The folder <filename>%1</filename> needs extra permissions for sharing to work.</para>\n"
+msgid ""
+"\n"
+"<para>The folder <filename>%1</filename> needs extra permissions for sharing "
+"to work.</para>\n"
 "<para>Do you want to add these permissions now?</para><nl/>\n"
-msgstr "\n"
-"<para>Каталогу <filename>%1</filename> для абагульвання патрэбныя дадатковыя правы доступу.</para>\n"
+msgstr ""
+"\n"
+"<para>Каталогу <filename>%1</filename> для абагульвання патрэбныя дадатковыя "
+"правы доступу.</para>\n"
 " <para>Хочаце дадаць іх зараз?</para><nl/>\n"
 
 #: samba/filepropertiesplugin/qml/ChangePermissionsPage.qml:71
-#| msgid "Permissions"
 msgctxt "@action:button changes permissions"
 msgid "Change Permissions"
 msgstr "Змяніць правы доступу"
 
 #: samba/filepropertiesplugin/qml/ChangePermissionsPage.qml:77
 msgctxt "@label"
-msgid "Could not change permissions for: %1. All permission changes have been reverted to initial state."
-msgstr "Не ўдалося змяніць правы доступу для: %1. Усе змены былі адкінутыя да зыходнага стану."
+msgid ""
+"Could not change permissions for: %1. All permission changes have been "
+"reverted to initial state."
+msgstr ""
+"Не ўдалося змяніць правы доступу для: %1. Усе змены былі адкінутыя да "
+"зыходнага стану."
 
 #: samba/filepropertiesplugin/qml/ChangePermissionsPage.qml:86
-#| msgid "&Cancel"
 msgctxt "@action:button cancels permissions change"
 msgid "Cancel"
 msgstr "Скасаваць"
 
 #: samba/filepropertiesplugin/qml/InstallPage.qml:33
-#: samba/filepropertiesplugin/qml/MissingSambaPage.qml:17
 msgctxt "@info"
-msgid "The <application>Samba</application> file sharing service must be installed before folders can be shared."
-msgstr "Перад тым, як абагульваць каталогі, трэба ўсталяваць службу агульнага доступу <application>Samba</application>."
+msgid ""
+"The <application>Samba</application> file sharing service must be installed "
+"before folders can be shared."
+msgstr ""
+"Перад тым, як абагульваць каталогі, трэба ўсталяваць службу агульнага "
+"доступу <application>Samba</application>."
 
 #: samba/filepropertiesplugin/qml/InstallPage.qml:36
 msgctxt "@button"
@@ -497,9 +608,21 @@ msgctxt "@label"
 msgid "The Samba package failed to install."
 msgstr "Не ўдалося ўсталяваць пакет Samba."
 
-#: samba/filepropertiesplugin/qml/MissingSambaPage.qml:18
-msgid "Because this distro does not include PackageKit, we cannot show you a nice \"Install it\" button, and you will have to use your package manager to install the <command>samba</command> server package manually."
-msgstr "Гэты дыстрыбутыў не мае PackageKit, таму мы не можам паказаць вам прыгожую кнопку \"Усталяваць\", і вам давядзецца скарыстацца вашым кіраўніком пакетаў, каб уласнаручна ўсталяваць пакет сервера <command>samba</command>."
+#: samba/filepropertiesplugin/qml/MissingSambaPage.qml:19
+msgctxt "@info"
+msgid "File sharing service unavailable"
+msgstr ""
+
+#: samba/filepropertiesplugin/qml/MissingSambaPage.qml:20
+msgid ""
+"Please ensure the Samba service is enabled and running.\n"
+"If you haven't disabled it manually, consider reporting a bug to your "
+"distribution."
+msgstr ""
+
+#: samba/filepropertiesplugin/qml/MissingSambaPage.qml:24
+msgid "Report a bug"
+msgstr ""
 
 #: samba/filepropertiesplugin/qml/RebootPage.qml:17
 msgctxt "@label"
@@ -514,23 +637,29 @@ msgstr "Перазапусціць"
 #. i18n markup
 #: samba/filepropertiesplugin/qml/UserPage.qml:59
 msgctxt "@info"
-msgid "\n"
+msgid ""
+"\n"
 "<para>\n"
 "Samba uses a separate user database from the system one.\n"
-"This requires you to set a separate Samba password for every user that you want to\n"
+"This requires you to set a separate Samba password for every user that you "
+"want to\n"
 "be able to authenticate with.\n"
 "</para>\n"
 "<para>\n"
-"Before you can access shares with your current user account you need to set a Samba password.\n"
+"Before you can access shares with your current user account you need to set "
+"a Samba password.\n"
 "</para>"
-msgstr "\n"
+msgstr ""
+"\n"
 "<para>\n"
 " Samba выкарыстоўвае асобную ад сістэмнай базу даных карыстальнікаў.\n"
-" Для гэтага неабходна прызначыць асобны пароль Samba для кожнага карыстальніка, якому вы хочаце\n"
+" Для гэтага неабходна прызначыць асобны пароль Samba для кожнага "
+"карыстальніка, якому вы хочаце\n"
 " даць магчымасць прайсці аўтэнтыфікацыю.\n"
 " </para>\n"
 " <para>\n"
-" Перш чым вы атрымаеце доступ да абагуленых аб'ектаў з дапамогай вашага бягучага акаўнта, вам трэба прызначыць пароль Samba.\n"
+" Перш чым вы атрымаеце доступ да абагуленых аб'ектаў з дапамогай вашага "
+"бягучага акаўнта, вам трэба прызначыць пароль Samba.\n"
 "</para>"
 
 #: samba/filepropertiesplugin/qml/UserPage.qml:74
@@ -541,103 +670,123 @@ msgstr "Стварыць пароль Samba"
 #. i18n markup
 #: samba/filepropertiesplugin/qml/UserPage.qml:82
 msgctxt "@info"
-msgid "\n"
-"Additional user management and password management can be done using Samba's <command>smbpasswd</command>\n"
+msgid ""
+"\n"
+"Additional user management and password management can be done using Samba's "
+"<command>smbpasswd</command>\n"
 "command line utility."
-msgstr "\n"
-"Кіраваць карыстальнікамі і паролямі можна з дапамогай утыліты каманднага радка Samba<command>smbpasswd</command>."
+msgstr ""
+"\n"
+"Кіраваць карыстальнікамі і паролямі можна з дапамогай утыліты каманднага "
+"радка Samba<command>smbpasswd</command>."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:155
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:161
 #, kde-format
 msgctxt "@info detailed error messsage"
-msgid "You have exhausted the maximum amount of shared directories you may have active at the same time."
-msgstr "Вы вычарпалі максімальную колькасць абагуленых каталогаў, якія могуць быць актыўнымі адначасова."
+msgid ""
+"You have exhausted the maximum amount of shared directories you may have "
+"active at the same time."
+msgstr ""
+"Вы вычарпалі максімальную колькасць абагуленых каталогаў, якія могуць быць "
+"актыўнымі адначасова."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:157
-#| msgid "File sharing is disabled."
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:163
+#, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The share name is invalid."
 msgstr "Назва абагуленага рэсурсу хібная."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:159
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:165
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The share name is already in use for a different directory."
 msgstr "Назва абагуленага рэсурсу ўжо выкарыстоўваецца для іншага каталога."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:161
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:167
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The path is invalid."
 msgstr "Хібны шлях."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:163
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:169
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The path does not exist."
 msgstr "Шлях не існуе."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:165
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:171
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The path is not a directory."
 msgstr "Шлях не ёсць каталогам."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:167
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:173
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The path is relative."
 msgstr "Шлях адносны."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:169
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:175
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "This path may not be shared."
 msgstr "Гэта шлях нельга абагуліць."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:171
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:177
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The access rule is invalid."
 msgstr "Правіла доступу несапраўднае."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:173
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:179
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "An access rule's user is not valid."
 msgstr "Карыстальнік правіла доступу несапраўдны."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:175
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:181
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The 'Guest' access rule is invalid."
 msgstr "Правіла гасцявога доступу несапраўднае."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:177
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:183
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "Enabling guest access is not allowed."
 msgstr "Уключэнне гасцявога доступу забаронена."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:195
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:201
 #, kde-kuit-format
 msgctxt "@info error in the underlying binaries. %1 is CLI output"
-msgid "<para>An error occurred while trying to share the directory. The share has not been created.</para><para>Samba internals report:</para><message>%1</message>"
-msgstr "<para>Пры спробе абагуліць каталог адбылася памылка. Сеткавы рэсурс не быў створаны.</para><para>Унутраная справаздача Samba:</para><message>%1</message>"
+msgid ""
+"<para>An error occurred while trying to share the directory. The share has "
+"not been created.</para><para>Samba internals report:</para><message>%1</"
+"message>"
+msgstr ""
+"<para>Пры спробе абагуліць каталог адбылася памылка. Сеткавы рэсурс не быў "
+"створаны.</para><para>Унутраная справаздача Samba:</para><message>%1</"
+"message>"
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:202
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:208
 #, kde-format
 msgctxt "@info/title"
 msgid "Failed to Create Network Share"
 msgstr "Не ўдалося стварыць сеткавы рэсурс"
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:215
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:221
 #, kde-kuit-format
 msgctxt "@info error in the underlying binaries. %1 is CLI output"
-msgid "<para>An error occurred while trying to un-share the directory. The share has not been removed.</para><para>Samba internals report:</para><message>%1</message>"
-msgstr "<para>Пры спробе адклікаць агульны доступ да каталога адбылася памылка. Сеткавы рэсурс не быў выдалены.</para><para>Унутраная справаздача Samba:</para><message>%1</message>"
+msgid ""
+"<para>An error occurred while trying to un-share the directory. The share "
+"has not been removed.</para><para>Samba internals report:</para><message>%1</"
+"message>"
+msgstr ""
+"<para>Пры спробе адклікаць агульны доступ да каталога адбылася памылка. "
+"Сеткавы рэсурс не быў выдалены.</para><para>Унутраная справаздача Samba:</"
+"para><message>%1</message>"
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:222
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:228
 #, kde-format
 msgctxt "@info/title"
 msgid "Failed to Remove Network Share"
@@ -654,6 +803,16 @@ msgstr "Правяранне існавання карыстальніка Samba
 msgctxt "@label kauth action description %1 is a username"
 msgid "Creating new Samba user '%1'"
 msgstr "Стварэнне новага карыстальніка Samba \"%1\""
+
+#~ msgid ""
+#~ "Because this distro does not include PackageKit, we cannot show you a "
+#~ "nice \"Install it\" button, and you will have to use your package manager "
+#~ "to install the <command>samba</command> server package manually."
+#~ msgstr ""
+#~ "Гэты дыстрыбутыў не мае PackageKit, таму мы не можам паказаць вам "
+#~ "прыгожую кнопку \"Усталяваць\", і вам давядзецца скарыстацца вашым "
+#~ "кіраўніком пакетаў, каб уласнаручна ўсталяваць пакет сервера "
+#~ "<command>samba</command>."
 
 #, fuzzy
 #~| msgid "Share"
@@ -967,4 +1126,3 @@ msgstr "Стварэнне новага карыстальніка Samba \"%1\""
 
 #~ msgid "KB"
 #~ msgstr "кб"
-

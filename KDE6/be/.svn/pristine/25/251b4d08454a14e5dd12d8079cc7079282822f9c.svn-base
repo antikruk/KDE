@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-09-08 07:30+0000\n"
-"PO-Revision-Date: 2025-01-08 21:35\n"
+"PO-Revision-Date: 2025-01-06 19:10\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -14,13 +14,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
+"%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Qt-Contexts: true\n"
 "X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
 "X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /main/KDE6/be/messages/syntax-highlighting/syntaxhighlighting6_qt.po\n"
-"X-Crowdin-File-ID: 20133\n"
+"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/syntax-highlighting/"
+"syntaxhighlighting6_qt.po\n"
+"X-Crowdin-File-ID: 10950\n"
 
 msgctxt "Language|"
 msgid "4DOS BatchToMemory"
@@ -590,6 +593,13 @@ msgctxt "Language|"
 msgid "J"
 msgstr "J"
 
+#, fuzzy
+#| msgctxt "Language|"
+#| msgid "Klipper Config"
+msgctxt "Language|"
+msgid "Kate Config"
+msgstr "Klipper Config"
+
 msgctxt "Language|"
 msgid "KBasic"
 msgstr "KBasic"
@@ -967,6 +977,10 @@ msgid "QDoc Configuration"
 msgstr "Канфігурацыя QDoc"
 
 msgctxt "Language|"
+msgid "QFace"
+msgstr ""
+
+msgctxt "Language|"
 msgid "QMake"
 msgstr "QMake"
 
@@ -1213,6 +1227,10 @@ msgstr "TI Basic"
 msgctxt "Language|"
 msgid "Tiger"
 msgstr "Tiger"
+
+msgctxt "Language|"
+msgid "TLA+"
+msgstr ""
 
 msgctxt "Language|"
 msgid "TSV"
@@ -1524,8 +1542,11 @@ msgstr "VSCodium цёмная"
 
 #: cli/ksyntaxhighlighter.cpp:64
 msgctxt "SyntaxHighlightingCLI|"
-msgid "Command line syntax highlighter using KSyntaxHighlighting syntax definitions."
-msgstr "Падсвятленне сінтаксісу каманднага радка з дапамогай азначэнняў сінтаксісу KSyntaxHighlighting."
+msgid ""
+"Command line syntax highlighter using KSyntaxHighlighting syntax definitions."
+msgstr ""
+"Падсвятленне сінтаксісу каманднага радка з дапамогай азначэнняў сінтаксісу "
+"KSyntaxHighlighting."
 
 #: cli/ksyntaxhighlighter.cpp:68
 msgctxt "SyntaxHighlightingCLI|"
@@ -1534,8 +1555,12 @@ msgstr "крыніцы"
 
 #: cli/ksyntaxhighlighter.cpp:69
 msgctxt "SyntaxHighlightingCLI|"
-msgid "The source file to highlight. If absent, read the file from stdin and the --syntax option must be used."
-msgstr "Зыходны файл для падсвятлення. Калі яго няма, чытаць файл са стандартнага ўводу. Павінен выкарыстоўвацца параметр --syntax."
+msgid ""
+"The source file to highlight. If absent, read the file from stdin and the --"
+"syntax option must be used."
+msgstr ""
+"Зыходны файл для падсвятлення. Калі яго няма, чытаць файл са стандартнага "
+"ўводу. Павінен выкарыстоўвацца параметр --syntax."
 
 #: cli/ksyntaxhighlighter.cpp:72
 msgctxt "SyntaxHighlightingCLI|"
@@ -1564,8 +1589,12 @@ msgstr "вывад"
 
 #: cli/ksyntaxhighlighter.cpp:87
 msgctxt "SyntaxHighlightingCLI|"
-msgid "Highlight using this syntax definition (default: auto-detect based on input file)."
-msgstr "Падсвятляць з дапамогай гэтага азначэння сінтаксісу (прадвызначана: аўтаматычнае выяўленне на аснове ўваходнага файла)."
+msgid ""
+"Highlight using this syntax definition (default: auto-detect based on input "
+"file)."
+msgstr ""
+"Падсвятляць з дапамогай гэтага азначэння сінтаксісу (прадвызначана: "
+"аўтаматычнае выяўленне на аснове ўваходнага файла)."
 
 #: cli/ksyntaxhighlighter.cpp:88
 msgctxt "SyntaxHighlightingCLI|"
@@ -1582,49 +1611,88 @@ msgctxt "SyntaxHighlightingCLI|"
 msgid "theme"
 msgstr "тэма"
 
-#: cli/ksyntaxhighlighter.cpp:98
+#: cli/ksyntaxhighlighter.cpp:97
+#, fuzzy
+#| msgctxt "SyntaxHighlightingCLI|"
+#| msgid ""
+#| "Use the specified format instead of html. Must be html, ansi or "
+#| "ansi256Colors."
 msgctxt "SyntaxHighlightingCLI|"
-msgid "Use the specified format instead of html. Must be html, ansi or ansi256Colors."
-msgstr "Выкарыстоўваць вызначаны фармат замест html. Мусіць быць html, ansi або ansi256Colors."
+msgid ""
+"Use the specified format instead of html. Must be html, ansi or ansi256."
+msgstr ""
+"Выкарыстоўваць вызначаны фармат замест html. Мусіць быць html, ansi або "
+"ansi256Colors."
 
-#: cli/ksyntaxhighlighter.cpp:99
+#: cli/ksyntaxhighlighter.cpp:98
 msgctxt "SyntaxHighlightingCLI|"
 msgid "format"
 msgstr "фармат"
 
-#: cli/ksyntaxhighlighter.cpp:104
+#: cli/ksyntaxhighlighter.cpp:103
+#, fuzzy
+#| msgctxt "SyntaxHighlightingCLI|"
+#| msgid ""
+#| "Add information to debug a syntax file. Only works with --output-"
+#| "format=ansi or ansi256Colors. Possible values are format, region, "
+#| "context, stackSize and all."
 msgctxt "SyntaxHighlightingCLI|"
-msgid "Add information to debug a syntax file. Only works with --output-format=ansi or ansi256Colors. Possible values are format, region, context, stackSize and all."
-msgstr "Дадайце інфармацыю для адладжвання файла сінтаксісу. Працуе толькі з --output-format=ansi або ansi256Colors. Магчымыя значэнні: format, region, context, stackSize, all."
+msgid ""
+"Add information to debug a syntax file. Only works with --output-format=ansi "
+"or ansi256. Possible values are format, region, context, stackSize and all."
+msgstr ""
+"Дадайце інфармацыю для адладжвання файла сінтаксісу. Працуе толькі з --"
+"output-format=ansi або ansi256Colors. Магчымыя значэнні: format, region, "
+"context, stackSize, all."
 
-#: cli/ksyntaxhighlighter.cpp:107
+#: cli/ksyntaxhighlighter.cpp:106
 msgctxt "SyntaxHighlightingCLI|"
 msgid "type"
 msgstr "тып"
 
-#: cli/ksyntaxhighlighter.cpp:111
+#: cli/ksyntaxhighlighter.cpp:110
 msgctxt "SyntaxHighlightingCLI|"
 msgid "Disable ANSI background for the default color."
 msgstr "Адключыць фон ANSI для прадвызначанага колеру."
 
+#: cli/ksyntaxhighlighter.cpp:114
+#, fuzzy
+#| msgid "<p>Sets the background color of the editing area.</p>"
+msgctxt "SyntaxHighlightingCLI|"
+msgid "Select background color role from theme."
+msgstr "<p>Вызначае фонавы колер вобласці рэдагавання.</p>"
+
 #: cli/ksyntaxhighlighter.cpp:115
 msgctxt "SyntaxHighlightingCLI|"
-msgid "For ansi and ansi256Colors formats, flush the output buffer on each line."
-msgstr "Для фарматаў ansi і ansi256Colors ачысціць буфер вываду ў кожным радку."
+msgid "role"
+msgstr ""
 
-#: cli/ksyntaxhighlighter.cpp:120
+#: cli/ksyntaxhighlighter.cpp:119
+#, fuzzy
+#| msgctxt "SyntaxHighlightingCLI|"
+#| msgid ""
+#| "For ansi and ansi256Colors formats, flush the output buffer on each line."
 msgctxt "SyntaxHighlightingCLI|"
-msgid "Set HTML page's title\n"
-"(default: the filename or \"KSyntaxHighlighter\" if reading from stdin)."
-msgstr "Вызначыць загаловак HTML-старонкі\n"
-"(прадвызначана: назва файла або \"KSyntaxHighlighter\", калі чытаецца з stdin)."
+msgid "For ansi and ansi256 formats, flush the output buffer on each line."
+msgstr ""
+"Для фарматаў ansi і ansi256Colors ачысціць буфер вываду ў кожным радку."
 
-#: cli/ksyntaxhighlighter.cpp:121
+#: cli/ksyntaxhighlighter.cpp:124
+msgctxt "SyntaxHighlightingCLI|"
+msgid ""
+"Set HTML page's title\n"
+"(default: the filename or \"KSyntaxHighlighter\" if reading from stdin)."
+msgstr ""
+"Вызначыць загаловак HTML-старонкі\n"
+"(прадвызначана: назва файла або \"KSyntaxHighlighter\", калі чытаецца з "
+"stdin)."
+
+#: cli/ksyntaxhighlighter.cpp:125
 msgctxt "SyntaxHighlightingCLI|"
 msgid "title"
 msgstr "назва"
 
-#: lib/definition_p.h:104
+#: lib/definition_p.h:116
 msgctxt "Language|"
 msgid "None"
 msgstr "Няма"
@@ -4071,12 +4139,6 @@ msgstr "Абнаўленне азначэння сінтаксісу для \"%1
 #~ msgstr "Рэжым вылучэння &блока"
 
 #, fuzzy
-#~| msgid "<p>Sets the background color of the editing area.</p>"
-#~ msgctxt "short translation please"
-#~ msgid "Set the background color for the current line."
-#~ msgstr "<p>Вызначае фонавы колер вобласці рэдагавання.</p>"
-
-#, fuzzy
 #~| msgid "Select to End of Line"
 #~ msgctxt "short translation please"
 #~ msgid "Sets the end of line mode."
@@ -5879,4 +5941,3 @@ msgstr "Абнаўленне азначэння сінтаксісу для \"%1
 
 #~ msgid "Previous Incremental Search Match"
 #~ msgstr "Папярэдні адпаведнік умовам паступовага пошуку"
-
