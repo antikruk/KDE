@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-16 00:40+0000\n"
-"PO-Revision-Date: 2025-01-07 21:17\n"
+"POT-Creation-Date: 2024-12-05 00:39+0000\n"
+"PO-Revision-Date: 2025-01-09 22:28\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -26,7 +26,7 @@ msgid "Deny"
 msgstr "Адхіліць"
 
 #: samba/aclproperties/plugin.cpp:61
-#| msgid "Allow"
+#, kde-format
 msgctxt "@option:radio an entry allowing permissions"
 msgid "Allow"
 msgstr "Дазволіць"
@@ -86,7 +86,7 @@ msgid "Unknown"
 msgstr "Невядома"
 
 #: samba/aclproperties/plugin.cpp:185
-#| msgid "Permissions"
+#, kde-format
 msgctxt "@title:tab"
 msgid "Remote Permissions"
 msgstr "Адлеглыя правы доступу"
@@ -157,13 +157,11 @@ msgid "Delete"
 msgstr "Выдаліць"
 
 #: samba/aclproperties/qml/ACEPage.qml:99
-#| msgid "Permissions"
 msgctxt "@option:check"
 msgid "Read permissions"
 msgstr "Правы на чытанне"
 
 #: samba/aclproperties/qml/ACEPage.qml:103
-#| msgid "Permissions"
 msgctxt "@option:check"
 msgid "Change permissions"
 msgstr "Змяніць правы доступу"
@@ -184,25 +182,21 @@ msgid "Access Control Entries"
 msgstr "Запісы кантролю доступу"
 
 #: samba/aclproperties/qml/MainPage.qml:29
-#| msgid "Owner"
 msgctxt "@title file/folder owner info"
 msgid "Ownership"
 msgstr "Валоданне"
 
 #: samba/aclproperties/qml/MainPage.qml:33
-#| msgid "Owner"
 msgctxt "@label"
 msgid "Owner:"
 msgstr "Уладальнік:"
 
 #: samba/aclproperties/qml/MainPage.qml:37
-#| msgid "Group"
 msgctxt "@label"
 msgid "Group:"
 msgstr "Група:"
 
 #: samba/aclproperties/qml/NoDataPage.qml:17
-#| msgid "Permissions"
 msgctxt "@info"
 msgid "No Permissions Found"
 msgstr "Не знойдзена правоў доступу"
@@ -323,19 +317,19 @@ msgid "Failed to make user <resource>%1</resource> a member of group <resource>%
 msgstr "Не ўдалося зрабіць карыстальніка <resource>%1</resource> удзельнікам групы <resource>%2</resource>"
 
 #: samba/filepropertiesplugin/permissionshelper.cpp:95
-#| msgid "Path"
+#, kde-format
 msgctxt "@title"
 msgid "File Path"
 msgstr "Шлях да файла"
 
 #: samba/filepropertiesplugin/permissionshelper.cpp:97
-#| msgid "Permissions"
+#, kde-format
 msgctxt "@title"
 msgid "Current Permissions"
 msgstr "Бягучыя правы доступу"
 
 #: samba/filepropertiesplugin/permissionshelper.cpp:99
-#| msgid "Permissions"
+#, kde-format
 msgctxt "@title"
 msgid "Required Permissions"
 msgstr "Патрэбныя правы доступу"
@@ -364,7 +358,6 @@ msgid "This folder needs extra permissions for sharing to work"
 msgstr "Каб абагульванне працавала, гэтаму каталогу патрэбныя дадатковыя правы доступу"
 
 #: samba/filepropertiesplugin/qml/ACLPage.qml:66
-#| msgid "Permissions"
 msgctxt "@action:button opens the change permissions page"
 msgid "Fix Permissions"
 msgstr "Выправіць правы доступу"
@@ -380,7 +373,6 @@ msgid "Share this folder with other computers on the local network"
 msgstr "Абагуліць гэты каталог з іншымі камп'ютарамі ў лакальнай сетцы"
 
 #: samba/filepropertiesplugin/qml/ACLPage.qml:102
-#| msgid "Name:"
 msgctxt "@label"
 msgid "Name:"
 msgstr "Назва:"
@@ -396,7 +388,6 @@ msgid "This name may be too long. It can cause interoperability problems or get 
 msgstr "Гэтая назва можа быць занадта доўгай. Праз гэта могуць з'явіцца праблемы ўзаемадзеяння або Samba можа адхіліць рэсурс."
 
 #: samba/filepropertiesplugin/qml/ACLPage.qml:150
-#| msgid "Allowed Users"
 msgctxt "@option:check"
 msgid "Allow guests"
 msgstr "Дазволіць гасцявы доступ"
@@ -412,7 +403,6 @@ msgid "Full Control"
 msgstr "Поўны кантроль"
 
 #: samba/filepropertiesplugin/qml/ACLPage.qml:254
-#| msgid "Read only"
 msgctxt "@option:radio user can read"
 msgid "Read Only"
 msgstr "Толькі чытанне"
@@ -428,13 +418,11 @@ msgid "Show Samba status monitor"
 msgstr "Паказваць назіральнік за станам Samba"
 
 #: samba/filepropertiesplugin/qml/ChangePassword.qml:23
-#| msgid "Password"
 msgctxt "@title"
 msgid "Set password"
 msgstr "Прызначыць пароль"
 
 #: samba/filepropertiesplugin/qml/ChangePassword.qml:75
-#| msgid "Password"
 msgctxt "@label:textbox"
 msgid "Password"
 msgstr "Пароль"
@@ -450,7 +438,6 @@ msgid "Passwords must match"
 msgstr "Паролі мусяць супадаць"
 
 #: samba/filepropertiesplugin/qml/ChangePassword.qml:117
-#| msgid "Password"
 msgctxt "@action:button creates a new samba user with the user-specified password"
 msgid "Set Password"
 msgstr "Прызначыць пароль"
@@ -465,7 +452,6 @@ msgstr "\n"
 " <para>Хочаце дадаць іх зараз?</para><nl/>\n"
 
 #: samba/filepropertiesplugin/qml/ChangePermissionsPage.qml:71
-#| msgid "Permissions"
 msgctxt "@action:button changes permissions"
 msgid "Change Permissions"
 msgstr "Змяніць правы доступу"
@@ -476,13 +462,11 @@ msgid "Could not change permissions for: %1. All permission changes have been re
 msgstr "Не ўдалося змяніць правы доступу для: %1. Усе змены былі адкінутыя да зыходнага стану."
 
 #: samba/filepropertiesplugin/qml/ChangePermissionsPage.qml:86
-#| msgid "&Cancel"
 msgctxt "@action:button cancels permissions change"
 msgid "Cancel"
 msgstr "Скасаваць"
 
 #: samba/filepropertiesplugin/qml/InstallPage.qml:33
-#: samba/filepropertiesplugin/qml/MissingSambaPage.qml:17
 msgctxt "@info"
 msgid "The <application>Samba</application> file sharing service must be installed before folders can be shared."
 msgstr "Перад тым, як абагульваць каталогі, трэба ўсталяваць службу агульнага доступу <application>Samba</application>."
@@ -497,9 +481,19 @@ msgctxt "@label"
 msgid "The Samba package failed to install."
 msgstr "Не ўдалося ўсталяваць пакет Samba."
 
-#: samba/filepropertiesplugin/qml/MissingSambaPage.qml:18
-msgid "Because this distro does not include PackageKit, we cannot show you a nice \"Install it\" button, and you will have to use your package manager to install the <command>samba</command> server package manually."
-msgstr "Гэты дыстрыбутыў не мае PackageKit, таму мы не можам паказаць вам прыгожую кнопку \"Усталяваць\", і вам давядзецца скарыстацца вашым кіраўніком пакетаў, каб уласнаручна ўсталяваць пакет сервера <command>samba</command>."
+#: samba/filepropertiesplugin/qml/MissingSambaPage.qml:19
+msgctxt "@info"
+msgid "File sharing service unavailable"
+msgstr ""
+
+#: samba/filepropertiesplugin/qml/MissingSambaPage.qml:20
+msgid "Please ensure the Samba service is enabled and running.\n"
+"If you haven't disabled it manually, consider reporting a bug to your distribution."
+msgstr ""
+
+#: samba/filepropertiesplugin/qml/MissingSambaPage.qml:24
+msgid "Report a bug"
+msgstr "Справаздача пра хібу"
 
 #: samba/filepropertiesplugin/qml/RebootPage.qml:17
 msgctxt "@label"
@@ -547,97 +541,97 @@ msgid "\n"
 msgstr "\n"
 "Кіраваць карыстальнікамі і паролямі можна з дапамогай утыліты каманднага радка Samba<command>smbpasswd</command>."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:155
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:161
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "You have exhausted the maximum amount of shared directories you may have active at the same time."
 msgstr "Вы вычарпалі максімальную колькасць абагуленых каталогаў, якія могуць быць актыўнымі адначасова."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:157
-#| msgid "File sharing is disabled."
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:163
+#, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The share name is invalid."
 msgstr "Назва абагуленага рэсурсу хібная."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:159
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:165
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The share name is already in use for a different directory."
 msgstr "Назва абагуленага рэсурсу ўжо выкарыстоўваецца для іншага каталога."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:161
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:167
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The path is invalid."
 msgstr "Хібны шлях."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:163
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:169
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The path does not exist."
 msgstr "Шлях не існуе."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:165
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:171
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The path is not a directory."
 msgstr "Шлях не ёсць каталогам."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:167
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:173
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The path is relative."
 msgstr "Шлях адносны."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:169
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:175
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "This path may not be shared."
 msgstr "Гэта шлях нельга абагуліць."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:171
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:177
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The access rule is invalid."
 msgstr "Правіла доступу несапраўднае."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:173
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:179
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "An access rule's user is not valid."
 msgstr "Карыстальнік правіла доступу несапраўдны."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:175
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:181
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "The 'Guest' access rule is invalid."
 msgstr "Правіла гасцявога доступу несапраўднае."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:177
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:183
 #, kde-format
 msgctxt "@info detailed error messsage"
 msgid "Enabling guest access is not allowed."
 msgstr "Уключэнне гасцявога доступу забаронена."
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:195
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:201
 #, kde-kuit-format
 msgctxt "@info error in the underlying binaries. %1 is CLI output"
 msgid "<para>An error occurred while trying to share the directory. The share has not been created.</para><para>Samba internals report:</para><message>%1</message>"
 msgstr "<para>Пры спробе абагуліць каталог адбылася памылка. Сеткавы рэсурс не быў створаны.</para><para>Унутраная справаздача Samba:</para><message>%1</message>"
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:202
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:208
 #, kde-format
 msgctxt "@info/title"
 msgid "Failed to Create Network Share"
 msgstr "Не ўдалося стварыць сеткавы рэсурс"
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:215
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:221
 #, kde-kuit-format
 msgctxt "@info error in the underlying binaries. %1 is CLI output"
 msgid "<para>An error occurred while trying to un-share the directory. The share has not been removed.</para><para>Samba internals report:</para><message>%1</message>"
 msgstr "<para>Пры спробе адклікаць агульны доступ да каталога адбылася памылка. Сеткавы рэсурс не быў выдалены.</para><para>Унутраная справаздача Samba:</para><message>%1</message>"
 
-#: samba/filepropertiesplugin/sambausershareplugin.cpp:222
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:228
 #, kde-format
 msgctxt "@info/title"
 msgid "Failed to Remove Network Share"
@@ -654,6 +648,16 @@ msgstr "Правяранне існавання карыстальніка Samba
 msgctxt "@label kauth action description %1 is a username"
 msgid "Creating new Samba user '%1'"
 msgstr "Стварэнне новага карыстальніка Samba \"%1\""
+
+#~ msgid ""
+#~ "Because this distro does not include PackageKit, we cannot show you a "
+#~ "nice \"Install it\" button, and you will have to use your package manager "
+#~ "to install the <command>samba</command> server package manually."
+#~ msgstr ""
+#~ "Гэты дыстрыбутыў не мае PackageKit, таму мы не можам паказаць вам "
+#~ "прыгожую кнопку \"Усталяваць\", і вам давядзецца скарыстацца вашым "
+#~ "кіраўніком пакетаў, каб уласнаручна ўсталяваць пакет сервера "
+#~ "<command>samba</command>."
 
 #, fuzzy
 #~| msgid "Share"
