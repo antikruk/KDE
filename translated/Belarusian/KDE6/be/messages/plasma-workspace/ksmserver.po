@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-14 00:42+0000\n"
-"PO-Revision-Date: 2025-01-07 21:25\n"
+"POT-Creation-Date: 2025-01-09 00:42+0000\n"
+"PO-Revision-Date: 2025-01-09 22:32\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -41,100 +41,52 @@ msgctxt "@info:status"
 msgid "Session is exiting"
 msgstr "Сеанс завяршаецца"
 
-#: main.cpp:66
-#, kde-format
-msgid "$HOME not set!"
-msgstr "$HOME не вызначаны!"
-
-#: main.cpp:70 main.cpp:79
-#, kde-format
-msgid "$HOME directory (%1) does not exist."
-msgstr "Каталог $HOME (%1) не існуе."
-
-#: main.cpp:73
-#, kde-kuit-format
-msgctxt "@info"
-msgid "No write access to $HOME directory (%1). If this is intentional, set <envar>KDE_HOME_READONLY=1</envar> in your environment."
-msgstr "Няма доступу для запісу ў каталог $HOME (%1). Калі гэта зроблена наўмысна, вызначце <envar>KDE_HOME_READONLY=1</envar> у вашым асяроддзі."
-
-#: main.cpp:81
-#, kde-format
-msgid "No read access to $HOME directory (%1)."
-msgstr "Вы не маеце правоў на чытанне з каталога $HOME (%1)."
-
-#: main.cpp:86
-#, kde-format
-msgid "$HOME directory (%1) is out of disk space."
-msgstr "На дыску, дзе знаходзіцца каталог $HOME (%1), не хапае вольнага месца."
-
-#: main.cpp:89
-#, kde-format
-msgid "Writing to the $HOME directory (%2) failed with the error '%1'"
-msgstr "Спроба запісу ў каталог $HOME (%2) завяршылася памылкай \"%1\""
-
-#: main.cpp:103 main.cpp:142
+#: main.cpp:72 main.cpp:80
 #, kde-format
 msgid "No write access to '%1'."
 msgstr "Вы не маеце правоў на запіс у \"%1\"."
 
-#: main.cpp:105 main.cpp:144
+#: main.cpp:74 main.cpp:82
 #, kde-format
 msgid "No read access to '%1'."
 msgstr "Вы не маеце правоў на чытанне з \"%1\"."
 
-#: main.cpp:115 main.cpp:129
-#, kde-format
-msgid "Temp directory (%1) is out of disk space."
-msgstr "На дыску, дзе знаходзіцца каталог часовых файлаў (%1), не хапае вольнага месца."
-
-#: main.cpp:118 main.cpp:132
-#, kde-format
-msgid "Writing to the temp directory (%2) failed with\n"
-"    the error '%1'"
-msgstr "Спроба запісу ў каталог часовых файлаў (%2) завяршылася\n"
-"    памылкай \"%1\""
-
-#: main.cpp:149
+#: main.cpp:87
 #, kde-format
 msgid "The following installation problem was detected\n"
 "while trying to start Plasma:"
 msgstr "Падчас спробы запуску Plasma была выяўленая наступная\n"
 "праблема ўсталявання:"
 
-#: main.cpp:152
+#: main.cpp:90
 #, kde-format
 msgid "\n\n"
 "Plasma is unable to start.\n"
 msgstr "\n\n"
 "Немагчыма запусціць Plasma.\n"
 
-#: main.cpp:159
-#, kde-format
-msgid "Plasma Workspace installation problem!"
-msgstr "Пры ўсталяванні працоўнага асяроддзя Plasma паўстала праблема!"
-
-#: main.cpp:194
+#: main.cpp:129
 #, kde-format
 msgid "The reliable Plasma session manager that talks the standard X11R6 \n"
 "session management protocol (XSMP)."
 msgstr "Надзейны кіраўнік сеансаў для Plasma, які дзейнічае па стандартным пратаколе кіравання сеансамі X11R6 (XSMP)."
 
-#: main.cpp:198
+#: main.cpp:133
 #, kde-format
 msgid "Restores the saved user session if available"
 msgstr "Аднаўляе захаваны сеанс, калі ён даступны"
 
-#: main.cpp:201
+#: main.cpp:136
 #, kde-format
 msgid "Also allow remote connections"
 msgstr "Таксама дазволіць адлеглыя падлучэнні"
 
-#: main.cpp:204
+#: main.cpp:139
 #, kde-format
 msgid "Starts the session in locked mode"
 msgstr "Запускаць сеанс у заблакаваным рэжыме"
 
-#: main.cpp:208
+#: main.cpp:143
 #, kde-format
 msgid "Starts without lock screen support. Only needed if other component provides the lock screen."
 msgstr "Запускаць без падтрымкі экрана блакавання. Патрэбна, калі экран блакавання падаецца іншым кампанентам."
@@ -158,6 +110,45 @@ msgstr "Немагчыма кіраваць некаторымі праграм�
 msgctxt "@label notification; %1 is an executable name"
 msgid "Unable to restore <application>%1</application> because it is broken and has exhausted the system's session restoration resources. Please report this to the app's developers."
 msgstr "Немагчыма аднавіць <application>%1</application>, бо праграма пашкоджаная і вычарпала рэсурсы для аднаўлення сеанса. Калі ласка, паведаміце пра гэта распрацоўнікам праграмы."
+
+#~ msgid "$HOME not set!"
+#~ msgstr "$HOME не вызначаны!"
+
+#~ msgid "$HOME directory (%1) does not exist."
+#~ msgstr "Каталог $HOME (%1) не існуе."
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "No write access to $HOME directory (%1). If this is intentional, set "
+#~ "<envar>KDE_HOME_READONLY=1</envar> in your environment."
+#~ msgstr ""
+#~ "Няма доступу для запісу ў каталог $HOME (%1). Калі гэта зроблена "
+#~ "наўмысна, вызначце <envar>KDE_HOME_READONLY=1</envar> у вашым асяроддзі."
+
+#~ msgid "No read access to $HOME directory (%1)."
+#~ msgstr "Вы не маеце правоў на чытанне з каталога $HOME (%1)."
+
+#~ msgid "$HOME directory (%1) is out of disk space."
+#~ msgstr ""
+#~ "На дыску, дзе знаходзіцца каталог $HOME (%1), не хапае вольнага месца."
+
+#~ msgid "Writing to the $HOME directory (%2) failed with the error '%1'"
+#~ msgstr "Спроба запісу ў каталог $HOME (%2) завяршылася памылкай \"%1\""
+
+#~ msgid "Temp directory (%1) is out of disk space."
+#~ msgstr ""
+#~ "На дыску, дзе знаходзіцца каталог часовых файлаў (%1), не хапае вольнага "
+#~ "месца."
+
+#~ msgid ""
+#~ "Writing to the temp directory (%2) failed with\n"
+#~ "    the error '%1'"
+#~ msgstr ""
+#~ "Спроба запісу ў каталог часовых файлаў (%2) завяршылася\n"
+#~ "    памылкай \"%1\""
+
+#~ msgid "Plasma Workspace installation problem!"
+#~ msgstr "Пры ўсталяванні працоўнага асяроддзя Plasma паўстала праблема!"
 
 #~ msgid "Session Management"
 #~ msgstr "Кіраванне сеансамі"
