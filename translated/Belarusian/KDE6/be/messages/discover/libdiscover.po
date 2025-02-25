@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-18 00:42+0000\n"
-"PO-Revision-Date: 2025-01-18 18:20\n"
+"POT-Creation-Date: 2025-02-20 00:42+0000\n"
+"PO-Revision-Date: 2025-02-25 19:11\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -29,23 +29,23 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "nashtlumach@gmail.com"
 
-#: libdiscover/appstream/AppStreamUtils.cpp:107
+#: libdiscover/appstream/AppStreamUtils.cpp:110
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:326
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:301
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:364
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:390
-#: libdiscover/UpdateModel/UpdateModel.cpp:122
-#: libdiscover/UpdateModel/UpdateModel.cpp:342
+#: libdiscover/UpdateModel/UpdateModel.cpp:124
+#: libdiscover/UpdateModel/UpdateModel.cpp:346
 #, kde-format
 msgid "Unknown"
 msgstr "Невядома"
 
-#: libdiscover/appstream/AppStreamUtils.cpp:109
+#: libdiscover/appstream/AppStreamUtils.cpp:112
 #, kde-format
 msgid "Proprietary"
 msgstr "Несвабодныя"
 
-#: libdiscover/appstream/AppStreamUtils.cpp:113
+#: libdiscover/appstream/AppStreamUtils.cpp:116
 #, kde-format
 msgid "Public Domain"
 msgstr "Публічны дамен"
@@ -191,8 +191,8 @@ msgstr "Усе праграмы"
 #: libdiscover/backends/PackageKitBackend/packagekit-backend-categories.xml:29
 #, kde-format
 msgctxt "Category"
-msgid "Accessories"
-msgstr "Інструменты"
+msgid "Utilities"
+msgstr "Утыліты"
 
 #: libdiscover/backends/FlatpakBackend/flatpak-backend-categories.xml:40
 #: libdiscover/backends/PackageKitBackend/packagekit-backend-categories.xml:40
@@ -203,10 +203,11 @@ msgstr "Адмысловыя магчымасці"
 
 #: libdiscover/backends/FlatpakBackend/flatpak-backend-categories.xml:51
 #: libdiscover/backends/PackageKitBackend/packagekit-backend-categories.xml:51
-#, kde-format
+#| msgctxt "Category"
+#| msgid "Web Development"
 msgctxt "Category"
-msgid "Developer Tools"
-msgstr "Інструменты для распрацоўвання"
+msgid "Development"
+msgstr "Распрацоўванне"
 
 #: libdiscover/backends/FlatpakBackend/flatpak-backend-categories.xml:60
 #: libdiscover/backends/PackageKitBackend/packagekit-backend-categories.xml:60
@@ -261,8 +262,8 @@ msgstr "Адукацыя"
 #: libdiscover/backends/PackageKitBackend/packagekit-backend-categories.xml:130
 #, kde-format
 msgctxt "Category"
-msgid "Science and Engineering"
-msgstr "Навука і інжынерыя"
+msgid "Science & Math"
+msgstr "Навука і матэматыка"
 
 #: libdiscover/backends/FlatpakBackend/flatpak-backend-categories.xml:140
 #: libdiscover/backends/PackageKitBackend/packagekit-backend-categories.xml:139
@@ -546,10 +547,11 @@ msgstr "Офіс"
 
 #: libdiscover/backends/FlatpakBackend/flatpak-backend-categories.xml:546
 #: libdiscover/backends/PackageKitBackend/packagekit-backend-categories.xml:546
-#, kde-format
+#| msgctxt "@action:button"
+#| msgid "Repair System"
 msgctxt "Category"
-msgid "System Settings"
-msgstr "Налады сістэмы"
+msgid "System"
+msgstr "Сістэмны"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:141
 #, kde-format
@@ -557,28 +559,28 @@ msgctxt "user denotes this as user-scoped flatpak repo"
 msgid "%1 (user)"
 msgstr "%1 (карыстальнік)"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:735
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:741
 #, kde-format
 msgid "Local bundle"
 msgstr "Лакальны пакет"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1897
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:831
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1899
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:833
 #, kde-format
 msgid "Malformed appstream url '%1'"
 msgstr "Памылковы url-адрас \"%1\""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2004
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2006
 #, kde-format
 msgid "Failed to add source '%1': %2"
 msgstr "Не ўдалося дадаць крыніцу \"%1\": %2"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2126
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2129
 #, kde-format
 msgid "There are no Flatpak sources."
 msgstr "Крыніц Flatpak няма."
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2130
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2133
 #, kde-format
 msgid "Failed to load \"%1\" source"
 msgstr "Не ўдалося загрузіць крыніцу \"%1\""
@@ -628,7 +630,7 @@ msgid "Music"
 msgstr "Музыка"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:841
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:419
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:427
 #, kde-format
 msgid "%1: %2"
 msgstr "%1: %2"
@@ -649,9 +651,9 @@ msgid "Sound system access"
 msgstr "Доступ да гукавой сістэмы"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:870
-#, kde-format
-msgid "Can play audio"
-msgstr "Можа прайграваць аўдыё"
+#| msgid "Can play audio"
+msgid "Can play and record audio"
+msgstr ""
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:874
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:1018
@@ -838,57 +840,57 @@ msgstr "Можа ўзаемадзейнічаць з усімі праграма
 msgid "App Verified on %1 as shipped by its author %2"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:92
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:97
 #, kde-format
 msgid "Add Flathub"
 msgstr "Дадаць Flathub"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:93
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:98
 #, kde-format
 msgid "Apply Changes"
 msgstr "Ужыць змены"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:97
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:102
 #, kde-format
 msgid "Changes to the priority of Flatpak sources must be applied before they will take effect."
 msgstr "Спачатку трэба ўжыць змены прыярытэту крыніц Flatpak."
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:101
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:106
 #, kde-format
 msgid "Makes it possible to easily install the applications listed in https://flathub.org"
 msgstr "Дае магчымасць лёгка ўсталёўваць праграмы з https://flathub.org"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:169
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:174
 #, kde-format
 msgid "Could not add the source %1"
 msgstr "Не ўдалося дадаць крыніцу \"%1\""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:289
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:294
 #, kde-format
 msgid "Removing '%1'"
 msgstr "Выдаленне \"%1\""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:290
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:295
 #, kde-format
 msgid "To remove this repository, the following applications must be uninstalled:<ul><li>%1</li></ul>"
 msgstr "Каб выдаліць гэты рэпазіторый, спачатку трэба выдаліць наступныя праграмы:<ul><li>%1</li></ul>"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:307
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:313
 #, kde-format
 msgid "Failed to remove %1 remote repository: %2"
 msgstr "Не ўдалося выдаліць адлеглы рэпазіторый %1: %2"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:311
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:317
 #, kde-format
 msgid "Could not find %1"
 msgstr "Не ўдалося знайсці %1"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:343
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:349
 #, kde-format
 msgid "%1 (user)"
 msgstr "%1 (карыстальнік)"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:405
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:411
 #, kde-format
 msgid "Enter a Flatpak repository URI (*.flatpakrepo):"
 msgstr "Увядзіце URI-адрас рэпазіторыя Flatpak (*.flatpakrepo):"
@@ -1009,56 +1011,56 @@ msgstr "Пытанне не падтрымліваецца:\n"
 msgid "Backend %1 took too long to initialize"
 msgstr "Рухавік %1 ініцыялізаваўся занадта доўга"
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:242
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:252
 #, kde-format
 msgid "Applications"
 msgstr "Праграмы"
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:272
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:281
 #, kde-format
 msgid "Plasma Addons"
 msgstr "Дапаўненні Plasma"
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:272
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:281
 #, kde-format
 msgid "Application Addons"
 msgstr "Дапаўненні для праграм"
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:360
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:368
 #, kde-format
 msgid "Network error in backend %1: %2"
 msgstr "Сеткавая памылка рухавіка %1: %2"
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:367
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:375
 #, kde-format
 msgid "Too many requests sent to the server for backend %1. Please try again in a few minutes."
 msgstr "Для рухавіка %1 адпраўлена занадта шмат запытаў. Паўтарыце спробу праз некалькі хвілін."
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:370
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:376
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:381
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:378
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:384
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:389
 #, kde-format
 msgid "Invalid %1 backend, contact your distributor."
 msgstr "Хібны рухавік %1, звярніцеся да прадстаўнікоў свайго дыстрыбутыва."
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:400
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:408
 #, kde-format
 msgid "Unable to complete the update of %1. You can try and perform this action through the Get Hot New Stuff dialog, which grants tighter control. The reported error was:\n"
 "%2"
 msgstr "Не ўдалося завяршыць абнаўленне %1. Вы можаце паспрабаваць выканаць гэтае дзеянне праз дыялогавае акно \"Атрымаць новыя…\", дзе больш строгі кантроль. Паведамлена пра памылку:\n"
 " %2"
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:410
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:418
 #, kde-format
 msgid "Could not fetch screenshot for the entry %1 in backend %2"
 msgstr "Не ўдалося атрымаць здымак экрана для запісу %1 у рухавіку %2"
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:414
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:422
 #, kde-format
 msgid "Unhandled error in %1 backend. Contact your distributor."
 msgstr "Неапрацаваная памылка ў рухавіку %1. Звярніцеся да прадстаўнікоў свайго дыстрыбутыва."
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:540
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:548
 #, kde-format
 msgid "Wrong KNewStuff URI: %1"
 msgstr "Няправільны URI-адрас KNewStuff: %1"
@@ -1114,12 +1116,12 @@ msgctxt "%1 is the date as formatted by the locale"
 msgid "Your operating system ended support on %1. Consider upgrading to a supported version."
 msgstr "Падтрымка вашай аперацыйная сістэмы была спыненая %1. Падумайце пра тое, каб абнавіцца да версіі, якая падтрымліваецца."
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:938
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:940
 #, kde-format
 msgid "Cannot remove '%1'"
 msgstr "Не ўдалося выдаліць \"%1\""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1031
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1033
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:368
 #, kde-format
 msgctxt "@info:status %1 is a new major version of the user's distro"
@@ -1128,20 +1130,20 @@ msgid "<b>%1 is now available.</b>\n"
 msgstr "<b> Даступны %1.</b>\n"
 "Каб мець магчымасць абнавіць да гэтай новай версіі, спачатку ўжывіце ўсе даступныя абнаўленні, а потым перазапусціце сістэму."
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1040
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1042
 #, kde-format
 msgctxt "@action: button"
 msgid "Upgrade Now"
 msgstr "Абнавіць зараз"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1063
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1065
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:378
 #, kde-format
 msgctxt "@info:status %1 is a new major version of the user's distro"
 msgid "%1 is now available."
 msgstr "Зараз даступны %1."
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1189
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1191
 #, kde-format
 msgctxt "@info"
 msgid "The background service (PackageKit) stopped unexpectedly. It may have crashed."
@@ -2358,7 +2360,7 @@ msgid "Channels for %1"
 msgstr "Каналы для %1"
 
 #: libdiscover/backends/SnapBackend/qml/ChannelsButton.qml:45
-#: libdiscover/backends/SnapBackend/SnapResource.cpp:405
+#: libdiscover/backends/SnapBackend/SnapResource.cpp:384
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
@@ -2378,12 +2380,12 @@ msgstr "Правы доступу для \"%1\""
 msgid "Snap"
 msgstr "Snap"
 
-#: libdiscover/backends/SnapBackend/SnapResource.cpp:606
+#: libdiscover/backends/SnapBackend/SnapResource.cpp:585
 #, kde-format
 msgid "Verified Publisher on snapcraft.io"
 msgstr ""
 
-#: libdiscover/backends/SnapBackend/SnapResource.cpp:608
+#: libdiscover/backends/SnapBackend/SnapResource.cpp:587
 #, kde-format
 msgid "Starred Publisher on snapcraft.io"
 msgstr ""
@@ -2403,7 +2405,7 @@ msgstr "SteamOS: не ўдалося запытаць у atomupd абнаўле�
 msgid "SteamOS"
 msgstr "SteamOS"
 
-#: libdiscover/DiscoverBackendsFactory.cpp:114
+#: libdiscover/DiscoverBackendsFactory.cpp:121
 #, kde-format
 msgid "List all the backends we'll want to have loaded, separated by comma ','."
 msgstr "Пералічыце праз коску (\",\") усе рухавікі, якія трэба загрузіць."
@@ -2521,29 +2523,45 @@ msgctxt "@info:status"
 msgid "Cancelled"
 msgstr "Скасавана"
 
-#: libdiscover/UpdateModel/UpdateModel.cpp:136
+#: libdiscover/UpdateModel/UpdateModel.cpp:138
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Applications"
 msgstr "Праграмы"
 
-#: libdiscover/UpdateModel/UpdateModel.cpp:137
+#: libdiscover/UpdateModel/UpdateModel.cpp:139
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Application Support"
 msgstr "Падтрымка праграм"
 
-#: libdiscover/UpdateModel/UpdateModel.cpp:138
+#: libdiscover/UpdateModel/UpdateModel.cpp:140
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "System Software"
 msgstr "Сістэмнае праграмнае забеспячэнне"
 
-#: libdiscover/UpdateModel/UpdateModel.cpp:139
+#: libdiscover/UpdateModel/UpdateModel.cpp:141
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "Дапаўненні"
+
+#~ msgctxt "Category"
+#~ msgid "Accessories"
+#~ msgstr "Інструменты"
+
+#~ msgctxt "Category"
+#~ msgid "Developer Tools"
+#~ msgstr "Інструменты для распрацоўвання"
+
+#~ msgctxt "Category"
+#~ msgid "Science and Engineering"
+#~ msgstr "Навука і інжынерыя"
+
+#~ msgctxt "Category"
+#~ msgid "System Settings"
+#~ msgstr "Налады сістэмы"
 
 #~ msgid "Could not find '%1' in '%2'; please make sure it's available."
 #~ msgstr ""
