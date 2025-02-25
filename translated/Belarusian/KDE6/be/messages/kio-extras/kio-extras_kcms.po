@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-03 00:40+0000\n"
-"PO-Revision-Date: 2025-01-09 22:29\n"
+"POT-Creation-Date: 2025-01-19 00:41+0000\n"
+"PO-Revision-Date: 2025-02-25 19:13\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -20,12 +20,12 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/kio-extras/kio-extras_kcms.po\n"
 "X-Crowdin-File-ID: 19139\n"
 
-#: ksaveioconfig.cpp:163
+#: ksaveioconfig.cpp:135
 #, kde-format
 msgid "You have to restart the running applications for these changes to take effect."
 msgstr "Каб змены набылі моц, трэба перазапусціць запушчаныя праграмы."
 
-#: ksaveioconfig.cpp:165
+#: ksaveioconfig.cpp:137
 #, kde-format
 msgctxt "@title:window"
 msgid "Update Failed"
@@ -45,78 +45,34 @@ msgstr "Калі FTP-злучэнні пасіўныя, кліент падлу�
 
 #. i18n: ectx: label, entry (MarkPartial), group (DesktopIcons)
 #. i18n: ectx: label, entry (MarkPartial), group (Global Options)
-#: netpref/kio_ftprc.kcfg:16 netpref/kioslave.kcfg:34
+#: netpref/kio_ftprc.kcfg:16 netpref/kioslave.kcfg:14
 #, kde-format
 msgid "Mark partially uploaded files"
 msgstr "Пазначаць часткова спампаваныя файлы"
 
 #. i18n: ectx: whatsthis, entry (MarkPartial), group (DesktopIcons)
 #. i18n: ectx: whatsthis, entry (MarkPartial), group (Global Options)
-#: netpref/kio_ftprc.kcfg:17 netpref/kioslave.kcfg:35
+#: netpref/kio_ftprc.kcfg:17 netpref/kioslave.kcfg:15
 #, kde-format
 msgid "While a file is being uploaded its extension is \".part\". When fully uploaded it is renamed to its real name."
 msgstr "Пакуль файл спампоўваецца, яго пашырэнне - \".part\". Калі спампоўванне завяршаецца, яго назва змяняецца на арыгінальную."
 
-#: netpref/netpref.cpp:30
-#, kde-format
-msgid "Timeout Values"
-msgstr "Значэнні тэрмінаў чакання"
-
-#: netpref/netpref.cpp:32
-#, kde-format
-msgid "Here you can set timeout values. You might want to tweak them if your connection is very slow. The maximum allowed value is 1 second."
-msgid_plural "Here you can set timeout values. You might want to tweak them if your connection is very slow. The maximum allowed value is %1 seconds."
-msgstr[0] "Тут вы можаце вызначыць значэнні тэрміну чакання. Вы можаце наладзіць іх, калі ваша злучэнне вельмі павольнае. Максімальна дазволенае значэнне - %1 секунда."
-msgstr[1] "Тут вы можаце вызначыць значэнні тэрміну чакання. Вы можаце наладзіць іх, калі ваша злучэнне вельмі павольнае. Максімальна дазволенае значэнне - %1 секунды."
-msgstr[2] "Тут вы можаце вызначыць значэнні тэрміну чакання. Вы можаце наладзіць іх, калі ваша злучэнне вельмі павольнае. Максімальна дазволенае значэнне - %1 секунд."
-msgstr[3] "Тут вы можаце вызначыць значэнні тэрміну чакання. Вы можаце наладзіць іх, калі ваша злучэнне вельмі павольнае. Максімальна дазволенае значэнне - %1 секунды."
-
-#: netpref/netpref.cpp:47 netpref/netpref.cpp:53 netpref/netpref.cpp:59
-#: netpref/netpref.cpp:65
-#, kde-format
-msgid " second"
-msgid_plural " seconds"
-msgstr[0] " секунда"
-msgstr[1] " секунды"
-msgstr[2] " секунд"
-msgstr[3] " секунды"
-
-#: netpref/netpref.cpp:49
-#, kde-format
-msgid "Soc&ket read:"
-msgstr "Чы&танне гнязда:"
-
-#: netpref/netpref.cpp:55
-#, kde-format
-msgid "Pro&xy connect:"
-msgstr "Злучэнне з &проксі:"
-
-#: netpref/netpref.cpp:61
-#, kde-format
-msgid "Server co&nnect:"
-msgstr "Злучэнне з &серверам:"
-
-#: netpref/netpref.cpp:67
-#, kde-format
-msgid "&Server response:"
-msgstr "Адказ се&рвера:"
-
-#: netpref/netpref.cpp:69
+#: netpref/netpref.cpp:29
 #, kde-format
 msgid "Global Options"
 msgstr "Глабальныя параметры"
 
-#: netpref/netpref.cpp:74 netpref/netpref.cpp:113
+#: netpref/netpref.cpp:34 netpref/netpref.cpp:73
 #, kde-format
 msgid "Mark &partially uploaded files"
 msgstr "Пазначаць &часткова спампаваныя файлы"
 
-#: netpref/netpref.cpp:76
+#: netpref/netpref.cpp:36
 #, kde-format
 msgid "<p>Marks partially uploaded files through SMB, SFTP and other protocols.</p><p>When this option is enabled, partially uploaded files will have a \".part\" extension. This extension will be removed once the transfer is complete.</p>"
 msgstr "<p>Пазначаць часткова спампаваныя файлы праз SMB, SFTP і іншыя пратаколы.</p><p>Калі гэты параметр уключаны, часткова спампаваныя файлы будуць мець пашырэнне \".part\". Гэтае пашырэнне будзе выдалена пасля завяршэння перадачы.</p>"
 
-#: netpref/netpref.cpp:95
+#: netpref/netpref.cpp:55
 #, kde-format
 msgid " byte"
 msgid_plural " bytes"
@@ -125,28 +81,28 @@ msgstr[1] " байты"
 msgstr[2] " байтаў"
 msgstr[3] " байты"
 
-#: netpref/netpref.cpp:97
+#: netpref/netpref.cpp:57
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "If cancelled, automatically delete partially uploaded files smaller than:"
 msgstr "Калі скасавана, аўтаматычна выдаляць часткова запампаваныя файлы памерам менш за:"
 
-#: netpref/netpref.cpp:99
+#: netpref/netpref.cpp:59
 #, kde-format
 msgid "FTP Options"
 msgstr "Параметры FTP"
 
-#: netpref/netpref.cpp:105
+#: netpref/netpref.cpp:65
 #, kde-format
 msgid "Enable passive &mode (PASV)"
 msgstr "Уключыць пасіўны &рэжым (PASV)"
 
-#: netpref/netpref.cpp:107
+#: netpref/netpref.cpp:67
 #, kde-format
 msgid "Enables FTP's \"passive\" mode. This is required to allow FTP to work from behind firewalls."
 msgstr "Уключае \"пасіўны\" рэжым FTP. Гэта неабходна, каб дазволіць FTP працаваць у абыход файрвола."
 
-#: netpref/netpref.cpp:115
+#: netpref/netpref.cpp:75
 #, kde-format
 msgid "<p>Marks partially uploaded FTP files.</p><p>When this option is enabled, partially uploaded files will have a \".part\" extension. This extension will be removed once the transfer is complete.</p>"
 msgstr "<p>Пазначаць часткова спампаваныя файлы праз FTP.</p><p>Калі гэты параметр уключаны, часткова спампаваныя файлы будуць мець пашырэнне \".part\". Гэтае пашырэнне будзе выдалена пасля завяршэння перадачы.</p>"
@@ -910,6 +866,51 @@ msgstr "&Кадаванне:"
 #, kde-format
 msgid "Insert query placeholder"
 msgstr "Уставіць запаўняльнік запыту"
+
+#~ msgid "Timeout Values"
+#~ msgstr "Значэнні тэрмінаў чакання"
+
+#~ msgid ""
+#~ "Here you can set timeout values. You might want to tweak them if your "
+#~ "connection is very slow. The maximum allowed value is 1 second."
+#~ msgid_plural ""
+#~ "Here you can set timeout values. You might want to tweak them if your "
+#~ "connection is very slow. The maximum allowed value is %1 seconds."
+#~ msgstr[0] ""
+#~ "Тут вы можаце вызначыць значэнні тэрміну чакання. Вы можаце наладзіць іх, "
+#~ "калі ваша злучэнне вельмі павольнае. Максімальна дазволенае значэнне - %1 "
+#~ "секунда."
+#~ msgstr[1] ""
+#~ "Тут вы можаце вызначыць значэнні тэрміну чакання. Вы можаце наладзіць іх, "
+#~ "калі ваша злучэнне вельмі павольнае. Максімальна дазволенае значэнне - %1 "
+#~ "секунды."
+#~ msgstr[2] ""
+#~ "Тут вы можаце вызначыць значэнні тэрміну чакання. Вы можаце наладзіць іх, "
+#~ "калі ваша злучэнне вельмі павольнае. Максімальна дазволенае значэнне - %1 "
+#~ "секунд."
+#~ msgstr[3] ""
+#~ "Тут вы можаце вызначыць значэнні тэрміну чакання. Вы можаце наладзіць іх, "
+#~ "калі ваша злучэнне вельмі павольнае. Максімальна дазволенае значэнне - %1 "
+#~ "секунды."
+
+#~ msgid " second"
+#~ msgid_plural " seconds"
+#~ msgstr[0] " секунда"
+#~ msgstr[1] " секунды"
+#~ msgstr[2] " секунд"
+#~ msgstr[3] " секунды"
+
+#~ msgid "Soc&ket read:"
+#~ msgstr "Чы&танне гнязда:"
+
+#~ msgid "Pro&xy connect:"
+#~ msgstr "Злучэнне з &проксі:"
+
+#~ msgid "Server co&nnect:"
+#~ msgstr "Злучэнне з &серверам:"
+
+#~ msgid "&Server response:"
+#~ msgstr "Адказ се&рвера:"
 
 #~ msgid "&New..."
 #~ msgstr "&Новы..."
