@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-16 00:42+0000\n"
-"PO-Revision-Date: 2025-01-18 18:26\n"
+"POT-Creation-Date: 2025-02-19 00:43+0000\n"
+"PO-Revision-Date: 2025-02-25 19:17\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -405,7 +405,7 @@ msgstr "Выдаліць"
 msgid "Preview Plugins"
 msgstr "Убудовы папярэдняга прагляду"
 
-#: package/contents/ui/FolderView.qml:1223
+#: package/contents/ui/FolderView.qml:1225
 #, kde-format
 msgctxt "@info"
 msgid "There are a lot of files and folders on the desktop. This can cause bugs and performance issues. Please consider moving some of them elsewhere."
@@ -451,8 +451,8 @@ msgstr "&Ачысціць сметніцу"
 #: plugins/folder/foldermodel.cpp:1732
 #, kde-format
 msgctxt "Restore from trash"
-msgid "Restore"
-msgstr "Аднавіць"
+msgid "Restore to Former Location"
+msgstr ""
 
 #: plugins/folder/foldermodel.cpp:1735
 #, kde-format
@@ -465,12 +465,23 @@ msgctxt "@action:inmenu open file manager showing the target file or folder that
 msgid "Show Target"
 msgstr "Паказаць мэту"
 
-#: plugins/folder/foldermodel.cpp:1863
+#: plugins/folder/foldermodel.cpp:1835
+#, kde-format
+msgctxt "@action:inmenu Removes the trash icon on the desktop"
+msgid "Remove Trash Icon"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1838
+#| msgid "Move to Trash"
+msgid "&Move to Trash"
+msgstr "&Перамясціць у сметніцу"
+
+#: plugins/folder/foldermodel.cpp:1871
 #, kde-format
 msgid "&Paste"
 msgstr "&Уставіць"
 
-#: plugins/folder/foldermodel.cpp:1987
+#: plugins/folder/foldermodel.cpp:2022
 #, kde-format
 msgid "&Properties"
 msgstr "&Уласцівасці"
@@ -621,6 +632,10 @@ msgctxt "@item:inmenu lock icon positions in place"
 msgid "Locked"
 msgstr "Заблакавана"
 
+#~ msgctxt "Restore from trash"
+#~ msgid "Restore"
+#~ msgstr "Аднавіць"
+
 #~ msgid "Rotate"
 #~ msgstr "Павярнуць"
 
@@ -642,11 +657,6 @@ msgstr "Заблакавана"
 #~| msgid "New Folder"
 #~ msgid "Desktop Layout"
 #~ msgstr "Новая тэчка"
-
-#, fuzzy
-#~| msgid "Move to Trash"
-#~ msgid "&Move to Trash"
-#~ msgstr "Перамясціць у сметніцу"
 
 #, fuzzy
 #~| msgid "Deleting"
