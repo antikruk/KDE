@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-18 00:42+0000\n"
-"PO-Revision-Date: 2025-01-18 18:24\n"
+"POT-Creation-Date: 2025-02-25 00:42+0000\n"
+"PO-Revision-Date: 2025-02-25 19:16\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -32,28 +32,28 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com, symbol@akeeri.tk, nashtlumach@gmail.com"
 
-#: backends/wayland/wayland_output.cpp:275
+#: backends/wayland/wayland_output.cpp:432
 #, kde-format
 msgid "Press right control to ungrab pointer"
 msgstr "Каб скасаваць захопліванне паказальніка, націсніце правую клавішу Ctrl"
 
-#: backends/wayland/wayland_output.cpp:277
+#: backends/wayland/wayland_output.cpp:434
 #, kde-format
 msgid "Press right control key to grab pointer"
 msgstr "Каб захапіць паказальнік, націсніце правую клавішу Ctrl"
 
-#: backends/wayland/wayland_output.cpp:281
+#: backends/wayland/wayland_output.cpp:438
 #, kde-format
 msgctxt "Title of nested KWin Wayland with Wayland socket identifier as argument"
 msgid "KDE Wayland Compositor %1"
 msgstr "Сродак кампазітынгу KDE Wayland %1"
 
-#: backends/wayland/wayland_output.cpp:284
+#: backends/wayland/wayland_output.cpp:441
 #, kde-format
 msgid "- Output disabled"
 msgstr "- Вывад адключаны"
 
-#: backends/wayland/wayland_output.cpp:286
+#: backends/wayland/wayland_output.cpp:443
 #, kde-format
 msgid "- Output dimmed"
 msgstr "- Вывад зацемнены"
@@ -73,7 +73,7 @@ msgstr "Каб захапіць увод, націсніце правую кла
 msgid "KDE Wayland Compositor"
 msgstr "Сродак кампазітынгу KDE Wayland"
 
-#: compositor_wayland.cpp:312 compositor_x11.cpp:457
+#: compositor_wayland.cpp:323 compositor_x11.cpp:457
 #, kde-format
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr "Эфекты працоўнага стала перазапушчаныя праз скід графікі"
@@ -98,73 +98,73 @@ msgstr "Неабходныя пашырэнні X (XComposite і XDamage) нед
 msgid "GLX/OpenGL is not available."
 msgstr "GLX/OpenGL недаступны."
 
-#: core/iccprofile.cpp:245
+#: core/iccprofile.cpp:252
 #, kde-format
 msgid "Failed to open ICC profile \"%1\""
 msgstr ""
 
-#: core/iccprofile.cpp:247
+#: core/iccprofile.cpp:254
 #| msgctxt "Required file does not exist"
 #| msgid "%1 does not exist"
 msgid "ICC profile \"%1\" doesn't exist"
 msgstr ""
 
-#: core/iccprofile.cpp:251
+#: core/iccprofile.cpp:258
 #, kde-format
 msgid "ICC profile \"%1\" is not usable for displays"
 msgstr ""
 
-#: core/iccprofile.cpp:254
+#: core/iccprofile.cpp:261
 #, kde-format
 msgid "ICC profile \"%1\" has unsupported connection space, only XYZ is supported"
 msgstr ""
 
-#: core/iccprofile.cpp:257
+#: core/iccprofile.cpp:264
 #, kde-format
 msgid "ICC profile \"%1\" is broken, input/output color space isn't RGB"
 msgstr ""
 
-#: core/iccprofile.cpp:276
+#: core/iccprofile.cpp:283
 #, kde-format
 msgid "ICC profile \"%1\" is broken, it has no whitepoint"
 msgstr ""
 
-#: core/iccprofile.cpp:279
+#: core/iccprofile.cpp:286
 #, kde-format
 msgid "ICC profile \"%1\" is broken, its whitepoint is invalid"
 msgstr ""
 
-#: core/iccprofile.cpp:292
+#: core/iccprofile.cpp:299
 #, kde-format
 msgid "ICC profile \"%1\" is broken, parsing chromatic adaptation matrix failed"
 msgstr ""
 
-#: core/iccprofile.cpp:297
+#: core/iccprofile.cpp:304
 #, kde-format
 msgid "ICC profile \"%1\" is broken, inverting chromatic adaptation matrix failed"
 msgstr ""
 
-#: core/iccprofile.cpp:310
+#: core/iccprofile.cpp:317
 #, kde-format
 msgid "ICC profile \"%1\" is broken, it has no primaries"
 msgstr ""
 
-#: core/iccprofile.cpp:325
+#: core/iccprofile.cpp:332
 #, kde-format
 msgid "ICC profile \"%1\" is broken, couldn't calculate its primaries"
 msgstr ""
 
-#: core/iccprofile.cpp:334
+#: core/iccprofile.cpp:341
 #, kde-format
 msgid "ICC profile \"%1\" is broken, its primaries are invalid"
 msgstr ""
 
-#: core/iccprofile.cpp:350
+#: core/iccprofile.cpp:357
 #, kde-format
 msgid "ICC profile \"%1\" with only BToD tags isn't supported"
 msgstr ""
 
-#: core/iccprofile.cpp:389
+#: core/iccprofile.cpp:396
 #, kde-format
 msgid "Color profile is missing TRC tags"
 msgstr ""
@@ -1198,133 +1198,128 @@ msgstr "Буфер абмену"
 msgid "Primary Selection"
 msgstr "Першасны выбар"
 
-#: helpers/killer/killer.cpp:134
+#: helpers/killer/killer.cpp:159
 #, kde-format
 msgid "Window Manager"
 msgstr "Кіраўнік акон"
 
-#: helpers/killer/killer.cpp:139
+#: helpers/killer/killer.cpp:164
 #, kde-format
 msgid "PID of the application to terminate"
 msgstr "PID праграмы, працэс якой трэба знішчыць"
 
-#: helpers/killer/killer.cpp:139
+#: helpers/killer/killer.cpp:164
 #, kde-format
 msgid "pid"
 msgstr "pid"
 
-#: helpers/killer/killer.cpp:141
+#: helpers/killer/killer.cpp:166
 #, kde-format
 msgid "Hostname on which the application is running"
 msgstr "Назва хоста, на якім працуе праграма"
 
-#: helpers/killer/killer.cpp:141
+#: helpers/killer/killer.cpp:166
 #, kde-format
 msgid "hostname"
 msgstr "назва хоста"
 
-#: helpers/killer/killer.cpp:143
+#: helpers/killer/killer.cpp:168
 #, kde-format
 msgid "Caption of the window to be terminated"
 msgstr "Подпіс акна, працэс якога трэба знішчыць"
 
-#: helpers/killer/killer.cpp:143
+#: helpers/killer/killer.cpp:168
 #, kde-format
 msgid "caption"
 msgstr "подпіс"
 
-#: helpers/killer/killer.cpp:145
+#: helpers/killer/killer.cpp:170
 #, kde-format
 msgid "Name of the application to be terminated"
 msgstr "Назва праграмы, працэс якой трэба знішчыць"
 
-#: helpers/killer/killer.cpp:145
+#: helpers/killer/killer.cpp:170
 #, kde-format
 msgid "name"
 msgstr "назва"
 
-#: helpers/killer/killer.cpp:147
+#: helpers/killer/killer.cpp:172
 #, kde-format
 msgid "ID of resource belonging to the application"
 msgstr "Ідэнтыфікатар рэсурсу, які належыць праграме"
 
-#: helpers/killer/killer.cpp:147
+#: helpers/killer/killer.cpp:172
 #, kde-format
 msgid "id"
 msgstr "ідэнтыфікатар"
 
-#: helpers/killer/killer.cpp:149
+#: helpers/killer/killer.cpp:174
 #, kde-format
 msgid "Time of user action causing termination"
 msgstr "Час выканання дзеяння карыстальніка, які запусціў знішчэнне працэсу"
 
-#: helpers/killer/killer.cpp:149
+#: helpers/killer/killer.cpp:174
 #, kde-format
 msgid "time"
 msgstr "час"
 
-#: helpers/killer/killer.cpp:151
+#: helpers/killer/killer.cpp:176
 #, kde-format
 msgid "KWin helper utility"
 msgstr "Дапаможная утыліта KWin"
 
-#: helpers/killer/killer.cpp:187
+#: helpers/killer/killer.cpp:212
 #, kde-format
 msgid "This helper utility is not supposed to be called directly."
 msgstr "Гэтую утыліту не трэба выклікаць уласнаручна."
 
-#: helpers/killer/killer.cpp:209
+#: helpers/killer/killer.cpp:234
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para><application>%1</application> is not responding. Do you want to terminate this application?</para>"
 msgstr "<para><application>%1</application> не адказвае. Хочаце знішчыць працэс гэтай праграмы?</para>"
 
-#: helpers/killer/killer.cpp:211
+#: helpers/killer/killer.cpp:236
 #, kde-kuit-format
 msgctxt "@info \"window title\" of application name is not responding."
 msgid "<para>\"%1\" of <application>%2</application> is not responding. Do you want to terminate this application?</para>"
 msgstr "<para>\"%1\" of <application>%2</application> не адказвае. Хочаце знішчыць працэс гэтай праграмы?</para>"
 
-#: helpers/killer/killer.cpp:214
+#: helpers/killer/killer.cpp:239
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para><emphasis strong='true'>Terminating this application will close all of its windows. Any unsaved data will be lost.</emphasis></para>"
 msgstr "<para><emphasis strong='true'>Калі знішчыць працэс гэтай праграмы, то ўсе яе вокны закрыюцца. Усе незахаваныя змены страцяцца.</emphasis></para>"
 
-#: helpers/killer/killer.cpp:216
+#: helpers/killer/killer.cpp:241
 #, kde-format
 msgctxt "@action:button Terminate app"
 msgid "&Terminate %1"
 msgstr "&Знішчыць %1"
 
-#: helpers/killer/killer.cpp:217
+#: helpers/killer/killer.cpp:242
 #, kde-format
 msgctxt "@action:button Wait for frozen app to maybe respond again"
 msgid "&Wait Longer"
 msgstr "&Пачакаць яшчэ"
 
-#: helpers/killer/killer.cpp:225
+#: helpers/killer/killer.cpp:250
 #, kde-format
 msgctxt "@title:window"
 msgid "Not Responding"
 msgstr "Не адказвае"
 
-#: helpers/killer/killer.cpp:241
+#: helpers/killer/killer.cpp:266
 #, kde-format
 msgctxt "@info"
 msgid "Process ID: %1"
 msgstr "Ідэнтыфікатар працэсу: %1"
 
-#: helpers/killer/killer.cpp:243
+#: helpers/killer/killer.cpp:268
 #, kde-format
 msgctxt "@info"
 msgid "Host name: %1"
 msgstr "Назва хоста: %1"
-
-#: input.cpp:3360
-#, kde-format
-msgid "Touchpad"
-msgstr "Сэнсарная панэль"
 
 #: keyboard_layout.cpp:45 keyboard_layout.cpp:55 keyboard_layout.cpp:137
 #, kde-format
@@ -1682,9 +1677,7 @@ msgstr "Верх"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_InRotationEdge)
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OutRotationEdge)
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignRight)
 #: plugins/glide/glide_config.ui:75 plugins/glide/glide_config.ui:173
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:43
 #, kde-format
 msgid "Right"
 msgstr "Справа"
@@ -1698,9 +1691,7 @@ msgstr "Дол"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_InRotationEdge)
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OutRotationEdge)
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignLeft)
 #: plugins/glide/glide_config.ui:85 plugins/glide/glide_config.ui:183
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:29
 #, kde-format
 msgid "Left"
 msgstr "Злева"
@@ -1767,95 +1758,6 @@ msgstr "Пераключэнне эфекту інвертавання акон"
 #, kde-format
 msgid "Invert Screen Colors"
 msgstr "Інвертаванне колераў экрана"
-
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:48
-#, kde-format
-msgctxt "@item:inlistbox Button size:"
-msgid "Tiny"
-msgstr "Малюсенькія"
-
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:49
-#, kde-format
-msgctxt "@item:inlistbox Button size:"
-msgid "Normal"
-msgstr "Звычайныя"
-
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:50
-#, kde-format
-msgctxt "@item:inlistbox Button size:"
-msgid "Large"
-msgstr "Вялікія"
-
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:51
-#, kde-format
-msgctxt "@item:inlistbox Button size:"
-msgid "Very Large"
-msgstr "Вельмі вялікія"
-
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:52
-#, kde-format
-msgctxt "@item:inlistbox Button size:"
-msgid "Huge"
-msgstr "Велізарныя"
-
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:53
-#, kde-format
-msgctxt "@item:inlistbox Button size:"
-msgid "Very Huge"
-msgstr "Надта вялізныя"
-
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:54
-#, kde-format
-msgctxt "@item:inlistbox Button size:"
-msgid "Oversized"
-msgstr "Празмерныя"
-
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:57
-#, kde-format
-msgid "Button size:"
-msgstr "Памеры кнопак:"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, PlastikConfigDialog)
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:14
-#, kde-format
-msgid "Config Dialog"
-msgstr "Дыялогавае акно наладжвання"
-
-#. i18n: ectx: property (title), widget (KButtonGroup, titleAlign)
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:23
-#, kde-format
-msgid "Title &Alignment"
-msgstr "Выраўноўванне &загалоўка"
-
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignCenter)
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:36
-#, kde-format
-msgid "Center"
-msgstr "Па цэнтры"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_coloredBorder)
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:53
-#, kde-format
-msgid "Check this option if the window border should be painted in the titlebar color. Otherwise it will be painted in the background color."
-msgstr "Адзначце гэты параметр, калі рамка акна павінна быць афарбаваная ў колер панэлі загалоўка. У адваротным выпадку рамка будўе мець колер фону."
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_coloredBorder)
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:56
-#, kde-format
-msgid "Colored window border"
-msgstr "Каляровыя рамкі акон"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_animateButtons)
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:66
-#, kde-format
-msgid "Check this option if you want the buttons to fade in when the mouse pointer hovers over them and fade out again when it moves away."
-msgstr "Адзначце гэты параметр, калі вы хочаце, каб кнопкі з'яўляліся, калі на іх наводзіцца курсор мышы, і зноў знікалі, калі ён прыбіраецца."
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_animateButtons)
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:69
-#, kde-format
-msgid "Animate buttons"
-msgstr "Анімацыя кнопак"
 
 #: plugins/keynotification/keynotification.cpp:44
 #, kde-format
@@ -2339,7 +2241,7 @@ msgctxt "Temporarily disable/reenable Night Light"
 msgid "Suspend/Resume Night Light"
 msgstr "Прыпыніць або ўзнавіць начны рэжым"
 
-#: plugins/nightlight/nightlightmanager.cpp:411
+#: plugins/nightlight/nightlightmanager.cpp:417
 #, kde-format
 msgid "Color Temperature Preview"
 msgstr "Папярэдні прагляд колеравай тэмпературы"
@@ -2687,6 +2589,11 @@ msgstr "Дадаць элемент, які плавае"
 #, kde-format
 msgid "Delete"
 msgstr "Выдаліць"
+
+#: plugins/touchpadshortcuts/touchpadshortcuts.cpp:30
+#, kde-format
+msgid "Touchpad"
+msgstr "Сэнсарная панэль"
 
 #: plugins/trackmouse/trackmouse.cpp:71
 #: plugins/trackmouse/trackmouse_config.cpp:49
@@ -3731,7 +3638,7 @@ msgstr "Альтэрнатыўны пераход па вокнах бягуча
 msgid "Walk Through Windows of Current Application Alternative (Reverse)"
 msgstr "Альтэрнатыўны пераход па вокнах бягучай праграмы ў адваротным кірунку"
 
-#: tabbox/tabboxhandler.cpp:247
+#: tabbox/tabboxhandler.cpp:249
 #, kde-format
 msgid "The Window Switcher installation is broken, resources are missing.\n"
 "Contact your distribution about this."
@@ -4268,7 +4175,7 @@ msgstr "Забіць працэс акна"
 msgid "Activate Window (%1)"
 msgstr "Актываваць акно (%1)"
 
-#: utils/edid.cpp:325
+#: utils/edid.cpp:324
 #, kde-format
 msgid "unknown"
 msgstr "невядома"
@@ -4333,18 +4240,18 @@ msgstr ""
 msgid "The provided output order is invalid"
 msgstr ""
 
-#: wayland/outputmanagement_v2.cpp:494
+#: wayland/outputmanagement_v2.cpp:497
 #, kde-format
 msgid "The driver rejected the output configuration"
 msgstr ""
 
-#: window.cpp:3173
+#: window.cpp:3275
 #, kde-format
 msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
 msgstr "(Не адказвае)"
 
-#: workspace.cpp:1653
+#: workspace.cpp:1691
 #, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid "KWin Support Information:\n"
@@ -4363,6 +4270,66 @@ msgstr "Інфармацыя пра падтрымку KWin:\n"
 #, kde-format
 msgid "Xwayland has crashed"
 msgstr "Адбыўся збой Xwayland"
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Tiny"
+#~ msgstr "Малюсенькія"
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Normal"
+#~ msgstr "Звычайныя"
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Large"
+#~ msgstr "Вялікія"
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Very Large"
+#~ msgstr "Вельмі вялікія"
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Huge"
+#~ msgstr "Велізарныя"
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Very Huge"
+#~ msgstr "Надта вялізныя"
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Oversized"
+#~ msgstr "Празмерныя"
+
+#~ msgid "Button size:"
+#~ msgstr "Памеры кнопак:"
+
+#~ msgid "Config Dialog"
+#~ msgstr "Дыялогавае акно наладжвання"
+
+#~ msgid "Title &Alignment"
+#~ msgstr "Выраўноўванне &загалоўка"
+
+#~ msgid "Center"
+#~ msgstr "Па цэнтры"
+
+#~ msgid ""
+#~ "Check this option if the window border should be painted in the titlebar "
+#~ "color. Otherwise it will be painted in the background color."
+#~ msgstr ""
+#~ "Адзначце гэты параметр, калі рамка акна павінна быць афарбаваная ў колер "
+#~ "панэлі загалоўка. У адваротным выпадку рамка будўе мець колер фону."
+
+#~ msgid "Colored window border"
+#~ msgstr "Каляровыя рамкі акон"
+
+#~ msgid ""
+#~ "Check this option if you want the buttons to fade in when the mouse "
+#~ "pointer hovers over them and fade out again when it moves away."
+#~ msgstr ""
+#~ "Адзначце гэты параметр, калі вы хочаце, каб кнопкі з'яўляліся, калі на іх "
+#~ "наводзіцца курсор мышы, і зноў знікалі, калі ён прыбіраецца."
+
+#~ msgid "Animate buttons"
+#~ msgstr "Анімацыя кнопак"
 
 #~ msgid "EventType"
 #~ msgstr "Тып падзеі"
