@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-09 00:41+0000\n"
-"PO-Revision-Date: 2025-01-09 22:29\n"
+"POT-Creation-Date: 2025-01-18 00:42+0000\n"
+"PO-Revision-Date: 2025-01-18 18:23\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -292,7 +292,7 @@ msgid "No slot found for subkey %1 on the smart card."
 msgstr ""
 
 #: src/commands/certificatetocardcommand.cpp:289
-#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:251
+#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:256
 #: src/commands/keytocardcommand.cpp:262
 #: src/commands/openpgpgeneratecardkeycommand.cpp:136
 #: src/commands/openpgpgeneratecardkeycommand.cpp:173
@@ -895,12 +895,12 @@ msgstr ""
 
 #: src/commands/checksumcreatefilescommand.cpp:151
 #: src/commands/checksumverifyfilescommand.cpp:150
-#: src/commands/decryptverifyclipboardcommand.cpp:155
+#: src/commands/decryptverifyclipboardcommand.cpp:166
 #: src/commands/decryptverifyfilescommand.cpp:205
-#: src/commands/encryptclipboardcommand.cpp:150
-#: src/commands/encryptclipboardcommand.cpp:162
-#: src/commands/signclipboardcommand.cpp:150
-#: src/commands/signclipboardcommand.cpp:162
+#: src/commands/encryptclipboardcommand.cpp:164
+#: src/commands/encryptclipboardcommand.cpp:192
+#: src/commands/signclipboardcommand.cpp:165
+#: src/commands/signclipboardcommand.cpp:193
 #: src/commands/signencryptfilescommand.cpp:274
 #, kde-format
 msgid "An error occurred: %1"
@@ -1067,15 +1067,15 @@ msgctxt "@info"
 msgid "Successfully generated an OpenPGP key from the card keys."
 msgstr ""
 
-#: src/commands/decryptverifyclipboardcommand.cpp:141
-#, kde-format
-msgid "The clipboard does not appear to contain a signature or encrypted text."
+#: src/commands/decryptverifyclipboardcommand.cpp:136
+#| msgid "&Details"
+msgctxt "@info"
+msgid "Decrypting/Verifying clipboard…"
 msgstr ""
 
-#: src/commands/decryptverifyclipboardcommand.cpp:143
-#: src/commands/decryptverifyclipboardcommand.cpp:155
+#: src/commands/decryptverifyclipboardcommand.cpp:153
 #, kde-format
-msgid "Decrypt/Verify Clipboard Error"
+msgid "The clipboard does not appear to contain signed or encrypted text."
 msgstr ""
 
 #: src/commands/decryptverifyfilescommand.cpp:67
@@ -1233,10 +1233,17 @@ msgid "An error occurred while trying to dump the CRL cache. The output from Gpg
 "%1"
 msgstr ""
 
-#: src/commands/encryptclipboardcommand.cpp:150
-#: src/commands/encryptclipboardcommand.cpp:162
+#: src/commands/encryptclipboardcommand.cpp:143
+#| msgid "Description"
+msgctxt "@info"
+msgid "Encrypting clipboard…"
+msgstr ""
+
+#: src/commands/encryptclipboardcommand.cpp:152
+#: src/commands/signclipboardcommand.cpp:153
 #, kde-format
-msgid "Encrypt Clipboard Error"
+msgctxt "@info"
+msgid "The clipboard is empty"
 msgstr ""
 
 #: src/commands/exportcertificatecommand.cpp:182
@@ -1665,58 +1672,58 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:190
+#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:195
 #| msgid "Overwrite File?"
 msgctxt "@info"
 msgid "Failed to generate new card keys and a certificate: %1"
 msgstr ""
 
-#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:202
+#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:207
 #, kde-format
 msgid "Save backup of encryption key"
 msgstr ""
 
-#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:204
+#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:209
 #, kde-format
 msgid "Backup Key"
 msgstr ""
 
-#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:206
+#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:211
 #, kde-format
 msgctxt "@info"
 msgid "Failed to move backup. The backup key is still stored under: %1"
 msgstr ""
 
-#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:212
+#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:217
 #| msgid "Canceled."
 msgctxt "@info"
 msgid "Successfully generated new card keys and a certificate for this card."
 msgstr ""
 
-#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:212
+#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:217
 #, kde-format
 msgctxt "@title"
 msgid "Success"
 msgstr "Выканана"
 
-#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:235
+#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:240
 #| msgid "Canceled."
 msgctxt "@title:window"
 msgid "Generating Keys"
 msgstr ""
 
-#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:236
+#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:241
 #, kde-format
 msgctxt "@label:textbox"
 msgid "This may take several minutes..."
 msgstr ""
 
-#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:261
+#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:266
 #, kde-format
 msgid "The existing keys on this card will be <b>deleted</b> and replaced by new keys."
 msgstr ""
 
-#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:264
+#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:269
 #: src/commands/keytocardcommand.cpp:287 src/commands/keytocardcommand.cpp:406
 #: src/commands/openpgpgeneratecardkeycommand.cpp:184
 #: src/commands/pivgeneratecardkeycommand.cpp:135
@@ -1724,12 +1731,12 @@ msgstr ""
 msgid "It will no longer be possible to decrypt past communication encrypted for the existing key."
 msgstr ""
 
-#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:266
+#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:271
 #| msgid "Overwrite File?"
 msgid "Secret Key Deletion"
 msgstr ""
 
-#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:288
+#: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:293
 #, kde-format
 msgctxt "@info"
 msgid "You cannot generate keys on this smart card because it doesn't support any of the compliant algorithms."
@@ -1822,26 +1829,31 @@ msgstr ""
 msgid "Process finished"
 msgstr ""
 
-#: src/commands/importcertificatefromclipboardcommand.cpp:104
-#: src/commands/importcertificatefromclipboardcommand.cpp:108
-#: src/commands/importcertificatefromfilecommand.cpp:134
-#: src/commands/importcertificatescommand.cpp:908
-#: src/commands/importcertificatescommand.cpp:961
-#, kde-format
-msgid "Certificate Import Failed"
+#: src/commands/importcertificatefromclipboardcommand.cpp:98
+#| msgid "Overwrite File?"
+msgctxt "@info"
+msgid "Importing certificate from clipboard…"
 msgstr ""
 
-#: src/commands/importcertificatefromclipboardcommand.cpp:104
+#: src/commands/importcertificatefromclipboardcommand.cpp:106
 #, kde-format
-msgid "Clipboard contents do not look like a certificate."
+msgctxt "@info"
+msgid "The clipboard is empty. Nothing imported."
 msgstr ""
 
 #: src/commands/importcertificatefromclipboardcommand.cpp:108
 #, kde-format
-msgid "Could not determine certificate type of clipboard contents."
+msgctxt "@info"
+msgid "Clipboard contents do not look like a certificate. Nothing imported."
 msgstr ""
 
-#: src/commands/importcertificatefromclipboardcommand.cpp:110
+#: src/commands/importcertificatefromclipboardcommand.cpp:112
+#, kde-format
+msgctxt "@info"
+msgid "Could not determine certificate type of clipboard contents. Nothing imported."
+msgstr ""
+
+#: src/commands/importcertificatefromclipboardcommand.cpp:114
 #: src/utils/clipboardmenu.cpp:42 src/utils/output.cpp:782
 #, kde-format
 msgid "Clipboard"
@@ -1869,6 +1881,13 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
+
+#: src/commands/importcertificatefromfilecommand.cpp:134
+#: src/commands/importcertificatescommand.cpp:908
+#: src/commands/importcertificatescommand.cpp:961
+#, kde-format
+msgid "Certificate Import Failed"
+msgstr ""
 
 #: src/commands/importcertificatefromfilecommand.cpp:134
 #, kde-format
@@ -3046,10 +3065,10 @@ msgctxt "@info"
 msgid "<para>The user ID<nl/><emphasis>%1</emphasis><nl/>has been flagged successfully as the primary user ID.</para>"
 msgstr ""
 
-#: src/commands/signclipboardcommand.cpp:150
-#: src/commands/signclipboardcommand.cpp:162
+#: src/commands/signclipboardcommand.cpp:143
 #, kde-format
-msgid "Sign Clipboard Error"
+msgctxt "@info"
+msgid "Signing clipboard…"
 msgstr ""
 
 #: src/commands/signencryptfilescommand.cpp:274
@@ -3936,7 +3955,7 @@ msgid "Error while running %1: %2"
 msgstr ""
 
 #: src/crypto/createchecksumscontroller.cpp:489
-#: src/crypto/verifychecksumscontroller.cpp:476 src/utils/input.cpp:357
+#: src/crypto/verifychecksumscontroller.cpp:476 src/utils/input.cpp:359
 #: src/utils/output.cpp:758
 #, kde-format
 msgid "Failed to execute %1: %2"
@@ -4355,27 +4374,27 @@ msgctxt "@action:inmenu"
 msgid "Show Details"
 msgstr "Паказваць падрабязнасці"
 
-#: src/crypto/gui/certificatelineedit.cpp:644
+#: src/crypto/gui/certificatelineedit.cpp:645
 #| msgid "Canceled."
 msgid "No matching certificates or groups found"
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:646
+#: src/crypto/gui/certificatelineedit.cpp:647
 #| msgid "Canceled."
 msgid "Multiple matching certificates or groups found"
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:648
+#: src/crypto/gui/certificatelineedit.cpp:649
 #| msgid "Canceled."
 msgid "This certificate is expired"
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:650
+#: src/crypto/gui/certificatelineedit.cpp:651
 #| msgid "Canceled."
 msgid "This certificate is revoked"
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:728 src/dialogs/expirydialog.cpp:219
+#: src/crypto/gui/certificatelineedit.cpp:729 src/dialogs/expirydialog.cpp:219
 #: src/view/smartcardwidget.cpp:370
 #, kde-format
 msgctxt "@info"
@@ -5582,7 +5601,7 @@ msgid "Advanced Settings"
 msgstr "Дадатковыя налады"
 
 #: src/dialogs/addsubkeydialog.cpp:92
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:130
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:135
 #| msgid "&Update"
 msgctxt "@title:group"
 msgid "Key Material"
@@ -5594,21 +5613,21 @@ msgid "Algorithm:"
 msgstr "Алгарытм:"
 
 #: src/dialogs/addsubkeydialog.cpp:102
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:150
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:155
 #| msgid "Overwrite File?"
 msgctxt "@title:group"
 msgid "Certificate Usage"
 msgstr ""
 
 #: src/dialogs/addsubkeydialog.cpp:105
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:154
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:159
 #| msgid "Canceled."
 msgctxt "@option:check"
 msgid "Signing"
 msgstr ""
 
 #: src/dialogs/addsubkeydialog.cpp:108
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:159
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:164
 #| msgid "Description"
 msgctxt "@option:check"
 msgid "Encryption"
@@ -8669,58 +8688,58 @@ msgctxt "Only available in German and English. Leave to English for other langua
 msgid "symmetric_encryption_gnupgvsd_en.pdf"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:135
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:140
 #, kde-format
 msgctxt "@info:label"
 msgid "RSA key strength:"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:174
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:179
 #| msgid "&Details"
 msgctxt "@title:tab"
 msgid "Technical Details"
 msgstr "Тэхнічныя падрабязнасці"
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:188
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:198
 #, kde-format
 msgctxt "@title:group"
 msgid "EMail Addresses"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:196
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:206
 #| msgid "Serial"
 msgctxt "@title:group"
 msgid "DNS Names"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:204
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:214
 #, kde-format
 msgctxt "@title:group"
 msgid "URIs"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:214
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:224
 #| msgid "&Details"
 msgctxt "@title:tab"
 msgid "Personal Details"
 msgstr "Персанальныя звесткі"
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:232
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:242
 #, kde-format
 msgid "new email"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:233
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:243
 #, kde-format
 msgid "new dns name"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:234
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:244
 #, kde-format
 msgid "new uri"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:337
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:347
 #, kde-format
 msgctxt "%2: some admin-supplied text, %1: key size in bits"
 msgid "%2 (1 bit)"
@@ -8730,7 +8749,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:338
+#: src/newcertificatewizard/advancedsettingsdialog.cpp:348
 #, kde-format
 msgctxt "%1: key size in bits"
 msgid "1 bit"
@@ -9939,70 +9958,70 @@ msgctxt "@info"
 msgid "<para>Cannot write in the output folder <filename>%1</filename>.</para><para>Please select a different output folder.</para>"
 msgstr ""
 
-#: src/utils/input.cpp:218
+#: src/utils/input.cpp:220
 #, kde-format
 msgid "Could not open FD %1 for reading"
 msgstr ""
 
-#: src/utils/input.cpp:247 src/utils/input.cpp:261
+#: src/utils/input.cpp:249 src/utils/input.cpp:263
 #, kde-format
 msgid "Could not open file \"%1\" for reading"
 msgstr ""
 
-#: src/utils/input.cpp:259
+#: src/utils/input.cpp:261
 #, kde-format
 msgid "File \"%1\" is already open, but not for reading"
 msgstr ""
 
-#: src/utils/input.cpp:306 src/utils/output.cpp:736
+#: src/utils/input.cpp:308 src/utils/output.cpp:736
 #, kde-format
 msgid "Command not specified"
 msgstr ""
 
-#: src/utils/input.cpp:313 src/utils/input.cpp:317 src/utils/output.cpp:741
+#: src/utils/input.cpp:315 src/utils/input.cpp:319 src/utils/output.cpp:741
 #, kde-format
 msgid "Could not start %1 process: %2"
 msgstr ""
 
-#: src/utils/input.cpp:322
+#: src/utils/input.cpp:324
 #, kde-format
 msgid "Failed to write input to %1 process: %2"
 msgstr ""
 
-#: src/utils/input.cpp:335
+#: src/utils/input.cpp:337
 #, kde-format
 msgctxt "e.g. \"Output of tar xf - file1 ...\""
 msgid "Output of %1 ..."
 msgstr ""
 
-#: src/utils/input.cpp:337
+#: src/utils/input.cpp:339
 #, kde-format
 msgctxt "e.g. \"Output of tar xf - file\""
 msgid "Output of %1"
 msgstr ""
 
-#: src/utils/input.cpp:355
+#: src/utils/input.cpp:357
 #, kde-format
 msgid "Error while running %1:\n"
 "%2"
 msgstr ""
 
-#: src/utils/input.cpp:395
+#: src/utils/input.cpp:397
 #, kde-format
 msgid "Could not open clipboard for reading"
 msgstr ""
 
-#: src/utils/input.cpp:407
+#: src/utils/input.cpp:409
 #, kde-format
 msgid "Clipboard contents"
 msgstr "Змесціва буфера"
 
-#: src/utils/input.cpp:409
+#: src/utils/input.cpp:411
 #, kde-format
 msgid "FindBuffer contents"
 msgstr ""
 
-#: src/utils/input.cpp:411
+#: src/utils/input.cpp:413
 #| msgid "Current Maintainer"
 msgid "Current selection"
 msgstr ""
