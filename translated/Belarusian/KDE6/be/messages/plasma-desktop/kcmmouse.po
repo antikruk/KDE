@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-01 00:42+0000\n"
-"PO-Revision-Date: 2025-02-25 19:17\n"
+"POT-Creation-Date: 2026-03-26 00:46+0000\n"
+"PO-Revision-Date: 2026-03-26 19:52\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -21,52 +21,47 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/plasma-desktop/kcmmouse.po\n"
 "X-Crowdin-File-ID: 19733\n"
 
-#: backends/kwin_wl/kwin_wl_backend.cpp:61
-#, kde-format
-msgid "Querying input devices failed. Please reopen this settings module."
-msgstr "Не ўдалося адправіць запыт да прылад уводу. Нанова адкрыйце гэты модуль налад."
-
-#: backends/kwin_wl/kwin_wl_backend.cpp:81
+#: backends/kwin_wl/kwin_wl_backend.cpp:44
 #, kde-format
 msgid "Critical error on reading fundamental device infos of %1."
 msgstr "Падчас чытання асноўных звестак %1 адбылася крытычная памылка."
 
-#: kcm.cpp:86
+#: kcm.cpp:87
 #, kde-format
 msgid "Not able to select appropriate backend"
 msgstr ""
 
-#: kcm.cpp:142
+#: kcm.cpp:143
 #, kde-format
 msgid "Error while loading values. See logs for more information. Please restart this configuration module."
 msgstr "Падчас загрузкі значэнняў адбылася памылка. Каб даведацца падрабязней, глядзіце журналы. Перазапусціце гэты модуль канфігурацыі."
 
-#: kcm.cpp:145
+#: kcm.cpp:146
 #, kde-format
 msgid "No pointer device found. Connect now."
 msgstr "Не знойдзена прылад для кіравання курсорам. Падлучыце такую прыладу."
 
-#: kcm.cpp:154
+#: kcm.cpp:155
 #, kde-format
 msgid "Not able to save all changes. See logs for more information. Please restart this configuration module and try again."
 msgstr "Немагчыма захаваць усе змены. Каб даведацца падрабязней, глядзіце журналы. Перазапусціце гэты модуль канфігурацыі і паспрабуйце зноў."
 
-#: kcm.cpp:172
+#: kcm.cpp:173
 #, kde-format
 msgid "Error while loading default values. Failed to set some options to their default values."
 msgstr "Падчас загрузкі прадвызначаных значэнняў адбылася памылка. Не ўдалося вызначыць прадвызначаныя значэнні для некаторых параметраў."
 
-#: kcm.cpp:187
+#: kcm.cpp:188
 #, kde-format
 msgid "Error while adding newly connected device. Please reconnect it and restart this configuration module."
 msgstr "Не ўдалося дадаць нядаўна падлучаную прыладу. Перападлучыце яе і перазапусціце гэты модуль канфігурацыі."
 
-#: kcm.cpp:200
+#: kcm.cpp:201
 #, kde-format
 msgid "Pointer device disconnected. Closed its setting dialog."
 msgstr "Прылада для кіравання курсорам адлучаная. Дыялогавае акно налад закрыта."
 
-#: kcm.cpp:202
+#: kcm.cpp:203
 #, kde-format
 msgid "Pointer device disconnected. No other devices found."
 msgstr "Прылада для кіравання курсорам адлучаная. Іншыя прылады не знойдзеныя."
@@ -77,37 +72,37 @@ msgctxt "@title"
 msgid "Extra Mouse Buttons"
 msgstr "Дадатковыя кнопкі мышы"
 
-#: ui/bindings.qml:70
+#: ui/bindings.qml:77
 #, kde-format
 msgctxt "@label for assigning an action to a numbered button"
 msgid "Extra Button %1:"
 msgstr "Дадатковая кнопка %1:"
 
-#: ui/bindings.qml:100
+#: ui/bindings.qml:106
 #, kde-format
 msgctxt "@action:button"
 msgid "Press the mouse button for which you want to add a key binding"
 msgstr "Націсніце кнопку мышы, якую хочаце прывязаць"
 
-#: ui/bindings.qml:102
+#: ui/bindings.qml:108
 #, kde-format
 msgctxt "@action:button, %1 is the translation of 'Extra Button %1' from above"
 msgid "Enter the new key combination for %1"
 msgstr "Увядзіце новае спалучэнне клавіш для %1"
 
-#: ui/bindings.qml:106
+#: ui/bindings.qml:112
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Скасаваць"
 
-#: ui/bindings.qml:124
+#: ui/bindings.qml:130
 #, kde-format
 msgctxt "@action:button"
 msgid "Press a mouse button"
 msgstr "Націсніце кнопку мышы"
 
-#: ui/bindings.qml:125
+#: ui/bindings.qml:131
 #, kde-format
 msgctxt "@action:button, Bind a mousebutton to keyboard key(s)"
 msgid "Add Binding…"
@@ -120,110 +115,129 @@ msgid "Configure Extra Buttons…"
 msgstr "Наладжванне дадатковых кнопак…"
 
 #: ui/main.qml:64
-#, kde-format
+#| msgid "Device:"
+msgctxt "@title:listbox select device"
 msgid "Device:"
 msgstr "Прылада:"
 
 #: ui/main.qml:87
-#, kde-format
+#| msgid "General:"
+msgctxt "@title:group"
 msgid "General:"
-msgstr "Асноўныя:"
+msgstr "Асноўны:"
 
 #: ui/main.qml:88
 #, kde-format
-msgid "Device enabled"
-msgstr "Прылада ўключаная"
+msgctxt "@option:check enable this mouse device"
+msgid "Enable device"
+msgstr "Уключыць прыладу"
 
-#: ui/main.qml:101
-#, kde-format
-msgid "Accept input through this device."
-msgstr "Ухваліць увод з дапамогай гэтай прылады."
+#: ui/main.qml:105
+#| msgid "Swap left and right buttons."
+msgctxt "@title:group"
+msgid "Left and right buttons:"
+msgstr ""
 
-#: ui/main.qml:107
-#, kde-format
-msgid "Left-handed mode"
-msgstr "Рэжым для ляўшэй"
+#: ui/main.qml:106
+#| msgid "Left-handed mode"
+msgctxt "@option:check Left and right buttons"
+msgid "Swap (left-handed mode)"
+msgstr ""
 
-#: ui/main.qml:119
-#, kde-format
-msgid "Swap left and right buttons."
-msgstr "Памяняць левую і правую кнопкі."
+#: ui/main.qml:121
+#| msgctxt "@info:tooltip"
+#| msgid ""
+#| "Pressing the left and right button simultaneously acts as middle-click."
+msgctxt "@option:check 'both' refers to the left and right buttons'"
+msgid "Press both simultaneously to middle-click"
+msgstr ""
 
-#: ui/main.qml:126
-#, kde-format
-msgctxt "@option:check"
-msgid "Press left and right buttons for middle-click"
-msgstr "Націсканне левай і правай кнопкі для імітацыі сярэдняй кнопкі"
-
-#: ui/main.qml:138
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Pressing the left and right button simultaneously acts as middle-click."
-msgstr "Адначасовае націсканне левай і правай кнопак дзейнічае як пстрыканне сярэдняй кнопкай."
-
-#: ui/main.qml:142
+#: ui/main.qml:133
 #, kde-format
 msgctxt "@info:tooltip from ContextualHelpButton"
 msgid "Activating this setting increases click latency by 50ms. The extra delay is needed to correctly detect simultaneous left and right button presses."
 msgstr "Калі актываваць гэтую наладу, то затрымліванне пстрыкання павялічыцца на 50 мс. Дадатковае затрымліванне патрэбна для правільнага вызначэння адначасовага націскання левай і правай кнопак."
 
-#: ui/main.qml:154
-#, kde-format
+#: ui/main.qml:148
+#| msgid "Pointer speed:"
+msgctxt "@label:slider and @label:spinbox"
 msgid "Pointer speed:"
 msgstr "Хуткасць паказальніка:"
 
-#: ui/main.qml:233
+#: ui/main.qml:227
 #| msgid "Pointer acceleration:"
+msgctxt "@option:check"
 msgid "Enable pointer acceleration"
 msgstr ""
 
-#: ui/main.qml:247
+#: ui/main.qml:241
 #| msgid "Cursor travel distance depends on the mouse movement speed."
-msgctxt "@info:tooltip from ContextualHelpButton"
+msgctxt "@info:whatsthis ContextualHelpButton tooltip"
 msgid "When enabled, pointer travel distance increases with faster movement speed."
 msgstr ""
 
-#: ui/main.qml:257
-#, kde-format
+#: ui/main.qml:254
+#| msgid "Scrolling speed:"
+msgctxt "@label:slider and @label:spinbox"
 msgid "Scrolling speed:"
 msgstr "Хуткасць пракручвання:"
 
-#: ui/main.qml:307
+#: ui/main.qml:304
 #, kde-format
 msgctxt "Slower Scroll"
 msgid "Slower"
 msgstr "Павольна"
 
-#: ui/main.qml:316
+#: ui/main.qml:313
 #, kde-format
 msgctxt "Faster Scroll Speed"
 msgid "Faster"
 msgstr "Хутка"
 
-#: ui/main.qml:324
-#, kde-format
+#: ui/main.qml:321
+#| msgid "Scrolling:"
+msgctxt "@title:group"
 msgid "Scrolling:"
 msgstr "Пракручванне:"
 
-#: ui/main.qml:325
-#, kde-format
+#: ui/main.qml:322
+#| msgid "Invert scroll direction"
+msgctxt "@option:check"
 msgid "Invert scroll direction"
 msgstr "Адваротны кірунак пракручвання"
 
-#: ui/main.qml:337
-#, kde-format
-msgid "Touchscreen-like scrolling."
-msgstr "Пракручванне на сэнсарным экране."
+#: ui/main.qml:339
+#| msgid "Press middle button and move mouse to scroll"
+msgctxt "@option:check"
+msgid "Hold down middle button and move mouse to scroll"
+msgstr ""
 
-#: ui/main.qml:342
+#: ui/main.qml:351
 #, kde-format
-msgid "Press middle button and move mouse to scroll"
-msgstr "Націсканне сярэдняй кнопкі і перамяшчэнне мышы для пракручвання"
+msgctxt "@info:whatsthis ContextualHelpButton tooltip"
+msgid "This will interfere with applications that use middle-button drag, such as some image editors, document viewers, or video games. It may be used on any device, but is intended primarily as a substitute for scroll wheels on devices that do not have any."
+msgstr ""
 
-#: ui/main.qml:354
-#, kde-format
-msgid "Scrolling with the mouse while the middle button is pressed."
-msgstr "Пракручванне з дапамогай мышы з націснутай сярэдняй кнопкай."
+#~ msgid "Querying input devices failed. Please reopen this settings module."
+#~ msgstr ""
+#~ "Не ўдалося адправіць запыт да прылад уводу. Нанова адкрыйце гэты модуль "
+#~ "налад."
+
+#~ msgid "Device enabled"
+#~ msgstr "Прылада ўключаная"
+
+#~ msgctxt "@option:check"
+#~ msgid "Press left and right buttons for middle-click"
+#~ msgstr "Націсканне левай і правай кнопкі для імітацыі сярэдняй кнопкі"
+
+#~ msgid "Accept input through this device."
+#~ msgstr "Ухваліць увод з дапамогай гэтай прылады."
+
+#~ msgid "Touchscreen-like scrolling."
+#~ msgstr "Пракручванне на сэнсарным экране."
+
+#~ msgid "Scrolling with the mouse while the middle button is pressed."
+#~ msgstr "Пракручванне з дапамогай мышы з націснутай сярэдняй кнопкай."
 
 #~ msgid "None"
 #~ msgstr "Няма"
