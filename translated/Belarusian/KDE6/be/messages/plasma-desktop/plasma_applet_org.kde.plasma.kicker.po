@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-15 00:40+0000\n"
-"PO-Revision-Date: 2025-01-07 21:24\n"
+"POT-Creation-Date: 2026-03-20 00:45+0000\n"
+"PO-Revision-Date: 2026-03-26 19:52\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,175 +19,237 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/plasma-desktop/plasma_applet_org.kde.plasma.kicker.po\n"
 "X-Crowdin-File-ID: 19755\n"
 
-#: package/contents/config/config.qml:13
-#, kde-format
-msgid "General"
-msgstr "Асноўныя"
-
-#: package/contents/ui/code/tools.js:43
+#: code/tools.js:53
 #, kde-format
 msgid "Remove from Favorites"
 msgstr "Выдаліць з улюбёнага"
 
-#: package/contents/ui/code/tools.js:47
+#: code/tools.js:57
 #, kde-format
 msgid "Add to Favorites"
 msgstr "Дадаць ва ўлюбёнае"
 
-#: package/contents/ui/code/tools.js:73
+#: code/tools.js:83
 #, kde-format
 msgid "On All Activities"
 msgstr "Ва ўсіх пакоях"
 
-#: package/contents/ui/code/tools.js:123
+#: code/tools.js:133
 #, kde-format
 msgid "On the Current Activity"
 msgstr "У бягучым пакоі"
 
-#: package/contents/ui/code/tools.js:137
+#: code/tools.js:147
 #, kde-format
 msgid "Show in Favorites"
 msgstr "Паказваць ва ўлюбёных"
 
-#: package/contents/ui/ConfigGeneral.qml:46
-#, kde-format
+#: config.qml:13
+#| msgid "General"
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Асноўныя налады"
+
+#: ConfigGeneral.qml:48
+#| msgid "Icon:"
+msgctxt "@label prefix for icon-only button"
 msgid "Icon:"
 msgstr "Значок:"
 
-#: package/contents/ui/ConfigGeneral.qml:129
+#: ConfigGeneral.qml:133
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose…"
 msgstr "Абраць…"
 
-#: package/contents/ui/ConfigGeneral.qml:134
+#: ConfigGeneral.qml:138
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "Прыбраць значок"
 
-#: package/contents/ui/ConfigGeneral.qml:152
-#, kde-format
+#: ConfigGeneral.qml:159
+#| msgid "Show applications as:"
+msgctxt "@label:listbox"
 msgid "Show applications as:"
 msgstr "Спосаб паказу праграм:"
 
-#: package/contents/ui/ConfigGeneral.qml:154
-#, kde-format
+#: ConfigGeneral.qml:161
+#| msgid "Name only"
+msgctxt "@item:inlistbox"
 msgid "Name only"
 msgstr "Толькі назва"
 
-#: package/contents/ui/ConfigGeneral.qml:154
-#, kde-format
+#: ConfigGeneral.qml:161
+#| msgid "Description only"
+msgctxt "@item:inlistbox"
 msgid "Description only"
 msgstr "Толькі апісанне"
 
-#: package/contents/ui/ConfigGeneral.qml:154
-#, kde-format
+#: ConfigGeneral.qml:162
+#| msgid "Name (Description)"
+msgctxt "@item:inlistbox"
 msgid "Name (Description)"
 msgstr "Назва (Апісанне)"
 
-#: package/contents/ui/ConfigGeneral.qml:154
-#, kde-format
+#: ConfigGeneral.qml:162
+#| msgid "Description (Name)"
+msgctxt "@item:inlistbox"
 msgid "Description (Name)"
 msgstr "Апісанне (Назва)"
 
-#: package/contents/ui/ConfigGeneral.qml:164
-#, kde-format
+#: ConfigGeneral.qml:172
+#| msgid "Behavior:"
+msgctxt "@title:group prefix for checkbox group"
 msgid "Behavior:"
 msgstr "Паводзіны:"
 
-#: package/contents/ui/ConfigGeneral.qml:166
-#, kde-format
+#: ConfigGeneral.qml:174
+#| msgid "Sort applications alphabetically"
+msgctxt "@option:check"
 msgid "Sort applications alphabetically"
 msgstr "Сартаваць праграмы па алфавіце"
 
-#: package/contents/ui/ConfigGeneral.qml:174
-#, kde-format
+#: ConfigGeneral.qml:182
+#| msgid "Flatten sub-menus to a single level"
+msgctxt "@option:check"
 msgid "Flatten sub-menus to a single level"
 msgstr "Прывесці падменю да аднаго ўзроўню"
 
-#: package/contents/ui/ConfigGeneral.qml:182
-#, kde-format
+#: ConfigGeneral.qml:190
+#| msgid "Show icons on the root level of the menu"
+msgctxt "@option:check"
 msgid "Show icons on the root level of the menu"
 msgstr "Паказваць значкі на каранёвым узроўні меню"
 
-#: package/contents/ui/ConfigGeneral.qml:192
-#, kde-format
+#: ConfigGeneral.qml:200
+#| msgid "Show categories:"
+msgctxt "@title:group prefix for checkbox group"
 msgid "Show categories:"
 msgstr "Паказваць катэгорыі:"
 
-#: package/contents/ui/ConfigGeneral.qml:195
-#, kde-format
+#: ConfigGeneral.qml:203
+#| msgid "Recent applications"
+msgctxt "@option:check"
 msgid "Recent applications"
 msgstr "Нядаўнія праграмы"
 
-#: package/contents/ui/ConfigGeneral.qml:196
-#, kde-format
+#: ConfigGeneral.qml:204
+#| msgid "Often used applications"
+msgctxt "@option:check"
 msgid "Often used applications"
 msgstr "Праграмы, якія часта выкарыстоўваюцца"
 
-#: package/contents/ui/ConfigGeneral.qml:203
-#, kde-format
+#: ConfigGeneral.qml:211
+#| msgid "Recent files"
+msgctxt "@option:check"
 msgid "Recent files"
 msgstr "Нядаўнія файлы"
 
-#: package/contents/ui/ConfigGeneral.qml:204
-#, kde-format
+#: ConfigGeneral.qml:212
+#| msgid "Often used files"
+msgctxt "@option:check"
 msgid "Often used files"
 msgstr "Файлы, якія часта выкарыстоўваюцца"
 
-#: package/contents/ui/ConfigGeneral.qml:210
-#, kde-format
+#: ConfigGeneral.qml:218
+#| msgid "Sort items in categories by:"
+msgctxt "@label:listbox"
 msgid "Sort items in categories by:"
 msgstr "Сартаванне элементаў па катэгорыях:"
 
-#: package/contents/ui/ConfigGeneral.qml:211
+#: ConfigGeneral.qml:219
 #, kde-format
 msgctxt "@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Recently used"
 msgstr "Нядаўна выкарыстаныя"
 
-#: package/contents/ui/ConfigGeneral.qml:211
-#, kde-format
-msgctxt "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+#: ConfigGeneral.qml:219
+#| msgctxt ""
+#| "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+#| msgid "Often used"
+msgctxt "@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Often used"
 msgstr "Часта выкарыстоўваюцца"
 
-#: package/contents/ui/ConfigGeneral.qml:221
-#, kde-format
+#: ConfigGeneral.qml:229
+#| msgid "Search:"
+msgctxt "@title:group prefix for checkbox group"
 msgid "Search:"
 msgstr "Пошук:"
 
-#: package/contents/ui/ConfigGeneral.qml:223
-#, kde-format
+#: ConfigGeneral.qml:231
+#| msgid "Expand search to bookmarks, files and emails"
+msgctxt "@option:check"
 msgid "Expand search to bookmarks, files and emails"
 msgstr "Пашырыць пошук да закладак, файлаў і лістоў"
 
-#: package/contents/ui/ConfigGeneral.qml:231
-#, kde-format
+#: ConfigGeneral.qml:239
+#| msgid "Align search results to bottom"
+msgctxt "@option:check"
 msgid "Align search results to bottom"
 msgstr "Выраўноўваць вынікі пошуку па нізе"
 
-#: package/contents/ui/DashboardRepresentation.qml:227
+#: ConfigGeneral.qml:244
 #, kde-format
-msgid "Searching for '%1'"
-msgstr "Пошук \"%1\""
+msgctxt "@label prefix for a checkbox toggling Dark Mode"
+msgid "Appearance:"
+msgstr "Выгляд:"
 
-#: package/contents/ui/DashboardRepresentation.qml:227
+#: ConfigGeneral.qml:249
 #, kde-format
-msgctxt "@info:placeholder as in, 'start typing to initiate a search'"
-msgid "Type to search…"
-msgstr "Увядзіце для пошуку…"
+msgctxt "@option:check"
+msgid "Prefer Dark Mode when available"
+msgstr ""
 
-#: package/contents/ui/DashboardRepresentation.qml:323
-#, kde-format
+#: ConfigGeneral.qml:253
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "This feature uses the complementary colors from your colorscheme, which usually feature a dark background."
+msgstr ""
+
+#: DashboardRepresentation.qml:373
+#| msgid "Favorites"
+msgctxt "@title:group for column with app and system action grids"
 msgid "Favorites"
 msgstr "Улюбёнае"
 
-#: package/contents/ui/main.qml:247
+#: ItemListDelegate.qml:31
 #, kde-format
+msgctxt "@action:inmenu accessible description for opening submenu"
+msgid "Open category"
+msgstr ""
+
+#: ItemListDelegate.qml:32
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening app or file"
+msgid "Launch"
+msgstr "Запусціць"
+
+#: main.qml:212
+#| msgid "Edit Applications…"
+msgctxt "@action:inmenu launches kmenuedit"
 msgid "Edit Applications…"
 msgstr "Рэдагаваць праграмы…"
+
+#: MenuRepresentation.qml:176
+#| msgid "Favorites"
+msgctxt "@title:group accessible name for favorite group in sidebar"
+msgid "Favorites"
+msgstr "Улюбёнае"
+
+#: MenuRepresentation.qml:354
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Няма супадзенняў"
+
+#~ msgid "Searching for '%1'"
+#~ msgstr "Пошук \"%1\""
+
+#~ msgctxt "@info:placeholder as in, 'start typing to initiate a search'"
+#~ msgid "Type to search…"
+#~ msgstr "Увядзіце для пошуку…"
 
 #~ msgid "Widgets"
 #~ msgstr "Віджэты"
