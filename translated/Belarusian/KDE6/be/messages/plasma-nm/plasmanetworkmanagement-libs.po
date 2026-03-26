@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-15 00:44+0000\n"
-"PO-Revision-Date: 2025-02-25 19:18\n"
+"POT-Creation-Date: 2026-03-24 00:45+0000\n"
+"PO-Revision-Date: 2026-03-26 19:52\n"
 "Last-Translator: Antikruk <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,112 +19,785 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/plasma-nm/plasmanetworkmanagement-libs.po\n"
 "X-Crowdin-File-ID: 19793\n"
 
-#: editor/connectioneditorbase.cpp:203
+#: cellular/cellularmodem.cpp:148
+#, kde-format
+msgid "Error resetting the modem: %1"
+msgstr ""
+
+#: cellular/cellularmodem.cpp:364
+#| msgctxt "network interface disconnecting state label"
+#| msgid "Deactivating connection"
+msgid "Error activating connection: %1"
+msgstr ""
+
+#: cellular/cellularmodem.cpp:402
+#| msgid "Failed to add connection %1"
+msgid "Error adding connection: %1"
+msgstr ""
+
+#: cellular/cellularmodem.cpp:419
+#| msgctxt "network interface disconnecting state label"
+#| msgid "Deactivating connection"
+msgid "Error removing connection: %1"
+msgstr ""
+
+#: cellular/cellularmodem.cpp:456
+#, kde-format
+msgid "Error updating connection settings for %1: %2."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:111 cellular/cellularmodemdetails.cpp:213
+#: cellular/cellularmodemdetails.cpp:245 cellular/cellularmodemdetails.cpp:433
+#: cellular/cellularmodemdetails.cpp:465
+#| msgctxt "description of unknown network interface state"
+#| msgid "Unknown"
+msgid "Unknown"
+msgstr "Невядома"
+
+#: cellular/cellularmodemdetails.cpp:114 cellular/cellularmodemdetails.cpp:468
+#, kde-format
+msgid "POTS"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:117 editor/connectioneditorbase.cpp:262
+#, kde-format
+msgid "GSM"
+msgstr "GSM"
+
+#: cellular/cellularmodemdetails.cpp:120
+#| msgctxt "Cellular access technology"
+#| msgid "Compact GSM"
+msgid "GSM Compact"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:123
+#| msgctxt "Cellular access technology"
+#| msgid "GPRS"
+msgid "GPRS"
+msgstr "GPRS"
+
+#: cellular/cellularmodemdetails.cpp:126
+#| msgctxt "Cellular access technology"
+#| msgid "EDGE"
+msgid "EDGE"
+msgstr "EDGE"
+
+#: cellular/cellularmodemdetails.cpp:129
+#| msgctxt "Cellular access technology"
+#| msgid "UMTS"
+msgid "UMTS"
+msgstr "UMTS"
+
+#: cellular/cellularmodemdetails.cpp:132
+#| msgctxt "Cellular access technology"
+#| msgid "HSDPA"
+msgid "HSDPA"
+msgstr "HSDPA"
+
+#: cellular/cellularmodemdetails.cpp:135
+#| msgctxt "Cellular access technology"
+#| msgid "HSUPA"
+msgid "HSUPA"
+msgstr "HSUPA"
+
+#: cellular/cellularmodemdetails.cpp:138
+#| msgctxt "Cellular access technology"
+#| msgid "HSPA"
+msgid "HSPA"
+msgstr "HSPA"
+
+#: cellular/cellularmodemdetails.cpp:141
+#| msgctxt "Cellular access technology"
+#| msgid "HSPA+"
+msgid "HSPA+"
+msgstr "HSPA+"
+
+#: cellular/cellularmodemdetails.cpp:144
+#| msgctxt "Cellular access technology"
+#| msgid "CDMA2000 1xRTT"
+msgid "CDMA2000 1xRTT"
+msgstr "CDMA2000 1xRTT"
+
+#: cellular/cellularmodemdetails.cpp:147
+#| msgctxt "Cellular access technology"
+#| msgid "CDMA2000 EVDO revision 0"
+msgid "CDMA2000 EVDO-0"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:150
+#| msgctxt "Cellular access technology"
+#| msgid "CDMA2000 EVDO revision A"
+msgid "CDMA2000 EVDO-A"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:153
+#| msgctxt "Cellular access technology"
+#| msgid "CDMA2000 EVDO revision B"
+msgid "CDMA2000 EVDO-B"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:156
+#| msgctxt "Gsm modes (2G/3G/any)"
+#| msgid "LTE"
+msgid "LTE"
+msgstr "LTE"
+
+#: cellular/cellularmodemdetails.cpp:159
+#, kde-format
+msgid "5GNR"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:215
+#, kde-format
+msgid "Off"
+msgstr "Выключана"
+
+#: cellular/cellularmodemdetails.cpp:217
+#, kde-format
+msgid "Low-power mode"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:219
+#, kde-format
+msgid "Full power mode"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:243
+#| msgctxt "The VPN connection failed"
+#| msgid "Failed"
+msgid "Failed"
+msgstr "Не атрымалася"
+
+#: cellular/cellularmodemdetails.cpp:247
+#, kde-format
+msgid "Initializing"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:249
+#, kde-format
+msgid "Locked"
+msgstr "Заблакавана"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
+#: cellular/cellularmodemdetails.cpp:251 editor/settings/ui/ipv6.ui:264
+#, kde-format
+msgid "Disabled"
+msgstr "Адключана"
+
+#: cellular/cellularmodemdetails.cpp:253
+#| msgid "Disabled"
+msgid "Disabling"
+msgstr "Адключэнне"
+
+#: cellular/cellularmodemdetails.cpp:255
+#, kde-format
+msgid "Enabling"
+msgstr "Уключэнне"
+
+#: cellular/cellularmodemdetails.cpp:257
+#| msgid "Disabled"
+msgid "Enabled"
+msgstr "Уключана"
+
+#: cellular/cellularmodemdetails.cpp:259
+#| msgctxt "network interface doing dhcp request in most cases"
+#| msgid "Setting network address"
+msgid "Searching for network provider"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:261
+#| msgid "Restrict to device:"
+msgid "Registered with network provider"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:263
+#| msgctxt "Network connections are being cleaned up"
+#| msgid "Disconnecting"
+msgid "Disconnecting"
+msgstr "Адлучэнне"
+
+#: cellular/cellularmodemdetails.cpp:265
+#| msgctxt "The VPN connection is being established"
+#| msgid "Connecting"
+msgid "Connecting"
+msgstr "Злучэнне"
+
+#: cellular/cellularmodemdetails.cpp:267
+#| msgctxt "infiniband transport mode"
+#| msgid "Connected"
+msgid "Connected"
+msgstr "Злучана"
+
+#: cellular/cellularmodemdetails.cpp:276
+#, kde-format
+msgid "No error."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:278
+#| msgctxt "Mobile Connection Wizard"
+#| msgid "Unknown Provider"
+msgid "Unknown error."
+msgstr "Невядомая памылка."
+
+#: cellular/cellularmodemdetails.cpp:280
+#, kde-format
+msgid "SIM is required but missing."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:282
+#, kde-format
+msgid "SIM is available but unusable."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:284
+#, kde-format
+msgid "Unknown modem capabilities."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:286
+#, kde-format
+msgid "eSIM is not initialized."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:312
+#, kde-format
+msgid "Not registered, not searching for new operator to register."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:314
+#, kde-format
+msgid "Registered on home network."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:316
+#, kde-format
+msgid "Not registered, searching for new operator to register with."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:318
+#, kde-format
+msgid "Registration denied."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:320
+#, kde-format
+msgid "Unknown registration status."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:322
+#, kde-format
+msgid "Registered on a roaming network."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:324
+#, kde-format
+msgid "Registered for \"SMS only\", on home network."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:326
+#, kde-format
+msgid "Registered for \"SMS only\", roaming network."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:328
+#, kde-format
+msgid "Emergency services only."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:330
+#, kde-format
+msgid "Registered for \"CSFB not preferred\", home network."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:332
+#, kde-format
+msgid "Registered for \"CSFB not preferred\", roaming network."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:334
+#, kde-format
+msgid "Attached for access to Restricted Local Operator Services."
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:374
+#, kde-format
+msgid "Scanning networks failed: %1"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, metered)
+#: cellular/cellularmodemdetails.cpp:435
+#: editor/settings/ui/connectionwidget.ui:169
+#, kde-format
+msgid "Yes"
+msgstr "Так"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, metered)
+#: cellular/cellularmodemdetails.cpp:437
+#: editor/settings/ui/connectionwidget.ui:174
+#, kde-format
+msgid "No"
+msgstr "Не"
+
+#: cellular/cellularmodemdetails.cpp:439
+#, kde-format
+msgid "GuessYes"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:441
+#, kde-format
+msgid "GuessNo"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:474
+#| msgid "2"
+msgid "2G"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:485
+#| msgid "3"
+msgid "3G"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:490
+#| msgid "4"
+msgid "4G"
+msgstr "4G"
+
+#: cellular/cellularmodemdetails.cpp:493
+#, kde-format
+msgid "5G"
+msgstr ""
+
+#: cellular/cellularmodemdetails.cpp:496
+#| msgctxt "Gsm modes (2G/3G/any)"
+#| msgid "Any"
+msgid "Any"
+msgstr "Любы"
+
+#: cellular/cellularsim.cpp:83
+#| msgctxt "possible SIM lock reason"
+#| msgid "Lock reason unknown."
+msgid "Lock reason unknown."
+msgstr "Прычына блакавання невядомая."
+
+#: cellular/cellularsim.cpp:85
+#| msgctxt "possible SIM lock reason"
+#| msgid "Modem is unlocked."
+msgid "Modem is unlocked."
+msgstr "Мадэм разблакаваны."
+
+#: cellular/cellularsim.cpp:87
+#| msgctxt "possible SIM lock reason"
+#| msgid "SIM requires the PIN code."
+msgid "SIM requires the PIN code."
+msgstr "Для SIM-карткі патрэбны PIN-код."
+
+#: cellular/cellularsim.cpp:89
+#| msgctxt "possible SIM lock reason"
+#| msgid "SIM requires the PIN2 code."
+msgid "SIM requires the PIN2 code."
+msgstr "Для SIM-карткі патрэбны код PIN2."
+
+#: cellular/cellularsim.cpp:91
+#| msgctxt "possible SIM lock reason"
+#| msgid "SIM requires the PUK code."
+msgid "SIM requires the PUK code."
+msgstr "Для SIM-карткі патрэбны PUK-код."
+
+#: cellular/cellularsim.cpp:93
+#| msgctxt "possible SIM lock reason"
+#| msgid "SIM requires the PUK2 code."
+msgid "SIM requires the PUK2 code."
+msgstr "Для SIM-карткі патрэбны код PUK2."
+
+#: cellular/cellularsim.cpp:95
+#| msgctxt "possible SIM lock reason"
+#| msgid "Modem requires the service provider PIN code."
+msgid "Modem requires the service provider PIN code."
+msgstr "Для мадэма патрэбны PIN-код пастаўшчыка паслуг."
+
+#: cellular/cellularsim.cpp:97
+#| msgctxt "possible SIM lock reason"
+#| msgid "Modem requires the service provider PUK code."
+msgid "Modem requires the service provider PUK code."
+msgstr "Для мадэма патрэбны PUK-код пастаўшчыка паслуг."
+
+#: cellular/cellularsim.cpp:99
+#| msgctxt "possible SIM lock reason"
+#| msgid "Modem requires the network PIN code."
+msgid "Modem requires the network PIN code."
+msgstr "Для мадэма патрэбны PIN-код сеткі."
+
+#: cellular/cellularsim.cpp:101
+#| msgctxt "possible SIM lock reason"
+#| msgid "Modem requires the network PUK code."
+msgid "Modem requires the network PUK code."
+msgstr "Для мадэма патрэбны PUK-код сеткі."
+
+#: cellular/cellularsim.cpp:103
+#| msgctxt "possible SIM lock reason"
+#| msgid "Modem requires the PIN code."
+msgid "Modem requires the PIN code."
+msgstr "Для мадэма патрэбны PIN-код."
+
+#: cellular/cellularsim.cpp:105
+#| msgctxt "possible SIM lock reason"
+#| msgid "Modem requires the corporate PIN code."
+msgid "Modem requires the corporate PIN code."
+msgstr "Для мадэма патрэбны карпаратыўны PIN-код."
+
+#: cellular/cellularsim.cpp:107
+#| msgctxt "possible SIM lock reason"
+#| msgid "Modem requires the corporate PUK code."
+msgid "Modem requires the corporate PUK code."
+msgstr "Для мадэма патрэбны карпаратыўны PUK-код."
+
+#: cellular/cellularsim.cpp:109
+#| msgctxt "possible SIM lock reason"
+#| msgid "Modem requires the PH-FSIM PIN code."
+msgid "Modem requires the PH-FSIM PIN code."
+msgstr "Для мадэма патрэбны PIN-код PH-FSIM."
+
+#: cellular/cellularsim.cpp:111
+#| msgctxt "possible SIM lock reason"
+#| msgid "Modem requires the PH-FSIM PUK code."
+msgid "Modem requires the PH-FSIM PUK code."
+msgstr "Для мадэма патрэбны PUK-код PH-FSIM."
+
+#: cellular/cellularsim.cpp:113
+#| msgctxt "possible SIM lock reason"
+#| msgid "Modem requires the network subset PIN code."
+msgid "Modem requires the network subset PIN code."
+msgstr "Для мадэма патрэбны PIN-код падмноства сеткі."
+
+#: cellular/cellularsim.cpp:115
+#| msgctxt "possible SIM lock reason"
+#| msgid "Modem requires the network subset PUK code."
+msgid "Modem requires the network subset PUK code."
+msgstr "Для мадэма патрэбны PUK-код падмноства сеткі."
+
+#: cellular/cellularsim.cpp:158
+#, kde-format
+msgid "(empty)"
+msgstr "(пуста)"
+
+#: cellular/cellularsim.cpp:172
+#, kde-format
+msgid "Error toggling SIM lock: %1"
+msgstr ""
+
+#: cellular/cellularsim.cpp:181
+#, kde-format
+msgid "Error changing the PIN: %1"
+msgstr ""
+
+#: cellular/cellularsim.cpp:194
+#, kde-format
+msgid "Error sending the PIN: %1"
+msgstr ""
+
+#: cellular/cellularsim.cpp:207
+#, kde-format
+msgid "Error sending the PUK: %1"
+msgstr ""
+
+#: editor/connectiondetails.cpp:92
+#, kde-format
+msgid "Connection speed"
+msgstr "Хуткасць злучэння"
+
+#: editor/connectiondetails.cpp:94 editor/connectiondetails.cpp:169
+#: editor/connectiondetails.cpp:247 editor/connectiondetails.cpp:257
+#: editor/connectiondetails.cpp:267 editor/connectiondetails.cpp:277
+#: editor/connectiondetails.cpp:288 editor/connectiondetails.cpp:302
+#, kde-format
+msgid "MAC Address"
+msgstr "MAC-адрас"
+
+#: editor/connectiondetails.cpp:97 editor/settings/bondwidget.cpp:36
+#: editor/settings/bridgewidget.cpp:33 editor/settings/teamwidget.cpp:36
+#, kde-format
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: editor/connectiondetails.cpp:132
+#, kde-format
+msgid "Access Point (SSID)"
+msgstr "Пункт доступу (SSID)"
+
+#: editor/connectiondetails.cpp:136
+#, kde-format
+msgid "Signal Strength"
+msgstr "Магутнасць сігналу"
+
+#: editor/connectiondetails.cpp:136
+#| msgctxt "WiFi signal strength percentage indicator"
+#| msgid "%1%"
+msgctxt "Wi-Fi signal strength percentage indicator"
+msgid "%1%"
+msgstr "%1%"
+
+#: editor/connectiondetails.cpp:141 editor/connectiondetails.cpp:151
+#, kde-format
+msgid "Security Type"
+msgstr "Тып бяспекі"
+
+#: editor/connectiondetails.cpp:156
+#, kde-format
+msgid "Connection Speed"
+msgstr "Хуткасць злучэння"
+
+#: editor/connectiondetails.cpp:163 editor/connectiondetails.cpp:165
+#, kde-format
+msgid "Frequency"
+msgstr "Частата"
+
+#: editor/connectiondetails.cpp:163
+#, kde-format
+msgctxt "Frequency (Channel)"
+msgid "%1 (Channel %2)"
+msgstr "%1 (канал %2)"
+
+#: editor/connectiondetails.cpp:167
+#, kde-format
+msgid "BSSID"
+msgstr "BSSID"
+
+#: editor/connectiondetails.cpp:172 editor/connectioneditorbase.cpp:242
+#: editor/settings/bridgewidget.cpp:39 editor/settings/teamwidget.cpp:42
+#: editor/uiutils.cpp:226 models/creatableconnectionsmodel.cpp:173
+#, kde-format
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: editor/connectiondetails.cpp:187
+#, kde-format
+msgid "Operator"
+msgstr "Аператар"
+
+#: editor/connectiondetails.cpp:192
+#, kde-format
+msgid "Network ID"
+msgstr "Ідэнтыфікатар сеткі"
+
+#: editor/connectiondetails.cpp:196
+#, kde-format
+msgid "Signal Quality"
+msgstr "Якасць сігналу"
+
+#: editor/connectiondetails.cpp:197
+#, kde-format
+msgid "Access Technology"
+msgstr "Тэхналогія доступу"
+
+#: editor/connectiondetails.cpp:203 models/creatableconnectionsmodel.cpp:149
+#, kde-format
+msgid "Mobile Broadband"
+msgstr "Мабільны шырокапалосны"
+
+#: editor/connectiondetails.cpp:214 editor/connectiondetails.cpp:235
+#, kde-format
+msgid "VPN Plugin"
+msgstr "Убудова VPN"
+
+#: editor/connectiondetails.cpp:225
+#, kde-format
+msgid "Banner"
+msgstr "Банер"
+
+#: editor/connectiondetails.cpp:229 editor/connectiondetails.cpp:236
+#: editor/uiutils.cpp:218 networkstatus.cpp:190
+#, kde-format
+msgid "VPN"
+msgstr "VPN"
+
+#: editor/connectiondetails.cpp:235 models/creatableconnectionsmodel.cpp:254
+#: models/creatableconnectionsmodel.cpp:256 networkstatus.cpp:212
+#, kde-format
+msgid "WireGuard"
+msgstr "WireGuard"
+
+#: editor/connectiondetails.cpp:241
+#, kde-format
+msgid "Name"
+msgstr "Назва"
+
+#: editor/connectiondetails.cpp:243 editor/connectiondetails.cpp:245
+#, kde-format
+msgid "Capabilities"
+msgstr "Магчымасці"
+
+#: editor/connectiondetails.cpp:250 editor/connectioneditorbase.cpp:257
+#: editor/uiutils.cpp:194
+#, kde-format
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: editor/connectiondetails.cpp:255 editor/connectiondetails.cpp:265
+#: editor/connectiondetails.cpp:275 editor/connectiondetails.cpp:285
+#: editor/connectiondetails.cpp:295 editor/connectiondetails.cpp:300
+#, kde-format
+msgid "Type"
+msgstr "Тып"
+
+#: editor/connectiondetails.cpp:255 editor/connectiondetails.cpp:260
+#: editor/connectioneditorbase.cpp:268 editor/settings/teamwidget.cpp:39
+#: editor/uiutils.cpp:209 models/creatableconnectionsmodel.cpp:142
+#, kde-format
+msgid "Infiniband"
+msgstr "Infiniband"
+
+#: editor/connectiondetails.cpp:265 editor/connectiondetails.cpp:270
+#: editor/connectioneditorbase.cpp:271 editor/uiutils.cpp:198
+#: models/creatableconnectionsmodel.cpp:190
+#, kde-format
+msgid "Bond"
+msgstr "Bond"
+
+#: editor/connectiondetails.cpp:275 editor/connectiondetails.cpp:280
+#: editor/connectioneditorbase.cpp:274 editor/uiutils.cpp:201
+#: models/creatableconnectionsmodel.cpp:200
+#, kde-format
+msgid "Bridge"
+msgstr "Мост"
+
+#: editor/connectiondetails.cpp:285 editor/connectiondetails.cpp:291
+#: editor/connectioneditorbase.cpp:277 models/creatableconnectionsmodel.cpp:220
+#, kde-format
+msgid "Vlan"
+msgstr "Vlan"
+
+#: editor/connectiondetails.cpp:287
+#, kde-format
+msgid "Vlan ID"
+msgstr "Vlan ID"
+
+#: editor/connectiondetails.cpp:295 editor/connectiondetails.cpp:296
+#, kde-format
+msgid "Adsl"
+msgstr "Adsl"
+
+#: editor/connectiondetails.cpp:300 editor/connectiondetails.cpp:305
+#: editor/connectioneditorbase.cpp:280 editor/uiutils.cpp:230
+#: models/creatableconnectionsmodel.cpp:210
+#, kde-format
+msgid "Team"
+msgstr "Каманда"
+
+#: editor/connectiondetails.cpp:311 editor/connectiondetails.cpp:315
+#, kde-format
+msgid "Device"
+msgstr "Прылада"
+
+#: editor/connectiondetails.cpp:316
+#, kde-format
+msgid "General"
+msgstr "Асноўныя налады"
+
+#: editor/connectiondetails.cpp:325
+#, kde-format
+msgid "IPv4 Address"
+msgstr "Адрас IPv4"
+
+#: editor/connectiondetails.cpp:331
+#, kde-format
+msgid "IPv4 Default Gateway"
+msgstr "Прадвызначаны шлюз IPv4"
+
+#: editor/connectiondetails.cpp:338
+#, kde-format
+msgid "IPv4 Primary Nameserver"
+msgstr "Першасная назва сервера IPv4"
+
+#: editor/connectiondetails.cpp:342
+#, kde-format
+msgid "IPv4 Secondary Nameserver"
+msgstr "Другасная назва сервера IPv4"
+
+#: editor/connectiondetails.cpp:347 editor/connectioneditorbase.cpp:313
+#, kde-format
+msgid "IPv4"
+msgstr "IPv4"
+
+#: editor/connectiondetails.cpp:357
+#, kde-format
+msgid "IPv6 Address"
+msgstr "Адрас IPv6"
+
+#: editor/connectiondetails.cpp:359
+#, kde-format
+msgid "IPv6 ULA Address"
+msgstr "ULA-адрас IPv6"
+
+#: editor/connectiondetails.cpp:365
+#, kde-format
+msgid "IPv6 Default Gateway"
+msgstr "Прадвызначаны шлюз IPv6"
+
+#: editor/connectiondetails.cpp:372
+#, kde-format
+msgid "IPv6 Primary Nameserver"
+msgstr "Першасная назва сервера IPv6"
+
+#: editor/connectiondetails.cpp:376
+#, kde-format
+msgid "IPv6 Secondary Nameserver"
+msgstr "Другасная назва сервера IPv6"
+
+#: editor/connectiondetails.cpp:381 editor/connectioneditorbase.cpp:331
+#, kde-format
+msgid "IPv6"
+msgstr "IPv6"
+
+#: editor/connectioneditorbase.cpp:209
+#, kde-format
+msgctxt "@title:tab Connection status and details"
+msgid "Status"
+msgstr "Статус"
+
+#: editor/connectioneditorbase.cpp:215
 #, kde-format
 msgctxt "@title:tab General configuration"
 msgid "General"
 msgstr "Асноўныя налады"
 
-#: editor/connectioneditorbase.cpp:210 editor/connectioneditorbase.cpp:227
+#: editor/connectioneditorbase.cpp:222 editor/connectioneditorbase.cpp:248
 #, kde-format
 msgid "Wired"
 msgstr "Правадны"
 
-#: editor/connectioneditorbase.cpp:213
+#: editor/connectioneditorbase.cpp:225
 #, kde-format
 msgid "802.1x Security"
 msgstr "Бяспека 802.1x"
 
-#: editor/connectioneditorbase.cpp:216 editor/settings/bridgewidget.cpp:39
-#: editor/settings/teamwidget.cpp:42 editor/uiutils.cpp:226
-#: models/creatableconnectionsmodel.cpp:173
-#, kde-format
-msgid "Wi-Fi"
-msgstr "Wi-Fi"
-
-#: editor/connectioneditorbase.cpp:220
-#, kde-format
-msgid "Wi-Fi Security"
-msgstr "Бяспека Wi-Fi"
-
-#: editor/connectioneditorbase.cpp:225 editor/uiutils.cpp:190
+#: editor/connectioneditorbase.cpp:246 editor/uiutils.cpp:190
 #: models/creatableconnectionsmodel.cpp:135
 #, kde-format
 msgid "DSL"
 msgstr "DSL"
 
-#: editor/connectioneditorbase.cpp:230 editor/connectioneditorbase.cpp:233
+#: editor/connectioneditorbase.cpp:251 editor/connectioneditorbase.cpp:254
 #, kde-format
 msgid "Mobile Broadband (%1)"
 msgstr "Мабільная шырокапалосная сувязь (%1)"
 
-#: editor/connectioneditorbase.cpp:236 editor/uiutils.cpp:194
-#, kde-format
-msgid "Bluetooth"
-msgstr "Bluetooth"
-
-#: editor/connectioneditorbase.cpp:241
-#, kde-format
-msgid "GSM"
-msgstr "GSM"
-
-#: editor/connectioneditorbase.cpp:243 editor/connectioneditorbase.cpp:286
+#: editor/connectioneditorbase.cpp:264 editor/connectioneditorbase.cpp:307
 #, kde-format
 msgid "PPP"
 msgstr "PPP"
 
-#: editor/connectioneditorbase.cpp:247 editor/settings/teamwidget.cpp:39
-#: editor/uiutils.cpp:209 models/creatableconnectionsmodel.cpp:142
-#: models/networkmodelitem.cpp:724
-#, kde-format
-msgid "Infiniband"
-msgstr "Infiniband"
-
-#: editor/connectioneditorbase.cpp:250 editor/uiutils.cpp:198
-#: models/creatableconnectionsmodel.cpp:190 models/networkmodelitem.cpp:730
-#, kde-format
-msgid "Bond"
-msgstr "Bond"
-
-#: editor/connectioneditorbase.cpp:253 editor/uiutils.cpp:201
-#: models/creatableconnectionsmodel.cpp:200 models/networkmodelitem.cpp:736
-#, kde-format
-msgid "Bridge"
-msgstr "Мост"
-
-#: editor/connectioneditorbase.cpp:256 models/creatableconnectionsmodel.cpp:220
-#: models/networkmodelitem.cpp:742
-#, kde-format
-msgid "Vlan"
-msgstr "Vlan"
-
-#: editor/connectioneditorbase.cpp:259 editor/uiutils.cpp:230
-#: models/creatableconnectionsmodel.cpp:210 models/networkmodelitem.cpp:751
-#, kde-format
-msgid "Team"
-msgstr "Каманда"
-
-#: editor/connectioneditorbase.cpp:262
+#: editor/connectioneditorbase.cpp:283
 #, kde-format
 msgid "WireGuard Interface"
 msgstr "Інтэрфейс WireGuard"
 
-#: editor/connectioneditorbase.cpp:275
+#: editor/connectioneditorbase.cpp:296
 #, kde-format
 msgid "VPN (%1)"
 msgstr "VPN (%1)"
 
-#: editor/connectioneditorbase.cpp:292
-#, kde-format
-msgid "IPv4"
-msgstr "IPv4"
-
-#: editor/connectioneditorbase.cpp:310
-#, kde-format
-msgid "IPv6"
-msgstr "IPv6"
-
-#: editor/connectioneditorbase.cpp:493
+#: editor/connectioneditorbase.cpp:520
 #, kde-format
 msgid "Failed to get secrets for %1"
 msgstr "Не ўдалося атрымаць сакрэтныя даныя для %1"
@@ -139,7 +812,7 @@ msgstr "Новае злучэнне (%1)"
 msgid "Edit Connection '%1'"
 msgstr "Рэдагаваць злучэнне \"%1\""
 
-#: editor/connectioneditortabwidget.cpp:47
+#: editor/connectioneditortabwidget.cpp:50
 #, kde-format
 msgid "New %1 connection"
 msgstr "Новае %1 злучэнне"
@@ -149,12 +822,6 @@ msgstr "Новае %1 злучэнне"
 #, kde-format
 msgid "Connection name:"
 msgstr "&Назва злучэння:"
-
-#: editor/settings/bondwidget.cpp:36 editor/settings/bridgewidget.cpp:33
-#: editor/settings/teamwidget.cpp:36
-#, kde-format
-msgid "Ethernet"
-msgstr "Ethernet"
 
 #: editor/settings/bondwidget.cpp:39
 #, kde-format
@@ -243,6 +910,12 @@ msgstr "DUN (dial up networking)"
 msgid "PAN (personal area network)"
 msgstr "PAN (personal area network)"
 
+#: editor/settings/connectionstatuswidget.cpp:33
+#| msgctxt "There is no active network connection"
+#| msgid "Disconnected"
+msgid "Disconnected"
+msgstr "Адлучана"
+
 #: editor/settings/connectionwidget.cpp:158
 #, kde-format
 msgctxt "@title:window advanced permissions editor"
@@ -279,57 +952,57 @@ msgctxt "Header text for IPv4 gateway"
 msgid "Gateway"
 msgstr "Шлюз"
 
-#: editor/settings/ipv4widget.cpp:271 editor/settings/ipv6widget.cpp:262
+#: editor/settings/ipv4widget.cpp:267 editor/settings/ipv6widget.cpp:258
 #, kde-format
 msgid "Other DNS Servers:"
 msgstr "Іншыя серверы DNS:"
 
-#: editor/settings/ipv4widget.cpp:283 editor/settings/ipv4widget.cpp:295
-#: editor/settings/ipv4widget.cpp:307 editor/settings/ipv4widget.cpp:319
-#: editor/settings/ipv6widget.cpp:274 editor/settings/ipv6widget.cpp:286
-#: editor/settings/ipv6widget.cpp:298 editor/settings/ipv6widget.cpp:310
+#: editor/settings/ipv4widget.cpp:280 editor/settings/ipv4widget.cpp:293
+#: editor/settings/ipv4widget.cpp:306 editor/settings/ipv4widget.cpp:319
+#: editor/settings/ipv6widget.cpp:271 editor/settings/ipv6widget.cpp:284
+#: editor/settings/ipv6widget.cpp:297 editor/settings/ipv6widget.cpp:310
 #, kde-format
 msgid "DNS Servers:"
 msgstr "Серверы DNS:"
 
-#: editor/settings/ipv4widget.cpp:420
+#: editor/settings/ipv4widget.cpp:421
 #, kde-format
 msgid "<qt>You can find more information about these values here:<br/><a href='https://developer.gnome.org/NetworkManager/stable/ch01.html'>https://developer.gnome.org/NetworkManager/stable/ch01.htmlnm-settings-nmcli.html</a></qt>"
 msgstr "<qt>Тут вы можаце знайсці больш звестак пра гэтыя значэнні:<br/><a href='https://developer.gnome.org/NetworkManager/stable/ch01.html'>https://developer.gnome.org/NetworkManager/stable/ch01.htmlnm-settings-nmcli.html</a></qt>"
 
-#: editor/settings/ipv4widget.cpp:430
+#: editor/settings/ipv4widget.cpp:431
 #, kde-format
 msgid "Send hostname:"
 msgstr "Назва хоста:"
 
-#: editor/settings/ipv4widget.cpp:435
+#: editor/settings/ipv4widget.cpp:436
 #, kde-format
 msgid "DHCP hostname:"
 msgstr "Назва хоста DHCP:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
-#: editor/settings/ipv4widget.cpp:440 editor/settings/ui/ipv6.ui:194
+#: editor/settings/ipv4widget.cpp:441 editor/settings/ui/ipv6.ui:194
 #, kde-format
 msgid "Default"
 msgstr "Прадвызначана"
 
-#: editor/settings/ipv4widget.cpp:441
+#: editor/settings/ipv4widget.cpp:442
 #, kde-format
 msgctxt "Milliseconds"
 msgid " ms"
 msgstr " мс"
 
-#: editor/settings/ipv4widget.cpp:444
+#: editor/settings/ipv4widget.cpp:445
 #, kde-format
 msgid "DAD timeout:"
 msgstr "Час чакання DAD:"
 
-#: editor/settings/ipv4widget.cpp:465 editor/settings/ipv6widget.cpp:405
+#: editor/settings/ipv4widget.cpp:466 editor/settings/ipv6widget.cpp:406
 #, kde-format
 msgid "Edit DNS servers"
 msgstr "Рэдагаваць серверы DNS"
 
-#: editor/settings/ipv4widget.cpp:490 editor/settings/ipv6widget.cpp:430
+#: editor/settings/ipv4widget.cpp:491 editor/settings/ipv6widget.cpp:431
 #, kde-format
 msgid "Edit DNS search domains"
 msgstr "Рэдагаваць дамены DNS-пошуку"
@@ -352,17 +1025,17 @@ msgctxt "Header text for IPv6 gateway"
 msgid "Gateway"
 msgstr "Шлюз"
 
-#: editor/settings/security802-1x.cpp:507
+#: editor/settings/security802-1x.cpp:503
 #, kde-format
 msgid "Alternative Subject Matches"
 msgstr "Альтэрнатыўныя супадзенні суб'екта"
 
-#: editor/settings/security802-1x.cpp:509
+#: editor/settings/security802-1x.cpp:505
 #, kde-format
 msgid "<qt>This entry must be one of:<ul><li>DNS: &lt;name or ip address&gt;</li><li>EMAIL: &lt;email&gt;</li><li>URI: &lt;uri, e.g. https://www.kde.org&gt;</li></ul></qt>"
 msgstr "<qt>Гэты мусіць быць адно з:<ul><li>DNS: &lt;імя або IP-адрас&gt;</li><li>EMAIL: &lt;электронная пошта&gt;</li><li>URI: &lt;uri, напр. https://www.kde.org&gt;</li></ul></qt>"
 
-#: editor/settings/security802-1x.cpp:526
+#: editor/settings/security802-1x.cpp:522
 #, kde-format
 msgid "Connect to these servers only"
 msgstr "Падлучацца толькі да гэтых сервераў"
@@ -374,51 +1047,51 @@ msgstr "Абраць файл для імпартавання"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: editor/settings/ui/802-1x.ui:18 editor/settings/ui/wifisecurity.ui:162
+#: editor/settings/ui/802-1x.ui:33 editor/settings/ui/wifisecurity.ui:174
 #, kde-format
 msgid "Authentication:"
 msgstr "Аўтэнтыфікацыя:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, auth)
 #. i18n: ectx: property (text), item, widget (KComboBox, peapInnerAuth)
-#: editor/settings/ui/802-1x.ui:38 editor/settings/ui/802-1x.ui:687
+#: editor/settings/ui/802-1x.ui:53 editor/settings/ui/802-1x.ui:671
 #, kde-format
 msgid "MD5"
 msgstr "MD5"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, auth)
-#: editor/settings/ui/802-1x.ui:43
+#: editor/settings/ui/802-1x.ui:58
 #, kde-format
 msgid "TLS"
 msgstr "TLS"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, auth)
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
-#: editor/settings/ui/802-1x.ui:48 editor/settings/ui/wifisecurity.ui:43
+#: editor/settings/ui/802-1x.ui:63 editor/settings/ui/wifisecurity.ui:70
 #, kde-format
 msgid "LEAP"
 msgstr "LEAP"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, auth)
-#: editor/settings/ui/802-1x.ui:53
+#: editor/settings/ui/802-1x.ui:68
 #, kde-format
 msgid "PWD"
 msgstr "PWD"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, auth)
-#: editor/settings/ui/802-1x.ui:58
+#: editor/settings/ui/802-1x.ui:73
 #, kde-format
 msgid "FAST"
 msgstr "FAST"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, auth)
-#: editor/settings/ui/802-1x.ui:63
+#: editor/settings/ui/802-1x.ui:78
 #, kde-format
 msgid "Tunneled TLS (TTLS)"
 msgstr "Тунэляваны TLS (TTLS)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, auth)
-#: editor/settings/ui/802-1x.ui:68
+#: editor/settings/ui/802-1x.ui:83
 #, kde-format
 msgid "Protected EAP (PEAP)"
 msgstr "Абаронены EAP (PEAP)"
@@ -430,11 +1103,11 @@ msgstr "Абаронены EAP (PEAP)"
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #. i18n: ectx: property (text), widget (QLabel, label_25)
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: editor/settings/ui/802-1x.ui:83 editor/settings/ui/802-1x.ui:283
-#: editor/settings/ui/802-1x.ui:317 editor/settings/ui/802-1x.ui:448
-#: editor/settings/ui/802-1x.ui:554 editor/settings/ui/802-1x.ui:700
+#: editor/settings/ui/802-1x.ui:91 editor/settings/ui/802-1x.ui:283
+#: editor/settings/ui/802-1x.ui:313 editor/settings/ui/802-1x.ui:440
+#: editor/settings/ui/802-1x.ui:542 editor/settings/ui/802-1x.ui:684
 #: editor/settings/ui/cdma.ui:37 editor/settings/ui/gsm.ui:41
-#: editor/settings/ui/pppoe.ui:37 editor/settings/ui/wifisecurity.ui:199
+#: editor/settings/ui/pppoe.ui:37 editor/settings/ui/wifisecurity.ui:207
 #, kde-format
 msgid "Username:"
 msgstr "Імя карыстальніка:"
@@ -446,18 +1119,18 @@ msgstr "Імя карыстальніка:"
 #. i18n: ectx: property (text), widget (QLabel, label_18)
 #. i18n: ectx: property (text), widget (QLabel, label_21)
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: editor/settings/ui/802-1x.ui:96 editor/settings/ui/802-1x.ui:296
-#: editor/settings/ui/802-1x.ui:330 editor/settings/ui/802-1x.ui:461
-#: editor/settings/ui/802-1x.ui:567 editor/settings/ui/802-1x.ui:713
+#: editor/settings/ui/802-1x.ui:104 editor/settings/ui/802-1x.ui:296
+#: editor/settings/ui/802-1x.ui:326 editor/settings/ui/802-1x.ui:453
+#: editor/settings/ui/802-1x.ui:555 editor/settings/ui/802-1x.ui:697
 #: editor/settings/ui/cdma.ui:50 editor/settings/ui/gsm.ui:54
-#: editor/settings/ui/pppoe.ui:50 editor/settings/ui/wifisecurity.ui:212
-#: editor/settings/ui/wifisecurity.ui:236
+#: editor/settings/ui/pppoe.ui:50 editor/settings/ui/wifisecurity.ui:223
+#: editor/settings/ui/wifisecurity.ui:243
 #, kde-format
 msgid "Password:"
 msgstr "Пароль:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: editor/settings/ui/802-1x.ui:117
+#: editor/settings/ui/802-1x.ui:121
 #, kde-format
 msgid "Identity:"
 msgstr "Асабістыя даныя:"
@@ -465,14 +1138,14 @@ msgstr "Асабістыя даныя:"
 #. i18n: ectx: property (text), widget (QLabel, label_32)
 #. i18n: ectx: property (text), widget (QLabel, label_30)
 #. i18n: ectx: property (text), widget (QLabel, label_31)
-#: editor/settings/ui/802-1x.ui:130 editor/settings/ui/802-1x.ui:584
-#: editor/settings/ui/802-1x.ui:730
+#: editor/settings/ui/802-1x.ui:134 editor/settings/ui/802-1x.ui:572
+#: editor/settings/ui/802-1x.ui:714
 #, kde-format
 msgid "Domain:"
 msgstr "Дамен:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: editor/settings/ui/802-1x.ui:140
+#: editor/settings/ui/802-1x.ui:144
 #, kde-format
 msgid "User certificate:"
 msgstr "Сертыфікат карыстальніка:"
@@ -480,47 +1153,47 @@ msgstr "Сертыфікат карыстальніка:"
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #. i18n: ectx: property (text), widget (QLabel, label_23)
-#: editor/settings/ui/802-1x.ui:159 editor/settings/ui/802-1x.ui:495
-#: editor/settings/ui/802-1x.ui:611
+#: editor/settings/ui/802-1x.ui:163 editor/settings/ui/802-1x.ui:483
+#: editor/settings/ui/802-1x.ui:595
 #, kde-format
 msgid "CA certificate:"
 msgstr "Сертыфікат CA:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_27)
-#: editor/settings/ui/802-1x.ui:178
+#: editor/settings/ui/802-1x.ui:182
 #, kde-format
 msgid "Subject match:"
 msgstr "Супадзенне суб'екта:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_28)
-#: editor/settings/ui/802-1x.ui:195
+#: editor/settings/ui/802-1x.ui:199
 #, kde-format
 msgid "Alternative subject matches:"
 msgstr "Альтэрнатыўныя супадзенні суб'екта:"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnTlsAltSubjectMatches)
 #. i18n: ectx: property (text), widget (QPushButton, btnTlsConnectToServers)
-#: editor/settings/ui/802-1x.ui:210 editor/settings/ui/802-1x.ui:234
+#: editor/settings/ui/802-1x.ui:214 editor/settings/ui/802-1x.ui:238
 #, kde-format
 msgid "…"
 msgstr "…"
 
 #. i18n: ectx: property (text), widget (QLabel, label_29)
-#: editor/settings/ui/802-1x.ui:219
+#: editor/settings/ui/802-1x.ui:223
 #, kde-format
 msgid "Connect to these servers:"
 msgstr "Падлучацца да гэтых сервераў:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. i18n: ectx: property (text), widget (QLabel, privateKeyLabel)
-#: editor/settings/ui/802-1x.ui:243
+#: editor/settings/ui/802-1x.ui:247
 #: editor/settings/ui/wireguardinterfacewidget.ui:41
 #, kde-format
 msgid "Private key:"
 msgstr "Прыватны ключ:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: editor/settings/ui/802-1x.ui:262
+#: editor/settings/ui/802-1x.ui:266
 #, kde-format
 msgid "Private key password:"
 msgstr "Пароль прыватнага ключа:"
@@ -528,38 +1201,38 @@ msgstr "Пароль прыватнага ключа:"
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #. i18n: ectx: property (text), widget (QLabel, label_19)
 #. i18n: ectx: property (text), widget (QLabel, label_24)
-#: editor/settings/ui/802-1x.ui:351 editor/settings/ui/802-1x.ui:482
-#: editor/settings/ui/802-1x.ui:598
+#: editor/settings/ui/802-1x.ui:343 editor/settings/ui/802-1x.ui:470
+#: editor/settings/ui/802-1x.ui:582
 #, kde-format
 msgid "Anonymous identity:"
 msgstr "Ананімная асоба:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, fastAllowPacProvisioning)
-#: editor/settings/ui/802-1x.ui:364
+#: editor/settings/ui/802-1x.ui:356
 #, kde-format
 msgid "Automatic PAC provisioning"
 msgstr "Аўтаматычнае забеспячэнне PAC"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, pacMethod)
-#: editor/settings/ui/802-1x.ui:381
+#: editor/settings/ui/802-1x.ui:373
 #, kde-format
 msgid "Anonymous"
 msgstr "Ананімна"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, pacMethod)
-#: editor/settings/ui/802-1x.ui:386
+#: editor/settings/ui/802-1x.ui:378
 #, kde-format
 msgid "Authenticated"
 msgstr "Аўтэнтыфікаваны"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, pacMethod)
-#: editor/settings/ui/802-1x.ui:391
+#: editor/settings/ui/802-1x.ui:383
 #, kde-format
 msgid "Both"
 msgstr "Абодва"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: editor/settings/ui/802-1x.ui:399
+#: editor/settings/ui/802-1x.ui:391
 #, kde-format
 msgid "PAC file:"
 msgstr "Файл PAC:"
@@ -567,15 +1240,15 @@ msgstr "Файл PAC:"
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #. i18n: ectx: property (text), widget (QLabel, label_16)
 #. i18n: ectx: property (text), widget (QLabel, label_22)
-#: editor/settings/ui/802-1x.ui:418 editor/settings/ui/802-1x.ui:514
-#: editor/settings/ui/802-1x.ui:665
+#: editor/settings/ui/802-1x.ui:410 editor/settings/ui/802-1x.ui:502
+#: editor/settings/ui/802-1x.ui:649
 #, kde-format
 msgid "Inner authentication:"
 msgstr "Унутраная аўтэнтыфікацыя:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, fastInnerAuth)
 #. i18n: ectx: property (text), item, widget (KComboBox, peapInnerAuth)
-#: editor/settings/ui/802-1x.ui:435 editor/settings/ui/802-1x.ui:692
+#: editor/settings/ui/802-1x.ui:427 editor/settings/ui/802-1x.ui:676
 #, kde-format
 msgid "GTC"
 msgstr "GTC"
@@ -584,54 +1257,54 @@ msgstr "GTC"
 #. i18n: ectx: property (text), item, widget (KComboBox, fastInnerAuth)
 #. i18n: ectx: property (text), item, widget (KComboBox, ttlsInnerAuth)
 #. i18n: ectx: property (text), item, widget (KComboBox, peapInnerAuth)
-#: editor/settings/ui/802-1x.ui:440 editor/settings/ui/802-1x.ui:541
-#: editor/settings/ui/802-1x.ui:682 editor/settings/ui/ppp.ui:68
+#: editor/settings/ui/802-1x.ui:432 editor/settings/ui/802-1x.ui:529
+#: editor/settings/ui/802-1x.ui:666 editor/settings/ui/ppp.ui:68
 #, kde-format
 msgid "MSCHAPv2"
 msgstr "MSCHAPv2"
 
 #. i18n: ectx: property (text), widget (QCheckBox, pap)
 #. i18n: ectx: property (text), item, widget (KComboBox, ttlsInnerAuth)
-#: editor/settings/ui/802-1x.ui:531 editor/settings/ui/ppp.ui:58
+#: editor/settings/ui/802-1x.ui:519 editor/settings/ui/ppp.ui:58
 #, kde-format
 msgid "PAP"
 msgstr "PAP"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mschap)
 #. i18n: ectx: property (text), item, widget (KComboBox, ttlsInnerAuth)
-#: editor/settings/ui/802-1x.ui:536 editor/settings/ui/ppp.ui:48
+#: editor/settings/ui/802-1x.ui:524 editor/settings/ui/ppp.ui:48
 #, kde-format
 msgid "MSCHAP"
 msgstr "MSCHAP"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chap)
 #. i18n: ectx: property (text), item, widget (KComboBox, ttlsInnerAuth)
-#: editor/settings/ui/802-1x.ui:546 editor/settings/ui/ppp.ui:78
+#: editor/settings/ui/802-1x.ui:534 editor/settings/ui/ppp.ui:78
 #, kde-format
 msgid "CHAP"
 msgstr "CHAP"
 
 #. i18n: ectx: property (text), widget (QLabel, label_26)
-#: editor/settings/ui/802-1x.ui:630
+#: editor/settings/ui/802-1x.ui:614
 #, kde-format
 msgid "PEAP version:"
 msgstr "Версія PEAP:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, peapVersion)
-#: editor/settings/ui/802-1x.ui:647
+#: editor/settings/ui/802-1x.ui:631
 #, kde-format
 msgctxt "PEAP version"
 msgid "Automatic"
 msgstr "Аўтаматычна"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, peapVersion)
-#: editor/settings/ui/802-1x.ui:652
+#: editor/settings/ui/802-1x.ui:636
 #, kde-format
 msgid "Version 0"
 msgstr "Версія 0"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, peapVersion)
-#: editor/settings/ui/802-1x.ui:657
+#: editor/settings/ui/802-1x.ui:641
 #, kde-format
 msgid "Version 1"
 msgstr "Версія 1"
@@ -674,7 +1347,7 @@ msgstr "Выдаліць"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, modeLabel)
-#: editor/settings/ui/bond.ui:110 editor/settings/ui/wificonnectionwidget.ui:43
+#: editor/settings/ui/bond.ui:110 editor/settings/ui/wificonnectionwidget.ui:68
 #, kde-format
 msgid "Mode:"
 msgstr "Рэжым:"
@@ -802,82 +1475,88 @@ msgid "Connect automatically with priority"
 msgstr "Аўтаматычнае падлучэнне з прыярытэтам"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, prioritySpin)
-#: editor/settings/ui/connectionwidget.ui:38
-#, kde-format
+#: editor/settings/ui/connectionwidget.ui:37
+#| msgid ""
+#| "If the connection is set to autoconnect, connections with higher priority "
+#| "will be preferred. Defaults to 0.\n"
+#| "The higher number means higher priority. A negative number can be used to "
+#| "indicate priority lower than the default.\n"
+#| "           "
 msgid "If the connection is set to autoconnect, connections with higher priority will be preferred. Defaults to 0.\n"
-"The higher number means higher priority. A negative number can be used to indicate priority lower than the default.\n"
-"           "
-msgstr "Калі для злучэння вызначана аўтаматычнае падлучэнне, перавага будзе аддавацца злучэнням з больш высокім прыярытэтам. Прадвызначана - 0.\n"
-"Большы лік азначае большы прыярытэт. Адмоўны лік можна выкарыстаць для пазначэння прыярытэту, ніжэйшага за прадвызначаны.           "
+"The higher number means higher priority. A negative number can be used to indicate priority lower than the default."
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, allUsers)
-#: editor/settings/ui/connectionwidget.ui:48
+#: editor/settings/ui/connectionwidget.ui:47
 #, kde-format
 msgid "All users may connect to this network"
 msgstr "Усе карыстальнікі могуць падлучацца да гэтай сеткі"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pushButtonPermissions)
-#: editor/settings/ui/connectionwidget.ui:64
+#: editor/settings/ui/connectionwidget.ui:63
 #, kde-format
 msgid "Edit advanced permissions for this connection"
 msgstr "Рэдагаваць дадатковыя правы доступу для гэтага злучэння"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pushButtonPermissions)
-#: editor/settings/ui/connectionwidget.ui:67
+#: editor/settings/ui/connectionwidget.ui:66
 #, kde-format
 msgid "Fine-grained permissions editor for this connection. It lets you choose which users can activate/modify/delete this connection."
 msgstr "Дакладны рэдактар ​​правоў доступу для гэтага злучэння. Праграма дае магчымасць абраць, якія карыстальнікі могуць актываваць/змяняць/выдаляць гэтае злучэнне."
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonPermissions)
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
-#: editor/settings/ui/connectionwidget.ui:70 editor/settings/ui/ipv4.ui:306
+#: editor/settings/ui/connectionwidget.ui:69 editor/settings/ui/ipv4.ui:363
 #, kde-format
 msgid "Advanced…"
 msgstr "Дадаткова…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, autoconnectVpn)
-#: editor/settings/ui/connectionwidget.ui:80
+#: editor/settings/ui/connectionwidget.ui:79
 #, kde-format
 msgid "Automatically connect to VPN"
 msgstr "Аўтаматычна падлучацца да VPN"
 
+#. i18n: ectx: property (toolTip), widget (KComboBox, vpnCombobox)
+#: editor/settings/ui/connectionwidget.ui:95
+#, kde-format
+msgid "Choose which VPN connection to automatically activate when this connection is established"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, firewallZoneLabel)
-#: editor/settings/ui/connectionwidget.ui:100
+#: editor/settings/ui/connectionwidget.ui:102
 #, kde-format
 msgid "Firewall zone:"
 msgstr "Зона брандмаўэра:"
 
+#. i18n: ectx: property (toolTip), widget (KComboBox, firewallZone)
+#: editor/settings/ui/connectionwidget.ui:127
+#, kde-format
+msgid "Assign this connection to a firewall zone to control network access and security rules"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, meteredLabel)
-#: editor/settings/ui/connectionwidget.ui:129
+#: editor/settings/ui/connectionwidget.ui:134
 #, kde-format
 msgid "Metered:"
 msgstr "Лімітавана:"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, metered)
-#: editor/settings/ui/connectionwidget.ui:149
-#, kde-format
-msgid "NetworkManager indicates to applications whether the connection is metered and therefore\n"
+#: editor/settings/ui/connectionwidget.ui:154
+#| msgid ""
+#| "NetworkManager indicates to applications whether the connection is "
+#| "metered and therefore\n"
+#| "data usage should be restricted."
+msgid "Indicates to applications whether the connection is metered and therefore\n"
 "data usage should be restricted."
-msgstr "NetworkManager паказвае праграмам ці лімітавана злучэнне, і ў выніку гэтага выкарыстанне даных можа быць абмежавана."
-
-#. i18n: ectx: property (text), item, widget (KComboBox, metered)
-#: editor/settings/ui/connectionwidget.ui:159
-#, kde-format
-msgctxt "Item in the Metered: list"
-msgid "Automatic"
-msgstr "Аўтаматычна"
+msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, metered)
 #: editor/settings/ui/connectionwidget.ui:164
 #, kde-format
-msgid "Yes"
-msgstr "Так"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, metered)
-#: editor/settings/ui/connectionwidget.ui:169
-#, kde-format
-msgid "No"
-msgstr "Не"
+msgctxt "Item in the Metered: list"
+msgid "Automatic"
+msgstr "Аўтаматычна"
 
 #. i18n: ectx: property (title), widget (QGroupBox, basicGroup)
 #: editor/settings/ui/gsm.ui:18
@@ -886,7 +1565,8 @@ msgid "Basic"
 msgstr "Базавы"
 
 #. i18n: ectx: property (title), widget (QGroupBox, advGroup)
-#: editor/settings/ui/gsm.ui:84
+#. i18n: ectx: property (text), widget (QLabel, advancedSectionLabel)
+#: editor/settings/ui/gsm.ui:84 editor/settings/ui/wificonnectionwidget.ui:112
 #, kde-format
 msgid "Advanced"
 msgstr "Дадаткова"
@@ -924,7 +1604,6 @@ msgstr "Транспартны рэжым:"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: editor/settings/ui/infiniband.ui:41
-#: editor/settings/ui/wificonnectionwidget.ui:186
 #: editor/settings/ui/wiredconnectionwidget.ui:23
 #, kde-format
 msgid "Restrict to device:"
@@ -934,7 +1613,7 @@ msgstr "Абмежаваць прыладай:"
 #. i18n: ectx: property (text), widget (QLabel, mtuLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: editor/settings/ui/infiniband.ui:61
-#: editor/settings/ui/wificonnectionwidget.ui:249
+#: editor/settings/ui/wificonnectionwidget.ui:301
 #: editor/settings/ui/wiredconnectionwidget.ui:89
 #: editor/settings/ui/wireguardinterfacewidget.ui:89
 #, kde-format
@@ -943,7 +1622,7 @@ msgstr "MTU:"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, mtu)
 #: editor/settings/ui/infiniband.ui:80
-#: editor/settings/ui/wificonnectionwidget.ui:271
+#: editor/settings/ui/wificonnectionwidget.ui:323
 #: editor/settings/ui/wiredconnectionwidget.ui:112
 #, kde-format
 msgctxt "MTU:"
@@ -952,7 +1631,7 @@ msgstr "Аўтаматычна"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, mtu)
 #: editor/settings/ui/infiniband.ui:83
-#: editor/settings/ui/wificonnectionwidget.ui:274
+#: editor/settings/ui/wificonnectionwidget.ui:326
 #: editor/settings/ui/wiredconnectionwidget.ui:115
 #, kde-format
 msgid " bytes"
@@ -971,91 +1650,103 @@ msgstr "Дадатковыя налады IP"
 msgid "Method:"
 msgstr "Метад:"
 
+#. i18n: ectx: property (toolTip), widget (KComboBox, method)
+#: editor/settings/ui/ipv4.ui:54
+#, kde-format
+msgid "How to configure the IPv4 address:\n"
+"• Automatic: obtain address and DNS automatically via DHCP\n"
+"• Automatic (Only addresses): obtain address via DHCP but configure DNS manually\n"
+"• Link-Local: use automatic link-local addressing (169.254.x.x)\n"
+"• Manual: enter a static IP address\n"
+"• Shared: turn this computer into a router to share internet with other devices\n"
+"• Disabled: turn off IPv4"
+msgstr ""
+
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
-#: editor/settings/ui/ipv4.ui:49 editor/settings/ui/ipv6.ui:224
+#: editor/settings/ui/ipv4.ui:58 editor/settings/ui/ipv6.ui:234
 #, kde-format
 msgctxt "Method:"
 msgid "Automatic"
 msgstr "Аўтаматычна"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
-#: editor/settings/ui/ipv4.ui:54 editor/settings/ui/ipv6.ui:229
+#: editor/settings/ui/ipv4.ui:63 editor/settings/ui/ipv6.ui:239
 #, kde-format
 msgid "Automatic (Only addresses)"
 msgstr "Аўтаматычна (толькі адрасы)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
-#: editor/settings/ui/ipv4.ui:59 editor/settings/ui/ipv6.ui:239
+#: editor/settings/ui/ipv4.ui:68 editor/settings/ui/ipv6.ui:249
 #, kde-format
 msgid "Link-Local"
 msgstr "Лакальнае злучэнне"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
-#: editor/settings/ui/ipv4.ui:64 editor/settings/ui/ipv6.ui:244
+#: editor/settings/ui/ipv4.ui:73 editor/settings/ui/ipv6.ui:254
 #, kde-format
 msgctxt "like in use Manual configuration"
 msgid "Manual"
 msgstr "Уласнаручна"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
-#: editor/settings/ui/ipv4.ui:69
+#: editor/settings/ui/ipv4.ui:78
 #, kde-format
 msgid "Shared to other computers"
 msgstr "Даступна для іншых камп'ютараў"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
-#: editor/settings/ui/ipv4.ui:74
+#: editor/settings/ui/ipv4.ui:83
 #, kde-format
 msgctxt "like in this setting is Disabled"
 msgid "Disabled"
 msgstr "Адключана"
 
 #. i18n: ectx: property (text), widget (QLabel, dnsLabel)
-#: editor/settings/ui/ipv4.ui:88 editor/settings/ui/ipv6.ui:167
+#: editor/settings/ui/ipv4.ui:97 editor/settings/ui/ipv6.ui:167
 #, kde-format
 msgctxt "@info"
 msgid "DNS Servers:"
 msgstr "Серверы DNS:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, dns)
-#: editor/settings/ui/ipv4.ui:118 editor/settings/ui/ipv6.ui:76
+#: editor/settings/ui/ipv4.ui:127 editor/settings/ui/ipv6.ui:76
 #, kde-format
 msgid "Use this field to specify the IP address(es) of one or more DNS servers. Use ',' to separate entries."
 msgstr "Выкарыстайце гэтае поле, каб вызначыць IP-адрас(-ы) аднаго або некалькіх DNS-сервераў. Адасаблівайце запісы з дапамогай ','."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsMorePushButton)
-#: editor/settings/ui/ipv4.ui:125
+#: editor/settings/ui/ipv4.ui:134
 #, kde-format
 msgid "Edit DNS the list of servers"
 msgstr "Рэдагаваць спіс DNS-сервераў"
 
 #. i18n: ectx: property (text), widget (QLabel, dnsSearchLabel)
-#: editor/settings/ui/ipv4.ui:143 editor/settings/ui/ipv6.ui:350
+#: editor/settings/ui/ipv4.ui:152 editor/settings/ui/ipv6.ui:360
 #, kde-format
 msgctxt "@info"
 msgid "Search Domains:"
 msgstr "Дамены пошуку:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, dnsSearch)
-#: editor/settings/ui/ipv4.ui:164 editor/settings/ui/ipv6.ui:270
+#: editor/settings/ui/ipv4.ui:173 editor/settings/ui/ipv6.ui:280
 #, kde-format
 msgid "Use this field to specify one or more DNS domains to search. Use ',' to separate entries."
 msgstr "Выкарыстайце гэтае поле, каб вызначыць адзін або некалькі DNS-даменаў для пошуку. Адасаблівайце запісы з дапамогай ','."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsSearchMorePushButton)
-#: editor/settings/ui/ipv4.ui:171 editor/settings/ui/ipv6.ui:277
+#: editor/settings/ui/ipv4.ui:180 editor/settings/ui/ipv6.ui:287
 #, kde-format
 msgid "Edit the list of DNS domains being searched"
 msgstr "Рэдагаваць спіс DNS-даменаў, у якіх праводзіцца пошук"
 
 #. i18n: ectx: property (text), widget (QLabel, labelDhcpClientId)
-#: editor/settings/ui/ipv4.ui:189
+#: editor/settings/ui/ipv4.ui:198
 #, kde-format
 msgid "DHCP Client ID:"
 msgstr "Ідэнтыфікатар кліента DHCP:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, dhcpClientId)
-#: editor/settings/ui/ipv4.ui:204
+#: editor/settings/ui/ipv4.ui:213
 #, kde-format
 msgid "Use this field to specify the DHCP client ID which is a string sent to the DHCP server\n"
 "to identify the local machine that the DHCP server may use to customize the DHCP\n"
@@ -1064,20 +1755,35 @@ msgstr "Выкарыстоўвайце гэтае поле, каб вызнач�
 "для вызначэння лакальнай машыны, якую сервер DHCP можа выкарыстоўваць для наладжвання DHCP\n"
 "арэнда і параметры."
 
+#. i18n: ectx: property (text), widget (QLabel, labelRouteMetric)
+#: editor/settings/ui/ipv4.ui:226 editor/settings/ui/ipv6.ui:379
+#| msgctxt "Header text for IPv4 route metric"
+#| msgid "Metric"
+msgid "Route Metric:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, routeMetric)
+#: editor/settings/ui/ipv4.ui:261 editor/settings/ui/ipv6.ui:414
+#, kde-format
+msgid "A score that helps choose the best path for data packets to reach their destination,\n"
+"based on factors like distance, delay, and reliability.\n\n"
+"Default value -1 means that NetworkManager gets to choose and manage the actual metric of the route."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: editor/settings/ui/ipv4.ui:213 editor/settings/ui/ipv6.ui:97
+#: editor/settings/ui/ipv4.ui:270 editor/settings/ui/ipv6.ui:97
 #, kde-format
 msgid "Remove"
 msgstr "Выдаліць"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
-#: editor/settings/ui/ipv4.ui:223 editor/settings/ui/ipv6.ui:107
+#: editor/settings/ui/ipv4.ui:280 editor/settings/ui/ipv6.ui:107
 #, kde-format
 msgid "Add"
 msgstr "Дадаць"
 
 #. i18n: ectx: property (toolTip), widget (QTableView, tableViewAddresses)
-#: editor/settings/ui/ipv4.ui:240 editor/settings/ui/ipv6.ui:124
+#: editor/settings/ui/ipv4.ui:297 editor/settings/ui/ipv6.ui:124
 #: editor/widgets/ui/ipv4routes.ui:99 editor/widgets/ui/ipv6routes.ui:39
 #, kde-format
 msgid "IP addresses identify your computer on the network. Click the \"Add\" button to add\n"
@@ -1086,20 +1792,20 @@ msgstr "IP-адрасы ідэнтыфікуюць ваш камп'ютар у �
 "IP-адрас"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ipv4RequiredCB)
-#: editor/settings/ui/ipv4.ui:278
+#: editor/settings/ui/ipv4.ui:335
 #, kde-format
 msgid "Allows the connection to complete if IPv4 configuration fails\n"
 "but IPv6 configuration succeeds"
 msgstr "Дае магчымасць завяршыць працэс злучэння, калі канфігурацыі IPv4 хібная, а канфігурацыя IPv6 прыдатная"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ipv4RequiredCB)
-#: editor/settings/ui/ipv4.ui:281
+#: editor/settings/ui/ipv4.ui:338
 #, kde-format
 msgid "IPv4 is required for this connection"
 msgstr "Для гэтага злучэння патрабуецца IPv4"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRoutes)
-#: editor/settings/ui/ipv4.ui:331 editor/settings/ui/ipv6.ui:316
+#: editor/settings/ui/ipv4.ui:388 editor/settings/ui/ipv6.ui:326
 #, kde-format
 msgid "Routes…"
 msgstr "Маршруты…"
@@ -1149,27 +1855,34 @@ msgstr "Уключана (перавага аддаецца публічным �
 msgid "Enabled (prefer temporary addresses)"
 msgstr "Уключана (перавага аддаеца часовым адрасам)"
 
+#. i18n: ectx: property (toolTip), widget (KComboBox, method)
+#: editor/settings/ui/ipv6.ui:230
+#, kde-format
+msgid "How to configure the IPv6 address:\n"
+"• Automatic: obtain address and DNS automatically (via SLAAC and/or DHCPv6)\n"
+"• Automatic (Only addresses): obtain address automatically but configure DNS manually\n"
+"• Automatic (Only DHCP): obtain address and DNS via DHCPv6 only (ignore SLAAC)\n"
+"• Link-Local: use automatic link-local addressing (fe80::/10)\n"
+"• Manual: enter a static IP address\n"
+"• Ignored: skip IPv6 configuration but allow connection\n"
+"• Disabled: turn off IPv6 completely"
+msgstr ""
+
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
-#: editor/settings/ui/ipv6.ui:234
+#: editor/settings/ui/ipv6.ui:244
 #, kde-format
 msgid "Automatic (Only DHCP)"
 msgstr "Аўтаматычна (толькі DHCP)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
-#: editor/settings/ui/ipv6.ui:249
+#: editor/settings/ui/ipv6.ui:259
 #, kde-format
 msgctxt "like in this setting is Disabled"
 msgid "Ignored"
 msgstr "Ігнаруюцца"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, method)
-#: editor/settings/ui/ipv6.ui:254
-#, kde-format
-msgid "Disabled"
-msgstr "Адключана"
-
 #. i18n: ectx: property (text), widget (QLabel, labelPrivacy)
-#: editor/settings/ui/ipv6.ui:331
+#: editor/settings/ui/ipv6.ui:341
 #, kde-format
 msgid "Privacy:"
 msgstr "Прыватнасць:"
@@ -1312,51 +2025,72 @@ msgstr "GVRP"
 msgid "Loose binding"
 msgstr "Новае звязванне"
 
+#. i18n: ectx: property (text), widget (QLabel, connectionSectionLabel)
+#: editor/settings/ui/wificonnectionwidget.ui:23
+#| msgctxt "The VPN connection is being established"
+#| msgid "Connecting"
+msgid "Connection"
+msgstr "Злучэнне"
+
 #. i18n: ectx: property (text), widget (QLabel, SSIDLabel)
-#: editor/settings/ui/wificonnectionwidget.ui:17
+#: editor/settings/ui/wificonnectionwidget.ui:39
 #, kde-format
 msgid "SSID:"
 msgstr "SSID:"
 
+#. i18n: ectx: property (toolTip), widget (SsidComboBox, SSIDCombo)
+#: editor/settings/ui/wificonnectionwidget.ui:61
+#, kde-format
+msgid "The name of the Wi-Fi network to connect to"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, modeComboBox)
+#: editor/settings/ui/wificonnectionwidget.ui:90
+#, kde-format
+msgid "Wi-Fi network mode:\n"
+"• Infrastructure: connect to a Wi-Fi router (normal mode)\n"
+"• Ad-hoc: create a direct peer-to-peer network\n"
+"• Access Point: turn this computer into a Wi-Fi hotspot"
+msgstr ""
+
 #. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
-#: editor/settings/ui/wificonnectionwidget.ui:63
+#: editor/settings/ui/wificonnectionwidget.ui:94
 #, kde-format
 msgid "Infrastructure"
 msgstr "Інфраструктура"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
-#: editor/settings/ui/wificonnectionwidget.ui:68
+#: editor/settings/ui/wificonnectionwidget.ui:99
 #, kde-format
 msgid "Ad-hoc"
 msgstr "Ad-hoc"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
-#: editor/settings/ui/wificonnectionwidget.ui:73
+#: editor/settings/ui/wificonnectionwidget.ui:104
 #, kde-format
 msgid "Access Point"
 msgstr "Пункт доступу"
 
 #. i18n: ectx: property (text), widget (QLabel, BSSIDLabel)
-#: editor/settings/ui/wificonnectionwidget.ui:81
-#, kde-format
-msgid "BSSID:"
-msgstr "BSSID:"
+#: editor/settings/ui/wificonnectionwidget.ui:128
+#| msgid "Restrict to device:"
+msgid "Restrict to BSSID:"
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (BssidComboBox, BSSIDCombo)
-#: editor/settings/ui/wificonnectionwidget.ui:101
+#: editor/settings/ui/wificonnectionwidget.ui:147
 #, kde-format
-msgid "This option locks this connection to the Wi-Fi access point (AP) specified by the\n"
-" BSSID entered here. Example: 00:11:22:33:44:55"
-msgstr "Гэты параметр прывязвае злучэнне да пэўнага пункту доступу Wi-Fi, вызначанага яго BSSID. Прыклад: 00:11:22:33:44:55"
+msgid "Lock this connection to a specific access point. Enter the BSSID (MAC address) of the access point."
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, bandLabel)
-#: editor/settings/ui/wificonnectionwidget.ui:117
+#: editor/settings/ui/wificonnectionwidget.ui:163
 #, kde-format
 msgid "Band:"
 msgstr "Дыяпазон:"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, band)
-#: editor/settings/ui/wificonnectionwidget.ui:137
+#: editor/settings/ui/wificonnectionwidget.ui:183
 #, kde-format
 msgid "This option locks the connection to the Wi-Fi network associated to the specified band. This setting depends\n"
 " on specific driver capability and may not work with all drivers"
@@ -1364,69 +2098,99 @@ msgstr "Гэты параметр блакуе злучэнне з сеткай 
 " ад магчымасцяў драйвера і можа працаваць не з усімі драйверамі"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, band)
-#: editor/settings/ui/wificonnectionwidget.ui:141
+#: editor/settings/ui/wificonnectionwidget.ui:187
 #, kde-format
 msgctxt "Band:"
 msgid "Automatic"
 msgstr "Аўтаматычна"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, band)
-#: editor/settings/ui/wificonnectionwidget.ui:146
+#: editor/settings/ui/wificonnectionwidget.ui:192
 #, kde-format
 msgid "A (5 GHz)"
 msgstr "A (5 ГГц)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, band)
-#: editor/settings/ui/wificonnectionwidget.ui:151
+#: editor/settings/ui/wificonnectionwidget.ui:197
 #, kde-format
 msgid "B/G (2.4 GHz)"
 msgstr "B/G (2.4 ГГц)"
 
 #. i18n: ectx: property (text), widget (QLabel, channelLabel)
-#: editor/settings/ui/wificonnectionwidget.ui:159
+#: editor/settings/ui/wificonnectionwidget.ui:205
 #, kde-format
 msgid "Channel:"
 msgstr "Канал:"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, channel)
-#: editor/settings/ui/wificonnectionwidget.ui:179
+#: editor/settings/ui/wificonnectionwidget.ui:225
 #, kde-format
 msgid "Wireless channel to use for the Wi-Fi connection. The device will only join (or create for Ad-Hoc networks)\n"
 "a Wi-Fi network on the specified channel"
 msgstr "Бесправадны канал для падлучэння да Wi-Fi. Прылада будзе толькі далучацца да сеткі Wi-Fi па вызначаным канале (або ствараць для сетак Ad-Hoc)"
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: editor/settings/ui/wificonnectionwidget.ui:232
+#| msgid "Restrict to device:"
+msgid "Restrict to network adapter:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (HwAddrComboBox, macAddress)
+#: editor/settings/ui/wificonnectionwidget.ui:251
+#, kde-format
+msgid "Lock this connection to a particular network adapter by specifying its MAC address."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: editor/settings/ui/wificonnectionwidget.ui:209
+#: editor/settings/ui/wificonnectionwidget.ui:258
 #: editor/settings/ui/wiredconnectionwidget.ui:47
 #, kde-format
 msgid "Cloned MAC address:"
 msgstr "Кланаваны MAC-адрас:"
 
+#. i18n: ectx: property (toolTip), widget (KLineEdit, clonedMacAddress)
+#: editor/settings/ui/wificonnectionwidget.ui:285
+#, kde-format
+msgid "Use a different MAC address instead of your network adapter's real address."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, btnRandomMacAddr)
-#: editor/settings/ui/wificonnectionwidget.ui:240
+#: editor/settings/ui/wificonnectionwidget.ui:292
 #, kde-format
 msgid "Random…"
 msgstr "Выпадковы…"
 
+#. i18n: ectx: property (toolTip), widget (QSpinBox, mtu)
+#: editor/settings/ui/wificonnectionwidget.ui:335
+#, kde-format
+msgid "Maximum Transmission Unit: the largest packet size that can be sent without fragmentation. Larger packets will be broken into smaller frames."
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QLabel, label_4)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, hiddenNetwork)
-#: editor/settings/ui/wificonnectionwidget.ui:287
-#: editor/settings/ui/wificonnectionwidget.ui:303
-#, kde-format
-msgid "Mark this if you want to create a connection for a hidden network"
-msgstr "Адзначце гэта, калі хочаце стварыць злучэнне для схаванай сеткі"
+#: editor/settings/ui/wificonnectionwidget.ui:342
+#: editor/settings/ui/wificonnectionwidget.ui:358
+#| msgid "Mark this if you want to create a connection for a hidden network"
+msgid "Create a connection for a hidden network"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: editor/settings/ui/wificonnectionwidget.ui:290
+#: editor/settings/ui/wificonnectionwidget.ui:345
 #, kde-format
 msgid "Visibility:"
 msgstr "Бачнасць:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, hiddenNetwork)
-#: editor/settings/ui/wificonnectionwidget.ui:306
+#: editor/settings/ui/wificonnectionwidget.ui:361
 #, kde-format
 msgid "Hidden network"
 msgstr "Схаваная сетка"
+
+#. i18n: ectx: property (text), widget (QLabel, securitySectionLabel)
+#: editor/settings/ui/wificonnectionwidget.ui:368
+#| msgid "Security:"
+msgid "Security"
+msgstr "Бяспека"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WifiSecurity)
 #: editor/settings/ui/wifisecurity.ui:15
@@ -1434,111 +2198,111 @@ msgstr "Схаваная сетка"
 msgid "Wifi Security"
 msgstr "Бяспека Wifi"
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: editor/settings/ui/wifisecurity.ui:35
+#, kde-format
+msgid "Security:"
+msgstr "Бяспека:"
+
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
-#: editor/settings/ui/wifisecurity.ui:28
+#: editor/settings/ui/wifisecurity.ui:55
 #, kde-format
 msgctxt "no security"
 msgid "None"
 msgstr "Няма"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
-#: editor/settings/ui/wifisecurity.ui:33
+#: editor/settings/ui/wifisecurity.ui:60
 #, kde-format
 msgid "WEP key 40/128 bits (Hex or ASCII)"
 msgstr "WEP, 40/128-бітавы ключ (шаснаццатковы ці ASCII)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
-#: editor/settings/ui/wifisecurity.ui:38
+#: editor/settings/ui/wifisecurity.ui:65
 #, kde-format
 msgid "WEP key 128 bits"
 msgstr "WEP, 128-бітавы ключ"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
-#: editor/settings/ui/wifisecurity.ui:48
+#: editor/settings/ui/wifisecurity.ui:75
 #, kde-format
 msgid "Dynamic WEP (802.1x)"
 msgstr "Дынамічны WEP (802.1x)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
-#: editor/settings/ui/wifisecurity.ui:53
-#, kde-format
-msgid "WPA/WPA2 Personal"
-msgstr "WPA і WPA2 Personal"
+#: editor/settings/ui/wifisecurity.ui:80
+#| msgid "WPA/WPA2 Personal"
+msgid "WPA2/WPA3 Personal"
+msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
-#: editor/settings/ui/wifisecurity.ui:58
-#, kde-format
-msgid "WPA/WPA2 Enterprise"
-msgstr "WPA і WPA2 Enterprise"
+#: editor/settings/ui/wifisecurity.ui:85
+#| msgid "WPA/WPA2 Enterprise"
+msgid "WPA2/WPA3 Enterprise"
+msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
-#: editor/settings/ui/wifisecurity.ui:63
+#: editor/settings/ui/wifisecurity.ui:90
 #, kde-format
 msgid "WPA3 Personal"
 msgstr "WPA3 Personal"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
-#: editor/settings/ui/wifisecurity.ui:68
+#: editor/settings/ui/wifisecurity.ui:95
 #, kde-format
 msgid "WPA3 Enterprise 192-bit"
 msgstr "WPA3 Enterprise 192-бітавы"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
-#: editor/settings/ui/wifisecurity.ui:73
+#: editor/settings/ui/wifisecurity.ui:100
 #, kde-format
 msgid "Enhanced Open (OWE)"
 msgstr "Палепшаны адкрыты (OWE)"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: editor/settings/ui/wifisecurity.ui:81
-#, kde-format
-msgid "Security:"
-msgstr "Бяспека:"
-
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: editor/settings/ui/wifisecurity.ui:102
+#: editor/settings/ui/wifisecurity.ui:108
 #, kde-format
 msgid "Key:"
 msgstr "Ключ:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: editor/settings/ui/wifisecurity.ui:122
+#: editor/settings/ui/wifisecurity.ui:131
 #, kde-format
 msgid "WEP index:"
 msgstr "Індэкс WEP:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
-#: editor/settings/ui/wifisecurity.ui:139
+#: editor/settings/ui/wifisecurity.ui:151
 #, kde-format
 msgid "1 (default)"
 msgstr "1 (прадвызначана)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
-#: editor/settings/ui/wifisecurity.ui:144
+#: editor/settings/ui/wifisecurity.ui:156
 #, kde-format
 msgid "2"
 msgstr "2"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
-#: editor/settings/ui/wifisecurity.ui:149
+#: editor/settings/ui/wifisecurity.ui:161
 #, kde-format
 msgid "3"
 msgstr "3"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
-#: editor/settings/ui/wifisecurity.ui:154
+#: editor/settings/ui/wifisecurity.ui:166
 #, kde-format
 msgid "4"
 msgstr "4"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, wepAuth)
-#: editor/settings/ui/wifisecurity.ui:179
+#: editor/settings/ui/wifisecurity.ui:194
 #, kde-format
 msgid "Open System"
 msgstr "Адкрытая сістэма"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, wepAuth)
-#: editor/settings/ui/wifisecurity.ui:184
+#: editor/settings/ui/wifisecurity.ui:199
 #, kde-format
 msgid "Shared Key"
 msgstr "Супольны ключ"
@@ -1934,13 +2698,13 @@ msgstr "Дадаць новы аднарангавы вузел"
 msgid "Remove this Peer"
 msgstr "Выдаліць гэты аднарангавы вузел"
 
-#: editor/settings/wificonnectionwidget.cpp:181
+#: editor/settings/wificonnectionwidget.cpp:262
 #, kde-format
 msgid "%1 (%2 MHz)"
 msgstr "%1 (%2 МГц)"
 
-#: editor/settings/wireguardpeerwidget.cpp:71
-#: editor/settings/wireguardtabwidget.cpp:59
+#: editor/settings/wireguardpeerwidget.cpp:62
+#: editor/settings/wireguardtabwidget.cpp:56
 #, kde-format
 msgctxt "@title: window wireguard peers properties"
 msgid "WireGuard peers properties"
@@ -2032,11 +2796,6 @@ msgstr "Мабільны шырокапалосны"
 #, kde-format
 msgid "Olpc mesh"
 msgstr "Olpc mesh"
-
-#: editor/uiutils.cpp:218 networkstatus.cpp:190
-#, kde-format
-msgid "VPN"
-msgstr "VPN"
 
 #: editor/uiutils.cpp:222 models/creatableconnectionsmodel.cpp:156
 #, kde-format
@@ -2720,12 +3479,12 @@ msgctxt "@info:tooltip real user name is not available"
 msgid "Not Available"
 msgstr "Недаступна"
 
-#: editor/widgets/bssidcombobox.cpp:122
+#: editor/widgets/bssidcombobox.cpp:126
 #, kde-format
 msgid "First select the SSID"
 msgstr "Спачатку абярыце SSID"
 
-#: editor/widgets/bssidcombobox.cpp:131
+#: editor/widgets/bssidcombobox.cpp:135
 #, kde-format
 msgid "%1 (%2%)\n"
 "Frequency: %3 Mhz\n"
@@ -3069,72 +3828,72 @@ msgctxt "Remove a selected row"
 msgid "R&emove"
 msgstr "В&ыдаліць"
 
-#: handler.cpp:120
+#: handler.cpp:140
 #, kde-format
 msgid "Plasma is missing support for '%1' VPN connections."
 msgstr "Plasma не падтрымлівае VPN-злучэнні \"%1\"."
 
-#: handler.cpp:123
+#: handler.cpp:143
 #, kde-format
 msgid "Report Bug"
 msgstr "Паведаміць пра хібу"
 
-#: handler.cpp:146
+#: handler.cpp:166
 #, kde-format
 msgid "NetworkManager is missing support for '%1' VPN connections."
 msgstr "NetworkManager не падтрымлівае VPN-злучэнні \"%1\"."
 
-#: handler.cpp:149
+#: handler.cpp:169
 #, kde-format
 msgid "Install"
 msgstr "Усталяваць"
 
-#: handler.cpp:195
+#: handler.cpp:215
 #, kde-format
 msgid "Failed to activate %1"
 msgstr "Не ўдалося актываваць \"%1\""
 
-#: handler.cpp:373 handler.cpp:402
+#: handler.cpp:389 handler.cpp:418
 #, kde-format
 msgid "Failed to add connection %1"
 msgstr "Не ўдалося дадаць злучэнне \"%1\""
 
-#: handler.cpp:380 handler.cpp:411
+#: handler.cpp:396 handler.cpp:427
 #, kde-format
 msgid "Connection %1 has been added"
 msgstr "Злучэнне \"%1\" дададзена"
 
-#: handler.cpp:450
+#: handler.cpp:466
 #, kde-format
 msgid "Failed to add %1"
 msgstr "Не ўдалося дадаць \"%1\""
 
-#: handler.cpp:490
+#: handler.cpp:506
 #, kde-format
 msgid "Failed to deactivate %1"
 msgstr "Не ўдалося актываваць \"%1\""
 
-#: handler.cpp:624
+#: handler.cpp:644
 #, kde-format
 msgid "Failed to remove %1"
 msgstr "Не ўдалося выдаліць \"%1\""
 
-#: handler.cpp:631
+#: handler.cpp:651
 #, kde-format
 msgid "Connection %1 has been removed"
 msgstr "Злучэнне \"%1\" выдалена"
 
-#: handler.cpp:650
+#: handler.cpp:670
 #, kde-format
 msgid "Failed to update connection %1"
 msgstr "Не ўдалося абнавіць злучэнне \"%1\""
 
-#: handler.cpp:657
+#: handler.cpp:677
 #, kde-format
 msgid "Connection %1 has been updated"
 msgstr "Злучэнне \"%1\" абноўлена"
 
-#: handler.cpp:841
+#: handler.cpp:861
 #, kde-format
 msgid "Failed to create hotspot %1"
 msgstr "Не ўдалося стварыць пункт доступу \"%1\""
@@ -3159,11 +3918,6 @@ msgstr "Апісанне DSL-злучэння"
 #, kde-format
 msgid "Some infiniband description"
 msgstr "Апісанне infiniband-злучэння"
-
-#: models/creatableconnectionsmodel.cpp:149
-#, kde-format
-msgid "Mobile Broadband"
-msgstr "Мабільны шырокапалосны"
 
 #: models/creatableconnectionsmodel.cpp:151
 #, kde-format
@@ -3222,12 +3976,6 @@ msgstr "Апісанне vlan-злучэння"
 msgid "VPN connections"
 msgstr "VPN-злучэнні"
 
-#: models/creatableconnectionsmodel.cpp:254
-#: models/creatableconnectionsmodel.cpp:256 networkstatus.cpp:212
-#, kde-format
-msgid "WireGuard"
-msgstr "WireGuard"
-
 #: models/creatableconnectionsmodel.cpp:266
 #, kde-format
 msgid "Import VPN connection…"
@@ -3243,281 +3991,25 @@ msgstr "Іншае"
 msgid "Import a saved configuration file"
 msgstr "Імпартаванне захаванага файла канфігурацыі"
 
-#: models/networkmodelitem.cpp:42
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is Unknown"
-msgstr "Тып злучэння: невядома"
+#: models/networkmodelitem.cpp:339
+#| msgctxt "@info:tooltip real user name is not available"
+#| msgid "Not Available"
+msgctxt "@title:column header for list of available network connections"
+msgid "Available"
+msgstr "Даступны"
 
-#: models/networkmodelitem.cpp:43
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is ADSL"
-msgstr "Тып злучэння: ADSL"
+#: models/networkmodelitem.cpp:345
+#| msgctxt "infiniband transport mode"
+#| msgid "Connected"
+msgctxt "@title:column header for list of connected network connections"
+msgid "Connected"
+msgstr "Злучана"
 
-#: models/networkmodelitem.cpp:44
+#: models/networkmodelitem.cpp:347
 #, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is Bluetooth"
-msgstr "Тып злучэння: Bluetooth"
-
-#: models/networkmodelitem.cpp:45
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is Bridge"
-msgstr "Тып злучэння: мост"
-
-#: models/networkmodelitem.cpp:46
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is CDMA"
-msgstr "Тып злучэння: CDMA"
-
-#: models/networkmodelitem.cpp:47
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is GSM"
-msgstr "Тып злучэння: GSM"
-
-#: models/networkmodelitem.cpp:48
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is Infiniband"
-msgstr "Тып злучэння: Infiniband"
-
-#: models/networkmodelitem.cpp:49
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is OLPC Mesh"
-msgstr "Тып злучэння: OLPC Mesh"
-
-#: models/networkmodelitem.cpp:50
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is PPOPE"
-msgstr "Тып злучэння: PPOPE"
-
-#: models/networkmodelitem.cpp:51
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is VLAN"
-msgstr "Тып злучэння: VLAN"
-
-#: models/networkmodelitem.cpp:52
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is VPN"
-msgstr "Тып злучэння: VPN"
-
-#: models/networkmodelitem.cpp:53
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is Wimax"
-msgstr "Тып злучэння: Wimax"
-
-#: models/networkmodelitem.cpp:54
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is Wired"
-msgstr "Тып злучэння: правадное"
-
-#: models/networkmodelitem.cpp:55
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is Wireless"
-msgstr "Тып злучэння: бесправадное"
-
-#: models/networkmodelitem.cpp:56
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is Team"
-msgstr "Тып злучэння: агрэгаванае"
-
-#: models/networkmodelitem.cpp:57
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is Generic"
-msgstr "Тып злучэння: звычайнае"
-
-#: models/networkmodelitem.cpp:58
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is Tunnel"
-msgstr "Тып злучэння: тунэль"
-
-#: models/networkmodelitem.cpp:59
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is IP Tunnel"
-msgstr "Тып злучэння: IP-тунэль"
-
-#: models/networkmodelitem.cpp:60
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "The connection type is WireGuard"
-msgstr "Тып злучэння: WireGuard"
-
-#: models/networkmodelitem.cpp:585
-#, kde-format
-msgid "IPv4 Address"
-msgstr "Адрас IPv4"
-
-#: models/networkmodelitem.cpp:591
-#, kde-format
-msgid "IPv4 Default Gateway"
-msgstr "Прадвызначаны шлюз IPv4"
-
-#: models/networkmodelitem.cpp:598
-#, kde-format
-msgid "IPv4 Primary Nameserver"
-msgstr "Першасная назва сервера IPv4"
-
-#: models/networkmodelitem.cpp:602
-#, kde-format
-msgid "IPv4 Secondary Nameserver"
-msgstr "Другасная назва сервера IPv4"
-
-#: models/networkmodelitem.cpp:612
-#, kde-format
-msgid "IPv6 Address"
-msgstr "Адрас IPv6"
-
-#: models/networkmodelitem.cpp:614
-#, kde-format
-msgid "IPv6 ULA Address"
-msgstr "ULA-адрас IPv6"
-
-#: models/networkmodelitem.cpp:620
-#, kde-format
-msgid "IPv6 Default Gateway"
-msgstr "Прадвызначаны шлюз IPv6"
-
-#: models/networkmodelitem.cpp:627
-#, kde-format
-msgid "IPv6 Primary Nameserver"
-msgstr "Першасная назва сервера IPv6"
-
-#: models/networkmodelitem.cpp:631
-#, kde-format
-msgid "IPv6 Secondary Nameserver"
-msgstr "Другасная назва сервера IPv6"
-
-#: models/networkmodelitem.cpp:640
-#, kde-format
-msgid "Connection speed"
-msgstr "Хуткасць злучэння"
-
-#: models/networkmodelitem.cpp:642 models/networkmodelitem.cpp:667
-#: models/networkmodelitem.cpp:720 models/networkmodelitem.cpp:726
-#: models/networkmodelitem.cpp:732 models/networkmodelitem.cpp:738
-#: models/networkmodelitem.cpp:745 models/networkmodelitem.cpp:753
-#, kde-format
-msgid "MAC Address"
-msgstr "MAC-адрас"
-
-#: models/networkmodelitem.cpp:646
-#, kde-format
-msgid "Access Point (SSID)"
-msgstr "Пункт доступу (SSID)"
-
-#: models/networkmodelitem.cpp:648
-#, kde-format
-msgid "Signal Strength"
-msgstr "Магутнасць сігналу"
-
-#: models/networkmodelitem.cpp:648
-#, kde-format
-msgctxt "WiFi signal strength percentage indicator"
-msgid "%1%"
-msgstr "%1%"
-
-#: models/networkmodelitem.cpp:650
-#, kde-format
-msgid "Security Type"
-msgstr "Тып бяспекі"
-
-#: models/networkmodelitem.cpp:653
-#, kde-format
-msgid "Connection Speed"
-msgstr "Хуткасць злучэння"
-
-#: models/networkmodelitem.cpp:659
-#, kde-format
-msgid "Frequency"
-msgstr "Частата"
-
-#: models/networkmodelitem.cpp:661
-#, kde-format
-msgctxt "Frequency (Channel)"
-msgid "%1 (Channel %2)"
-msgstr "%1 (канал %2)"
-
-#: models/networkmodelitem.cpp:665
-#, kde-format
-msgid "BSSID"
-msgstr "BSSID"
-
-#: models/networkmodelitem.cpp:679
-#, kde-format
-msgid "Operator"
-msgstr "Аператар"
-
-#: models/networkmodelitem.cpp:683
-#, kde-format
-msgid "Network ID"
-msgstr "Ідэнтыфікатар сеткі"
-
-#: models/networkmodelitem.cpp:687
-#, kde-format
-msgid "Signal Quality"
-msgstr "Якасць сігналу"
-
-#: models/networkmodelitem.cpp:688
-#, kde-format
-msgid "Access Technology"
-msgstr "Тэхналогія доступу"
-
-#: models/networkmodelitem.cpp:693 models/networkmodelitem.cpp:710
-#, kde-format
-msgid "VPN Plugin"
-msgstr "Убудова VPN"
-
-#: models/networkmodelitem.cpp:704
-#, kde-format
-msgid "Banner"
-msgstr "Банер"
-
-#: models/networkmodelitem.cpp:714
-#, kde-format
-msgid "Name"
-msgstr "Назва"
-
-#: models/networkmodelitem.cpp:716 models/networkmodelitem.cpp:718
-#, kde-format
-msgid "Capabilities"
-msgstr "Магчымасці"
-
-#: models/networkmodelitem.cpp:724 models/networkmodelitem.cpp:730
-#: models/networkmodelitem.cpp:736 models/networkmodelitem.cpp:742
-#: models/networkmodelitem.cpp:748 models/networkmodelitem.cpp:751
-#, kde-format
-msgid "Type"
-msgstr "Тып"
-
-#: models/networkmodelitem.cpp:744
-#, kde-format
-msgid "Vlan ID"
-msgstr "Vlan ID"
-
-#: models/networkmodelitem.cpp:748
-#, kde-format
-msgid "Adsl"
-msgstr "Adsl"
-
-#: models/networkmodelitem.cpp:758
-#, kde-format
-msgid "Device"
-msgstr "Прылада"
+msgctxt "@title:column header for list of previously connected network connections"
+msgid "Previously Used, Unavailable"
+msgstr ""
 
 #: networkstatus.cpp:126
 #, kde-format
@@ -3587,9 +4079,10 @@ msgid "Connected to %1"
 msgstr "Падлучана да %1"
 
 #: networkstatus.cpp:256
-#, kde-format
-msgid "NetworkManager not running"
-msgstr "NetworkManager не запушчаны"
+#| msgid "NetworkManager not running"
+msgctxt "@info:status"
+msgid "NetworkManager service is not running"
+msgstr ""
 
 #: networkstatus.cpp:261
 #, kde-format
@@ -3601,6 +4094,96 @@ msgstr "Патрабуецца NetworkManager 0.9.8, знойдзены %1."
 msgctxt "global connection state"
 msgid "Unknown"
 msgstr "Невядома"
+
+#~ msgid "Wi-Fi Security"
+#~ msgstr "Бяспека Wi-Fi"
+
+#~ msgid "BSSID:"
+#~ msgstr "BSSID:"
+
+#~ msgid ""
+#~ "This option locks this connection to the Wi-Fi access point (AP) "
+#~ "specified by the\n"
+#~ " BSSID entered here. Example: 00:11:22:33:44:55"
+#~ msgstr ""
+#~ "Гэты параметр прывязвае злучэнне да пэўнага пункту доступу Wi-Fi, "
+#~ "вызначанага яго BSSID. Прыклад: 00:11:22:33:44:55"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is Unknown"
+#~ msgstr "Тып злучэння: невядома"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is ADSL"
+#~ msgstr "Тып злучэння: ADSL"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is Bluetooth"
+#~ msgstr "Тып злучэння: Bluetooth"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is Bridge"
+#~ msgstr "Тып злучэння: мост"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is CDMA"
+#~ msgstr "Тып злучэння: CDMA"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is GSM"
+#~ msgstr "Тып злучэння: GSM"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is Infiniband"
+#~ msgstr "Тып злучэння: Infiniband"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is OLPC Mesh"
+#~ msgstr "Тып злучэння: OLPC Mesh"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is PPOPE"
+#~ msgstr "Тып злучэння: PPOPE"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is VLAN"
+#~ msgstr "Тып злучэння: VLAN"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is VPN"
+#~ msgstr "Тып злучэння: VPN"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is Wimax"
+#~ msgstr "Тып злучэння: Wimax"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is Wired"
+#~ msgstr "Тып злучэння: правадное"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is Wireless"
+#~ msgstr "Тып злучэння: бесправадное"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is Team"
+#~ msgstr "Тып злучэння: агрэгаванае"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is Generic"
+#~ msgstr "Тып злучэння: звычайнае"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is Tunnel"
+#~ msgstr "Тып злучэння: тунэль"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is IP Tunnel"
+#~ msgstr "Тып злучэння: IP-тунэль"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The connection type is WireGuard"
+#~ msgstr "Тып злучэння: WireGuard"
 
 #~ msgctxt ""
 #~ "Label for last used time for a network connection used in the last hour, "
