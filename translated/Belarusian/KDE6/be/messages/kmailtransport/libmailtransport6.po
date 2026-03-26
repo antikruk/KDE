@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-27 00:41+0000\n"
-"PO-Revision-Date: 2025-01-07 21:19\n"
+"POT-Creation-Date: 2026-01-31 00:44+0000\n"
+"PO-Revision-Date: 2026-03-26 19:46\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,6 +19,10 @@ msgstr ""
 "X-Crowdin-Language: be\n"
 "X-Crowdin-File: /main/KDE6/be/messages/kmailtransport/libmailtransport6.po\n"
 "X-Crowdin-File-ID: 19251\n"
+
+#| msgid "&Name:"
+msgid "Unnamed"
+msgstr "Без назвы"
 
 #. i18n: ectx: label, entry (id), group (Transport $(transportId))
 #: mailtransport.kcfg:12
@@ -37,11 +41,6 @@ msgstr ""
 #, kde-format
 msgid "The name that will be used when referring to this server."
 msgstr ""
-
-#: mailtransport.kcfg:18
-#| msgid "&Name:"
-msgid "Unnamed"
-msgstr "Без назвы"
 
 #. i18n: ectx: label, entry (host), group (Transport $(transportId))
 #: mailtransport.kcfg:30
@@ -64,7 +63,7 @@ msgstr ""
 #. i18n: ectx: whatsthis, entry (port), group (Transport $(transportId))
 #: mailtransport.kcfg:35
 #, kde-format
-msgid "The port number that the SMTP server is listening on. The default port is 587."
+msgid "The port number that the SMTP server is listening on. The default port is 465."
 msgstr ""
 
 #. i18n: ectx: label, entry (userName), group (Transport $(transportId))
@@ -205,7 +204,7 @@ msgstr ""
 msgid "The password to send to the server for authorization."
 msgstr ""
 
-#: plugins/smtp/smtpconfigwidget.cpp:163 servertest.cpp:552
+#: plugins/smtp/smtpconfigwidget.cpp:163 servertest.cpp:558
 #, kde-format
 msgctxt "Percent value; %p is the value, % is the percent sign"
 msgid "%p%"
@@ -232,18 +231,18 @@ msgstr ""
 msgid "You need to supply a username and a password to use this SMTP server."
 msgstr ""
 
-#: plugins/smtp/smtpmailtransportplugin.cpp:27
+#: plugins/smtp/smtpmailtransportplugin.cpp:29
 #| msgid "SMTP"
 msgctxt "@option SMTP transport"
 msgid "SMTP"
 msgstr "SMTP"
 
-#: plugins/smtp/smtpmailtransportplugin.cpp:28
+#: plugins/smtp/smtpmailtransportplugin.cpp:30
 #, kde-format
 msgid "An SMTP server on the Internet"
 msgstr ""
 
-#: plugins/smtp/smtpmailtransportplugin.cpp:38
+#: plugins/smtp/smtpmailtransportplugin.cpp:40
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure account"
@@ -414,7 +413,7 @@ msgstr ""
 msgid "The precommand exited with code %1."
 msgstr ""
 
-#: transport.cpp:81
+#: transport.cpp:83
 #| msgctxt ""
 #| "%1: name; %2: number appended to it to make it unique among a list of "
 #| "names"
@@ -423,44 +422,44 @@ msgctxt "%1: name; %2: number appended to it to make it unique among a list of n
 msgid "%1 #%2"
 msgstr "%1 #%2"
 
-#: transport.cpp:131
+#: transport.cpp:133
 #, kde-format
 msgctxt "Authentication method"
 msgid "Clear text"
 msgstr ""
 
-#: transport.cpp:135
+#: transport.cpp:137
 #, kde-format
 msgctxt "Authentication method"
 msgid "Anonymous"
 msgstr "Ананімна"
 
-#: transport.cpp:166
+#: transport.cpp:168
 #, kde-format
 msgctxt "An unknown transport type"
 msgid "Unknown"
 msgstr "Невядома"
 
-#: transport.cpp:210
+#: transport.cpp:212
 #, kde-format
 msgid "QKeychain not found a backend for storing your password. It is strongly recommended to use strong backend for managing your passwords.\n"
 "However, the password can be stored in the configuration file instead. The password is stored in an obfuscated format, but should not be considered secure from decryption efforts if access to the configuration file is obtained.\n"
 "Do you want to store the password for server '%1' in the configuration file?"
 msgstr ""
 
-#: transport.cpp:219
+#: transport.cpp:221
 #| msgid "KWallet Not Available"
 msgctxt "@title:window"
 msgid "KWallet Not Available"
 msgstr "KWallet недаступны"
 
-#: transport.cpp:220
+#: transport.cpp:222
 #| msgid "Store Password"
 msgctxt "@action:button"
 msgid "Store Password"
 msgstr "Захаваць пароль"
 
-#: transport.cpp:221
+#: transport.cpp:223
 #| msgid "Store Password"
 msgctxt "@action:button"
 msgid "Do Not Store Password"
@@ -471,24 +470,24 @@ msgstr ""
 msgid "The outgoing account \"%1\" is not correctly configured."
 msgstr ""
 
-#: transportmanager.cpp:224
+#: transportmanager.cpp:222
 #, kde-format
 msgid "You must create an outgoing account before sending."
 msgstr ""
 
-#: transportmanager.cpp:225
+#: transportmanager.cpp:223
 #, kde-format
 msgctxt "@title:window"
 msgid "Create Account Now?"
 msgstr ""
 
-#: transportmanager.cpp:226
+#: transportmanager.cpp:224
 #, kde-format
 msgctxt "@action:button"
 msgid "Create Account Now"
 msgstr ""
 
-#: transportmanager.cpp:608
+#: transportmanager.cpp:606
 #, kde-format
 msgid "The following mail transports store their passwords in an unencrypted configuration file.\n"
 "For security reasons, please consider migrating these passwords to KWallet, the KDE Wallet management tool,\n"
@@ -496,37 +495,37 @@ msgid "The following mail transports store their passwords in an unencrypted con
 "Do you want to migrate your passwords to KWallet?"
 msgstr ""
 
-#: transportmanager.cpp:615
+#: transportmanager.cpp:613
 #| msgid "Question"
 msgctxt "@title:window"
 msgid "Question"
 msgstr "Пытанне"
 
-#: transportmanager.cpp:616
+#: transportmanager.cpp:614
 #, kde-format
 msgctxt "@action:button"
 msgid "Migrate"
 msgstr ""
 
-#: transportmanager.cpp:617
+#: transportmanager.cpp:615
 #| msgid "Keep"
 msgctxt "@action:button"
 msgid "Keep"
 msgstr "Пакінуць"
 
-#: transportmodel.cpp:63
+#: transportmodel.cpp:65
 #| msgid " (Default)"
 msgctxt "Default transport"
 msgid " (default)"
 msgstr " (прадвызначана)"
 
-#: transportmodel.cpp:85
+#: transportmodel.cpp:88
 #| msgid "Name"
 msgctxt "@title:column email transport name"
 msgid "Name"
 msgstr "Імя"
 
-#: transportmodel.cpp:87
+#: transportmodel.cpp:90
 #| msgid "Type"
 msgctxt "@title:column email transport type"
 msgid "Type"
@@ -617,12 +616,12 @@ msgctxt "create and configure a mail transport"
 msgid "Create and Configure"
 msgstr ""
 
-#: widgets/transportmanagementwidgetng.cpp:155
+#: widgets/transportmanagementwidgetng.cpp:157
 #, kde-format
 msgid "Do you want to remove outgoing account '%1'?"
 msgstr ""
 
-#: widgets/transportmanagementwidgetng.cpp:156
+#: widgets/transportmanagementwidgetng.cpp:158
 #, kde-format
 msgid "Do you really want to remove this %1 outgoing account?"
 msgid_plural "Do you really want to remove these %1 outgoing accounts?"
@@ -631,37 +630,37 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: widgets/transportmanagementwidgetng.cpp:159
+#: widgets/transportmanagementwidgetng.cpp:161
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove outgoing account?"
 msgstr ""
 
-#: widgets/transportmanagementwidgetng.cpp:189
+#: widgets/transportmanagementwidgetng.cpp:191
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add…"
 msgstr "Дадаць…"
 
-#: widgets/transportmanagementwidgetng.cpp:194
+#: widgets/transportmanagementwidgetng.cpp:196
 #| msgid "&Modify..."
 msgctxt "@action:inmenu"
 msgid "Modify…"
 msgstr "Змяніць…"
 
-#: widgets/transportmanagementwidgetng.cpp:197
+#: widgets/transportmanagementwidgetng.cpp:199
 #| msgid "&Name:"
 msgctxt "@action:inmenu"
 msgid "Rename"
 msgstr "Змяніць назву"
 
-#: widgets/transportmanagementwidgetng.cpp:201
+#: widgets/transportmanagementwidgetng.cpp:203
 #| msgid "R&emove"
 msgctxt "@action:inmenu"
 msgid "Remove"
 msgstr "Выдаліць"
 
-#: widgets/transportmanagementwidgetng.cpp:207
+#: widgets/transportmanagementwidgetng.cpp:209
 #| msgid "Set Default"
 msgid "Set as Default"
 msgstr "Зрабіць прадвызначаным"
