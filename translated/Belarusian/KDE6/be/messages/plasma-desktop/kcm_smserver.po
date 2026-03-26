@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-25 00:42+0000\n"
-"PO-Revision-Date: 2025-02-25 19:17\n"
+"POT-Creation-Date: 2026-02-17 00:47+0000\n"
+"PO-Revision-Date: 2026-03-26 19:51\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -45,22 +45,30 @@ msgid "Applications to be excluded from session"
 msgstr "Праграмы будуць выключаныя з сеанса"
 
 #: ui/main.qml:30
-#, kde-format
+#| msgid "Failed to request restart to firmware setup: %1"
+msgctxt "@info:status inlinemessage"
 msgid "Failed to request restart to firmware setup: %1"
 msgstr "Не ўдалося адправіць запыт на перазапуск у праграму кіравання прашыўкай: %1"
 
 #: ui/main.qml:31
-#, kde-format
-msgid "Next time the computer is restarted, it will enter the UEFI setup screen."
-msgstr "Пасля перазапуску камп'ютара адкрыецца экран кіравання UEFI."
+#| msgid ""
+#| "Next time the computer is restarted, it will enter the firmware setup "
+#| "screen."
+msgctxt "@info:status inlinemessage"
+msgid "Next time the computer is restarted, it will enter UEFI firmware settings."
+msgstr ""
 
 #: ui/main.qml:32
-#, kde-format
+#| msgid ""
+#| "Next time the computer is restarted, it will enter the firmware setup "
+#| "screen."
+msgctxt "@info:status inlinemessage"
 msgid "Next time the computer is restarted, it will enter the firmware setup screen."
 msgstr "Пасля перазапуску камп'ютара адкрыецца праграма кіравання прашыўкай."
 
 #: ui/main.qml:37
-#, kde-format
+#| msgid "Restart Now"
+msgctxt "@action:button"
 msgid "Restart Now"
 msgstr "Перазапусціць"
 
@@ -89,7 +97,8 @@ msgid "Session Restore"
 msgstr "Аднаўленне сеанса"
 
 #: ui/main.qml:71
-#, kde-format
+#| msgid "On login, launch apps that were open:"
+msgctxt "@title:group prefix for radiobuttons"
 msgid "On login, launch apps that were open:"
 msgstr "Пры ўваходзе ў сістэму запускаць праграмы, якія былі адкрытыя:"
 
@@ -118,7 +127,8 @@ msgid "Start with an empty session"
 msgstr "Пачаць новы сеанс"
 
 #: ui/main.qml:113
-#, kde-format
+#| msgid "Ignored applications:"
+msgctxt "@label:textbox"
 msgid "Ignored applications:"
 msgstr "Праграмы, якія ігнаруюцца:"
 
@@ -127,6 +137,7 @@ msgstr "Праграмы, якія ігнаруюцца:"
 #| "Write apps' executable names here (separated by commas or colons, for "
 #| "example 'xterm:konsole' or 'xterm,konsole') to prevent them from "
 #| "autostarting along with other session-restored apps."
+msgctxt "@info:whatsthis contextualhelpbutton tooltip"
 msgid "Write apps' desktop file identifier or, on X11, executable names here (separated by commas or colons, for example 'xterm:org.kde.konsole.desktop' or 'xterm,org.kde.konsole.desktop') to prevent them from autostarting along with other session-restored apps."
 msgstr ""
 
@@ -143,16 +154,29 @@ msgid "After next restart:"
 msgstr "Пасля наступнага перазапуску:"
 
 #: ui/main.qml:145
-#, kde-format
+#| msgctxt "@option:check"
+#| msgid "Enter firmware setup screen"
 msgctxt "@option:check"
-msgid "Enter UEFI setup screen"
-msgstr "Увайсці ў праграму кіравання UEFI"
+msgid "Enter UEFI firmware settings"
+msgstr ""
 
 #: ui/main.qml:146
 #, kde-format
 msgctxt "@option:check"
 msgid "Enter firmware setup screen"
 msgstr "Увайсці ў праграму кіравання прашыўкай"
+
+#, fuzzy
+#~| msgid ""
+#~| "Next time the computer is restarted, it will enter the UEFI setup screen."
+#~ msgctxt "@info:status inlinemessage"
+#~ msgid ""
+#~ "Next time the computer is restarted, it will enter the UEFI setup screen."
+#~ msgstr "Пасля перазапуску камп'ютара адкрыецца экран кіравання UEFI."
+
+#~ msgctxt "@option:check"
+#~ msgid "Enter UEFI setup screen"
+#~ msgstr "Увайсці ў праграму кіравання UEFI"
 
 #~ msgid ""
 #~ "The system must be restarted before manual session saving becomes active."
