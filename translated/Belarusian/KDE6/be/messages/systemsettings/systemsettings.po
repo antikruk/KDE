@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-18 00:42+0000\n"
-"PO-Revision-Date: 2025-01-10 10:25\n"
+"POT-Creation-Date: 2026-01-28 00:46+0000\n"
+"PO-Revision-Date: 2026-03-26 19:55\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -136,21 +136,25 @@ msgstr "Даступны наступныя модулі:"
 msgid "No description available"
 msgstr "Няма даступнага апісання"
 
-#: app/ModuleView.cpp:183
+#: app/ModuleView.cpp:185
 #, kde-format
 msgid "Reset all current changes to previous values"
 msgstr "Скінуць усе бягучыя змены да папярэдніх значэнняў"
 
-#: app/ModuleView.cpp:359
-#| msgid ""
-#| "The settings of the current module have changed.\n"
-#| "Do you want to apply the changes or discard them?"
+#: app/ModuleView.cpp:278
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Scrollable area"
+msgstr ""
+
+#: app/ModuleView.cpp:368
+#, kde-format
 msgid "The current page has unsaved changes.\n"
 "Apply the changes or discard them?"
 msgstr "На бягучай старонцы ёсць незахаваныя змены.\n"
 " Ужыць змены ці адкінуць іх?"
 
-#: app/ModuleView.cpp:364
+#: app/ModuleView.cpp:373
 #, kde-format
 msgid "Apply Settings"
 msgstr "Ужыць налады"
@@ -171,22 +175,34 @@ msgstr "Паказваць меню"
 msgid "Plasma"
 msgstr "Plasma"
 
-#: app/SettingsBase.cpp:136
+#: app/qml/SubCategoryPage.qml:71
+#, kde-format
+msgctxt "@action:button go back"
+msgid "Back"
+msgstr "Назад"
+
+#: app/SettingsBase.cpp:144
 #, kde-format
 msgid "Highlight Changed Settings"
 msgstr "Падсвятляць змененыя налады"
 
-#: app/SettingsBase.cpp:147
+#: app/SettingsBase.cpp:152
+#, kde-format
+msgctxt "@option:check the pages being referred to here are System Settings KCMs"
+msgid "Show Inapplicable Pages"
+msgstr ""
+
+#: app/SettingsBase.cpp:163
 #, kde-format
 msgid "Report a Bug in the Current Page…"
 msgstr "Паведаміць пра хібу на бягучай старонцы…"
 
-#: app/SidebarMode.cpp:586
+#: app/SidebarMode.cpp:600
 #, kde-format
 msgid "Sidebar"
 msgstr "Бакавая панэль"
 
-#: app/SidebarMode.cpp:655
+#: app/SidebarMode.cpp:669
 #, kde-format
 msgid "Most Used"
 msgstr "Найбольш часта выкарыстоўваюцца"
