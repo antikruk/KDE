@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-22 00:40+0000\n"
-"PO-Revision-Date: 2025-02-25 19:20\n"
+"POT-Creation-Date: 2026-01-19 00:42+0000\n"
+"PO-Revision-Date: 2026-03-26 19:56\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -37,7 +37,7 @@ msgstr "Прадвызначаная"
 
 #. i18n: tag layout attribute name
 #: ../data/DefaultPlaylistLayouts.xml:36
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:512
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:518
 msgid "No Grouping"
 msgstr "Без групавання"
 
@@ -87,37 +87,37 @@ msgstr "Ліцэнзія: %1"
 msgid "&About"
 msgstr "&Пра праграму"
 
-#: aboutdialog/ExtendedAboutDialog.cpp:217
+#: aboutdialog/ExtendedAboutDialog.cpp:211
 #, kde-format
 msgid "Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to report bugs.\n"
 msgstr ""
 
+#: aboutdialog/ExtendedAboutDialog.cpp:216
 #: aboutdialog/ExtendedAboutDialog.cpp:222
-#: aboutdialog/ExtendedAboutDialog.cpp:228
 #, kde-format
 msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
 msgstr ""
 
-#: aboutdialog/ExtendedAboutDialog.cpp:245
+#: aboutdialog/ExtendedAboutDialog.cpp:239
 #| msgid "Author"
 msgid "A&uthor"
 msgstr ""
 
-#: aboutdialog/ExtendedAboutDialog.cpp:245
+#: aboutdialog/ExtendedAboutDialog.cpp:239
 #| msgid "Authors"
 msgid "A&uthors"
 msgstr ""
 
-#: aboutdialog/ExtendedAboutDialog.cpp:264
+#: aboutdialog/ExtendedAboutDialog.cpp:258
 #| msgid "&Configure..."
 msgid "&Contributors"
 msgstr ""
 
-#: aboutdialog/ExtendedAboutDialog.cpp:288
+#: aboutdialog/ExtendedAboutDialog.cpp:282
 msgid "&Donors"
 msgstr ""
 
-#: aboutdialog/ExtendedAboutDialog.cpp:317
+#: aboutdialog/ExtendedAboutDialog.cpp:311
 #| msgid "&Duration:"
 msgid "T&ranslation"
 msgstr ""
@@ -184,38 +184,38 @@ msgstr "&Трэк"
 msgid "&Album"
 msgstr "&Альбом"
 
-#: ActionClasses.cpp:367 scripting/scriptconsole/ScriptConsole.cpp:98
+#: ActionClasses.cpp:359 scripting/scriptconsole/ScriptConsole.cpp:98
 #, kde-format
 msgid "Stop"
 msgstr "Спыніць"
 
-#: ActionClasses.cpp:411
+#: ActionClasses.cpp:403
 #| msgid "Track"
 msgid "Stop after current Track"
 msgstr ""
 
-#: ActionClasses.cpp:428
+#: ActionClasses.cpp:420
 #| msgid "Track"
 msgid "Stop after current track: Off"
 msgstr ""
 
-#: ActionClasses.cpp:433
+#: ActionClasses.cpp:425
 #| msgid "Track"
 msgid "Stop after current track: On"
 msgstr ""
 
-#: ActionClasses.cpp:437
+#: ActionClasses.cpp:429
 #: context/applets/currenttrack/package/contents/ui/main.qml:102
-#: EngineController.cpp:1314 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:678
+#: EngineController.cpp:1242 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:679
 #, kde-format
 msgid "No track playing"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
-#: ActionClasses.cpp:441
-#: core-impl/collections/audiocd/FormatSelectionDialog.ui:14 main.cpp:45
-#: main.cpp:54 MainWindow.cpp:154 MainWindow.cpp:1222 MainWindow.cpp:1228
-#: MainWindow.cpp:1241
+#: ActionClasses.cpp:433
+#: core-impl/collections/audiocd/FormatSelectionDialog.ui:14 main.cpp:46
+#: main.cpp:55 MainWindow.cpp:154 MainWindow.cpp:1213 MainWindow.cpp:1219
+#: MainWindow.cpp:1232
 msgid "Amarok"
 msgstr ""
 
@@ -1345,7 +1345,7 @@ msgstr "Невядома"
 msgid "New Bookmark"
 msgstr "Новая закладка"
 
-#: amarokurls/BookmarkManager.cpp:35 MainWindow.cpp:797
+#: amarokurls/BookmarkManager.cpp:35 MainWindow.cpp:790
 msgid "Bookmark Manager"
 msgstr ""
 
@@ -1438,7 +1438,7 @@ msgstr ""
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:496
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:497
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:498
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:499 MainWindow.cpp:1241
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:499 MainWindow.cpp:1232
 #, kde-format
 msgid "Unknown"
 msgstr "Невядома"
@@ -1489,7 +1489,7 @@ msgstr ""
 msgid "Artist \"%1\""
 msgstr ""
 
-#: amarokurls/NavigationUrlGenerator.cpp:252 MainWindow.cpp:793
+#: amarokurls/NavigationUrlGenerator.cpp:252 MainWindow.cpp:786
 msgid "Bookmark Media Sources View"
 msgstr ""
 
@@ -1592,7 +1592,7 @@ msgstr ""
 msgid "Base for relative filenames/URLs"
 msgstr ""
 
-#: App.cpp:520 configdialog/dialogs/DatabaseConfig.cpp:109
+#: App.cpp:520 configdialog/dialogs/DatabaseConfig.cpp:110
 #| msgid "Database:"
 msgid "Database Error"
 msgstr ""
@@ -1670,7 +1670,7 @@ msgstr ""
 msgid "This is where you will find your local music, as well as music from mobile audio players and CDs."
 msgstr ""
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:165 MainWindow.cpp:941
+#: browsers/collectionbrowser/CollectionWidget.cpp:165 MainWindow.cpp:940
 #| msgid "Local collection"
 msgid "Search collection"
 msgstr ""
@@ -1797,7 +1797,7 @@ msgstr "Невядома"
 msgid "Various Artists"
 msgstr "Розныя выканаўцы"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1167
+#: browsers/CollectionTreeItemModelBase.cpp:1165
 #: browsers/CollectionTreeView.cpp:367
 #: context/applets/albums/plugin/AlbumsEngine.cpp:300
 #: context/applets/wikipedia/package/contents/ui/main.qml:115
@@ -1809,54 +1809,54 @@ msgstr "Розныя выканаўцы"
 msgid "Album"
 msgstr "Альбом"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1167
+#: browsers/CollectionTreeItemModelBase.cpp:1165
 #| msgid "Artist / Year - Album"
 msgid "Year - Album"
 msgstr ""
 
-#: browsers/CollectionTreeItemModelBase.cpp:1169
+#: browsers/CollectionTreeItemModelBase.cpp:1167
 #| msgid "Various Artists"
 msgid "Track Artist"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_29)
-#: browsers/CollectionTreeItemModelBase.cpp:1171 dialogs/TagGuessOptions.ui:253
+#: browsers/CollectionTreeItemModelBase.cpp:1169 dialogs/TagGuessOptions.ui:253
 #: musicbrainz/MusicBrainzTagsModel.cpp:39 playlist/PlaylistModel.cpp:932
 #, kde-format
 msgid "Album Artist"
 msgstr "Выканаўца альбома"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1173
+#: browsers/CollectionTreeItemModelBase.cpp:1171
 #: context/applets/wikipedia/package/contents/ui/main.qml:104
 #: playlist/PlaylistModel.cpp:933
 #, kde-format
 msgid "Composer"
 msgstr "Рэдактар лістоў"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1175 playlist/PlaylistModel.cpp:939
+#: browsers/CollectionTreeItemModelBase.cpp:1173 playlist/PlaylistModel.cpp:939
 #: playlist/ProgressiveSearchWidget.cpp:93
 #, kde-format
 msgid "Genre"
 msgstr "Жанр"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1177
+#: browsers/CollectionTreeItemModelBase.cpp:1175
 #: musicbrainz/MusicBrainzTagsModel.cpp:40 playlist/PlaylistModel.cpp:934
 #, kde-format
 msgid "Year"
 msgstr "Год"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1179
+#: browsers/CollectionTreeItemModelBase.cpp:1177
 #, kde-format
 msgid "Label"
 msgstr "Адмеціна"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1181
+#: browsers/CollectionTreeItemModelBase.cpp:1179
 #: playlist/navigators/NavigatorConfigAction.cpp:81
 #, kde-format
 msgid "None"
 msgstr "Няма"
 
-#: browsers/CollectionTreeView.cpp:354 dialogs/MusicBrainzTagger.cpp:105
+#: browsers/CollectionTreeView.cpp:354 dialogs/MusicBrainzTagger.cpp:102
 #: statsyncing/ui/MatchedTracksPage.cpp:167
 #, kde-format
 msgid "Collapse All"
@@ -1887,51 +1887,49 @@ msgstr ""
 msgid "Delete Tracks"
 msgstr ""
 
-#: browsers/CollectionTreeView.cpp:714 services/lastfm/LastFmTreeView.cpp:187
+#: browsers/CollectionTreeView.cpp:712 services/lastfm/LastFmTreeView.cpp:157
 #| msgid "Configure..."
 msgid "More..."
 msgstr "Больш..."
 
-#: browsers/CollectionTreeView.cpp:1106 browsers/filebrowser/FileView.cpp:378
+#: browsers/CollectionTreeView.cpp:1104 browsers/filebrowser/FileView.cpp:378
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:67
 #: context/applets/albums/plugin/AlbumsEngine.cpp:285
-#: services/lastfm/LastFmTreeView.cpp:97
 msgid "&Add to Playlist"
 msgstr ""
 
-#: browsers/CollectionTreeView.cpp:1117 browsers/filebrowser/FileView.cpp:389
+#: browsers/CollectionTreeView.cpp:1115 browsers/filebrowser/FileView.cpp:389
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:72
 #: context/applets/albums/plugin/AlbumsEngine.cpp:286
-#: services/lastfm/LastFmTreeView.cpp:106
 #| msgid "Smart Playlist"
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
 msgstr ""
 
-#: browsers/CollectionTreeView.cpp:1166
+#: browsers/CollectionTreeView.cpp:1164
 #, kde-format
 msgctxt "Organize Files"
 msgid "Organize Files"
 msgstr ""
 
-#: browsers/CollectionTreeView.cpp:1199 browsers/filebrowser/FileView.cpp:421
+#: browsers/CollectionTreeView.cpp:1197 browsers/filebrowser/FileView.cpp:421
 #| msgid "Plugin Information"
 msgid "&Edit Track Details"
 msgstr ""
 
-#: browsers/filebrowser/FileBrowser.cpp:69
+#: browsers/filebrowser/FileBrowser.cpp:68
 #: context/applets/wikipedia/package/contents/ui/main.qml:63
 #: context/applets/wikipedia/package/contents/ui/main.qml:165
 #| msgid "Refresh"
 msgid "Refresh"
 msgstr "Абнавіць"
 
-#: browsers/filebrowser/FileBrowser.cpp:79
+#: browsers/filebrowser/FileBrowser.cpp:78
 #| msgid "Delete failed"
 msgid "Filter Files"
 msgstr ""
 
-#: browsers/filebrowser/FileBrowser.cpp:218
+#: browsers/filebrowser/FileBrowser.cpp:208
 #, kde-format
 msgid "The file browser lets you browse files anywhere on your system, regardless of whether these files are part of your local collection. You can then add these files to the playlist as well as perform basic file operations."
 msgstr ""
@@ -2283,7 +2281,7 @@ msgstr ""
 msgid "&Export As..."
 msgstr ""
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:370
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:368
 #| msgid "Track"
 msgctxt "First part of 'Remove %1 From %2'"
 msgid "a Track"
@@ -2293,13 +2291,13 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:370
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:368
 #| msgid "Remove"
 msgctxt "%1: number of tracks. %2: number of playlists"
 msgid "Remove %1 From %2"
 msgstr ""
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:371
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:369
 #| msgid "&Playlist"
 msgctxt "Second part of 'Remove %1 From %2'"
 msgid "1 Playlist"
@@ -2309,7 +2307,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:375
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:373
 #| msgid "Import Playlists"
 msgctxt "%2 is saved playlist name"
 msgid "Remove a Track From %2"
@@ -2319,30 +2317,30 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:466
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:464
 #| msgid "&Playlist"
 msgctxt "Playlist deletion confirmation dialog. %1 is playlist name, %2 is playlist provider pretty name"
 msgid "Delete playlist <i>%1</i> from %2?"
 msgstr ""
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:468
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:466
 #| msgid "&Playlist"
 msgctxt "Playlist deletion confirmation dialog. %1 is the playlist count (always more than 1), %2 is playlist provider pretty name"
 msgid "Delete %1 playlists from %2?"
 msgstr ""
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:472
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:470
 #| msgid "Configure Playlist Info Applet"
 msgid "Confirm Playlist Deletion"
 msgstr ""
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:517 MainWindow.cpp:454
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:515 MainWindow.cpp:447
 #, kde-format
 msgid "Use relative path for &saving"
 msgstr ""
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:530
-#: covermanager/CoverFoundDialog.cpp:383 MainWindow.cpp:467
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:528
+#: covermanager/CoverFoundDialog.cpp:383 MainWindow.cpp:460
 #| msgid "Never"
 msgid "Save As"
 msgstr "Запісаць як"
@@ -2486,7 +2484,7 @@ msgstr[3] "%1 каналаў"
 msgid "Title"
 msgstr "Назва"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:321 dialogs/TagDialog.cpp:515
+#: browsers/playlistbrowser/PodcastModel.cpp:321 dialogs/TagDialog.cpp:516
 #, kde-format
 msgid "Summary"
 msgstr "Агулам"
@@ -2595,7 +2593,7 @@ msgid "Configure Plugins"
 msgstr ""
 
 #: configdialog/ConfigDialog.cpp:66
-#: scripting/scriptconsole/ScriptConsole.cpp:377
+#: scripting/scriptconsole/ScriptConsole.cpp:422
 msgid "Scripts"
 msgstr "Скрыпты"
 
@@ -2641,34 +2639,34 @@ msgstr ""
 msgid "Transcode tracks:"
 msgstr ""
 
-#: configdialog/dialogs/DatabaseConfig.cpp:102
+#: configdialog/dialogs/DatabaseConfig.cpp:103
 #, kde-format
 msgid "Amarok was able to establish a successful connection to the database."
 msgstr ""
 
-#: configdialog/dialogs/DatabaseConfig.cpp:103
+#: configdialog/dialogs/DatabaseConfig.cpp:104
 #| msgid "Score"
 msgid "Success"
 msgstr "Выканана"
 
-#: configdialog/dialogs/DatabaseConfig.cpp:105
+#: configdialog/dialogs/DatabaseConfig.cpp:106
 #, kde-format
 msgid "The amarok database reported the following errors:\n"
 "%1\n"
 "In most cases you will need to resolve these errors before Amarok will run properly."
 msgstr ""
 
-#: configdialog/dialogs/DatabaseConfig.cpp:135
+#: configdialog/dialogs/DatabaseConfig.cpp:137
 #, kde-format
 msgid "Changes to database settings only take\n"
 "effect after Amarok is restarted."
 msgstr ""
 
-#: configdialog/dialogs/DatabaseConfig.cpp:136
+#: configdialog/dialogs/DatabaseConfig.cpp:138
 msgid "Database settings changed"
 msgstr ""
 
-#: configdialog/dialogs/DatabaseConfig.cpp:155
+#: configdialog/dialogs/DatabaseConfig.cpp:161
 #| msgid "Password:"
 msgctxt "A default password for insertion into an example SQL command (so as not to print the real one). To be manually replaced by the user."
 msgid "password"
@@ -3027,7 +3025,7 @@ msgstr ""
 #: configdialog/dialogs/MetadataConfig.ui:37
 #, kde-format
 msgid "Write play-changing statistics (e.g. score, lastplayed, playcount)\n"
-"as tags back to the file."
+"as tags back to the audio file."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_writeBackStatistics)
@@ -3239,7 +3237,7 @@ msgstr ""
 
 #: configdialog/dialogs/PlaybackConfig.cpp:36
 #, kde-format
-msgid "Current Phonon backend does not support volume fading"
+msgid "Current audio backend does not support volume fading"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ResumePlayback)
@@ -3381,7 +3379,7 @@ msgstr ""
 msgid "Generic"
 msgstr "Звычайны"
 
-#: configdialog/dialogs/ScriptsConfig.cpp:229 dialogs/TagDialog.cpp:517
+#: configdialog/dialogs/ScriptsConfig.cpp:229 dialogs/TagDialog.cpp:518
 #, kde-format
 msgid "Lyrics"
 msgstr "Тэксты песень"
@@ -3541,7 +3539,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, matchedLabelsButton)
 #: context/applets/labels/LabelsApplet.cpp:94
-#: context/applets/labels/LabelsApplet.cpp:187 dialogs/TagDialog.cpp:518
+#: context/applets/labels/LabelsApplet.cpp:187 dialogs/TagDialog.cpp:519
 #: statsyncing/ui/MatchedTracksPage.ui:87
 msgid "Labels"
 msgstr "Адмеціны"
@@ -3556,7 +3554,7 @@ msgstr "Абнавіць"
 #: context/applets/tabs/TabsApplet.cpp:108
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:20
 #: core-impl/podcasts/sql/PodcastFilenameLayoutConfigDialog.cpp:45
-#: core-impl/podcasts/sql/PodcastSettingsDialog.cpp:48
+#: core-impl/podcasts/sql/PodcastSettingsDialog.cpp:50
 #: statsyncing/ui/ConfigureProviderDialog.cpp:39
 #| msgid "&Settings"
 msgid "Settings"
@@ -3724,7 +3722,7 @@ msgstr "з"
 #. i18n: ectx: property (text), widget (QPushButton, addPushButton)
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
 #: context/applets/labels/labelsReplacementSettings.ui:69
-#: dialogs/TagDialogBase.ui:1005
+#: dialogs/TagDialogBase.ui:1037
 #, kde-format
 msgid "Add"
 msgstr "Дадаць"
@@ -3899,7 +3897,6 @@ msgstr ""
 #: context/applets/wikipedia/package/contents/ui/main.qml:93
 #: musicbrainz/MusicBrainzTagsModel.cpp:37 playlist/PlaylistModel.cpp:931
 #: services/jamendo/JamendoInfoParser.cpp:51
-#: services/lastfm/LastFmService.cpp:395
 #: services/magnatune/MagnatuneStore.cpp:216
 #, kde-format
 msgid "Artist"
@@ -4065,12 +4062,12 @@ msgctxt "%1 is field name such as 'Artist Name'"
 msgid "%1 is needed for searching Wikipedia."
 msgstr ""
 
-#: context/applets/wikipedia/plugin/WikipediaEngine.cpp:754
+#: context/applets/wikipedia/plugin/WikipediaEngine.cpp:739
 #| msgid "Rating"
 msgid "Choose Language"
 msgstr ""
 
-#: context/applets/wikipedia/plugin/WikipediaEngine.cpp:887
+#: context/applets/wikipedia/plugin/WikipediaEngine.cpp:872
 #, kde-format
 msgctxt "A message (link) shown for clicked non-Wikipedia links in Wikipedia applet. %1 is the url of the link"
 msgid "Click to open %1 in a web browser"
@@ -4244,17 +4241,17 @@ msgstr ""
 msgid "Could not create directory: %1"
 msgstr ""
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:618
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:620
 #| msgid "&Queue Tracks"
 msgid "Transferring: %1"
 msgstr ""
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:620
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:622
 #| msgid "&Queue Tracks"
 msgid "Transcoding: %1"
 msgstr ""
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:664
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:666
 #: core-impl/collections/support/FileCollectionLocation.cpp:86
 #| msgid "Remove this %1"
 msgid "Removing: %1"
@@ -4340,7 +4337,7 @@ msgstr "Невядомы выканаўца"
 
 #: core-impl/collections/ipodcollection/IpodMeta.cpp:184
 #: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:92
-#: EngineController.cpp:1292
+#: EngineController.cpp:1220
 #, kde-format
 msgid "Unknown track"
 msgstr "Невядомая дарожка"
@@ -5310,15 +5307,17 @@ msgstr ""
 msgid "Episode Filename Configuration"
 msgstr ""
 
-#: core-impl/podcasts/sql/PodcastSettingsDialog.cpp:39
+#: core-impl/podcasts/sql/PodcastSettingsDialog.cpp:41
 #, kde-format
 msgctxt "change options"
 msgid "Configure %1"
 msgstr "Наладжванне \"%1\""
 
-#: core-impl/podcasts/sql/PodcastSettingsDialog.cpp:77
-msgid " Item"
-msgid_plural " Items"
+#: core-impl/podcasts/sql/PodcastSettingsDialog.cpp:79
+#, kde-format
+msgctxt "Spinbox label"
+msgid "%v item"
+msgid_plural "%v items"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -5330,112 +5329,107 @@ msgstr[3] ""
 msgid "Podcast"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:291
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:292
 #| msgid "Update"
 msgid "&Update All Channels"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:297
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:298
 #| msgid "Track"
 msgid "&Configure General Settings"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:303
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:304
 #, kde-format
 msgid "&Export subscriptions to OPML file"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:329
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:330
 #| msgid "&Configure..."
 msgid "&Configure"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:342
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:343
 #| msgid "Description"
 msgid "&Remove Subscription"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:351
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:352
 #| msgid "Update"
 msgid "&Update Channel"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:387
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:388
 #| msgid "&Download"
 msgid "&Download Episode"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:395
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:396
 #, kde-format
 msgid "&Delete Downloaded Episode"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:404
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:405
 #, kde-format
 msgid "&Write Feed Information to File"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:412
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:413
 #| msgid "&Download"
 msgid "&Keep downloaded file"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:413
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:414
 #, kde-format
 msgid "Toggle the \"keep\" downloaded file status of this podcast episode. Downloaded files with this status wouldn't be deleted even if we apply a purge."
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:479
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:480
 #, kde-format
 msgid "Already subscribed to %1."
 msgstr ""
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:604
-#| msgid "Never"
-msgctxt "prefix to 'x minutes'"
-msgid "every "
-msgstr "кожную(ыя) "
-
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:605
 #| msgid "Minutes"
-msgid " minute"
-msgid_plural " minutes"
-msgstr[0] " хвіліна"
-msgstr[1] " хвілін"
-msgstr[2] " хвілін"
-msgstr[3] " хвілін"
+msgctxt "Spinbox label"
+msgid "every %v minute"
+msgid_plural "every %v minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:620
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:619
 #| msgid "&Configure..."
 msgid "Configure Local Podcasts"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:641
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:640
 #| msgid "Local Podcasts"
 msgid "Move Podcasts"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:642
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:641
 #, kde-format
 msgid "Do you want to move all downloaded episodes to the new location?"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:709
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:708
 #, kde-format
 msgid "Select file for OPML export"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:856
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:855
 #| msgid "Do you really want to remove this %1?"
 msgid "Do you really want to unsubscribe from \"%1\"?"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:859
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:858
 #| msgid "&Download"
 msgid "Delete downloaded episodes"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:982
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:981
 #, kde-format
 msgid "There is still a podcast download in progress"
 msgid_plural "There are still %1 podcast downloads in progress"
@@ -5444,23 +5438,23 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:985
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:984
 #, kde-format
 msgid "Cancel Download and Quit."
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1163
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1411
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1160
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1408
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1173
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1170
 #| msgid "Downloading Playlist"
 msgid "Downloading Podcast Media"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1174
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1171
 #| msgid "Downloading Playlist"
 msgid "Downloading Podcast \"%1\""
 msgstr ""
@@ -5509,7 +5503,7 @@ msgid "Base directory for all new podcast channels.\n"
 "This can be changed for each channel individually."
 msgstr ""
 
-#: core-impl/storage/StorageManager.cpp:162
+#: core-impl/storage/StorageManager.cpp:159
 #| msgid "This object could not be created."
 msgid "The configured database plugin could not be loaded."
 msgstr ""
@@ -6617,7 +6611,7 @@ msgid "Enter Custom Search"
 msgstr ""
 
 #: covermanager/CoverFoundDialog.cpp:136
-#: services/lastfm/LastFmServiceCollection.cpp:115
+#: services/lastfm/LastFmServiceCollection.cpp:111
 #: services/lastfm/ScrobblerAdapter.cpp:73
 #: services/lastfm/SynchronizationAdapter.cpp:54
 #| msgid "last.fm"
@@ -6777,7 +6771,7 @@ msgctxt "@item::intable"
 msgid "URL"
 msgstr "URL"
 
-#: covermanager/CoverManager.cpp:111 MainWindow.cpp:813
+#: covermanager/CoverManager.cpp:111 MainWindow.cpp:806
 #, kde-format
 msgid "Cover Manager"
 msgstr ""
@@ -7093,42 +7087,40 @@ msgctxt "Track has been matched ambiguously, format: Url"
 msgid "Multiple ambiguous matches found for <b><font color='red'>%1</font></b>, has been discarded."
 msgstr ""
 
-#: dialogs/DiagnosticDialog.cpp:86
+#: dialogs/DiagnosticDialog.cpp:54
 #| msgid "Update Collection"
 msgid "Copy to Clipboard"
 msgstr "Скапіяваць у буфер абмену"
 
-#: dialogs/DiagnosticDialog.cpp:90
+#: dialogs/DiagnosticDialog.cpp:58
 #| msgid "Statistics"
 msgctxt "%1 is the program name"
 msgid "%1 Diagnostics"
 msgstr ""
 
-#: dialogs/DiagnosticDialog.cpp:145
+#: dialogs/DiagnosticDialog.cpp:111
 #| msgid "Yes"
 msgctxt "Usage"
 msgid "Yes"
 msgstr "Так"
 
-#: dialogs/DiagnosticDialog.cpp:145
+#: dialogs/DiagnosticDialog.cpp:111
 #| msgid "No"
 msgctxt "Usage"
 msgid "No"
 msgstr "Не"
 
-#: dialogs/DiagnosticDialog.cpp:148
+#: dialogs/DiagnosticDialog.cpp:114
 #, kde-format
 msgid "%1 Diagnostics\n\n"
 "General Information:\n"
 "   %1 Version: %2\n"
 "   KDE Frameworks Version: %3\n"
 "   Qt Version: %4\n"
-"   Phonon Version: %5\n"
-"   Phonon Backend: %6 (%7, %8)\n"
-"   PulseAudio: %9\n\n"
+"   GStreamer: %5\n\n"
 msgstr ""
 
-#: dialogs/DiagnosticDialog.cpp:165
+#: dialogs/DiagnosticDialog.cpp:125
 #, kde-format
 msgid "Enabled Scripts:\n"
 "%1\n"
@@ -7298,43 +7290,43 @@ msgstr "Перадузмацненне"
 msgid "Hz"
 msgstr "Гц"
 
-#: dialogs/MusicBrainzTagger.cpp:93
+#: dialogs/MusicBrainzTagger.cpp:90
 #, kde-format
 msgid "Choose Best Matches"
 msgstr ""
 
-#: dialogs/MusicBrainzTagger.cpp:94
+#: dialogs/MusicBrainzTagger.cpp:91
 #, kde-format
 msgid "Use the top result for each undecided track. Alternatively, you can click on <b>Choose Best Matches from This Album</b> in the context menu of a good suggestion; it may give even better results because it prevents mixing different album releases together."
 msgstr ""
 
-#: dialogs/MusicBrainzTagger.cpp:95
+#: dialogs/MusicBrainzTagger.cpp:92
 #, kde-format
 msgid "Clear Choices"
 msgstr ""
 
-#: dialogs/MusicBrainzTagger.cpp:96
+#: dialogs/MusicBrainzTagger.cpp:93
 #, kde-format
 msgid "Clear all choices, even manually made ones."
 msgstr ""
 
-#: dialogs/MusicBrainzTagger.cpp:101
+#: dialogs/MusicBrainzTagger.cpp:98
 #, kde-format
 msgid "Collapse Chosen"
 msgstr ""
 
-#: dialogs/MusicBrainzTagger.cpp:112
+#: dialogs/MusicBrainzTagger.cpp:109
 #, kde-format
 msgid "Expand Unchosen"
 msgstr ""
 
-#: dialogs/MusicBrainzTagger.cpp:116 statsyncing/ui/MatchedTracksPage.cpp:159
+#: dialogs/MusicBrainzTagger.cpp:113 statsyncing/ui/MatchedTracksPage.cpp:159
 #, kde-format
 msgid "Expand All"
 msgstr "Разгарнуць усё"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
-#: dialogs/MusicBrainzTagger.ui:12 dialogs/TagDialog.cpp:1402
+#: dialogs/MusicBrainzTagger.ui:12 dialogs/TagDialog.cpp:1420
 #| msgid "MusicBrainz Lookup"
 msgid "MusicBrainz Tagger"
 msgstr ""
@@ -7359,7 +7351,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
-#: dialogs/MusicBrainzTagger.ui:68 dialogs/TagDialogBase.ui:1146
+#: dialogs/MusicBrainzTagger.ui:68 dialogs/TagDialogBase.ui:1178
 #: services/magnatune/MagnatuneRedownloadDialogBase.ui:36
 #, kde-format
 msgid "&Cancel"
@@ -7606,23 +7598,23 @@ msgstr "Рэгулярны выраз"
 msgid "Character string"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:516
+#: dialogs/TagDialog.cpp:517
 #, kde-format
 msgid "Tags"
 msgstr "Тэгі"
 
-#: dialogs/TagDialog.cpp:673 dialogs/TagDialog.cpp:681
+#: dialogs/TagDialog.cpp:674 dialogs/TagDialog.cpp:682
 #| msgid "Unknown"
 msgctxt "The value for this tag is not known"
 msgid "Unknown"
 msgstr "Невядома"
 
-#: dialogs/TagDialog.cpp:718
+#: dialogs/TagDialog.cpp:719
 #| msgid "Plugin Information"
 msgid "Track Details: %1 by %2"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:724
+#: dialogs/TagDialog.cpp:725
 #| msgid "Track"
 msgctxt "The amount of tracks being edited"
 msgid "1 Track"
@@ -7632,22 +7624,22 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: dialogs/TagDialog.cpp:753 dialogs/TagDialog.cpp:763
+#: dialogs/TagDialog.cpp:754 dialogs/TagDialog.cpp:764
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:755 dialogs/TagDialog.cpp:765
+#: dialogs/TagDialog.cpp:756 dialogs/TagDialog.cpp:766
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: dialogs/TagDialog.cpp:761
+#: dialogs/TagDialog.cpp:762
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:771
+#: dialogs/TagDialog.cpp:772
 #, kde-format
 msgid "Editing 1 file"
 msgid_plural "Editing %1 files"
@@ -7656,13 +7648,13 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: dialogs/TagDialog.cpp:809
+#: dialogs/TagDialog.cpp:810
 #| msgid "None"
 msgctxt "The collection this track is part of"
 msgid "None"
 msgstr "Няма"
 
-#: dialogs/TagDialog.cpp:977
+#: dialogs/TagDialog.cpp:995
 #| msgid "File does not exist: '%1'"
 msgid "The track is not playable. %1"
 msgstr ""
@@ -7755,149 +7747,155 @@ msgstr ""
 msgid "Last played:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, noteLabel)
+#. i18n: ectx: property (text), widget (QLabel, addedToCollectionLabel)
 #: dialogs/TagDialogBase.ui:467
+#| msgid "Collection"
+msgid "Added to collection:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, noteLabel)
+#: dialogs/TagDialogBase.ui:499
 #| msgid "None"
 msgid "Note:"
 msgstr "Нататка:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
-#: dialogs/TagDialogBase.ui:509
+#: dialogs/TagDialogBase.ui:541
 #| msgid "Tags"
 msgid "Ta&gs"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: dialogs/TagDialogBase.ui:515
+#: dialogs/TagDialogBase.ui:547
 #, kde-format
 msgid "T&itle:"
 msgstr "Н&азва:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: dialogs/TagDialogBase.ui:541
+#: dialogs/TagDialogBase.ui:573
 msgid "&Artist:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2)
-#: dialogs/TagDialogBase.ui:573
+#: dialogs/TagDialogBase.ui:605
 msgid "&Composer:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_albumArtist)
-#: dialogs/TagDialogBase.ui:602
+#: dialogs/TagDialogBase.ui:634
 #| msgid "Artist"
 msgid "Album artist:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: dialogs/TagDialogBase.ui:625
+#: dialogs/TagDialogBase.ui:657
 msgid "Al&bum:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_6_6)
-#: dialogs/TagDialogBase.ui:663
+#: dialogs/TagDialogBase.ui:695
 #| msgid "Track Number"
 msgid "Trac&k number:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
-#: dialogs/TagDialogBase.ui:701
+#: dialogs/TagDialogBase.ui:733
 msgid "&Genre:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2_2)
-#: dialogs/TagDialogBase.ui:739
+#: dialogs/TagDialogBase.ui:771
 msgid "&Disc number:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
-#: dialogs/TagDialogBase.ui:774
+#: dialogs/TagDialogBase.ui:806
 msgid "&Year:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_BPM)
-#: dialogs/TagDialogBase.ui:815
+#: dialogs/TagDialogBase.ui:847
 #, kde-format
 msgid "B&eats per minute:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_comment)
-#: dialogs/TagDialogBase.ui:844
+#: dialogs/TagDialogBase.ui:876
 #, kde-format
 msgid "Co&mment:"
 msgstr "Ка&ментар:"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_musicbrainz)
-#: dialogs/TagDialogBase.ui:875
+#: dialogs/TagDialogBase.ui:907
 #, kde-format
 msgid "Get Tags from MusicBrain&z"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_guessTags)
-#: dialogs/TagDialogBase.ui:888
+#: dialogs/TagDialogBase.ui:920
 #, kde-format
 msgid "Guess Tags from &Filename"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, lyricsTab)
-#: dialogs/TagDialogBase.ui:896
+#: dialogs/TagDialogBase.ui:928
 #| msgid "Lyrics"
 msgid "L&yrics"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, labelsTab)
-#: dialogs/TagDialogBase.ui:913
+#: dialogs/TagDialogBase.ui:945
 msgid "La&bels"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: dialogs/TagDialogBase.ui:929
+#: dialogs/TagDialogBase.ui:961
 msgid "Label:"
 msgstr "Адмеціна:"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, kComboBox_label)
-#: dialogs/TagDialogBase.ui:945
+#: dialogs/TagDialogBase.ui:977
 #, kde-format
 msgid "Insert your custom label here or select one from the list."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: dialogs/TagDialogBase.ui:976
+#: dialogs/TagDialogBase.ui:1008
 #, kde-format
 msgid "Custom labels for this item:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#: dialogs/TagDialogBase.ui:1021
+#: dialogs/TagDialogBase.ui:1053
 #, kde-format
 msgid "Remove"
 msgstr "Выдаліць"
 
 #. i18n: ectx: property (text), widget (QLabel, locationLabel)
-#: dialogs/TagDialogBase.ui:1050
+#: dialogs/TagDialogBase.ui:1082
 #, kde-format
 msgid "Location:"
 msgstr "Адрас:"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_previous)
-#: dialogs/TagDialogBase.ui:1093 playlist/ProgressiveSearchWidget.cpp:64
+#: dialogs/TagDialogBase.ui:1125 playlist/ProgressiveSearchWidget.cpp:64
 msgid "&Previous"
 msgstr "&Назад"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_next)
-#: dialogs/TagDialogBase.ui:1103 playlist/ProgressiveSearchWidget.cpp:61
+#: dialogs/TagDialogBase.ui:1135 playlist/ProgressiveSearchWidget.cpp:61
 #, kde-format
 msgid "&Next"
 msgstr "&Наступны"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_perTrack)
-#: dialogs/TagDialogBase.ui:1110
+#: dialogs/TagDialogBase.ui:1142
 #| msgid "tracks"
 msgid "Per trac&k"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_ok)
-#: dialogs/TagDialogBase.ui:1133
+#: dialogs/TagDialogBase.ui:1165
 #, kde-format
 msgid "Sa&ve && Close"
 msgstr ""
@@ -8403,29 +8401,29 @@ msgctxt "Name of a dynamic playlist"
 msgid "Rating"
 msgstr "Рэйтынг"
 
-#: EngineController.cpp:1082
+#: EngineController.cpp:996
 #, kde-format
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
 
-#: EngineController.cpp:1282
+#: EngineController.cpp:1210
 #, kde-format
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr ""
 
-#: EngineController.cpp:1284
+#: EngineController.cpp:1212
 #, kde-format
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr ""
 
-#: EngineController.cpp:1287
+#: EngineController.cpp:1215
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr ""
 
-#: EngineController.cpp:1299
+#: EngineController.cpp:1227
 msgctxt "track from source"
 msgid "from <b>%1</b>"
 msgstr ""
@@ -8675,22 +8673,22 @@ msgstr ""
 msgid "Lyrics data could not be parsed"
 msgstr ""
 
-#: mac/GrowlInterface.cpp:64 widgets/Osd.cpp:705
+#: mac/GrowlInterface.cpp:64 widgets/Osd.cpp:706
 #, kde-format
 msgid "No information available for this track"
 msgstr ""
 
-#: main.cpp:56
+#: main.cpp:57
 msgid "The audio player by KDE"
 msgstr ""
 
-#: main.cpp:58
+#: main.cpp:59
 #, kde-format
 msgid "(C) 2002-2003, Mark Kretschmann\n"
 "(C) 2003-2025, The Amarok Development Squad"
 msgstr ""
 
-#: main.cpp:59
+#: main.cpp:60
 #, kde-format
 msgid "IRC:\n"
 "irc.libera.chat - #amarok\n\n"
@@ -8699,831 +8697,831 @@ msgid "IRC:\n"
 "(Build Date: %1)"
 msgstr ""
 
-#: main.cpp:69
+#: main.cpp:70
 #, kde-format
 msgid "<i>Inactive authors</i>"
 msgstr ""
 
-#: main.cpp:70
+#: main.cpp:71
 #, kde-format
 msgid "Amarok authorship is not a hobby, it's a lifestyle. But when people move on we want to keep respecting them by mentioning them here:"
 msgstr ""
 
-#: main.cpp:76
+#: main.cpp:77
 #, kde-format
 msgid "Bart 'Where are my toothpicks' Cerneels"
 msgstr ""
 
-#: main.cpp:77
+#: main.cpp:78
 #| msgid "Device"
 msgid "Developer (Stecchino)"
 msgstr ""
 
-#: main.cpp:80
+#: main.cpp:81
 #, kde-format
 msgid "Edward \"Hades\" Toroshchin"
 msgstr ""
 
-#: main.cpp:81
+#: main.cpp:82
 #| msgid "Device"
 msgid "Developer (dr_lepper)"
 msgstr ""
 
-#: main.cpp:84
+#: main.cpp:85
 #, kde-format
 msgid "Mark Kretschmann"
 msgstr ""
 
-#: main.cpp:85
+#: main.cpp:86
 #, kde-format
 msgid "Project founder (markey)"
 msgstr ""
 
-#: main.cpp:88
+#: main.cpp:89
 #, kde-format
 msgid "Matěj Laitl"
 msgstr ""
 
-#: main.cpp:89
+#: main.cpp:90
 #, kde-format
 msgid "iPod collection rewrite & more (strohel)"
 msgstr ""
 
-#: main.cpp:92
+#: main.cpp:93
 #, kde-format
 msgid "Myriam Schweingruber"
 msgstr ""
 
-#: main.cpp:92
+#: main.cpp:93
 #, kde-format
 msgid "Rokymoter, Bug triaging (Mamarok)"
 msgstr ""
 
-#: main.cpp:95
+#: main.cpp:96
 #, kde-format
 msgid "Ralf 'SalsaMaster' Engels"
 msgstr ""
 
-#: main.cpp:96
+#: main.cpp:97
 #| msgid "Device"
 msgid "Developer (rengels)"
 msgstr ""
 
-#: main.cpp:99
+#: main.cpp:100
 #, kde-format
 msgid "Patrick von Reth"
 msgstr ""
 
-#: main.cpp:99
+#: main.cpp:100
 #, kde-format
 msgid "Windows build (TheOneRing)"
 msgstr ""
 
-#: main.cpp:103
+#: main.cpp:104
 #, kde-format
 msgid "Rick W. Chen"
 msgstr ""
 
-#: main.cpp:104
+#: main.cpp:105
 #| msgid "Device"
 msgid "Developer (stuffcorpse)"
 msgstr ""
 
-#: main.cpp:107
+#: main.cpp:108
 #| msgid "Sample Rate"
 msgid "Sam Lade"
 msgstr ""
 
-#: main.cpp:107
+#: main.cpp:108
 #| msgid "Device"
 msgid "Developer (Sentynel)"
 msgstr ""
 
-#: main.cpp:111
+#: main.cpp:112
 #, kde-format
 msgid "Sven Krohlas"
 msgstr ""
 
-#: main.cpp:111
+#: main.cpp:112
 #| msgid "Device"
 msgid "Rokymoter, Developer (sven423)"
 msgstr ""
 
-#: main.cpp:114
+#: main.cpp:115
 #, kde-format
 msgid "Téo Mrnjavac"
 msgstr ""
 
-#: main.cpp:115
+#: main.cpp:116
 #| msgid "Device"
 msgid "Developer (Teo`)"
 msgstr ""
 
-#: main.cpp:118
+#: main.cpp:119
 #, kde-format
 msgid "Valorie Zimmerman"
 msgstr ""
 
-#: main.cpp:119
+#: main.cpp:120
 #, kde-format
 msgid "Rokymoter, Handbook (valorie)"
 msgstr ""
 
-#: main.cpp:122
+#: main.cpp:123
 #, kde-format
 msgid "Ian 'The Beard' Monroe"
 msgstr ""
 
-#: main.cpp:122
+#: main.cpp:123
 #| msgid "Device"
 msgid "Developer (eean)"
 msgstr ""
 
-#: main.cpp:125
+#: main.cpp:126
 #, kde-format
 msgid "Jeff 'IROKSOHARD' Mitchell"
 msgstr ""
 
-#: main.cpp:125
+#: main.cpp:126
 #| msgid "Device"
 msgid "Developer (jefferai)"
 msgstr ""
 
-#: main.cpp:128
+#: main.cpp:129
 #, kde-format
 msgid "Leo Franchi"
 msgstr ""
 
-#: main.cpp:128
+#: main.cpp:129
 #| msgid "Device"
 msgid "Developer (lfranchi)"
 msgstr ""
 
-#: main.cpp:131
+#: main.cpp:132
 #, kde-format
 msgid "Lydia 'is wrong(TM)' Pintscher"
 msgstr ""
 
-#: main.cpp:131
+#: main.cpp:132
 #, kde-format
 msgid "Release Vixen (Nightrose)"
 msgstr ""
 
-#: main.cpp:134
+#: main.cpp:135
 #, kde-format
 msgid "Max Howell"
 msgstr ""
 
-#: main.cpp:134
+#: main.cpp:135
 #| msgid "Device"
 msgid "Developer, Vision"
 msgstr ""
 
-#: main.cpp:137
+#: main.cpp:138
 #, kde-format
 msgid "Maximilian Kossick"
 msgstr ""
 
-#: main.cpp:137
+#: main.cpp:138
 #| msgid "Device"
 msgid "Developer (maxx_k)"
 msgstr ""
 
-#: main.cpp:140
+#: main.cpp:141
 #, kde-format
 msgid "Nikolaj Hald 'Also very hot' Nielsen"
 msgstr ""
 
-#: main.cpp:140
+#: main.cpp:141
 #| msgid "Device"
 msgid "Developer (nhn)"
 msgstr ""
 
-#: main.cpp:143
+#: main.cpp:144
 #, kde-format
 msgid "Seb 'Surfin' down under' Ruiz"
 msgstr ""
 
-#: main.cpp:143
+#: main.cpp:144
 #| msgid "Device"
 msgid "Developer (sebr)"
 msgstr ""
 
-#: main.cpp:148
+#: main.cpp:149
 #, kde-format
 msgid "Alejandro Wainzinger"
 msgstr ""
 
-#: main.cpp:148
+#: main.cpp:149
 #| msgid "Device"
 msgid "Developer (xevix)"
 msgstr ""
 
-#: main.cpp:150
+#: main.cpp:151
 #, kde-format
 msgid "Alex Merry"
 msgstr "Alex Merry"
 
-#: main.cpp:150
+#: main.cpp:151
 #, kde-format
 msgid "Developer, Replay Gain support"
 msgstr ""
 
-#: main.cpp:152
+#: main.cpp:153
 #, kde-format
 msgid "Casey Link"
 msgstr ""
 
-#: main.cpp:152
+#: main.cpp:153
 #, kde-format
 msgid "MP3tunes integration"
 msgstr ""
 
-#: main.cpp:154
+#: main.cpp:155
 #, kde-format
 msgid "Casper van Donderen"
 msgstr ""
 
-#: main.cpp:154
+#: main.cpp:155
 #, kde-format
 msgid "Windows porting"
 msgstr ""
 
-#: main.cpp:156
+#: main.cpp:157
 #, kde-format
 msgid "Christie Harris"
 msgstr ""
 
-#: main.cpp:156
+#: main.cpp:157
 #, kde-format
 msgid "Rokymoter (dangle)"
 msgstr ""
 
-#: main.cpp:158
+#: main.cpp:159
 #, kde-format
 msgid "Dan Leinir Turthra Jensen"
 msgstr "Dan Leinir Turthra Jensen"
 
-#: main.cpp:158
+#: main.cpp:159
 #, kde-format
 msgid "Usability"
 msgstr ""
 
-#: main.cpp:160
+#: main.cpp:161
 #, kde-format
 msgid "Dan 'Hey, it compiled...' Meltzer"
 msgstr ""
 
-#: main.cpp:160
+#: main.cpp:161
 #| msgid "Device"
 msgid "Developer (hydrogen)"
 msgstr ""
 
-#: main.cpp:162
+#: main.cpp:163
 #, kde-format
 msgid "Daniel Caleb Jones"
 msgstr ""
 
-#: main.cpp:162
+#: main.cpp:163
 #| msgid "Smart Playlist"
 msgid "Biased playlists"
 msgstr ""
 
-#: main.cpp:164
+#: main.cpp:165
 #, kde-format
 msgid "Daniel Dewald"
 msgstr ""
 
-#: main.cpp:164
+#: main.cpp:165
 #, kde-format
 msgid "Tag Guesser, Labels, Spectrum Analyzer"
 msgstr ""
 
-#: main.cpp:166
+#: main.cpp:167
 #, kde-format
 msgid "Daniel Winter"
 msgstr ""
 
-#: main.cpp:166
+#: main.cpp:167
 #| msgid "Update Collection"
 msgid "Nepomuk integration"
 msgstr ""
 
-#: main.cpp:168
+#: main.cpp:169
 #, kde-format
 msgid "Frank Meerkötter"
 msgstr ""
 
-#: main.cpp:168 main.cpp:188
+#: main.cpp:169 main.cpp:189
 #| msgid "Directory"
 msgid "Podcast improvements"
 msgstr ""
 
-#: main.cpp:170
+#: main.cpp:171
 #, kde-format
 msgid "Greg Meyer"
 msgstr ""
 
-#: main.cpp:170
+#: main.cpp:171
 #, kde-format
 msgid "Live CD, Bug squashing (oggb4mp3)"
 msgstr ""
 
-#: main.cpp:172
+#: main.cpp:173
 #, kde-format
 msgid "Harald Sitter"
 msgstr ""
 
-#: main.cpp:172
+#: main.cpp:173
 #, kde-format
 msgid "Phonon, Lord-President of KDE Multimedia (apachelogger)"
 msgstr ""
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "John Atkinson"
 msgstr ""
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "Assorted patches"
 msgstr ""
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "Kenneth Wesley Wimer II"
 msgstr ""
 
-#: main.cpp:176
+#: main.cpp:177
 #| msgid "Icons"
 msgid "Icons"
 msgstr "Значкі"
 
-#: main.cpp:178
+#: main.cpp:179
 #, kde-format
 msgid "Kevin Funk"
 msgstr ""
 
-#: main.cpp:178
+#: main.cpp:179
 #, kde-format
 msgid "Developer, Website theme (KRF)"
 msgstr ""
 
-#: main.cpp:180
+#: main.cpp:181
 #, kde-format
 msgid "Kuba Serafinowski"
 msgstr ""
 
-#: main.cpp:180
+#: main.cpp:181
 #, kde-format
 msgid "Rokymoter"
 msgstr ""
 
-#: main.cpp:182
+#: main.cpp:183
 #, kde-format
 msgid "Lee Olson"
 msgstr ""
 
-#: main.cpp:182 main.cpp:194
+#: main.cpp:183 main.cpp:195
 msgid "Artwork"
 msgstr "Ілюстрацыя"
 
-#: main.cpp:184
+#: main.cpp:185
 #, kde-format
 msgid "Ljubomir Simin"
 msgstr ""
 
-#: main.cpp:184
+#: main.cpp:185
 #, kde-format
 msgid "Rokymoter (ljubomir)"
 msgstr ""
 
-#: main.cpp:186
+#: main.cpp:187
 #, kde-format
 msgid "Lucas Gomes"
 msgstr ""
 
-#: main.cpp:186
+#: main.cpp:187
 #| msgid "Device"
 msgid "Developer (MaskMaster)"
 msgstr ""
 
-#: main.cpp:188
+#: main.cpp:189
 #, kde-format
 msgid "Mathias Panzenböck"
 msgstr ""
 
-#: main.cpp:190
+#: main.cpp:191
 #, kde-format
 msgid "Mikko Caldara"
 msgstr ""
 
-#: main.cpp:190
+#: main.cpp:191
 #, kde-format
 msgid "Bug triaging and sanitizing"
 msgstr ""
 
-#: main.cpp:192
+#: main.cpp:193
 #, kde-format
 msgid "Nikhil Marathe"
 msgstr ""
 
-#: main.cpp:192
+#: main.cpp:193
 #, kde-format
 msgid "UPnP support and patches (nsm)"
 msgstr ""
 
-#: main.cpp:194
+#: main.cpp:195
 msgid "Nuno Pinheiro"
 msgstr "Nuno Pinheiro"
 
-#: main.cpp:196
+#: main.cpp:197
 #, kde-format
 msgid "Olivier Bédard"
 msgstr ""
 
-#: main.cpp:196
+#: main.cpp:197
 #, kde-format
 msgid "Website hosting"
 msgstr ""
 
-#: main.cpp:198
+#: main.cpp:199
 #, kde-format
 msgid "Pasi Lalinaho"
 msgstr ""
 
-#: main.cpp:198
+#: main.cpp:199
 #, kde-format
 msgid "Rokymoter (emunkki)"
 msgstr ""
 
-#: main.cpp:200
+#: main.cpp:201
 #, kde-format
 msgid "Peter Zhou Lei"
 msgstr ""
 
-#: main.cpp:200
+#: main.cpp:201
 #| msgid "Configure Services"
 msgid "Scripting interface"
 msgstr ""
 
-#: main.cpp:202
+#: main.cpp:203
 #, kde-format
 msgid "Phalgun Guduthur"
 msgstr ""
 
-#: main.cpp:202
+#: main.cpp:203
 #| msgid "Update Collection"
 msgid "Nepomuk Collection (phalgun)"
 msgstr ""
 
-#: main.cpp:204
+#: main.cpp:205
 #, kde-format
 msgid "Scott Wheeler"
 msgstr "Скот Уіллер"
 
-#: main.cpp:204
+#: main.cpp:205
 #, kde-format
 msgid "TagLib & ktrm code"
 msgstr ""
 
-#: main.cpp:206
+#: main.cpp:207
 #, kde-format
 msgid "Shane King"
 msgstr ""
 
-#: main.cpp:206
+#: main.cpp:207
 #, kde-format
 msgid "Patches & Windows porting (shakes)"
 msgstr ""
 
-#: main.cpp:208
+#: main.cpp:209
 #, kde-format
 msgid "Simon Esneault"
 msgstr ""
 
-#: main.cpp:208
+#: main.cpp:209
 #, kde-format
 msgid "Photos & Videos applets, Context View"
 msgstr ""
 
-#: main.cpp:210
+#: main.cpp:211
 #| msgid "Seek Forward"
 msgid "Soren Harward"
 msgstr ""
 
-#: main.cpp:210
+#: main.cpp:211
 #, kde-format
 msgid "Developer, Automated Playlist Generator"
 msgstr ""
 
-#: main.cpp:212
+#: main.cpp:213
 #, kde-format
 msgid "Thomas Lübking"
 msgstr "Thomas Lübking"
 
-#: main.cpp:212 main.cpp:214 main.cpp:228 main.cpp:238 main.cpp:244
-#: main.cpp:246 main.cpp:258 main.cpp:264 main.cpp:266 main.cpp:270
-#: main.cpp:278
+#: main.cpp:213 main.cpp:215 main.cpp:229 main.cpp:239 main.cpp:245
+#: main.cpp:247 main.cpp:259 main.cpp:265 main.cpp:267 main.cpp:271
+#: main.cpp:279
 #| msgid "Device"
 msgid "Developer"
 msgstr "Распрацоўшчык"
 
-#: main.cpp:214
+#: main.cpp:215
 #, kde-format
 msgid "Valentin Rouet"
 msgstr ""
 
-#: main.cpp:216
+#: main.cpp:217
 #, kde-format
 msgid "Wade Olson"
 msgstr ""
 
-#: main.cpp:216
+#: main.cpp:217
 #, kde-format
 msgid "Splash screen artist"
 msgstr ""
 
-#: main.cpp:218
+#: main.cpp:219
 #, kde-format
 msgid "William Viana Soares"
 msgstr ""
 
-#: main.cpp:218
+#: main.cpp:219
 #| msgid "Move down"
 msgid "Context view"
 msgstr ""
 
-#: main.cpp:222
+#: main.cpp:223
 #, kde-format
 msgid "Former contributors"
 msgstr ""
 
-#: main.cpp:222
+#: main.cpp:223
 #, kde-format
 msgid "People listed below have contributed to Amarok in the past. Thank you!"
 msgstr ""
 
-#: main.cpp:224
+#: main.cpp:225
 #, kde-format
 msgid "Adam Pigg"
 msgstr ""
 
-#: main.cpp:224
+#: main.cpp:225
 #, kde-format
 msgid "Analyzers, patches, shoutcast"
 msgstr ""
 
-#: main.cpp:226
+#: main.cpp:227
 #, kde-format
 msgid "Adeodato Simó"
 msgstr ""
 
-#: main.cpp:226 main.cpp:234
+#: main.cpp:227 main.cpp:235
 #| msgid "Update"
 msgid "Patches"
 msgstr "Месцамі"
 
-#: main.cpp:228
+#: main.cpp:229
 #, kde-format
 msgid "Alexandre Oliveira"
 msgstr ""
 
-#: main.cpp:230
+#: main.cpp:231
 #, kde-format
 msgid "Andreas Mair"
 msgstr ""
 
-#: main.cpp:230
+#: main.cpp:231
 #, kde-format
 msgid "MySQL support"
 msgstr ""
 
-#: main.cpp:232
+#: main.cpp:233
 #, kde-format
 msgid "Andrew de Quincey"
 msgstr ""
 
-#: main.cpp:232
+#: main.cpp:233
 #, kde-format
 msgid "Postgresql support"
 msgstr ""
 
-#: main.cpp:234
+#: main.cpp:235
 #, kde-format
 msgid "Andrew Turner"
 msgstr ""
 
-#: main.cpp:236
+#: main.cpp:237
 #, kde-format
 msgid "Andy Kelk"
 msgstr ""
 
-#: main.cpp:236
+#: main.cpp:237
 #, kde-format
 msgid "MTP and Rio Karma media devices, patches"
 msgstr ""
 
-#: main.cpp:238
+#: main.cpp:239
 #, kde-format
 msgid "Christian Muehlhaeuser"
 msgstr ""
 
-#: main.cpp:240
+#: main.cpp:241
 #, kde-format
 msgid "Derek Nelson"
 msgstr ""
 
-#: main.cpp:240
+#: main.cpp:241
 #, kde-format
 msgid "Graphics, splash-screen"
 msgstr ""
 
-#: main.cpp:242
+#: main.cpp:243
 #, kde-format
 msgid "Enrico Ros"
 msgstr "Enrico Ros"
 
-#: main.cpp:242
+#: main.cpp:243
 #, kde-format
 msgid "Analyzers, Context Browser and systray eye-candy"
 msgstr ""
 
-#: main.cpp:244
+#: main.cpp:245
 #, kde-format
 msgid "Frederik Holljen"
 msgstr ""
 
-#: main.cpp:246
+#: main.cpp:247
 #, kde-format
 msgid "Gábor Lehel"
 msgstr ""
 
-#: main.cpp:248
+#: main.cpp:249
 #, kde-format
 msgid "Gérard Dürrmeyer"
 msgstr ""
 
-#: main.cpp:248
+#: main.cpp:249
 #, kde-format
 msgid "Icons and image work"
 msgstr ""
 
-#: main.cpp:250
+#: main.cpp:251
 #, kde-format
 msgid "Giovanni Venturi"
 msgstr ""
 
-#: main.cpp:250
+#: main.cpp:251
 #, kde-format
 msgid "Dialog to filter the collection titles"
 msgstr ""
 
-#: main.cpp:252
+#: main.cpp:253
 #, kde-format
 msgid "Jarkko Lehti"
 msgstr ""
 
-#: main.cpp:252
+#: main.cpp:253
 #, kde-format
 msgid "Tester, IRC channel operator, whipping"
 msgstr ""
 
-#: main.cpp:254
+#: main.cpp:255
 #, kde-format
 msgid "Jocke Andersson"
 msgstr ""
 
-#: main.cpp:254
+#: main.cpp:255
 #, kde-format
 msgid "Rokymoter, bug fixer (Firetech)"
 msgstr ""
 
-#: main.cpp:256
+#: main.cpp:257
 #, kde-format
 msgid "Marco Gulino"
 msgstr ""
 
-#: main.cpp:256
+#: main.cpp:257
 #, kde-format
 msgid "Konqueror Sidebar, some DCOP methods"
 msgstr ""
 
-#: main.cpp:258
+#: main.cpp:259
 #, kde-format
 msgid "Martin Aumueller"
 msgstr ""
 
-#: main.cpp:260
+#: main.cpp:261
 #, kde-format
 msgid "Melchior Franz"
 msgstr ""
 
-#: main.cpp:260
+#: main.cpp:261
 #, kde-format
 msgid "FHT routine, bugfixes"
 msgstr ""
 
-#: main.cpp:262
+#: main.cpp:263
 #, kde-format
 msgid "Michael Pyne"
 msgstr ""
 
-#: main.cpp:262
+#: main.cpp:263
 #, kde-format
 msgid "K3b export code"
 msgstr ""
 
-#: main.cpp:264
+#: main.cpp:265
 #, kde-format
 msgid "Mike Diehl"
 msgstr ""
 
-#: main.cpp:266
+#: main.cpp:267
 #, kde-format
 msgid "Paul Cifarelli"
 msgstr ""
 
-#: main.cpp:268
+#: main.cpp:269
 #, kde-format
 msgid "Peter C. Ndikuwera"
 msgstr ""
 
-#: main.cpp:268
+#: main.cpp:269
 #, kde-format
 msgid "Bugfixes, PostgreSQL support"
 msgstr ""
 
-#: main.cpp:270
+#: main.cpp:271
 #, kde-format
 msgid "Pierpaolo Panfilo"
 msgstr ""
 
-#: main.cpp:272
+#: main.cpp:273
 #, kde-format
 msgid "Reigo Reinmets"
 msgstr ""
 
-#: main.cpp:272
+#: main.cpp:273
 #, kde-format
 msgid "Wikipedia support, patches"
 msgstr ""
 
-#: main.cpp:274
+#: main.cpp:275
 #, kde-format
 msgid "Roman Becker"
 msgstr ""
 
-#: main.cpp:274
+#: main.cpp:275
 #, kde-format
 msgid "Former Amarok logo, former splash screen, former icons"
 msgstr ""
 
-#: main.cpp:276
+#: main.cpp:277
 #, kde-format
 msgid "Sami Nieminen"
 msgstr ""
 
-#: main.cpp:276
+#: main.cpp:277
 #, kde-format
 msgid "Audioscrobbler support"
 msgstr ""
 
-#: main.cpp:278
+#: main.cpp:279
 msgid "Stanislav Karchebny"
 msgstr "Станіслаў Карчэбны"
 
-#: main.cpp:280
+#: main.cpp:281
 #, kde-format
 msgid "Stefan Bogner"
 msgstr ""
 
-#: main.cpp:280
+#: main.cpp:281
 #, kde-format
 msgid "Loads of stuff"
 msgstr ""
 
-#: main.cpp:282
+#: main.cpp:283
 #, kde-format
 msgid "Tomasz Dudzik"
 msgstr ""
 
-#: main.cpp:282
+#: main.cpp:283
 #, kde-format
 msgid "Splash screen"
 msgstr "Экранная застаўка"
 
-#: main.cpp:287
+#: main.cpp:288
 #, kde-format
 msgid "Andrew Browning"
 msgstr ""
 
-#: main.cpp:288
+#: main.cpp:289
 #, kde-format
 msgid "Chris Wales"
 msgstr ""
 
-#: main.cpp:289
+#: main.cpp:290
 #, kde-format
 msgid "ZImin Stanislav"
 msgstr ""
@@ -9574,319 +9572,316 @@ msgstr "&Выгляд"
 msgid "Lock Layout"
 msgstr ""
 
-#: MainWindow.cpp:374 MainWindow.cpp:1315
+#: MainWindow.cpp:374 MainWindow.cpp:1306
 #| msgid "&Playlist"
 msgid "Reset Layout"
 msgstr ""
 
-#: MainWindow.cpp:431
+#: MainWindow.cpp:424
 #, kde-format
 msgid "<qt>Closing the main window will keep Amarok running in the System Tray. Use <B>Quit</B> from the menu, or the Amarok tray icon to exit the application.</qt>"
 msgstr ""
 
-#: MainWindow.cpp:433
+#: MainWindow.cpp:426
 #, kde-format
 msgid "Docking in System Tray"
 msgstr "Значок на панэлі апавяшчэнняў"
 
-#: MainWindow.cpp:533
+#: MainWindow.cpp:526
 #, kde-format
 msgid "Play Media (Files or URLs)"
 msgstr ""
 
-#: MainWindow.cpp:533
+#: MainWindow.cpp:526
 #, kde-format
 msgid "Add Media (Files or URLs)"
 msgstr ""
 
-#: MainWindow.cpp:553
+#: MainWindow.cpp:546
 #, kde-format
 msgid "Add Stream"
 msgstr ""
 
-#: MainWindow.cpp:553
+#: MainWindow.cpp:546
 #, kde-format
 msgid "Enter Stream URL:"
 msgstr ""
 
-#: MainWindow.cpp:763
+#: MainWindow.cpp:756
 #, kde-format
 msgid "&Add Media..."
 msgstr ""
 
-#: MainWindow.cpp:768
+#: MainWindow.cpp:761
 #| msgid "Smart Playlist"
 msgctxt "clear playlist"
 msgid "&Clear Playlist"
 msgstr ""
 
-#: MainWindow.cpp:773
+#: MainWindow.cpp:766
 #| msgid "&Queue Track"
 msgctxt "edit play queue of playlist"
 msgid "Edit &Queue"
 msgstr ""
 
-#: MainWindow.cpp:778
+#: MainWindow.cpp:771
 #| msgid "Next Applet"
 msgctxt "Remove duplicate and dead (unplayable) tracks from the playlist"
 msgid "Re&move Duplicates"
 msgstr ""
 
-#: MainWindow.cpp:785
+#: MainWindow.cpp:778
 #, kde-format
 msgid "&Add Stream..."
 msgstr ""
 
-#: MainWindow.cpp:789
+#: MainWindow.cpp:782
 #| msgid "Smart Playlist"
 msgid "&Export Playlist As..."
 msgstr ""
 
-#: MainWindow.cpp:801
+#: MainWindow.cpp:794
 #, kde-format
 msgid "Equalizer"
 msgstr "Эквалайзер"
 
-#: MainWindow.cpp:805 playlist/PlaylistViewUrlGenerator.cpp:102
+#: MainWindow.cpp:798 playlist/PlaylistViewUrlGenerator.cpp:102
 #| msgid "Smart Playlist"
 msgid "Bookmark Playlist Setup"
 msgstr ""
 
-#: MainWindow.cpp:809
+#: MainWindow.cpp:802
 #| msgid "Various Artists"
 msgid "Bookmark Context Applets"
 msgstr ""
 
-#: MainWindow.cpp:817
+#: MainWindow.cpp:810
 #, kde-format
 msgid "Play Media..."
 msgstr ""
 
-#: MainWindow.cpp:822
+#: MainWindow.cpp:815
 #, kde-format
 msgid "Edit Details of Currently Selected Track"
 msgstr ""
 
-#: MainWindow.cpp:828 MainWindow.cpp:834 MainWindow.cpp:841
+#: MainWindow.cpp:822 MainWindow.cpp:829 MainWindow.cpp:837
 #| msgid "&Seek Forward"
-msgid "Seek Forward by %1 seconds"
+msgctxt "Keyboard shortcut setting. A localized fitting unit (seconds or minutes) is automatically included in %1."
+msgid "Seek Forward by %1"
 msgstr ""
 
-#: MainWindow.cpp:848 MainWindow.cpp:854 MainWindow.cpp:861
+#: MainWindow.cpp:845 MainWindow.cpp:852 MainWindow.cpp:860
 #| msgid "&Seek Backward"
-msgid "Seek Backward by %1 seconds"
+msgctxt "Keyboard shortcut setting. A localized fitting unit (seconds or minutes) is automatically included in %1."
+msgid "Seek Backward by %1"
 msgstr ""
 
-#: MainWindow.cpp:867
+#: MainWindow.cpp:866
 #, kde-format
 msgid "Update Collection"
 msgstr "Абнавіць калекцыю"
 
-#: MainWindow.cpp:871
+#: MainWindow.cpp:870
 #, kde-format
 msgid "Synchronize Statistics..."
 msgstr ""
 
-#: MainWindow.cpp:879
+#: MainWindow.cpp:878
 #, kde-format
 msgid "Previous Track"
 msgstr "Папярэдняя кампазіцыя"
 
-#: MainWindow.cpp:886
+#: MainWindow.cpp:885
 #| msgid "Track"
 msgid "Restart current track"
 msgstr ""
 
-#: MainWindow.cpp:893
+#: MainWindow.cpp:892
 #| msgid "Smart Playlist"
 msgid "Shuffle Playlist"
 msgstr ""
 
-#: MainWindow.cpp:899
+#: MainWindow.cpp:898
 #| msgid "Smart Playlist"
 msgid "Repopulate Playlist"
 msgstr ""
 
-#: MainWindow.cpp:905
+#: MainWindow.cpp:904
 #| msgid "Default Dynamic Playlist"
 msgid "Disable Dynamic Playlist"
 msgstr ""
 
-#: MainWindow.cpp:909
+#: MainWindow.cpp:908
 #, kde-format
 msgid "Next Track"
 msgstr "Наступная кампазіцыя"
 
-#: MainWindow.cpp:914
+#: MainWindow.cpp:913
 #, kde-format
 msgid "Increase Volume"
 msgstr "Павялічыць гучнасць"
 
-#: MainWindow.cpp:920
+#: MainWindow.cpp:919
 #, kde-format
 msgid "Decrease Volume"
 msgstr "Паменшыць гучнасць"
 
-#: MainWindow.cpp:926
+#: MainWindow.cpp:925
 #, kde-format
 msgid "Toggle Main Window"
 msgstr ""
 
-#: MainWindow.cpp:931
+#: MainWindow.cpp:930
 #, kde-format
 msgid "Toggle Full Screen"
 msgstr "Пераключыць поўнаэкранны рэжым"
 
-#: MainWindow.cpp:936 playlist/ProgressiveSearchWidget.cpp:47
+#: MainWindow.cpp:935 playlist/ProgressiveSearchWidget.cpp:47
 #| msgid "Smart Playlist"
 msgid "Search playlist"
 msgstr ""
 
-#: MainWindow.cpp:946
+#: MainWindow.cpp:945
 #, kde-format
 msgid "Show active track"
 msgstr ""
 
-#: MainWindow.cpp:950
+#: MainWindow.cpp:949
 #| msgid "Notification"
 msgid "Show Notification Popup"
 msgstr ""
 
-#: MainWindow.cpp:955
+#: MainWindow.cpp:954
 #, kde-format
 msgid "Mute Volume"
 msgstr ""
 
-#: MainWindow.cpp:960
+#: MainWindow.cpp:959
 #| msgid "Track"
 msgid "Last.fm: Love Current Track"
 msgstr ""
 
-#: MainWindow.cpp:965
+#: MainWindow.cpp:964
 #| msgid "Track"
 msgid "Last.fm: Ban Current Track"
 msgstr ""
 
-#: MainWindow.cpp:970
+#: MainWindow.cpp:969
 #| msgid "Track"
 msgid "Last.fm: Skip Current Track"
 msgstr ""
 
-#: MainWindow.cpp:975 playlist/view/PlaylistViewCommon.cpp:118
+#: MainWindow.cpp:974 playlist/view/PlaylistViewCommon.cpp:118
 #| msgid "Track"
 msgid "Queue Track"
 msgstr "Дадаць у чаргу"
 
-#: MainWindow.cpp:980
+#: MainWindow.cpp:979
 #, kde-format
 msgid "Put Artist - Title of the current track to the clipboard"
 msgstr ""
 
-#: MainWindow.cpp:985
+#: MainWindow.cpp:984
 #, kde-format
 msgid "Rate Current Track: 1"
 msgstr ""
 
-#: MainWindow.cpp:990
+#: MainWindow.cpp:989
 #, kde-format
 msgid "Rate Current Track: 2"
 msgstr ""
 
-#: MainWindow.cpp:995
+#: MainWindow.cpp:994
 #, kde-format
 msgid "Rate Current Track: 3"
 msgstr ""
 
-#: MainWindow.cpp:1000
+#: MainWindow.cpp:999
 #, kde-format
 msgid "Rate Current Track: 4"
 msgstr ""
 
-#: MainWindow.cpp:1005
+#: MainWindow.cpp:1004
 #, kde-format
 msgid "Rate Current Track: 5"
 msgstr ""
 
-#: MainWindow.cpp:1011
+#: MainWindow.cpp:1010
 #, kde-format
 msgid "Network Request Viewer"
 msgstr ""
 
-#: MainWindow.cpp:1029
+#: MainWindow.cpp:1028
 #| msgid "&Amarok"
 msgid "&About Amarok"
 msgstr ""
 
-#: MainWindow.cpp:1033
+#: MainWindow.cpp:1032
 #| msgid "Statistics"
 msgid "&Diagnostics"
 msgstr ""
 
-#: MainWindow.cpp:1037
+#: MainWindow.cpp:1036
 #, kde-format
 msgid "&Report Bug..."
 msgstr "&Паведаміць пра хібу..."
 
-#: MainWindow.cpp:1084
+#: MainWindow.cpp:1083
 #| msgid "Music"
 msgid "&Music"
 msgstr ""
 
-#: MainWindow.cpp:1086
+#: MainWindow.cpp:1085
 #, kde-format
 msgid "&Amarok"
 msgstr ""
 
-#: MainWindow.cpp:1110 playlist/PlaylistDock.cpp:57
+#: MainWindow.cpp:1109 playlist/PlaylistDock.cpp:57
 #: playlist/PlaylistToolBar.cpp:39
 #, kde-format
 msgid "&Playlist"
 msgstr "&Спіс прайгравання"
 
-#: MainWindow.cpp:1127
+#: MainWindow.cpp:1126
 #, kde-format
 msgid "&Tools"
 msgstr "Н&ачынне"
 
-#: MainWindow.cpp:1142
+#: MainWindow.cpp:1141
 #, kde-format
 msgid "&Settings"
 msgstr "&Настаўленні"
 
-#: MainWindow.cpp:1185
+#: MainWindow.cpp:1176
 #, kde-format
 msgid "You have chosen to hide the menu bar.\n\n"
 "Please remember that you can always use the shortcut \"%1\" to bring it back."
 msgstr ""
 
-#: MainWindow.cpp:1186
+#: MainWindow.cpp:1177
 #| msgid "Forbidden"
 msgid "Hide Menu"
 msgstr ""
 
-#: MainWindow.cpp:1228
+#: MainWindow.cpp:1219
 #| msgid "Paused"
 msgid "Paused  ::  %1"
 msgstr ""
 
-#: MainWindow.cpp:1241
+#: MainWindow.cpp:1232
 #| msgid "%1. %2 - %3"
 msgid "%1 - %2  ::  %3"
 msgstr ""
 
-#: MainWindow.cpp:1315
+#: MainWindow.cpp:1306
 #, kde-format
 msgid "Apply this layout change?"
 msgstr ""
 
-#: musicbrainz/MusicBrainzTagsModel.cpp:161
+#: musicbrainz/MusicBrainzTagsModel.cpp:157
 #| msgid "MusicBrainz Lookup"
 msgid "MusicBrainz match ratio: %1%"
-msgstr ""
-
-#: musicbrainz/MusicBrainzTagsModel.cpp:164
-#, kde-format
-msgid "MusicDNS match ratio: %1%"
 msgstr ""
 
 #: musicbrainz/MusicBrainzTagsView.cpp:80
@@ -9970,20 +9965,26 @@ msgstr "Значэнне"
 msgid "Reading OPML podcast from %1 failed with error:\n"
 msgstr ""
 
-#: playback/EqualizerController.cpp:135
+#: playback/EqualizerController.cpp:82
 #, kde-format
 msgctxt "label for equalizer band frequency"
 msgid "%1\n"
 "Hz"
 msgstr ""
 
-#: playback/EqualizerController.cpp:137
+#: playback/EqualizerController.cpp:84
 #| msgctxt "SampleRate"
 #| msgid "%1 kHz"
 msgctxt "label for equalizer band frequency"
 msgid "%1\n"
 "kHz"
 msgstr ""
+
+#: playback/PowerManager.cpp:99
+#| msgid "Playing: %1"
+msgctxt "Reason for sleep block, shown in power and battery applet"
+msgid "Playing music"
+msgstr "Прайграванне музыкі"
 
 #: playlist/layouts/LayoutConfigAction.cpp:40
 #| msgid "&Playlist"
@@ -10078,13 +10079,13 @@ msgid "Encountered an unknown element name while reading layout."
 msgstr ""
 
 #: playlist/layouts/LayoutManager.cpp:107
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:395
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:401
 #, kde-format
 msgid "copy of %1"
 msgstr ""
 
 #: playlist/layouts/LayoutManager.cpp:115
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:403
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:409
 #| msgctxt "monthname year"
 #| msgid "%1 %2"
 msgctxt "adds a copy number to a generated name if the name already exists, for instance 'copy of Foo 2' if 'copy of Foo' is taken"
@@ -10145,76 +10146,76 @@ msgstr ""
 msgid "Rename playlist layout"
 msgstr ""
 
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:157
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:207
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:163
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:213
 #| msgid "Configure..."
 msgid "Choose a name for the new playlist layout"
 msgstr ""
 
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:158
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:164
 #, kde-format
 msgid "Please enter a name for the playlist layout you are about to define:"
 msgstr ""
 
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:164
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:215
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:170
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:221
 #, kde-format
 msgid "Cannot create a layout with no name."
 msgstr ""
 
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:164
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:169
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:174
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:215
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:220
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:275
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:277
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:170
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:175
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:180
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:221
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:226
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:281
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:283
 #| msgid "Playcount"
 msgid "Layout name error"
 msgstr ""
 
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:169
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:220
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:175
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:226
 #, kde-format
 msgid "Cannot create a layout with the same name as an existing layout."
 msgstr ""
 
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:174
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:180
 #, kde-format
 msgid "Cannot create a layout containing '/'."
 msgstr ""
 
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:208
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:214
 #, kde-format
 msgid "Please enter a name for the playlist layout you are about to define as copy of the layout '%1':"
 msgstr ""
 
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:266
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:272
 #| msgid "Configure..."
 msgid "Choose a new name for the playlist layout"
 msgstr ""
 
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:267
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:273
 #, kde-format
 msgid "Please enter a new name for the playlist layout you are about to rename:"
 msgstr ""
 
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:275
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:281
 #, kde-format
 msgid "Cannot rename a layout to have no name."
 msgstr ""
 
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:277
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:283
 #, kde-format
 msgid "Cannot rename a layout to have the same name as an existing layout."
 msgstr ""
 
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:406
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:412
 #, kde-format
 msgid "The layout '%1' you modified is one of the default layouts and cannot be overwritten. Saved as new layout '%2'"
 msgstr ""
 
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:408
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:414
 #| msgid "&Playlist"
 msgid "Default Layout"
 msgstr ""
@@ -10257,8 +10258,8 @@ msgid "Show tooltips"
 msgstr "Паказваць падказкі"
 
 #. i18n: ectx: property (text), widget (QPushButton, previewButton)
-#: playlist/layouts/PlaylistLayoutEditDialog.ui:291 widgets/Osd.cpp:514
-#: widgets/Osd.cpp:516
+#: playlist/layouts/PlaylistLayoutEditDialog.ui:291 widgets/Osd.cpp:515
+#: widgets/Osd.cpp:517
 #| msgid "Previous Track"
 msgid "Preview"
 msgstr "Перадагляд"
@@ -11881,25 +11882,25 @@ msgstr ""
 msgid "Scanning music"
 msgstr "Пошук музыкі"
 
-#: scanner/GenericScannerJob.cpp:119
+#: scanner/GenericScannerJob.cpp:117
 #, kde-format
 msgid "Abort for scanner requested"
 msgstr ""
 
-#: scanner/GenericScannerJob.cpp:148
+#: scanner/GenericScannerJob.cpp:146
 #, kde-format
 msgid "Aborting scanner with error: %1"
 msgstr ""
 
-#: scanner/GenericScannerJob.cpp:209
+#: scanner/GenericScannerJob.cpp:207
 msgid "Could not find amarokcollectionscanner!"
 msgstr ""
 
-#: scanner/GenericScannerJob.cpp:270
+#: scanner/GenericScannerJob.cpp:265
 msgid "Unable to start Amarok collection scanner."
 msgstr ""
 
-#: scanner/GenericScannerJob.cpp:319
+#: scanner/GenericScannerJob.cpp:314
 #, kde-format
 msgid "The collection scan had to be aborted. Too many crashes (%1) were encountered during the scan. Following files caused the crashes:\n\n"
 "%2"
@@ -11954,48 +11955,48 @@ msgstr ""
 msgid "Previous Script"
 msgstr ""
 
-#: scripting/scriptconsole/ScriptConsole.cpp:120
+#: scripting/scriptconsole/ScriptConsole.cpp:119
 msgid "Next Script"
 msgstr ""
 
-#: scripting/scriptconsole/ScriptConsole.cpp:128
+#: scripting/scriptconsole/ScriptConsole.cpp:126
 #| msgid "Video"
 msgid "&View"
 msgstr "&Выгляд"
 
-#: scripting/scriptconsole/ScriptConsole.cpp:217
+#: scripting/scriptconsole/ScriptConsole.cpp:223
 #, kde-format
 msgid "This will stop this script! Continue?"
 msgstr ""
 
-#: scripting/scriptconsole/ScriptConsole.cpp:229
+#: scripting/scriptconsole/ScriptConsole.cpp:268
 #, kde-format
 msgid "Choose where to save your scripts"
 msgstr ""
 
-#: scripting/scriptconsole/ScriptConsole.cpp:422
+#: scripting/scriptconsole/ScriptConsole.cpp:467
 #| msgid "Description"
 msgid "Remove script file from disk?"
 msgstr ""
 
-#: scripting/scriptconsole/ScriptConsole.cpp:422
+#: scripting/scriptconsole/ScriptConsole.cpp:467
 #| msgid "Description"
 msgid "Remove Script"
 msgstr ""
 
-#: scripting/scriptconsole/ScriptConsole.cpp:422
+#: scripting/scriptconsole/ScriptConsole.cpp:467
 #| msgid "Remove"
 msgctxt "Confirm if script file should be removed"
 msgid "Remove"
 msgstr "Выдаліць"
 
-#: scripting/scriptconsole/ScriptConsole.cpp:423
+#: scripting/scriptconsole/ScriptConsole.cpp:468
 #, kde-format
 msgctxt "Confirm if script file should be removed"
 msgid "Don't remove"
 msgstr ""
 
-#: scripting/scriptconsole/ScriptConsole.cpp:453
+#: scripting/scriptconsole/ScriptConsole.cpp:498
 #, kde-format
 msgid "Are you absolutely certain?"
 msgstr ""
@@ -12028,13 +12029,13 @@ msgstr "Знішчыць"
 msgid "Script %1 has been evaluating for over 5 seconds now, terminate?"
 msgstr ""
 
-#: scripting/scriptmanager/ScriptItem.cpp:338
+#: scripting/scriptmanager/ScriptItem.cpp:339
 #, kde-format
 msgctxt "%1 is the name of the offending script, %2 the script authors and their emails"
 msgid "The script %1 uses deprecated scripting API calls. Please contact the script authors, %2, and ask them to upgrade it before the next Amarok release."
 msgstr ""
 
-#: scripting/scriptmanager/ScriptManager.cpp:278
+#: scripting/scriptmanager/ScriptManager.cpp:276
 #, kde-format
 msgid "Script error reported by: %1\n"
 "%2"
@@ -12515,37 +12516,22 @@ msgstr ""
 msgid "Last.fm is a popular online service that provides personal radio stations and music recommendations. A personal listening station is tailored based on your listening habits and provides you with recommendations for new music. It is also possible to play stations with music that is similar to a particular artist as well as listen to streams from people you have added as friends"
 msgstr ""
 
-#: services/lastfm/LastFmService.cpp:129 services/lastfm/LoveTrackAction.cpp:24
+#: services/lastfm/LastFmService.cpp:127 services/lastfm/LoveTrackAction.cpp:24
 #| msgid "Last.fm Radio"
 msgid "Last.fm: Love"
 msgstr ""
 
-#: services/lastfm/LastFmService.cpp:131
+#: services/lastfm/LastFmService.cpp:129
 #, kde-format
 msgid "Ctrl+L"
 msgstr ""
 
-#: services/lastfm/LastFmService.cpp:322
-#| msgid "International"
-msgid "Enter an artist name"
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:325
-#| msgid "International"
-msgid "Enter a tag"
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:328
-#| msgid "International"
-msgid "Enter a Last.fm user name"
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:341
+#: services/lastfm/LastFmService.cpp:318
 #| msgid "Username:"
 msgid "Username: %1"
 msgstr ""
 
-#: services/lastfm/LastFmService.cpp:346
+#: services/lastfm/LastFmService.cpp:323
 #| msgid "Play Count"
 msgid "Play Count: %1 play"
 msgid_plural "Play Count: %1 plays"
@@ -12553,21 +12539,6 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
-
-#: services/lastfm/LastFmService.cpp:392
-#, kde-format
-msgid "Create a Custom Last.fm Station"
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:395
-#| msgid "Tags"
-msgid "Tag"
-msgstr "Тэг"
-
-#: services/lastfm/LastFmService.cpp:395
-#, kde-format
-msgid "User"
-msgstr "Карыстальніцкія"
 
 #: services/lastfm/LastFmServiceCollection.cpp:32
 #| msgid "Radio Stream"
@@ -12645,13 +12616,13 @@ msgstr ""
 msgid "Unable to connect to Last.fm service."
 msgstr ""
 
-#: services/lastfm/LastFmTreeModel.cpp:129
+#: services/lastfm/LastFmTreeModel.cpp:128
 #| msgid "%1 (%2)"
 msgctxt "%1 is Last.fm tag name, %2 is its usage count"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: services/lastfm/LastFmTreeModel.cpp:180
+#: services/lastfm/LastFmTreeModel.cpp:179
 #, kde-format
 msgctxt "%2 is artist name, %1 is number of plays"
 msgid "%2 (%1 play)"
@@ -12661,37 +12632,32 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: services/lastfm/LastFmTreeModel.cpp:197
-#| msgid "Artist"
-msgid "Personal Radio"
-msgstr ""
-
-#: services/lastfm/LastFmTreeModel.cpp:310
+#: services/lastfm/LastFmTreeModel.cpp:299
 #, kde-format
 msgid "My Recommendations"
 msgstr ""
 
-#: services/lastfm/LastFmTreeModel.cpp:312
+#: services/lastfm/LastFmTreeModel.cpp:301
 #| msgid "Radio Stream"
 msgid "My Radio Station"
 msgstr ""
 
-#: services/lastfm/LastFmTreeModel.cpp:314
+#: services/lastfm/LastFmTreeModel.cpp:303
 #, kde-format
 msgid "My Mix Radio"
 msgstr ""
 
-#: services/lastfm/LastFmTreeModel.cpp:316
+#: services/lastfm/LastFmTreeModel.cpp:305
 #| msgid "Artist"
 msgid "My Top Artists"
 msgstr ""
 
-#: services/lastfm/LastFmTreeModel.cpp:318
+#: services/lastfm/LastFmTreeModel.cpp:307
 #| msgid "Tags"
 msgid "My Tags"
 msgstr ""
 
-#: services/lastfm/LastFmTreeModel.cpp:320
+#: services/lastfm/LastFmTreeModel.cpp:309
 #| msgid "Files"
 msgid "Friends"
 msgstr "Сябры"
@@ -14042,20 +14008,21 @@ msgstr "&Перасунуць"
 msgid "Just move the tracks without transcoding them."
 msgstr ""
 
-#: transcoding/TranscodingAssistantDialog.cpp:149
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: transcoding/TranscodingAssistantDialog.cpp:125
+#: transcoding/TranscodingAssistantDialog.ui:89
+#| msgid "France"
+msgid "Transcode"
+msgstr ""
+
+#: transcoding/TranscodingAssistantDialog.cpp:151
 msgctxt "Tooltip of a disabled transcoding encoder option"
 msgid "Not currently available on your system."
 msgstr ""
 
-#: transcoding/TranscodingAssistantDialog.cpp:156
+#: transcoding/TranscodingAssistantDialog.cpp:158
 #, kde-format
 msgid "Target collection indicates this format would not be playable."
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: transcoding/TranscodingAssistantDialog.ui:89
-#| msgid "France"
-msgid "Transcode"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, transcodeAllRadioButton)
@@ -14146,17 +14113,17 @@ msgstr ""
 msgid "Score: %1"
 msgstr "Балы: %1 "
 
-#: TrayIcon.cpp:184
+#: TrayIcon.cpp:178
 #| msgid "Rating:"
 msgid "Rating: %1"
 msgstr ""
 
-#: TrayIcon.cpp:190
+#: TrayIcon.cpp:184
 #| msgid "Playcount"
 msgid "Play count: %1"
 msgstr ""
 
-#: TrayIcon.cpp:194
+#: TrayIcon.cpp:188
 msgid "Last played: %1"
 msgstr ""
 
@@ -14405,18 +14372,18 @@ msgstr ""
 msgid "Volume: 100% (muted)"
 msgstr ""
 
-#: widgets/Osd.cpp:514
+#: widgets/Osd.cpp:515
 #, kde-format
 msgid "On-Screen-Display preview\n"
 "Drag to reposition"
 msgstr ""
 
-#: widgets/Osd.cpp:771
+#: widgets/Osd.cpp:772
 #| msgid "Stop"
 msgid "Stopped"
 msgstr "Спынена"
 
-#: widgets/Osd.cpp:780
+#: widgets/Osd.cpp:781
 #, kde-format
 msgid "Paused"
 msgstr "Прыпынена"
@@ -14541,6 +14508,55 @@ msgstr "Мастак: %1"
 #| msgid "Retry"
 msgid "empty"
 msgstr "пусты"
+
+#, fuzzy
+#~ msgid " Item"
+#~ msgid_plural " Items"
+#~ msgstr[0] "%1 элемент"
+#~ msgstr[1] "%1 элемент"
+#~ msgstr[2] "%1 элемент"
+
+#, fuzzy
+#~| msgid "Never"
+#~ msgctxt "prefix to 'x minutes'"
+#~ msgid "every "
+#~ msgstr "Ніколі"
+
+#, fuzzy
+#~| msgid "Minutes"
+#~ msgid " minute"
+#~ msgid_plural " minutes"
+#~ msgstr[0] "хвіліны"
+#~ msgstr[1] "хвіліны"
+#~ msgstr[2] "хвіліны"
+
+#, fuzzy
+#~| msgid "International"
+#~ msgid "Enter an artist name"
+#~ msgstr "Міжнародны"
+
+#, fuzzy
+#~| msgid "International"
+#~ msgid "Enter a tag"
+#~ msgstr "Міжнародны"
+
+#, fuzzy
+#~| msgid "International"
+#~ msgid "Enter a Last.fm user name"
+#~ msgstr "Міжнародны"
+
+#, fuzzy
+#~| msgid "Tags"
+#~ msgid "Tag"
+#~ msgstr "Пазнакі"
+
+#~ msgid "User"
+#~ msgstr "Карыстальнік"
+
+#, fuzzy
+#~| msgid "Artist"
+#~ msgid "Personal Radio"
+#~ msgstr "Выканаўца"
 
 #, fuzzy
 #~| msgid "First Played:"
@@ -16291,9 +16307,6 @@ msgstr "пусты"
 #~| msgid "Autodetect"
 #~ msgid "Automatic Preview"
 #~ msgstr "Аўтаматычнае вызначэнне"
-
-#~ msgid "Playing: %1"
-#~ msgstr "Грае: %1"
 
 #, fuzzy
 #~| msgctxt "The quality of music"
