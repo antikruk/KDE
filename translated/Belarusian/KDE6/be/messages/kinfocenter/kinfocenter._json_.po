@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-17 00:48+0000\n"
-"PO-Revision-Date: 2025-01-07 21:18\n"
+"POT-Creation-Date: 2026-02-11 00:55+0000\n"
+"PO-Revision-Date: 2026-03-26 19:44\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: kcms/about-distro/src/kcm_about-distro.json
 msgctxt "X-KDE-Keywords"
-msgid "about,info,information,distribution,distro,system,kernel,qt,kde,version"
+msgid "about,info,information,distribution,distro,system,kernel,qt,kde,version,winver"
 msgstr ""
 
 #: kcms/audio_information/kcm_audio_information.json
@@ -45,7 +45,7 @@ msgstr ""
 
 #: kcms/edid/kcm_edid.json
 msgctxt "X-KDE-Keywords"
-msgid "EDID,Graphics"
+msgid "EDID,Graphics,dxdiag"
 msgstr ""
 
 #: kcms/egl/kcm_egl.json
@@ -54,7 +54,7 @@ msgstr ""
 #| "OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,"
 #| "X-Server,XFree86,Display"
 msgctxt "X-KDE-Keywords"
-msgid "OpenGL,DRI,3D,VideoCard,Hardware Acceleration,Graphics,EGL"
+msgid "OpenGL,DRI,3D,VideoCard,Hardware Acceleration,Graphics,EGL,dxdiag"
 msgstr ""
 
 #: kcms/energy/kcm_energyinfo.json
@@ -73,7 +73,7 @@ msgstr ""
 #| "OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,"
 #| "X-Server,XFree86,Display"
 msgctxt "X-KDE-Keywords"
-msgid "OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,X-Server,XFree86,Display"
+msgid "OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,X-Server,XFree86,Display,dxdiag"
 msgstr ""
 
 #: kcms/interrupts/kcm_interrupts.json
@@ -81,6 +81,11 @@ msgstr ""
 #| msgid "Interrupts,IRQ,System Information"
 msgctxt "X-KDE-Keywords"
 msgid "Interrupts,IRQ,System Information"
+msgstr ""
+
+#: kcms/kwinsupportinfo/kcm_kwinsupportinfo.json.in
+msgctxt "X-KDE-Keywords"
+msgid "dxdiag"
 msgstr ""
 
 #: kcms/memory/kcm_memory.json
@@ -99,7 +104,7 @@ msgstr ""
 #| "OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,"
 #| "X-Server,XFree86,Display"
 msgctxt "X-KDE-Keywords"
-msgid "OpenCL,VideoCard,Hardware Acceleration,Graphics"
+msgid "OpenCL,VideoCard,Hardware Acceleration,Graphics,dxdiag"
 msgstr ""
 
 #: kcms/pci/kcm_pci.json.cmake
@@ -116,6 +121,11 @@ msgctxt "X-KDE-Keywords"
 msgid "SMB,SAMBA,Windows network,LAN,System Information"
 msgstr ""
 
+#: kcms/sensors/kcm_sensors.json
+msgctxt "X-KDE-Keywords"
+msgid "lm_sensors,sensors,temp,temperature,volt,voltage,sensors,fan,fan speed,monitoring,amp,amps,current,power"
+msgstr ""
+
 #: kcms/usbview/kcmusb.json
 #| msgctxt "Keywords"
 #| msgid "USB,devices,viewer,control"
@@ -129,21 +139,21 @@ msgstr ""
 #| "OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,"
 #| "X-Server,XFree86,Display"
 msgctxt "X-KDE-Keywords"
-msgid "Vulkan,VideoCard,Hardware Acceleration,Graphics"
+msgid "Vulkan,VideoCard,Hardware Acceleration,Graphics,dxdiag,vulkaninfo"
 msgstr ""
 
 #: kcms/wayland/kcm_wayland.json
 #| msgctxt "Keywords"
 #| msgid "SMB,SAMBA,Windows network,LAN,System Information"
 msgctxt "X-KDE-Keywords"
-msgid "Wayland,Compositor,Display,System Information"
+msgid "Wayland,Compositor,Display,System Information,dxdiag"
 msgstr ""
 
 #: kcms/xserver/kcm_xserver.json
 #| msgctxt "Keywords"
 #| msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
 msgctxt "X-KDE-Keywords"
-msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
+msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information,dxdiag"
 msgstr ""
 
 #: kcms/about-distro/src/kcm_about-distro.json
@@ -233,6 +243,11 @@ msgstr "PCI"
 msgctxt "Name"
 msgid "Samba Status"
 msgstr "Стан Samba"
+
+#: kcms/sensors/kcm_sensors.json
+msgctxt "Name"
+msgid "Sensors"
+msgstr "Сэнсары"
 
 #: kcms/usbview/kcmusb.json
 msgctxt "Name"
@@ -363,6 +378,11 @@ msgstr ""
 msgctxt "Description"
 msgid "Samba status monitor"
 msgstr ""
+
+#: kcms/sensors/kcm_sensors.json
+msgctxt "Description"
+msgid "Sensors"
+msgstr "Сэнсары"
 
 #: kcms/usbview/kcmusb.json
 #| msgctxt "Comment"
