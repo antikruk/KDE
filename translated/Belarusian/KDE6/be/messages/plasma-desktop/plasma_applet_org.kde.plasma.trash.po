@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-23 00:42+0000\n"
-"PO-Revision-Date: 2025-02-25 19:17\n"
+"POT-Creation-Date: 2025-11-27 00:45+0000\n"
+"PO-Revision-Date: 2026-03-26 19:52\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,13 +19,20 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/plasma-desktop/plasma_applet_org.kde.plasma.trash.po\n"
 "X-Crowdin-File-ID: 19769\n"
 
-#: contents/ui/main.qml:32
+#: main.qml:33
 #, kde-format
 msgctxt "@title the name of the Trash widget"
 msgid "Trash"
 msgstr "Сметніца"
 
-#: contents/ui/main.qml:34
+#: main.qml:36
+#| msgctxt "@info:status The trash is empty"
+#| msgid "Empty"
+msgctxt "@info:status The trash is being emptied"
+msgid "Emptying…"
+msgstr ""
+
+#: main.qml:38
 #, kde-format
 msgctxt "@info:status The trash contains this many items in it"
 msgid "One item"
@@ -35,25 +42,25 @@ msgstr[1] "%1 аб’ектаў"
 msgstr[2] "%1 элементаў"
 msgstr[3] "%1 элементы"
 
-#: contents/ui/main.qml:35
+#: main.qml:40
 #, kde-format
 msgctxt "@info:status The trash is empty"
 msgid "Empty"
 msgstr "пустая"
 
-#: contents/ui/main.qml:72
+#: main.qml:80
 #, kde-format
 msgctxt "@action:inmenu Open the trash"
 msgid "Open"
 msgstr "Адкрыць"
 
-#: contents/ui/main.qml:77
+#: main.qml:85
 #, kde-format
 msgctxt "@action:inmenu Empty the trash"
 msgid "Empty"
 msgstr "Ачысціць"
 
-#: contents/ui/main.qml:83
+#: main.qml:91
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Trash Settings…"
