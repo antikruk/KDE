@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-19 00:41+0000\n"
-"PO-Revision-Date: 2025-02-25 19:13\n"
+"POT-Creation-Date: 2026-03-21 00:44+0000\n"
+"PO-Revision-Date: 2026-03-26 19:44\n"
 "Last-Translator: Antikruk <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,12 +19,26 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/kio-extras/kio6_filenamesearch.po\n"
 "X-Crowdin-File-ID: 19147\n"
 
-#: kio_filenamesearch.cpp:132
+#: kio_filenamesearch.cpp:107
 #, kde-format
 msgid "Search Folder"
 msgstr "Каталог пошуку"
 
-#: kio_filenamesearch.cpp:428
+#: kio_filenamesearch.cpp:486
+#, kde-format
+msgctxt "@info:status"
+msgid "Invalid search location\n"
+"Trying to search the %1 directory"
+msgstr ""
+
+#: kio_filenamesearch.cpp:511
+#, kde-format
+msgctxt "@info:status"
+msgid "Invalid search query: '%1'\n"
+"Expected a regular expression: %2"
+msgstr ""
+
+#: kio_filenamesearch.cpp:774
 #, kde-format
 msgctxt "@info:%1 is the program used to do the search"
 msgid "%1 failed, exit code: %2, error messages: %3"
