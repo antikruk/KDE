@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-19 00:42+0000\n"
-"PO-Revision-Date: 2025-02-25 19:18\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2026-03-26 19:52\n"
 "Last-Translator: Antikruk <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,23 +19,23 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/plasma-nm/plasmanetworkmanagement_openconnectui.po\n"
 "X-Crowdin-File-ID: 19803\n"
 
-#: openconnectauth.cpp:346
+#: openconnectauth.cpp:345
 #, kde-format
 msgid "Failed to initialize software token: %1"
 msgstr "Не ўдалося ініцыялізаваць праграмны токен: %1"
 
-#: openconnectauth.cpp:399
+#: openconnectauth.cpp:398
 #, kde-format
 msgid "Contacting host, please wait…"
 msgstr "Спроба сувязі з хостам, пачакайце…"
 
-#: openconnectauth.cpp:787
+#: openconnectauth.cpp:786
 #, kde-format
 msgctxt "Verb, to proceed with login"
 msgid "Login"
 msgstr "Лагін"
 
-#: openconnectauth.cpp:849
+#: openconnectauth.cpp:848
 #, kde-format
 msgid "Check failed for certificate from VPN server \"%1\".\n"
 "Reason: %2\n"
@@ -44,7 +44,7 @@ msgstr "Не ўдалося праверыць сертыфікат ад сер�
 " Прычына: %2\n"
 " Усё роўна прыняць?"
 
-#: openconnectauth.cpp:944
+#: openconnectauth.cpp:943
 #, kde-format
 msgid "Connection attempt was unsuccessful."
 msgstr "Спроба злучэння скончылася няўдала."
@@ -400,24 +400,40 @@ msgid "Internal User Verification Locked"
 msgstr "Унутранае правяранне карыстальніка заблакавана"
 
 #: openconnectwebauthdialog.cpp:191
-#, kde-format
-msgid "Wrong PIN. %1 attempts remaining."
-msgstr "Няправільны PIN-код. Засталося спробаў: %1."
+#| msgid "Wrong PIN. %1 attempts remaining."
+msgid "Wrong PIN. %1 attempt remaining."
+msgid_plural "Wrong PIN. %1 attempts remaining."
+msgstr[0] ""
+msgstr[1] "Няправільны PIN-код. Засталося спробаў: %1."
+msgstr[2] "Няправільны PIN-код. Засталося спробаў: %1."
+msgstr[3] "Няправільны PIN-код. Засталося спробаў: %1."
 
 #: openconnectwebauthdialog.cpp:194
-#, kde-format
-msgid "Too Short. %1 attempts remaining."
-msgstr "Занадта кароткі. Засталося спробаў: %1."
+#| msgid "Too Short. %1 attempts remaining."
+msgid "Too Short. %1 attempt remaining."
+msgid_plural "Too Short. %1 attempts remaining."
+msgstr[0] ""
+msgstr[1] "Занадта кароткі. Засталося спробаў: %1."
+msgstr[2] "Занадта кароткі. Засталося спробаў: %1."
+msgstr[3] "Занадта кароткі. Засталося спробаў: %1."
 
 #: openconnectwebauthdialog.cpp:197
-#, kde-format
-msgid "Invalid Characters. %1 attempts remaining."
-msgstr "Хібныя знакі. Засталося спробаў: %1."
+#| msgid "Invalid Characters. %1 attempts remaining."
+msgid "Invalid Characters. %1 attempt remaining."
+msgid_plural "Invalid Characters. %1 attempts remaining."
+msgstr[0] ""
+msgstr[1] "Хібныя знакі. Засталося спробаў: %1."
+msgstr[2] "Хібныя знакі. Засталося спробаў: %1."
+msgstr[3] "Хібныя знакі. Засталося спробаў: %1."
 
 #: openconnectwebauthdialog.cpp:201
-#, kde-format
-msgid "Same as current PIN. %1 attempts remaining."
-msgstr "Зараз такі самы PIN-код. Засталося спробаў: %1."
+#| msgid "Same as current PIN. %1 attempts remaining."
+msgid "Same as current PIN. %1 attempt remaining."
+msgid_plural "Same as current PIN. %1 attempts remaining."
+msgstr[0] ""
+msgstr[1] "Зараз такі самы PIN-код. Засталося спробаў: %1."
+msgstr[2] "Зараз такі самы PIN-код. Засталося спробаў: %1."
+msgstr[3] "Зараз такі самы PIN-код. Засталося спробаў: %1."
 
 #: openconnectwebauthdialog.cpp:239
 #, kde-format
@@ -471,8 +487,8 @@ msgstr "Аўтэнтыфікатар не падтрымлівае Large Blob"
 
 #: openconnectwebauthdialog.cpp:278
 #, kde-format
-msgid "No common algorithms"
-msgstr "Няма агульных алгарытмаў"
+msgid "The security token does not support the server’s required authentication method."
+msgstr ""
 
 #: openconnectwebauthdialog.cpp:281
 #, kde-format
@@ -529,4 +545,7 @@ msgstr "Пацвердзіце PIN-код"
 #, kde-format
 msgid "TextLabel"
 msgstr "Тэкст"
+
+#~ msgid "No common algorithms"
+#~ msgstr "Няма агульных алгарытмаў"
 
