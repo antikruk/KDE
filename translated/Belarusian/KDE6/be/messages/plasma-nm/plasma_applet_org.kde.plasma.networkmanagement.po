@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-17 00:42+0000\n"
-"PO-Revision-Date: 2025-01-07 21:24\n"
+"POT-Creation-Date: 2026-03-12 00:45+0000\n"
+"PO-Revision-Date: 2026-03-26 19:52\n"
 "Last-Translator: Antikruk <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,200 +19,265 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/plasma-nm/plasma_applet_org.kde.plasma.networkmanagement.po\n"
 "X-Crowdin-File-ID: 19787\n"
 
-#: contents/ui/ConnectionItem.qml:56
+#: ConnectionItem.qml:62
 #, kde-format
 msgid "Connect"
 msgstr "Падлучыцца"
 
-#: contents/ui/ConnectionItem.qml:56
+#: ConnectionItem.qml:62
 #, kde-format
 msgid "Disconnect"
 msgstr "Адлучыцца"
 
-#: contents/ui/ConnectionItem.qml:81
+#: ConnectionItem.qml:90
 #, kde-format
-msgid "Show Network's QR Code"
-msgstr "Паказаць QR-код сеткі"
+msgctxt "Share Wi-Fi network's password or QR code"
+msgid "Share"
+msgstr "Абагуленыя файлы"
 
-#: contents/ui/ConnectionItem.qml:87
+#: ConnectionItem.qml:96
 #, kde-format
 msgid "Configure…"
 msgstr "Наладжванне…"
 
-#: contents/ui/ConnectionItem.qml:127
+#: ConnectionItem.qml:136
 #, kde-format
 msgid "Speed"
 msgstr "Хуткасць"
 
-#: contents/ui/ConnectionItem.qml:132
+#: ConnectionItem.qml:141
 #, kde-format
 msgid "Details"
 msgstr "Падрабязнасці"
 
-#: contents/ui/ConnectionItem.qml:179
+#: ConnectionItem.qml:188
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current download speed is %1 kibibytes per second; current upload speed is %2 kibibytes per second"
 msgstr "Бягучая хуткасць спампоўвання - %1 кібібайтаў за секунду; запампоўвання - %2 кібібайтаў за секунду"
 
-#: contents/ui/ConnectionItem.qml:296
+#: ConnectionItem.qml:298
 #| msgid "Connected, ⬇ %1/s, ⬆ %2/s"
-msgid "Connected, ↓ %1/s, ↑ %2/s"
+msgctxt "Download and upload rates in some unit per second"
+msgid "↓ %1/s, ↑ %2/s"
 msgstr ""
 
-#: contents/ui/ConnectionItem.qml:300
-#, kde-format
-msgid "Connected"
-msgstr "Падлучана"
-
-#: contents/ui/ConnectionListPage.qml:35
+#: ConnectionListPage.qml:33
 #, kde-format
 msgid "You need to log in to this network"
 msgstr "Вам неабходна ўвайсці ў гэтую сетку"
 
-#: contents/ui/ConnectionListPage.qml:39
+#: ConnectionListPage.qml:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Log in"
 msgstr "Увайсці"
 
-#: contents/ui/ConnectionListPage.qml:115
+#: ConnectionListPage.qml:118
 #, kde-format
 msgid "Airplane mode is enabled"
 msgstr "Рэжым палёту ўключаны"
 
-#: contents/ui/ConnectionListPage.qml:119
-#, kde-format
-msgid "Wireless and mobile networks are deactivated"
-msgstr "Бесправадныя і мабільныя сеткі дэактываваныя"
+#: ConnectionListPage.qml:122
+#| msgid "Wireless and mobile networks are deactivated"
+msgid "Wi-Fi and mobile data are deactivated"
+msgstr ""
 
-#: contents/ui/ConnectionListPage.qml:121
-#, kde-format
-msgid "Wireless is deactivated"
-msgstr "Бесправадная сетка дэактываваная"
+#: ConnectionListPage.qml:124
+#| msgid "Wireless is deactivated"
+msgid "Wi-Fi is deactivated"
+msgstr ""
 
-#: contents/ui/ConnectionListPage.qml:124
+#: ConnectionListPage.qml:127
 #, kde-format
-msgid "Mobile network is deactivated"
-msgstr "Мабільная сетка дэактываваная"
+msgid "Looking for Wi-Fi networks"
+msgstr ""
 
-#: contents/ui/ConnectionListPage.qml:127
+#: ConnectionListPage.qml:130
+#| msgid "Mobile network is deactivated"
+msgid "Mobile data is deactivated"
+msgstr ""
+
+#: ConnectionListPage.qml:133
 #, kde-format
 msgid "No matches"
 msgstr "Няма супадзенняў"
 
-#: contents/ui/ConnectionListPage.qml:129
+#: ConnectionListPage.qml:136
 #, kde-format
 msgid "No available connections"
 msgstr "Няма даступных злучэнняў"
 
-#: contents/ui/DetailsText.qml:45
+#: ConnectionListPage.qml:145
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Turn off airplane mode to search for networks"
+msgstr ""
+
+#: ConnectionListPage.qml:149
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Turn on Wi-Fi or mobile data to search for networks"
+msgstr ""
+
+#: ConnectionListPage.qml:151
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Turn on Wi-Fi to search for networks"
+msgstr ""
+
+#: ConnectionListPage.qml:154
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Turn on mobile data to search for networks"
+msgstr ""
+
+#: DetailsText.qml:40
 #, kde-format
 msgid "Copy"
 msgstr "Скапіяваць"
 
-#: contents/ui/main.qml:32
+#: main.qml:32
 #, kde-format
 msgid "Networks"
 msgstr "Сеткі"
 
-#: contents/ui/main.qml:41
+#: main.qml:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Middle-click to turn off Airplane Mode"
 msgstr "Каб выключыць рэжым палёту, пстрыкніце сярэдняй кнопкай мышы"
 
-#: contents/ui/main.qml:43
+#: main.qml:43
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Middle-click to turn on Airplane Mode"
 msgstr "Каб уключыць рэжым палёту, пстрыкніце сярэдняй кнопкай мышы"
 
-#: contents/ui/main.qml:71 contents/ui/Toolbar.qml:73
+#: main.qml:71 Toolbar.qml:82
 #, kde-format
 msgid "Enable Wi-Fi"
 msgstr "Уключыць Wi-Fi"
 
-#: contents/ui/main.qml:82
-#, kde-format
-msgid "Enable Mobile Network"
-msgstr "Уключыць мабільную сетку"
+#: main.qml:82
+#| msgid "Enable Mobile Network"
+msgid "Enable Mobile Data"
+msgstr ""
 
-#: contents/ui/main.qml:94
+#: main.qml:94
 #, kde-format
 msgid "Enable Airplane Mode"
 msgstr "Уключыць рэжым палёту"
 
-#: contents/ui/main.qml:106
+#: main.qml:106
 #, kde-format
 msgid "Open Network Login Page…"
 msgstr "Адкрыць старонку ўваходу ў сетку…"
 
-#: contents/ui/main.qml:116
+#: main.qml:116
 #, kde-format
 msgid "&Configure Network Connections…"
 msgstr "&Наладжванне сеткавых злучэнняў…"
 
-#: contents/ui/PopupDialog.qml:51
+#: PopupDialog.qml:50
 #, kde-format
 msgctxt "@action:button"
 msgid "Return to Network Connections"
 msgstr "Вярнуцца да сеткавых злучэнняў"
 
-#: contents/ui/ShareNetworkQrCodePage.qml:31
+#: ShareNetworkQrCodePage.qml:33
 #, kde-format
 msgid "Scan this QR code with another device to connect to the \"%1\" network."
 msgstr "Каб падлучыцца да сеткі \"%1\", адскануйце гэты QR-код на іншай прыладзе."
 
-#: contents/ui/Toolbar.qml:122
+#: ShareNetworkQrCodePage.qml:108
 #, kde-format
-msgid "Enable mobile network"
-msgstr "Уключыць мабільную сетку"
+msgid "Wi-Fi password:"
+msgstr ""
 
-#: contents/ui/Toolbar.qml:147
+#: Toolbar.qml:131
+#| msgid "Enable mobile network"
+msgid "Enable mobile data"
+msgstr ""
+
+#: Toolbar.qml:156
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Disable airplane mode<nl/><nl/>This will enable Wi-Fi and Bluetooth"
 msgstr "Адключыць рэжым палёту<nl/><nl/>Можна будзе ўключыць Wi-Fi і Bluetooth"
 
-#: contents/ui/Toolbar.qml:148
+#: Toolbar.qml:157
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Enable airplane mode<nl/><nl/>This will disable Wi-Fi and Bluetooth"
 msgstr "Уключыць рэжым палёту<nl/><nl/>Пры гэтым адключыцца Wi-Fi і Bluetooth"
 
-#: contents/ui/Toolbar.qml:159
+#: Toolbar.qml:170
 #, kde-format
 msgid "Hotspot"
 msgstr "Пункт доступу"
 
-#: contents/ui/Toolbar.qml:183 contents/ui/Toolbar.qml:194
+#: Toolbar.qml:187
 #, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot create a hotspot because Wi-Fi is disabled."
+msgstr ""
+
+#: Toolbar.qml:189
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot create a hotspot because all wireless radios are in use. Disconnect from the current Wi-Fi network or connect another wireless radio."
+msgstr ""
+
+#: Toolbar.qml:191
+#| msgid "Disable Hotspot"
+msgctxt "@info:tooltip"
 msgid "Disable Hotspot"
 msgstr "Адключыць пункт доступу"
 
-#: contents/ui/Toolbar.qml:188 contents/ui/Toolbar.qml:194
-#, kde-format
+#: Toolbar.qml:193
+#| msgid "Create Hotspot"
+msgctxt "@info:tooltip"
 msgid "Create Hotspot"
 msgstr "Стварыць пункт доступу"
 
-#: contents/ui/Toolbar.qml:226
+#: Toolbar.qml:221
+#, kde-format
+msgctxt "@action:button"
+msgid "Scan Wi-Fi QR Code"
+msgstr ""
+
+#: Toolbar.qml:226
+#| msgid ""
+#| "Scan this QR code with another device to connect to the \"%1\" network."
+msgctxt "@info:tooltip"
+msgid "Scan QR Code to connect to a Wi-Fi network"
+msgstr ""
+
+#: Toolbar.qml:228
+#| msgid ""
+#| "Scan this QR code with another device to connect to the \"%1\" network."
+msgctxt "@info:tooltip"
+msgid "Install QRCA Barcode Scanner to scan for a QR Code that connects to a Wi-Fi network"
+msgstr ""
+
+#: Toolbar.qml:247
 #, kde-format
 msgid "Configure network connections…"
 msgstr "Наладжванне сеткавых злучэнняў…"
 
-#: contents/ui/TrafficMonitor.qml:37 contents/ui/TrafficMonitor.qml:111
-#, kde-format
-msgid "/s"
-msgstr "/с"
+#~ msgid "/s"
+#~ msgstr "/с"
 
-#: contents/ui/TrafficMonitor.qml:89
-#, kde-format
-msgid "Upload"
-msgstr "Запампаваць"
+#~ msgid "Upload"
+#~ msgstr "Запампаваць"
 
-#: contents/ui/TrafficMonitor.qml:89
-#, kde-format
-msgid "Download"
-msgstr "Спампаваць"
+#~ msgid "Download"
+#~ msgstr "Спампаваць"
+
+#~ msgid "Show Network's QR Code"
+#~ msgstr "Паказаць QR-код сеткі"
+
+#~ msgid "Connected"
+#~ msgstr "Падлучана"
 
