@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-23 00:42+0000\n"
-"PO-Revision-Date: 2025-02-25 19:18\n"
+"POT-Creation-Date: 2026-03-22 00:46+0000\n"
+"PO-Revision-Date: 2026-03-31 20:31\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -92,25 +92,25 @@ msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
 msgstr "Запытаны невядомы модуль %1"
 
-#: src/public/controller.cpp:43 src/public/utils.cpp:40
+#: src/public/controller.cpp:45 src/public/utils.cpp:45
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
 msgstr "Не ўдалося знайсці каманду <command>%1</command>."
 
-#: src/public/controller.cpp:76 src/public/utils.cpp:73
+#: src/public/controller.cpp:78 src/public/utils.cpp:78
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
 msgstr "Няма паведамлення пра памылку"
 
-#: src/public/controller.cpp:80 src/public/utils.cpp:77
+#: src/public/controller.cpp:82 src/public/utils.cpp:82
 #, kde-kuit-format
 msgctxt "@info:progress %1 is the command being run, and %2 is the human-readable error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
 msgstr "Каманда<command>%1</command> схібіла: %2"
 
-#: src/public/qml/ApplicationIcon.qml:40
+#: src/public/qml/ApplicationIcon.qml:42
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
@@ -151,13 +151,13 @@ msgctxt "@action:button"
 msgid "&Back"
 msgstr "&Назад"
 
-#: src/qml/footers/FooterDefault.qml:69
+#: src/qml/footers/FooterDefault.qml:71
 #, kde-format
 msgctxt "@action:button"
 msgid "&Finish"
 msgstr "&Завяршыць"
 
-#: src/qml/footers/FooterDefault.qml:69
+#: src/qml/footers/FooterDefault.qml:71
 #, kde-format
 msgctxt "@action:button"
 msgid "&Next"
@@ -223,15 +223,16 @@ msgstr "Стварыць пакой…"
 msgid "Search…"
 msgstr "Пошук…"
 
-#: src/qml/mock/MockOverview.qml:98
+#: src/qml/mock/MockOverview.qml:97
 #, kde-format
 msgctxt "@title The default name of a Plasma desktop as seen in the overview"
 msgid "Desktop 1"
 msgstr "Працоўны стол 1"
 
-#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:211
-#, kde-format
-msgctxt "@info:placeholder Shown when there is insufficent width"
+#: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:210
+#| msgctxt "@info:placeholder Shown when there is insufficent width"
+#| msgid "Expand the window"
+msgctxt "@info:placeholder Shown when there is insufficient width"
 msgid "Expand the window"
 msgstr "Разгарнуць акно"
 
@@ -241,7 +242,7 @@ msgctxt "@info:window"
 msgid "Error loading page"
 msgstr "Падчас загрузкі старонкі адбылася памылка"
 
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:42
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -271,19 +272,19 @@ msgctxt "@info:usagetip"
 msgid "This page provided by Welcome Center could not be loaded"
 msgstr "Не ўдалося загрузіць гэтую старонку, пададзеную азнаямляльным цэнтрам"
 
-#: src/qml/pages/Discover.qml:22
+#: src/qml/pages/Discover.qml:20
 #, kde-format
 msgctxt "@title:window"
-msgid "Manage Software"
-msgstr "Кіраванне праграмным забеспячэннем"
+msgid "Find Great Apps"
+msgstr ""
 
-#: src/qml/pages/Discover.qml:23
+#: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
-msgctxt "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
-msgid "The <application>%1</application> app helps you find and install applications, games, and tools. You can search or browse by category, look at screenshots, and read reviews to help you find the perfect app."
-msgstr "Праграма <application>%1</application> дапамагае знаходзіць і ўсталёўваць праграмы, гульні і інш. Вы можаце шукаць па назве або праглядаць па катэгорыях, глядзець здымкі экрана і чытаць агляды."
+msgctxt "@info:usagetip %1 is 'Discover', the name of KDE's software center app, and %2 is the distro name."
+msgid "There’s no need to search the web to download app installers or use a command-line package manager; KDE’s app store <application>%1</application> does it all for you!<nl/><nl/>Click on any of the icons below to give it a try!"
+msgstr ""
 
-#: src/qml/pages/Discover.qml:107
+#: src/qml/pages/Discover.qml:103
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -370,13 +371,13 @@ msgctxt "@action:inmenu An option to sort a list in reverse order"
 msgid "Reverse"
 msgstr "У адваротным кірунку"
 
-#: src/qml/pages/Feedback.qml:15
+#: src/qml/pages/Feedback.qml:16
 #, kde-format
 msgctxt "@title: window"
 msgid "Share Anonymous Usage Information"
 msgstr "Падзяліцца ананімнай статыстыкай выкапыстання"
 
-#: src/qml/pages/Feedback.qml:16
+#: src/qml/pages/Feedback.qml:17
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Our developers will use this anonymous data to improve KDE software. You can choose how much to share in System Settings, and here too."
@@ -406,49 +407,49 @@ msgctxt "@action:button"
 msgid "Visit home page"
 msgstr "Наведаць хатнюю старонку"
 
-#: src/qml/pages/Network.qml:20
+#: src/qml/pages/Network.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Access the Internet"
 msgstr "Доступ у інтэрнэт"
 
-#: src/qml/pages/Network.qml:21
+#: src/qml/pages/Network.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "You can connect to the internet and manage your network connections with the <interface>Networks applet</interface>. To access it, click on the <interface>Networks</interface> icon in your <interface>System Tray</interface>, which lives in the bottom-right corner of the screen."
 msgstr "Вы можаце падлучыцца да інтэрнэту і кіраваць сеткавымі злучэннямі з дапамогай <interface>Аплета сетак</interface>. Каб атрымаць да яго доступ, пстрыкніце па значку <interface>Сеткі</interface> на <interface>Прасторы апавяшчэнняў</interface> у правым ніжнім куце экрана."
 
-#: src/qml/pages/Network.qml:37
+#: src/qml/pages/Network.qml:40
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr "Падтрымка сеткі для Plasma не ўсталяваная"
 
-#: src/qml/pages/Network.qml:38
+#: src/qml/pages/Network.qml:41
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid "To manage network connections, Plasma requires <icode>plasma-nm</icode> to be installed. Please report this omission to %1."
 msgstr "Каб у Plasma можна было кіраваць сеткавымі злучэннямі, трэба ўсталяваць <icode>plasma-nm</icode>. Калі ласка, паведаміце пра гэтую недакладнасць на %1."
 
-#: src/qml/pages/Network.qml:208
+#: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr "Вы падлучаныя"
 
-#: src/qml/pages/Network.qml:209
+#: src/qml/pages/Network.qml:212
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr "Усё добра!"
 
-#: src/qml/pages/Network.qml:216
+#: src/qml/pages/Network.qml:219
 #, kde-format
 msgctxt "@info"
 msgid "This page is being shown regardless of network connectivity because you are using a development version. To manually preview the different states of the page, you can use the button."
 msgstr "Гэтая старонка паказваецца незалежна ад злучэння з сеткай, бо вы выкарыстоўваеце версію для распрацоўвання. Вы можаце паглядзець розныя станы старонкі з дапамогай кнопкі."
 
-#: src/qml/pages/Network.qml:221
+#: src/qml/pages/Network.qml:224
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
@@ -539,97 +540,101 @@ msgctxt "@info:tooltip"
 msgid "The preview will be loaded automatically when this page is shown for future Plasma updates, except when using a metered network connection."
 msgstr ""
 
-#: src/qml/pages/PlasmaUpdate.qml:421
+#: src/qml/pages/PlasmaUpdate.qml:422
 #, kde-format
 msgctxt "@info"
 msgid "<b>Click to read the announcement</b>"
 msgstr ""
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:16
+#: src/qml/pages/PowerfulWhenNeeded.qml:17
 #, kde-format
 msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "Магутная пры неабходнасці"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:17
-#, kde-kuit-format
+#: src/qml/pages/PowerfulWhenNeeded.qml:20
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "Plasma is an extremely feature-rich environment, designed to super-charge "
+#| "your productivity! Here is just a smattering of the things it can do for "
+#| "you:"
 msgctxt "@info:usagetip"
-msgid "Plasma is an extremely feature-rich environment, designed to super-charge your productivity! Here is just a smattering of the things it can do for you:"
-msgstr "Plasma - гэта надзвычай багатае на функцыі асяроддзе, распрацаванае для таго, каб павялічыць вашу прадукцыйнасць! Вось толькі невялікая функцый:"
+msgid "Plasma is a feature-rich environment, designed to super-charge your productivity!<nl/><nl/>Click the cards below to see just a smattering of what it can do for you:"
+msgstr ""
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:56
+#: src/qml/pages/PowerfulWhenNeeded.qml:44
+#, kde-format
+msgctxt "@title:row"
+msgid "Keyboard Shortcuts"
+msgstr "Спалучэнні клавіш"
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:45
+#, kde-format
+msgctxt "@info Caption for Get Keyboard Shortcuts button"
+msgid "Activate features from the keyboard"
+msgstr ""
+
+#: src/qml/pages/PowerfulWhenNeeded.qml:50
 #, kde-format
 msgctxt "@title:row Name of the 'Overview' KWin effect"
 msgid "Overview"
 msgstr "Агляд"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:57
+#: src/qml/pages/PowerfulWhenNeeded.qml:51
 #, kde-format
 msgctxt "@info Caption for Overview button"
 msgid "Your system command center"
 msgstr "Цэнтр кіравання вашай сістэмы"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:67
+#: src/qml/pages/PowerfulWhenNeeded.qml:56
 #, kde-format
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:68
+#: src/qml/pages/PowerfulWhenNeeded.qml:57
 #, kde-format
 msgctxt "@info Caption for KRunner button"
 msgid "Search for anything"
 msgstr "Шукайце што заўгодна"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:78
+#: src/qml/pages/PowerfulWhenNeeded.qml:62
 #, kde-format
 msgctxt "@title:row Name of the 'KDE Connect' feature"
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:79
+#: src/qml/pages/PowerfulWhenNeeded.qml:63
 #, kde-format
 msgctxt "@info Caption for KDE Connect button"
 msgid "Connect your phone and your computer"
 msgstr "Падлучыце тэлефон да камп'ютара"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:90
+#: src/qml/pages/PowerfulWhenNeeded.qml:68
 #, kde-format
 msgctxt "@title:row Name of the 'Activities' Plasma feature"
 msgid "Activities"
 msgstr "Пакоі"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:91
+#: src/qml/pages/PowerfulWhenNeeded.qml:69
 #, kde-format
 msgctxt "@info Caption for Activities button. Note that 'Separate' is being used as an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
 msgstr "Размяжуйце працоўныя, школьныя або хатнія задачы"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:101
+#: src/qml/pages/PowerfulWhenNeeded.qml:74
 #, kde-format
 msgctxt "@title:row Short form of the 'Vaults' Plasma feature"
 msgid "Vaults"
 msgstr "Сховішчы"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:102
+#: src/qml/pages/PowerfulWhenNeeded.qml:75
 #, kde-format
 msgctxt "@info Caption for Plasma Vaults button"
 msgid "Store sensitive files securely"
 msgstr "Надзейна захоўвайце канфідэнцыйныя файлы"
 
-#: src/qml/pages/PowerfulWhenNeeded.qml:112
-#, kde-format
-msgctxt "@title:row"
-msgid "System Settings"
-msgstr "Налады сістэмы"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:113
-#, kde-format
-msgctxt "@info Caption for Get System Settings button"
-msgid "Configure the system"
-msgstr "Наладжванне сістэмы"
-
-#: src/qml/pages/PowerfulWhenNeeded.qml:120
+#: src/qml/pages/PowerfulWhenNeeded.qml:124
 #, kde-format
 msgctxt "@action:button"
 msgid "Learn about more Plasma features"
@@ -648,7 +653,6 @@ msgid "Activities can be used to separate high-level projects or workflows so yo
 msgstr "Пакоі можна выкарыстоўваць для дзялення складаных праектаў або працоўных працэсаў, каб вы маглі сканцэнтравацца на кожным элеменце асобна. Вы можаце мець пакой \"Дом\", \"Школа\", \"Праца\" і гэтак далей. Кожны пакой мае доступ да ўсіх вашых файлаў, але мае ўласны набор адкрытых праграм і акон, нядаўніх дакументаў, улюбёных праграм і віджэтаў працоўнага стала."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:28
-#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:28
 #, kde-format
 msgctxt "@action:button"
@@ -673,10 +677,45 @@ msgid "KDE Connect"
 msgstr "KDE Connect"
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KDE Connect lets you integrate your phone with your computer in various "
+#| "ways:<nl/><list><item>See notifications from your phone on your computer</"
+#| "item><item>Reply to text messages from your phone on your computer</"
+#| "item><item>Sync your clipboard contents between your computer and your "
+#| "phone</item><item>Make a noise on your phone when it’s been misplaced</"
+#| "item><item>Copy pictures, videos, and other files from your phone to your "
+#| "computer, and vice versa</item><item>…And much more!</item></list><nl/>To "
+#| "get started, launch <interface>System Settings</interface> and search for "
+#| "“KDE Connect”. On that page, you can pair your phone."
+msgctxt "@info:usagetip"
+msgid "KDE Connect lets you integrate your phone with your computer in various ways:<nl/><list><item>See notifications from your phone on your computer</item><item>Reply to text messages from your phone on your computer</item><item>Sync your clipboard contents between your computer and your phone</item><item>Make a noise on your phone when it’s been misplaced</item><item>Copy pictures, videos, and other files from your phone to your computer, and vice versa</item><item>…And much more!</item></list>"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid "KDE Connect lets you integrate your phone with your computer in various ways:<nl/><list><item>See notifications from your phone on your computer</item><item>Reply to text messages from your phone on your computer</item><item>Sync your clipboard contents between your computer and your phone</item><item>Make a noise on your phone when it’s been misplaced</item><item>Copy pictures, videos, and other files from your phone to your computer, and vice versa</item><item>…And much more!</item></list><nl/>To get started, launch <interface>System Settings</interface> and search for “KDE Connect”. On that page, you can pair your phone."
-msgstr "KDE Connect дае магчымасць інтэграваць тэлефон з камп'ютарам рознымі спосабамі:<nl/><list><item>Праглядаць апавяшчэнні з тэлефона на камп'ютары</item><item>Адказваць на тэкставыя паведамленні з тэлефона на камп'ютары</item><item>Сінхранізаваць змесціва буфера абмену паміж камп'ютарам і тэлефонам</item><item>Прайграваць гукавы сігнал у тэлефоне, калі ён згубіцца</item><item>Капіяваць малюнкі, відэа і іншыя файлы з вашага тэлефон на камп'ютар і наадварот</item><item>…І многае іншае!</item></list><nl/>Каб пачаць, запусціце <interface>Налады сістэмы</interface> і знайдзіце \"KDE Connect\". На гэтай старонцы вы можаце спалучыць свой тэлефон."
+msgid "To get started, click the <interface>%1</interface> button. You can pair your phone there."
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:50
+#, kde-format
+msgctxt "@action:button"
+msgid "Open %1"
+msgstr "Адкрыць %1"
+
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:62
+#, kde-format
+msgctxt "@info"
+msgid "KDE Connect is not installed."
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
+#| msgctxt "@title:row Name of the 'KDE Connect' feature"
+#| msgid "KDE Connect"
+msgctxt "@action:button Install KDE Connect"
+msgid "Install KDE Connect…"
+msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
 #, kde-format
@@ -726,6 +765,90 @@ msgctxt "@info:usagetip An addendum to example KRunner queries, intentionally us
 msgid "...and much more!"
 msgstr "…і шмат іншага!"
 
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:18
+#, kde-format
+msgctxt "@info:window"
+msgid "Keyboard Shortcuts"
+msgstr "Спалучэнні клавіш"
+
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:23
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Shortcuts…"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:29
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid "Almost anything in Plasma can be done with the keyboard, using shortcuts that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>On a Mac keyboard, this is the “Command” key:"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid "Almost anything in Plasma can be done with the keyboard, using shortcuts that mostly involve the <shortcut>Meta</shortcut> key.<nl/><nl/>This key is usually located between the left <shortcut>Ctrl</shortcut> and <shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or the word “Super”:"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:56
+#, kde-format
+msgctxt "The typical label for the keyboard's Ctrl key"
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:59
+#, kde-format
+msgctxt "The typical label for the keyboard's Function key"
+msgid "Fn"
+msgstr "Fn"
+
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:69
+#, kde-format
+msgctxt "The typical label for the keyboard's Meta key"
+msgid "Super"
+msgstr "Super"
+
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
+#, kde-format
+msgctxt "This is a terrible dad joke about the meta key on the keyboard being able to have many symbols. Translate it into one of similar groanworthiness if this is possible; if not, translate it as an single space."
+msgid "I never meta key I didn't like"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:101
+#, kde-format
+msgctxt "The typical label for the keyboard's Alt key"
+msgid "Alt"
+msgstr "Alt"
+
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:114
+#, kde-format
+msgctxt "The actual translated label for 'fn' on a Mac keyboard"
+msgid "fn"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:119
+#, kde-format
+msgctxt "The actual translated label for 'control' on a Mac keyboard"
+msgid "control"
+msgstr ""
+
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:123
+#, kde-format
+msgctxt "The actual translated label for 'option' on a Mac keyboard"
+msgid "option"
+msgstr "параметр"
+
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:128
+#, kde-format
+msgctxt "The actual translated label for 'command' on a Mac keyboard"
+msgid "command"
+msgstr "каманда"
+
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:137
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid "What can you do with the <shortcut>Meta</shortcut> key? Here are a few examples:<list><item>Press it: Open the Application Launcher widget</item><item>Press <shortcut>Meta+[arrow keys]</shortcut>: Tile window to screen edges or corners</item><item>Press <shortcut>Meta+[number keys]</shortcut>: Launch pinned Task Manager apps</item><item>Press <shortcut>Meta+R</shortcut>: Start a screen recording</item><item>Press <shortcut>Meta+L</shortcut>: Lock the screen</item><item>Press <shortcut>Meta+Shift+S</shortcut>: Toggle screen reader on/off</item><item>Press <shortcut>Meta+Alt+P</shortcut>: Move keyboard focus to panel</item><item>Press <shortcut>Meta+Esc</shortcut>: Launch System Monitor app</item><item>Press <shortcut>Meta+.</shortcut>: Launch Emoji Selector app</item><item>Press <shortcut>Meta+D</shortcut>: Show the desktop</item></list>"
+msgstr ""
+
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:19
 #, kde-format
 msgctxt "@info:window The name of a KWin effect"
@@ -750,18 +873,6 @@ msgstr ""
 msgctxt "@info:usagetip"
 msgid "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard shortcut, or by moving your mouse into the top-left corner of the screen. You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows Virtual Desktops in a grid."
 msgstr ""
-
-#: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
-#, kde-format
-msgctxt "@info:window"
-msgid "System Settings"
-msgstr "Налады сістэмы"
-
-#: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid "The System Settings app lets you extensively customize the system to suit your tastes and preferences. Default apps, wallpapers, visual styles and icons, virtual desktops, power management, 3rd-party add-ons — you’ll find it all there!"
-msgstr "Праграма \"Налады сістэмы\" дае магчымасць разнастайна наладзіць сістэму ў адпаведнасці з вашымі густамі і перавагамі. Прадвызначаныя праграмы, шпалеры, стылі і значкі, віртуальныя працоўныя сталы, кіраванне сілкаваннем, дадатковыя кампаненты іншых вытворцаў - усё гэта вы знойдзеце там!"
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
 #, kde-format
@@ -813,55 +924,59 @@ msgctxt "@info:usagetip"
 msgid "To get started, click the arrow on the <interface>System Tray</interface> to show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
 
-#: src/qml/pages/SimpleByDefault.qml:22
+#: src/qml/pages/SimpleByDefault.qml:21
 #, kde-format
 msgctxt "@info:window"
 msgid "Simple by Default"
 msgstr "Проста ад самага пачатку"
 
-#: src/qml/pages/SimpleByDefault.qml:23
+#: src/qml/pages/SimpleByDefault.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "Plasma is designed to be simple and usable out of the box. Things are where you would expect, and there is generally no need to configure anything before you can be comfortable and productive.<nl/><nl/>Below is a visual representation of a typical Plasma Desktop; move the pointer over or click on something to learn about it!"
 msgstr "Працоўнае асяроддзе \"Plasma\" распрацавана так, каб ад пачатку быць простым і зручным у выкарыстанні. Усё там, дзе вы чакаеце. Звычайна няма неабходнасці што-небудзь наладжваць. Вы адразу будзеце пачувацца камфортна і працаваць прадуктыўна.<nl/><nl/>Ніжэй пададзены выгляд звычайнага працоўнага стала Plasma. Перамясціце паказальнік або націсніце што-небудзь, каб даведацца пра гэты элемент!"
 
-#: src/qml/pages/SimpleByDefault.qml:34
+#: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
 msgctxt "@info"
 msgid "This is the “Desktop”. It shows files and folders that are contained in your <filename>Desktop</filename> folder, and can hold widgets. Right-click on it and choose <interface>Desktop and Wallpaper…</interface> to configure the appearance of the desktop. You can also choose <interface>Enter Edit Mode</interface> to add, remove or modify widgets."
 msgstr "Гэта \"Працоўны стол\". Тут паказваюцца файлы і каталогі, якія знаходзяцца ў каталозе <filename>Працоўны стол</filename>. Таксама ён можа змяшчаць віджэты. Пстрыкніце па ім правай кнопкай мышы і абярыце <interface>Працоўны стол і шпалеры…</interface>, каб наладзіць выгляд працоўнага стала. Таксама можаце абраць <interface>Увайсці ў рэжым рэдагавання</interface>, каб дадаць, выдаліць або змяніць віджэты."
 
-#: src/qml/pages/SimpleByDefault.qml:37
+#: src/qml/pages/SimpleByDefault.qml:36
 #, kde-kuit-format
 msgctxt "@info"
 msgid "This is a “Panel” — a container to hold widgets. Right-click on it and choose <interface>Show Panel Configuration</interface> to change how it behaves, which screen edge it lives on, and to add, remove or modify widgets."
 msgstr "Гэта \"Панэль\" — кантэйнер для захоўвання віджэтаў. Пстрыкніце па ім правай кнопкай мышы і абярыце <interface>Паказаць канфігурацыю панэлі</interface>, каб змяніць, як яна сябе паводзіць, на якім краі экрана знаходзіцца, а таксама дадаць, выдаліць або змяніць віджэты."
 
-#: src/qml/pages/SimpleByDefault.qml:40
-#, kde-format
+#: src/qml/pages/SimpleByDefault.qml:39
+#| msgctxt "@info"
+#| msgid ""
+#| "This is the “Kickoff” widget, a multipurpose launcher. Here you can "
+#| "launch apps, shut down or restart the system, access recent files, and "
+#| "more. Click on it to get started!"
 msgctxt "@info"
-msgid "This is the “Kickoff” widget, a multipurpose launcher. Here you can launch apps, shut down or restart the system, access recent files, and more. Click on it to get started!"
-msgstr "Гэта віджэт \"Kickoff\", шматфункцыянальны сродак запуску. Тут вы можаце запускаць праграмы, выключаць або перазагружаць сістэму, атрымліваць доступ да нядаўніх файлаў і многае іншае. Націсніце на яго, каб пачаць!"
+msgid "This is the “Application Launcher” widget, a multipurpose launcher. Here you can launch apps, shut down or restart the system, access recent files, and more. Click on it to get started!"
+msgstr ""
 
-#: src/qml/pages/SimpleByDefault.qml:43
+#: src/qml/pages/SimpleByDefault.qml:42
 #, kde-format
 msgctxt "@info"
 msgid "This is the “Task Manager” widget, where you can switch between open apps and also launch new ones. Drag app icons to re-arrange them."
 msgstr "Гэта віджэт \"Кіраўнік задач\", у якім вы можаце пераключацца паміж адкрытымі праграмамі і запускаць новыя. Перацягніце значкі праграм, каб змяніць іх размяшчэнне."
 
-#: src/qml/pages/SimpleByDefault.qml:46
+#: src/qml/pages/SimpleByDefault.qml:45
 #, kde-format
 msgctxt "@info"
 msgid "This is the “System Tray” widget, which lets you control system functions like changing the volume and connecting to networks. Items will become visible here only when relevant. To see all available items, click the ⌃ arrow next to the clock."
 msgstr "Гэта віджэт \"Панэль апавяшчэнняў\", які дае магчымасць кіраваць такімі функцыямі сістэмы, як змена гучнасці і падлучэнне да сетак. Элементы будуць бачныя тут толькі тады, калі яны актуальныя. Каб убачыць усе даступныя элементы, націсніце стрэлку ⌃ побач з гадзіннікам."
 
-#: src/qml/pages/SimpleByDefault.qml:49
+#: src/qml/pages/SimpleByDefault.qml:48
 #, kde-format
 msgctxt "@info"
 msgid "This is the “Digital Clock” widget. Click on it to show a calendar. It can be also configured to show other timezones and events from your digital calendars."
 msgstr "Гэта віджэт \"Лічбавы гадзіннік\". Націсніце на яго, каб паглядзець каляндар. Яго таксама можна наладзіць для паказу іншых часавых паясоў і падзей з вашых лічбавых календароў."
 
-#: src/qml/pages/SimpleByDefault.qml:52
+#: src/qml/pages/SimpleByDefault.qml:51
 #, kde-format
 msgctxt "@info"
 msgid "This is the “Peek at Desktop” widget. Click on it to temporarily hide all open windows so you can access the desktop. Click on it again to bring them back."
@@ -909,47 +1024,87 @@ msgctxt "@action:button %1 is the name of the user's distro"
 msgid "Learn more about %1"
 msgstr "Даведацца больш пра %1"
 
-#: src/qml/pages/Welcome.qml:99
-#, kde-format
-msgctxt "@title"
-msgid "Image loading failed"
-msgstr "Не ўдалося загрузіць выяву"
-
-#: src/qml/pages/Welcome.qml:100
-#, kde-kuit-format
-msgctxt "@info:placeholder"
-msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr "Не ўдалося запусціць<filename>%1</filename>. Пераканайцеся, што файл існуе."
-
-#: src/qml/pages/Welcome.qml:127
-#, kde-format
-msgctxt "@action:button clicking on this takes the user to a web page"
-msgid "Visit %1"
-msgstr "Наведаць %1"
-
-#: src/qml/pages/Welcome.qml:134
+#: src/qml/pages/Welcome.qml:76
 #, kde-format
 msgctxt "@info"
 msgid "The KDE mascot Konqi welcomes you to the KDE community!"
 msgstr "Талісман KDE Konqi вітае вас у супольнасці KDE!"
 
-#: src/release.cpp:43
+#: src/qml/pages/Welcome.qml:109
+#, kde-format
+msgctxt "@title"
+msgid "Image loading failed"
+msgstr "Не ўдалося загрузіць выяву"
+
+#: src/qml/pages/Welcome.qml:110
+#, kde-kuit-format
+msgctxt "@info:placeholder"
+msgid "Could not load <filename>%1</filename>. Make sure it exists."
+msgstr "Не ўдалося запусціць<filename>%1</filename>. Пераканайцеся, што файл існуе."
+
+#: src/qml/pages/Welcome.qml:133
+#, kde-format
+msgctxt "@action:button clicking on this takes the user to a web page"
+msgid "Visit %1"
+msgstr "Наведаць %1"
+
+#: src/release.cpp:42
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
 msgstr "%1 Dev"
 
-#: src/release.cpp:46
+#: src/release.cpp:45
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
 msgstr "%1 Beta"
 
-#: src/release.cpp:50
+#: src/release.cpp:49
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 Beta %2"
+
+#~ msgctxt "@title:row"
+#~ msgid "System Settings"
+#~ msgstr "Налады сістэмы"
+
+#~ msgctxt "@info Caption for Get System Settings button"
+#~ msgid "Configure the system"
+#~ msgstr "Наладжванне сістэмы"
+
+#~ msgctxt "@info:window"
+#~ msgid "System Settings"
+#~ msgstr "Налады сістэмы"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "The System Settings app lets you extensively customize the system to suit "
+#~ "your tastes and preferences. Default apps, wallpapers, visual styles and "
+#~ "icons, virtual desktops, power management, 3rd-party add-ons — you’ll "
+#~ "find it all there!"
+#~ msgstr ""
+#~ "Праграма \"Налады сістэмы\" магчымасць разнастайна наладзіць сістэму ў "
+#~ "адпаведнасці з вашымі густамі і перавагамі. Прадвызначаныя праграмы, "
+#~ "шпалеры, стылі і значкі, віртуальныя працоўныя сталы, кіраванне "
+#~ "сілкаваннем, дадатковыя кампаненты іншых вытворцаў - усё гэта вы "
+#~ "знойдзеце там!"
+
+#~ msgctxt "@title:window"
+#~ msgid "Manage Software"
+#~ msgstr "Кіраванне праграмным забеспячэннем"
+
+#~ msgctxt ""
+#~ "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
+#~ msgid ""
+#~ "The <application>%1</application> app helps you find and install "
+#~ "applications, games, and tools. You can search or browse by category, "
+#~ "look at screenshots, and read reviews to help you find the perfect app."
+#~ msgstr ""
+#~ "Праграма <application>%1</application> дапамагае знаходзіць і ўсталёўваць "
+#~ "праграмы, гульні і інш. Вы можаце шукаць па назве або праглядаць па "
+#~ "катэгорыях, глядзець здымкі экрана і чытаць агляды."
 
 #~ msgctxt "@item:inlistbox"
 #~ msgid "Sort by Date"
