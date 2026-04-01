@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-09 00:42+0000\n"
-"PO-Revision-Date: 2025-01-18 18:27\n"
+"POT-Creation-Date: 2026-03-26 00:47+0000\n"
+"PO-Revision-Date: 2026-03-31 20:31\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/plasma-workspace/libnotificationmanager.po\n"
 "X-Crowdin-File-ID: 19945\n"
 
-#: abstractnotificationsmodel.cpp:318
+#: abstractnotificationsmodel.cpp:370
 #, kde-format
 msgctxt "@info %1 notification body %2 application name"
 msgid "%1 from %2"
 msgstr "%1 з %2"
 
-#: job_p.cpp:188
+#: job_p.cpp:190
 #, kde-format
 msgctxt "Copying n of m files to locaton"
 msgid "%2 of %1 file to %3"
@@ -35,7 +35,7 @@ msgstr[1] "%2 з %1 файлаў у %3"
 msgstr[2] "%2 з %1 файлаў у %3"
 msgstr[3] "%2 з %1 файлаў у %3"
 
-#: job_p.cpp:191 job_p.cpp:221 job_p.cpp:237
+#: job_p.cpp:193 job_p.cpp:223 job_p.cpp:239
 #, kde-format
 msgctxt "Copying n files to location"
 msgid "%1 file to %2"
@@ -45,7 +45,7 @@ msgstr[1] "%1 файлы ў %2"
 msgstr[2] "%1 файлаў у %2"
 msgstr[3] "%1 файлы ў %2"
 
-#: job_p.cpp:198
+#: job_p.cpp:200
 #, kde-format
 msgctxt "Copying n of m files"
 msgid "%2 of %1 file"
@@ -55,7 +55,7 @@ msgstr[1] "%2 з %1 файлаў"
 msgstr[2] "%2 з %1 файлаў"
 msgstr[3] "%2 з %1 файлаў"
 
-#: job_p.cpp:201 job_p.cpp:231 job_p.cpp:241
+#: job_p.cpp:203 job_p.cpp:233 job_p.cpp:243
 #, kde-format
 msgctxt "Copying n files"
 msgid "%1 file"
@@ -65,7 +65,7 @@ msgstr[1] "%1 файлы"
 msgstr[2] "%1 файлаў"
 msgstr[3] "%1 файлы"
 
-#: job_p.cpp:206
+#: job_p.cpp:208
 #, kde-format
 msgctxt "Copying n of m items"
 msgid "%2 of %1 item"
@@ -75,7 +75,7 @@ msgstr[1] "%2 з %1 элементаў"
 msgstr[2] "%2 з %1 элементаў"
 msgstr[3] "%2 з %1 элементаў"
 
-#: job_p.cpp:209 job_p.cpp:229
+#: job_p.cpp:211 job_p.cpp:231
 #, kde-format
 msgctxt "Copying n items"
 msgid "%1 item"
@@ -85,13 +85,13 @@ msgstr[1] "%1 элементы"
 msgstr[2] "%1 элементаў"
 msgstr[3] "%1 элементы"
 
-#: job_p.cpp:216
+#: job_p.cpp:218
 #, kde-format
 msgctxt "Copying file to location"
 msgid "%1 to %2"
 msgstr "ад %1 да %2"
 
-#: job_p.cpp:219
+#: job_p.cpp:221
 #, kde-format
 msgctxt "Copying n items to location"
 msgid "%1 file to %2"
@@ -101,7 +101,7 @@ msgstr[1] "%1 элементы ў %2"
 msgstr[2] "%1 элементаў у %2"
 msgstr[3] "%1 элементы ў %2"
 
-#: job_p.cpp:239
+#: job_p.cpp:241
 #, kde-format
 msgctxt "Copying unknown amount of files to location"
 msgid "to %1"
@@ -113,20 +113,34 @@ msgctxt "@info %1 notification body %2 job name"
 msgid "%1 from %2"
 msgstr "%1 з %2"
 
-#: jobsmodel_p.cpp:484
+#: jobsmodel_p.cpp:487
 #, kde-format
 msgid "Application closed unexpectedly."
 msgstr "Праграма нечакана закрылася."
 
-#: notifications.cpp:844
+#: notifications.cpp:985
 #, kde-format
 msgctxt "@title"
-msgid "Unread Notifications"
-msgstr ""
+msgid "Unread Notification"
+msgid_plural "Unread Notifications"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: notifications.cpp:845
+#: notifications.cpp:987
 #, kde-format
 msgctxt "@info"
-msgid "%1 notifications were received while Do Not Disturb was active."
+msgid "%1 notification was received while Do Not Disturb was active."
+msgid_plural "%1 notifications were received while Do Not Disturb was active."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: notifications.cpp:995
+#, kde-format
+msgctxt "@action:button Show the notifications popup"
+msgid "Show Notifications"
 msgstr ""
 

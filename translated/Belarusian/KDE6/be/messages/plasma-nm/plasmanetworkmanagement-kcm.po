@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-08 00:42+0000\n"
-"PO-Revision-Date: 2025-01-07 21:24\n"
+"POT-Creation-Date: 2026-03-03 00:49+0000\n"
+"PO-Revision-Date: 2026-03-26 19:52\n"
 "Last-Translator: Antikruk <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -91,18 +91,6 @@ msgctxt "@title:window"
 msgid "Choose a Connection Type"
 msgstr "Абраць тып злучэння"
 
-#: qml/AddConnectionDialog.qml:168
-msgid "Create"
-msgstr "Стварыць"
-
-#: qml/AddConnectionDialog.qml:179
-msgid "Cancel"
-msgstr "Скасаваць"
-
-#: qml/AddConnectionDialog.qml:196 qml/main.qml:180
-msgid "Configuration"
-msgstr "Канфігурацыя"
-
 #: qml/ConfigurationDialog.qml:20
 msgctxt "@title:window"
 msgid "Configuration"
@@ -150,48 +138,108 @@ msgstr "Пароль для пункта доступу павінен быць 
 msgid "Hotspot password must either be empty or consist of one of the following:<ul><li>Exactly 5 or 13 any characters</li><li>Exactly 10 or 26 hexadecimal characters:<br/>abcdef, ABCDEF or 0-9</li></ul>"
 msgstr "Пароль для пункта доступу павінен быць пустым або мець:<ul><li>роўна 5 або 13 любых знакаў</li><li>роўна 10 або 26 шаснаццатковых знакаў:<br/>abcdef, ABCDEF або 0- 9</li></ul>"
 
-#: qml/ConnectionItem.qml:108
+#. i18n is a way to use something pre-exposed to QML.
+#: qml/ConnectionItem.qml:29
+msgctxt "@label/rich"
+msgid "%1"
+msgstr "%1"
+
+#: qml/ConnectionItem.qml:85
 msgid "Connect"
 msgstr "Падлучыцца"
 
-#: qml/ConnectionItem.qml:108
+#: qml/ConnectionItem.qml:85
 msgid "Disconnect"
 msgstr "Адлучыцца"
 
-#: qml/ConnectionItem.qml:121
+#: qml/ConnectionItem.qml:90
+msgctxt "@info:tooltip"
+msgid "Cannot connect to this network because it was not detected."
+msgstr ""
+
+#: qml/ConnectionItem.qml:95
 msgid "Delete"
 msgstr "Выдаліць"
 
-#: qml/ConnectionItem.qml:131
+#: qml/ConnectionItem.qml:106
 msgid "Export"
 msgstr "Экспартаваць"
 
-#: qml/ConnectionItem.qml:141
+#: qml/ConnectionItem.qml:120
 msgid "Connected"
 msgstr "Падлучана"
 
-#: qml/ConnectionItem.qml:143
+#: qml/ConnectionItem.qml:122
 msgid "Connecting"
 msgstr "Падлучэнне"
 
-#: qml/main.qml:130
+#: qml/ConnectionItem.qml:124
+msgctxt "@title:column Available networks"
+msgid "Available"
+msgstr "Даступны"
+
+#: qml/main.qml:147
 msgid "Add new connection"
 msgstr "Дадаць новае злучэнне"
 
-#: qml/main.qml:144
+#: qml/main.qml:165
 msgid "Remove selected connection"
 msgstr "Выдаліць абранае злучэнне"
 
-#: qml/main.qml:160
+#: qml/main.qml:183
 msgid "Export selected connection"
 msgstr "Экспартаваць абранае злучэнне"
 
 #: qml/main.qml:208
+msgid "Configuration"
+msgstr "Канфігурацыя"
+
+#: qml/main.qml:235
 msgctxt "@title:window"
 msgid "Remove Connection"
 msgstr "Выдаліць злучэнне"
 
-#: qml/main.qml:209
+#: qml/main.qml:236
 msgid "Do you want to remove the connection '%1'?"
 msgstr "Хочаце выдаліць злучэнне \"%1\"?"
+
+#: qml/main.qml:258
+#| msgid "Connect"
+msgctxt "@action:button Connect to network"
+msgid "Connect"
+msgstr "Злучыцца"
+
+#: qml/main.qml:264
+#| msgid "Cancel"
+msgctxt "@action:button Cancel connecting to network"
+msgid "Cancel"
+msgstr "Скасаваць"
+
+#: qml/main.qml:270
+#| msgctxt "@label Hotspot password"
+#| msgid "Password:"
+msgctxt "@title:window"
+msgid "Enter Password"
+msgstr "Увядзіце пароль"
+
+#: qml/main.qml:276
+msgctxt "@label %1 is the name of the network the user is connecting to"
+msgid "Network: %1"
+msgstr ""
+
+#: qml/main.qml:297
+msgctxt "@label key is a passcode"
+msgid "Password must be a valid WEP key"
+msgstr ""
+
+#: qml/main.qml:298
+msgctxt "@label password invalid length message"
+msgid "Password must be between 8 and 64 characters"
+msgstr ""
+
+#~ msgid "Create"
+#~ msgstr "Стварыць"
+
+#~ msgid "Cancel"
+#~ msgstr "Скасаваць"
 

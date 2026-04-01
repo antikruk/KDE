@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-05 00:41+0000\n"
-"PO-Revision-Date: 2025-01-07 21:24\n"
+"POT-Creation-Date: 2026-01-08 00:45+0000\n"
+"PO-Revision-Date: 2026-03-26 19:52\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,53 +19,61 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/plasma-desktop/plasma_applet_org.kde.plasma.showActivityManager.po\n"
 "X-Crowdin-File-ID: 19763\n"
 
-#: package/contents/config/config.qml:13
-#, kde-format
+#: qml/config.qml:13
+#| msgid "Appearance"
+msgctxt "@title page"
 msgid "Appearance"
-msgstr "Выгляд"
+msgstr "Вонкавы выгляд"
 
-#: package/contents/ui/ConfigAppearance.qml:23
-#, kde-format
+#: qml/ConfigAppearance.qml:23
+#| msgid "Icon:"
+msgctxt "@title:group prefix for radiobutton group"
 msgid "Icon:"
 msgstr "Значок:"
 
-#: package/contents/ui/ConfigAppearance.qml:25
-#, kde-format
+#: qml/ConfigAppearance.qml:25
+#| msgid "Show the current activity icon"
+msgctxt "@option:radio"
 msgid "Show the current activity icon"
 msgstr "Паказваць значок бягучага пакоя"
 
-#: package/contents/ui/ConfigAppearance.qml:31
-#, kde-format
+#: qml/ConfigAppearance.qml:31
+#| msgid "Show the generic activity icon"
+msgctxt "@option:radio"
 msgid "Show the generic activity icon"
 msgstr "Паказваць агульны значок пакояў"
 
-#: package/contents/ui/ConfigAppearance.qml:41
-#, kde-format
+#: qml/ConfigAppearance.qml:41
+#| msgid "Title:"
+msgctxt "@label prefix for checkbox"
 msgid "Title:"
-msgstr "Подпіс:"
+msgstr "Назва:"
 
-#: package/contents/ui/ConfigAppearance.qml:43
-#, kde-format
+#: qml/ConfigAppearance.qml:43
+#| msgid "Show the current activity name"
+msgctxt "@option:check title"
 msgid "Show the current activity name"
 msgstr "Паказваць назву бягучага пакоя"
 
-#: package/contents/ui/main.qml:74
+#: qml/main.qml:66
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current activity is %1"
 msgstr "Бягучы пакой - %1"
 
-#: package/contents/ui/main.qml:84
-#, kde-format
+#: qml/main.qml:76
+#| msgid "Show Activity Manager"
+msgctxt "@info:tooltip"
 msgid "Show Activity Manager"
 msgstr "Паказаць кіраўнік пакояў"
 
-#: package/contents/ui/main.qml:85
-#, kde-format
+#: qml/main.qml:77
+#| msgid "Click to show the activity manager"
+msgctxt "@info:tooltip subtext"
 msgid "Click to show the activity manager"
 msgstr "Пстрыкніце, каб паказаць кіраўнік пакояў"
 
-#: package/contents/ui/main.qml:125
+#: qml/main.qml:119
 #, kde-format
 msgctxt "@action:inmenu widget context menu"
 msgid "&Configure Activities…"

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-08 00:50+0000\n"
-"PO-Revision-Date: 2025-01-09 22:30\n"
+"POT-Creation-Date: 2026-02-11 00:55+0000\n"
+"PO-Revision-Date: 2026-03-26 19:49\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,9 +19,9 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/kwin/kwin._json_.po\n"
 "X-Crowdin-File-ID: 19523\n"
 
-#: src/kcms/compositing/kwincompositing.json
+#: src/kcms/animations/kcm_animations.json
 msgctxt "X-KDE-Keywords"
-msgid "kwin,window,manager,compositing,compositor,effect,3D effects,2D effects,video settings,graphical effects,desktop effects,graphics,latency,vsync,tearing,window thumbnails"
+msgid "animations,animation speed,transitions,effects,window open close,window open/close,window maximize,window minimize,window full screen,peek at desktop,peek desktop,virtual desktop switching,fade effect,glide effect,scale effect,stretch effect,magic lamp effect,squash effect,eye on screen effect,window aperture effect,slide effect,fading popups effect,sliding popups effect,login effect,logout effect"
 msgstr ""
 
 #: src/kcms/decoration/kcm_kwindecoration.json
@@ -36,12 +36,12 @@ msgstr ""
 
 #: src/kcms/effects/kcm_kwin_effects.json
 msgctxt "X-KDE-Keywords"
-msgid "kwin,window,manager,effect,3D effects,2D effects,graphical effects,desktop effects,animations,various animations,window management effects,window switching effect,desktop switching effect,animations,desktop animations,drivers,driver settings,rendering,render,invert effect,looking glass effect,magnifier effect,snap helper effect,track mouse effect,zoom effect,blur effect,fade effect,fade desktop effect,fall apart effect,glide effect,highlight window effect,login effect,logout effect,magic lamp effect,minimize animation effect,mouse mark effect,scale effect,screenshot effect,sheet effect,slide effect,sliding popups effect,thumbnail aside effect,translucency,translucency effect,transparency,window geometry effect,wobbly windows effect,startup feedback effect,dialog parent effect,dim inactive effect,dim screen effect,slide back effect,eye candy,candy,show FPS effect,show paint effect,cover switch effect,desktop cube effect,desktop cube animation effect,desktop grid effect,flip switch effect,background contrast effect,bling,fading,movement,motion,overview windows effect,accessibility,cursor,pointer,mouse,hide cursor,hide cursor effect,hide pointer,hide pointer effect,hide mouse,hide mouse effect"
+msgid "kwin,window,manager,effect,3D effects,2D effects,graphical effects,desktop effects,animations,various animations,window management effects,animations,desktop animations,rendering,render,snap helper effect,track mouse effect,blur effect,fall apart effect,highlight window effect,mouse mark effect,screenshot effect,sheet effect,thumbnail aside effect,translucency,translucency effect,transparency,window geometry effect,wobbly windows effect,startup feedback effect,dialog parent effect,dim inactive effect,dim screen effect,slide back effect,eye candy,candy,cover switch effect,desktop cube effect,desktop cube animation effect,desktop grid effect,background contrast effect,bling,fading,movement,motion,overview windows effect,accessibility,cursor,pointer,mouse,hide cursor,hide cursor effect,hide pointer,hide pointer effect,hide mouse,hide mouse effect"
 msgstr ""
 
 #: src/kcms/options/kcm_kwinoptions.json
 msgctxt "X-KDE-Keywords"
-msgid "focus,placement,window behavior,window actions,animation,raise,auto raise,windows,frame,titlebar,doubleclick,desktop,snap,movement,shading,shade,unshade,unshading,activation,activate"
+msgid "focus,placement,window behavior,window actions,animation,raise,auto raise,windows,frame,titlebar,doubleclick,desktop,snap,movement,activation,activate,pip,picture in picture,picture-in-picture"
 msgstr ""
 
 #: src/kcms/rules/kcm_kwinrules.json
@@ -79,10 +79,10 @@ msgctxt "X-KDE-Keywords"
 msgid "xwayland,global,keys,forward"
 msgstr ""
 
-#: src/kcms/compositing/kwincompositing.json
+#: src/kcms/animations/kcm_animations.json
 msgctxt "Name"
-msgid "Compositor"
-msgstr "Сродак кампазітынгу"
+msgid "Animations"
+msgstr "Анімацыі"
 
 #: src/kcms/decoration/kcm_kwindecoration.json
 msgctxt "Name"
@@ -139,11 +139,6 @@ msgctxt "Name"
 msgid "Legacy X11 App Support"
 msgstr "Падтрымка састарэлых праграм X11"
 
-#: src/plugins/backgroundcontrast/metadata.json
-msgctxt "Name"
-msgid "Background Contrast"
-msgstr "Кантраснасць фону"
-
 #: src/plugins/blendchanges/metadata.json
 msgctxt "Name"
 msgid "Blend Changes"
@@ -190,19 +185,17 @@ msgid "Eye on Screen"
 msgstr "Экраннае вока"
 
 #: src/plugins/fadedesktop/package/metadata.json
-msgctxt "Name"
-msgid "Fade Desktop"
-msgstr "Згасанне працоўнага стала"
-
 #: src/plugins/fade/package/metadata.json
 msgctxt "Name"
 msgid "Fade"
 msgstr "Зацямненне"
 
 #: src/plugins/fadingpopups/package/metadata.json
+#| msgctxt "Name"
+#| msgid "Fading Popups"
 msgctxt "Name"
-msgid "Fading Popups"
-msgstr "Згасанне выплыўных акон"
+msgid "Fading popups"
+msgstr ""
 
 #: src/plugins/fallapart/metadata.json
 msgctxt "Name"
@@ -215,9 +208,10 @@ msgid "Desaturate Unresponsive Applications"
 msgstr "Абясколерванне праграм, якія не адказваюць"
 
 #: src/plugins/fullscreen/package/metadata.json
+#: src/plugins/maximize/package/metadata.json
 msgctxt "Name"
-msgid "Full Screen"
-msgstr "На ўвесь экран"
+msgid "Stretch"
+msgstr "Па памерах акна"
 
 #: src/plugins/glide/metadata.json
 msgctxt "Name"
@@ -238,16 +232,6 @@ msgstr "Падсвятленне акон"
 msgctxt "Name"
 msgid "Invert"
 msgstr "Інвертаваць"
-
-#: src/plugins/kdecorations/aurorae/src/config/kcm_auroraeconfig.json
-msgctxt "Name"
-msgid "Aurorae"
-msgstr "Aurorae"
-
-#: src/plugins/kdecorations/aurorae/themes/plastik/package/metadata.json
-msgctxt "Name"
-msgid "Plastik"
-msgstr "Plastik"
 
 #: src/plugins/kscreen/metadata.json
 msgctxt "Name"
@@ -273,11 +257,6 @@ msgstr "Чароўная лямпа"
 msgctxt "Name"
 msgid "Magnifier"
 msgstr "Лупа"
-
-#: src/plugins/maximize/package/metadata.json
-msgctxt "Name"
-msgid "Maximize"
-msgstr "Разгарнуць"
 
 #: src/plugins/minimizeall/package/metadata.json
 msgctxt "Name"
@@ -315,11 +294,6 @@ msgstr "Маштабаванне"
 msgctxt "Name"
 msgid "Highlight Screen Edges and Hot Corners"
 msgstr ""
-
-#: src/plugins/screenshot/metadata.json
-msgctxt "Name"
-msgid "Screenshot"
-msgstr "Здымак экрана"
 
 #: src/plugins/screentransform/metadata.json
 msgctxt "Name"
@@ -367,14 +341,11 @@ msgid "Slide"
 msgstr "Ссоўванне"
 
 #: src/plugins/slidingpopups/metadata.json
+#| msgctxt "Name"
+#| msgid "Sliding Popups"
 msgctxt "Name"
-msgid "Sliding Popups"
-msgstr "Рухомыя выплыўныя вокны"
-
-#: src/plugins/snaphelper/metadata.json
-msgctxt "Name"
-msgid "Snap Helper"
-msgstr "Прывязванне"
+msgid "Sliding popups"
+msgstr "Высоўныя выплыўныя вокны"
 
 #: src/plugins/squash/package/metadata.json
 msgctxt "Name"
@@ -451,10 +422,12 @@ msgctxt "Name"
 msgid "Thumbnail Grid"
 msgstr "Сетка мініяцюр"
 
-#: src/kcms/compositing/kwincompositing.json
+#: src/kcms/animations/kcm_animations.json
+#| msgctxt "Description"
+#| msgid "Configure window actions and behavior"
 msgctxt "Description"
-msgid "Compositor Settings for Desktop Effects"
-msgstr "Налады сродку кампазітынгу для эфектаў працоўнага стала"
+msgid "Configure animation speed and style"
+msgstr ""
 
 #: src/kcms/decoration/kcm_kwindecoration.json
 msgctxt "Description"
@@ -511,11 +484,6 @@ msgctxt "Description"
 msgid "Select which keys will be globally available to legacy X11 apps"
 msgstr "Абярыце клавішы, якія будуць глабальна даступныя для састарэлых праграм X11"
 
-#: src/plugins/backgroundcontrast/metadata.json
-msgctxt "Description"
-msgid "Improve contrast and readability behind semi-transparent windows"
-msgstr "Паляпшэнне кантраснасці і чытальнасці за паўпразрыстымі вокнамі"
-
 #: src/plugins/blendchanges/metadata.json
 msgctxt "Description"
 msgid "Animates system style changes"
@@ -562,19 +530,23 @@ msgid "Suck windows into the desktop"
 msgstr "Эфект усмоктвання акон у цэнтр экрана"
 
 #: src/plugins/fadedesktop/package/metadata.json
+#| msgctxt "Description"
+#| msgid "Fade between virtual desktops when switching between them"
 msgctxt "Description"
-msgid "Fade between virtual desktops when switching between them"
-msgstr "Пераход паміж віртуальнымі працоўнымі сталамі пры пераключэнні паміж імі"
+msgid "Fade between virtual desktops when switching"
+msgstr ""
 
 #: src/plugins/fade/package/metadata.json
+#| msgctxt "Description"
+#| msgid "Make windows smoothly fade in and out when they are shown or hidden"
 msgctxt "Description"
-msgid "Make windows smoothly fade in and out when they are shown or hidden"
-msgstr "Плаўнае згасанне або з'яўленне акон"
+msgid "Make windows fade in and out when they are shown or hidden"
+msgstr ""
 
 #: src/plugins/fadingpopups/package/metadata.json
 msgctxt "Description"
-msgid "Make popups smoothly fade in and out when they are shown or hidden"
-msgstr "Плаўнае згасанне або з'яўленне выплыўных акон"
+msgid "Fade popups in and out"
+msgstr ""
 
 #: src/plugins/fallapart/metadata.json
 msgctxt "Description"
@@ -587,9 +559,11 @@ msgid "Desaturate windows of unresponsive (frozen) applications"
 msgstr "Абясколерванне праграм, якія не адказваюць (працэсы якіх замарожаныя)"
 
 #: src/plugins/fullscreen/package/metadata.json
+#| msgctxt "Description"
+#| msgid "Animation for a window going to and leaving full screen mode"
 msgctxt "Description"
-msgid "Animation for a window going to and leaving full screen mode"
-msgstr "Анімацыя пераходу ў поўнаэкранны рэжым і выхаду з яго"
+msgid "Stretch windows going to and leaving full screen mode"
+msgstr ""
 
 #: src/plugins/glide/metadata.json
 msgctxt "Description"
@@ -613,30 +587,24 @@ msgctxt "Description"
 msgid "Inverts the color of the desktop and windows; activated with a keyboard shortcut"
 msgstr ""
 
-#: src/plugins/kdecorations/aurorae/src/config/kcm_auroraeconfig.json
-msgctxt "Description"
-msgid "Window Decoration Theme Engine"
-msgstr "Рухавік аздаблення акон"
-
-#: src/plugins/kdecorations/aurorae/themes/plastik/package/metadata.json
-msgctxt "Description"
-msgid "The classic theme known from KDE 3"
-msgstr "Класічная тэма, вядомая з KDE 3"
-
 #: src/plugins/kscreen/metadata.json
 msgctxt "Description"
 msgid "Helper Effect for KScreen"
 msgstr "Дапаможны эфект для KScreen"
 
 #: src/plugins/login/package/metadata.json
+#| msgctxt "Description"
+#| msgid "Smoothly fade to the desktop when logging in"
 msgctxt "Description"
-msgid "Smoothly fade to the desktop when logging in"
-msgstr "Плаўнае зацямненне працоўнага стала падчас уваходу"
+msgid "Fade to the desktop when logging in"
+msgstr ""
 
 #: src/plugins/logout/package/metadata.json
+#| msgctxt "Description"
+#| msgid "Smoothly fade to the logout screen"
 msgctxt "Description"
-msgid "Smoothly fade to the logout screen"
-msgstr "Плаўнае зацямненне пры пераходзе да экрана выхаду з сеанса"
+msgid "Fade to the logout screen"
+msgstr ""
 
 #: src/plugins/magiclamp/metadata.json
 msgctxt "Description"
@@ -651,9 +619,11 @@ msgid "Magnify the section of the screen that is near the mouse cursor; activate
 msgstr ""
 
 #: src/plugins/maximize/package/metadata.json
+#| msgctxt "Description"
+#| msgid "Squash windows when they are minimized"
 msgctxt "Description"
-msgid "Animation for a window going to maximize/restore from maximize"
-msgstr "Анімацыя акон пры разгортванні і згортванні з разгорнутага рэжыму"
+msgid "Stretch windows when they are maximized or restored"
+msgstr ""
 
 #: src/plugins/minimizeall/package/metadata.json
 msgctxt "Description"
@@ -689,19 +659,16 @@ msgid "Allows you to overview virtual desktops and windows; activated with a key
 msgstr ""
 
 #: src/plugins/scale/package/metadata.json
+#| msgctxt "Description"
+#| msgid "Make windows smoothly scale in and out when they are shown or hidden"
 msgctxt "Description"
-msgid "Make windows smoothly scale in and out when they are shown or hidden"
-msgstr "Плаўнае павелічэнне або памяншэнне акон пры з'яўленні або знікненні"
+msgid "Make windows scale in and out when they are shown or hidden"
+msgstr ""
 
 #: src/plugins/screenedge/metadata.json
 msgctxt "Description"
 msgid "Highlights screen edges and corners that trigger actions when touched as the cursor approaches them"
 msgstr ""
-
-#: src/plugins/screenshot/metadata.json
-msgctxt "Description"
-msgid "Helper effect for screenshot tools"
-msgstr "Дапаможны эфект для інструментаў для стварэння здымкаў экрана"
 
 #: src/plugins/screentransform/metadata.json
 msgctxt "Description"
@@ -746,19 +713,16 @@ msgid "Slide back windows when another window is raised"
 msgstr "Пры ўзніманні іншага акна акно ссоўваецца назад"
 
 #: src/plugins/slide/metadata.json
+#| msgctxt "Description"
+#| msgid "Fade between virtual desktops when switching between them"
 msgctxt "Description"
-msgid "Slide desktops when switching virtual desktops"
-msgstr "Ссоўване працоўных сталоў пры пераключэнні віртуальных працоўных сталоў"
+msgid "Slide between virtual desktops when switching"
+msgstr ""
 
 #: src/plugins/slidingpopups/metadata.json
 msgctxt "Description"
-msgid "Sliding animation for Plasma popups"
-msgstr "Анімацыя высоўвання для выплыўных акон Plasma"
-
-#: src/plugins/snaphelper/metadata.json
-msgctxt "Description"
-msgid "Help you locate the center of the screen when moving a window"
-msgstr "Дапамагае знайсці цэнтр экрана пры перамяшчэнні акна"
+msgid "Slide Plasma popups in and out"
+msgstr ""
 
 #: src/plugins/squash/package/metadata.json
 msgctxt "Description"
@@ -841,7 +805,6 @@ msgstr "Макет пераключальніка акон у выглядзе �
 
 #: src/plugins/desktopchangeosd/package/metadata.json
 #: src/plugins/fullscreen/package/metadata.json
-#: src/plugins/kdecorations/aurorae/themes/plastik/package/metadata.json
 #: src/plugins/maximize/package/metadata.json
 #: src/plugins/synchronizeskipswitcher/package/metadata.json
 #: src/plugins/videowall/package/metadata.json
@@ -921,6 +884,83 @@ msgstr "Luboš Luňák, Martin Gräßlin"
 msgctxt "Authors Name"
 msgid "Chris Holland"
 msgstr "Chris Holland"
+
+#~ msgctxt "Name"
+#~ msgid "Screenshot"
+#~ msgstr "Здымак экрана"
+
+#~ msgctxt "Description"
+#~ msgid "Helper effect for screenshot tools"
+#~ msgstr "Дапаможны эфект для інструментаў для стварэння здымкаў экрана"
+
+#~ msgctxt "Name"
+#~ msgid "Background Contrast"
+#~ msgstr "Кантраснасць фону"
+
+#~ msgctxt "Description"
+#~ msgid "Improve contrast and readability behind semi-transparent windows"
+#~ msgstr "Паляпшэнне кантраснасці і чытальнасці за паўпразрыстымі вокнамі"
+
+#~ msgctxt "Name"
+#~ msgid "Snap Helper"
+#~ msgstr "Прывязванне"
+
+#~ msgctxt "Description"
+#~ msgid "Help you locate the center of the screen when moving a window"
+#~ msgstr "Дапамагае знайсці цэнтр экрана пры перамяшчэнні акна"
+
+#~ msgctxt "Name"
+#~ msgid "Fade Desktop"
+#~ msgstr "Згасанне працоўнага стала"
+
+#~ msgctxt "Name"
+#~ msgid "Full Screen"
+#~ msgstr "На ўвесь экран"
+
+#~ msgctxt "Name"
+#~ msgid "Maximize"
+#~ msgstr "Разгарнуць"
+
+#~ msgctxt "Description"
+#~ msgid "Make popups smoothly fade in and out when they are shown or hidden"
+#~ msgstr "Плаўнае згасанне або з'яўленне выплыўных акон"
+
+#~ msgctxt "Description"
+#~ msgid "Animation for a window going to maximize/restore from maximize"
+#~ msgstr "Анімацыя акон пры разгортванні і згортванні з разгорнутага рэжыму"
+
+#~ msgctxt "Description"
+#~ msgid "Slide desktops when switching virtual desktops"
+#~ msgstr ""
+#~ "Ссоўване працоўных сталоў пры пераключэнні віртуальных працоўных сталоў"
+
+#~ msgctxt "Description"
+#~ msgid "Sliding animation for Plasma popups"
+#~ msgstr "Анімацыя высоўвання для выплыўных акон Plasma"
+
+#~ msgctxt "Name"
+#~ msgid "Compositor"
+#~ msgstr "Сродак кампазітынгу"
+
+#~ msgctxt "Description"
+#~ msgid "Compositor Settings for Desktop Effects"
+#~ msgstr "Налады сродку кампазітынгу для эфектаў працоўнага стала"
+
+#~ msgctxt "Name"
+#~ msgid "Aurorae"
+#~ msgstr "Aurorae"
+
+#~ msgctxt "Name"
+#~ msgid "Plastik"
+#~ msgstr "Plastik"
+
+#~ msgctxt "Description"
+#~ msgid "Window Decoration Theme Engine"
+#~ msgstr "Рухавік аздаблення акон"
+
+#~ msgctxt "Description"
+#~ msgid "The classic theme known from KDE 3"
+#~ msgstr "Класічная тэма, вядомая з KDE 3"
 
 #~ msgctxt "Name"
 #~ msgid "Screen Edge"

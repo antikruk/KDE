@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-15 00:39+0000\n"
-"PO-Revision-Date: 2025-01-07 21:26\n"
+"POT-Creation-Date: 2025-12-25 00:43+0000\n"
+"PO-Revision-Date: 2026-03-26 19:54\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,20 +19,20 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/plasmatube/plasmatube.po\n"
 "X-Crowdin-File-ID: 20059\n"
 
-#: api/invidious/invidiousapi.cpp:111 api/piped/pipedapi.cpp:89
+#: api/invidious/invidiousapi.cpp:112 api/piped/pipedapi.cpp:90
 #: controllers/logincontroller.cpp:37
 #, kde-format
 msgid "Username or password is wrong."
 msgstr "Няправільнае імя карыстальніка або пароль."
 
-#: api/invidious/invidiousapi.cpp:396 api/peertube/peertubeapi.cpp:407
-#: api/piped/pipedapi.cpp:326
+#: api/invidious/invidiousapi.cpp:397 api/peertube/peertubeapi.cpp:408
+#: api/piped/pipedapi.cpp:327
 #, kde-format
 msgid "Server returned no valid JSON."
 msgstr "Сервер вярнуў несапраўдны JSON."
 
-#: api/invidious/invidiousapi.cpp:405 api/peertube/peertubeapi.cpp:416
-#: api/piped/pipedapi.cpp:335
+#: api/invidious/invidiousapi.cpp:406 api/peertube/peertubeapi.cpp:417
+#: api/piped/pipedapi.cpp:336
 #, kde-format
 msgid "Server returned the status code %1"
 msgstr "Сервер вярнуў код стану %1"
@@ -47,48 +47,48 @@ msgstr "Гэты асобнік адключыў рэгістрацыю."
 msgid "Playing video"
 msgstr "Прайграванне відэа"
 
-#: main.cpp:53
+#: main.cpp:54
 #, kde-format
 msgid "PlasmaTube"
 msgstr "PlasmaTube"
 
-#: main.cpp:55
+#: main.cpp:56
 #, kde-format
 msgid "YouTube client"
 msgstr "Кліент для YouTube"
 
-#: main.cpp:57
-#, kde-format
-msgid "© 2019-2024 Linus Jahn, 2019-2024 KDE Community"
-msgstr "© 2019-2024 Linus Jahn, 2019-2024 KDE Community"
-
 #: main.cpp:58
+#| msgid "© 2019-2024 Linus Jahn, 2019-2024 KDE Community"
+msgid "© 2019-2025 Linus Jahn, 2019-2025 KDE Community"
+msgstr ""
+
+#: main.cpp:59
 #, kde-format
 msgid "Linus Jahn"
 msgstr "Linus Jahn"
 
-#: main.cpp:58
+#: main.cpp:59
 #, kde-format
 msgid "Creator"
 msgstr "Стваральнік"
 
-#: main.cpp:59
+#: main.cpp:60
 #, kde-format
 msgid "Joshua Goins"
 msgstr "Joshua Goins"
 
-#: main.cpp:60
+#: main.cpp:61
 #, kde-format
 msgid "Maintainer"
 msgstr "Суправаджальнік"
 
-#: main.cpp:64
+#: main.cpp:65
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Antikruk"
 
-#: main.cpp:64
+#: main.cpp:65
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
@@ -99,7 +99,7 @@ msgstr "nashtlumach@gmail.com"
 msgid "No server description provided."
 msgstr ""
 
-#: models/videolistmodel.cpp:18 ui/components/Sidebar.qml:101
+#: models/videolistmodel.cpp:18 ui/components/Sidebar.qml:142
 #, kde-format
 msgid "Subscriptions"
 msgstr "Падпіскі"
@@ -162,22 +162,35 @@ msgstr "Абагуліць абраны медыяфайл"
 msgid "Proxy Settings"
 msgstr "Налады проксі"
 
-#: ui/ChannelPage.qml:143
+#: ui/ChannelPage.qml:46
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Open in Browser"
+msgstr "Адкрыць у браўзеры"
+
+#: ui/ChannelPage.qml:151
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Videos"
 msgstr "Відэазапісы"
 
-#: ui/ChannelPage.qml:149
+#: ui/ChannelPage.qml:157
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Playlists"
 msgstr "Спісы прайгравання"
 
-#: ui/components/BaseGridView.qml:157
-#, kde-format
-msgid "No videos"
-msgstr "Няма відэа"
+#: ui/ChannelPage.qml:188 ui/FeedPage.qml:59 ui/PlaylistPage.qml:55
+#| msgid "No videos"
+msgctxt "@info:placeholder"
+msgid "No Videos"
+msgstr ""
+
+#: ui/ChannelPage.qml:206 ui/Main.qml:251 ui/PlaylistsPage.qml:26
+#| msgid "Playlists"
+msgctxt "@info:placeholder"
+msgid "No Playlists"
+msgstr ""
 
 #: ui/components/BottomNavBar.qml:70
 #, kde-format
@@ -194,7 +207,7 @@ msgstr "Шукаць"
 msgid "Settings"
 msgstr "Налады"
 
-#: ui/components/BottomNavBar.qml:98 ui/components/Sidebar.qml:156
+#: ui/components/BottomNavBar.qml:98 ui/components/Sidebar.qml:192
 #: ui/loginflow/WelcomePage.qml:84
 #, kde-format
 msgctxt "@title:window"
@@ -227,43 +240,43 @@ msgstr[3] "%1 відэа"
 msgid "Sharing failed"
 msgstr "Не ўдалося падзяліцца"
 
-#: ui/components/Sidebar.qml:85
+#: ui/components/Sidebar.qml:127
 #, kde-format
 msgid "Trending"
 msgstr "Папулярныя"
 
-#: ui/components/Sidebar.qml:118 ui/PlaylistsPage.qml:13
+#: ui/components/Sidebar.qml:157 ui/PlaylistsPage.qml:13
 #, kde-format
 msgid "Playlists"
 msgstr "Спісы прайгравання"
 
-#: ui/components/Sidebar.qml:135
+#: ui/components/Sidebar.qml:172
 #, kde-format
 msgid "History"
 msgstr "Гісторыя"
 
-#: ui/components/Sidebar.qml:152
+#: ui/components/Sidebar.qml:189
 #, kde-format
 msgctxt "@action:button Open settings dialog"
 msgid "Settings"
 msgstr "Налады"
 
-#: ui/components/SourceSwitcher.qml:48 ui/settings/SourcesPage.qml:63
+#: ui/components/SourceSwitcher.qml:53 ui/settings/SourcesPage.qml:63
 #, kde-format
 msgid "Invidious"
 msgstr "Invidious"
 
-#: ui/components/SourceSwitcher.qml:50 ui/settings/SourcesPage.qml:65
+#: ui/components/SourceSwitcher.qml:55 ui/settings/SourcesPage.qml:65
 #, kde-format
 msgid "PeerTube"
 msgstr "PeerTube"
 
-#: ui/components/SourceSwitcher.qml:52 ui/settings/SourcesPage.qml:67
+#: ui/components/SourceSwitcher.qml:57 ui/settings/SourcesPage.qml:67
 #, kde-format
 msgid "Piped"
 msgstr "Piped"
 
-#: ui/components/SourceSwitcher.qml:64
+#: ui/components/SourceSwitcher.qml:72
 #: ui/components/SourceSwitcherDialog.qml:28
 #, kde-format
 msgid "Switch Source"
@@ -314,7 +327,7 @@ msgid "No views"
 msgstr "Няма праглядаў"
 
 #: ui/components/VideoGridItem.qml:159 ui/components/VideoListItem.qml:150
-#: ui/videoplayer/VideoPlayer.qml:430
+#: ui/videoplayer/VideoPlayer.qml:428
 #, kde-format
 msgid "%1 views"
 msgstr "%1 прагляд(аў)"
@@ -515,7 +528,7 @@ msgstr "Імя карыстальніка не можа быць пустым!"
 msgid "Password must not be empty!"
 msgstr "Пароль не можа быць пустым!"
 
-#: ui/Main.qml:219
+#: ui/Main.qml:221
 #, kde-format
 msgctxt "@title"
 msgid "Add to Playlist"
@@ -551,6 +564,12 @@ msgstr "Дата запампоўвання"
 #, kde-format
 msgid "View Count"
 msgstr "Колькасць праглядаў"
+
+#: ui/SearchPage.qml:175
+#| msgid "No results"
+msgctxt "@info:placeholder"
+msgid "No Results"
+msgstr "Нічога не знойдзена"
 
 #: ui/settings/AccountCard.qml:22
 #, kde-format
@@ -614,7 +633,7 @@ msgstr ""
 
 #: ui/settings/GeneralPage.qml:23
 #, kde-format
-msgid "This selected quality will be used if available, otherwise the next highest one is used."
+msgid "This selected quality will be used if available, otherwise the highest available quality is used."
 msgstr ""
 
 #: ui/settings/GeneralPage.qml:29
@@ -684,7 +703,7 @@ msgstr ""
 
 #: ui/settings/GeneralPage.qml:94
 #, kde-format
-msgid "Inform you when a community-submitted segment (typically a sponsorship) is in the video. This feature requires contacting a 3rd-party service."
+msgid "Show a notification when a community-submitted segment (typically a sponsorship) is in the video. This feature requires contacting a 3rd-party service."
 msgstr ""
 
 #: ui/settings/GeneralPage.qml:111
@@ -695,7 +714,7 @@ msgstr ""
 
 #: ui/settings/GeneralPage.qml:112
 #, kde-format
-msgid "Automatically skips over sponsored segments in the video."
+msgid "Automatically skip sponsored segments in the video."
 msgstr ""
 
 #: ui/settings/InvidiousSourcePage.qml:15 ui/settings/PeerTubeSourcePage.qml:11
@@ -997,38 +1016,44 @@ msgstr "Скапіяваць URL-адрас відэа"
 msgid "Video Statistics"
 msgstr "Статыстыка відэа"
 
-#: ui/videoplayer/VideoPlayer.qml:438
+#: ui/videoplayer/VideoPlayer.qml:436
 #, kde-format
 msgid "%1 Likes"
 msgstr "%1 упадабанне(яў)"
+
+#: ui/videoplayer/VideoPlayer.qml:447
+#, kde-format
+msgctxt "@info"
+msgid "No description was set for this video."
+msgstr ""
 
 #: ui/videoplayer/VideoPlayer.qml:487
 #, kde-format
 msgid "Comments"
 msgstr "Каментары"
 
-#: ui/videoplayer/VideoPlayer.qml:517
+#: ui/videoplayer/VideoPlayer.qml:518
 #, kde-format
 msgid "Recommended"
 msgstr "Рэкамендуецца"
 
-#: ui/videoplayer/VideoPlayer.qml:522
+#: ui/videoplayer/VideoPlayer.qml:524
 #| msgid "Recommended"
 msgctxt "@info"
 msgid "No recommended videos"
 msgstr ""
 
-#: ui/videoplayer/VideoPlayer.qml:608
+#: ui/videoplayer/VideoPlayer.qml:610
 #, kde-format
-msgid "The sponsored portion of the video has been skipped"
+msgid "The sponsored segment of the video has been skipped"
 msgstr ""
 
-#: ui/videoplayer/VideoPlayer.qml:616
+#: ui/videoplayer/VideoPlayer.qml:618
 #, kde-format
-msgid "This portion of the video is sponsored"
+msgid "This segment of the video is sponsored"
 msgstr ""
 
-#: ui/videoplayer/VideoPlayer.qml:637
+#: ui/videoplayer/VideoPlayer.qml:639
 #, kde-format
 msgctxt "@action:button"
 msgid "Skip"
@@ -1094,9 +1119,6 @@ msgstr "Загрузка…"
 
 #~ msgid " • %1 views"
 #~ msgstr " • %1 прагляд(аў)"
-
-#~ msgid "No results"
-#~ msgstr "Няма вынікаў"
 
 #, fuzzy
 #~| msgid "Instance"

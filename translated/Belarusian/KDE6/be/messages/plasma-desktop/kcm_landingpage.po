@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-04 00:41+0000\n"
-"PO-Revision-Date: 2025-01-07 21:23\n"
+"POT-Creation-Date: 2026-01-30 00:46+0000\n"
+"PO-Revision-Date: 2026-03-26 19:51\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -31,90 +31,125 @@ msgstr "Назва колеравай схемы"
 msgid "Single click to open files"
 msgstr "Адкрываць файлы адным пстрыканнем"
 
-#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#. i18n: ectx: label, entry (automaticLookAndFeel), group (KDE)
 #: landingpage_kdeglobalssettings.kcfg:19
+#, kde-format
+msgid "Switch the look and feel package depending on time of day"
+msgstr ""
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:23
 #, kde-format
 msgid "Global Look and Feel package"
 msgstr "Пакет глабальнай тэмы"
 
 #. i18n: ectx: label, entry (defaultLightLookAndFeel), group (KDE)
 #. i18n: ectx: label, entry (defaultDarkLookAndFeel), group (KDE)
-#: landingpage_kdeglobalssettings.kcfg:23
 #: landingpage_kdeglobalssettings.kcfg:27
+#: landingpage_kdeglobalssettings.kcfg:31
 #, kde-format
 msgid "Global Look and Feel package, alternate"
 msgstr "Альтэрнатыўны пакет глабальнай тэмы"
 
 #. i18n: ectx: label, entry (animationDurationFactor), group (KDE)
-#: landingpage_kdeglobalssettings.kcfg:31
+#: landingpage_kdeglobalssettings.kcfg:35
 #, kde-format
 msgid "Animation speed"
 msgstr "Хуткасць анімацыі"
 
-#: ui/main.qml:33
+#: ui/LookAndFeelBox.qml:99
 #, kde-format
+msgctxt "@action:button"
+msgid "Change global theme"
+msgstr ""
+
+#: ui/LookAndFeelBox.qml:180
+#, kde-format
+msgctxt "@label accessible"
+msgid "Global theme"
+msgstr ""
+
+#: ui/main.qml:35
+#| msgid "Theme:"
+msgctxt "@title:group for light/dark quick switch"
 msgid "Theme:"
 msgstr "Тэма:"
 
-#: ui/main.qml:76
+#: ui/main.qml:94
+#, kde-format
+msgctxt "Switch between dark and light look and feel packages automatically"
+msgid "Automatic"
+msgstr "Аўтаматычнае"
+
+#: ui/main.qml:120
+#, kde-format
+msgctxt "@info:tooltip 1 is the name of a light global theme, 2 is the name of a dark global theme"
+msgid "Use “%1” during the day and “%2” at night"
+msgstr ""
+
+#: ui/main.qml:134
 #, kde-format
 msgctxt "@title:group translate as short as possible"
 msgid "More appearance settings:"
 msgstr "Дадатковыя налады выгляду:"
 
-#: ui/main.qml:120
-#, kde-format
+#: ui/main.qml:181
+#| msgid "Animation speed:"
+msgctxt "@title:slider"
 msgid "Animation speed:"
 msgstr "Хуткасць анімацыі:"
 
-#: ui/main.qml:129
+#: ui/main.qml:190
 #, kde-format
 msgctxt "Animation speed"
 msgid "Slow"
 msgstr "Павольна"
 
-#: ui/main.qml:136
+#: ui/main.qml:197
 #, kde-format
 msgctxt "Animation speed"
 msgid "Instant"
 msgstr "Імгненна"
 
-#: ui/main.qml:150
+#: ui/main.qml:211
 #, kde-format
 msgctxt "part of a sentence: 'Clicking files or folders [opens them/selects them]'"
 msgid "Clicking files or folders:"
 msgstr "Пстрыканне па файлах або каталогах:"
 
-#: ui/main.qml:158
+#: ui/main.qml:219
 #, kde-format
 msgctxt "part of a sentence: 'Clicking files or folders selects them'"
 msgid "Selects them"
 msgstr "Абірае іх"
 
-#: ui/main.qml:163
-#, kde-format
+#: ui/main.qml:224
+#| msgid "Open by double-clicking instead"
+msgctxt "@info:usagetip"
 msgid "Open by double-clicking instead"
 msgstr "Замест гэтага адкрываць падвойным пстрыканнем"
 
-#: ui/main.qml:188
+#: ui/main.qml:252
 #, kde-format
 msgctxt "part of a sentence: 'Clicking files or folders opens them'"
 msgid "Opens them"
 msgstr "Адкрывае іх"
 
-#: ui/main.qml:193
-#, kde-format
+#: ui/main.qml:257
+#| msgid "Select by clicking on item's selection marker"
+msgctxt "@info:usagetip"
 msgid "Select by clicking on item's selection marker"
 msgstr "Абіраць пстрыканнем па адзнаке выбару элементаў"
 
-#: ui/main.qml:216
+#: ui/main.qml:283
 #, kde-format
 msgctxt "@title:group translate as short as possible"
 msgid "More behavior settings:"
 msgstr "Дадатковыя налады паводзін:"
 
-#: ui/main.qml:229
-#, kde-format
+#: ui/main.qml:297
+#| msgid "Most used pages:"
+msgctxt "@title:group for grid of buttons opening kcms"
 msgid "Most used pages:"
 msgstr "Старонкі, якія найбольш часта выкарыстоўваюцца:"
 

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-23 00:38+0000\n"
-"PO-Revision-Date: 2025-01-07 21:17\n"
+"POT-Creation-Date: 2025-12-02 00:43+0000\n"
+"PO-Revision-Date: 2026-03-26 19:43\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,90 +19,108 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/kdeplasma-addons/plasma_applet_org.kde.plasma.fifteenpuzzle.po\n"
 "X-Crowdin-File-ID: 19015\n"
 
-#: package/contents/config/config.qml:13
+#: qml/config.qml:13
 #, kde-format
 msgctxt "@title"
 msgid "Appearance"
 msgstr "Выгляд"
 
-#: package/contents/ui/configAppearance.qml:43
+#: qml/configAppearance.qml:50
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Grid size:"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:52
+#: qml/configAppearance.qml:61
 #, kde-format
+msgctxt "@label:group radio button group"
 msgid "Background:"
 msgstr "Фон:"
 
-#: package/contents/ui/configAppearance.qml:58
+#: qml/configAppearance.qml:68
 #, kde-format
+msgctxt "@label:chooser opens background color picker"
 msgid "Color:"
 msgstr "Колер:"
 
-#: package/contents/ui/configAppearance.qml:73
+#: qml/configAppearance.qml:84
 #, kde-format
+msgctxt "@label:chooser opens background image file picker"
 msgid "Image:"
 msgstr "Выява:"
 
-#: package/contents/ui/configAppearance.qml:81
+#: qml/configAppearance.qml:92
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Path to custom image…"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:100
+#: qml/configAppearance.qml:108
 #, kde-format
-msgctxt "@info:tooltip"
+msgctxt "@action:button"
 msgid "Choose image…"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:108
+#: qml/configAppearance.qml:119
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose an Image"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:113
+#: qml/configAppearance.qml:124
 #, kde-format
+msgctxt "@item:inlistbox file type category for file picker"
 msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:127
+#: qml/configAppearance.qml:142
 #, kde-format
-msgid "Tiles:"
+msgctxt "@title:group formdata label"
+msgid "Tile labels:"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:131
+#: qml/configAppearance.qml:149
 #, kde-format
-msgid "Colored numbers:"
+msgctxt "@label:chooser opens label color picker"
+msgid "Color:"
+msgstr "Колер:"
+
+#: qml/configAppearance.qml:163
+#, kde-format
+msgctxt "@option:check"
+msgid "Hide on image backgrounds"
 msgstr ""
 
-#: package/contents/ui/FifteenPuzzle.qml:259
+#: qml/FifteenPuzzle.qml:262
 #, kde-format
 msgctxt "The time since the puzzle started, in minutes and seconds"
 msgid "Time: %1"
 msgstr "Час: %1"
 
-#: package/contents/ui/FifteenPuzzle.qml:302
+#: qml/FifteenPuzzle.qml:320
 #, kde-format
 msgctxt "@action:button"
 msgid "Shuffle"
 msgstr "Змешванне"
 
-#: package/contents/ui/FifteenPuzzle.qml:340
+#: qml/FifteenPuzzle.qml:346
+#, kde-format
+msgctxt "@info:status The number of moves made by the player so far"
+msgid "Moves: %1"
+msgstr ""
+
+#: qml/FifteenPuzzle.qml:371
 #, kde-format
 msgctxt "@info"
 msgid "Solved! Try again."
 msgstr ""
 
-#: package/contents/ui/main.qml:26
+#: qml/main.qml:37
 #| msgid "Configure Fifteen Puzzle"
 msgid "Fifteen Puzzle"
 msgstr ""
 
-#: package/contents/ui/main.qml:27
+#: qml/main.qml:38
 #, kde-format
 msgid "Solve by arranging in order"
 msgstr ""
