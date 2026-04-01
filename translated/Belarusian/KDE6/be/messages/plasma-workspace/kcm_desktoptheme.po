@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-29 00:41+0000\n"
-"PO-Revision-Date: 2025-01-07 21:25\n"
+"POT-Creation-Date: 2026-01-31 00:45+0000\n"
+"PO-Revision-Date: 2026-03-31 20:31\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -25,27 +25,27 @@ msgstr ""
 msgid "Name of the current Plasma Style"
 msgstr "Назва бягучага стылю Plasma"
 
-#: kcm.cpp:112
+#: kcm.cpp:111
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr "Не ўдалося стварыць часовы файл."
 
-#: kcm.cpp:123
+#: kcm.cpp:122
 #, kde-format
 msgid "Unable to download the theme: %1"
 msgstr "Не ўдалося спампаваць тэму: %1"
 
-#: kcm.cpp:148
+#: kcm.cpp:147
 #, kde-format
 msgid "Theme installed successfully."
 msgstr "Тэма паспяхова ўсталяваная."
 
-#: kcm.cpp:151 kcm.cpp:157
+#: kcm.cpp:150 kcm.cpp:156
 #, kde-format
 msgid "Theme installation failed."
 msgstr "Не ўдалося ўсталяваць тэму."
 
-#: kcm.cpp:251
+#: kcm.cpp:250
 #, kde-format
 msgid "Removing theme failed: %1"
 msgstr "Не ўдалося выдаліць тэму: %1"
@@ -65,22 +65,22 @@ msgstr "Назва тэмы, якую вы хочаце вызначыць дл�
 msgid "Show all the themes available on the system (and which is the current theme)"
 msgstr "Паказаць усе тэмы, даступныя ў сістэме (бягучую таксама)"
 
-#: plasma-apply-desktoptheme.cpp:51
+#: plasma-apply-desktoptheme.cpp:55
 #, kde-format
 msgid "The requested theme \"%1\" is already set as the theme for the current Plasma session."
 msgstr "Мэтавая тэма \"%1\" ужо вызначаная тэмай для бягучага сеанса Plasma."
 
-#: plasma-apply-desktoptheme.cpp:67
+#: plasma-apply-desktoptheme.cpp:76
 #, kde-format
 msgid "The current Plasma session's theme has been set to %1"
 msgstr "Тэмай бягучага сеанса Plasma была вызначана %1"
 
-#: plasma-apply-desktoptheme.cpp:69
+#: plasma-apply-desktoptheme.cpp:78
 #, kde-format
 msgid "Could not find theme \"%1\". The theme should be one of the following options: %2"
 msgstr "Не ўдалося знайсці тэму \"%1\". Тэма мусіць адпавядаць аднаму з наступных параметраў: %2"
 
-#: plasma-apply-desktoptheme.cpp:77
+#: plasma-apply-desktoptheme.cpp:86
 #, kde-format
 msgid "You have the following Plasma themes on your system:"
 msgstr "У вашай сістэме ёсць наступныя тэмы Plasma:"
@@ -129,29 +129,43 @@ msgstr "Пільнуецца колеравай схемы"
 msgid "Edit Theme…"
 msgstr "Рэдагаваць тэму…"
 
-#: ui/main.qml:173
-#, kde-format
-msgid "Remove Theme"
-msgstr "Выдаліць тэму"
+#: ui/main.qml:174
+#| msgid "Get New Plasma Styles…"
+msgctxt "@info:tooltip"
+msgid "Remove Plasma style"
+msgstr ""
 
-#: ui/main.qml:180
-#, kde-format
-msgid "Restore Theme"
-msgstr "Аднавіць тэму"
+#: ui/main.qml:176
+#| msgid "This module lets you choose the Plasma style."
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active Plasma style"
+msgstr ""
 
-#: ui/main.qml:199
+#: ui/main.qml:178
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed Plasma styles"
+msgstr ""
+
+#: ui/main.qml:186
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Don’t delete this Plasma style"
+msgstr ""
+
+#: ui/main.qml:205
 #, kde-format
 msgid "Open Theme"
 msgstr "Адкрыць тэму"
 
-#: ui/main.qml:201
+#: ui/main.qml:207
 #, kde-format
 msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
 msgstr "Файлы тэмаў (*.zip *.tar.gz *.tar.bz2)"
 
-#~ msgid "Get New Plasma Styles…"
-#~ msgstr "Атрымаць новыя стылі Plasma…"
+#~ msgid "Remove Theme"
+#~ msgstr "Выдаліць тэму"
 
-#~ msgid "This module lets you choose the Plasma style."
-#~ msgstr "Гэты модуль дазваляе абраць стыль Plasma."
+#~ msgid "Restore Theme"
+#~ msgstr "Аднавіць тэму"
 

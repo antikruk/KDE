@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-21 00:42+0000\n"
-"PO-Revision-Date: 2025-01-07 21:25\n"
+"POT-Creation-Date: 2026-03-07 00:46+0000\n"
+"PO-Revision-Date: 2026-03-31 20:31\n"
 "Last-Translator: Siarhei Liantsevich <serzh.by@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -31,32 +31,32 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com, serzh.by@gmail.com, nashtlumach@gmail.com"
 
-#: colors.cpp:252
+#: colors.cpp:253
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr "Не ўдалося стварыць часовы файл."
 
-#: colors.cpp:265
+#: colors.cpp:266
 #, kde-format
 msgid "Unable to download the color scheme: %1"
 msgstr "Не ўдалося спампаваць колеравую схему: %1"
 
-#: colors.cpp:283
+#: colors.cpp:284
 #, kde-format
 msgid "This file is not a color scheme file."
 msgstr "Гэты файл - не файл колеравай схемы."
 
-#: colors.cpp:302
+#: colors.cpp:303
 #, kde-format
 msgid "Failed to create 'color-scheme' data folder."
 msgstr "Не ўдалося стварыць каталог \"color-scheme\"."
 
-#: colors.cpp:309
+#: colors.cpp:310
 #, kde-format
 msgid "Failed to copy color scheme into 'color-scheme' data folder."
 msgstr "Не ўдалося скапіяваць схему колераў у каталог \"color-scheme\"."
 
-#: colors.cpp:326
+#: colors.cpp:327
 #, kde-format
 msgid "Color scheme installed successfully."
 msgstr "Колеравая схема паспяхова ўсталяваная."
@@ -676,15 +676,15 @@ msgstr "Колеравая схема з такой назвай ужо існу
 
 #: editor/scmeditordialog.cpp:178
 #, kde-format
-msgid "You do not have permission to overwrite that scheme"
-msgstr "Вы не маеце правоў на перазапісванне гэтай схемы"
+msgid "This scheme is read-only. Please save the modifications with another name."
+msgstr ""
 
 #: editor/scmeditordialog.cpp:178
 #, kde-format
 msgid "Error"
 msgstr "Памылка"
 
-#: editor/scmeditordialog.cpp:193
+#: editor/scmeditordialog.cpp:194
 #, kde-format
 msgid "Inactive"
 msgstr "Неактыўны"
@@ -865,29 +865,29 @@ msgstr "Магутнасць падмалёўвання:"
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_5)
 #: editor/scmeditoroptions.ui:69
 #, kde-format
-msgid "Shading of frames and lighting (\"3D\") effects"
-msgstr "Зацяненне і светлавыя эфекты (\"3D\")"
+msgid "Contrast of the frames, separators and outlines"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #: editor/scmeditoroptions.ui:72
 #, kde-format
-msgid "Shading"
-msgstr "Зацяненне"
+msgid "Frames and Outlines"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: editor/scmeditoroptions.ui:97
-#, kde-format
-msgid "Maximum"
-msgstr "Максімум"
+#. i18n: ectx: property (text), widget (KMessageWidget, contrastValueWarning)
+#: editor/scmeditoroptions.ui:93
+#, no-c-format, kde-format
+msgid "Contrast values below 15% may produce visually awkward effects with some applications and color schemes. Consider yourself warned!"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#: editor/scmeditoroptions.ui:117
-#, kde-format
-msgid "Minimum"
-msgstr "Мінімум"
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, contrastPercentageSpinBox)
+#: editor/scmeditoroptions.ui:109
+#, no-c-format, kde-format
+msgid "%"
+msgstr "%"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: editor/scmeditoroptions.ui:124
+#: editor/scmeditoroptions.ui:138
 #, kde-format
 msgid "Contrast"
 msgstr "Кантраснасць"
@@ -1144,32 +1144,32 @@ msgstr "Колеравая схема \"%1\" паспяхова ўжытая д�
 msgid "Could not find theme \"%1\". The theme should be one of the following options: %2"
 msgstr "Не ўдалося знайсці тэму \"%1\". Тэма мусіць адпавядаць аднаму з наступных параметраў: %2"
 
-#: plasma-apply-colorscheme.cpp:122
+#: plasma-apply-colorscheme.cpp:123
 #, kde-format
 msgid "You have managed to pass an empty color scheme name, which isn't supported behavior."
 msgstr "Вы прызначылі пустую назву колеравай схемы, якая не падтрымліваецца."
 
-#: plasma-apply-colorscheme.cpp:126
+#: plasma-apply-colorscheme.cpp:127
 #, kde-format
 msgid "The file you attempted to set as your scheme, %1, could not be identified as a color scheme."
 msgstr "Файл %1, які вы спрабуеце вызначыць вашай схемай, не ёсць колеравай схемай."
 
-#: plasma-apply-colorscheme.cpp:149
+#: plasma-apply-colorscheme.cpp:151
 #, kde-format
 msgid "Successfully applied the accent color %1"
 msgstr "Дамінанты колер \"%1\" паспяхова ўжыты"
 
-#: plasma-apply-colorscheme.cpp:151
+#: plasma-apply-colorscheme.cpp:153
 #, kde-format
 msgid "Invalid accent color "
 msgstr "Хібны дамінанты колер "
 
-#: plasma-apply-colorscheme.cpp:156
+#: plasma-apply-colorscheme.cpp:158
 #, kde-format
 msgid "You have the following color schemes on your system:"
 msgstr "У вашай сістэме ёсць наступныя колеравыя схемы:"
 
-#: plasma-apply-colorscheme.cpp:161
+#: plasma-apply-colorscheme.cpp:163
 #, kde-format
 msgid " * %1 (current color scheme)"
 msgstr " * %1 (бягучая колеравая схема)"
@@ -1191,11 +1191,6 @@ msgstr "Дамінанты колер са шпалер"
 msgctxt "@item:inlistbox User-chosen custom accent color"
 msgid "Custom accent color"
 msgstr "Адвольны дамінанты колер"
-
-#: ui/AccentColorUI.qml:147
-#, kde-format
-msgid "Choose custom accent color"
-msgstr "Абраць адвольны дамінанты колер"
 
 #: ui/main.qml:90
 #, kde-format
@@ -1277,25 +1272,59 @@ msgstr "Дэактываваны тэкст"
 msgid "Edit Color Scheme…"
 msgstr "Рэдагаваць колеравую схему…"
 
-#: ui/main.qml:323
-#, kde-format
-msgid "Remove Color Scheme"
-msgstr "Выдаліць колеравую схему"
+#: ui/main.qml:324
+#| msgid "Remove Color Scheme"
+msgctxt "@info:tooltip"
+msgid "Remove color scheme"
+msgstr ""
 
-#: ui/main.qml:330
-#, kde-format
-msgid "Restore Color Scheme"
-msgstr "Аднавіць колеравую схему"
+#: ui/main.qml:326
+#| msgid "Utility to edit and create color schemes"
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active color scheme"
+msgstr ""
 
-#: ui/main.qml:374
+#: ui/main.qml:328
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed color schemes"
+msgstr ""
+
+#: ui/main.qml:336
+#, kde-format
+msgid "Don’t delete this color scheme"
+msgstr ""
+
+#: ui/main.qml:380
 #, kde-format
 msgid "Open Color Scheme"
 msgstr "Адкрыць колеравую схему"
 
-#: ui/main.qml:376
+#: ui/main.qml:382
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr "Файлы колеравых схемаў (*.colors)"
+
+#~ msgid "You do not have permission to overwrite that scheme"
+#~ msgstr "Вы не маеце правоў на перазапісванне гэтай схемы"
+
+#~ msgid "Restore Color Scheme"
+#~ msgstr "Аднавіць колеравую схему"
+
+#~ msgid "Shading of frames and lighting (\"3D\") effects"
+#~ msgstr "Зацяненне і светлавыя эфекты (\"3D\")"
+
+#~ msgid "Shading"
+#~ msgstr "Зацяненне"
+
+#~ msgid "Maximum"
+#~ msgstr "Максімум"
+
+#~ msgid "Minimum"
+#~ msgstr "Мінімум"
+
+#~ msgid "Choose custom accent color"
+#~ msgstr "Абраць адвольны дамінанты колер"
 
 #~ msgid "Get New Color Schemes…"
 #~ msgstr "Атрымаць новыя колеравыя схемы…"

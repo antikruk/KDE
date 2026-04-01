@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-18 00:41+0000\n"
-"PO-Revision-Date: 2025-01-07 21:22\n"
+"POT-Creation-Date: 2026-03-20 00:45+0000\n"
+"PO-Revision-Date: 2026-03-26 19:49\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -22,9 +22,9 @@ msgstr ""
 "X-Crowdin-File-ID: 19503\n"
 
 #: declarative-plugin/buttonsmodel.cpp:56
-#, kde-format
-msgid "More actions for this window"
-msgstr "Яшчэ дзеянні для гэтага акна"
+#| msgid "Window Decorations"
+msgid "Window menu"
+msgstr ""
 
 #: declarative-plugin/buttonsmodel.cpp:58
 #, kde-format
@@ -58,77 +58,78 @@ msgstr "Кантэкстная даведка"
 
 #: declarative-plugin/buttonsmodel.cpp:70
 #, kde-format
-msgid "Shade"
-msgstr "Згарнуць у загаловак"
-
-#: declarative-plugin/buttonsmodel.cpp:72
-#, kde-format
 msgid "Keep below other windows"
 msgstr "Размяшчаць ніжэй астатніх акон"
 
-#: declarative-plugin/buttonsmodel.cpp:74
+#: declarative-plugin/buttonsmodel.cpp:72
 #, kde-format
 msgid "Keep above other windows"
 msgstr "Размяшчаць вышэй астатніх акон"
+
+#: declarative-plugin/buttonsmodel.cpp:74
+#, kde-format
+msgid "Hide from screencast"
+msgstr ""
 
 #: declarative-plugin/buttonsmodel.cpp:76
 #, kde-format
 msgid "Spacer"
 msgstr "Прамежак"
 
-#: kcm.cpp:177
+#: kcm.cpp:188
 #| msgctxt "%1 is the name of a border size"
 #| msgid "Theme's default (%1)"
 msgctxt "%1 is the name of a border size"
 msgid "Theme default (%1)"
 msgstr ""
 
-#: kwin-applywindowdecoration.cpp:32
+#: kwin-applywindowdecoration.cpp:34
 #, kde-format
 msgid "This tool allows you to set the window decoration theme for the currently active session, without accidentally setting it to one that is either not available, or which is already set."
 msgstr "Гэты інструмент дазваляе вам вызначыць тэму аздаблення акон для бягучага актыўнага сеанса і пазбегнуць выбару недаступнай або ўжо абранай тэмы."
 
-#: kwin-applywindowdecoration.cpp:33
+#: kwin-applywindowdecoration.cpp:35
 #, kde-format
 msgid "The name of the window decoration theme you wish to set for KWin. Passing a full path will attempt to find a theme in that directory, and then apply that if one can be deduced."
 msgstr "Назва тэмы аздаблення акон, якую вы хочаце вызначыць для KWin. Калі пазначыць поўны шлях, то праграма паспрабуе знайсці тэму ў гэтым каталозе, а затым ужыць яе."
 
-#: kwin-applywindowdecoration.cpp:34
+#: kwin-applywindowdecoration.cpp:36
 #, kde-format
 msgid "Show all the themes available on the system (and which is the current theme)"
 msgstr "Паказаць усе тэмы, даступныя ў сістэме (бягучую таксама)"
 
-#: kwin-applywindowdecoration.cpp:65
+#: kwin-applywindowdecoration.cpp:67
 #, kde-format
 msgid "Resolved %1 to the KWin Aurorae theme \"%2\", and will attempt to set that as your current theme."
 msgstr "Праграма разабрала %1 як тэму KWin Aurorae \"%2\" і паспрабуе зрабіць яе бягучай."
 
-#: kwin-applywindowdecoration.cpp:71
+#: kwin-applywindowdecoration.cpp:73
 #, kde-format
 msgid "You attempted to pass a file path, but this could not be resolved to a theme, and we will have to abort, due to having no theme to set"
 msgstr "Вы пазначылі шлях да файла, але праграма не змагла знайсці па ім тэму, таму вымушаная перарваць дзеянне"
 
-#: kwin-applywindowdecoration.cpp:77
+#: kwin-applywindowdecoration.cpp:79
 #, kde-format
 msgid "The requested theme \"%1\" is already set as the window decoration theme."
 msgstr "Запытаная тэма \"%1\" ужо выкарыстоўваецца."
 
-#: kwin-applywindowdecoration.cpp:99
-#, kde-format
-msgid "Successfully applied the cursor theme %1 to your current Plasma session"
-msgstr "Тэма \"%1\" паспяхова зробленая тэмай курсора вашага бягучага сеанса Plasma"
+#: kwin-applywindowdecoration.cpp:101
+#| msgid ""
+#| "Successfully applied the cursor theme %1 to your current Plasma session"
+msgid "Successfully applied the pointer theme %1 to your current Plasma session"
+msgstr ""
 
-#: kwin-applywindowdecoration.cpp:103
+#: kwin-applywindowdecoration.cpp:105
 #, kde-format
 msgid "Failed to save your theme settings - the reason is unknown, but this is an unrecoverable error. You may find that simply trying again will work."
 msgstr "Не ўдалося захаваць налады тэмы. Прычына невядомая, але гэта непапраўная памылка. Вы можаце паспрабаваць паўтарыць спробу."
 
-#: kwin-applywindowdecoration.cpp:107
+#: kwin-applywindowdecoration.cpp:109
 #, kde-format
 msgid "Could not find theme \"%1\". The theme should be one of the following options: %2"
 msgstr "Не ўдалося знайсці тэму \"%1\". Тэма мусіць адпавядаць аднаму з наступных параметраў: %2"
 
-#: kwin-applywindowdecoration.cpp:112
+#: kwin-applywindowdecoration.cpp:114
 #, kde-format
 msgid "You have the following KWin window decoration themes on your system:"
 msgstr "У вашай сістэме ёсць наступныя тэмы аздаблення акон для KWin:"
@@ -154,22 +155,42 @@ msgid "Titlebar Buttons"
 msgstr "Кнопкі панэлі загалоўка"
 
 #: ui/ConfigureTitlebar.qml:35
-#, kde-format
+#| msgctxt "checkbox label"
+#| msgid "Close windows by double clicking the menu button"
 msgctxt "checkbox label"
-msgid "Close windows by double clicking the menu button"
-msgstr "Закрываць вокны падвойным пстрыканнем па кнопцы меню"
+msgid "Close windows by double clicking the window menu button"
+msgstr ""
 
 #: ui/ConfigureTitlebar.qml:52
-#, kde-format
+#| msgctxt "popup tip"
+#| msgid "Click and hold on the menu button to show the menu."
 msgctxt "popup tip"
-msgid "Click and hold on the menu button to show the menu."
-msgstr "Націсніце і ўтрымлівайце кнопку меню, каб паглядзець меню."
+msgid "Click and hold on the window menu button to show the menu."
+msgstr ""
 
 #: ui/ConfigureTitlebar.qml:59
 #, kde-format
 msgctxt "checkbox label"
 msgid "Show titlebar button tooltips"
 msgstr "Паказваць выплыўныя падказкі для кнопак панэлі загалоўка"
+
+#: ui/ConfigureTitlebar.qml:73
+#, kde-format
+msgctxt "@option:check"
+msgid "Always show \"Hide from Screencast\" button"
+msgstr ""
+
+#: ui/ConfigureTitlebar.qml:85
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "When unchecked the button only appears if the window is hidden from screencast"
+msgstr ""
+
+#: ui/ConfigureTitlebar.qml:86
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "To enable this option, add the \"Hide from screencast\" button to the titlebar first"
+msgstr ""
 
 #: ui/main.qml:29
 #, kde-format
@@ -194,50 +215,56 @@ msgstr "Атрымаць новыя…"
 msgid "Edit %1 Theme…"
 msgstr ""
 
-#: utils.cpp:25
+#: utils.cpp:26
 #| msgid "No Window Borders"
 msgid "No window borders"
 msgstr ""
 
-#: utils.cpp:26
+#: utils.cpp:27
 #| msgid "No Side Window Borders"
 msgid "No side window borders"
 msgstr ""
 
-#: utils.cpp:27
+#: utils.cpp:28
 #| msgid "Tiny Window Borders"
 msgid "Tiny window borders"
 msgstr ""
 
-#: utils.cpp:28
+#: utils.cpp:29
 #| msgid "Normal Window Borders"
 msgid "Normal window borders"
 msgstr ""
 
-#: utils.cpp:29
+#: utils.cpp:30
 #| msgid "Large Window Borders"
 msgid "Large window borders"
 msgstr ""
 
-#: utils.cpp:30
+#: utils.cpp:31
 #| msgid "Very Large Window Borders"
 msgid "Very large window borders"
 msgstr ""
 
-#: utils.cpp:31
+#: utils.cpp:32
 #| msgid "Huge Window Borders"
 msgid "Huge window borders"
 msgstr ""
 
-#: utils.cpp:32
+#: utils.cpp:33
 #| msgid "Very Huge Window Borders"
 msgid "Very huge window borders"
 msgstr ""
 
-#: utils.cpp:33
+#: utils.cpp:34
 #| msgid "Oversized Window Borders"
 msgid "Oversized window borders"
 msgstr ""
+
+#~ msgid "More actions for this window"
+#~ msgstr "Яшчэ дзеянні для гэтага акна"
+
+#~ msgid "Shade"
+#~ msgstr "Згарнуць у загаловак"
 
 #~ msgctxt "button text"
 #~ msgid "Get New Window Decorations…"
@@ -277,9 +304,6 @@ msgstr ""
 #~ msgctxt "EMAIL OF TRANSLATORS"
 #~ msgid "Your emails"
 #~ msgstr "symbol@akeeri.tk, nashtlumach@gmail.com"
-
-#~ msgid "Window Decorations"
-#~ msgstr "Аздабленне акон"
 
 #~ msgid "Valerio Pilo"
 #~ msgstr "Valerio Pilo"

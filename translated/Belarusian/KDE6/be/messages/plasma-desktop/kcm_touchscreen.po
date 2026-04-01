@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-18 00:39+0000\n"
-"PO-Revision-Date: 2025-01-07 21:24\n"
+"POT-Creation-Date: 2026-01-13 08:43+0000\n"
+"PO-Revision-Date: 2026-03-26 19:52\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,24 +19,26 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/plasma-desktop/kcm_touchscreen.po\n"
 "X-Crowdin-File-ID: 19727\n"
 
-#: kcmtouchscreen.cpp:46
+#: kcmtouchscreen.cpp:47
 #, kde-format
 msgid "Automatic"
 msgstr "Аўтаматычна"
 
-#: kcmtouchscreen.cpp:52
+#: kcmtouchscreen.cpp:53
 #, kde-format
 msgctxt "model - (x,y widthxheight)"
 msgid "%1 - (%2,%3 %4×%5)"
 msgstr "%1 - (%2,%3 %4×%5)"
 
 #: ui/main.qml:29
-#, kde-format
+#| msgid "No touchscreens found"
+msgctxt "@info:status placeholdermessage text"
 msgid "No touchscreens found"
 msgstr "Не знойдзена сэнсарных панэляў"
 
 #: ui/main.qml:30
-#, kde-format
+#| msgid "Connect an external touchscreen"
+msgctxt "@info:usagetip placeholdermessage explanation"
 msgid "Connect an external touchscreen"
 msgstr "Падлучыць вонкавы сэнсарны экран"
 
@@ -47,12 +49,14 @@ msgid "Device:"
 msgstr "Прылада:"
 
 #: ui/main.qml:59
-#, kde-format
+#| msgid "Enabled:"
+msgctxt "@option:check prefix touchscreen device is enabled"
 msgid "Enabled:"
 msgstr "Уключана:"
 
 #: ui/main.qml:67
-#, kde-format
+#| msgid "Target display:"
+msgctxt "@label:listbox this is a compound noun"
 msgid "Target display:"
 msgstr "Мэтавы дысплэй:"
 

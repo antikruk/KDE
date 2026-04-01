@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-25 00:40+0000\n"
-"PO-Revision-Date: 2025-01-07 21:25\n"
+"POT-Creation-Date: 2026-01-31 00:45+0000\n"
+"PO-Revision-Date: 2026-03-31 20:31\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -27,37 +27,37 @@ msgstr ""
 msgid "Name of the current icon theme"
 msgstr "Назва бягучай тэмы значкоў"
 
-#: main.cpp:150
+#: main.cpp:147
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr "Не ўдалося стварыць часовы файл."
 
-#: main.cpp:161
+#: main.cpp:158
 #, kde-format
 msgid "Unable to download the icon theme archive: %1"
 msgstr "Не ўдалося спампаваць архіў тэмы значкоў: %1"
 
-#: main.cpp:175
+#: main.cpp:172
 #, kde-format
 msgid "The file is not a valid icon theme archive."
 msgstr "Файл не ёсць прыдатным архівам тэмы значкоў."
 
-#: main.cpp:180
+#: main.cpp:177
 #, kde-format
 msgid "A problem occurred during the installation process; however, most of the themes in the archive have been installed"
 msgstr "Падчас усталявання адбылася памылка; аднак, большасць тэмаў з архіва была ўсталяваная"
 
-#: main.cpp:184
+#: main.cpp:181
 #, kde-format
 msgid "Theme installed successfully."
 msgstr "Тэма паспяхова ўсталяваная."
 
-#: main.cpp:228
+#: main.cpp:225
 #, kde-format
 msgid "Installing icon themes…"
 msgstr "Усталяванне тэмы значкоў…"
 
-#: main.cpp:238
+#: main.cpp:235
 #, kde-format
 msgid "Installing %1 theme…"
 msgstr "Усталяванне тэмы \"%1\"…"
@@ -72,25 +72,42 @@ msgstr "Усталяваць з файла…"
 msgid "Get New…"
 msgstr "Атрымаць новыя…"
 
-#: ui/main.qml:188
-#, kde-format
-msgid "Remove Icon Theme"
-msgstr "Выдаліць тэму значкоў"
+#: ui/main.qml:189
+#| msgid "Remove Icon Theme"
+msgctxt "@info:tooltip"
+msgid "Remove icon theme"
+msgstr ""
 
-#: ui/main.qml:195
-#, kde-format
-msgid "Restore Icon Theme"
-msgstr "Аднавіць тэму значкоў"
+#: ui/main.qml:191
+#| msgid "Name of the current icon theme"
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active icon theme"
+msgstr ""
 
-#: ui/main.qml:244
+#: ui/main.qml:193
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed icon themes"
+msgstr ""
+
+#: ui/main.qml:201
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Don’t delete this icon theme"
+msgstr ""
+
+#: ui/main.qml:250
 #, kde-format
 msgid "Open Theme"
 msgstr "Адкрыць тэму"
 
-#: ui/main.qml:246
+#: ui/main.qml:252
 #, kde-format
 msgid "Theme Files (*.tar.gz *.tar.bz2)"
 msgstr "Файлы тэмаў (*.tar.gz *.tar.bz2)"
+
+#~ msgid "Restore Icon Theme"
+#~ msgstr "Аднавіць тэму значкоў"
 
 #~ msgid "Main Toolbar"
 #~ msgstr "Галоўная панэль інструментаў"

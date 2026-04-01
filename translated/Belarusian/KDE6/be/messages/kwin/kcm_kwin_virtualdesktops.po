@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-05 00:40+0000\n"
-"PO-Revision-Date: 2025-01-07 21:22\n"
+"POT-Creation-Date: 2026-03-13 00:45+0000\n"
+"PO-Revision-Date: 2026-03-26 19:49\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -30,7 +30,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "komzpa@licei2. com, nashtlumach@gmail. com"
 
-#: desktopsmodel.cpp:191
+#: desktopsmodel.cpp:188
 #, kde-format
 msgctxt "A numbered name for virtual desktops"
 msgid "Desktop %1"
@@ -40,17 +40,17 @@ msgstr[1] "Працоўны стол %1"
 msgstr[2] "Працоўны стол %1"
 msgstr[3] "Працоўны стол %1"
 
-#: desktopsmodel.cpp:479
+#: desktopsmodel.cpp:476
 #, kde-format
 msgid "There was an error connecting to the compositor."
 msgstr "Не ўдалося злучыцца са сродкам кампазітынгу."
 
-#: desktopsmodel.cpp:678
+#: desktopsmodel.cpp:672
 #, kde-format
 msgid "There was an error saving the settings to the compositor."
 msgstr "Не ўдалося захаваць налады сродку кампазітынгу."
 
-#: desktopsmodel.cpp:681
+#: desktopsmodel.cpp:675
 #, kde-format
 msgid "There was an error requesting information from the compositor."
 msgstr "Не ўдалося атрымаць звесткі пра сродак кампазітынгу."
@@ -67,60 +67,68 @@ msgctxt "@action:button"
 msgid "Add Desktop"
 msgstr "Дадаць працоўны стол"
 
-#: ui/main.qml:122
-#, kde-format
-msgctxt "@info:tooltip"
+#: ui/main.qml:90
+#| msgctxt "@info:tooltip"
+#| msgid "Rename"
+msgctxt "@action:button"
 msgid "Rename"
-msgstr "Змяніць назву"
+msgstr "Змяніць назву (%1 выява)"
 
-#: ui/main.qml:134
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Confirm new name"
-msgstr "Пацвердзіце новую назву"
-
-#: ui/main.qml:143
+#: ui/main.qml:100
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove"
 msgstr "Выдаліць"
 
-#: ui/main.qml:176
+#: ui/main.qml:119
+#| msgctxt "@info:tooltip"
+#| msgid "Confirm new name"
+msgctxt "@info:tooltip"
+msgid "Apply new name"
+msgstr ""
+
+#: ui/main.qml:132
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel rename"
+msgstr ""
+
+#: ui/main.qml:179
 #, kde-format
 msgid "Virtual desktops have been changed outside this settings application. Saving now will overwrite the changes."
 msgstr "Віртуальныя працоўныя сталы былі змененыя па-за межамі гэтай праграмы. Калі захаваць, то змены перазапішуцца."
 
-#: ui/main.qml:192
+#: ui/main.qml:195
 #, kde-format
 msgid "Row %1"
 msgstr "Радок %1"
 
-#: ui/main.qml:206
+#: ui/main.qml:209
 #, kde-format
 msgid "Options:"
 msgstr "Параметры:"
 
-#: ui/main.qml:208
+#: ui/main.qml:211
 #, kde-format
 msgid "Navigation wraps around"
 msgstr "Навігацыя па коле"
 
-#: ui/main.qml:226
+#: ui/main.qml:229
 #, kde-format
 msgid "Show animation when switching:"
 msgstr "Паказ анімацыі пры пераключэнні:"
 
-#: ui/main.qml:277
+#: ui/main.qml:280
 #, kde-format
 msgid "Show on-screen display when switching:"
 msgstr "Паказ індыкацыі пры пераключэнні:"
 
-#: ui/main.qml:296
+#: ui/main.qml:299
 #, kde-format
 msgid "%1 ms"
 msgstr "%1 мс"
 
-#: ui/main.qml:320
+#: ui/main.qml:323
 #, kde-format
 msgid "Show desktop layout indicators"
 msgstr "Паказваць індыкатары макета працоўных сталоў"

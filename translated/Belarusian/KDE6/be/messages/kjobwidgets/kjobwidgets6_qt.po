@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-23 01:50+0000\n"
-"PO-Revision-Date: 2025-01-07 21:19\n"
+"PO-Revision-Date: 2026-03-26 19:45\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -27,6 +27,11 @@ msgstr ""
 "X-Crowdin-Language: be\n"
 "X-Crowdin-File: /main/KDE6/be/messages/kjobwidgets/kjobwidgets6_qt.po\n"
 "X-Crowdin-File-ID: 19191\n"
+
+#: kinhibitionjobtracker.cpp:80
+msgctxt "KInhibitionJobTracker|"
+msgid "Job in progress"
+msgstr ""
 
 #: kjobtrackerformatters.cpp:27
 #, qt-format
@@ -87,11 +92,17 @@ msgid "%1 and %2"
 msgstr "%1 і %2"
 
 #. Job name, e.g. Copying has failed
-#: knotificationjobuidelegate.cpp:28
+#: knotificationjobuidelegate.cpp:29
 #, qt-format
 msgctxt "KNotificationJobUiDelegate|"
 msgid "%1 (Failed)"
 msgstr "%1 (Памылка)"
+
+#: knotificationjobuidelegate.cpp:63
+#| msgid "An error occurred while accessing '%1'"
+msgctxt "KNotificationJobUiDelegate|"
+msgid "An unknown error occurred while executing a job: %1"
+msgstr ""
 
 #: kstatusbarjobtracker.cpp:161
 msgctxt "KStatusBarJobTracker|"
@@ -239,7 +250,7 @@ msgctxt "KWidgetJobTracker|Progress bar percent value, %p is the value, % is the
 msgid "%p%"
 msgstr "%p%"
 
-#: kwidgetjobtracker.cpp:547 kwidgetjobtracker.cpp:746
+#: kwidgetjobtracker.cpp:547 kwidgetjobtracker.cpp:747
 msgctxt "KWidgetJobTracker|"
 msgid "Click this to expand the dialog, to show details"
 msgstr "Пстрыкніце, каб разгарнуць дыялогавае акно і паказаць падрабязнасці"
@@ -249,27 +260,27 @@ msgctxt "KWidgetJobTracker|"
 msgid "&Keep this window open after transfer is complete"
 msgstr "&Пакінуць гэтае акно адкрытым пасля завяршэння перадачы"
 
-#: kwidgetjobtracker.cpp:591
+#: kwidgetjobtracker.cpp:592
 msgctxt "KWidgetJobTracker|"
 msgid "Open &File"
 msgstr "Адкрыць &файл"
 
-#: kwidgetjobtracker.cpp:597
+#: kwidgetjobtracker.cpp:598
 msgctxt "KWidgetJobTracker|"
 msgid "Open &Destination"
 msgstr "Адкрыць &мэтавы элемент"
 
-#: kwidgetjobtracker.cpp:605
+#: kwidgetjobtracker.cpp:606
 msgctxt "KWidgetJobTracker|"
 msgid "&Cancel"
 msgstr "&Скасаваць"
 
-#: kwidgetjobtracker.cpp:613
+#: kwidgetjobtracker.cpp:614
 msgctxt "KWidgetJobTracker|"
 msgid "Progress Dialog"
 msgstr "Дыялогавае акно ходу выканання"
 
-#: kwidgetjobtracker.cpp:626
+#: kwidgetjobtracker.cpp:627
 #, qt-format
 msgctxt "KWidgetJobTracker|"
 msgid "%n item(s)"
@@ -279,7 +290,7 @@ msgstr[1] "%n элементы"
 msgstr[2] "%n элементаў"
 msgstr[3] "%n элементы"
 
-#: kwidgetjobtracker.cpp:632
+#: kwidgetjobtracker.cpp:633
 #, qt-format
 msgctxt "KWidgetJobTracker|"
 msgid "%n folder(s)"
@@ -289,7 +300,7 @@ msgstr[1] "%n каталогі"
 msgstr[2] "%n каталогаў"
 msgstr[3] "%n каталогі"
 
-#: kwidgetjobtracker.cpp:636
+#: kwidgetjobtracker.cpp:637
 #, qt-format
 msgctxt "KWidgetJobTracker|"
 msgid "%n file(s)"
@@ -299,7 +310,7 @@ msgstr[1] "%n файлы"
 msgstr[2] "%n файлаў"
 msgstr[3] "%n файлы"
 
-#: kwidgetjobtracker.cpp:739
+#: kwidgetjobtracker.cpp:740
 msgctxt "KWidgetJobTracker|"
 msgid "Click this to collapse the dialog, to hide details"
 msgstr "Пстрыкніце, каб згарнуць дыялогавае акно і схаваць падрабязнасці"
@@ -10722,9 +10733,6 @@ msgstr "Пстрыкніце, каб згарнуць дыялогавае ак�
 #, fuzzy
 #~ msgid "An error occurred while accessing '%1', the system responded: %2"
 #~ msgstr "Адбылася памылка пры спробе доступу да '%1', сістэма сказала: %2"
-
-#~ msgid "An error occurred while accessing '%1'"
-#~ msgstr "Адбылася памылка адкрыцця '%1':"
 
 #~ msgid "Custom Path"
 #~ msgstr "Шлях карыстальніка"

@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-29 00:43+0000\n"
-"PO-Revision-Date: 2025-01-09 22:29\n"
+"POT-Creation-Date: 2025-11-18 00:45+0000\n"
+"PO-Revision-Date: 2026-03-26 19:46\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -37,9 +37,9 @@ msgid "&Name:"
 msgstr "&Назва:"
 
 #: basictab.cpp:60
-#, kde-format
-msgid "&Description:"
-msgstr "&Апісанне:"
+#| msgid "&Username:"
+msgid "&Generic name:"
+msgstr ""
 
 #: basictab.cpp:68
 #, kde-format
@@ -134,97 +134,135 @@ msgstr "&Імя карыстальніка:"
 
 #: basictab.cpp:191
 #, kde-format
+msgid "Run using dedicated &graphics card"
+msgstr ""
+
+#: basictab.cpp:198
+#, kde-format
 msgid "Current shortcut &key:"
 msgstr "Бягучае &спалучэнне клавіш:"
 
-#: basictab.cpp:202
+#: basictab.cpp:209
 #, kde-format
 msgid "Advanced"
 msgstr "Дадатковыя"
 
-#: globalaccel.cpp:28
+#: globalaccel.cpp:33
 #, kde-format
 msgid "Launch %1"
 msgstr "Запусціць %1"
 
-#: kmenuedit.cpp:55
+#: kmenuedit.cpp:67
+#, kde-format
+msgid "This will hide the menu bar completely. You can show it again by typing %1."
+msgstr "Гэтае дзеянне схавае панэль меню. Вы можаце ўключыць яго зноў, калі ўведзяце %1."
+
+#: kmenuedit.cpp:70
+#, kde-format
+msgid "Hide menu bar"
+msgstr "Схаваць панэль меню"
+
+#: kmenuedit.cpp:118
 #, kde-format
 msgid "&New Submenu..."
 msgstr "Новае &падменю..."
 
-#: kmenuedit.cpp:59
+#: kmenuedit.cpp:122
 #, kde-format
 msgid "New &Item..."
 msgstr "Новы &элемент..."
 
-#: kmenuedit.cpp:63
+#: kmenuedit.cpp:126
 #, kde-format
 msgid "New S&eparator"
 msgstr "Новы па&дзяляльнік"
 
-#: kmenuedit.cpp:67
+#: kmenuedit.cpp:132
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Location"
+msgstr "Скапіяваць размяшчэнне"
+
+#: kmenuedit.cpp:135
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Open Containing Folder"
+msgstr "&Адкрыць каталог змесціва"
+
+#: kmenuedit.cpp:138
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "Уласцівасці"
+
+#: kmenuedit.cpp:142
+#, kde-format
+msgid "&New"
+msgstr "Стварыць(&N)"
+
+#: kmenuedit.cpp:150
 #, kde-format
 msgid "&Sort"
 msgstr "&Сартаваць"
 
-#: kmenuedit.cpp:71
+#: kmenuedit.cpp:154
 #, kde-format
 msgid "&Sort Selection by Name"
 msgstr "&Сартаваць абранае па назве"
 
-#: kmenuedit.cpp:74
+#: kmenuedit.cpp:157
 #, kde-format
 msgid "&Sort Selection by Description"
 msgstr "&Сартаваць абранае па апісанні"
 
-#: kmenuedit.cpp:78
+#: kmenuedit.cpp:161
 #, kde-format
 msgid "&Sort All by Name"
 msgstr "&Сартаваць усё па назве"
 
-#: kmenuedit.cpp:81
+#: kmenuedit.cpp:164
 #, kde-format
 msgid "&Sort All by Description"
 msgstr "&Сартаваць усё па апісанні"
 
-#: kmenuedit.cpp:87
+#: kmenuedit.cpp:170
 #, kde-format
 msgid "Move &Up"
 msgstr "Перамясціць &вышэй"
 
-#: kmenuedit.cpp:90
+#: kmenuedit.cpp:173
 #, kde-format
 msgid "Move &Down"
 msgstr "Перамясціць ні&жэй"
 
-#: kmenuedit.cpp:98
+#: kmenuedit.cpp:181
 #, kde-format
 msgid "Restore to System Menu"
 msgstr "Аднавіць сістэмнае меню"
 
-#: kmenuedit.cpp:134
+#: kmenuedit.cpp:218
 #, kde-format
 msgid "Search..."
 msgstr "Пошук..."
 
-#: kmenuedit.cpp:135
+#: kmenuedit.cpp:219
 #, kde-format
 msgid "Search through the list of applications below"
 msgstr "Пошук па спісе праграм ніжэй"
 
-#: kmenuedit.cpp:203
+#: kmenuedit.cpp:287
 #, kde-format
 msgid "&Delete"
 msgstr "&Выдаліць"
 
-#: kmenuedit.cpp:228
+#: kmenuedit.cpp:312
 #, kde-format
 msgid "You have made changes to the menu.\n"
 "Do you want to save the changes or discard them?"
 msgstr "Вы ўнеслі змены ў меню.\n"
 "Хочаце захаваць ці адкінуць змены?"
 
-#: kmenuedit.cpp:230
+#: kmenuedit.cpp:314
 #, kde-format
 msgid "Save Menu Changes?"
 msgstr "Захаваць змены ў меню?"
@@ -235,17 +273,29 @@ msgstr "Захаваць змены ў меню?"
 msgid "&File"
 msgstr "&Файл"
 
+#. i18n: ectx: Menu (file_file_actions)
+#: kmenueditui.rc:15
+#, kde-format
+msgid "File Act&ions"
+msgstr ""
+
 #. i18n: ectx: Menu (edit)
-#: kmenueditui.rc:17
+#: kmenueditui.rc:25
 #, kde-format
 msgid "&Edit"
 msgstr "&Рэдагаванне"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kmenueditui.rc:34
+#: kmenueditui.rc:42
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Галоўная панэль інструментаў"
+
+#. i18n: ectx: ToolBar (hamburgerBar)
+#: kmenueditui.rc:52
+#, kde-format
+msgid "Hamburger Menu Toolbar"
+msgstr ""
 
 #: main.cpp:29 main.cpp:39 main.cpp:53
 #, kde-format
@@ -327,46 +377,49 @@ msgstr "Параметры праверкі правапісу"
 msgid "Show hidden entries"
 msgstr "Паказваць схаваныя элементы"
 
-#: treeview.cpp:177
+#: treeview.cpp:180
 #, kde-format
 msgid " [Hidden]"
 msgstr " [Схавана]"
 
-#: treeview.cpp:1023
+#: treeview.cpp:1068
 #, kde-format
 msgid "New Submenu"
 msgstr "Новае падменю"
 
-#: treeview.cpp:1023
+#: treeview.cpp:1068
 #, kde-format
 msgid "Submenu name:"
 msgstr "Назва падменю:"
 
-#: treeview.cpp:1090
+#: treeview.cpp:1135
 #, kde-format
 msgid "New Item"
 msgstr "Новы элемент"
 
-#: treeview.cpp:1090
+#: treeview.cpp:1135
 #, kde-format
 msgid "Item name:"
 msgstr "Назва элемента:"
 
-#: treeview.cpp:1721
+#: treeview.cpp:1838
 #, kde-format
 msgid "Menu changes could not be saved because of the following problem:"
 msgstr "Не ўдалося захаваць змены ў меню праз наступную праблему:"
 
-#: treeview.cpp:1768
+#: treeview.cpp:1885
 #, kde-format
 msgid "Do you want to restore the system menu? Warning: This will remove all custom menus."
 msgstr "Вы хочаце аднавіць сістэмнае меню? Увага: гэтае дзеянне выдаліць усе меню карыстальніка."
 
-#: treeview.cpp:1769
+#: treeview.cpp:1886
 #, kde-format
 msgctxt "@title:window"
 msgid "Restore Menu System"
 msgstr "Аднавіць сістэмнае меню"
+
+#~ msgid "&Description:"
+#~ msgstr "&Апісанне:"
 
 #~ msgid "Sub menu to pre-select"
 #~ msgstr "Падменю для папярэдняга выбару"

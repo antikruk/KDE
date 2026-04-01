@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-24 00:38+0000\n"
-"PO-Revision-Date: 2025-01-07 21:20\n"
+"POT-Creation-Date: 2025-12-01 00:42+0000\n"
+"PO-Revision-Date: 2026-03-26 19:47\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -321,6 +321,26 @@ msgstr ""
 msgid "The custom directory to store cache"
 msgstr ""
 
+#: cookies/kcookiesmain.cpp:33
+#| msgid "Policy"
+msgid "&Policy"
+msgstr "&Палітыка"
+
+#: cookies/kcookiesmain.cpp:35
+#, kde-format
+msgid "&Management"
+msgstr "&Кіраванне"
+
+#: cookies/kcookiesmanagement.cpp:46
+#, kde-format
+msgid "End of session"
+msgstr "Завяршэнне сеанса"
+
+#: cookies/kcookiesmanagement.cpp:51
+#, kde-format
+msgid "Yes"
+msgstr "Так"
+
 #. i18n: ectx: property (placeholderText), widget (KTreeWidgetSearchLine, searchLineEdit)
 #: cookies/kcookiesmanagement.ui:20
 #, kde-format
@@ -412,6 +432,34 @@ msgstr "Тэрмін дзеяння:"
 #, kde-format
 msgid "Secure:"
 msgstr "Бяспека:"
+
+#: cookies/kcookiespolicies.cpp:137
+#| msgid "Change Plugin Policy"
+msgctxt "@title:window"
+msgid "Change Cookie Policy"
+msgstr "Змяніць правіла палітыкі для файлаў cookie"
+
+#: cookies/kcookiespolicies.cpp:156
+#| msgid "New Plugin Policy"
+msgctxt "@title:window"
+msgid "New Cookie Policy"
+msgstr "Новае правіла палітыкі для файлаў cookie"
+
+#: cookies/kcookiespolicies.cpp:189
+#, kde-format
+msgid "<qt>A policy already exists for<center><b>%1</b></center>Do you want to replace it?</qt>"
+msgstr "<qt>Палітыка ўжо існуе для <center><b>%1</b></center>Хочаце замяніць яе?</qt>"
+
+#: cookies/kcookiespolicies.cpp:193
+#| msgid "Policy"
+msgctxt "@title:window"
+msgid "Duplicate Policy"
+msgstr "Стварыць дублікат правіла палітыкі для файлаў cookie"
+
+#: cookies/kcookiespolicies.cpp:194
+#, kde-format
+msgid "Replace"
+msgstr "Замяніць"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbEnableCookies)
 #: cookies/kcookiespolicies.ui:20
@@ -1234,12 +1282,12 @@ msgid "Export Filters"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QTreeWidget, templates)
-#: filteropts.cpp:553 useragent/useragent.ui:58
+#: filteropts.cpp:563 useragent/useragent.ui:58
 #, kde-format
 msgid "Name"
 msgstr "Імя"
 
-#: filteropts.cpp:554
+#: filteropts.cpp:564
 #, kde-format
 msgid "URL"
 msgstr "URL"
@@ -1263,66 +1311,72 @@ msgid "Show Introduction Page"
 msgstr ""
 
 #: generalopts.cpp:70
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Show Speed Dial"
+msgstr ""
+
+#: generalopts.cpp:71
 msgctxt "@item:inlistbox"
 msgid "Show My Start Page"
 msgstr ""
 
-#: generalopts.cpp:71
+#: generalopts.cpp:72
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Show Blank Page"
 msgstr ""
 
-#: generalopts.cpp:72
+#: generalopts.cpp:73
 msgctxt "@item:inlistbox"
 msgid "Show My Bookmarks"
 msgstr ""
 
-#: generalopts.cpp:78
+#: generalopts.cpp:79
 msgctxt "@title:window"
 msgid "Select Start Page"
 msgstr ""
 
-#: generalopts.cpp:83
+#: generalopts.cpp:84
 #, kde-format
 msgid "This is the URL of the web page Konqueror will show when starting."
 msgstr ""
 
-#: generalopts.cpp:94
+#: generalopts.cpp:95
 msgid "Home page:"
 msgstr ""
 
-#: generalopts.cpp:97
+#: generalopts.cpp:98
 msgctxt "@title:window"
 msgid "Select Home Page"
 msgstr ""
 
-#: generalopts.cpp:102
+#: generalopts.cpp:103
 #, kde-format
 msgid "This is the URL of the web page where Konqueror will jump to when the \"Home\" button is pressed."
 msgstr ""
 
-#: generalopts.cpp:110
+#: generalopts.cpp:111
 #, kde-format
 msgid "Default web browser engine:"
 msgstr ""
 
-#: generalopts.cpp:119
+#: generalopts.cpp:120
 #, kde-format
 msgid "When splitting a view"
 msgstr ""
 
-#: generalopts.cpp:123
+#: generalopts.cpp:124
 #, kde-format
 msgid "Always duplicate current view"
 msgstr ""
 
-#: generalopts.cpp:124
+#: generalopts.cpp:125
 #, kde-format
 msgid "Duplicate current view only for local files"
 msgstr ""
 
-#: generalopts.cpp:130
+#: generalopts.cpp:131
 #, kde-format
 msgid "When starting up, restore state from last time"
 msgstr ""
@@ -1830,6 +1884,34 @@ msgstr ""
 msgid "Activate previously used tab when closing the current tab"
 msgstr ""
 
+#: useragent/useragent.cpp:195
+#, kde-format
+msgctxt "@title:window Title of dialog to choose name to given to new User Agent"
+msgid "Choose User Agent name"
+msgstr ""
+
+#: useragent/useragent.cpp:196
+#, kde-format
+msgctxt "Name of the new User Agent"
+msgid "User Agent name"
+msgstr ""
+
+#: useragent/useragent.cpp:256
+#, kde-format
+msgid "there are templates with empty names"
+msgstr ""
+
+#: useragent/useragent.cpp:261
+#, kde-format
+msgid "there are multiple templates with the same name"
+msgstr ""
+
+#: useragent/useragent.cpp:284
+#, kde-format
+msgctxt "The user gave a custom user agent string an empty or duplicate name"
+msgid "Invalid user agent names:"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, customUABox)
 #: useragent/useragent.ui:20
 #, kde-format
@@ -2079,18 +2161,6 @@ msgstr ""
 
 #~ msgid "Doma&in-Specific"
 #~ msgstr "Спецыфічныя для дамену"
-
-#, fuzzy
-#~| msgid "New Plugin Policy"
-#~ msgctxt "@title:window"
-#~ msgid "New Plugin Policy"
-#~ msgstr "Новая палітыка ўтулак"
-
-#, fuzzy
-#~| msgid "Change Plugin Policy"
-#~ msgctxt "@title:window"
-#~ msgid "Change Plugin Policy"
-#~ msgstr "Змяніць палітыку ўтулак"
 
 #~ msgid "&Plugin policy:"
 #~ msgstr "&Палітыка ўтулак:"

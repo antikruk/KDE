@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-02 00:41+0000\n"
-"PO-Revision-Date: 2025-01-07 21:23\n"
+"POT-Creation-Date: 2026-01-08 00:45+0000\n"
+"PO-Revision-Date: 2026-03-26 19:51\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -82,10 +82,11 @@ msgstr "Не ўдалося загрузіць геаметрыю клавіят
 "Папярэдні прагляд раскладак, якія вызначаны па-за каталогам xkb вашай сістэмы, не падтрымліваецца і таксама выкліча гэтае паведамленне. Яны ўсё яшчэ могуць працаваць нармальна, калі іх ужыць"
 
 #: ui/KeyBindings.qml:18
-#, kde-format
+#| msgctxt "@action:button"
+#| msgid "Configure Switching…"
 msgctxt "@title"
-msgid "Key Bindings"
-msgstr "Прывязванне клавіш"
+msgid "Configure Key Bindings…"
+msgstr ""
 
 #: ui/KeyBindings.qml:62
 #, kde-format
@@ -111,31 +112,38 @@ msgctxt "@info:tooltip"
 msgid "Reset selected options for this group"
 msgstr "Скінуць абраныя параметры для гэтай групы"
 
-#: ui/LayoutDialog.qml:20
+#: ui/LayoutDialog.qml:22
+#| msgctxt "@title:column"
+#| msgid "Layout"
+msgctxt "@title:window"
+msgid "Set Layout"
+msgstr ""
+
+#: ui/LayoutDialog.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Layout"
 msgstr "Дадаць раскладку"
 
-#: ui/LayoutDialog.qml:177
+#: ui/LayoutDialog.qml:129
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Short layout name"
 msgstr "Скарочаная назва раскладкі"
 
-#: ui/LayoutDialog.qml:187
+#: ui/LayoutDialog.qml:139
 #, kde-format
 msgctxt "@info"
 msgid "The abbreviated name of the selected layout, which will be displayed in the system tray. You can change this setting yourself."
 msgstr "Скарочаная назва абранай раскладкі, якая будзе паказвацца на прасторы апавяшчэнняў. Вы можаце змяніць гэты параметр самастойна."
 
-#: ui/LayoutDialog.qml:195
+#: ui/LayoutDialog.qml:147
 #, kde-format
 msgctxt "@option:textbox"
 msgid "Shortcut:"
 msgstr "Спалучэнне клавіш:"
 
-#: ui/LayoutDialog.qml:206 ui/main.qml:285
+#: ui/LayoutDialog.qml:158 ui/main.qml:287
 #, kde-format
 msgctxt "@action:button"
 msgid "Preview"
@@ -225,55 +233,55 @@ msgctxt "@label:checkbox"
 msgid "Key repeat:"
 msgstr "Паўтарэнне клавішы:"
 
-#: ui/main.qml:155
+#: ui/main.qml:155 ui/main_phone.qml:115
 #, kde-format
 msgctxt "@label:checkbox accessible"
 msgid "Key repeat"
 msgstr "Паўтарэнне клавішы"
 
-#: ui/main.qml:166
+#: ui/main.qml:166 ui/main_phone.qml:131
 #, kde-format
 msgctxt "@label:textbox Key repeat delay"
 msgid "Delay:"
 msgstr "Затрымліванне:"
 
-#: ui/main.qml:180
+#: ui/main.qml:180 ui/main_phone.qml:135
 #, kde-format
 msgctxt "@label:spinbox accessible"
 msgid "Key repeat delay %1"
 msgstr "Затрымліванне паўтарэння клавішы %1"
 
-#: ui/main.qml:188
+#: ui/main.qml:188 ui/main_phone.qml:143
 #, kde-format
 msgctxt "@spinbox:value Repeat delay interval"
 msgid "%1 ms"
 msgstr "%1 мс"
 
-#: ui/main.qml:192
+#: ui/main.qml:192 ui/main_phone.qml:147
 #, kde-format
 msgctxt "@spinbox:value Repeat delay interval"
 msgid "ms"
 msgstr "мс"
 
-#: ui/main.qml:205
+#: ui/main.qml:205 ui/main_phone.qml:162
 #, kde-format
 msgctxt "@label:textbox Key repeat rate"
 msgid "Rate:"
 msgstr "Хуткасць:"
 
-#: ui/main.qml:219
+#: ui/main.qml:219 ui/main_phone.qml:169
 #, kde-format
 msgctxt "@label:spinbox accessible"
 msgid "Key repeat rate %1"
 msgstr "Частата паўтарэння клавішы %1"
 
-#: ui/main.qml:227
+#: ui/main.qml:227 ui/main_phone.qml:177
 #, kde-format
 msgctxt "@spinbox:value  Key repeat rate"
 msgid "%1 repeats/s"
 msgstr "%1 паўтарэнняў/сек"
 
-#: ui/main.qml:231
+#: ui/main.qml:231 ui/main_phone.qml:181
 #, kde-format
 msgctxt "@spinbox:value  Key repeat rate"
 msgid "repeats/s"
@@ -297,83 +305,124 @@ msgctxt "@title:view"
 msgid "Layouts"
 msgstr "Раскладкі"
 
-#: ui/main.qml:268
+#: ui/main.qml:270
 #, kde-format
 msgctxt "@action:button"
 msgid "Move Up"
 msgstr "Перамясціць вышэй"
 
-#: ui/main.qml:269
+#: ui/main.qml:271
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Move %1 layout up"
 msgstr "Перамясціць раскладку %1 вышэй"
 
-#: ui/main.qml:275
+#: ui/main.qml:277
 #, kde-format
 msgctxt "@action:button"
 msgid "Move Down"
 msgstr "Перамясціць ніжэй"
 
-#: ui/main.qml:276
+#: ui/main.qml:278
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Move %1 layout Down"
 msgstr "Перамясціць раскладку %1 ніжэй"
 
-#: ui/main.qml:286
+#: ui/main.qml:288
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Preview"
 msgstr "Папярэдні прагляд"
 
-#: ui/main.qml:294
+#: ui/main.qml:296
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"
 msgstr "Выдаліць"
 
-#: ui/main.qml:295
+#: ui/main.qml:297
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Remove layout %1"
 msgstr "Выдаліць раскладку %1"
 
-#: ui/main.qml:307
+#: ui/main.qml:309
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Spare layouts:"
 msgstr "Запасныя раскладкі:"
 
-#: ui/main.qml:344
+#: ui/main.qml:346
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Number of spared main layouts"
 msgstr "Колькасць захаваных асноўных раскладак"
 
-#: ui/main.qml:376
+#: ui/main.qml:378
 #, kde-format
 msgctxt "@label:textbox completes spinbox, x main layouts"
 msgid "main layouts"
 msgstr "асноўныя раскладкі"
 
-#: ui/main.qml:380
+#: ui/main.qml:382
 #, kde-format
 msgctxt "@info"
 msgid "You can have up to 4 main layouts, all other layouts are spare. Spare layouts are not included when cycling through the layouts, but can be accessed through the keyboard indicator applet or by setting a custom shortcut."
 msgstr "Вы можаце мець да 4 асноўных раскладак, усе астатнія раскладкі будуць запаснымі. Запасныя раскладкі не ўключаюцца пры пераключэнні паміж раскладкамі, але да іх можна атрымаць доступ з дапамогай аплета індыкатара клавіятуры або адвольнага спалучэння клавіш."
 
-#: ui/main.qml:385
+#: ui/main.qml:387
 #, kde-format
 msgctxt "@label:group Shortcut to change the keyboard layout. Keep it short"
 msgid "Change layout shortcut:"
 msgstr "Змена спалучэння клавіш раскладкі:"
 
-#: ui/main.qml:409
+#: ui/main.qml:410
 #, kde-format
 msgctxt "@label Change layout shortcut or \"Configure Switching\""
 msgid "or"
 msgstr "або"
+
+#: ui/main_phone.qml:36
+#| msgctxt "@title:window"
+#| msgid "Add Layout"
+msgctxt "@title form header"
+msgid "Model & Layout"
+msgstr ""
+
+#: ui/main_phone.qml:43
+#| msgctxt "@title:group"
+#| msgid "Keyboard model:"
+msgctxt "@label:listbox"
+msgid "Keyboard Model"
+msgstr ""
+
+#: ui/main_phone.qml:72
+#| msgctxt "@title:column"
+#| msgid "Layout"
+msgctxt "@option:check"
+msgid "Custom Layout"
+msgstr "Адвольнае размяшчэнне"
+
+#: ui/main_phone.qml:96
+#| msgctxt "@option:textbox"
+#| msgid "Change layout:"
+msgctxt "@action:button"
+msgid "Change Layout..."
+msgstr ""
+
+#: ui/main_phone.qml:103
+#| msgctxt "@label:checkbox accessible"
+#| msgid "Key repeat"
+msgctxt "@title:group"
+msgid "Key Repeat"
+msgstr ""
+
+#: ui/main_phone.qml:109
+#, kde-format
+msgctxt "@option:check"
+msgid "Customize Repeat"
+msgstr ""
 
 #: ui/Switching.qml:17
 #, kde-format
@@ -418,10 +467,11 @@ msgid "Current window only"
 msgstr "Толькі бягучае акно"
 
 #: ui/Switching.qml:74
-#, kde-format
+#| msgctxt "@label:checkbox"
+#| msgid "Show notification on layout change"
 msgctxt "@label:checkbox"
-msgid "Show notification on layout change"
-msgstr "Пры змене раскладкі паказваць апавяшчэнне"
+msgid "Show OSD popup on layout change"
+msgstr ""
 
 #: ui/Switching.qml:86
 #, kde-format
@@ -429,37 +479,37 @@ msgctxt "@title:group"
 msgid "Shortcuts"
 msgstr "Спалучэнні клавіш"
 
-#: ui/Switching.qml:91 ui/Switching.qml:153
+#: ui/Switching.qml:91 ui/Switching.qml:151
 #, kde-format
 msgctxt "@option:textbox"
 msgid "Change layout:"
 msgstr "Змена раскладкі:"
 
-#: ui/Switching.qml:112
+#: ui/Switching.qml:111
 #, kde-format
 msgctxt "@option:textbox"
 msgid "Switch to last used layout:"
 msgstr "Пераключэнне на апошнюю выкарыстаную раскладку:"
 
-#: ui/Switching.qml:133
+#: ui/Switching.qml:131
 #, kde-format
 msgctxt "@title:group"
 msgid "Legacy Shortcuts"
 msgstr "Састарэлыя спалучэнні клавіш"
 
-#: ui/Switching.qml:141
+#: ui/Switching.qml:139
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Legacy X11 shortcuts allow finer control of modifier-only shortcuts and have slightly better support on X11 in edge cases. They can also be used on Wayland.<nl/><nl/>Setting these shortcuts will take you to the Key bindings page."
 msgstr "Састарэлыя спалучэнні клавіш X11 даюць магчымасць больш дакладна кіраваць спалучэннямі толькі для мадыфікатараў і маюць крыху лепшую падтрымку на X11 у крайніх выпадках. Іх таксама можна выкарыстоўваць на Wayland.<nl/><nl/>Налада гэтых спалучэнняў клавіш прывядзе вас на старонку прывязвання клавіш."
 
-#: ui/Switching.qml:182
+#: ui/Switching.qml:180
 #, kde-format
 msgctxt "@option:textbox"
 msgid "Alternative symbols:"
 msgstr "Альтэрнатыўныя сімвалы:"
 
-#: ui/Switching.qml:208
+#: ui/Switching.qml:206
 #, kde-format
 msgctxt "@info"
 msgid "Modifier keys can be used to type additional characters, symbols, and diacritical marks."
@@ -480,9 +530,9 @@ msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "Няма"
 
-#~ msgctxt "@title:group"
-#~ msgid "Keyboard model:"
-#~ msgstr "Мадэль клавіятуры:"
+#~ msgctxt "@title"
+#~ msgid "Key Bindings"
+#~ msgstr "Прывязванне клавіш"
 
 #~ msgctxt "@option:radio"
 #~ msgid "Turn Off"
@@ -555,10 +605,6 @@ msgstr "Няма"
 #~ msgctxt "@title:column"
 #~ msgid "Label"
 #~ msgstr "Адмеціна"
-
-#~ msgctxt "@title:column"
-#~ msgid "Layout"
-#~ msgstr "Размяшчэнне"
 
 #~ msgctxt "@title:column"
 #~ msgid "Variant"

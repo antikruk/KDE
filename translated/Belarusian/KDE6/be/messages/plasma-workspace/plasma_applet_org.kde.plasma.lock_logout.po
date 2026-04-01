@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-25 00:40+0000\n"
-"PO-Revision-Date: 2025-01-07 21:26\n"
+"POT-Creation-Date: 2026-03-03 00:49+0000\n"
+"PO-Revision-Date: 2026-03-31 20:32\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,124 +19,125 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/plasma-workspace/plasma_applet_org.kde.plasma.lock_logout.po\n"
 "X-Crowdin-File-ID: 19973\n"
 
-#: contents/config/config.qml:13
+#: config.qml:13
 #, kde-format
 msgid "General"
 msgstr "Асноўныя"
 
-#: contents/ui/ConfigGeneral.qml:34
+#: ConfigGeneral.qml:120
 #, kde-format
-msgctxt "Heading for a list of actions (leave, lock, switch user, hibernate, suspend)"
-msgid "Show actions:"
-msgstr "Паказ дзеянняў:"
+msgid "Unavailable"
+msgstr "Недаступна"
 
-#: contents/ui/ConfigGeneral.qml:35
-#, kde-format
-msgid "Log Out"
-msgstr "Выйсці"
-
-#: contents/ui/ConfigGeneral.qml:42
-#, kde-format
-msgctxt "@option:check"
-msgid "Show logout screen"
-msgstr "Паказваць экран выхаду"
-
-#: contents/ui/ConfigGeneral.qml:48
-#, kde-format
-msgid "Shut Down"
-msgstr "Выключыць"
-
-#: contents/ui/ConfigGeneral.qml:54
-#, kde-format
-msgid "Restart"
-msgstr "Перазапусціць"
-
-#: contents/ui/ConfigGeneral.qml:60 contents/ui/data.js:5
+#: data.js:5
 #, kde-format
 msgid "Lock"
 msgstr "Заблакаваць"
 
-#: contents/ui/ConfigGeneral.qml:66
-#, kde-format
-msgid "Switch User"
-msgstr "Пераключыць карыстальніка"
-
-#: contents/ui/ConfigGeneral.qml:72 contents/ui/data.js:53
-#, kde-format
-msgid "Hibernate"
-msgstr "Перавесці ў рэжым сну"
-
-#: contents/ui/ConfigGeneral.qml:78 contents/ui/data.js:46
-#, kde-format
-msgctxt "Suspend to RAM"
-msgid "Sleep"
-msgstr "Прыпыніць у RAM"
-
-#: contents/ui/data.js:6
+#: data.js:6
 #, kde-format
 msgid "Lock the screen"
 msgstr "Заблакаваць экран"
 
-#: contents/ui/data.js:12
-#, kde-format
-msgid "Switch user"
-msgstr "Пераключыць карыстальніка"
+#: data.js:12
+#| msgid "Switch user"
+msgid "Switch user…"
+msgstr ""
 
-#: contents/ui/data.js:13
+#: data.js:13
 #, kde-format
 msgid "Start a parallel session as a different user"
 msgstr "Запусціць паралельны сеанс ад імя іншага карыстальніка"
 
-#: contents/ui/data.js:18
-#, kde-format
-msgid "Shutdown…"
-msgstr "Выключыць…"
+#: data.js:19
+#| msgid "Shut Down"
+msgid "Shut down"
+msgstr "Выключыць"
 
-#: contents/ui/data.js:19
+#: data.js:20
 #, kde-format
 msgid "Turn off the computer"
 msgstr "Выключыць камп'ютар"
 
-#: contents/ui/data.js:25
+#: data.js:26
 #, kde-format
-msgid "Restart…"
-msgstr "Перазапусціць…"
+msgid "Restart"
+msgstr "Перазапусціць"
 
-#: contents/ui/data.js:26
+#: data.js:27
 #, kde-format
 msgid "Reboot the computer"
 msgstr "Перазапусціць камп’ютар"
 
-#: contents/ui/data.js:32
-#, kde-format
-msgid "Logout…"
-msgstr "Выйсці…"
+#: data.js:33
+#| msgid "Log Out"
+msgid "Log out"
+msgstr "Выйсці"
 
-#: contents/ui/data.js:33
+#: data.js:34
 #, kde-format
 msgid "End the session"
 msgstr "Завяршыць сеанс"
 
-#: contents/ui/data.js:39
+#: data.js:40
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show logout screen"
 msgstr "Паказваць экран выхаду"
 
-#: contents/ui/data.js:40
+#: data.js:41
 #, kde-format
 msgid "Log out, turn off, or restart the computer"
 msgstr "Выхад, выключэнне або перазапуск камп'ютара"
 
-#: contents/ui/data.js:47
+#: data.js:47
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "Прыпыніць у RAM"
+
+#: data.js:48
 #, kde-format
 msgid "Sleep (suspend to RAM)"
 msgstr "Прыпыніць у RAM(кэшаванне у аператыўную памяць)"
 
-#: contents/ui/data.js:54
+#: data.js:54
+#, kde-format
+msgid "Hibernate"
+msgstr "Перавесці ў рэжым сну"
+
+#: data.js:55
 #, kde-format
 msgid "Hibernate (suspend to disk)"
 msgstr "Перавесці ў рэжым сну (кэшаванне на цвёрды дыск)"
+
+#~ msgctxt ""
+#~ "Heading for a list of actions (leave, lock, switch user, hibernate, "
+#~ "suspend)"
+#~ msgid "Show actions:"
+#~ msgstr "Паказ дзеянняў:"
+
+#~ msgid "Log Out"
+#~ msgstr "Выйсці"
+
+#~ msgctxt "@option:check"
+#~ msgid "Show logout screen"
+#~ msgstr "Паказваць экран выхаду"
+
+#~ msgid "Shut Down"
+#~ msgstr "Выключыць"
+
+#~ msgid "Switch User"
+#~ msgstr "Пераключыць карыстальніка"
+
+#~ msgid "Shutdown…"
+#~ msgstr "Выключыць…"
+
+#~ msgid "Restart…"
+#~ msgstr "Перазапусціць…"
+
+#~ msgid "Logout…"
+#~ msgstr "Выйсці…"
 
 #~ msgid "Logout"
 #~ msgstr "Выйсці"

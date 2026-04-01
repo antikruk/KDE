@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-16 00:47+0000\n"
-"PO-Revision-Date: 2025-01-18 18:27\n"
+"POT-Creation-Date: 2026-03-21 00:52+0000\n"
+"PO-Revision-Date: 2026-03-31 20:31\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -23,20 +23,20 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/plasma-workspace/plasma-workspace._desktop_.po\n"
 "X-Crowdin-File-ID: 19951\n"
 
-#: applets/devicenotifier/openWithFileManager.desktop:7
-msgctxt "Name"
-msgid "Open with File Manager"
-msgstr "Адкрыць у кіраўніку файлаў"
-
-#: applets/devicenotifier/plugin/devicenotifications.notifyrc:2
+#: applets/devicenotifier/devicenotifications.notifyrc:2
 msgctxt "Name"
 msgid "Device Notifier"
 msgstr "Апавяшчэнне пра прыладу"
 
-#: applets/devicenotifier/plugin/devicenotifications.notifyrc:84
+#: applets/devicenotifier/devicenotifications.notifyrc:83
 msgctxt "Name"
 msgid "Device Status"
 msgstr "Стан прылады"
+
+#: applets/devicenotifier/openWithFileManager.desktop:7
+msgctxt "Name"
+msgid "Open with File Manager"
+msgstr "Адкрыць у кіраўніку файлаў"
 
 #: components/shellprivate/plasmoids.knsrc:2
 msgctxt "Name"
@@ -49,19 +49,18 @@ msgid "Wallpaper Plugins"
 msgstr "Убудовы шпалер"
 
 #: donationmessage/donationmessage.notifyrc:6
-#: donationmessage/donationmessage.notifyrc:153
+#: donationmessage/donationmessage.notifyrc:165
 msgctxt "Name"
 msgid "Request for Donation"
 msgstr "Запыт на ахвяраванне"
 
-#: donationmessage/donationmessage.notifyrc:48
-#: donationmessage/donationmessage.notifyrc:196
+#: donationmessage/donationmessage.notifyrc:53
+#: donationmessage/donationmessage.notifyrc:213
 msgctxt "Comment"
 msgid "Shows a yearly request to donate to KDE"
 msgstr "Паказвае штогадовы запыт на ахвяраванне KDE"
 
-#: donationmessage/donationmessage.notifyrc:89
-#: phonon/platform_kde/phonon.notifyrc:79
+#: donationmessage/donationmessage.notifyrc:100
 msgctxt "Name"
 msgid "Application"
 msgstr "Праграма"
@@ -71,27 +70,27 @@ msgctxt "Comment"
 msgid "KDE Free Space Notifier Daemon"
 msgstr "Дэман KDE для апавяшчэння пра вольнае месца"
 
-#: freespacenotifier/freespacenotifier.notifyrc:73
+#: freespacenotifier/freespacenotifier.notifyrc:72
 msgctxt "Name"
 msgid "Low Disk Space"
 msgstr "Мала месца на дыску"
 
-#: freespacenotifier/freespacenotifier.notifyrc:146
+#: freespacenotifier/freespacenotifier.notifyrc:144
 msgctxt "Name"
 msgid "Warning"
 msgstr "Папярэджанне"
 
-#: freespacenotifier/freespacenotifier.notifyrc:235
+#: freespacenotifier/freespacenotifier.notifyrc:232
 msgctxt "Comment"
 msgid "Used for warning notifications"
 msgstr "Выкарыстоўваецца для апавяшчэння"
 
-#: freespacenotifier/freespacenotifier.notifyrc:313
+#: freespacenotifier/freespacenotifier.notifyrc:309
 msgctxt "Name"
 msgid "Running low on disk space"
 msgstr "Не хапае месца на дыску"
 
-#: freespacenotifier/freespacenotifier.notifyrc:383
+#: freespacenotifier/freespacenotifier.notifyrc:378
 msgctxt "Comment"
 msgid "You are running low on disk space"
 msgstr "У вас не хапае месца на дыску"
@@ -100,6 +99,11 @@ msgstr "У вас не хапае месца на дыску"
 msgctxt "Name"
 msgid "GMenuDBusMenuProxy"
 msgstr "GMenuDBusMenuProxy"
+
+#: interactiveconsole/org.kde.plasma-interactiveconsole.desktop:3
+msgctxt "Name"
+msgid "Desktop Shell Scripting Console"
+msgstr "Кансоль скрыптоў працоўнага асяроддзя"
 
 #: kcms/colors/colorschemes.knsrc:2
 msgctxt "Name"
@@ -111,20 +115,22 @@ msgctxt "GenericName"
 msgid "Color scheme editor"
 msgstr "Рэдактар колеравых схемаў"
 
-#: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:54
+#: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:56
 msgctxt "Name"
 msgid "KColorSchemeEditor"
 msgstr "KColorSchemeEditor"
 
-#: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:106
+#: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:111
 msgctxt "Comment"
 msgid "Plasma color scheme editor"
 msgstr "Рэдактар колеравых схемаў Plasma"
 
 #: kcms/cursortheme/xcursor/xcursor.knsrc:2
+#| msgctxt "Comment"
+#| msgid "Poster Printing"
 msgctxt "Name"
-msgid "Cursors"
-msgstr "Курсоры"
+msgid "Pointers"
+msgstr "Паказальнікі"
 
 #: kcms/desktoptheme/plasma-themes.knsrc:2
 msgctxt "Name"
@@ -146,7 +152,7 @@ msgctxt "Name"
 msgid "KFontInst"
 msgstr "KFontInst"
 
-#: kcms/kfontinst/apps/org.kde.kfontinst.desktop:50
+#: kcms/kfontinst/apps/org.kde.kfontinst.desktop:54
 msgctxt "GenericName"
 msgid "Font Installer"
 msgstr "Сродак усталявання шрыфтоў"
@@ -156,7 +162,7 @@ msgctxt "Name"
 msgid "KFontView"
 msgstr "KFontView"
 
-#: kcms/kfontinst/apps/org.kde.kfontview.desktop:58
+#: kcms/kfontinst/apps/org.kde.kfontview.desktop:61
 msgctxt "GenericName"
 msgid "Font Viewer"
 msgstr "Сродак прагляду шрыфту"
@@ -166,12 +172,12 @@ msgctxt "Name"
 msgid "Font Installer"
 msgstr "Сродак усталявання шрыфтоў"
 
-#: kcms/kfontinst/dbus/fontinst.actions:57
+#: kcms/kfontinst/dbus/fontinst.actions:60
 msgctxt "Name"
 msgid "Manage system-wide fonts."
 msgstr "Кіраванне агульнасістэмнымі шрыфтамі."
 
-#: kcms/kfontinst/dbus/fontinst.actions:109
+#: kcms/kfontinst/dbus/fontinst.actions:114
 msgctxt "Description"
 msgid "Modifying the system-wide font configuration requires privileges."
 msgstr "Для змены канфігурацыі агульнасістэмных шрыфтоў патрэбныя правы доступу."
@@ -197,7 +203,7 @@ msgctxt "Name"
 msgid "Trash"
 msgstr "Сметніца"
 
-#: kioworkers/desktop/./directory.trash:61
+#: kioworkers/desktop/./directory.trash:64
 msgctxt "Comment"
 msgid "Contains removed files"
 msgstr "Змяшчае выдаленыя файлы"
@@ -222,10 +228,15 @@ msgctxt "Name"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: krunner/org.kde.krunner.desktop.cmake:75
+#: krunner/org.kde.krunner.desktop.cmake:77
 msgctxt "Name"
 msgid "Run command on clipboard contents"
 msgstr "Выкананне каманды са змесцівам буфера абмену"
+
+#: ksecretprompter/src/org.kde.secretprompter.desktop:7
+msgctxt "Name"
+msgid "Secret Prompter"
+msgstr ""
 
 #: libnotificationmanager/libnotificationmanager.notifyrc:5
 #| msgctxt "Name"
@@ -234,7 +245,7 @@ msgctxt "Name"
 msgid "Notification Manager"
 msgstr ""
 
-#: libnotificationmanager/libnotificationmanager.notifyrc:31
+#: libnotificationmanager/libnotificationmanager.notifyrc:50
 #| msgctxt "Comment"
 #| msgid "Used for warning notifications"
 msgctxt "Name"
@@ -246,10 +257,10 @@ msgctxt "Name"
 msgid "Plasma (Wayland)"
 msgstr "Plasma (Wayland)"
 
-#: login-sessions/plasmawayland.desktop.cmake:59
-#: login-sessions/plasmawayland-dev.desktop.cmake:54
-#: login-sessions/plasmax11.desktop.cmake:58
-#: login-sessions/plasmax11-dev.desktop.cmake:55
+#: login-sessions/plasmawayland.desktop.cmake:62
+#: login-sessions/plasmawayland-dev.desktop.cmake:57
+#: login-sessions/plasmax11.desktop.cmake:61
+#: login-sessions/plasmax11-dev.desktop.cmake:58
 msgctxt "Comment"
 msgid "Plasma by KDE"
 msgstr "Plasma KDE"
@@ -440,7 +451,7 @@ msgctxt "Name"
 msgid "Accessibility"
 msgstr "Адмысловыя магчымасці"
 
-#: menu/desktop/kf5-utilities-accessibility.directory:99
+#: menu/desktop/kf5-utilities-accessibility.directory:98
 msgctxt "Comment"
 msgid "Accessibility"
 msgstr "Адмысловыя магчымасці"
@@ -450,7 +461,7 @@ msgctxt "Name"
 msgid "Desktop"
 msgstr "Працоўны стол"
 
-#: menu/desktop/kf5-utilities-desktop.directory:67
+#: menu/desktop/kf5-utilities-desktop.directory:69
 msgctxt "Comment"
 msgid "Desktop"
 msgstr "Працоўны стол"
@@ -460,7 +471,7 @@ msgctxt "Name"
 msgid "Utilities"
 msgstr "Утыліты"
 
-#: menu/desktop/kf5-utilities.directory:67
+#: menu/desktop/kf5-utilities.directory:68
 msgctxt "Comment"
 msgid "Utilities"
 msgstr "Утыліты"
@@ -470,7 +481,7 @@ msgctxt "Name"
 msgid "File"
 msgstr "Файл"
 
-#: menu/desktop/kf5-utilities-file.directory:68
+#: menu/desktop/kf5-utilities-file.directory:70
 msgctxt "Comment"
 msgid "File"
 msgstr "Файл"
@@ -480,7 +491,7 @@ msgctxt "Name"
 msgid "Peripherals"
 msgstr "Перыферыя"
 
-#: menu/desktop/kf5-utilities-peripherals.directory:95
+#: menu/desktop/kf5-utilities-peripherals.directory:94
 msgctxt "Comment"
 msgid "Peripherals"
 msgstr "Перыферыя"
@@ -490,7 +501,7 @@ msgctxt "Name"
 msgid "PIM"
 msgstr "PIM"
 
-#: menu/desktop/kf5-utilities-pim.directory:91
+#: menu/desktop/kf5-utilities-pim.directory:90
 msgctxt "Comment"
 msgid "PIM"
 msgstr "PIM"
@@ -500,7 +511,7 @@ msgctxt "Name"
 msgid "X-Utilities"
 msgstr "Утыліты X-сервера"
 
-#: menu/desktop/kf5-utilities-xutils.directory:66
+#: menu/desktop/kf5-utilities-xutils.directory:67
 msgctxt "Comment"
 msgid "X Window Utilities"
 msgstr "Утыліты X Window"
@@ -510,60 +521,48 @@ msgctxt "Name"
 msgid "Linux Kernel"
 msgstr "Ядро Linux"
 
-#: oom-notifier/oom-notifier.notifyrc:41
+#: oom-notifier/oom-notifier.notifyrc:51
 msgctxt "Comment"
 msgid "The core of the operating system"
 msgstr "Ядро аперацыйнай сістэмы"
 
-#: oom-notifier/oom-notifier.notifyrc:81
+#: oom-notifier/oom-notifier.notifyrc:100
 msgctxt "Name"
 msgid "Catastrophe"
 msgstr "Катастрофа"
 
-#: oom-notifier/oom-notifier.notifyrc:124
+#: oom-notifier/oom-notifier.notifyrc:149
 msgctxt "Comment"
 msgid "A very serious error has occurred"
 msgstr "Адбылася вельмі сур'ёзная памылка"
-
-#: phonon/platform_kde/phonon.notifyrc:3
-msgctxt "Comment"
-msgid "Multimedia System"
-msgstr "Мультымедыйная сістэма"
-
-#: phonon/platform_kde/phonon.notifyrc:144
-msgctxt "Name"
-msgid "Audio Output Device Changed"
-msgstr "Прылада для вываду гуку змененая"
-
-#: phonon/platform_kde/phonon.notifyrc:214
-msgctxt "Comment"
-msgid "Notification when audio output device has automatically changed"
-msgstr "Апавяшчэнне пры аўтаматычнай змене прылады вываду гуку"
 
 #: plasma-windowed/org.kde.plasmawindowed.desktop.cmake:2
 msgctxt "Name"
 msgid "Plasma Windowed"
 msgstr "Плазмоіды як праграмы"
 
-#: plasma-windowed/org.kde.plasmawindowed.desktop.cmake:60
+#: plasma-windowed/org.kde.plasmawindowed.desktop.cmake:61
 msgctxt "Comment"
 msgid "Run Plasmoids as simple applications"
 msgstr "Запуск плазмоідаў як простых праграм"
 
+#: runners/baloo/org.kde.baloorunner.desktop:5
 #: runners/baloo/plasma-runner-baloosearch.desktop:2
 msgctxt "Name"
 msgid "File Search"
 msgstr "Пошук файлаў"
 
-#: runners/baloo/plasma-runner-baloosearch.desktop:47
+#: runners/baloo/plasma-runner-baloosearch.desktop:51
 msgctxt "Comment"
 msgid "Searches for files by name and content"
 msgstr "Пошук файлаў па назве і змесціву"
 
 #: shell/org.kde.plasmashell.desktop.cmake:4
+#| msgctxt "Name"
+#| msgid "Plasma (X11)"
 msgctxt "Name"
-msgid "Plasma Desktop Workspace"
-msgstr "Працоўныя прасторы Plasma"
+msgid "Plasma"
+msgstr "Plasma"
 
 #: startkde/session-restore/org.kde.plasma-fallback-session-restore.desktop.in:3
 msgctxt "Name"
@@ -580,7 +579,7 @@ msgctxt "Name"
 msgid "CDE"
 msgstr "CDE"
 
-#: themes/qtcde.themerc:94
+#: themes/qtcde.themerc:93
 msgctxt "Comment"
 msgid "Built-in unthemed CDE style"
 msgstr "Убудаваны стыль CDE"
@@ -590,7 +589,7 @@ msgctxt "Name"
 msgid "Cleanlooks"
 msgstr "Cleanlooks"
 
-#: themes/qtcleanlooks.themerc:74
+#: themes/qtcleanlooks.themerc:73
 msgctxt "Comment"
 msgid "Built-in unthemed style similar to Clearlooks from GNOME"
 msgstr "Убудаваны стыль, падобны на Clearlooks з GNOME"
@@ -610,7 +609,7 @@ msgctxt "Name"
 msgid "Motif"
 msgstr "Motif"
 
-#: themes/qtmotif.themerc:89
+#: themes/qtmotif.themerc:88
 msgctxt "Comment"
 msgid "Built-in unthemed Motif style"
 msgstr "Убудаваны стыль Motif"
@@ -620,7 +619,7 @@ msgctxt "Name"
 msgid "Plastique"
 msgstr "Plastique"
 
-#: themes/qtplastique.themerc:75
+#: themes/qtplastique.themerc:74
 msgctxt "Comment"
 msgid "Built-in unthemed style similar to Plastik from KDE3"
 msgstr "Убудаваны стыль, падобны на Plastik з KDE3"
@@ -630,7 +629,7 @@ msgctxt "Name"
 msgid "MS Windows 9x"
 msgstr "MS Windows 9x"
 
-#: themes/qtwindows.themerc:91
+#: themes/qtwindows.themerc:90
 msgctxt "Comment"
 msgid "Built-in unthemed Windows 9x style"
 msgstr "Убудаваны стыль Windows 9x"
@@ -644,6 +643,26 @@ msgstr "Шпалеры"
 msgctxt "Name"
 msgid "XembedSniProxy"
 msgstr "XembedSniProxy"
+
+#~ msgctxt "Name"
+#~ msgid "Cursors"
+#~ msgstr "Курсоры"
+
+#~ msgctxt "Name"
+#~ msgid "Plasma Desktop Workspace"
+#~ msgstr "Працоўныя прасторы Plasma"
+
+#~ msgctxt "Comment"
+#~ msgid "Multimedia System"
+#~ msgstr "Мультымедыйная сістэма"
+
+#~ msgctxt "Name"
+#~ msgid "Audio Output Device Changed"
+#~ msgstr "Прылада для вываду гуку змененая"
+
+#~ msgctxt "Comment"
+#~ msgid "Notification when audio output device has automatically changed"
+#~ msgstr "Апавяшчэнне пры аўтаматычнай змене прылады вываду гуку"
 
 #~ msgctxt "Description"
 #~ msgid "Jpeg-Image"
@@ -1157,13 +1176,6 @@ msgstr "XembedSniProxy"
 #~ msgctxt "Name"
 #~ msgid "Keyboard and Mouse State"
 #~ msgstr "Клавіятура і мыш"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Poster Printing"
-#~ msgctxt "Name"
-#~ msgid "Pointer Position"
-#~ msgstr "Друк плакатаў"
 
 #, fuzzy
 #~| msgctxt "Name"

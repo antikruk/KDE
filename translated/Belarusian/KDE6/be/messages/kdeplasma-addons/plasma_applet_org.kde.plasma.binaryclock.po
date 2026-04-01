@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-01 01:38+0000\n"
-"PO-Revision-Date: 2025-01-07 21:17\n"
+"POT-Creation-Date: 2025-11-17 11:53+0000\n"
+"PO-Revision-Date: 2026-03-26 19:43\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -19,31 +19,36 @@ msgstr ""
 "X-Crowdin-File: /main/KDE6/be/messages/kdeplasma-addons/plasma_applet_org.kde.plasma.binaryclock.po\n"
 "X-Crowdin-File-ID: 19007\n"
 
-#: package/contents/config/config.qml:17
+#: config.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Appearance"
 msgstr "Выгляд"
 
-#: package/contents/ui/configGeneral.qml:29
-#: package/contents/ui/configGeneral.qml:59
+#: configGeneral.qml:29
+#| msgid "Show grid"
+msgctxt "@title:group The things being potentially shown are lights and seconds"
+msgid "Show:"
+msgstr "Паказ элементаў:"
+
+#: configGeneral.qml:30 configGeneral.qml:60
 #| msgid "Show the grid"
 msgctxt "@option:check"
 msgid "Inactive lights"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:34
+#: configGeneral.qml:35
 #, kde-format
 msgctxt "@option:check"
 msgid "Seconds"
 msgstr "Секунд"
 
-#: package/contents/ui/configGeneral.qml:42
+#: configGeneral.qml:43
 #, kde-format
 msgid "Use custom color for:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:46
+#: configGeneral.qml:47
 #| msgid "Show the grid"
 msgctxt "@option:check"
 msgid "Active lights"
@@ -59,11 +64,6 @@ msgstr ""
 #~ msgctxt "@option:check"
 #~ msgid "Display seconds"
 #~ msgstr "Паказваць секунды"
-
-#, fuzzy
-#~| msgid "Show grid"
-#~ msgid "Show"
-#~ msgstr "Паказаць сетку"
 
 #~ msgid "Show the grid"
 #~ msgstr "Паказаць сетку"
