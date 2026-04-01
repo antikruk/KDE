@@ -25,19 +25,21 @@ Glossary files are stored in `glossaries/` directory.
 
 ## Workflow
 
-1. **File Analysis:** Read the input `.po` file.
-2. **Glossary Lookup:** Check all terms against glossary files.
-3. **TM Lookup:** For each `msgid` string, search for a match in the translation memory files located in `KDE/tm's/`.
-4. **Translation Strategy:**
+1. **File Copy:** Copy the input `.po` file to `KDE/work_dir/` directory.
+2. **Complete File Analysis:** Read the entire copied `.po` file from `KDE/work_dir/` to identify all empty `msgstr` entries that need translation.
+3. **Glossary Lookup:** Check all terms against glossary files.
+4. **TM Lookup:** For each `msgid` string, search for a match in the translation memory files located in `KDE/tm's/`.
+5. **Translation Strategy:**
    - If a term is in the glossary, use the glossary translation.
    - If an exact match is found in the TM, use it.
    - If no match is found, perform a high-quality translation into Belarusian, adhering to KDE context and established terminology.
-5. **Formatting Preservation:**
+6. **Formatting Preservation:**
    - Retain all tags, escape sequences, and special characters.
    - Correctly handle plural forms (Belarusian uses three plural forms).
-6. **Output:** Write the translated file to `KDE/work_dir/` while maintaining the original filename.
+7. **Output:** The translated file is already in `KDE/work_dir/` with the original filename maintained.
 
 ## Technical Requirements
 
 - Use UTF-8 encoding.
 - Do not modify file metadata (Headers) except for fields related to translation date and language, if necessary.
+- **Fuzzy Translation Handling:** When encountering fuzzy translations, review and correct them to match the current context, removing fuzzy markers when appropriate.
