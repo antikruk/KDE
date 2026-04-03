@@ -2,4 +2,4 @@
 
 ### What NOT to Do
 
-1. **NEVER use "«»"** 
+1. **NEVER use «»** 
