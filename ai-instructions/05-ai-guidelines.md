@@ -1,24 +1,149 @@
-## AI Instructions
+# 05 — AI Translation Guidelines
 
-### Translation Approach
-- **Priority 1:** Use exact matches from glossary files in `sources/linguistic/glossaries/`
-- **Priority 2:** Use exact matches from translation memory in `sources/linguistic/tm's/`
-- **Priority 3:** Perform manual translation with consistency
+---
 
-### Quality Standards
-- Maintain consistency with established KDE Belarusian terminology
-- Use proper Belarusian grammar and syntax
-- Preserve all formatting, placeholders (%1, %2, etc.), and XML/HTML tags
-- Handle plural forms correctly (Belarusian: n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3)
+## Translation Priority (Reminder)
 
-### Fuzzy Entry Processing
-- Remove all `#, fuzzy` markers
-- Remove all `#| msgctxt` and `#| msgid` reference lines
-- Preserve `#, kde-format` and other formatting markers
-- Update translations to match current context
+```
+Glossary (TBX)  >  Translation Memory (TMX)  >  Manual translation
+```
 
-### File Management
-- All output files must be in `work_dir/` directory
-- Maintain original filenames
-- Use UTF-8 encoding
-- Do not modify header metadata except translation date/language fields
+Never skip the glossary and TM lookup steps, even for short strings.
+
+---
+
+## Manual Translation Standards
+
+Apply when no glossary or TM match is available.
+
+### Language Quality
+
+- Write natural, fluent Belarusian — not word-for-word English.
+- Follow standard Belarusian grammar: case agreement, verb aspect, word order.
+- Use the **Taraškievica-neutral** literary norm unless the project specifies otherwise.
+- Avoid calques (direct structural borrowings from Russian or English) when a natural Belarusian equivalent exists.
+
+### Register and Style
+
+- Match the register of the source: formal UI labels → neutral Belarusian; error messages → direct but polite; tooltips → concise.
+- Do not add words not present in the source (no padding, no explanations).
+- Do not omit words that carry meaning in the source.
+- Use **second person imperative** for button and action labels: `Дадаць`, `Захаваць`, `Выдаліць`, `Абраць`.
+- Use **infinitive** for menu items when the source uses infinitive.
+
+### KDE-Specific Conventions
+
+| Context (`msgctxt`) | Convention |
+|---------------------|------------|
+| `@action:button` | Imperative verb: `Дадаць`, `Захаваць` |
+| `@title:window` | Noun phrase or infinitive: `Наладжванне прынтара` |
+| `@info:status` | Full sentence with punctuation |
+| `@info:tooltip` | Full sentence, concise |
+| `@label:textbox` | Noun + colon: `Адрас:` |
+| `@option:check` | Verb phrase: `Дазволіць адлеглае адміністраванне` |
+| `@info:usagetip` | Full sentence, instructional |
+
+### Punctuation
+
+- **Ellipsis**: use the Unicode character `…` (U+2026), not three dots `...`. Preserve it exactly where it appears in `msgid`.
+- **Colon**: preserve trailing colons on labels.
+- **Question marks and exclamation marks**: preserve from `msgid`.
+- **Em dash**: use `—` (U+2014) for Belarusian em dash constructions; do not use hyphen `-` as a dash.
+
+---
+
+## Handling Specific String Types
+
+### Empty or Trivially Untranslatable Strings
+
+Some `msgid` values should be left unchanged in `msgstr`:
+
+```po
+msgid "new_queue"
+msgstr "new_queue"
+
+msgid "new_group"
+msgstr "new_group"
+```
+
+These are internal identifiers, not UI strings. Leave them as-is.
+
+### Strings With Only Placeholders or Tags
+
+If `msgid` contains nothing but a placeholder or tag, copy it unchanged:
+
+```po
+msgid "%1"
+msgstr "%1"
+```
+
+### Trademarked Names and Product Names
+
+Do not translate:
+- `CUPS`, `IPP`, `LPD`, `SMB`, `PackageKit`, `PostScript`, `PPD`
+- Brand names: `Windows`, `JetDirect`
+- Protocol acronyms
+
+Translate surrounding text naturally.
+
+### Version Strings, URLs, Email Addresses
+
+Do not translate. Copy to `msgstr` unchanged.
+
+### Error Messages
+
+Translate fully. Use natural Belarusian sentence structure. Preserve all placeholders.
+
+```po
+msgid "Failed to configure printer: "
+msgstr "Не ўдалося наладзіць прынтар: "
+```
+
+Note the trailing space and colon — preserve them exactly.
+
+---
+
+## Consistency Requirements
+
+- Use the same Belarusian word for the same English term throughout **all** entries in a file and across files.
+- If you translate "printer" as `прынтар` in one entry, use `прынтар` everywhere.
+- Before finalising a manual translation, check all other entries in the current file for the same source term.
+
+---
+
+## Belarusian Grammar Notes
+
+### Noun Cases in UI
+
+| Context | Case | Example |
+|---------|------|---------|
+| Subject of sentence | Nominative | `Прынтар не знойдзены` |
+| Direct object | Accusative | `Выдаліць прынтар` |
+| After numerals 2–4 | Genitive singular | `2 прынтары` |
+| After numerals 5+ | Genitive plural | `5 прынтараў` |
+| Possession / "of" | Genitive | `Налады прынтара` |
+
+### Verb Aspect
+
+- **Imperative buttons**: use **perfective** aspect for one-time actions: `Дадаць`, `Захаваць`, `Выдаліць`, `Скасаваць`.
+- **Ongoing actions**: use **imperfective**: `Усталёўванне…`, `Наладжванне…`.
+
+### Capitalisation
+
+- Window titles: capitalise only the first word and proper nouns.
+- Button labels: capitalise only the first word.
+- Menu items: capitalise only the first word.
+- Do not use ALL CAPS unless the source does.
+
+---
+
+## Self-Review Before Finalising
+
+For each translated entry, verify:
+
+1. Does the translation convey the same meaning as `msgid`?
+2. Is the Belarusian grammatically correct?
+3. Are all placeholders and tags preserved?
+4. Is the register appropriate for the `msgctxt`?
+5. Is the terminology consistent with glossary and earlier entries?
+6. Are there no `«»` quotation marks, fuzzy markers, or `#|` lines?
