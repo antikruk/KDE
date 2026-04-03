@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-26 00:41+0000\n"
-"PO-Revision-Date: 2026-04-01 12:22\n"
+"POT-Creation-Date: 2026-04-03 00:40+0000\n"
+"PO-Revision-Date: 2026-04-03 17:24\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -267,7 +267,7 @@ msgstr "Змяніць тэг твару"
 
 #: core/app/dragdrop/itemdragdrop.cpp:763
 #: core/app/dragdrop/itemdragdrop.cpp:814
-#: core/app/views/preview/itempreviewview.cpp:990
+#: core/app/views/preview/itempreviewview.cpp:1036
 #, kde-format
 msgid "&Cancel"
 msgstr "&Скасаваць"
@@ -278,7 +278,7 @@ msgid "Assign Tags to &Selected Items"
 msgstr "Прызначыць тэгі &абраным элементам"
 
 #: core/app/dragdrop/itemdragdrop.cpp:807
-#: core/app/views/preview/itempreviewview.cpp:988
+#: core/app/views/preview/itempreviewview.cpp:1034
 #, kde-format
 msgid "Assign Tags to &This Item"
 msgstr "Прызначыць тэгі &гэтаму элементу"
@@ -505,14 +505,14 @@ msgid "This item has geolocation information."
 msgstr "У гэтага элемента ёсць звесткі геалакацыі."
 
 #: core/app/items/overlays/itemfullscreenoverlay.cpp:49
-#: core/app/views/preview/itempreviewview.cpp:268
+#: core/app/views/preview/itempreviewview.cpp:287
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show Fullscreen"
 msgstr "Паказаць на ўвесь экран"
 
 #: core/app/items/overlays/itemrotationoverlay.cpp:58
-#: core/app/views/preview/itempreviewview.cpp:189
+#: core/app/views/preview/itempreviewview.cpp:198
 #: core/utilities/import/items/importoverlays.cpp:434
 #, kde-format
 msgctxt "@info:tooltip"
@@ -520,7 +520,7 @@ msgid "Rotate Left"
 msgstr "Павярнуць улева"
 
 #: core/app/items/overlays/itemrotationoverlay.cpp:62
-#: core/app/views/preview/itempreviewview.cpp:191
+#: core/app/views/preview/itempreviewview.cpp:200
 #: core/utilities/import/items/importoverlays.cpp:438
 #, kde-format
 msgctxt "@info:tooltip"
@@ -2823,97 +2823,103 @@ msgid "Donate: "
 msgstr ""
 
 #: core/app/views/preview/itempreviewvideo.cpp:98
-#: core/app/views/preview/itempreviewview.cpp:264
+#: core/app/views/preview/itempreviewview.cpp:283
 #| msgid "Crop Information"
 msgctxt "@info:tooltip"
 msgid "Show OSD Information"
 msgstr ""
 
-#: core/app/views/preview/itempreviewview.cpp:185
+#: core/app/views/preview/itempreviewview.cpp:194
 #| msgctxt "go to previous image"
 #| msgid "Back"
 msgctxt "@info:tooltip Go to previous image"
 msgid "Back"
 msgstr "Назад"
 
-#: core/app/views/preview/itempreviewview.cpp:187
+#: core/app/views/preview/itempreviewview.cpp:196
 #| msgctxt "@action: setup"
 #| msgid "Forward"
 msgctxt "@info:tooltip Go to next image"
 msgid "Forward"
 msgstr "Перанакіраваць"
 
-#: core/app/views/preview/itempreviewview.cpp:198
+#: core/app/views/preview/itempreviewview.cpp:207
 #| msgid "Add a Face Tag"
 msgctxt "@info:tooltip"
 msgid "Add a Face Tag"
 msgstr "Дадаць тэг твару"
 
-#: core/app/views/preview/itempreviewview.cpp:203
+#: core/app/views/preview/itempreviewview.cpp:212
 #| msgid "Clear all faces on this image"
 msgctxt "@info:tooltip"
 msgid "Clear all faces on this image"
 msgstr "Прыбраць усе твары з гэтай выявы"
 
-#: core/app/views/preview/itempreviewview.cpp:206
+#: core/app/views/preview/itempreviewview.cpp:215
 #| msgid "Mark all unconfirmed faces as ignored"
 msgctxt "@info:tooltip"
 msgid "Mark all unconfirmed faces as ignored"
 msgstr "Пазначаць усе непацверджаныя твары як праігнараваныя"
 
-#: core/app/views/preview/itempreviewview.cpp:213
+#: core/app/views/preview/itempreviewview.cpp:222
 #| msgid "Show Face Tags"
 msgctxt "@info:tooltip"
 msgid "Show Face Tags"
 msgstr "Паказваць тэгі твараў"
 
-#: core/app/views/preview/itempreviewview.cpp:218
+#: core/app/views/preview/itempreviewview.cpp:227
 #| msgid "Add a focus point"
 msgctxt "@info:tooltip"
 msgid "Add a focus point"
 msgstr "Дадаць пункт факусавання"
 
-#: core/app/views/preview/itempreviewview.cpp:220
+#: core/app/views/preview/itempreviewview.cpp:229
 #| msgid "Show focus points"
 msgctxt "@info:tooltip"
 msgid "Show focus points"
 msgstr "Паказаць пункты факусавання"
 
-#: core/app/views/preview/itempreviewview.cpp:228
+#: core/app/views/preview/itempreviewview.cpp:237
+#| msgid "Profile Error"
+msgctxt "@info:tooltip"
+msgid "Play Motion Photo"
+msgstr ""
+
+#: core/app/views/preview/itempreviewview.cpp:247
 #| msgid "Show numbers"
 msgctxt "@info:tooltip"
 msgid "Show Magnifier"
 msgstr ""
 
-#: core/app/views/preview/itempreviewview.cpp:233
+#: core/app/views/preview/itempreviewview.cpp:252
 #| msgctxt "@action"
 #| msgid "Zoom to Fit"
 msgctxt "@info:tooltip"
 msgid "Zoom Factor"
 msgstr ""
 
-#: core/app/views/preview/itempreviewview.cpp:256
+#: core/app/views/preview/itempreviewview.cpp:275
 #| msgctxt "@info: xslt param"
 #| msgid "Exposure Index"
 msgctxt "@info:tooltip"
 msgid "Under-Exposure Indicator"
 msgstr ""
 
-#: core/app/views/preview/itempreviewview.cpp:260
+#: core/app/views/preview/itempreviewview.cpp:279
 #| msgctxt "@info: xslt param"
 #| msgid "Exposure Index"
 msgctxt "@info:tooltip"
 msgid "Over-Exposure Indicator"
 msgstr ""
 
-#: core/app/views/preview/itempreviewview.cpp:678
+#: core/app/views/preview/itempreviewview.cpp:724
 #: core/app/views/stack/itemiconview_views.cpp:325
 #| msgid "Faces"
 msgctxt "@action: face workflow"
 msgid "Faces"
 msgstr "Твары"
 
-#: core/app/views/preview/itempreviewview.cpp:874
+#: core/app/views/preview/itempreviewview.cpp:920
 #, kde-format
 msgid "Show Magnifier (x%1)"
 msgstr ""
@@ -3624,7 +3630,7 @@ msgstr ""
 
 #: core/app/views/stack/welcomepageview_features.cpp:90
 #| msgid "Update internal RAW engine to last Libraw snapshot 2023-11-21."
-msgid "Update internal RAW engine to last Libraw snapshot 2026-03-19."
+msgid "Update internal RAW engine to last Libraw snapshot 2026-03-26."
 msgstr ""
 
 #: core/app/views/stack/welcomepageview_features.cpp:91
@@ -10511,7 +10517,7 @@ msgid "Saving changes -"
 msgstr "Захаванне зменаў -"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:975
-#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:232
+#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:231
 #: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:382
 #: core/dplugins/generic/webservices/box/boxtalker.cpp:372
 #: core/dplugins/generic/webservices/box/boxwindow.cpp:239
@@ -19206,8 +19212,8 @@ msgid "Soundtrack:"
 msgstr "Мелодыя:"
 
 #: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:178
-#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:221
-#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:242
+#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:220
+#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:241
 #, kde-format
 msgctxt "artist - title"
 msgid "%1 - %2"
@@ -19218,12 +19224,12 @@ msgstr "%1 - %2"
 msgid "No detail available"
 msgstr ""
 
-#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:233
+#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:232
 #, kde-format
 msgid "%1 may not be playable."
 msgstr ""
 
-#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:241
+#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:240
 #, kde-format
 msgid "This file may not be playable."
 msgstr ""
@@ -24089,7 +24095,7 @@ msgstr "Гэта крывая для наладжвання агульнай а�
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:228
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:280
 #: core/libs/tags/widgets/tageditdlg.cpp:185
-#: core/utilities/searchwindow/searchview.cpp:512
+#: core/utilities/searchwindow/searchview.cpp:529
 #, kde-format
 msgid "Reset"
 msgstr "Скінуць"
@@ -34734,7 +34740,7 @@ msgstr " кадраў/с"
 #: core/libs/properties/itemselectionpropertiestab.cpp:108
 #| msgctxt "@title: item properties"
 #| msgid "Item Properties"
-msgid "<b>Selected Item Properties</b>"
+msgid "<b>Selected Items Properties</b>"
 msgstr ""
 
 #: core/libs/properties/itemselectionpropertiestab.cpp:111
@@ -37920,142 +37926,142 @@ msgstr ""
 msgid "An error has occurred while playing: %1"
 msgstr ""
 
-#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:190
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:202
+#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:197
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:207
 #, kde-format
 msgid "An error has occurred with the media player..."
 msgstr ""
 
-#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:191
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:203
+#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:198
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:208
 #| msgctxt "@info: media loading"
 #| msgid "No media"
 msgid "End of media."
 msgstr ""
 
-#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:203
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:296
+#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:210
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:301
 #, kde-format
 msgctxt "go to previous image"
 msgid "Back"
 msgstr "Назад"
 
-#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:206
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:299
+#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:213
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:304
 #, kde-format
 msgctxt "go to next image"
 msgid "Forward"
 msgstr "Наперад"
 
-#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:209
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:305
+#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:216
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:310
 #, kde-format
 msgctxt "pause/play video"
 msgid "Pause/Play"
 msgstr "Прыпыніць / Працягнуць"
 
-#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:212
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:311
+#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:219
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:316
 #, kde-format
 msgctxt "capture video frame"
 msgid "Capture"
 msgstr "Захоп"
 
-#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:215
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:314
+#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:222
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:319
 #| msgid "Rotate Left"
 msgctxt "rotate video in counterclockwize"
 msgid "Rotate Left"
 msgstr "Павярнуць улева"
 
-#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:218
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:317
+#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:225
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:322
 #| msgid "Rotate Right"
 msgctxt "rotate video in clockwize"
 msgid "Rotate Right"
 msgstr "Павярнуць управа"
 
-#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:253
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:415
+#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:260
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:420
 #, kde-format
 msgid "Toggle playing in a loop"
 msgstr ""
 
-#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:801
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:655
+#: core/libs/video/player/QtAVPlayer/mediaplayerview.cpp:910
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:746
 #| msgid "Error"
 msgid "%1\n\n"
 "Error: \"%2\""
 msgstr ""
 
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:302
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:307
 #, kde-format
 msgctxt "video frame backward"
 msgid "Frame Backward"
 msgstr ""
 
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:308
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:313
 #| msgctxt "@action: setup"
 #| msgid "Forward"
 msgctxt "video frame forward"
 msgid "Frame Forward"
 msgstr ""
 
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:321
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:326
 #, kde-format
 msgctxt "@info"
 msgid "Change video playback rate"
 msgstr ""
 
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:326
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:331
 #| msgctxt "@info: download status"
 #| msgid "Rate:"
 msgid "Rate"
 msgstr "Каэфіцыент сціскання"
 
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:330
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:335
 #, kde-format
 msgctxt "video play rate"
 msgid "0.5x"
 msgstr ""
 
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:333
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:338
 #, kde-format
 msgctxt "video play rate"
 msgid "1.0x"
 msgstr ""
 
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:336
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:341
 #, kde-format
 msgctxt "video play rate"
 msgid "1.5x"
 msgstr "1.5x"
 
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:339
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:344
 #, kde-format
 msgctxt "video play rate"
 msgid "2.0x"
 msgstr ""
 
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:342
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:347
 #, kde-format
 msgctxt "video play rate"
 msgid "2.5x"
 msgstr ""
 
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:345
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:350
 #, kde-format
 msgctxt "video play rate"
 msgid "3.0x"
 msgstr ""
 
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:348
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:353
 #, kde-format
 msgctxt "video play rate"
 msgid "4.0x"
 msgstr ""
 
-#: core/libs/video/player/qtmm/mediaplayerview.cpp:351
+#: core/libs/video/player/qtmm/mediaplayerview.cpp:356
 #, kde-format
 msgctxt "video play rate"
 msgid "5.0x"
@@ -39180,37 +39186,37 @@ msgstr ""
 msgid "Database Statistics"
 msgstr "Статыстыка базы даных"
 
-#: core/libs/widgets/mainview/dxmlguiwindow_actions.cpp:144
+#: core/libs/widgets/mainview/dxmlguiwindow_actions.cpp:149
 #, kde-format
 msgid "Toggle Left Side-bar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow_actions.cpp:149
+#: core/libs/widgets/mainview/dxmlguiwindow_actions.cpp:154
 #, kde-format
 msgid "Toggle Right Side-bar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow_actions.cpp:154
+#: core/libs/widgets/mainview/dxmlguiwindow_actions.cpp:159
 #, kde-format
 msgid "Previous Left Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow_actions.cpp:159
+#: core/libs/widgets/mainview/dxmlguiwindow_actions.cpp:164
 #, kde-format
 msgid "Next Left Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow_actions.cpp:164
+#: core/libs/widgets/mainview/dxmlguiwindow_actions.cpp:169
 #, kde-format
 msgid "Previous Right Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow_actions.cpp:169
+#: core/libs/widgets/mainview/dxmlguiwindow_actions.cpp:174
 #, kde-format
 msgid "Next Right Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow_actions.cpp:193
+#: core/libs/widgets/mainview/dxmlguiwindow_actions.cpp:198
 #, kde-format
 msgid "Show Statusbar"
 msgstr "Паказваць панэль стану"
@@ -57642,12 +57648,18 @@ msgstr ""
 msgid "Edit..."
 msgstr "Рэдагаванне..."
 
-#: core/utilities/searchwindow/searchview.cpp:504
+#: core/utilities/searchwindow/searchview.cpp:521
 #, kde-format
 msgid "Add Search Group"
 msgstr "Дадаць групу пошуку"
 
-#: core/utilities/searchwindow/searchview.cpp:533
+#: core/utilities/searchwindow/searchview.cpp:537
+#| msgctxt "@action:inmenu"
+#| msgid "Close All Groups"
+msgid "Clear All Groups"
+msgstr ""
+
+#: core/utilities/searchwindow/searchview.cpp:559
 #, kde-format
 msgid "Try"
 msgstr "Паспрабаваць"
@@ -63845,11 +63857,6 @@ msgstr "Апытанка"
 #~| msgid "Saturation:"
 #~ msgid "Wait duration:"
 #~ msgstr "Насычанасць:"
-
-#, fuzzy
-#~| msgid "Profile Error"
-#~ msgid "Play the tour"
-#~ msgstr "Памылка профiлю"
 
 #, fuzzy
 #~| msgid "Create \"%1\""
