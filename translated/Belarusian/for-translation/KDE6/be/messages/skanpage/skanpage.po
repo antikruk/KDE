@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-08 00:47+0000\n"
-"PO-Revision-Date: 2026-04-01 18:35\n"
+"PO-Revision-Date: 2026-04-03 17:33\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -79,19 +79,19 @@ msgid "Processing page %1 to save the document."
 msgstr "Апрацоўванне старонкі %1 для захавання дакумента."
 
 #: DocumentSaver.cpp:99 DocumentSaver.cpp:234
-#| msgid "Document saved as PDF."
+#, kde-format
 msgctxt "@info: user message to confirm the save process and the filename"
 msgid "Document saved as '%1'."
 msgstr "Дакумент захаваны як '%1'."
 
 #: DocumentSaver.cpp:136
-#| msgid "Document saved with OCR as PDF."
+#, kde-format
 msgctxt "@info: user message to confirm the OCR and save process and the filename"
 msgid "Document saved with OCR as '%1'."
 msgstr "Дакумент захаваны з дапамогай OCR як as '%1'."
 
 #: DocumentSaver.cpp:245
-#| msgid "Failed to save document as image."
+#, kde-format
 msgctxt "@info: user message to inform that the save process has failed"
 msgid "Failed to save document as '%1'."
 msgstr "Не ўдалося захаваць дакумент як '%1'."
@@ -102,10 +102,7 @@ msgid "Failed to save image."
 msgstr "Не ўдалося захаваць выяву."
 
 #: FormatModel.cpp:51
-#| msgctxt ""
-#| "format filter for a file dialog, all formats supported by the application "
-#| "will be displayed"
-#| msgid "All Supported Files"
+#, kde-format
 msgctxt "format filter for a file dialog, all formats supported by the application will be displayed"
 msgid "All supported files"
 msgstr "Усе файлы, якія падтрымліваюцца"
@@ -131,7 +128,7 @@ msgid "Multi-page scanning application by KDE."
 msgstr "Праграма для сканавання шматстаронкавых дакументаў ад KDE."
 
 #: main.cpp:67
-#| msgid "© 2015-2022 Kåre Särs, Alexander Stippich"
+#, kde-format
 msgid "© 2015–2022 Kåre Särs, Alexander Stippich"
 msgstr "© 2015–2022 Kåre Särs, Alexander Stippich"
 
@@ -141,7 +138,7 @@ msgid "developer"
 msgstr "распрацоўнік"
 
 #: main.cpp:81
-#| msgid "Sane scanner device name. Use 'test' for test device."
+#, kde-format
 msgid "Sane scanner device name. Use “test” for test device."
 msgstr "Назва сканера Sane. Выкарыстоўвайце \"test\" для тэставання прылады."
 
@@ -231,40 +228,38 @@ msgid "No devices found."
 msgstr "Прылады не знойдзеныя."
 
 #: qml/DeviceSelection.qml:96
-#| msgid "Open selected device"
+#, kde-format
 msgid "Open Selected Device"
 msgstr "Адкрыць абраную прыладу"
 
 #: qml/DevicesLoading.qml:29
-#| msgctxt "@info"
-#| msgid "Searching for available devices"
+#, kde-kuit-format
 msgctxt "@info"
 msgid "Searching for available devices…"
 msgstr "Пошук даступных прылад…"
 
 #: qml/DocumentList.qml:74
-#| msgid "Select previous page"
+#, kde-format
 msgid "Select Previous Page"
 msgstr "Абраць папярэднюю старонку"
 
 #: qml/DocumentList.qml:80
-#| msgid "Select next page"
+#, kde-format
 msgid "Select Next Page"
 msgstr "Абраць наступную старонку"
 
 #: qml/DocumentList.qml:86
-#| msgid "Move selected page up"
+#, kde-format
 msgid "Move Selected Page Up"
 msgstr "Перамясціць абраную старонку вышэй"
 
 #: qml/DocumentList.qml:95
-#| msgid "Move selected page down"
+#, kde-format
 msgid "Move Selected Page Down"
 msgstr "Перамясціць абраную старонку ніжэй"
 
 #: qml/DocumentList.qml:206
-#| msgctxt "@info"
-#| msgid "Processing page..."
+#, kde-kuit-format
 msgctxt "@info"
 msgid "Processing page…"
 msgstr "Апрацоўванне старонкі…"
@@ -306,7 +301,7 @@ msgid "Save Page"
 msgstr "Захаваць старонку"
 
 #: qml/DocumentList.qml:274 qml/DocumentPage.qml:175
-#| msgid "Save Page"
+#, kde-format
 msgid "Save Page As"
 msgstr "Захаваць старонку як"
 
@@ -422,10 +417,7 @@ msgid "Enable"
 msgstr "Уключыць"
 
 #: qml/ExportDialog.qml:81
-#| msgctxt "@info:usagetip"
-#| msgid ""
-#| "If the required languages are not listed, install Tesseract's language "
-#| "file with the system's package manager."
+#, kde-format
 msgctxt "@info:usagetip"
 msgid "If the required languages are not listed, install Tesseract’s language file with the system’s package manager."
 msgstr "Калі неабходнай мовы няма ў спісе, усталюйце ў сістэмным кіраўніку пакетаў моўны файл Tesseract."
@@ -460,8 +452,7 @@ msgid "Next scan starts in<nl/>%1 s"
 msgstr "Наступнае сканаванне пачнецца праз<nl/>%1 с"
 
 #: qml/InProgressPage.qml:44
-#| msgctxt "@info"
-#| msgid "Scan in progress."
+#, kde-format
 msgctxt "@info"
 msgid "Scan in progress…"
 msgstr "Выконваецца сканаванне…"
@@ -483,7 +474,7 @@ msgid "Confirm Discard"
 msgstr "Пацвярджэнне адкідання"
 
 #: qml/MainWindow.qml:88
-#| msgid "Discard All"
+#, kde-format
 msgid "Discard all documents?"
 msgstr "Адкінуць усе дакументы?"
 
@@ -493,7 +484,7 @@ msgid "Save All"
 msgstr "Захаваць усё"
 
 #: qml/MainWindow.qml:106
-#| msgid "Save All"
+#, kde-format
 msgid "Save All As"
 msgstr "Захаваць усё як"
 
@@ -740,7 +731,7 @@ msgid "Title template:"
 msgstr "Шаблон:"
 
 #: qml/SettingsWindow.qml:101
-#| msgid "Preview"
+#, kde-format
 msgid "Preview:"
 msgstr "Мініяцюра:"
 
