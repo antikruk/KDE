@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
-"PO-Revision-Date: 2026-04-01 12:22\n"
+"PO-Revision-Date: 2026-04-06 00:11\n"
 "Last-Translator: Antikruk <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -35,7 +35,7 @@ msgstr "Пазначце зыходную мову (прадвызначана �
 #| "system language is used)."
 msgctxt "Cli|"
 msgid "Specify the translation language(s), split by '+' (by default, the system language is used)."
-msgstr ""
+msgstr "Пазначце мову(ы) перакладу, падзяліўшы іх знакам \"+\" (прадвызначана выкарыстоўваецца сістэмная мова)."
 
 #: src/cli.cpp:47
 msgctxt "Cli|"
@@ -48,7 +48,7 @@ msgstr "Пазначце рухавік перакладчыка (google, yandex
 #| "Specify Mozhi instance URL. Random instance URL will be used by default."
 msgctxt "Cli|"
 msgid "Specify Mozhi instance URL. Instance URL from the app settings will be used by default."
-msgstr "Пазначце URL-адрас асобніка Mozhi. Прадвызначана будзе выкарыстоўвацца URL-адрас асобніка з налад праграмы."
+msgstr "Пазначце URL-адрас асобніка Mozhi. Прадвызначана будзе выкарыстоўвацца URL-адрас з наладак праграмы."
 
 #: src/cli.cpp:55
 #| msgctxt "Cli|"
@@ -56,7 +56,7 @@ msgstr "Пазначце URL-адрас асобніка Mozhi. Прадвызн
 #| "Specify Mozhi instance URL. Random instance URL will be used by default."
 msgctxt "Cli|"
 msgid "Specify translation provider ('copy' or 'mozhi'). Provider from app settings will be used by default."
-msgstr ""
+msgstr "Пазначце пастаўшчыка перакладу ('copy' або 'mozhi'). Пастаўшчык з налад праграмы будзе выкарыстоўвацца прадвызначана."
 
 #: src/cli.cpp:58
 #| msgctxt "Cli|"
@@ -64,7 +64,7 @@ msgstr ""
 #| "Specify Mozhi instance URL. Random instance URL will be used by default."
 msgctxt "Cli|"
 msgid "Specify TTS provider ('none', 'mozhi', 'qt', or 'piper'). Provider from app settings will be used by default."
-msgstr ""
+msgstr "Пазначце пастаўшчыка сінтэзу маўлення ('none', 'mozhi', 'qt' або 'piper'). Пастаўшчык з налад праграмы будзе выкарыстоўвацца прадвызначана."
 
 #: src/cli.cpp:60
 msgctxt "Cli|"
@@ -107,7 +107,7 @@ msgstr "Выводзіць выходныя даныя як JSON."
 #| msgid "A translator that allows to translate and speak text using Mozhi"
 msgctxt "Cli|"
 msgid "Application that allows to translate and speak text using various providers"
-msgstr ""
+msgstr "Праграма, якая можа перакладаць і вымаўляць тэкст з дапамогай розных пастаўшчыкоў"
 
 #: src/cli.cpp:71
 msgctxt "Cli|"
@@ -125,7 +125,7 @@ msgstr "Памылка: для --%1 неабходна пазначыць пар
 #| msgid "Unknown language code: %1"
 msgctxt "Cli|"
 msgid "Error: Unknown source language code '%1'"
-msgstr "Памылка: невядомы код зыходнай мовы \"%1\""
+msgstr "Памылка: невядомы код зыходнай мовы '%1'"
 
 #: src/cli.cpp:128
 #| msgctxt "AppSettings|"
@@ -144,7 +144,7 @@ msgstr "Памылка: няма тэксту для перакладу"
 #| msgid "Unknown language code: %1"
 msgctxt "Cli|"
 msgid "Error: Unknown translation provider '%1'"
-msgstr ""
+msgstr "Памылка: невядомы пастаўшчык перакладу '%1'"
 
 #: src/cli.cpp:175
 msgctxt "Cli|"
@@ -156,7 +156,7 @@ msgstr "Выяўленне самага хуткага асобніка"
 #| msgid "Language detection is not supported for %1"
 msgctxt "Cli|"
 msgid "Error: Lingva engine is not supported"
-msgstr ""
+msgstr "Памылка: рухавік Lingva не падтрымліваецца"
 
 #: src/cli.cpp:223
 msgctxt "Cli|"
@@ -168,7 +168,7 @@ msgstr "Памылка: невядомы рухавік"
 #| msgid "Unknown language code: %1"
 msgctxt "Cli|"
 msgid "Error: Unknown TTS provider '%1'"
-msgstr ""
+msgstr "Памылка: Невядомы пастаўшчык TTS: %1"
 
 #: src/cli.cpp:335 src/cli.cpp:384
 #, qt-format
@@ -181,12 +181,12 @@ msgstr "Памылка: %1"
 #| msgid "Translation backend:"
 msgctxt "Cli|"
 msgid "Translation error occurred"
-msgstr ""
+msgstr "Адбылася памылка перакладу"
 
 #: src/cli.cpp:443
 msgctxt "Cli|"
 msgid "Error: TTS failed"
-msgstr ""
+msgstr "Памылка TTS"
 
 #: src/cli.cpp:600
 #, qt-format
@@ -227,13 +227,13 @@ msgstr "Пінгаванне \"%1\" займае больш часу, чым %2 
 #, qt-format
 msgctxt "InstancePinger|"
 msgid "Ping to '%1' successful, response time: %2 ms"
-msgstr ""
+msgstr "Пінгаванне '%1' паспяхова выканана, час адказу: %2 мс"
 
 #: src/instancepinger.cpp:111
 #, qt-format
 msgctxt "InstancePinger|"
 msgid "Ping to '%1' failed, error: %2"
-msgstr ""
+msgstr "Не ўдалося выканаць пінгаванне '%1', памылка: %2"
 
 #: src/instancepingerdialog.cpp:23
 #, qt-format
@@ -299,17 +299,17 @@ msgstr "Не ўдалося зарэгістраваць аб'ект D-Bus дл�
 #: src/mainwindow.cpp:343
 msgctxt "QApplication|"
 msgid "OCR"
-msgstr ""
+msgstr "OCR"
 
 #: src/mainwindow.cpp:344
 msgctxt "QApplication|"
 msgid "OCR image negated"
-msgstr ""
+msgstr "Негатыў выявы OCR"
 
 #: src/mainwindow.cpp:344
 msgctxt "QApplication|"
 msgid "OCR image is normal"
-msgstr ""
+msgstr "Звычайная выява OCR"
 
 #: src/mainwindow.cpp:498 src/mainwindow.cpp:518 src/mainwindow.cpp:566
 #: src/mainwindow.cpp:595
@@ -365,7 +365,7 @@ msgstr "Немагчыма ініцыялізаваць Tesseract з %1"
 #: src/mainwindow.cpp:979
 msgctxt "MainWindow|"
 msgid "TTS Error"
-msgstr ""
+msgstr "Памылка TTS"
 
 #: src/mainwindow.cpp:979
 #, qt-format
@@ -373,7 +373,9 @@ msgctxt "MainWindow|"
 msgid "Text-to-Speech error:\n\n"
 "%1\n\n"
 "Please check your TTS settings or try a different voice/locale."
-msgstr ""
+msgstr "Памылка сінтэзу мовы:\n\n"
+"%1\n\n"
+"Праверце вашы налады TTS або паспрабуйце іншы голас/лакаль."
 
 #: src/mainwindow.ui:14
 #| msgctxt "MainWindow|"
@@ -426,7 +428,7 @@ msgstr "Аўтаматычны пераклад"
 #: src/mainwindow.ui:177
 msgctxt "MainWindow|"
 msgid "Clear"
-msgstr "Ясна"
+msgstr "Ачысціць"
 
 #: src/mainwindow.ui:204
 msgctxt "MainWindow|"
@@ -479,7 +481,7 @@ msgstr "Немагчыма стварыць канал: %1."
 #: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:84
 msgctxt "WaylandPlasmaScreenGrabber|"
 msgid "Unable to detect active screen for screenshot"
-msgstr ""
+msgstr "Немагчыма выявіць актыўны экран або здымак экрана"
 
 #: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:164
 #, qt-format
@@ -503,27 +505,27 @@ msgstr "Не ўдалося прачытаць даныя з сокета: %1."
 #| msgid "Unable to grab screen"
 msgctxt "WaylandPlasmaScreenGrabber|"
 msgid "Unable to determine target screen"
-msgstr ""
+msgstr "Немагчыма захапіць экран"
 
 #: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:297
 msgctxt "WaylandPlasmaScreenGrabber|"
 msgid "Failed to extract screen area from workspace"
-msgstr ""
+msgstr "Не ўдалося атрымаць вобласць экрана з працоўнай прасторы"
 
 #: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:315
 msgctxt "WaylandPlasmaScreenGrabber|"
 msgid "Screenshot Permission Required"
-msgstr ""
+msgstr "Патрэбны дазвол на стварэнне здымкаў экрана"
 
 #: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:316
 msgctxt "WaylandPlasmaScreenGrabber|"
 msgid "Crow Translate needs permission to take screenshots. Please grant permission in your system settings or use the interactive screenshot mode."
-msgstr ""
+msgstr "Crow Translate патрэбны дазвол, каб рабіць здымкі экрана. Калі ласка, дайце дазвол у наладах вашай сістэмы або выкарыстоўвайце інтэрактыўны рэжым."
 
 #: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:322
 msgctxt "WaylandPlasmaScreenGrabber|"
 msgid "Screenshot permission denied. Please grant permission in system settings or try interactive mode."
-msgstr ""
+msgstr "Рабіць здымкі экрана забаронена. Калі ласка, дайце дазвол у наладах вашай сістэмы або выкарыстоўвайце інтэрактыўны рэжым."
 
 #: src/ocr/screengrabbers/waylandportalscreengrabber.cpp:57
 msgctxt "WaylandPortalScreenGrabber|"
@@ -651,12 +653,12 @@ msgstr "Клавіша \"Esc\""
 #: src/ocr/snippingarea.cpp:896
 msgctxt "SnippingArea|"
 msgid "DPI Detection Error"
-msgstr ""
+msgstr "Памылка выяўлення DPI"
 
 #: src/ocr/snippingarea.cpp:896
 msgctxt "SnippingArea|"
 msgid "Screen under cursor disappeared before we got dpi from it. Using primary screen for dpi information."
-msgstr ""
+msgstr "Экран пад курсорам знік раней, чым было атрымана значэнне dpi. Будуць выкарыстоўвацца даныя асноўнага экрана."
 
 #: src/onlinetranslator.cpp:273
 #, qt-format
@@ -667,7 +669,7 @@ msgstr "Для \"%1\" не падтрымліваецца вызначэнне �
 #: src/onlinetranslator.cpp:318
 msgctxt "OnlineTranslator|"
 msgid "Operation aborted by user"
-msgstr ""
+msgstr "Аперацыя скасаваная карыстальнікам"
 
 #: src/onlinetranslator.cpp:361
 #, qt-format
@@ -1853,12 +1855,12 @@ msgstr "<Мова сістэмы>"
 #| msgid "Auto"
 msgctxt "SettingsDialog|"
 msgid "<Auto>"
-msgstr ""
+msgstr "Аўтаматычна"
 
 #: src/settings/settingsdialog.cpp:74
 msgctxt "SettingsDialog|"
 msgid "Copy"
-msgstr "Скапіраваць"
+msgstr "Скапіяваць"
 
 #: src/settings/settingsdialog.cpp:78
 msgctxt "SettingsDialog|"
@@ -1898,21 +1900,21 @@ msgstr "Абраць шлях да моў OCR"
 #: src/settings/settingsdialog.cpp:339
 msgctxt "SettingsDialog|"
 msgid "Piper voices path:"
-msgstr ""
+msgstr "Шлях да галасоў Piper:"
 
 #: src/settings/settingsdialog.cpp:353
 #| msgctxt "SettingsDialog|"
 #| msgid "Directory with trained models"
 msgctxt "SettingsDialog|"
 msgid "Directory with voice models"
-msgstr ""
+msgstr "Каталог з галасавымі мадэлямі"
 
 #: src/settings/settingsdialog.cpp:354 src/settings/settingsdialog.cpp:373
 #| msgctxt "SettingsDialog|"
 #| msgid "Select OCR languages path"
 msgctxt "SettingsDialog|"
 msgid "Select Piper voices path"
-msgstr ""
+msgstr "Абраць шлях да галасоў Piper"
 
 #: src/settings/settingsdialog.cpp:530
 msgctxt "SettingsDialog|"
@@ -1942,12 +1944,12 @@ msgstr "Пераклад"
 #: src/settings/settingsdialog.ui:73
 msgctxt "SettingsDialog|"
 msgid "Text-To-Speech"
-msgstr ""
+msgstr "Прагаворванне тэксту"
 
 #: src/settings/settingsdialog.ui:81
 msgctxt "SettingsDialog|"
 msgid "Mozhi"
-msgstr ""
+msgstr "Mozhi"
 
 #: src/settings/settingsdialog.ui:97
 msgctxt "SettingsDialog|"
@@ -1962,7 +1964,7 @@ msgstr "Спалучэнні клавіш"
 #: src/settings/settingsdialog.ui:113
 msgctxt "SettingsDialog|"
 msgid "About"
-msgstr "Звесткі"
+msgstr "Пра праграму"
 
 #: src/settings/settingsdialog.ui:156
 msgctxt "SettingsDialog|"
@@ -2080,7 +2082,7 @@ msgstr "Шрыфт"
 #: src/settings/settingsdialog.ui:322
 msgctxt "SettingsDialog|"
 msgid "Name:"
-msgstr "Імя:"
+msgstr "Назва:"
 
 #: src/settings/settingsdialog.ui:329
 msgctxt "SettingsDialog|"
@@ -2222,7 +2224,7 @@ msgstr "<html><head/><body><p>Абраць значок</p></body></html>"
 #| msgid "Translation mode:"
 msgctxt "SettingsDialog|"
 msgid "Translation provider:"
-msgstr ""
+msgstr "Пастаўшчык перакладу:"
 
 #: src/settings/settingsdialog.ui:673
 msgctxt "SettingsDialog|"
@@ -2412,7 +2414,7 @@ msgstr "<html><head/><body><p>Калі запамінаць апошнюю аб�
 #: src/settings/settingsdialog.ui:1069
 msgctxt "SettingsDialog|"
 msgid "Never"
-msgstr "Вузел:"
+msgstr "Ніколі"
 
 #: src/settings/settingsdialog.ui:1074
 msgctxt "SettingsDialog|"
@@ -2456,12 +2458,12 @@ msgstr "Паказ лупы"
 #| "text recognition</p></body></html>"
 msgctxt "SettingsDialog|"
 msgid "<html><head/><body><p>Negate (invert) the image before OCR. Use for bright text on dark background.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Інвертаваць выяву перад распазнаваннем сімвалаў. Выкарыстоўвайце для яркага тэксту на цёмным фоне.</p></body></html>"
 
 #: src/settings/settingsdialog.ui:1120
 msgctxt "SettingsDialog|"
 msgid "Negate OCR"
-msgstr ""
+msgstr "Негатыў OCR"
 
 #: src/settings/settingsdialog.ui:1130
 msgctxt "SettingsDialog|"
@@ -2621,7 +2623,7 @@ msgstr "<html><head/><body><p>Ачысціць спалучэнне клавіш
 #: src/settings/settingsdialog.ui:1453
 msgctxt "SettingsDialog|"
 msgid "Clear"
-msgstr "Ясна"
+msgstr "Ачысціць"
 
 #: src/settings/settingsdialog.ui:1463
 msgctxt "SettingsDialog|"
@@ -2717,7 +2719,7 @@ msgstr "Перакласці тэкст у вобласці экрана з за
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:56
 msgctxt "ShortcutsModel|"
 msgid "Toggle color inversion for OCR"
-msgstr ""
+msgstr "Пераключыць інверсію колераў для OCR"
 
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:59
 msgctxt "ShortcutsModel|"
@@ -2784,12 +2786,12 @@ msgstr "Значэнне"
 #| msgid "Translation mode:"
 msgctxt "QObject|"
 msgid "Translation Provider Error"
-msgstr ""
+msgstr "Памылка"
 
 #: src/translator/atranslationprovider.cpp:113
 msgctxt "QObject|"
 msgid "The selected translation provider crashed during initialization and has been reset to 'Copy' to prevent further issues. You can try selecting a different provider in Settings → Translation."
-msgstr ""
+msgstr "Абраны пастаўшчык перакладаў збіўся падчас ініцыялізацыі і быў скінуты да \"Скапіяваць\", каб прадухіліць далейшыя праблемы. Можна паспрабаваць абраць іншага пастаўшчыка ў Наладах → Пераклад."
 
 #: src/translator/mozhitranslationprovider.cpp:386
 #| msgctxt "Cli|"
@@ -2828,89 +2830,89 @@ msgstr "Вынік перакладу"
 #: src/tts/attsprovider.cpp:69
 msgctxt "QObject|"
 msgid "TTS Provider Error"
-msgstr ""
+msgstr "Памылка пастаўшчыка TTS"
 
 #: src/tts/attsprovider.cpp:70
 msgctxt "QObject|"
 msgid "The selected TTS provider crashed during initialization and has been reset to 'None' to prevent further issues. You can try selecting a different provider in Settings → TTS."
-msgstr ""
+msgstr "Абраны пастаўшчык TTS збіўся падчас ініцыялізацыі і быў скінуты да \"Няма\", каб прадухіліць далейшыя праблемы. Можна паспрабаваць абраць іншага пастаўшчыка ў Наладах → TTS."
 
 #: src/tts/mozhittsprovider.cpp:48
 #| msgctxt "SpeakButtons|"
 #| msgid "Playback text is empty"
 msgctxt "MozhiTTSProvider|"
 msgid "Text is empty"
-msgstr ""
+msgstr "Тэкст пусты"
 
 #: src/tts/mozhittsprovider.cpp:81
 msgctxt "MozhiTTSProvider|"
 msgid "No audio URLs generated"
-msgstr ""
+msgstr "URL-адрасы аўдыё не створаны"
 
 #: src/tts/mozhittsprovider.cpp:263
 #, qt-format
 msgctxt "MozhiTTSProvider|"
 msgid "Mozhi instance failed: %1 (HTTP Server Error)"
-msgstr ""
+msgstr "Збой асобніка Mozhi: %1 (памылка сервера HTTP)"
 
 #: src/tts/mozhittsprovider.cpp:265 src/tts/mozhittsprovider.cpp:272
 #, qt-format
 msgctxt "MozhiTTSProvider|"
 msgid "Cannot connect to Mozhi instance: %1"
-msgstr ""
+msgstr "Немагчыма падлучыцца да асобніка Mozhi: %1"
 
 #: src/tts/mozhittsprovider.cpp:268
 #, qt-format
 msgctxt "MozhiTTSProvider|"
 msgid "Mozhi instance failed: %1 (HTTP 500 Internal Server Error)"
-msgstr ""
+msgstr "Збой асобніка Mozhi: %1 (унутраная памылка сервера HTTP 500)"
 
 #: src/tts/mozhittsprovider.cpp:270
 #, qt-format
 msgctxt "MozhiTTSProvider|"
 msgid "Mozhi instance error: %1 (HTTP 4XX Client Error)"
-msgstr ""
+msgstr "Збой асобніка Mozhi: %1 (памылка кліента HTTP 4XX)"
 
 #: src/tts/piperttsprovider.cpp:115
 #| msgctxt "Ocr|"
 #| msgid "Unable to initialize Tesseract with %1"
 msgctxt "PiperTTSProvider|"
 msgid "Failed to initialize Piper TTS"
-msgstr ""
+msgstr "Не ўдалося ініцыялізаваць Piper TTS"
 
 #: src/tts/piperttsprovider.cpp:121
 #, qt-format
 msgctxt "PiperTTSProvider|"
 msgid "ONNX Runtime exception: %1"
-msgstr ""
+msgstr "Выключэнне ONNX падчас выканання: %1"
 
 #: src/tts/piperttsprovider.cpp:124
 msgctxt "PiperTTSProvider|"
 msgid "Unknown ONNX Runtime initialization error"
-msgstr ""
+msgstr "Невядомая памылка ініцыялізацыі асяроддзя выканання ONNX"
 
 #: src/tts/piperttsprovider.cpp:205
 #| msgctxt "Ocr|"
 #| msgid "Unable to initialize Tesseract with %1"
 msgctxt "PiperTTSProvider|"
 msgid "Failed to initialize espeak-ng"
-msgstr ""
+msgstr "Не ўдалося ініцыялізаваць espeak-ng"
 
 #: src/tts/piperttsprovider.cpp:247
 #, qt-format
 msgctxt "PiperTTSProvider|"
 msgid "ONNX Runtime initialization error: %1"
-msgstr ""
+msgstr "Памылка ініцыялізацыі асяроддзя выканання ONNX: %1"
 
 #: src/tts/piperttsprovider.cpp:279
 msgctxt "PiperTTSProvider|"
 msgid "Privacy Notice - Neural TTS"
-msgstr ""
+msgstr "Апавяшчэнне прыватнасці - Neural TTS"
 
 #: src/tts/piperttsprovider.cpp:281
 msgctxt "PiperTTSProvider|"
 msgid "ONNX Runtime Telemetry Information"
-msgstr ""
+msgstr "Тэлеметрычная інфармацыя падчас выканання ONNX"
 
 #: src/tts/piperttsprovider.cpp:283
 msgctxt "PiperTTSProvider|"
@@ -2925,43 +2927,53 @@ msgid "Crow Translate uses ONNX Runtime for neural text-to-speech. The Windows b
 "• Note: Some data may be transmitted during ONNX initialization\n\n"
 "On Unix systems, telemetry is inactive by default.\n"
 "This notice is shown once per installation."
-msgstr ""
+msgstr "Crow Translate выкарыстоўвае ONNX Runtime для нейроннага сінтэзу маўлення. Двайковы файл Windows уключае тэлеметрыю Microsoft, якая збірае інфармацыю пра выкарыстанне. \n\n"
+"Збор дадных: \n"
+"• Даныя пра прыладу і выкарыстанне, справаздачы пра памылкі, інфармацыя пра прадукцыйнасць \n"
+"• Выкарыстанне Microsoft для паляпшэння якасці і функцый прадукцыі \n"
+"• Адпавядае Заяве аб прыватнасці Microsoft \n\n"
+"Дзеянні Crow Translate: \n"
+"• Аўтаматычна адключае тэлеметрыю пры запуску \n"
+"• Падчас выканання выкарыстоўвае як зменныя асяроддзя, так і выклікі API\n"
+"• Падчас ініцыялізацыі ONNX могуць перадавацца некаторыя даныя \n\n"
+"У сістэмах Unix тэлеметрыя прадвызначана неактыўная. \n"
+"Гэтае апавяшчэнне паказваецца адзін раз за ўсталяванне."
 
 #: src/tts/piperttsprovider.cpp:1000
 msgctxt "PiperTTSProvider|"
 msgid "No audio data generated"
-msgstr ""
+msgstr "Даныя аўдыё не створаны"
 
 #: src/tts/piperttsprovider.cpp:1015
 msgctxt "PiperTTSProvider|"
 msgid "Failed to create temporary audio file"
-msgstr ""
+msgstr "Не ўдалося стварыць часовы аўдыяфайл"
 
 #: src/tts/piperttsprovider.cpp:1024
 msgctxt "PiperTTSProvider|"
 msgid "Failed to write audio data"
-msgstr ""
+msgstr "Не ўдалося запісаць аўдыяданыя"
 
 #: src/tts/piperttsprovider.cpp:1362
 msgctxt "PiperTTSProvider|"
 msgid "<h3>Piper Voice Models Not Found</h3><p>No Piper TTS voice models were found in the standard locations.</p><p><b>To use Piper TTS:</b></p><ol><li>Download voice models from <a href='https://huggingface.co/rhasspy/piper-voices'>HuggingFace Piper Voices</a></li><li>Extract the models to a directory</li><li>Set the path in Settings → TTS → Piper Voices Path</li></ol><p><b>⚠️ License Warning:</b> Some models may have non-free licenses and cannot be used in commercial settings. Please check the license of each model before commercial use.</p>"
-msgstr ""
+msgstr "<h3>Галасавыя мадэлі Piper не знойдзены</h3><p>У стандартных месцах галасавыя мадэлі Piper TTS не знойдзены.</p><p><b>Каб выкарыстоўваць Piper TTS:</b></p><ol><li>Спампуйце галасавыя мадэлі з <a href='https://huggingface.co/rhasspy/piper-voices'>HuggingFace Piper Voices</a></li><li>Распакуйце мадэлі ў каталог</li><li>Пазначце шлях у Наладах → TTS → Шлях Piper Voices</li></ol><p><b>️ Папярэджанне пра ліцэнзію:</b> Некаторыя мадэлі могуць мець несвабодныя ліцэнзіі і не могуць выкарыстоўвацца ў камерцыйных мэтах. Калі ласка, праверце ліцэнзію кожнай мадэлі перад камерцыйным выкарыстаннем.</p>"
 
 #: src/tts/piperttsprovider.cpp:1374
 msgctxt "PiperTTSProvider|"
 msgid "Piper Voice Models Required"
-msgstr ""
+msgstr "Патрабуюцца галасавыя мадэлі Piper"
 
 #: src/tts/qtttsprovider.cpp:329
 #, qt-format
 msgctxt "QtTTSProvider|"
 msgid "<h3>Windows TTS Voice Not Found</h3><p>No Windows TTS voice was found for <b>%1</b>.</p><p><b>To install additional languages:</b></p><ol><li>Open <b>Settings → Time & Language → Language & region</b></li><li>Click <b>Add a language</b> and select your desired language</li><li>Click on the installed language and select <b>Language options</b></li><li>Under <b>Speech</b>, click <b>Download</b> for the speech pack</li></ol><p><b>⚠️ License Note:</b> Crow Translate currently only supports \"Basic voice models\" from Windows TTS. \"Narrator voices\" have licensing restrictions that are incompatible with this application.</p>"
-msgstr ""
+msgstr "<h3>Галасавая мадэль Windows TTS не знойдзена</h3><p>Для <b>%1</b> галасавая мадэль Windows TTS не знойдзена.</p><p><b>Каб усталяваць дадатковыя мовы:</b></p><ol><li>Адкрыйце <b>Налады → Час і мова → Мова і рэгіён</b></li><li>Націсніце <b>Дадаць мову</b> і абярыце патрэбную мову</li><li>Націсніце на ўсталяваную мову і абярыце <b>Параметры мовы</b></li><li>У раздзеле <b>Мова</b> націсніце <b>Спампаваць</b> для пакета маўлення</li></ol><p><b>⚠️ Заўвага па ліцэнзіі:</b> Crow Translate у цяперашні час падтрымлівае толькі \"базавыя галасавыя мадэлі\" з Windows TTS. \"Narrator voices\" маюць ліцэнзійныя абмежаванні, несумяшчальныя з гэтым дадаткам.</p>"
 
 #: src/tts/qtttsprovider.cpp:343
 msgctxt "QtTTSProvider|"
 msgid "Windows TTS Voice Installation"
-msgstr ""
+msgstr "Усталяванне галасавой мадэлі Windows TTS"
 
 #, fuzzy
 #~| msgctxt "SettingsDialog|"
