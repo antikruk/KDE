@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
-"PO-Revision-Date: 2026-04-06 00:11\n"
+"PO-Revision-Date: 2026-04-10 22:55\n"
 "Last-Translator: Antikruk <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -29,10 +29,6 @@ msgid "Specify the source language (by default, engine will try to determine the
 msgstr "Пазначце зыходную мову (прадвызначана рухавіць будзе спрабаваць вызначыць мову самастойна)."
 
 #: src/cli.cpp:43
-#| msgctxt "Cli|"
-#| msgid ""
-#| "Specify the translation language(s), splitted by '+' (by default, the "
-#| "system language is used)."
 msgctxt "Cli|"
 msgid "Specify the translation language(s), split by '+' (by default, the system language is used)."
 msgstr "Пазначце мову(ы) перакладу, падзяліўшы іх знакам \"+\" (прадвызначана выкарыстоўваецца сістэмная мова)."
@@ -43,25 +39,16 @@ msgid "Specify the translator engine ('google', 'yandex', 'bing', 'libretranslat
 msgstr "Пазначце рухавік перакладчыка (google, yandex, bing, libretranslate або lingva), прадвызначана выкарыстоўваецца Google."
 
 #: src/cli.cpp:51
-#| msgctxt "Cli|"
-#| msgid ""
-#| "Specify Mozhi instance URL. Random instance URL will be used by default."
 msgctxt "Cli|"
 msgid "Specify Mozhi instance URL. Instance URL from the app settings will be used by default."
 msgstr "Пазначце URL-адрас асобніка Mozhi. Прадвызначана будзе выкарыстоўвацца URL-адрас з наладак праграмы."
 
 #: src/cli.cpp:55
-#| msgctxt "Cli|"
-#| msgid ""
-#| "Specify Mozhi instance URL. Random instance URL will be used by default."
 msgctxt "Cli|"
 msgid "Specify translation provider ('copy' or 'mozhi'). Provider from app settings will be used by default."
 msgstr "Пазначце пастаўшчыка перакладу ('copy' або 'mozhi'). Пастаўшчык з налад праграмы будзе выкарыстоўвацца прадвызначана."
 
 #: src/cli.cpp:58
-#| msgctxt "Cli|"
-#| msgid ""
-#| "Specify Mozhi instance URL. Random instance URL will be used by default."
 msgctxt "Cli|"
 msgid "Specify TTS provider ('none', 'mozhi', 'qt', or 'piper'). Provider from app settings will be used by default."
 msgstr "Пазначце пастаўшчыка сінтэзу маўлення ('none', 'mozhi', 'qt' або 'piper'). Пастаўшчык з налад праграмы будзе выкарыстоўвацца прадвызначана."
@@ -103,8 +90,6 @@ msgid "Print output formatted as JSON."
 msgstr "Выводзіць выходныя даныя як JSON."
 
 #: src/cli.cpp:70
-#| msgctxt "Cli|"
-#| msgid "A translator that allows to translate and speak text using Mozhi"
 msgctxt "Cli|"
 msgid "Application that allows to translate and speak text using various providers"
 msgstr "Праграма, якая можа перакладаць і вымаўляць тэкст з дапамогай розных пастаўшчыкоў"
@@ -121,15 +106,13 @@ msgid "Error: For --%1 you must specify --%2 and/or --%3 options"
 msgstr "Памылка: для --%1 неабходна пазначыць параметры --%2 і(або) --%3"
 
 #: src/cli.cpp:115
-#| msgctxt "AppSettings|"
-#| msgid "Unknown language code: %1"
+#, qt-format
 msgctxt "Cli|"
 msgid "Error: Unknown source language code '%1'"
 msgstr "Памылка: невядомы код зыходнай мовы '%1'"
 
 #: src/cli.cpp:128
-#| msgctxt "AppSettings|"
-#| msgid "Unknown language code: %1"
+#, qt-format
 msgctxt "Cli|"
 msgid "Error: Unknown translation language code '%1'"
 msgstr "Памылка: невядомы код мовы перакладу \"%1\""
@@ -140,8 +123,7 @@ msgid "Error: There is no text for translation"
 msgstr "Памылка: няма тэксту для перакладу"
 
 #: src/cli.cpp:165
-#| msgctxt "AppSettings|"
-#| msgid "Unknown language code: %1"
+#, qt-format
 msgctxt "Cli|"
 msgid "Error: Unknown translation provider '%1'"
 msgstr "Памылка: невядомы пастаўшчык перакладу '%1'"
@@ -152,8 +134,6 @@ msgid "Detecting fastest instance"
 msgstr "Выяўленне самага хуткага асобніка"
 
 #: src/cli.cpp:214
-#| msgctxt "OnlineTranslator|"
-#| msgid "Language detection is not supported for %1"
 msgctxt "Cli|"
 msgid "Error: Lingva engine is not supported"
 msgstr "Памылка: рухавік Lingva не падтрымліваецца"
@@ -164,8 +144,7 @@ msgid "Error: Unknown engine"
 msgstr "Памылка: невядомы рухавік"
 
 #: src/cli.cpp:256
-#| msgctxt "AppSettings|"
-#| msgid "Unknown language code: %1"
+#, qt-format
 msgctxt "Cli|"
 msgid "Error: Unknown TTS provider '%1'"
 msgstr "Памылка: Невядомы пастаўшчык TTS: %1"
@@ -177,8 +156,6 @@ msgid "Error: %1"
 msgstr "Памылка: %1"
 
 #: src/cli.cpp:337 src/cli.cpp:386
-#| msgctxt "SettingsDialog|"
-#| msgid "Translation backend:"
 msgctxt "Cli|"
 msgid "Translation error occurred"
 msgstr "Адбылася памылка перакладу"
@@ -378,8 +355,6 @@ msgstr "Памылка сінтэзу мовы:\n\n"
 "Праверце вашы налады TTS або паспрабуйце іншы голас/лакаль."
 
 #: src/mainwindow.ui:14
-#| msgctxt "MainWindow|"
-#| msgid "Translate"
 msgctxt "MainWindow|"
 msgid "Crow Translate"
 msgstr "Crow Translate"
@@ -501,8 +476,6 @@ msgid "Unable to read data from socket: %1."
 msgstr "Не ўдалося прачытаць даныя з сокета: %1."
 
 #: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:275
-#| msgctxt "AbstractScreenGrabber|"
-#| msgid "Unable to grab screen"
 msgctxt "WaylandPlasmaScreenGrabber|"
 msgid "Unable to determine target screen"
 msgstr "Немагчыма захапіць экран"
@@ -1851,8 +1824,6 @@ msgid "<System language>"
 msgstr "<Мова сістэмы>"
 
 #: src/settings/settingsdialog.cpp:56 src/settings/settingsdialog.cpp:57
-#| msgctxt "SettingsDialog|"
-#| msgid "Auto"
 msgctxt "SettingsDialog|"
 msgid "<Auto>"
 msgstr "Аўтаматычна"
@@ -1903,15 +1874,11 @@ msgid "Piper voices path:"
 msgstr "Шлях да галасоў Piper:"
 
 #: src/settings/settingsdialog.cpp:353
-#| msgctxt "SettingsDialog|"
-#| msgid "Directory with trained models"
 msgctxt "SettingsDialog|"
 msgid "Directory with voice models"
 msgstr "Каталог з галасавымі мадэлямі"
 
 #: src/settings/settingsdialog.cpp:354 src/settings/settingsdialog.cpp:373
-#| msgctxt "SettingsDialog|"
-#| msgid "Select OCR languages path"
 msgctxt "SettingsDialog|"
 msgid "Select Piper voices path"
 msgstr "Абраць шлях да галасоў Piper"
@@ -2220,8 +2187,6 @@ msgid "<html><head/><body><p>Select icon</p></body></html>"
 msgstr "<html><head/><body><p>Абраць значок</p></body></html>"
 
 #: src/settings/settingsdialog.ui:650
-#| msgctxt "SettingsDialog|"
-#| msgid "Translation mode:"
 msgctxt "SettingsDialog|"
 msgid "Translation provider:"
 msgstr "Пастаўшчык перакладу:"
@@ -2452,10 +2417,6 @@ msgid "Show magnifier"
 msgstr "Паказ лупы"
 
 #: src/settings/settingsdialog.ui:1117
-#| msgctxt "SettingsDialog|"
-#| msgid ""
-#| "<html><head/><body><p>Replace all single line breaks with a space after "
-#| "text recognition</p></body></html>"
 msgctxt "SettingsDialog|"
 msgid "<html><head/><body><p>Negate (invert) the image before OCR. Use for bright text on dark background.</p></body></html>"
 msgstr "<html><head/><body><p>Інвертаваць выяву перад распазнаваннем сімвалаў. Выкарыстоўвайце для яркага тэксту на цёмным фоне.</p></body></html>"
@@ -2782,8 +2743,6 @@ msgid "Value"
 msgstr "Значэнне"
 
 #: src/translator/atranslationprovider.cpp:112
-#| msgctxt "SettingsDialog|"
-#| msgid "Translation mode:"
 msgctxt "QObject|"
 msgid "Translation Provider Error"
 msgstr "Памылка"
@@ -2794,15 +2753,11 @@ msgid "The selected translation provider crashed during initialization and has b
 msgstr "Абраны пастаўшчык перакладаў збіўся падчас ініцыялізацыі і быў скінуты да \"Скапіяваць\", каб прадухіліць далейшыя праблемы. Можна паспрабаваць абраць іншага пастаўшчыка ў Наладах → Пераклад."
 
 #: src/translator/mozhitranslationprovider.cpp:386
-#| msgctxt "Cli|"
-#| msgid "translation options:"
 msgctxt "MozhiTranslationProvider|"
 msgid "translation options:"
 msgstr "параметры перакладу:"
 
 #: src/translator/mozhitranslationprovider.cpp:400
-#| msgctxt "Cli|"
-#| msgid "examples:"
 msgctxt "MozhiTranslationProvider|"
 msgid "examples:"
 msgstr "прыклады:"
@@ -2838,8 +2793,6 @@ msgid "The selected TTS provider crashed during initialization and has been rese
 msgstr "Абраны пастаўшчык TTS збіўся падчас ініцыялізацыі і быў скінуты да \"Няма\", каб прадухіліць далейшыя праблемы. Можна паспрабаваць абраць іншага пастаўшчыка ў Наладах → TTS."
 
 #: src/tts/mozhittsprovider.cpp:48
-#| msgctxt "SpeakButtons|"
-#| msgid "Playback text is empty"
 msgctxt "MozhiTTSProvider|"
 msgid "Text is empty"
 msgstr "Тэкст пусты"
@@ -2874,8 +2827,6 @@ msgid "Mozhi instance error: %1 (HTTP 4XX Client Error)"
 msgstr "Збой асобніка Mozhi: %1 (памылка кліента HTTP 4XX)"
 
 #: src/tts/piperttsprovider.cpp:115
-#| msgctxt "Ocr|"
-#| msgid "Unable to initialize Tesseract with %1"
 msgctxt "PiperTTSProvider|"
 msgid "Failed to initialize Piper TTS"
 msgstr "Не ўдалося ініцыялізаваць Piper TTS"
@@ -2892,8 +2843,6 @@ msgid "Unknown ONNX Runtime initialization error"
 msgstr "Невядомая памылка ініцыялізацыі асяроддзя выканання ONNX"
 
 #: src/tts/piperttsprovider.cpp:205
-#| msgctxt "Ocr|"
-#| msgid "Unable to initialize Tesseract with %1"
 msgctxt "PiperTTSProvider|"
 msgid "Failed to initialize espeak-ng"
 msgstr "Не ўдалося ініцыялізаваць espeak-ng"
