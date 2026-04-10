@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-02 00:46+0000\n"
-"PO-Revision-Date: 2026-04-03 17:31\n"
+"POT-Creation-Date: 2026-04-09 00:47+0000\n"
+"PO-Revision-Date: 2026-04-10 23:02\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -92,19 +92,19 @@ msgctxt "%1 is the filesystem path to a settings module"
 msgid "Unknown module %1 requested"
 msgstr "Запытаны невядомы модуль %1"
 
-#: src/public/controller.cpp:45 src/public/utils.cpp:45
+#: src/public/controller.cpp:45 src/public/utils.cpp:46
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
 msgstr "Не ўдалося знайсці каманду <command>%1</command>."
 
-#: src/public/controller.cpp:78 src/public/utils.cpp:78
+#: src/public/controller.cpp:78 src/public/utils.cpp:79
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
 msgstr "Няма паведамлення пра памылку"
 
-#: src/public/controller.cpp:82 src/public/utils.cpp:82
+#: src/public/controller.cpp:82 src/public/utils.cpp:83
 #, kde-kuit-format
 msgctxt "@info:progress %1 is the command being run, and %2 is the human-readable error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
@@ -120,6 +120,12 @@ msgstr "Запусціць %1 зараз"
 #, kde-format
 msgid "This settings module could not be loaded"
 msgstr "Не ўдалося загрузіць гэты модуль налад"
+
+#: src/public/utils.cpp:103
+#, kde-format
+msgctxt "@info:placeholder Refers to an unassigned keyboard shortcut"
+msgid "Unassigned"
+msgstr "Не прызначаны"
 
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
@@ -653,7 +659,7 @@ msgid "Activities can be used to separate high-level projects or workflows so yo
 msgstr "Пакоі можна выкарыстоўваць для дзялення складаных праектаў або працоўных працэсаў, каб вы маглі сканцэнтравацца на кожным элеменце асобна. Вы можаце мець пакой \"Дом\", \"Школа\", \"Праца\" і гэтак далей. Кожны пакой мае доступ да ўсіх вашых файлаў, але мае ўласны набор адкрытых праграм і акон, нядаўніх дакументаў, улюбёных праграм і віджэтаў працоўнага стала."
 
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:28
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:28
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:29
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings…"
@@ -667,7 +673,7 @@ msgstr "Налады сістэмы…"
 #| "then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard "
 #| "shortcut."
 msgctxt "@info:usagetip"
-msgid "To get started, launch <interface>System Settings</interface> and search for “Activities”. On that page, you can create more Activities. You can then switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
+msgid "To get started, launch <interface>System Settings</interface> and search for “Activities”. On that page, you can create more Activities. You can then switch between them using the <shortcut>%1</shortcut> keyboard shortcut."
 msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
@@ -724,42 +730,53 @@ msgid "KRunner"
 msgstr "KRunner"
 
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:23
-#, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KRunner is Plasma’s exceptionally powerful and versatile search system. "
+#| "It powers the search functionality in the Application Launcher menu and "
+#| "the Overview screen, and it can be accessed as a standalone search bar "
+#| "using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In "
+#| "addition to finding your files and folders, KRunner can launch apps, "
+#| "search the web, convert between currencies, calculate math problems, and "
+#| "a lot more."
 msgctxt "@info:usagetip"
-msgid "KRunner is Plasma’s exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more."
-msgstr "KRunner - гэта магутная і ўніверсальная сістэма пошуку Plasma. З дапамогай KRunner выконваецца пошук у меню запуску праграм і на экране агляду. Праграму можна адкрыць як асобную панэль пошуку з дапамогай спалучэння клавіш <shortcut>Alt+Прагал</shortcut>.<nl/><nl/>Апроч пошуку вашых файлаў і каталогаў KRunner можа запускаць праграмы, шукаць у інтэрнэце, выконваць канверсію валют, рашаць матэматычныя задачы і многае іншае."
+msgid "KRunner is Plasma’s exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>%1</shortcut> keyboard shortcut.<nl/><nl/>In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more."
+msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:57
-#, kde-kuit-format
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:58
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</"
+#| "shortcut> keyboard shortcut and click on the question mark icon."
 msgctxt "@info:usagetip"
-msgid "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click on the question mark icon."
-msgstr "Каб даведацца больш, адкрыйце радок пошуку KRunner з дапамогай спалучэння клавіш <shortcut>Alt+Space</shortcut> і пстрыкніце па значку пытальніка."
+msgid "To learn more, open the KRunner search bar using the <shortcut>%1</shortcut> keyboard shortcut and click on the question mark icon."
+msgstr ""
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:69
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
 msgctxt "@info:usagetip An example KRunner query, ensure keywords are localized as they are in the actual runner plugins. If needed, change 'Shanghai' to a city that on the other side of the world from likely speakers of the language."
 msgid "time Shanghai"
 msgstr "шанхайскі час"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
 #, kde-format
 msgctxt "@info:usagetip An example KRunner query, ensure keywords are localized as they are in the actual runner plugins."
 msgid "27 / 3"
 msgstr "27 / 3"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:75
 #, kde-format
 msgctxt "@info:usagetip An example KRunner query, ensure keywords are localized as they are in the actual runner plugins. If needed, change the currency conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
 msgstr "200 EUR ва USD"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:75
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
 #, kde-format
 msgctxt "@info:usagetip An example KRunner query, ensure keywords are localized as they are in the actual runner plugins. If needed, change the conversion to a likely one for speakers of the language."
 msgid "25 miles in km"
 msgstr "25 міляў у км"
 
-#: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
+#: src/qml/pages/powerfulwhenneeded/KRunner.qml:79
 #, kde-format
 msgctxt "@info:usagetip An addendum to example KRunner queries, intentionally using '...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
@@ -871,7 +888,7 @@ msgstr ""
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard shortcut, or by moving your mouse into the top-left corner of the screen. You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows Virtual Desktops in a grid."
+msgid "You can access Overview using the <shortcut>%1</shortcut> keyboard shortcut, or by moving your mouse into the top-left corner of the screen. You can also press <shortcut>%2</shortcut> for Grid View, which shows Virtual Desktops in a grid."
 msgstr ""
 
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
