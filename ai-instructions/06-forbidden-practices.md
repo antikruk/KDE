@@ -79,23 +79,23 @@ msgstr "Не ўдалося наладзіць прынтар: %1"
 
 ---
 
-## 5. Removing or Adding kde-format / kde-kuit-format Markers
+## 5. Removing or Adding Format Markers
 
-**NEVER** remove `#, kde-format` or `#, kde-kuit-format` from entries that have them. **NEVER** add them to entries that do not.
+**NEVER** remove `#, kde-format`, `#, kde-kuit-format`, `#, qt-format`, or `#, c-format` from entries that have them. **NEVER** add them to entries that do not.
 
 ```po
 # ❌ FORBIDDEN — marker removed
 #: src/foo.cpp:10
-msgctxt "@label"
-msgid "Queue: %1"
-msgstr "Чарга: %1"
+msgctxt "MozhiTTSProvider|"
+msgid "Cannot connect to Mozhi instance: %1"
+msgstr "Не ўдалося падключыцца да асобніка Mozhi: %1"
 
 # ✅ CORRECT — marker preserved
 #: src/foo.cpp:10
-#, kde-format
-msgctxt "@label"
-msgid "Queue: %1"
-msgstr "Чарга: %1"
+#, qt-format
+msgctxt "MozhiTTSProvider|"
+msgid "Cannot connect to Mozhi instance: %1"
+msgstr "Не ўдалося падключыцца да асобніка Mozhi: %1"
 ```
 
 ---

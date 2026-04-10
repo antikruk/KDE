@@ -20,11 +20,49 @@ Read the entire `.po` file and build a list of entries that require action:
 
 | Entry type | Condition | Required action |
 |------------|-----------|-----------------|
-| Empty | `msgstr ""` (single string) or all `msgstr[n]` empty | Translate |
-| Empty multiline | `msgstr ""\n""` with no content after | Translate |
+| Empty (single-line) | `msgstr ""` followed by a blank line or next entry | Translate |
+| Empty (multiline) | `msgstr ""\n` with no non-empty continuation lines | Translate |
+| Empty (plural) | All `msgstr[n] ""` entries are empty | Translate all forms |
 | Fuzzy | Has `#, fuzzy` flag | Fix translation + remove fuzzy markers |
 | Already translated | `msgstr` is non-empty and not fuzzy | Skip — do not modify |
 | Obsolete | Lines starting with `#~` | Skip — do not modify |
+
+### Detecting Empty msgstr — All Patterns
+
+An entry is empty and requires translation if `msgstr` matches **any** of these patterns:
+
+```po
+# Pattern 1 — simple empty
+msgstr ""
+
+# Pattern 2 — multiline opening with no content
+msgstr ""
+"continuation line here"   ← only if ALL continuation lines are also ""
+```
+
+An entry is **not** empty if any continuation line contains actual text:
+```po
+msgstr ""
+"Гэта ўжо перакладзены радок."   ← NOT empty, skip
+```
+
+### Qt-Style msgctxt With Pipe Separator
+
+Some entries use a Qt-specific `msgctxt` format: `"ClassName|context"` or `"ClassName|"` (empty context). This is valid and must **not** be skipped.
+
+```po
+# ✅ Valid — translate normally; context is empty, class is QObject
+msgctxt "QObject|"
+msgid "TTS Provider Error"
+msgstr ""
+
+# ✅ Valid — translate normally; context is "hint"
+msgctxt "MyDialog|hint"
+msgid "Enter your name"
+msgstr ""
+```
+
+**Rule:** ignore the part before and including `|` when using `msgctxt` for TM lookup. Use only the part after `|` as the semantic context (may be empty).
 
 ---
 

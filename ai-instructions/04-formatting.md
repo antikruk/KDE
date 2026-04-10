@@ -82,14 +82,41 @@ Placeholders are positional arguments. They must appear in `msgstr` exactly as i
 
 ---
 
-## KDE Format Markers
+## Format Markers
 
-| Marker | Meaning |
-|--------|---------|
-| `#, kde-format` | Entry uses `%1`-style placeholders |
-| `#, kde-kuit-format` | Entry uses KDE UI Text format with XML-like tags |
+| Marker | Origin | Meaning |
+|--------|--------|---------|
+| `#, kde-format` | KDE | Entry uses `%1`-style positional placeholders |
+| `#, kde-kuit-format` | KDE | Entry uses KDE UI Text format with XML-like tags |
+| `#, qt-format` | Qt | Entry uses `%1`-style positional placeholders (same syntax as kde-format) |
+| `#, c-format` | gettext | Entry uses `%s`, `%d`, `%f`-style C printf placeholders |
 
-Both markers must be **preserved** on the same comment line. Do not add or remove these markers.
+**All format markers must be preserved** on the same comment line. Do not add or remove them.
+
+### qt-format vs kde-format
+
+`#, qt-format` and `#, kde-format` use identical placeholder syntax (`%1`, `%2`, …). Treat them the same way: preserve all placeholders in `msgstr` unchanged.
+
+```po
+# qt-format — placeholder rules identical to kde-format
+#, qt-format
+msgctxt "MozhiTTSProvider|"
+msgid "Mozhi instance failed: %1 (HTTP Server Error)"
+msgstr "Памылка асобніка Mozhi: %1 (памылка HTTP-сервера)"
+```
+
+### c-format Placeholders
+
+When the marker is `#, c-format`, placeholders follow C `printf` conventions:
+
+| Placeholder | Type |
+|-------------|------|
+| `%s` | string |
+| `%d` | integer |
+| `%f` | float |
+| `%1$s`, `%2$d` | positional (with index) |
+
+Preserve all `%`-placeholders exactly. Do not convert between `%1` and `%s` styles.
 
 ---
 
